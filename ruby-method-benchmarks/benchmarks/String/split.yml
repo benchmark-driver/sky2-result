@@ -14,6 +14,8 @@ results:
     2a4625115a: 4375823.959
     79de8e9f6b: 4672028.785
     ae0f20c6bf: 3925725.75
+    b0614decfc: 4665713.447
+    e4885d8acc: 4809989.584
     fdc42bf88d: 4883113.995
   String#split(nil):
     0cc2ffbc1b: 4773430.933
@@ -28,6 +30,8 @@ results:
     2a4625115a: 4379422.638
     79de8e9f6b: 4057042.291
     ae0f20c6bf: 4781908.71
+    b0614decfc: 4646532.872
+    e4885d8acc: 4675379.945
     fdc42bf88d: 4906927.29
   String#split(nil, limit):
     0cc2ffbc1b: 5222056.867
@@ -42,6 +46,8 @@ results:
     2a4625115a: 5935431.577
     79de8e9f6b: 6195676.655
     ae0f20c6bf: 6449099.188
+    b0614decfc: 6251776.179
+    e4885d8acc: 6343691.823
     fdc42bf88d: 5426103.417
   String#split(nil, -limit):
     0cc2ffbc1b: 4692733.31
@@ -56,6 +62,8 @@ results:
     2a4625115a: 4300357.617
     79de8e9f6b: 4182192.524
     ae0f20c6bf: 4691435.563
+    b0614decfc: 4622347.52
+    e4885d8acc: 4656129.662
     fdc42bf88d: 4786655.328
   String#split(regexp):
     0cc2ffbc1b: 1109783.381
@@ -70,6 +78,8 @@ results:
     2a4625115a: 1103449.037
     79de8e9f6b: 1118105.96
     ae0f20c6bf: 1114206.147
+    b0614decfc: 1125773.87
+    e4885d8acc: 1094882.138
     fdc42bf88d: 1112728.66
   String#split(regexp, limit):
     0cc2ffbc1b: 3417332.732
@@ -84,6 +94,8 @@ results:
     2a4625115a: 3325824.32
     79de8e9f6b: 3283001.052
     ae0f20c6bf: 3128555.345
+    b0614decfc: 3389053.058
+    e4885d8acc: 3357345.839
     fdc42bf88d: 3287031.961
   String#split(regexp, -limit):
     0cc2ffbc1b: 1096229.052
@@ -98,4 +110,6 @@ results:
     2a4625115a: 1088772.175
     79de8e9f6b: 1111006.793
     ae0f20c6bf: 1087624.672
+    b0614decfc: 1105916.501
+    e4885d8acc: 1087521.335
     fdc42bf88d: 1117801.857
