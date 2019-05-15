@@ -2,6 +2,10 @@
 metrics_unit: i/s
 results:
   trees:
+    00c33d9c23: 0.119
+    00c33d9c23 --jit: 0.178
+    0dab1fce7c: 0.119
+    0dab1fce7c --jit: 0.142
     2.0.0-p648: 0.099
     2.1.10: 0.102
     2.2.10: 0.1
@@ -32,8 +36,12 @@ results:
     b01a7a3edc --jit: 0.135
     b5a3ec7f18: 0.115
     b5a3ec7f18 --jit: 0.173
+    bd8cb9f5d2: 0.12
+    bd8cb9f5d2 --jit: 0.144
     bf4bcaf061: 0.121
     bf4bcaf061 --jit: 0.143
+    e4a0304aef: 0.12
+    e4a0304aef --jit: 0.169
     ed958ef37e: 0.122
     ed958ef37e --jit: 0.154
     f4c68640d6: 0.11
