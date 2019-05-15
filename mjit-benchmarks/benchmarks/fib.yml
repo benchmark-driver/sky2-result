@@ -2,6 +2,8 @@
 metrics_unit: i/s
 results:
   fib:
+    01efa5d912: 0.054
+    01efa5d912 --jit: 0.14
     025206d0dd: 0.054
     025206d0dd --jit: 0.138
     1cef6a0c0c: 0.051
@@ -30,6 +32,8 @@ results:
     4dc5d3c5dd --jit: 0.13
     59fa123204: 0.051
     59fa123204 --jit: 0.132
+    5aecf03ec3: 0.049
+    5aecf03ec3 --jit: 0.13
     828353334a: 0.049
     828353334a --jit: 0.117
     87cf45a512: 0.053
@@ -44,6 +48,8 @@ results:
     bf4bcaf061 --jit: 0.13
     c4d49749fb: 0.048
     c4d49749fb --jit: 0.137
+    c9715eb494: 0.051
+    c9715eb494 --jit: 0.138
     ca9733dc02: 0.049
     ca9733dc02 --jit: 0.136
     cb55024613: 0.054
@@ -58,3 +64,5 @@ results:
     e8e415b534 --jit: 0.138
     f005ccc771: 0.054
     f005ccc771 --jit: 0.132
+    f1486fea46: 0.054
+    f1486fea46 --jit: 0.13
