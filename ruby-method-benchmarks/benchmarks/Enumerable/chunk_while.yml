@@ -1,0 +1,9 @@
+---
+metrics_unit: i/s
+results:
+  Enumerable#chunk_while { |obj| true }:
+    2.5.5: 1337119.931
+    2.6.3: 1593350.566
+  Enumerable#chunk_while { |obj| false }:
+    2.5.5: 1254778.191
+    2.6.3: 1606268.858

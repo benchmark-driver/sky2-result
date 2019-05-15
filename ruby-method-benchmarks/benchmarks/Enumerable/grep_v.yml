@@ -1,0 +1,15 @@
+---
+metrics_unit: i/s
+results:
+  Enumerable#grep_v(pattern):
+    2.5.5: 197431.572
+    2.6.3: 208134.914
+  Enumerable#grep_v(range):
+    2.5.5: 118051.87
+    2.6.3: 129951.213
+  Enumerable#grep_v(pattern) { |obj| ...}:
+    2.5.5: 162240.999
+    2.6.3: 183682.21
+  Enumerable#grep_v(range) { |obj| ...}:
+    2.5.5: 110380.498
+    2.6.3: 118985.81

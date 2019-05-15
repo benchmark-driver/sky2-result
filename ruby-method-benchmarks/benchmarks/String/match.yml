@@ -1,0 +1,18 @@
+---
+metrics_unit: i/s
+results:
+  String#=~(other):
+    2.5.5: 8263121.312
+    2.6.3: 8515257.629
+  String#match(pattern):
+    2.5.5: 910197.59
+    2.6.3: 874811.379
+  String#match(pattern, pos):
+    2.5.5: 932557.57
+    2.6.3: 747977.849
+  String#match?(pattern):
+    2.5.5: 1229743.485
+    2.6.3: 1231968.918
+  String#match?(pattern, pos):
+    2.5.5: 1238700.373
+    2.6.3: 1222414.562

@@ -1,0 +1,9 @@
+---
+metrics_unit: i/s
+results:
+  Hash#fetch_values(key, ...):
+    2.5.5: 6621937.208
+    2.6.3: 8153664.474
+  Hash#fetch_values(key, ...) { |key| ...}:
+    2.5.5: 5848871.851
+    2.6.3: 6732457.404

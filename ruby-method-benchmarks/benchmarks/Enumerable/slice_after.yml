@@ -1,0 +1,18 @@
+---
+metrics_unit: i/s
+results:
+  Enumerable#slice_after(pattern):
+    2.5.5: 1557565.404
+    2.6.3: 1987415.829
+  Enumerable#slice_after(range):
+    2.5.5: 1618181.019
+    2.6.3: 1961902.308
+  Enumerable#slice_after(method):
+    2.5.5: 1488538.838
+    2.6.3: 1863489.632
+  Enumerable#slice_after { |obj| true }:
+    2.5.5: 1340177.132
+    2.6.3: 1553273.449
+  Enumerable#slice_after { |obj| false }:
+    2.5.5: 1326464.066
+    2.6.3: 1589686.258

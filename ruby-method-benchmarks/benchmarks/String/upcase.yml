@@ -1,0 +1,33 @@
+---
+metrics_unit: i/s
+results:
+  String#upcase:
+    2.5.5: 14102598.458
+    2.6.3: 18368545.63
+  String#upcase(:ascii):
+    2.5.5: 13766497.077
+    2.6.3: 17603642.107
+  String#upcase(:turkic):
+    2.5.5: 5292548.86
+    2.6.3: 6088254.666
+  String#upcase(:lithuanian):
+    2.5.5: 13933618.801
+    2.6.3: 17824212.382
+  String#upcase(:turkic, :lithuanian):
+    2.5.5: 5407569.36
+    2.6.3: 5930974.118
+  String#upcase!:
+    2.5.5: 21699593.672
+    2.6.3: 26621064.375
+  String#upcase!(:ascii):
+    2.5.5: 21203827.984
+    2.6.3: 24999361.088
+  String#upcase!(:turkic):
+    2.5.5: 6346247.224
+    2.6.3: 5855310.908
+  String#upcase!(:lithuanian):
+    2.5.5: 20752488.473
+    2.6.3: 25905213.094
+  String#upcase!(:turkic, :lithuanian):
+    2.5.5: 6314314.377
+    2.6.3: 6736289.336

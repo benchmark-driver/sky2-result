@@ -1,0 +1,9 @@
+---
+metrics_unit: i/s
+results:
+  Enumerable#uniq:
+    2.5.5: 288400.542
+    2.6.3: 263473.984
+  Enumerable#uniq { |item| ...}:
+    2.5.5: 164070.612
+    2.6.3: 150592.342

@@ -1,0 +1,9 @@
+---
+metrics_unit: i/s
+results:
+  String#prepend(other):
+    2.5.5: 10179623.449
+    2.6.3: 11772226.701
+  String#prepend(obj1, obj2,...):
+    2.5.5: 4047163.346
+    2.6.3: 4371703.826

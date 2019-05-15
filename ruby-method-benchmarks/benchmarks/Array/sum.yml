@@ -1,0 +1,15 @@
+---
+metrics_unit: i/s
+results:
+  Array#sum with Fixnum:
+    2.5.5: 48124906.879
+    2.6.3: 44966069.815
+  Array#sum with Float:
+    2.5.5: 27388193.602
+    2.6.3: 27110055.383
+  Array#sum with Rational:
+    2.5.5: 2566490.071
+    2.6.3: 2677716.971
+  Array#sum { |obj| ...}:
+    2.5.5: 6514672.994
+    2.6.3: 6362991.625

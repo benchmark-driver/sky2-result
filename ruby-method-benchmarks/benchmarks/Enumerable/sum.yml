@@ -1,0 +1,21 @@
+---
+metrics_unit: i/s
+results:
+  Enumerable#sum:
+    2.5.5: 985575.176
+    2.6.3: 832161.72
+  Enumerable#sum(init):
+    2.5.5: 1025269.738
+    2.6.3: 848222.387
+  Enumerable#sum with float:
+    2.5.5: 866881.701
+    2.6.3: 789730.917
+  Enumerable#sum { |obj| ...}:
+    2.5.5: 258431.017
+    2.6.3: 254375.88
+  Enumerable#sum(init) { |obj| ...}:
+    2.5.5: 269461.194
+    2.6.3: 207668.092
+  Enumerable#sum { |obj| ...} with float:
+    2.5.5: 195584.822
+    2.6.3: 184062.973

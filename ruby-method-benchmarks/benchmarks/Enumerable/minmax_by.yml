@@ -1,0 +1,9 @@
+---
+metrics_unit: i/s
+results:
+  Enumerable#minmax_by:
+    2.5.5: 5411689.928
+    2.6.3: 6535560.633
+  Enumerable#minmax_by { |a, b| ...}:
+    2.5.5: 62767.52
+    2.6.3: 57561.614

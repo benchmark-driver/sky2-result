@@ -1,0 +1,15 @@
+---
+metrics_unit: i/s
+results:
+  Enumerable#min_by:
+    2.5.5: 9140350.922
+    2.6.3: 10254734.41
+  Enumerable#min_by { |a, b| ...}:
+    2.5.5: 75239.416
+    2.6.3: 67550.717
+  Enumerable#min_by(n):
+    2.5.5: 6524086.238
+    2.6.3: 7792803.399
+  Enumerable#min_by(n) { |a, b| ...}:
+    2.5.5: 68326.186
+    2.6.3: 61380.054
