@@ -2,6 +2,10 @@
 metrics_unit: i/s
 results:
   nsvb:
+    0d23d02ac7: 0.144
+    0d23d02ac7 --jit: 0.139
+    17350c7e55: 0.129
+    17350c7e55 --jit: 0.127
     2.0.0-p648: 0.142
     2.1.10: 0.122
     2.2.10: 0.159
@@ -16,5 +20,9 @@ results:
     4dc5d3c5dd --jit: 0.132
     69cad44fac: 0.143
     69cad44fac --jit: 0.147
+    a3adb11fa6: 0.15
+    a3adb11fa6 --jit: 0.154
     d6efb386ba: 0.117
     d6efb386ba --jit: 0.118
+    d906dd87b0: 0.166
+    d906dd87b0 --jit: 0.16

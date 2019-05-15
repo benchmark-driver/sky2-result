@@ -2,6 +2,8 @@
 metrics_unit: i/s
 results:
   const2:
+    0fc597f29c: 3.54
+    0fc597f29c --jit: 12.096
     2.0.0-p648: 0.0
     2.1.10: 3.526
     2.2.10: 3.484
@@ -10,6 +12,10 @@ results:
     2.5.5: 3.918
     2.6.3: 3.35
     2.6.3 --jit: 10.668
+    46f5eb5b48: 3.416
+    46f5eb5b48 --jit: 3.559
+    7d02bab0b0: 3.425
+    7d02bab0b0 --jit: 3.596
     9c077bbed9: 3.429
     9c077bbed9 --jit: 11.315
     ae3a986204: 3.458
@@ -18,3 +24,5 @@ results:
     e5d10cda07 --jit: 11.898
     ecf4e8fbd7: 3.47
     ecf4e8fbd7 --jit: 3.476
+    f7035dd3ff: 3.541
+    f7035dd3ff --jit: 3.415
