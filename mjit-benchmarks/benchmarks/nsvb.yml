@@ -2,6 +2,8 @@
 metrics_unit: i/s
 results:
   nsvb:
+    '088df9c8c2': 0.128
+    '088df9c8c2 --jit': 0.12
     0d23d02ac7: 0.144
     0d23d02ac7 --jit: 0.139
     16695af0ef: 0.17
@@ -22,10 +24,14 @@ results:
     23375c8b81 --jit: 0.134
     2fb83a0af7: 0.156
     2fb83a0af7 --jit: 0.15
+    3661d0521f: 0.122
+    3661d0521f --jit: 0.113
     3fc26f6013: 0.148
     3fc26f6013 --jit: 0.131
     4dc5d3c5dd: 0.132
     4dc5d3c5dd --jit: 0.132
+    588f212c26: 0.17
+    588f212c26 --jit: 0.16
     62c07674e0: 0.13
     62c07674e0 --jit: 0.129
     65f1b81183: 0.156
@@ -38,6 +44,8 @@ results:
     a1bab3d1a3 --jit: 0.17
     a3adb11fa6: 0.15
     a3adb11fa6 --jit: 0.154
+    a8c0f27276: 0.118
+    a8c0f27276 --jit: 0.118
     ae3a986204: 0.134
     ae3a986204 --jit: 0.134
     d6efb386ba: 0.117
