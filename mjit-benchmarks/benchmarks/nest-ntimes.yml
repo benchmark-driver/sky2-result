@@ -2,6 +2,8 @@
 metrics_unit: i/s
 results:
   nest-ntimes:
+    10723dd6ce: 0.692
+    10723dd6ce --jit: 0.938
     2.0.0-p648: 0.65
     2.1.10: 0.717
     2.2.10: 0.664
@@ -10,16 +12,22 @@ results:
     2.5.5: 0.745
     2.6.3: 0.759
     2.6.3 --jit: 0.895
+    47c82df27f: 0.713
+    47c82df27f --jit: 0.941
     49255fd703: 0.681
     49255fd703 --jit: 0.846
     4cfc6cedc4: 0.733
     4cfc6cedc4 --jit: 0.772
     567cb1ae1d: 0.674
     567cb1ae1d --jit: 0.88
+    57f9a700d7: 0.716
+    57f9a700d7 --jit: 0.87
     87b1d186f9: 0.719
     87b1d186f9 --jit: 0.987
     b2e92bfd9f: 0.621
     b2e92bfd9f --jit: 0.877
+    c4d49749fb: 0.734
+    c4d49749fb --jit: 0.889
     db14ceae42: 0.661
     db14ceae42 --jit: 0.933
     ea1835caf2: 0.663
