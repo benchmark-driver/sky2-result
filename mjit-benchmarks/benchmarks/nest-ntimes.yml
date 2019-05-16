@@ -2,6 +2,8 @@
 metrics_unit: i/s
 results:
   nest-ntimes:
+    022cbb278f: 0.734
+    022cbb278f --jit: 0.937
     0d23d02ac7: 0.698
     0d23d02ac7 --jit: 0.935
     0d972252b0: 0.727
@@ -46,6 +48,8 @@ results:
     57f9a700d7 --jit: 0.87
     588f212c26: 0.73
     588f212c26 --jit: 0.888
+    5a58318a90: 0.727
+    5a58318a90 --jit: 0.945
     5c87bb3b90: 0.732
     5c87bb3b90 --jit: 0.937
     66ae3bd559: 0.726
@@ -90,6 +94,8 @@ results:
     db14ceae42 --jit: 0.933
     df2af1147f: 0.713
     df2af1147f --jit: 0.94
+    e20aa14a82: 0.788
+    e20aa14a82 --jit: 1.015
     e7b18ca6d9: 0.648
     e7b18ca6d9 --jit: 0.879
     e85d6c5c5e: 0.722
@@ -104,5 +110,7 @@ results:
     f2d7ba6a74 --jit: 0.801
     fc7e1baf51: 0.718
     fc7e1baf51 --jit: 0.951
+    fe61f14d53: 0.787
+    fe61f14d53 --jit: 1.029
     ff074304f4: 0.788
     ff074304f4 --jit: 0.991
