@@ -1,0 +1,39 @@
+box: ruby
+build:
+  steps:
+    # Clone benchmark-driver.github.io and prepare its push access
+    - add-ssh-key:
+        keyname: BENCHMARK_DRIVER_GITHUB_IO
+        host: github.com
+    - add-to-known_hosts:
+        hostname: github.com
+    - script:
+        name: Clone benchmark-driver.github.io
+        code: git clone --depth=1 git@github.com:benchmark-driver/benchmark-driver.github.io ../benchmark-driver.github.io
+
+    # Build benchmark-driver.github.io
+    - script:
+        name: Clone sky2-viewer
+        code: git clone --depth=1 https://github.com/benchmark-driver/sky2-viewer ../sky2-viewer
+    - script:
+        name: Build middleman
+        code: ../sky2-viewer/bin/build.sh
+
+    # Deploy benchmark-driver.github.io
+    - script:
+      name: Deploy benchmark-driver.github.io
+      code: |
+        set -x
+        if [ "$WERCKER_GIT_BRANCH" = "master" ]; then
+          result_revision="$(git rev-parse HEAD)"
+          cd ../benchmark-driver.github.io
+          git add .
+          if ! git diff-index --quiet HEAD --; then
+            git config --global user.email "sky2-result@benchmark-driver.github.io"
+            git config --global user.name "sky2-result"
+            git commit -m "Automatic deployment by Wercker
+
+        See: https://github.com/benchmark-driver/sky2-result/commit/${result_revision}"
+            git push origin master
+          fi
+        fi
