@@ -2,6 +2,7 @@
 metrics_unit: i/s
 results:
   String#include?(substr) ASCII:
+    02df0f38df: 12513018.254
     0d23d02ac7: 11777150.5
     0d6910dfc8: 12738930.655
     2.0.0-p648: 8190512.568
@@ -29,7 +30,9 @@ results:
     dc405eb737: 11991461.548
     f2ea705d68: 12625862.558
     feecc10bfc: 12330601.579
+    ffec546b0e: 10894342.465
   String#include?(substr) UTF8:
+    02df0f38df: 9504930.362
     0d23d02ac7: 10170062.479
     0d6910dfc8: 11045935.713
     2.0.0-p648: 6178604.329
@@ -57,3 +60,4 @@ results:
     dc405eb737: 10284403.749
     f2ea705d68: 10543021.815
     feecc10bfc: 10724913.361
+    ffec546b0e: 11040718.949
