@@ -2,6 +2,8 @@
 metrics_unit: i/s
 results:
   nest-while:
+    '00679d202d': 1.06
+    '00679d202d --jit': 1.463
     0bd50e95f9: 1.097
     0bd50e95f9 --jit: 1.099
     12acc751e3: 1.086
@@ -40,6 +42,8 @@ results:
     81de7b9e62 --jit: 1.135
     8b49e5b47d: 1.051
     8b49e5b47d --jit: 1.101
+    9254e1c740: 1.024
+    9254e1c740 --jit: 1.117
     9426da83c6: 1.078
     9426da83c6 --jit: 1.102
     964bbc1686: 1.103
@@ -56,6 +60,8 @@ results:
     b8e3a4bd2c --jit: 1.091
     beaddd1d32: 1.044
     beaddd1d32 --jit: 1.112
+    c576f14039: 1.135
+    c576f14039 --jit: 1.127
     ca9733dc02: 1.08
     ca9733dc02 --jit: 1.09
     d2003a6d39: 1.068
@@ -70,6 +76,8 @@ results:
     e8e415b534 --jit: 1.112
     eb45ba6116: 1.077
     eb45ba6116 --jit: 1.083
+    f831ca6764: 1.084
+    f831ca6764 --jit: 1.47
     fb84b86be0: 1.129
     fb84b86be0 --jit: 1.455
     fe28e007f3: 0.958
