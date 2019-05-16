@@ -17,7 +17,7 @@ build:
         code: git clone --depth=1 https://github.com/benchmark-driver/sky2-viewer ../sky2-viewer
     - script:
         name: Build middleman
-        code: ../sky2-viewer/bin/build.sh
+        code: ../sky2-viewer/bin/build.sh "$(pwd)" "$(cd ../benchmark-driver.github.io; pwd)"
 
     # Deploy benchmark-driver.github.io
     - script:
