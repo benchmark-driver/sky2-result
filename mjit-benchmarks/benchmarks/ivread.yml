@@ -2,6 +2,8 @@
 metrics_unit: i/s
 results:
   ivread:
+    0cc893d01d: 78.539
+    0cc893d01d --jit: 78.773
     0eedec6867: 76.377
     0eedec6867 --jit: 79.599
     10deba066e: 75.56
@@ -56,6 +58,8 @@ results:
     569c1ef6f1 --jit: 84.661
     59a37c0283: 75.3
     59a37c0283 --jit: 83.326
+    5d490f6ef8: 84.125
+    5d490f6ef8 --jit: 259.598
     6061aa0ac1: 80.882
     6061aa0ac1 --jit: 84.519
     68987d4ae1 --jit: 79.818
@@ -124,10 +128,14 @@ results:
     c06ddfee87: 77.574
     c06ddfee87 --jit: 78.156
     cae0b73214 --jit: 80.488
+    d0ba4abf1a: 82.649
+    d0ba4abf1a --jit: 82.872
     d0e25ed277: 84.438
     d0e25ed277 --jit: 84.454
     d4303528d3: 85.67
     d4303528d3 --jit: 257.873
+    d577019746: 81.596
+    d577019746 --jit: 250.417
     dbc9f43cb3: 83.806
     dbc9f43cb3 --jit: 86.205
     df2af1147f: 81.307

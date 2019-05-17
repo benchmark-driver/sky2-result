@@ -2,6 +2,7 @@
 metrics_unit: i/s
 results:
   Object#instance_variable_get(defined_string):
+    '082bbdc92e': 13624374.895
     0c54d2e2c7: 12222703.789
     14965c5f4b: 13253192.986
     1845c9d9ba: 13691983.459
@@ -47,7 +48,9 @@ results:
     dc700cf903: 10788162.198
     e8f8cf111f: 13676510.871
     f1486fea46: 13600782.981
+    f15d043588: 11356780.337
   Object#instance_variable_get(defined_symbol):
+    '082bbdc92e': 41570505.964
     0c54d2e2c7: 38389893.294
     14965c5f4b: 35981709.447
     1845c9d9ba: 34001415.923
@@ -93,3 +96,4 @@ results:
     dc700cf903: 33747337.117
     e8f8cf111f: 38991125.131
     f1486fea46: 40625358.639
+    f15d043588: 34422714.548
