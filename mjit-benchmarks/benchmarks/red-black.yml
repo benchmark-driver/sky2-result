@@ -3,6 +3,8 @@ metrics_unit: i/s
 results:
   red-black:
     '082bbdc92e --jit': 0.054
+    0cc893d01d: 0.054
+    0cc893d01d --jit: 0.054
     0f45bd0584: 0.052
     0f45bd0584 --jit: 0.055
     0f63d96116: 0.052
@@ -58,6 +60,8 @@ results:
     4b53f84326 --jit: 0.055
     4cfc6cedc4: 0.054
     4cfc6cedc4 --jit: 0.053
+    4d6e202977: 0.052
+    4d6e202977 --jit: 0.056
     4d8ad48f7d: 0.052
     4d8ad48f7d --jit: 0.055
     4fd5a9e9bb: 0.052
@@ -157,6 +161,8 @@ results:
     bef0c0a367 --jit: 0.055
     c137f015ab: 0.056
     c137f015ab --jit: 0.053
+    c4bad9f74e: 0.054
+    c4bad9f74e --jit: 0.048
     c70ceb5992: 0.054
     c70ceb5992 --jit: 0.054
     caef2ddaaf: 0.052
@@ -167,6 +173,8 @@ results:
     d0ba4abf1a --jit: 0.055
     d1e6304a89: 0.056
     d1e6304a89 --jit: 0.059
+    d47cd75b4f: 0.052
+    d47cd75b4f --jit: 0.051
     d6efb386ba: 0.05
     d6efb386ba --jit: 0.051
     d71b78575b: 0.054
