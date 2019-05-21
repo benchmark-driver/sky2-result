@@ -88,6 +88,8 @@ results:
     fb84b86be0: 3483208.285
     35e677dd0a: 3237557.73
     bc01f7b721: 3142894.608
+    10723dd6ce: 3447506.977
+    8b12db6e19: 3026782.751
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -175,6 +177,8 @@ results:
     fb84b86be0: 3513649.284
     35e677dd0a: 3376032.798
     bc01f7b721: 3431098.342
+    10723dd6ce: 2884445.75
+    8b12db6e19: 3071289.629
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -262,6 +266,8 @@ results:
     fb84b86be0: 1901592.934
     35e677dd0a: 1870215.571
     bc01f7b721: 1903560.402
+    10723dd6ce: 1840084.929
+    8b12db6e19: 1895917.721
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -349,6 +355,8 @@ results:
     fb84b86be0: 2875569.729
     35e677dd0a: 2861035.37
     bc01f7b721: 2309316.765
+    10723dd6ce: 2766350.068
+    8b12db6e19: 1866091.39
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -436,6 +444,8 @@ results:
     fb84b86be0: 3796608.691
     35e677dd0a: 3721557.112
     bc01f7b721: 3607619.66
+    10723dd6ce: 3728313.071
+    8b12db6e19: 3721181.747
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -523,6 +533,8 @@ results:
     fb84b86be0: 3772658.386
     35e677dd0a: 3722478.6
     bc01f7b721: 3716148.948
+    10723dd6ce: 3662222.616
+    8b12db6e19: 3645467.19
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -610,6 +622,8 @@ results:
     fb84b86be0: 2025230.087
     35e677dd0a: 1904019.783
     bc01f7b721: 1926418.413
+    10723dd6ce: 1979110.496
+    8b12db6e19: 1984845.072
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -697,3 +711,5 @@ results:
     fb84b86be0: 2995535.596
     35e677dd0a: 3033204.939
     bc01f7b721: 2896467.052
+    10723dd6ce: 2897268.889
+    8b12db6e19: 2931108.695
