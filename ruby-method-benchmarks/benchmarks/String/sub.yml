@@ -102,6 +102,8 @@ results:
     d0ba4abf1a: 3339027.594
     be0d9c0d26: 3321313.53
     baad9e8a1c: 3138890.694
+    feecc10bfc: 3507290.811
+    714c2b0a93: 3364415.135
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -203,6 +205,8 @@ results:
     d0ba4abf1a: 3429978.531
     be0d9c0d26: 3339888.745
     baad9e8a1c: 3397393.175
+    feecc10bfc: 3489588.51
+    714c2b0a93: 3189445.479
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -304,6 +308,8 @@ results:
     d0ba4abf1a: 1861787.729
     be0d9c0d26: 1869520.006
     baad9e8a1c: 1492246.688
+    feecc10bfc: 1941728.218
+    714c2b0a93: 1946971.051
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -405,6 +411,8 @@ results:
     d0ba4abf1a: 2728022.024
     be0d9c0d26: 2727712.81
     baad9e8a1c: 2511163.292
+    feecc10bfc: 2858415.919
+    714c2b0a93: 2745764.455
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -506,6 +514,8 @@ results:
     d0ba4abf1a: 3632342.778
     be0d9c0d26: 3650732.675
     baad9e8a1c: 3011917.305
+    feecc10bfc: 3665780.833
+    714c2b0a93: 3590073.348
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -607,6 +617,8 @@ results:
     d0ba4abf1a: 3725833.941
     be0d9c0d26: 3619758.513
     baad9e8a1c: 3723517.671
+    feecc10bfc: 3613494.732
+    714c2b0a93: 3751109.795
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -708,6 +720,8 @@ results:
     d0ba4abf1a: 1991682.179
     be0d9c0d26: 1912550.792
     baad9e8a1c: 2019652.512
+    feecc10bfc: 2012517.853
+    714c2b0a93: 2018685.857
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -809,3 +823,5 @@ results:
     d0ba4abf1a: 2915667.231
     be0d9c0d26: 2899808.196
     baad9e8a1c: 2907923.624
+    feecc10bfc: 3005085.654
+    714c2b0a93: 3002742.418
