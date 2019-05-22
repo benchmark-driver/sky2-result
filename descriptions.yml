@@ -9,40 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  f678332d82: ruby 2.7.0dev (2019-02-13 trunk 67066) [x86_64-linux]
-  f678332d82 --jit: ruby 2.7.0dev (2019-02-13 trunk 67066) +JIT [x86_64-linux]
-  43ee21f26d: ruby 2.7.0dev (2019-02-13 trunk 67067) [x86_64-linux]
-  43ee21f26d --jit: ruby 2.7.0dev (2019-02-13 trunk 67067) +JIT [x86_64-linux]
-  63ca54e7aa: ruby 2.7.0dev (2019-02-14 trunk 67068) [x86_64-linux]
-  63ca54e7aa --jit: ruby 2.7.0dev (2019-02-14 trunk 67068) +JIT [x86_64-linux]
-  4844a44940: ruby 2.7.0dev (2019-02-14 trunk 67069) [x86_64-linux]
-  4844a44940 --jit: ruby 2.7.0dev (2019-02-14 trunk 67069) +JIT [x86_64-linux]
-  bd8cb9f5d2: ruby 2.7.0dev (2019-02-14 trunk 67070) [x86_64-linux]
-  bd8cb9f5d2 --jit: ruby 2.7.0dev (2019-02-14 trunk 67070) +JIT [x86_64-linux]
-  7b8986f2e4: ruby 2.7.0dev (2019-02-14 trunk 67071) [x86_64-linux]
-  7b8986f2e4 --jit: ruby 2.7.0dev (2019-02-14 trunk 67071) +JIT [x86_64-linux]
-  4fc656a2f3: ruby 2.7.0dev (2019-02-14 trunk 67072) [x86_64-linux]
-  4fc656a2f3 --jit: ruby 2.7.0dev (2019-02-14 trunk 67072) +JIT [x86_64-linux]
-  d1e6304a89: ruby 2.7.0dev (2019-02-14 trunk 67073) [x86_64-linux]
-  d1e6304a89 --jit: ruby 2.7.0dev (2019-02-14 trunk 67073) +JIT [x86_64-linux]
-  4ae3df42f7: ruby 2.7.0dev (2019-02-14 trunk 67074) [x86_64-linux]
-  4ae3df42f7 --jit: ruby 2.7.0dev (2019-02-14 trunk 67074) +JIT [x86_64-linux]
-  cb57336e86: ruby 2.7.0dev (2019-02-14 trunk 67075) [x86_64-linux]
-  cb57336e86 --jit: ruby 2.7.0dev (2019-02-14 trunk 67075) +JIT [x86_64-linux]
-  '7570864267': ruby 2.7.0dev (2019-02-14 trunk 67076) [x86_64-linux]
-  7570864267 --jit: ruby 2.7.0dev (2019-02-14 trunk 67076) +JIT [x86_64-linux]
-  b1daba8227: ruby 2.7.0dev (2019-02-15 trunk 67077) [x86_64-linux]
-  b1daba8227 --jit: ruby 2.7.0dev (2019-02-15 trunk 67077) +JIT [x86_64-linux]
-  387e8967a3: ruby 2.7.0dev (2019-02-15 trunk 67078) [x86_64-linux]
-  387e8967a3 --jit: ruby 2.7.0dev (2019-02-15 trunk 67078) +JIT [x86_64-linux]
-  f450652bec: ruby 2.7.0dev (2019-02-15 trunk 67079) [x86_64-linux]
-  f450652bec --jit: ruby 2.7.0dev (2019-02-15 trunk 67079) +JIT [x86_64-linux]
-  e5347b1c90: ruby 2.7.0dev (2019-02-15 trunk 67080) [x86_64-linux]
-  e5347b1c90 --jit: ruby 2.7.0dev (2019-02-15 trunk 67080) +JIT [x86_64-linux]
-  1ce2ba32fb: ruby 2.7.0dev (2019-02-17 trunk 67081) [x86_64-linux]
-  1ce2ba32fb --jit: ruby 2.7.0dev (2019-02-17 trunk 67081) +JIT [x86_64-linux]
-  124957566f: ruby 2.7.0dev (2019-02-17 trunk 67082) [x86_64-linux]
-  124957566f --jit: ruby 2.7.0dev (2019-02-17 trunk 67082) +JIT [x86_64-linux]
   3661d0521f: ruby 2.7.0dev (2019-02-17 trunk 67083) [x86_64-linux]
   3661d0521f --jit: ruby 2.7.0dev (2019-02-17 trunk 67083) +JIT [x86_64-linux]
   5c11d85411: ruby 2.7.0dev (2019-02-18 trunk 67084) [x86_64-linux]
@@ -2065,3 +2031,93 @@ commits:
   658f17b8ec --jit: ruby 2.7.0dev (2019-05-22 trunk 658f17b8ec) +JIT [x86_64-linux]
   24684a81d2: ruby 2.7.0dev (2019-05-22 trunk 24684a81d2) [x86_64-linux]
   24684a81d2 --jit: ruby 2.7.0dev (2019-05-22 trunk 24684a81d2) +JIT [x86_64-linux]
+  8fb77acac7: |-
+    ruby 2.7.0dev (2019-05-22 trunk 8fb77acac7) [x86_64-linux]
+    last_commit=Fix revision name
+  8fb77acac7 --jit: |-
+    ruby 2.7.0dev (2019-05-22 trunk 8fb77acac7) +JIT [x86_64-linux]
+    last_commit=Fix revision name
+  d819d97cf0: |-
+    ruby 2.7.0dev (2019-05-22 trunk d819d97cf0) [x86_64-linux]
+    last_commit=Default to the current branch
+  d819d97cf0 --jit: |-
+    ruby 2.7.0dev (2019-05-22 trunk d819d97cf0) +JIT [x86_64-linux]
+    last_commit=Default to the current branch
+  a205e24747: |-
+    ruby 2.7.0dev (2019-05-22 trunk a205e24747) [x86_64-linux]
+    last_commit=Make RUBY_REVISION full length
+  a205e24747 --jit: |-
+    ruby 2.7.0dev (2019-05-22 trunk a205e24747) +JIT [x86_64-linux]
+    last_commit=Make RUBY_REVISION full length
+  4d62296948: |-
+    ruby 2.7.0dev (2019-05-23 trunk 4d62296948) [x86_64-linux]
+    last_commit=* 2019-05-23
+  4d62296948 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 4d62296948) +JIT [x86_64-linux]
+    last_commit=* 2019-05-23
+  d3f1c615c5: |-
+    ruby 2.7.0dev (2019-05-23 trunk d3f1c615c5) [x86_64-linux]
+    last_commit=hash.c (rb_hash_s_create): Reject `Hash[[nil]]`
+  d3f1c615c5 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk d3f1c615c5) +JIT [x86_64-linux]
+    last_commit=hash.c (rb_hash_s_create): Reject `Hash[[nil]]`
+  277e68825a: |-
+    ruby 2.7.0dev (2019-05-23 trunk 277e68825a) [x86_64-linux]
+    last_commit=.travis.yml: Test master branch instead of trunk
+  277e68825a --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 277e68825a) +JIT [x86_64-linux]
+    last_commit=.travis.yml: Test master branch instead of trunk
+  d9b338a53f: |-
+    ruby 2.7.0dev (2019-05-23 trunk d9b338a53f) [x86_64-linux]
+    last_commit=appveyor.yml: Do not doubly run CI on trunk
+  d9b338a53f --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk d9b338a53f) +JIT [x86_64-linux]
+    last_commit=appveyor.yml: Do not doubly run CI on trunk
+  9d39eb6b40: |-
+    ruby 2.7.0dev (2019-05-23 trunk 9d39eb6b40) [x86_64-linux]
+    last_commit=range.c (inspect_range): omit beginless "nil"
+  9d39eb6b40 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 9d39eb6b40) +JIT [x86_64-linux]
+    last_commit=range.c (inspect_range): omit beginless "nil"
+  b80adde359: |-
+    ruby 2.7.0dev (2019-05-23 trunk b80adde359) [x86_64-linux]
+    last_commit=wercker.yml: Notify master branch instead of trunk
+  b80adde359 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk b80adde359) +JIT [x86_64-linux]
+    last_commit=wercker.yml: Notify master branch instead of trunk
+  bec877b46f: |-
+    ruby 2.7.0dev (2019-05-23 trunk bec877b46f) [x86_64-linux]
+    last_commit=azure-pipelines.yml: Do not run CI on trunk
+  bec877b46f --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk bec877b46f) +JIT [x86_64-linux]
+    last_commit=azure-pipelines.yml: Do not run CI on trunk
+  709756d897: |-
+    ruby 2.7.0dev (2019-05-23 trunk 709756d897) [x86_64-linux]
+    last_commit=azure-pipelines.yml: Use simpler trigger syntax
+  709756d897 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 709756d897) +JIT [x86_64-linux]
+    last_commit=azure-pipelines.yml: Use simpler trigger syntax
+  f69d28fbca: |-
+    ruby 2.7.0dev (2019-05-23 trunk f69d28fbca) [x86_64-linux]
+    last_commit=azure-pipelines.yml: Fix typo
+  f69d28fbca --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk f69d28fbca) +JIT [x86_64-linux]
+    last_commit=azure-pipelines.yml: Fix typo
+  a093c98ddc: |-
+    ruby 2.7.0dev (2019-05-23 trunk a093c98ddc) [x86_64-linux]
+    last_commit=Fallback RUBY_FULL_REVISION if not defined
+  a093c98ddc --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk a093c98ddc) +JIT [x86_64-linux]
+    last_commit=Fallback RUBY_FULL_REVISION if not defined
+  00f7e42451: |-
+    ruby 2.7.0dev (2019-05-23 trunk 00f7e42451) [x86_64-linux]
+    last_commit=spec/ruby/core/hash/constructor_spec.rb: add "ruby_version_is" guard
+  00f7e42451 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 00f7e42451) +JIT [x86_64-linux]
+    last_commit=spec/ruby/core/hash/constructor_spec.rb: add "ruby_version_is" guard
+  1ebe9a2f82: |-
+    ruby 2.7.0dev (2019-05-23 trunk 1ebe9a2f82) [x86_64-linux]
+    last_commit=Revert CI deduplication on Wercker / Azure for debugging
+  1ebe9a2f82 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 1ebe9a2f82) +JIT [x86_64-linux]
+    last_commit=Revert CI deduplication on Wercker / Azure for debugging

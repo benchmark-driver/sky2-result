@@ -105,6 +105,8 @@ results:
     b00f280d4b: 43454938.501
     4cfc6cedc4: 37488573.242
     908b530112: 45462789.914
+    b165bedcbd: 43730527.514
+    b8e3a4bd2c: 44948597.101
   Object#respond_to?(symbol, true):
     040b37f8b4: 43547929.264
     0d23d02ac7: 42462642.463
@@ -209,6 +211,8 @@ results:
     b00f280d4b: 42869680.812
     4cfc6cedc4: 42558223.509
     908b530112: 42737861.381
+    b165bedcbd: 41575096.274
+    b8e3a4bd2c: 39708928.48
   Object#respond_to?(symbol) with respond_to_missing:
     040b37f8b4: 16348357.447
     0d23d02ac7: 16035740.229
@@ -313,6 +317,8 @@ results:
     b00f280d4b: 15910014.615
     4cfc6cedc4: 15680084.551
     908b530112: 15883069.556
+    b165bedcbd: 14458361.243
+    b8e3a4bd2c: 15747755.915
   Object#respond_to?(string):
     040b37f8b4: 13859403.378
     0d23d02ac7: 13964936.508
@@ -417,6 +423,8 @@ results:
     b00f280d4b: 13603136.307
     4cfc6cedc4: 11268367.589
     908b530112: 12976667.443
+    b165bedcbd: 10327716.032
+    b8e3a4bd2c: 14369210.162
   Object#respond_to?(string, true):
     040b37f8b4: 13686930.232
     0d23d02ac7: 13605594.065
@@ -521,6 +529,8 @@ results:
     b00f280d4b: 11029862.653
     4cfc6cedc4: 13180262.822
     908b530112: 14272332.29
+    b165bedcbd: 12670284.45
+    b8e3a4bd2c: 14332614.515
   Object#respond_to?(string) with respond_to_missing:
     040b37f8b4: 6967503.374
     0d23d02ac7: 6838951.135
@@ -625,3 +635,5 @@ results:
     b00f280d4b: 5477641.788
     4cfc6cedc4: 6950610.641
     908b530112: 6653394.296
+    b165bedcbd: 7133557.407
+    b8e3a4bd2c: 7110284.925
