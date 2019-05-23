@@ -9,8 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  3661d0521f: ruby 2.7.0dev (2019-02-17 trunk 67083) [x86_64-linux]
-  3661d0521f --jit: ruby 2.7.0dev (2019-02-17 trunk 67083) +JIT [x86_64-linux]
   5c11d85411: ruby 2.7.0dev (2019-02-18 trunk 67084) [x86_64-linux]
   5c11d85411 --jit: ruby 2.7.0dev (2019-02-18 trunk 67084) +JIT [x86_64-linux]
   bef0c0a367: ruby 2.7.0dev (2019-02-18 trunk 67085) [x86_64-linux]
@@ -2121,3 +2119,9 @@ commits:
   1ebe9a2f82 --jit: |-
     ruby 2.7.0dev (2019-05-23 trunk 1ebe9a2f82) +JIT [x86_64-linux]
     last_commit=Revert CI deduplication on Wercker / Azure for debugging
+  c210c68d39: |-
+    ruby 2.7.0dev (2019-05-23 trunk c210c68d39) [x86_64-linux]
+    last_commit=Revert "Revert CI deduplication on Wercker / Azure for debugging"
+  c210c68d39 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk c210c68d39) +JIT [x86_64-linux]
+    last_commit=Revert "Revert CI deduplication on Wercker / Azure for debugging"
