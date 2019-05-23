@@ -9,24 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  cc6806c76c: ruby 2.7.0dev (2019-02-20 trunk 67102) [x86_64-linux]
-  cc6806c76c --jit: ruby 2.7.0dev (2019-02-20 trunk 67102) +JIT [x86_64-linux]
-  5f08c9e2e0: ruby 2.7.0dev (2019-02-20 trunk 67103) [x86_64-linux]
-  5f08c9e2e0 --jit: ruby 2.7.0dev (2019-02-20 trunk 67103) +JIT [x86_64-linux]
-  7c2bbd1c7d: ruby 2.7.0dev (2019-02-20 trunk 67104) [x86_64-linux]
-  7c2bbd1c7d --jit: ruby 2.7.0dev (2019-02-20 trunk 67104) +JIT [x86_64-linux]
-  7c369b7847: ruby 2.7.0dev (2019-02-20 trunk 67105) [x86_64-linux]
-  7c369b7847 --jit: ruby 2.7.0dev (2019-02-20 trunk 67105) +JIT [x86_64-linux]
-  32f3961fd6: ruby 2.7.0dev (2019-02-21 trunk 67106) [x86_64-linux]
-  32f3961fd6 --jit: ruby 2.7.0dev (2019-02-21 trunk 67106) +JIT [x86_64-linux]
-  936b61d4ac: ruby 2.7.0dev (2019-02-21 trunk 67107) [x86_64-linux]
-  936b61d4ac --jit: ruby 2.7.0dev (2019-02-21 trunk 67107) +JIT [x86_64-linux]
-  8b94ce988b: ruby 2.7.0dev (2019-02-21 trunk 67108) [x86_64-linux]
-  8b94ce988b --jit: ruby 2.7.0dev (2019-02-21 trunk 67108) +JIT [x86_64-linux]
-  92d3a72624: ruby 2.7.0dev (2019-02-21 trunk 67109) [x86_64-linux]
-  92d3a72624 --jit: ruby 2.7.0dev (2019-02-21 trunk 67109) +JIT [x86_64-linux]
-  203d946781: ruby 2.7.0dev (2019-02-21 trunk 67110) [x86_64-linux]
-  203d946781 --jit: ruby 2.7.0dev (2019-02-21 trunk 67110) +JIT [x86_64-linux]
   b8e389a0f3: ruby 2.7.0dev (2019-02-22 trunk 67111) [x86_64-linux]
   b8e389a0f3 --jit: ruby 2.7.0dev (2019-02-22 trunk 67111) +JIT [x86_64-linux]
   da7976235f: ruby 2.7.0dev (2019-02-22 trunk 67112) [x86_64-linux]
@@ -2209,3 +2191,45 @@ commits:
   0b4d51b055 --jit: |-
     ruby 2.7.0dev (2019-05-23 trunk 0b4d51b055) +JIT [x86_64-linux]
     last_commit=* expand tabs.
+  ccb1652929: |-
+    ruby 2.7.0dev (2019-05-23 trunk ccb1652929) [x86_64-linux]
+    last_commit=New Time methods in NEWS
+  ccb1652929 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk ccb1652929) +JIT [x86_64-linux]
+    last_commit=New Time methods in NEWS
+  e72769ef81: |-
+    ruby 2.7.0dev (2019-05-23 trunk e72769ef81) [x86_64-linux]
+    last_commit=Enumerable#filter_map in NEWS
+  e72769ef81 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk e72769ef81) +JIT [x86_64-linux]
+    last_commit=Enumerable#filter_map in NEWS
+  c04ef141d2: |-
+    ruby 2.7.0dev (2019-05-23 trunk c04ef141d2) [x86_64-linux]
+    last_commit=enum.c (enum_tally): better example in rdoc
+  c04ef141d2 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk c04ef141d2) +JIT [x86_64-linux]
+    last_commit=enum.c (enum_tally): better example in rdoc
+  4fe908c164: |-
+    ruby 2.7.0dev (2019-05-23 trunk 4fe908c164) [x86_64-linux]
+    last_commit=gc.c: Try pausing MJIT worker during GC.verify_compaction_references
+  4fe908c164 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 4fe908c164) +JIT [x86_64-linux]
+    last_commit=gc.c: Try pausing MJIT worker during GC.verify_compaction_references
+  187ef00a41: |-
+    ruby 2.7.0dev (2019-05-23 trunk 187ef00a41) [x86_64-linux]
+    last_commit=wercker.yml: Commit MJIT debug logs to another repository
+  187ef00a41 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 187ef00a41) +JIT [x86_64-linux]
+    last_commit=wercker.yml: Commit MJIT debug logs to another repository
+  dde8ceaf70: |-
+    ruby 2.7.0dev (2019-05-24 trunk dde8ceaf70) [x86_64-linux]
+    last_commit=* 2019-05-24
+  dde8ceaf70 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk dde8ceaf70) +JIT [x86_64-linux]
+    last_commit=* 2019-05-24
+  1ee1e8fccd: |-
+    ruby 2.7.0dev (2019-05-24 trunk 1ee1e8fccd) [x86_64-linux]
+    last_commit=Test GC.compact with MJIT again
+  1ee1e8fccd --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 1ee1e8fccd) +JIT [x86_64-linux]
+    last_commit=Test GC.compact with MJIT again
