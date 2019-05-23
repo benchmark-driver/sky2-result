@@ -9,14 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  5c11d85411: ruby 2.7.0dev (2019-02-18 trunk 67084) [x86_64-linux]
-  5c11d85411 --jit: ruby 2.7.0dev (2019-02-18 trunk 67084) +JIT [x86_64-linux]
-  bef0c0a367: ruby 2.7.0dev (2019-02-18 trunk 67085) [x86_64-linux]
-  bef0c0a367 --jit: ruby 2.7.0dev (2019-02-18 trunk 67085) +JIT [x86_64-linux]
-  d04963501b: ruby 2.7.0dev (2019-02-18 trunk 67086) [x86_64-linux]
-  d04963501b --jit: ruby 2.7.0dev (2019-02-18 trunk 67086) +JIT [x86_64-linux]
-  5f090b8d82: ruby 2.7.0dev (2019-02-18 trunk 67087) [x86_64-linux]
-  5f090b8d82 --jit: ruby 2.7.0dev (2019-02-18 trunk 67087) +JIT [x86_64-linux]
   88798f0787: ruby 2.7.0dev (2019-02-18 trunk 67088) [x86_64-linux]
   88798f0787 --jit: ruby 2.7.0dev (2019-02-18 trunk 67088) +JIT [x86_64-linux]
   d3ff564779: ruby 2.7.0dev (2019-02-18 trunk 67089) [x86_64-linux]
@@ -2137,3 +2129,15 @@ commits:
   bb29ed6e33 --jit: |-
     ruby 2.7.0dev (2019-05-23 trunk bb29ed6e33) +JIT [x86_64-linux]
     last_commit=C-v C-j means an newline insertion
+  0eff21af8d: |-
+    ruby 2.7.0dev (2019-05-23 trunk 0eff21af8d) [x86_64-linux]
+    last_commit=update Array's length correctly.
+  0eff21af8d --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 0eff21af8d) +JIT [x86_64-linux]
+    last_commit=update Array's length correctly.
+  136ae55892: |-
+    ruby 2.7.0dev (2019-05-23 trunk 136ae55892) [x86_64-linux]
+    last_commit=Do not kick finalizers on rb_gc().
+  136ae55892 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 136ae55892) +JIT [x86_64-linux]
+    last_commit=Do not kick finalizers on rb_gc().
