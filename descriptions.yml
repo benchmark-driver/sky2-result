@@ -9,34 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  88798f0787: ruby 2.7.0dev (2019-02-18 trunk 67088) [x86_64-linux]
-  88798f0787 --jit: ruby 2.7.0dev (2019-02-18 trunk 67088) +JIT [x86_64-linux]
-  d3ff564779: ruby 2.7.0dev (2019-02-18 trunk 67089) [x86_64-linux]
-  d3ff564779 --jit: ruby 2.7.0dev (2019-02-18 trunk 67089) +JIT [x86_64-linux]
-  fe0f98e747: ruby 2.7.0dev (2019-02-19 trunk 67090) [x86_64-linux]
-  fe0f98e747 --jit: ruby 2.7.0dev (2019-02-19 trunk 67090) +JIT [x86_64-linux]
-  193a06caf5: ruby 2.7.0dev (2019-02-19 trunk 67091) [x86_64-linux]
-  193a06caf5 --jit: ruby 2.7.0dev (2019-02-19 trunk 67091) +JIT [x86_64-linux]
-  5210b89fd7: ruby 2.7.0dev (2019-02-20 trunk 67092) [x86_64-linux]
-  5210b89fd7 --jit: ruby 2.7.0dev (2019-02-20 trunk 67092) +JIT [x86_64-linux]
-  10deba066e: ruby 2.7.0dev (2019-02-20 trunk 67093) [x86_64-linux]
-  10deba066e --jit: ruby 2.7.0dev (2019-02-20 trunk 67093) +JIT [x86_64-linux]
-  5e80e9144f: ruby 2.7.0dev (2019-02-20 trunk 67094) [x86_64-linux]
-  5e80e9144f --jit: ruby 2.7.0dev (2019-02-20 trunk 67094) +JIT [x86_64-linux]
-  b7f8996813: ruby 2.7.0dev (2019-02-20 trunk 67095) [x86_64-linux]
-  b7f8996813 --jit: ruby 2.7.0dev (2019-02-20 trunk 67095) +JIT [x86_64-linux]
-  d034fcb13f: ruby 2.7.0dev (2019-02-20 trunk 67096) [x86_64-linux]
-  d034fcb13f --jit: ruby 2.7.0dev (2019-02-20 trunk 67096) +JIT [x86_64-linux]
-  15a98ab428: ruby 2.7.0dev (2019-02-20 trunk 67097) [x86_64-linux]
-  15a98ab428 --jit: ruby 2.7.0dev (2019-02-20 trunk 67097) +JIT [x86_64-linux]
-  f2d3b3623f: ruby 2.7.0dev (2019-02-20 trunk 67098) [x86_64-linux]
-  f2d3b3623f --jit: ruby 2.7.0dev (2019-02-20 trunk 67098) +JIT [x86_64-linux]
-  e487e86e98: ruby 2.7.0dev (2019-02-20 trunk 67099) [x86_64-linux]
-  e487e86e98 --jit: ruby 2.7.0dev (2019-02-20 trunk 67099) +JIT [x86_64-linux]
-  8ed1709616: ruby 2.7.0dev (2019-02-20 trunk 67100) [x86_64-linux]
-  8ed1709616 --jit: ruby 2.7.0dev (2019-02-20 trunk 67100) +JIT [x86_64-linux]
-  c3e0244efe: ruby 2.7.0dev (2019-02-20 trunk 67101) [x86_64-linux]
-  c3e0244efe --jit: ruby 2.7.0dev (2019-02-20 trunk 67101) +JIT [x86_64-linux]
   cc6806c76c: ruby 2.7.0dev (2019-02-20 trunk 67102) [x86_64-linux]
   cc6806c76c --jit: ruby 2.7.0dev (2019-02-20 trunk 67102) +JIT [x86_64-linux]
   5f08c9e2e0: ruby 2.7.0dev (2019-02-20 trunk 67103) [x86_64-linux]
@@ -2189,3 +2161,39 @@ commits:
   65637dae30 --jit: |-
     ruby 2.7.0dev (2019-05-23 trunk 65637dae30) +JIT [x86_64-linux]
     last_commit=Test GC.compact on MJIT again
+  6be0ab73c3: |-
+    ruby 2.7.0dev (2019-05-23 trunk 6be0ab73c3) [x86_64-linux]
+    last_commit=gc_pin() doesn't check is_markable_object().
+  6be0ab73c3 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 6be0ab73c3) +JIT [x86_64-linux]
+    last_commit=gc_pin() doesn't check is_markable_object().
+  8fce83339b: |-
+    ruby 2.7.0dev (2019-05-23 trunk 8fce83339b) [x86_64-linux]
+    last_commit=disable _FORTIFY_SOURCE
+  8fce83339b --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 8fce83339b) +JIT [x86_64-linux]
+    last_commit=disable _FORTIFY_SOURCE
+  763989c6c5: |-
+    ruby 2.7.0dev (2019-05-23 trunk 763989c6c5) [x86_64-linux]
+    last_commit=prefix ASAN related inline functions asan_
+  763989c6c5 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 763989c6c5) +JIT [x86_64-linux]
+    last_commit=prefix ASAN related inline functions asan_
+  878a06efec: |-
+    ruby 2.7.0dev (2019-05-23 trunk 878a06efec) [x86_64-linux]
+    last_commit=add comments [ci skip]
+  878a06efec --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 878a06efec) +JIT [x86_64-linux]
+    last_commit=add comments [ci skip]
+  dc95b57a68: |-
+    ruby 2.7.0dev (2019-05-23 trunk dc95b57a68) [x86_64-linux]
+    last_commit=add verifier before compact
+  dc95b57a68 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk dc95b57a68) +JIT [x86_64-linux]
+    last_commit=add verifier before compact
+  fe3ff5afb0: |-
+    ruby 2.7.0dev (2019-05-23 trunk fe3ff5afb0) [x86_64-linux]
+    last_commit=Suppress paranoid warnings for external/3rd-party libraries
+  fe3ff5afb0 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk fe3ff5afb0) +JIT [x86_64-linux]
+    last_commit=Suppress paranoid warnings for external/3rd-party libraries
