@@ -2141,3 +2141,51 @@ commits:
   136ae55892 --jit: |-
     ruby 2.7.0dev (2019-05-23 trunk 136ae55892) +JIT [x86_64-linux]
     last_commit=Do not kick finalizers on rb_gc().
+  '02973d3ba8': |-
+    ruby 2.7.0dev (2019-05-23 trunk 02973d3ba8) [x86_64-linux]
+    last_commit=pin `maybe` pointers.
+  '02973d3ba8 --jit': |-
+    ruby 2.7.0dev (2019-05-23 trunk 02973d3ba8) +JIT [x86_64-linux]
+    last_commit=pin `maybe` pointers.
+  4814f17361: |-
+    ruby 2.7.0dev (2019-05-23 trunk 4814f17361) [x86_64-linux]
+    last_commit=skip zombies.
+  4814f17361 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 4814f17361) +JIT [x86_64-linux]
+    last_commit=skip zombies.
+  f91b1ab33d: |-
+    ruby 2.7.0dev (2019-05-23 trunk f91b1ab33d) [x86_64-linux]
+    last_commit=Skip assertion in readline test if Readline version is 4.3
+  f91b1ab33d --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk f91b1ab33d) +JIT [x86_64-linux]
+    last_commit=Skip assertion in readline test if Readline version is 4.3
+  c05eaa9325: |-
+    ruby 2.7.0dev (2019-05-23 trunk c05eaa9325) [x86_64-linux]
+    last_commit=Fix mixed encoding in heredoc
+  c05eaa9325 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk c05eaa9325) +JIT [x86_64-linux]
+    last_commit=Fix mixed encoding in heredoc
+  1ccc2eeba0: |-
+    ruby 2.7.0dev (2019-05-23 trunk 1ccc2eeba0) [x86_64-linux]
+    last_commit=Pretend to update all Unicode files
+  1ccc2eeba0 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 1ccc2eeba0) +JIT [x86_64-linux]
+    last_commit=Pretend to update all Unicode files
+  0acbdd1ed0: |-
+    ruby 2.7.0dev (2019-05-23 trunk 0acbdd1ed0) [x86_64-linux]
+    last_commit=Adding Enumerable#filter_map
+  0acbdd1ed0 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 0acbdd1ed0) +JIT [x86_64-linux]
+    last_commit=Adding Enumerable#filter_map
+  c5cbabf8a8: |-
+    ruby 2.7.0dev (2019-05-23 trunk c5cbabf8a8) [x86_64-linux]
+    last_commit=Use colorized IRB on Windows without checking `TERM`
+  c5cbabf8a8 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk c5cbabf8a8) +JIT [x86_64-linux]
+    last_commit=Use colorized IRB on Windows without checking `TERM`
+  65637dae30: |-
+    ruby 2.7.0dev (2019-05-23 trunk 65637dae30) [x86_64-linux]
+    last_commit=Test GC.compact on MJIT again
+  65637dae30 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk 65637dae30) +JIT [x86_64-linux]
+    last_commit=Test GC.compact on MJIT again
