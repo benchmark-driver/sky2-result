@@ -2125,3 +2125,15 @@ commits:
   c210c68d39 --jit: |-
     ruby 2.7.0dev (2019-05-23 trunk c210c68d39) +JIT [x86_64-linux]
     last_commit=Revert "Revert CI deduplication on Wercker / Azure for debugging"
+  da3fabc976: |-
+    ruby 2.7.0dev (2019-05-23 trunk da3fabc976) [x86_64-linux]
+    last_commit=Change behavior to confirm multiline termination
+  da3fabc976 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk da3fabc976) +JIT [x86_64-linux]
+    last_commit=Change behavior to confirm multiline termination
+  bb29ed6e33: |-
+    ruby 2.7.0dev (2019-05-23 trunk bb29ed6e33) [x86_64-linux]
+    last_commit=C-v C-j means an newline insertion
+  bb29ed6e33 --jit: |-
+    ruby 2.7.0dev (2019-05-23 trunk bb29ed6e33) +JIT [x86_64-linux]
+    last_commit=C-v C-j means an newline insertion
