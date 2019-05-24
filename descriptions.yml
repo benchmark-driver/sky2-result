@@ -9,28 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  b8e389a0f3: ruby 2.7.0dev (2019-02-22 trunk 67111) [x86_64-linux]
-  b8e389a0f3 --jit: ruby 2.7.0dev (2019-02-22 trunk 67111) +JIT [x86_64-linux]
-  da7976235f: ruby 2.7.0dev (2019-02-22 trunk 67112) [x86_64-linux]
-  da7976235f --jit: ruby 2.7.0dev (2019-02-22 trunk 67112) +JIT [x86_64-linux]
-  4e15be8bad: ruby 2.7.0dev (2019-02-22 trunk 67113) [x86_64-linux]
-  4e15be8bad --jit: ruby 2.7.0dev (2019-02-22 trunk 67113) +JIT [x86_64-linux]
-  '6703277024': ruby 2.7.0dev (2019-02-22 trunk 67114) [x86_64-linux]
-  6703277024 --jit: ruby 2.7.0dev (2019-02-22 trunk 67114) +JIT [x86_64-linux]
-  607ecea7c9: ruby 2.7.0dev (2019-02-22 trunk 67115) [x86_64-linux]
-  607ecea7c9 --jit: ruby 2.7.0dev (2019-02-22 trunk 67115) +JIT [x86_64-linux]
-  fc90c4ec5d: ruby 2.7.0dev (2019-02-22 trunk 67116) [x86_64-linux]
-  fc90c4ec5d --jit: ruby 2.7.0dev (2019-02-22 trunk 67116) +JIT [x86_64-linux]
-  b9357e4d1b: ruby 2.7.0dev (2019-02-22 trunk 67117) [x86_64-linux]
-  b9357e4d1b --jit: ruby 2.7.0dev (2019-02-22 trunk 67117) +JIT [x86_64-linux]
-  aa5dd6fe7e: ruby 2.7.0dev (2019-02-22 trunk 67118) [x86_64-linux]
-  aa5dd6fe7e --jit: ruby 2.7.0dev (2019-02-22 trunk 67118) +JIT [x86_64-linux]
-  1ae52fcddf: ruby 2.7.0dev (2019-02-22 trunk 67119) [x86_64-linux]
-  1ae52fcddf --jit: ruby 2.7.0dev (2019-02-22 trunk 67119) +JIT [x86_64-linux]
-  def040f6c3: ruby 2.7.0dev (2019-02-22 trunk 67120) [x86_64-linux]
-  def040f6c3 --jit: ruby 2.7.0dev (2019-02-22 trunk 67120) +JIT [x86_64-linux]
-  4af7f77d0f: ruby 2.7.0dev (2019-02-22 trunk 67121) [x86_64-linux]
-  4af7f77d0f --jit: ruby 2.7.0dev (2019-02-22 trunk 67121) +JIT [x86_64-linux]
   b1c1ee7183: ruby 2.7.0dev (2019-02-22 trunk 67122) [x86_64-linux]
   b1c1ee7183 --jit: ruby 2.7.0dev (2019-02-22 trunk 67122) +JIT [x86_64-linux]
   f53548a86c: ruby 2.7.0dev (2019-02-22 trunk 67123) [x86_64-linux]
@@ -2257,3 +2235,45 @@ commits:
   dfc21a0467 --jit: |-
     ruby 2.7.0dev (2019-05-24 trunk dfc21a0467) +JIT [x86_64-linux]
     last_commit=Ignore generated files by in-place build [Bug #15870]
+  35caedc828: |-
+    ruby 2.7.0dev (2019-05-24 trunk 35caedc828) [x86_64-linux]
+    last_commit=--autostash is since Git 2.6 [Bug #15871]
+  35caedc828 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 35caedc828) +JIT [x86_64-linux]
+    last_commit=--autostash is since Git 2.6 [Bug #15871]
+  e713c2bde8: |-
+    ruby 2.7.0dev (2019-05-24 trunk e713c2bde8) [x86_64-linux]
+    last_commit=switch UNICODE_BETA to NO
+  e713c2bde8 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk e713c2bde8) +JIT [x86_64-linux]
+    last_commit=switch UNICODE_BETA to NO
+  14778125b1: |-
+    ruby 2.7.0dev (2019-05-24 trunk 14778125b1) [x86_64-linux]
+    last_commit=Removed and ignore symlinks by in-place build [Bug #15870]
+  14778125b1 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 14778125b1) +JIT [x86_64-linux]
+    last_commit=Removed and ignore symlinks by in-place build [Bug #15870]
+  491d2b8063: |-
+    ruby 2.7.0dev (2019-05-24 trunk 491d2b8063) [x86_64-linux]
+    last_commit=Removed symlinks by in-place build [Bug #15870]
+  491d2b8063 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 491d2b8063) +JIT [x86_64-linux]
+    last_commit=Removed symlinks by in-place build [Bug #15870]
+  '2541578096': |-
+    ruby 2.7.0dev (2019-05-24 trunk 2541578096) [x86_64-linux]
+    last_commit=Add leaked-globals to .travis.yml
+  2541578096 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 2541578096) +JIT [x86_64-linux]
+    last_commit=Add leaked-globals to .travis.yml
+  54d5b599e8: |-
+    ruby 2.7.0dev (2019-05-24 trunk 54d5b599e8) [x86_64-linux]
+    last_commit=Fix typos [ci skip]
+  54d5b599e8 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 54d5b599e8) +JIT [x86_64-linux]
+    last_commit=Fix typos [ci skip]
+  1a4080cb0a: |-
+    ruby 2.7.0dev (2019-05-24 trunk 1a4080cb0a) [x86_64-linux]
+    last_commit=Hoisted out ndigits_denominator
+  1a4080cb0a --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 1a4080cb0a) +JIT [x86_64-linux]
+    last_commit=Hoisted out ndigits_denominator
