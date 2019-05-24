@@ -2233,3 +2233,27 @@ commits:
   1ee1e8fccd --jit: |-
     ruby 2.7.0dev (2019-05-24 trunk 1ee1e8fccd) +JIT [x86_64-linux]
     last_commit=Test GC.compact with MJIT again
+  498113d5d3: |-
+    ruby 2.7.0dev (2019-05-24 trunk 498113d5d3) [x86_64-linux]
+    last_commit=test/ruby/test_gc.rb (test_gc_stress_at_startup): extend time timeout
+  498113d5d3 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 498113d5d3) +JIT [x86_64-linux]
+    last_commit=test/ruby/test_gc.rb (test_gc_stress_at_startup): extend time timeout
+  50e993d4e3: |-
+    ruby 2.7.0dev (2019-05-24 trunk 50e993d4e3) [x86_64-linux]
+    last_commit=Skip the Process.clock_getres spec on AIX
+  50e993d4e3 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 50e993d4e3) +JIT [x86_64-linux]
+    last_commit=Skip the Process.clock_getres spec on AIX
+  7f2f56b2f5: |-
+    ruby 2.7.0dev (2019-05-24 trunk 7f2f56b2f5) [x86_64-linux]
+    last_commit=Define GITPULLOPTION to rebase [Bug #15871]
+  7f2f56b2f5 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 7f2f56b2f5) +JIT [x86_64-linux]
+    last_commit=Define GITPULLOPTION to rebase [Bug #15871]
+  dfc21a0467: |-
+    ruby 2.7.0dev (2019-05-24 trunk dfc21a0467) [x86_64-linux]
+    last_commit=Ignore generated files by in-place build [Bug #15870]
+  dfc21a0467 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk dfc21a0467) +JIT [x86_64-linux]
+    last_commit=Ignore generated files by in-place build [Bug #15870]
