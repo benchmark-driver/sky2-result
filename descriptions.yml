@@ -9,28 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  b1c1ee7183: ruby 2.7.0dev (2019-02-22 trunk 67122) [x86_64-linux]
-  b1c1ee7183 --jit: ruby 2.7.0dev (2019-02-22 trunk 67122) +JIT [x86_64-linux]
-  f53548a86c: ruby 2.7.0dev (2019-02-22 trunk 67123) [x86_64-linux]
-  f53548a86c --jit: ruby 2.7.0dev (2019-02-22 trunk 67123) +JIT [x86_64-linux]
-  052dbbe74f: ruby 2.7.0dev (2019-02-22 trunk 67124) [x86_64-linux]
-  052dbbe74f --jit: ruby 2.7.0dev (2019-02-22 trunk 67124) +JIT [x86_64-linux]
-  0dab1fce7c: ruby 2.7.0dev (2019-02-23 trunk 67125) [x86_64-linux]
-  0dab1fce7c --jit: ruby 2.7.0dev (2019-02-23 trunk 67125) +JIT [x86_64-linux]
-  f22ffd83e9: ruby 2.7.0dev (2019-02-23 trunk 67126) [x86_64-linux]
-  f22ffd83e9 --jit: ruby 2.7.0dev (2019-02-23 trunk 67126) +JIT [x86_64-linux]
-  6604e1b7cd: ruby 2.7.0dev (2019-02-23 trunk 67127) [x86_64-linux]
-  6604e1b7cd --jit: ruby 2.7.0dev (2019-02-23 trunk 67127) +JIT [x86_64-linux]
-  dc700cf903: ruby 2.7.0dev (2019-02-23 trunk 67128) [x86_64-linux]
-  dc700cf903 --jit: ruby 2.7.0dev (2019-02-23 trunk 67128) +JIT [x86_64-linux]
-  8b8285e253: ruby 2.7.0dev (2019-02-23 trunk 67129) [x86_64-linux]
-  8b8285e253 --jit: ruby 2.7.0dev (2019-02-23 trunk 67129) +JIT [x86_64-linux]
-  a582007e36: ruby 2.7.0dev (2019-02-24 trunk 67130) [x86_64-linux]
-  a582007e36 --jit: ruby 2.7.0dev (2019-02-24 trunk 67130) +JIT [x86_64-linux]
-  23a8183bea: ruby 2.7.0dev (2019-02-24 trunk 67131) [x86_64-linux]
-  23a8183bea --jit: ruby 2.7.0dev (2019-02-24 trunk 67131) +JIT [x86_64-linux]
-  e2d1bb1fa4: ruby 2.7.0dev (2019-02-24 trunk 67132) [x86_64-linux]
-  e2d1bb1fa4 --jit: ruby 2.7.0dev (2019-02-24 trunk 67132) +JIT [x86_64-linux]
   ff074304f4: ruby 2.7.0dev (2019-02-26 trunk 67133) [x86_64-linux]
   ff074304f4 --jit: ruby 2.7.0dev (2019-02-26 trunk 67133) +JIT [x86_64-linux]
   5e2a8cb7b9: ruby 2.7.0dev (2019-02-26 trunk 67134) [x86_64-linux]
@@ -2331,3 +2309,15 @@ commits:
   706c816ad2 --jit: |-
     ruby 2.7.0dev (2019-05-24 trunk 706c816ad2) +JIT [x86_64-linux]
     last_commit=Escape dots in regexp
+  4541d2effe: |-
+    ruby 2.7.0dev (2019-05-24 trunk 4541d2effe) [x86_64-linux]
+    last_commit=Only exclude the failing clocks for Process.clock_getres specs on AIX
+  4541d2effe --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 4541d2effe) +JIT [x86_64-linux]
+    last_commit=Only exclude the failing clocks for Process.clock_getres specs on AIX
+  2d34087a38: |-
+    ruby 2.7.0dev (2019-05-24 trunk 2d34087a38) [x86_64-linux]
+    last_commit=Add notes for the Process#clock_getres spec
+  2d34087a38 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 2d34087a38) +JIT [x86_64-linux]
+    last_commit=Add notes for the Process#clock_getres spec
