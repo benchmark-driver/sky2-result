@@ -2277,3 +2277,57 @@ commits:
   1a4080cb0a --jit: |-
     ruby 2.7.0dev (2019-05-24 trunk 1a4080cb0a) +JIT [x86_64-linux]
     last_commit=Hoisted out ndigits_denominator
+  45ad375acc: |-
+    ruby 2.7.0dev (2019-05-24 trunk 45ad375acc) [x86_64-linux]
+    last_commit=[DOC] Use Rational literals than to_r in examples
+  45ad375acc --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 45ad375acc) +JIT [x86_64-linux]
+    last_commit=[DOC] Use Rational literals than to_r in examples
+  '2893550452': |-
+    ruby 2.7.0dev (2019-05-24 trunk 2893550452) [x86_64-linux]
+    last_commit=Mixed encoding error can continue to parse
+  2893550452 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 2893550452) +JIT [x86_64-linux]
+    last_commit=Mixed encoding error can continue to parse
+  10927b5925: |-
+    ruby 2.7.0dev (2019-05-24 trunk 10927b5925) [x86_64-linux]
+    last_commit=add separation char on rb_obj_info(imemo obj)
+  10927b5925 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 10927b5925) +JIT [x86_64-linux]
+    last_commit=add separation char on rb_obj_info(imemo obj)
+  712c027524: |-
+    ruby 2.7.0dev (2019-05-24 trunk 712c027524) [x86_64-linux]
+    last_commit=check it in eden or tomb.
+  712c027524 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 712c027524) +JIT [x86_64-linux]
+    last_commit=check it in eden or tomb.
+  b0a4d81fc3: |-
+    ruby 2.7.0dev (2019-05-24 trunk b0a4d81fc3) [x86_64-linux]
+    last_commit=check RVALUE on verifier.
+  b0a4d81fc3 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk b0a4d81fc3) +JIT [x86_64-linux]
+    last_commit=check RVALUE on verifier.
+  c06f9e1d24: |-
+    ruby 2.7.0dev (2019-05-24 trunk c06f9e1d24) [x86_64-linux]
+    last_commit=switch UNICODE_BETA to NO (one more try, first try didn't work)
+  c06f9e1d24 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk c06f9e1d24) +JIT [x86_64-linux]
+    last_commit=switch UNICODE_BETA to NO (one more try, first try didn't work)
+  6ae9d5c85f: |-
+    ruby 2.7.0dev (2019-05-24 trunk 6ae9d5c85f) [x86_64-linux]
+    last_commit=Revert "check it in eden or tomb."
+  6ae9d5c85f --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 6ae9d5c85f) +JIT [x86_64-linux]
+    last_commit=Revert "check it in eden or tomb."
+  a4da223c9a: |-
+    ruby 2.7.0dev (2019-05-24 trunk a4da223c9a) [x86_64-linux]
+    last_commit=* expand tabs.
+  a4da223c9a --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk a4da223c9a) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  706c816ad2: |-
+    ruby 2.7.0dev (2019-05-24 trunk 706c816ad2) [x86_64-linux]
+    last_commit=Escape dots in regexp
+  706c816ad2 --jit: |-
+    ruby 2.7.0dev (2019-05-24 trunk 706c816ad2) +JIT [x86_64-linux]
+    last_commit=Escape dots in regexp
