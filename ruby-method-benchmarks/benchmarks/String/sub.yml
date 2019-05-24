@@ -120,6 +120,8 @@ results:
     9738f96fcf: 3443075.387
     cc02df324f: 3462129.864
     4e78854080: 3512213.58
+    19a8bbafd8: 3488461.503
+    a1ae478a31: 3106624.352
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -239,6 +241,8 @@ results:
     9738f96fcf: 3217864.864
     cc02df324f: 3495994.874
     4e78854080: 3494529.934
+    19a8bbafd8: 3489955.597
+    a1ae478a31: 3382148.56
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -358,6 +362,8 @@ results:
     9738f96fcf: 1773469.046
     cc02df324f: 1882707.658
     4e78854080: 1924436.952
+    19a8bbafd8: 1889045.946
+    a1ae478a31: 1880596.915
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -477,6 +483,8 @@ results:
     9738f96fcf: 2719489.81
     cc02df324f: 2817337.315
     4e78854080: 2244009.61
+    19a8bbafd8: 2831188.383
+    a1ae478a31: 2733785.789
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -596,6 +604,8 @@ results:
     9738f96fcf: 3551927.572
     cc02df324f: 3761505.21
     4e78854080: 3723335.911
+    19a8bbafd8: 3768539.27
+    a1ae478a31: 3729856.344
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -715,6 +725,8 @@ results:
     9738f96fcf: 3139277.876
     cc02df324f: 3338044.328
     4e78854080: 3676773.126
+    19a8bbafd8: 3724883.201
+    a1ae478a31: 3664340.289
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -834,6 +846,8 @@ results:
     9738f96fcf: 1945154.883
     cc02df324f: 1877704.002
     4e78854080: 1739887.814
+    19a8bbafd8: 1932280.336
+    a1ae478a31: 1982804.777
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -953,3 +967,5 @@ results:
     9738f96fcf: 2762456.575
     cc02df324f: 2985152.203
     4e78854080: 3010599.042
+    19a8bbafd8: 2996575.558
+    a1ae478a31: 2730257.358
