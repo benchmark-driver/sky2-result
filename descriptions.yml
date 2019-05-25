@@ -9,16 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  9dbb14b77c: ruby 2.7.0dev (2019-03-01 trunk 67150) [x86_64-linux]
-  9dbb14b77c --jit: ruby 2.7.0dev (2019-03-01 trunk 67150) +JIT [x86_64-linux]
-  fb04855c41: ruby 2.7.0dev (2019-03-01 trunk 67151) [x86_64-linux]
-  fb04855c41 --jit: ruby 2.7.0dev (2019-03-01 trunk 67151) +JIT [x86_64-linux]
-  a4020fbefc: ruby 2.7.0dev (2019-03-01 trunk 67152) [x86_64-linux]
-  a4020fbefc --jit: ruby 2.7.0dev (2019-03-01 trunk 67152) +JIT [x86_64-linux]
-  19cf8e0387: ruby 2.7.0dev (2019-03-01 trunk 67155) [x86_64-linux]
-  19cf8e0387 --jit: ruby 2.7.0dev (2019-03-01 trunk 67155) +JIT [x86_64-linux]
-  fe28e007f3: ruby 2.7.0dev (2019-03-01 trunk 67156) [x86_64-linux]
-  fe28e007f3 --jit: ruby 2.7.0dev (2019-03-01 trunk 67156) +JIT [x86_64-linux]
   4fd5a9e9bb: ruby 2.7.0dev (2019-03-01 trunk 67157) [x86_64-linux]
   4fd5a9e9bb --jit: ruby 2.7.0dev (2019-03-01 trunk 67157) +JIT [x86_64-linux]
   4eda7e1d14: ruby 2.7.0dev (2019-03-01 trunk 67158) [x86_64-linux]
@@ -2387,3 +2377,27 @@ commits:
   b83119be9e --jit: |-
     ruby 2.7.0dev (2019-05-25 trunk b83119be9e) +JIT [x86_64-linux]
     last_commit=Incremental syntax highlight for IRB source lines
+  061c781a09: |-
+    ruby 2.7.0dev (2019-05-25 trunk 061c781a09) [x86_64-linux]
+    last_commit=Drop method obsoleted by b83119be9e9a8611063142541993e4823a025622
+  061c781a09 --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk 061c781a09) +JIT [x86_64-linux]
+    last_commit=Drop method obsoleted by b83119be9e9a8611063142541993e4823a025622
+  8fd3b9fc5f: |-
+    ruby 2.7.0dev (2019-05-25 trunk 8fd3b9fc5f) [x86_64-linux]
+    last_commit=Force update all RDoc at install
+  8fd3b9fc5f --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk 8fd3b9fc5f) +JIT [x86_64-linux]
+    last_commit=Force update all RDoc at install
+  4fae3c3fb0: |-
+    ruby 2.7.0dev (2019-05-25 trunk 4fae3c3fb0) [x86_64-linux]
+    last_commit=Show doc list to install
+  4fae3c3fb0 --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk 4fae3c3fb0) +JIT [x86_64-linux]
+    last_commit=Show doc list to install
+  65ce14e7b5: |-
+    ruby 2.7.0dev (2019-05-25 trunk 65ce14e7b5) [x86_64-linux]
+    last_commit=Added --with-rdoc option
+  65ce14e7b5 --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk 65ce14e7b5) +JIT [x86_64-linux]
+    last_commit=Added --with-rdoc option
