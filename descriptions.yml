@@ -9,26 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  4fd5a9e9bb: ruby 2.7.0dev (2019-03-01 trunk 67157) [x86_64-linux]
-  4fd5a9e9bb --jit: ruby 2.7.0dev (2019-03-01 trunk 67157) +JIT [x86_64-linux]
-  4eda7e1d14: ruby 2.7.0dev (2019-03-01 trunk 67158) [x86_64-linux]
-  4eda7e1d14 --jit: ruby 2.7.0dev (2019-03-01 trunk 67158) +JIT [x86_64-linux]
-  19a8bbafd8: ruby 2.7.0dev (2019-03-01 trunk 67159) [x86_64-linux]
-  19a8bbafd8 --jit: ruby 2.7.0dev (2019-03-01 trunk 67159) +JIT [x86_64-linux]
-  7ebea69529: ruby 2.7.0dev (2019-03-03 trunk 67160) [x86_64-linux]
-  7ebea69529 --jit: ruby 2.7.0dev (2019-03-03 trunk 67160) +JIT [x86_64-linux]
-  2e9d4b9f0b: ruby 2.7.0dev (2019-03-03 trunk 67161) [x86_64-linux]
-  2e9d4b9f0b --jit: ruby 2.7.0dev (2019-03-03 trunk 67161) +JIT [x86_64-linux]
-  e4885d8acc: ruby 2.7.0dev (2019-03-03 trunk 67162) [x86_64-linux]
-  e4885d8acc --jit: ruby 2.7.0dev (2019-03-03 trunk 67162) +JIT [x86_64-linux]
-  958798851d: ruby 2.7.0dev (2019-03-03 trunk 67163) [x86_64-linux]
-  958798851d --jit: ruby 2.7.0dev (2019-03-03 trunk 67163) +JIT [x86_64-linux]
-  ba982a3da3: ruby 2.7.0dev (2019-03-04 trunk 67164) [x86_64-linux]
-  ba982a3da3 --jit: ruby 2.7.0dev (2019-03-04 trunk 67164) +JIT [x86_64-linux]
-  19d3aaff5c: ruby 2.7.0dev (2019-03-04 trunk 67165) [x86_64-linux]
-  19d3aaff5c --jit: ruby 2.7.0dev (2019-03-04 trunk 67165) +JIT [x86_64-linux]
-  4045cb8222: ruby 2.7.0dev (2019-03-05 trunk 67166) [x86_64-linux]
-  4045cb8222 --jit: ruby 2.7.0dev (2019-03-05 trunk 67166) +JIT [x86_64-linux]
   593505ac6f: ruby 2.7.0dev (2019-03-05 trunk 67167) [x86_64-linux]
   593505ac6f --jit: ruby 2.7.0dev (2019-03-05 trunk 67167) +JIT [x86_64-linux]
   '08f8cfe14e': ruby 2.7.0dev (2019-03-05 trunk 67168) [x86_64-linux]
@@ -2407,3 +2387,57 @@ commits:
   e691b4da5d --jit: |-
     ruby 2.7.0dev (2019-05-25 trunk e691b4da5d) +JIT [x86_64-linux]
     last_commit=Respect --nocolorize on REPL source highlight
+  e2db9f4cc3: |-
+    ruby 2.7.0dev (2019-05-25 trunk e2db9f4cc3) [x86_64-linux]
+    last_commit=Add and use Reline::Unicode.escape_for_print
+  e2db9f4cc3 --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk e2db9f4cc3) +JIT [x86_64-linux]
+    last_commit=Add and use Reline::Unicode.escape_for_print
+  be851692ce: |-
+    ruby 2.7.0dev (2019-05-25 trunk be851692ce) [x86_64-linux]
+    last_commit=Build trunk branch too to trigger Travis on PR
+  be851692ce --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk be851692ce) +JIT [x86_64-linux]
+    last_commit=Build trunk branch too to trigger Travis on PR
+  7c507345a7: |-
+    ruby 2.7.0dev (2019-05-25 trunk 7c507345a7) [x86_64-linux]
+    last_commit=Build trunk branch too to trigger AppVeyor on PR
+  7c507345a7 --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk 7c507345a7) +JIT [x86_64-linux]
+    last_commit=Build trunk branch too to trigger AppVeyor on PR
+  ada64aa9e7: |-
+    ruby 2.7.0dev (2019-05-25 trunk ada64aa9e7) [x86_64-linux]
+    last_commit=Clear IRB::Color escape sequence before newline
+  ada64aa9e7 --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk ada64aa9e7) +JIT [x86_64-linux]
+    last_commit=Clear IRB::Color escape sequence before newline
+  d9c41f2dec: |-
+    ruby 2.7.0dev (2019-05-25 trunk d9c41f2dec) [x86_64-linux]
+    last_commit=Use Reline.completer_word_break_characters to complete
+  d9c41f2dec --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk d9c41f2dec) +JIT [x86_64-linux]
+    last_commit=Use Reline.completer_word_break_characters to complete
+  a4d44b08ec: |-
+    ruby 2.7.0dev (2019-05-26 trunk a4d44b08ec) [x86_64-linux]
+    last_commit=* 2019-05-26
+  a4d44b08ec --jit: |-
+    ruby 2.7.0dev (2019-05-26 trunk a4d44b08ec) +JIT [x86_64-linux]
+    last_commit=* 2019-05-26
+  98be203704: |-
+    ruby 2.7.0dev (2019-05-26 trunk 98be203704) [x86_64-linux]
+    last_commit=Support some unhandled syntax highlight
+  98be203704 --jit: |-
+    ruby 2.7.0dev (2019-05-26 trunk 98be203704) +JIT [x86_64-linux]
+    last_commit=Support some unhandled syntax highlight
+  2993b36133: |-
+    ruby 2.7.0dev (2019-05-26 trunk 2993b36133) [x86_64-linux]
+    last_commit=Fix indexes in comments
+  2993b36133 --jit: |-
+    ruby 2.7.0dev (2019-05-26 trunk 2993b36133) +JIT [x86_64-linux]
+    last_commit=Fix indexes in comments
+  ec75901120: |-
+    ruby 2.7.0dev (2019-05-26 trunk ec75901120) [x86_64-linux]
+    last_commit=Fix completion menu state calculation
+  ec75901120 --jit: |-
+    ruby 2.7.0dev (2019-05-26 trunk ec75901120) +JIT [x86_64-linux]
+    last_commit=Fix completion menu state calculation
