@@ -9,24 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  ff074304f4: ruby 2.7.0dev (2019-02-26 trunk 67133) [x86_64-linux]
-  ff074304f4 --jit: ruby 2.7.0dev (2019-02-26 trunk 67133) +JIT [x86_64-linux]
-  5e2a8cb7b9: ruby 2.7.0dev (2019-02-26 trunk 67134) [x86_64-linux]
-  5e2a8cb7b9 --jit: ruby 2.7.0dev (2019-02-26 trunk 67134) +JIT [x86_64-linux]
-  8092d571be: ruby 2.7.0dev (2019-02-26 trunk 67135) [x86_64-linux]
-  8092d571be --jit: ruby 2.7.0dev (2019-02-26 trunk 67135) +JIT [x86_64-linux]
-  c2ee33898b: ruby 2.7.0dev (2019-02-27 trunk 67136) [x86_64-linux]
-  c2ee33898b --jit: ruby 2.7.0dev (2019-02-27 trunk 67136) +JIT [x86_64-linux]
-  '019864b4a5': ruby 2.7.0dev (2019-02-27 trunk 67137) [x86_64-linux]
-  '019864b4a5 --jit': ruby 2.7.0dev (2019-02-27 trunk 67137) +JIT [x86_64-linux]
-  19408c785c: ruby 2.7.0dev (2019-02-27 trunk 67138) [x86_64-linux]
-  19408c785c --jit: ruby 2.7.0dev (2019-02-27 trunk 67138) +JIT [x86_64-linux]
-  6f2c516d80: ruby 2.7.0dev (2019-02-27 trunk 67139) [x86_64-linux]
-  6f2c516d80 --jit: ruby 2.7.0dev (2019-02-27 trunk 67139) +JIT [x86_64-linux]
-  ef8ed5deee: ruby 2.7.0dev (2019-02-27 trunk 67140) [x86_64-linux]
-  ef8ed5deee --jit: ruby 2.7.0dev (2019-02-27 trunk 67140) +JIT [x86_64-linux]
-  ccd1c02cea: ruby 2.7.0dev (2019-02-28 trunk 67141) [x86_64-linux]
-  ccd1c02cea --jit: ruby 2.7.0dev (2019-02-28 trunk 67141) +JIT [x86_64-linux]
   f03775fc0f: ruby 2.7.0dev (2019-02-28 trunk 67142) [x86_64-linux]
   f03775fc0f --jit: ruby 2.7.0dev (2019-02-28 trunk 67142) +JIT [x86_64-linux]
   b0e350fe16: ruby 2.7.0dev (2019-02-28 trunk 67143) [x86_64-linux]
@@ -2351,3 +2333,27 @@ commits:
   27bab6a569 --jit: |-
     ruby 2.7.0dev (2019-05-25 trunk 27bab6a569) +JIT [x86_64-linux]
     last_commit=Revert "Change Reline's version with "Reline 0.0.0""
+  637ee7ee38: |-
+    ruby 2.7.0dev (2019-05-25 trunk 637ee7ee38) [x86_64-linux]
+    last_commit=Fix C-v C-j
+  637ee7ee38 --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk 637ee7ee38) +JIT [x86_64-linux]
+    last_commit=Fix C-v C-j
+  ff43b22627: |-
+    ruby 2.7.0dev (2019-05-25 trunk ff43b22627) [x86_64-linux]
+    last_commit=Enter key always means evaluate in Reline#readmultiline
+  ff43b22627 --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk ff43b22627) +JIT [x86_64-linux]
+    last_commit=Enter key always means evaluate in Reline#readmultiline
+  260235ce87: |-
+    ruby 2.7.0dev (2019-05-25 trunk 260235ce87) [x86_64-linux]
+    last_commit=Use Reline as Reidline multiline editor in IRB
+  260235ce87 --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk 260235ce87) +JIT [x86_64-linux]
+    last_commit=Use Reline as Reidline multiline editor in IRB
+  559dca509d: |-
+    ruby 2.7.0dev (2019-05-25 trunk 559dca509d) [x86_64-linux]
+    last_commit=Show documents when completion
+  559dca509d --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk 559dca509d) +JIT [x86_64-linux]
+    last_commit=Show documents when completion
