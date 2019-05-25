@@ -9,18 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  f03775fc0f: ruby 2.7.0dev (2019-02-28 trunk 67142) [x86_64-linux]
-  f03775fc0f --jit: ruby 2.7.0dev (2019-02-28 trunk 67142) +JIT [x86_64-linux]
-  b0e350fe16: ruby 2.7.0dev (2019-02-28 trunk 67143) [x86_64-linux]
-  b0e350fe16 --jit: ruby 2.7.0dev (2019-02-28 trunk 67143) +JIT [x86_64-linux]
-  12eca471a4: ruby 2.7.0dev (2019-02-28 trunk 67144) [x86_64-linux]
-  12eca471a4 --jit: ruby 2.7.0dev (2019-02-28 trunk 67144) +JIT [x86_64-linux]
-  7b81d7f5c2: ruby 2.7.0dev (2019-02-28 trunk 67145) [x86_64-linux]
-  7b81d7f5c2 --jit: ruby 2.7.0dev (2019-02-28 trunk 67145) +JIT [x86_64-linux]
-  dfec1eb3ce: ruby 2.7.0dev (2019-02-28 trunk 67146) [x86_64-linux]
-  dfec1eb3ce --jit: ruby 2.7.0dev (2019-02-28 trunk 67146) +JIT [x86_64-linux]
-  fe61f14d53: ruby 2.7.0dev (2019-02-28 trunk 67149) [x86_64-linux]
-  fe61f14d53 --jit: ruby 2.7.0dev (2019-02-28 trunk 67149) +JIT [x86_64-linux]
   9dbb14b77c: ruby 2.7.0dev (2019-03-01 trunk 67150) [x86_64-linux]
   9dbb14b77c --jit: ruby 2.7.0dev (2019-03-01 trunk 67150) +JIT [x86_64-linux]
   fb04855c41: ruby 2.7.0dev (2019-03-01 trunk 67151) [x86_64-linux]
@@ -2369,3 +2357,27 @@ commits:
   19430b776c --jit: |-
     ruby 2.7.0dev (2019-05-25 trunk 19430b776c) +JIT [x86_64-linux]
     last_commit=Fix wrong variable name
+  1ef39d8d09: |-
+    ruby 2.7.0dev (2019-05-25 trunk 1ef39d8d09) [x86_64-linux]
+    last_commit=Fix process not waking up on signals on OpenBSD
+  1ef39d8d09 --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk 1ef39d8d09) +JIT [x86_64-linux]
+    last_commit=Fix process not waking up on signals on OpenBSD
+  809ac9f2ea: |-
+    ruby 2.7.0dev (2019-05-25 trunk 809ac9f2ea) [x86_64-linux]
+    last_commit=* expand tabs.
+  809ac9f2ea --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk 809ac9f2ea) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  7686e33ee4: |-
+    ruby 2.7.0dev (2019-05-25 trunk 7686e33ee4) [x86_64-linux]
+    last_commit=JSON like label ends by differs from the start
+  7686e33ee4 --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk 7686e33ee4) +JIT [x86_64-linux]
+    last_commit=JSON like label ends by differs from the start
+  3c6e1a8cf9: |-
+    ruby 2.7.0dev (2019-05-25 trunk 3c6e1a8cf9) [x86_64-linux]
+    last_commit=Avoid to show warning message with unused variable.
+  3c6e1a8cf9 --jit: |-
+    ruby 2.7.0dev (2019-05-25 trunk 3c6e1a8cf9) +JIT [x86_64-linux]
+    last_commit=Avoid to show warning message with unused variable.
