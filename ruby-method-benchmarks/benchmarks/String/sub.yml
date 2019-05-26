@@ -149,6 +149,8 @@ results:
     320c98b436: 3510053.484
     7cd6706b9a: 3495822.78
     aa190abe20: 3430296.011
+    5a53682d6d: 3355623.118
+    46f5eb5b48: 3474248.016
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -297,6 +299,8 @@ results:
     320c98b436: 3054243.706
     7cd6706b9a: 3486773.04
     aa190abe20: 3395441.077
+    5a53682d6d: 3364577.12
+    46f5eb5b48: 3480010.429
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -445,6 +449,8 @@ results:
     320c98b436: 1887418.964
     7cd6706b9a: 1928659.043
     aa190abe20: 1942457.061
+    5a53682d6d: 1882926.28
+    46f5eb5b48: 1836662.565
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -593,6 +599,8 @@ results:
     320c98b436: 2849668.758
     7cd6706b9a: 2852643.721
     aa190abe20: 2753250.883
+    5a53682d6d: 2702978.91
+    46f5eb5b48: 2851522.885
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -741,6 +749,8 @@ results:
     320c98b436: 3687823.35
     7cd6706b9a: 3738017.711
     aa190abe20: 3703722.143
+    5a53682d6d: 3690808.616
+    46f5eb5b48: 3747374.619
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -889,6 +899,8 @@ results:
     320c98b436: 3438957.94
     7cd6706b9a: 3746654.252
     aa190abe20: 3697188.685
+    5a53682d6d: 3606612.244
+    46f5eb5b48: 3765012.008
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1037,6 +1049,8 @@ results:
     320c98b436: 2034319.541
     7cd6706b9a: 2017670.756
     aa190abe20: 2018949.354
+    5a53682d6d: 1992656.457
+    46f5eb5b48: 1877953.388
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -1185,3 +1199,5 @@ results:
     320c98b436: 2933545.046
     7cd6706b9a: 3011814.035
     aa190abe20: 2526354.509
+    5a53682d6d: 2895353.368
+    46f5eb5b48: 3027410.678
