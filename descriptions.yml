@@ -9,18 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  '08f8cfe14e': ruby 2.7.0dev (2019-03-05 trunk 67168) [x86_64-linux]
-  '08f8cfe14e --jit': ruby 2.7.0dev (2019-03-05 trunk 67168) +JIT [x86_64-linux]
-  cff7eefa07: ruby 2.7.0dev (2019-03-05 trunk 67169) [x86_64-linux]
-  cff7eefa07 --jit: ruby 2.7.0dev (2019-03-05 trunk 67169) +JIT [x86_64-linux]
-  ad398b7e0c: ruby 2.7.0dev (2019-03-06 trunk 67170) [x86_64-linux]
-  ad398b7e0c --jit: ruby 2.7.0dev (2019-03-06 trunk 67170) +JIT [x86_64-linux]
-  d4303528d3: ruby 2.7.0dev (2019-03-06 trunk 67171) [x86_64-linux]
-  d4303528d3 --jit: ruby 2.7.0dev (2019-03-06 trunk 67171) +JIT [x86_64-linux]
-  fdc42bf88d: ruby 2.7.0dev (2019-03-06 trunk 67172) [x86_64-linux]
-  fdc42bf88d --jit: ruby 2.7.0dev (2019-03-06 trunk 67172) +JIT [x86_64-linux]
-  b3f641085e: ruby 2.7.0dev (2019-03-06 trunk 67173) [x86_64-linux]
-  b3f641085e --jit: ruby 2.7.0dev (2019-03-06 trunk 67173) +JIT [x86_64-linux]
   f831ca6764: ruby 2.7.0dev (2019-03-06 trunk 67174) [x86_64-linux]
   f831ca6764 --jit: ruby 2.7.0dev (2019-03-06 trunk 67174) +JIT [x86_64-linux]
   a679e98e64: ruby 2.7.0dev (2019-03-06 trunk 67183) [x86_64-linux]
@@ -2451,3 +2439,33 @@ commits:
   a516834b47 --jit: |-
     ruby 2.7.0dev (2019-05-26 trunk a516834b47) +JIT [x86_64-linux]
     last_commit=test/ruby/test_rubyoptions.rb (test_script_from_stdin): scale timeout
+  13f58eccda: |-
+    ruby 2.7.0dev (2019-05-26 trunk 13f58eccda) [x86_64-linux]
+    last_commit=Always color Symbol as Yellow on IRB::Color
+  13f58eccda --jit: |-
+    ruby 2.7.0dev (2019-05-26 trunk 13f58eccda) +JIT [x86_64-linux]
+    last_commit=Always color Symbol as Yellow on IRB::Color
+  8aba3b7a04: |-
+    ruby 2.7.0dev (2019-05-26 trunk 8aba3b7a04) [x86_64-linux]
+    last_commit=Fix more unintended syntax highlights
+  8aba3b7a04 --jit: |-
+    ruby 2.7.0dev (2019-05-26 trunk 8aba3b7a04) +JIT [x86_64-linux]
+    last_commit=Fix more unintended syntax highlights
+  52b09fcee1: |-
+    ruby 2.7.0dev (2019-05-26 trunk 52b09fcee1) [x86_64-linux]
+    last_commit=Deal with more syntax highlight edge cases
+  52b09fcee1 --jit: |-
+    ruby 2.7.0dev (2019-05-26 trunk 52b09fcee1) +JIT [x86_64-linux]
+    last_commit=Deal with more syntax highlight edge cases
+  aaf6c678d2: |-
+    ruby 2.7.0dev (2019-05-26 trunk aaf6c678d2) [x86_64-linux]
+    last_commit=Handle keyword symbol in IRB::Color::SymbolState
+  aaf6c678d2 --jit: |-
+    ruby 2.7.0dev (2019-05-26 trunk aaf6c678d2) +JIT [x86_64-linux]
+    last_commit=Handle keyword symbol in IRB::Color::SymbolState
+  f20af9543f: |-
+    ruby 2.7.0dev (2019-05-26 trunk f20af9543f) [x86_64-linux]
+    last_commit=test/rubygems/test_gem_stream_ui.rb (test_ask): extend the timeout
+  f20af9543f --jit: |-
+    ruby 2.7.0dev (2019-05-26 trunk f20af9543f) +JIT [x86_64-linux]
+    last_commit=test/rubygems/test_gem_stream_ui.rb (test_ask): extend the timeout

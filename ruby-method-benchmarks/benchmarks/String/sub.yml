@@ -151,6 +151,8 @@ results:
     aa190abe20: 3430296.011
     5a53682d6d: 3355623.118
     46f5eb5b48: 3474248.016
+    ae0f20c6bf: 3449361.87
+    dcf5c19c9f: 3411901.345
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -301,6 +303,8 @@ results:
     aa190abe20: 3395441.077
     5a53682d6d: 3364577.12
     46f5eb5b48: 3480010.429
+    ae0f20c6bf: 3525007.421
+    dcf5c19c9f: 3450479.517
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -451,6 +455,8 @@ results:
     aa190abe20: 1942457.061
     5a53682d6d: 1882926.28
     46f5eb5b48: 1836662.565
+    ae0f20c6bf: 1732056.461
+    dcf5c19c9f: 1952860.761
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -601,6 +607,8 @@ results:
     aa190abe20: 2753250.883
     5a53682d6d: 2702978.91
     46f5eb5b48: 2851522.885
+    ae0f20c6bf: 2838321.743
+    dcf5c19c9f: 2738650.296
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -751,6 +759,8 @@ results:
     aa190abe20: 3703722.143
     5a53682d6d: 3690808.616
     46f5eb5b48: 3747374.619
+    ae0f20c6bf: 3552942.263
+    dcf5c19c9f: 3712708.593
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -901,6 +911,8 @@ results:
     aa190abe20: 3697188.685
     5a53682d6d: 3606612.244
     46f5eb5b48: 3765012.008
+    ae0f20c6bf: 3791150.971
+    dcf5c19c9f: 3727708.951
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1051,6 +1063,8 @@ results:
     aa190abe20: 2018949.354
     5a53682d6d: 1992656.457
     46f5eb5b48: 1877953.388
+    ae0f20c6bf: 1977868.917
+    dcf5c19c9f: 1608583.957
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -1201,3 +1215,5 @@ results:
     aa190abe20: 2526354.509
     5a53682d6d: 2895353.368
     46f5eb5b48: 3027410.678
+    ae0f20c6bf: 3010519.816
+    dcf5c19c9f: 2724372.984
