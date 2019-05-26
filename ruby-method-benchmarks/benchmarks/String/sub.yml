@@ -157,6 +157,8 @@ results:
     281a22a398: 3499500.554
     e29a85a96c: 3277334.897
     a73dae4c53: 3485835.925
+    82332c7d8b: 3490109.83
+    a433f2c51b: 3506373.611
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -313,6 +315,8 @@ results:
     281a22a398: 2977300.144
     e29a85a96c: 2867800.203
     a73dae4c53: 3519356.077
+    82332c7d8b: 3450048.826
+    a433f2c51b: 3489369.759
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -469,6 +473,8 @@ results:
     281a22a398: 1902861.042
     e29a85a96c: 1919339.248
     a73dae4c53: 1914022.924
+    82332c7d8b: 1877973.207
+    a433f2c51b: 1890399.201
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -625,6 +631,8 @@ results:
     281a22a398: 2822807.939
     e29a85a96c: 2710905.176
     a73dae4c53: 2864198.42
+    82332c7d8b: 2176469.621
+    a433f2c51b: 2874398.05
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -781,6 +789,8 @@ results:
     281a22a398: 3716892.683
     e29a85a96c: 3697106.195
     a73dae4c53: 3771727.821
+    82332c7d8b: 3226587.269
+    a433f2c51b: 3757606.315
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -937,6 +947,8 @@ results:
     281a22a398: 3689424.491
     e29a85a96c: 3641840.414
     a73dae4c53: 3195017.91
+    82332c7d8b: 3507921.798
+    a433f2c51b: 3648952.555
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1093,6 +1105,8 @@ results:
     281a22a398: 2026856.136
     e29a85a96c: 1928943.862
     a73dae4c53: 2018226.705
+    82332c7d8b: 1719403.569
+    a433f2c51b: 2014984.634
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -1249,3 +1263,5 @@ results:
     281a22a398: 2989745.253
     e29a85a96c: 2908099.191
     a73dae4c53: 3032283.615
+    82332c7d8b: 2763548.748
+    a433f2c51b: 2938007.694
