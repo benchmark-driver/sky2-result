@@ -153,6 +153,8 @@ results:
     46f5eb5b48: 3474248.016
     ae0f20c6bf: 3449361.87
     dcf5c19c9f: 3411901.345
+    f54aa6c5b2: 3491825.61
+    281a22a398: 3499500.554
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -305,6 +307,8 @@ results:
     46f5eb5b48: 3480010.429
     ae0f20c6bf: 3525007.421
     dcf5c19c9f: 3450479.517
+    f54aa6c5b2: 3284705.818
+    281a22a398: 2977300.144
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -457,6 +461,8 @@ results:
     46f5eb5b48: 1836662.565
     ae0f20c6bf: 1732056.461
     dcf5c19c9f: 1952860.761
+    f54aa6c5b2: 1929782.956
+    281a22a398: 1902861.042
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -609,6 +615,8 @@ results:
     46f5eb5b48: 2851522.885
     ae0f20c6bf: 2838321.743
     dcf5c19c9f: 2738650.296
+    f54aa6c5b2: 2789512.36
+    281a22a398: 2822807.939
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -761,6 +769,8 @@ results:
     46f5eb5b48: 3747374.619
     ae0f20c6bf: 3552942.263
     dcf5c19c9f: 3712708.593
+    f54aa6c5b2: 3752065.314
+    281a22a398: 3716892.683
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -913,6 +923,8 @@ results:
     46f5eb5b48: 3765012.008
     ae0f20c6bf: 3791150.971
     dcf5c19c9f: 3727708.951
+    f54aa6c5b2: 3686618.254
+    281a22a398: 3689424.491
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1065,6 +1077,8 @@ results:
     46f5eb5b48: 1877953.388
     ae0f20c6bf: 1977868.917
     dcf5c19c9f: 1608583.957
+    f54aa6c5b2: 1816161.223
+    281a22a398: 2026856.136
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -1217,3 +1231,5 @@ results:
     46f5eb5b48: 3027410.678
     ae0f20c6bf: 3010519.816
     dcf5c19c9f: 2724372.984
+    f54aa6c5b2: 2951744.52
+    281a22a398: 2989745.253
