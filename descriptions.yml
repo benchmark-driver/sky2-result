@@ -2585,3 +2585,27 @@ commits:
   9c136f3dea --jit: |-
     ruby 2.7.0dev (2019-05-27 trunk 9c136f3dea) +JIT [x86_64-linux]
     last_commit=Move to next of last line by ^D
+  1d301acbe8: |-
+    ruby 2.7.0dev (2019-05-27 trunk 1d301acbe8) [x86_64-linux]
+    last_commit=Fix rendering bug of ^D
+  1d301acbe8 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 1d301acbe8) +JIT [x86_64-linux]
+    last_commit=Fix rendering bug of ^D
+  9840f52c77: |-
+    ruby 2.7.0dev (2019-05-27 trunk 9840f52c77) [x86_64-linux]
+    last_commit=Use IRB::InputMethod#eof? to quit
+  9840f52c77 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 9840f52c77) +JIT [x86_64-linux]
+    last_commit=Use IRB::InputMethod#eof? to quit
+  0aa9b003de: |-
+    ruby 2.7.0dev (2019-05-27 trunk 0aa9b003de) [x86_64-linux]
+    last_commit=context.rb: hide wrapping lines
+  0aa9b003de --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 0aa9b003de) +JIT [x86_64-linux]
+    last_commit=context.rb: hide wrapping lines
+  4c277364a5: |-
+    ruby 2.7.0dev (2019-05-27 trunk 4c277364a5) [x86_64-linux]
+    last_commit=CSI allows empty digit which equals 0
+  4c277364a5 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 4c277364a5) +JIT [x86_64-linux]
+    last_commit=CSI allows empty digit which equals 0
