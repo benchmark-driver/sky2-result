@@ -9,38 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  8cc5304408: ruby 2.7.0dev (2019-03-07 trunk 67189) [x86_64-linux]
-  8cc5304408 --jit: ruby 2.7.0dev (2019-03-07 trunk 67189) +JIT [x86_64-linux]
-  4c1952f4bf: ruby 2.7.0dev (2019-03-07 trunk 67190) [x86_64-linux]
-  4c1952f4bf --jit: ruby 2.7.0dev (2019-03-07 trunk 67190) +JIT [x86_64-linux]
-  e185c9716e: ruby 2.7.0dev (2019-03-07 trunk 67193) [x86_64-linux]
-  e185c9716e --jit: ruby 2.7.0dev (2019-03-07 trunk 67193) +JIT [x86_64-linux]
-  caa2a5bb0e: ruby 2.7.0dev (2019-03-08 trunk 67194) [x86_64-linux]
-  caa2a5bb0e --jit: ruby 2.7.0dev (2019-03-08 trunk 67194) +JIT [x86_64-linux]
-  d577019746: ruby 2.7.0dev (2019-03-08 trunk 67195) [x86_64-linux]
-  d577019746 --jit: ruby 2.7.0dev (2019-03-08 trunk 67195) +JIT [x86_64-linux]
-  5cfa518406: ruby 2.7.0dev (2019-03-09 trunk 67196) [x86_64-linux]
-  5cfa518406 --jit: ruby 2.7.0dev (2019-03-09 trunk 67196) +JIT [x86_64-linux]
-  5aecf03ec3: ruby 2.7.0dev (2019-03-09 trunk 67197) [x86_64-linux]
-  5aecf03ec3 --jit: ruby 2.7.0dev (2019-03-09 trunk 67197) +JIT [x86_64-linux]
-  28f619e301: ruby 2.7.0dev (2019-03-09 trunk 67198) [x86_64-linux]
-  28f619e301 --jit: ruby 2.7.0dev (2019-03-09 trunk 67198) +JIT [x86_64-linux]
-  8776a09d4e: ruby 2.7.0dev (2019-03-09 trunk 67199) [x86_64-linux]
-  8776a09d4e --jit: ruby 2.7.0dev (2019-03-09 trunk 67199) +JIT [x86_64-linux]
-  72df0a8e47: ruby 2.7.0dev (2019-03-09 trunk 67200) [x86_64-linux]
-  72df0a8e47 --jit: ruby 2.7.0dev (2019-03-09 trunk 67200) +JIT [x86_64-linux]
-  ffec546b0e: ruby 2.7.0dev (2019-03-09 trunk 67201) [x86_64-linux]
-  ffec546b0e --jit: ruby 2.7.0dev (2019-03-09 trunk 67201) +JIT [x86_64-linux]
-  f399c2912b: ruby 2.7.0dev (2019-03-10 trunk 67202) [x86_64-linux]
-  f399c2912b --jit: ruby 2.7.0dev (2019-03-10 trunk 67202) +JIT [x86_64-linux]
-  e5f01dab9d: ruby 2.7.0dev (2019-03-10 trunk 67203) [x86_64-linux]
-  e5f01dab9d --jit: ruby 2.7.0dev (2019-03-10 trunk 67203) +JIT [x86_64-linux]
-  53f2cda8d4: ruby 2.7.0dev (2019-03-11 trunk 67204) [x86_64-linux]
-  53f2cda8d4 --jit: ruby 2.7.0dev (2019-03-11 trunk 67204) +JIT [x86_64-linux]
-  aef24ecbe9: ruby 2.7.0dev (2019-03-11 trunk 67205) [x86_64-linux]
-  aef24ecbe9 --jit: ruby 2.7.0dev (2019-03-11 trunk 67205) +JIT [x86_64-linux]
-  7d9664953b: ruby 2.7.0dev (2019-03-11 trunk 67206) [x86_64-linux]
-  7d9664953b --jit: ruby 2.7.0dev (2019-03-11 trunk 67206) +JIT [x86_64-linux]
   c2d3b8dfb4: ruby 2.7.0dev (2019-03-11 trunk 67211) [x86_64-linux]
   c2d3b8dfb4 --jit: ruby 2.7.0dev (2019-03-11 trunk 67211) +JIT [x86_64-linux]
   7d3d8e79fe: ruby 2.7.0dev (2019-03-11 trunk 67212) [x86_64-linux]
@@ -2519,3 +2487,87 @@ commits:
   e39c950c2b --jit: |-
     ruby 2.7.0dev (2019-05-27 trunk e39c950c2b) +JIT [x86_64-linux]
     last_commit=Use correctly RI output in IRB completion
+  0f35c79ad6: |-
+    ruby 2.7.0dev (2019-05-27 trunk 0f35c79ad6) [x86_64-linux]
+    last_commit=Fix number literal regexp of IRB completion
+  0f35c79ad6 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 0f35c79ad6) +JIT [x86_64-linux]
+    last_commit=Fix number literal regexp of IRB completion
+  60cc03ffe7: |-
+    ruby 2.7.0dev (2019-05-27 trunk 60cc03ffe7) [x86_64-linux]
+    last_commit=Fix indexes in comments of vi_insert.rb
+  60cc03ffe7 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 60cc03ffe7) +JIT [x86_64-linux]
+    last_commit=Fix indexes in comments of vi_insert.rb
+  e50aa359de: |-
+    ruby 2.7.0dev (2019-05-27 trunk e50aa359de) [x86_64-linux]
+    last_commit=Make the imaginary color on IRB close to pry
+  e50aa359de --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk e50aa359de) +JIT [x86_64-linux]
+    last_commit=Make the imaginary color on IRB close to pry
+  '1226791368': |-
+    ruby 2.7.0dev (2019-05-27 trunk 1226791368) [x86_64-linux]
+    last_commit=Support :@@cvar and : on colorize
+  1226791368 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 1226791368) +JIT [x86_64-linux]
+    last_commit=Support :@@cvar and : on colorize
+  e73a68ebc3: |-
+    ruby 2.7.0dev (2019-05-27 trunk e73a68ebc3) [x86_64-linux]
+    last_commit=Support op, cvar, iver, gvar and kw that follow on symbeg in IRB
+  e73a68ebc3 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk e73a68ebc3) +JIT [x86_64-linux]
+    last_commit=Support op, cvar, iver, gvar and kw that follow on symbeg in IRB
+  897901283c: |-
+    ruby 2.7.0dev (2019-05-27 trunk 897901283c) [x86_64-linux]
+    last_commit=Refactor IRB color dispatch
+  897901283c --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 897901283c) +JIT [x86_64-linux]
+    last_commit=Refactor IRB color dispatch
+  39eadca76b: |-
+    ruby 2.7.0dev (2019-05-27 trunk 39eadca76b) [x86_64-linux]
+    last_commit=Add FrozenError#receiver
+  39eadca76b --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 39eadca76b) +JIT [x86_64-linux]
+    last_commit=Add FrozenError#receiver
+  5a6c77bbe8: |-
+    ruby 2.7.0dev (2019-05-27 trunk 5a6c77bbe8) [x86_64-linux]
+    last_commit=* expand tabs.
+  5a6c77bbe8 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 5a6c77bbe8) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  7597f7ecb1: |-
+    ruby 2.7.0dev (2019-05-27 trunk 7597f7ecb1) [x86_64-linux]
+    last_commit=Simplify lexer state matching in #dispatch_seq
+  7597f7ecb1 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 7597f7ecb1) +JIT [x86_64-linux]
+    last_commit=Simplify lexer state matching in #dispatch_seq
+  64ee8900c8: |-
+    ruby 2.7.0dev (2019-05-27 trunk 64ee8900c8) [x86_64-linux]
+    last_commit=Highlight global variable on IRB
+  64ee8900c8 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 64ee8900c8) +JIT [x86_64-linux]
+    last_commit=Highlight global variable on IRB
+  c6b7cad5c9: |-
+    ruby 2.7.0dev (2019-05-27 trunk c6b7cad5c9) [x86_64-linux]
+    last_commit=.azure-pipelines.yml: Add timeout to install dependencies
+  c6b7cad5c9 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk c6b7cad5c9) +JIT [x86_64-linux]
+    last_commit=.azure-pipelines.yml: Add timeout to install dependencies
+  64dc21830a: |-
+    ruby 2.7.0dev (2019-05-27 trunk 64dc21830a) [x86_64-linux]
+    last_commit=Remove \1 and \2 that escape CSI before render
+  64dc21830a --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 64dc21830a) +JIT [x86_64-linux]
+    last_commit=Remove \1 and \2 that escape CSI before render
+  716ba4a127: |-
+    ruby 2.7.0dev (2019-05-27 trunk 716ba4a127) [x86_64-linux]
+    last_commit=Implement J to join lines in vi command mode
+  716ba4a127 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 716ba4a127) +JIT [x86_64-linux]
+    last_commit=Implement J to join lines in vi command mode
+  2c91c5b329: |-
+    ruby 2.7.0dev (2019-05-27 trunk 2c91c5b329) [x86_64-linux]
+    last_commit=Move to the other line when press <- at head or -> at tail
+  2c91c5b329 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 2c91c5b329) +JIT [x86_64-linux]
+    last_commit=Move to the other line when press <- at head or -> at tail
