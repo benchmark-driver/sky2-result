@@ -168,6 +168,8 @@ results:
     df6a673ca5: 3372719.569
     cb8eb37377: 3397382.175
     '0971cab4d0': 3413049.194
+    b3602f1d20: 3396203.949
+    c9b28fd7ae: 3490047.137
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -335,6 +337,8 @@ results:
     df6a673ca5: 3234164.364
     cb8eb37377: 3360096.351
     '0971cab4d0': 3357600.254
+    b3602f1d20: 3339429.034
+    c9b28fd7ae: 3423289.291
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -502,6 +506,8 @@ results:
     df6a673ca5: 1871336.725
     cb8eb37377: 1884776.112
     '0971cab4d0': 1771996.99
+    b3602f1d20: 1845125.261
+    c9b28fd7ae: 1906741.86
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -669,6 +675,8 @@ results:
     df6a673ca5: 2726222.025
     cb8eb37377: 2643560.89
     '0971cab4d0': 2751040.801
+    b3602f1d20: 2757489.384
+    c9b28fd7ae: 2540582.605
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -836,6 +844,8 @@ results:
     df6a673ca5: 3628124.669
     cb8eb37377: 3686593.959
     '0971cab4d0': 3696303.166
+    b3602f1d20: 3676253.386
+    c9b28fd7ae: 3756176.066
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1003,6 +1013,8 @@ results:
     df6a673ca5: 3604381.544
     cb8eb37377: 3542580.289
     '0971cab4d0': 3624772.457
+    b3602f1d20: 3631174.964
+    c9b28fd7ae: 3654623.735
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1170,6 +1182,8 @@ results:
     df6a673ca5: 1966721.596
     cb8eb37377: 1989591.511
     '0971cab4d0': 1898425.085
+    b3602f1d20: 1956594.256
+    c9b28fd7ae: 2011593.981
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -1337,3 +1351,5 @@ results:
     df6a673ca5: 2932306.633
     cb8eb37377: 2891478.858
     '0971cab4d0': 2933393.209
+    b3602f1d20: 2948541.826
+    c9b28fd7ae: 2944713.105
