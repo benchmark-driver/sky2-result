@@ -9,22 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  c2d3b8dfb4: ruby 2.7.0dev (2019-03-11 trunk 67211) [x86_64-linux]
-  c2d3b8dfb4 --jit: ruby 2.7.0dev (2019-03-11 trunk 67211) +JIT [x86_64-linux]
-  7d3d8e79fe: ruby 2.7.0dev (2019-03-11 trunk 67212) [x86_64-linux]
-  7d3d8e79fe --jit: ruby 2.7.0dev (2019-03-11 trunk 67212) +JIT [x86_64-linux]
-  448262c81d: ruby 2.7.0dev (2019-03-11 trunk 67213) [x86_64-linux]
-  448262c81d --jit: ruby 2.7.0dev (2019-03-11 trunk 67213) +JIT [x86_64-linux]
-  '098ec6eb50': ruby 2.7.0dev (2019-03-11 trunk 67214) [x86_64-linux]
-  '098ec6eb50 --jit': ruby 2.7.0dev (2019-03-11 trunk 67214) +JIT [x86_64-linux]
-  bc76d8a232: ruby 2.7.0dev (2019-03-11 trunk 67215) [x86_64-linux]
-  bc76d8a232 --jit: ruby 2.7.0dev (2019-03-11 trunk 67215) +JIT [x86_64-linux]
-  bda6df356a: ruby 2.7.0dev (2019-03-11 trunk 67216) [x86_64-linux]
-  bda6df356a --jit: ruby 2.7.0dev (2019-03-11 trunk 67216) +JIT [x86_64-linux]
-  76fc1ce0a7: ruby 2.7.0dev (2019-03-11 trunk 67217) [x86_64-linux]
-  76fc1ce0a7 --jit: ruby 2.7.0dev (2019-03-11 trunk 67217) +JIT [x86_64-linux]
-  43ff4ef912: ruby 2.7.0dev (2019-03-11 trunk 67218) [x86_64-linux]
-  43ff4ef912 --jit: ruby 2.7.0dev (2019-03-11 trunk 67218) +JIT [x86_64-linux]
   a3a1199f41: ruby 2.7.0dev (2019-03-11 trunk 67221) [x86_64-linux]
   a3a1199f41 --jit: ruby 2.7.0dev (2019-03-11 trunk 67221) +JIT [x86_64-linux]
   e5d10cda07: ruby 2.7.0dev (2019-03-11 trunk 67224) [x86_64-linux]
@@ -2571,3 +2555,33 @@ commits:
   2c91c5b329 --jit: |-
     ruby 2.7.0dev (2019-05-27 trunk 2c91c5b329) +JIT [x86_64-linux]
     last_commit=Move to the other line when press <- at head or -> at tail
+  29c16b30ce: |-
+    ruby 2.7.0dev (2019-05-27 trunk 29c16b30ce) [x86_64-linux]
+    last_commit=Add support for history with Reline backend
+  29c16b30ce --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 29c16b30ce) +JIT [x86_64-linux]
+    last_commit=Add support for history with Reline backend
+  c49796c930: |-
+    ruby 2.7.0dev (2019-05-27 trunk c49796c930) [x86_64-linux]
+    last_commit=Reline should move to next line after finished in Readline mode
+  c49796c930 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk c49796c930) +JIT [x86_64-linux]
+    last_commit=Reline should move to next line after finished in Readline mode
+  2805c55aa3: |-
+    ruby 2.7.0dev (2019-05-27 trunk 2805c55aa3) [x86_64-linux]
+    last_commit=Move to next of last line by ^C
+  2805c55aa3 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 2805c55aa3) +JIT [x86_64-linux]
+    last_commit=Move to next of last line by ^C
+  4e2c7783e3: |-
+    ruby 2.7.0dev (2019-05-27 trunk 4e2c7783e3) [x86_64-linux]
+    last_commit=Check blank history
+  4e2c7783e3 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 4e2c7783e3) +JIT [x86_64-linux]
+    last_commit=Check blank history
+  9c136f3dea: |-
+    ruby 2.7.0dev (2019-05-27 trunk 9c136f3dea) [x86_64-linux]
+    last_commit=Move to next of last line by ^D
+  9c136f3dea --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 9c136f3dea) +JIT [x86_64-linux]
+    last_commit=Move to next of last line by ^D
