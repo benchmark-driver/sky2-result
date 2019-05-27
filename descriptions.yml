@@ -9,24 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  a3a1199f41: ruby 2.7.0dev (2019-03-11 trunk 67221) [x86_64-linux]
-  a3a1199f41 --jit: ruby 2.7.0dev (2019-03-11 trunk 67221) +JIT [x86_64-linux]
-  e5d10cda07: ruby 2.7.0dev (2019-03-11 trunk 67224) [x86_64-linux]
-  e5d10cda07 --jit: ruby 2.7.0dev (2019-03-11 trunk 67224) +JIT [x86_64-linux]
-  60bddf589f: ruby 2.7.0dev (2019-03-12 trunk 67225) [x86_64-linux]
-  60bddf589f --jit: ruby 2.7.0dev (2019-03-12 trunk 67225) +JIT [x86_64-linux]
-  b6468b01f7: ruby 2.7.0dev (2019-03-12 trunk 67226) [x86_64-linux]
-  b6468b01f7 --jit: ruby 2.7.0dev (2019-03-12 trunk 67226) +JIT [x86_64-linux]
-  8952525a8e: ruby 2.7.0dev (2019-03-12 trunk 67227) [x86_64-linux]
-  8952525a8e --jit: ruby 2.7.0dev (2019-03-12 trunk 67227) +JIT [x86_64-linux]
-  8415df619e: ruby 2.7.0dev (2019-03-12 trunk 67243) [x86_64-linux]
-  8415df619e --jit: ruby 2.7.0dev (2019-03-12 trunk 67243) +JIT [x86_64-linux]
-  0d6910dfc8: ruby 2.7.0dev (2019-03-13 trunk 67244) [x86_64-linux]
-  0d6910dfc8 --jit: ruby 2.7.0dev (2019-03-13 trunk 67244) +JIT [x86_64-linux]
-  6a860ea006: ruby 2.7.0dev (2019-03-13 trunk 67247) [x86_64-linux]
-  6a860ea006 --jit: ruby 2.7.0dev (2019-03-13 trunk 67247) +JIT [x86_64-linux]
-  e20aa14a82: ruby 2.7.0dev (2019-03-14 trunk 67248) [x86_64-linux]
-  e20aa14a82 --jit: ruby 2.7.0dev (2019-03-14 trunk 67248) +JIT [x86_64-linux]
   86c5806c6a: ruby 2.7.0dev (2019-03-14 trunk 67249) [x86_64-linux]
   86c5806c6a --jit: ruby 2.7.0dev (2019-03-14 trunk 67249) +JIT [x86_64-linux]
   ccc933d4a6: ruby 2.7.0dev (2019-03-14 trunk 67250) [x86_64-linux]
@@ -2609,3 +2591,33 @@ commits:
   4c277364a5 --jit: |-
     ruby 2.7.0dev (2019-05-27 trunk 4c277364a5) +JIT [x86_64-linux]
     last_commit=CSI allows empty digit which equals 0
+  43730256e8: |-
+    ruby 2.7.0dev (2019-05-27 trunk 43730256e8) [x86_64-linux]
+    last_commit=open-uri: Regenerate server certificates for tests
+  43730256e8 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 43730256e8) +JIT [x86_64-linux]
+    last_commit=open-uri: Regenerate server certificates for tests
+  af17e111b3: |-
+    ruby 2.7.0dev (2019-05-27 trunk af17e111b3) [x86_64-linux]
+    last_commit=Added #inspect and #pretty_inspect to Ripper::Lexer::Elem
+  af17e111b3 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk af17e111b3) +JIT [x86_64-linux]
+    last_commit=Added #inspect and #pretty_inspect to Ripper::Lexer::Elem
+  ea6e284d86: |-
+    ruby 2.7.0dev (2019-05-27 trunk ea6e284d86) [x86_64-linux]
+    last_commit=parse.y: removed "parser_" prefix from tokadd_utf8
+  ea6e284d86 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk ea6e284d86) +JIT [x86_64-linux]
+    last_commit=parse.y: removed "parser_" prefix from tokadd_utf8
+  61da57c76a: |-
+    ruby 2.7.0dev (2019-05-27 trunk 61da57c76a) [x86_64-linux]
+    last_commit=is_pointer_to_heap() checks also tomb or not.
+  61da57c76a --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 61da57c76a) +JIT [x86_64-linux]
+    last_commit=is_pointer_to_heap() checks also tomb or not.
+  6c1a07555c: |-
+    ruby 2.7.0dev (2019-05-27 trunk 6c1a07555c) [x86_64-linux]
+    last_commit=fix GC.verify_internal_consistency.
+  6c1a07555c --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 6c1a07555c) +JIT [x86_64-linux]
+    last_commit=fix GC.verify_internal_consistency.
