@@ -2621,3 +2621,21 @@ commits:
   6c1a07555c --jit: |-
     ruby 2.7.0dev (2019-05-27 trunk 6c1a07555c) +JIT [x86_64-linux]
     last_commit=fix GC.verify_internal_consistency.
+  b3a6469e46: |-
+    ruby 2.7.0dev (2019-05-27 trunk b3a6469e46) [x86_64-linux]
+    last_commit=add a line break for each error message
+  b3a6469e46 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk b3a6469e46) +JIT [x86_64-linux]
+    last_commit=add a line break for each error message
+  35146c4368: |-
+    ruby 2.7.0dev (2019-05-27 trunk 35146c4368) [x86_64-linux]
+    last_commit=add a space between type and others
+  35146c4368 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk 35146c4368) +JIT [x86_64-linux]
+    last_commit=add a space between type and others
+  b3602f1d20: |-
+    ruby 2.7.0dev (2019-05-27 trunk b3602f1d20) [x86_64-linux]
+    last_commit=check the object is in tomb_heap.
+  b3602f1d20 --jit: |-
+    ruby 2.7.0dev (2019-05-27 trunk b3602f1d20) +JIT [x86_64-linux]
+    last_commit=check the object is in tomb_heap.

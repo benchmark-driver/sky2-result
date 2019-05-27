@@ -165,6 +165,8 @@ results:
     35caedc828: 3391551.351
     2a49a47956: 2770615.525
     27bab6a569: 2845276.221
+    df6a673ca5: 3372719.569
+    cb8eb37377: 3397382.175
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -329,6 +331,8 @@ results:
     35caedc828: 3322247.939
     2a49a47956: 3429159.658
     27bab6a569: 3327099.023
+    df6a673ca5: 3234164.364
+    cb8eb37377: 3360096.351
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -493,6 +497,8 @@ results:
     35caedc828: 1895937.035
     2a49a47956: 1912599.113
     27bab6a569: 1855244.214
+    df6a673ca5: 1871336.725
+    cb8eb37377: 1884776.112
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -657,6 +663,8 @@ results:
     35caedc828: 2745955.152
     2a49a47956: 2728384.446
     27bab6a569: 2771840.601
+    df6a673ca5: 2726222.025
+    cb8eb37377: 2643560.89
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -821,6 +829,8 @@ results:
     35caedc828: 3684493.423
     2a49a47956: 3631385.039
     27bab6a569: 3645280.33
+    df6a673ca5: 3628124.669
+    cb8eb37377: 3686593.959
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -985,6 +995,8 @@ results:
     35caedc828: 3619458.823
     2a49a47956: 3718925.86
     27bab6a569: 3527500.405
+    df6a673ca5: 3604381.544
+    cb8eb37377: 3542580.289
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1149,6 +1161,8 @@ results:
     35caedc828: 1962144.349
     2a49a47956: 2011426.514
     27bab6a569: 1944801.329
+    df6a673ca5: 1966721.596
+    cb8eb37377: 1989591.511
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -1313,3 +1327,5 @@ results:
     35caedc828: 2933150.812
     2a49a47956: 2903621.875
     27bab6a569: 2959027.897
+    df6a673ca5: 2932306.633
+    cb8eb37377: 2891478.858
