@@ -9,12 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  f044cc1042: ruby 2.7.0dev (2019-03-16 trunk 67271) [x86_64-linux]
-  f044cc1042 --jit: ruby 2.7.0dev (2019-03-16 trunk 67271) +JIT [x86_64-linux]
-  8ce6748fc8: ruby 2.7.0dev (2019-03-16 trunk 67272) [x86_64-linux]
-  8ce6748fc8 --jit: ruby 2.7.0dev (2019-03-16 trunk 67272) +JIT [x86_64-linux]
-  46a3b440fd: ruby 2.7.0dev (2019-03-16 trunk 67273) [x86_64-linux]
-  46a3b440fd --jit: ruby 2.7.0dev (2019-03-16 trunk 67273) +JIT [x86_64-linux]
   5b0bcb0b22: ruby 2.7.0dev (2019-03-17 trunk 67274) [x86_64-linux]
   5b0bcb0b22 --jit: ruby 2.7.0dev (2019-03-17 trunk 67274) +JIT [x86_64-linux]
   7fe77cbca9: ruby 2.7.0dev (2019-03-17 trunk 67275) [x86_64-linux]
@@ -2695,3 +2689,15 @@ commits:
   74c88e7cda --jit: |-
     ruby 2.7.0dev (2019-05-28 trunk 74c88e7cda) +JIT [x86_64-linux]
     last_commit=Fix reversed row and column get_screen_size on Windows
+  57b4df07bc: |-
+    ruby 2.7.0dev (2019-05-28 trunk 57b4df07bc) [x86_64-linux]
+    last_commit=Use Reline.completer_quote_characters to complete
+  57b4df07bc --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk 57b4df07bc) +JIT [x86_64-linux]
+    last_commit=Use Reline.completer_quote_characters to complete
+  1cdaa17a06: |-
+    ruby 2.7.0dev (2019-05-28 trunk 1cdaa17a06) [x86_64-linux]
+    last_commit=parse.y: numbered parameter symbol
+  1cdaa17a06 --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk 1cdaa17a06) +JIT [x86_64-linux]
+    last_commit=parse.y: numbered parameter symbol
