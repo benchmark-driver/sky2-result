@@ -9,40 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  5b0bcb0b22: ruby 2.7.0dev (2019-03-17 trunk 67274) [x86_64-linux]
-  5b0bcb0b22 --jit: ruby 2.7.0dev (2019-03-17 trunk 67274) +JIT [x86_64-linux]
-  7fe77cbca9: ruby 2.7.0dev (2019-03-17 trunk 67275) [x86_64-linux]
-  7fe77cbca9 --jit: ruby 2.7.0dev (2019-03-17 trunk 67275) +JIT [x86_64-linux]
-  407cd5cc54: ruby 2.7.0dev (2019-03-17 trunk 67276) [x86_64-linux]
-  407cd5cc54 --jit: ruby 2.7.0dev (2019-03-17 trunk 67276) +JIT [x86_64-linux]
-  0fa4a6a618: ruby 2.7.0dev (2019-03-17 trunk 67277) [x86_64-linux]
-  0fa4a6a618 --jit: ruby 2.7.0dev (2019-03-17 trunk 67277) +JIT [x86_64-linux]
-  12acc751e3: ruby 2.7.0dev (2019-03-17 trunk 67278) [x86_64-linux]
-  12acc751e3 --jit: ruby 2.7.0dev (2019-03-17 trunk 67278) +JIT [x86_64-linux]
-  46f5eb5b48: ruby 2.7.0dev (2019-03-17 trunk 67279) [x86_64-linux]
-  46f5eb5b48 --jit: ruby 2.7.0dev (2019-03-17 trunk 67279) +JIT [x86_64-linux]
-  d4b6198d8f: ruby 2.7.0dev (2019-03-17 trunk 67280) [x86_64-linux]
-  d4b6198d8f --jit: ruby 2.7.0dev (2019-03-17 trunk 67280) +JIT [x86_64-linux]
-  6b136a0442: ruby 2.7.0dev (2019-03-17 trunk 67281) [x86_64-linux]
-  6b136a0442 --jit: ruby 2.7.0dev (2019-03-17 trunk 67281) +JIT [x86_64-linux]
-  a72bc2e716: ruby 2.7.0dev (2019-03-17 trunk 67282) [x86_64-linux]
-  a72bc2e716 --jit: ruby 2.7.0dev (2019-03-17 trunk 67282) +JIT [x86_64-linux]
-  dfb9907cd3: ruby 2.7.0dev (2019-03-17 trunk 67283) [x86_64-linux]
-  dfb9907cd3 --jit: ruby 2.7.0dev (2019-03-17 trunk 67283) +JIT [x86_64-linux]
-  5bd1060341: ruby 2.7.0dev (2019-03-18 trunk 67284) [x86_64-linux]
-  5bd1060341 --jit: ruby 2.7.0dev (2019-03-18 trunk 67284) +JIT [x86_64-linux]
-  cebc640790: ruby 2.7.0dev (2019-03-18 trunk 67285) [x86_64-linux]
-  cebc640790 --jit: ruby 2.7.0dev (2019-03-18 trunk 67285) +JIT [x86_64-linux]
-  3fc26f6013: ruby 2.7.0dev (2019-03-18 trunk 67286) [x86_64-linux]
-  3fc26f6013 --jit: ruby 2.7.0dev (2019-03-18 trunk 67286) +JIT [x86_64-linux]
-  d86a1aa045: ruby 2.7.0dev (2019-03-18 trunk 67287) [x86_64-linux]
-  d86a1aa045 --jit: ruby 2.7.0dev (2019-03-18 trunk 67287) +JIT [x86_64-linux]
-  4161674b2f: ruby 2.7.0dev (2019-03-18 trunk 67288) [x86_64-linux]
-  4161674b2f --jit: ruby 2.7.0dev (2019-03-18 trunk 67288) +JIT [x86_64-linux]
-  d0e25ed277: ruby 2.7.0dev (2019-03-18 trunk 67289) [x86_64-linux]
-  d0e25ed277 --jit: ruby 2.7.0dev (2019-03-18 trunk 67289) +JIT [x86_64-linux]
-  ba03222da8: ruby 2.7.0dev (2019-03-18 trunk 67290) [x86_64-linux]
-  ba03222da8 --jit: ruby 2.7.0dev (2019-03-18 trunk 67290) +JIT [x86_64-linux]
   908b530112: ruby 2.7.0dev (2019-03-18 trunk 67291) [x86_64-linux]
   908b530112 --jit: ruby 2.7.0dev (2019-03-18 trunk 67291) +JIT [x86_64-linux]
   17018d4c31: ruby 2.7.0dev (2019-03-18 trunk 67292) [x86_64-linux]
@@ -2767,3 +2733,39 @@ commits:
   f3bddc103d --jit: |-
     ruby 2.7.0dev (2019-05-28 trunk f3bddc103d) +JIT [x86_64-linux]
     last_commit=use malloc() instead of calloc().
+  05bc14d81a: |-
+    ruby 2.7.0dev (2019-05-28 trunk 05bc14d81a) [x86_64-linux]
+    last_commit=Fix building with 1.8 BASERUBY
+  05bc14d81a --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk 05bc14d81a) +JIT [x86_64-linux]
+    last_commit=Fix building with 1.8 BASERUBY
+  40e175b390: |-
+    ruby 2.7.0dev (2019-05-28 trunk 40e175b390) [x86_64-linux]
+    last_commit=Clean a garbage [ci skip]
+  40e175b390 --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk 40e175b390) +JIT [x86_64-linux]
+    last_commit=Clean a garbage [ci skip]
+  62b3d4c721: |-
+    ruby 2.7.0dev (2019-05-28 trunk 62b3d4c721) [x86_64-linux]
+    last_commit=Skip following all digits after `@@`
+  62b3d4c721 --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk 62b3d4c721) +JIT [x86_64-linux]
+    last_commit=Skip following all digits after `@@`
+  d5f408403f: |-
+    ruby 2.7.0dev (2019-05-28 trunk d5f408403f) [x86_64-linux]
+    last_commit=Set read-only with attrib command
+  d5f408403f --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk d5f408403f) +JIT [x86_64-linux]
+    last_commit=Set read-only with attrib command
+  2562b7d7cd: |-
+    ruby 2.7.0dev (2019-05-28 trunk 2562b7d7cd) [x86_64-linux]
+    last_commit=Unify RELINE_TEST_ENCODING setting
+  2562b7d7cd --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk 2562b7d7cd) +JIT [x86_64-linux]
+    last_commit=Unify RELINE_TEST_ENCODING setting
+  8a2b497e3b: |-
+    ruby 2.7.0dev (2019-05-28 trunk 8a2b497e3b) [x86_64-linux]
+    last_commit=remove obsolete rb_gc_finalize_deferred().
+  8a2b497e3b --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk 8a2b497e3b) +JIT [x86_64-linux]
+    last_commit=remove obsolete rb_gc_finalize_deferred().
