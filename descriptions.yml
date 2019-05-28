@@ -2701,3 +2701,69 @@ commits:
   1cdaa17a06 --jit: |-
     ruby 2.7.0dev (2019-05-28 trunk 1cdaa17a06) +JIT [x86_64-linux]
     last_commit=parse.y: numbered parameter symbol
+  cf904d9f9f: |-
+    ruby 2.7.0dev (2019-05-28 trunk cf904d9f9f) [x86_64-linux]
+    last_commit=Avoid doubly building Travis and AppVeyor
+  cf904d9f9f --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk cf904d9f9f) +JIT [x86_64-linux]
+    last_commit=Avoid doubly building Travis and AppVeyor
+  ae2a904ce9: |-
+    ruby 2.7.0dev (2019-05-28 trunk ae2a904ce9) [x86_64-linux]
+    last_commit=Update the certificate files to make the test pass on Debian 10
+  ae2a904ce9 --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk ae2a904ce9) +JIT [x86_64-linux]
+    last_commit=Update the certificate files to make the test pass on Debian 10
+  165ddfda20: |-
+    ruby 2.7.0dev (2019-05-28 trunk 165ddfda20) [x86_64-linux]
+    last_commit=* remove trailing spaces.
+  165ddfda20 --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk 165ddfda20) +JIT [x86_64-linux]
+    last_commit=* remove trailing spaces.
+  fa7a768fdf: |-
+    ruby 2.7.0dev (2019-05-28 trunk fa7a768fdf) [x86_64-linux]
+    last_commit=Removed inconsistency file from upstream repository of rubygems.
+  fa7a768fdf --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk fa7a768fdf) +JIT [x86_64-linux]
+    last_commit=Removed inconsistency file from upstream repository of rubygems.
+  cfd839c140: |-
+    ruby 2.7.0dev (2019-05-28 trunk cfd839c140) [x86_64-linux]
+    last_commit=Suppress warning (uninitialized variable).
+  cfd839c140 --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk cfd839c140) +JIT [x86_64-linux]
+    last_commit=Suppress warning (uninitialized variable).
+  7f211bfe6c: |-
+    ruby 2.7.0dev (2019-05-28 trunk 7f211bfe6c) [x86_64-linux]
+    last_commit=use only eden_heaps on GC.compact.
+  7f211bfe6c --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk 7f211bfe6c) +JIT [x86_64-linux]
+    last_commit=use only eden_heaps on GC.compact.
+  ccfb12d76c: |-
+    ruby 2.7.0dev (2019-05-28 trunk ccfb12d76c) [x86_64-linux]
+    last_commit=Fix condition..."and" is lowest priority operator, than "="
+  ccfb12d76c --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk ccfb12d76c) +JIT [x86_64-linux]
+    last_commit=Fix condition..."and" is lowest priority operator, than "="
+  72333286c4: |-
+    ruby 2.7.0dev (2019-05-28 trunk 72333286c4) [x86_64-linux]
+    last_commit=Fix typos in Ripper::Lexer#inspect and Ripper::Lexer#pretty_print
+  72333286c4 --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk 72333286c4) +JIT [x86_64-linux]
+    last_commit=Fix typos in Ripper::Lexer#inspect and Ripper::Lexer#pretty_print
+  2229acaa54: |-
+    ruby 2.7.0dev (2019-05-28 trunk 2229acaa54) [x86_64-linux]
+    last_commit=should use heap_eden->total_pages.
+  2229acaa54 --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk 2229acaa54) +JIT [x86_64-linux]
+    last_commit=should use heap_eden->total_pages.
+  f9401d5d44: |-
+    ruby 2.7.0dev (2019-05-28 trunk f9401d5d44) [x86_64-linux]
+    last_commit=should skip T_ZOMBIE here.
+  f9401d5d44 --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk f9401d5d44) +JIT [x86_64-linux]
+    last_commit=should skip T_ZOMBIE here.
+  f3bddc103d: |-
+    ruby 2.7.0dev (2019-05-28 trunk f3bddc103d) [x86_64-linux]
+    last_commit=use malloc() instead of calloc().
+  f3bddc103d --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk f3bddc103d) +JIT [x86_64-linux]
+    last_commit=use malloc() instead of calloc().
