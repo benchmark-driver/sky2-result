@@ -9,34 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  4c41dc8945: ruby 2.7.0dev (2019-03-14 trunk 67252) [x86_64-linux]
-  4c41dc8945 --jit: ruby 2.7.0dev (2019-03-14 trunk 67252) +JIT [x86_64-linux]
-  277af37b42: ruby 2.7.0dev (2019-03-14 trunk 67253) [x86_64-linux]
-  277af37b42 --jit: ruby 2.7.0dev (2019-03-14 trunk 67253) +JIT [x86_64-linux]
-  9800fc26b0: ruby 2.7.0dev (2019-03-14 trunk 67254) [x86_64-linux]
-  9800fc26b0 --jit: ruby 2.7.0dev (2019-03-14 trunk 67254) +JIT [x86_64-linux]
-  146bb252a0: ruby 2.7.0dev (2019-03-14 trunk 67255) [x86_64-linux]
-  146bb252a0 --jit: ruby 2.7.0dev (2019-03-14 trunk 67255) +JIT [x86_64-linux]
-  3db2041f87: ruby 2.7.0dev (2019-03-14 trunk 67256) [x86_64-linux]
-  3db2041f87 --jit: ruby 2.7.0dev (2019-03-14 trunk 67256) +JIT [x86_64-linux]
-  4d6e202977: ruby 2.7.0dev (2019-03-14 trunk 67257) [x86_64-linux]
-  4d6e202977 --jit: ruby 2.7.0dev (2019-03-14 trunk 67257) +JIT [x86_64-linux]
-  9e7f197c8e: ruby 2.7.0dev (2019-03-14 trunk 67261) [x86_64-linux]
-  9e7f197c8e --jit: ruby 2.7.0dev (2019-03-14 trunk 67261) +JIT [x86_64-linux]
-  bf4bcaf061: ruby 2.7.0dev (2019-03-15 trunk 67262) [x86_64-linux]
-  bf4bcaf061 --jit: ruby 2.7.0dev (2019-03-15 trunk 67262) +JIT [x86_64-linux]
-  3134b20a01: ruby 2.7.0dev (2019-03-15 trunk 67264) [x86_64-linux]
-  3134b20a01 --jit: ruby 2.7.0dev (2019-03-15 trunk 67264) +JIT [x86_64-linux]
-  560bb32fb2: ruby 2.7.0dev (2019-03-15 trunk 67265) [x86_64-linux]
-  560bb32fb2 --jit: ruby 2.7.0dev (2019-03-15 trunk 67265) +JIT [x86_64-linux]
-  c36a6f97f2: ruby 2.7.0dev (2019-03-15 trunk 67266) [x86_64-linux]
-  c36a6f97f2 --jit: ruby 2.7.0dev (2019-03-15 trunk 67266) +JIT [x86_64-linux]
-  d4f7fac6b8: ruby 2.7.0dev (2019-03-15 trunk 67267) [x86_64-linux]
-  d4f7fac6b8 --jit: ruby 2.7.0dev (2019-03-15 trunk 67267) +JIT [x86_64-linux]
-  e4c184c6ae: ruby 2.7.0dev (2019-03-15 trunk 67269) [x86_64-linux]
-  e4c184c6ae --jit: ruby 2.7.0dev (2019-03-15 trunk 67269) +JIT [x86_64-linux]
-  7006fdecf2: ruby 2.7.0dev (2019-03-15 trunk 67270) [x86_64-linux]
-  7006fdecf2 --jit: ruby 2.7.0dev (2019-03-15 trunk 67270) +JIT [x86_64-linux]
   f044cc1042: ruby 2.7.0dev (2019-03-16 trunk 67271) [x86_64-linux]
   f044cc1042 --jit: ruby 2.7.0dev (2019-03-16 trunk 67271) +JIT [x86_64-linux]
   8ce6748fc8: ruby 2.7.0dev (2019-03-16 trunk 67272) [x86_64-linux]
@@ -2681,3 +2653,45 @@ commits:
   b2b5ed1410 --jit: |-
     ruby 2.7.0dev (2019-05-28 trunk b2b5ed1410) +JIT [x86_64-linux]
     last_commit=Supress duplicated warning
+  69c7ad1723: |-
+    ruby 2.7.0dev (2019-05-28 trunk 69c7ad1723) [x86_64-linux]
+    last_commit=Exit only when blank input
+  69c7ad1723 --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk 69c7ad1723) +JIT [x86_64-linux]
+    last_commit=Exit only when blank input
+  7447c7b651: |-
+    ruby 2.7.0dev (2019-05-28 trunk 7447c7b651) [x86_64-linux]
+    last_commit=Join next line if deletes newline at end of line
+  7447c7b651 --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk 7447c7b651) +JIT [x86_64-linux]
+    last_commit=Join next line if deletes newline at end of line
+  5e275dd2af: |-
+    ruby 2.7.0dev (2019-05-28 trunk 5e275dd2af) [x86_64-linux]
+    last_commit=Treat :@1, :@@1, @1, and @@1 correctly to check termination
+  5e275dd2af --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk 5e275dd2af) +JIT [x86_64-linux]
+    last_commit=Treat :@1, :@@1, @1, and @@1 correctly to check termination
+  d5682eb939: |-
+    ruby 2.7.0dev (2019-05-28 trunk d5682eb939) [x86_64-linux]
+    last_commit=Remove unused variable from IRB::InputCompletor
+  d5682eb939 --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk d5682eb939) +JIT [x86_64-linux]
+    last_commit=Remove unused variable from IRB::InputCompletor
+  8b135cc875: |-
+    ruby 2.7.0dev (2019-05-28 trunk 8b135cc875) [x86_64-linux]
+    last_commit=Use VK_MENU instead of VK_LMENU to check ALT on Windows
+  8b135cc875 --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk 8b135cc875) +JIT [x86_64-linux]
+    last_commit=Use VK_MENU instead of VK_LMENU to check ALT on Windows
+  f6b62d8fe7: |-
+    ruby 2.7.0dev (2019-05-28 trunk f6b62d8fe7) [x86_64-linux]
+    last_commit=Use Shift+Enter as Meta+Enter on Windows
+  f6b62d8fe7 --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk f6b62d8fe7) +JIT [x86_64-linux]
+    last_commit=Use Shift+Enter as Meta+Enter on Windows
+  74c88e7cda: |-
+    ruby 2.7.0dev (2019-05-28 trunk 74c88e7cda) [x86_64-linux]
+    last_commit=Fix reversed row and column get_screen_size on Windows
+  74c88e7cda --jit: |-
+    ruby 2.7.0dev (2019-05-28 trunk 74c88e7cda) +JIT [x86_64-linux]
+    last_commit=Fix reversed row and column get_screen_size on Windows
