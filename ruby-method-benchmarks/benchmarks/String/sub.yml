@@ -186,6 +186,8 @@ results:
     a2429de63c: 3493826.987
     91557d0c52: 2895040.548
     83fc324d1d: 3471516.408
+    9c9db64d7e: 3433060.953
+    3211a0a1e8: 3489276.976
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -371,6 +373,8 @@ results:
     a2429de63c: 3399742.901
     91557d0c52: 3357674.101
     83fc324d1d: 3448188.755
+    9c9db64d7e: 3355222.823
+    3211a0a1e8: 3411857.99
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -556,6 +560,8 @@ results:
     a2429de63c: 1953525.125
     91557d0c52: 1869493.531
     83fc324d1d: 1890952.872
+    9c9db64d7e: 1857394.08
+    3211a0a1e8: 1904766.011
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -741,6 +747,8 @@ results:
     a2429de63c: 2852799.648
     91557d0c52: 2749074.834
     83fc324d1d: 2595175.305
+    9c9db64d7e: 2766220.917
+    3211a0a1e8: 2798662.738
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -926,6 +934,8 @@ results:
     a2429de63c: 3768551.617
     91557d0c52: 3688277.903
     83fc324d1d: 3730633.521
+    9c9db64d7e: 3709060.422
+    3211a0a1e8: 3778042.306
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1111,6 +1121,8 @@ results:
     a2429de63c: 3684802.353
     91557d0c52: 3657226.911
     83fc324d1d: 3746860.412
+    9c9db64d7e: 3674221.903
+    3211a0a1e8: 3693455.136
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1296,6 +1308,8 @@ results:
     a2429de63c: 1978816.692
     91557d0c52: 1875124.648
     83fc324d1d: 2005734.489
+    9c9db64d7e: 1954707.175
+    3211a0a1e8: 1984449.933
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -1481,3 +1495,5 @@ results:
     a2429de63c: 3005434.236
     91557d0c52: 2928625.717
     83fc324d1d: 2884191.236
+    9c9db64d7e: 2766604.326
+    3211a0a1e8: 2876118.673

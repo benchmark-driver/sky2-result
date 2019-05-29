@@ -2853,3 +2853,33 @@ commits:
   f60a59ed20 --jit: |-
     ruby 2.7.0dev (2019-05-29 trunk f60a59ed20) +JIT [x86_64-linux]
     last_commit=appveyor.yml - update for msys2  - pdcurses, force toolchain
+  c86d1fbed5: |-
+    ruby 2.7.0dev (2019-05-29 trunk c86d1fbed5) [x86_64-linux]
+    last_commit=Create empty revision.tmp if no BASERUBY
+  c86d1fbed5 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk c86d1fbed5) +JIT [x86_64-linux]
+    last_commit=Create empty revision.tmp if no BASERUBY
+  3f13297923: |-
+    ruby 2.7.0dev (2019-05-29 trunk 3f13297923) [x86_64-linux]
+    last_commit=Remove extra items because Reline::HISTORY is a sized queue
+  3f13297923 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 3f13297923) +JIT [x86_64-linux]
+    last_commit=Remove extra items because Reline::HISTORY is a sized queue
+  34fe1f7d71: |-
+    ruby 2.7.0dev (2019-05-29 trunk 34fe1f7d71) [x86_64-linux]
+    last_commit=Create empty revision.tmp if BASERUBY is not yes
+  34fe1f7d71 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 34fe1f7d71) +JIT [x86_64-linux]
+    last_commit=Create empty revision.tmp if BASERUBY is not yes
+  c7f3c222c9: |-
+    ruby 2.7.0dev (2019-05-29 trunk c7f3c222c9) [x86_64-linux]
+    last_commit=Colorize error part more
+  c7f3c222c9 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk c7f3c222c9) +JIT [x86_64-linux]
+    last_commit=Colorize error part more
+  8187ffa461: |-
+    ruby 2.7.0dev (2019-05-29 trunk 8187ffa461) [x86_64-linux]
+    last_commit=Revert "Colorize error part more"
+  8187ffa461 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 8187ffa461) +JIT [x86_64-linux]
+    last_commit=Revert "Colorize error part more"
