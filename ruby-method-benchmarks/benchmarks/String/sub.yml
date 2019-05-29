@@ -190,6 +190,8 @@ results:
     3211a0a1e8: 3489276.976
     1aa05fddd8: 3291280.953
     e83f10b368: 3364650.582
+    3ef4db15e9: 3457802.124
+    13f58eccda: 3379484.231
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -379,6 +381,8 @@ results:
     3211a0a1e8: 3411857.99
     1aa05fddd8: 2878186.469
     e83f10b368: 3333728.11
+    3ef4db15e9: 3410334.491
+    13f58eccda: 3338045.385
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -568,6 +572,8 @@ results:
     3211a0a1e8: 1904766.011
     1aa05fddd8: 1931002.596
     e83f10b368: 1832350.986
+    3ef4db15e9: 1892624.661
+    13f58eccda: 1842420.224
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -757,6 +763,8 @@ results:
     3211a0a1e8: 2798662.738
     1aa05fddd8: 2775073.625
     e83f10b368: 2740870.902
+    3ef4db15e9: 2800852.403
+    13f58eccda: 2777204.205
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -946,6 +954,8 @@ results:
     3211a0a1e8: 3778042.306
     1aa05fddd8: 3635423.273
     e83f10b368: 3630643.922
+    3ef4db15e9: 3694346.402
+    13f58eccda: 3525713.262
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1135,6 +1145,8 @@ results:
     3211a0a1e8: 3693455.136
     1aa05fddd8: 3404853.916
     e83f10b368: 3543115.073
+    3ef4db15e9: 3567717.862
+    13f58eccda: 3590727.23
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1324,6 +1336,8 @@ results:
     3211a0a1e8: 1984449.933
     1aa05fddd8: 2017957.855
     e83f10b368: 1947957.875
+    3ef4db15e9: 2018134.766
+    13f58eccda: 1981062.991
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -1513,3 +1527,5 @@ results:
     3211a0a1e8: 2876118.673
     1aa05fddd8: 2502467.645
     e83f10b368: 2931721.576
+    3ef4db15e9: 2969112.445
+    13f58eccda: 2850732.925

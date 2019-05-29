@@ -2901,3 +2901,33 @@ commits:
   1a0c3d8dd6 --jit: |-
     ruby 2.7.0dev (2019-05-29 trunk 1a0c3d8dd6) +JIT [x86_64-linux]
     last_commit=Convert Enumerator to Array for Ruby 1.9.3
+  468b475e61: |-
+    ruby 2.7.0dev (2019-05-29 trunk 468b475e61) [x86_64-linux]
+    last_commit=.travis.yml: Minor reorder for shortening
+  468b475e61 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 468b475e61) +JIT [x86_64-linux]
+    last_commit=.travis.yml: Minor reorder for shortening
+  ce7b1132c5: |-
+    ruby 2.7.0dev (2019-05-29 trunk ce7b1132c5) [x86_64-linux]
+    last_commit=Do not call FIX2INT while GC.compact may be running
+  ce7b1132c5 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk ce7b1132c5) +JIT [x86_64-linux]
+    last_commit=Do not call FIX2INT while GC.compact may be running
+  7c0639f3f8: |-
+    ruby 2.7.0dev (2019-05-29 trunk 7c0639f3f8) [x86_64-linux]
+    last_commit=Never make a method call from MJIT worker
+  7c0639f3f8 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 7c0639f3f8) +JIT [x86_64-linux]
+    last_commit=Never make a method call from MJIT worker
+  5ceff480c2: |-
+    ruby 2.7.0dev (2019-05-29 trunk 5ceff480c2) [x86_64-linux]
+    last_commit=ripper: Ripper::Lexer#scan
+  5ceff480c2 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 5ceff480c2) +JIT [x86_64-linux]
+    last_commit=ripper: Ripper::Lexer#scan
+  fafcbe0eb0: |-
+    ruby 2.7.0dev (2019-05-29 trunk fafcbe0eb0) [x86_64-linux]
+    last_commit=Use reversed get_screen_size correctly on Windows
+  fafcbe0eb0 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk fafcbe0eb0) +JIT [x86_64-linux]
+    last_commit=Use reversed get_screen_size correctly on Windows
