@@ -9,12 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  908b530112: ruby 2.7.0dev (2019-03-18 trunk 67291) [x86_64-linux]
-  908b530112 --jit: ruby 2.7.0dev (2019-03-18 trunk 67291) +JIT [x86_64-linux]
-  17018d4c31: ruby 2.7.0dev (2019-03-18 trunk 67292) [x86_64-linux]
-  17018d4c31 --jit: ruby 2.7.0dev (2019-03-18 trunk 67292) +JIT [x86_64-linux]
-  c1dce92373: ruby 2.7.0dev (2019-03-18 trunk 67293) [x86_64-linux]
-  c1dce92373 --jit: ruby 2.7.0dev (2019-03-18 trunk 67293) +JIT [x86_64-linux]
   f9e5b8d09c: ruby 2.7.0dev (2019-03-18 trunk 67294) [x86_64-linux]
   f9e5b8d09c --jit: ruby 2.7.0dev (2019-03-18 trunk 67294) +JIT [x86_64-linux]
   964bbc1686: ruby 2.7.0dev (2019-03-18 trunk 67295) [x86_64-linux]
@@ -2787,3 +2781,39 @@ commits:
   abd556958d --jit: |-
     ruby 2.7.0dev (2019-05-29 trunk abd556958d) +JIT [x86_64-linux]
     last_commit=* 2019-05-29
+  462a63c39e: |-
+    ruby 2.7.0dev (2019-05-29 trunk 462a63c39e) [x86_64-linux]
+    last_commit=Drop MJIT debug code from GC.compact
+  462a63c39e --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 462a63c39e) +JIT [x86_64-linux]
+    last_commit=Drop MJIT debug code from GC.compact
+  d070523e7b: |-
+    ruby 2.7.0dev (2019-05-29 trunk d070523e7b) [x86_64-linux]
+    last_commit=Drop unused Travis config: universal-darwin17
+  d070523e7b --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk d070523e7b) +JIT [x86_64-linux]
+    last_commit=Drop unused Travis config: universal-darwin17
+  a66bc2c011: |-
+    ruby 2.7.0dev (2019-05-29 trunk a66bc2c011) [x86_64-linux]
+    last_commit=Update to ruby/spec@9a501a8
+  a66bc2c011 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk a66bc2c011) +JIT [x86_64-linux]
+    last_commit=Update to ruby/spec@9a501a8
+  3b7862c8e8: |-
+    ruby 2.7.0dev (2019-05-29 trunk 3b7862c8e8) [x86_64-linux]
+    last_commit=Use existing instances for LineEditor and Config
+  3b7862c8e8 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 3b7862c8e8) +JIT [x86_64-linux]
+    last_commit=Use existing instances for LineEditor and Config
+  c67934b1c3: |-
+    ruby 2.7.0dev (2019-05-29 trunk c67934b1c3) [x86_64-linux]
+    last_commit=Remove extra items because Reline::HISTORY is a sized queue
+  c67934b1c3 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk c67934b1c3) +JIT [x86_64-linux]
+    last_commit=Remove extra items because Reline::HISTORY is a sized queue
+  91f5a8db59: |-
+    ruby 2.7.0dev (2019-05-29 trunk 91f5a8db59) [x86_64-linux]
+    last_commit=Update to ruby/spec@0c5c5c1
+  91f5a8db59 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 91f5a8db59) +JIT [x86_64-linux]
+    last_commit=Update to ruby/spec@0c5c5c1
