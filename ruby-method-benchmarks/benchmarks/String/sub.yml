@@ -194,6 +194,8 @@ results:
     13f58eccda: 3379484.231
     830e40ee05: 3353568.289
     e377eb0e75: 3419957.495
+    c137f015ab: 3491135.639
+    d835ed4df1: 3404470.642
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -387,6 +389,8 @@ results:
     13f58eccda: 3338045.385
     830e40ee05: 3357791.915
     e377eb0e75: 3486755.205
+    c137f015ab: 3353308.939
+    d835ed4df1: 3372572.88
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -580,6 +584,8 @@ results:
     13f58eccda: 1842420.224
     830e40ee05: 1884466.756
     e377eb0e75: 1827274.765
+    c137f015ab: 1889643.67
+    d835ed4df1: 1871433.599
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -773,6 +779,8 @@ results:
     13f58eccda: 2777204.205
     830e40ee05: 2714821.581
     e377eb0e75: 2843972.381
+    c137f015ab: 2748115.589
+    d835ed4df1: 2586346.159
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -966,6 +974,8 @@ results:
     13f58eccda: 3525713.262
     830e40ee05: 3616953.219
     e377eb0e75: 3746996.702
+    c137f015ab: 3772449.35
+    d835ed4df1: 3694493.329
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1159,6 +1169,8 @@ results:
     13f58eccda: 3590727.23
     830e40ee05: 3616608.995
     e377eb0e75: 3718715.727
+    c137f015ab: 3651537.013
+    d835ed4df1: 3649110.393
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1352,6 +1364,8 @@ results:
     13f58eccda: 1981062.991
     830e40ee05: 1903717.083
     e377eb0e75: 2021940.774
+    c137f015ab: 2001391.954
+    d835ed4df1: 1985261.353
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -1545,3 +1559,5 @@ results:
     13f58eccda: 2850732.925
     830e40ee05: 2839064.325
     e377eb0e75: 3008526.848
+    c137f015ab: 2964974.475
+    d835ed4df1: 2895121.65
