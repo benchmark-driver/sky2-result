@@ -9,42 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  f9e5b8d09c: ruby 2.7.0dev (2019-03-18 trunk 67294) [x86_64-linux]
-  f9e5b8d09c --jit: ruby 2.7.0dev (2019-03-18 trunk 67294) +JIT [x86_64-linux]
-  964bbc1686: ruby 2.7.0dev (2019-03-18 trunk 67295) [x86_64-linux]
-  964bbc1686 --jit: ruby 2.7.0dev (2019-03-18 trunk 67295) +JIT [x86_64-linux]
-  ba51ae0109: ruby 2.7.0dev (2019-03-18 trunk 67296) [x86_64-linux]
-  ba51ae0109 --jit: ruby 2.7.0dev (2019-03-18 trunk 67296) +JIT [x86_64-linux]
-  78e87b7d4f: ruby 2.7.0dev (2019-03-18 trunk 67297) [x86_64-linux]
-  78e87b7d4f --jit: ruby 2.7.0dev (2019-03-18 trunk 67297) +JIT [x86_64-linux]
-  '08e9c58d51': ruby 2.7.0dev (2019-03-19 trunk 67298) [x86_64-linux]
-  '08e9c58d51 --jit': ruby 2.7.0dev (2019-03-19 trunk 67298) +JIT [x86_64-linux]
-  4d426e28d2: ruby 2.7.0dev (2019-03-19 trunk 67299) [x86_64-linux]
-  4d426e28d2 --jit: ruby 2.7.0dev (2019-03-19 trunk 67299) +JIT [x86_64-linux]
-  a75ae6faa9: ruby 2.7.0dev (2019-03-19 trunk 67300) [x86_64-linux]
-  a75ae6faa9 --jit: ruby 2.7.0dev (2019-03-19 trunk 67300) +JIT [x86_64-linux]
-  8b1241d877: ruby 2.7.0dev (2019-03-19 trunk 67301) [x86_64-linux]
-  8b1241d877 --jit: ruby 2.7.0dev (2019-03-19 trunk 67301) +JIT [x86_64-linux]
-  92b0331bcf: ruby 2.7.0dev (2019-03-19 trunk 67302) [x86_64-linux]
-  92b0331bcf --jit: ruby 2.7.0dev (2019-03-19 trunk 67302) +JIT [x86_64-linux]
-  ae5d9a7664: ruby 2.7.0dev (2019-03-19 trunk 67304) [x86_64-linux]
-  ae5d9a7664 --jit: ruby 2.7.0dev (2019-03-19 trunk 67304) +JIT [x86_64-linux]
-  e39f7e64b7: ruby 2.7.0dev (2019-03-19 trunk 67305) [x86_64-linux]
-  e39f7e64b7 --jit: ruby 2.7.0dev (2019-03-19 trunk 67305) +JIT [x86_64-linux]
-  fa66569afa: ruby 2.7.0dev (2019-03-19 trunk 67306) [x86_64-linux]
-  fa66569afa --jit: ruby 2.7.0dev (2019-03-19 trunk 67306) +JIT [x86_64-linux]
-  afa1505ca8: ruby 2.7.0dev (2019-03-19 trunk 67307) [x86_64-linux]
-  afa1505ca8 --jit: ruby 2.7.0dev (2019-03-19 trunk 67307) +JIT [x86_64-linux]
-  740248425c: ruby 2.7.0dev (2019-03-19 trunk 67308) [x86_64-linux]
-  740248425c --jit: ruby 2.7.0dev (2019-03-19 trunk 67308) +JIT [x86_64-linux]
-  eee58ca611: ruby 2.7.0dev (2019-03-20 trunk 67309) [x86_64-linux]
-  eee58ca611 --jit: ruby 2.7.0dev (2019-03-20 trunk 67309) +JIT [x86_64-linux]
-  a265141c84: ruby 2.7.0dev (2019-03-20 trunk 67310) [x86_64-linux]
-  a265141c84 --jit: ruby 2.7.0dev (2019-03-20 trunk 67310) +JIT [x86_64-linux]
-  8b49e5b47d: ruby 2.7.0dev (2019-03-20 trunk 67311) [x86_64-linux]
-  8b49e5b47d --jit: ruby 2.7.0dev (2019-03-20 trunk 67311) +JIT [x86_64-linux]
-  46968fab0a: ruby 2.7.0dev (2019-03-20 trunk 67312) [x86_64-linux]
-  46968fab0a --jit: ruby 2.7.0dev (2019-03-20 trunk 67312) +JIT [x86_64-linux]
   b55586902d: ruby 2.7.0dev (2019-03-20 trunk 67313) [x86_64-linux]
   b55586902d --jit: ruby 2.7.0dev (2019-03-20 trunk 67313) +JIT [x86_64-linux]
   139634a16f: ruby 2.7.0dev (2019-03-20 trunk 67314) [x86_64-linux]
@@ -2817,3 +2781,75 @@ commits:
   91f5a8db59 --jit: |-
     ruby 2.7.0dev (2019-05-29 trunk 91f5a8db59) +JIT [x86_64-linux]
     last_commit=Update to ruby/spec@0c5c5c1
+  3e54ff67e6: |-
+    ruby 2.7.0dev (2019-05-29 trunk 3e54ff67e6) [x86_64-linux]
+    last_commit=Test BASERUBY: Ruby 1.9.3 on Travis
+  3e54ff67e6 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 3e54ff67e6) +JIT [x86_64-linux]
+    last_commit=Test BASERUBY: Ruby 1.9.3 on Travis
+  d390af3686: |-
+    ruby 2.7.0dev (2019-05-29 trunk d390af3686) [x86_64-linux]
+    last_commit=Encode completed strings corecctly
+  d390af3686 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk d390af3686) +JIT [x86_64-linux]
+    last_commit=Encode completed strings corecctly
+  d341bb2857: |-
+    ruby 2.7.0dev (2019-05-29 trunk d341bb2857) [x86_64-linux]
+    last_commit=IRB never show RubyVM's doc
+  d341bb2857 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk d341bb2857) +JIT [x86_64-linux]
+    last_commit=IRB never show RubyVM's doc
+  a4a682c450: |-
+    ruby 2.7.0dev (2019-05-29 trunk a4a682c450) [x86_64-linux]
+    last_commit=Check RUBY_YES_I_AM_NOT_A_NORMAL_USER env to access RubyVM doc
+  a4a682c450 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk a4a682c450) +JIT [x86_64-linux]
+    last_commit=Check RUBY_YES_I_AM_NOT_A_NORMAL_USER env to access RubyVM doc
+  8d83743170: |-
+    ruby 2.7.0dev (2019-05-29 trunk 8d83743170) [x86_64-linux]
+    last_commit=Use IO.copy_stream
+  8d83743170 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 8d83743170) +JIT [x86_64-linux]
+    last_commit=Use IO.copy_stream
+  67f75d5b43: |-
+    ruby 2.7.0dev (2019-05-29 trunk 67f75d5b43) [x86_64-linux]
+    last_commit=Add TESTOPTS=-v for Wercker test-all --jit-wait
+  67f75d5b43 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 67f75d5b43) +JIT [x86_64-linux]
+    last_commit=Add TESTOPTS=-v for Wercker test-all --jit-wait
+  f0d1dc5cee: |-
+    ruby 2.7.0dev (2019-05-29 trunk f0d1dc5cee) [x86_64-linux]
+    last_commit=Skip a reline test hanging on Wercker since 3b7862c8e8
+  f0d1dc5cee --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk f0d1dc5cee) +JIT [x86_64-linux]
+    last_commit=Skip a reline test hanging on Wercker since 3b7862c8e8
+  e1f62d7f0e: |-
+    ruby 2.7.0dev (2019-05-29 trunk e1f62d7f0e) [x86_64-linux]
+    last_commit=Check the result of file2lastrev.rb if HAVE_BASERUBY
+  e1f62d7f0e --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk e1f62d7f0e) +JIT [x86_64-linux]
+    last_commit=Check the result of file2lastrev.rb if HAVE_BASERUBY
+  6b5e712361: |-
+    ruby 2.7.0dev (2019-05-29 trunk 6b5e712361) [x86_64-linux]
+    last_commit=Make tool/vcs.rb compliant to BASERUBY
+  6b5e712361 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 6b5e712361) +JIT [x86_64-linux]
+    last_commit=Make tool/vcs.rb compliant to BASERUBY
+  797d7efde1: |-
+    ruby 2.7.0dev (2019-05-29 trunk 797d7efde1) [x86_64-linux]
+    last_commit=Prevent MJIT compilation from running while moving
+  797d7efde1 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 797d7efde1) +JIT [x86_64-linux]
+    last_commit=Prevent MJIT compilation from running while moving
+  98ba116d40: |-
+    ruby 2.7.0dev (2019-05-29 trunk 98ba116d40) [x86_64-linux]
+    last_commit=Revert 3b7862c8e88cd7838a53ec083ac5733386400956 causing various CI hangs
+  98ba116d40 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 98ba116d40) +JIT [x86_64-linux]
+    last_commit=Revert 3b7862c8e88cd7838a53ec083ac5733386400956 causing various CI hangs
+  f60a59ed20: |-
+    ruby 2.7.0dev (2019-05-29 trunk f60a59ed20) [x86_64-linux]
+    last_commit=appveyor.yml - update for msys2  - pdcurses, force toolchain
+  f60a59ed20 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk f60a59ed20) +JIT [x86_64-linux]
+    last_commit=appveyor.yml - update for msys2  - pdcurses, force toolchain
