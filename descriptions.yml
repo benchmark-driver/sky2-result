@@ -9,26 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  b8540a3c2e: ruby 2.7.0dev (2019-03-21 trunk 67325) [x86_64-linux]
-  b8540a3c2e --jit: ruby 2.7.0dev (2019-03-21 trunk 67325) +JIT [x86_64-linux]
-  e1038377a9: ruby 2.7.0dev (2019-03-21 trunk 67326) [x86_64-linux]
-  e1038377a9 --jit: ruby 2.7.0dev (2019-03-21 trunk 67326) +JIT [x86_64-linux]
-  3c4b7898d8: ruby 2.7.0dev (2019-03-21 trunk 67327) [x86_64-linux]
-  3c4b7898d8 --jit: ruby 2.7.0dev (2019-03-21 trunk 67327) +JIT [x86_64-linux]
-  a8695d5022: ruby 2.7.0dev (2019-03-21 trunk 67328) [x86_64-linux]
-  a8695d5022 --jit: ruby 2.7.0dev (2019-03-21 trunk 67328) +JIT [x86_64-linux]
-  52bd8f6f68: ruby 2.7.0dev (2019-03-21 trunk 67329) [x86_64-linux]
-  52bd8f6f68 --jit: ruby 2.7.0dev (2019-03-21 trunk 67329) +JIT [x86_64-linux]
-  969156ce9a: ruby 2.7.0dev (2019-03-21 trunk 67330) [x86_64-linux]
-  969156ce9a --jit: ruby 2.7.0dev (2019-03-21 trunk 67330) +JIT [x86_64-linux]
-  638c968582: ruby 2.7.0dev (2019-03-21 trunk 67331) [x86_64-linux]
-  638c968582 --jit: ruby 2.7.0dev (2019-03-21 trunk 67331) +JIT [x86_64-linux]
-  0f63d96116: ruby 2.7.0dev (2019-03-21 trunk 67332) [x86_64-linux]
-  0f63d96116 --jit: ruby 2.7.0dev (2019-03-21 trunk 67332) +JIT [x86_64-linux]
-  79ddbe9dee: ruby 2.7.0dev (2019-03-21 trunk 67333) [x86_64-linux]
-  79ddbe9dee --jit: ruby 2.7.0dev (2019-03-21 trunk 67333) +JIT [x86_64-linux]
-  a433f2c51b: ruby 2.7.0dev (2019-03-21 trunk 67334) [x86_64-linux]
-  a433f2c51b --jit: ruby 2.7.0dev (2019-03-21 trunk 67334) +JIT [x86_64-linux]
   4d2bac1fd9: ruby 2.7.0dev (2019-03-22 trunk 67335) [x86_64-linux]
   4d2bac1fd9 --jit: ruby 2.7.0dev (2019-03-22 trunk 67335) +JIT [x86_64-linux]
   c671f836b4: ruby 2.7.0dev (2019-03-22 trunk 67336) [x86_64-linux]
@@ -2931,3 +2911,33 @@ commits:
   fafcbe0eb0 --jit: |-
     ruby 2.7.0dev (2019-05-29 trunk fafcbe0eb0) +JIT [x86_64-linux]
     last_commit=Use reversed get_screen_size correctly on Windows
+  ab7a6e1a16: |-
+    ruby 2.7.0dev (2019-05-29 trunk ab7a6e1a16) [x86_64-linux]
+    last_commit=Use "require" just for essential
+  ab7a6e1a16 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk ab7a6e1a16) +JIT [x86_64-linux]
+    last_commit=Use "require" just for essential
+  83e905eb4e: |-
+    ruby 2.7.0dev (2019-05-29 trunk 83e905eb4e) [x86_64-linux]
+    last_commit=Revert "Use "require" just for essential"
+  83e905eb4e --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 83e905eb4e) +JIT [x86_64-linux]
+    last_commit=Revert "Use "require" just for essential"
+  1da5c73932: |-
+    ruby 2.7.0dev (2019-05-29 trunk 1da5c73932) [x86_64-linux]
+    last_commit=parse.y: fix state after ivar/cvar
+  1da5c73932 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 1da5c73932) +JIT [x86_64-linux]
+    last_commit=parse.y: fix state after ivar/cvar
+  12644e8b02: |-
+    ruby 2.7.0dev (2019-05-29 trunk 12644e8b02) [x86_64-linux]
+    last_commit=Get rid of nested string interpolations
+  12644e8b02 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 12644e8b02) +JIT [x86_64-linux]
+    last_commit=Get rid of nested string interpolations
+  5b64d7ac6e: |-
+    ruby 2.7.0dev (2019-05-29 trunk 5b64d7ac6e) [x86_64-linux]
+    last_commit=Colorize errors more
+  5b64d7ac6e --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 5b64d7ac6e) +JIT [x86_64-linux]
+    last_commit=Colorize errors more
