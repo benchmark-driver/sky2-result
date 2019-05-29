@@ -9,30 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  b55586902d: ruby 2.7.0dev (2019-03-20 trunk 67313) [x86_64-linux]
-  b55586902d --jit: ruby 2.7.0dev (2019-03-20 trunk 67313) +JIT [x86_64-linux]
-  139634a16f: ruby 2.7.0dev (2019-03-20 trunk 67314) [x86_64-linux]
-  139634a16f --jit: ruby 2.7.0dev (2019-03-20 trunk 67314) +JIT [x86_64-linux]
-  24e03d7e26: ruby 2.7.0dev (2019-03-20 trunk 67315) [x86_64-linux]
-  24e03d7e26 --jit: ruby 2.7.0dev (2019-03-20 trunk 67315) +JIT [x86_64-linux]
-  5c439ebfb0: ruby 2.7.0dev (2019-03-20 trunk 67316) [x86_64-linux]
-  5c439ebfb0 --jit: ruby 2.7.0dev (2019-03-20 trunk 67316) +JIT [x86_64-linux]
-  02df0f38df: ruby 2.7.0dev (2019-03-21 trunk 67317) [x86_64-linux]
-  02df0f38df --jit: ruby 2.7.0dev (2019-03-21 trunk 67317) +JIT [x86_64-linux]
-  df2af1147f: ruby 2.7.0dev (2019-03-21 trunk 67318) [x86_64-linux]
-  df2af1147f --jit: ruby 2.7.0dev (2019-03-21 trunk 67318) +JIT [x86_64-linux]
-  e8e1f72d8f: ruby 2.7.0dev (2019-03-21 trunk 67319) [x86_64-linux]
-  e8e1f72d8f --jit: ruby 2.7.0dev (2019-03-21 trunk 67319) +JIT [x86_64-linux]
-  f2ea705d68: ruby 2.7.0dev (2019-03-21 trunk 67320) [x86_64-linux]
-  f2ea705d68 --jit: ruby 2.7.0dev (2019-03-21 trunk 67320) +JIT [x86_64-linux]
-  7aacb65015: ruby 2.7.0dev (2019-03-21 trunk 67321) [x86_64-linux]
-  7aacb65015 --jit: ruby 2.7.0dev (2019-03-21 trunk 67321) +JIT [x86_64-linux]
-  81de7b9e62: ruby 2.7.0dev (2019-03-21 trunk 67322) [x86_64-linux]
-  81de7b9e62 --jit: ruby 2.7.0dev (2019-03-21 trunk 67322) +JIT [x86_64-linux]
-  9810c08a5d: ruby 2.7.0dev (2019-03-21 trunk 67323) [x86_64-linux]
-  9810c08a5d --jit: ruby 2.7.0dev (2019-03-21 trunk 67323) +JIT [x86_64-linux]
-  ae0f20c6bf: ruby 2.7.0dev (2019-03-21 trunk 67324) [x86_64-linux]
-  ae0f20c6bf --jit: ruby 2.7.0dev (2019-03-21 trunk 67324) +JIT [x86_64-linux]
   b8540a3c2e: ruby 2.7.0dev (2019-03-21 trunk 67325) [x86_64-linux]
   b8540a3c2e --jit: ruby 2.7.0dev (2019-03-21 trunk 67325) +JIT [x86_64-linux]
   e1038377a9: ruby 2.7.0dev (2019-03-21 trunk 67326) [x86_64-linux]
@@ -2883,3 +2859,45 @@ commits:
   8187ffa461 --jit: |-
     ruby 2.7.0dev (2019-05-29 trunk 8187ffa461) +JIT [x86_64-linux]
     last_commit=Revert "Colorize error part more"
+  e04d10b28f: |-
+    ruby 2.7.0dev (2019-05-29 trunk e04d10b28f) [x86_64-linux]
+    last_commit=test/rubygems/test_gem_stream_ui.rb (test_ask_for_password): extend the timeout
+  e04d10b28f --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk e04d10b28f) +JIT [x86_64-linux]
+    last_commit=test/rubygems/test_gem_stream_ui.rb (test_ask_for_password): extend the timeout
+  aee36bf149: |-
+    ruby 2.7.0dev (2019-05-29 trunk aee36bf149) [x86_64-linux]
+    last_commit=Fix Possible Control flow issues (DEADCODE)
+  aee36bf149 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk aee36bf149) +JIT [x86_64-linux]
+    last_commit=Fix Possible Control flow issues (DEADCODE)
+  8552e9d696: |-
+    ruby 2.7.0dev (2019-05-29 trunk 8552e9d696) [x86_64-linux]
+    last_commit=Fix shorten-64-to-32 warning
+  8552e9d696 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 8552e9d696) +JIT [x86_64-linux]
+    last_commit=Fix shorten-64-to-32 warning
+  cc66272e50: |-
+    ruby 2.7.0dev (2019-05-29 trunk cc66272e50) [x86_64-linux]
+    last_commit=parse.y: flush invalid char
+  cc66272e50 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk cc66272e50) +JIT [x86_64-linux]
+    last_commit=parse.y: flush invalid char
+  '068d327595': |-
+    ruby 2.7.0dev (2019-05-29 trunk 068d327595) [x86_64-linux]
+    last_commit=Colorize compile_error as same as on_parse_error
+  '068d327595 --jit': |-
+    ruby 2.7.0dev (2019-05-29 trunk 068d327595) +JIT [x86_64-linux]
+    last_commit=Colorize compile_error as same as on_parse_error
+  5379ca9250: |-
+    ruby 2.7.0dev (2019-05-29 trunk 5379ca9250) [x86_64-linux]
+    last_commit=Skip spec broken since a66bc2c01194a9c017c874a30db5b3b6bd95e966
+  5379ca9250 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 5379ca9250) +JIT [x86_64-linux]
+    last_commit=Skip spec broken since a66bc2c01194a9c017c874a30db5b3b6bd95e966
+  1a0c3d8dd6: |-
+    ruby 2.7.0dev (2019-05-29 trunk 1a0c3d8dd6) [x86_64-linux]
+    last_commit=Convert Enumerator to Array for Ruby 1.9.3
+  1a0c3d8dd6 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 1a0c3d8dd6) +JIT [x86_64-linux]
+    last_commit=Convert Enumerator to Array for Ruby 1.9.3
