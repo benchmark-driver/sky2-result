@@ -9,30 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  1c5fd2bff0: ruby 2.7.0dev (2019-03-27 trunk 67347) [x86_64-linux]
-  1c5fd2bff0 --jit: ruby 2.7.0dev (2019-03-27 trunk 67347) +JIT [x86_64-linux]
-  41d36d2ce2: ruby 2.7.0dev (2019-03-27 trunk 67348) [x86_64-linux]
-  41d36d2ce2 --jit: ruby 2.7.0dev (2019-03-27 trunk 67348) +JIT [x86_64-linux]
-  ede77e64a7: ruby 2.7.0dev (2019-03-27 trunk 67349) [x86_64-linux]
-  ede77e64a7 --jit: ruby 2.7.0dev (2019-03-27 trunk 67349) +JIT [x86_64-linux]
-  832bc50768: ruby 2.7.0dev (2019-03-28 trunk 67350) [x86_64-linux]
-  832bc50768 --jit: ruby 2.7.0dev (2019-03-28 trunk 67350) +JIT [x86_64-linux]
-  de0ef1a9df: ruby 2.7.0dev (2019-03-28 trunk 67354) [x86_64-linux]
-  de0ef1a9df --jit: ruby 2.7.0dev (2019-03-28 trunk 67354) +JIT [x86_64-linux]
-  978290515e: ruby 2.7.0dev (2019-03-28 trunk 67355) [x86_64-linux]
-  978290515e --jit: ruby 2.7.0dev (2019-03-28 trunk 67355) +JIT [x86_64-linux]
-  b3507bf147: ruby 2.7.0dev (2019-03-28 trunk 67356) [x86_64-linux]
-  b3507bf147 --jit: ruby 2.7.0dev (2019-03-28 trunk 67356) +JIT [x86_64-linux]
-  fa04b87af4: ruby 2.7.0dev (2019-03-28 trunk 67357) [x86_64-linux]
-  fa04b87af4 --jit: ruby 2.7.0dev (2019-03-28 trunk 67357) +JIT [x86_64-linux]
-  ee5b54822c: ruby 2.7.0dev (2019-03-28 trunk 67358) [x86_64-linux]
-  ee5b54822c --jit: ruby 2.7.0dev (2019-03-28 trunk 67358) +JIT [x86_64-linux]
-  b6443c62f0: ruby 2.7.0dev (2019-03-28 trunk 67359) [x86_64-linux]
-  b6443c62f0 --jit: ruby 2.7.0dev (2019-03-28 trunk 67359) +JIT [x86_64-linux]
-  0f64776745: ruby 2.7.0dev (2019-03-28 trunk 67360) [x86_64-linux]
-  0f64776745 --jit: ruby 2.7.0dev (2019-03-28 trunk 67360) +JIT [x86_64-linux]
-  a28aa80c73: ruby 2.7.0dev (2019-03-28 trunk 67361) [x86_64-linux]
-  a28aa80c73 --jit: ruby 2.7.0dev (2019-03-28 trunk 67361) +JIT [x86_64-linux]
   68987d4ae1: ruby 2.7.0dev (2019-03-28 trunk 67362) [x86_64-linux]
   68987d4ae1 --jit: ruby 2.7.0dev (2019-03-28 trunk 67362) +JIT [x86_64-linux]
   7ce0e96334: ruby 2.7.0dev (2019-03-28 trunk 67363) [x86_64-linux]
@@ -3025,3 +3001,39 @@ commits:
   ecd0f1d966 --jit: |-
     ruby 2.7.0dev (2019-05-30 trunk ecd0f1d966) +JIT [x86_64-linux]
     last_commit=Use negative lookahead and start_with?
+  74a0e3ec23: |-
+    ruby 2.7.0dev (2019-05-30 trunk 74a0e3ec23) [x86_64-linux]
+    last_commit=Use start_with? for escaped quote too
+  74a0e3ec23 --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk 74a0e3ec23) +JIT [x86_64-linux]
+    last_commit=Use start_with? for escaped quote too
+  279c8e14d4: |-
+    ruby 2.7.0dev (2019-05-30 trunk 279c8e14d4) [x86_64-linux]
+    last_commit=Use rebuilt buffer data to rerender all
+  279c8e14d4 --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk 279c8e14d4) +JIT [x86_64-linux]
+    last_commit=Use rebuilt buffer data to rerender all
+  b0e2b7a5ff: |-
+    ruby 2.7.0dev (2019-05-30 trunk b0e2b7a5ff) [x86_64-linux]
+    last_commit=Include stack elements left after errors
+  b0e2b7a5ff --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk b0e2b7a5ff) +JIT [x86_64-linux]
+    last_commit=Include stack elements left after errors
+  92ecf58b1e: |-
+    ruby 2.7.0dev (2019-05-30 trunk 92ecf58b1e) [x86_64-linux]
+    last_commit=parse.y: adjust here-doc error token
+  92ecf58b1e --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk 92ecf58b1e) +JIT [x86_64-linux]
+    last_commit=parse.y: adjust here-doc error token
+  22cd402734: |-
+    ruby 2.7.0dev (2019-05-30 trunk 22cd402734) [x86_64-linux]
+    last_commit=vcs.rb support non-inplace build
+  22cd402734 --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk 22cd402734) +JIT [x86_64-linux]
+    last_commit=vcs.rb support non-inplace build
+  f0945176c3: |-
+    ruby 2.7.0dev (2019-05-30 trunk f0945176c3) [x86_64-linux]
+    last_commit=Fix missing `gitcmd`
+  f0945176c3 --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk f0945176c3) +JIT [x86_64-linux]
+    last_commit=Fix missing `gitcmd`
