@@ -2949,3 +2949,27 @@ commits:
   5867e51e83 --jit: |-
     ruby 2.7.0dev (2019-05-30 trunk 5867e51e83) +JIT [x86_64-linux]
     last_commit=* 2019-05-30
+  d2ba80b5df: |-
+    ruby 2.7.0dev (2019-05-30 trunk d2ba80b5df) [x86_64-linux]
+    last_commit=Revert "Fix building with 1.8 BASERUBY"
+  d2ba80b5df --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk d2ba80b5df) +JIT [x86_64-linux]
+    last_commit=Revert "Fix building with 1.8 BASERUBY"
+  f0ded36693: |-
+    ruby 2.7.0dev (2019-05-30 trunk f0ded36693) [x86_64-linux]
+    last_commit=Use Regexp#match instead of #match for 1.9 BASERUBY support
+  f0ded36693 --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk f0ded36693) +JIT [x86_64-linux]
+    last_commit=Use Regexp#match instead of #match for 1.9 BASERUBY support
+  cb520e7623: |-
+    ruby 2.7.0dev (2019-05-30 trunk cb520e7623) [x86_64-linux]
+    last_commit=Fix the auto-wrap behabior that was too buggy
+  cb520e7623 --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk cb520e7623) +JIT [x86_64-linux]
+    last_commit=Fix the auto-wrap behabior that was too buggy
+  4a31c1e45d: |-
+    ruby 2.7.0dev (2019-05-30 trunk 4a31c1e45d) [x86_64-linux]
+    last_commit=parse.y: continue after heredoc error
+  4a31c1e45d --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk 4a31c1e45d) +JIT [x86_64-linux]
+    last_commit=parse.y: continue after heredoc error
