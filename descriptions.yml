@@ -9,26 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  56557ec28a: ruby 2.7.0dev (2019-03-22 trunk 67337) [x86_64-linux]
-  56557ec28a --jit: ruby 2.7.0dev (2019-03-22 trunk 67337) +JIT [x86_64-linux]
-  0bd50e95f9: ruby 2.7.0dev (2019-03-22 trunk 67338) [x86_64-linux]
-  0bd50e95f9 --jit: ruby 2.7.0dev (2019-03-22 trunk 67338) +JIT [x86_64-linux]
-  7e421044a3: ruby 2.7.0dev (2019-03-23 trunk 67339) [x86_64-linux]
-  7e421044a3 --jit: ruby 2.7.0dev (2019-03-23 trunk 67339) +JIT [x86_64-linux]
-  831e93d928: ruby 2.7.0dev (2019-03-23 trunk 67340) [x86_64-linux]
-  831e93d928 --jit: ruby 2.7.0dev (2019-03-23 trunk 67340) +JIT [x86_64-linux]
-  9f05891c3d: ruby 2.7.0dev (2019-03-24 trunk 67341) [x86_64-linux]
-  9f05891c3d --jit: ruby 2.7.0dev (2019-03-24 trunk 67341) +JIT [x86_64-linux]
-  8dd0fb9039: ruby 2.7.0dev (2019-03-24 trunk 67342) [x86_64-linux]
-  8dd0fb9039 --jit: ruby 2.7.0dev (2019-03-24 trunk 67342) +JIT [x86_64-linux]
-  7976d0d153: ruby 2.7.0dev (2019-03-25 trunk 67343) [x86_64-linux]
-  7976d0d153 --jit: ruby 2.7.0dev (2019-03-25 trunk 67343) +JIT [x86_64-linux]
-  c92c0a5935: ruby 2.7.0dev (2019-03-25 trunk 67344) [x86_64-linux]
-  c92c0a5935 --jit: ruby 2.7.0dev (2019-03-25 trunk 67344) +JIT [x86_64-linux]
-  191b99c89d: ruby 2.7.0dev (2019-03-25 trunk 67345) [x86_64-linux]
-  191b99c89d --jit: ruby 2.7.0dev (2019-03-25 trunk 67345) +JIT [x86_64-linux]
-  b51b9d50e6: ruby 2.7.0dev (2019-03-27 trunk 67346) [x86_64-linux]
-  b51b9d50e6 --jit: ruby 2.7.0dev (2019-03-27 trunk 67346) +JIT [x86_64-linux]
   1c5fd2bff0: ruby 2.7.0dev (2019-03-27 trunk 67347) [x86_64-linux]
   1c5fd2bff0 --jit: ruby 2.7.0dev (2019-03-27 trunk 67347) +JIT [x86_64-linux]
   41d36d2ce2: ruby 2.7.0dev (2019-03-27 trunk 67348) [x86_64-linux]
@@ -2973,3 +2953,39 @@ commits:
   4a31c1e45d --jit: |-
     ruby 2.7.0dev (2019-05-30 trunk 4a31c1e45d) +JIT [x86_64-linux]
     last_commit=parse.y: continue after heredoc error
+  1cf9f79342: |-
+    ruby 2.7.0dev (2019-05-30 trunk 1cf9f79342) [x86_64-linux]
+    last_commit=Clear remaining lines when line number decreased
+  1cf9f79342 --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk 1cf9f79342) +JIT [x86_64-linux]
+    last_commit=Clear remaining lines when line number decreased
+  eae953ba9f: |-
+    ruby 2.7.0dev (2019-05-30 trunk eae953ba9f) [x86_64-linux]
+    last_commit=Rerender following lines when line number increased
+  eae953ba9f --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk eae953ba9f) +JIT [x86_64-linux]
+    last_commit=Rerender following lines when line number increased
+  90014dddec: |-
+    ruby 2.7.0dev (2019-05-30 trunk 90014dddec) [x86_64-linux]
+    last_commit=Fix broken rendering when the last line is auto-wrapped
+  90014dddec --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk 90014dddec) +JIT [x86_64-linux]
+    last_commit=Fix broken rendering when the last line is auto-wrapped
+  5a229b0a88: |-
+    ruby 2.7.0dev (2019-05-30 trunk 5a229b0a88) [x86_64-linux]
+    last_commit=Calculate vertical position correctly when rerendering all lines
+  5a229b0a88 --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk 5a229b0a88) +JIT [x86_64-linux]
+    last_commit=Calculate vertical position correctly when rerendering all lines
+  55c34b994b: |-
+    ruby 2.7.0dev (2019-05-30 trunk 55c34b994b) [x86_64-linux]
+    last_commit=Check the end token of heredoc correctly
+  55c34b994b --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk 55c34b994b) +JIT [x86_64-linux]
+    last_commit=Check the end token of heredoc correctly
+  70e87d9660: |-
+    ruby 2.7.0dev (2019-05-30 trunk 70e87d9660) [x86_64-linux]
+    last_commit=Do not rely on IRB.conf[:MAIN_CONTEXT] before initialize
+  70e87d9660 --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk 70e87d9660) +JIT [x86_64-linux]
+    last_commit=Do not rely on IRB.conf[:MAIN_CONTEXT] before initialize

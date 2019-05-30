@@ -202,6 +202,8 @@ results:
     8dd0fb9039: 3272236.612
     11476e9902: 3473512.922
     e2db9f4cc3: 3364715.187
+    e7d76e3f5a: 3393273.077
+    b84b8adc89: 3460083.487
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -403,6 +405,8 @@ results:
     8dd0fb9039: 3012856.313
     11476e9902: 3444971.277
     e2db9f4cc3: 3333537.753
+    e7d76e3f5a: 3325588.814
+    b84b8adc89: 3128618.293
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -604,6 +608,8 @@ results:
     8dd0fb9039: 1913919.765
     11476e9902: 1885984.944
     e2db9f4cc3: 1859328.505
+    e7d76e3f5a: 1782938.966
+    b84b8adc89: 1891097.116
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -805,6 +811,8 @@ results:
     8dd0fb9039: 2855870.268
     11476e9902: 2679277.319
     e2db9f4cc3: 2773474.053
+    e7d76e3f5a: 2741750.578
+    b84b8adc89: 2796737.649
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1006,6 +1014,8 @@ results:
     8dd0fb9039: 3739130.576
     11476e9902: 3771041.788
     e2db9f4cc3: 3660975.907
+    e7d76e3f5a: 3687735.512
+    b84b8adc89: 3706092.71
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1207,6 +1217,8 @@ results:
     8dd0fb9039: 3724337.567
     11476e9902: 3540641.739
     e2db9f4cc3: 3619167.041
+    e7d76e3f5a: 3035376.734
+    b84b8adc89: 3716669.13
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1408,6 +1420,8 @@ results:
     8dd0fb9039: 1985556.35
     11476e9902: 1993564.281
     e2db9f4cc3: 1940652.22
+    e7d76e3f5a: 1772604.303
+    b84b8adc89: 1992501.82
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -1609,3 +1623,5 @@ results:
     8dd0fb9039: 3024007.834
     11476e9902: 2968245.851
     e2db9f4cc3: 2612616.199
+    e7d76e3f5a: 2926999.08
+    b84b8adc89: 2936416.996
