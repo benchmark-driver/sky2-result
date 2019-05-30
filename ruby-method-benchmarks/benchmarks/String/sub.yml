@@ -196,6 +196,8 @@ results:
     e377eb0e75: 3419957.495
     c137f015ab: 3491135.639
     d835ed4df1: 3404470.642
+    25c1fd3b90: 3505105.534
+    e691b4da5d: 3360129.514
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -391,6 +393,8 @@ results:
     e377eb0e75: 3486755.205
     c137f015ab: 3353308.939
     d835ed4df1: 3372572.88
+    25c1fd3b90: 3340847.776
+    e691b4da5d: 3346486.982
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -586,6 +590,8 @@ results:
     e377eb0e75: 1827274.765
     c137f015ab: 1889643.67
     d835ed4df1: 1871433.599
+    25c1fd3b90: 1960745.799
+    e691b4da5d: 1802078.8
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -781,6 +787,8 @@ results:
     e377eb0e75: 2843972.381
     c137f015ab: 2748115.589
     d835ed4df1: 2586346.159
+    25c1fd3b90: 2833286.747
+    e691b4da5d: 2527927.305
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -976,6 +984,8 @@ results:
     e377eb0e75: 3746996.702
     c137f015ab: 3772449.35
     d835ed4df1: 3694493.329
+    25c1fd3b90: 3765769.421
+    e691b4da5d: 3647986.319
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1171,6 +1181,8 @@ results:
     e377eb0e75: 3718715.727
     c137f015ab: 3651537.013
     d835ed4df1: 3649110.393
+    25c1fd3b90: 3744211.561
+    e691b4da5d: 3616924.329
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1366,6 +1378,8 @@ results:
     e377eb0e75: 2021940.774
     c137f015ab: 2001391.954
     d835ed4df1: 1985261.353
+    25c1fd3b90: 2014586.825
+    e691b4da5d: 1952324.866
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -1561,3 +1575,5 @@ results:
     e377eb0e75: 3008526.848
     c137f015ab: 2964974.475
     d835ed4df1: 2895121.65
+    25c1fd3b90: 3008391.725
+    e691b4da5d: 2967045.124

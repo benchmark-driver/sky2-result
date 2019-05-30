@@ -9,10 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  4d2bac1fd9: ruby 2.7.0dev (2019-03-22 trunk 67335) [x86_64-linux]
-  4d2bac1fd9 --jit: ruby 2.7.0dev (2019-03-22 trunk 67335) +JIT [x86_64-linux]
-  c671f836b4: ruby 2.7.0dev (2019-03-22 trunk 67336) [x86_64-linux]
-  c671f836b4 --jit: ruby 2.7.0dev (2019-03-22 trunk 67336) +JIT [x86_64-linux]
   56557ec28a: ruby 2.7.0dev (2019-03-22 trunk 67337) [x86_64-linux]
   56557ec28a --jit: ruby 2.7.0dev (2019-03-22 trunk 67337) +JIT [x86_64-linux]
   0bd50e95f9: ruby 2.7.0dev (2019-03-22 trunk 67338) [x86_64-linux]
@@ -2941,3 +2937,15 @@ commits:
   5b64d7ac6e --jit: |-
     ruby 2.7.0dev (2019-05-29 trunk 5b64d7ac6e) +JIT [x86_64-linux]
     last_commit=Colorize errors more
+  814eaa25e2: |-
+    ruby 2.7.0dev (2019-05-29 trunk 814eaa25e2) [x86_64-linux]
+    last_commit=Do not use rb_iseq_path() while moving ISeq pointers
+  814eaa25e2 --jit: |-
+    ruby 2.7.0dev (2019-05-29 trunk 814eaa25e2) +JIT [x86_64-linux]
+    last_commit=Do not use rb_iseq_path() while moving ISeq pointers
+  5867e51e83: |-
+    ruby 2.7.0dev (2019-05-30 trunk 5867e51e83) [x86_64-linux]
+    last_commit=* 2019-05-30
+  5867e51e83 --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk 5867e51e83) +JIT [x86_64-linux]
+    last_commit=* 2019-05-30
