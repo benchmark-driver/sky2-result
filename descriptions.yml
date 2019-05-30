@@ -2989,3 +2989,39 @@ commits:
   70e87d9660 --jit: |-
     ruby 2.7.0dev (2019-05-30 trunk 70e87d9660) +JIT [x86_64-linux]
     last_commit=Do not rely on IRB.conf[:MAIN_CONTEXT] before initialize
+  e15de86583: |-
+    ruby 2.7.0dev (2019-05-30 trunk e15de86583) [x86_64-linux]
+    last_commit=introduce `during_compacting` flag.
+  e15de86583 --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk e15de86583) +JIT [x86_64-linux]
+    last_commit=introduce `during_compacting` flag.
+  dd63d7da61: |-
+    ruby 2.7.0dev (2019-05-30 trunk dd63d7da61) [x86_64-linux]
+    last_commit=move pinned_bits[] position in struct heap_page.
+  dd63d7da61 --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk dd63d7da61) +JIT [x86_64-linux]
+    last_commit=move pinned_bits[] position in struct heap_page.
+  5fc9f0008f: |-
+    ruby 2.7.0dev (2019-05-30 trunk 5fc9f0008f) [x86_64-linux]
+    last_commit=reorder bitmap clearing.
+  5fc9f0008f --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk 5fc9f0008f) +JIT [x86_64-linux]
+    last_commit=reorder bitmap clearing.
+  106843d839: |-
+    ruby 2.7.0dev (2019-05-30 trunk 106843d839) [x86_64-linux]
+    last_commit=* expand tabs.
+  106843d839 --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk 106843d839) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  fcca39fa73: |-
+    ruby 2.7.0dev (2019-05-30 trunk fcca39fa73) [x86_64-linux]
+    last_commit=Fix strange vertical cursor moving when adding a newline at bottom
+  fcca39fa73 --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk fcca39fa73) +JIT [x86_64-linux]
+    last_commit=Fix strange vertical cursor moving when adding a newline at bottom
+  ecd0f1d966: |-
+    ruby 2.7.0dev (2019-05-30 trunk ecd0f1d966) [x86_64-linux]
+    last_commit=Use negative lookahead and start_with?
+  ecd0f1d966 --jit: |-
+    ruby 2.7.0dev (2019-05-30 trunk ecd0f1d966) +JIT [x86_64-linux]
+    last_commit=Use negative lookahead and start_with?
