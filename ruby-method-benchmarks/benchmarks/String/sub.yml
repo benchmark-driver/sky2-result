@@ -198,6 +198,8 @@ results:
     d835ed4df1: 3404470.642
     25c1fd3b90: 3505105.534
     e691b4da5d: 3360129.514
+    0eff21af8d: 3400188.16
+    8dd0fb9039: 3272236.612
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -395,6 +397,8 @@ results:
     d835ed4df1: 3372572.88
     25c1fd3b90: 3340847.776
     e691b4da5d: 3346486.982
+    0eff21af8d: 3343262.504
+    8dd0fb9039: 3012856.313
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -592,6 +596,8 @@ results:
     d835ed4df1: 1871433.599
     25c1fd3b90: 1960745.799
     e691b4da5d: 1802078.8
+    0eff21af8d: 1908561.688
+    8dd0fb9039: 1913919.765
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -789,6 +795,8 @@ results:
     d835ed4df1: 2586346.159
     25c1fd3b90: 2833286.747
     e691b4da5d: 2527927.305
+    0eff21af8d: 2785626.249
+    8dd0fb9039: 2855870.268
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -986,6 +994,8 @@ results:
     d835ed4df1: 3694493.329
     25c1fd3b90: 3765769.421
     e691b4da5d: 3647986.319
+    0eff21af8d: 3696075.314
+    8dd0fb9039: 3739130.576
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1183,6 +1193,8 @@ results:
     d835ed4df1: 3649110.393
     25c1fd3b90: 3744211.561
     e691b4da5d: 3616924.329
+    0eff21af8d: 3609488.095
+    8dd0fb9039: 3724337.567
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1380,6 +1392,8 @@ results:
     d835ed4df1: 1985261.353
     25c1fd3b90: 2014586.825
     e691b4da5d: 1952324.866
+    0eff21af8d: 1972106.712
+    8dd0fb9039: 1985556.35
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -1577,3 +1591,5 @@ results:
     d835ed4df1: 2895121.65
     25c1fd3b90: 3008391.725
     e691b4da5d: 2967045.124
+    0eff21af8d: 2956582.71
+    8dd0fb9039: 3024007.834
