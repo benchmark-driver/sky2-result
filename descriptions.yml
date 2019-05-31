@@ -9,22 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  35e677dd0a: ruby 2.7.0dev (2019-03-29 trunk 67371) [x86_64-linux]
-  35e677dd0a --jit: ruby 2.7.0dev (2019-03-29 trunk 67371) +JIT [x86_64-linux]
-  ce9e0ffd71: ruby 2.7.0dev (2019-03-29 trunk 67372) [x86_64-linux]
-  ce9e0ffd71 --jit: ruby 2.7.0dev (2019-03-29 trunk 67372) +JIT [x86_64-linux]
-  49f1b71144: ruby 2.7.0dev (2019-03-29 trunk 67373) [x86_64-linux]
-  49f1b71144 --jit: ruby 2.7.0dev (2019-03-29 trunk 67373) +JIT [x86_64-linux]
-  fe904f1eec: ruby 2.7.0dev (2019-03-29 trunk 67374) [x86_64-linux]
-  fe904f1eec --jit: ruby 2.7.0dev (2019-03-29 trunk 67374) +JIT [x86_64-linux]
-  bb5ab13bf5: ruby 2.7.0dev (2019-03-29 trunk 67375) [x86_64-linux]
-  bb5ab13bf5 --jit: ruby 2.7.0dev (2019-03-29 trunk 67375) +JIT [x86_64-linux]
-  9254e1c740: ruby 2.7.0dev (2019-03-29 trunk 67376) [x86_64-linux]
-  9254e1c740 --jit: ruby 2.7.0dev (2019-03-29 trunk 67376) +JIT [x86_64-linux]
-  26d56f7b6f: ruby 2.7.0dev (2019-03-29 trunk 67377) [x86_64-linux]
-  26d56f7b6f --jit: ruby 2.7.0dev (2019-03-29 trunk 67377) +JIT [x86_64-linux]
-  017cb09eb6: ruby 2.7.0dev (2019-03-29 trunk 67378) [x86_64-linux]
-  017cb09eb6 --jit: ruby 2.7.0dev (2019-03-29 trunk 67378) +JIT [x86_64-linux]
   b03c11a337: ruby 2.7.0dev (2019-03-29 trunk 67379) [x86_64-linux]
   b03c11a337 --jit: ruby 2.7.0dev (2019-03-29 trunk 67379) +JIT [x86_64-linux]
   5ee256da68: ruby 2.7.0dev (2019-03-29 trunk 67380) [x86_64-linux]
@@ -3109,3 +3093,15 @@ commits:
   d180e40570 --jit: |-
     ruby 2.7.0dev (2019-05-31 trunk d180e40570) +JIT [x86_64-linux]
     last_commit=Add --limit option and default it to 20
+  d2f663d6f1: |-
+    ruby 2.7.0dev (2019-05-31 trunk d2f663d6f1) [x86_64-linux]
+    last_commit=STATIC_ASSERT for VM_METHOD_TYPE_MINIMUM_BITS
+  d2f663d6f1 --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk d2f663d6f1) +JIT [x86_64-linux]
+    last_commit=STATIC_ASSERT for VM_METHOD_TYPE_MINIMUM_BITS
+  83f9183a7e: |-
+    ruby 2.7.0dev (2019-05-31 trunk 83f9183a7e) [x86_64-linux]
+    last_commit=Also GCC 9 provides -Waddress-of-packed-member
+  83f9183a7e --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk 83f9183a7e) +JIT [x86_64-linux]
+    last_commit=Also GCC 9 provides -Waddress-of-packed-member
