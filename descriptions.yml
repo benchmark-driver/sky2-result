@@ -9,18 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  e7477a949c: ruby 2.7.0dev (2019-03-29 trunk 67365) [x86_64-linux]
-  e7477a949c --jit: ruby 2.7.0dev (2019-03-29 trunk 67365) +JIT [x86_64-linux]
-  b6c04a7ad7: ruby 2.7.0dev (2019-03-29 trunk 67366) [x86_64-linux]
-  b6c04a7ad7 --jit: ruby 2.7.0dev (2019-03-29 trunk 67366) +JIT [x86_64-linux]
-  c33da35ddf: ruby 2.7.0dev (2019-03-29 trunk 67367) [x86_64-linux]
-  c33da35ddf --jit: ruby 2.7.0dev (2019-03-29 trunk 67367) +JIT [x86_64-linux]
-  f27d4354c8: ruby 2.7.0dev (2019-03-29 trunk 67368) [x86_64-linux]
-  f27d4354c8 --jit: ruby 2.7.0dev (2019-03-29 trunk 67368) +JIT [x86_64-linux]
-  b9ad698c87: ruby 2.7.0dev (2019-03-29 trunk 67369) [x86_64-linux]
-  b9ad698c87 --jit: ruby 2.7.0dev (2019-03-29 trunk 67369) +JIT [x86_64-linux]
-  fcf60d3977: ruby 2.7.0dev (2019-03-29 trunk 67370) [x86_64-linux]
-  fcf60d3977 --jit: ruby 2.7.0dev (2019-03-29 trunk 67370) +JIT [x86_64-linux]
   35e677dd0a: ruby 2.7.0dev (2019-03-29 trunk 67371) [x86_64-linux]
   35e677dd0a --jit: ruby 2.7.0dev (2019-03-29 trunk 67371) +JIT [x86_64-linux]
   ce9e0ffd71: ruby 2.7.0dev (2019-03-29 trunk 67372) [x86_64-linux]
@@ -3073,3 +3061,15 @@ commits:
   6e052817f9 --jit: |-
     ruby 2.7.0dev (2019-05-31 trunk 6e052817f9) +JIT [x86_64-linux]
     last_commit=Abstract away Ripper::Lexer#scan in IRB::Color#scan
+  cb40a21da0: |-
+    ruby 2.7.0dev (2019-05-31 trunk cb40a21da0) [x86_64-linux]
+    last_commit=Warn compile_error only when input is finished
+  cb40a21da0 --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk cb40a21da0) +JIT [x86_64-linux]
+    last_commit=Warn compile_error only when input is finished
+  6a5e89e23c: |-
+    ruby 2.7.0dev (2019-05-31 trunk 6a5e89e23c) [x86_64-linux]
+    last_commit=Set git config to commit mjit-debug
+  6a5e89e23c --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk 6a5e89e23c) +JIT [x86_64-linux]
+    last_commit=Set git config to commit mjit-debug
