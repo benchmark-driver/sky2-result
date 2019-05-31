@@ -9,20 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  b03c11a337: ruby 2.7.0dev (2019-03-29 trunk 67379) [x86_64-linux]
-  b03c11a337 --jit: ruby 2.7.0dev (2019-03-29 trunk 67379) +JIT [x86_64-linux]
-  5ee256da68: ruby 2.7.0dev (2019-03-29 trunk 67380) [x86_64-linux]
-  5ee256da68 --jit: ruby 2.7.0dev (2019-03-29 trunk 67380) +JIT [x86_64-linux]
-  e465d6c5df: ruby 2.7.0dev (2019-03-29 trunk 67381) [x86_64-linux]
-  e465d6c5df --jit: ruby 2.7.0dev (2019-03-29 trunk 67381) +JIT [x86_64-linux]
-  9d047fd3e5: ruby 2.7.0dev (2019-03-29 trunk 67382) [x86_64-linux]
-  9d047fd3e5 --jit: ruby 2.7.0dev (2019-03-29 trunk 67382) +JIT [x86_64-linux]
-  9249346c0b: ruby 2.7.0dev (2019-03-29 trunk 67383) [x86_64-linux]
-  9249346c0b --jit: ruby 2.7.0dev (2019-03-29 trunk 67383) +JIT [x86_64-linux]
-  031e2f1285: ruby 2.7.0dev (2019-03-30 trunk 67384) [x86_64-linux]
-  031e2f1285 --jit: ruby 2.7.0dev (2019-03-30 trunk 67384) +JIT [x86_64-linux]
-  413b127376: ruby 2.7.0dev (2019-03-30 trunk 67385) [x86_64-linux]
-  413b127376 --jit: ruby 2.7.0dev (2019-03-30 trunk 67385) +JIT [x86_64-linux]
   721be15494: ruby 2.7.0dev (2019-03-30 trunk 67386) [x86_64-linux]
   721be15494 --jit: ruby 2.7.0dev (2019-03-30 trunk 67386) +JIT [x86_64-linux]
   19e672cce9: ruby 2.7.0dev (2019-03-30 trunk 67387) [x86_64-linux]
@@ -3129,3 +3115,21 @@ commits:
   8b39df854d --jit: |-
     ruby 2.7.0dev (2019-05-31 trunk 8b39df854d) +JIT [x86_64-linux]
     last_commit=Let irb use an empty file as irbrc
+  1457ad1ea7: |-
+    ruby 2.7.0dev (2019-05-31 trunk 1457ad1ea7) [x86_64-linux]
+    last_commit=[DOC] JIS X 0301 has been updated
+  1457ad1ea7 --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk 1457ad1ea7) +JIT [x86_64-linux]
+    last_commit=[DOC] JIS X 0301 has been updated
+  913661cca0: |-
+    ruby 2.7.0dev (2019-05-31 trunk 913661cca0) [x86_64-linux]
+    last_commit=Bump irb version to 1.1.0.pre.1.
+  913661cca0 --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk 913661cca0) +JIT [x86_64-linux]
+    last_commit=Bump irb version to 1.1.0.pre.1.
+  73890d9d79: |-
+    ruby 2.7.0dev (2019-05-31 trunk 73890d9d79) [x86_64-linux]
+    last_commit=Flush  I/O immediately if RELINE_STDERR_TTY is set
+  73890d9d79 --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk 73890d9d79) +JIT [x86_64-linux]
+    last_commit=Flush  I/O immediately if RELINE_STDERR_TTY is set
