@@ -3105,3 +3105,27 @@ commits:
   83f9183a7e --jit: |-
     ruby 2.7.0dev (2019-05-31 trunk 83f9183a7e) +JIT [x86_64-linux]
     last_commit=Also GCC 9 provides -Waddress-of-packed-member
+  ea42423908: |-
+    ruby 2.7.0dev (2019-05-31 trunk ea42423908) [x86_64-linux]
+    last_commit=Keep vm->orig_progname alive
+  ea42423908 --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk ea42423908) +JIT [x86_64-linux]
+    last_commit=Keep vm->orig_progname alive
+  b1aecef873: |-
+    ruby 2.7.0dev (2019-05-31 trunk b1aecef873) [x86_64-linux]
+    last_commit=Use UNALIGNED_MEMBER_PTR
+  b1aecef873 --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk b1aecef873) +JIT [x86_64-linux]
+    last_commit=Use UNALIGNED_MEMBER_PTR
+  b632566d33: |-
+    ruby 2.7.0dev (2019-05-31 trunk b632566d33) [x86_64-linux]
+    last_commit=UNIX domain socket name length has a certain limit
+  b632566d33 --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk b632566d33) +JIT [x86_64-linux]
+    last_commit=UNIX domain socket name length has a certain limit
+  8b39df854d: |-
+    ruby 2.7.0dev (2019-05-31 trunk 8b39df854d) [x86_64-linux]
+    last_commit=Let irb use an empty file as irbrc
+  8b39df854d --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk 8b39df854d) +JIT [x86_64-linux]
+    last_commit=Let irb use an empty file as irbrc
