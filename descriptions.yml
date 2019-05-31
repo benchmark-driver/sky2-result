@@ -3133,3 +3133,27 @@ commits:
   73890d9d79 --jit: |-
     ruby 2.7.0dev (2019-05-31 trunk 73890d9d79) +JIT [x86_64-linux]
     last_commit=Flush  I/O immediately if RELINE_STDERR_TTY is set
+  21a43489b1: |-
+    ruby 2.7.0dev (2019-05-31 trunk 21a43489b1) [x86_64-linux]
+    last_commit=Use IO#sync= instead of a monkey patch
+  21a43489b1 --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk 21a43489b1) +JIT [x86_64-linux]
+    last_commit=Use IO#sync= instead of a monkey patch
+  88770c2ab6: |-
+    ruby 2.7.0dev (2019-05-31 trunk 88770c2ab6) [x86_64-linux]
+    last_commit=Support Home and End key to move to beg and end
+  88770c2ab6 --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk 88770c2ab6) +JIT [x86_64-linux]
+    last_commit=Support Home and End key to move to beg and end
+  8fc552adee: |-
+    ruby 2.7.0dev (2019-06-01 trunk 8fc552adee) [x86_64-linux]
+    last_commit=* 2019-06-01
+  8fc552adee --jit: |-
+    ruby 2.7.0dev (2019-06-01 trunk 8fc552adee) +JIT [x86_64-linux]
+    last_commit=* 2019-06-01
+  552c42f51f: |-
+    ruby 2.7.0dev (2019-06-01 trunk 552c42f51f) [x86_64-linux]
+    last_commit=Seprate raw keystroke config for each platforms
+  552c42f51f --jit: |-
+    ruby 2.7.0dev (2019-06-01 trunk 552c42f51f) +JIT [x86_64-linux]
+    last_commit=Seprate raw keystroke config for each platforms

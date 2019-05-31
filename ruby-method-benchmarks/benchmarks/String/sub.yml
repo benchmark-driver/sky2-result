@@ -219,6 +219,8 @@ results:
     a3cbce7822: 3490263.028
     71952440ad: 3466913.216
     456586bb23: 3463738.895
+    a47f598d77: 3191002.551
+    fafcbe0eb0: 3103511.079
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -437,6 +439,8 @@ results:
     a3cbce7822: 3463958.059
     71952440ad: 3417807.005
     456586bb23: 3471240.845
+    a47f598d77: 3258024.595
+    fafcbe0eb0: 3312785.96
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -655,6 +659,8 @@ results:
     a3cbce7822: 1908279.226
     71952440ad: 1869827.999
     456586bb23: 1909604.59
+    a47f598d77: 1913816.815
+    fafcbe0eb0: 1869966.491
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -873,6 +879,8 @@ results:
     a3cbce7822: 2718939.792
     71952440ad: 2687273.378
     456586bb23: 2789102.52
+    a47f598d77: 2557900.636
+    fafcbe0eb0: 2337828.185
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1091,6 +1099,8 @@ results:
     a3cbce7822: 3722138.085
     71952440ad: 3705655.738
     456586bb23: 3751079.191
+    a47f598d77: 3732483.17
+    fafcbe0eb0: 3573710.275
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1309,6 +1319,8 @@ results:
     a3cbce7822: 3732897.044
     71952440ad: 3672265.481
     456586bb23: 3584601.622
+    a47f598d77: 3693107.006
+    fafcbe0eb0: 3477606.75
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1527,6 +1539,8 @@ results:
     a3cbce7822: 1991193.028
     71952440ad: 1455981.21
     456586bb23: 1982023.93
+    a47f598d77: 1665990.326
+    fafcbe0eb0: 1997182.65
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -1745,3 +1759,5 @@ results:
     a3cbce7822: 2981892.531
     71952440ad: 2777260.188
     456586bb23: 2515182.693
+    a47f598d77: 2795247.824
+    fafcbe0eb0: 2936950.924
