@@ -211,6 +211,8 @@ results:
     d3df725f9e: 3336477.855
     74c88e7cda: 3373021.918
     fe979e5bce: 3525090.665
+    3f9562015e: 3441395.796
+    11778fd246: 3417851.994
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -421,6 +423,8 @@ results:
     d3df725f9e: 3227683.117
     74c88e7cda: 3350126.435
     fe979e5bce: 3488985.502
+    3f9562015e: 3402737.512
+    11778fd246: 3389737.805
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -631,6 +635,8 @@ results:
     d3df725f9e: 1783412.687
     74c88e7cda: 1821417.326
     fe979e5bce: 1952451.892
+    3f9562015e: 1906658.21
+    11778fd246: 1894531.298
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -841,6 +847,8 @@ results:
     d3df725f9e: 2732147.262
     74c88e7cda: 2782595.42
     fe979e5bce: 2853792.578
+    3f9562015e: 2682988.838
+    11778fd246: 2779065.956
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1051,6 +1059,8 @@ results:
     d3df725f9e: 3407990.27
     74c88e7cda: 3691184.003
     fe979e5bce: 3782007.303
+    3f9562015e: 3678384.905
+    11778fd246: 3673784.117
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1261,6 +1271,8 @@ results:
     d3df725f9e: 3637831.335
     74c88e7cda: 3561357.023
     fe979e5bce: 3778239.383
+    3f9562015e: 3676757.227
+    11778fd246: 3662889.377
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1471,6 +1483,8 @@ results:
     d3df725f9e: 1901605.46
     74c88e7cda: 1858868.305
     fe979e5bce: 2029335.881
+    3f9562015e: 1980885.196
+    11778fd246: 1985398.659
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -1681,3 +1695,5 @@ results:
     d3df725f9e: 2930052.72
     74c88e7cda: 2974385.945
     fe979e5bce: 2994677.565
+    3f9562015e: 2904353.333
+    11778fd246: 2974126.948
