@@ -9,12 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  68987d4ae1: ruby 2.7.0dev (2019-03-28 trunk 67362) [x86_64-linux]
-  68987d4ae1 --jit: ruby 2.7.0dev (2019-03-28 trunk 67362) +JIT [x86_64-linux]
-  7ce0e96334: ruby 2.7.0dev (2019-03-28 trunk 67363) [x86_64-linux]
-  7ce0e96334 --jit: ruby 2.7.0dev (2019-03-28 trunk 67363) +JIT [x86_64-linux]
-  233267db34: ruby 2.7.0dev (2019-03-29 trunk 67364) [x86_64-linux]
-  233267db34 --jit: ruby 2.7.0dev (2019-03-29 trunk 67364) +JIT [x86_64-linux]
   e7477a949c: ruby 2.7.0dev (2019-03-29 trunk 67365) [x86_64-linux]
   e7477a949c --jit: ruby 2.7.0dev (2019-03-29 trunk 67365) +JIT [x86_64-linux]
   b6c04a7ad7: ruby 2.7.0dev (2019-03-29 trunk 67366) [x86_64-linux]
@@ -3055,3 +3049,27 @@ commits:
   c55db6aa27 --jit: |-
     ruby 2.7.0dev (2019-05-31 trunk c55db6aa27) +JIT [x86_64-linux]
     last_commit=* 2019-05-31
+  e935a3227d: |-
+    ruby 2.7.0dev (2019-05-31 trunk e935a3227d) [x86_64-linux]
+    last_commit=Update to ruby/mspec@3cc36d0
+  e935a3227d --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk e935a3227d) +JIT [x86_64-linux]
+    last_commit=Update to ruby/mspec@3cc36d0
+  a4161b7649: |-
+    ruby 2.7.0dev (2019-05-31 trunk a4161b7649) [x86_64-linux]
+    last_commit=Update to ruby/spec@0ba5312
+  a4161b7649 --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk a4161b7649) +JIT [x86_64-linux]
+    last_commit=Update to ruby/spec@0ba5312
+  8f83fe3b02: |-
+    ruby 2.7.0dev (2019-05-31 trunk 8f83fe3b02) [x86_64-linux]
+    last_commit=Finish with ^D only when input is completely empty in vi insert mode
+  8f83fe3b02 --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk 8f83fe3b02) +JIT [x86_64-linux]
+    last_commit=Finish with ^D only when input is completely empty in vi insert mode
+  6e052817f9: |-
+    ruby 2.7.0dev (2019-05-31 trunk 6e052817f9) [x86_64-linux]
+    last_commit=Abstract away Ripper::Lexer#scan in IRB::Color#scan
+  6e052817f9 --jit: |-
+    ruby 2.7.0dev (2019-05-31 trunk 6e052817f9) +JIT [x86_64-linux]
+    last_commit=Abstract away Ripper::Lexer#scan in IRB::Color#scan
