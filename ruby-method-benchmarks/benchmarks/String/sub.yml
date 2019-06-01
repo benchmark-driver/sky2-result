@@ -223,6 +223,8 @@ results:
     fafcbe0eb0: 3103511.079
     a95ca6d5e9: 3412699.644
     aeb9a0ca77: 3392373.323
+    52b09fcee1: 2946387.46
+    '0408b8b390': 3337183.995
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -445,6 +447,8 @@ results:
     fafcbe0eb0: 3312785.96
     a95ca6d5e9: 3143092.868
     aeb9a0ca77: 3240393.466
+    52b09fcee1: 3330960.325
+    '0408b8b390': 3413097.133
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -667,6 +671,8 @@ results:
     fafcbe0eb0: 1869966.491
     a95ca6d5e9: 1899235.139
     aeb9a0ca77: 1849610.361
+    52b09fcee1: 1885105.021
+    '0408b8b390': 1888343.333
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -889,6 +895,8 @@ results:
     fafcbe0eb0: 2337828.185
     a95ca6d5e9: 2753877.713
     aeb9a0ca77: 2769540.386
+    52b09fcee1: 2751690.673
+    '0408b8b390': 2688826.827
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1111,6 +1119,8 @@ results:
     fafcbe0eb0: 3573710.275
     a95ca6d5e9: 3727362.889
     aeb9a0ca77: 3666926.968
+    52b09fcee1: 3657523.682
+    '0408b8b390': 3632201.478
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1333,6 +1343,8 @@ results:
     fafcbe0eb0: 3477606.75
     a95ca6d5e9: 3594519.726
     aeb9a0ca77: 3593994.33
+    52b09fcee1: 3619560.065
+    '0408b8b390': 3712840.224
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1555,6 +1567,8 @@ results:
     fafcbe0eb0: 1997182.65
     a95ca6d5e9: 2008906.179
     aeb9a0ca77: 1972573.625
+    52b09fcee1: 1864906.263
+    '0408b8b390': 1997302.854
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -1777,3 +1791,5 @@ results:
     fafcbe0eb0: 2936950.924
     a95ca6d5e9: 2938033.395
     aeb9a0ca77: 2946127.87
+    52b09fcee1: 2962813.653
+    '0408b8b390': 2913666.293
