@@ -9,26 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  1286674bb9: ruby 2.7.0dev (2019-04-02 trunk 67405) [x86_64-linux]
-  1286674bb9 --jit: ruby 2.7.0dev (2019-04-02 trunk 67405) +JIT [x86_64-linux]
-  f4bff3a7f9: ruby 2.7.0dev (2019-04-02 trunk 67406) [x86_64-linux]
-  f4bff3a7f9 --jit: ruby 2.7.0dev (2019-04-02 trunk 67406) +JIT [x86_64-linux]
-  f0f6615a25: ruby 2.7.0dev (2019-04-02 trunk 67407) [x86_64-linux]
-  f0f6615a25 --jit: ruby 2.7.0dev (2019-04-02 trunk 67407) +JIT [x86_64-linux]
-  1ad6dde9da: ruby 2.7.0dev (2019-04-02 trunk 67408) [x86_64-linux]
-  1ad6dde9da --jit: ruby 2.7.0dev (2019-04-02 trunk 67408) +JIT [x86_64-linux]
-  e8f8cf111f: ruby 2.7.0dev (2019-04-02 trunk 67409) [x86_64-linux]
-  e8f8cf111f --jit: ruby 2.7.0dev (2019-04-02 trunk 67409) +JIT [x86_64-linux]
-  5f3e5e6fc5: ruby 2.7.0dev (2019-04-02 trunk 67410) [x86_64-linux]
-  5f3e5e6fc5 --jit: ruby 2.7.0dev (2019-04-02 trunk 67410) +JIT [x86_64-linux]
-  da0fceae3b: ruby 2.7.0dev (2019-04-02 trunk 67411) [x86_64-linux]
-  da0fceae3b --jit: ruby 2.7.0dev (2019-04-02 trunk 67411) +JIT [x86_64-linux]
-  7cd6706b9a: ruby 2.7.0dev (2019-04-02 trunk 67412) [x86_64-linux]
-  7cd6706b9a --jit: ruby 2.7.0dev (2019-04-02 trunk 67412) +JIT [x86_64-linux]
-  79de8e9f6b: ruby 2.7.0dev (2019-04-02 trunk 67413) [x86_64-linux]
-  79de8e9f6b --jit: ruby 2.7.0dev (2019-04-02 trunk 67413) +JIT [x86_64-linux]
-  '5370244337': ruby 2.7.0dev (2019-04-02 trunk 67414) [x86_64-linux]
-  5370244337 --jit: ruby 2.7.0dev (2019-04-02 trunk 67414) +JIT [x86_64-linux]
   f28be7e02d: ruby 2.7.0dev (2019-04-02 trunk 67415) [x86_64-linux]
   f28be7e02d --jit: ruby 2.7.0dev (2019-04-02 trunk 67415) +JIT [x86_64-linux]
   4283fb42bc: ruby 2.7.0dev (2019-04-02 trunk 67416) [x86_64-linux]
@@ -3229,3 +3209,27 @@ commits:
   2bad001cfd --jit: |-
     ruby 2.7.0dev (2019-06-01 trunk 2bad001cfd) +JIT [x86_64-linux]
     last_commit=Ignore warnings about mismatched indentations.
+  8a041c1b92: |-
+    ruby 2.7.0dev (2019-06-01 trunk 8a041c1b92) [x86_64-linux]
+    last_commit=delegate.rb: markup method names
+  8a041c1b92 --jit: |-
+    ruby 2.7.0dev (2019-06-01 trunk 8a041c1b92) +JIT [x86_64-linux]
+    last_commit=delegate.rb: markup method names
+  e814d2f84a: |-
+    ruby 2.7.0dev (2019-06-02 trunk e814d2f84a) [x86_64-linux]
+    last_commit=* 2019-06-02
+  e814d2f84a --jit: |-
+    ruby 2.7.0dev (2019-06-02 trunk e814d2f84a) +JIT [x86_64-linux]
+    last_commit=* 2019-06-02
+  3afae5b572: |-
+    ruby 2.7.0dev (2019-06-02 trunk 3afae5b572) [x86_64-linux]
+    last_commit=NEWS: markup class and method names
+  3afae5b572 --jit: |-
+    ruby 2.7.0dev (2019-06-02 trunk 3afae5b572) +JIT [x86_64-linux]
+    last_commit=NEWS: markup class and method names
+  '09c09eb0db': |-
+    ruby 2.7.0dev (2019-06-02 trunk 09c09eb0db) [x86_64-linux]
+    last_commit=NEWS: move GC.compact
+  '09c09eb0db --jit': |-
+    ruby 2.7.0dev (2019-06-02 trunk 09c09eb0db) +JIT [x86_64-linux]
+    last_commit=NEWS: move GC.compact
