@@ -3169,3 +3169,27 @@ commits:
   7df65ef676 --jit: |-
     ruby 2.7.0dev (2019-06-01 trunk 7df65ef676) +JIT [x86_64-linux]
     last_commit=Use inputrc data for keystroke setting
+  65e63af377: |-
+    ruby 2.7.0dev (2019-06-01 trunk 65e63af377) [x86_64-linux]
+    last_commit=Make opt_aref instruction support Integer#[]
+  65e63af377 --jit: |-
+    ruby 2.7.0dev (2019-06-01 trunk 65e63af377) +JIT [x86_64-linux]
+    last_commit=Make opt_aref instruction support Integer#[]
+  b487b39b85: |-
+    ruby 2.7.0dev (2019-06-01 trunk b487b39b85) [x86_64-linux]
+    last_commit=* expand tabs.
+  b487b39b85 --jit: |-
+    ruby 2.7.0dev (2019-06-01 trunk b487b39b85) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  3034d666e8: |-
+    ruby 2.7.0dev (2019-06-01 trunk 3034d666e8) [x86_64-linux]
+    last_commit=Just use `File.readlines`
+  3034d666e8 --jit: |-
+    ruby 2.7.0dev (2019-06-01 trunk 3034d666e8) +JIT [x86_64-linux]
+    last_commit=Just use `File.readlines`
+  34727475d0: |-
+    ruby 2.7.0dev (2019-06-01 trunk 34727475d0) [x86_64-linux]
+    last_commit=Remove an unnecessary argument
+  34727475d0 --jit: |-
+    ruby 2.7.0dev (2019-06-01 trunk 34727475d0) +JIT [x86_64-linux]
+    last_commit=Remove an unnecessary argument
