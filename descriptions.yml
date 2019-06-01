@@ -9,22 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  721be15494: ruby 2.7.0dev (2019-03-30 trunk 67386) [x86_64-linux]
-  721be15494 --jit: ruby 2.7.0dev (2019-03-30 trunk 67386) +JIT [x86_64-linux]
-  19e672cce9: ruby 2.7.0dev (2019-03-30 trunk 67387) [x86_64-linux]
-  19e672cce9 --jit: ruby 2.7.0dev (2019-03-30 trunk 67387) +JIT [x86_64-linux]
-  b84eed5dd8: ruby 2.7.0dev (2019-03-30 trunk 67388) [x86_64-linux]
-  b84eed5dd8 --jit: ruby 2.7.0dev (2019-03-30 trunk 67388) +JIT [x86_64-linux]
-  ddc5839005: ruby 2.7.0dev (2019-03-30 trunk 67389) [x86_64-linux]
-  ddc5839005 --jit: ruby 2.7.0dev (2019-03-30 trunk 67389) +JIT [x86_64-linux]
-  4e0420f577: ruby 2.7.0dev (2019-03-31 trunk 67390) [x86_64-linux]
-  4e0420f577 --jit: ruby 2.7.0dev (2019-03-31 trunk 67390) +JIT [x86_64-linux]
-  5e86970840: ruby 2.7.0dev (2019-03-31 trunk 67395) [x86_64-linux]
-  5e86970840 --jit: ruby 2.7.0dev (2019-03-31 trunk 67395) +JIT [x86_64-linux]
-  367362b9d5: ruby 2.7.0dev (2019-04-01 trunk 67396) [x86_64-linux]
-  367362b9d5 --jit: ruby 2.7.0dev (2019-04-01 trunk 67396) +JIT [x86_64-linux]
-  744c314059: ruby 2.7.0dev (2019-04-01 trunk 67397) [x86_64-linux]
-  744c314059 --jit: ruby 2.7.0dev (2019-04-01 trunk 67397) +JIT [x86_64-linux]
   e836cd0b9f: ruby 2.7.0dev (2019-04-01 trunk 67398) [x86_64-linux]
   e836cd0b9f --jit: ruby 2.7.0dev (2019-04-01 trunk 67398) +JIT [x86_64-linux]
   285817c6d8: ruby 2.7.0dev (2019-04-01 trunk 67399) [x86_64-linux]
@@ -3157,3 +3141,27 @@ commits:
   552c42f51f --jit: |-
     ruby 2.7.0dev (2019-06-01 trunk 552c42f51f) +JIT [x86_64-linux]
     last_commit=Seprate raw keystroke config for each platforms
+  f97979ce88: |-
+    ruby 2.7.0dev (2019-06-01 trunk f97979ce88) [x86_64-linux]
+    last_commit=Update to ruby/mspec@a57a9af
+  f97979ce88 --jit: |-
+    ruby 2.7.0dev (2019-06-01 trunk f97979ce88) +JIT [x86_64-linux]
+    last_commit=Update to ruby/mspec@a57a9af
+  1d37cc1900: |-
+    ruby 2.7.0dev (2019-06-01 trunk 1d37cc1900) [x86_64-linux]
+    last_commit=Update to ruby/spec@cfe908c
+  1d37cc1900 --jit: |-
+    ruby 2.7.0dev (2019-06-01 trunk 1d37cc1900) +JIT [x86_64-linux]
+    last_commit=Update to ruby/spec@cfe908c
+  aeb9a0ca77: |-
+    ruby 2.7.0dev (2019-06-01 trunk aeb9a0ca77) [x86_64-linux]
+    last_commit=appveyor.yml again!
+  aeb9a0ca77 --jit: |-
+    ruby 2.7.0dev (2019-06-01 trunk aeb9a0ca77) +JIT [x86_64-linux]
+    last_commit=appveyor.yml again!
+  c1e5299787: |-
+    ruby 2.7.0dev (2019-06-01 trunk c1e5299787) [x86_64-linux]
+    last_commit=Fix FrozenError when assigning frozen class to constant
+  c1e5299787 --jit: |-
+    ruby 2.7.0dev (2019-06-01 trunk c1e5299787) +JIT [x86_64-linux]
+    last_commit=Fix FrozenError when assigning frozen class to constant
