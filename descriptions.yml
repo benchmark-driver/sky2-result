@@ -9,18 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  285817c6d8: ruby 2.7.0dev (2019-04-01 trunk 67399) [x86_64-linux]
-  285817c6d8 --jit: ruby 2.7.0dev (2019-04-01 trunk 67399) +JIT [x86_64-linux]
-  321d72bdd6: ruby 2.7.0dev (2019-04-01 trunk 67400) [x86_64-linux]
-  321d72bdd6 --jit: ruby 2.7.0dev (2019-04-01 trunk 67400) +JIT [x86_64-linux]
-  c71c59feeb: ruby 2.7.0dev (2019-04-01 trunk 67401) [x86_64-linux]
-  c71c59feeb --jit: ruby 2.7.0dev (2019-04-01 trunk 67401) +JIT [x86_64-linux]
-  d48783bb02: ruby 2.7.0dev (2019-04-02 trunk 67402) [x86_64-linux]
-  d48783bb02 --jit: ruby 2.7.0dev (2019-04-02 trunk 67402) +JIT [x86_64-linux]
-  960d059ef7: ruby 2.7.0dev (2019-04-02 trunk 67403) [x86_64-linux]
-  960d059ef7 --jit: ruby 2.7.0dev (2019-04-02 trunk 67403) +JIT [x86_64-linux]
-  990df87302: ruby 2.7.0dev (2019-04-02 trunk 67404) [x86_64-linux]
-  990df87302 --jit: ruby 2.7.0dev (2019-04-02 trunk 67404) +JIT [x86_64-linux]
   1286674bb9: ruby 2.7.0dev (2019-04-02 trunk 67405) [x86_64-linux]
   1286674bb9 --jit: ruby 2.7.0dev (2019-04-02 trunk 67405) +JIT [x86_64-linux]
   f4bff3a7f9: ruby 2.7.0dev (2019-04-02 trunk 67406) [x86_64-linux]
@@ -3193,3 +3181,15 @@ commits:
   34727475d0 --jit: |-
     ruby 2.7.0dev (2019-06-01 trunk 34727475d0) +JIT [x86_64-linux]
     last_commit=Remove an unnecessary argument
+  de01c4ec00: |-
+    ruby 2.7.0dev (2019-06-01 trunk de01c4ec00) [x86_64-linux]
+    last_commit=Reset Config at Reline::Config::Test#teardown
+  de01c4ec00 --jit: |-
+    ruby 2.7.0dev (2019-06-01 trunk de01c4ec00) +JIT [x86_64-linux]
+    last_commit=Reset Config at Reline::Config::Test#teardown
+  560cd5b1f0: |-
+    ruby 2.7.0dev (2019-06-01 trunk 560cd5b1f0) [x86_64-linux]
+    last_commit=Add myself as OpenBSD platform maintainer
+  560cd5b1f0 --jit: |-
+    ruby 2.7.0dev (2019-06-01 trunk 560cd5b1f0) +JIT [x86_64-linux]
+    last_commit=Add myself as OpenBSD platform maintainer
