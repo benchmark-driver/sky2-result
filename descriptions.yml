@@ -9,14 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  95f7992b89: ruby 2.7.0dev (2019-04-03 trunk 67422) [x86_64-linux]
-  95f7992b89 --jit: ruby 2.7.0dev (2019-04-03 trunk 67422) +JIT [x86_64-linux]
-  d4319541e8: ruby 2.7.0dev (2019-04-03 trunk 67423) [x86_64-linux]
-  d4319541e8 --jit: ruby 2.7.0dev (2019-04-03 trunk 67423) +JIT [x86_64-linux]
-  f0204a2547: ruby 2.7.0dev (2019-04-03 trunk 67424) [x86_64-linux]
-  f0204a2547 --jit: ruby 2.7.0dev (2019-04-03 trunk 67424) +JIT [x86_64-linux]
-  1329c7cdca: ruby 2.7.0dev (2019-04-03 trunk 67425) [x86_64-linux]
-  1329c7cdca --jit: ruby 2.7.0dev (2019-04-03 trunk 67425) +JIT [x86_64-linux]
   a6146af5bd: ruby 2.7.0dev (2019-04-03 trunk 67426) [x86_64-linux]
   a6146af5bd --jit: ruby 2.7.0dev (2019-04-03 trunk 67426) +JIT [x86_64-linux]
   f4a1235abe: ruby 2.7.0dev (2019-04-03 trunk 67427) [x86_64-linux]
@@ -3267,3 +3259,21 @@ commits:
   d04ebc57f2 --jit: |-
     ruby 2.7.0dev (2019-06-02 trunk d04ebc57f2) +JIT [x86_64-linux]
     last_commit=Add true condition `Reline`
+  4fda39fc87: |-
+    ruby 2.7.0dev (2019-06-02 trunk 4fda39fc87) [x86_64-linux]
+    last_commit=Use simpler regexp
+  4fda39fc87 --jit: |-
+    ruby 2.7.0dev (2019-06-02 trunk 4fda39fc87) +JIT [x86_64-linux]
+    last_commit=Use simpler regexp
+  a1e6e45341: |-
+    ruby 2.7.0dev (2019-06-02 trunk a1e6e45341) [x86_64-linux]
+    last_commit=Prefer $INPUTRC over the default in the home
+  a1e6e45341 --jit: |-
+    ruby 2.7.0dev (2019-06-02 trunk a1e6e45341) +JIT [x86_64-linux]
+    last_commit=Prefer $INPUTRC over the default in the home
+  f4b060d8d7: |-
+    ruby 2.7.0dev (2019-06-02 trunk f4b060d8d7) [x86_64-linux]
+    last_commit=Check conditional nestings in INPUTRC
+  f4b060d8d7 --jit: |-
+    ruby 2.7.0dev (2019-06-02 trunk f4b060d8d7) +JIT [x86_64-linux]
+    last_commit=Check conditional nestings in INPUTRC
