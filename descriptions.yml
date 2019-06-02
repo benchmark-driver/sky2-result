@@ -9,10 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  f28be7e02d: ruby 2.7.0dev (2019-04-02 trunk 67415) [x86_64-linux]
-  f28be7e02d --jit: ruby 2.7.0dev (2019-04-02 trunk 67415) +JIT [x86_64-linux]
-  4283fb42bc: ruby 2.7.0dev (2019-04-02 trunk 67416) [x86_64-linux]
-  4283fb42bc --jit: ruby 2.7.0dev (2019-04-02 trunk 67416) +JIT [x86_64-linux]
   e377eb0e75: ruby 2.7.0dev (2019-04-02 trunk 67417) [x86_64-linux]
   e377eb0e75 --jit: ruby 2.7.0dev (2019-04-02 trunk 67417) +JIT [x86_64-linux]
   714c2b0a93: ruby 2.7.0dev (2019-04-03 trunk 67418) [x86_64-linux]
@@ -3233,3 +3229,15 @@ commits:
   '09c09eb0db --jit': |-
     ruby 2.7.0dev (2019-06-02 trunk 09c09eb0db) +JIT [x86_64-linux]
     last_commit=NEWS: move GC.compact
+  4b9869e7e0: |-
+    ruby 2.7.0dev (2019-06-02 trunk 4b9869e7e0) [x86_64-linux]
+    last_commit=Update String#crypt tests to work on OpenBSD
+  4b9869e7e0 --jit: |-
+    ruby 2.7.0dev (2019-06-02 trunk 4b9869e7e0) +JIT [x86_64-linux]
+    last_commit=Update String#crypt tests to work on OpenBSD
+  7b1c1b9492: |-
+    ruby 2.7.0dev (2019-06-02 trunk 7b1c1b9492) [x86_64-linux]
+    last_commit=Suppress error of macro not found
+  7b1c1b9492 --jit: |-
+    ruby 2.7.0dev (2019-06-02 trunk 7b1c1b9492) +JIT [x86_64-linux]
+    last_commit=Suppress error of macro not found
