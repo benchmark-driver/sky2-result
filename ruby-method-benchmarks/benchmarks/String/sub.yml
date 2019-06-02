@@ -239,6 +239,8 @@ results:
     10927b5925: 3355460.359
     f95f07dad3: 3334508.735
     dcb37d0639: 3518446.032
+    c5cbabf8a8: 3395254.853
+    a4d44b08ec: 3372090.76
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -477,6 +479,8 @@ results:
     10927b5925: 3293850.704
     f95f07dad3: 3334700.52
     dcb37d0639: 3455697.502
+    c5cbabf8a8: 3245633.29
+    a4d44b08ec: 3335010.701
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -715,6 +719,8 @@ results:
     10927b5925: 1844407.882
     f95f07dad3: 1877400.544
     dcb37d0639: 1903718.209
+    c5cbabf8a8: 1817207.034
+    a4d44b08ec: 1883768.765
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -953,6 +959,8 @@ results:
     10927b5925: 2775157.241
     f95f07dad3: 2655809.845
     dcb37d0639: 2824590.419
+    c5cbabf8a8: 2784656.891
+    a4d44b08ec: 2774691.755
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1191,6 +1199,8 @@ results:
     10927b5925: 3628931.803
     f95f07dad3: 3605722.014
     dcb37d0639: 3786454.687
+    c5cbabf8a8: 3582571.237
+    a4d44b08ec: 3639041.213
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1429,6 +1439,8 @@ results:
     10927b5925: 3624759.223
     f95f07dad3: 3610325.74
     dcb37d0639: 3720294.329
+    c5cbabf8a8: 3464423.103
+    a4d44b08ec: 3585467.334
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1667,6 +1679,8 @@ results:
     10927b5925: 1966674.59
     f95f07dad3: 1994277.994
     dcb37d0639: 1995201.044
+    c5cbabf8a8: 1901478.579
+    a4d44b08ec: 1982654.646
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -1905,3 +1919,5 @@ results:
     10927b5925: 2905080.746
     f95f07dad3: 2852101.285
     dcb37d0639: 3024858.531
+    c5cbabf8a8: 2979743.294
+    a4d44b08ec: 2675285.994
