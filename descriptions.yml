@@ -3331,3 +3331,9 @@ commits:
   c280519256 --jit: |-
     ruby 2.7.0dev (2019-06-03 trunk c280519256) +JIT [x86_64-linux]
     last_commit=remove `rb_objspace_pinned_object_p()`
+  d7c3eb570b: |-
+    ruby 2.7.0dev (2019-06-03 trunk d7c3eb570b) [x86_64-linux]
+    last_commit=Erase VI_OPERATORS
+  d7c3eb570b --jit: |-
+    ruby 2.7.0dev (2019-06-03 trunk d7c3eb570b) +JIT [x86_64-linux]
+    last_commit=Erase VI_OPERATORS
