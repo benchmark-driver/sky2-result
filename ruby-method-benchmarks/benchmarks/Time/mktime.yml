@@ -256,6 +256,8 @@ results:
     7df65ef676: 472019.962
     4b012c23b2: 472936.021
     3ef4db15e9: 485363.061
+    e2db9f4cc3: 485360.803
+    e900bba945: 481879.259
   Time.mktime(sec, min, hour, mday, mon, year, wday, yday, isdst, zone):
     025206d0dd: 465372.894
     '0408b8b390': 497226.986
@@ -511,6 +513,8 @@ results:
     7df65ef676: 415334.948
     4b012c23b2: 484646.026
     3ef4db15e9: 484105.389
+    e2db9f4cc3: 456475.216
+    e900bba945: 479430.465
   Time.local(year, month, day, hour, min, sec, usec_with_frac):
     025206d0dd: 488144.766
     '0408b8b390': 482400.108
@@ -766,6 +770,8 @@ results:
     7df65ef676: 486146.777
     4b012c23b2: 440561.945
     3ef4db15e9: 466270.861
+    e2db9f4cc3: 490923.464
+    e900bba945: 484576.906
   Time.local(sec, min, hour, mday, mon, year, wday, yday, isdst, zone):
     025206d0dd: 474496.401
     '0408b8b390': 492780.711
@@ -1021,3 +1027,5 @@ results:
     7df65ef676: 474097.985
     4b012c23b2: 488190.181
     3ef4db15e9: 479989.216
+    e2db9f4cc3: 428205.594
+    e900bba945: 475018.746
