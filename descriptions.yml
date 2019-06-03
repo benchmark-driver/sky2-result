@@ -9,20 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  dcb37d0639: ruby 2.7.0dev (2019-04-04 trunk 67433) [x86_64-linux]
-  dcb37d0639 --jit: ruby 2.7.0dev (2019-04-04 trunk 67433) +JIT [x86_64-linux]
-  53d3fe0643: ruby 2.7.0dev (2019-04-04 trunk 67434) [x86_64-linux]
-  53d3fe0643 --jit: ruby 2.7.0dev (2019-04-04 trunk 67434) +JIT [x86_64-linux]
-  f1fb989f1a: ruby 2.7.0dev (2019-04-04 trunk 67435) [x86_64-linux]
-  f1fb989f1a --jit: ruby 2.7.0dev (2019-04-04 trunk 67435) +JIT [x86_64-linux]
-  6faf266893: ruby 2.7.0dev (2019-04-04 trunk 67436) [x86_64-linux]
-  6faf266893 --jit: ruby 2.7.0dev (2019-04-04 trunk 67436) +JIT [x86_64-linux]
-  6f015efc64: ruby 2.7.0dev (2019-04-04 trunk 67437) [x86_64-linux]
-  6f015efc64 --jit: ruby 2.7.0dev (2019-04-04 trunk 67437) +JIT [x86_64-linux]
-  59a37c0283: ruby 2.7.0dev (2019-04-04 trunk 67438) [x86_64-linux]
-  59a37c0283 --jit: ruby 2.7.0dev (2019-04-04 trunk 67438) +JIT [x86_64-linux]
-  c604219e8d: ruby 2.7.0dev (2019-04-04 trunk 67439) [x86_64-linux]
-  c604219e8d --jit: ruby 2.7.0dev (2019-04-04 trunk 67439) +JIT [x86_64-linux]
   c8d60fddc0: ruby 2.7.0dev (2019-04-05 trunk 67440) [x86_64-linux]
   c8d60fddc0 --jit: ruby 2.7.0dev (2019-04-05 trunk 67440) +JIT [x86_64-linux]
   7fe64d17d3: ruby 2.7.0dev (2019-04-05 trunk 67441) [x86_64-linux]
@@ -3323,3 +3309,25 @@ commits:
   17af8bfce6 --jit: |-
     ruby 2.7.0dev (2019-06-03 trunk 17af8bfce6) +JIT [x86_64-linux]
     last_commit=Make size on an infinite each_slice enumerator return Infinity
+  3102ca4c6e: "ruby 2.7.0dev (2019-06-03 trunk 3102ca4c6e) [x86_64-linux]\nlast_commit=Default
+    GIT external encoding to UTF-8 \U0001F937‍♂️"
+  3102ca4c6e --jit: "ruby 2.7.0dev (2019-06-03 trunk 3102ca4c6e) +JIT [x86_64-linux]\nlast_commit=Default
+    GIT external encoding to UTF-8 \U0001F937‍♂️"
+  22da5d71ea: |-
+    ruby 2.7.0dev (2019-06-03 trunk 22da5d71ea) [x86_64-linux]
+    last_commit=`ruby -v` may no longer be ASCII-only on non-master branches
+  22da5d71ea --jit: |-
+    ruby 2.7.0dev (2019-06-03 trunk 22da5d71ea) +JIT [x86_64-linux]
+    last_commit=`ruby -v` may no longer be ASCII-only on non-master branches
+  c990b3c41a: |-
+    ruby 2.7.0dev (2019-06-03 trunk c990b3c41a) [x86_64-linux]
+    last_commit=Fix the error token on "invalid hex escape"
+  c990b3c41a --jit: |-
+    ruby 2.7.0dev (2019-06-03 trunk c990b3c41a) +JIT [x86_64-linux]
+    last_commit=Fix the error token on "invalid hex escape"
+  c280519256: |-
+    ruby 2.7.0dev (2019-06-03 trunk c280519256) [x86_64-linux]
+    last_commit=remove `rb_objspace_pinned_object_p()`
+  c280519256 --jit: |-
+    ruby 2.7.0dev (2019-06-03 trunk c280519256) +JIT [x86_64-linux]
+    last_commit=remove `rb_objspace_pinned_object_p()`
