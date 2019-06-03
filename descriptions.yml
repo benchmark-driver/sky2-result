@@ -9,16 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  c8d60fddc0: ruby 2.7.0dev (2019-04-05 trunk 67440) [x86_64-linux]
-  c8d60fddc0 --jit: ruby 2.7.0dev (2019-04-05 trunk 67440) +JIT [x86_64-linux]
-  7fe64d17d3: ruby 2.7.0dev (2019-04-05 trunk 67441) [x86_64-linux]
-  7fe64d17d3 --jit: ruby 2.7.0dev (2019-04-05 trunk 67441) +JIT [x86_64-linux]
-  2b5bb8a087: ruby 2.7.0dev (2019-04-05 trunk 67442) [x86_64-linux]
-  2b5bb8a087 --jit: ruby 2.7.0dev (2019-04-05 trunk 67442) +JIT [x86_64-linux]
-  4b53f84326: ruby 2.7.0dev (2019-04-05 trunk 67443) [x86_64-linux]
-  4b53f84326 --jit: ruby 2.7.0dev (2019-04-05 trunk 67443) +JIT [x86_64-linux]
-  b2311c6767: ruby 2.7.0dev (2019-04-05 trunk 67444) [x86_64-linux]
-  b2311c6767 --jit: ruby 2.7.0dev (2019-04-05 trunk 67444) +JIT [x86_64-linux]
   7fd8cdf398: ruby 2.7.0dev (2019-04-05 trunk 67445) [x86_64-linux]
   7fd8cdf398 --jit: ruby 2.7.0dev (2019-04-05 trunk 67445) +JIT [x86_64-linux]
   f6338966f1: ruby 2.7.0dev (2019-04-05 trunk 67446) [x86_64-linux]
@@ -3337,3 +3327,27 @@ commits:
   d7c3eb570b --jit: |-
     ruby 2.7.0dev (2019-06-03 trunk d7c3eb570b) +JIT [x86_64-linux]
     last_commit=Erase VI_OPERATORS
+  a4c5d23404: |-
+    ruby 2.7.0dev (2019-06-03 trunk a4c5d23404) [x86_64-linux]
+    last_commit=benchmark/time_strptime.yml does not work with miniruby
+  a4c5d23404 --jit: |-
+    ruby 2.7.0dev (2019-06-03 trunk a4c5d23404) +JIT [x86_64-linux]
+    last_commit=benchmark/time_strptime.yml does not work with miniruby
+  11d3986d65: |-
+    ruby 2.7.0dev (2019-06-03 trunk 11d3986d65) [x86_64-linux]
+    last_commit=common.mk is NOT working with /bin/sh anymore
+  11d3986d65 --jit: |-
+    ruby 2.7.0dev (2019-06-03 trunk 11d3986d65) +JIT [x86_64-linux]
+    last_commit=common.mk is NOT working with /bin/sh anymore
+  1b2b0e1f24: |-
+    ruby 2.7.0dev (2019-06-03 trunk 1b2b0e1f24) [x86_64-linux]
+    last_commit=Revert "common.mk is NOT working with /bin/sh anymore"
+  1b2b0e1f24 --jit: |-
+    ruby 2.7.0dev (2019-06-03 trunk 1b2b0e1f24) +JIT [x86_64-linux]
+    last_commit=Revert "common.mk is NOT working with /bin/sh anymore"
+  928377d2c5: |-
+    ruby 2.7.0dev (2019-06-03 trunk 928377d2c5) [x86_64-linux]
+    last_commit=Revert "common.mk: allow brace expansion for benchmark targets"
+  928377d2c5 --jit: |-
+    ruby 2.7.0dev (2019-06-03 trunk 928377d2c5) +JIT [x86_64-linux]
+    last_commit=Revert "common.mk: allow brace expansion for benchmark targets"
