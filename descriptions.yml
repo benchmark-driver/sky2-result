@@ -9,32 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  ae6c195f30: ruby 2.7.0dev (2019-04-07 trunk 67468) [x86_64-linux]
-  ae6c195f30 --jit: ruby 2.7.0dev (2019-04-07 trunk 67468) +JIT [x86_64-linux]
-  b29f55c5ac: ruby 2.7.0dev (2019-04-08 trunk 67469) [x86_64-linux]
-  b29f55c5ac --jit: ruby 2.7.0dev (2019-04-08 trunk 67469) +JIT [x86_64-linux]
-  7a4c39c5f2: ruby 2.7.0dev (2019-04-08 trunk 67470) [x86_64-linux]
-  7a4c39c5f2 --jit: ruby 2.7.0dev (2019-04-08 trunk 67470) +JIT [x86_64-linux]
-  e1b592b508: ruby 2.7.0dev (2019-04-08 trunk 67471) [x86_64-linux]
-  e1b592b508 --jit: ruby 2.7.0dev (2019-04-08 trunk 67471) +JIT [x86_64-linux]
-  d10451f3fd: ruby 2.7.0dev (2019-04-08 trunk 67472) [x86_64-linux]
-  d10451f3fd --jit: ruby 2.7.0dev (2019-04-08 trunk 67472) +JIT [x86_64-linux]
-  63e66f08b6: ruby 2.7.0dev (2019-04-08 trunk 67473) [x86_64-linux]
-  63e66f08b6 --jit: ruby 2.7.0dev (2019-04-08 trunk 67473) +JIT [x86_64-linux]
-  320c98b436: ruby 2.7.0dev (2019-04-08 trunk 67474) [x86_64-linux]
-  320c98b436 --jit: ruby 2.7.0dev (2019-04-08 trunk 67474) +JIT [x86_64-linux]
-  49255fd703: ruby 2.7.0dev (2019-04-09 trunk 67475) [x86_64-linux]
-  49255fd703 --jit: ruby 2.7.0dev (2019-04-09 trunk 67475) +JIT [x86_64-linux]
-  a2429de63c: ruby 2.7.0dev (2019-04-09 trunk 67476) [x86_64-linux]
-  a2429de63c --jit: ruby 2.7.0dev (2019-04-09 trunk 67476) +JIT [x86_64-linux]
-  ed958ef37e: ruby 2.7.0dev (2019-04-09 trunk 67477) [x86_64-linux]
-  ed958ef37e --jit: ruby 2.7.0dev (2019-04-09 trunk 67477) +JIT [x86_64-linux]
-  c09e35d7bb: ruby 2.7.0dev (2019-04-09 trunk 67478) [x86_64-linux]
-  c09e35d7bb --jit: ruby 2.7.0dev (2019-04-09 trunk 67478) +JIT [x86_64-linux]
-  3ef4db15e9: ruby 2.7.0dev (2019-04-09 trunk 67479) [x86_64-linux]
-  3ef4db15e9 --jit: ruby 2.7.0dev (2019-04-09 trunk 67479) +JIT [x86_64-linux]
-  2d912017d7: ruby 2.7.0dev (2019-04-09 trunk 67480) [x86_64-linux]
-  2d912017d7 --jit: ruby 2.7.0dev (2019-04-09 trunk 67480) +JIT [x86_64-linux]
   ca9733dc02: ruby 2.7.0dev (2019-04-10 trunk 67481) [x86_64-linux]
   ca9733dc02 --jit: ruby 2.7.0dev (2019-04-10 trunk 67481) +JIT [x86_64-linux]
   41f5237ed1: ruby 2.7.0dev (2019-04-10 trunk 67482) [x86_64-linux]
@@ -3503,3 +3477,21 @@ commits:
   c8b001858e --jit: |-
     ruby 2.7.0dev (2019-06-04 trunk c8b001858e) +JIT [x86_64-linux]
     last_commit=Revert "marshal.c: new functions for extensions"
+  2c60f37143: |-
+    ruby 2.7.0dev (2019-06-04 trunk 2c60f37143) [x86_64-linux]
+    last_commit=random_mt_type
+  2c60f37143 --jit: |-
+    ruby 2.7.0dev (2019-06-04 trunk 2c60f37143) +JIT [x86_64-linux]
+    last_commit=random_mt_type
+  2e2cd8297b: |-
+    ruby 2.7.0dev (2019-06-04 trunk 2e2cd8297b) [x86_64-linux]
+    last_commit=* expand tabs.
+  2e2cd8297b --jit: |-
+    ruby 2.7.0dev (2019-06-04 trunk 2e2cd8297b) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  39eae6bf89: |-
+    ruby 2.7.0dev (2019-06-04 trunk 39eae6bf89) [x86_64-linux]
+    last_commit=tool/vcs.rb: return the commit date as the modified time
+  39eae6bf89 --jit: |-
+    ruby 2.7.0dev (2019-06-04 trunk 39eae6bf89) +JIT [x86_64-linux]
+    last_commit=tool/vcs.rb: return the commit date as the modified time
