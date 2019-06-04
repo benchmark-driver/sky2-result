@@ -9,24 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  7fd8cdf398: ruby 2.7.0dev (2019-04-05 trunk 67445) [x86_64-linux]
-  7fd8cdf398 --jit: ruby 2.7.0dev (2019-04-05 trunk 67445) +JIT [x86_64-linux]
-  f6338966f1: ruby 2.7.0dev (2019-04-05 trunk 67446) [x86_64-linux]
-  f6338966f1 --jit: ruby 2.7.0dev (2019-04-05 trunk 67446) +JIT [x86_64-linux]
-  8f734dc7b5: ruby 2.7.0dev (2019-04-05 trunk 67447) [x86_64-linux]
-  8f734dc7b5 --jit: ruby 2.7.0dev (2019-04-05 trunk 67447) +JIT [x86_64-linux]
-  aebc11dfe6: ruby 2.7.0dev (2019-04-05 trunk 67448) [x86_64-linux]
-  aebc11dfe6 --jit: ruby 2.7.0dev (2019-04-05 trunk 67448) +JIT [x86_64-linux]
-  9dcc6f0810: ruby 2.7.0dev (2019-04-05 trunk 67449) [x86_64-linux]
-  9dcc6f0810 --jit: ruby 2.7.0dev (2019-04-05 trunk 67449) +JIT [x86_64-linux]
-  6e0e93e60e: ruby 2.7.0dev (2019-04-05 trunk 67450) [x86_64-linux]
-  6e0e93e60e --jit: ruby 2.7.0dev (2019-04-05 trunk 67450) +JIT [x86_64-linux]
-  cab005db92: ruby 2.7.0dev (2019-04-05 trunk 67451) [x86_64-linux]
-  cab005db92 --jit: ruby 2.7.0dev (2019-04-05 trunk 67451) +JIT [x86_64-linux]
-  4e78854080: ruby 2.7.0dev (2019-04-06 trunk 67452) [x86_64-linux]
-  4e78854080 --jit: ruby 2.7.0dev (2019-04-06 trunk 67452) +JIT [x86_64-linux]
-  50eea44a27: ruby 2.7.0dev (2019-04-06 trunk 67453) [x86_64-linux]
-  50eea44a27 --jit: ruby 2.7.0dev (2019-04-06 trunk 67453) +JIT [x86_64-linux]
   b5df5296a4: ruby 2.7.0dev (2019-04-06 trunk 67454) [x86_64-linux]
   b5df5296a4 --jit: ruby 2.7.0dev (2019-04-06 trunk 67454) +JIT [x86_64-linux]
   a26d525ae4: ruby 2.7.0dev (2019-04-06 trunk 67455) [x86_64-linux]
@@ -3399,3 +3381,27 @@ commits:
   1a0b82210c --jit: |-
     ruby 2.7.0dev (2019-06-04 trunk 1a0b82210c) +JIT [x86_64-linux]
     last_commit=Upgrade benchmark-driver to fix deprecation warning
+  ca22cccc14: |-
+    ruby 2.7.0dev (2019-06-04 trunk ca22cccc14) [x86_64-linux]
+    last_commit=get rid of a warning of VC++
+  ca22cccc14 --jit: |-
+    ruby 2.7.0dev (2019-06-04 trunk ca22cccc14) +JIT [x86_64-linux]
+    last_commit=get rid of a warning of VC++
+  4eb1c2365c: |-
+    ruby 2.7.0dev (2019-06-04 trunk 4eb1c2365c) [x86_64-linux]
+    last_commit=Unpin objects that `proc` references
+  4eb1c2365c --jit: |-
+    ruby 2.7.0dev (2019-06-04 trunk 4eb1c2365c) +JIT [x86_64-linux]
+    last_commit=Unpin objects that `proc` references
+  2de3d92844: |-
+    ruby 2.7.0dev (2019-06-04 trunk 2de3d92844) [x86_64-linux]
+    last_commit=allow objects in imemo envs to move
+  2de3d92844 --jit: |-
+    ruby 2.7.0dev (2019-06-04 trunk 2de3d92844) +JIT [x86_64-linux]
+    last_commit=allow objects in imemo envs to move
+  790a1b1790: |-
+    ruby 2.7.0dev (2019-06-04 trunk 790a1b1790) [x86_64-linux]
+    last_commit=object id is stable now for all objects, so we can let hash keys move
+  790a1b1790 --jit: |-
+    ruby 2.7.0dev (2019-06-04 trunk 790a1b1790) +JIT [x86_64-linux]
+    last_commit=object id is stable now for all objects, so we can let hash keys move
