@@ -3495,3 +3495,21 @@ commits:
   39eae6bf89 --jit: |-
     ruby 2.7.0dev (2019-06-04 trunk 39eae6bf89) +JIT [x86_64-linux]
     last_commit=tool/vcs.rb: return the commit date as the modified time
+  '0872ea5330': |-
+    ruby 2.7.0dev (2019-06-04 trunk 0872ea5330) [x86_64-linux]
+    last_commit=node.h: Avoid a magic number to represent excessed comma
+  '0872ea5330 --jit': |-
+    ruby 2.7.0dev (2019-06-04 trunk 0872ea5330) +JIT [x86_64-linux]
+    last_commit=node.h: Avoid a magic number to represent excessed comma
+  0b0c6cb7e4: |-
+    ruby 2.7.0dev (2019-06-04 trunk 0b0c6cb7e4) [x86_64-linux]
+    last_commit=compile.c: Remove the magical `(const NODE*) -1`
+  0b0c6cb7e4 --jit: |-
+    ruby 2.7.0dev (2019-06-04 trunk 0b0c6cb7e4) +JIT [x86_64-linux]
+    last_commit=compile.c: Remove the magical `(const NODE*) -1`
+  b31e1b4a7c: |-
+    ruby 2.7.0dev (2019-06-04 trunk b31e1b4a7c) [x86_64-linux]
+    last_commit=* expand tabs.
+  b31e1b4a7c --jit: |-
+    ruby 2.7.0dev (2019-06-04 trunk b31e1b4a7c) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
