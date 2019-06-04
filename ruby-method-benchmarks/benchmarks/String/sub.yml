@@ -261,6 +261,8 @@ results:
     4d8ad48f7d: 3419564.998
     7ef548c0ac: 3243279.073
     98be203704: 3142580.824
+    e8c710b11a: 3363267.233
+    d8442c4306: 3514865.319
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -521,6 +523,8 @@ results:
     4d8ad48f7d: 3345746.483
     7ef548c0ac: 2815806.669
     98be203704: 3336668.173
+    e8c710b11a: 3345864.101
+    d8442c4306: 3455448.438
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -781,6 +785,8 @@ results:
     4d8ad48f7d: 1388127.838
     7ef548c0ac: 1842272.06
     98be203704: 1883546.049
+    e8c710b11a: 1883279.706
+    d8442c4306: 1942837.39
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1041,6 +1047,8 @@ results:
     4d8ad48f7d: 2704275.9
     7ef548c0ac: 2316723.234
     98be203704: 2779983.1
+    e8c710b11a: 2767009.919
+    d8442c4306: 2509694.874
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1301,6 +1309,8 @@ results:
     4d8ad48f7d: 3687549.609
     7ef548c0ac: 3675326.192
     98be203704: 3659493.398
+    e8c710b11a: 3670112.674
+    d8442c4306: 3772210.652
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1561,6 +1571,8 @@ results:
     4d8ad48f7d: 3629320.366
     7ef548c0ac: 3265324.869
     98be203704: 3502222.805
+    e8c710b11a: 3032319.44
+    d8442c4306: 3496901.78
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1821,6 +1833,8 @@ results:
     4d8ad48f7d: 1891225.607
     7ef548c0ac: 1943653.682
     98be203704: 1945415.808
+    e8c710b11a: 1949492.515
+    d8442c4306: 2036848.968
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -2081,3 +2095,5 @@ results:
     4d8ad48f7d: 2890535.229
     7ef548c0ac: 2946252.508
     98be203704: 2960236.097
+    e8c710b11a: 2864022.794
+    d8442c4306: 3010124.805

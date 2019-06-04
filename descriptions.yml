@@ -9,24 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  b5df5296a4: ruby 2.7.0dev (2019-04-06 trunk 67454) [x86_64-linux]
-  b5df5296a4 --jit: ruby 2.7.0dev (2019-04-06 trunk 67454) +JIT [x86_64-linux]
-  a26d525ae4: ruby 2.7.0dev (2019-04-06 trunk 67455) [x86_64-linux]
-  a26d525ae4 --jit: ruby 2.7.0dev (2019-04-06 trunk 67455) +JIT [x86_64-linux]
-  4d1163b182: ruby 2.7.0dev (2019-04-06 trunk 67456) [x86_64-linux]
-  4d1163b182 --jit: ruby 2.7.0dev (2019-04-06 trunk 67456) +JIT [x86_64-linux]
-  feecc10bfc: ruby 2.7.0dev (2019-04-06 trunk 67457) [x86_64-linux]
-  feecc10bfc --jit: ruby 2.7.0dev (2019-04-06 trunk 67457) +JIT [x86_64-linux]
-  f15d043588: ruby 2.7.0dev (2019-04-06 trunk 67458) [x86_64-linux]
-  f15d043588 --jit: ruby 2.7.0dev (2019-04-06 trunk 67458) +JIT [x86_64-linux]
-  fe979e5bce: ruby 2.7.0dev (2019-04-06 trunk 67459) [x86_64-linux]
-  fe979e5bce --jit: ruby 2.7.0dev (2019-04-06 trunk 67459) +JIT [x86_64-linux]
-  5a6b0e39a1: ruby 2.7.0dev (2019-04-06 trunk 67460) [x86_64-linux]
-  5a6b0e39a1 --jit: ruby 2.7.0dev (2019-04-06 trunk 67460) +JIT [x86_64-linux]
-  bbb0db6f1c: ruby 2.7.0dev (2019-04-06 trunk 67461) [x86_64-linux]
-  bbb0db6f1c --jit: ruby 2.7.0dev (2019-04-06 trunk 67461) +JIT [x86_64-linux]
-  93ecb9a1de: ruby 2.7.0dev (2019-04-07 trunk 67462) [x86_64-linux]
-  93ecb9a1de --jit: ruby 2.7.0dev (2019-04-07 trunk 67462) +JIT [x86_64-linux]
   575735664b: ruby 2.7.0dev (2019-04-07 trunk 67463) [x86_64-linux]
   575735664b --jit: ruby 2.7.0dev (2019-04-07 trunk 67463) +JIT [x86_64-linux]
   b7c4e6d11c: ruby 2.7.0dev (2019-04-07 trunk 67464) [x86_64-linux]
@@ -3405,3 +3387,39 @@ commits:
   790a1b1790 --jit: |-
     ruby 2.7.0dev (2019-06-04 trunk 790a1b1790) +JIT [x86_64-linux]
     last_commit=object id is stable now for all objects, so we can let hash keys move
+  c9b74f9fd9: |-
+    ruby 2.7.0dev (2019-06-04 trunk c9b74f9fd9) [x86_64-linux]
+    last_commit=Pin keys in "compare by identity" hashes
+  c9b74f9fd9 --jit: |-
+    ruby 2.7.0dev (2019-06-04 trunk c9b74f9fd9) +JIT [x86_64-linux]
+    last_commit=Pin keys in "compare by identity" hashes
+  4b7213a85a: |-
+    ruby 2.7.0dev (2019-06-04 trunk 4b7213a85a) [x86_64-linux]
+    last_commit=Implement transpose-words
+  4b7213a85a --jit: |-
+    ruby 2.7.0dev (2019-06-04 trunk 4b7213a85a) +JIT [x86_64-linux]
+    last_commit=Implement transpose-words
+  d950cade53: |-
+    ruby 2.7.0dev (2019-06-04 trunk d950cade53) [x86_64-linux]
+    last_commit=azure-pipelines.yml: Upgrade Ruby for UseRubyVersion
+  d950cade53 --jit: |-
+    ruby 2.7.0dev (2019-06-04 trunk d950cade53) +JIT [x86_64-linux]
+    last_commit=azure-pipelines.yml: Upgrade Ruby for UseRubyVersion
+  9a07915ae2: |-
+    ruby 2.7.0dev (2019-06-04 trunk 9a07915ae2) [x86_64-linux]
+    last_commit=Add aliases for commands for changing text macro
+  9a07915ae2 --jit: |-
+    ruby 2.7.0dev (2019-06-04 trunk 9a07915ae2) +JIT [x86_64-linux]
+    last_commit=Add aliases for commands for changing text macro
+  aa8d393d8a: |-
+    ruby 2.7.0dev (2019-06-04 trunk aa8d393d8a) [x86_64-linux]
+    last_commit=EOF by 2 ^D on a TTY
+  aa8d393d8a --jit: |-
+    ruby 2.7.0dev (2019-06-04 trunk aa8d393d8a) +JIT [x86_64-linux]
+    last_commit=EOF by 2 ^D on a TTY
+  14b5ccf91b: |-
+    ruby 2.7.0dev (2019-06-04 trunk 14b5ccf91b) [x86_64-linux]
+    last_commit=* expand tabs.
+  14b5ccf91b --jit: |-
+    ruby 2.7.0dev (2019-06-04 trunk 14b5ccf91b) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
