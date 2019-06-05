@@ -3507,3 +3507,81 @@ commits:
   b31e1b4a7c --jit: |-
     ruby 2.7.0dev (2019-06-04 trunk b31e1b4a7c) +JIT [x86_64-linux]
     last_commit=* expand tabs.
+  8d81e59aa7: |-
+    ruby 2.7.0dev (2019-06-04 trunk 8d81e59aa7) [x86_64-linux]
+    last_commit=Optimize CGI.escapeHTML by reducing buffer extension
+  8d81e59aa7 --jit: |-
+    ruby 2.7.0dev (2019-06-04 trunk 8d81e59aa7) +JIT [x86_64-linux]
+    last_commit=Optimize CGI.escapeHTML by reducing buffer extension
+  804a7907a8: |-
+    ruby 2.7.0dev (2019-06-05 trunk 804a7907a8) [x86_64-linux]
+    last_commit=* 2019-06-05
+  804a7907a8 --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk 804a7907a8) +JIT [x86_64-linux]
+    last_commit=* 2019-06-05
+  71b14affc6: |-
+    ruby 2.7.0dev (2019-06-05 trunk 71b14affc6) [x86_64-linux]
+    last_commit=Revert "Optimize CGI.escapeHTML by reducing buffer extension"
+  71b14affc6 --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk 71b14affc6) +JIT [x86_64-linux]
+    last_commit=Revert "Optimize CGI.escapeHTML by reducing buffer extension"
+  6b66a76f43: |-
+    ruby 2.7.0dev (2019-06-05 trunk 6b66a76f43) [x86_64-linux]
+    last_commit=* expand tabs.
+  6b66a76f43 --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk 6b66a76f43) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  5859ea1b1b: |-
+    ruby 2.7.0dev (2019-06-05 trunk 5859ea1b1b) [x86_64-linux]
+    last_commit=tool/runruby.rb: load .gdbinit explicitly
+  5859ea1b1b --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk 5859ea1b1b) +JIT [x86_64-linux]
+    last_commit=tool/runruby.rb: load .gdbinit explicitly
+  26d02cc7cd: |-
+    ruby 2.7.0dev (2019-06-05 trunk 26d02cc7cd) [x86_64-linux]
+    last_commit=tool/runruby.rb: load the default lldb scripts
+  26d02cc7cd --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk 26d02cc7cd) +JIT [x86_64-linux]
+    last_commit=tool/runruby.rb: load the default lldb scripts
+  a105831819: |-
+    ruby 2.7.0dev (2019-06-05 trunk a105831819) [x86_64-linux]
+    last_commit=tool/runruby.rb: support RUNRUBY_USE_LLDB as well as RUNRUBY_USE_GDB
+  a105831819 --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk a105831819) +JIT [x86_64-linux]
+    last_commit=tool/runruby.rb: support RUNRUBY_USE_LLDB as well as RUNRUBY_USE_GDB
+  96d6527424: |-
+    ruby 2.7.0dev (2019-06-05 trunk 96d6527424) [x86_64-linux]
+    last_commit=Add some documentation to Timeout#timeout about possible issues
+  96d6527424 --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk 96d6527424) +JIT [x86_64-linux]
+    last_commit=Add some documentation to Timeout#timeout about possible issues
+  f1f04caf60: |-
+    ruby 2.7.0dev (2019-06-05 trunk f1f04caf60) [x86_64-linux]
+    last_commit=Include inspect value of object in FrozenError messages
+  f1f04caf60 --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk f1f04caf60) +JIT [x86_64-linux]
+    last_commit=Include inspect value of object in FrozenError messages
+  7c776038ec: |-
+    ruby 2.7.0dev (2019-06-05 trunk 7c776038ec) [x86_64-linux]
+    last_commit=* expand tabs.
+  7c776038ec --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk 7c776038ec) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  c75a3356b3: |-
+    ruby 2.7.0dev (2019-06-05 trunk c75a3356b3) [x86_64-linux]
+    last_commit=Move I/O access from Reline::KeyStroke to Reline
+  c75a3356b3 --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk c75a3356b3) +JIT [x86_64-linux]
+    last_commit=Move I/O access from Reline::KeyStroke to Reline
+  aa8a8d8f6d: |-
+    ruby 2.7.0dev (2019-06-05 trunk aa8a8d8f6d) [x86_64-linux]
+    last_commit=Split an assertion for f1f04caf60e4fc9dc3b12109e0be831f2d692810
+  aa8a8d8f6d --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk aa8a8d8f6d) +JIT [x86_64-linux]
+    last_commit=Split an assertion for f1f04caf60e4fc9dc3b12109e0be831f2d692810
+  542d69c894: |-
+    ruby 2.7.0dev (2019-06-05 trunk 542d69c894) [x86_64-linux]
+    last_commit=Revert "vcs.rb support non-inplace build"
+  542d69c894 --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk 542d69c894) +JIT [x86_64-linux]
+    last_commit=Revert "vcs.rb support non-inplace build"
