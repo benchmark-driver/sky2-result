@@ -3575,3 +3575,15 @@ commits:
   84c294eb0b --jit: |-
     ruby 2.7.0dev (2019-06-05 trunk 84c294eb0b) +JIT [x86_64-linux]
     last_commit=spec/bundler/bundler/dsl_spec.rb: fix exception to raise
+  f3c877e8de: |-
+    ruby 2.7.0dev (2019-06-05 trunk f3c877e8de) [x86_64-linux]
+    last_commit=Ignore ~/.gitconfig on tool/vcs.rb git commands
+  f3c877e8de --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk f3c877e8de) +JIT [x86_64-linux]
+    last_commit=Ignore ~/.gitconfig on tool/vcs.rb git commands
+  0a29dc87e6: |-
+    ruby 2.7.0dev (2019-06-05 trunk 0a29dc87e6) [x86_64-linux]
+    last_commit=Optimize CGI.escapeHTML by reducing buffer extension
+  0a29dc87e6 --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk 0a29dc87e6) +JIT [x86_64-linux]
+    last_commit=Optimize CGI.escapeHTML by reducing buffer extension
