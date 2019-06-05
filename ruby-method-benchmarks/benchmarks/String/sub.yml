@@ -282,6 +282,8 @@ results:
     eeee4f404b: 3388279.974
     c3c4e411eb: 3466582.696
     0eedec6867: 3323430.248
+    0db89a38f2: 3380504.263
+    a380f4c2b7: 3465940.562
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -563,6 +565,8 @@ results:
     eeee4f404b: 2997659.019
     c3c4e411eb: 3250964.169
     0eedec6867: 3337388.003
+    0db89a38f2: 3336926.556
+    a380f4c2b7: 3120827.176
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -844,6 +848,8 @@ results:
     eeee4f404b: 1843995.017
     c3c4e411eb: 1910760.347
     0eedec6867: 1895703.792
+    0db89a38f2: 1474597.586
+    a380f4c2b7: 1508394.136
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1125,6 +1131,8 @@ results:
     eeee4f404b: 2640280.188
     c3c4e411eb: 2827834.583
     0eedec6867: 2714758.57
+    0db89a38f2: 2670965.896
+    a380f4c2b7: 2758476.718
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1406,6 +1414,8 @@ results:
     eeee4f404b: 3683931.248
     c3c4e411eb: 3746712.061
     0eedec6867: 3618823.37
+    0db89a38f2: 3307465.231
+    a380f4c2b7: 3314970.129
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1687,6 +1697,8 @@ results:
     eeee4f404b: 3652380.139
     c3c4e411eb: 3734228.99
     0eedec6867: 3635642.574
+    0db89a38f2: 3634668.786
+    a380f4c2b7: 3627736.822
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1968,6 +1980,8 @@ results:
     eeee4f404b: 1968908.7
     c3c4e411eb: 1985400.493
     0eedec6867: 1999923.601
+    0db89a38f2: 1959039.814
+    a380f4c2b7: 1956759.64
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -2249,3 +2263,5 @@ results:
     eeee4f404b: 2932683.195
     c3c4e411eb: 2892382.354
     0eedec6867: 2893473.997
+    0db89a38f2: 2931654.894
+    a380f4c2b7: 2964718.814

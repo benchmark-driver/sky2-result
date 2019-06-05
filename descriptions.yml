@@ -9,12 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  37994bc532: ruby 2.7.0dev (2019-04-10 trunk 67501) [x86_64-linux]
-  37994bc532 --jit: ruby 2.7.0dev (2019-04-10 trunk 67501) +JIT [x86_64-linux]
-  c84bdda47a: ruby 2.7.0dev (2019-04-10 trunk 67502) [x86_64-linux]
-  c84bdda47a --jit: ruby 2.7.0dev (2019-04-10 trunk 67502) +JIT [x86_64-linux]
-  d8442c4306: ruby 2.7.0dev (2019-04-10 trunk 67503) [x86_64-linux]
-  d8442c4306 --jit: ruby 2.7.0dev (2019-04-10 trunk 67503) +JIT [x86_64-linux]
   b9e52ef8b6: ruby 2.7.0dev (2019-04-10 trunk 67504) [x86_64-linux]
   b9e52ef8b6 --jit: ruby 2.7.0dev (2019-04-10 trunk 67504) +JIT [x86_64-linux]
   54b93ef1ac: ruby 2.7.0dev (2019-04-10 trunk 67505) [x86_64-linux]
@@ -3587,3 +3581,9 @@ commits:
   0a29dc87e6 --jit: |-
     ruby 2.7.0dev (2019-06-05 trunk 0a29dc87e6) +JIT [x86_64-linux]
     last_commit=Optimize CGI.escapeHTML by reducing buffer extension
+  6dc0541ed3: |-
+    ruby 2.7.0dev (2019-06-05 trunk 6dc0541ed3) [x86_64-linux]
+    last_commit=NEWS: Note about CGI.escapeHTML change [ci skip]
+  6dc0541ed3 --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk 6dc0541ed3) +JIT [x86_64-linux]
+    last_commit=NEWS: Note about CGI.escapeHTML change [ci skip]
