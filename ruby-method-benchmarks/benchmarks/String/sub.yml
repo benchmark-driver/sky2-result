@@ -270,6 +270,8 @@ results:
     897901283c: 3366271.031
     560cd5b1f0: 3427446.876
     5a83a1d554: 3232360.14
+    744e5df715: 3509644.978
+    77bfebebc4: 3421949.995
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -539,6 +541,8 @@ results:
     897901283c: 3344150.384
     560cd5b1f0: 3358745.467
     5a83a1d554: 3136778.551
+    744e5df715: 3395729.701
+    77bfebebc4: 3391927.433
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -808,6 +812,8 @@ results:
     897901283c: 1827342.711
     560cd5b1f0: 1905752.765
     5a83a1d554: 1878665.268
+    744e5df715: 1924113.824
+    77bfebebc4: 1865961.69
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1077,6 +1083,8 @@ results:
     897901283c: 2643968.734
     560cd5b1f0: 2749476.027
     5a83a1d554: 2077771.768
+    744e5df715: 2827117.965
+    77bfebebc4: 2777307.134
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1346,6 +1354,8 @@ results:
     897901283c: 3658076.375
     560cd5b1f0: 3470907.556
     5a83a1d554: 2955972.105
+    744e5df715: 3754606.023
+    77bfebebc4: 3696518.918
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1615,6 +1625,8 @@ results:
     897901283c: 3037709.524
     560cd5b1f0: 3676012.185
     5a83a1d554: 3610602.929
+    744e5df715: 3735426.356
+    77bfebebc4: 3658958.474
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1884,6 +1896,8 @@ results:
     897901283c: 1927308.715
     560cd5b1f0: 1909186.775
     5a83a1d554: 1973546.186
+    744e5df715: 2015034.932
+    77bfebebc4: 1961675.021
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -2153,3 +2167,5 @@ results:
     897901283c: 2660054.938
     560cd5b1f0: 2975608.394
     5a83a1d554: 2889079.81
+    744e5df715: 2987986.311
+    77bfebebc4: 2973247.276
