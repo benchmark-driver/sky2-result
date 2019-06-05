@@ -276,6 +276,8 @@ results:
     ea1835caf2: 3269812.922
     40e175b390: 3391380.066
     1ee1e8fccd: 3404324.12
+    7b88a9207b: 3518745.865
+    11d3986d65: 3425768.115
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -551,6 +553,8 @@ results:
     ea1835caf2: 3355815.325
     40e175b390: 3386865.35
     1ee1e8fccd: 3328174.283
+    7b88a9207b: 3484780.219
+    11d3986d65: 3345360.717
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -826,6 +830,8 @@ results:
     ea1835caf2: 1595654.741
     40e175b390: 1862218.88
     1ee1e8fccd: 1855902.616
+    7b88a9207b: 1941730.144
+    11d3986d65: 1899509.998
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1101,6 +1107,8 @@ results:
     ea1835caf2: 2329951.072
     40e175b390: 2748058.741
     1ee1e8fccd: 2768592.627
+    7b88a9207b: 2821216.732
+    11d3986d65: 2775850.237
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1376,6 +1384,8 @@ results:
     ea1835caf2: 3688702.51
     40e175b390: 3428792.315
     1ee1e8fccd: 3683275.076
+    7b88a9207b: 3782477.319
+    11d3986d65: 3707123.765
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1651,6 +1661,8 @@ results:
     ea1835caf2: 2988049.063
     40e175b390: 3652411.908
     1ee1e8fccd: 3607792.332
+    7b88a9207b: 3736107.438
+    11d3986d65: 3527565.259
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -1926,6 +1938,8 @@ results:
     ea1835caf2: 1941178.122
     40e175b390: 1989869.527
     1ee1e8fccd: 1945225.899
+    7b88a9207b: 2036719.426
+    11d3986d65: 1994823.474
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -2201,3 +2215,5 @@ results:
     ea1835caf2: 2927619.714
     40e175b390: 2961693.607
     1ee1e8fccd: 2928286.928
+    7b88a9207b: 2996070.019
+    11d3986d65: 2965565.21

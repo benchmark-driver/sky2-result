@@ -9,40 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  b84b8adc89: ruby 2.7.0dev (2019-04-10 trunk 67484) [x86_64-linux]
-  b84b8adc89 --jit: ruby 2.7.0dev (2019-04-10 trunk 67484) +JIT [x86_64-linux]
-  e900bba945: ruby 2.7.0dev (2019-04-10 trunk 67485) [x86_64-linux]
-  e900bba945 --jit: ruby 2.7.0dev (2019-04-10 trunk 67485) +JIT [x86_64-linux]
-  70cd493b05: ruby 2.7.0dev (2019-04-10 trunk 67486) [x86_64-linux]
-  70cd493b05 --jit: ruby 2.7.0dev (2019-04-10 trunk 67486) +JIT [x86_64-linux]
-  73f891f1a5: ruby 2.7.0dev (2019-04-10 trunk 67487) [x86_64-linux]
-  73f891f1a5 --jit: ruby 2.7.0dev (2019-04-10 trunk 67487) +JIT [x86_64-linux]
-  e553d94f01: ruby 2.7.0dev (2019-04-10 trunk 67488) [x86_64-linux]
-  e553d94f01 --jit: ruby 2.7.0dev (2019-04-10 trunk 67488) +JIT [x86_64-linux]
-  d099eabbb7: ruby 2.7.0dev (2019-04-10 trunk 67489) [x86_64-linux]
-  d099eabbb7 --jit: ruby 2.7.0dev (2019-04-10 trunk 67489) +JIT [x86_64-linux]
-  9e448d2fd7: ruby 2.7.0dev (2019-04-10 trunk 67490) [x86_64-linux]
-  9e448d2fd7 --jit: ruby 2.7.0dev (2019-04-10 trunk 67490) +JIT [x86_64-linux]
-  e86bf9a4d7: ruby 2.7.0dev (2019-04-10 trunk 67491) [x86_64-linux]
-  e86bf9a4d7 --jit: ruby 2.7.0dev (2019-04-10 trunk 67491) +JIT [x86_64-linux]
-  cc02df324f: ruby 2.7.0dev (2019-04-10 trunk 67492) [x86_64-linux]
-  cc02df324f --jit: ruby 2.7.0dev (2019-04-10 trunk 67492) +JIT [x86_64-linux]
-  5ae753dfa3: ruby 2.7.0dev (2019-04-10 trunk 67493) [x86_64-linux]
-  5ae753dfa3 --jit: ruby 2.7.0dev (2019-04-10 trunk 67493) +JIT [x86_64-linux]
-  33721b4d33: ruby 2.7.0dev (2019-04-10 trunk 67494) [x86_64-linux]
-  33721b4d33 --jit: ruby 2.7.0dev (2019-04-10 trunk 67494) +JIT [x86_64-linux]
-  b8e3a4bd2c: ruby 2.7.0dev (2019-04-10 trunk 67495) [x86_64-linux]
-  b8e3a4bd2c --jit: ruby 2.7.0dev (2019-04-10 trunk 67495) +JIT [x86_64-linux]
-  91db3b6c6b: ruby 2.7.0dev (2019-04-10 trunk 67496) [x86_64-linux]
-  91db3b6c6b --jit: ruby 2.7.0dev (2019-04-10 trunk 67496) +JIT [x86_64-linux]
-  83fc324d1d: ruby 2.7.0dev (2019-04-10 trunk 67497) [x86_64-linux]
-  83fc324d1d --jit: ruby 2.7.0dev (2019-04-10 trunk 67497) +JIT [x86_64-linux]
-  0cc2ffbc1b: ruby 2.7.0dev (2019-04-10 trunk 67498) [x86_64-linux]
-  0cc2ffbc1b --jit: ruby 2.7.0dev (2019-04-10 trunk 67498) +JIT [x86_64-linux]
-  25c1fd3b90: ruby 2.7.0dev (2019-04-09 trunk 67499) [x86_64-linux]
-  25c1fd3b90 --jit: ruby 2.7.0dev (2019-04-09 trunk 67499) +JIT [x86_64-linux]
-  481481b81a: ruby 2.7.0dev (2019-04-09 trunk 67500) [x86_64-linux]
-  481481b81a --jit: ruby 2.7.0dev (2019-04-09 trunk 67500) +JIT [x86_64-linux]
   37994bc532: ruby 2.7.0dev (2019-04-10 trunk 67501) [x86_64-linux]
   37994bc532 --jit: ruby 2.7.0dev (2019-04-10 trunk 67501) +JIT [x86_64-linux]
   c84bdda47a: ruby 2.7.0dev (2019-04-10 trunk 67502) [x86_64-linux]
@@ -3585,3 +3551,27 @@ commits:
   542d69c894 --jit: |-
     ruby 2.7.0dev (2019-06-05 trunk 542d69c894) +JIT [x86_64-linux]
     last_commit=Revert "vcs.rb support non-inplace build"
+  b2fe7484e7: |-
+    ruby 2.7.0dev (2019-06-05 trunk b2fe7484e7) [x86_64-linux]
+    last_commit=Test for f1f04caf60e4fc9dc3b12109e0be831f2d692810
+  b2fe7484e7 --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk b2fe7484e7) +JIT [x86_64-linux]
+    last_commit=Test for f1f04caf60e4fc9dc3b12109e0be831f2d692810
+  1624d77f3e: |-
+    ruby 2.7.0dev (2019-06-05 trunk 1624d77f3e) [x86_64-linux]
+    last_commit=error.c: avoid infinite recursion at inspecting the frozen object
+  1624d77f3e --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk 1624d77f3e) +JIT [x86_64-linux]
+    last_commit=error.c: avoid infinite recursion at inspecting the frozen object
+  f258137083: |-
+    ruby 2.7.0dev (2019-06-05 trunk f258137083) [x86_64-linux]
+    last_commit=Fix grammar of macro name: ECCESSED -> ECCESSIVE
+  f258137083 --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk f258137083) +JIT [x86_64-linux]
+    last_commit=Fix grammar of macro name: ECCESSED -> ECCESSIVE
+  84c294eb0b: |-
+    ruby 2.7.0dev (2019-06-05 trunk 84c294eb0b) [x86_64-linux]
+    last_commit=spec/bundler/bundler/dsl_spec.rb: fix exception to raise
+  84c294eb0b --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk 84c294eb0b) +JIT [x86_64-linux]
+    last_commit=spec/bundler/bundler/dsl_spec.rb: fix exception to raise
