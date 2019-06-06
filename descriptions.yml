@@ -3607,3 +3607,21 @@ commits:
   d046fe9262 --jit: |-
     ruby 2.7.0dev (2019-06-06 trunk d046fe9262) +JIT [x86_64-linux]
     last_commit=configure.ac: utilize wide columns for summary
+  1e54903684: |-
+    ruby 2.7.0dev (2019-06-06 trunk 1e54903684) [x86_64-linux]
+    last_commit=test/openssl: Support OpenSSL 1.1.1
+  1e54903684 --jit: |-
+    ruby 2.7.0dev (2019-06-06 trunk 1e54903684) +JIT [x86_64-linux]
+    last_commit=test/openssl: Support OpenSSL 1.1.1
+  861b50d81d: |-
+    ruby 2.7.0dev (2019-06-06 trunk 861b50d81d) [x86_64-linux]
+    last_commit=lib/rubygems.rb: Stop "Leaked file descriptor" warning
+  861b50d81d --jit: |-
+    ruby 2.7.0dev (2019-06-06 trunk 861b50d81d) +JIT [x86_64-linux]
+    last_commit=lib/rubygems.rb: Stop "Leaked file descriptor" warning
+  c2a9c35024: |-
+    ruby 2.7.0dev (2019-06-06 trunk c2a9c35024) [x86_64-linux]
+    last_commit=Stop `circular require` warning
+  c2a9c35024 --jit: |-
+    ruby 2.7.0dev (2019-06-06 trunk c2a9c35024) +JIT [x86_64-linux]
+    last_commit=Stop `circular require` warning
