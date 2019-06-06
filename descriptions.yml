@@ -3623,3 +3623,15 @@ commits:
   fcc36d767b --jit: |-
     ruby 2.7.0dev (2019-06-06 trunk fcc36d767b) +JIT [x86_64-linux]
     last_commit=Revert "Stop `circular require` warning"
+  60924636e5: |-
+    ruby 2.7.0dev (2019-06-06 trunk 60924636e5) [x86_64-linux]
+    last_commit=test/net/http/test_http.rb: extend the timeout for Solaris CI
+  60924636e5 --jit: |-
+    ruby 2.7.0dev (2019-06-06 trunk 60924636e5) +JIT [x86_64-linux]
+    last_commit=test/net/http/test_http.rb: extend the timeout for Solaris CI
+  9f941f61ef: |-
+    ruby 2.7.0dev (2019-06-06 trunk 9f941f61ef) [x86_64-linux]
+    last_commit=test/webrick/test_filehandler.rb: extend the timeout for Solaris CI
+  9f941f61ef --jit: |-
+    ruby 2.7.0dev (2019-06-06 trunk 9f941f61ef) +JIT [x86_64-linux]
+    last_commit=test/webrick/test_filehandler.rb: extend the timeout for Solaris CI
