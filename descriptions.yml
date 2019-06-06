@@ -9,10 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  1d955861ed: ruby 2.7.0dev (2019-04-10 trunk 67507) [x86_64-linux]
-  1d955861ed --jit: ruby 2.7.0dev (2019-04-10 trunk 67507) +JIT [x86_64-linux]
-  724bc97d4b: ruby 2.7.0dev (2019-04-10 trunk 67508) [x86_64-linux]
-  724bc97d4b --jit: ruby 2.7.0dev (2019-04-10 trunk 67508) +JIT [x86_64-linux]
   34af060374: ruby 2.7.0dev (2019-04-10 trunk 67509) [x86_64-linux]
   34af060374 --jit: ruby 2.7.0dev (2019-04-10 trunk 67509) +JIT [x86_64-linux]
   cf781b0871: ruby 2.7.0dev (2019-04-10 trunk 67510) [x86_64-linux]
@@ -3605,3 +3601,9 @@ commits:
   884576bf12 --jit: |-
     ruby 2.7.0dev (2019-06-06 trunk 884576bf12) +JIT [x86_64-linux]
     last_commit=Update RDoc of RUBY_REVISION
+  d046fe9262: |-
+    ruby 2.7.0dev (2019-06-06 trunk d046fe9262) [x86_64-linux]
+    last_commit=configure.ac: utilize wide columns for summary
+  d046fe9262 --jit: |-
+    ruby 2.7.0dev (2019-06-06 trunk d046fe9262) +JIT [x86_64-linux]
+    last_commit=configure.ac: utilize wide columns for summary

@@ -288,6 +288,8 @@ results:
     f659e2f9bf: 3402406.158
     5776ae3475: 3394430.41
     fa09acafde: 3163601.742
+    462a63c39e: 3308467.216
+    d9c17c1a87: 3394145.881
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -575,6 +577,8 @@ results:
     f659e2f9bf: 3319254.24
     5776ae3475: 3363782.598
     fa09acafde: 3409622.754
+    462a63c39e: 3167987.17
+    d9c17c1a87: 3358271.681
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -862,6 +866,8 @@ results:
     f659e2f9bf: 1774229.8
     5776ae3475: 1930157.81
     fa09acafde: 1440437.211
+    462a63c39e: 1855630.007
+    d9c17c1a87: 1873560.594
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1149,6 +1155,8 @@ results:
     f659e2f9bf: 2727959.227
     5776ae3475: 2786250.068
     fa09acafde: 2766685.96
+    462a63c39e: 2762787.156
+    d9c17c1a87: 2732823.417
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1436,6 +1444,8 @@ results:
     f659e2f9bf: 3582325.865
     5776ae3475: 3713825.292
     fa09acafde: 3093036.645
+    462a63c39e: 3674391.532
+    d9c17c1a87: 3409868.216
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1723,6 +1733,8 @@ results:
     f659e2f9bf: 3640233.324
     5776ae3475: 3644170.653
     fa09acafde: 3642073.579
+    462a63c39e: 3611369.387
+    d9c17c1a87: 3582824.587
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -2010,6 +2022,8 @@ results:
     f659e2f9bf: 1952760.12
     5776ae3475: 1960944.067
     fa09acafde: 1817771.556
+    462a63c39e: 1954822.697
+    d9c17c1a87: 1967248.041
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -2297,3 +2311,5 @@ results:
     f659e2f9bf: 2799085.649
     5776ae3475: 2895634.973
     fa09acafde: 2810431.226
+    462a63c39e: 2958112.733
+    d9c17c1a87: 2920835.51
