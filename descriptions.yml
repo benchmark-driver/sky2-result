@@ -9,12 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  b9e52ef8b6: ruby 2.7.0dev (2019-04-10 trunk 67504) [x86_64-linux]
-  b9e52ef8b6 --jit: ruby 2.7.0dev (2019-04-10 trunk 67504) +JIT [x86_64-linux]
-  54b93ef1ac: ruby 2.7.0dev (2019-04-10 trunk 67505) [x86_64-linux]
-  54b93ef1ac --jit: ruby 2.7.0dev (2019-04-10 trunk 67505) +JIT [x86_64-linux]
-  82632d4c0c: ruby 2.7.0dev (2019-04-10 trunk 67506) [x86_64-linux]
-  82632d4c0c --jit: ruby 2.7.0dev (2019-04-10 trunk 67506) +JIT [x86_64-linux]
   1d955861ed: ruby 2.7.0dev (2019-04-10 trunk 67507) [x86_64-linux]
   1d955861ed --jit: ruby 2.7.0dev (2019-04-10 trunk 67507) +JIT [x86_64-linux]
   724bc97d4b: ruby 2.7.0dev (2019-04-10 trunk 67508) [x86_64-linux]
@@ -3587,3 +3581,21 @@ commits:
   6dc0541ed3 --jit: |-
     ruby 2.7.0dev (2019-06-05 trunk 6dc0541ed3) +JIT [x86_64-linux]
     last_commit=NEWS: Note about CGI.escapeHTML change [ci skip]
+  eadc06ba16: |-
+    ruby 2.7.0dev (2019-06-05 trunk eadc06ba16) [x86_64-linux]
+    last_commit=Add test_ed_transpose_words_for_mbchar
+  eadc06ba16 --jit: |-
+    ruby 2.7.0dev (2019-06-05 trunk eadc06ba16) +JIT [x86_64-linux]
+    last_commit=Add test_ed_transpose_words_for_mbchar
+  fd17337228: |-
+    ruby 2.7.0dev (2019-06-06 trunk fd17337228) [x86_64-linux]
+    last_commit=* 2019-06-06
+  fd17337228 --jit: |-
+    ruby 2.7.0dev (2019-06-06 trunk fd17337228) +JIT [x86_64-linux]
+    last_commit=* 2019-06-06
+  '02880d1f4a': |-
+    ruby 2.7.0dev (2019-06-06 trunk 02880d1f4a) [x86_64-linux]
+    last_commit=Skip transpose-words if less than 2 word
+  '02880d1f4a --jit': |-
+    ruby 2.7.0dev (2019-06-06 trunk 02880d1f4a) +JIT [x86_64-linux]
+    last_commit=Skip transpose-words if less than 2 word
