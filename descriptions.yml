@@ -9,14 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  34af060374: ruby 2.7.0dev (2019-04-10 trunk 67509) [x86_64-linux]
-  34af060374 --jit: ruby 2.7.0dev (2019-04-10 trunk 67509) +JIT [x86_64-linux]
-  cf781b0871: ruby 2.7.0dev (2019-04-10 trunk 67510) [x86_64-linux]
-  cf781b0871 --jit: ruby 2.7.0dev (2019-04-10 trunk 67510) +JIT [x86_64-linux]
-  47c82df27f: ruby 2.7.0dev (2019-04-10 trunk 67511) [x86_64-linux]
-  47c82df27f --jit: ruby 2.7.0dev (2019-04-10 trunk 67511) +JIT [x86_64-linux]
-  025343654d: ruby 2.7.0dev (2019-04-10 trunk 67512) [x86_64-linux]
-  025343654d --jit: ruby 2.7.0dev (2019-04-10 trunk 67512) +JIT [x86_64-linux]
   6f866fd9ea: ruby 2.7.0dev (2019-04-11 trunk 67513) [x86_64-linux]
   6f866fd9ea --jit: ruby 2.7.0dev (2019-04-11 trunk 67513) +JIT [x86_64-linux]
   39b04bc698: ruby 2.7.0dev (2019-04-11 trunk 67517) [x86_64-linux]
@@ -3625,3 +3617,9 @@ commits:
   c2a9c35024 --jit: |-
     ruby 2.7.0dev (2019-06-06 trunk c2a9c35024) +JIT [x86_64-linux]
     last_commit=Stop `circular require` warning
+  fcc36d767b: |-
+    ruby 2.7.0dev (2019-06-06 trunk fcc36d767b) [x86_64-linux]
+    last_commit=Revert "Stop `circular require` warning"
+  fcc36d767b --jit: |-
+    ruby 2.7.0dev (2019-06-06 trunk fcc36d767b) +JIT [x86_64-linux]
+    last_commit=Revert "Stop `circular require` warning"
