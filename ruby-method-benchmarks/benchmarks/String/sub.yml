@@ -306,6 +306,8 @@ results:
     70166b3ca3: 3420959.404
     c7477c3e1f: 3418744.642
     4fabb74471: 3457566.331
+    d72bd190a8: 3392702.283
+    e3d547f6df: 3455103.713
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -611,6 +613,8 @@ results:
     70166b3ca3: 3386113.105
     c7477c3e1f: 3369866.038
     4fabb74471: 3392088.559
+    d72bd190a8: 3357070.805
+    e3d547f6df: 3472529.215
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -916,6 +920,8 @@ results:
     70166b3ca3: 1683541.77
     c7477c3e1f: 1714166.92
     4fabb74471: 1899587.936
+    d72bd190a8: 1898016.342
+    e3d547f6df: 1927611.133
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1221,6 +1227,8 @@ results:
     70166b3ca3: 2784526.367
     c7477c3e1f: 2786514.698
     4fabb74471: 2767217.679
+    d72bd190a8: 2328059.746
+    e3d547f6df: 2828631.92
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1526,6 +1534,8 @@ results:
     70166b3ca3: 3571533.112
     c7477c3e1f: 3575884.607
     4fabb74471: 3744293.301
+    d72bd190a8: 3692318.827
+    e3d547f6df: 3758405.1
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1831,6 +1841,8 @@ results:
     70166b3ca3: 3595452.019
     c7477c3e1f: 3642348.721
     4fabb74471: 3294967.019
+    d72bd190a8: 3523810.643
+    e3d547f6df: 3614408.231
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -2136,6 +2148,8 @@ results:
     70166b3ca3: 1975774.151
     c7477c3e1f: 1984031.654
     4fabb74471: 1768706.178
+    d72bd190a8: 1962378.148
+    e3d547f6df: 1818267.723
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -2441,3 +2455,5 @@ results:
     70166b3ca3: 2967295.838
     c7477c3e1f: 2974654.278
     4fabb74471: 2935375.404
+    d72bd190a8: 2372327.3
+    e3d547f6df: 3010177.667
