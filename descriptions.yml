@@ -9,20 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  e7f7aa8742: ruby 2.7.0dev (2019-04-13 trunk 67521) [x86_64-linux]
-  e7f7aa8742 --jit: ruby 2.7.0dev (2019-04-13 trunk 67521) +JIT [x86_64-linux]
-  30f71f4768: ruby 2.7.0dev (2019-04-13 trunk 67522) [x86_64-linux]
-  30f71f4768 --jit: ruby 2.7.0dev (2019-04-13 trunk 67522) +JIT [x86_64-linux]
-  '088df9c8c2': ruby 2.7.0dev (2019-04-13 trunk 67523) [x86_64-linux]
-  '088df9c8c2 --jit': ruby 2.7.0dev (2019-04-13 trunk 67523) +JIT [x86_64-linux]
-  9b6b4674d7: ruby 2.7.0dev (2019-04-13 trunk 67530) [x86_64-linux]
-  9b6b4674d7 --jit: ruby 2.7.0dev (2019-04-13 trunk 67530) +JIT [x86_64-linux]
-  d6d8fc2421: ruby 2.7.0dev (2019-04-14 trunk 67531) [x86_64-linux]
-  d6d8fc2421 --jit: ruby 2.7.0dev (2019-04-14 trunk 67531) +JIT [x86_64-linux]
-  19513c88d5: ruby 2.7.0dev (2019-04-14 trunk 67532) [x86_64-linux]
-  19513c88d5 --jit: ruby 2.7.0dev (2019-04-14 trunk 67532) +JIT [x86_64-linux]
-  fa13bb1a6f: ruby 2.7.0dev (2019-04-14 trunk 67533) [x86_64-linux]
-  fa13bb1a6f --jit: ruby 2.7.0dev (2019-04-14 trunk 67533) +JIT [x86_64-linux]
   661cefc581: ruby 2.7.0dev (2019-04-14 trunk 67534) [x86_64-linux]
   661cefc581 --jit: ruby 2.7.0dev (2019-04-14 trunk 67534) +JIT [x86_64-linux]
   e85d6c5c5e: ruby 2.7.0dev (2019-04-14 trunk 67535) [x86_64-linux]
@@ -3679,3 +3665,9 @@ commits:
   7e403dc6c8 --jit: |-
     ruby 2.7.0dev (2019-06-07 trunk 7e403dc6c8) +JIT [x86_64-linux]
     last_commit=test/openssl/utils.rb: Extend the timeout
+  c55de95ff1: |-
+    ruby 2.7.0dev (2019-06-07 trunk c55de95ff1) [x86_64-linux]
+    last_commit=Dummy Makefile.in for CIs
+  c55de95ff1 --jit: |-
+    ruby 2.7.0dev (2019-06-07 trunk c55de95ff1) +JIT [x86_64-linux]
+    last_commit=Dummy Makefile.in for CIs
