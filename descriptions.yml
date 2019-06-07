@@ -3671,3 +3671,21 @@ commits:
   c55de95ff1 --jit: |-
     ruby 2.7.0dev (2019-06-07 trunk c55de95ff1) +JIT [x86_64-linux]
     last_commit=Dummy Makefile.in for CIs
+  119ca4343c: |-
+    ruby 2.7.0dev (2019-06-07 trunk 119ca4343c) [x86_64-linux]
+    last_commit=Make specs pass on OpenBSD
+  119ca4343c --jit: |-
+    ruby 2.7.0dev (2019-06-07 trunk 119ca4343c) +JIT [x86_64-linux]
+    last_commit=Make specs pass on OpenBSD
+  b8af33e63b: |-
+    ruby 2.7.0dev (2019-06-07 trunk b8af33e63b) [x86_64-linux]
+    last_commit=Skip one assertion for OpenSSL::PKey::EC::Point#mul on LibreSSL
+  b8af33e63b --jit: |-
+    ruby 2.7.0dev (2019-06-07 trunk b8af33e63b) +JIT [x86_64-linux]
+    last_commit=Skip one assertion for OpenSSL::PKey::EC::Point#mul on LibreSSL
+  a6a26e42b1: |-
+    ruby 2.7.0dev (2019-06-07 trunk a6a26e42b1) [x86_64-linux]
+    last_commit=compile.c: Partially revert r63870 which caused wrong optimization
+  a6a26e42b1 --jit: |-
+    ruby 2.7.0dev (2019-06-07 trunk a6a26e42b1) +JIT [x86_64-linux]
+    last_commit=compile.c: Partially revert r63870 which caused wrong optimization
