@@ -303,6 +303,8 @@ results:
     fcd679ed11: 3494595.858
     af56793a8d: 3377712.594
     1b20d6a6c6: 3392849.078
+    70166b3ca3: 3420959.404
+    c7477c3e1f: 3418744.642
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -605,6 +607,8 @@ results:
     fcd679ed11: 3435099.048
     af56793a8d: 3473133.84
     1b20d6a6c6: 3207547.648
+    70166b3ca3: 3386113.105
+    c7477c3e1f: 3369866.038
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -907,6 +911,8 @@ results:
     fcd679ed11: 1932354.378
     af56793a8d: 1914652.126
     1b20d6a6c6: 1891190.366
+    70166b3ca3: 1683541.77
+    c7477c3e1f: 1714166.92
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1209,6 +1215,8 @@ results:
     fcd679ed11: 2837258.185
     af56793a8d: 2826078.917
     1b20d6a6c6: 2780131.858
+    70166b3ca3: 2784526.367
+    c7477c3e1f: 2786514.698
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1511,6 +1519,8 @@ results:
     fcd679ed11: 3730603.31
     af56793a8d: 3575511.013
     1b20d6a6c6: 3688366.019
+    70166b3ca3: 3571533.112
+    c7477c3e1f: 3575884.607
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1813,6 +1823,8 @@ results:
     fcd679ed11: 3739007.013
     af56793a8d: 3752735.47
     1b20d6a6c6: 3606511.897
+    70166b3ca3: 3595452.019
+    c7477c3e1f: 3642348.721
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -2115,6 +2127,8 @@ results:
     fcd679ed11: 1989783.891
     af56793a8d: 1921935.789
     1b20d6a6c6: 1953793.712
+    70166b3ca3: 1975774.151
+    c7477c3e1f: 1984031.654
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -2417,3 +2431,5 @@ results:
     fcd679ed11: 3005956.503
     af56793a8d: 2916137.631
     1b20d6a6c6: 2959236.061
+    70166b3ca3: 2967295.838
+    c7477c3e1f: 2974654.278
