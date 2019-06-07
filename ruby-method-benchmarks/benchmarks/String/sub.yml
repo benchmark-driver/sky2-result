@@ -298,6 +298,8 @@ results:
     82ef172a8c: 3434148.737
     6013e41a7b: 3398377.277
     16cb1fb007: 3412156.094
+    d2ba80b5df: 3373932.964
+    b0965cc2d6: 3454120.347
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -595,6 +597,8 @@ results:
     82ef172a8c: 3420034.768
     6013e41a7b: 3370959.751
     16cb1fb007: 3375041.187
+    d2ba80b5df: 3242800.598
+    b0965cc2d6: 3390155.916
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -892,6 +896,8 @@ results:
     82ef172a8c: 1898404.302
     6013e41a7b: 1880626.479
     16cb1fb007: 1873657.186
+    d2ba80b5df: 1731248.381
+    b0965cc2d6: 1906338.476
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1189,6 +1195,8 @@ results:
     82ef172a8c: 2790825.705
     6013e41a7b: 2307489.657
     16cb1fb007: 2792814.834
+    d2ba80b5df: 2767274.13
+    b0965cc2d6: 2735779.442
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1486,6 +1494,8 @@ results:
     82ef172a8c: 3689877.695
     6013e41a7b: 3688875.203
     16cb1fb007: 3665259.429
+    d2ba80b5df: 3695561.775
+    b0965cc2d6: 3735645.473
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1783,6 +1793,8 @@ results:
     82ef172a8c: 3630766.691
     6013e41a7b: 3659084.331
     16cb1fb007: 3658298.088
+    d2ba80b5df: 3541326.642
+    b0965cc2d6: 3687707.128
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -2080,6 +2092,8 @@ results:
     82ef172a8c: 2010959.292
     6013e41a7b: 1969654.281
     16cb1fb007: 1996531.635
+    d2ba80b5df: 1974553.532
+    b0965cc2d6: 1998100.774
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -2377,3 +2391,5 @@ results:
     82ef172a8c: 2883490.839
     6013e41a7b: 2928527.464
     16cb1fb007: 2971722.016
+    d2ba80b5df: 2953128.309
+    b0965cc2d6: 2940893.284
