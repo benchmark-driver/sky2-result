@@ -9,12 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  95a8276630: ruby 2.7.0dev (2019-04-12 trunk 67518) [x86_64-linux]
-  95a8276630 --jit: ruby 2.7.0dev (2019-04-12 trunk 67518) +JIT [x86_64-linux]
-  d3da5fbd30: ruby 2.7.0dev (2019-04-12 trunk 67519) [x86_64-linux]
-  d3da5fbd30 --jit: ruby 2.7.0dev (2019-04-12 trunk 67519) +JIT [x86_64-linux]
-  a73dae4c53: ruby 2.7.0dev (2019-04-12 trunk 67520) [x86_64-linux]
-  a73dae4c53 --jit: ruby 2.7.0dev (2019-04-12 trunk 67520) +JIT [x86_64-linux]
   e7f7aa8742: ruby 2.7.0dev (2019-04-13 trunk 67521) [x86_64-linux]
   e7f7aa8742 --jit: ruby 2.7.0dev (2019-04-13 trunk 67521) +JIT [x86_64-linux]
   30f71f4768: ruby 2.7.0dev (2019-04-13 trunk 67522) [x86_64-linux]
@@ -3631,3 +3625,21 @@ commits:
   9f941f61ef --jit: |-
     ruby 2.7.0dev (2019-06-06 trunk 9f941f61ef) +JIT [x86_64-linux]
     last_commit=test/webrick/test_filehandler.rb: extend the timeout for Solaris CI
+  '09a2189c1b': |-
+    ruby 2.7.0dev (2019-06-06 trunk 09a2189c1b) [x86_64-linux]
+    last_commit=Adjust indent
+  '09a2189c1b --jit': |-
+    ruby 2.7.0dev (2019-06-06 trunk 09a2189c1b) +JIT [x86_64-linux]
+    last_commit=Adjust indent
+  2bc09665ab: |-
+    ruby 2.7.0dev (2019-06-06 trunk 2bc09665ab) [x86_64-linux]
+    last_commit=win32/registry.rb: fix potential infinite loop
+  2bc09665ab --jit: |-
+    ruby 2.7.0dev (2019-06-06 trunk 2bc09665ab) +JIT [x86_64-linux]
+    last_commit=win32/registry.rb: fix potential infinite loop
+  aee7790131: |-
+    ruby 2.7.0dev (2019-06-07 trunk aee7790131) [x86_64-linux]
+    last_commit=* 2019-06-07
+  aee7790131 --jit: |-
+    ruby 2.7.0dev (2019-06-07 trunk aee7790131) +JIT [x86_64-linux]
+    last_commit=* 2019-06-07
