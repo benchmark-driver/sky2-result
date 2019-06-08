@@ -9,12 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  57f9a700d7: ruby 2.7.0dev (2019-04-14 trunk 67543) [x86_64-linux]
-  57f9a700d7 --jit: ruby 2.7.0dev (2019-04-14 trunk 67543) +JIT [x86_64-linux]
-  5ce28c0642: ruby 2.7.0dev (2019-04-14 trunk 67544) [x86_64-linux]
-  5ce28c0642 --jit: ruby 2.7.0dev (2019-04-14 trunk 67544) +JIT [x86_64-linux]
-  f7035dd3ff: ruby 2.7.0dev (2019-04-14 trunk 67545) [x86_64-linux]
-  f7035dd3ff --jit: ruby 2.7.0dev (2019-04-14 trunk 67545) +JIT [x86_64-linux]
   18b5148215: ruby 2.7.0dev (2019-04-14 trunk 67546) [x86_64-linux]
   18b5148215 --jit: ruby 2.7.0dev (2019-04-14 trunk 67546) +JIT [x86_64-linux]
   b75bb06e00: ruby 2.7.0dev (2019-04-14 trunk 67547) [x86_64-linux]
@@ -3713,3 +3707,15 @@ commits:
   3776c48cf4 --jit: |-
     ruby 2.7.0dev (2019-06-08 trunk 3776c48cf4) +JIT [x86_64-linux]
     last_commit=Revert "require rubygems/package where used"
+  21de4a574f: |-
+    ruby 2.7.0dev (2019-06-08 trunk 21de4a574f) [x86_64-linux]
+    last_commit=io.c: fold very very long lines
+  21de4a574f --jit: |-
+    ruby 2.7.0dev (2019-06-08 trunk 21de4a574f) +JIT [x86_64-linux]
+    last_commit=io.c: fold very very long lines
+  5a840517ae: |-
+    ruby 2.7.0dev (2019-06-08 trunk 5a840517ae) [x86_64-linux]
+    last_commit=Fix broken `gem unpack`
+  5a840517ae --jit: |-
+    ruby 2.7.0dev (2019-06-08 trunk 5a840517ae) +JIT [x86_64-linux]
+    last_commit=Fix broken `gem unpack`
