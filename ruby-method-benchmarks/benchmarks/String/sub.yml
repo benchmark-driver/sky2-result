@@ -308,6 +308,8 @@ results:
     4fabb74471: 3457566.331
     d72bd190a8: 3392702.283
     e3d547f6df: 3455103.713
+    1dd94dfba3: 3306227.186
+    b80adde359: 3404030.802
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -615,6 +617,8 @@ results:
     4fabb74471: 3392088.559
     d72bd190a8: 3357070.805
     e3d547f6df: 3472529.215
+    1dd94dfba3: 3090095.222
+    b80adde359: 3261074.225
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -922,6 +926,8 @@ results:
     4fabb74471: 1899587.936
     d72bd190a8: 1898016.342
     e3d547f6df: 1927611.133
+    1dd94dfba3: 1880712.218
+    b80adde359: 1785773.996
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1229,6 +1235,8 @@ results:
     4fabb74471: 2767217.679
     d72bd190a8: 2328059.746
     e3d547f6df: 2828631.92
+    1dd94dfba3: 2683982.583
+    b80adde359: 2764360.053
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1536,6 +1544,8 @@ results:
     4fabb74471: 3744293.301
     d72bd190a8: 3692318.827
     e3d547f6df: 3758405.1
+    1dd94dfba3: 3501900.233
+    b80adde359: 3705119.89
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1843,6 +1853,8 @@ results:
     4fabb74471: 3294967.019
     d72bd190a8: 3523810.643
     e3d547f6df: 3614408.231
+    1dd94dfba3: 3604792.324
+    b80adde359: 3397606.575
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -2150,6 +2162,8 @@ results:
     4fabb74471: 1768706.178
     d72bd190a8: 1962378.148
     e3d547f6df: 1818267.723
+    1dd94dfba3: 1975247.332
+    b80adde359: 1999988.813
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -2457,3 +2471,5 @@ results:
     4fabb74471: 2935375.404
     d72bd190a8: 2372327.3
     e3d547f6df: 3010177.667
+    1dd94dfba3: 2726502.232
+    b80adde359: 2935185.346
