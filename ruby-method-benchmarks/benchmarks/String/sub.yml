@@ -333,6 +333,8 @@ results:
     daa0874056: 3373275.061
     b0614decfc: 3480029.073
     d950cade53: 3409707.433
+    cfd839c140: 3401527.482
+    8bf3040e30: 3471360.197
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -665,6 +667,8 @@ results:
     daa0874056: 3363077.732
     b0614decfc: 3475713.795
     d950cade53: 3367789.164
+    cfd839c140: 3353717.324
+    8bf3040e30: 3433535.066
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -997,6 +1001,8 @@ results:
     daa0874056: 1863146.724
     b0614decfc: 1913932.486
     d950cade53: 1855545.886
+    cfd839c140: 1910055.049
+    8bf3040e30: 1898723.38
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1329,6 +1335,8 @@ results:
     daa0874056: 2745211.499
     b0614decfc: 2827540.896
     d950cade53: 2755151.956
+    cfd839c140: 2779663.681
+    8bf3040e30: 2769262.665
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1661,6 +1669,8 @@ results:
     daa0874056: 3563601.793
     b0614decfc: 3739999.019
     d950cade53: 3701190.521
+    cfd839c140: 3696500.235
+    8bf3040e30: 3734051.156
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -1993,6 +2003,8 @@ results:
     daa0874056: 3593612.064
     b0614decfc: 3709377.471
     d950cade53: 3569993.576
+    cfd839c140: 3648717.026
+    8bf3040e30: 3725366.817
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -2325,6 +2337,8 @@ results:
     daa0874056: 1978304.717
     b0614decfc: 2005194.099
     d950cade53: 1991409.988
+    cfd839c140: 1961762.602
+    8bf3040e30: 1968126.345
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -2657,3 +2671,5 @@ results:
     daa0874056: 2918846.046
     b0614decfc: 2342822.617
     d950cade53: 2936265.393
+    cfd839c140: 2967238.129
+    8bf3040e30: 2950948.118
