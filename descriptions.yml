@@ -9,24 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  04ac63fe57: ruby 2.7.0dev (2019-04-14 trunk 67549) [x86_64-linux]
-  04ac63fe57 --jit: ruby 2.7.0dev (2019-04-14 trunk 67549) +JIT [x86_64-linux]
-  '1222534719': ruby 2.7.0dev (2019-04-14 trunk 67550) [x86_64-linux]
-  1222534719 --jit: ruby 2.7.0dev (2019-04-14 trunk 67550) +JIT [x86_64-linux]
-  e45c9a40a2: ruby 2.7.0dev (2019-04-14 trunk 67551) [x86_64-linux]
-  e45c9a40a2 --jit: ruby 2.7.0dev (2019-04-14 trunk 67551) +JIT [x86_64-linux]
-  '009a0a3870': ruby 2.7.0dev (2019-04-14 trunk 67552) [x86_64-linux]
-  '009a0a3870 --jit': ruby 2.7.0dev (2019-04-14 trunk 67552) +JIT [x86_64-linux]
-  b041cf55bb: ruby 2.7.0dev (2019-04-14 trunk 67553) [x86_64-linux]
-  b041cf55bb --jit: ruby 2.7.0dev (2019-04-14 trunk 67553) +JIT [x86_64-linux]
-  ead870d7c3: ruby 2.7.0dev (2019-04-14 trunk 67554) [x86_64-linux]
-  ead870d7c3 --jit: ruby 2.7.0dev (2019-04-14 trunk 67554) +JIT [x86_64-linux]
-  1119bb4794: ruby 2.7.0dev (2019-04-14 trunk 67555) [x86_64-linux]
-  1119bb4794 --jit: ruby 2.7.0dev (2019-04-14 trunk 67555) +JIT [x86_64-linux]
-  816c5323fe: ruby 2.7.0dev (2019-04-14 trunk 67556) [x86_64-linux]
-  816c5323fe --jit: ruby 2.7.0dev (2019-04-14 trunk 67556) +JIT [x86_64-linux]
-  17b606d8b3: ruby 2.7.0dev (2019-04-14 trunk 67557) [x86_64-linux]
-  17b606d8b3 --jit: ruby 2.7.0dev (2019-04-14 trunk 67557) +JIT [x86_64-linux]
   ad9c5c5db6: ruby 2.7.0dev (2019-04-15 trunk 67558) [x86_64-linux]
   ad9c5c5db6 --jit: ruby 2.7.0dev (2019-04-15 trunk 67558) +JIT [x86_64-linux]
   fb96811d15: ruby 2.7.0dev (2019-04-15 trunk 67559) [x86_64-linux]
@@ -3779,3 +3761,9 @@ commits:
   2c59c58a47 --jit: |-
     ruby 2.7.0dev (2019-06-09T12:44:31+09:00 trunk 2c59c58a47) +JIT [x86_64-linux]
     last_commit=Fixed wrong BUNDLE_BIN_PATH for ruby core.
+  614154bbb6: |-
+    ruby 2.7.0dev (2019-06-09T13:25:56+09:00 trunk 614154bbb6) [x86_64-linux]
+    last_commit=Added missing dependency for rake examples.
+  614154bbb6 --jit: |-
+    ruby 2.7.0dev (2019-06-09T13:25:56+09:00 trunk 614154bbb6) +JIT [x86_64-linux]
+    last_commit=Added missing dependency for rake examples.
