@@ -3731,3 +3731,51 @@ commits:
   f42588f754 --jit: |-
     ruby 2.7.0dev (2019-06-08T20:08:18+09:00 trunk f42588f754) +JIT [x86_64-linux]
     last_commit=Make RUBY_RELEASE_DATE full on development
+  a8ef498d6b: |-
+    ruby 2.7.0dev (2019-06-09T11:11:26+09:00 trunk a8ef498d6b) [x86_64-linux]
+    last_commit=Add tests of the encoding with BOM
+  a8ef498d6b --jit: |-
+    ruby 2.7.0dev (2019-06-09T11:11:26+09:00 trunk a8ef498d6b) +JIT [x86_64-linux]
+    last_commit=Add tests of the encoding with BOM
+  562c0bfeda: |-
+    ruby 2.7.0dev (2019-06-09T12:27:05+09:00 trunk 562c0bfeda) [x86_64-linux]
+    last_commit=Split test_strip_bom for each encoding
+  562c0bfeda --jit: |-
+    ruby 2.7.0dev (2019-06-09T12:27:05+09:00 trunk 562c0bfeda) +JIT [x86_64-linux]
+    last_commit=Split test_strip_bom for each encoding
+  a432c014c9: |-
+    ruby 2.7.0dev (2019-06-09T12:30:40+09:00 trunk a432c014c9) [x86_64-linux]
+    last_commit=* 2019-06-09
+  a432c014c9 --jit: |-
+    ruby 2.7.0dev (2019-06-09T12:30:40+09:00 trunk a432c014c9) +JIT [x86_64-linux]
+    last_commit=* 2019-06-09
+  '6650899248': |-
+    ruby 2.7.0dev (2019-06-09T12:31:12+09:00 trunk 6650899248) [x86_64-linux]
+    last_commit=Make Resolv::DNS#each_name accept Resolv::IPv{4,6} arguments
+  6650899248 --jit: |-
+    ruby 2.7.0dev (2019-06-09T12:31:12+09:00 trunk 6650899248) +JIT [x86_64-linux]
+    last_commit=Make Resolv::DNS#each_name accept Resolv::IPv{4,6} arguments
+  8f37629519: |-
+    ruby 2.7.0dev (2019-06-09T12:44:10+09:00 trunk 8f37629519) [x86_64-linux]
+    last_commit=Merge bundler master from upstream.
+  8f37629519 --jit: |-
+    ruby 2.7.0dev (2019-06-09T12:44:10+09:00 trunk 8f37629519) +JIT [x86_64-linux]
+    last_commit=Merge bundler master from upstream.
+  57ccea6232: |-
+    ruby 2.7.0dev (2019-06-09T12:44:23+09:00 trunk 57ccea6232) [x86_64-linux]
+    last_commit=Revert to change for filelist of bundler gemspec.
+  57ccea6232 --jit: |-
+    ruby 2.7.0dev (2019-06-09T12:44:23+09:00 trunk 57ccea6232) +JIT [x86_64-linux]
+    last_commit=Revert to change for filelist of bundler gemspec.
+  44f7f093ab: |-
+    ruby 2.7.0dev (2019-06-09T12:44:27+09:00 trunk 44f7f093ab) [x86_64-linux]
+    last_commit=Added the condition for ruby_core repository.
+  44f7f093ab --jit: |-
+    ruby 2.7.0dev (2019-06-09T12:44:27+09:00 trunk 44f7f093ab) +JIT [x86_64-linux]
+    last_commit=Added the condition for ruby_core repository.
+  2c59c58a47: |-
+    ruby 2.7.0dev (2019-06-09T12:44:31+09:00 trunk 2c59c58a47) [x86_64-linux]
+    last_commit=Fixed wrong BUNDLE_BIN_PATH for ruby core.
+  2c59c58a47 --jit: |-
+    ruby 2.7.0dev (2019-06-09T12:44:31+09:00 trunk 2c59c58a47) +JIT [x86_64-linux]
+    last_commit=Fixed wrong BUNDLE_BIN_PATH for ruby core.
