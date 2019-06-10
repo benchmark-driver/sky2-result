@@ -335,6 +335,8 @@ results:
     d950cade53: 3409707.433
     cfd839c140: 3401527.482
     8bf3040e30: 3471360.197
+    c54f9a5b10: 3528854.936
+    aee36bf149: 3370837.81
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -669,6 +671,8 @@ results:
     d950cade53: 3367789.164
     cfd839c140: 3353717.324
     8bf3040e30: 3433535.066
+    c54f9a5b10: 3449363.534
+    aee36bf149: 3332078.606
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -1003,6 +1007,8 @@ results:
     d950cade53: 1855545.886
     cfd839c140: 1910055.049
     8bf3040e30: 1898723.38
+    c54f9a5b10: 1666655.068
+    aee36bf149: 1871236.776
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1337,6 +1343,8 @@ results:
     d950cade53: 2755151.956
     cfd839c140: 2779663.681
     8bf3040e30: 2769262.665
+    c54f9a5b10: 2674800.305
+    aee36bf149: 2621233.229
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1671,6 +1679,8 @@ results:
     d950cade53: 3701190.521
     cfd839c140: 3696500.235
     8bf3040e30: 3734051.156
+    c54f9a5b10: 3791835.725
+    aee36bf149: 3663514.287
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -2005,6 +2015,8 @@ results:
     d950cade53: 3569993.576
     cfd839c140: 3648717.026
     8bf3040e30: 3725366.817
+    c54f9a5b10: 3739034.916
+    aee36bf149: 3600374.123
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -2339,6 +2351,8 @@ results:
     d950cade53: 1991409.988
     cfd839c140: 1961762.602
     8bf3040e30: 1968126.345
+    c54f9a5b10: 2010712.993
+    aee36bf149: 1964856.33
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -2673,3 +2687,5 @@ results:
     d950cade53: 2936265.393
     cfd839c140: 2967238.129
     8bf3040e30: 2950948.118
+    c54f9a5b10: 2915815.793
+    aee36bf149: 2945767.668
