@@ -9,28 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  ad9c5c5db6: ruby 2.7.0dev (2019-04-15 trunk 67558) [x86_64-linux]
-  ad9c5c5db6 --jit: ruby 2.7.0dev (2019-04-15 trunk 67558) +JIT [x86_64-linux]
-  fb96811d15: ruby 2.7.0dev (2019-04-15 trunk 67559) [x86_64-linux]
-  fb96811d15 --jit: ruby 2.7.0dev (2019-04-15 trunk 67559) +JIT [x86_64-linux]
-  e3b6c7c7eb: ruby 2.7.0dev (2019-04-15 trunk 67560) [x86_64-linux]
-  e3b6c7c7eb --jit: ruby 2.7.0dev (2019-04-15 trunk 67560) +JIT [x86_64-linux]
-  3791bdf080: ruby 2.7.0dev (2019-04-15 trunk 67561) [x86_64-linux]
-  3791bdf080 --jit: ruby 2.7.0dev (2019-04-15 trunk 67561) +JIT [x86_64-linux]
-  246723a34c: ruby 2.7.0dev (2019-04-15 trunk 67563) [x86_64-linux]
-  246723a34c --jit: ruby 2.7.0dev (2019-04-15 trunk 67563) +JIT [x86_64-linux]
-  e68495e5f4: ruby 2.7.0dev (2019-04-15 trunk 67566) [x86_64-linux]
-  e68495e5f4 --jit: ruby 2.7.0dev (2019-04-15 trunk 67566) +JIT [x86_64-linux]
-  3f7c6aea3e: ruby 2.7.0dev (2019-04-15 trunk 67568) [x86_64-linux]
-  3f7c6aea3e --jit: ruby 2.7.0dev (2019-04-15 trunk 67568) +JIT [x86_64-linux]
-  dcf5c19c9f: ruby 2.7.0dev (2019-04-16 trunk 67569) [x86_64-linux]
-  dcf5c19c9f --jit: ruby 2.7.0dev (2019-04-16 trunk 67569) +JIT [x86_64-linux]
-  b0614decfc: ruby 2.7.0dev (2019-04-16 trunk 67572) [x86_64-linux]
-  b0614decfc --jit: ruby 2.7.0dev (2019-04-16 trunk 67572) +JIT [x86_64-linux]
-  b914166fcd: ruby 2.7.0dev (2019-04-17 trunk 67573) [x86_64-linux]
-  b914166fcd --jit: ruby 2.7.0dev (2019-04-17 trunk 67573) +JIT [x86_64-linux]
-  d71b78575b: ruby 2.7.0dev (2019-04-17 trunk 67574) [x86_64-linux]
-  d71b78575b --jit: ruby 2.7.0dev (2019-04-17 trunk 67574) +JIT [x86_64-linux]
   fcd679ed11: ruby 2.7.0dev (2019-04-17 trunk 67575) [x86_64-linux]
   fcd679ed11 --jit: ruby 2.7.0dev (2019-04-17 trunk 67575) +JIT [x86_64-linux]
   3c55b643ae: ruby 2.7.0dev (2019-04-17 trunk 67576) [x86_64-linux]
@@ -3809,3 +3787,27 @@ commits:
   caa90202c9 --jit: |-
     ruby 2.7.0dev (2019-06-10T22:04:52+09:00 trunk caa90202c9) +JIT [x86_64-linux]
     last_commit=Make sure to suppress .irbrc on benchmark
+  02155da7ba: |-
+    ruby 2.7.0dev (2019-06-10T22:35:32+09:00 trunk 02155da7ba) [x86_64-linux]
+    last_commit=Make file2lastrev timezone consistent with git log
+  02155da7ba --jit: |-
+    ruby 2.7.0dev (2019-06-10T22:35:32+09:00 trunk 02155da7ba) +JIT [x86_64-linux]
+    last_commit=Make file2lastrev timezone consistent with git log
+  f0bfa71ab3: |-
+    ruby 2.7.0dev (2019-06-10T14:31:07Z trunk f0bfa71ab3) [x86_64-linux]
+    last_commit=Use UTC for file2lastrev timezone
+  f0bfa71ab3 --jit: |-
+    ruby 2.7.0dev (2019-06-10T14:31:07Z trunk f0bfa71ab3) +JIT [x86_64-linux]
+    last_commit=Use UTC for file2lastrev timezone
+  be6b462489: |-
+    ruby 2.7.0dev (2019-06-10T15:20:10Z trunk be6b462489) [x86_64-linux]
+    last_commit=Use checktype for performance
+  be6b462489 --jit: |-
+    ruby 2.7.0dev (2019-06-10T15:20:10Z trunk be6b462489) +JIT [x86_64-linux]
+    last_commit=Use checktype for performance
+  d7e7e99862: |-
+    ruby 2.7.0dev (2019-06-10T15:25:57Z trunk d7e7e99862) [x86_64-linux]
+    last_commit=* 2019-06-11
+  d7e7e99862 --jit: |-
+    ruby 2.7.0dev (2019-06-10T15:25:57Z trunk d7e7e99862) +JIT [x86_64-linux]
+    last_commit=* 2019-06-11
