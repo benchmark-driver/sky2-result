@@ -339,6 +339,8 @@ results:
     aee36bf149: 3370837.81
     165ddfda20: 3423621.547
     221e293733: 3385770.233
+    eb45ba6116: 3260435.555
+    a8ef498d6b: 3374249.037
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -677,6 +679,8 @@ results:
     aee36bf149: 3332078.606
     165ddfda20: 3366871.932
     221e293733: 3326115.842
+    eb45ba6116: 3328488.48
+    a8ef498d6b: 3367912.037
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -1015,6 +1019,8 @@ results:
     aee36bf149: 1871236.776
     165ddfda20: 1910307.731
     221e293733: 1861900.836
+    eb45ba6116: 1902502.068
+    a8ef498d6b: 1890413.45
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1353,6 +1359,8 @@ results:
     aee36bf149: 2621233.229
     165ddfda20: 2779327.569
     221e293733: 2738984.392
+    eb45ba6116: 2632037.266
+    a8ef498d6b: 2771378.774
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1691,6 +1699,8 @@ results:
     aee36bf149: 3663514.287
     165ddfda20: 3673914.005
     221e293733: 3690940.799
+    eb45ba6116: 3599074.564
+    a8ef498d6b: 3705210.942
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -2029,6 +2039,8 @@ results:
     aee36bf149: 3600374.123
     165ddfda20: 3647709.331
     221e293733: 3577859.19
+    eb45ba6116: 3543635.772
+    a8ef498d6b: 3617573.178
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -2367,6 +2379,8 @@ results:
     aee36bf149: 1964856.33
     165ddfda20: 1980391.329
     221e293733: 1886846.643
+    eb45ba6116: 1985714.171
+    a8ef498d6b: 1989307.127
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -2705,3 +2719,5 @@ results:
     aee36bf149: 2945767.668
     165ddfda20: 2973112.715
     221e293733: 2931429.067
+    eb45ba6116: 2889219.057
+    a8ef498d6b: 2967209.313
