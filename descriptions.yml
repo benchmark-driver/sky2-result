@@ -3767,3 +3767,45 @@ commits:
   614154bbb6 --jit: |-
     ruby 2.7.0dev (2019-06-09T13:25:56+09:00 trunk 614154bbb6) +JIT [x86_64-linux]
     last_commit=Added missing dependency for rake examples.
+  60af6fef3c: |-
+    ruby 2.7.0dev (2019-06-10T19:45:00+09:00 trunk 60af6fef3c) [x86_64-linux]
+    last_commit=Fix Resolv specs to not depend on a system /etc/hosts file
+  60af6fef3c --jit: |-
+    ruby 2.7.0dev (2019-06-10T19:45:00+09:00 trunk 60af6fef3c) +JIT [x86_64-linux]
+    last_commit=Fix Resolv specs to not depend on a system /etc/hosts file
+  626ae5a9b6: |-
+    ruby 2.7.0dev (2019-06-10T19:47:08+09:00 trunk 626ae5a9b6) [x86_64-linux]
+    last_commit=Resolv specs should pass on Windows now
+  626ae5a9b6 --jit: |-
+    ruby 2.7.0dev (2019-06-10T19:47:08+09:00 trunk 626ae5a9b6) +JIT [x86_64-linux]
+    last_commit=Resolv specs should pass on Windows now
+  b9996b7b32: |-
+    ruby 2.7.0dev (2019-06-10T19:48:08+09:00 trunk b9996b7b32) [x86_64-linux]
+    last_commit=* 2019-06-10
+  b9996b7b32 --jit: |-
+    ruby 2.7.0dev (2019-06-10T19:48:08+09:00 trunk b9996b7b32) +JIT [x86_64-linux]
+    last_commit=* 2019-06-10
+  973fd18f11: |-
+    ruby 2.7.0dev (2019-06-10T21:13:14+09:00 trunk 973fd18f11) [x86_64-linux]
+    last_commit=Add a benchmark of irb boot time
+  973fd18f11 --jit: |-
+    ruby 2.7.0dev (2019-06-10T21:13:14+09:00 trunk 973fd18f11) +JIT [x86_64-linux]
+    last_commit=Add a benchmark of irb boot time
+  976c689ad4: |-
+    ruby 2.7.0dev (2019-06-10T21:18:56+09:00 trunk 976c689ad4) [x86_64-linux]
+    last_commit=irb: defer requiring rdoc to improve the start up time
+  976c689ad4 --jit: |-
+    ruby 2.7.0dev (2019-06-10T21:18:56+09:00 trunk 976c689ad4) +JIT [x86_64-linux]
+    last_commit=irb: defer requiring rdoc to improve the start up time
+  880204cf55: |-
+    ruby 2.7.0dev (2019-06-10T21:45:46+09:00 trunk 880204cf55) [x86_64-linux]
+    last_commit=irb/cmd/help.rb: return nil after the redefinition
+  880204cf55 --jit: |-
+    ruby 2.7.0dev (2019-06-10T21:45:46+09:00 trunk 880204cf55) +JIT [x86_64-linux]
+    last_commit=irb/cmd/help.rb: return nil after the redefinition
+  caa90202c9: |-
+    ruby 2.7.0dev (2019-06-10T22:04:52+09:00 trunk caa90202c9) [x86_64-linux]
+    last_commit=Make sure to suppress .irbrc on benchmark
+  caa90202c9 --jit: |-
+    ruby 2.7.0dev (2019-06-10T22:04:52+09:00 trunk caa90202c9) +JIT [x86_64-linux]
+    last_commit=Make sure to suppress .irbrc on benchmark
