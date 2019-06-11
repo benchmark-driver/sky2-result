@@ -350,6 +350,8 @@ results:
     e15de86583: 3270265.238
     56528da3ef: 3504860.089
     '09022b6d70': 3337471.084
+    c05eaa9325: 3394875.574
+    c4bad9f74e: 3358698.446
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -699,6 +701,8 @@ results:
     e15de86583: 3350195.07
     56528da3ef: 3393492.912
     '09022b6d70': 3335798.64
+    c05eaa9325: 3267006.461
+    c4bad9f74e: 3180175.416
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -1048,6 +1052,8 @@ results:
     e15de86583: 1382384.932
     56528da3ef: 1567677.73
     '09022b6d70': 1746898.568
+    c05eaa9325: 1864480.362
+    c4bad9f74e: 1589827.075
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1397,6 +1403,8 @@ results:
     e15de86583: 2718631.444
     56528da3ef: 2740210.624
     '09022b6d70': 2564399.628
+    c05eaa9325: 2796895.11
+    c4bad9f74e: 2739659.47
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1746,6 +1754,8 @@ results:
     e15de86583: 3654446.742
     56528da3ef: 3772708.31
     '09022b6d70': 3462259.376
+    c05eaa9325: 3691433.918
+    c4bad9f74e: 3658291.049
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -2095,6 +2105,8 @@ results:
     e15de86583: 2964952.582
     56528da3ef: 3704195.713
     '09022b6d70': 3614058.351
+    c05eaa9325: 3623912.862
+    c4bad9f74e: 3375607.867
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -2444,6 +2456,8 @@ results:
     e15de86583: 1946986.824
     56528da3ef: 1983322.613
     '09022b6d70': 1764549.556
+    c05eaa9325: 1985444.758
+    c4bad9f74e: 1931675.019
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -2793,3 +2807,5 @@ results:
     e15de86583: 2839957.703
     56528da3ef: 2698429.655
     '09022b6d70': 2857912.86
+    c05eaa9325: 2965557.67
+    c4bad9f74e: 2929261.626

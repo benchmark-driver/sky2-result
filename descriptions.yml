@@ -3811,3 +3811,27 @@ commits:
   d7e7e99862 --jit: |-
     ruby 2.7.0dev (2019-06-10T15:25:57Z trunk d7e7e99862) +JIT [x86_64-linux]
     last_commit=* 2019-06-11
+  6096baea5d: |-
+    ruby 2.7.0dev (2019-06-10T21:45:49Z trunk 6096baea5d) [x86_64-linux]
+    last_commit=test/net/http/test_http.rb: Extend the timeout
+  6096baea5d --jit: |-
+    ruby 2.7.0dev (2019-06-10T21:45:49Z trunk 6096baea5d) +JIT [x86_64-linux]
+    last_commit=test/net/http/test_http.rb: Extend the timeout
+  de4b2930f7: |-
+    ruby 2.7.0dev (2019-06-10T21:53:33Z trunk de4b2930f7) [x86_64-linux]
+    last_commit=ext/socket/ipsocket.c: Use SO_REUSEADDR for local_host/port
+  de4b2930f7 --jit: |-
+    ruby 2.7.0dev (2019-06-10T21:53:33Z trunk de4b2930f7) +JIT [x86_64-linux]
+    last_commit=ext/socket/ipsocket.c: Use SO_REUSEADDR for local_host/port
+  fe9701ee00: |-
+    ruby 2.7.0dev (2019-06-10T21:56:46Z trunk fe9701ee00) [x86_64-linux]
+    last_commit=* expand tabs.
+  fe9701ee00 --jit: |-
+    ruby 2.7.0dev (2019-06-10T21:56:46Z trunk fe9701ee00) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  4adc6f07ef: |-
+    ruby 2.7.0dev (2019-06-10T22:17:59Z trunk 4adc6f07ef) [x86_64-linux]
+    last_commit=test/lib/test/unit/assertions.rb (assert_cpu_usage_low): Relax the limit
+  4adc6f07ef --jit: |-
+    ruby 2.7.0dev (2019-06-10T22:17:59Z trunk 4adc6f07ef) +JIT [x86_64-linux]
+    last_commit=test/lib/test/unit/assertions.rb (assert_cpu_usage_low): Relax the limit
