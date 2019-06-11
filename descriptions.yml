@@ -3835,3 +3835,9 @@ commits:
   42ac8890ef --jit: |-
     ruby 2.7.0dev (2019-06-11T03:33:34Z trunk 42ac8890ef) +JIT [x86_64-linux]
     last_commit=Fail test if load ~/.irbrc
+  140b8117bd: |-
+    ruby 2.7.0dev (2019-06-11T06:22:16Z trunk 140b8117bd) [x86_64-linux]
+    last_commit=&. is not allowed inside LHS of massign
+  140b8117bd --jit: |-
+    ruby 2.7.0dev (2019-06-11T06:22:16Z trunk 140b8117bd) +JIT [x86_64-linux]
+    last_commit=&. is not allowed inside LHS of massign
