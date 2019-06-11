@@ -9,18 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  fcd679ed11: ruby 2.7.0dev (2019-04-17 trunk 67575) [x86_64-linux]
-  fcd679ed11 --jit: ruby 2.7.0dev (2019-04-17 trunk 67575) +JIT [x86_64-linux]
-  3c55b643ae: ruby 2.7.0dev (2019-04-17 trunk 67576) [x86_64-linux]
-  3c55b643ae --jit: ruby 2.7.0dev (2019-04-17 trunk 67576) +JIT [x86_64-linux]
-  aee9f24973: ruby 2.7.0dev (2019-04-17 trunk 67577) [x86_64-linux]
-  aee9f24973 --jit: ruby 2.7.0dev (2019-04-17 trunk 67577) +JIT [x86_64-linux]
-  c54f9a5b10: ruby 2.7.0dev (2019-04-17 trunk 67578) [x86_64-linux]
-  c54f9a5b10 --jit: ruby 2.7.0dev (2019-04-17 trunk 67578) +JIT [x86_64-linux]
-  dbc9f43cb3: ruby 2.7.0dev (2019-04-17 trunk 67579) [x86_64-linux]
-  dbc9f43cb3 --jit: ruby 2.7.0dev (2019-04-17 trunk 67579) +JIT [x86_64-linux]
-  62c07674e0: ruby 2.7.0dev (2019-04-17 trunk 67581) [x86_64-linux]
-  62c07674e0 --jit: ruby 2.7.0dev (2019-04-17 trunk 67581) +JIT [x86_64-linux]
   e1eb54b99d: ruby 2.7.0dev (2019-04-17 trunk 67582) [x86_64-linux]
   e1eb54b99d --jit: ruby 2.7.0dev (2019-04-17 trunk 67582) +JIT [x86_64-linux]
   7bd58a4e6d: ruby 2.7.0dev (2019-04-17 trunk 67583) [x86_64-linux]
@@ -3835,3 +3823,15 @@ commits:
   4adc6f07ef --jit: |-
     ruby 2.7.0dev (2019-06-10T22:17:59Z trunk 4adc6f07ef) +JIT [x86_64-linux]
     last_commit=test/lib/test/unit/assertions.rb (assert_cpu_usage_low): Relax the limit
+  e4364dbf6e: |-
+    ruby 2.7.0dev (2019-06-11T03:16:26Z trunk e4364dbf6e) [x86_64-linux]
+    last_commit=Fixed the code-style with the upstream rule.
+  e4364dbf6e --jit: |-
+    ruby 2.7.0dev (2019-06-11T03:16:26Z trunk e4364dbf6e) +JIT [x86_64-linux]
+    last_commit=Fixed the code-style with the upstream rule.
+  42ac8890ef: |-
+    ruby 2.7.0dev (2019-06-11T03:33:34Z trunk 42ac8890ef) [x86_64-linux]
+    last_commit=Fail test if load ~/.irbrc
+  42ac8890ef --jit: |-
+    ruby 2.7.0dev (2019-06-11T03:33:34Z trunk 42ac8890ef) +JIT [x86_64-linux]
+    last_commit=Fail test if load ~/.irbrc
