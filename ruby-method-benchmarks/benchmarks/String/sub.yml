@@ -366,6 +366,8 @@ results:
     ea42423908: 3382840.231
     19430b776c: 3355948.142
     6fbf4e22c8: 3367009.314
+    cb520e7623: 3422961.004
+    4cb2dcdf02: 3392949.947
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -731,6 +733,8 @@ results:
     ea42423908: 3334032.04
     19430b776c: 3342297.368
     6fbf4e22c8: 3125472.613
+    cb520e7623: 3318018.117
+    4cb2dcdf02: 3303668.824
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -1096,6 +1100,8 @@ results:
     ea42423908: 1687602.108
     19430b776c: 1888545.556
     6fbf4e22c8: 1844118.95
+    cb520e7623: 1876573.561
+    4cb2dcdf02: 1833974.02
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1461,6 +1467,8 @@ results:
     ea42423908: 2767470.774
     19430b776c: 2773910.489
     6fbf4e22c8: 2745844.396
+    cb520e7623: 2768195.474
+    4cb2dcdf02: 2743306.1
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1826,6 +1834,8 @@ results:
     ea42423908: 3303931.849
     19430b776c: 3671581.253
     6fbf4e22c8: 3696313.157
+    cb520e7623: 3689737.396
+    4cb2dcdf02: 3635607.529
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -2191,6 +2201,8 @@ results:
     ea42423908: 3581125.733
     19430b776c: 3618803.825
     6fbf4e22c8: 3668173.315
+    cb520e7623: 3613946.169
+    4cb2dcdf02: 3658563.816
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -2556,6 +2568,8 @@ results:
     ea42423908: 1979851.265
     19430b776c: 1938203.762
     6fbf4e22c8: 1971407.587
+    cb520e7623: 2005557.443
+    4cb2dcdf02: 1973323.64
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -2921,3 +2935,5 @@ results:
     ea42423908: 2938272.342
     19430b776c: 2957420.596
     6fbf4e22c8: 2786021.907
+    cb520e7623: 2935262.184
+    4cb2dcdf02: 2924094.849

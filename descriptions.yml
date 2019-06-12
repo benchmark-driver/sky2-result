@@ -3879,3 +3879,15 @@ commits:
   8354cfd03b --jit: |-
     ruby 2.7.0dev (2019-06-12T02:00:25Z trunk 8354cfd03b) +JIT [x86_64-linux]
     last_commit=Treat "begin rescue end" correctly
+  9593e76ac2: |-
+    ruby 2.7.0dev (2019-06-12T06:25:06Z trunk 9593e76ac2) [x86_64-linux]
+    last_commit=Ripper::Lexer: fallback parse error token to the previous one
+  9593e76ac2 --jit: |-
+    ruby 2.7.0dev (2019-06-12T06:25:06Z trunk 9593e76ac2) +JIT [x86_64-linux]
+    last_commit=Ripper::Lexer: fallback parse error token to the previous one
+  88411d350e: |-
+    ruby 2.7.0dev (2019-06-12T06:30:07Z trunk 88411d350e) [x86_64-linux]
+    last_commit=Another incomplete string case
+  88411d350e --jit: |-
+    ruby 2.7.0dev (2019-06-12T06:30:07Z trunk 88411d350e) +JIT [x86_64-linux]
+    last_commit=Another incomplete string case
