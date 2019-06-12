@@ -9,10 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  5141398ff0: ruby 2.7.0dev (2019-04-17 trunk 67591) [x86_64-linux]
-  5141398ff0 --jit: ruby 2.7.0dev (2019-04-17 trunk 67591) +JIT [x86_64-linux]
-  bd698312fa: ruby 2.7.0dev (2019-04-17 trunk 67592) [x86_64-linux]
-  bd698312fa --jit: ruby 2.7.0dev (2019-04-17 trunk 67592) +JIT [x86_64-linux]
   c576f14039: ruby 2.7.0dev (2019-04-17 trunk 67593) [x86_64-linux]
   c576f14039 --jit: ruby 2.7.0dev (2019-04-17 trunk 67593) +JIT [x86_64-linux]
   ffbcf9f842: ruby 2.7.0dev (2019-04-17 trunk 67594) [x86_64-linux]
@@ -3877,3 +3873,9 @@ commits:
   c1d78a7f0e --jit: |-
     ruby 2.7.0dev (2019-06-11T22:44:11Z trunk c1d78a7f0e) +JIT [x86_64-linux]
     last_commit=do_mutex_lock: release mutex before checking for interrupts (fixes issue 15360)
+  8354cfd03b: |-
+    ruby 2.7.0dev (2019-06-12T02:00:25Z trunk 8354cfd03b) [x86_64-linux]
+    last_commit=Treat "begin rescue end" correctly
+  8354cfd03b --jit: |-
+    ruby 2.7.0dev (2019-06-12T02:00:25Z trunk 8354cfd03b) +JIT [x86_64-linux]
+    last_commit=Treat "begin rescue end" correctly
