@@ -3871,3 +3871,9 @@ commits:
   5e018214e7 --jit: |-
     ruby 2.7.0dev (2019-06-11T16:43:38Z trunk 5e018214e7) +JIT [x86_64-linux]
     last_commit=Fix SystemStackError when calling a method in an unused refinement
+  c1d78a7f0e: |-
+    ruby 2.7.0dev (2019-06-11T22:44:11Z trunk c1d78a7f0e) [x86_64-linux]
+    last_commit=do_mutex_lock: release mutex before checking for interrupts (fixes issue 15360)
+  c1d78a7f0e --jit: |-
+    ruby 2.7.0dev (2019-06-11T22:44:11Z trunk c1d78a7f0e) +JIT [x86_64-linux]
+    last_commit=do_mutex_lock: release mutex before checking for interrupts (fixes issue 15360)
