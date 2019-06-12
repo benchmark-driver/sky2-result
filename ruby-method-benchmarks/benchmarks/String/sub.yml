@@ -368,6 +368,8 @@ results:
     6fbf4e22c8: 3367009.314
     cb520e7623: 3422961.004
     4cb2dcdf02: 3392949.947
+    8980b53a48: 3491100.515
+    bbad0d05b3: 3396503.448
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -735,6 +737,8 @@ results:
     6fbf4e22c8: 3125472.613
     cb520e7623: 3318018.117
     4cb2dcdf02: 3303668.824
+    8980b53a48: 3416924.698
+    bbad0d05b3: 3346184.652
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -1102,6 +1106,8 @@ results:
     6fbf4e22c8: 1844118.95
     cb520e7623: 1876573.561
     4cb2dcdf02: 1833974.02
+    8980b53a48: 1913562.714
+    bbad0d05b3: 1858389.502
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1469,6 +1475,8 @@ results:
     6fbf4e22c8: 2745844.396
     cb520e7623: 2768195.474
     4cb2dcdf02: 2743306.1
+    8980b53a48: 2818684.614
+    bbad0d05b3: 2742694.725
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1836,6 +1844,8 @@ results:
     6fbf4e22c8: 3696313.157
     cb520e7623: 3689737.396
     4cb2dcdf02: 3635607.529
+    8980b53a48: 3756923.381
+    bbad0d05b3: 3683145.954
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -2203,6 +2213,8 @@ results:
     6fbf4e22c8: 3668173.315
     cb520e7623: 3613946.169
     4cb2dcdf02: 3658563.816
+    8980b53a48: 3673144.566
+    bbad0d05b3: 3641683.214
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -2570,6 +2582,8 @@ results:
     6fbf4e22c8: 1971407.587
     cb520e7623: 2005557.443
     4cb2dcdf02: 1973323.64
+    8980b53a48: 1989421.166
+    bbad0d05b3: 1973988.778
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -2937,3 +2951,5 @@ results:
     6fbf4e22c8: 2786021.907
     cb520e7623: 2935262.184
     4cb2dcdf02: 2924094.849
+    8980b53a48: 2900005.336
+    bbad0d05b3: 2923850.798
