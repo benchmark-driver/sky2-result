@@ -9,22 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  7bd58a4e6d: ruby 2.7.0dev (2019-04-17 trunk 67583) [x86_64-linux]
-  7bd58a4e6d --jit: ruby 2.7.0dev (2019-04-17 trunk 67583) +JIT [x86_64-linux]
-  281a22a398: ruby 2.7.0dev (2019-04-17 trunk 67584) [x86_64-linux]
-  281a22a398 --jit: ruby 2.7.0dev (2019-04-17 trunk 67584) +JIT [x86_64-linux]
-  b077654a2c: ruby 2.7.0dev (2019-04-17 trunk 67585) [x86_64-linux]
-  b077654a2c --jit: ruby 2.7.0dev (2019-04-17 trunk 67585) +JIT [x86_64-linux]
-  9738f96fcf: ruby 2.7.0dev (2019-04-17 trunk 67586) [x86_64-linux]
-  9738f96fcf --jit: ruby 2.7.0dev (2019-04-17 trunk 67586) +JIT [x86_64-linux]
-  9c9db64d7e: ruby 2.7.0dev (2019-04-17 trunk 67587) [x86_64-linux]
-  9c9db64d7e --jit: ruby 2.7.0dev (2019-04-17 trunk 67587) +JIT [x86_64-linux]
-  da8cd2dc30: ruby 2.7.0dev (2019-04-17 trunk 67588) [x86_64-linux]
-  da8cd2dc30 --jit: ruby 2.7.0dev (2019-04-17 trunk 67588) +JIT [x86_64-linux]
-  fc9f19abe8: ruby 2.7.0dev (2019-04-17 trunk 67589) [x86_64-linux]
-  fc9f19abe8 --jit: ruby 2.7.0dev (2019-04-17 trunk 67589) +JIT [x86_64-linux]
-  8e6c1a186c: ruby 2.7.0dev (2019-04-17 trunk 67590) [x86_64-linux]
-  8e6c1a186c --jit: ruby 2.7.0dev (2019-04-17 trunk 67590) +JIT [x86_64-linux]
   5141398ff0: ruby 2.7.0dev (2019-04-17 trunk 67591) [x86_64-linux]
   5141398ff0 --jit: ruby 2.7.0dev (2019-04-17 trunk 67591) +JIT [x86_64-linux]
   bd698312fa: ruby 2.7.0dev (2019-04-17 trunk 67592) [x86_64-linux]
@@ -3881,3 +3865,9 @@ commits:
   4f9e7c95e4 --jit: |-
     ruby 2.7.0dev (2019-06-11T16:16:49Z trunk 4f9e7c95e4) +JIT [x86_64-linux]
     last_commit=* 2019-06-12
+  5e018214e7: |-
+    ruby 2.7.0dev (2019-06-11T16:43:38Z trunk 5e018214e7) [x86_64-linux]
+    last_commit=Fix SystemStackError when calling a method in an unused refinement
+  5e018214e7 --jit: |-
+    ruby 2.7.0dev (2019-06-11T16:43:38Z trunk 5e018214e7) +JIT [x86_64-linux]
+    last_commit=Fix SystemStackError when calling a method in an unused refinement
