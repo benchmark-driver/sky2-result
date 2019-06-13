@@ -9,18 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  744e5df715: ruby 2.7.0dev (2019-04-17 trunk 67598) [x86_64-linux]
-  744e5df715 --jit: ruby 2.7.0dev (2019-04-17 trunk 67598) +JIT [x86_64-linux]
-  828353334a: ruby 2.7.0dev (2019-04-17 trunk 67599) [x86_64-linux]
-  828353334a --jit: ruby 2.7.0dev (2019-04-17 trunk 67599) +JIT [x86_64-linux]
-  286f0b8ae3: ruby 2.7.0dev (2019-04-17 trunk 67600) [x86_64-linux]
-  286f0b8ae3 --jit: ruby 2.7.0dev (2019-04-17 trunk 67600) +JIT [x86_64-linux]
-  80282c76a3: ruby 2.7.0dev (2019-04-17 trunk 67601) [x86_64-linux]
-  80282c76a3 --jit: ruby 2.7.0dev (2019-04-17 trunk 67601) +JIT [x86_64-linux]
-  eb3d3dfcc1: ruby 2.7.0dev (2019-04-18 trunk 67602) [x86_64-linux]
-  eb3d3dfcc1 --jit: ruby 2.7.0dev (2019-04-18 trunk 67602) +JIT [x86_64-linux]
-  4d1f86a1ff: ruby 2.7.0dev (2019-04-18 trunk 67603) [x86_64-linux]
-  4d1f86a1ff --jit: ruby 2.7.0dev (2019-04-18 trunk 67603) +JIT [x86_64-linux]
   b86d87c81a: ruby 2.7.0dev (2019-04-18 trunk 67604) [x86_64-linux]
   b86d87c81a --jit: ruby 2.7.0dev (2019-04-18 trunk 67604) +JIT [x86_64-linux]
   4751caecc3: ruby 2.7.0dev (2019-04-18 trunk 67605) [x86_64-linux]
@@ -3905,3 +3893,33 @@ commits:
   7f79a86d8b --jit: |-
     ruby 2.7.0dev (2019-06-13T06:30:03Z trunk 7f79a86d8b) +JIT [x86_64-linux]
     last_commit=add comments to mention sort.reverse!
+  69509df2f4: |-
+    ruby 2.7.0dev (2019-06-13T07:42:31Z trunk 69509df2f4) [x86_64-linux]
+    last_commit=squeeze space [ci skip]
+  69509df2f4 --jit: |-
+    ruby 2.7.0dev (2019-06-13T07:42:31Z trunk 69509df2f4) +JIT [x86_64-linux]
+    last_commit=squeeze space [ci skip]
+  02b1a85385: |-
+    ruby 2.7.0dev (2019-06-13T09:05:04Z trunk 02b1a85385) [x86_64-linux]
+    last_commit=remove 2 redundant calls to rb_str_dup
+  02b1a85385 --jit: |-
+    ruby 2.7.0dev (2019-06-13T09:05:04Z trunk 02b1a85385) +JIT [x86_64-linux]
+    last_commit=remove 2 redundant calls to rb_str_dup
+  bdc8b3789a: |-
+    ruby 2.7.0dev (2019-06-13T09:07:19Z trunk bdc8b3789a) [x86_64-linux]
+    last_commit=* expand tabs.
+  bdc8b3789a --jit: |-
+    ruby 2.7.0dev (2019-06-13T09:07:19Z trunk bdc8b3789a) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  e717d6faa8: |-
+    ruby 2.7.0dev (2019-06-13T09:13:05Z trunk e717d6faa8) [x86_64-linux]
+    last_commit=IO#set_encoding_by_bom
+  e717d6faa8 --jit: |-
+    ruby 2.7.0dev (2019-06-13T09:13:05Z trunk e717d6faa8) +JIT [x86_64-linux]
+    last_commit=IO#set_encoding_by_bom
+  f169043d81: |-
+    ruby 2.7.0dev (2019-06-13T09:44:32Z trunk f169043d81) [x86_64-linux]
+    last_commit=Add pipeline operator [Feature #15799]
+  f169043d81 --jit: |-
+    ruby 2.7.0dev (2019-06-13T09:44:32Z trunk f169043d81) +JIT [x86_64-linux]
+    last_commit=Add pipeline operator [Feature #15799]
