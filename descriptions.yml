@@ -3923,3 +3923,15 @@ commits:
   f169043d81 --jit: |-
     ruby 2.7.0dev (2019-06-13T09:44:32Z trunk f169043d81) +JIT [x86_64-linux]
     last_commit=Add pipeline operator [Feature #15799]
+  043f010c28: |-
+    ruby 2.7.0dev (2019-06-13T13:03:10Z trunk 043f010c28) [x86_64-linux]
+    last_commit=parse.y: moved pipeline to expr
+  043f010c28 --jit: |-
+    ruby 2.7.0dev (2019-06-13T13:03:10Z trunk 043f010c28) +JIT [x86_64-linux]
+    last_commit=parse.y: moved pipeline to expr
+  aa7211836b: |-
+    ruby 2.7.0dev (2019-06-13T13:19:47Z trunk aa7211836b) [x86_64-linux]
+    last_commit=Continue to the next line beginning with a pipeline
+  aa7211836b --jit: |-
+    ruby 2.7.0dev (2019-06-13T13:19:47Z trunk aa7211836b) +JIT [x86_64-linux]
+    last_commit=Continue to the next line beginning with a pipeline
