@@ -9,14 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  b86d87c81a: ruby 2.7.0dev (2019-04-18 trunk 67604) [x86_64-linux]
-  b86d87c81a --jit: ruby 2.7.0dev (2019-04-18 trunk 67604) +JIT [x86_64-linux]
-  4751caecc3: ruby 2.7.0dev (2019-04-18 trunk 67605) [x86_64-linux]
-  4751caecc3 --jit: ruby 2.7.0dev (2019-04-18 trunk 67605) +JIT [x86_64-linux]
-  3ee0648dc7: ruby 2.7.0dev (2019-04-18 trunk 67606) [x86_64-linux]
-  3ee0648dc7 --jit: ruby 2.7.0dev (2019-04-18 trunk 67606) +JIT [x86_64-linux]
-  396c1846fa: ruby 2.7.0dev (2019-04-19 trunk 67607) [x86_64-linux]
-  396c1846fa --jit: ruby 2.7.0dev (2019-04-19 trunk 67607) +JIT [x86_64-linux]
   c3c4e411eb: ruby 2.7.0dev (2019-04-19 trunk 67608) [x86_64-linux]
   c3c4e411eb --jit: ruby 2.7.0dev (2019-04-19 trunk 67608) +JIT [x86_64-linux]
   14626ed20a: ruby 2.7.0dev (2019-04-19 trunk 67609) [x86_64-linux]
@@ -3935,3 +3927,15 @@ commits:
   aa7211836b --jit: |-
     ruby 2.7.0dev (2019-06-13T13:19:47Z trunk aa7211836b) +JIT [x86_64-linux]
     last_commit=Continue to the next line beginning with a pipeline
+  e75c278183: |-
+    ruby 2.7.0dev (2019-06-13T13:44:01Z trunk e75c278183) [x86_64-linux]
+    last_commit=test/lib/test/unit/assertions.rb (assert_cpu_usage_low): tweak the wait
+  e75c278183 --jit: |-
+    ruby 2.7.0dev (2019-06-13T13:44:01Z trunk e75c278183) +JIT [x86_64-linux]
+    last_commit=test/lib/test/unit/assertions.rb (assert_cpu_usage_low): tweak the wait
+  56d595198b: |-
+    ruby 2.7.0dev (2019-06-13T14:04:41Z trunk 56d595198b) [x86_64-linux]
+    last_commit=test/webrick/test_ssl_server.rb: Use EnvUtil.timeout for timeout scale factor
+  56d595198b --jit: |-
+    ruby 2.7.0dev (2019-06-13T14:04:41Z trunk 56d595198b) +JIT [x86_64-linux]
+    last_commit=test/webrick/test_ssl_server.rb: Use EnvUtil.timeout for timeout scale factor

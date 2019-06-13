@@ -383,6 +383,8 @@ results:
     f0945176c3: 3392708.986
     bbb84a16fa: 3332179.388
     1ebe9a2f82: 3407039.094
+    c49796c930: 3390576.795
+    cb40a21da0: 3386729.19
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -765,6 +767,8 @@ results:
     f0945176c3: 3345440.577
     bbb84a16fa: 3228959.86
     1ebe9a2f82: 3127180.487
+    c49796c930: 3237771.215
+    cb40a21da0: 3354340.814
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -1147,6 +1151,8 @@ results:
     f0945176c3: 1455448.488
     bbb84a16fa: 1861717.445
     1ebe9a2f82: 1477542.261
+    c49796c930: 1841531.286
+    cb40a21da0: 1889446.486
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1529,6 +1535,8 @@ results:
     f0945176c3: 2760144.892
     bbb84a16fa: 2635927.696
     1ebe9a2f82: 2408641.782
+    c49796c930: 2754333.793
+    cb40a21da0: 2369120.542
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -1911,6 +1919,8 @@ results:
     f0945176c3: 3572626.734
     bbb84a16fa: 3669171.077
     1ebe9a2f82: 3709531.177
+    c49796c930: 3670106.077
+    cb40a21da0: 3590124.697
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -2293,6 +2303,8 @@ results:
     f0945176c3: 3532957.898
     bbb84a16fa: 3571681.514
     1ebe9a2f82: 3138610.124
+    c49796c930: 3396513.545
+    cb40a21da0: 3526797.787
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -2675,6 +2687,8 @@ results:
     f0945176c3: 1980536.232
     bbb84a16fa: 1958221.05
     1ebe9a2f82: 1938672.728
+    c49796c930: 1914113.855
+    cb40a21da0: 1937010.208
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -3057,3 +3071,5 @@ results:
     f0945176c3: 2940410.65
     bbb84a16fa: 2586927.96
     1ebe9a2f82: 2949287.93
+    c49796c930: 2943366.011
+    cb40a21da0: 2946457.402
