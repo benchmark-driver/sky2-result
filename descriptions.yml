@@ -9,12 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  1845c9d9ba: ruby 2.7.0dev (2019-04-19 trunk 67614) [x86_64-linux]
-  1845c9d9ba --jit: ruby 2.7.0dev (2019-04-19 trunk 67614) +JIT [x86_64-linux]
-  af56793a8d: ruby 2.7.0dev (2019-04-19 trunk 67615) [x86_64-linux]
-  af56793a8d --jit: ruby 2.7.0dev (2019-04-19 trunk 67615) +JIT [x86_64-linux]
-  f1a3377549: ruby 2.7.0dev (2019-04-19 trunk 67616) [x86_64-linux]
-  f1a3377549 --jit: ruby 2.7.0dev (2019-04-19 trunk 67616) +JIT [x86_64-linux]
   4cfc6cedc4: ruby 2.7.0dev (2019-04-19 trunk 67617) [x86_64-linux]
   4cfc6cedc4 --jit: ruby 2.7.0dev (2019-04-19 trunk 67617) +JIT [x86_64-linux]
   5b3c099ad2: ruby 2.7.0dev (2019-04-19 trunk 67618) [x86_64-linux]
@@ -3969,3 +3963,15 @@ commits:
   aa32465ab3 --jit: |-
     ruby 2.7.0dev (2019-06-14T06:31:03Z trunk aa32465ab3) +JIT [x86_64-linux]
     last_commit=irb.rb: [DOC] the default prompt includes :PROMPT_N [ci skip]
+  d780c36624: |-
+    ruby 2.7.0dev (2019-06-14T08:30:12Z trunk d780c36624) [x86_64-linux]
+    last_commit=Pipeline operator is experimental [ci skip]
+  d780c36624 --jit: |-
+    ruby 2.7.0dev (2019-06-14T08:30:12Z trunk d780c36624) +JIT [x86_64-linux]
+    last_commit=Pipeline operator is experimental [ci skip]
+  d365fd5a02: |-
+    ruby 2.7.0dev (2019-06-14T09:17:50Z trunk d365fd5a02) [x86_64-linux]
+    last_commit=An operator is not allowed just after `|>`
+  d365fd5a02 --jit: |-
+    ruby 2.7.0dev (2019-06-14T09:17:50Z trunk d365fd5a02) +JIT [x86_64-linux]
+    last_commit=An operator is not allowed just after `|>`
