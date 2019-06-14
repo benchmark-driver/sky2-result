@@ -9,18 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  c3c4e411eb: ruby 2.7.0dev (2019-04-19 trunk 67608) [x86_64-linux]
-  c3c4e411eb --jit: ruby 2.7.0dev (2019-04-19 trunk 67608) +JIT [x86_64-linux]
-  14626ed20a: ruby 2.7.0dev (2019-04-19 trunk 67609) [x86_64-linux]
-  14626ed20a --jit: ruby 2.7.0dev (2019-04-19 trunk 67609) +JIT [x86_64-linux]
-  390ea54420: ruby 2.7.0dev (2019-04-19 trunk 67610) [x86_64-linux]
-  390ea54420 --jit: ruby 2.7.0dev (2019-04-19 trunk 67610) +JIT [x86_64-linux]
-  41fabbcc0e: ruby 2.7.0dev (2019-04-19 trunk 67611) [x86_64-linux]
-  41fabbcc0e --jit: ruby 2.7.0dev (2019-04-19 trunk 67611) +JIT [x86_64-linux]
-  fb042e0f0c: ruby 2.7.0dev (2019-04-19 trunk 67612) [x86_64-linux]
-  fb042e0f0c --jit: ruby 2.7.0dev (2019-04-19 trunk 67612) +JIT [x86_64-linux]
-  4dd1cf3b27: ruby 2.7.0dev (2019-04-19 trunk 67613) [x86_64-linux]
-  4dd1cf3b27 --jit: ruby 2.7.0dev (2019-04-19 trunk 67613) +JIT [x86_64-linux]
   1845c9d9ba: ruby 2.7.0dev (2019-04-19 trunk 67614) [x86_64-linux]
   1845c9d9ba --jit: ruby 2.7.0dev (2019-04-19 trunk 67614) +JIT [x86_64-linux]
   af56793a8d: ruby 2.7.0dev (2019-04-19 trunk 67615) [x86_64-linux]
@@ -3969,3 +3957,9 @@ commits:
   9402d019a5 --jit: |-
     ruby 2.7.0dev (2019-06-13T23:45:52Z trunk 9402d019a5) +JIT [x86_64-linux]
     last_commit=Remove debug print
+  50bb8b6052: |-
+    ruby 2.7.0dev (2019-06-13T23:46:22Z trunk 50bb8b6052) [x86_64-linux]
+    last_commit=Use Exception#full_message for traceback
+  50bb8b6052 --jit: |-
+    ruby 2.7.0dev (2019-06-13T23:46:22Z trunk 50bb8b6052) +JIT [x86_64-linux]
+    last_commit=Use Exception#full_message for traceback
