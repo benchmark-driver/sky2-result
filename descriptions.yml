@@ -3975,3 +3975,63 @@ commits:
   d365fd5a02 --jit: |-
     ruby 2.7.0dev (2019-06-14T09:17:50Z trunk d365fd5a02) +JIT [x86_64-linux]
     last_commit=An operator is not allowed just after `|>`
+  5dd8fdd3f3: |-
+    ruby 2.7.0dev (2019-06-15T02:06:39Z trunk 5dd8fdd3f3) [x86_64-linux]
+    last_commit=test/net/imap/test_imap.rb: wait for the server thread to start
+  5dd8fdd3f3 --jit: |-
+    ruby 2.7.0dev (2019-06-15T02:06:39Z trunk 5dd8fdd3f3) +JIT [x86_64-linux]
+    last_commit=test/net/imap/test_imap.rb: wait for the server thread to start
+  e6aefe2a13: |-
+    ruby 2.7.0dev (2019-06-15T02:09:33Z trunk e6aefe2a13) [x86_64-linux]
+    last_commit=* 2019-06-15
+  e6aefe2a13 --jit: |-
+    ruby 2.7.0dev (2019-06-15T02:09:33Z trunk e6aefe2a13) +JIT [x86_64-linux]
+    last_commit=* 2019-06-15
+  5af5dd4639: |-
+    ruby 2.7.0dev (2019-06-15T02:25:13Z trunk 5af5dd4639) [x86_64-linux]
+    last_commit=Omg, it works!
+  5af5dd4639 --jit: |-
+    ruby 2.7.0dev (2019-06-15T02:25:13Z trunk 5af5dd4639) +JIT [x86_64-linux]
+    last_commit=Omg, it works!
+  cc180e9371: |-
+    ruby 2.7.0dev (2019-06-15T02:25:38Z trunk cc180e9371) [x86_64-linux]
+    last_commit=Rename LINEND to EMPTYLN
+  cc180e9371 --jit: |-
+    ruby 2.7.0dev (2019-06-15T02:25:38Z trunk cc180e9371) +JIT [x86_64-linux]
+    last_commit=Rename LINEND to EMPTYLN
+  162bfa1c7c: |-
+    ruby 2.7.0dev (2019-06-15T02:25:38Z trunk 162bfa1c7c) [x86_64-linux]
+    last_commit=Test comments between multiline method chain
+  162bfa1c7c --jit: |-
+    ruby 2.7.0dev (2019-06-15T02:25:38Z trunk 162bfa1c7c) +JIT [x86_64-linux]
+    last_commit=Test comments between multiline method chain
+  2240de98c0: |-
+    ruby 2.7.0dev (2019-06-15T02:25:38Z trunk 2240de98c0) [x86_64-linux]
+    last_commit=Remove blank line I accidentally added
+  2240de98c0 --jit: |-
+    ruby 2.7.0dev (2019-06-15T02:25:38Z trunk 2240de98c0) +JIT [x86_64-linux]
+    last_commit=Remove blank line I accidentally added
+  b8730f1251: |-
+    ruby 2.7.0dev (2019-06-15T02:25:38Z trunk b8730f1251) [x86_64-linux]
+    last_commit=Multiline method chain with leading dot works for blank lines
+  b8730f1251 --jit: |-
+    ruby 2.7.0dev (2019-06-15T02:25:38Z trunk b8730f1251) +JIT [x86_64-linux]
+    last_commit=Multiline method chain with leading dot works for blank lines
+  46527e1bf4: |-
+    ruby 2.7.0dev (2019-06-15T02:25:38Z trunk 46527e1bf4) [x86_64-linux]
+    last_commit=Test for blank lines between leadinig dot method chains
+  46527e1bf4 --jit: |-
+    ruby 2.7.0dev (2019-06-15T02:25:38Z trunk 46527e1bf4) +JIT [x86_64-linux]
+    last_commit=Test for blank lines between leadinig dot method chains
+  6fa4c90448: |-
+    ruby 2.7.0dev (2019-06-15T02:58:02Z trunk 6fa4c90448) [x86_64-linux]
+    last_commit=Prefer `enum yytokentype` to int
+  6fa4c90448 --jit: |-
+    ruby 2.7.0dev (2019-06-15T02:58:02Z trunk 6fa4c90448) +JIT [x86_64-linux]
+    last_commit=Prefer `enum yytokentype` to int
+  5d79054906: |-
+    ruby 2.7.0dev (2019-06-15T03:04:16Z trunk 5d79054906) [x86_64-linux]
+    last_commit=Revert github/pull/2230, commit miss
+  5d79054906 --jit: |-
+    ruby 2.7.0dev (2019-06-15T03:04:16Z trunk 5d79054906) +JIT [x86_64-linux]
+    last_commit=Revert github/pull/2230, commit miss
