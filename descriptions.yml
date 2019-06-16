@@ -9,14 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  b8b503d657: ruby 2.7.0dev (2019-04-20 trunk 67627) [x86_64-linux]
-  b8b503d657 --jit: ruby 2.7.0dev (2019-04-20 trunk 67627) +JIT [x86_64-linux]
-  27f75cf3dc: ruby 2.7.0dev (2019-04-20 trunk 67628) [x86_64-linux]
-  27f75cf3dc --jit: ruby 2.7.0dev (2019-04-20 trunk 67628) +JIT [x86_64-linux]
-  243842f68a: ruby 2.7.0dev (2019-04-20 trunk 67629) [x86_64-linux]
-  243842f68a --jit: ruby 2.7.0dev (2019-04-20 trunk 67629) +JIT [x86_64-linux]
-  c98d1f182d: ruby 2.7.0dev (2019-04-20 trunk 67630) [x86_64-linux]
-  c98d1f182d --jit: ruby 2.7.0dev (2019-04-20 trunk 67630) +JIT [x86_64-linux]
   b914bea88e: ruby 2.7.0dev (2019-04-20 trunk 67631) [x86_64-linux]
   b914bea88e --jit: ruby 2.7.0dev (2019-04-20 trunk 67631) +JIT [x86_64-linux]
   1686c0d470: ruby 2.7.0dev (2019-04-20 trunk 67632) [x86_64-linux]
@@ -4033,3 +4025,9 @@ commits:
   17e6536fe0 --jit: |-
     ruby 2.7.0dev (2019-06-16T02:59:59Z trunk 17e6536fe0) +JIT [x86_64-linux]
     last_commit=tool/redmine-backporter.rb: Change redmine git revisions URL path.
+  2fb1564c02: |-
+    ruby 2.7.0dev (2019-06-16T05:46:28Z trunk 2fb1564c02) [x86_64-linux]
+    last_commit=Implement line_no correctly
+  2fb1564c02 --jit: |-
+    ruby 2.7.0dev (2019-06-16T05:46:28Z trunk 2fb1564c02) +JIT [x86_64-linux]
+    last_commit=Implement line_no correctly
