@@ -4031,3 +4031,21 @@ commits:
   2fb1564c02 --jit: |-
     ruby 2.7.0dev (2019-06-16T05:46:28Z trunk 2fb1564c02) +JIT [x86_64-linux]
     last_commit=Implement line_no correctly
+  1ff26dc4c7: |-
+    ruby 2.7.0dev (2019-06-16T14:00:05Z trunk 1ff26dc4c7) [x86_64-linux]
+    last_commit=Revert "Make constant assignments more conforming to JIS X 3017:2013 11.4.2.2.3"
+  1ff26dc4c7 --jit: |-
+    ruby 2.7.0dev (2019-06-16T14:00:05Z trunk 1ff26dc4c7) +JIT [x86_64-linux]
+    last_commit=Revert "Make constant assignments more conforming to JIS X 3017:2013 11.4.2.2.3"
+  d4929f5185: |-
+    ruby 2.7.0dev (2019-06-16T14:01:46Z trunk d4929f5185) [x86_64-linux]
+    last_commit=* expand tabs.
+  d4929f5185 --jit: |-
+    ruby 2.7.0dev (2019-06-16T14:01:46Z trunk d4929f5185) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  53e9908d8a: |-
+    ruby 2.7.0dev (2019-06-16T14:51:22Z trunk 53e9908d8a) [x86_64-linux]
+    last_commit=Fix memory leak
+  53e9908d8a --jit: |-
+    ruby 2.7.0dev (2019-06-16T14:51:22Z trunk 53e9908d8a) +JIT [x86_64-linux]
+    last_commit=Fix memory leak
