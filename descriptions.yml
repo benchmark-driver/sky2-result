@@ -4079,3 +4079,9 @@ commits:
   8b3774be3d --jit: |-
     ruby 2.7.0dev (2019-06-18T04:40:04Z trunk 8b3774be3d) +JIT [x86_64-linux]
     last_commit=Fix memory leak
+  e6aa0a61fa: |-
+    ruby 2.7.0dev (2019-06-18T08:31:42Z trunk e6aa0a61fa) [x86_64-linux]
+    last_commit=[DOC] non-nil `$,`,`$;` will be deprecated [ci skip]
+  e6aa0a61fa --jit: |-
+    ruby 2.7.0dev (2019-06-18T08:31:42Z trunk e6aa0a61fa) +JIT [x86_64-linux]
+    last_commit=[DOC] non-nil `$,`,`$;` will be deprecated [ci skip]
