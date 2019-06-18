@@ -9,16 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  9c587d22bd: ruby 2.7.0dev (2019-04-20 trunk 67641) [x86_64-linux]
-  9c587d22bd --jit: ruby 2.7.0dev (2019-04-20 trunk 67641) +JIT [x86_64-linux]
-  e4a0304aef: ruby 2.7.0dev (2019-04-20 trunk 67642) [x86_64-linux]
-  e4a0304aef --jit: ruby 2.7.0dev (2019-04-20 trunk 67642) +JIT [x86_64-linux]
-  ef73bee811: ruby 2.7.0dev (2019-04-20 trunk 67643) [x86_64-linux]
-  ef73bee811 --jit: ruby 2.7.0dev (2019-04-20 trunk 67643) +JIT [x86_64-linux]
-  91faab7f14: ruby 2.7.0dev (2019-04-20 trunk 67644) [x86_64-linux]
-  91faab7f14 --jit: ruby 2.7.0dev (2019-04-20 trunk 67644) +JIT [x86_64-linux]
-  7f273ac6d0: ruby 2.7.0dev (2019-04-20 trunk 67645) [x86_64-linux]
-  7f273ac6d0 --jit: ruby 2.7.0dev (2019-04-20 trunk 67645) +JIT [x86_64-linux]
   ffaee7b301: ruby 2.7.0dev (2019-04-20 trunk 67646) [x86_64-linux]
   ffaee7b301 --jit: ruby 2.7.0dev (2019-04-20 trunk 67646) +JIT [x86_64-linux]
   d4a555d441: ruby 2.7.0dev (2019-04-20 trunk 67647) [x86_64-linux]
@@ -4083,3 +4073,9 @@ commits:
   c770c98ac4 --jit: |-
     ruby 2.7.0dev (2019-06-18T03:21:38Z trunk c770c98ac4) +JIT [x86_64-linux]
     last_commit=* expand tabs.
+  8b3774be3d: |-
+    ruby 2.7.0dev (2019-06-18T04:40:04Z trunk 8b3774be3d) [x86_64-linux]
+    last_commit=Fix memory leak
+  8b3774be3d --jit: |-
+    ruby 2.7.0dev (2019-06-18T04:40:04Z trunk 8b3774be3d) +JIT [x86_64-linux]
+    last_commit=Fix memory leak
