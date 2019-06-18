@@ -439,6 +439,8 @@ results:
     3c6e1a8cf9: 3364687.235
     f3bddc103d: 3410935.392
     21a43489b1: 3379085.704
+    279c8e14d4: 3291461.819
+    706c816ad2: 3170082.114
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -877,6 +879,8 @@ results:
     3c6e1a8cf9: 3339185.57
     f3bddc103d: 3202570.965
     21a43489b1: 3262538.899
+    279c8e14d4: 3275380.031
+    706c816ad2: 3143097.342
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -1315,6 +1319,8 @@ results:
     3c6e1a8cf9: 1889223.461
     f3bddc103d: 1845607.571
     21a43489b1: 1891914.358
+    279c8e14d4: 1890264.377
+    706c816ad2: 1860481.676
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1753,6 +1759,8 @@ results:
     3c6e1a8cf9: 2781783.574
     f3bddc103d: 2781885.456
     21a43489b1: 2714653.766
+    279c8e14d4: 2553810.522
+    706c816ad2: 2671172.941
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -2191,6 +2199,8 @@ results:
     3c6e1a8cf9: 3246743.337
     f3bddc103d: 3694178.497
     21a43489b1: 3664558.25
+    279c8e14d4: 3669378.999
+    706c816ad2: 3423449.871
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -2629,6 +2639,8 @@ results:
     3c6e1a8cf9: 3616737.056
     f3bddc103d: 3666098.809
     21a43489b1: 3006989.625
+    279c8e14d4: 3563131.752
+    706c816ad2: 3510614.917
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -3067,6 +3079,8 @@ results:
     3c6e1a8cf9: 1912155.251
     f3bddc103d: 1899979.915
     21a43489b1: 1924933.972
+    279c8e14d4: 1978951.801
+    706c816ad2: 1970042.625
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -3505,3 +3519,5 @@ results:
     3c6e1a8cf9: 2967714.993
     f3bddc103d: 2928560.516
     21a43489b1: 2944413.332
+    279c8e14d4: 2969810.711
+    706c816ad2: 2962295.847
