@@ -4131,3 +4131,189 @@ commits:
   e690df1f1e --jit: |-
     ruby 2.7.0dev (2019-06-19T06:26:53Z trunk e690df1f1e) +JIT [x86_64-linux]
     last_commit=Marshal distant past/future
+  a6a4e86029: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk a6a4e86029) [x86_64-linux]
+    last_commit=Ignore `/build*`.
+  a6a4e86029 --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk a6a4e86029) +JIT [x86_64-linux]
+    last_commit=Ignore `/build*`.
+  3fd83cb6fc: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 3fd83cb6fc) [x86_64-linux]
+    last_commit=Improve benchmarks and tests for threads.
+  3fd83cb6fc --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 3fd83cb6fc) +JIT [x86_64-linux]
+    last_commit=Improve benchmarks and tests for threads.
+  69195fd9b2: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 69195fd9b2) [x86_64-linux]
+    last_commit=Show thread and fiber limits as part of bootstrap tests.
+  69195fd9b2 --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 69195fd9b2) +JIT [x86_64-linux]
+    last_commit=Show thread and fiber limits as part of bootstrap tests.
+  b24603adff: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk b24603adff) [x86_64-linux]
+    last_commit=Move vm stack init into thread.
+  b24603adff --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk b24603adff) +JIT [x86_64-linux]
+    last_commit=Move vm stack init into thread.
+  7c7a1c2212: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 7c7a1c2212) [x86_64-linux]
+    last_commit=Fix handling of vm_stack_size and avoid trying to deallocate it.
+  7c7a1c2212 --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 7c7a1c2212) +JIT [x86_64-linux]
+    last_commit=Fix handling of vm_stack_size and avoid trying to deallocate it.
+  38791145eb: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 38791145eb) [x86_64-linux]
+    last_commit=Better handling of root fiber.
+  38791145eb --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 38791145eb) +JIT [x86_64-linux]
+    last_commit=Better handling of root fiber.
+  4b3b781c66: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 4b3b781c66) [x86_64-linux]
+    last_commit=Ensure execution context is cleared after thread is finished.
+  4b3b781c66 --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 4b3b781c66) +JIT [x86_64-linux]
+    last_commit=Ensure execution context is cleared after thread is finished.
+  b8e4bea780: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk b8e4bea780) [x86_64-linux]
+    last_commit=Track how stack was allocated for `cont_free`.
+  b8e4bea780 --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk b8e4bea780) +JIT [x86_64-linux]
+    last_commit=Track how stack was allocated for `cont_free`.
+  8121a523c3: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 8121a523c3) [x86_64-linux]
+    last_commit=Use stack size defaults for win32 threads.
+  8121a523c3 --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 8121a523c3) +JIT [x86_64-linux]
+    last_commit=Use stack size defaults for win32 threads.
+  5855af73b8: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 5855af73b8) [x86_64-linux]
+    last_commit=Basic assertions for thread initialization.
+  5855af73b8 --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 5855af73b8) +JIT [x86_64-linux]
+    last_commit=Basic assertions for thread initialization.
+  9cb4e7725f: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 9cb4e7725f) [x86_64-linux]
+    last_commit=Handle (empty) backtrace when thread is not born yet.
+  9cb4e7725f --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 9cb4e7725f) +JIT [x86_64-linux]
+    last_commit=Handle (empty) backtrace when thread is not born yet.
+  7cc7269b3d: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 7cc7269b3d) [x86_64-linux]
+    last_commit=Use default stack size for worker thread (no th pointer available).
+  7cc7269b3d --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 7cc7269b3d) +JIT [x86_64-linux]
+    last_commit=Use default stack size for worker thread (no th pointer available).
+  561c9bcf3a: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 561c9bcf3a) [x86_64-linux]
+    last_commit=Make sure `alloca` fast path is used (inline assembler).
+  561c9bcf3a --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 561c9bcf3a) +JIT [x86_64-linux]
+    last_commit=Make sure `alloca` fast path is used (inline assembler).
+  dee0cfbb47: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk dee0cfbb47) [x86_64-linux]
+    last_commit=Specify that size is non-committed memory.
+  dee0cfbb47 --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk dee0cfbb47) +JIT [x86_64-linux]
+    last_commit=Specify that size is non-committed memory.
+  '7147038053': |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 7147038053) [x86_64-linux]
+    last_commit=Update `stack_start` and `stack_maxsize` according to stack direction.
+  7147038053 --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 7147038053) +JIT [x86_64-linux]
+    last_commit=Update `stack_start` and `stack_maxsize` according to stack direction.
+  cb5da39f20: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk cb5da39f20) [x86_64-linux]
+    last_commit=Use shared implementation of `rb_ec_initialize_vm_stack`.
+  cb5da39f20 --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk cb5da39f20) +JIT [x86_64-linux]
+    last_commit=Use shared implementation of `rb_ec_initialize_vm_stack`.
+  3e5b885cd2: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 3e5b885cd2) [x86_64-linux]
+    last_commit=Rework debug conditional.
+  3e5b885cd2 --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:10Z trunk 3e5b885cd2) +JIT [x86_64-linux]
+    last_commit=Rework debug conditional.
+  cbe06cd350: |-
+    ruby 2.7.0dev (2019-06-19T08:39:58Z trunk cbe06cd350) [x86_64-linux]
+    last_commit=* remove trailing spaces, expand tabs.
+  cbe06cd350 --jit: |-
+    ruby 2.7.0dev (2019-06-19T08:39:58Z trunk cbe06cd350) +JIT [x86_64-linux]
+    last_commit=* remove trailing spaces, expand tabs.
+  1a2546c2be: |-
+    ruby 2.7.0dev (2019-06-19T09:17:25Z trunk 1a2546c2be) [x86_64-linux]
+    last_commit=Backport racc-1.4.15 from upstream.
+  1a2546c2be --jit: |-
+    ruby 2.7.0dev (2019-06-19T09:17:25Z trunk 1a2546c2be) +JIT [x86_64-linux]
+    last_commit=Backport racc-1.4.15 from upstream.
+  c110b59af5: |-
+    ruby 2.7.0dev (2019-06-19T09:17:31Z trunk c110b59af5) [x86_64-linux]
+    last_commit=Fixed path for ruby core repository.
+  c110b59af5 --jit: |-
+    ruby 2.7.0dev (2019-06-19T09:17:31Z trunk c110b59af5) +JIT [x86_64-linux]
+    last_commit=Fixed path for ruby core repository.
+  4e218282d2: |-
+    ruby 2.7.0dev (2019-06-19T09:17:38Z trunk 4e218282d2) [x86_64-linux]
+    last_commit=Added sync task for racc
+  4e218282d2 --jit: |-
+    ruby 2.7.0dev (2019-06-19T09:17:38Z trunk 4e218282d2) +JIT [x86_64-linux]
+    last_commit=Added sync task for racc
+  9ea1fc27a9: |-
+    ruby 2.7.0dev (2019-06-19T09:17:44Z trunk 9ea1fc27a9) [x86_64-linux]
+    last_commit=Try to use Dir.mktmpdir.
+  9ea1fc27a9 --jit: |-
+    ruby 2.7.0dev (2019-06-19T09:17:44Z trunk 9ea1fc27a9) +JIT [x86_64-linux]
+    last_commit=Try to use Dir.mktmpdir.
+  2272d6ae24: |-
+    ruby 2.7.0dev (2019-06-19T09:17:48Z trunk 2272d6ae24) [x86_64-linux]
+    last_commit=Restore test_dir and update prefix for Dir.mktmpdir.
+  2272d6ae24 --jit: |-
+    ruby 2.7.0dev (2019-06-19T09:17:48Z trunk 2272d6ae24) +JIT [x86_64-linux]
+    last_commit=Restore test_dir and update prefix for Dir.mktmpdir.
+  4cca8c4d20: |-
+    ruby 2.7.0dev (2019-06-19T09:17:53Z trunk 4cca8c4d20) [x86_64-linux]
+    last_commit=Use Test::Unit instead of Minitest and fixed test error with ruby repo.
+  4cca8c4d20 --jit: |-
+    ruby 2.7.0dev (2019-06-19T09:17:53Z trunk 4cca8c4d20) +JIT [x86_64-linux]
+    last_commit=Use Test::Unit instead of Minitest and fixed test error with ruby repo.
+  8a3bd06d27: |-
+    ruby 2.7.0dev (2019-06-19T09:17:59Z trunk 8a3bd06d27) [x86_64-linux]
+    last_commit=use TEMP_DIR.
+  8a3bd06d27 --jit: |-
+    ruby 2.7.0dev (2019-06-19T09:17:59Z trunk 8a3bd06d27) +JIT [x86_64-linux]
+    last_commit=use TEMP_DIR.
+  d710321800: |-
+    ruby 2.7.0dev (2019-06-19T09:18:04Z trunk d710321800) [x86_64-linux]
+    last_commit=Workaround for the external file for racc test
+  d710321800 --jit: |-
+    ruby 2.7.0dev (2019-06-19T09:18:04Z trunk d710321800) +JIT [x86_64-linux]
+    last_commit=Workaround for the external file for racc test
+  e892c2f924: |-
+    ruby 2.7.0dev (2019-06-19T09:18:08Z trunk e892c2f924) [x86_64-linux]
+    last_commit=Restore ruby/ruby change for extconf.rb.
+  e892c2f924 --jit: |-
+    ruby 2.7.0dev (2019-06-19T09:18:08Z trunk e892c2f924) +JIT [x86_64-linux]
+    last_commit=Restore ruby/ruby change for extconf.rb.
+  2b4024da32: |-
+    ruby 2.7.0dev (2019-06-19T09:18:13Z trunk 2b4024da32) [x86_64-linux]
+    last_commit=Temporary disabled to invoke assert_output_unchanged.
+  2b4024da32 --jit: |-
+    ruby 2.7.0dev (2019-06-19T09:18:13Z trunk 2b4024da32) +JIT [x86_64-linux]
+    last_commit=Temporary disabled to invoke assert_output_unchanged.
+  754df26210: |-
+    ruby 2.7.0dev (2019-06-19T09:18:17Z trunk 754df26210) [x86_64-linux]
+    last_commit=Added binstub for racc executables.
+  754df26210 --jit: |-
+    ruby 2.7.0dev (2019-06-19T09:18:17Z trunk 754df26210) +JIT [x86_64-linux]
+    last_commit=Added binstub for racc executables.
+  b93508b32c: |-
+    ruby 2.7.0dev (2019-06-19T09:19:20Z trunk b93508b32c) [x86_64-linux]
+    last_commit=* remove trailing spaces, append newline at EOF.
+  b93508b32c --jit: |-
+    ruby 2.7.0dev (2019-06-19T09:19:20Z trunk b93508b32c) +JIT [x86_64-linux]
+    last_commit=* remove trailing spaces, append newline at EOF.
+  40f8c82b96: |-
+    ruby 2.7.0dev (2019-06-19T09:35:44Z trunk 40f8c82b96) [x86_64-linux]
+    last_commit=Partly revert directory structure for cparse.
+  40f8c82b96 --jit: |-
+    ruby 2.7.0dev (2019-06-19T09:35:44Z trunk 40f8c82b96) +JIT [x86_64-linux]
+    last_commit=Partly revert directory structure for cparse.
