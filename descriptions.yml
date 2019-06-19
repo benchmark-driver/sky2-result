@@ -4263,3 +4263,15 @@ commits:
   ab6d8d0b65 --jit: |-
     ruby 2.7.0dev (2019-06-19T11:40:49Z trunk ab6d8d0b65) +JIT [x86_64-linux]
     last_commit=Adjust indent
+  2abe548f35: |-
+    ruby 2.7.0dev (2019-06-19T14:05:16Z trunk 2abe548f35) [x86_64-linux]
+    last_commit=Don't change vm_stack/cfp without acquiring gvl first.
+  2abe548f35 --jit: |-
+    ruby 2.7.0dev (2019-06-19T14:05:16Z trunk 2abe548f35) +JIT [x86_64-linux]
+    last_commit=Don't change vm_stack/cfp without acquiring gvl first.
+  65944e96d3: |-
+    ruby 2.7.0dev (2019-06-19T14:10:40Z trunk 65944e96d3) [x86_64-linux]
+    last_commit=test/racc/test_racc_command.rb: Extend the timeout
+  65944e96d3 --jit: |-
+    ruby 2.7.0dev (2019-06-19T14:10:40Z trunk 65944e96d3) +JIT [x86_64-linux]
+    last_commit=test/racc/test_racc_command.rb: Extend the timeout
