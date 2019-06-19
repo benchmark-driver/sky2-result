@@ -446,6 +446,8 @@ results:
     ebb15cc6c1: 18239937.062
     eadc06ba16: 18452037.422
     985192f092: 18554215.446
+    ffaefcadd8: 18453282.837
+    77bfebebc4: 18696229.81
   Array#fill(val, start):
     022cbb278f: 9391191.267
     052dbbe74f: 9699621.607
@@ -891,6 +893,8 @@ results:
     ebb15cc6c1: 9372849.493
     eadc06ba16: 9286238.119
     985192f092: 9320386.905
+    ffaefcadd8: 8157253.935
+    77bfebebc4: 9309443.691
   Array#fill(val, start, length):
     022cbb278f: 17039735.427
     052dbbe74f: 18092212.887
@@ -1336,6 +1340,8 @@ results:
     ebb15cc6c1: 18113768.924
     eadc06ba16: 17521519.243
     985192f092: 17474530.758
+    ffaefcadd8: 17673527.071
+    77bfebebc4: 13687233.957
   Array#fill(val, range):
     022cbb278f: 16510623.102
     052dbbe74f: 16871115.355
@@ -1781,6 +1787,8 @@ results:
     ebb15cc6c1: 16717392.089
     eadc06ba16: 15939826.682
     985192f092: 16154572.307
+    ffaefcadd8: 15149517.88
+    77bfebebc4: 16352483.4
   Array#fill { |index| ...}:
     022cbb278f: 5045134.429
     052dbbe74f: 4816413.983
@@ -2226,6 +2234,8 @@ results:
     ebb15cc6c1: 5078669.388
     eadc06ba16: 4801275.584
     985192f092: 5037371.178
+    ffaefcadd8: 5000894.18
+    77bfebebc4: 4803368.556
   Array#fill(start) { |index| ...}:
     022cbb278f: 4942377.051
     052dbbe74f: 5264290.63
@@ -2671,6 +2681,8 @@ results:
     ebb15cc6c1: 4974573.557
     eadc06ba16: 4776877.884
     985192f092: 5188036.538
+    ffaefcadd8: 5103700.649
+    77bfebebc4: 4843729.51
   Array#fill(start, length) { |index| ...}:
     022cbb278f: 7263464.858
     052dbbe74f: 6837391.544
@@ -3116,6 +3128,8 @@ results:
     ebb15cc6c1: 7201711.208
     eadc06ba16: 5652578.477
     985192f092: 7097708.074
+    ffaefcadd8: 7040841.548
+    77bfebebc4: 7062874.172
   Array#fill(range) { |index| ...}:
     022cbb278f: 7984740.537
     052dbbe74f: 8797946.288
@@ -3561,3 +3575,5 @@ results:
     ebb15cc6c1: 8322050.202
     eadc06ba16: 8136080.243
     985192f092: 6889049.837
+    ffaefcadd8: 7851742.855
+    77bfebebc4: 8218462.627

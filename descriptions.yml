@@ -4099,3 +4099,21 @@ commits:
   84903b31c8 --jit: |-
     ruby 2.7.0dev (2019-06-18T12:58:05Z trunk 84903b31c8) +JIT [x86_64-linux]
     last_commit=Fix auto indent crash when blank input
+  85ff2d74a2: |-
+    ruby 2.7.0dev (2019-06-18T23:28:00Z trunk 85ff2d74a2) [x86_64-linux]
+    last_commit=Avoid auto indent in prompt when dynamic auto indent
+  85ff2d74a2 --jit: |-
+    ruby 2.7.0dev (2019-06-18T23:28:00Z trunk 85ff2d74a2) +JIT [x86_64-linux]
+    last_commit=Avoid auto indent in prompt when dynamic auto indent
+  c972932986: |-
+    ruby 2.7.0dev (2019-06-18T23:29:23Z trunk c972932986) [x86_64-linux]
+    last_commit=* 2019-06-19
+  c972932986 --jit: |-
+    ruby 2.7.0dev (2019-06-18T23:29:23Z trunk c972932986) +JIT [x86_64-linux]
+    last_commit=* 2019-06-19
+  d009e321a0: |-
+    ruby 2.7.0dev (2019-06-19T00:19:41Z trunk d009e321a0) [x86_64-linux]
+    last_commit=Use IRB.conf[:AUTO_INDENT] setting in multiline mode
+  d009e321a0 --jit: |-
+    ruby 2.7.0dev (2019-06-19T00:19:41Z trunk d009e321a0) +JIT [x86_64-linux]
+    last_commit=Use IRB.conf[:AUTO_INDENT] setting in multiline mode
