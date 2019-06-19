@@ -9,16 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  985192f092: ruby 2.7.0dev (2019-04-20 trunk 67651) [x86_64-linux]
-  985192f092 --jit: ruby 2.7.0dev (2019-04-20 trunk 67651) +JIT [x86_64-linux]
-  ecf4e8fbd7: ruby 2.7.0dev (2019-04-21 trunk 67652) [x86_64-linux]
-  ecf4e8fbd7 --jit: ruby 2.7.0dev (2019-04-21 trunk 67652) +JIT [x86_64-linux]
-  eeee4f404b: ruby 2.7.0dev (2019-04-21 trunk 67653) [x86_64-linux]
-  eeee4f404b --jit: ruby 2.7.0dev (2019-04-21 trunk 67653) +JIT [x86_64-linux]
-  65f1b81183: ruby 2.7.0dev (2019-04-21 trunk 67654) [x86_64-linux]
-  65f1b81183 --jit: ruby 2.7.0dev (2019-04-21 trunk 67654) +JIT [x86_64-linux]
-  1a0990cb14: ruby 2.7.0dev (2019-04-21 trunk 67655) [x86_64-linux]
-  1a0990cb14 --jit: ruby 2.7.0dev (2019-04-21 trunk 67655) +JIT [x86_64-linux]
   bb77cc1837: ruby 2.7.0dev (2019-04-21 trunk 67656) [x86_64-linux]
   bb77cc1837 --jit: ruby 2.7.0dev (2019-04-21 trunk 67656) +JIT [x86_64-linux]
   dad3047659: ruby 2.7.0dev (2019-04-21 trunk 67657) [x86_64-linux]
@@ -4117,3 +4107,15 @@ commits:
   d009e321a0 --jit: |-
     ruby 2.7.0dev (2019-06-19T00:19:41Z trunk d009e321a0) +JIT [x86_64-linux]
     last_commit=Use IRB.conf[:AUTO_INDENT] setting in multiline mode
+  28678997e4: |-
+    ruby 2.7.0dev (2019-06-19T00:44:26Z trunk 28678997e4) [x86_64-linux]
+    last_commit=Preserve the string content at self-copying
+  28678997e4 --jit: |-
+    ruby 2.7.0dev (2019-06-19T00:44:26Z trunk 28678997e4) +JIT [x86_64-linux]
+    last_commit=Preserve the string content at self-copying
+  148f50fc78: |-
+    ruby 2.7.0dev (2019-06-19T01:09:37Z trunk 148f50fc78) [x86_64-linux]
+    last_commit=Update homebrew on Travis
+  148f50fc78 --jit: |-
+    ruby 2.7.0dev (2019-06-19T01:09:37Z trunk 148f50fc78) +JIT [x86_64-linux]
+    last_commit=Update homebrew on Travis
