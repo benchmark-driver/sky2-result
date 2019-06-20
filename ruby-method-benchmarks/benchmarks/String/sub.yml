@@ -463,6 +463,8 @@ results:
     5837290af1: 3496811.149
     94b740b249: 3352214.878
     e4364dbf6e: 3404133.533
+    1457ad1ea7: 3385921.196
+    2bad001cfd: 3439249.915
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -925,6 +927,8 @@ results:
     5837290af1: 2881903.132
     94b740b249: 3320830.041
     e4364dbf6e: 3041015.72
+    1457ad1ea7: 3340094.689
+    2bad001cfd: 3378201.367
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -1387,6 +1391,8 @@ results:
     5837290af1: 1897003.15
     94b740b249: 1863726.004
     e4364dbf6e: 1857306.958
+    1457ad1ea7: 1445806.342
+    2bad001cfd: 1834031.933
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1849,6 +1855,8 @@ results:
     5837290af1: 2719133.734
     94b740b249: 2706322.844
     e4364dbf6e: 2714844.757
+    1457ad1ea7: 2616349.662
+    2bad001cfd: 2714604.054
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -2311,6 +2319,8 @@ results:
     5837290af1: 3532794.934
     94b740b249: 3618025.164
     e4364dbf6e: 3383545.781
+    1457ad1ea7: 3394235.986
+    2bad001cfd: 3485989.971
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -2773,6 +2783,8 @@ results:
     5837290af1: 3686121.03
     94b740b249: 3578351.842
     e4364dbf6e: 3634898.542
+    1457ad1ea7: 3521464.033
+    2bad001cfd: 3564299.483
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -3235,6 +3247,8 @@ results:
     5837290af1: 1917284.555
     94b740b249: 1999587.596
     e4364dbf6e: 1976791.225
+    1457ad1ea7: 1951555.432
+    2bad001cfd: 1971176.54
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -3697,3 +3711,5 @@ results:
     5837290af1: 2957858.431
     94b740b249: 2829805.177
     e4364dbf6e: 2868580.873
+    1457ad1ea7: 2947603.164
+    2bad001cfd: 2891656.351

@@ -9,62 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  ae3f38dc53: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) [x86_64-linux]
-    last_commit=CRuby trunk uses git instead of subversion now
-  ae3f38dc53 --jit: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) +JIT [x86_64-linux]
-    last_commit=CRuby trunk uses git instead of subversion now
-  184447d91c: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) [x86_64-linux]
-    last_commit=ViewVC of svn.ruby-lang.org was shutdown status.
-  184447d91c --jit: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) +JIT [x86_64-linux]
-    last_commit=ViewVC of svn.ruby-lang.org was shutdown status.
-  6a2c8e46f6: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) [x86_64-linux]
-    last_commit=Use github url instead of ViewVC.
-  6a2c8e46f6 --jit: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) +JIT [x86_64-linux]
-    last_commit=Use github url instead of ViewVC.
-  c697bade0f: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) [x86_64-linux]
-    last_commit=Ignore VSCode configuration from git.
-  c697bade0f --jit: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) +JIT [x86_64-linux]
-    last_commit=Ignore VSCode configuration from git.
-  dd0b516399: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) [x86_64-linux]
-    last_commit=Tk is already removed from stdlib at r55844
-  dd0b516399 --jit: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) +JIT [x86_64-linux]
-    last_commit=Tk is already removed from stdlib at r55844
-  5da52d1210: |-
-    ruby 2.7.0dev (2019-04-22 trunk 5da52d1210) [x86_64-linux]
-    last_commit=Migrate RUBY_VERSION/RUBY_DESCRIPTION to Git
-  5da52d1210 --jit: |-
-    ruby 2.7.0dev (2019-04-22 trunk 5da52d1210) +JIT [x86_64-linux]
-    last_commit=Migrate RUBY_VERSION/RUBY_DESCRIPTION to Git
-  87261cf59f: ruby 2.7.0dev (2019-04-22 trunk 87261cf59f) [x86_64-linux]
-  87261cf59f --jit: ruby 2.7.0dev (2019-04-22 trunk 87261cf59f) +JIT [x86_64-linux]
-  4cd67a848a: ruby 2.7.0dev (2019-04-22 trunk 4cd67a848a) [x86_64-linux]
-  4cd67a848a --jit: ruby 2.7.0dev (2019-04-22 trunk 4cd67a848a) +JIT [x86_64-linux]
-  e19e5d2409: |-
-    ruby 2.7.0dev (2019-02-18 trunk 67085) [x86_64-linux]
-    last_commit=Fix return value name in docs for Array#union
-  e19e5d2409 --jit: |-
-    ruby 2.7.0dev (2019-02-18 trunk 67085) +JIT [x86_64-linux]
-    last_commit=Fix return value name in docs for Array#union
-  8c689e216f: ruby 2.7.0dev (2019-04-22 trunk 8c689e216f) [x86_64-linux]
-  8c689e216f --jit: ruby 2.7.0dev (2019-04-22 trunk 8c689e216f) +JIT [x86_64-linux]
-  6fbf4e22c8: ruby 2.7.0dev (2019-04-22 trunk 6fbf4e22c8) [x86_64-linux]
-  6fbf4e22c8 --jit: ruby 2.7.0dev (2019-04-22 trunk 6fbf4e22c8) +JIT [x86_64-linux]
-  98ee63693d: ruby 2.7.0dev (2019-04-22 trunk 98ee63693d) [x86_64-linux]
-  98ee63693d --jit: ruby 2.7.0dev (2019-04-22 trunk 98ee63693d) +JIT [x86_64-linux]
-  a8d4dc287f: ruby 2.7.0dev (2019-04-22 trunk a8d4dc287f) [x86_64-linux]
-  a8d4dc287f --jit: ruby 2.7.0dev (2019-04-22 trunk a8d4dc287f) +JIT [x86_64-linux]
-  a9b57862bd: ruby 2.7.0dev (2019-04-23 trunk a9b57862bd) [x86_64-linux]
-  a9b57862bd --jit: ruby 2.7.0dev (2019-04-23 trunk a9b57862bd) +JIT [x86_64-linux]
   9cdb736672: ruby 2.7.0dev (2019-04-23 trunk 9cdb736672) [x86_64-linux]
   9cdb736672 --jit: ruby 2.7.0dev (2019-04-23 trunk 9cdb736672) +JIT [x86_64-linux]
   660c071659: ruby 2.7.0dev (2019-04-23 trunk 660c071659) [x86_64-linux]
@@ -4363,3 +4307,27 @@ commits:
   3077cb6912 --jit: |-
     ruby 2.7.0dev (2019-06-20T09:20:38Z trunk 3077cb6912) +JIT [x86_64-linux]
     last_commit=Restore $VERBOSE
+  f607e43352: |-
+    ruby 2.7.0dev (2019-06-20T10:36:30Z trunk f607e43352) [x86_64-linux]
+    last_commit=Transition root fiber into state FIBER_TERMINATED.
+  f607e43352 --jit: |-
+    ruby 2.7.0dev (2019-06-20T10:36:30Z trunk f607e43352) +JIT [x86_64-linux]
+    last_commit=Transition root fiber into state FIBER_TERMINATED.
+  9e7a8a4351: |-
+    ruby 2.7.0dev (2019-06-20T11:12:48Z trunk 9e7a8a4351) [x86_64-linux]
+    last_commit=Only ignore build directories.
+  9e7a8a4351 --jit: |-
+    ruby 2.7.0dev (2019-06-20T11:12:48Z trunk 9e7a8a4351) +JIT [x86_64-linux]
+    last_commit=Only ignore build directories.
+  1f0762ad21: |-
+    ruby 2.7.0dev (2019-06-20T11:51:33Z trunk 1f0762ad21) [x86_64-linux]
+    last_commit=Suppress messages from mkmf
+  1f0762ad21 --jit: |-
+    ruby 2.7.0dev (2019-06-20T11:51:33Z trunk 1f0762ad21) +JIT [x86_64-linux]
+    last_commit=Suppress messages from mkmf
+  93356576fe: |-
+    ruby 2.7.0dev (2019-06-20T13:27:06Z trunk 93356576fe) [x86_64-linux]
+    last_commit=Revert "Removed needless file with the upstream repository."
+  93356576fe --jit: |-
+    ruby 2.7.0dev (2019-06-20T13:27:06Z trunk 93356576fe) +JIT [x86_64-linux]
+    last_commit=Revert "Removed needless file with the upstream repository."
