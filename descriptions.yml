@@ -4287,3 +4287,27 @@ commits:
   a0af60c7f2 --jit: |-
     ruby 2.7.0dev (2019-06-19T19:20:30Z trunk a0af60c7f2) +JIT [x86_64-linux]
     last_commit=Remove spec testing undefined behavior
+  91c4ef0151: |-
+    ruby 2.7.0dev (2019-06-19T23:31:22Z trunk 91c4ef0151) [x86_64-linux]
+    last_commit=Don't try to dereference NULL cfp.
+  91c4ef0151 --jit: |-
+    ruby 2.7.0dev (2019-06-19T23:31:22Z trunk 91c4ef0151) +JIT [x86_64-linux]
+    last_commit=Don't try to dereference NULL cfp.
+  25049a6e81: |-
+    ruby 2.7.0dev (2019-06-19T23:32:08Z trunk 25049a6e81) [x86_64-linux]
+    last_commit=Extra assertions around thread.
+  25049a6e81 --jit: |-
+    ruby 2.7.0dev (2019-06-19T23:32:08Z trunk 25049a6e81) +JIT [x86_64-linux]
+    last_commit=Extra assertions around thread.
+  626483721a: |-
+    ruby 2.7.0dev (2019-06-19T23:56:06Z trunk 626483721a) [x86_64-linux]
+    last_commit=Set `cfp` to null (along with vm_stack) in `rb_fiber_close`.
+  626483721a --jit: |-
+    ruby 2.7.0dev (2019-06-19T23:56:06Z trunk 626483721a) +JIT [x86_64-linux]
+    last_commit=Set `cfp` to null (along with vm_stack) in `rb_fiber_close`.
+  6bf1285b20: |-
+    ruby 2.7.0dev (2019-06-20T00:07:15Z trunk 6bf1285b20) [x86_64-linux]
+    last_commit=Fix typo in VM_ASSERT.
+  6bf1285b20 --jit: |-
+    ruby 2.7.0dev (2019-06-20T00:07:15Z trunk 6bf1285b20) +JIT [x86_64-linux]
+    last_commit=Fix typo in VM_ASSERT.
