@@ -9,44 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  fdd3091274: ruby 2.7.0dev (2019-04-21 trunk 67698) [x86_64-linux]
-  fdd3091274 --jit: ruby 2.7.0dev (2019-04-21 trunk 67698) +JIT [x86_64-linux]
-  693c28d59f: ruby 2.7.0dev (2019-04-22 trunk 67699) [x86_64-linux]
-  693c28d59f --jit: ruby 2.7.0dev (2019-04-22 trunk 67699) +JIT [x86_64-linux]
-  4c570abf77: ruby 2.7.0dev (2019-04-22 trunk 67700) [x86_64-linux]
-  4c570abf77 --jit: ruby 2.7.0dev (2019-04-22 trunk 67700) +JIT [x86_64-linux]
-  44a468ccda: ruby 2.7.0dev (2019-04-22 trunk 67701) [x86_64-linux]
-  44a468ccda --jit: ruby 2.7.0dev (2019-04-22 trunk 67701) +JIT [x86_64-linux]
-  e949c084b5: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) [x86_64-linux]
-    last_commit=README.ja.md: Update description about Git repository
-  e949c084b5 --jit: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) +JIT [x86_64-linux]
-    last_commit=README.ja.md: Update description about Git repository
-  b26a7c8d86: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) [x86_64-linux]
-    last_commit=* remove trailing spaces.
-  b26a7c8d86 --jit: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) +JIT [x86_64-linux]
-    last_commit=* remove trailing spaces.
-  beaddd1d32: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) [x86_64-linux]
-    last_commit=Now only supports Git repository
-  beaddd1d32 --jit: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) +JIT [x86_64-linux]
-    last_commit=Now only supports Git repository
-  6013e41a7b: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) [x86_64-linux]
-    last_commit=Support of Ruby 2.3 has ended
-  6013e41a7b --jit: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) +JIT [x86_64-linux]
-    last_commit=Support of Ruby 2.3 has ended
-  f005ccc771: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) [x86_64-linux]
-    last_commit=Clarify requirements of <=>
-  f005ccc771 --jit: |-
-    ruby 2.7.0dev (2019-04-22 trunk 67701) +JIT [x86_64-linux]
-    last_commit=Clarify requirements of <=>
   ae3f38dc53: |-
     ruby 2.7.0dev (2019-04-22 trunk 67701) [x86_64-linux]
     last_commit=CRuby trunk uses git instead of subversion now
@@ -4311,3 +4273,33 @@ commits:
   6bf1285b20 --jit: |-
     ruby 2.7.0dev (2019-06-20T00:07:15Z trunk 6bf1285b20) +JIT [x86_64-linux]
     last_commit=Fix typo in VM_ASSERT.
+  dbc2b89bc0: |-
+    ruby 2.7.0dev (2019-06-20T01:41:18Z trunk dbc2b89bc0) [x86_64-linux]
+    last_commit=Ensure `vm_stack` is cleared after fork.
+  dbc2b89bc0 --jit: |-
+    ruby 2.7.0dev (2019-06-20T01:41:18Z trunk dbc2b89bc0) +JIT [x86_64-linux]
+    last_commit=Ensure `vm_stack` is cleared after fork.
+  199310997f: |-
+    ruby 2.7.0dev (2019-06-20T01:41:46Z trunk 199310997f) [x86_64-linux]
+    last_commit=* remove trailing spaces.
+  199310997f --jit: |-
+    ruby 2.7.0dev (2019-06-20T01:41:46Z trunk 199310997f) +JIT [x86_64-linux]
+    last_commit=* remove trailing spaces.
+  15c4f6aed2: |-
+    ruby 2.7.0dev (2019-06-20T02:16:08Z trunk 15c4f6aed2) [x86_64-linux]
+    last_commit=Skip `rb_ec_clear_vm_stack` for now.
+  15c4f6aed2 --jit: |-
+    ruby 2.7.0dev (2019-06-20T02:16:08Z trunk 15c4f6aed2) +JIT [x86_64-linux]
+    last_commit=Skip `rb_ec_clear_vm_stack` for now.
+  7d9d1ed463: |-
+    ruby 2.7.0dev (2019-06-20T02:55:43Z trunk 7d9d1ed463) [x86_64-linux]
+    last_commit=Don't clear cfp, it causes problems.
+  7d9d1ed463 --jit: |-
+    ruby 2.7.0dev (2019-06-20T02:55:43Z trunk 7d9d1ed463) +JIT [x86_64-linux]
+    last_commit=Don't clear cfp, it causes problems.
+  c26c514494: |-
+    ruby 2.7.0dev (2019-06-20T03:30:29Z trunk c26c514494) [x86_64-linux]
+    last_commit=Revert failed attempt at fixing invalid usage of vm_stack.
+  c26c514494 --jit: |-
+    ruby 2.7.0dev (2019-06-20T03:30:29Z trunk c26c514494) +JIT [x86_64-linux]
+    last_commit=Revert failed attempt at fixing invalid usage of vm_stack.
