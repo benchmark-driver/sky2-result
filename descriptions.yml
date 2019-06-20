@@ -9,18 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  47676e969e: ruby 2.7.0dev (2019-04-21 trunk 67692) [x86_64-linux]
-  47676e969e --jit: ruby 2.7.0dev (2019-04-21 trunk 67692) +JIT [x86_64-linux]
-  de5378233b: ruby 2.7.0dev (2019-04-21 trunk 67693) [x86_64-linux]
-  de5378233b --jit: ruby 2.7.0dev (2019-04-21 trunk 67693) +JIT [x86_64-linux]
-  2c31e6dec4: ruby 2.7.0dev (2019-04-21 trunk 67694) [x86_64-linux]
-  2c31e6dec4 --jit: ruby 2.7.0dev (2019-04-21 trunk 67694) +JIT [x86_64-linux]
-  72be46f104: ruby 2.7.0dev (2019-04-21 trunk 67695) [x86_64-linux]
-  72be46f104 --jit: ruby 2.7.0dev (2019-04-21 trunk 67695) +JIT [x86_64-linux]
-  c7db05d216: ruby 2.7.0dev (2019-04-21 trunk 67696) [x86_64-linux]
-  c7db05d216 --jit: ruby 2.7.0dev (2019-04-21 trunk 67696) +JIT [x86_64-linux]
-  b6fd7b1bb7: ruby 2.7.0dev (2019-04-21 trunk 67697) [x86_64-linux]
-  b6fd7b1bb7 --jit: ruby 2.7.0dev (2019-04-21 trunk 67697) +JIT [x86_64-linux]
   fdd3091274: ruby 2.7.0dev (2019-04-21 trunk 67698) [x86_64-linux]
   fdd3091274 --jit: ruby 2.7.0dev (2019-04-21 trunk 67698) +JIT [x86_64-linux]
   693c28d59f: ruby 2.7.0dev (2019-04-22 trunk 67699) [x86_64-linux]
@@ -4275,3 +4263,27 @@ commits:
   65944e96d3 --jit: |-
     ruby 2.7.0dev (2019-06-19T14:10:40Z trunk 65944e96d3) +JIT [x86_64-linux]
     last_commit=test/racc/test_racc_command.rb: Extend the timeout
+  b9ef35e4c6: |-
+    ruby 2.7.0dev (2019-06-19T17:50:58Z trunk b9ef35e4c6) [x86_64-linux]
+    last_commit=Implement Complex#<=>
+  b9ef35e4c6 --jit: |-
+    ruby 2.7.0dev (2019-06-19T17:50:58Z trunk b9ef35e4c6) +JIT [x86_64-linux]
+    last_commit=Implement Complex#<=>
+  fdfe51d169: |-
+    ruby 2.7.0dev (2019-06-19T19:07:31Z trunk fdfe51d169) [x86_64-linux]
+    last_commit=* expand tabs.
+  fdfe51d169 --jit: |-
+    ruby 2.7.0dev (2019-06-19T19:07:31Z trunk fdfe51d169) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  208cc6e3d0: |-
+    ruby 2.7.0dev (2019-06-19T19:07:35Z trunk 208cc6e3d0) [x86_64-linux]
+    last_commit=* 2019-06-20
+  208cc6e3d0 --jit: |-
+    ruby 2.7.0dev (2019-06-19T19:07:35Z trunk 208cc6e3d0) +JIT [x86_64-linux]
+    last_commit=* 2019-06-20
+  a0af60c7f2: |-
+    ruby 2.7.0dev (2019-06-19T19:20:30Z trunk a0af60c7f2) [x86_64-linux]
+    last_commit=Remove spec testing undefined behavior
+  a0af60c7f2 --jit: |-
+    ruby 2.7.0dev (2019-06-19T19:20:30Z trunk a0af60c7f2) +JIT [x86_64-linux]
+    last_commit=Remove spec testing undefined behavior
