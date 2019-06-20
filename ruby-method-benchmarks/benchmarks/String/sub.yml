@@ -465,6 +465,8 @@ results:
     e4364dbf6e: 3404133.533
     1457ad1ea7: 3385921.196
     2bad001cfd: 3439249.915
+    812a438145: 3022176.611
+    d04ebc57f2: 3399010.775
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -929,6 +931,8 @@ results:
     e4364dbf6e: 3041015.72
     1457ad1ea7: 3340094.689
     2bad001cfd: 3378201.367
+    812a438145: 3340089.978
+    d04ebc57f2: 2738844.901
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -1393,6 +1397,8 @@ results:
     e4364dbf6e: 1857306.958
     1457ad1ea7: 1445806.342
     2bad001cfd: 1834031.933
+    812a438145: 1870986.027
+    d04ebc57f2: 1862634.212
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -1857,6 +1863,8 @@ results:
     e4364dbf6e: 2714844.757
     1457ad1ea7: 2616349.662
     2bad001cfd: 2714604.054
+    812a438145: 2344315.603
+    d04ebc57f2: 2760586.225
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -2321,6 +2329,8 @@ results:
     e4364dbf6e: 3383545.781
     1457ad1ea7: 3394235.986
     2bad001cfd: 3485989.971
+    812a438145: 2772180.487
+    d04ebc57f2: 3723932.772
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -2785,6 +2795,8 @@ results:
     e4364dbf6e: 3634898.542
     1457ad1ea7: 3521464.033
     2bad001cfd: 3564299.483
+    812a438145: 3650758.459
+    d04ebc57f2: 3699878.118
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -3249,6 +3261,8 @@ results:
     e4364dbf6e: 1976791.225
     1457ad1ea7: 1951555.432
     2bad001cfd: 1971176.54
+    812a438145: 1924053.921
+    d04ebc57f2: 1502104.908
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -3713,3 +3727,5 @@ results:
     e4364dbf6e: 2868580.873
     1457ad1ea7: 2947603.164
     2bad001cfd: 2891656.351
+    812a438145: 2824697.405
+    d04ebc57f2: 2638529.235
