@@ -4303,3 +4303,15 @@ commits:
   c26c514494 --jit: |-
     ruby 2.7.0dev (2019-06-20T03:30:29Z trunk c26c514494) +JIT [x86_64-linux]
     last_commit=Revert failed attempt at fixing invalid usage of vm_stack.
+  e4cafa393f: |-
+    ruby 2.7.0dev (2019-06-20T04:44:50Z trunk e4cafa393f) [x86_64-linux]
+    last_commit=Ensure that vm_stack is cleared in `thread_cleanup_func_before_exec`.
+  e4cafa393f --jit: |-
+    ruby 2.7.0dev (2019-06-20T04:44:50Z trunk e4cafa393f) +JIT [x86_64-linux]
+    last_commit=Ensure that vm_stack is cleared in `thread_cleanup_func_before_exec`.
+  c4c47b792d: |-
+    ruby 2.7.0dev (2019-06-20T07:00:30Z trunk c4c47b792d) [x86_64-linux]
+    last_commit=Disable auto indent when move cursor up or down
+  c4c47b792d --jit: |-
+    ruby 2.7.0dev (2019-06-20T07:00:30Z trunk c4c47b792d) +JIT [x86_64-linux]
+    last_commit=Disable auto indent when move cursor up or down
