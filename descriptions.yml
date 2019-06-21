@@ -9,32 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  ae07b66aaa: ruby 2.7.0dev (2019-04-23 trunk ae07b66aaa) [x86_64-linux]
-  ae07b66aaa --jit: ruby 2.7.0dev (2019-04-23 trunk ae07b66aaa) +JIT [x86_64-linux]
-  6ca9e7cc07: ruby 2.7.0dev (2019-04-23 trunk 6ca9e7cc07) [x86_64-linux]
-  6ca9e7cc07 --jit: ruby 2.7.0dev (2019-04-23 trunk 6ca9e7cc07) +JIT [x86_64-linux]
-  5a58318a90: ruby 2.7.0dev (2019-04-23 trunk 5a58318a90) [x86_64-linux]
-  5a58318a90 --jit: ruby 2.7.0dev (2019-04-23 trunk 5a58318a90) +JIT [x86_64-linux]
-  e50e60b96a: ruby 2.7.0dev (2019-04-23 trunk e50e60b96a) [x86_64-linux]
-  e50e60b96a --jit: ruby 2.7.0dev (2019-04-23 trunk e50e60b96a) +JIT [x86_64-linux]
-  2e1ac22089: ruby 2.7.0dev (2019-04-23 trunk 2e1ac22089) [x86_64-linux]
-  2e1ac22089 --jit: ruby 2.7.0dev (2019-04-23 trunk 2e1ac22089) +JIT [x86_64-linux]
-  4946c3e4b5: ruby 2.7.0dev (2019-04-23 trunk 4946c3e4b5) [x86_64-linux]
-  4946c3e4b5 --jit: ruby 2.7.0dev (2019-04-23 trunk 4946c3e4b5) +JIT [x86_64-linux]
-  0d41adf6e2: ruby 2.7.0dev (2019-04-23 trunk 0d41adf6e2) [x86_64-linux]
-  0d41adf6e2 --jit: ruby 2.7.0dev (2019-04-23 trunk 0d41adf6e2) +JIT [x86_64-linux]
-  18eb9e5855: ruby 2.7.0dev (2019-04-23 trunk 18eb9e5855) [x86_64-linux]
-  18eb9e5855 --jit: ruby 2.7.0dev (2019-04-23 trunk 18eb9e5855) +JIT [x86_64-linux]
-  2fb83a0af7: ruby 2.7.0dev (2019-04-23 trunk 2fb83a0af7) [x86_64-linux]
-  2fb83a0af7 --jit: ruby 2.7.0dev (2019-04-23 trunk 2fb83a0af7) +JIT [x86_64-linux]
-  2ae5f6f97c: ruby 2.7.0dev (2019-04-23 trunk 2ae5f6f97c) [x86_64-linux]
-  2ae5f6f97c --jit: ruby 2.7.0dev (2019-04-23 trunk 2ae5f6f97c) +JIT [x86_64-linux]
-  87cf45a512: ruby 2.7.0dev (2019-04-23 trunk 87cf45a512) [x86_64-linux]
-  87cf45a512 --jit: ruby 2.7.0dev (2019-04-23 trunk 87cf45a512) +JIT [x86_64-linux]
-  f2cd4f4cd0: ruby 2.7.0dev (2019-04-23 trunk f2cd4f4cd0) [x86_64-linux]
-  f2cd4f4cd0 --jit: ruby 2.7.0dev (2019-04-23 trunk f2cd4f4cd0) +JIT [x86_64-linux]
-  89271d4a37: ruby 2.7.0dev (2019-04-23 trunk 89271d4a37) [x86_64-linux]
-  89271d4a37 --jit: ruby 2.7.0dev (2019-04-23 trunk 89271d4a37) +JIT [x86_64-linux]
   f4f66bd11c: ruby 2.7.0dev (2019-04-23 trunk f4f66bd11c) [x86_64-linux]
   f4f66bd11c --jit: ruby 2.7.0dev (2019-04-23 trunk f4f66bd11c) +JIT [x86_64-linux]
   14dd8d6b37: ruby 2.7.0dev (2019-04-23 trunk 14dd8d6b37) [x86_64-linux]
@@ -4403,3 +4377,9 @@ commits:
   38ccb8f747 --jit: |-
     ruby 2.7.0dev (2019-06-21T09:02:24Z trunk 38ccb8f747) +JIT [x86_64-linux]
     last_commit=Remove a duplicate test
+  50841eca43: |-
+    ruby 2.7.0dev (2019-06-21T12:35:25Z trunk 50841eca43) [x86_64-linux]
+    last_commit=Support irregular auto indent
+  50841eca43 --jit: |-
+    ruby 2.7.0dev (2019-06-21T12:35:25Z trunk 50841eca43) +JIT [x86_64-linux]
+    last_commit=Support irregular auto indent
