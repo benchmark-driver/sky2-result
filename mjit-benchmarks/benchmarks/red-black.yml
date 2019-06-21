@@ -2,7 +2,7 @@
 metrics_unit: i/s
 results:
   red-black:
-    '082bbdc92e --jit': 0.054
+    '082bbdc92e --jit': 0.056
     0bd50e95f9: 0.055
     0bd50e95f9 --jit: 0.054
     0cc893d01d: 0.054
@@ -2032,3 +2032,10 @@ results:
     f5415a95ce --jit: 0.051
     1a0c3d8dd6 --jit: 0.055
     d180e40570 --jit: 0.049
+    57225dc07a: 0.056
+    '082bbdc92e': 0.057
+    '0872ea5330': 0.055
+    a95ca6d5e9: 0.055
+    '0872ea5330 --jit': 0.054
+    a95ca6d5e9 --jit: 0.055
+    57225dc07a --jit: 0.055
