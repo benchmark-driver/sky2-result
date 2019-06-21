@@ -4383,3 +4383,69 @@ commits:
   50841eca43 --jit: |-
     ruby 2.7.0dev (2019-06-21T12:35:25Z trunk 50841eca43) +JIT [x86_64-linux]
     last_commit=Support irregular auto indent
+  8f51da5d41: |-
+    ruby 2.7.0dev (2019-06-21T13:42:35Z trunk 8f51da5d41) [x86_64-linux]
+    last_commit=Get rid of undefined behavior
+  8f51da5d41 --jit: |-
+    ruby 2.7.0dev (2019-06-21T13:42:35Z trunk 8f51da5d41) +JIT [x86_64-linux]
+    last_commit=Get rid of undefined behavior
+  551ef27490: |-
+    ruby 2.7.0dev (2019-06-21T13:48:50Z trunk 551ef27490) [x86_64-linux]
+    last_commit=* expand tabs.
+  551ef27490 --jit: |-
+    ruby 2.7.0dev (2019-06-21T13:48:50Z trunk 551ef27490) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  1c7e303b26: |-
+    ruby 2.7.0dev (2019-06-21T14:04:34Z trunk 1c7e303b26) [x86_64-linux]
+    last_commit=Constified unusable chars
+  1c7e303b26 --jit: |-
+    ruby 2.7.0dev (2019-06-21T14:04:34Z trunk 1c7e303b26) +JIT [x86_64-linux]
+    last_commit=Constified unusable chars
+  8a1dd9b84b: |-
+    ruby 2.7.0dev (2019-06-21T14:48:49Z trunk 8a1dd9b84b) [x86_64-linux]
+    last_commit=Revert RUBY_RELEASE_DATE to date only
+  8a1dd9b84b --jit: |-
+    ruby 2.7.0dev (2019-06-21T14:48:49Z trunk 8a1dd9b84b) +JIT [x86_64-linux]
+    last_commit=Revert RUBY_RELEASE_DATE to date only
+  d1fa0f6191: |-
+    ruby 2.7.0dev (2019-06-21T15:03:27Z trunk d1fa0f6191) [x86_64-linux]
+    last_commit=* 2019-06-22
+  d1fa0f6191 --jit: |-
+    ruby 2.7.0dev (2019-06-21T15:03:27Z trunk d1fa0f6191) +JIT [x86_64-linux]
+    last_commit=* 2019-06-22
+  5e2088665b: |-
+    ruby 2.7.0dev (2019-06-21T15:31:42Z trunk 5e2088665b) [x86_64-linux]
+    last_commit=Do auto indent only when closing token at first of line
+  5e2088665b --jit: |-
+    ruby 2.7.0dev (2019-06-21T15:31:42Z trunk 5e2088665b) +JIT [x86_64-linux]
+    last_commit=Do auto indent only when closing token at first of line
+  c79131df28: |-
+    ruby 2.7.0dev (2019-06-21T15:31:42Z trunk c79131df28) [x86_64-linux]
+    last_commit=Treat closing token with starting token at head of 2nd line correctly
+  c79131df28 --jit: |-
+    ruby 2.7.0dev (2019-06-21T15:31:42Z trunk c79131df28) +JIT [x86_64-linux]
+    last_commit=Treat closing token with starting token at head of 2nd line correctly
+  2f2fc939eb: |-
+    ruby 2.7.0dev (2019-06-21T16:16:23Z trunk 2f2fc939eb) [x86_64-linux]
+    last_commit=Always define RUBY_RELEASE_DATETIME
+  2f2fc939eb --jit: |-
+    ruby 2.7.0dev (2019-06-21T16:16:23Z trunk 2f2fc939eb) +JIT [x86_64-linux]
+    last_commit=Always define RUBY_RELEASE_DATETIME
+  e5e811e4a0: |-
+    ruby 2.7.0dev (2019-06-21T16:21:45Z trunk e5e811e4a0) [x86_64-linux]
+    last_commit=Add extra spec from https://github.com/ruby/ruby/pull/2173
+  e5e811e4a0 --jit: |-
+    ruby 2.7.0dev (2019-06-21T16:21:45Z trunk e5e811e4a0) +JIT [x86_64-linux]
+    last_commit=Add extra spec from https://github.com/ruby/ruby/pull/2173
+  3b2d11ad90: |-
+    ruby 2.7.0dev (2019-06-21T16:21:45Z trunk 3b2d11ad90) [x86_64-linux]
+    last_commit=Use different names for autoload constants in specs for clarity
+  3b2d11ad90 --jit: |-
+    ruby 2.7.0dev (2019-06-21T16:21:45Z trunk 3b2d11ad90) +JIT [x86_64-linux]
+    last_commit=Use different names for autoload constants in specs for clarity
+  d01fd82187: |-
+    ruby 2.7.0dev (2019-06-21T16:25:01Z trunk d01fd82187) [x86_64-linux]
+    last_commit=Alias ENV.merge! as ENV.update
+  d01fd82187 --jit: |-
+    ruby 2.7.0dev (2019-06-21T16:25:01Z trunk d01fd82187) +JIT [x86_64-linux]
+    last_commit=Alias ENV.merge! as ENV.update
