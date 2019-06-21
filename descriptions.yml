@@ -9,12 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  9cdb736672: ruby 2.7.0dev (2019-04-23 trunk 9cdb736672) [x86_64-linux]
-  9cdb736672 --jit: ruby 2.7.0dev (2019-04-23 trunk 9cdb736672) +JIT [x86_64-linux]
-  660c071659: ruby 2.7.0dev (2019-04-23 trunk 660c071659) [x86_64-linux]
-  660c071659 --jit: ruby 2.7.0dev (2019-04-23 trunk 660c071659) +JIT [x86_64-linux]
-  ea520ca927: ruby 2.7.0dev (2019-04-23 trunk ea520ca927) [x86_64-linux]
-  ea520ca927 --jit: ruby 2.7.0dev (2019-04-23 trunk ea520ca927) +JIT [x86_64-linux]
   ae07b66aaa: ruby 2.7.0dev (2019-04-23 trunk ae07b66aaa) [x86_64-linux]
   ae07b66aaa --jit: ruby 2.7.0dev (2019-04-23 trunk ae07b66aaa) +JIT [x86_64-linux]
   6ca9e7cc07: ruby 2.7.0dev (2019-04-23 trunk 6ca9e7cc07) [x86_64-linux]
@@ -4331,3 +4325,21 @@ commits:
   93356576fe --jit: |-
     ruby 2.7.0dev (2019-06-20T13:27:06Z trunk 93356576fe) +JIT [x86_64-linux]
     last_commit=Revert "Removed needless file with the upstream repository."
+  4a5e07d8e1: |-
+    ruby 2.7.0dev (2019-06-20T17:22:01Z trunk 4a5e07d8e1) [x86_64-linux]
+    last_commit=Avoid verbose warning when using Net::POP3 with SSL
+  4a5e07d8e1 --jit: |-
+    ruby 2.7.0dev (2019-06-20T17:22:01Z trunk 4a5e07d8e1) +JIT [x86_64-linux]
+    last_commit=Avoid verbose warning when using Net::POP3 with SSL
+  2ee1c76206: |-
+    ruby 2.7.0dev (2019-06-20T17:28:27Z trunk 2ee1c76206) [x86_64-linux]
+    last_commit=* 2019-06-21
+  2ee1c76206 --jit: |-
+    ruby 2.7.0dev (2019-06-20T17:28:27Z trunk 2ee1c76206) +JIT [x86_64-linux]
+    last_commit=* 2019-06-21
+  fde842fec0: |-
+    ruby 2.7.0dev (2019-06-20T18:20:09Z trunk fde842fec0) [x86_64-linux]
+    last_commit=Clean coroutine and timestamp directories
+  fde842fec0 --jit: |-
+    ruby 2.7.0dev (2019-06-20T18:20:09Z trunk fde842fec0) +JIT [x86_64-linux]
+    last_commit=Clean coroutine and timestamp directories
