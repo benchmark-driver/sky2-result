@@ -4427,3 +4427,9 @@ commits:
   d01fd82187 --jit: |-
     ruby 2.7.0dev (2019-06-21T16:25:01Z trunk d01fd82187) +JIT [x86_64-linux]
     last_commit=Alias ENV.merge! as ENV.update
+  4d650bc257: |-
+    ruby 2.7.0dev (2019-06-22T00:29:33Z trunk 4d650bc257) [x86_64-linux]
+    last_commit=Fix over-expansion
+  4d650bc257 --jit: |-
+    ruby 2.7.0dev (2019-06-22T00:29:33Z trunk 4d650bc257) +JIT [x86_64-linux]
+    last_commit=Fix over-expansion
