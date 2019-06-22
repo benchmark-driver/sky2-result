@@ -4439,3 +4439,33 @@ commits:
   bad66f3e36 --jit: |-
     ruby 2.7.0dev (2019-06-22T09:39:06Z trunk bad66f3e36) +JIT [x86_64-linux]
     last_commit=Show timed out threads
+  f738eeabc2: |-
+    ruby 2.7.0dev (2019-06-22T14:38:07Z trunk f738eeabc2) [x86_64-linux]
+    last_commit=golf_prelude.rb: suppress the redefining warning
+  f738eeabc2 --jit: |-
+    ruby 2.7.0dev (2019-06-22T14:38:07Z trunk f738eeabc2) +JIT [x86_64-linux]
+    last_commit=golf_prelude.rb: suppress the redefining warning
+  f5e2904471: |-
+    ruby 2.7.0dev (2019-06-22T14:48:21Z trunk f5e2904471) [x86_64-linux]
+    last_commit=Use EXEEXT
+  f5e2904471 --jit: |-
+    ruby 2.7.0dev (2019-06-22T14:48:21Z trunk f5e2904471) +JIT [x86_64-linux]
+    last_commit=Use EXEEXT
+  f3c81b4e90: |-
+    ruby 2.7.0dev (2019-06-22T15:31:16Z trunk f3c81b4e90) [x86_64-linux]
+    last_commit=Frozen objects in WeakMap
+  f3c81b4e90 --jit: |-
+    ruby 2.7.0dev (2019-06-22T15:31:16Z trunk f3c81b4e90) +JIT [x86_64-linux]
+    last_commit=Frozen objects in WeakMap
+  fd9ac1e76b: |-
+    ruby 2.7.0dev (2019-06-22T15:37:11Z trunk fd9ac1e76b) [x86_64-linux]
+    last_commit=* 2019-06-23
+  fd9ac1e76b --jit: |-
+    ruby 2.7.0dev (2019-06-22T15:37:11Z trunk fd9ac1e76b) +JIT [x86_64-linux]
+    last_commit=* 2019-06-23
+  c033dc3073: |-
+    ruby 2.7.0dev (2019-06-22T15:49:24Z trunk c033dc3073) [x86_64-linux]
+    last_commit=Fix issue with Array#rindex when rb_equal modifies receiver array
+  c033dc3073 --jit: |-
+    ruby 2.7.0dev (2019-06-22T15:49:24Z trunk c033dc3073) +JIT [x86_64-linux]
+    last_commit=Fix issue with Array#rindex when rb_equal modifies receiver array
