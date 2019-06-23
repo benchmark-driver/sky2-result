@@ -4479,3 +4479,27 @@ commits:
   aa2f505825 --jit: |-
     ruby 2.7.0dev (2019-06-22T17:49:39Z trunk aa2f505825) +JIT [x86_64-linux]
     last_commit=Make autoloading_const_entry static
+  2ad7a7f801: |-
+    ruby 2.7.0dev (2019-06-22T22:36:26Z trunk 2ad7a7f801) [x86_64-linux]
+    last_commit=Get rid of error with frozen string literal
+  2ad7a7f801 --jit: |-
+    ruby 2.7.0dev (2019-06-22T22:36:26Z trunk 2ad7a7f801) +JIT [x86_64-linux]
+    last_commit=Get rid of error with frozen string literal
+  bebe8d13f8: |-
+    ruby 2.7.0dev (2019-06-22T22:42:11Z trunk bebe8d13f8) [x86_64-linux]
+    last_commit=Disable frozen-string-literal to disable deduplication
+  bebe8d13f8 --jit: |-
+    ruby 2.7.0dev (2019-06-22T22:42:11Z trunk bebe8d13f8) +JIT [x86_64-linux]
+    last_commit=Disable frozen-string-literal to disable deduplication
+  3840791b7e: |-
+    ruby 2.7.0dev (2019-06-22T22:56:43Z trunk 3840791b7e) [x86_64-linux]
+    last_commit=Get rid of error with frozen string literal
+  3840791b7e --jit: |-
+    ruby 2.7.0dev (2019-06-22T22:56:43Z trunk 3840791b7e) +JIT [x86_64-linux]
+    last_commit=Get rid of error with frozen string literal
+  ec8e5f5aa6: |-
+    ruby 2.7.0dev (2019-06-22T23:05:13Z trunk ec8e5f5aa6) [x86_64-linux]
+    last_commit=array.c: always check frozenness in Array#unshift. Fixes [Bug #15952]
+  ec8e5f5aa6 --jit: |-
+    ruby 2.7.0dev (2019-06-22T23:05:13Z trunk ec8e5f5aa6) +JIT [x86_64-linux]
+    last_commit=array.c: always check frozenness in Array#unshift. Fixes [Bug #15952]
