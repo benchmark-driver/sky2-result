@@ -4503,3 +4503,9 @@ commits:
   ec8e5f5aa6 --jit: |-
     ruby 2.7.0dev (2019-06-22T23:05:13Z trunk ec8e5f5aa6) +JIT [x86_64-linux]
     last_commit=array.c: always check frozenness in Array#unshift. Fixes [Bug #15952]
+  5a187e26ad: |-
+    ruby 2.7.0dev (2019-06-23T04:17:41Z trunk 5a187e26ad) [x86_64-linux]
+    last_commit=array.c add back shared array optimization to ary_ensure_room_for_unshift
+  5a187e26ad --jit: |-
+    ruby 2.7.0dev (2019-06-23T04:17:41Z trunk 5a187e26ad) +JIT [x86_64-linux]
+    last_commit=array.c add back shared array optimization to ary_ensure_room_for_unshift
