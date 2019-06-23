@@ -4505,3 +4505,21 @@ commits:
   '096a45d3d2 --jit': |-
     ruby 2.7.0dev (2019-06-23T13:28:23Z trunk 096a45d3d2) +JIT [x86_64-linux]
     last_commit=Update NEWS.
+  bdcfba547d: |-
+    ruby 2.7.0dev (2019-06-23T13:35:10Z trunk bdcfba547d) [x86_64-linux]
+    last_commit=vcs.rb: handle --dryrun option
+  bdcfba547d --jit: |-
+    ruby 2.7.0dev (2019-06-23T13:35:10Z trunk bdcfba547d) +JIT [x86_64-linux]
+    last_commit=vcs.rb: handle --dryrun option
+  50b2807a7c: |-
+    ruby 2.7.0dev (2019-06-23T14:10:16Z trunk 50b2807a7c) [x86_64-linux]
+    last_commit=Do not lengthen UNIX socket path
+  50b2807a7c --jit: |-
+    ruby 2.7.0dev (2019-06-23T14:10:16Z trunk 50b2807a7c) +JIT [x86_64-linux]
+    last_commit=Do not lengthen UNIX socket path
+  97a7f463f6: |-
+    ruby 2.7.0dev (2019-06-23T14:12:47Z trunk 97a7f463f6) [x86_64-linux]
+    last_commit=Max length of UNIX socket path is 104 bytes on macOS
+  97a7f463f6 --jit: |-
+    ruby 2.7.0dev (2019-06-23T14:12:47Z trunk 97a7f463f6) +JIT [x86_64-linux]
+    last_commit=Max length of UNIX socket path is 104 bytes on macOS
