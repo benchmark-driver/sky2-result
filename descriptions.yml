@@ -9,32 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  1613917ae6: ruby 2.7.0dev (2019-04-24 trunk 1613917ae6) [x86_64-linux]
-  1613917ae6 --jit: ruby 2.7.0dev (2019-04-24 trunk 1613917ae6) +JIT [x86_64-linux]
-  2642f22050: ruby 2.7.0dev (2019-04-24 trunk 2642f22050) [x86_64-linux]
-  2642f22050 --jit: ruby 2.7.0dev (2019-04-24 trunk 2642f22050) +JIT [x86_64-linux]
-  daff4cbd6c: ruby 2.7.0dev (2019-04-24 trunk daff4cbd6c) [x86_64-linux]
-  daff4cbd6c --jit: ruby 2.7.0dev (2019-04-24 trunk daff4cbd6c) +JIT [x86_64-linux]
-  6061aa0ac1: ruby 2.7.0dev (2019-04-24 trunk 6061aa0ac1) [x86_64-linux]
-  6061aa0ac1 --jit: ruby 2.7.0dev (2019-04-24 trunk 6061aa0ac1) +JIT [x86_64-linux]
-  dd5b6c71c6: ruby 2.7.0dev (2019-04-24 trunk dd5b6c71c6) [x86_64-linux]
-  dd5b6c71c6 --jit: ruby 2.7.0dev (2019-04-24 trunk dd5b6c71c6) +JIT [x86_64-linux]
-  68e3f8192b: ruby 2.7.0dev (2019-04-24 trunk 68e3f8192b) [x86_64-linux]
-  68e3f8192b --jit: ruby 2.7.0dev (2019-04-24 trunk 68e3f8192b) +JIT [x86_64-linux]
-  7d2cb60e48: ruby 2.7.0dev (2019-04-25 trunk 7d2cb60e48) [x86_64-linux]
-  7d2cb60e48 --jit: ruby 2.7.0dev (2019-04-25 trunk 7d2cb60e48) +JIT [x86_64-linux]
-  9bfc185a0d: ruby 2.7.0dev (2019-04-25 trunk 9bfc185a0d) [x86_64-linux]
-  9bfc185a0d --jit: ruby 2.7.0dev (2019-04-25 trunk 9bfc185a0d) +JIT [x86_64-linux]
-  99084f5401: ruby 2.7.0dev (2019-04-25 trunk 99084f5401) [x86_64-linux]
-  99084f5401 --jit: ruby 2.7.0dev (2019-04-25 trunk 99084f5401) +JIT [x86_64-linux]
-  d0ba4abf1a: ruby 2.7.0dev (2019-04-25 trunk d0ba4abf1a) [x86_64-linux]
-  d0ba4abf1a --jit: ruby 2.7.0dev (2019-04-25 trunk d0ba4abf1a) +JIT [x86_64-linux]
-  '09ce223b0b': ruby 2.7.0dev (2019-04-25 trunk 09ce223b0b) [x86_64-linux]
-  '09ce223b0b --jit': ruby 2.7.0dev (2019-04-25 trunk 09ce223b0b) +JIT [x86_64-linux]
-  116f91ab50: ruby 2.7.0dev (2019-04-25 trunk 116f91ab50) [x86_64-linux]
-  116f91ab50 --jit: ruby 2.7.0dev (2019-04-25 trunk 116f91ab50) +JIT [x86_64-linux]
-  6de9128fe9: ruby 2.7.0dev (2019-04-25 trunk 6de9128fe9) [x86_64-linux]
-  6de9128fe9 --jit: ruby 2.7.0dev (2019-04-25 trunk 6de9128fe9) +JIT [x86_64-linux]
   44bb429bb1: ruby 2.7.0dev (2019-04-25 trunk 44bb429bb1) [x86_64-linux]
   44bb429bb1 --jit: ruby 2.7.0dev (2019-04-25 trunk 44bb429bb1) +JIT [x86_64-linux]
   70adfdcd8d: ruby 2.7.0dev (2019-04-25 trunk 70adfdcd8d) [x86_64-linux]
@@ -4469,3 +4443,39 @@ commits:
   c033dc3073 --jit: |-
     ruby 2.7.0dev (2019-06-22T15:49:24Z trunk c033dc3073) +JIT [x86_64-linux]
     last_commit=Fix issue with Array#rindex when rb_equal modifies receiver array
+  151843b981: |-
+    ruby 2.7.0dev (2019-06-22T16:26:42Z trunk 151843b981) [x86_64-linux]
+    last_commit=Hoisted out autoloading_const_entry
+  151843b981 --jit: |-
+    ruby 2.7.0dev (2019-06-22T16:26:42Z trunk 151843b981) +JIT [x86_64-linux]
+    last_commit=Hoisted out autoloading_const_entry
+  5084233b88: |-
+    ruby 2.7.0dev (2019-06-22T16:26:48Z trunk 5084233b88) [x86_64-linux]
+    last_commit=Split global search for module
+  5084233b88 --jit: |-
+    ruby 2.7.0dev (2019-06-22T16:26:48Z trunk 5084233b88) +JIT [x86_64-linux]
+    last_commit=Split global search for module
+  '9384383019': |-
+    ruby 2.7.0dev (2019-06-22T16:46:38Z trunk 9384383019) [x86_64-linux]
+    last_commit=Module#constant_source_location [Feature #10771]
+  9384383019 --jit: |-
+    ruby 2.7.0dev (2019-06-22T16:46:38Z trunk 9384383019) +JIT [x86_64-linux]
+    last_commit=Module#constant_source_location [Feature #10771]
+  ef524c13d9: |-
+    ruby 2.7.0dev (2019-06-22T16:46:38Z trunk ef524c13d9) [x86_64-linux]
+    last_commit=NEWS: Module#constant_source_location
+  ef524c13d9 --jit: |-
+    ruby 2.7.0dev (2019-06-22T16:46:38Z trunk ef524c13d9) +JIT [x86_64-linux]
+    last_commit=NEWS: Module#constant_source_location
+  c5c3486340: |-
+    ruby 2.7.0dev (2019-06-22T16:47:40Z trunk c5c3486340) [x86_64-linux]
+    last_commit=* expand tabs.
+  c5c3486340 --jit: |-
+    ruby 2.7.0dev (2019-06-22T16:47:40Z trunk c5c3486340) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  aa2f505825: |-
+    ruby 2.7.0dev (2019-06-22T17:49:39Z trunk aa2f505825) [x86_64-linux]
+    last_commit=Make autoloading_const_entry static
+  aa2f505825 --jit: |-
+    ruby 2.7.0dev (2019-06-22T17:49:39Z trunk aa2f505825) +JIT [x86_64-linux]
+    last_commit=Make autoloading_const_entry static
