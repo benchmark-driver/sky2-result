@@ -9,36 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  c9715eb494: ruby 2.7.0dev (2019-04-25 trunk c9715eb494) [x86_64-linux]
-  c9715eb494 --jit: ruby 2.7.0dev (2019-04-25 trunk c9715eb494) +JIT [x86_64-linux]
-  2272cb00ea: ruby 2.7.0dev (2019-04-25 trunk 2272cb00ea) [x86_64-linux]
-  2272cb00ea --jit: ruby 2.7.0dev (2019-04-25 trunk 2272cb00ea) +JIT [x86_64-linux]
-  790f6709ae: ruby 2.7.0dev (2019-04-25 trunk 790f6709ae) [x86_64-linux]
-  790f6709ae --jit: ruby 2.7.0dev (2019-04-25 trunk 790f6709ae) +JIT [x86_64-linux]
-  94af6cd383: ruby 2.7.0dev (2019-04-25 trunk 94af6cd383) [x86_64-linux]
-  94af6cd383 --jit: ruby 2.7.0dev (2019-04-25 trunk 94af6cd383) +JIT [x86_64-linux]
-  b55201dd09: ruby 2.7.0dev (2019-04-25 trunk b55201dd09) [x86_64-linux]
-  b55201dd09 --jit: ruby 2.7.0dev (2019-04-25 trunk b55201dd09) +JIT [x86_64-linux]
-  022cbb278f: ruby 2.7.0dev (2019-04-25 trunk 022cbb278f) [x86_64-linux]
-  022cbb278f --jit: ruby 2.7.0dev (2019-04-25 trunk 022cbb278f) +JIT [x86_64-linux]
-  0c54d2e2c7: ruby 2.7.0dev (2019-04-25 trunk 0c54d2e2c7) [x86_64-linux]
-  0c54d2e2c7 --jit: ruby 2.7.0dev (2019-04-25 trunk 0c54d2e2c7) +JIT [x86_64-linux]
-  e64bab5f77: ruby 2.7.0dev (2019-04-25 trunk e64bab5f77) [x86_64-linux]
-  e64bab5f77 --jit: ruby 2.7.0dev (2019-04-25 trunk e64bab5f77) +JIT [x86_64-linux]
-  5fe99aefd3: ruby 2.7.0dev (2019-04-25 trunk 5fe99aefd3) [x86_64-linux]
-  5fe99aefd3 --jit: ruby 2.7.0dev (2019-04-25 trunk 5fe99aefd3) +JIT [x86_64-linux]
-  2422316aea: ruby 2.7.0dev (2019-04-25 trunk 2422316aea) [x86_64-linux]
-  2422316aea --jit: ruby 2.7.0dev (2019-04-25 trunk 2422316aea) +JIT [x86_64-linux]
-  '0408b8b390': ruby 2.7.0dev (2019-04-25 trunk 0408b8b390) [x86_64-linux]
-  '0408b8b390 --jit': ruby 2.7.0dev (2019-04-25 trunk 0408b8b390) +JIT [x86_64-linux]
-  5689c46457: ruby 2.7.0dev (2019-04-26 trunk 5689c46457) [x86_64-linux]
-  5689c46457 --jit: ruby 2.7.0dev (2019-04-26 trunk 5689c46457) +JIT [x86_64-linux]
-  54eac83b2a: ruby 2.7.0dev (2019-04-26 trunk 54eac83b2a) [x86_64-linux]
-  54eac83b2a --jit: ruby 2.7.0dev (2019-04-26 trunk 54eac83b2a) +JIT [x86_64-linux]
-  b6ebbee5d6: ruby 2.7.0dev (2019-04-26 trunk b6ebbee5d6) [x86_64-linux]
-  b6ebbee5d6 --jit: ruby 2.7.0dev (2019-04-26 trunk b6ebbee5d6) +JIT [x86_64-linux]
-  171a6ad1c1: ruby 2.7.0dev (2019-04-26 trunk 171a6ad1c1) [x86_64-linux]
-  171a6ad1c1 --jit: ruby 2.7.0dev (2019-04-26 trunk 171a6ad1c1) +JIT [x86_64-linux]
   bdd1b300f8: ruby 2.7.0dev (2019-04-26 trunk bdd1b300f8) [x86_64-linux]
   bdd1b300f8 --jit: ruby 2.7.0dev (2019-04-26 trunk bdd1b300f8) +JIT [x86_64-linux]
   1f4204a762: ruby 2.7.0dev (2019-04-26 trunk 1f4204a762) [x86_64-linux]
@@ -4571,3 +4541,21 @@ commits:
   0e6396d2ac --jit: |-
     ruby 2.7.0dev (2019-06-24T03:13:17Z trunk 0e6396d2ac) +JIT [x86_64-linux]
     last_commit=Try using arm64 implementation for fibers.
+  7f64a0b4db: |-
+    ruby 2.7.0dev (2019-06-24T03:58:33Z trunk 7f64a0b4db) [x86_64-linux]
+    last_commit=Add new encoding CESU-8 [Feature #15931]
+  7f64a0b4db --jit: |-
+    ruby 2.7.0dev (2019-06-24T03:58:33Z trunk 7f64a0b4db) +JIT [x86_64-linux]
+    last_commit=Add new encoding CESU-8 [Feature #15931]
+  97b4fe2ff6: |-
+    ruby 2.7.0dev (2019-06-24T04:34:30Z trunk 97b4fe2ff6) [x86_64-linux]
+    last_commit=array.c: Wrong heap size given to ruby_sized_xfree when freeing shared roots
+  97b4fe2ff6 --jit: |-
+    ruby 2.7.0dev (2019-06-24T04:34:30Z trunk 97b4fe2ff6) +JIT [x86_64-linux]
+    last_commit=array.c: Wrong heap size given to ruby_sized_xfree when freeing shared roots
+  4275f09015: |-
+    ruby 2.7.0dev (2019-06-24T07:01:46Z trunk 4275f09015) [x86_64-linux]
+    last_commit=remove UNREACHABLE
+  4275f09015 --jit: |-
+    ruby 2.7.0dev (2019-06-24T07:01:46Z trunk 4275f09015) +JIT [x86_64-linux]
+    last_commit=remove UNREACHABLE
