@@ -4559,3 +4559,9 @@ commits:
   4275f09015 --jit: |-
     ruby 2.7.0dev (2019-06-24T07:01:46Z trunk 4275f09015) +JIT [x86_64-linux]
     last_commit=remove UNREACHABLE
+  518adcca0a: |-
+    ruby 2.7.0dev (2019-06-24T07:09:27Z trunk 518adcca0a) [x86_64-linux]
+    last_commit=Try using arm32 implementation for fibers.
+  518adcca0a --jit: |-
+    ruby 2.7.0dev (2019-06-24T07:09:27Z trunk 518adcca0a) +JIT [x86_64-linux]
+    last_commit=Try using arm32 implementation for fibers.
