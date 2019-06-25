@@ -4583,3 +4583,99 @@ commits:
   dbe232e24e --jit: |-
     ruby 2.7.0dev (2019-06-25T05:04:04Z trunk dbe232e24e) +JIT [x86_64-linux]
     last_commit=Order of arguments might be incorrect in arm32 coroutine implementation.
+  9b23aab290: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 9b23aab290) [x86_64-linux]
+    last_commit=Fixed the wrong path for io-console.
+  9b23aab290 --jit: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 9b23aab290) +JIT [x86_64-linux]
+    last_commit=Fixed the wrong path for io-console.
+  '083fda8490': |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 083fda8490) [x86_64-linux]
+    last_commit=Bump version to 1.2.0.
+  '083fda8490 --jit': |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 083fda8490) +JIT [x86_64-linux]
+    last_commit=Bump version to 1.2.0.
+  e572ff2f95: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk e572ff2f95) [x86_64-linux]
+    last_commit=Require version file relatively
+  e572ff2f95 --jit: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk e572ff2f95) +JIT [x86_64-linux]
+    last_commit=Require version file relatively
+  d118c84b0b: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk d118c84b0b) [x86_64-linux]
+    last_commit=Fix IO#scanf on pipes on Windows
+  d118c84b0b --jit: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk d118c84b0b) +JIT [x86_64-linux]
+    last_commit=Fix IO#scanf on pipes on Windows
+  4bd1909427: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 4bd1909427) [x86_64-linux]
+    last_commit=Dumping the backtrace never worked, so remove it
+  4bd1909427 --jit: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 4bd1909427) +JIT [x86_64-linux]
+    last_commit=Dumping the backtrace never worked, so remove it
+  f770a5be66: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk f770a5be66) [x86_64-linux]
+    last_commit=Refactor exception dumping
+  f770a5be66 --jit: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk f770a5be66) +JIT [x86_64-linux]
+    last_commit=Refactor exception dumping
+  a53ab897c3: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk a53ab897c3) [x86_64-linux]
+    last_commit=Round trip exception backtraces
+  a53ab897c3 --jit: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk a53ab897c3) +JIT [x86_64-linux]
+    last_commit=Round trip exception backtraces
+  0016edbead: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 0016edbead) [x86_64-linux]
+    last_commit=Add test to demonstrate issue deserializing hash with ivar
+  0016edbead --jit: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 0016edbead) +JIT [x86_64-linux]
+    last_commit=Add test to demonstrate issue deserializing hash with ivar
+  03dac55f90: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 03dac55f90) [x86_64-linux]
+    last_commit=Dump Hash ivars before elements
+  03dac55f90 --jit: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 03dac55f90) +JIT [x86_64-linux]
+    last_commit=Dump Hash ivars before elements
+  3c4fc830dd: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 3c4fc830dd) [x86_64-linux]
+    last_commit=Retired to write CHANGELOG.rdoc. Because It has no update from 2015.
+  3c4fc830dd --jit: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 3c4fc830dd) +JIT [x86_64-linux]
+    last_commit=Retired to write CHANGELOG.rdoc. Because It has no update from 2015.
+  00d0ede845: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 00d0ede845) [x86_64-linux]
+    last_commit=Removed CHANGELOG from rdoc files.
+  00d0ede845 --jit: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 00d0ede845) +JIT [x86_64-linux]
+    last_commit=Removed CHANGELOG from rdoc files.
+  63f78bbaae: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 63f78bbaae) [x86_64-linux]
+    last_commit=Reduce string allocations in scalar_scanner
+  63f78bbaae --jit: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 63f78bbaae) +JIT [x86_64-linux]
+    last_commit=Reduce string allocations in scalar_scanner
+  5a4d2b9f2f: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 5a4d2b9f2f) [x86_64-linux]
+    last_commit=Remove string_cache in ScalarScanner
+  5a4d2b9f2f --jit: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 5a4d2b9f2f) +JIT [x86_64-linux]
+    last_commit=Remove string_cache in ScalarScanner
+  746812ee96: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 746812ee96) [x86_64-linux]
+    last_commit=Do not allocate a string to check if a scalar is an integer
+  746812ee96 --jit: |-
+    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 746812ee96) +JIT [x86_64-linux]
+    last_commit=Do not allocate a string to check if a scalar is an integer
+  d7887b05d8: |-
+    ruby 2.7.0dev (2019-06-25T07:46:53Z trunk d7887b05d8) [x86_64-linux]
+    last_commit=Fixed broken ruby/spec related a53ab897c35586a836710a8afeb1e8c1abd9b087
+  d7887b05d8 --jit: |-
+    ruby 2.7.0dev (2019-06-25T07:46:53Z trunk d7887b05d8) +JIT [x86_64-linux]
+    last_commit=Fixed broken ruby/spec related a53ab897c35586a836710a8afeb1e8c1abd9b087
+  1cbc4f9876: |-
+    ruby 2.7.0dev (2019-06-25T08:22:02Z trunk 1cbc4f9876) [x86_64-linux]
+    last_commit=test/net/imap/test_imap.rb: use Thread#stop? to wait for server thread
+  1cbc4f9876 --jit: |-
+    ruby 2.7.0dev (2019-06-25T08:22:02Z trunk 1cbc4f9876) +JIT [x86_64-linux]
+    last_commit=test/net/imap/test_imap.rb: use Thread#stop? to wait for server thread
