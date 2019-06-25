@@ -4577,3 +4577,9 @@ commits:
   e09afd15b7 --jit: |-
     ruby 2.7.0dev (2019-06-24T15:19:49Z trunk e09afd15b7) +JIT [x86_64-linux]
     last_commit=* 2019-06-25
+  dbe232e24e: |-
+    ruby 2.7.0dev (2019-06-25T05:04:04Z trunk dbe232e24e) [x86_64-linux]
+    last_commit=Order of arguments might be incorrect in arm32 coroutine implementation.
+  dbe232e24e --jit: |-
+    ruby 2.7.0dev (2019-06-25T05:04:04Z trunk dbe232e24e) +JIT [x86_64-linux]
+    last_commit=Order of arguments might be incorrect in arm32 coroutine implementation.
