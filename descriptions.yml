@@ -4703,3 +4703,27 @@ commits:
   a84a99ffab --jit: |-
     ruby 2.7.0dev (2019-06-26T07:04:07Z trunk a84a99ffab) +JIT [x86_64-linux]
     last_commit=test/ruby/test_array.rb (test_sort_with_replace): run in a subprocess
+  6c6bf9ffcb: |-
+    ruby 2.7.0dev (2019-06-26T08:19:53Z trunk 6c6bf9ffcb) [x86_64-linux]
+    last_commit=Add `ucontext` coroutine implementation for generic fallback.
+  6c6bf9ffcb --jit: |-
+    ruby 2.7.0dev (2019-06-26T08:19:53Z trunk 6c6bf9ffcb) +JIT [x86_64-linux]
+    last_commit=Add `ucontext` coroutine implementation for generic fallback.
+  28eeaed8a9: |-
+    ruby 2.7.0dev (2019-06-26T08:23:00Z trunk 28eeaed8a9) [x86_64-linux]
+    last_commit=Revert "coroutine/arm32/Context.S: save/restore the registers via stack"
+  28eeaed8a9 --jit: |-
+    ruby 2.7.0dev (2019-06-26T08:23:00Z trunk 28eeaed8a9) +JIT [x86_64-linux]
+    last_commit=Revert "coroutine/arm32/Context.S: save/restore the registers via stack"
+  ba17127e99: |-
+    ruby 2.7.0dev (2019-06-26T09:44:27Z trunk ba17127e99) [x86_64-linux]
+    last_commit=Decrease nesting level when closing token comes at a non-first token of line
+  ba17127e99 --jit: |-
+    ruby 2.7.0dev (2019-06-26T09:44:27Z trunk ba17127e99) +JIT [x86_64-linux]
+    last_commit=Decrease nesting level when closing token comes at a non-first token of line
+  acb67472c7: |-
+    ruby 2.7.0dev (2019-06-26T10:02:28Z trunk acb67472c7) [x86_64-linux]
+    last_commit=Restore updated implementation of arm32 coroutine code, but prefer ucontext.
+  acb67472c7 --jit: |-
+    ruby 2.7.0dev (2019-06-26T10:02:28Z trunk acb67472c7) +JIT [x86_64-linux]
+    last_commit=Restore updated implementation of arm32 coroutine code, but prefer ucontext.
