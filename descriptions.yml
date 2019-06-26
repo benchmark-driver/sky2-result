@@ -9,16 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  52cfb17086: ruby 2.7.0dev (2019-04-26 trunk 52cfb17086) [x86_64-linux]
-  52cfb17086 --jit: ruby 2.7.0dev (2019-04-26 trunk 52cfb17086) +JIT [x86_64-linux]
-  6669c966d2: ruby 2.7.0dev (2019-04-26 trunk 6669c966d2) [x86_64-linux]
-  6669c966d2 --jit: ruby 2.7.0dev (2019-04-26 trunk 6669c966d2) +JIT [x86_64-linux]
-  a429b3601f: ruby 2.7.0dev (2019-04-26 trunk a429b3601f) [x86_64-linux]
-  a429b3601f --jit: ruby 2.7.0dev (2019-04-26 trunk a429b3601f) +JIT [x86_64-linux]
-  e804fcb42c: ruby 2.7.0dev (2019-04-26 trunk e804fcb42c) [x86_64-linux]
-  e804fcb42c --jit: ruby 2.7.0dev (2019-04-26 trunk e804fcb42c) +JIT [x86_64-linux]
-  8990779d36: ruby 2.7.0dev (2019-04-26 trunk 8990779d36) [x86_64-linux]
-  8990779d36 --jit: ruby 2.7.0dev (2019-04-26 trunk 8990779d36) +JIT [x86_64-linux]
   c8b675adb9: ruby 2.7.0dev (2019-04-26 trunk c8b675adb9) [x86_64-linux]
   c8b675adb9 --jit: ruby 2.7.0dev (2019-04-26 trunk c8b675adb9) +JIT [x86_64-linux]
   a2219e687e: ruby 2.7.0dev (2019-04-27 trunk a2219e687e) [x86_64-linux]
@@ -4653,3 +4643,27 @@ commits:
   730aeb2523 --jit: |-
     ruby 2.7.0dev (2019-06-25T14:32:26Z trunk 730aeb2523) +JIT [x86_64-linux]
     last_commit=Revert 518adcca0a and dbe232e24e
+  0bd5f846df: |-
+    ruby 2.7.0dev (2019-06-25T16:52:34Z trunk 0bd5f846df) [x86_64-linux]
+    last_commit=Document local variable interactions with eval
+  0bd5f846df --jit: |-
+    ruby 2.7.0dev (2019-06-25T16:52:34Z trunk 0bd5f846df) +JIT [x86_64-linux]
+    last_commit=Document local variable interactions with eval
+  dd57442f74: |-
+    ruby 2.7.0dev (2019-06-25T16:53:19Z trunk dd57442f74) [x86_64-linux]
+    last_commit=* remove trailing spaces.
+  dd57442f74 --jit: |-
+    ruby 2.7.0dev (2019-06-25T16:53:19Z trunk dd57442f74) +JIT [x86_64-linux]
+    last_commit=* remove trailing spaces.
+  0aa8c3d88b: |-
+    ruby 2.7.0dev (2019-06-25T16:53:22Z trunk 0aa8c3d88b) [x86_64-linux]
+    last_commit=* 2019-06-26
+  0aa8c3d88b --jit: |-
+    ruby 2.7.0dev (2019-06-25T16:53:22Z trunk 0aa8c3d88b) +JIT [x86_64-linux]
+    last_commit=* 2019-06-26
+  0f28094201: |-
+    ruby 2.7.0dev (2019-06-25T18:18:08Z trunk 0f28094201) [x86_64-linux]
+    last_commit=Improve wording of Local Variables and eval section
+  0f28094201 --jit: |-
+    ruby 2.7.0dev (2019-06-25T18:18:08Z trunk 0f28094201) +JIT [x86_64-linux]
+    last_commit=Improve wording of Local Variables and eval section
