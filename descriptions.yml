@@ -9,24 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  c8b675adb9: ruby 2.7.0dev (2019-04-26 trunk c8b675adb9) [x86_64-linux]
-  c8b675adb9 --jit: ruby 2.7.0dev (2019-04-26 trunk c8b675adb9) +JIT [x86_64-linux]
-  a2219e687e: ruby 2.7.0dev (2019-04-27 trunk a2219e687e) [x86_64-linux]
-  a2219e687e --jit: ruby 2.7.0dev (2019-04-27 trunk a2219e687e) +JIT [x86_64-linux]
-  782e487260: ruby 2.7.0dev (2019-04-27 trunk 782e487260) [x86_64-linux]
-  782e487260 --jit: ruby 2.7.0dev (2019-04-27 trunk 782e487260) +JIT [x86_64-linux]
-  569c1ef6f1: ruby 2.7.0dev (2019-04-27 trunk 569c1ef6f1) [x86_64-linux]
-  569c1ef6f1 --jit: ruby 2.7.0dev (2019-04-27 trunk 569c1ef6f1) +JIT [x86_64-linux]
-  baad9e8a1c: ruby 2.7.0dev (2019-04-27 trunk baad9e8a1c) [x86_64-linux]
-  baad9e8a1c --jit: ruby 2.7.0dev (2019-04-27 trunk baad9e8a1c) +JIT [x86_64-linux]
-  be8cf0d4f6: ruby 2.7.0dev (2019-04-27 trunk be8cf0d4f6) [x86_64-linux]
-  be8cf0d4f6 --jit: ruby 2.7.0dev (2019-04-27 trunk be8cf0d4f6) +JIT [x86_64-linux]
-  48313f129a: ruby 2.7.0dev (2019-04-27 trunk 48313f129a) [x86_64-linux]
-  48313f129a --jit: ruby 2.7.0dev (2019-04-27 trunk 48313f129a) +JIT [x86_64-linux]
-  5f6ba669ff: ruby 2.7.0dev (2019-04-27 trunk 5f6ba669ff) [x86_64-linux]
-  5f6ba669ff --jit: ruby 2.7.0dev (2019-04-27 trunk 5f6ba669ff) +JIT [x86_64-linux]
-  ecf660e438: ruby 2.7.0dev (2019-04-27 trunk ecf660e438) [x86_64-linux]
-  ecf660e438 --jit: ruby 2.7.0dev (2019-04-27 trunk ecf660e438) +JIT [x86_64-linux]
   7fe04850d2: ruby 2.7.0dev (2019-04-27 trunk 7fe04850d2) [x86_64-linux]
   7fe04850d2 --jit: ruby 2.7.0dev (2019-04-27 trunk 7fe04850d2) +JIT [x86_64-linux]
   bc01f7b721: ruby 2.7.0dev (2019-04-27 trunk bc01f7b721) [x86_64-linux]
@@ -4697,3 +4679,27 @@ commits:
   51361272f9 --jit: |-
     ruby 2.7.0dev (2019-06-26T02:02:48Z trunk 51361272f9) +JIT [x86_64-linux]
     last_commit=Respect --dest-dir when removing old default gems
+  6df1814c08: |-
+    ruby 2.7.0dev (2019-06-26T05:08:10Z trunk 6df1814c08) [x86_64-linux]
+    last_commit=coroutine/arm32/Context.S: save/restore the registers via stack
+  6df1814c08 --jit: |-
+    ruby 2.7.0dev (2019-06-26T05:08:10Z trunk 6df1814c08) +JIT [x86_64-linux]
+    last_commit=coroutine/arm32/Context.S: save/restore the registers via stack
+  fe0ddf0e58: |-
+    ruby 2.7.0dev (2019-06-26T06:01:01Z trunk fe0ddf0e58) [x86_64-linux]
+    last_commit=`ensure` is not a continuos line
+  fe0ddf0e58 --jit: |-
+    ruby 2.7.0dev (2019-06-26T06:01:01Z trunk fe0ddf0e58) +JIT [x86_64-linux]
+    last_commit=`ensure` is not a continuos line
+  04bc4c0662: |-
+    ruby 2.7.0dev (2019-06-26T06:01:48Z trunk 04bc4c0662) [x86_64-linux]
+    last_commit=Resize capacity for fstring
+  04bc4c0662 --jit: |-
+    ruby 2.7.0dev (2019-06-26T06:01:48Z trunk 04bc4c0662) +JIT [x86_64-linux]
+    last_commit=Resize capacity for fstring
+  a84a99ffab: |-
+    ruby 2.7.0dev (2019-06-26T07:04:07Z trunk a84a99ffab) [x86_64-linux]
+    last_commit=test/ruby/test_array.rb (test_sort_with_replace): run in a subprocess
+  a84a99ffab --jit: |-
+    ruby 2.7.0dev (2019-06-26T07:04:07Z trunk a84a99ffab) +JIT [x86_64-linux]
+    last_commit=test/ruby/test_array.rb (test_sort_with_replace): run in a subprocess
