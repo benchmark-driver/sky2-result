@@ -9,26 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  7fe04850d2: ruby 2.7.0dev (2019-04-27 trunk 7fe04850d2) [x86_64-linux]
-  7fe04850d2 --jit: ruby 2.7.0dev (2019-04-27 trunk 7fe04850d2) +JIT [x86_64-linux]
-  bc01f7b721: ruby 2.7.0dev (2019-04-27 trunk bc01f7b721) [x86_64-linux]
-  bc01f7b721 --jit: ruby 2.7.0dev (2019-04-27 trunk bc01f7b721) +JIT [x86_64-linux]
-  afb361dfd0: ruby 2.7.0dev (2019-04-27 trunk afb361dfd0) [x86_64-linux]
-  afb361dfd0 --jit: ruby 2.7.0dev (2019-04-27 trunk afb361dfd0) +JIT [x86_64-linux]
-  3f9562015e: ruby 2.7.0dev (2019-04-27 trunk 3f9562015e) [x86_64-linux]
-  3f9562015e --jit: ruby 2.7.0dev (2019-04-27 trunk 3f9562015e) +JIT [x86_64-linux]
-  '9348643575': ruby 2.7.0dev (2019-04-27 trunk 9348643575) [x86_64-linux]
-  9348643575 --jit: ruby 2.7.0dev (2019-04-27 trunk 9348643575) +JIT [x86_64-linux]
-  3067370f61: ruby 2.7.0dev (2019-04-27 trunk 3067370f61) [x86_64-linux]
-  3067370f61 --jit: ruby 2.7.0dev (2019-04-27 trunk 3067370f61) +JIT [x86_64-linux]
-  af1e487e9b: ruby 2.7.0dev (2019-04-27 trunk af1e487e9b) [x86_64-linux]
-  af1e487e9b --jit: ruby 2.7.0dev (2019-04-27 trunk af1e487e9b) +JIT [x86_64-linux]
-  6f8ac2cb28: ruby 2.7.0dev (2019-04-27 trunk 6f8ac2cb28) [x86_64-linux]
-  6f8ac2cb28 --jit: ruby 2.7.0dev (2019-04-27 trunk 6f8ac2cb28) +JIT [x86_64-linux]
-  7875c42f64: ruby 2.7.0dev (2019-04-27 trunk 7875c42f64) [x86_64-linux]
-  7875c42f64 --jit: ruby 2.7.0dev (2019-04-27 trunk 7875c42f64) +JIT [x86_64-linux]
-  2a4625115a: ruby 2.7.0dev (2019-04-27 trunk 2a4625115a) [x86_64-linux]
-  2a4625115a --jit: ruby 2.7.0dev (2019-04-27 trunk 2a4625115a) +JIT [x86_64-linux]
   db614dbf6d: ruby 2.7.0dev (2019-04-27 trunk db614dbf6d) [x86_64-linux]
   db614dbf6d --jit: ruby 2.7.0dev (2019-04-27 trunk db614dbf6d) +JIT [x86_64-linux]
   429fdf3de2: ruby 2.7.0dev (2019-04-27 trunk 429fdf3de2) [x86_64-linux]
@@ -4739,3 +4719,27 @@ commits:
   1235e054eb --jit: |-
     ruby 2.7.0dev (2019-06-26T12:44:42Z trunk 1235e054eb) +JIT [x86_64-linux]
     last_commit=[DOC] Add spaces [ci skip]
+  d004989ac6: |-
+    ruby 2.7.0dev (2019-06-26T14:53:54Z trunk d004989ac6) [x86_64-linux]
+    last_commit=Do not attempt to use ucontext for fibers on OpenBSD
+  d004989ac6 --jit: |-
+    ruby 2.7.0dev (2019-06-26T14:53:54Z trunk d004989ac6) +JIT [x86_64-linux]
+    last_commit=Do not attempt to use ucontext for fibers on OpenBSD
+  72bfc52de6: |-
+    ruby 2.7.0dev (2019-06-26T16:21:06Z trunk 72bfc52de6) [x86_64-linux]
+    last_commit=Decrease indent by closing token correctly
+  72bfc52de6 --jit: |-
+    ruby 2.7.0dev (2019-06-26T16:21:06Z trunk 72bfc52de6) +JIT [x86_64-linux]
+    last_commit=Decrease indent by closing token correctly
+  df3c94712b: |-
+    ruby 2.7.0dev (2019-06-26T16:21:53Z trunk df3c94712b) [x86_64-linux]
+    last_commit=* 2019-06-27
+  df3c94712b --jit: |-
+    ruby 2.7.0dev (2019-06-26T16:21:53Z trunk df3c94712b) +JIT [x86_64-linux]
+    last_commit=* 2019-06-27
+  24c4e6dec1: |-
+    ruby 2.7.0dev (2019-06-26T16:26:14Z trunk 24c4e6dec1) [x86_64-linux]
+    last_commit=Increase indent of continuation line
+  24c4e6dec1 --jit: |-
+    ruby 2.7.0dev (2019-06-26T16:26:14Z trunk 24c4e6dec1) +JIT [x86_64-linux]
+    last_commit=Increase indent of continuation line
