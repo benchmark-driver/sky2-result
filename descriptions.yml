@@ -4679,3 +4679,21 @@ commits:
   e478671e19 --jit: |-
     ruby 2.7.0dev (2019-06-26T00:23:02Z trunk e478671e19) +JIT [x86_64-linux]
     last_commit=Added version guard for backtrace printing feature of psych to ruby/spec.
+  ea8bc6822d: |-
+    ruby 2.7.0dev (2019-06-26T01:49:23Z trunk ea8bc6822d) [x86_64-linux]
+    last_commit=Remove other debug prints
+  ea8bc6822d --jit: |-
+    ruby 2.7.0dev (2019-06-26T01:49:23Z trunk ea8bc6822d) +JIT [x86_64-linux]
+    last_commit=Remove other debug prints
+  a3d1cacda6: |-
+    ruby 2.7.0dev (2019-06-26T01:49:23Z trunk a3d1cacda6) [x86_64-linux]
+    last_commit=Decrease indent at "elsif" too
+  a3d1cacda6 --jit: |-
+    ruby 2.7.0dev (2019-06-26T01:49:23Z trunk a3d1cacda6) +JIT [x86_64-linux]
+    last_commit=Decrease indent at "elsif" too
+  51361272f9: |-
+    ruby 2.7.0dev (2019-06-26T02:02:48Z trunk 51361272f9) [x86_64-linux]
+    last_commit=Respect --dest-dir when removing old default gems
+  51361272f9 --jit: |-
+    ruby 2.7.0dev (2019-06-26T02:02:48Z trunk 51361272f9) +JIT [x86_64-linux]
+    last_commit=Respect --dest-dir when removing old default gems
