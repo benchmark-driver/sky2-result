@@ -9,24 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  db614dbf6d: ruby 2.7.0dev (2019-04-27 trunk db614dbf6d) [x86_64-linux]
-  db614dbf6d --jit: ruby 2.7.0dev (2019-04-27 trunk db614dbf6d) +JIT [x86_64-linux]
-  429fdf3de2: ruby 2.7.0dev (2019-04-27 trunk 429fdf3de2) [x86_64-linux]
-  429fdf3de2 --jit: ruby 2.7.0dev (2019-04-27 trunk 429fdf3de2) +JIT [x86_64-linux]
-  87d2a2df1b: ruby 2.7.0dev (2019-04-27 trunk 87d2a2df1b) [x86_64-linux]
-  87d2a2df1b --jit: ruby 2.7.0dev (2019-04-27 trunk 87d2a2df1b) +JIT [x86_64-linux]
-  bb6036946e: ruby 2.7.0dev (2019-04-27 trunk bb6036946e) [x86_64-linux]
-  bb6036946e --jit: ruby 2.7.0dev (2019-04-27 trunk bb6036946e) +JIT [x86_64-linux]
-  80be9e986b: ruby 2.7.0dev (2019-04-28 trunk 80be9e986b) [x86_64-linux]
-  80be9e986b --jit: ruby 2.7.0dev (2019-04-28 trunk 80be9e986b) +JIT [x86_64-linux]
-  00c33d9c23: ruby 2.7.0dev (2019-04-28 trunk 00c33d9c23) [x86_64-linux]
-  00c33d9c23 --jit: ruby 2.7.0dev (2019-04-28 trunk 00c33d9c23) +JIT [x86_64-linux]
-  a1b4816759: ruby 2.7.0dev (2019-04-28 trunk a1b4816759) [x86_64-linux]
-  a1b4816759 --jit: ruby 2.7.0dev (2019-04-28 trunk a1b4816759) +JIT [x86_64-linux]
-  cae0b73214: ruby 2.7.0dev (2019-04-28 trunk cae0b73214) [x86_64-linux]
-  cae0b73214 --jit: ruby 2.7.0dev (2019-04-28 trunk cae0b73214) +JIT [x86_64-linux]
-  ed4f331879: ruby 2.7.0dev (2019-04-28 trunk ed4f331879) [x86_64-linux]
-  ed4f331879 --jit: ruby 2.7.0dev (2019-04-28 trunk ed4f331879) +JIT [x86_64-linux]
   14f004d396: ruby 2.7.0dev (2019-04-28 trunk 14f004d396) [x86_64-linux]
   14f004d396 --jit: ruby 2.7.0dev (2019-04-28 trunk 14f004d396) +JIT [x86_64-linux]
   5b93321064: ruby 2.7.0dev (2019-04-28 trunk 5b93321064) [x86_64-linux]
@@ -4779,3 +4761,21 @@ commits:
   2fd03fd7e6 --jit: |-
     ruby 2.7.0dev (2019-06-27T07:03:43Z trunk 2fd03fd7e6) +JIT [x86_64-linux]
     last_commit=EXPR_LABEL also indicates non-continuation line
+  7b716bc52a: |-
+    ruby 2.7.0dev (2019-06-27T07:58:06Z trunk 7b716bc52a) [x86_64-linux]
+    last_commit=Show the parser states in pretty_print too
+  7b716bc52a --jit: |-
+    ruby 2.7.0dev (2019-06-27T07:58:06Z trunk 7b716bc52a) +JIT [x86_64-linux]
+    last_commit=Show the parser states in pretty_print too
+  2c02d5714e: |-
+    ruby 2.7.0dev (2019-06-27T09:57:23Z trunk 2c02d5714e) [x86_64-linux]
+    last_commit=Add a comment explaining what to do if specs fail on Ruby 2.4
+  2c02d5714e --jit: |-
+    ruby 2.7.0dev (2019-06-27T09:57:23Z trunk 2c02d5714e) +JIT [x86_64-linux]
+    last_commit=Add a comment explaining what to do if specs fail on Ruby 2.4
+  9247f6fcc0: |-
+    ruby 2.7.0dev (2019-06-27T10:06:39Z trunk 9247f6fcc0) [x86_64-linux]
+    last_commit=Expand and clarify documentation about version guards for specs
+  9247f6fcc0 --jit: |-
+    ruby 2.7.0dev (2019-06-27T10:06:39Z trunk 9247f6fcc0) +JIT [x86_64-linux]
+    last_commit=Expand and clarify documentation about version guards for specs
