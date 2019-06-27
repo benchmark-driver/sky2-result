@@ -4749,3 +4749,15 @@ commits:
   7172ab0ec5 --jit: |-
     ruby 2.7.0dev (2019-06-26T23:23:11Z trunk 7172ab0ec5) +JIT [x86_64-linux]
     last_commit=Use native coroutine implementation on OpenBSD-amd64
+  d6bcf36793: |-
+    ruby 2.7.0dev (2019-06-27T01:59:26Z trunk d6bcf36793) [x86_64-linux]
+    last_commit=EXPR_CMDARG also indicates the end of an expression
+  d6bcf36793 --jit: |-
+    ruby 2.7.0dev (2019-06-27T01:59:26Z trunk d6bcf36793) +JIT [x86_64-linux]
+    last_commit=EXPR_CMDARG also indicates the end of an expression
+  c86a9e6592: |-
+    ruby 2.7.0dev (2019-06-27T02:18:02Z trunk c86a9e6592) [x86_64-linux]
+    last_commit=bc mode is already removed [ci skip]
+  c86a9e6592 --jit: |-
+    ruby 2.7.0dev (2019-06-27T02:18:02Z trunk c86a9e6592) +JIT [x86_64-linux]
+    last_commit=bc mode is already removed [ci skip]
