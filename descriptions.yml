@@ -4761,3 +4761,21 @@ commits:
   c86a9e6592 --jit: |-
     ruby 2.7.0dev (2019-06-27T02:18:02Z trunk c86a9e6592) +JIT [x86_64-linux]
     last_commit=bc mode is already removed [ci skip]
+  2a56702eee: |-
+    ruby 2.7.0dev (2019-06-27T06:13:45Z trunk 2a56702eee) [x86_64-linux]
+    last_commit=Test for unterminated here-docs
+  2a56702eee --jit: |-
+    ruby 2.7.0dev (2019-06-27T06:13:45Z trunk 2a56702eee) +JIT [x86_64-linux]
+    last_commit=Test for unterminated here-docs
+  '097554855c': |-
+    ruby 2.7.0dev (2019-06-27T06:32:03Z trunk 097554855c) [x86_64-linux]
+    last_commit=Fix ripper fatal
+  '097554855c --jit': |-
+    ruby 2.7.0dev (2019-06-27T06:32:03Z trunk 097554855c) +JIT [x86_64-linux]
+    last_commit=Fix ripper fatal
+  2fd03fd7e6: |-
+    ruby 2.7.0dev (2019-06-27T07:03:43Z trunk 2fd03fd7e6) [x86_64-linux]
+    last_commit=EXPR_LABEL also indicates non-continuation line
+  2fd03fd7e6 --jit: |-
+    ruby 2.7.0dev (2019-06-27T07:03:43Z trunk 2fd03fd7e6) +JIT [x86_64-linux]
+    last_commit=EXPR_LABEL also indicates non-continuation line
