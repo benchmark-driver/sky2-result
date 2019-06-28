@@ -4805,3 +4805,51 @@ commits:
   14b0c94ac3 --jit: |-
     ruby 2.7.0dev (2019-06-27T23:57:19Z trunk 14b0c94ac3) +JIT [x86_64-linux]
     last_commit=Fix documentation for Net::SMTPServerBusy
+  ff7f71b288: |-
+    ruby 2.7.0dev (2019-06-28T03:02:33Z trunk ff7f71b288) [x86_64-linux]
+    last_commit=O_EXCL has no meaning for fdopen
+  ff7f71b288 --jit: |-
+    ruby 2.7.0dev (2019-06-28T03:02:33Z trunk ff7f71b288) +JIT [x86_64-linux]
+    last_commit=O_EXCL has no meaning for fdopen
+  c9bbcaccf2: |-
+    ruby 2.7.0dev (2019-06-28T03:27:11Z trunk c9bbcaccf2) [x86_64-linux]
+    last_commit=Suppress unused variable warning with RUBYOPT=-w
+  c9bbcaccf2 --jit: |-
+    ruby 2.7.0dev (2019-06-28T03:27:11Z trunk c9bbcaccf2) +JIT [x86_64-linux]
+    last_commit=Suppress unused variable warning with RUBYOPT=-w
+  dc7da30bed: |-
+    ruby 2.7.0dev (2019-06-28T03:31:21Z trunk dc7da30bed) [x86_64-linux]
+    last_commit=Close leaked file descriptor
+  dc7da30bed --jit: |-
+    ruby 2.7.0dev (2019-06-28T03:31:21Z trunk dc7da30bed) +JIT [x86_64-linux]
+    last_commit=Close leaked file descriptor
+  3120252f01: |-
+    ruby 2.7.0dev (2019-06-28T03:33:24Z trunk 3120252f01) [x86_64-linux]
+    last_commit=Suppress void context warning in verbose mode
+  3120252f01 --jit: |-
+    ruby 2.7.0dev (2019-06-28T03:33:24Z trunk 3120252f01) +JIT [x86_64-linux]
+    last_commit=Suppress void context warning in verbose mode
+  5627f744cc: |-
+    ruby 2.7.0dev (2019-06-28T03:37:07Z trunk 5627f744cc) [x86_64-linux]
+    last_commit=Add `require 'test/unit'`
+  5627f744cc --jit: |-
+    ruby 2.7.0dev (2019-06-28T03:37:07Z trunk 5627f744cc) +JIT [x86_64-linux]
+    last_commit=Add `require 'test/unit'`
+  7eaedda557: |-
+    ruby 2.7.0dev (2019-06-28T03:37:36Z trunk 7eaedda557) [x86_64-linux]
+    last_commit=Use block instead of explicit close
+  7eaedda557 --jit: |-
+    ruby 2.7.0dev (2019-06-28T03:37:36Z trunk 7eaedda557) +JIT [x86_64-linux]
+    last_commit=Use block instead of explicit close
+  4562dad94c: |-
+    ruby 2.7.0dev (2019-06-28T03:39:14Z trunk 4562dad94c) [x86_64-linux]
+    last_commit=Removed unused variable
+  4562dad94c --jit: |-
+    ruby 2.7.0dev (2019-06-28T03:39:14Z trunk 4562dad94c) +JIT [x86_64-linux]
+    last_commit=Removed unused variable
+  be14f62caf: |-
+    ruby 2.7.0dev (2019-06-28T03:41:03Z trunk be14f62caf) [x86_64-linux]
+    last_commit=Default @debug to $DEBUG
+  be14f62caf --jit: |-
+    ruby 2.7.0dev (2019-06-28T03:41:03Z trunk be14f62caf) +JIT [x86_64-linux]
+    last_commit=Default @debug to $DEBUG
