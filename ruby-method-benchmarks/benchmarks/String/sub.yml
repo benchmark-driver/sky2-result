@@ -553,6 +553,8 @@ results:
     976c689ad4: 3378128.515
     57b4df07bc: 3422335.251
     38791145eb: 3273890.105
+    8aba3b7a04: 3366147.012
+    ee7999bb84: 3403113.476
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1105,6 +1107,8 @@ results:
     976c689ad4: 3352545.595
     57b4df07bc: 3384133.7
     38791145eb: 3345211.96
+    8aba3b7a04: 3339075.179
+    ee7999bb84: 3362663.754
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -1657,6 +1661,8 @@ results:
     976c689ad4: 1792732.542
     57b4df07bc: 1687430.678
     38791145eb: 1885904.893
+    8aba3b7a04: 1776569.004
+    ee7999bb84: 1627600.939
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -2209,6 +2215,8 @@ results:
     976c689ad4: 2475224.585
     57b4df07bc: 2770863.081
     38791145eb: 2663318.893
+    8aba3b7a04: 2782215.692
+    ee7999bb84: 2374042.111
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -2761,6 +2769,8 @@ results:
     976c689ad4: 3685287.317
     57b4df07bc: 3695861.958
     38791145eb: 3679060.647
+    8aba3b7a04: 3610888.838
+    ee7999bb84: 3705821.983
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -3313,6 +3323,8 @@ results:
     976c689ad4: 3508626.071
     57b4df07bc: 3642622.472
     38791145eb: 3630658.351
+    8aba3b7a04: 3569884.503
+    ee7999bb84: 3651371.4
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -3865,6 +3877,8 @@ results:
     976c689ad4: 1991785.822
     57b4df07bc: 1985759.394
     38791145eb: 2005496.7
+    8aba3b7a04: 1983594.29
+    ee7999bb84: 1544465.468
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -4417,3 +4431,5 @@ results:
     976c689ad4: 2970278.81
     57b4df07bc: 2949921.986
     38791145eb: 2955812.466
+    8aba3b7a04: 2957858.683
+    ee7999bb84: 2804897.545

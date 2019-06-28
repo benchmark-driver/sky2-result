@@ -9,20 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  9a0dbb3414: ruby 2.7.0dev (2019-04-28 trunk 9a0dbb3414) [x86_64-linux]
-  9a0dbb3414 --jit: ruby 2.7.0dev (2019-04-28 trunk 9a0dbb3414) +JIT [x86_64-linux]
-  a27f7e499c: ruby 2.7.0dev (2019-04-28 trunk a27f7e499c) [x86_64-linux]
-  a27f7e499c --jit: ruby 2.7.0dev (2019-04-28 trunk a27f7e499c) +JIT [x86_64-linux]
-  9426da83c6: ruby 2.7.0dev (2019-04-28 trunk 9426da83c6) [x86_64-linux]
-  9426da83c6 --jit: ruby 2.7.0dev (2019-04-28 trunk 9426da83c6) +JIT [x86_64-linux]
-  1c8cefca31: ruby 2.7.0dev (2019-04-28 trunk 1c8cefca31) [x86_64-linux]
-  1c8cefca31 --jit: ruby 2.7.0dev (2019-04-28 trunk 1c8cefca31) +JIT [x86_64-linux]
-  392d84b490: ruby 2.7.0dev (2019-04-28 trunk 392d84b490) [x86_64-linux]
-  392d84b490 --jit: ruby 2.7.0dev (2019-04-28 trunk 392d84b490) +JIT [x86_64-linux]
-  d906dd87b0: ruby 2.7.0dev (2019-04-28 trunk d906dd87b0) [x86_64-linux]
-  d906dd87b0 --jit: ruby 2.7.0dev (2019-04-28 trunk d906dd87b0) +JIT [x86_64-linux]
-  3bc810334c: ruby 2.7.0dev (2019-04-28 trunk 3bc810334c) [x86_64-linux]
-  3bc810334c --jit: ruby 2.7.0dev (2019-04-28 trunk 3bc810334c) +JIT [x86_64-linux]
   cb55024613: ruby 2.7.0dev (2019-04-28 trunk cb55024613) [x86_64-linux]
   cb55024613 --jit: ruby 2.7.0dev (2019-04-28 trunk cb55024613) +JIT [x86_64-linux]
   6bedbf4625: ruby 2.7.0dev (2019-04-28 trunk 6bedbf4625) [x86_64-linux]
@@ -4917,3 +4903,15 @@ commits:
   c718f56ed9 --jit: |-
     ruby 2.7.0dev (2019-06-28T13:25:35Z trunk c718f56ed9) +JIT [x86_64-linux]
     last_commit=Remove auto indent of continuation line
+  d233f9175c: |-
+    ruby 2.7.0dev (2019-06-28T14:21:25Z trunk d233f9175c) [x86_64-linux]
+    last_commit=[DOC] Re-apply r11000, 41256fd43275c8bf66460510da7ab958a802e2a2
+  d233f9175c --jit: |-
+    ruby 2.7.0dev (2019-06-28T14:21:25Z trunk d233f9175c) +JIT [x86_64-linux]
+    last_commit=[DOC] Re-apply r11000, 41256fd43275c8bf66460510da7ab958a802e2a2
+  2bb217bfb7: |-
+    ruby 2.7.0dev (2019-06-28T14:21:37Z trunk 2bb217bfb7) [x86_64-linux]
+    last_commit=Removed unused variables
+  2bb217bfb7 --jit: |-
+    ruby 2.7.0dev (2019-06-28T14:21:37Z trunk 2bb217bfb7) +JIT [x86_64-linux]
+    last_commit=Removed unused variables
