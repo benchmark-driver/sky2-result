@@ -9,18 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  991e32681e: ruby 2.7.0dev (2019-04-29 trunk 991e32681e) [x86_64-linux]
-  991e32681e --jit: ruby 2.7.0dev (2019-04-29 trunk 991e32681e) +JIT [x86_64-linux]
-  75260d36b5: ruby 2.7.0dev (2019-04-29 trunk 75260d36b5) [x86_64-linux]
-  75260d36b5 --jit: ruby 2.7.0dev (2019-04-29 trunk 75260d36b5) +JIT [x86_64-linux]
-  50cbb21ba5: ruby 2.7.0dev (2019-04-29 trunk 50cbb21ba5) [x86_64-linux]
-  50cbb21ba5 --jit: ruby 2.7.0dev (2019-04-29 trunk 50cbb21ba5) +JIT [x86_64-linux]
-  f0776e3203: ruby 2.7.0dev (2019-04-29 trunk f0776e3203) [x86_64-linux]
-  f0776e3203 --jit: ruby 2.7.0dev (2019-04-29 trunk f0776e3203) +JIT [x86_64-linux]
-  dfc0eeb0cf: ruby 2.7.0dev (2019-04-29 trunk dfc0eeb0cf) [x86_64-linux]
-  dfc0eeb0cf --jit: ruby 2.7.0dev (2019-04-29 trunk dfc0eeb0cf) +JIT [x86_64-linux]
-  bbb93608a3: ruby 2.7.0dev (2019-04-29 trunk bbb93608a3) [x86_64-linux]
-  bbb93608a3 --jit: ruby 2.7.0dev (2019-04-29 trunk bbb93608a3) +JIT [x86_64-linux]
   994833085a: ruby 2.7.0dev (2019-04-29 trunk 994833085a) [x86_64-linux]
   994833085a --jit: ruby 2.7.0dev (2019-04-29 trunk 994833085a) +JIT [x86_64-linux]
   79671ec57e: ruby 2.7.0dev (2019-04-29 trunk 79671ec57e) [x86_64-linux]
@@ -4968,4 +4956,10 @@ commits:
     last_commit=Fix predicate to assert if object is same
   cbb7dc21a8 --jit: |-
     ruby 2.7.0dev (2019-06-29T10:17:51Z trunk cbb7dc21a8) +JIT [x86_64-linux]
+    last_commit=Fix predicate to assert if object is same
+  9f648262f9: |-
+    ruby 2.7.0dev (2019-06-29T12:45:59Z trunk 9f648262f9) [x86_64-linux]
+    last_commit=Fix predicate to assert if object is same
+  9f648262f9 --jit: |-
+    ruby 2.7.0dev (2019-06-29T12:45:59Z trunk 9f648262f9) +JIT [x86_64-linux]
     last_commit=Fix predicate to assert if object is same
