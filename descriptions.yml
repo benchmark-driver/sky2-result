@@ -4915,3 +4915,21 @@ commits:
   2bb217bfb7 --jit: |-
     ruby 2.7.0dev (2019-06-28T14:21:37Z trunk 2bb217bfb7) +JIT [x86_64-linux]
     last_commit=Removed unused variables
+  d12d53a6c8: |-
+    ruby 2.7.0dev (2019-06-28T16:30:43Z trunk d12d53a6c8) [x86_64-linux]
+    last_commit=Adjust caller's line number, expect the next line as here-doc
+  d12d53a6c8 --jit: |-
+    ruby 2.7.0dev (2019-06-28T16:30:43Z trunk d12d53a6c8) +JIT [x86_64-linux]
+    last_commit=Adjust caller's line number, expect the next line as here-doc
+  ede056909b: |-
+    ruby 2.7.0dev (2019-06-28T16:31:52Z trunk ede056909b) [x86_64-linux]
+    last_commit=Set file name and line number
+  ede056909b --jit: |-
+    ruby 2.7.0dev (2019-06-28T16:31:52Z trunk ede056909b) +JIT [x86_64-linux]
+    last_commit=Set file name and line number
+  14da3009f0: |-
+    ruby 2.7.0dev (2019-06-28T23:12:36Z trunk 14da3009f0) [x86_64-linux]
+    last_commit=* 2019-06-29
+  14da3009f0 --jit: |-
+    ruby 2.7.0dev (2019-06-28T23:12:36Z trunk 14da3009f0) +JIT [x86_64-linux]
+    last_commit=* 2019-06-29
