@@ -4939,3 +4939,33 @@ commits:
   a88107c44d --jit: |-
     ruby 2.7.0dev (2019-06-29T01:17:37Z trunk a88107c44d) +JIT [x86_64-linux]
     last_commit=* expand tabs.
+  7ba14b029c: |-
+    ruby 2.7.0dev (2019-06-29T08:52:57Z trunk 7ba14b029c) [x86_64-linux]
+    last_commit=Add max option to TestProtocol#create_mockio
+  7ba14b029c --jit: |-
+    ruby 2.7.0dev (2019-06-29T08:52:57Z trunk 7ba14b029c) +JIT [x86_64-linux]
+    last_commit=Add max option to TestProtocol#create_mockio
+  a17fba6989: |-
+    ruby 2.7.0dev (2019-06-29T08:55:22Z trunk a17fba6989) [x86_64-linux]
+    last_commit=Rmove old TestTimeTZ::TZ#abbr attribute
+  a17fba6989 --jit: |-
+    ruby 2.7.0dev (2019-06-29T08:55:22Z trunk a17fba6989) +JIT [x86_64-linux]
+    last_commit=Rmove old TestTimeTZ::TZ#abbr attribute
+  27723b699b: |-
+    ruby 2.7.0dev (2019-06-29T09:45:24Z trunk 27723b699b) [x86_64-linux]
+    last_commit=Should not warn massign parameters as unused
+  27723b699b --jit: |-
+    ruby 2.7.0dev (2019-06-29T09:45:24Z trunk 27723b699b) +JIT [x86_64-linux]
+    last_commit=Should not warn massign parameters as unused
+  792d1deb94: |-
+    ruby 2.7.0dev (2019-06-29T10:07:25Z trunk 792d1deb94) [x86_64-linux]
+    last_commit=Escape control codes in regexp warning message
+  792d1deb94 --jit: |-
+    ruby 2.7.0dev (2019-06-29T10:07:25Z trunk 792d1deb94) +JIT [x86_64-linux]
+    last_commit=Escape control codes in regexp warning message
+  cbb7dc21a8: |-
+    ruby 2.7.0dev (2019-06-29T10:17:51Z trunk cbb7dc21a8) [x86_64-linux]
+    last_commit=Fix predicate to assert if object is same
+  cbb7dc21a8 --jit: |-
+    ruby 2.7.0dev (2019-06-29T10:17:51Z trunk cbb7dc21a8) +JIT [x86_64-linux]
+    last_commit=Fix predicate to assert if object is same
