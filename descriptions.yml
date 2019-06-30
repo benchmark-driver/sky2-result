@@ -5055,3 +5055,51 @@ commits:
   c5eb24349a --jit: |-
     ruby 2.7.0dev (2019-06-30T12:23:54Z trunk c5eb24349a) +JIT [x86_64-linux]
     last_commit=[DOC] update target_thread to TracePoint#enable
+  35cf3e8904: |-
+    ruby 2.7.0dev (2019-06-30T15:14:12Z trunk 35cf3e8904) [x86_64-linux]
+    last_commit=The default branch is changed to master
+  35cf3e8904 --jit: |-
+    ruby 2.7.0dev (2019-06-30T15:14:12Z trunk 35cf3e8904) +JIT [x86_64-linux]
+    last_commit=The default branch is changed to master
+  fc4abbfcd0: |-
+    ruby 2.7.0dev (2019-06-30T15:15:04Z trunk fc4abbfcd0) [x86_64-linux]
+    last_commit=* 2019-07-01
+  fc4abbfcd0 --jit: |-
+    ruby 2.7.0dev (2019-06-30T15:15:04Z trunk fc4abbfcd0) +JIT [x86_64-linux]
+    last_commit=* 2019-07-01
+  9cb58f1698: |-
+    ruby 2.7.0dev (2019-06-30T15:22:38Z trunk 9cb58f1698) [x86_64-linux]
+    last_commit=Suppress unused variable warning
+  9cb58f1698 --jit: |-
+    ruby 2.7.0dev (2019-06-30T15:22:38Z trunk 9cb58f1698) +JIT [x86_64-linux]
+    last_commit=Suppress unused variable warning
+  51b2b605e7: |-
+    ruby 2.7.0dev (2019-06-30T15:22:39Z trunk 51b2b605e7) [x86_64-linux]
+    last_commit=Call deprecated method only inside assert_warning block
+  51b2b605e7 --jit: |-
+    ruby 2.7.0dev (2019-06-30T15:22:39Z trunk 51b2b605e7) +JIT [x86_64-linux]
+    last_commit=Call deprecated method only inside assert_warning block
+  f13fb814e0: |-
+    ruby 2.7.0dev (2019-06-30T15:22:39Z trunk f13fb814e0) [x86_64-linux]
+    last_commit=Return the result of the block given to assert_warning/assert_no_warning
+  f13fb814e0 --jit: |-
+    ruby 2.7.0dev (2019-06-30T15:22:39Z trunk f13fb814e0) +JIT [x86_64-linux]
+    last_commit=Return the result of the block given to assert_warning/assert_no_warning
+  3d1536e618: |-
+    ruby 2.7.0dev (2019-06-30T15:24:14Z trunk 3d1536e618) [x86_64-linux]
+    last_commit=Build AppVeyor only on master
+  3d1536e618 --jit: |-
+    ruby 2.7.0dev (2019-06-30T15:24:14Z trunk 3d1536e618) +JIT [x86_64-linux]
+    last_commit=Build AppVeyor only on master
+  d3d903cb5f: |-
+    ruby 2.7.0dev (2019-06-30T15:48:11Z trunk d3d903cb5f) [x86_64-linux]
+    last_commit=[DOC] Fix typos [ci skip]
+  d3d903cb5f --jit: |-
+    ruby 2.7.0dev (2019-06-30T15:48:11Z trunk d3d903cb5f) +JIT [x86_64-linux]
+    last_commit=[DOC] Fix typos [ci skip]
+  dbe834ab5a: |-
+    ruby 2.7.0dev (2019-06-30T16:05:29Z trunk dbe834ab5a) [x86_64-linux]
+    last_commit=Prefer master rather than trunk in README [ci skip]
+  dbe834ab5a --jit: |-
+    ruby 2.7.0dev (2019-06-30T16:05:29Z trunk dbe834ab5a) +JIT [x86_64-linux]
+    last_commit=Prefer master rather than trunk in README [ci skip]
