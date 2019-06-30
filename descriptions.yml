@@ -4981,3 +4981,81 @@ commits:
   78a8888c3e --jit: |-
     ruby 2.7.0dev (2019-06-30T01:57:24Z trunk 78a8888c3e) +JIT [x86_64-linux]
     last_commit=Hoisted out f_rest_marg
+  41012f2e2b: |-
+    ruby 2.7.0dev (2019-06-30T02:41:10Z trunk 41012f2e2b) [x86_64-linux]
+    last_commit=Add parentheses to suppress warnings
+  41012f2e2b --jit: |-
+    ruby 2.7.0dev (2019-06-30T02:41:10Z trunk 41012f2e2b) +JIT [x86_64-linux]
+    last_commit=Add parentheses to suppress warnings
+  84837e6d16: |-
+    ruby 2.7.0dev (2019-06-30T02:41:10Z trunk 84837e6d16) [x86_64-linux]
+    last_commit=Wait for the helper thread to terminate
+  84837e6d16 --jit: |-
+    ruby 2.7.0dev (2019-06-30T02:41:10Z trunk 84837e6d16) +JIT [x86_64-linux]
+    last_commit=Wait for the helper thread to terminate
+  409b0ec4c3: |-
+    ruby 2.7.0dev (2019-06-30T02:45:37Z trunk 409b0ec4c3) [x86_64-linux]
+    last_commit=Suppress unused variable warnings
+  409b0ec4c3 --jit: |-
+    ruby 2.7.0dev (2019-06-30T02:45:37Z trunk 409b0ec4c3) +JIT [x86_64-linux]
+    last_commit=Suppress unused variable warnings
+  ad3820886b: |-
+    ruby 2.7.0dev (2019-06-30T02:45:37Z trunk ad3820886b) [x86_64-linux]
+    last_commit=Fixed an assertion
+  ad3820886b --jit: |-
+    ruby 2.7.0dev (2019-06-30T02:45:37Z trunk ad3820886b) +JIT [x86_64-linux]
+    last_commit=Fixed an assertion
+  44eca1b22f: |-
+    ruby 2.7.0dev (2019-06-30T02:45:38Z trunk 44eca1b22f) [x86_64-linux]
+    last_commit=Reset the result between assertions
+  44eca1b22f --jit: |-
+    ruby 2.7.0dev (2019-06-30T02:45:38Z trunk 44eca1b22f) +JIT [x86_64-linux]
+    last_commit=Reset the result between assertions
+  8fe3590864: |-
+    ruby 2.7.0dev (2019-06-30T02:45:38Z trunk 8fe3590864) [x86_64-linux]
+    last_commit=Fixed ClosedQueueError by a timing issue
+  8fe3590864 --jit: |-
+    ruby 2.7.0dev (2019-06-30T02:45:38Z trunk 8fe3590864) +JIT [x86_64-linux]
+    last_commit=Fixed ClosedQueueError by a timing issue
+  b43d6e5709: |-
+    ruby 2.7.0dev (2019-06-30T02:45:38Z trunk b43d6e5709) [x86_64-linux]
+    last_commit=Fixed non-working test
+  b43d6e5709 --jit: |-
+    ruby 2.7.0dev (2019-06-30T02:45:38Z trunk b43d6e5709) +JIT [x86_64-linux]
+    last_commit=Fixed non-working test
+  c400c0b4a0: |-
+    ruby 2.7.0dev (2019-06-30T02:45:38Z trunk c400c0b4a0) [x86_64-linux]
+    last_commit=Skip instead of return
+  c400c0b4a0 --jit: |-
+    ruby 2.7.0dev (2019-06-30T02:45:38Z trunk c400c0b4a0) +JIT [x86_64-linux]
+    last_commit=Skip instead of return
+  3620568d3a: |-
+    ruby 2.7.0dev (2019-06-30T02:49:40Z trunk 3620568d3a) [x86_64-linux]
+    last_commit=Suppress void context warnings in verbose mode
+  3620568d3a --jit: |-
+    ruby 2.7.0dev (2019-06-30T02:49:40Z trunk 3620568d3a) +JIT [x86_64-linux]
+    last_commit=Suppress void context warnings in verbose mode
+  4a063546e7: |-
+    ruby 2.7.0dev (2019-06-30T02:49:40Z trunk 4a063546e7) [x86_64-linux]
+    last_commit=Suppress unused literal warnings in verbose mode
+  4a063546e7 --jit: |-
+    ruby 2.7.0dev (2019-06-30T02:49:40Z trunk 4a063546e7) +JIT [x86_64-linux]
+    last_commit=Suppress unused literal warnings in verbose mode
+  5f736d4319: |-
+    ruby 2.7.0dev (2019-06-30T02:49:40Z trunk 5f736d4319) [x86_64-linux]
+    last_commit=Suppress "literal in condition" warnings
+  5f736d4319 --jit: |-
+    ruby 2.7.0dev (2019-06-30T02:49:40Z trunk 5f736d4319) +JIT [x86_64-linux]
+    last_commit=Suppress "literal in condition" warnings
+  cc68084652: |-
+    ruby 2.7.0dev (2019-06-30T02:49:41Z trunk cc68084652) [x86_64-linux]
+    last_commit=Suppress method redefinition warnings
+  cc68084652 --jit: |-
+    ruby 2.7.0dev (2019-06-30T02:49:41Z trunk cc68084652) +JIT [x86_64-linux]
+    last_commit=Suppress method redefinition warnings
+  75129c62eb: |-
+    ruby 2.7.0dev (2019-06-30T02:53:02Z trunk 75129c62eb) [x86_64-linux]
+    last_commit=Suppress "statement not reached" warning
+  75129c62eb --jit: |-
+    ruby 2.7.0dev (2019-06-30T02:53:02Z trunk 75129c62eb) +JIT [x86_64-linux]
+    last_commit=Suppress "statement not reached" warning
