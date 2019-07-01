@@ -5093,3 +5093,27 @@ commits:
   fe03bbaf34 --jit: |-
     ruby 2.7.0dev (2019-07-01T01:16:47Z trunk fe03bbaf34) +JIT [x86_64-linux]
     last_commit=bootstraptest/runner.rb (show_limit): show dots only when printing to a tty
+  6982a9049e: |-
+    ruby 2.7.0dev (2019-07-01T04:02:23Z trunk 6982a9049e) [x86_64-linux]
+    last_commit=Assert obsolete method warnings in IPAddr
+  6982a9049e --jit: |-
+    ruby 2.7.0dev (2019-07-01T04:02:23Z trunk 6982a9049e) +JIT [x86_64-linux]
+    last_commit=Assert obsolete method warnings in IPAddr
+  99dc885974: |-
+    ruby 2.7.0dev (2019-07-01T04:56:55Z trunk 99dc885974) [x86_64-linux]
+    last_commit=Fixed inadvertent ID creation in rb_iv_get
+  99dc885974 --jit: |-
+    ruby 2.7.0dev (2019-07-01T04:56:55Z trunk 99dc885974) +JIT [x86_64-linux]
+    last_commit=Fixed inadvertent ID creation in rb_iv_get
+  77a073239c: |-
+    ruby 2.7.0dev (2019-07-01T05:00:37Z trunk 77a073239c) [x86_64-linux]
+    last_commit=* expand tabs.
+  77a073239c --jit: |-
+    ruby 2.7.0dev (2019-07-01T05:00:37Z trunk 77a073239c) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  c9423b016c: |-
+    ruby 2.7.0dev (2019-07-01T06:02:27Z trunk c9423b016c) [x86_64-linux]
+    last_commit=marshal.c: check instance variable count
+  c9423b016c --jit: |-
+    ruby 2.7.0dev (2019-07-01T06:02:27Z trunk c9423b016c) +JIT [x86_64-linux]
+    last_commit=marshal.c: check instance variable count
