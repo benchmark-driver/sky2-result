@@ -5123,3 +5123,21 @@ commits:
   7f4f40ab31 --jit: |-
     ruby 2.7.0dev (2019-07-01T08:09:08Z trunk 7f4f40ab31) +JIT [x86_64-linux]
     last_commit=bootstraptest/runner.rb (show_limit): defer messages unless verbose and a tty
+  babaad1065: |-
+    ruby 2.7.0dev (2019-07-01T11:05:06Z trunk babaad1065) [x86_64-linux]
+    last_commit=Use configured ASMEXT
+  babaad1065 --jit: |-
+    ruby 2.7.0dev (2019-07-01T11:05:06Z trunk babaad1065) +JIT [x86_64-linux]
+    last_commit=Use configured ASMEXT
+  90c51ca391: |-
+    ruby 2.7.0dev (2019-07-01T11:46:00Z trunk 90c51ca391) [x86_64-linux]
+    last_commit=New indent must be non-negative number
+  90c51ca391 --jit: |-
+    ruby 2.7.0dev (2019-07-01T11:46:00Z trunk 90c51ca391) +JIT [x86_64-linux]
+    last_commit=New indent must be non-negative number
+  76851381cb: |-
+    ruby 2.7.0dev (2019-07-01T12:14:50Z trunk 76851381cb) [x86_64-linux]
+    last_commit=Show "-" if indent level is negative
+  76851381cb --jit: |-
+    ruby 2.7.0dev (2019-07-01T12:14:50Z trunk 76851381cb) +JIT [x86_64-linux]
+    last_commit=Show "-" if indent level is negative
