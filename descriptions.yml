@@ -9,24 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  5a83a1d554: ruby 2.7.0dev (2019-04-30 trunk 5a83a1d554) [x86_64-linux]
-  5a83a1d554 --jit: ruby 2.7.0dev (2019-04-30 trunk 5a83a1d554) +JIT [x86_64-linux]
-  830e40ee05: ruby 2.7.0dev (2019-04-30 trunk 830e40ee05) [x86_64-linux]
-  830e40ee05 --jit: ruby 2.7.0dev (2019-04-30 trunk 830e40ee05) +JIT [x86_64-linux]
-  1dd94dfba3: ruby 2.7.0dev (2019-04-30 trunk 1dd94dfba3) [x86_64-linux]
-  1dd94dfba3 --jit: ruby 2.7.0dev (2019-04-30 trunk 1dd94dfba3) +JIT [x86_64-linux]
-  df3de40932: ruby 2.7.0dev (2019-04-30 trunk df3de40932) [x86_64-linux]
-  df3de40932 --jit: ruby 2.7.0dev (2019-04-30 trunk df3de40932) +JIT [x86_64-linux]
-  50872f4a15: ruby 2.7.0dev (2019-04-30 trunk 50872f4a15) [x86_64-linux]
-  50872f4a15 --jit: ruby 2.7.0dev (2019-04-30 trunk 50872f4a15) +JIT [x86_64-linux]
-  dd942cd5b3: ruby 2.7.0dev (2019-04-30 trunk dd942cd5b3) [x86_64-linux]
-  dd942cd5b3 --jit: ruby 2.7.0dev (2019-04-30 trunk dd942cd5b3) +JIT [x86_64-linux]
-  0eedec6867: ruby 2.7.0dev (2019-04-30 trunk 0eedec6867) [x86_64-linux]
-  0eedec6867 --jit: ruby 2.7.0dev (2019-04-30 trunk 0eedec6867) +JIT [x86_64-linux]
-  4e88e86928: ruby 2.7.0dev (2019-04-30 trunk 4e88e86928) [x86_64-linux]
-  4e88e86928 --jit: ruby 2.7.0dev (2019-04-30 trunk 4e88e86928) +JIT [x86_64-linux]
-  c06821161a: ruby 2.7.0dev (2019-05-01 trunk c06821161a) [x86_64-linux]
-  c06821161a --jit: ruby 2.7.0dev (2019-05-01 trunk c06821161a) +JIT [x86_64-linux]
   3de03544ff: ruby 2.7.0dev (2019-05-01 trunk 3de03544ff) [x86_64-linux]
   3de03544ff --jit: ruby 2.7.0dev (2019-05-01 trunk 3de03544ff) +JIT [x86_64-linux]
   fc3e80cf6d: ruby 2.7.0dev (2019-05-01 trunk fc3e80cf6d) [x86_64-linux]
@@ -5117,3 +5099,27 @@ commits:
   c9423b016c --jit: |-
     ruby 2.7.0dev (2019-07-01T06:02:27Z trunk c9423b016c) +JIT [x86_64-linux]
     last_commit=marshal.c: check instance variable count
+  0b1e26398e: |-
+    ruby 2.7.0dev (2019-07-01T07:18:51Z trunk 0b1e26398e) [x86_64-linux]
+    last_commit=Hoisted out w_ivar_each
+  0b1e26398e --jit: |-
+    ruby 2.7.0dev (2019-07-01T07:18:51Z trunk 0b1e26398e) +JIT [x86_64-linux]
+    last_commit=Hoisted out w_ivar_each
+  78ee2c2453: |-
+    ruby 2.7.0dev (2019-07-01T07:20:03Z trunk 78ee2c2453) [x86_64-linux]
+    last_commit=marshal.c: check instance variable count
+  78ee2c2453 --jit: |-
+    ruby 2.7.0dev (2019-07-01T07:20:03Z trunk 78ee2c2453) +JIT [x86_64-linux]
+    last_commit=marshal.c: check instance variable count
+  70dcf5b368: |-
+    ruby 2.7.0dev (2019-07-01T07:25:56Z trunk 70dcf5b368) [x86_64-linux]
+    last_commit=* expand tabs.
+  70dcf5b368 --jit: |-
+    ruby 2.7.0dev (2019-07-01T07:25:56Z trunk 70dcf5b368) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  7f4f40ab31: |-
+    ruby 2.7.0dev (2019-07-01T08:09:08Z trunk 7f4f40ab31) [x86_64-linux]
+    last_commit=bootstraptest/runner.rb (show_limit): defer messages unless verbose and a tty
+  7f4f40ab31 --jit: |-
+    ruby 2.7.0dev (2019-07-01T08:09:08Z trunk 7f4f40ab31) +JIT [x86_64-linux]
+    last_commit=bootstraptest/runner.rb (show_limit): defer messages unless verbose and a tty
