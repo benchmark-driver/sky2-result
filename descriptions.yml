@@ -5175,3 +5175,69 @@ commits:
   f53d7e4bfd --jit: |-
     ruby 2.7.0dev (2019-07-01T19:39:06Z trunk f53d7e4bfd) +JIT [x86_64-linux]
     last_commit=Raise TypeError if calling ENV.freeze
+  142617c8e1: |-
+    ruby 2.7.0dev (2019-07-01T22:33:13Z trunk 142617c8e1) [x86_64-linux]
+    last_commit=Don't use native realpath(3) on Solaris
+  142617c8e1 --jit: |-
+    ruby 2.7.0dev (2019-07-01T22:33:13Z trunk 142617c8e1) +JIT [x86_64-linux]
+    last_commit=Don't use native realpath(3) on Solaris
+  c3c0e3f5c9: |-
+    ruby 2.7.0dev (2019-07-01T22:59:54Z trunk c3c0e3f5c9) [x86_64-linux]
+    last_commit=Move to tool/lib from test/lib.
+  c3c0e3f5c9 --jit: |-
+    ruby 2.7.0dev (2019-07-01T22:59:54Z trunk c3c0e3f5c9) +JIT [x86_64-linux]
+    last_commit=Move to tool/lib from test/lib.
+  c68781e918: |-
+    ruby 2.7.0dev (2019-07-01T22:59:54Z trunk c68781e918) [x86_64-linux]
+    last_commit=Split test files for test-framework that are test-unit and minitest to tool direcotry.
+  c68781e918 --jit: |-
+    ruby 2.7.0dev (2019-07-01T22:59:54Z trunk c68781e918) +JIT [x86_64-linux]
+    last_commit=Split test files for test-framework that are test-unit and minitest to tool direcotry.
+  897b1e0562: |-
+    ruby 2.7.0dev (2019-07-01T23:00:29Z trunk 897b1e0562) [x86_64-linux]
+    last_commit=Fixed the wrong path for COVERAGE.
+  897b1e0562 --jit: |-
+    ruby 2.7.0dev (2019-07-01T23:00:29Z trunk 897b1e0562) +JIT [x86_64-linux]
+    last_commit=Fixed the wrong path for COVERAGE.
+  f47254d216: |-
+    ruby 2.7.0dev (2019-07-02T00:19:38Z trunk f47254d216) [x86_64-linux]
+    last_commit=colors file has been moved from test to tool
+  f47254d216 --jit: |-
+    ruby 2.7.0dev (2019-07-02T00:19:38Z trunk f47254d216) +JIT [x86_64-linux]
+    last_commit=colors file has been moved from test to tool
+  4adfd5227f: |-
+    ruby 2.7.0dev (2019-07-02T00:23:19Z trunk 4adfd5227f) [x86_64-linux]
+    last_commit=Removed needless exclude option related testframework.
+  4adfd5227f --jit: |-
+    ruby 2.7.0dev (2019-07-02T00:23:19Z trunk 4adfd5227f) +JIT [x86_64-linux]
+    last_commit=Removed needless exclude option related testframework.
+  5aed62454c: |-
+    ruby 2.7.0dev (2019-07-02T00:26:11Z trunk 5aed62454c) [x86_64-linux]
+    last_commit=Adjust minitest file path
+  5aed62454c --jit: |-
+    ruby 2.7.0dev (2019-07-02T00:26:11Z trunk 5aed62454c) +JIT [x86_64-linux]
+    last_commit=Adjust minitest file path
+  b7fdeedbfd: |-
+    ruby 2.7.0dev (2019-07-02T00:31:32Z trunk b7fdeedbfd) [x86_64-linux]
+    last_commit=Renamed to get rid of name clash
+  b7fdeedbfd --jit: |-
+    ruby 2.7.0dev (2019-07-02T00:31:32Z trunk b7fdeedbfd) +JIT [x86_64-linux]
+    last_commit=Renamed to get rid of name clash
+  73923bf583: |-
+    ruby 2.7.0dev (2019-07-02T00:35:11Z trunk 73923bf583) [x86_64-linux]
+    last_commit=[DOC] Add LibreSSL [ci skip]
+  73923bf583 --jit: |-
+    ruby 2.7.0dev (2019-07-02T00:35:11Z trunk 73923bf583) +JIT [x86_64-linux]
+    last_commit=[DOC] Add LibreSSL [ci skip]
+  934a3a926c: |-
+    ruby 2.7.0dev (2019-07-02T00:35:11Z trunk 934a3a926c) [x86_64-linux]
+    last_commit=Prefer master rather than trunk in doc/contributing.rdoc [ci skip]
+  934a3a926c --jit: |-
+    ruby 2.7.0dev (2019-07-02T00:35:11Z trunk 934a3a926c) +JIT [x86_64-linux]
+    last_commit=Prefer master rather than trunk in doc/contributing.rdoc [ci skip]
+  83fed5a4ed: |-
+    ruby 2.7.0dev (2019-07-02T00:37:18Z trunk 83fed5a4ed) [x86_64-linux]
+    last_commit=Adjust minitest file path
+  83fed5a4ed --jit: |-
+    ruby 2.7.0dev (2019-07-02T00:37:18Z trunk 83fed5a4ed) +JIT [x86_64-linux]
+    last_commit=Adjust minitest file path
