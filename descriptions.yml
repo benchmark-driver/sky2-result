@@ -5247,3 +5247,21 @@ commits:
   eb043c8888 --jit: |-
     ruby 2.7.0dev (2019-07-02T02:46:58Z trunk eb043c8888) +JIT [x86_64-linux]
     last_commit=${} does not work with nmake.exe
+  92dcee393a: |-
+    ruby 2.7.0dev (2019-07-02T06:02:16Z trunk 92dcee393a) [x86_64-linux]
+    last_commit=Clean up temporary directory for racc
+  92dcee393a --jit: |-
+    ruby 2.7.0dev (2019-07-02T06:02:16Z trunk 92dcee393a) +JIT [x86_64-linux]
+    last_commit=Clean up temporary directory for racc
+  6ffef8d459: |-
+    ruby 2.7.0dev (2019-07-02T06:02:16Z trunk 6ffef8d459) [x86_64-linux]
+    last_commit=Clean up temporary expired cert file
+  6ffef8d459 --jit: |-
+    ruby 2.7.0dev (2019-07-02T06:02:16Z trunk 6ffef8d459) +JIT [x86_64-linux]
+    last_commit=Clean up temporary expired cert file
+  4d6c35d33a: |-
+    ruby 2.7.0dev (2019-07-02T06:22:22Z trunk 4d6c35d33a) [x86_64-linux]
+    last_commit=Fix test-all substitution
+  4d6c35d33a --jit: |-
+    ruby 2.7.0dev (2019-07-02T06:22:22Z trunk 4d6c35d33a) +JIT [x86_64-linux]
+    last_commit=Fix test-all substitution
