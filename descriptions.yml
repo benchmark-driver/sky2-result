@@ -5265,3 +5265,15 @@ commits:
   4d6c35d33a --jit: |-
     ruby 2.7.0dev (2019-07-02T06:22:22Z trunk 4d6c35d33a) +JIT [x86_64-linux]
     last_commit=Fix test-all substitution
+  e8a2521abe: |-
+    ruby 2.7.0dev (2019-07-02T12:39:22Z trunk e8a2521abe) [x86_64-linux]
+    last_commit=Adjust memory_status.rb under the tool directory.
+  e8a2521abe --jit: |-
+    ruby 2.7.0dev (2019-07-02T12:39:22Z trunk e8a2521abe) +JIT [x86_64-linux]
+    last_commit=Adjust memory_status.rb under the tool directory.
+  e9ea494171: |-
+    ruby 2.7.0dev (2019-07-02T13:11:23Z trunk e9ea494171) [x86_64-linux]
+    last_commit=The behavior of statx(2) depends on the filesystem
+  e9ea494171 --jit: |-
+    ruby 2.7.0dev (2019-07-02T13:11:23Z trunk e9ea494171) +JIT [x86_64-linux]
+    last_commit=The behavior of statx(2) depends on the filesystem
