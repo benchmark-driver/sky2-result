@@ -9,42 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  1f349ea297: ruby 2.7.0dev (2019-05-03 trunk 1f349ea297) [x86_64-linux]
-  1f349ea297 --jit: ruby 2.7.0dev (2019-05-03 trunk 1f349ea297) +JIT [x86_64-linux]
-  77440e949b: ruby 2.7.0dev (2019-05-03 trunk 77440e949b) [x86_64-linux]
-  77440e949b --jit: ruby 2.7.0dev (2019-05-03 trunk 77440e949b) +JIT [x86_64-linux]
-  04fd98d596: ruby 2.7.0dev (2019-05-03 trunk 04fd98d596) [x86_64-linux]
-  04fd98d596 --jit: ruby 2.7.0dev (2019-05-03 trunk 04fd98d596) +JIT [x86_64-linux]
-  a3cbce7822: ruby 2.7.0dev (2019-05-04 trunk a3cbce7822) [x86_64-linux]
-  a3cbce7822 --jit: ruby 2.7.0dev (2019-05-04 trunk a3cbce7822) +JIT [x86_64-linux]
-  b72623012d: ruby 2.7.0dev (2019-05-04 trunk b72623012d) [x86_64-linux]
-  b72623012d --jit: ruby 2.7.0dev (2019-05-04 trunk b72623012d) +JIT [x86_64-linux]
-  8980b53a48: ruby 2.7.0dev (2019-05-04 trunk 8980b53a48) [x86_64-linux]
-  8980b53a48 --jit: ruby 2.7.0dev (2019-05-04 trunk 8980b53a48) +JIT [x86_64-linux]
-  7d30cd47c4: ruby 2.7.0dev (2019-05-04 trunk 7d30cd47c4) [x86_64-linux]
-  7d30cd47c4 --jit: ruby 2.7.0dev (2019-05-04 trunk 7d30cd47c4) +JIT [x86_64-linux]
-  b9e52db283: ruby 2.7.0dev (2019-05-04 trunk b9e52db283) [x86_64-linux]
-  b9e52db283 --jit: ruby 2.7.0dev (2019-05-04 trunk b9e52db283) +JIT [x86_64-linux]
-  8bf3040e30: ruby 2.7.0dev (2019-05-04 trunk 8bf3040e30) [x86_64-linux]
-  8bf3040e30 --jit: ruby 2.7.0dev (2019-05-04 trunk 8bf3040e30) +JIT [x86_64-linux]
-  a380f4c2b7: ruby 2.7.0dev (2019-05-04 trunk a380f4c2b7) [x86_64-linux]
-  a380f4c2b7 --jit: ruby 2.7.0dev (2019-05-04 trunk a380f4c2b7) +JIT [x86_64-linux]
-  848edb03f8: ruby 2.7.0dev (2019-05-04 trunk 848edb03f8) [x86_64-linux]
-  848edb03f8 --jit: ruby 2.7.0dev (2019-05-04 trunk 848edb03f8) +JIT [x86_64-linux]
-  ff21e75d32: ruby 2.7.0dev (2019-05-04 trunk ff21e75d32) [x86_64-linux]
-  ff21e75d32 --jit: ruby 2.7.0dev (2019-05-04 trunk ff21e75d32) +JIT [x86_64-linux]
-  f1b52d3a88: ruby 2.7.0dev (2019-05-04 trunk f1b52d3a88) [x86_64-linux]
-  f1b52d3a88 --jit: ruby 2.7.0dev (2019-05-04 trunk f1b52d3a88) +JIT [x86_64-linux]
-  84e71e9fc1: ruby 2.7.0dev (2019-05-05 trunk 84e71e9fc1) [x86_64-linux]
-  84e71e9fc1 --jit: ruby 2.7.0dev (2019-05-05 trunk 84e71e9fc1) +JIT [x86_64-linux]
-  374c8f4eba: ruby 2.7.0dev (2019-05-05 trunk 374c8f4eba) [x86_64-linux]
-  374c8f4eba --jit: ruby 2.7.0dev (2019-05-05 trunk 374c8f4eba) +JIT [x86_64-linux]
-  b8f3be295b: ruby 2.7.0dev (2019-05-05 trunk b8f3be295b) [x86_64-linux]
-  b8f3be295b --jit: ruby 2.7.0dev (2019-05-05 trunk b8f3be295b) +JIT [x86_64-linux]
-  0c0ed1cee8: ruby 2.7.0dev (2019-05-05 trunk 0c0ed1cee8) [x86_64-linux]
-  0c0ed1cee8 --jit: ruby 2.7.0dev (2019-05-05 trunk 0c0ed1cee8) +JIT [x86_64-linux]
-  bb4ac7a650: ruby 2.7.0dev (2019-05-05 trunk bb4ac7a650) [x86_64-linux]
-  bb4ac7a650 --jit: ruby 2.7.0dev (2019-05-05 trunk bb4ac7a650) +JIT [x86_64-linux]
   35ff4ed47f: ruby 2.7.0dev (2019-05-05 trunk 35ff4ed47f) [x86_64-linux]
   35ff4ed47f --jit: ruby 2.7.0dev (2019-05-05 trunk 35ff4ed47f) +JIT [x86_64-linux]
   594a033ff0: ruby 2.7.0dev (2019-05-05 trunk 594a033ff0) [x86_64-linux]
@@ -5241,3 +5205,45 @@ commits:
   83fed5a4ed --jit: |-
     ruby 2.7.0dev (2019-07-02T00:37:18Z trunk 83fed5a4ed) +JIT [x86_64-linux]
     last_commit=Adjust minitest file path
+  832b509472: |-
+    ruby 2.7.0dev (2019-07-02T00:43:33Z trunk 832b509472) [x86_64-linux]
+    last_commit=with_different_ofs.rb has been moved too
+  832b509472 --jit: |-
+    ruby 2.7.0dev (2019-07-02T00:43:33Z trunk 832b509472) +JIT [x86_64-linux]
+    last_commit=with_different_ofs.rb has been moved too
+  580b7600c7: |-
+    ruby 2.7.0dev (2019-07-02T00:44:37Z trunk 580b7600c7) [x86_64-linux]
+    last_commit=Substitute autoconf variables by prereq.status
+  580b7600c7 --jit: |-
+    ruby 2.7.0dev (2019-07-02T00:44:37Z trunk 580b7600c7) +JIT [x86_64-linux]
+    last_commit=Substitute autoconf variables by prereq.status
+  6e7e0bf257: |-
+    ruby 2.7.0dev (2019-07-02T00:45:29Z trunk 6e7e0bf257) [x86_64-linux]
+    last_commit=Now test-almost equals to test-all
+  6e7e0bf257 --jit: |-
+    ruby 2.7.0dev (2019-07-02T00:45:29Z trunk 6e7e0bf257) +JIT [x86_64-linux]
+    last_commit=Now test-almost equals to test-all
+  c6a131da64: |-
+    ruby 2.7.0dev (2019-07-02T00:49:57Z trunk c6a131da64) [x86_64-linux]
+    last_commit=Removed test-almost from TEST_TARGETS
+  c6a131da64 --jit: |-
+    ruby 2.7.0dev (2019-07-02T00:49:57Z trunk c6a131da64) +JIT [x86_64-linux]
+    last_commit=Removed test-almost from TEST_TARGETS
+  7f3bc3529b: |-
+    ruby 2.7.0dev (2019-07-02T00:56:17Z trunk 7f3bc3529b) [x86_64-linux]
+    last_commit=Adjust jit_support file path.
+  7f3bc3529b --jit: |-
+    ruby 2.7.0dev (2019-07-02T00:56:17Z trunk 7f3bc3529b) +JIT [x86_64-linux]
+    last_commit=Adjust jit_support file path.
+  0b858425e1: |-
+    ruby 2.7.0dev (2019-07-02T01:40:41Z trunk 0b858425e1) [x86_64-linux]
+    last_commit=Use GitHub ruby.git for make-snapshot
+  0b858425e1 --jit: |-
+    ruby 2.7.0dev (2019-07-02T01:40:41Z trunk 0b858425e1) +JIT [x86_64-linux]
+    last_commit=Use GitHub ruby.git for make-snapshot
+  eb043c8888: |-
+    ruby 2.7.0dev (2019-07-02T02:46:58Z trunk eb043c8888) [x86_64-linux]
+    last_commit=${} does not work with nmake.exe
+  eb043c8888 --jit: |-
+    ruby 2.7.0dev (2019-07-02T02:46:58Z trunk eb043c8888) +JIT [x86_64-linux]
+    last_commit=${} does not work with nmake.exe
