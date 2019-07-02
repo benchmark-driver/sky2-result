@@ -9,32 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  3de03544ff: ruby 2.7.0dev (2019-05-01 trunk 3de03544ff) [x86_64-linux]
-  3de03544ff --jit: ruby 2.7.0dev (2019-05-01 trunk 3de03544ff) +JIT [x86_64-linux]
-  fc3e80cf6d: ruby 2.7.0dev (2019-05-01 trunk fc3e80cf6d) [x86_64-linux]
-  fc3e80cf6d --jit: ruby 2.7.0dev (2019-05-01 trunk fc3e80cf6d) +JIT [x86_64-linux]
-  dcb6a6ae3e: ruby 2.7.0dev (2019-05-01 trunk dcb6a6ae3e) [x86_64-linux]
-  dcb6a6ae3e --jit: ruby 2.7.0dev (2019-05-01 trunk dcb6a6ae3e) +JIT [x86_64-linux]
-  2f0f9115d3: ruby 2.7.0dev (2019-05-01 trunk 2f0f9115d3) [x86_64-linux]
-  2f0f9115d3 --jit: ruby 2.7.0dev (2019-05-01 trunk 2f0f9115d3) +JIT [x86_64-linux]
-  474af9ee9a: ruby 2.7.0dev (2019-05-01 trunk 474af9ee9a) [x86_64-linux]
-  474af9ee9a --jit: ruby 2.7.0dev (2019-05-01 trunk 474af9ee9a) +JIT [x86_64-linux]
-  71952440ad: ruby 2.7.0dev (2019-05-01 trunk 71952440ad) [x86_64-linux]
-  71952440ad --jit: ruby 2.7.0dev (2019-05-01 trunk 71952440ad) +JIT [x86_64-linux]
-  a1ae478a31: ruby 2.7.0dev (2019-05-01 trunk a1ae478a31) [x86_64-linux]
-  a1ae478a31 --jit: ruby 2.7.0dev (2019-05-01 trunk a1ae478a31) +JIT [x86_64-linux]
-  d6efb386ba: ruby 2.7.0dev (2019-05-02 trunk d6efb386ba) [x86_64-linux]
-  d6efb386ba --jit: ruby 2.7.0dev (2019-05-02 trunk d6efb386ba) +JIT [x86_64-linux]
-  5e23b1138f: ruby 2.7.0dev (2019-05-02 trunk 5e23b1138f) [x86_64-linux]
-  5e23b1138f --jit: ruby 2.7.0dev (2019-05-02 trunk 5e23b1138f) +JIT [x86_64-linux]
-  5c87bb3b90: ruby 2.7.0dev (2019-05-02 trunk 5c87bb3b90) [x86_64-linux]
-  5c87bb3b90 --jit: ruby 2.7.0dev (2019-05-02 trunk 5c87bb3b90) +JIT [x86_64-linux]
-  7d02bab0b0: ruby 2.7.0dev (2019-05-02 trunk 7d02bab0b0) [x86_64-linux]
-  7d02bab0b0 --jit: ruby 2.7.0dev (2019-05-02 trunk 7d02bab0b0) +JIT [x86_64-linux]
-  58cd4b7bde: ruby 2.7.0dev (2019-05-03 trunk 58cd4b7bde) [x86_64-linux]
-  58cd4b7bde --jit: ruby 2.7.0dev (2019-05-03 trunk 58cd4b7bde) +JIT [x86_64-linux]
-  5776ae3475: ruby 2.7.0dev (2019-05-03 trunk 5776ae3475) [x86_64-linux]
-  5776ae3475 --jit: ruby 2.7.0dev (2019-05-03 trunk 5776ae3475) +JIT [x86_64-linux]
   1f349ea297: ruby 2.7.0dev (2019-05-03 trunk 1f349ea297) [x86_64-linux]
   1f349ea297 --jit: ruby 2.7.0dev (2019-05-03 trunk 1f349ea297) +JIT [x86_64-linux]
   77440e949b: ruby 2.7.0dev (2019-05-03 trunk 77440e949b) [x86_64-linux]
@@ -5165,3 +5139,39 @@ commits:
   7ff2bfed92 --jit: |-
     ruby 2.7.0dev (2019-07-01T14:16:47Z trunk 7ff2bfed92) +JIT [x86_64-linux]
     last_commit=Alias "master" and "trunk"
+  776759e300: |-
+    ruby 2.7.0dev (2019-07-01T18:34:15Z trunk 776759e300) [x86_64-linux]
+    last_commit=Keyword token that follows EXPR_FNAME must be a method name
+  776759e300 --jit: |-
+    ruby 2.7.0dev (2019-07-01T18:34:15Z trunk 776759e300) +JIT [x86_64-linux]
+    last_commit=Keyword token that follows EXPR_FNAME must be a method name
+  005dadf3c1: |-
+    ruby 2.7.0dev (2019-07-01T18:35:08Z trunk 005dadf3c1) [x86_64-linux]
+    last_commit=* 2019-07-02
+  005dadf3c1 --jit: |-
+    ruby 2.7.0dev (2019-07-01T18:35:08Z trunk 005dadf3c1) +JIT [x86_64-linux]
+    last_commit=* 2019-07-02
+  81fe82be4e: |-
+    ruby 2.7.0dev (2019-07-01T18:44:12Z trunk 81fe82be4e) [x86_64-linux]
+    last_commit=Enable native fiber coroutines on i386-openbsd
+  81fe82be4e --jit: |-
+    ruby 2.7.0dev (2019-07-01T18:44:12Z trunk 81fe82be4e) +JIT [x86_64-linux]
+    last_commit=Enable native fiber coroutines on i386-openbsd
+  11c311e36f: |-
+    ruby 2.7.0dev (2019-07-01T18:46:30Z trunk 11c311e36f) [x86_64-linux]
+    last_commit=Use realpath(3) instead of custom realpath implementation if available
+  11c311e36f --jit: |-
+    ruby 2.7.0dev (2019-07-01T18:46:30Z trunk 11c311e36f) +JIT [x86_64-linux]
+    last_commit=Use realpath(3) instead of custom realpath implementation if available
+  93328b5237: |-
+    ruby 2.7.0dev (2019-07-01T19:14:17Z trunk 93328b5237) [x86_64-linux]
+    last_commit=* expand tabs.
+  93328b5237 --jit: |-
+    ruby 2.7.0dev (2019-07-01T19:14:17Z trunk 93328b5237) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  f53d7e4bfd: |-
+    ruby 2.7.0dev (2019-07-01T19:39:06Z trunk f53d7e4bfd) [x86_64-linux]
+    last_commit=Raise TypeError if calling ENV.freeze
+  f53d7e4bfd --jit: |-
+    ruby 2.7.0dev (2019-07-01T19:39:06Z trunk f53d7e4bfd) +JIT [x86_64-linux]
+    last_commit=Raise TypeError if calling ENV.freeze
