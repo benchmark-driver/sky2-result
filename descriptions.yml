@@ -9,28 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  c54d5872fb: ruby 2.7.0dev (2019-05-08 trunk c54d5872fb) [x86_64-linux]
-  c54d5872fb --jit: ruby 2.7.0dev (2019-05-08 trunk c54d5872fb) +JIT [x86_64-linux]
-  29fcb37a83: ruby 2.7.0dev (2019-05-08 trunk 29fcb37a83) [x86_64-linux]
-  29fcb37a83 --jit: ruby 2.7.0dev (2019-05-08 trunk 29fcb37a83) +JIT [x86_64-linux]
-  a95ca6d5e9: ruby 2.7.0dev (2019-05-08 trunk a95ca6d5e9) [x86_64-linux]
-  a95ca6d5e9 --jit: ruby 2.7.0dev (2019-05-08 trunk a95ca6d5e9) +JIT [x86_64-linux]
-  c53f87943e: ruby 2.7.0dev (2019-05-08 trunk c53f87943e) [x86_64-linux]
-  c53f87943e --jit: ruby 2.7.0dev (2019-05-08 trunk c53f87943e) +JIT [x86_64-linux]
-  8b12db6e19: ruby 2.7.0dev (2019-05-08 trunk 8b12db6e19) [x86_64-linux]
-  8b12db6e19 --jit: ruby 2.7.0dev (2019-05-08 trunk 8b12db6e19) +JIT [x86_64-linux]
-  4ff0911c79: ruby 2.7.0dev (2019-05-09 trunk 4ff0911c79) [x86_64-linux]
-  4ff0911c79 --jit: ruby 2.7.0dev (2019-05-09 trunk 4ff0911c79) +JIT [x86_64-linux]
-  dc405eb737: ruby 2.7.0dev (2019-05-09 trunk dc405eb737) [x86_64-linux]
-  dc405eb737 --jit: ruby 2.7.0dev (2019-05-09 trunk dc405eb737) +JIT [x86_64-linux]
-  10723dd6ce: ruby 2.7.0dev (2019-05-09 trunk 10723dd6ce) [x86_64-linux]
-  10723dd6ce --jit: ruby 2.7.0dev (2019-05-09 trunk 10723dd6ce) +JIT [x86_64-linux]
-  f1486fea46: ruby 2.7.0dev (2019-05-09 trunk f1486fea46) [x86_64-linux]
-  f1486fea46 --jit: ruby 2.7.0dev (2019-05-09 trunk f1486fea46) +JIT [x86_64-linux]
-  4fabb74471: ruby 2.7.0dev (2019-05-09 trunk 4fabb74471) [x86_64-linux]
-  4fabb74471 --jit: ruby 2.7.0dev (2019-05-09 trunk 4fabb74471) +JIT [x86_64-linux]
-  d802698d3e: ruby 2.7.0dev (2019-05-09 trunk d802698d3e) [x86_64-linux]
-  d802698d3e --jit: ruby 2.7.0dev (2019-05-09 trunk d802698d3e) +JIT [x86_64-linux]
   c06ddfee87: ruby 2.7.0dev (2019-05-09 trunk c06ddfee87) [x86_64-linux]
   c06ddfee87 --jit: ruby 2.7.0dev (2019-05-09 trunk c06ddfee87) +JIT [x86_64-linux]
   eb84b33c86: ruby 2.7.0dev (2019-05-09 trunk eb84b33c86) [x86_64-linux]
@@ -5361,3 +5339,39 @@ commits:
   e44c9b1147 --jit: |-
     ruby 2.7.0dev (2019-07-03T10:29:12Z trunk e44c9b1147) +JIT [x86_64-linux]
     last_commit=Try to avoid `not delagated` error
+  6bd49b33c8: |-
+    ruby 2.7.0dev (2019-07-03T13:45:50Z trunk 6bd49b33c8) [x86_64-linux]
+    last_commit=Ensure that GC is disabled during compaction
+  6bd49b33c8 --jit: |-
+    ruby 2.7.0dev (2019-07-03T13:45:50Z trunk 6bd49b33c8) +JIT [x86_64-linux]
+    last_commit=Ensure that GC is disabled during compaction
+  7b9bb6f44a: |-
+    ruby 2.7.0dev (2019-07-03T14:37:46Z trunk 7b9bb6f44a) [x86_64-linux]
+    last_commit=Check code_block_open for whether code continues
+  7b9bb6f44a --jit: |-
+    ruby 2.7.0dev (2019-07-03T14:37:46Z trunk 7b9bb6f44a) +JIT [x86_64-linux]
+    last_commit=Check code_block_open for whether code continues
+  9f1d67a68f: |-
+    ruby 2.7.0dev (2019-07-03T14:52:52Z trunk 9f1d67a68f) [x86_64-linux]
+    last_commit=Renamed to rb_objspace_reachable_object_p
+  9f1d67a68f --jit: |-
+    ruby 2.7.0dev (2019-07-03T14:52:52Z trunk 9f1d67a68f) +JIT [x86_64-linux]
+    last_commit=Renamed to rb_objspace_reachable_object_p
+  d0cd0866d8: |-
+    ruby 2.7.0dev (2019-07-03T15:58:52Z trunk d0cd0866d8) [x86_64-linux]
+    last_commit=Disable GC during rb_objspace_reachable_object_p
+  d0cd0866d8 --jit: |-
+    ruby 2.7.0dev (2019-07-03T15:58:52Z trunk d0cd0866d8) +JIT [x86_64-linux]
+    last_commit=Disable GC during rb_objspace_reachable_object_p
+  c62aac1086: |-
+    ruby 2.7.0dev (2019-07-03T16:04:44Z trunk c62aac1086) [x86_64-linux]
+    last_commit=* expand tabs.
+  c62aac1086 --jit: |-
+    ruby 2.7.0dev (2019-07-03T16:04:44Z trunk c62aac1086) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  5d9e91afe0: |-
+    ruby 2.7.0dev (2019-07-03T16:04:47Z trunk 5d9e91afe0) [x86_64-linux]
+    last_commit=* 2019-07-04
+  5d9e91afe0 --jit: |-
+    ruby 2.7.0dev (2019-07-03T16:04:47Z trunk 5d9e91afe0) +JIT [x86_64-linux]
+    last_commit=* 2019-07-04
