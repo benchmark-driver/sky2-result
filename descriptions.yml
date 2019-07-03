@@ -9,20 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  229e5053a1: ruby 2.7.0dev (2019-05-08 trunk 229e5053a1) [x86_64-linux]
-  229e5053a1 --jit: ruby 2.7.0dev (2019-05-08 trunk 229e5053a1) +JIT [x86_64-linux]
-  a7cbb65956: ruby 2.7.0dev (2019-05-08 trunk a7cbb65956) [x86_64-linux]
-  a7cbb65956 --jit: ruby 2.7.0dev (2019-05-08 trunk a7cbb65956) +JIT [x86_64-linux]
-  d736080c8b: ruby 2.7.0dev (2019-05-08 trunk d736080c8b) [x86_64-linux]
-  d736080c8b --jit: ruby 2.7.0dev (2019-05-08 trunk d736080c8b) +JIT [x86_64-linux]
-  60869ebd00: ruby 2.7.0dev (2019-05-08 trunk 60869ebd00) [x86_64-linux]
-  60869ebd00 --jit: ruby 2.7.0dev (2019-05-08 trunk 60869ebd00) +JIT [x86_64-linux]
-  b0965cc2d6: ruby 2.7.0dev (2019-05-08 trunk b0965cc2d6) [x86_64-linux]
-  b0965cc2d6 --jit: ruby 2.7.0dev (2019-05-08 trunk b0965cc2d6) +JIT [x86_64-linux]
-  e8e415b534: ruby 2.7.0dev (2019-05-08 trunk e8e415b534) [x86_64-linux]
-  e8e415b534 --jit: ruby 2.7.0dev (2019-05-08 trunk e8e415b534) +JIT [x86_64-linux]
-  a1bab3d1a3: ruby 2.7.0dev (2019-05-08 trunk a1bab3d1a3) [x86_64-linux]
-  a1bab3d1a3 --jit: ruby 2.7.0dev (2019-05-08 trunk a1bab3d1a3) +JIT [x86_64-linux]
   c54d5872fb: ruby 2.7.0dev (2019-05-08 trunk c54d5872fb) [x86_64-linux]
   c54d5872fb --jit: ruby 2.7.0dev (2019-05-08 trunk c54d5872fb) +JIT [x86_64-linux]
   29fcb37a83: ruby 2.7.0dev (2019-05-08 trunk 29fcb37a83) [x86_64-linux]
@@ -5303,3 +5289,45 @@ commits:
   0f283054e7 --jit: |-
     ruby 2.7.0dev (2019-07-02T15:34:01Z trunk 0f283054e7) +JIT [x86_64-linux]
     last_commit=Check that String#scrub block does not modify receiver
+  bdddaa9f56: |-
+    ruby 2.7.0dev (2019-07-02T17:09:01Z trunk bdddaa9f56) [x86_64-linux]
+    last_commit=Use rb_ident_hash_new instead of rb_hash_new_compare_by_id
+  bdddaa9f56 --jit: |-
+    ruby 2.7.0dev (2019-07-02T17:09:01Z trunk bdddaa9f56) +JIT [x86_64-linux]
+    last_commit=Use rb_ident_hash_new instead of rb_hash_new_compare_by_id
+  c07165be1d: |-
+    ruby 2.7.0dev (2019-07-02T17:13:25Z trunk c07165be1d) [x86_64-linux]
+    last_commit=* expand tabs.
+  c07165be1d --jit: |-
+    ruby 2.7.0dev (2019-07-02T17:13:25Z trunk c07165be1d) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  712a66b074: |-
+    ruby 2.7.0dev (2019-07-02T18:37:25Z trunk 712a66b074) [x86_64-linux]
+    last_commit=Revert "Avoid corrupting VM stack on inlined setlocal"
+  712a66b074 --jit: |-
+    ruby 2.7.0dev (2019-07-02T18:37:25Z trunk 712a66b074) +JIT [x86_64-linux]
+    last_commit=Revert "Avoid corrupting VM stack on inlined setlocal"
+  efde19ce44: |-
+    ruby 2.7.0dev (2019-07-02T19:05:07Z trunk efde19ce44) [x86_64-linux]
+    last_commit=Revert expansion of test-all
+  efde19ce44 --jit: |-
+    ruby 2.7.0dev (2019-07-02T19:05:07Z trunk efde19ce44) +JIT [x86_64-linux]
+    last_commit=Revert expansion of test-all
+  928260c2a6: |-
+    ruby 2.7.0dev (2019-07-02T19:05:22Z trunk 928260c2a6) [x86_64-linux]
+    last_commit=Warn in verbose mode on defining a finalizer that captures the object
+  928260c2a6 --jit: |-
+    ruby 2.7.0dev (2019-07-02T19:05:22Z trunk 928260c2a6) +JIT [x86_64-linux]
+    last_commit=Warn in verbose mode on defining a finalizer that captures the object
+  796eeb6339: |-
+    ruby 2.7.0dev (2019-07-02T19:22:41Z trunk 796eeb6339) [x86_64-linux]
+    last_commit=Fix up [Feature #15974]
+  796eeb6339 --jit: |-
+    ruby 2.7.0dev (2019-07-02T19:22:41Z trunk 796eeb6339) +JIT [x86_64-linux]
+    last_commit=Fix up [Feature #15974]
+  9f26242411: |-
+    ruby 2.7.0dev (2019-07-02T19:26:53Z trunk 9f26242411) [x86_64-linux]
+    last_commit=* expand tabs.
+  9f26242411 --jit: |-
+    ruby 2.7.0dev (2019-07-02T19:26:53Z trunk 9f26242411) +JIT [x86_64-linux]
+    last_commit=* expand tabs.

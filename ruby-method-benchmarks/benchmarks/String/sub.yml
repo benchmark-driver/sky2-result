@@ -598,6 +598,8 @@ results:
     9b23aab290: 3238574.044
     90014dddec: 3125721.505
     498113d5d3: 3400468.04
+    d710321800: 3337156.659
+    fe3ff5afb0: 3400160.087
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1195,6 +1197,8 @@ results:
     9b23aab290: 3353211.223
     90014dddec: 3346071.714
     498113d5d3: 3331955.037
+    d710321800: 3350242.539
+    fe3ff5afb0: 3292108.865
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -1792,6 +1796,8 @@ results:
     9b23aab290: 1890220.96
     90014dddec: 1875379.085
     498113d5d3: 1850445.233
+    d710321800: 1844263.85
+    fe3ff5afb0: 1814396.699
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -2389,6 +2395,8 @@ results:
     9b23aab290: 2737826.893
     90014dddec: 2777028.04
     498113d5d3: 2755638.408
+    d710321800: 2762707.722
+    fe3ff5afb0: 2631874.757
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -2986,6 +2994,8 @@ results:
     9b23aab290: 3664510.063
     90014dddec: 3666022.346
     498113d5d3: 3650407.787
+    d710321800: 3613072.722
+    fe3ff5afb0: 3699144.203
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -3583,6 +3593,8 @@ results:
     9b23aab290: 3577502.717
     90014dddec: 3537679.293
     498113d5d3: 3471072.154
+    d710321800: 3591699.044
+    fe3ff5afb0: 3622025.582
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -4180,6 +4192,8 @@ results:
     9b23aab290: 1985780.735
     90014dddec: 1985535.172
     498113d5d3: 1940754.462
+    d710321800: 1959249.765
+    fe3ff5afb0: 1914324.386
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -4777,3 +4791,5 @@ results:
     9b23aab290: 2915074.689
     90014dddec: 2958606.951
     498113d5d3: 2933368.075
+    d710321800: 2947938.577
+    fe3ff5afb0: 2942502.328
