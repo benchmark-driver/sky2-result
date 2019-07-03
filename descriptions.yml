@@ -5343,3 +5343,15 @@ commits:
   10cc6bc4d9 --jit: |-
     ruby 2.7.0dev (2019-07-03T01:39:22Z trunk 10cc6bc4d9) +JIT [x86_64-linux]
     last_commit=Just disable inlining with local varaible for now
+  dcedf0a008: |-
+    ruby 2.7.0dev (2019-07-03T05:28:25Z trunk dcedf0a008) [x86_64-linux]
+    last_commit=Fix order of tests
+  dcedf0a008 --jit: |-
+    ruby 2.7.0dev (2019-07-03T05:28:25Z trunk dcedf0a008) +JIT [x86_64-linux]
+    last_commit=Fix order of tests
+  89cef1c56b: |-
+    ruby 2.7.0dev (2019-07-03T06:22:16Z trunk 89cef1c56b) [x86_64-linux]
+    last_commit=Version guard for [Feature #15974]
+  89cef1c56b --jit: |-
+    ruby 2.7.0dev (2019-07-03T06:22:16Z trunk 89cef1c56b) +JIT [x86_64-linux]
+    last_commit=Version guard for [Feature #15974]
