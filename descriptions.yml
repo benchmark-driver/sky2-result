@@ -5331,3 +5331,15 @@ commits:
   9f26242411 --jit: |-
     ruby 2.7.0dev (2019-07-02T19:26:53Z trunk 9f26242411) +JIT [x86_64-linux]
     last_commit=* expand tabs.
+  07e9a1d998: |-
+    ruby 2.7.0dev (2019-07-03T01:23:01Z trunk 07e9a1d998) [x86_64-linux]
+    last_commit=Debugging failures on x86_64-darwin17 of travis-ci
+  07e9a1d998 --jit: |-
+    ruby 2.7.0dev (2019-07-03T01:23:01Z trunk 07e9a1d998) +JIT [x86_64-linux]
+    last_commit=Debugging failures on x86_64-darwin17 of travis-ci
+  10cc6bc4d9: |-
+    ruby 2.7.0dev (2019-07-03T01:39:22Z trunk 10cc6bc4d9) [x86_64-linux]
+    last_commit=Just disable inlining with local varaible for now
+  10cc6bc4d9 --jit: |-
+    ruby 2.7.0dev (2019-07-03T01:39:22Z trunk 10cc6bc4d9) +JIT [x86_64-linux]
+    last_commit=Just disable inlining with local varaible for now
