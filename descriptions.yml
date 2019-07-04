@@ -5375,3 +5375,9 @@ commits:
   5d9e91afe0 --jit: |-
     ruby 2.7.0dev (2019-07-03T16:04:47Z trunk 5d9e91afe0) +JIT [x86_64-linux]
     last_commit=* 2019-07-04
+  23c92b6f82: |-
+    ruby 2.7.0dev (2019-07-03T19:01:06Z trunk 23c92b6f82) [x86_64-linux]
+    last_commit=Revert self-referencing finalizer warning [Feature #15974]
+  23c92b6f82 --jit: |-
+    ruby 2.7.0dev (2019-07-03T19:01:06Z trunk 23c92b6f82) +JIT [x86_64-linux]
+    last_commit=Revert self-referencing finalizer warning [Feature #15974]
