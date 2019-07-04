@@ -619,6 +619,8 @@ results:
     1eca2f3ca9: 3322232.742
     c4cbaef216: 2881680.265
     2a34543e11: 3377637.763
+    0016edbead: 3358730.71
+    9c19cd5222: 3359841.31
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1237,6 +1239,8 @@ results:
     1eca2f3ca9: 3394120.429
     c4cbaef216: 3377688.617
     2a34543e11: 3341668.468
+    0016edbead: 3346239.46
+    9c19cd5222: 3342478.008
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -1855,6 +1859,8 @@ results:
     1eca2f3ca9: 1866953.109
     c4cbaef216: 1852670.387
     2a34543e11: 1889883.753
+    0016edbead: 1850673.94
+    9c19cd5222: 1836396.613
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -2473,6 +2479,8 @@ results:
     1eca2f3ca9: 2650541.309
     c4cbaef216: 2786998.942
     2a34543e11: 2742173.98
+    0016edbead: 2734102.203
+    9c19cd5222: 2647047.023
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -3091,6 +3099,8 @@ results:
     1eca2f3ca9: 3678024.622
     c4cbaef216: 3698949.474
     2a34543e11: 3668866.139
+    0016edbead: 3357807.551
+    9c19cd5222: 3343166.218
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -3709,6 +3719,8 @@ results:
     1eca2f3ca9: 3640518.626
     c4cbaef216: 3637931.666
     2a34543e11: 3662144.142
+    0016edbead: 3589599.295
+    9c19cd5222: 3621585.948
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -4327,6 +4339,8 @@ results:
     1eca2f3ca9: 1995872.402
     c4cbaef216: 1987974.724
     2a34543e11: 1913781.362
+    0016edbead: 1949395.635
+    9c19cd5222: 1956036.426
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -4945,3 +4959,5 @@ results:
     1eca2f3ca9: 2764687.636
     c4cbaef216: 2889259.925
     2a34543e11: 2742905.232
+    0016edbead: 2725238.246
+    9c19cd5222: 2914983.524
