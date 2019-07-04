@@ -9,24 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  c06ddfee87: ruby 2.7.0dev (2019-05-09 trunk c06ddfee87) [x86_64-linux]
-  c06ddfee87 --jit: ruby 2.7.0dev (2019-05-09 trunk c06ddfee87) +JIT [x86_64-linux]
-  eb84b33c86: ruby 2.7.0dev (2019-05-09 trunk eb84b33c86) [x86_64-linux]
-  eb84b33c86 --jit: ruby 2.7.0dev (2019-05-09 trunk eb84b33c86) +JIT [x86_64-linux]
-  025206d0dd: ruby 2.7.0dev (2019-05-09 trunk 025206d0dd) [x86_64-linux]
-  025206d0dd --jit: ruby 2.7.0dev (2019-05-09 trunk 025206d0dd) +JIT [x86_64-linux]
-  5f05851ae3: ruby 2.7.0dev (2019-05-09 trunk 5f05851ae3) [x86_64-linux]
-  5f05851ae3 --jit: ruby 2.7.0dev (2019-05-09 trunk 5f05851ae3) +JIT [x86_64-linux]
-  c4d49749fb: ruby 2.7.0dev (2019-05-10 trunk c4d49749fb) [x86_64-linux]
-  c4d49749fb --jit: ruby 2.7.0dev (2019-05-10 trunk c4d49749fb) +JIT [x86_64-linux]
-  a85ed43294: ruby 2.7.0dev (2019-05-10 trunk a85ed43294) [x86_64-linux]
-  a85ed43294 --jit: ruby 2.7.0dev (2019-05-10 trunk a85ed43294) +JIT [x86_64-linux]
-  bef5829482: ruby 2.7.0dev (2019-05-10 trunk bef5829482) [x86_64-linux]
-  bef5829482 --jit: ruby 2.7.0dev (2019-05-10 trunk bef5829482) +JIT [x86_64-linux]
-  c8a891d1aa: ruby 2.7.0dev (2019-05-10 trunk c8a891d1aa) [x86_64-linux]
-  c8a891d1aa --jit: ruby 2.7.0dev (2019-05-10 trunk c8a891d1aa) +JIT [x86_64-linux]
-  a7b68e63c5: ruby 2.7.0dev (2019-05-10 trunk a7b68e63c5) [x86_64-linux]
-  a7b68e63c5 --jit: ruby 2.7.0dev (2019-05-10 trunk a7b68e63c5) +JIT [x86_64-linux]
   dbcc224f38: ruby 2.7.0dev (2019-05-10 trunk dbcc224f38) [x86_64-linux]
   dbcc224f38 --jit: ruby 2.7.0dev (2019-05-10 trunk dbcc224f38) +JIT [x86_64-linux]
   9a4d39b95e: ruby 2.7.0dev (2019-05-10 trunk 9a4d39b95e) [x86_64-linux]
@@ -5411,3 +5393,21 @@ commits:
   265b9a0edf --jit: |-
     ruby 2.7.0dev (2019-07-04T09:54:50Z trunk 265b9a0edf) +JIT [x86_64-linux]
     last_commit=Parse key sequence more strictly
+  6fa7ed453e: |-
+    ruby 2.7.0dev (2019-07-04T10:29:07Z trunk 6fa7ed453e) [x86_64-linux]
+    last_commit=Check commented out line in inputrc correctly
+  6fa7ed453e --jit: |-
+    ruby 2.7.0dev (2019-07-04T10:29:07Z trunk 6fa7ed453e) +JIT [x86_64-linux]
+    last_commit=Check commented out line in inputrc correctly
+  d9f8b88b47: |-
+    ruby 2.7.0dev (2019-07-04T10:34:08Z trunk d9f8b88b47) [x86_64-linux]
+    last_commit=Move a comment to proper place
+  d9f8b88b47 --jit: |-
+    ruby 2.7.0dev (2019-07-04T10:34:08Z trunk d9f8b88b47) +JIT [x86_64-linux]
+    last_commit=Move a comment to proper place
+  6c2b59f923: |-
+    ruby 2.7.0dev (2019-07-04T11:58:11Z trunk 6c2b59f923) [x86_64-linux]
+    last_commit=Support Control- and Meta-
+  6c2b59f923 --jit: |-
+    ruby 2.7.0dev (2019-07-04T11:58:11Z trunk 6c2b59f923) +JIT [x86_64-linux]
+    last_commit=Support Control- and Meta-
