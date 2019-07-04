@@ -5381,3 +5381,33 @@ commits:
   23c92b6f82 --jit: |-
     ruby 2.7.0dev (2019-07-03T19:01:06Z trunk 23c92b6f82) +JIT [x86_64-linux]
     last_commit=Revert self-referencing finalizer warning [Feature #15974]
+  f19e048d24: |-
+    ruby 2.7.0dev (2019-07-04T06:58:47Z trunk f19e048d24) [x86_64-linux]
+    last_commit=Do not dispatch a nil token in ripper
+  f19e048d24 --jit: |-
+    ruby 2.7.0dev (2019-07-04T06:58:47Z trunk f19e048d24) +JIT [x86_64-linux]
+    last_commit=Do not dispatch a nil token in ripper
+  0c3e6e86bd: |-
+    ruby 2.7.0dev (2019-07-04T09:12:08Z trunk 0c3e6e86bd) [x86_64-linux]
+    last_commit=Suppress uninitialized instance variable warnings
+  0c3e6e86bd --jit: |-
+    ruby 2.7.0dev (2019-07-04T09:12:08Z trunk 0c3e6e86bd) +JIT [x86_64-linux]
+    last_commit=Suppress uninitialized instance variable warnings
+  ee861e43f7: |-
+    ruby 2.7.0dev (2019-07-04T09:47:22Z trunk ee861e43f7) [x86_64-linux]
+    last_commit=Skip indented comment lines [Bug #15981]
+  ee861e43f7 --jit: |-
+    ruby 2.7.0dev (2019-07-04T09:47:22Z trunk ee861e43f7) +JIT [x86_64-linux]
+    last_commit=Skip indented comment lines [Bug #15981]
+  12e06d32f5: |-
+    ruby 2.7.0dev (2019-07-04T09:49:42Z trunk 12e06d32f5) [x86_64-linux]
+    last_commit=Use lstrip instead of gsub which can match only once
+  12e06d32f5 --jit: |-
+    ruby 2.7.0dev (2019-07-04T09:49:42Z trunk 12e06d32f5) +JIT [x86_64-linux]
+    last_commit=Use lstrip instead of gsub which can match only once
+  265b9a0edf: |-
+    ruby 2.7.0dev (2019-07-04T09:54:50Z trunk 265b9a0edf) [x86_64-linux]
+    last_commit=Parse key sequence more strictly
+  265b9a0edf --jit: |-
+    ruby 2.7.0dev (2019-07-04T09:54:50Z trunk 265b9a0edf) +JIT [x86_64-linux]
+    last_commit=Parse key sequence more strictly
