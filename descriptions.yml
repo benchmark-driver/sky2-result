@@ -5423,3 +5423,9 @@ commits:
   0a2f598d23 --jit: |-
     ruby 2.7.0dev (2019-07-05T10:01:15Z trunk 0a2f598d23) +JIT [x86_64-linux]
     last_commit=* 2019-07-05
+  d746a41e85: |-
+    ruby 2.7.0dev (2019-07-05T13:39:54Z trunk d746a41e85) [x86_64-linux]
+    last_commit=Multiple codepoints are not allowed at single character literal
+  d746a41e85 --jit: |-
+    ruby 2.7.0dev (2019-07-05T13:39:54Z trunk d746a41e85) +JIT [x86_64-linux]
+    last_commit=Multiple codepoints are not allowed at single character literal
