@@ -5443,3 +5443,9 @@ commits:
   f296c260ef --jit: |-
     ruby 2.7.0dev (2019-07-06T03:43:38Z trunk f296c260ef) +JIT [x86_64-linux]
     last_commit=Fix segfault when using method reference operator without using result
+  9d8855b682: |-
+    ruby 2.7.0dev (2019-07-06T09:46:00Z trunk 9d8855b682) [x86_64-linux]
+    last_commit=Added assertions for Unicode escaped CHAR scanner events
+  9d8855b682 --jit: |-
+    ruby 2.7.0dev (2019-07-06T09:46:00Z trunk 9d8855b682) +JIT [x86_64-linux]
+    last_commit=Added assertions for Unicode escaped CHAR scanner events
