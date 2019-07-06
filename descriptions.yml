@@ -9,22 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  dbcc224f38: ruby 2.7.0dev (2019-05-10 trunk dbcc224f38) [x86_64-linux]
-  dbcc224f38 --jit: ruby 2.7.0dev (2019-05-10 trunk dbcc224f38) +JIT [x86_64-linux]
-  9a4d39b95e: ruby 2.7.0dev (2019-05-10 trunk 9a4d39b95e) [x86_64-linux]
-  9a4d39b95e --jit: ruby 2.7.0dev (2019-05-10 trunk 9a4d39b95e) +JIT [x86_64-linux]
-  15f45ae4d1: ruby 2.7.0dev (2019-05-10 trunk 15f45ae4d1) [x86_64-linux]
-  15f45ae4d1 --jit: ruby 2.7.0dev (2019-05-10 trunk 15f45ae4d1) +JIT [x86_64-linux]
-  56528da3ef: ruby 2.7.0dev (2019-05-10 trunk 56528da3ef) [x86_64-linux]
-  56528da3ef --jit: ruby 2.7.0dev (2019-05-10 trunk 56528da3ef) +JIT [x86_64-linux]
-  d4c8577a14: ruby 2.7.0dev (2019-05-10 trunk d4c8577a14) [x86_64-linux]
-  d4c8577a14 --jit: ruby 2.7.0dev (2019-05-10 trunk d4c8577a14) +JIT [x86_64-linux]
-  aa52464efd: ruby 2.7.0dev (2019-05-10 trunk aa52464efd) [x86_64-linux]
-  aa52464efd --jit: ruby 2.7.0dev (2019-05-10 trunk aa52464efd) +JIT [x86_64-linux]
-  dc65e75101: ruby 2.7.0dev (2019-05-10 trunk dc65e75101) [x86_64-linux]
-  dc65e75101 --jit: ruby 2.7.0dev (2019-05-10 trunk dc65e75101) +JIT [x86_64-linux]
-  79931dddba: ruby 2.7.0dev (2019-05-10 trunk 79931dddba) [x86_64-linux]
-  79931dddba --jit: ruby 2.7.0dev (2019-05-10 trunk 79931dddba) +JIT [x86_64-linux]
   e9bb30d47e: ruby 2.7.0dev (2019-05-10 trunk e9bb30d47e) [x86_64-linux]
   e9bb30d47e --jit: ruby 2.7.0dev (2019-05-10 trunk e9bb30d47e) +JIT [x86_64-linux]
   3211a0a1e8: ruby 2.7.0dev (2019-05-12 trunk 3211a0a1e8) [x86_64-linux]
@@ -5441,3 +5425,21 @@ commits:
   833cfeb226 --jit: |-
     ruby 2.7.0dev (2019-07-05T22:20:29Z trunk 833cfeb226) +JIT [x86_64-linux]
     last_commit=* 2019-07-06
+  44aae5fee6: |-
+    ruby 2.7.0dev (2019-07-06T03:11:12Z trunk 44aae5fee6) [x86_64-linux]
+    last_commit=Simplified
+  44aae5fee6 --jit: |-
+    ruby 2.7.0dev (2019-07-06T03:11:12Z trunk 44aae5fee6) +JIT [x86_64-linux]
+    last_commit=Simplified
+  688cef2169: |-
+    ruby 2.7.0dev (2019-07-06T03:31:11Z trunk 688cef2169) [x86_64-linux]
+    last_commit=Refactored width calculations
+  688cef2169 --jit: |-
+    ruby 2.7.0dev (2019-07-06T03:31:11Z trunk 688cef2169) +JIT [x86_64-linux]
+    last_commit=Refactored width calculations
+  f296c260ef: |-
+    ruby 2.7.0dev (2019-07-06T03:43:38Z trunk f296c260ef) [x86_64-linux]
+    last_commit=Fix segfault when using method reference operator without using result
+  f296c260ef --jit: |-
+    ruby 2.7.0dev (2019-07-06T03:43:38Z trunk f296c260ef) +JIT [x86_64-linux]
+    last_commit=Fix segfault when using method reference operator without using result
