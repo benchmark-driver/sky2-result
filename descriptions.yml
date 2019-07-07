@@ -5467,3 +5467,27 @@ commits:
   a33948f40a --jit: |-
     ruby 2.7.0dev (2019-07-07T06:50:58Z trunk a33948f40a) +JIT [x86_64-linux]
     last_commit=* 2019-07-07
+  a13636e756: |-
+    ruby 2.7.0dev (2019-07-07T09:18:22Z trunk a13636e756) [x86_64-linux]
+    last_commit=Message to pipe should end with a newline
+  a13636e756 --jit: |-
+    ruby 2.7.0dev (2019-07-07T09:18:22Z trunk a13636e756) +JIT [x86_64-linux]
+    last_commit=Message to pipe should end with a newline
+  68e5804022: |-
+    ruby 2.7.0dev (2019-07-07T09:33:47Z trunk 68e5804022) [x86_64-linux]
+    last_commit=Add coroutine context switch for i386-mingw32
+  68e5804022 --jit: |-
+    ruby 2.7.0dev (2019-07-07T09:33:47Z trunk 68e5804022) +JIT [x86_64-linux]
+    last_commit=Add coroutine context switch for i386-mingw32
+  19a4c42d61: |-
+    ruby 2.7.0dev (2019-07-07T10:01:48Z trunk 19a4c42d61) [x86_64-linux]
+    last_commit=Unescape #{} in the last commit title
+  19a4c42d61 --jit: |-
+    ruby 2.7.0dev (2019-07-07T10:01:48Z trunk 19a4c42d61) +JIT [x86_64-linux]
+    last_commit=Unescape #{} in the last commit title
+  fc4dd7d3e2: |-
+    ruby 2.7.0dev (2019-07-07T10:05:33Z trunk fc4dd7d3e2) [x86_64-linux]
+    last_commit=Git branch name can contain `#{}` too
+  fc4dd7d3e2 --jit: |-
+    ruby 2.7.0dev (2019-07-07T10:05:33Z trunk fc4dd7d3e2) +JIT [x86_64-linux]
+    last_commit=Git branch name can contain `#{}` too
