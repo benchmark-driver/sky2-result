@@ -5449,3 +5449,21 @@ commits:
   9d8855b682 --jit: |-
     ruby 2.7.0dev (2019-07-06T09:46:00Z trunk 9d8855b682) +JIT [x86_64-linux]
     last_commit=Added assertions for Unicode escaped CHAR scanner events
+  789e49dc7e: |-
+    ruby 2.7.0dev (2019-07-07T05:43:54Z trunk 789e49dc7e) [x86_64-linux]
+    last_commit=Renamed column in token_info to indent
+  789e49dc7e --jit: |-
+    ruby 2.7.0dev (2019-07-07T05:43:54Z trunk 789e49dc7e) +JIT [x86_64-linux]
+    last_commit=Renamed column in token_info to indent
+  d548073f68: |-
+    ruby 2.7.0dev (2019-07-07T06:47:40Z trunk d548073f68) [x86_64-linux]
+    last_commit=Enable indentation warning against `if` just after `else`
+  d548073f68 --jit: |-
+    ruby 2.7.0dev (2019-07-07T06:47:40Z trunk d548073f68) +JIT [x86_64-linux]
+    last_commit=Enable indentation warning against `if` just after `else`
+  a33948f40a: |-
+    ruby 2.7.0dev (2019-07-07T06:50:58Z trunk a33948f40a) [x86_64-linux]
+    last_commit=* 2019-07-07
+  a33948f40a --jit: |-
+    ruby 2.7.0dev (2019-07-07T06:50:58Z trunk a33948f40a) +JIT [x86_64-linux]
+    last_commit=* 2019-07-07
