@@ -9,24 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  e9bb30d47e: ruby 2.7.0dev (2019-05-10 trunk e9bb30d47e) [x86_64-linux]
-  e9bb30d47e --jit: ruby 2.7.0dev (2019-05-10 trunk e9bb30d47e) +JIT [x86_64-linux]
-  3211a0a1e8: ruby 2.7.0dev (2019-05-12 trunk 3211a0a1e8) [x86_64-linux]
-  3211a0a1e8 --jit: ruby 2.7.0dev (2019-05-12 trunk 3211a0a1e8) +JIT [x86_64-linux]
-  b1767e56b1: ruby 2.7.0dev (2019-05-12 trunk b1767e56b1) [x86_64-linux]
-  b1767e56b1 --jit: ruby 2.7.0dev (2019-05-12 trunk b1767e56b1) +JIT [x86_64-linux]
-  fc57e10569: ruby 2.7.0dev (2019-05-12 trunk fc57e10569) [x86_64-linux]
-  fc57e10569 --jit: ruby 2.7.0dev (2019-05-12 trunk fc57e10569) +JIT [x86_64-linux]
-  aaaede8bcf: ruby 2.7.0dev (2019-05-12 trunk aaaede8bcf) [x86_64-linux]
-  aaaede8bcf --jit: ruby 2.7.0dev (2019-05-12 trunk aaaede8bcf) +JIT [x86_64-linux]
-  11476e9902: ruby 2.7.0dev (2019-05-12 trunk 11476e9902) [x86_64-linux]
-  11476e9902 --jit: ruby 2.7.0dev (2019-05-12 trunk 11476e9902) +JIT [x86_64-linux]
-  0f45bd0584: ruby 2.7.0dev (2019-05-12 trunk 0f45bd0584) [x86_64-linux]
-  0f45bd0584 --jit: ruby 2.7.0dev (2019-05-12 trunk 0f45bd0584) +JIT [x86_64-linux]
-  d3a702a3f1: ruby 2.7.0dev (2019-05-13 trunk d3a702a3f1) [x86_64-linux]
-  d3a702a3f1 --jit: ruby 2.7.0dev (2019-05-13 trunk d3a702a3f1) +JIT [x86_64-linux]
-  33bce2585f: ruby 2.7.0dev (2019-05-13 trunk 33bce2585f) [x86_64-linux]
-  33bce2585f --jit: ruby 2.7.0dev (2019-05-13 trunk 33bce2585f) +JIT [x86_64-linux]
   559cad9f2d: ruby 2.7.0dev (2019-05-13 trunk 559cad9f2d) [x86_64-linux]
   559cad9f2d --jit: ruby 2.7.0dev (2019-05-13 trunk 559cad9f2d) +JIT [x86_64-linux]
   bb56b89900: ruby 2.7.0dev (2019-05-13 trunk bb56b89900) [x86_64-linux]
@@ -5491,3 +5473,9 @@ commits:
   fc4dd7d3e2 --jit: |-
     ruby 2.7.0dev (2019-07-07T10:05:33Z trunk fc4dd7d3e2) +JIT [x86_64-linux]
     last_commit=Git branch name can contain `#{}` too
+  c1ebb384fd: |-
+    ruby 2.7.0dev (2019-07-07T11:16:31Z trunk c1ebb384fd) [x86_64-linux]
+    last_commit=Fix a typo
+  c1ebb384fd --jit: |-
+    ruby 2.7.0dev (2019-07-07T11:16:31Z trunk c1ebb384fd) +JIT [x86_64-linux]
+    last_commit=Fix a typo
