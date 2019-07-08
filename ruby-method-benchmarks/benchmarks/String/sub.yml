@@ -655,6 +655,8 @@ results:
     88770c2ab6: 3123978.693
     fe9701ee00: 3303037.918
     8f37629519: 3232484.72
+    a1ecf07dff: 3492341.013
+    6096baea5d: 3393766.168
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1309,6 +1311,8 @@ results:
     88770c2ab6: 3340714.5
     fe9701ee00: 3357712.936
     8f37629519: 3282540.467
+    a1ecf07dff: 3417006.109
+    6096baea5d: 3314818.802
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -1963,6 +1967,8 @@ results:
     88770c2ab6: 1468109.617
     fe9701ee00: 1783101.722
     8f37629519: 1847290.304
+    a1ecf07dff: 1887266.47
+    6096baea5d: 1885840.931
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -2617,6 +2623,8 @@ results:
     88770c2ab6: 2769372.931
     fe9701ee00: 2773814.21
     8f37629519: 2744927.06
+    a1ecf07dff: 2794214.802
+    6096baea5d: 2749273.047
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -3271,6 +3279,8 @@ results:
     88770c2ab6: 3668107.227
     fe9701ee00: 3677459.45
     8f37629519: 3660445.19
+    a1ecf07dff: 3705033.89
+    6096baea5d: 3687500.815
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -3925,6 +3935,8 @@ results:
     88770c2ab6: 3480502.491
     fe9701ee00: 3552597.066
     8f37629519: 3521156.688
+    a1ecf07dff: 3704223.866
+    6096baea5d: 3607674.49
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -4579,6 +4591,8 @@ results:
     88770c2ab6: 1937418.279
     fe9701ee00: 1902798.546
     8f37629519: 1888759.457
+    a1ecf07dff: 1967614.628
+    6096baea5d: 1966406.46
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -5233,3 +5247,5 @@ results:
     88770c2ab6: 2945513.251
     fe9701ee00: 2961193.089
     8f37629519: 2972279.064
+    a1ecf07dff: 2952806.463
+    6096baea5d: 2874607.925
