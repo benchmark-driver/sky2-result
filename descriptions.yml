@@ -9,26 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  559cad9f2d: ruby 2.7.0dev (2019-05-13 trunk 559cad9f2d) [x86_64-linux]
-  559cad9f2d --jit: ruby 2.7.0dev (2019-05-13 trunk 559cad9f2d) +JIT [x86_64-linux]
-  bb56b89900: ruby 2.7.0dev (2019-05-13 trunk bb56b89900) [x86_64-linux]
-  bb56b89900 --jit: ruby 2.7.0dev (2019-05-13 trunk bb56b89900) +JIT [x86_64-linux]
-  9cb821b024: ruby 2.7.0dev (2019-05-13 trunk 9cb821b024) [x86_64-linux]
-  9cb821b024 --jit: ruby 2.7.0dev (2019-05-13 trunk 9cb821b024) +JIT [x86_64-linux]
-  c137f015ab: ruby 2.7.0dev (2019-05-13 trunk c137f015ab) [x86_64-linux]
-  c137f015ab --jit: ruby 2.7.0dev (2019-05-13 trunk c137f015ab) +JIT [x86_64-linux]
-  5837290af1: ruby 2.7.0dev (2019-05-13 trunk 5837290af1) [x86_64-linux]
-  5837290af1 --jit: ruby 2.7.0dev (2019-05-13 trunk 5837290af1) +JIT [x86_64-linux]
-  e467f920a3: ruby 2.7.0dev (2019-05-13 trunk e467f920a3) [x86_64-linux]
-  e467f920a3 --jit: ruby 2.7.0dev (2019-05-13 trunk e467f920a3) +JIT [x86_64-linux]
-  130ced9fb0: ruby 2.7.0dev (2019-05-13 trunk 130ced9fb0) [x86_64-linux]
-  130ced9fb0 --jit: ruby 2.7.0dev (2019-05-13 trunk 130ced9fb0) +JIT [x86_64-linux]
-  ebb15cc6c1: ruby 2.7.0dev (2019-05-13 trunk ebb15cc6c1) [x86_64-linux]
-  ebb15cc6c1 --jit: ruby 2.7.0dev (2019-05-13 trunk ebb15cc6c1) +JIT [x86_64-linux]
-  c48778d642: ruby 2.7.0dev (2019-05-13 trunk c48778d642) [x86_64-linux]
-  c48778d642 --jit: ruby 2.7.0dev (2019-05-13 trunk c48778d642) +JIT [x86_64-linux]
-  caef2ddaaf: ruby 2.7.0dev (2019-05-13 trunk caef2ddaaf) [x86_64-linux]
-  caef2ddaaf --jit: ruby 2.7.0dev (2019-05-13 trunk caef2ddaaf) +JIT [x86_64-linux]
   75f196ce75: ruby 2.7.0dev (2019-05-13 trunk 75f196ce75) [x86_64-linux]
   75f196ce75 --jit: ruby 2.7.0dev (2019-05-13 trunk 75f196ce75) +JIT [x86_64-linux]
   24964fff92: ruby 2.7.0dev (2019-05-13 trunk 24964fff92) [x86_64-linux]
@@ -5533,3 +5513,9 @@ commits:
   995ae6d529 --jit: |-
     ruby 2.7.0dev (2019-07-08T08:09:59Z trunk 995ae6d529) +JIT [x86_64-linux]
     last_commit=Check indent of `end` against `else` if present
+  ad38f02645: |-
+    ruby 2.7.0dev (2019-07-08T11:31:40Z trunk ad38f02645) [x86_64-linux]
+    last_commit=Adopt the directory structure of ruby repository for racc extension.
+  ad38f02645 --jit: |-
+    ruby 2.7.0dev (2019-07-08T11:31:40Z trunk ad38f02645) +JIT [x86_64-linux]
+    last_commit=Adopt the directory structure of ruby repository for racc extension.
