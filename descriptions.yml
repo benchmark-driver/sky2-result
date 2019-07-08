@@ -5491,3 +5491,15 @@ commits:
   a2e0aaea1b --jit: |-
     ruby 2.7.0dev (2019-07-08T01:59:04Z trunk a2e0aaea1b) +JIT [x86_64-linux]
     last_commit=* 2019-07-08
+  e9907122ed: |-
+    ruby 2.7.0dev (2019-07-08T04:03:50Z trunk e9907122ed) [x86_64-linux]
+    last_commit=Suppress a warning when `write_headers: true`
+  e9907122ed --jit: |-
+    ruby 2.7.0dev (2019-07-08T04:03:50Z trunk e9907122ed) +JIT [x86_64-linux]
+    last_commit=Suppress a warning when `write_headers: true`
+  612cad5d20: |-
+    ruby 2.7.0dev (2019-07-08T04:30:21Z trunk 612cad5d20) [x86_64-linux]
+    last_commit=Let struct dump_config in objspace fit in a single cache line
+  612cad5d20 --jit: |-
+    ruby 2.7.0dev (2019-07-08T04:30:21Z trunk 612cad5d20) +JIT [x86_64-linux]
+    last_commit=Let struct dump_config in objspace fit in a single cache line
