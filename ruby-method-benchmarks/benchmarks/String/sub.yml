@@ -670,6 +670,8 @@ results:
     af1f3f131f: 3497469.751
     4f2a7b8001: 3381446.849
     0bd5f846df: 3358583.711
+    fdfe51d169: 3324212.384
+    2ee1c76206: 3333828.881
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1339,6 +1341,8 @@ results:
     af1f3f131f: 3443333.688
     4f2a7b8001: 3346885.024
     0bd5f846df: 3319674.245
+    fdfe51d169: 3314085.77
+    2ee1c76206: 3300279.539
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2008,6 +2012,8 @@ results:
     af1f3f131f: 1914338.971
     4f2a7b8001: 1856144.307
     0bd5f846df: 1884974.347
+    fdfe51d169: 1846129.812
+    2ee1c76206: 1878574.352
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -2677,6 +2683,8 @@ results:
     af1f3f131f: 2796830.166
     4f2a7b8001: 2751649.218
     0bd5f846df: 2739414.679
+    fdfe51d169: 2563292.793
+    2ee1c76206: 2728818.656
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -3346,6 +3354,8 @@ results:
     af1f3f131f: 3738394.092
     4f2a7b8001: 3650767.467
     0bd5f846df: 3625396.432
+    fdfe51d169: 3617702.286
+    2ee1c76206: 3609364.988
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -4015,6 +4025,8 @@ results:
     af1f3f131f: 3574615.579
     4f2a7b8001: 3588392.612
     0bd5f846df: 3613020.689
+    fdfe51d169: 3272810.829
+    2ee1c76206: 3570912.68
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -4684,6 +4696,8 @@ results:
     af1f3f131f: 2019398.069
     4f2a7b8001: 1920575.368
     0bd5f846df: 1995075.251
+    fdfe51d169: 1941392.893
+    2ee1c76206: 1943558.501
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -5353,3 +5367,5 @@ results:
     af1f3f131f: 2940960.723
     4f2a7b8001: 2920677.803
     0bd5f846df: 2913989.957
+    fdfe51d169: 2921374.605
+    2ee1c76206: 2912443.009
