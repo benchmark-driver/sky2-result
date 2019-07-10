@@ -9,26 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  d2003a6d39: ruby 2.7.0dev (2019-05-13 trunk d2003a6d39) [x86_64-linux]
-  d2003a6d39 --jit: ruby 2.7.0dev (2019-05-13 trunk d2003a6d39) +JIT [x86_64-linux]
-  0215520bea: ruby 2.7.0dev (2019-05-14 trunk 0215520bea) [x86_64-linux]
-  0215520bea --jit: ruby 2.7.0dev (2019-05-14 trunk 0215520bea) +JIT [x86_64-linux]
-  66a7c92938: ruby 2.7.0dev (2019-05-14 trunk 66a7c92938) [x86_64-linux]
-  66a7c92938 --jit: ruby 2.7.0dev (2019-05-14 trunk 66a7c92938) +JIT [x86_64-linux]
-  a1ecf07dff: ruby 2.7.0dev (2019-05-14 trunk a1ecf07dff) [x86_64-linux]
-  a1ecf07dff --jit: ruby 2.7.0dev (2019-05-14 trunk a1ecf07dff) +JIT [x86_64-linux]
-  79ead821dd: ruby 2.7.0dev (2019-05-14 trunk 79ead821dd) [x86_64-linux]
-  79ead821dd --jit: ruby 2.7.0dev (2019-05-14 trunk 79ead821dd) +JIT [x86_64-linux]
-  741321704f: ruby 2.7.0dev (2019-05-14 trunk 741321704f) [x86_64-linux]
-  741321704f --jit: ruby 2.7.0dev (2019-05-14 trunk 741321704f) +JIT [x86_64-linux]
-  af1f3f131f: ruby 2.7.0dev (2019-05-14 trunk af1f3f131f) [x86_64-linux]
-  af1f3f131f --jit: ruby 2.7.0dev (2019-05-14 trunk af1f3f131f) +JIT [x86_64-linux]
-  5bab1304af: ruby 2.7.0dev (2019-05-14 trunk 5bab1304af) [x86_64-linux]
-  5bab1304af --jit: ruby 2.7.0dev (2019-05-14 trunk 5bab1304af) +JIT [x86_64-linux]
-  602ef62ae6: ruby 2.7.0dev (2019-05-14 trunk 602ef62ae6) [x86_64-linux]
-  602ef62ae6 --jit: ruby 2.7.0dev (2019-05-14 trunk 602ef62ae6) +JIT [x86_64-linux]
-  6d733565c2: ruby 2.7.0dev (2019-05-14 trunk 6d733565c2) [x86_64-linux]
-  6d733565c2 --jit: ruby 2.7.0dev (2019-05-14 trunk 6d733565c2) +JIT [x86_64-linux]
   456586bb23: ruby 2.7.0dev (2019-05-14 trunk 456586bb23) [x86_64-linux]
   456586bb23 --jit: ruby 2.7.0dev (2019-05-14 trunk 456586bb23) +JIT [x86_64-linux]
   c174670823: ruby 2.7.0dev (2019-05-14 trunk c174670823) [x86_64-linux]
@@ -5585,3 +5565,21 @@ commits:
   db844749af --jit: |-
     ruby 2.7.0dev (2019-07-09T16:21:05Z trunk db844749af) +JIT [x86_64-linux]
     last_commit=Added StringIO::VERSION
+  9c48472b1e: |-
+    ruby 2.7.0dev (2019-07-09T16:57:18Z trunk 9c48472b1e) [x86_64-linux]
+    last_commit=Removed useless `freeze`s
+  9c48472b1e --jit: |-
+    ruby 2.7.0dev (2019-07-09T16:57:18Z trunk 9c48472b1e) +JIT [x86_64-linux]
+    last_commit=Removed useless `freeze`s
+  de4889ce5c: |-
+    ruby 2.7.0dev (2019-07-09T17:07:42Z trunk de4889ce5c) [x86_64-linux]
+    last_commit=Use the found version number
+  de4889ce5c --jit: |-
+    ruby 2.7.0dev (2019-07-09T17:07:42Z trunk de4889ce5c) +JIT [x86_64-linux]
+    last_commit=Use the found version number
+  cc936402eb: |-
+    ruby 2.7.0dev (2019-07-09T18:02:01Z trunk cc936402eb) [x86_64-linux]
+    last_commit=C90 for old versions
+  cc936402eb --jit: |-
+    ruby 2.7.0dev (2019-07-09T18:02:01Z trunk cc936402eb) +JIT [x86_64-linux]
+    last_commit=C90 for old versions

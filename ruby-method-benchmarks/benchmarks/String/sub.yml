@@ -678,6 +678,8 @@ results:
     78ee2c2453: 3382802.862
     c1ebb384fd: 3414178.424
     ba17127e99: 3405225.583
+    d0ef5c21fb: 3373560.074
+    4fda39fc87: 3405622.941
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1355,6 +1357,8 @@ results:
     78ee2c2453: 3328109.538
     c1ebb384fd: 3228867.115
     ba17127e99: 3362591.784
+    d0ef5c21fb: 3207396.682
+    4fda39fc87: 3374636.006
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2032,6 +2036,8 @@ results:
     78ee2c2453: 1712630.583
     c1ebb384fd: 1848314.062
     ba17127e99: 1867043.074
+    d0ef5c21fb: 1631560.319
+    4fda39fc87: 1624065.598
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -2709,6 +2715,8 @@ results:
     78ee2c2453: 2493005.122
     c1ebb384fd: 2740603.063
     ba17127e99: 2367311.863
+    d0ef5c21fb: 2747791.655
+    4fda39fc87: 2784581.566
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -3386,6 +3394,8 @@ results:
     78ee2c2453: 3661125.005
     c1ebb384fd: 3680159.7
     ba17127e99: 3418509.443
+    d0ef5c21fb: 3628389.469
+    4fda39fc87: 3718562.542
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -4063,6 +4073,8 @@ results:
     78ee2c2453: 3609368.405
     c1ebb384fd: 3444905.196
     ba17127e99: 3629331.629
+    d0ef5c21fb: 3506248.618
+    4fda39fc87: 3674309.399
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -4740,6 +4752,8 @@ results:
     78ee2c2453: 1985086.933
     c1ebb384fd: 1898107.345
     ba17127e99: 1979922.96
+    d0ef5c21fb: 1918008.098
+    4fda39fc87: 1951922.488
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -5417,3 +5431,5 @@ results:
     78ee2c2453: 2910424.585
     c1ebb384fd: 2911642.086
     ba17127e99: 2538480.173
+    d0ef5c21fb: 2764058.635
+    4fda39fc87: 2955909.816
