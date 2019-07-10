@@ -5595,3 +5595,9 @@ commits:
   1d2ec4b216 --jit: |-
     ruby 2.7.0dev (2019-07-10T03:33:29Z trunk 1d2ec4b216) +JIT [x86_64-linux]
     last_commit=Added Etc::VERSION
+  f91879a7b5: |-
+    ruby 2.7.0dev (2019-07-10T09:13:38Z trunk f91879a7b5) [x86_64-linux]
+    last_commit=handle_interrupt to defend monitor state [Bug #15992]
+  f91879a7b5 --jit: |-
+    ruby 2.7.0dev (2019-07-10T09:13:38Z trunk f91879a7b5) +JIT [x86_64-linux]
+    last_commit=handle_interrupt to defend monitor state [Bug #15992]
