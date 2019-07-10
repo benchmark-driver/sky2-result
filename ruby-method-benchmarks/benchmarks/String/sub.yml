@@ -680,6 +680,8 @@ results:
     ba17127e99: 3405225.583
     d0ef5c21fb: 3373560.074
     4fda39fc87: 3405622.941
+    d6bcf36793: 3388024.685
+    5524de5ca0: 3422057.733
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1359,6 +1361,8 @@ results:
     ba17127e99: 3362591.784
     d0ef5c21fb: 3207396.682
     4fda39fc87: 3374636.006
+    d6bcf36793: 3317194.308
+    5524de5ca0: 3126299.519
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2038,6 +2042,8 @@ results:
     ba17127e99: 1867043.074
     d0ef5c21fb: 1631560.319
     4fda39fc87: 1624065.598
+    d6bcf36793: 1854207.917
+    5524de5ca0: 1861222.372
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -2717,6 +2723,8 @@ results:
     ba17127e99: 2367311.863
     d0ef5c21fb: 2747791.655
     4fda39fc87: 2784581.566
+    d6bcf36793: 2737027.147
+    5524de5ca0: 2787167.425
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -3396,6 +3404,8 @@ results:
     ba17127e99: 3418509.443
     d0ef5c21fb: 3628389.469
     4fda39fc87: 3718562.542
+    d6bcf36793: 3667635.05
+    5524de5ca0: 3725941.6
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -4075,6 +4085,8 @@ results:
     ba17127e99: 3629331.629
     d0ef5c21fb: 3506248.618
     4fda39fc87: 3674309.399
+    d6bcf36793: 3595910.021
+    5524de5ca0: 3669972.382
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -4754,6 +4766,8 @@ results:
     ba17127e99: 1979922.96
     d0ef5c21fb: 1918008.098
     4fda39fc87: 1951922.488
+    d6bcf36793: 1941970.057
+    5524de5ca0: 1988209.257
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -5433,3 +5447,5 @@ results:
     ba17127e99: 2538480.173
     d0ef5c21fb: 2764058.635
     4fda39fc87: 2955909.816
+    d6bcf36793: 2915173.586
+    5524de5ca0: 2980081.653
