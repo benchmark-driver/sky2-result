@@ -691,6 +691,8 @@ results:
     29c16b30ce: 3397369.817
     fc7b4c7018: 3398436.455
     4d650bc257: 3377653.195
+    880204cf55: 3419460.926
+    fd95ab44c6: 3370422.914
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1381,6 +1383,8 @@ results:
     29c16b30ce: 3203286.975
     fc7b4c7018: 3349277.073
     4d650bc257: 3366955.28
+    880204cf55: 3353908.928
+    fd95ab44c6: 3346034.277
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2071,6 +2075,8 @@ results:
     29c16b30ce: 1763443.421
     fc7b4c7018: 1903170.027
     4d650bc257: 1466448.658
+    880204cf55: 1888580.923
+    fd95ab44c6: 1853671.259
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -2761,6 +2767,8 @@ results:
     29c16b30ce: 2742282.518
     fc7b4c7018: 2630419.495
     4d650bc257: 2739402.758
+    880204cf55: 2783122.618
+    fd95ab44c6: 2764604.899
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -3451,6 +3459,8 @@ results:
     29c16b30ce: 3647852.735
     fc7b4c7018: 3336438.326
     4d650bc257: 3497961.225
+    880204cf55: 3695030.579
+    fd95ab44c6: 3633204.291
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -4141,6 +4151,8 @@ results:
     29c16b30ce: 3619699.188
     fc7b4c7018: 3639260.589
     4d650bc257: 3586758.999
+    880204cf55: 3633508.877
+    fd95ab44c6: 3609889.056
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -4831,6 +4843,8 @@ results:
     29c16b30ce: 1956130.341
     fc7b4c7018: 1974000.4
     4d650bc257: 1946770.666
+    880204cf55: 1993307.122
+    fd95ab44c6: 1974130.487
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -5521,3 +5535,5 @@ results:
     29c16b30ce: 2626555.016
     fc7b4c7018: 2939496.409
     4d650bc257: 2942502.4
+    880204cf55: 2954566.41
+    fd95ab44c6: 2841248.266
