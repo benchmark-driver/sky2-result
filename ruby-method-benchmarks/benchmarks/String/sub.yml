@@ -698,6 +698,8 @@ results:
     5ceff480c2: 3368218.783
     5b7cc63d11: 3340931.897
     fd9ac1e76b: 3380342.628
+    232f1117e8: 3363185.958
+    0e6396d2ac: 3367255.8
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1395,6 +1397,8 @@ results:
     5ceff480c2: 3086471.469
     5b7cc63d11: 3314598.626
     fd9ac1e76b: 3341855.687
+    232f1117e8: 3328572.253
+    0e6396d2ac: 3168281.254
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2092,6 +2096,8 @@ results:
     5ceff480c2: 1876859.109
     5b7cc63d11: 1848080.682
     fd9ac1e76b: 1893733.073
+    232f1117e8: 1844362.168
+    0e6396d2ac: 1828693.779
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -2789,6 +2795,8 @@ results:
     5ceff480c2: 2664816.13
     5b7cc63d11: 2738731.234
     fd9ac1e76b: 2568536.785
+    232f1117e8: 2772450.308
+    0e6396d2ac: 2739301.272
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -3486,6 +3494,8 @@ results:
     5ceff480c2: 3662063.609
     5b7cc63d11: 3569747.191
     fd9ac1e76b: 3353551.997
+    232f1117e8: 3379033.437
+    0e6396d2ac: 3635901.673
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -4183,6 +4193,8 @@ results:
     5ceff480c2: 3497722.908
     5b7cc63d11: 3585303.698
     fd9ac1e76b: 3688770.589
+    232f1117e8: 3595153.273
+    0e6396d2ac: 3610403.12
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -4880,6 +4892,8 @@ results:
     5ceff480c2: 1998879.84
     5b7cc63d11: 1678193.195
     fd9ac1e76b: 1959932.859
+    232f1117e8: 1960494.715
+    0e6396d2ac: 1839771.003
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -5577,3 +5591,5 @@ results:
     5ceff480c2: 2933887.048
     5b7cc63d11: 2918632.495
     fd9ac1e76b: 2938495.778
+    232f1117e8: 2921691.655
+    0e6396d2ac: 2918181.692

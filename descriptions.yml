@@ -5627,3 +5627,39 @@ commits:
   71ead07872 --jit: |-
     ruby 2.7.0dev (2019-07-11T08:21:00Z trunk 71ead07872) +JIT [x86_64-linux]
     last_commit=Add arg check to Reline.dig_perfect_match_proc=
+  cd069df365: |-
+    ruby 2.7.0dev (2019-07-11T10:46:11Z trunk cd069df365) [x86_64-linux]
+    last_commit=File::Stat uses Time#inspect
+  cd069df365 --jit: |-
+    ruby 2.7.0dev (2019-07-11T10:46:11Z trunk cd069df365) +JIT [x86_64-linux]
+    last_commit=File::Stat uses Time#inspect
+  3e7d002118: |-
+    ruby 2.7.0dev (2019-07-11T11:04:29Z trunk 3e7d002118) [x86_64-linux]
+    last_commit=Check exception flag as a bool [Bug #15987]
+  3e7d002118 --jit: |-
+    ruby 2.7.0dev (2019-07-11T11:04:29Z trunk 3e7d002118) +JIT [x86_64-linux]
+    last_commit=Check exception flag as a bool [Bug #15987]
+  4018eee431: |-
+    ruby 2.7.0dev (2019-07-11T11:14:57Z trunk 4018eee431) [x86_64-linux]
+    last_commit=* expand tabs.
+  4018eee431 --jit: |-
+    ruby 2.7.0dev (2019-07-11T11:14:57Z trunk 4018eee431) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  c2723e59c2: |-
+    ruby 2.7.0dev (2019-07-11T11:20:02Z trunk c2723e59c2) [x86_64-linux]
+    last_commit=Removed wrong argument in the fallback function [Bug #15987]
+  c2723e59c2 --jit: |-
+    ruby 2.7.0dev (2019-07-11T11:20:02Z trunk c2723e59c2) +JIT [x86_64-linux]
+    last_commit=Removed wrong argument in the fallback function [Bug #15987]
+  f74e23af32: |-
+    ruby 2.7.0dev (2019-07-11T11:21:50Z trunk f74e23af32) [x86_64-linux]
+    last_commit=Fixed argument in the fallback function [Bug #15987]
+  f74e23af32 --jit: |-
+    ruby 2.7.0dev (2019-07-11T11:21:50Z trunk f74e23af32) +JIT [x86_64-linux]
+    last_commit=Fixed argument in the fallback function [Bug #15987]
+  8745fa2ff0: |-
+    ruby 2.7.0dev (2019-07-11T12:05:25Z trunk 8745fa2ff0) [x86_64-linux]
+    last_commit=Default to true when no exception flag [Bug #15987]
+  8745fa2ff0 --jit: |-
+    ruby 2.7.0dev (2019-07-11T12:05:25Z trunk 8745fa2ff0) +JIT [x86_64-linux]
+    last_commit=Default to true when no exception flag [Bug #15987]
