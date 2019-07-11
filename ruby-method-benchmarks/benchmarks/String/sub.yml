@@ -696,6 +696,8 @@ results:
     688cef2169: 3420925.27
     716ba4a127: 3379133.663
     5ceff480c2: 3368218.783
+    5b7cc63d11: 3340931.897
+    fd9ac1e76b: 3380342.628
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1391,6 +1393,8 @@ results:
     688cef2169: 3355331.8
     716ba4a127: 3279906.145
     5ceff480c2: 3086471.469
+    5b7cc63d11: 3314598.626
+    fd9ac1e76b: 3341855.687
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2086,6 +2090,8 @@ results:
     688cef2169: 1835132.955
     716ba4a127: 1803488.753
     5ceff480c2: 1876859.109
+    5b7cc63d11: 1848080.682
+    fd9ac1e76b: 1893733.073
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -2781,6 +2787,8 @@ results:
     688cef2169: 2769797.234
     716ba4a127: 2753305.498
     5ceff480c2: 2664816.13
+    5b7cc63d11: 2738731.234
+    fd9ac1e76b: 2568536.785
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -3476,6 +3484,8 @@ results:
     688cef2169: 3678654.917
     716ba4a127: 3199921.158
     5ceff480c2: 3662063.609
+    5b7cc63d11: 3569747.191
+    fd9ac1e76b: 3353551.997
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -4171,6 +4181,8 @@ results:
     688cef2169: 3596122.255
     716ba4a127: 3616919.18
     5ceff480c2: 3497722.908
+    5b7cc63d11: 3585303.698
+    fd9ac1e76b: 3688770.589
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -4866,6 +4878,8 @@ results:
     688cef2169: 1975040.359
     716ba4a127: 1928068.009
     5ceff480c2: 1998879.84
+    5b7cc63d11: 1678193.195
+    fd9ac1e76b: 1959932.859
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -5561,3 +5575,5 @@ results:
     688cef2169: 2932212.64
     716ba4a127: 2445308.814
     5ceff480c2: 2933887.048
+    5b7cc63d11: 2918632.495
+    fd9ac1e76b: 2938495.778

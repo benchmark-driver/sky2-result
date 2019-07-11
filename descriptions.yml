@@ -9,18 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  c754e979d3: ruby 2.7.0dev (2019-05-14 trunk c754e979d3) [x86_64-linux]
-  c754e979d3 --jit: ruby 2.7.0dev (2019-05-14 trunk c754e979d3) +JIT [x86_64-linux]
-  4fe0961dca: ruby 2.7.0dev (2019-05-14 trunk 4fe0961dca) [x86_64-linux]
-  4fe0961dca --jit: ruby 2.7.0dev (2019-05-14 trunk 4fe0961dca) +JIT [x86_64-linux]
-  80c968c571: ruby 2.7.0dev (2019-05-14 trunk 80c968c571) [x86_64-linux]
-  80c968c571 --jit: ruby 2.7.0dev (2019-05-14 trunk 80c968c571) +JIT [x86_64-linux]
-  b5a3ec7f18: ruby 2.7.0dev (2019-05-14 trunk b5a3ec7f18) [x86_64-linux]
-  b5a3ec7f18 --jit: ruby 2.7.0dev (2019-05-14 trunk b5a3ec7f18) +JIT [x86_64-linux]
-  2ca537ba4b: ruby 2.7.0dev (2019-05-14 trunk 2ca537ba4b) [x86_64-linux]
-  2ca537ba4b --jit: ruby 2.7.0dev (2019-05-14 trunk 2ca537ba4b) +JIT [x86_64-linux]
-  46a479889c: ruby 2.7.0dev (2019-05-15 trunk 46a479889c) [x86_64-linux]
-  46a479889c --jit: ruby 2.7.0dev (2019-05-15 trunk 46a479889c) +JIT [x86_64-linux]
   c70ceb5992: ruby 2.7.0dev (2019-05-15 trunk c70ceb5992) [x86_64-linux]
   c70ceb5992 --jit: ruby 2.7.0dev (2019-05-15 trunk c70ceb5992) +JIT [x86_64-linux]
   e8b929b9df: ruby 2.7.0dev (2019-05-15 trunk e8b929b9df) [x86_64-linux]
@@ -5633,3 +5621,9 @@ commits:
   4e038a7e64 --jit: |-
     ruby 2.7.0dev (2019-07-11T05:52:02Z trunk 4e038a7e64) +JIT [x86_64-linux]
     last_commit=Revert "parse.y: Deprecate flip-flops"
+  71ead07872: |-
+    ruby 2.7.0dev (2019-07-11T08:21:00Z trunk 71ead07872) [x86_64-linux]
+    last_commit=Add arg check to Reline.dig_perfect_match_proc=
+  71ead07872 --jit: |-
+    ruby 2.7.0dev (2019-07-11T08:21:00Z trunk 71ead07872) +JIT [x86_64-linux]
+    last_commit=Add arg check to Reline.dig_perfect_match_proc=
