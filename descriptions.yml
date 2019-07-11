@@ -5615,3 +5615,21 @@ commits:
   26d674fdc7 --jit: |-
     ruby 2.7.0dev (2019-07-11T02:58:35Z trunk 26d674fdc7) +JIT [x86_64-linux]
     last_commit=Suppress warning on x64-mingw
+  d34303ad10: |-
+    ruby 2.7.0dev (2019-07-11T04:04:07Z trunk d34303ad10) [x86_64-linux]
+    last_commit=remove an unused variable.
+  d34303ad10 --jit: |-
+    ruby 2.7.0dev (2019-07-11T04:04:07Z trunk d34303ad10) +JIT [x86_64-linux]
+    last_commit=remove an unused variable.
+  d77b84ca82: |-
+    ruby 2.7.0dev (2019-07-11T05:05:34Z trunk d77b84ca82) [x86_64-linux]
+    last_commit=$LOAD_PATH.resolve_feature_path
+  d77b84ca82 --jit: |-
+    ruby 2.7.0dev (2019-07-11T05:05:34Z trunk d77b84ca82) +JIT [x86_64-linux]
+    last_commit=$LOAD_PATH.resolve_feature_path
+  4e038a7e64: |-
+    ruby 2.7.0dev (2019-07-11T05:52:02Z trunk 4e038a7e64) [x86_64-linux]
+    last_commit=Revert "parse.y: Deprecate flip-flops"
+  4e038a7e64 --jit: |-
+    ruby 2.7.0dev (2019-07-11T05:52:02Z trunk 4e038a7e64) +JIT [x86_64-linux]
+    last_commit=Revert "parse.y: Deprecate flip-flops"
