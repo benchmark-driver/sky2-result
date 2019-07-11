@@ -9,16 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  456586bb23: ruby 2.7.0dev (2019-05-14 trunk 456586bb23) [x86_64-linux]
-  456586bb23 --jit: ruby 2.7.0dev (2019-05-14 trunk 456586bb23) +JIT [x86_64-linux]
-  c174670823: ruby 2.7.0dev (2019-05-14 trunk c174670823) [x86_64-linux]
-  c174670823 --jit: ruby 2.7.0dev (2019-05-14 trunk c174670823) +JIT [x86_64-linux]
-  29dde62605: ruby 2.7.0dev (2019-05-14 trunk 29dde62605) [x86_64-linux]
-  29dde62605 --jit: ruby 2.7.0dev (2019-05-14 trunk 29dde62605) +JIT [x86_64-linux]
-  1e65196b54: ruby 2.7.0dev (2019-05-14 trunk 1e65196b54) [x86_64-linux]
-  1e65196b54 --jit: ruby 2.7.0dev (2019-05-14 trunk 1e65196b54) +JIT [x86_64-linux]
-  07e7ae9ed7: ruby 2.7.0dev (2019-05-14 trunk 07e7ae9ed7) [x86_64-linux]
-  07e7ae9ed7 --jit: ruby 2.7.0dev (2019-05-14 trunk 07e7ae9ed7) +JIT [x86_64-linux]
   c754e979d3: ruby 2.7.0dev (2019-05-14 trunk c754e979d3) [x86_64-linux]
   c754e979d3 --jit: ruby 2.7.0dev (2019-05-14 trunk c754e979d3) +JIT [x86_64-linux]
   4fe0961dca: ruby 2.7.0dev (2019-05-14 trunk 4fe0961dca) [x86_64-linux]
@@ -5601,3 +5591,15 @@ commits:
   f91879a7b5 --jit: |-
     ruby 2.7.0dev (2019-07-10T09:13:38Z trunk f91879a7b5) +JIT [x86_64-linux]
     last_commit=handle_interrupt to defend monitor state [Bug #15992]
+  12762b76cb: |-
+    ruby 2.7.0dev (2019-07-10T16:12:28Z trunk 12762b76cb) [x86_64-linux]
+    last_commit=Don't manipulate GC flags directly
+  12762b76cb --jit: |-
+    ruby 2.7.0dev (2019-07-10T16:12:28Z trunk 12762b76cb) +JIT [x86_64-linux]
+    last_commit=Don't manipulate GC flags directly
+  d57ce99b7d: |-
+    ruby 2.7.0dev (2019-07-10T18:37:22Z trunk d57ce99b7d) [x86_64-linux]
+    last_commit=* 2019-07-11
+  d57ce99b7d --jit: |-
+    ruby 2.7.0dev (2019-07-10T18:37:22Z trunk d57ce99b7d) +JIT [x86_64-linux]
+    last_commit=* 2019-07-11

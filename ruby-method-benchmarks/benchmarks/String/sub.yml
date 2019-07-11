@@ -689,6 +689,8 @@ results:
     1a4080cb0a: 3375928.855
     119ca4343c: 3402030.611
     29c16b30ce: 3397369.817
+    fc7b4c7018: 3398436.455
+    4d650bc257: 3377653.195
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1377,6 +1379,8 @@ results:
     1a4080cb0a: 3324095.248
     119ca4343c: 3111215.486
     29c16b30ce: 3203286.975
+    fc7b4c7018: 3349277.073
+    4d650bc257: 3366955.28
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2065,6 +2069,8 @@ results:
     1a4080cb0a: 1871847.42
     119ca4343c: 1863750.986
     29c16b30ce: 1763443.421
+    fc7b4c7018: 1903170.027
+    4d650bc257: 1466448.658
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -2753,6 +2759,8 @@ results:
     1a4080cb0a: 2679017.917
     119ca4343c: 2778788.638
     29c16b30ce: 2742282.518
+    fc7b4c7018: 2630419.495
+    4d650bc257: 2739402.758
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -3441,6 +3449,8 @@ results:
     1a4080cb0a: 3668735.427
     119ca4343c: 3702136.132
     29c16b30ce: 3647852.735
+    fc7b4c7018: 3336438.326
+    4d650bc257: 3497961.225
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -4129,6 +4139,8 @@ results:
     1a4080cb0a: 3552910.655
     119ca4343c: 3631575.963
     29c16b30ce: 3619699.188
+    fc7b4c7018: 3639260.589
+    4d650bc257: 3586758.999
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -4817,6 +4829,8 @@ results:
     1a4080cb0a: 1882228.52
     119ca4343c: 1960430.355
     29c16b30ce: 1956130.341
+    fc7b4c7018: 1974000.4
+    4d650bc257: 1946770.666
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -5505,3 +5519,5 @@ results:
     1a4080cb0a: 2698970.093
     119ca4343c: 2971444.985
     29c16b30ce: 2626555.016
+    fc7b4c7018: 2939496.409
+    4d650bc257: 2942502.4
