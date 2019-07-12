@@ -9,20 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  3cf767ee35: ruby 2.7.0dev (2019-05-15 trunk 3cf767ee35) [x86_64-linux]
-  3cf767ee35 --jit: ruby 2.7.0dev (2019-05-15 trunk 3cf767ee35) +JIT [x86_64-linux]
-  214e2f93aa: ruby 2.7.0dev (2019-05-15 trunk 214e2f93aa) [x86_64-linux]
-  214e2f93aa --jit: ruby 2.7.0dev (2019-05-15 trunk 214e2f93aa) +JIT [x86_64-linux]
-  e970ab3339: ruby 2.7.0dev (2019-05-15 trunk e970ab3339) [x86_64-linux]
-  e970ab3339 --jit: ruby 2.7.0dev (2019-05-15 trunk e970ab3339) +JIT [x86_64-linux]
-  fadab0f9fb: ruby 2.7.0dev (2019-05-16 trunk fadab0f9fb) [x86_64-linux]
-  fadab0f9fb --jit: ruby 2.7.0dev (2019-05-16 trunk fadab0f9fb) +JIT [x86_64-linux]
-  18e43e8231: ruby 2.7.0dev (2019-05-16 trunk 18e43e8231) [x86_64-linux]
-  18e43e8231 --jit: ruby 2.7.0dev (2019-05-16 trunk 18e43e8231) +JIT [x86_64-linux]
-  82332c7d8b: ruby 2.7.0dev (2019-05-16 trunk 82332c7d8b) [x86_64-linux]
-  82332c7d8b --jit: ruby 2.7.0dev (2019-05-16 trunk 82332c7d8b) +JIT [x86_64-linux]
-  973431c059: ruby 2.7.0dev (2019-05-16 trunk 973431c059) [x86_64-linux]
-  973431c059 --jit: ruby 2.7.0dev (2019-05-16 trunk 973431c059) +JIT [x86_64-linux]
   7069f64c41: ruby 2.7.0dev (2019-05-16 trunk 7069f64c41) [x86_64-linux]
   7069f64c41 --jit: ruby 2.7.0dev (2019-05-16 trunk 7069f64c41) +JIT [x86_64-linux]
   a160b2f567: ruby 2.7.0dev (2019-05-16 trunk a160b2f567) [x86_64-linux]
@@ -5681,3 +5667,15 @@ commits:
   a9ff21a282 --jit: |-
     ruby 2.7.0dev (2019-07-12T06:02:29Z trunk a9ff21a282) +JIT [x86_64-linux]
     last_commit=* 2019-07-12
+  00b34b0592: |-
+    ruby 2.7.0dev (2019-07-12T08:52:22Z trunk 00b34b0592) [x86_64-linux]
+    last_commit=Fixed duplicate test name
+  00b34b0592 --jit: |-
+    ruby 2.7.0dev (2019-07-12T08:52:22Z trunk 00b34b0592) +JIT [x86_64-linux]
+    last_commit=Fixed duplicate test name
+  ae599db22f: |-
+    ruby 2.7.0dev (2019-07-12T08:57:28Z trunk ae599db22f) [x86_64-linux]
+    last_commit=* remove trailing spaces.
+  ae599db22f --jit: |-
+    ruby 2.7.0dev (2019-07-12T08:57:28Z trunk ae599db22f) +JIT [x86_64-linux]
+    last_commit=* remove trailing spaces.
