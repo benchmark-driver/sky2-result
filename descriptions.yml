@@ -5651,3 +5651,33 @@ commits:
   8745fa2ff0 --jit: |-
     ruby 2.7.0dev (2019-07-11T12:05:25Z trunk 8745fa2ff0) +JIT [x86_64-linux]
     last_commit=Default to true when no exception flag [Bug #15987]
+  012e954b47: |-
+    ruby 2.7.0dev (2019-07-11T23:56:51Z trunk 012e954b47) [x86_64-linux]
+    last_commit=Improved fiber benchmarks. Increase number of iterations.
+  012e954b47 --jit: |-
+    ruby 2.7.0dev (2019-07-11T23:56:51Z trunk 012e954b47) +JIT [x86_64-linux]
+    last_commit=Improved fiber benchmarks. Increase number of iterations.
+  5c8061a9e2: |-
+    ruby 2.7.0dev (2019-07-11T23:56:51Z trunk 5c8061a9e2) [x86_64-linux]
+    last_commit=Make `stack_check` slightly easier to use in debugger.
+  5c8061a9e2 --jit: |-
+    ruby 2.7.0dev (2019-07-11T23:56:51Z trunk 5c8061a9e2) +JIT [x86_64-linux]
+    last_commit=Make `stack_check` slightly easier to use in debugger.
+  a2adcd40df: |-
+    ruby 2.7.0dev (2019-07-11T23:56:51Z trunk a2adcd40df) [x86_64-linux]
+    last_commit=Add note about `STACK_GROW_DIR_DETECTION`.
+  a2adcd40df --jit: |-
+    ruby 2.7.0dev (2019-07-11T23:56:51Z trunk a2adcd40df) +JIT [x86_64-linux]
+    last_commit=Add note about `STACK_GROW_DIR_DETECTION`.
+  b9ad62ea13: |-
+    ruby 2.7.0dev (2019-07-12T06:02:25Z trunk b9ad62ea13) [x86_64-linux]
+    last_commit=* remove trailing spaces.
+  b9ad62ea13 --jit: |-
+    ruby 2.7.0dev (2019-07-12T06:02:25Z trunk b9ad62ea13) +JIT [x86_64-linux]
+    last_commit=* remove trailing spaces.
+  a9ff21a282: |-
+    ruby 2.7.0dev (2019-07-12T06:02:29Z trunk a9ff21a282) [x86_64-linux]
+    last_commit=* 2019-07-12
+  a9ff21a282 --jit: |-
+    ruby 2.7.0dev (2019-07-12T06:02:29Z trunk a9ff21a282) +JIT [x86_64-linux]
+    last_commit=* 2019-07-12
