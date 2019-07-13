@@ -5691,3 +5691,27 @@ commits:
   10d7419eb4 --jit: |-
     ruby 2.7.0dev (2019-07-12T21:10:07Z trunk 10d7419eb4) +JIT [x86_64-linux]
     last_commit=* 2019-07-13
+  cbe623f1c7: |-
+    ruby 2.7.0dev (2019-07-12T22:22:55Z trunk cbe623f1c7) [x86_64-linux]
+    last_commit=change default value of load_limit (ignore load_limit)
+  cbe623f1c7 --jit: |-
+    ruby 2.7.0dev (2019-07-12T22:22:55Z trunk cbe623f1c7) +JIT [x86_64-linux]
+    last_commit=change default value of load_limit (ignore load_limit)
+  143581cf4e: |-
+    ruby 2.7.0dev (2019-07-12T22:25:51Z trunk 143581cf4e) [x86_64-linux]
+    last_commit=Removed stub lines from gemspec files
+  143581cf4e --jit: |-
+    ruby 2.7.0dev (2019-07-12T22:25:51Z trunk 143581cf4e) +JIT [x86_64-linux]
+    last_commit=Removed stub lines from gemspec files
+  fd9f26df00: |-
+    ruby 2.7.0dev (2019-07-12T22:25:54Z trunk fd9f26df00) [x86_64-linux]
+    last_commit=Drop fossil rubygems support
+  fd9f26df00 --jit: |-
+    ruby 2.7.0dev (2019-07-12T22:25:54Z trunk fd9f26df00) +JIT [x86_64-linux]
+    last_commit=Drop fossil rubygems support
+  331eccf3fe: |-
+    ruby 2.7.0dev (2019-07-12T22:25:54Z trunk 331eccf3fe) [x86_64-linux]
+    last_commit=Removed useless `freeze`s from gemspec files
+  331eccf3fe --jit: |-
+    ruby 2.7.0dev (2019-07-12T22:25:54Z trunk 331eccf3fe) +JIT [x86_64-linux]
+    last_commit=Removed useless `freeze`s from gemspec files
