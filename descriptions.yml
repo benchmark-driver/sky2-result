@@ -9,20 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  7069f64c41: ruby 2.7.0dev (2019-05-16 trunk 7069f64c41) [x86_64-linux]
-  7069f64c41 --jit: ruby 2.7.0dev (2019-05-16 trunk 7069f64c41) +JIT [x86_64-linux]
-  a160b2f567: ruby 2.7.0dev (2019-05-16 trunk a160b2f567) [x86_64-linux]
-  a160b2f567 --jit: ruby 2.7.0dev (2019-05-16 trunk a160b2f567) +JIT [x86_64-linux]
-  88449100bc: ruby 2.7.0dev (2019-05-16 trunk 88449100bc) [x86_64-linux]
-  88449100bc --jit: ruby 2.7.0dev (2019-05-16 trunk 88449100bc) +JIT [x86_64-linux]
-  0ed9bdfc13: ruby 2.7.0dev (2019-05-16 trunk 0ed9bdfc13) [x86_64-linux]
-  0ed9bdfc13 --jit: ruby 2.7.0dev (2019-05-16 trunk 0ed9bdfc13) +JIT [x86_64-linux]
-  e0f0ab959e: ruby 2.7.0dev (2019-05-16 trunk e0f0ab959e) [x86_64-linux]
-  e0f0ab959e --jit: ruby 2.7.0dev (2019-05-16 trunk e0f0ab959e) +JIT [x86_64-linux]
-  23751a2681: ruby 2.7.0dev (2019-05-16 trunk 23751a2681) [x86_64-linux]
-  23751a2681 --jit: ruby 2.7.0dev (2019-05-16 trunk 23751a2681) +JIT [x86_64-linux]
-  '0971cab4d0': ruby 2.7.0dev (2019-05-16 trunk 0971cab4d0) [x86_64-linux]
-  '0971cab4d0 --jit': ruby 2.7.0dev (2019-05-16 trunk 0971cab4d0) +JIT [x86_64-linux]
   f1f4029460: ruby 2.7.0dev (2019-05-17 trunk f1f4029460) [x86_64-linux]
   f1f4029460 --jit: ruby 2.7.0dev (2019-05-17 trunk f1f4029460) +JIT [x86_64-linux]
   32e8b42852: ruby 2.7.0dev (2019-05-17 trunk 32e8b42852) [x86_64-linux]
@@ -5715,3 +5701,9 @@ commits:
   331eccf3fe --jit: |-
     ruby 2.7.0dev (2019-07-12T22:25:54Z trunk 331eccf3fe) +JIT [x86_64-linux]
     last_commit=Removed useless `freeze`s from gemspec files
+  e2bee86dc4: |-
+    ruby 2.7.0dev (2019-07-13T00:48:12Z trunk e2bee86dc4) [x86_64-linux]
+    last_commit=Relaxed delta of nanosec from Float time
+  e2bee86dc4 --jit: |-
+    ruby 2.7.0dev (2019-07-13T00:48:12Z trunk e2bee86dc4) +JIT [x86_64-linux]
+    last_commit=Relaxed delta of nanosec from Float time
