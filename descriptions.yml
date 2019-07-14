@@ -5939,3 +5939,147 @@ commits:
   45dfd4c09d --jit: |-
     ruby 2.7.0dev (2019-07-14T09:09:10Z trunk 45dfd4c09d) +JIT [x86_64-linux]
     last_commit=Make export declaration place more consistent
+  a7dd6763bd: |-
+    ruby 2.7.0dev (2019-07-14T11:17:05Z trunk a7dd6763bd) [x86_64-linux]
+    last_commit=Increase fetchDepth to prevent checkout failure
+  a7dd6763bd --jit: |-
+    ruby 2.7.0dev (2019-07-14T11:17:05Z trunk a7dd6763bd) +JIT [x86_64-linux]
+    last_commit=Increase fetchDepth to prevent checkout failure
+  41e09ca4be: |-
+    ruby 2.7.0dev (2019-07-14T11:23:29Z trunk 41e09ca4be) [x86_64-linux]
+    last_commit=addr2line.c (binary_filename): extend the buffer for NUL terminator
+  41e09ca4be --jit: |-
+    ruby 2.7.0dev (2019-07-14T11:23:29Z trunk 41e09ca4be) +JIT [x86_64-linux]
+    last_commit=addr2line.c (binary_filename): extend the buffer for NUL terminator
+  0df4a813ca: |-
+    ruby 2.7.0dev (2019-07-14T11:33:41Z trunk 0df4a813ca) [x86_64-linux]
+    last_commit=NEWS: RubyVM.resolve_feature_path moved [ci skip]
+  0df4a813ca --jit: |-
+    ruby 2.7.0dev (2019-07-14T11:33:41Z trunk 0df4a813ca) +JIT [x86_64-linux]
+    last_commit=NEWS: RubyVM.resolve_feature_path moved [ci skip]
+  1464f7a149: |-
+    ruby 2.7.0dev (2019-07-14T11:42:08Z trunk 1464f7a149) [x86_64-linux]
+    last_commit=Expand f_abs to use particular functions directly
+  1464f7a149 --jit: |-
+    ruby 2.7.0dev (2019-07-14T11:42:08Z trunk 1464f7a149) +JIT [x86_64-linux]
+    last_commit=Expand f_abs to use particular functions directly
+  5bd83909b9: |-
+    ruby 2.7.0dev (2019-07-14T11:42:10Z trunk 5bd83909b9) [x86_64-linux]
+    last_commit=Expand f_arg to use particular functions directly
+  5bd83909b9 --jit: |-
+    ruby 2.7.0dev (2019-07-14T11:42:10Z trunk 5bd83909b9) +JIT [x86_64-linux]
+    last_commit=Expand f_arg to use particular functions directly
+  4900a10689: |-
+    ruby 2.7.0dev (2019-07-14T11:46:51Z trunk 4900a10689) [x86_64-linux]
+    last_commit=socket: use frozen string buffer when releasing GVL
+  4900a10689 --jit: |-
+    ruby 2.7.0dev (2019-07-14T11:46:51Z trunk 4900a10689) +JIT [x86_64-linux]
+    last_commit=socket: use frozen string buffer when releasing GVL
+  e8700b596b: |-
+    ruby 2.7.0dev (2019-07-14T11:56:38Z trunk e8700b596b) [x86_64-linux]
+    last_commit=Check the result of String#-@
+  e8700b596b --jit: |-
+    ruby 2.7.0dev (2019-07-14T11:56:38Z trunk e8700b596b) +JIT [x86_64-linux]
+    last_commit=Check the result of String#-@
+  20a3fb3c4b: |-
+    ruby 2.7.0dev (2019-07-14T12:34:32Z trunk 20a3fb3c4b) [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  20a3fb3c4b --jit: |-
+    ruby 2.7.0dev (2019-07-14T12:34:32Z trunk 20a3fb3c4b) +JIT [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  d8cc41c43b: |-
+    ruby 2.7.0dev (2019-07-14T12:48:45Z trunk d8cc41c43b) [x86_64-linux]
+    last_commit=Fix a wrong buffer size to avoid stack corruption
+  d8cc41c43b --jit: |-
+    ruby 2.7.0dev (2019-07-14T12:48:45Z trunk d8cc41c43b) +JIT [x86_64-linux]
+    last_commit=Fix a wrong buffer size to avoid stack corruption
+  be082e2800: |-
+    ruby 2.7.0dev (2019-07-14T12:53:18Z trunk be082e2800) [x86_64-linux]
+    last_commit=Try to sync with commit history for default gems.
+  be082e2800 --jit: |-
+    ruby 2.7.0dev (2019-07-14T12:53:18Z trunk be082e2800) +JIT [x86_64-linux]
+    last_commit=Try to sync with commit history for default gems.
+  265e94a7fa: |-
+    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk 265e94a7fa) [x86_64-linux]
+    last_commit=Added chrry-pick feature from upstream repository.
+  265e94a7fa --jit: |-
+    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk 265e94a7fa) +JIT [x86_64-linux]
+    last_commit=Added chrry-pick feature from upstream repository.
+  46491af74c: |-
+    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk 46491af74c) [x86_64-linux]
+    last_commit=Modified commit message with upstream repository name.
+  46491af74c --jit: |-
+    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk 46491af74c) +JIT [x86_64-linux]
+    last_commit=Modified commit message with upstream repository name.
+  c8e1be6f1f: |-
+    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk c8e1be6f1f) [x86_64-linux]
+    last_commit=Skip merge commit with rubygems and bundler.
+  c8e1be6f1f --jit: |-
+    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk c8e1be6f1f) +JIT [x86_64-linux]
+    last_commit=Skip merge commit with rubygems and bundler.
+  8e6a68c18e: |-
+    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk 8e6a68c18e) [x86_64-linux]
+    last_commit=Use force flag for filter-branch.
+  8e6a68c18e --jit: |-
+    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk 8e6a68c18e) +JIT [x86_64-linux]
+    last_commit=Use force flag for filter-branch.
+  a3493521a5: |-
+    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk a3493521a5) [x86_64-linux]
+    last_commit=abort sync commit history when it failed to modify commit message.
+  a3493521a5 --jit: |-
+    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk a3493521a5) +JIT [x86_64-linux]
+    last_commit=abort sync commit history when it failed to modify commit message.
+  '085d0e5ccb': |-
+    ruby 2.7.0dev (2019-07-14T12:58:22Z trunk 085d0e5ccb) [x86_64-linux]
+    last_commit=ruby.c (name_match_p): remove unnecessary condition
+  '085d0e5ccb --jit': |-
+    ruby 2.7.0dev (2019-07-14T12:58:22Z trunk 085d0e5ccb) +JIT [x86_64-linux]
+    last_commit=ruby.c (name_match_p): remove unnecessary condition
+  b7ec77f361: |-
+    ruby 2.7.0dev (2019-07-14T13:04:27Z trunk b7ec77f361) [x86_64-linux]
+    last_commit=fix typos.
+  b7ec77f361 --jit: |-
+    ruby 2.7.0dev (2019-07-14T13:04:27Z trunk b7ec77f361) +JIT [x86_64-linux]
+    last_commit=fix typos.
+  7ac7685fa7: |-
+    ruby 2.7.0dev (2019-07-14T13:12:59Z trunk 7ac7685fa7) [x86_64-linux]
+    last_commit=Simplify link_o_to_so arguments
+  7ac7685fa7 --jit: |-
+    ruby 2.7.0dev (2019-07-14T13:12:59Z trunk 7ac7685fa7) +JIT [x86_64-linux]
+    last_commit=Simplify link_o_to_so arguments
+  5d606b5174: |-
+    ruby 2.7.0dev (2019-07-14T13:15:42Z trunk 5d606b5174) [x86_64-linux]
+    last_commit=doc/globals.rdoc: Add TOPLEVEL_BINDING [ci skip]
+  5d606b5174 --jit: |-
+    ruby 2.7.0dev (2019-07-14T13:15:42Z trunk 5d606b5174) +JIT [x86_64-linux]
+    last_commit=doc/globals.rdoc: Add TOPLEVEL_BINDING [ci skip]
+  9a402cf61f: |-
+    ruby 2.7.0dev (2019-07-14T13:15:42Z trunk 9a402cf61f) [x86_64-linux]
+    last_commit=doc/globals.rdoc: Add RUBY_COPYRIGHT [ci skip]
+  9a402cf61f --jit: |-
+    ruby 2.7.0dev (2019-07-14T13:15:42Z trunk 9a402cf61f) +JIT [x86_64-linux]
+    last_commit=doc/globals.rdoc: Add RUBY_COPYRIGHT [ci skip]
+  ab31e13e75: |-
+    ruby 2.7.0dev (2019-07-14T13:15:42Z trunk ab31e13e75) [x86_64-linux]
+    last_commit=doc/globals.rdoc: Add RUBY_PATCHLEVEL [ci skip]
+  ab31e13e75 --jit: |-
+    ruby 2.7.0dev (2019-07-14T13:15:42Z trunk ab31e13e75) +JIT [x86_64-linux]
+    last_commit=doc/globals.rdoc: Add RUBY_PATCHLEVEL [ci skip]
+  d0f113f6c1: |-
+    ruby 2.7.0dev (2019-07-14T13:15:42Z trunk d0f113f6c1) [x86_64-linux]
+    last_commit=doc/globals.rdoc: Add RUBY_REVISION [ci skip]
+  d0f113f6c1 --jit: |-
+    ruby 2.7.0dev (2019-07-14T13:15:42Z trunk d0f113f6c1) +JIT [x86_64-linux]
+    last_commit=doc/globals.rdoc: Add RUBY_REVISION [ci skip]
+  49362ddac6: |-
+    ruby 2.7.0dev (2019-07-14T13:21:10Z trunk 49362ddac6) [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  49362ddac6 --jit: |-
+    ruby 2.7.0dev (2019-07-14T13:21:10Z trunk 49362ddac6) +JIT [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  36f2d9bac2: |-
+    ruby 2.7.0dev (2019-07-14T13:46:34Z trunk 36f2d9bac2) [x86_64-linux]
+    last_commit=numeric.c (fix_cmp): remove a unreachable return statement
+  36f2d9bac2 --jit: |-
+    ruby 2.7.0dev (2019-07-14T13:46:34Z trunk 36f2d9bac2) +JIT [x86_64-linux]
+    last_commit=numeric.c (fix_cmp): remove a unreachable return statement
