@@ -5751,3 +5751,9 @@ commits:
   ac2866005b --jit: |-
     ruby 2.7.0dev (2019-07-13T18:04:23Z trunk ac2866005b) +JIT [x86_64-linux]
     last_commit=Add empty depend file if extconf.rb only exists
+  369ff79394: |-
+    ruby 2.7.0dev (2019-07-14T01:58:50Z trunk 369ff79394) [x86_64-linux]
+    last_commit=add encoding conversion from/to CESU-8
+  369ff79394 --jit: |-
+    ruby 2.7.0dev (2019-07-14T01:58:50Z trunk 369ff79394) +JIT [x86_64-linux]
+    last_commit=add encoding conversion from/to CESU-8
