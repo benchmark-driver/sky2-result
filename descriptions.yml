@@ -9,310 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  c00d805672: ruby 2.7.0dev (2019-05-22 trunk c00d805672) [x86_64-linux]
-  c00d805672 --jit: ruby 2.7.0dev (2019-05-22 trunk c00d805672) +JIT [x86_64-linux]
-  c48d9139d4: ruby 2.7.0dev (2019-05-22 trunk c48d9139d4) [x86_64-linux]
-  c48d9139d4 --jit: ruby 2.7.0dev (2019-05-22 trunk c48d9139d4) +JIT [x86_64-linux]
-  a829be209f: ruby 2.7.0dev (2019-05-22 trunk a829be209f) [x86_64-linux]
-  a829be209f --jit: ruby 2.7.0dev (2019-05-22 trunk a829be209f) +JIT [x86_64-linux]
-  b00f280d4b: ruby 2.7.0dev (2019-05-22 trunk b00f280d4b) [x86_64-linux]
-  b00f280d4b --jit: ruby 2.7.0dev (2019-05-22 trunk b00f280d4b) +JIT [x86_64-linux]
-  1b20d6a6c6: ruby 2.7.0dev (2019-05-22 trunk 1b20d6a6c6) [x86_64-linux]
-  1b20d6a6c6 --jit: ruby 2.7.0dev (2019-05-22 trunk 1b20d6a6c6) +JIT [x86_64-linux]
-  48f3dc3cce: ruby 2.7.0dev (2019-05-22 trunk 48f3dc3cce) [x86_64-linux]
-  48f3dc3cce --jit: ruby 2.7.0dev (2019-05-22 trunk 48f3dc3cce) +JIT [x86_64-linux]
-  4d93340d38: ruby 2.7.0dev (2019-05-22 trunk 4d93340d38) [x86_64-linux]
-  4d93340d38 --jit: ruby 2.7.0dev (2019-05-22 trunk 4d93340d38) +JIT [x86_64-linux]
-  32dd1a798a: ruby 2.7.0dev (2019-05-22 trunk 32dd1a798a) [x86_64-linux]
-  32dd1a798a --jit: ruby 2.7.0dev (2019-05-22 trunk 32dd1a798a) +JIT [x86_64-linux]
-  2fb69b3296: ruby 2.7.0dev (2019-05-22 trunk 2fb69b3296) [x86_64-linux]
-  2fb69b3296 --jit: ruby 2.7.0dev (2019-05-22 trunk 2fb69b3296) +JIT [x86_64-linux]
-  658f17b8ec: ruby 2.7.0dev (2019-05-22 trunk 658f17b8ec) [x86_64-linux]
-  658f17b8ec --jit: ruby 2.7.0dev (2019-05-22 trunk 658f17b8ec) +JIT [x86_64-linux]
-  24684a81d2: ruby 2.7.0dev (2019-05-22 trunk 24684a81d2) [x86_64-linux]
-  24684a81d2 --jit: ruby 2.7.0dev (2019-05-22 trunk 24684a81d2) +JIT [x86_64-linux]
-  8fb77acac7: |-
-    ruby 2.7.0dev (2019-05-22 trunk 8fb77acac7) [x86_64-linux]
-    last_commit=Fix revision name
-  8fb77acac7 --jit: |-
-    ruby 2.7.0dev (2019-05-22 trunk 8fb77acac7) +JIT [x86_64-linux]
-    last_commit=Fix revision name
-  d819d97cf0: |-
-    ruby 2.7.0dev (2019-05-22 trunk d819d97cf0) [x86_64-linux]
-    last_commit=Default to the current branch
-  d819d97cf0 --jit: |-
-    ruby 2.7.0dev (2019-05-22 trunk d819d97cf0) +JIT [x86_64-linux]
-    last_commit=Default to the current branch
-  a205e24747: |-
-    ruby 2.7.0dev (2019-05-22 trunk a205e24747) [x86_64-linux]
-    last_commit=Make RUBY_REVISION full length
-  a205e24747 --jit: |-
-    ruby 2.7.0dev (2019-05-22 trunk a205e24747) +JIT [x86_64-linux]
-    last_commit=Make RUBY_REVISION full length
-  4d62296948: |-
-    ruby 2.7.0dev (2019-05-23 trunk 4d62296948) [x86_64-linux]
-    last_commit=* 2019-05-23
-  4d62296948 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 4d62296948) +JIT [x86_64-linux]
-    last_commit=* 2019-05-23
-  d3f1c615c5: |-
-    ruby 2.7.0dev (2019-05-23 trunk d3f1c615c5) [x86_64-linux]
-    last_commit=hash.c (rb_hash_s_create): Reject `Hash[[nil]]`
-  d3f1c615c5 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk d3f1c615c5) +JIT [x86_64-linux]
-    last_commit=hash.c (rb_hash_s_create): Reject `Hash[[nil]]`
-  277e68825a: |-
-    ruby 2.7.0dev (2019-05-23 trunk 277e68825a) [x86_64-linux]
-    last_commit=.travis.yml: Test master branch instead of trunk
-  277e68825a --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 277e68825a) +JIT [x86_64-linux]
-    last_commit=.travis.yml: Test master branch instead of trunk
-  d9b338a53f: |-
-    ruby 2.7.0dev (2019-05-23 trunk d9b338a53f) [x86_64-linux]
-    last_commit=appveyor.yml: Do not doubly run CI on trunk
-  d9b338a53f --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk d9b338a53f) +JIT [x86_64-linux]
-    last_commit=appveyor.yml: Do not doubly run CI on trunk
-  9d39eb6b40: |-
-    ruby 2.7.0dev (2019-05-23 trunk 9d39eb6b40) [x86_64-linux]
-    last_commit=range.c (inspect_range): omit beginless "nil"
-  9d39eb6b40 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 9d39eb6b40) +JIT [x86_64-linux]
-    last_commit=range.c (inspect_range): omit beginless "nil"
-  b80adde359: |-
-    ruby 2.7.0dev (2019-05-23 trunk b80adde359) [x86_64-linux]
-    last_commit=wercker.yml: Notify master branch instead of trunk
-  b80adde359 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk b80adde359) +JIT [x86_64-linux]
-    last_commit=wercker.yml: Notify master branch instead of trunk
-  bec877b46f: |-
-    ruby 2.7.0dev (2019-05-23 trunk bec877b46f) [x86_64-linux]
-    last_commit=azure-pipelines.yml: Do not run CI on trunk
-  bec877b46f --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk bec877b46f) +JIT [x86_64-linux]
-    last_commit=azure-pipelines.yml: Do not run CI on trunk
-  709756d897: |-
-    ruby 2.7.0dev (2019-05-23 trunk 709756d897) [x86_64-linux]
-    last_commit=azure-pipelines.yml: Use simpler trigger syntax
-  709756d897 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 709756d897) +JIT [x86_64-linux]
-    last_commit=azure-pipelines.yml: Use simpler trigger syntax
-  f69d28fbca: |-
-    ruby 2.7.0dev (2019-05-23 trunk f69d28fbca) [x86_64-linux]
-    last_commit=azure-pipelines.yml: Fix typo
-  f69d28fbca --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk f69d28fbca) +JIT [x86_64-linux]
-    last_commit=azure-pipelines.yml: Fix typo
-  a093c98ddc: |-
-    ruby 2.7.0dev (2019-05-23 trunk a093c98ddc) [x86_64-linux]
-    last_commit=Fallback RUBY_FULL_REVISION if not defined
-  a093c98ddc --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk a093c98ddc) +JIT [x86_64-linux]
-    last_commit=Fallback RUBY_FULL_REVISION if not defined
-  00f7e42451: |-
-    ruby 2.7.0dev (2019-05-23 trunk 00f7e42451) [x86_64-linux]
-    last_commit=spec/ruby/core/hash/constructor_spec.rb: add "ruby_version_is" guard
-  00f7e42451 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 00f7e42451) +JIT [x86_64-linux]
-    last_commit=spec/ruby/core/hash/constructor_spec.rb: add "ruby_version_is" guard
-  1ebe9a2f82: |-
-    ruby 2.7.0dev (2019-05-23 trunk 1ebe9a2f82) [x86_64-linux]
-    last_commit=Revert CI deduplication on Wercker / Azure for debugging
-  1ebe9a2f82 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 1ebe9a2f82) +JIT [x86_64-linux]
-    last_commit=Revert CI deduplication on Wercker / Azure for debugging
-  c210c68d39: |-
-    ruby 2.7.0dev (2019-05-23 trunk c210c68d39) [x86_64-linux]
-    last_commit=Revert "Revert CI deduplication on Wercker / Azure for debugging"
-  c210c68d39 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk c210c68d39) +JIT [x86_64-linux]
-    last_commit=Revert "Revert CI deduplication on Wercker / Azure for debugging"
-  da3fabc976: |-
-    ruby 2.7.0dev (2019-05-23 trunk da3fabc976) [x86_64-linux]
-    last_commit=Change behavior to confirm multiline termination
-  da3fabc976 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk da3fabc976) +JIT [x86_64-linux]
-    last_commit=Change behavior to confirm multiline termination
-  bb29ed6e33: |-
-    ruby 2.7.0dev (2019-05-23 trunk bb29ed6e33) [x86_64-linux]
-    last_commit=C-v C-j means an newline insertion
-  bb29ed6e33 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk bb29ed6e33) +JIT [x86_64-linux]
-    last_commit=C-v C-j means an newline insertion
-  0eff21af8d: |-
-    ruby 2.7.0dev (2019-05-23 trunk 0eff21af8d) [x86_64-linux]
-    last_commit=update Array's length correctly.
-  0eff21af8d --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 0eff21af8d) +JIT [x86_64-linux]
-    last_commit=update Array's length correctly.
-  136ae55892: |-
-    ruby 2.7.0dev (2019-05-23 trunk 136ae55892) [x86_64-linux]
-    last_commit=Do not kick finalizers on rb_gc().
-  136ae55892 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 136ae55892) +JIT [x86_64-linux]
-    last_commit=Do not kick finalizers on rb_gc().
-  '02973d3ba8': |-
-    ruby 2.7.0dev (2019-05-23 trunk 02973d3ba8) [x86_64-linux]
-    last_commit=pin `maybe` pointers.
-  '02973d3ba8 --jit': |-
-    ruby 2.7.0dev (2019-05-23 trunk 02973d3ba8) +JIT [x86_64-linux]
-    last_commit=pin `maybe` pointers.
-  4814f17361: |-
-    ruby 2.7.0dev (2019-05-23 trunk 4814f17361) [x86_64-linux]
-    last_commit=skip zombies.
-  4814f17361 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 4814f17361) +JIT [x86_64-linux]
-    last_commit=skip zombies.
-  f91b1ab33d: |-
-    ruby 2.7.0dev (2019-05-23 trunk f91b1ab33d) [x86_64-linux]
-    last_commit=Skip assertion in readline test if Readline version is 4.3
-  f91b1ab33d --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk f91b1ab33d) +JIT [x86_64-linux]
-    last_commit=Skip assertion in readline test if Readline version is 4.3
-  c05eaa9325: |-
-    ruby 2.7.0dev (2019-05-23 trunk c05eaa9325) [x86_64-linux]
-    last_commit=Fix mixed encoding in heredoc
-  c05eaa9325 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk c05eaa9325) +JIT [x86_64-linux]
-    last_commit=Fix mixed encoding in heredoc
-  1ccc2eeba0: |-
-    ruby 2.7.0dev (2019-05-23 trunk 1ccc2eeba0) [x86_64-linux]
-    last_commit=Pretend to update all Unicode files
-  1ccc2eeba0 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 1ccc2eeba0) +JIT [x86_64-linux]
-    last_commit=Pretend to update all Unicode files
-  0acbdd1ed0: |-
-    ruby 2.7.0dev (2019-05-23 trunk 0acbdd1ed0) [x86_64-linux]
-    last_commit=Adding Enumerable#filter_map
-  0acbdd1ed0 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 0acbdd1ed0) +JIT [x86_64-linux]
-    last_commit=Adding Enumerable#filter_map
-  c5cbabf8a8: |-
-    ruby 2.7.0dev (2019-05-23 trunk c5cbabf8a8) [x86_64-linux]
-    last_commit=Use colorized IRB on Windows without checking `TERM`
-  c5cbabf8a8 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk c5cbabf8a8) +JIT [x86_64-linux]
-    last_commit=Use colorized IRB on Windows without checking `TERM`
-  65637dae30: |-
-    ruby 2.7.0dev (2019-05-23 trunk 65637dae30) [x86_64-linux]
-    last_commit=Test GC.compact on MJIT again
-  65637dae30 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 65637dae30) +JIT [x86_64-linux]
-    last_commit=Test GC.compact on MJIT again
-  6be0ab73c3: |-
-    ruby 2.7.0dev (2019-05-23 trunk 6be0ab73c3) [x86_64-linux]
-    last_commit=gc_pin() doesn't check is_markable_object().
-  6be0ab73c3 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 6be0ab73c3) +JIT [x86_64-linux]
-    last_commit=gc_pin() doesn't check is_markable_object().
-  8fce83339b: |-
-    ruby 2.7.0dev (2019-05-23 trunk 8fce83339b) [x86_64-linux]
-    last_commit=disable _FORTIFY_SOURCE
-  8fce83339b --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 8fce83339b) +JIT [x86_64-linux]
-    last_commit=disable _FORTIFY_SOURCE
-  763989c6c5: |-
-    ruby 2.7.0dev (2019-05-23 trunk 763989c6c5) [x86_64-linux]
-    last_commit=prefix ASAN related inline functions asan_
-  763989c6c5 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 763989c6c5) +JIT [x86_64-linux]
-    last_commit=prefix ASAN related inline functions asan_
-  878a06efec: |-
-    ruby 2.7.0dev (2019-05-23 trunk 878a06efec) [x86_64-linux]
-    last_commit=add comments [ci skip]
-  878a06efec --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 878a06efec) +JIT [x86_64-linux]
-    last_commit=add comments [ci skip]
-  dc95b57a68: |-
-    ruby 2.7.0dev (2019-05-23 trunk dc95b57a68) [x86_64-linux]
-    last_commit=add verifier before compact
-  dc95b57a68 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk dc95b57a68) +JIT [x86_64-linux]
-    last_commit=add verifier before compact
-  fe3ff5afb0: |-
-    ruby 2.7.0dev (2019-05-23 trunk fe3ff5afb0) [x86_64-linux]
-    last_commit=Suppress paranoid warnings for external/3rd-party libraries
-  fe3ff5afb0 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk fe3ff5afb0) +JIT [x86_64-linux]
-    last_commit=Suppress paranoid warnings for external/3rd-party libraries
-  f5415a95ce: |-
-    ruby 2.7.0dev (2019-05-23 trunk f5415a95ce) [x86_64-linux]
-    last_commit=Add `Time#ceil`.
-  f5415a95ce --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk f5415a95ce) +JIT [x86_64-linux]
-    last_commit=Add `Time#ceil`.
-  0b4d51b055: |-
-    ruby 2.7.0dev (2019-05-23 trunk 0b4d51b055) [x86_64-linux]
-    last_commit=* expand tabs.
-  0b4d51b055 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 0b4d51b055) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  ccb1652929: |-
-    ruby 2.7.0dev (2019-05-23 trunk ccb1652929) [x86_64-linux]
-    last_commit=New Time methods in NEWS
-  ccb1652929 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk ccb1652929) +JIT [x86_64-linux]
-    last_commit=New Time methods in NEWS
-  e72769ef81: |-
-    ruby 2.7.0dev (2019-05-23 trunk e72769ef81) [x86_64-linux]
-    last_commit=Enumerable#filter_map in NEWS
-  e72769ef81 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk e72769ef81) +JIT [x86_64-linux]
-    last_commit=Enumerable#filter_map in NEWS
-  c04ef141d2: |-
-    ruby 2.7.0dev (2019-05-23 trunk c04ef141d2) [x86_64-linux]
-    last_commit=enum.c (enum_tally): better example in rdoc
-  c04ef141d2 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk c04ef141d2) +JIT [x86_64-linux]
-    last_commit=enum.c (enum_tally): better example in rdoc
-  4fe908c164: |-
-    ruby 2.7.0dev (2019-05-23 trunk 4fe908c164) [x86_64-linux]
-    last_commit=gc.c: Try pausing MJIT worker during GC.verify_compaction_references
-  4fe908c164 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 4fe908c164) +JIT [x86_64-linux]
-    last_commit=gc.c: Try pausing MJIT worker during GC.verify_compaction_references
-  187ef00a41: |-
-    ruby 2.7.0dev (2019-05-23 trunk 187ef00a41) [x86_64-linux]
-    last_commit=wercker.yml: Commit MJIT debug logs to another repository
-  187ef00a41 --jit: |-
-    ruby 2.7.0dev (2019-05-23 trunk 187ef00a41) +JIT [x86_64-linux]
-    last_commit=wercker.yml: Commit MJIT debug logs to another repository
-  dde8ceaf70: |-
-    ruby 2.7.0dev (2019-05-24 trunk dde8ceaf70) [x86_64-linux]
-    last_commit=* 2019-05-24
-  dde8ceaf70 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk dde8ceaf70) +JIT [x86_64-linux]
-    last_commit=* 2019-05-24
-  1ee1e8fccd: |-
-    ruby 2.7.0dev (2019-05-24 trunk 1ee1e8fccd) [x86_64-linux]
-    last_commit=Test GC.compact with MJIT again
-  1ee1e8fccd --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 1ee1e8fccd) +JIT [x86_64-linux]
-    last_commit=Test GC.compact with MJIT again
-  498113d5d3: |-
-    ruby 2.7.0dev (2019-05-24 trunk 498113d5d3) [x86_64-linux]
-    last_commit=test/ruby/test_gc.rb (test_gc_stress_at_startup): extend time timeout
-  498113d5d3 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 498113d5d3) +JIT [x86_64-linux]
-    last_commit=test/ruby/test_gc.rb (test_gc_stress_at_startup): extend time timeout
-  50e993d4e3: |-
-    ruby 2.7.0dev (2019-05-24 trunk 50e993d4e3) [x86_64-linux]
-    last_commit=Skip the Process.clock_getres spec on AIX
-  50e993d4e3 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 50e993d4e3) +JIT [x86_64-linux]
-    last_commit=Skip the Process.clock_getres spec on AIX
-  7f2f56b2f5: |-
-    ruby 2.7.0dev (2019-05-24 trunk 7f2f56b2f5) [x86_64-linux]
-    last_commit=Define GITPULLOPTION to rebase [Bug #15871]
-  7f2f56b2f5 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 7f2f56b2f5) +JIT [x86_64-linux]
-    last_commit=Define GITPULLOPTION to rebase [Bug #15871]
-  dfc21a0467: |-
-    ruby 2.7.0dev (2019-05-24 trunk dfc21a0467) [x86_64-linux]
-    last_commit=Ignore generated files by in-place build [Bug #15870]
-  dfc21a0467 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk dfc21a0467) +JIT [x86_64-linux]
-    last_commit=Ignore generated files by in-place build [Bug #15870]
   35caedc828: |-
     ruby 2.7.0dev (2019-05-24 trunk 35caedc828) [x86_64-linux]
     last_commit=--autostash is since Git 2.6 [Bug #15871]
@@ -6083,3 +5779,207 @@ commits:
   36f2d9bac2 --jit: |-
     ruby 2.7.0dev (2019-07-14T13:46:34Z trunk 36f2d9bac2) +JIT [x86_64-linux]
     last_commit=numeric.c (fix_cmp): remove a unreachable return statement
+  0bf829c17b: |-
+    ruby 2.7.0dev (2019-07-14T14:02:23Z trunk 0bf829c17b) [x86_64-linux]
+    last_commit=transcode.c (rb_trans_conv): remove unnecessary assignments
+  0bf829c17b --jit: |-
+    ruby 2.7.0dev (2019-07-14T14:02:23Z trunk 0bf829c17b) +JIT [x86_64-linux]
+    last_commit=transcode.c (rb_trans_conv): remove unnecessary assignments
+  '8549774430': |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 8549774430) [x86_64-linux]
+    last_commit=Tweak upstream information of upstream commit.
+  8549774430 --jit: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 8549774430) +JIT [x86_64-linux]
+    last_commit=Tweak upstream information of upstream commit.
+  864e2a95d9: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 864e2a95d9) [x86_64-linux]
+    last_commit=[ruby/csv] Bump version
+  864e2a95d9 --jit: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 864e2a95d9) +JIT [x86_64-linux]
+    last_commit=[ruby/csv] Bump version
+  9171f83305: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 9171f83305) [x86_64-linux]
+    last_commit=[ruby/csv] Refactor range in delete_suffix (#85)
+  9171f83305 --jit: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 9171f83305) +JIT [x86_64-linux]
+    last_commit=[ruby/csv] Refactor range in delete_suffix (#85)
+  8392592a0a: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 8392592a0a) [x86_64-linux]
+    last_commit=[ruby/csv] Don't raise on eof?
+  8392592a0a --jit: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 8392592a0a) +JIT [x86_64-linux]
+    last_commit=[ruby/csv] Don't raise on eof?
+  c8b82998d4: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk c8b82998d4) [x86_64-linux]
+    last_commit=[ruby/csv] Bump version
+  c8b82998d4 --jit: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk c8b82998d4) +JIT [x86_64-linux]
+    last_commit=[ruby/csv] Bump version
+  fe40841bfb: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk fe40841bfb) [x86_64-linux]
+    last_commit=[ruby/csv] add document of strip (#88)
+  fe40841bfb --jit: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk fe40841bfb) +JIT [x86_64-linux]
+    last_commit=[ruby/csv] add document of strip (#88)
+  75620c804e: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 75620c804e) [x86_64-linux]
+    last_commit=[ruby/csv] Add options doc: :write_converters, :write_nil_value, :write_empty_value (#87)
+  75620c804e --jit: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 75620c804e) +JIT [x86_64-linux]
+    last_commit=[ruby/csv] Add options doc: :write_converters, :write_nil_value, :write_empty_value (#87)
+  8c0edbd79d: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 8c0edbd79d) [x86_64-linux]
+    last_commit=[ruby/csv] add options doc :quote_empty (#89)
+  8c0edbd79d --jit: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 8c0edbd79d) +JIT [x86_64-linux]
+    last_commit=[ruby/csv] add options doc :quote_empty (#89)
+  198281a71d: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 198281a71d) [x86_64-linux]
+    last_commit=[ruby/csv] Fix a bug that strip: true removes newlines
+  198281a71d --jit: |-
+    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 198281a71d) +JIT [x86_64-linux]
+    last_commit=[ruby/csv] Fix a bug that strip: true removes newlines
+  3fd086ed56: |-
+    ruby 2.7.0dev (2019-07-14T14:09:24Z trunk 3fd086ed56) [x86_64-linux]
+    last_commit=string.c (str_succ): remove a unnecessary assignment
+  3fd086ed56 --jit: |-
+    ruby 2.7.0dev (2019-07-14T14:09:24Z trunk 3fd086ed56) +JIT [x86_64-linux]
+    last_commit=string.c (str_succ): remove a unnecessary assignment
+  43c337dfc1: |-
+    ruby 2.7.0dev (2019-07-14T14:09:24Z trunk 43c337dfc1) [x86_64-linux]
+    last_commit=string.c (str_succ): refactoring
+  43c337dfc1 --jit: |-
+    ruby 2.7.0dev (2019-07-14T14:09:24Z trunk 43c337dfc1) +JIT [x86_64-linux]
+    last_commit=string.c (str_succ): refactoring
+  80da68db1e: |-
+    ruby 2.7.0dev (2019-07-14T14:36:23Z trunk 80da68db1e) [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  80da68db1e --jit: |-
+    ruby 2.7.0dev (2019-07-14T14:36:23Z trunk 80da68db1e) +JIT [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  b4975693ed: |-
+    ruby 2.7.0dev (2019-07-14T15:07:32Z trunk b4975693ed) [x86_64-linux]
+    last_commit=process.c (p_sys_setregid, p_sys_setresgid): remove unused tmp buffer
+  b4975693ed --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:07:32Z trunk b4975693ed) +JIT [x86_64-linux]
+    last_commit=process.c (p_sys_setregid, p_sys_setresgid): remove unused tmp buffer
+  721fc84937: |-
+    ruby 2.7.0dev (2019-07-14T15:08:33Z trunk 721fc84937) [x86_64-linux]
+    last_commit=* 2019-07-15
+  721fc84937 --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:08:33Z trunk 721fc84937) +JIT [x86_64-linux]
+    last_commit=* 2019-07-15
+  517c8a5324: |-
+    ruby 2.7.0dev (2019-07-14T15:10:11Z trunk 517c8a5324) [x86_64-linux]
+    last_commit=dir.c (dir_each_entry): remove unnecessary check
+  517c8a5324 --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:10:11Z trunk 517c8a5324) +JIT [x86_64-linux]
+    last_commit=dir.c (dir_each_entry): remove unnecessary check
+  '09187c64b8': |-
+    ruby 2.7.0dev (2019-07-14T15:10:39Z trunk 09187c64b8) [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  '09187c64b8 --jit': |-
+    ruby 2.7.0dev (2019-07-14T15:10:39Z trunk 09187c64b8) +JIT [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  312d72000a: |-
+    ruby 2.7.0dev (2019-07-14T15:11:07Z trunk 312d72000a) [x86_64-linux]
+    last_commit=[ruby/rdoc] Correction to include regexp_handling in list of loaded files
+  312d72000a --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:11:07Z trunk 312d72000a) +JIT [x86_64-linux]
+    last_commit=[ruby/rdoc] Correction to include regexp_handling in list of loaded files
+  83171b0ee8: |-
+    ruby 2.7.0dev (2019-07-14T15:11:07Z trunk 83171b0ee8) [x86_64-linux]
+    last_commit=[ruby/rdoc] Bump version to 6.1.1
+  83171b0ee8 --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:11:07Z trunk 83171b0ee8) +JIT [x86_64-linux]
+    last_commit=[ruby/rdoc] Bump version to 6.1.1
+  9806da50f4: |-
+    ruby 2.7.0dev (2019-07-14T15:13:01Z trunk 9806da50f4) [x86_64-linux]
+    last_commit=Suppress warnings
+  9806da50f4 --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:13:01Z trunk 9806da50f4) +JIT [x86_64-linux]
+    last_commit=Suppress warnings
+  073cc52dcc: |-
+    ruby 2.7.0dev (2019-07-14T15:17:59Z trunk 073cc52dcc) [x86_64-linux]
+    last_commit=Add `class Reline::History` and test.
+  073cc52dcc --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:17:59Z trunk 073cc52dcc) +JIT [x86_64-linux]
+    last_commit=Add `class Reline::History` and test.
+  e6f188ea03: |-
+    ruby 2.7.0dev (2019-07-14T15:18:10Z trunk e6f188ea03) [x86_64-linux]
+    last_commit=Rename to Reline::History::Test.
+  e6f188ea03 --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:18:10Z trunk e6f188ea03) +JIT [x86_64-linux]
+    last_commit=Rename to Reline::History::Test.
+  deb5e58230: |-
+    ruby 2.7.0dev (2019-07-14T15:20:32Z trunk deb5e58230) [x86_64-linux]
+    last_commit=ext/stringio/stringio.c (strio_read): "binray" is always zero here
+  deb5e58230 --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:20:32Z trunk deb5e58230) +JIT [x86_64-linux]
+    last_commit=ext/stringio/stringio.c (strio_read): "binray" is always zero here
+  9e3971c3ad: |-
+    ruby 2.7.0dev (2019-07-14T15:29:56Z trunk 9e3971c3ad) [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  9e3971c3ad --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:29:56Z trunk 9e3971c3ad) +JIT [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  970c12551e: |-
+    ruby 2.7.0dev (2019-07-14T15:30:35Z trunk 970c12551e) [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  970c12551e --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:30:35Z trunk 970c12551e) +JIT [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  3201062adf: |-
+    ruby 2.7.0dev (2019-07-14T15:31:07Z trunk 3201062adf) [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  3201062adf --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:31:07Z trunk 3201062adf) +JIT [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  '4403130193': |-
+    ruby 2.7.0dev (2019-07-14T15:32:00Z trunk 4403130193) [x86_64-linux]
+    last_commit=[ruby/matrix] Add missing `lib/matrix/' files to file list in gemspec
+  4403130193 --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:32:00Z trunk 4403130193) +JIT [x86_64-linux]
+    last_commit=[ruby/matrix] Add missing `lib/matrix/' files to file list in gemspec
+  423feb53a2: |-
+    ruby 2.7.0dev (2019-07-14T15:32:00Z trunk 423feb53a2) [x86_64-linux]
+    last_commit=[ruby/matrix] Add Matrix::VERSION constant
+  423feb53a2 --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:32:00Z trunk 423feb53a2) +JIT [x86_64-linux]
+    last_commit=[ruby/matrix] Add Matrix::VERSION constant
+  04e6b90d5b: |-
+    ruby 2.7.0dev (2019-07-14T15:33:16Z trunk 04e6b90d5b) [x86_64-linux]
+    last_commit=Remove unused method.
+  04e6b90d5b --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:33:16Z trunk 04e6b90d5b) +JIT [x86_64-linux]
+    last_commit=Remove unused method.
+  cd7b99bbfc: |-
+    ruby 2.7.0dev (2019-07-14T15:36:59Z trunk cd7b99bbfc) [x86_64-linux]
+    last_commit=Version 0.0.1
+  cd7b99bbfc --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:36:59Z trunk cd7b99bbfc) +JIT [x86_64-linux]
+    last_commit=Version 0.0.1
+  d0b1a8d5fb: |-
+    ruby 2.7.0dev (2019-07-14T15:43:36Z trunk d0b1a8d5fb) [x86_64-linux]
+    last_commit=Need reline-0.0.1 or later for some features
+  d0b1a8d5fb --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:43:36Z trunk d0b1a8d5fb) +JIT [x86_64-linux]
+    last_commit=Need reline-0.0.1 or later for some features
+  82b058ff60: |-
+    ruby 2.7.0dev (2019-07-14T15:43:47Z trunk 82b058ff60) [x86_64-linux]
+    last_commit=Version 1.1.0.pre.2
+  82b058ff60 --jit: |-
+    ruby 2.7.0dev (2019-07-14T15:43:47Z trunk 82b058ff60) +JIT [x86_64-linux]
+    last_commit=Version 1.1.0.pre.2
+  6d57369105: |-
+    ruby 2.7.0dev (2019-07-14T16:07:37Z trunk 6d57369105) [x86_64-linux]
+    last_commit=Auto indent in IRB is enabled by default
+  6d57369105 --jit: |-
+    ruby 2.7.0dev (2019-07-14T16:07:37Z trunk 6d57369105) +JIT [x86_64-linux]
+    last_commit=Auto indent in IRB is enabled by default
+  '078e50c5e9': |-
+    ruby 2.7.0dev (2019-07-14T16:16:18Z trunk 078e50c5e9) [x86_64-linux]
+    last_commit=Save history in IRB is enabled by default
+  '078e50c5e9 --jit': |-
+    ruby 2.7.0dev (2019-07-14T16:16:18Z trunk 078e50c5e9) +JIT [x86_64-linux]
+    last_commit=Save history in IRB is enabled by default
