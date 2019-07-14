@@ -9,28 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  f1f4029460: ruby 2.7.0dev (2019-05-17 trunk f1f4029460) [x86_64-linux]
-  f1f4029460 --jit: ruby 2.7.0dev (2019-05-17 trunk f1f4029460) +JIT [x86_64-linux]
-  32e8b42852: ruby 2.7.0dev (2019-05-17 trunk 32e8b42852) [x86_64-linux]
-  32e8b42852 --jit: ruby 2.7.0dev (2019-05-17 trunk 32e8b42852) +JIT [x86_64-linux]
-  b1b385465e: ruby 2.7.0dev (2019-05-17 trunk b1b385465e) [x86_64-linux]
-  b1b385465e --jit: ruby 2.7.0dev (2019-05-17 trunk b1b385465e) +JIT [x86_64-linux]
-  e29a85a96c: ruby 2.7.0dev (2019-05-17 trunk e29a85a96c) [x86_64-linux]
-  e29a85a96c --jit: ruby 2.7.0dev (2019-05-17 trunk e29a85a96c) +JIT [x86_64-linux]
-  0723c107f4: ruby 2.7.0dev (2019-05-17 trunk 0723c107f4) [x86_64-linux]
-  0723c107f4 --jit: ruby 2.7.0dev (2019-05-17 trunk 0723c107f4) +JIT [x86_64-linux]
-  ea3e7e2685: ruby 2.7.0dev (2019-05-17 trunk ea3e7e2685) [x86_64-linux]
-  ea3e7e2685 --jit: ruby 2.7.0dev (2019-05-17 trunk ea3e7e2685) +JIT [x86_64-linux]
-  9858d74a12: ruby 2.7.0dev (2019-05-17 trunk 9858d74a12) [x86_64-linux]
-  9858d74a12 --jit: ruby 2.7.0dev (2019-05-17 trunk 9858d74a12) +JIT [x86_64-linux]
-  39336a4210: ruby 2.7.0dev (2019-05-18 trunk 39336a4210) [x86_64-linux]
-  39336a4210 --jit: ruby 2.7.0dev (2019-05-18 trunk 39336a4210) +JIT [x86_64-linux]
-  c4bad9f74e: ruby 2.7.0dev (2019-05-18 trunk c4bad9f74e) [x86_64-linux]
-  c4bad9f74e --jit: ruby 2.7.0dev (2019-05-18 trunk c4bad9f74e) +JIT [x86_64-linux]
-  719ebbec30: ruby 2.7.0dev (2019-05-18 trunk 719ebbec30) [x86_64-linux]
-  719ebbec30 --jit: ruby 2.7.0dev (2019-05-18 trunk 719ebbec30) +JIT [x86_64-linux]
-  4d9c3a8c23: ruby 2.7.0dev (2019-05-18 trunk 4d9c3a8c23) [x86_64-linux]
-  4d9c3a8c23 --jit: ruby 2.7.0dev (2019-05-18 trunk 4d9c3a8c23) +JIT [x86_64-linux]
   6ae1c596f0: ruby 2.7.0dev (2019-05-18 trunk 6ae1c596f0) [x86_64-linux]
   6ae1c596f0 --jit: ruby 2.7.0dev (2019-05-18 trunk 6ae1c596f0) +JIT [x86_64-linux]
   b165bedcbd: ruby 2.7.0dev (2019-05-18 trunk b165bedcbd) [x86_64-linux]
@@ -5755,3 +5733,21 @@ commits:
   1a4f7c9bfa --jit: |-
     ruby 2.7.0dev (2019-07-13T14:36:34Z trunk 1a4f7c9bfa) +JIT [x86_64-linux]
     last_commit=[DOC] Markup code in globals.rdoc
+  dcb8c41a1e: |-
+    ruby 2.7.0dev (2019-07-13T16:31:29Z trunk dcb8c41a1e) [x86_64-linux]
+    last_commit=Added depend files
+  dcb8c41a1e --jit: |-
+    ruby 2.7.0dev (2019-07-13T16:31:29Z trunk dcb8c41a1e) +JIT [x86_64-linux]
+    last_commit=Added depend files
+  69a66e8a8b: |-
+    ruby 2.7.0dev (2019-07-13T16:32:27Z trunk 69a66e8a8b) [x86_64-linux]
+    last_commit=* 2019-07-14
+  69a66e8a8b --jit: |-
+    ruby 2.7.0dev (2019-07-13T16:32:27Z trunk 69a66e8a8b) +JIT [x86_64-linux]
+    last_commit=* 2019-07-14
+  ac2866005b: |-
+    ruby 2.7.0dev (2019-07-13T18:04:23Z trunk ac2866005b) [x86_64-linux]
+    last_commit=Add empty depend file if extconf.rb only exists
+  ac2866005b --jit: |-
+    ruby 2.7.0dev (2019-07-13T18:04:23Z trunk ac2866005b) +JIT [x86_64-linux]
+    last_commit=Add empty depend file if extconf.rb only exists
