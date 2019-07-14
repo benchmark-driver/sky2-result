@@ -9,100 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  6ae1c596f0: ruby 2.7.0dev (2019-05-18 trunk 6ae1c596f0) [x86_64-linux]
-  6ae1c596f0 --jit: ruby 2.7.0dev (2019-05-18 trunk 6ae1c596f0) +JIT [x86_64-linux]
-  b165bedcbd: ruby 2.7.0dev (2019-05-18 trunk b165bedcbd) [x86_64-linux]
-  b165bedcbd --jit: ruby 2.7.0dev (2019-05-18 trunk b165bedcbd) +JIT [x86_64-linux]
-  16917cc3cb: ruby 2.7.0dev (2019-05-18 trunk 16917cc3cb) [x86_64-linux]
-  16917cc3cb --jit: ruby 2.7.0dev (2019-05-18 trunk 16917cc3cb) +JIT [x86_64-linux]
-  bbb84a16fa: ruby 2.7.0dev (2019-05-18 trunk bbb84a16fa) [x86_64-linux]
-  bbb84a16fa --jit: ruby 2.7.0dev (2019-05-18 trunk bbb84a16fa) +JIT [x86_64-linux]
-  154a67f140: ruby 2.7.0dev (2019-05-18 trunk 154a67f140) [x86_64-linux]
-  154a67f140 --jit: ruby 2.7.0dev (2019-05-18 trunk 154a67f140) +JIT [x86_64-linux]
-  acf6689a8c: ruby 2.7.0dev (2019-05-18 trunk acf6689a8c) [x86_64-linux]
-  acf6689a8c --jit: ruby 2.7.0dev (2019-05-18 trunk acf6689a8c) +JIT [x86_64-linux]
-  f782e5bdcf: ruby 2.7.0dev (2019-05-18 trunk f782e5bdcf) [x86_64-linux]
-  f782e5bdcf --jit: ruby 2.7.0dev (2019-05-18 trunk f782e5bdcf) +JIT [x86_64-linux]
-  cc0e460bcc: ruby 2.7.0dev (2019-05-18 trunk cc0e460bcc) [x86_64-linux]
-  cc0e460bcc --jit: ruby 2.7.0dev (2019-05-18 trunk cc0e460bcc) +JIT [x86_64-linux]
-  60de17258b: ruby 2.7.0dev (2019-05-18 trunk 60de17258b) [x86_64-linux]
-  60de17258b --jit: ruby 2.7.0dev (2019-05-18 trunk 60de17258b) +JIT [x86_64-linux]
-  af1502175b: ruby 2.7.0dev (2019-05-18 trunk af1502175b) [x86_64-linux]
-  af1502175b --jit: ruby 2.7.0dev (2019-05-18 trunk af1502175b) +JIT [x86_64-linux]
-  cc764e5d37: ruby 2.7.0dev (2019-05-19 trunk cc764e5d37) [x86_64-linux]
-  cc764e5d37 --jit: ruby 2.7.0dev (2019-05-19 trunk cc764e5d37) +JIT [x86_64-linux]
-  4d7ada10b1: ruby 2.7.0dev (2019-05-19 trunk 4d7ada10b1) [x86_64-linux]
-  4d7ada10b1 --jit: ruby 2.7.0dev (2019-05-19 trunk 4d7ada10b1) +JIT [x86_64-linux]
-  075e1acb4c: ruby 2.7.0dev (2019-05-19 trunk 075e1acb4c) [x86_64-linux]
-  075e1acb4c --jit: ruby 2.7.0dev (2019-05-19 trunk 075e1acb4c) +JIT [x86_64-linux]
-  f659e2f9bf: ruby 2.7.0dev (2019-05-20 trunk f659e2f9bf) [x86_64-linux]
-  f659e2f9bf --jit: ruby 2.7.0dev (2019-05-20 trunk f659e2f9bf) +JIT [x86_64-linux]
-  9f49ff4965: ruby 2.7.0dev (2019-05-20 trunk 9f49ff4965) [x86_64-linux]
-  9f49ff4965 --jit: ruby 2.7.0dev (2019-05-20 trunk 9f49ff4965) +JIT [x86_64-linux]
-  7ef548c0ac: ruby 2.7.0dev (2019-05-20 trunk 7ef548c0ac) [x86_64-linux]
-  7ef548c0ac --jit: ruby 2.7.0dev (2019-05-20 trunk 7ef548c0ac) +JIT [x86_64-linux]
-  ab0f2deab1: ruby 2.7.0dev (2019-05-20 trunk ab0f2deab1) [x86_64-linux]
-  ab0f2deab1 --jit: ruby 2.7.0dev (2019-05-20 trunk ab0f2deab1) +JIT [x86_64-linux]
-  2a34543e11: ruby 2.7.0dev (2019-05-20 trunk 2a34543e11) [x86_64-linux]
-  2a34543e11 --jit: ruby 2.7.0dev (2019-05-20 trunk 2a34543e11) +JIT [x86_64-linux]
-  8c8f2d97cf: ruby 2.7.0dev (2019-05-20 trunk 8c8f2d97cf) [x86_64-linux]
-  8c8f2d97cf --jit: ruby 2.7.0dev (2019-05-20 trunk 8c8f2d97cf) +JIT [x86_64-linux]
-  e83f10b368: ruby 2.7.0dev (2019-05-20 trunk e83f10b368) [x86_64-linux]
-  e83f10b368 --jit: ruby 2.7.0dev (2019-05-20 trunk e83f10b368) +JIT [x86_64-linux]
-  583ecd5fc5: ruby 2.7.0dev (2019-05-20 trunk 583ecd5fc5) [x86_64-linux]
-  583ecd5fc5 --jit: ruby 2.7.0dev (2019-05-20 trunk 583ecd5fc5) +JIT [x86_64-linux]
-  6592f5fcc8: ruby 2.7.0dev (2019-05-20 trunk 6592f5fcc8) [x86_64-linux]
-  6592f5fcc8 --jit: ruby 2.7.0dev (2019-05-20 trunk 6592f5fcc8) +JIT [x86_64-linux]
-  8023b3ce9d: ruby 2.7.0dev (2019-05-21 trunk 8023b3ce9d) [x86_64-linux]
-  8023b3ce9d --jit: ruby 2.7.0dev (2019-05-21 trunk 8023b3ce9d) +JIT [x86_64-linux]
-  b69dfdb4b3: ruby 2.7.0dev (2019-05-21 trunk b69dfdb4b3) [x86_64-linux]
-  b69dfdb4b3 --jit: ruby 2.7.0dev (2019-05-21 trunk b69dfdb4b3) +JIT [x86_64-linux]
-  34d7ec4e9b: ruby 2.7.0dev (2019-05-21 trunk 34d7ec4e9b) [x86_64-linux]
-  34d7ec4e9b --jit: ruby 2.7.0dev (2019-05-21 trunk 34d7ec4e9b) +JIT [x86_64-linux]
-  df6a673ca5: ruby 2.7.0dev (2019-05-21 trunk df6a673ca5) [x86_64-linux]
-  df6a673ca5 --jit: ruby 2.7.0dev (2019-05-21 trunk df6a673ca5) +JIT [x86_64-linux]
-  3a9008b984: ruby 2.7.0dev (2019-05-21 trunk 3a9008b984) [x86_64-linux]
-  3a9008b984 --jit: ruby 2.7.0dev (2019-05-21 trunk 3a9008b984) +JIT [x86_64-linux]
-  29c81265c1: ruby 2.7.0dev (2019-05-21 trunk 29c81265c1) [x86_64-linux]
-  29c81265c1 --jit: ruby 2.7.0dev (2019-05-21 trunk 29c81265c1) +JIT [x86_64-linux]
-  be0d9c0d26: ruby 2.7.0dev (2019-05-21 trunk be0d9c0d26) [x86_64-linux]
-  be0d9c0d26 --jit: ruby 2.7.0dev (2019-05-21 trunk be0d9c0d26) +JIT [x86_64-linux]
-  f9696ca6cb: ruby 2.7.0dev (2019-05-21 trunk f9696ca6cb) [x86_64-linux]
-  f9696ca6cb --jit: ruby 2.7.0dev (2019-05-21 trunk f9696ca6cb) +JIT [x86_64-linux]
-  ac00bdc8a8: ruby 2.7.0dev (2019-05-21 trunk ac00bdc8a8) [x86_64-linux]
-  ac00bdc8a8 --jit: ruby 2.7.0dev (2019-05-21 trunk ac00bdc8a8) +JIT [x86_64-linux]
-  44e9b1e3a6: ruby 2.7.0dev (2019-05-21 trunk 44e9b1e3a6) [x86_64-linux]
-  44e9b1e3a6 --jit: ruby 2.7.0dev (2019-05-21 trunk 44e9b1e3a6) +JIT [x86_64-linux]
-  0b9a7b3528: ruby 2.7.0dev (2019-05-21 trunk 0b9a7b3528) [x86_64-linux]
-  0b9a7b3528 --jit: ruby 2.7.0dev (2019-05-21 trunk 0b9a7b3528) +JIT [x86_64-linux]
-  7ff4abe650: ruby 2.7.0dev (2019-05-21 trunk 7ff4abe650) [x86_64-linux]
-  7ff4abe650 --jit: ruby 2.7.0dev (2019-05-21 trunk 7ff4abe650) +JIT [x86_64-linux]
-  8c004c7123: ruby 2.7.0dev (2019-05-21 trunk 8c004c7123) [x86_64-linux]
-  8c004c7123 --jit: ruby 2.7.0dev (2019-05-21 trunk 8c004c7123) +JIT [x86_64-linux]
-  6d93baaedd: ruby 2.7.0dev (2019-05-21 trunk 6d93baaedd) [x86_64-linux]
-  6d93baaedd --jit: ruby 2.7.0dev (2019-05-21 trunk 6d93baaedd) +JIT [x86_64-linux]
-  3f6b5f447c: ruby 2.7.0dev (2019-05-21 trunk 3f6b5f447c) [x86_64-linux]
-  3f6b5f447c --jit: ruby 2.7.0dev (2019-05-21 trunk 3f6b5f447c) +JIT [x86_64-linux]
-  fd95ab44c6: ruby 2.7.0dev (2019-05-21 trunk fd95ab44c6) [x86_64-linux]
-  fd95ab44c6 --jit: ruby 2.7.0dev (2019-05-21 trunk fd95ab44c6) +JIT [x86_64-linux]
-  bb5b4f9044: ruby 2.7.0dev (2019-05-21 trunk bb5b4f9044) [x86_64-linux]
-  bb5b4f9044 --jit: ruby 2.7.0dev (2019-05-21 trunk bb5b4f9044) +JIT [x86_64-linux]
-  4613c4bd5c: ruby 2.7.0dev (2019-05-21 trunk 4613c4bd5c) [x86_64-linux]
-  4613c4bd5c --jit: ruby 2.7.0dev (2019-05-21 trunk 4613c4bd5c) +JIT [x86_64-linux]
-  32ed85f601: ruby 2.7.0dev (2019-05-21 trunk 32ed85f601) [x86_64-linux]
-  32ed85f601 --jit: ruby 2.7.0dev (2019-05-21 trunk 32ed85f601) +JIT [x86_64-linux]
-  2ecee730a5: ruby 2.7.0dev (2019-05-21 trunk 2ecee730a5) [x86_64-linux]
-  2ecee730a5 --jit: ruby 2.7.0dev (2019-05-21 trunk 2ecee730a5) +JIT [x86_64-linux]
-  b508b623ee: ruby 2.7.0dev (2019-05-21 trunk b508b623ee) [x86_64-linux]
-  b508b623ee --jit: ruby 2.7.0dev (2019-05-21 trunk b508b623ee) +JIT [x86_64-linux]
-  be86e71c67: ruby 2.7.0dev (2019-05-21 trunk be86e71c67) [x86_64-linux]
-  be86e71c67 --jit: ruby 2.7.0dev (2019-05-21 trunk be86e71c67) +JIT [x86_64-linux]
-  232f1117e8: ruby 2.7.0dev (2019-05-22 trunk 232f1117e8) [x86_64-linux]
-  232f1117e8 --jit: ruby 2.7.0dev (2019-05-22 trunk 232f1117e8) +JIT [x86_64-linux]
-  f8732bd4d6: ruby 2.7.0dev (2019-05-22 trunk f8732bd4d6) [x86_64-linux]
-  f8732bd4d6 --jit: ruby 2.7.0dev (2019-05-22 trunk f8732bd4d6) +JIT [x86_64-linux]
-  ca435ed04a: ruby 2.7.0dev (2019-05-22 trunk ca435ed04a) [x86_64-linux]
-  ca435ed04a --jit: ruby 2.7.0dev (2019-05-22 trunk ca435ed04a) +JIT [x86_64-linux]
   c00d805672: ruby 2.7.0dev (2019-05-22 trunk c00d805672) [x86_64-linux]
   c00d805672 --jit: ruby 2.7.0dev (2019-05-22 trunk c00d805672) +JIT [x86_64-linux]
   c48d9139d4: ruby 2.7.0dev (2019-05-22 trunk c48d9139d4) [x86_64-linux]
@@ -5889,3 +5795,147 @@ commits:
   f2d99fd820 --jit: |-
     ruby 2.7.0dev (2019-07-14T06:54:19Z trunk f2d99fd820) +JIT [x86_64-linux]
     last_commit=[DOC] Fix indent [ci skip]
+  2618db3011: |-
+    ruby 2.7.0dev (2019-07-14T07:00:34Z trunk 2618db3011) [x86_64-linux]
+    last_commit=[DOC] Fix typos [ci skip]
+  2618db3011 --jit: |-
+    ruby 2.7.0dev (2019-07-14T07:00:34Z trunk 2618db3011) +JIT [x86_64-linux]
+    last_commit=[DOC] Fix typos [ci skip]
+  95de69df99: |-
+    ruby 2.7.0dev (2019-07-14T07:18:32Z trunk 95de69df99) [x86_64-linux]
+    last_commit=io.c (rb_file_open_internal): initialize all the fields
+  95de69df99 --jit: |-
+    ruby 2.7.0dev (2019-07-14T07:18:32Z trunk 95de69df99) +JIT [x86_64-linux]
+    last_commit=io.c (rb_file_open_internal): initialize all the fields
+  73fab16e76: |-
+    ruby 2.7.0dev (2019-07-14T07:18:32Z trunk 73fab16e76) [x86_64-linux]
+    last_commit=compile.c (defined_expr): return void instead of int
+  73fab16e76 --jit: |-
+    ruby 2.7.0dev (2019-07-14T07:18:32Z trunk 73fab16e76) +JIT [x86_64-linux]
+    last_commit=compile.c (defined_expr): return void instead of int
+  83153bbb14: |-
+    ruby 2.7.0dev (2019-07-14T07:18:48Z trunk 83153bbb14) [x86_64-linux]
+    last_commit=* expand tabs.
+  83153bbb14 --jit: |-
+    ruby 2.7.0dev (2019-07-14T07:18:48Z trunk 83153bbb14) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  10de5f149a: |-
+    ruby 2.7.0dev (2019-07-14T07:56:25Z trunk 10de5f149a) [x86_64-linux]
+    last_commit=Calculate float complex division per each part
+  10de5f149a --jit: |-
+    ruby 2.7.0dev (2019-07-14T07:56:25Z trunk 10de5f149a) +JIT [x86_64-linux]
+    last_commit=Calculate float complex division per each part
+  934e6b2aeb: |-
+    ruby 2.7.0dev (2019-07-14T08:16:19Z trunk 934e6b2aeb) [x86_64-linux]
+    last_commit=Prefer `rb_error_arity` to `rb_check_arity` when it can be used
+  934e6b2aeb --jit: |-
+    ruby 2.7.0dev (2019-07-14T08:16:19Z trunk 934e6b2aeb) +JIT [x86_64-linux]
+    last_commit=Prefer `rb_error_arity` to `rb_check_arity` when it can be used
+  9987296b8b: |-
+    ruby 2.7.0dev (2019-07-14T08:16:35Z trunk 9987296b8b) [x86_64-linux]
+    last_commit=* expand tabs.
+  9987296b8b --jit: |-
+    ruby 2.7.0dev (2019-07-14T08:16:35Z trunk 9987296b8b) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  05aac90a1b: |-
+    ruby 2.7.0dev (2019-07-14T08:18:17Z trunk 05aac90a1b) [x86_64-linux]
+    last_commit=Warn open-uri's "open" method at Kernel.
+  05aac90a1b --jit: |-
+    ruby 2.7.0dev (2019-07-14T08:18:17Z trunk 05aac90a1b) +JIT [x86_64-linux]
+    last_commit=Warn open-uri's "open" method at Kernel.
+  6bca4437de: |-
+    ruby 2.7.0dev (2019-07-14T08:22:13Z trunk 6bca4437de) [x86_64-linux]
+    last_commit=Describe warning of open-uri.
+  6bca4437de --jit: |-
+    ruby 2.7.0dev (2019-07-14T08:22:13Z trunk 6bca4437de) +JIT [x86_64-linux]
+    last_commit=Describe warning of open-uri.
+  61577fa53b: |-
+    ruby 2.7.0dev (2019-07-14T08:32:53Z trunk 61577fa53b) [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  61577fa53b --jit: |-
+    ruby 2.7.0dev (2019-07-14T08:32:53Z trunk 61577fa53b) +JIT [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  4d9504fe13: |-
+    ruby 2.7.0dev (2019-07-14T08:42:58Z trunk 4d9504fe13) [x86_64-linux]
+    last_commit=Delegates 3 arguments for Pathname.glob.
+  4d9504fe13 --jit: |-
+    ruby 2.7.0dev (2019-07-14T08:42:58Z trunk 4d9504fe13) +JIT [x86_64-linux]
+    last_commit=Delegates 3 arguments for Pathname.glob.
+  5786df12f5: |-
+    ruby 2.7.0dev (2019-07-14T08:44:33Z trunk 5786df12f5) [x86_64-linux]
+    last_commit=Describe about Pathname.glob.
+  5786df12f5 --jit: |-
+    ruby 2.7.0dev (2019-07-14T08:44:33Z trunk 5786df12f5) +JIT [x86_64-linux]
+    last_commit=Describe about Pathname.glob.
+  32f0135144: |-
+    ruby 2.7.0dev (2019-07-14T08:45:21Z trunk 32f0135144) [x86_64-linux]
+    last_commit=Split RUBY_ASSERT and so on under include/ruby
+  32f0135144 --jit: |-
+    ruby 2.7.0dev (2019-07-14T08:45:21Z trunk 32f0135144) +JIT [x86_64-linux]
+    last_commit=Split RUBY_ASSERT and so on under include/ruby
+  73904abb95: |-
+    ruby 2.7.0dev (2019-07-14T08:45:52Z trunk 73904abb95) [x86_64-linux]
+    last_commit=* expand tabs.
+  73904abb95 --jit: |-
+    ruby 2.7.0dev (2019-07-14T08:45:52Z trunk 73904abb95) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  b67b07bd5b: |-
+    ruby 2.7.0dev (2019-07-14T08:46:16Z trunk b67b07bd5b) [x86_64-linux]
+    last_commit=Fix links to headings A previous change made the header's id be fully referenced (for the sidebar I believe) but this broke links to them. This fixes the issue.
+  b67b07bd5b --jit: |-
+    ruby 2.7.0dev (2019-07-14T08:46:16Z trunk b67b07bd5b) +JIT [x86_64-linux]
+    last_commit=Fix links to headings A previous change made the header's id be fully referenced (for the sidebar I believe) but this broke links to them. This fixes the issue.
+  47e571c951: |-
+    ruby 2.7.0dev (2019-07-14T08:52:19Z trunk 47e571c951) [x86_64-linux]
+    last_commit=complement '.rb' on `test-all TESTS=test_xxx`
+  47e571c951 --jit: |-
+    ruby 2.7.0dev (2019-07-14T08:52:19Z trunk 47e571c951) +JIT [x86_64-linux]
+    last_commit=complement '.rb' on `test-all TESTS=test_xxx`
+  db1c30b37f: |-
+    ruby 2.7.0dev (2019-07-14T08:54:48Z trunk db1c30b37f) [x86_64-linux]
+    last_commit=addr2line.c (main_exe_path): avoid SEGV when /proc is not available
+  db1c30b37f --jit: |-
+    ruby 2.7.0dev (2019-07-14T08:54:48Z trunk db1c30b37f) +JIT [x86_64-linux]
+    last_commit=addr2line.c (main_exe_path): avoid SEGV when /proc is not available
+  db64093f51: |-
+    ruby 2.7.0dev (2019-07-14T08:56:38Z trunk db64093f51) [x86_64-linux]
+    last_commit=[DOC] Fix a typo [ci skip]
+  db64093f51 --jit: |-
+    ruby 2.7.0dev (2019-07-14T08:56:38Z trunk db64093f51) +JIT [x86_64-linux]
+    last_commit=[DOC] Fix a typo [ci skip]
+  715955ff27: |-
+    ruby 2.7.0dev (2019-07-14T08:58:03Z trunk 715955ff27) [x86_64-linux]
+    last_commit=Include ruby/assert.h in ruby/ruby.h so that assertions can be there
+  715955ff27 --jit: |-
+    ruby 2.7.0dev (2019-07-14T08:58:03Z trunk 715955ff27) +JIT [x86_64-linux]
+    last_commit=Include ruby/assert.h in ruby/ruby.h so that assertions can be there
+  '08c2a9dc59': |-
+    ruby 2.7.0dev (2019-07-14T08:58:06Z trunk 08c2a9dc59) [x86_64-linux]
+    last_commit=Introduce RUBY_DEBUG flag macro
+  '08c2a9dc59 --jit': |-
+    ruby 2.7.0dev (2019-07-14T08:58:06Z trunk 08c2a9dc59) +JIT [x86_64-linux]
+    last_commit=Introduce RUBY_DEBUG flag macro
+  043e3d2cdc: |-
+    ruby 2.7.0dev (2019-07-14T08:58:41Z trunk 043e3d2cdc) [x86_64-linux]
+    last_commit=[DOC] Add missing headings [ci skip]
+  043e3d2cdc --jit: |-
+    ruby 2.7.0dev (2019-07-14T08:58:41Z trunk 043e3d2cdc) +JIT [x86_64-linux]
+    last_commit=[DOC] Add missing headings [ci skip]
+  d30d404bc4: |-
+    ruby 2.7.0dev (2019-07-14T09:04:19Z trunk d30d404bc4) [x86_64-linux]
+    last_commit=MJIT Support for getblockparamproxy
+  d30d404bc4 --jit: |-
+    ruby 2.7.0dev (2019-07-14T09:04:19Z trunk d30d404bc4) +JIT [x86_64-linux]
+    last_commit=MJIT Support for getblockparamproxy
+  2553608c3b: |-
+    ruby 2.7.0dev (2019-07-14T09:07:40Z trunk 2553608c3b) [x86_64-linux]
+    last_commit=Removed binop macro which has not been used
+  2553608c3b --jit: |-
+    ruby 2.7.0dev (2019-07-14T09:07:40Z trunk 2553608c3b) +JIT [x86_64-linux]
+    last_commit=Removed binop macro which has not been used
+  45dfd4c09d: |-
+    ruby 2.7.0dev (2019-07-14T09:09:10Z trunk 45dfd4c09d) [x86_64-linux]
+    last_commit=Make export declaration place more consistent
+  45dfd4c09d --jit: |-
+    ruby 2.7.0dev (2019-07-14T09:09:10Z trunk 45dfd4c09d) +JIT [x86_64-linux]
+    last_commit=Make export declaration place more consistent
