@@ -5757,3 +5757,135 @@ commits:
   369ff79394 --jit: |-
     ruby 2.7.0dev (2019-07-14T01:58:50Z trunk 369ff79394) +JIT [x86_64-linux]
     last_commit=add encoding conversion from/to CESU-8
+  4402c66978: |-
+    ruby 2.7.0dev (2019-07-14T03:53:42Z trunk 4402c66978) [x86_64-linux]
+    last_commit=Refactor mjit_worker command line with C99
+  4402c66978 --jit: |-
+    ruby 2.7.0dev (2019-07-14T03:53:42Z trunk 4402c66978) +JIT [x86_64-linux]
+    last_commit=Refactor mjit_worker command line with C99
+  18603e9046: |-
+    ruby 2.7.0dev (2019-07-14T03:55:58Z trunk 18603e9046) [x86_64-linux]
+    last_commit=Update dependencies for 369ff79394765ce198ac7cee872a8c739d895aaa
+  18603e9046 --jit: |-
+    ruby 2.7.0dev (2019-07-14T03:55:58Z trunk 18603e9046) +JIT [x86_64-linux]
+    last_commit=Update dependencies for 369ff79394765ce198ac7cee872a8c739d895aaa
+  315d3adf0f: |-
+    ruby 2.7.0dev (2019-07-14T04:49:39Z trunk 315d3adf0f) [x86_64-linux]
+    last_commit=Avoid io_tell whose return value is not used
+  315d3adf0f --jit: |-
+    ruby 2.7.0dev (2019-07-14T04:49:39Z trunk 315d3adf0f) +JIT [x86_64-linux]
+    last_commit=Avoid io_tell whose return value is not used
+  1d46642487: |-
+    ruby 2.7.0dev (2019-07-14T04:57:57Z trunk 1d46642487) [x86_64-linux]
+    last_commit=* expand tabs.
+  1d46642487 --jit: |-
+    ruby 2.7.0dev (2019-07-14T04:57:57Z trunk 1d46642487) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  ba94404f70: |-
+    ruby 2.7.0dev (2019-07-14T05:04:19Z trunk ba94404f70) [x86_64-linux]
+    last_commit=Add /* fall through */ comments
+  ba94404f70 --jit: |-
+    ruby 2.7.0dev (2019-07-14T05:04:19Z trunk ba94404f70) +JIT [x86_64-linux]
+    last_commit=Add /* fall through */ comments
+  ff5b149435: |-
+    ruby 2.7.0dev (2019-07-14T05:04:34Z trunk ff5b149435) [x86_64-linux]
+    last_commit=* expand tabs.
+  ff5b149435 --jit: |-
+    ruby 2.7.0dev (2019-07-14T05:04:34Z trunk ff5b149435) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  34b3ef29b6: |-
+    ruby 2.7.0dev (2019-07-14T05:09:33Z trunk 34b3ef29b6) [x86_64-linux]
+    last_commit=Drop obsoleted mjit_cancel_ivar debug_counter
+  34b3ef29b6 --jit: |-
+    ruby 2.7.0dev (2019-07-14T05:09:33Z trunk 34b3ef29b6) +JIT [x86_64-linux]
+    last_commit=Drop obsoleted mjit_cancel_ivar debug_counter
+  219643c075: |-
+    ruby 2.7.0dev (2019-07-14T05:28:01Z trunk 219643c075) [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  219643c075 --jit: |-
+    ruby 2.7.0dev (2019-07-14T05:28:01Z trunk 219643c075) +JIT [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  421dd31145: |-
+    ruby 2.7.0dev (2019-07-14T05:34:32Z trunk 421dd31145) [x86_64-linux]
+    last_commit=[DOC] Fix experimental marker [ci skip]
+  421dd31145 --jit: |-
+    ruby 2.7.0dev (2019-07-14T05:34:32Z trunk 421dd31145) +JIT [x86_64-linux]
+    last_commit=[DOC] Fix experimental marker [ci skip]
+  4f351111b8: |-
+    ruby 2.7.0dev (2019-07-14T05:40:38Z trunk 4f351111b8) [x86_64-linux]
+    last_commit=NEWS: warning of flip-flop is reverted [ci skip]
+  4f351111b8 --jit: |-
+    ruby 2.7.0dev (2019-07-14T05:40:38Z trunk 4f351111b8) +JIT [x86_64-linux]
+    last_commit=NEWS: warning of flip-flop is reverted [ci skip]
+  6da539be3e: |-
+    ruby 2.7.0dev (2019-07-14T05:52:31Z trunk 6da539be3e) [x86_64-linux]
+    last_commit=Fix typos [ci skip]
+  6da539be3e --jit: |-
+    ruby 2.7.0dev (2019-07-14T05:52:31Z trunk 6da539be3e) +JIT [x86_64-linux]
+    last_commit=Fix typos [ci skip]
+  dda2c860d9: |-
+    ruby 2.7.0dev (2019-07-14T05:59:34Z trunk dda2c860d9) [x86_64-linux]
+    last_commit=[DOC] Fix link to feature [ci skip]
+  dda2c860d9 --jit: |-
+    ruby 2.7.0dev (2019-07-14T05:59:34Z trunk dda2c860d9) +JIT [x86_64-linux]
+    last_commit=[DOC] Fix link to feature [ci skip]
+  357f295a0e: |-
+    ruby 2.7.0dev (2019-07-14T06:01:39Z trunk 357f295a0e) [x86_64-linux]
+    last_commit=Describe lambda-ness of Proc more.
+  357f295a0e --jit: |-
+    ruby 2.7.0dev (2019-07-14T06:01:39Z trunk 357f295a0e) +JIT [x86_64-linux]
+    last_commit=Describe lambda-ness of Proc more.
+  7504d676c8: |-
+    ruby 2.7.0dev (2019-07-14T06:24:32Z trunk 7504d676c8) [x86_64-linux]
+    last_commit=Do not use hard-coded file path of default gems upstream.
+  7504d676c8 --jit: |-
+    ruby 2.7.0dev (2019-07-14T06:24:32Z trunk 7504d676c8) +JIT [x86_64-linux]
+    last_commit=Do not use hard-coded file path of default gems upstream.
+  7d24a7ed7b: |-
+    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk 7d24a7ed7b) [x86_64-linux]
+    last_commit=Use FileUtils.rm_rf instead of rm command directly.
+  7d24a7ed7b --jit: |-
+    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk 7d24a7ed7b) +JIT [x86_64-linux]
+    last_commit=Use FileUtils.rm_rf instead of rm command directly.
+  d25f355c65: |-
+    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk d25f355c65) [x86_64-linux]
+    last_commit=Fixup dccb0e1ec94e7b9c13c715939ae7e0ccc4ffb23e
+  d25f355c65 --jit: |-
+    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk d25f355c65) +JIT [x86_64-linux]
+    last_commit=Fixup dccb0e1ec94e7b9c13c715939ae7e0ccc4ffb23e
+  e91ff4dbaf: |-
+    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk e91ff4dbaf) [x86_64-linux]
+    last_commit=Use FileUtils.cp_r instead of cp command directoly.
+  e91ff4dbaf --jit: |-
+    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk e91ff4dbaf) +JIT [x86_64-linux]
+    last_commit=Use FileUtils.cp_r instead of cp command directoly.
+  a73f452476: |-
+    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk a73f452476) [x86_64-linux]
+    last_commit=Use FileUtils.mkdir_p instead of mkdir command directoly.
+  a73f452476 --jit: |-
+    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk a73f452476) +JIT [x86_64-linux]
+    last_commit=Use FileUtils.mkdir_p instead of mkdir command directoly.
+  4ce935cd5d: |-
+    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk 4ce935cd5d) [x86_64-linux]
+    last_commit=Removed FileUtils for file manipulations with module inclusion.
+  4ce935cd5d --jit: |-
+    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk 4ce935cd5d) +JIT [x86_64-linux]
+    last_commit=Removed FileUtils for file manipulations with module inclusion.
+  47b04557b0: |-
+    ruby 2.7.0dev (2019-07-14T06:46:07Z trunk 47b04557b0) [x86_64-linux]
+    last_commit=Method#inspect with source location.
+  47b04557b0 --jit: |-
+    ruby 2.7.0dev (2019-07-14T06:46:07Z trunk 47b04557b0) +JIT [x86_64-linux]
+    last_commit=Method#inspect with source location.
+  3163a07878: |-
+    ruby 2.7.0dev (2019-07-14T06:51:09Z trunk 3163a07878) [x86_64-linux]
+    last_commit=fix issue with 'SIGINT' handling in LineEditor#reset
+  3163a07878 --jit: |-
+    ruby 2.7.0dev (2019-07-14T06:51:09Z trunk 3163a07878) +JIT [x86_64-linux]
+    last_commit=fix issue with 'SIGINT' handling in LineEditor#reset
+  f2d99fd820: |-
+    ruby 2.7.0dev (2019-07-14T06:54:19Z trunk f2d99fd820) [x86_64-linux]
+    last_commit=[DOC] Fix indent [ci skip]
+  f2d99fd820 --jit: |-
+    ruby 2.7.0dev (2019-07-14T06:54:19Z trunk f2d99fd820) +JIT [x86_64-linux]
+    last_commit=[DOC] Fix indent [ci skip]
