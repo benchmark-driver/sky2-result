@@ -5971,3 +5971,123 @@ commits:
   0a711b0edf --jit: |-
     ruby 2.7.0dev (2019-07-15T00:40:22Z trunk 0a711b0edf) +JIT [x86_64-linux]
     last_commit=Put vcs .rb to under the lib direcotory.
+  223854ebe8: |-
+    ruby 2.7.0dev (2019-07-15T00:58:26Z trunk 223854ebe8) [x86_64-linux]
+    last_commit=catch up e8ddbc0239.
+  223854ebe8 --jit: |-
+    ruby 2.7.0dev (2019-07-15T00:58:26Z trunk 223854ebe8) +JIT [x86_64-linux]
+    last_commit=catch up e8ddbc0239.
+  eed9db39e5: |-
+    ruby 2.7.0dev (2019-07-15T01:11:07Z trunk eed9db39e5) [x86_64-linux]
+    last_commit=Followed up e8ddbc0239.
+  eed9db39e5 --jit: |-
+    ruby 2.7.0dev (2019-07-15T01:11:07Z trunk eed9db39e5) +JIT [x86_64-linux]
+    last_commit=Followed up e8ddbc0239.
+  0af897ab59: |-
+    ruby 2.7.0dev (2019-07-15T01:20:23Z trunk 0af897ab59) [x86_64-linux]
+    last_commit=Simplify history saving code
+  0af897ab59 --jit: |-
+    ruby 2.7.0dev (2019-07-15T01:20:23Z trunk 0af897ab59) +JIT [x86_64-linux]
+    last_commit=Simplify history saving code
+  f6f09cbc76: |-
+    ruby 2.7.0dev (2019-07-15T01:21:41Z trunk f6f09cbc76) [x86_64-linux]
+    last_commit=introduce RUBY_ASSERT_ALWAYS(expr).
+  f6f09cbc76 --jit: |-
+    ruby 2.7.0dev (2019-07-15T01:21:41Z trunk f6f09cbc76) +JIT [x86_64-linux]
+    last_commit=introduce RUBY_ASSERT_ALWAYS(expr).
+  b789648830: |-
+    ruby 2.7.0dev (2019-07-15T01:29:48Z trunk b789648830) [x86_64-linux]
+    last_commit=Change PROMPT_S of simple-prompt
+  b789648830 --jit: |-
+    ruby 2.7.0dev (2019-07-15T01:29:48Z trunk b789648830) +JIT [x86_64-linux]
+    last_commit=Change PROMPT_S of simple-prompt
+  a191009a26: |-
+    ruby 2.7.0dev (2019-07-15T01:31:01Z trunk a191009a26) [x86_64-linux]
+    last_commit=Simplify start_process by exploiting C99
+  a191009a26 --jit: |-
+    ruby 2.7.0dev (2019-07-15T01:31:01Z trunk a191009a26) +JIT [x86_64-linux]
+    last_commit=Simplify start_process by exploiting C99
+  dd4f128ac5: |-
+    ruby 2.7.0dev (2019-07-15T01:39:07Z trunk dd4f128ac5) [x86_64-linux]
+    last_commit=Handle failure of opening a null device
+  dd4f128ac5 --jit: |-
+    ruby 2.7.0dev (2019-07-15T01:39:07Z trunk dd4f128ac5) +JIT [x86_64-linux]
+    last_commit=Handle failure of opening a null device
+  f326b4f4af: |-
+    ruby 2.7.0dev (2019-07-15T01:39:57Z trunk f326b4f4af) [x86_64-linux]
+    last_commit=simplify around GC_ASSERT()
+  f326b4f4af --jit: |-
+    ruby 2.7.0dev (2019-07-15T01:39:57Z trunk f326b4f4af) +JIT [x86_64-linux]
+    last_commit=simplify around GC_ASSERT()
+  e2512cff05: |-
+    ruby 2.7.0dev (2019-07-15T01:40:06Z trunk e2512cff05) [x86_64-linux]
+    last_commit=Move a test file of Reline to test/reline/
+  e2512cff05 --jit: |-
+    ruby 2.7.0dev (2019-07-15T01:40:06Z trunk e2512cff05) +JIT [x86_64-linux]
+    last_commit=Move a test file of Reline to test/reline/
+  05cc87df1b: |-
+    ruby 2.7.0dev (2019-07-15T01:53:05Z trunk 05cc87df1b) [x86_64-linux]
+    last_commit=[DOC] Struct::Passwd#uclass renamed from #class at r2500 [ci skip]
+  05cc87df1b --jit: |-
+    ruby 2.7.0dev (2019-07-15T01:53:05Z trunk 05cc87df1b) +JIT [x86_64-linux]
+    last_commit=[DOC] Struct::Passwd#uclass renamed from #class at r2500 [ci skip]
+  a7fdb22373: |-
+    ruby 2.7.0dev (2019-07-15T02:01:53Z trunk a7fdb22373) [x86_64-linux]
+    last_commit=Enable RUBY_ASSERT_MESG_WHEN when RUBY_DEBUG is turned on
+  a7fdb22373 --jit: |-
+    ruby 2.7.0dev (2019-07-15T02:01:53Z trunk a7fdb22373) +JIT [x86_64-linux]
+    last_commit=Enable RUBY_ASSERT_MESG_WHEN when RUBY_DEBUG is turned on
+  226d569e57: |-
+    ruby 2.7.0dev (2019-07-15T02:03:24Z trunk 226d569e57) [x86_64-linux]
+    last_commit=doc/irb/irb.rd.ja: Update options from `irb -h` [ci skip]
+  226d569e57 --jit: |-
+    ruby 2.7.0dev (2019-07-15T02:03:24Z trunk 226d569e57) +JIT [x86_64-linux]
+    last_commit=doc/irb/irb.rd.ja: Update options from `irb -h` [ci skip]
+  73346823e1: |-
+    ruby 2.7.0dev (2019-07-15T02:04:16Z trunk 73346823e1) [x86_64-linux]
+    last_commit=Try to prevent random build failure on Travis osx
+  73346823e1 --jit: |-
+    ruby 2.7.0dev (2019-07-15T02:04:16Z trunk 73346823e1) +JIT [x86_64-linux]
+    last_commit=Try to prevent random build failure on Travis osx
+  41c5f9a166: |-
+    ruby 2.7.0dev (2019-07-15T02:16:29Z trunk 41c5f9a166) [x86_64-linux]
+    last_commit=Put jisx0208.rb to under the library directory.
+  41c5f9a166 --jit: |-
+    ruby 2.7.0dev (2019-07-15T02:16:29Z trunk 41c5f9a166) +JIT [x86_64-linux]
+    last_commit=Put jisx0208.rb to under the library directory.
+  ac6d137157: |-
+    ruby 2.7.0dev (2019-07-15T02:16:29Z trunk ac6d137157) [x86_64-linux]
+    last_commit=Added test-tool target for the test suite of tool/test files.
+  ac6d137157 --jit: |-
+    ruby 2.7.0dev (2019-07-15T02:16:29Z trunk ac6d137157) +JIT [x86_64-linux]
+    last_commit=Added test-tool target for the test suite of tool/test files.
+  d02f2fc3e2: |-
+    ruby 2.7.0dev (2019-07-15T02:19:13Z trunk d02f2fc3e2) [x86_64-linux]
+    last_commit=Added help message for test-tool target.
+  d02f2fc3e2 --jit: |-
+    ruby 2.7.0dev (2019-07-15T02:19:13Z trunk d02f2fc3e2) +JIT [x86_64-linux]
+    last_commit=Added help message for test-tool target.
+  c23e597674: |-
+    ruby 2.7.0dev (2019-07-15T02:30:34Z trunk c23e597674) [x86_64-linux]
+    last_commit=respect RUBY_DEBUG.
+  c23e597674 --jit: |-
+    ruby 2.7.0dev (2019-07-15T02:30:34Z trunk c23e597674) +JIT [x86_64-linux]
+    last_commit=respect RUBY_DEBUG.
+  76bad330aa: |-
+    ruby 2.7.0dev (2019-07-15T03:01:22Z trunk 76bad330aa) [x86_64-linux]
+    last_commit=encoding.c (enc_table_expand): prefer xrealloc to realloc
+  76bad330aa --jit: |-
+    ruby 2.7.0dev (2019-07-15T03:01:22Z trunk 76bad330aa) +JIT [x86_64-linux]
+    last_commit=encoding.c (enc_table_expand): prefer xrealloc to realloc
+  8ac1c6eb48: |-
+    ruby 2.7.0dev (2019-07-15T03:06:25Z trunk 8ac1c6eb48) [x86_64-linux]
+    last_commit=respect RUBY_DEBUG too
+  8ac1c6eb48 --jit: |-
+    ruby 2.7.0dev (2019-07-15T03:06:25Z trunk 8ac1c6eb48) +JIT [x86_64-linux]
+    last_commit=respect RUBY_DEBUG too
+  bd494ae79b: |-
+    ruby 2.7.0dev (2019-07-15T03:59:53Z trunk bd494ae79b) [x86_64-linux]
+    last_commit=add tests for "break" in lambda.
+  bd494ae79b --jit: |-
+    ruby 2.7.0dev (2019-07-15T03:59:53Z trunk bd494ae79b) +JIT [x86_64-linux]
+    last_commit=add tests for "break" in lambda.
