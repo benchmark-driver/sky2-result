@@ -9,150 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  35caedc828: |-
-    ruby 2.7.0dev (2019-05-24 trunk 35caedc828) [x86_64-linux]
-    last_commit=--autostash is since Git 2.6 [Bug #15871]
-  35caedc828 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 35caedc828) +JIT [x86_64-linux]
-    last_commit=--autostash is since Git 2.6 [Bug #15871]
-  e713c2bde8: |-
-    ruby 2.7.0dev (2019-05-24 trunk e713c2bde8) [x86_64-linux]
-    last_commit=switch UNICODE_BETA to NO
-  e713c2bde8 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk e713c2bde8) +JIT [x86_64-linux]
-    last_commit=switch UNICODE_BETA to NO
-  14778125b1: |-
-    ruby 2.7.0dev (2019-05-24 trunk 14778125b1) [x86_64-linux]
-    last_commit=Removed and ignore symlinks by in-place build [Bug #15870]
-  14778125b1 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 14778125b1) +JIT [x86_64-linux]
-    last_commit=Removed and ignore symlinks by in-place build [Bug #15870]
-  491d2b8063: |-
-    ruby 2.7.0dev (2019-05-24 trunk 491d2b8063) [x86_64-linux]
-    last_commit=Removed symlinks by in-place build [Bug #15870]
-  491d2b8063 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 491d2b8063) +JIT [x86_64-linux]
-    last_commit=Removed symlinks by in-place build [Bug #15870]
-  '2541578096': |-
-    ruby 2.7.0dev (2019-05-24 trunk 2541578096) [x86_64-linux]
-    last_commit=Add leaked-globals to .travis.yml
-  2541578096 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 2541578096) +JIT [x86_64-linux]
-    last_commit=Add leaked-globals to .travis.yml
-  54d5b599e8: |-
-    ruby 2.7.0dev (2019-05-24 trunk 54d5b599e8) [x86_64-linux]
-    last_commit=Fix typos [ci skip]
-  54d5b599e8 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 54d5b599e8) +JIT [x86_64-linux]
-    last_commit=Fix typos [ci skip]
-  1a4080cb0a: |-
-    ruby 2.7.0dev (2019-05-24 trunk 1a4080cb0a) [x86_64-linux]
-    last_commit=Hoisted out ndigits_denominator
-  1a4080cb0a --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 1a4080cb0a) +JIT [x86_64-linux]
-    last_commit=Hoisted out ndigits_denominator
-  45ad375acc: |-
-    ruby 2.7.0dev (2019-05-24 trunk 45ad375acc) [x86_64-linux]
-    last_commit=[DOC] Use Rational literals than to_r in examples
-  45ad375acc --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 45ad375acc) +JIT [x86_64-linux]
-    last_commit=[DOC] Use Rational literals than to_r in examples
-  '2893550452': |-
-    ruby 2.7.0dev (2019-05-24 trunk 2893550452) [x86_64-linux]
-    last_commit=Mixed encoding error can continue to parse
-  2893550452 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 2893550452) +JIT [x86_64-linux]
-    last_commit=Mixed encoding error can continue to parse
-  10927b5925: |-
-    ruby 2.7.0dev (2019-05-24 trunk 10927b5925) [x86_64-linux]
-    last_commit=add separation char on rb_obj_info(imemo obj)
-  10927b5925 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 10927b5925) +JIT [x86_64-linux]
-    last_commit=add separation char on rb_obj_info(imemo obj)
-  712c027524: |-
-    ruby 2.7.0dev (2019-05-24 trunk 712c027524) [x86_64-linux]
-    last_commit=check it in eden or tomb.
-  712c027524 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 712c027524) +JIT [x86_64-linux]
-    last_commit=check it in eden or tomb.
-  b0a4d81fc3: |-
-    ruby 2.7.0dev (2019-05-24 trunk b0a4d81fc3) [x86_64-linux]
-    last_commit=check RVALUE on verifier.
-  b0a4d81fc3 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk b0a4d81fc3) +JIT [x86_64-linux]
-    last_commit=check RVALUE on verifier.
-  c06f9e1d24: |-
-    ruby 2.7.0dev (2019-05-24 trunk c06f9e1d24) [x86_64-linux]
-    last_commit=switch UNICODE_BETA to NO (one more try, first try didn't work)
-  c06f9e1d24 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk c06f9e1d24) +JIT [x86_64-linux]
-    last_commit=switch UNICODE_BETA to NO (one more try, first try didn't work)
-  6ae9d5c85f: |-
-    ruby 2.7.0dev (2019-05-24 trunk 6ae9d5c85f) [x86_64-linux]
-    last_commit=Revert "check it in eden or tomb."
-  6ae9d5c85f --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 6ae9d5c85f) +JIT [x86_64-linux]
-    last_commit=Revert "check it in eden or tomb."
-  a4da223c9a: |-
-    ruby 2.7.0dev (2019-05-24 trunk a4da223c9a) [x86_64-linux]
-    last_commit=* expand tabs.
-  a4da223c9a --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk a4da223c9a) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  706c816ad2: |-
-    ruby 2.7.0dev (2019-05-24 trunk 706c816ad2) [x86_64-linux]
-    last_commit=Escape dots in regexp
-  706c816ad2 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 706c816ad2) +JIT [x86_64-linux]
-    last_commit=Escape dots in regexp
-  4541d2effe: |-
-    ruby 2.7.0dev (2019-05-24 trunk 4541d2effe) [x86_64-linux]
-    last_commit=Only exclude the failing clocks for Process.clock_getres specs on AIX
-  4541d2effe --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 4541d2effe) +JIT [x86_64-linux]
-    last_commit=Only exclude the failing clocks for Process.clock_getres specs on AIX
-  2d34087a38: |-
-    ruby 2.7.0dev (2019-05-24 trunk 2d34087a38) [x86_64-linux]
-    last_commit=Add notes for the Process#clock_getres spec
-  2d34087a38 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk 2d34087a38) +JIT [x86_64-linux]
-    last_commit=Add notes for the Process#clock_getres spec
-  eb4e774711: |-
-    ruby 2.7.0dev (2019-05-24 trunk eb4e774711) [x86_64-linux]
-    last_commit=Support Meta key in Reline
-  eb4e774711 --jit: |-
-    ruby 2.7.0dev (2019-05-24 trunk eb4e774711) +JIT [x86_64-linux]
-    last_commit=Support Meta key in Reline
-  b215054800: |-
-    ruby 2.7.0dev (2019-05-25 trunk b215054800) [x86_64-linux]
-    last_commit=* 2019-05-25
-  b215054800 --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk b215054800) +JIT [x86_64-linux]
-    last_commit=* 2019-05-25
-  4b012c23b2: |-
-    ruby 2.7.0dev (2019-05-25 trunk 4b012c23b2) [x86_64-linux]
-    last_commit=Check block in #readmultiline
-  4b012c23b2 --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 4b012c23b2) +JIT [x86_64-linux]
-    last_commit=Check block in #readmultiline
-  481ccf73d8: |-
-    ruby 2.7.0dev (2019-05-25 trunk 481ccf73d8) [x86_64-linux]
-    last_commit=Change Reline's version with "Reline 0.0.0"
-  481ccf73d8 --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 481ccf73d8) +JIT [x86_64-linux]
-    last_commit=Change Reline's version with "Reline 0.0.0"
-  27bab6a569: |-
-    ruby 2.7.0dev (2019-05-25 trunk 27bab6a569) [x86_64-linux]
-    last_commit=Revert "Change Reline's version with "Reline 0.0.0""
-  27bab6a569 --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 27bab6a569) +JIT [x86_64-linux]
-    last_commit=Revert "Change Reline's version with "Reline 0.0.0""
-  637ee7ee38: |-
-    ruby 2.7.0dev (2019-05-25 trunk 637ee7ee38) [x86_64-linux]
-    last_commit=Fix C-v C-j
-  637ee7ee38 --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 637ee7ee38) +JIT [x86_64-linux]
-    last_commit=Fix C-v C-j
   ff43b22627: |-
     ruby 2.7.0dev (2019-05-25 trunk ff43b22627) [x86_64-linux]
     last_commit=Enter key always means evaluate in Reline#readmultiline
@@ -6013,3 +5869,105 @@ commits:
   ea71128573 --jit: |-
     ruby 2.7.0dev (2019-07-14T21:22:23Z trunk ea71128573) +JIT [x86_64-linux]
     last_commit=Unify documentations of `make benchmark`
+  d37da60128: |-
+    ruby 2.7.0dev (2019-07-14T21:44:16Z trunk d37da60128) [x86_64-linux]
+    last_commit=time.c (time_mdump): use another buffer for year_extend
+  d37da60128 --jit: |-
+    ruby 2.7.0dev (2019-07-14T21:44:16Z trunk d37da60128) +JIT [x86_64-linux]
+    last_commit=time.c (time_mdump): use another buffer for year_extend
+  4b7a04a5b8: |-
+    ruby 2.7.0dev (2019-07-14T22:51:57Z trunk 4b7a04a5b8) [x86_64-linux]
+    last_commit=Support multiline irb_history
+  4b7a04a5b8 --jit: |-
+    ruby 2.7.0dev (2019-07-14T22:51:57Z trunk 4b7a04a5b8) +JIT [x86_64-linux]
+    last_commit=Support multiline irb_history
+  266f6cd8a1: |-
+    ruby 2.7.0dev (2019-07-14T22:54:47Z trunk 266f6cd8a1) [x86_64-linux]
+    last_commit=Remove debug print
+  266f6cd8a1 --jit: |-
+    ruby 2.7.0dev (2019-07-14T22:54:47Z trunk 266f6cd8a1) +JIT [x86_64-linux]
+    last_commit=Remove debug print
+  772dae8bef: |-
+    ruby 2.7.0dev (2019-07-14T22:57:07Z trunk 772dae8bef) [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  772dae8bef --jit: |-
+    ruby 2.7.0dev (2019-07-14T22:57:07Z trunk 772dae8bef) +JIT [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  c9a59f491d: |-
+    ruby 2.7.0dev (2019-07-14T22:59:11Z trunk c9a59f491d) [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  c9a59f491d --jit: |-
+    ruby 2.7.0dev (2019-07-14T22:59:11Z trunk c9a59f491d) +JIT [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  2b78a93bcf: |-
+    ruby 2.7.0dev (2019-07-14T22:59:33Z trunk 2b78a93bcf) [x86_64-linux]
+    last_commit=Add lib/irb/color.rb to destribution file list
+  2b78a93bcf --jit: |-
+    ruby 2.7.0dev (2019-07-14T22:59:33Z trunk 2b78a93bcf) +JIT [x86_64-linux]
+    last_commit=Add lib/irb/color.rb to destribution file list
+  13cb9e6bd2: |-
+    ruby 2.7.0dev (2019-07-14T23:19:21Z trunk 13cb9e6bd2) [x86_64-linux]
+    last_commit=common.mk: remove "make exam" from help
+  13cb9e6bd2 --jit: |-
+    ruby 2.7.0dev (2019-07-14T23:19:21Z trunk 13cb9e6bd2) +JIT [x86_64-linux]
+    last_commit=common.mk: remove "make exam" from help
+  1f99274ccf: |-
+    ruby 2.7.0dev (2019-07-14T23:19:56Z trunk 1f99274ccf) [x86_64-linux]
+    last_commit=Added the bundled gems target to make help.
+  1f99274ccf --jit: |-
+    ruby 2.7.0dev (2019-07-14T23:19:56Z trunk 1f99274ccf) +JIT [x86_64-linux]
+    last_commit=Added the bundled gems target to make help.
+  9da969cae7: |-
+    ruby 2.7.0dev (2019-07-14T23:32:45Z trunk 9da969cae7) [x86_64-linux]
+    last_commit=Revert "Dummy Makefile.in for CIs"
+  9da969cae7 --jit: |-
+    ruby 2.7.0dev (2019-07-14T23:32:45Z trunk 9da969cae7) +JIT [x86_64-linux]
+    last_commit=Revert "Dummy Makefile.in for CIs"
+  17ccda5413: |-
+    ruby 2.7.0dev (2019-07-14T23:33:07Z trunk 17ccda5413) [x86_64-linux]
+    last_commit=Use #to_a for Readline::HISTORY directly
+  17ccda5413 --jit: |-
+    ruby 2.7.0dev (2019-07-14T23:33:07Z trunk 17ccda5413) +JIT [x86_64-linux]
+    last_commit=Use #to_a for Readline::HISTORY directly
+  02c4ed4a7f: |-
+    ruby 2.7.0dev (2019-07-14T23:36:53Z trunk 02c4ed4a7f) [x86_64-linux]
+    last_commit=Stop consuming 2 entries for goruby
+  02c4ed4a7f --jit: |-
+    ruby 2.7.0dev (2019-07-14T23:36:53Z trunk 02c4ed4a7f) +JIT [x86_64-linux]
+    last_commit=Stop consuming 2 entries for goruby
+  0a417248a0: |-
+    ruby 2.7.0dev (2019-07-14T23:38:09Z trunk 0a417248a0) [x86_64-linux]
+    last_commit=Fix unaligned help output
+  0a417248a0 --jit: |-
+    ruby 2.7.0dev (2019-07-14T23:38:09Z trunk 0a417248a0) +JIT [x86_64-linux]
+    last_commit=Fix unaligned help output
+  a197579073: |-
+    ruby 2.7.0dev (2019-07-14T23:38:37Z trunk a197579073) [x86_64-linux]
+    last_commit=addr2line.c: clarify the type of integer expression
+  a197579073 --jit: |-
+    ruby 2.7.0dev (2019-07-14T23:38:37Z trunk a197579073) +JIT [x86_64-linux]
+    last_commit=addr2line.c: clarify the type of integer expression
+  ff3704031a: |-
+    ruby 2.7.0dev (2019-07-15T00:28:44Z trunk ff3704031a) [x86_64-linux]
+    last_commit=Insert a newline before `=end`
+  ff3704031a --jit: |-
+    ruby 2.7.0dev (2019-07-15T00:28:44Z trunk ff3704031a) +JIT [x86_64-linux]
+    last_commit=Insert a newline before `=end`
+  00a97d9412: |-
+    ruby 2.7.0dev (2019-07-15T00:35:57Z trunk 00a97d9412) [x86_64-linux]
+    last_commit=Always call va_end in form_args()
+  00a97d9412 --jit: |-
+    ruby 2.7.0dev (2019-07-15T00:35:57Z trunk 00a97d9412) +JIT [x86_64-linux]
+    last_commit=Always call va_end in form_args()
+  8f7884761e: |-
+    ruby 2.7.0dev (2019-07-15T00:36:52Z trunk 8f7884761e) [x86_64-linux]
+    last_commit=The default charset of text/* media type is UTF-8.
+  8f7884761e --jit: |-
+    ruby 2.7.0dev (2019-07-15T00:36:52Z trunk 8f7884761e) +JIT [x86_64-linux]
+    last_commit=The default charset of text/* media type is UTF-8.
+  0a711b0edf: |-
+    ruby 2.7.0dev (2019-07-15T00:40:22Z trunk 0a711b0edf) [x86_64-linux]
+    last_commit=Put vcs .rb to under the lib direcotory.
+  0a711b0edf --jit: |-
+    ruby 2.7.0dev (2019-07-15T00:40:22Z trunk 0a711b0edf) +JIT [x86_64-linux]
+    last_commit=Put vcs .rb to under the lib direcotory.
