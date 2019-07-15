@@ -5971,3 +5971,39 @@ commits:
   de0f192444 --jit: |-
     ruby 2.7.0dev (2019-07-15T07:25:50Z trunk de0f192444) +JIT [x86_64-linux]
     last_commit=Add features of IRB to NEWS
+  5e0d27a32f: |-
+    ruby 2.7.0dev (2019-07-15T07:49:39Z trunk 5e0d27a32f) [x86_64-linux]
+    last_commit=Removed dead code
+  5e0d27a32f --jit: |-
+    ruby 2.7.0dev (2019-07-15T07:49:39Z trunk 5e0d27a32f) +JIT [x86_64-linux]
+    last_commit=Removed dead code
+  5a42dca688: |-
+    ruby 2.7.0dev (2019-07-15T07:51:18Z trunk 5a42dca688) [x86_64-linux]
+    last_commit=* expand tabs.
+  5a42dca688 --jit: |-
+    ruby 2.7.0dev (2019-07-15T07:51:18Z trunk 5a42dca688) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  c781b1b7a3: |-
+    ruby 2.7.0dev (2019-07-15T08:06:35Z trunk c781b1b7a3) [x86_64-linux]
+    last_commit=update-deps for dependencies
+  c781b1b7a3 --jit: |-
+    ruby 2.7.0dev (2019-07-15T08:06:35Z trunk c781b1b7a3) +JIT [x86_64-linux]
+    last_commit=update-deps for dependencies
+  c20445ab56: |-
+    ruby 2.7.0dev (2019-07-15T08:22:18Z trunk c20445ab56) [x86_64-linux]
+    last_commit=Require Ruby 2.4 or later because needs lex_state from Ripper
+  c20445ab56 --jit: |-
+    ruby 2.7.0dev (2019-07-15T08:22:18Z trunk c20445ab56) +JIT [x86_64-linux]
+    last_commit=Require Ruby 2.4 or later because needs lex_state from Ripper
+  b452c03a14: |-
+    ruby 2.7.0dev (2019-07-15T08:45:37Z trunk b452c03a14) [x86_64-linux]
+    last_commit=Always evaluate the expression RUBY_ASSERT_MESG_WHEN just once
+  b452c03a14 --jit: |-
+    ruby 2.7.0dev (2019-07-15T08:45:37Z trunk b452c03a14) +JIT [x86_64-linux]
+    last_commit=Always evaluate the expression RUBY_ASSERT_MESG_WHEN just once
+  0c6c937904: |-
+    ruby 2.7.0dev (2019-07-15T10:39:47Z trunk 0c6c937904) [x86_64-linux]
+    last_commit=Removed duplicate highlighting
+  0c6c937904 --jit: |-
+    ruby 2.7.0dev (2019-07-15T10:39:47Z trunk 0c6c937904) +JIT [x86_64-linux]
+    last_commit=Removed duplicate highlighting
