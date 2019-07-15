@@ -9,330 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  ff43b22627: |-
-    ruby 2.7.0dev (2019-05-25 trunk ff43b22627) [x86_64-linux]
-    last_commit=Enter key always means evaluate in Reline#readmultiline
-  ff43b22627 --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk ff43b22627) +JIT [x86_64-linux]
-    last_commit=Enter key always means evaluate in Reline#readmultiline
-  260235ce87: |-
-    ruby 2.7.0dev (2019-05-25 trunk 260235ce87) [x86_64-linux]
-    last_commit=Use Reline as Reidline multiline editor in IRB
-  260235ce87 --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 260235ce87) +JIT [x86_64-linux]
-    last_commit=Use Reline as Reidline multiline editor in IRB
-  559dca509d: |-
-    ruby 2.7.0dev (2019-05-25 trunk 559dca509d) [x86_64-linux]
-    last_commit=Show documents when completion
-  559dca509d --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 559dca509d) +JIT [x86_64-linux]
-    last_commit=Show documents when completion
-  822468307b: |-
-    ruby 2.7.0dev (2019-05-25 trunk 822468307b) [x86_64-linux]
-    last_commit=Add round-robin variable
-  822468307b --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 822468307b) +JIT [x86_64-linux]
-    last_commit=Add round-robin variable
-  19430b776c: |-
-    ruby 2.7.0dev (2019-05-25 trunk 19430b776c) [x86_64-linux]
-    last_commit=Fix wrong variable name
-  19430b776c --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 19430b776c) +JIT [x86_64-linux]
-    last_commit=Fix wrong variable name
-  1ef39d8d09: |-
-    ruby 2.7.0dev (2019-05-25 trunk 1ef39d8d09) [x86_64-linux]
-    last_commit=Fix process not waking up on signals on OpenBSD
-  1ef39d8d09 --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 1ef39d8d09) +JIT [x86_64-linux]
-    last_commit=Fix process not waking up on signals on OpenBSD
-  809ac9f2ea: |-
-    ruby 2.7.0dev (2019-05-25 trunk 809ac9f2ea) [x86_64-linux]
-    last_commit=* expand tabs.
-  809ac9f2ea --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 809ac9f2ea) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  7686e33ee4: |-
-    ruby 2.7.0dev (2019-05-25 trunk 7686e33ee4) [x86_64-linux]
-    last_commit=JSON like label ends by differs from the start
-  7686e33ee4 --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 7686e33ee4) +JIT [x86_64-linux]
-    last_commit=JSON like label ends by differs from the start
-  3c6e1a8cf9: |-
-    ruby 2.7.0dev (2019-05-25 trunk 3c6e1a8cf9) [x86_64-linux]
-    last_commit=Avoid to show warning message with unused variable.
-  3c6e1a8cf9 --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 3c6e1a8cf9) +JIT [x86_64-linux]
-    last_commit=Avoid to show warning message with unused variable.
-  b83119be9e: |-
-    ruby 2.7.0dev (2019-05-25 trunk b83119be9e) [x86_64-linux]
-    last_commit=Incremental syntax highlight for IRB source lines
-  b83119be9e --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk b83119be9e) +JIT [x86_64-linux]
-    last_commit=Incremental syntax highlight for IRB source lines
-  061c781a09: |-
-    ruby 2.7.0dev (2019-05-25 trunk 061c781a09) [x86_64-linux]
-    last_commit=Drop method obsoleted by b83119be9e9a8611063142541993e4823a025622
-  061c781a09 --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 061c781a09) +JIT [x86_64-linux]
-    last_commit=Drop method obsoleted by b83119be9e9a8611063142541993e4823a025622
-  8fd3b9fc5f: |-
-    ruby 2.7.0dev (2019-05-25 trunk 8fd3b9fc5f) [x86_64-linux]
-    last_commit=Force update all RDoc at install
-  8fd3b9fc5f --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 8fd3b9fc5f) +JIT [x86_64-linux]
-    last_commit=Force update all RDoc at install
-  4fae3c3fb0: |-
-    ruby 2.7.0dev (2019-05-25 trunk 4fae3c3fb0) [x86_64-linux]
-    last_commit=Show doc list to install
-  4fae3c3fb0 --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 4fae3c3fb0) +JIT [x86_64-linux]
-    last_commit=Show doc list to install
-  65ce14e7b5: |-
-    ruby 2.7.0dev (2019-05-25 trunk 65ce14e7b5) [x86_64-linux]
-    last_commit=Added --with-rdoc option
-  65ce14e7b5 --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 65ce14e7b5) +JIT [x86_64-linux]
-    last_commit=Added --with-rdoc option
-  e691b4da5d: |-
-    ruby 2.7.0dev (2019-05-25 trunk e691b4da5d) [x86_64-linux]
-    last_commit=Respect --nocolorize on REPL source highlight
-  e691b4da5d --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk e691b4da5d) +JIT [x86_64-linux]
-    last_commit=Respect --nocolorize on REPL source highlight
-  e2db9f4cc3: |-
-    ruby 2.7.0dev (2019-05-25 trunk e2db9f4cc3) [x86_64-linux]
-    last_commit=Add and use Reline::Unicode.escape_for_print
-  e2db9f4cc3 --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk e2db9f4cc3) +JIT [x86_64-linux]
-    last_commit=Add and use Reline::Unicode.escape_for_print
-  be851692ce: |-
-    ruby 2.7.0dev (2019-05-25 trunk be851692ce) [x86_64-linux]
-    last_commit=Build trunk branch too to trigger Travis on PR
-  be851692ce --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk be851692ce) +JIT [x86_64-linux]
-    last_commit=Build trunk branch too to trigger Travis on PR
-  7c507345a7: |-
-    ruby 2.7.0dev (2019-05-25 trunk 7c507345a7) [x86_64-linux]
-    last_commit=Build trunk branch too to trigger AppVeyor on PR
-  7c507345a7 --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk 7c507345a7) +JIT [x86_64-linux]
-    last_commit=Build trunk branch too to trigger AppVeyor on PR
-  ada64aa9e7: |-
-    ruby 2.7.0dev (2019-05-25 trunk ada64aa9e7) [x86_64-linux]
-    last_commit=Clear IRB::Color escape sequence before newline
-  ada64aa9e7 --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk ada64aa9e7) +JIT [x86_64-linux]
-    last_commit=Clear IRB::Color escape sequence before newline
-  d9c41f2dec: |-
-    ruby 2.7.0dev (2019-05-25 trunk d9c41f2dec) [x86_64-linux]
-    last_commit=Use Reline.completer_word_break_characters to complete
-  d9c41f2dec --jit: |-
-    ruby 2.7.0dev (2019-05-25 trunk d9c41f2dec) +JIT [x86_64-linux]
-    last_commit=Use Reline.completer_word_break_characters to complete
-  a4d44b08ec: |-
-    ruby 2.7.0dev (2019-05-26 trunk a4d44b08ec) [x86_64-linux]
-    last_commit=* 2019-05-26
-  a4d44b08ec --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk a4d44b08ec) +JIT [x86_64-linux]
-    last_commit=* 2019-05-26
-  98be203704: |-
-    ruby 2.7.0dev (2019-05-26 trunk 98be203704) [x86_64-linux]
-    last_commit=Support some unhandled syntax highlight
-  98be203704 --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk 98be203704) +JIT [x86_64-linux]
-    last_commit=Support some unhandled syntax highlight
-  2993b36133: |-
-    ruby 2.7.0dev (2019-05-26 trunk 2993b36133) [x86_64-linux]
-    last_commit=Fix indexes in comments
-  2993b36133 --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk 2993b36133) +JIT [x86_64-linux]
-    last_commit=Fix indexes in comments
-  ec75901120: |-
-    ruby 2.7.0dev (2019-05-26 trunk ec75901120) [x86_64-linux]
-    last_commit=Fix completion menu state calculation
-  ec75901120 --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk ec75901120) +JIT [x86_64-linux]
-    last_commit=Fix completion menu state calculation
-  208ed56e57: |-
-    ruby 2.7.0dev (2019-05-26 trunk 208ed56e57) [x86_64-linux]
-    last_commit=Colorize empty embexpr more on IRB::Color
-  208ed56e57 --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk 208ed56e57) +JIT [x86_64-linux]
-    last_commit=Colorize empty embexpr more on IRB::Color
-  a516834b47: |-
-    ruby 2.7.0dev (2019-05-26 trunk a516834b47) [x86_64-linux]
-    last_commit=test/ruby/test_rubyoptions.rb (test_script_from_stdin): scale timeout
-  a516834b47 --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk a516834b47) +JIT [x86_64-linux]
-    last_commit=test/ruby/test_rubyoptions.rb (test_script_from_stdin): scale timeout
-  13f58eccda: |-
-    ruby 2.7.0dev (2019-05-26 trunk 13f58eccda) [x86_64-linux]
-    last_commit=Always color Symbol as Yellow on IRB::Color
-  13f58eccda --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk 13f58eccda) +JIT [x86_64-linux]
-    last_commit=Always color Symbol as Yellow on IRB::Color
-  8aba3b7a04: |-
-    ruby 2.7.0dev (2019-05-26 trunk 8aba3b7a04) [x86_64-linux]
-    last_commit=Fix more unintended syntax highlights
-  8aba3b7a04 --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk 8aba3b7a04) +JIT [x86_64-linux]
-    last_commit=Fix more unintended syntax highlights
-  52b09fcee1: |-
-    ruby 2.7.0dev (2019-05-26 trunk 52b09fcee1) [x86_64-linux]
-    last_commit=Deal with more syntax highlight edge cases
-  52b09fcee1 --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk 52b09fcee1) +JIT [x86_64-linux]
-    last_commit=Deal with more syntax highlight edge cases
-  aaf6c678d2: |-
-    ruby 2.7.0dev (2019-05-26 trunk aaf6c678d2) [x86_64-linux]
-    last_commit=Handle keyword symbol in IRB::Color::SymbolState
-  aaf6c678d2 --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk aaf6c678d2) +JIT [x86_64-linux]
-    last_commit=Handle keyword symbol in IRB::Color::SymbolState
-  f20af9543f: |-
-    ruby 2.7.0dev (2019-05-26 trunk f20af9543f) [x86_64-linux]
-    last_commit=test/rubygems/test_gem_stream_ui.rb (test_ask): extend the timeout
-  f20af9543f --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk f20af9543f) +JIT [x86_64-linux]
-    last_commit=test/rubygems/test_gem_stream_ui.rb (test_ask): extend the timeout
-  02b39daef8: |-
-    ruby 2.7.0dev (2019-05-26 trunk 02b39daef8) [x86_64-linux]
-    last_commit=Fix scanner event at invalid syntax
-  02b39daef8 --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk 02b39daef8) +JIT [x86_64-linux]
-    last_commit=Fix scanner event at invalid syntax
-  4668a3a9da: |-
-    ruby 2.7.0dev (2019-05-26 trunk 4668a3a9da) [x86_64-linux]
-    last_commit=test/lib/envutil.rb (EnvUtil.timeout): added.
-  4668a3a9da --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk 4668a3a9da) +JIT [x86_64-linux]
-    last_commit=test/lib/envutil.rb (EnvUtil.timeout): added.
-  2df2cdcff0: |-
-    ruby 2.7.0dev (2019-05-26 trunk 2df2cdcff0) [x86_64-linux]
-    last_commit=test/ruby/test_process.rb: Use EnvUtil.timeout for timeout scale factor
-  2df2cdcff0 --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk 2df2cdcff0) +JIT [x86_64-linux]
-    last_commit=test/ruby/test_process.rb: Use EnvUtil.timeout for timeout scale factor
-  '5830889915': |-
-    ruby 2.7.0dev (2019-05-26 trunk 5830889915) [x86_64-linux]
-    last_commit=test/ruby/test_notimp.rb: Use EnvUtil.timeout for timeout scale factor
-  5830889915 --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk 5830889915) +JIT [x86_64-linux]
-    last_commit=test/ruby/test_notimp.rb: Use EnvUtil.timeout for timeout scale factor
-  2ce6365f9c: |-
-    ruby 2.7.0dev (2019-05-26 trunk 2ce6365f9c) [x86_64-linux]
-    last_commit=parse.y: adjust error indicator
-  2ce6365f9c --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk 2ce6365f9c) +JIT [x86_64-linux]
-    last_commit=parse.y: adjust error indicator
-  23270f6fee: |-
-    ruby 2.7.0dev (2019-05-26 trunk 23270f6fee) [x86_64-linux]
-    last_commit=azure-pipelines.yml: Do not notify vs2017 failure
-  23270f6fee --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk 23270f6fee) +JIT [x86_64-linux]
-    last_commit=azure-pipelines.yml: Do not notify vs2017 failure
-  4f2a7b8001: |-
-    ruby 2.7.0dev (2019-05-26 trunk 4f2a7b8001) [x86_64-linux]
-    last_commit=Colorize imaginary and rational literals
-  4f2a7b8001 --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk 4f2a7b8001) +JIT [x86_64-linux]
-    last_commit=Colorize imaginary and rational literals
-  a43c637660: |-
-    ruby 2.7.0dev (2019-05-26 trunk a43c637660) [x86_64-linux]
-    last_commit=parse.y: broke the terminator condition down
-  a43c637660 --jit: |-
-    ruby 2.7.0dev (2019-05-26 trunk a43c637660) +JIT [x86_64-linux]
-    last_commit=parse.y: broke the terminator condition down
-  2a7821b289: |-
-    ruby 2.7.0dev (2019-05-27 trunk 2a7821b289) [x86_64-linux]
-    last_commit=* 2019-05-27
-  2a7821b289 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 2a7821b289) +JIT [x86_64-linux]
-    last_commit=* 2019-05-27
-  e39c950c2b: |-
-    ruby 2.7.0dev (2019-05-27 trunk e39c950c2b) [x86_64-linux]
-    last_commit=Use correctly RI output in IRB completion
-  e39c950c2b --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk e39c950c2b) +JIT [x86_64-linux]
-    last_commit=Use correctly RI output in IRB completion
-  0f35c79ad6: |-
-    ruby 2.7.0dev (2019-05-27 trunk 0f35c79ad6) [x86_64-linux]
-    last_commit=Fix number literal regexp of IRB completion
-  0f35c79ad6 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 0f35c79ad6) +JIT [x86_64-linux]
-    last_commit=Fix number literal regexp of IRB completion
-  60cc03ffe7: |-
-    ruby 2.7.0dev (2019-05-27 trunk 60cc03ffe7) [x86_64-linux]
-    last_commit=Fix indexes in comments of vi_insert.rb
-  60cc03ffe7 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 60cc03ffe7) +JIT [x86_64-linux]
-    last_commit=Fix indexes in comments of vi_insert.rb
-  e50aa359de: |-
-    ruby 2.7.0dev (2019-05-27 trunk e50aa359de) [x86_64-linux]
-    last_commit=Make the imaginary color on IRB close to pry
-  e50aa359de --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk e50aa359de) +JIT [x86_64-linux]
-    last_commit=Make the imaginary color on IRB close to pry
-  '1226791368': |-
-    ruby 2.7.0dev (2019-05-27 trunk 1226791368) [x86_64-linux]
-    last_commit=Support :@@cvar and : on colorize
-  1226791368 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 1226791368) +JIT [x86_64-linux]
-    last_commit=Support :@@cvar and : on colorize
-  e73a68ebc3: |-
-    ruby 2.7.0dev (2019-05-27 trunk e73a68ebc3) [x86_64-linux]
-    last_commit=Support op, cvar, iver, gvar and kw that follow on symbeg in IRB
-  e73a68ebc3 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk e73a68ebc3) +JIT [x86_64-linux]
-    last_commit=Support op, cvar, iver, gvar and kw that follow on symbeg in IRB
-  897901283c: |-
-    ruby 2.7.0dev (2019-05-27 trunk 897901283c) [x86_64-linux]
-    last_commit=Refactor IRB color dispatch
-  897901283c --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 897901283c) +JIT [x86_64-linux]
-    last_commit=Refactor IRB color dispatch
-  39eadca76b: |-
-    ruby 2.7.0dev (2019-05-27 trunk 39eadca76b) [x86_64-linux]
-    last_commit=Add FrozenError#receiver
-  39eadca76b --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 39eadca76b) +JIT [x86_64-linux]
-    last_commit=Add FrozenError#receiver
-  5a6c77bbe8: |-
-    ruby 2.7.0dev (2019-05-27 trunk 5a6c77bbe8) [x86_64-linux]
-    last_commit=* expand tabs.
-  5a6c77bbe8 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 5a6c77bbe8) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  7597f7ecb1: |-
-    ruby 2.7.0dev (2019-05-27 trunk 7597f7ecb1) [x86_64-linux]
-    last_commit=Simplify lexer state matching in #dispatch_seq
-  7597f7ecb1 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 7597f7ecb1) +JIT [x86_64-linux]
-    last_commit=Simplify lexer state matching in #dispatch_seq
-  64ee8900c8: |-
-    ruby 2.7.0dev (2019-05-27 trunk 64ee8900c8) [x86_64-linux]
-    last_commit=Highlight global variable on IRB
-  64ee8900c8 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 64ee8900c8) +JIT [x86_64-linux]
-    last_commit=Highlight global variable on IRB
-  c6b7cad5c9: |-
-    ruby 2.7.0dev (2019-05-27 trunk c6b7cad5c9) [x86_64-linux]
-    last_commit=.azure-pipelines.yml: Add timeout to install dependencies
-  c6b7cad5c9 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk c6b7cad5c9) +JIT [x86_64-linux]
-    last_commit=.azure-pipelines.yml: Add timeout to install dependencies
-  64dc21830a: |-
-    ruby 2.7.0dev (2019-05-27 trunk 64dc21830a) [x86_64-linux]
-    last_commit=Remove \1 and \2 that escape CSI before render
-  64dc21830a --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 64dc21830a) +JIT [x86_64-linux]
-    last_commit=Remove \1 and \2 that escape CSI before render
-  716ba4a127: |-
-    ruby 2.7.0dev (2019-05-27 trunk 716ba4a127) [x86_64-linux]
-    last_commit=Implement J to join lines in vi command mode
-  716ba4a127 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 716ba4a127) +JIT [x86_64-linux]
-    last_commit=Implement J to join lines in vi command mode
   2c91c5b329: |-
     ruby 2.7.0dev (2019-05-27 trunk 2c91c5b329) [x86_64-linux]
     last_commit=Move to the other line when press <- at head or -> at tail
@@ -6091,3 +5767,207 @@ commits:
   bd494ae79b --jit: |-
     ruby 2.7.0dev (2019-07-15T03:59:53Z trunk bd494ae79b) +JIT [x86_64-linux]
     last_commit=add tests for "break" in lambda.
+  badfbdf32c: |-
+    ruby 2.7.0dev (2019-07-15T04:16:16Z trunk badfbdf32c) [x86_64-linux]
+    last_commit=Move vpath.rb into tool library direcotry.
+  badfbdf32c --jit: |-
+    ruby 2.7.0dev (2019-07-15T04:16:16Z trunk badfbdf32c) +JIT [x86_64-linux]
+    last_commit=Move vpath.rb into tool library direcotry.
+  99afea5328: |-
+    ruby 2.7.0dev (2019-07-15T04:41:12Z trunk 99afea5328) [x86_64-linux]
+    last_commit=Add bug triaging guide
+  99afea5328 --jit: |-
+    ruby 2.7.0dev (2019-07-15T04:41:12Z trunk 99afea5328) +JIT [x86_64-linux]
+    last_commit=Add bug triaging guide
+  b401fb35a4: |-
+    ruby 2.7.0dev (2019-07-15T04:44:37Z trunk b401fb35a4) [x86_64-linux]
+    last_commit=Removed needless LOAD_PATH modification.
+  b401fb35a4 --jit: |-
+    ruby 2.7.0dev (2019-07-15T04:44:37Z trunk b401fb35a4) +JIT [x86_64-linux]
+    last_commit=Removed needless LOAD_PATH modification.
+  929fa856ef: |-
+    ruby 2.7.0dev (2019-07-15T04:45:14Z trunk 929fa856ef) [x86_64-linux]
+    last_commit=Add tool/leaked-globals to .gitattributes [ci skip]
+  929fa856ef --jit: |-
+    ruby 2.7.0dev (2019-07-15T04:45:14Z trunk 929fa856ef) +JIT [x86_64-linux]
+    last_commit=Add tool/leaked-globals to .gitattributes [ci skip]
+  d1e2650aca: |-
+    ruby 2.7.0dev (2019-07-15T04:49:15Z trunk d1e2650aca) [x86_64-linux]
+    last_commit=Force-fetch unicode update only when it's needed
+  d1e2650aca --jit: |-
+    ruby 2.7.0dev (2019-07-15T04:49:15Z trunk d1e2650aca) +JIT [x86_64-linux]
+    last_commit=Force-fetch unicode update only when it's needed
+  9c38904ead: |-
+    ruby 2.7.0dev (2019-07-15T04:57:23Z trunk 9c38904ead) [x86_64-linux]
+    last_commit=Use consistent fetchDepth for all jobs
+  9c38904ead --jit: |-
+    ruby 2.7.0dev (2019-07-15T04:57:23Z trunk 9c38904ead) +JIT [x86_64-linux]
+    last_commit=Use consistent fetchDepth for all jobs
+  62f34bd1fe: |-
+    ruby 2.7.0dev (2019-07-15T04:59:02Z trunk 62f34bd1fe) [x86_64-linux]
+    last_commit=doc/globals.rdoc: Add deprecated to TRUE,FALSE,NIL [ci skip]
+  62f34bd1fe --jit: |-
+    ruby 2.7.0dev (2019-07-15T04:59:02Z trunk 62f34bd1fe) +JIT [x86_64-linux]
+    last_commit=doc/globals.rdoc: Add deprecated to TRUE,FALSE,NIL [ci skip]
+  5353401c25: |-
+    ruby 2.7.0dev (2019-07-15T05:08:17Z trunk 5353401c25) [x86_64-linux]
+    last_commit=thread.c (rb_thread_shield_waiting_{inc,dec}): prefer long to int
+  5353401c25 --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:08:17Z trunk 5353401c25) +JIT [x86_64-linux]
+    last_commit=thread.c (rb_thread_shield_waiting_{inc,dec}): prefer long to int
+  711dfec3fa: |-
+    ruby 2.7.0dev (2019-07-15T05:08:17Z trunk 711dfec3fa) [x86_64-linux]
+    last_commit=parse.y (here_document): remove dead code
+  711dfec3fa --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:08:17Z trunk 711dfec3fa) +JIT [x86_64-linux]
+    last_commit=parse.y (here_document): remove dead code
+  e4c1b19996: |-
+    ruby 2.7.0dev (2019-07-15T05:17:27Z trunk e4c1b19996) [x86_64-linux]
+    last_commit=add tests for orphan/not-orphan proc/lambda.
+  e4c1b19996 --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:17:27Z trunk e4c1b19996) +JIT [x86_64-linux]
+    last_commit=add tests for orphan/not-orphan proc/lambda.
+  3dc212896c: |-
+    ruby 2.7.0dev (2019-07-15T05:29:47Z trunk 3dc212896c) [x86_64-linux]
+    last_commit=check return value of blocking_region_begin().
+  3dc212896c --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:29:47Z trunk 3dc212896c) +JIT [x86_64-linux]
+    last_commit=check return value of blocking_region_begin().
+  99c14fb694: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 99c14fb694) [x86_64-linux]
+    last_commit=[ruby/logger] remove files that dont need to be included in gem releases
+  99c14fb694 --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 99c14fb694) +JIT [x86_64-linux]
+    last_commit=[ruby/logger] remove files that dont need to be included in gem releases
+  b9ba07a05c: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk b9ba07a05c) [x86_64-linux]
+    last_commit=[ruby/logger] dont lock bundler to a specific version in travis
+  b9ba07a05c --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk b9ba07a05c) +JIT [x86_64-linux]
+    last_commit=[ruby/logger] dont lock bundler to a specific version in travis
+  227eae79ac: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 227eae79ac) [x86_64-linux]
+    last_commit=[ruby/logger] Say that logger requires ruby >= 2.3
+  227eae79ac --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 227eae79ac) +JIT [x86_64-linux]
+    last_commit=[ruby/logger] Say that logger requires ruby >= 2.3
+  310198d6be: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 310198d6be) [x86_64-linux]
+    last_commit=[ruby/logger] Add missing closing " https://github.com/ruby/logger/commit/b4b3caae40
+  310198d6be --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 310198d6be) +JIT [x86_64-linux]
+    last_commit=[ruby/logger] Add missing closing " https://github.com/ruby/logger/commit/b4b3caae40
+  47500f2055: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 47500f2055) [x86_64-linux]
+    last_commit=[ruby/logger] Add support for changing severity using bang methods.
+  47500f2055 --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 47500f2055) +JIT [x86_64-linux]
+    last_commit=[ruby/logger] Add support for changing severity using bang methods.
+  136196785b: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 136196785b) [x86_64-linux]
+    last_commit=[ruby/logger] Fix to use logger and test-unit in this repo with
+  136196785b --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 136196785b) +JIT [x86_64-linux]
+    last_commit=[ruby/logger] Fix to use logger and test-unit in this repo with
+  bbe157f340: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk bbe157f340) [x86_64-linux]
+    last_commit=[ruby/logger] split logger classes/modules into separate files
+  bbe157f340 --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk bbe157f340) +JIT [x86_64-linux]
+    last_commit=[ruby/logger] split logger classes/modules into separate files
+  7f10da9d27: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 7f10da9d27) [x86_64-linux]
+    last_commit=[ruby/logger] require 'logger/errors' just for compat
+  7f10da9d27 --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 7f10da9d27) +JIT [x86_64-linux]
+    last_commit=[ruby/logger] require 'logger/errors' just for compat
+  7ef0856287: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 7ef0856287) [x86_64-linux]
+    last_commit=[ruby/logger] Update logger.gemspec
+  7ef0856287 --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 7ef0856287) +JIT [x86_64-linux]
+    last_commit=[ruby/logger] Update logger.gemspec
+  3fdb963827: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 3fdb963827) [x86_64-linux]
+    last_commit=[ruby/logger] Prefer require_relative, it's a little bit faster.
+  3fdb963827 --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 3fdb963827) +JIT [x86_64-linux]
+    last_commit=[ruby/logger] Prefer require_relative, it's a little bit faster.
+  2c22051b4b: |-
+    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk 2c22051b4b) [x86_64-linux]
+    last_commit=[ruby/logger] Enable `frozen_string_literal: true` in `logger.rb`.
+  2c22051b4b --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk 2c22051b4b) +JIT [x86_64-linux]
+    last_commit=[ruby/logger] Enable `frozen_string_literal: true` in `logger.rb`.
+  f4064a0a0c: |-
+    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk f4064a0a0c) [x86_64-linux]
+    last_commit=[ruby/logger] Set filename when initializing logger with a File object
+  f4064a0a0c --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk f4064a0a0c) +JIT [x86_64-linux]
+    last_commit=[ruby/logger] Set filename when initializing logger with a File object
+  58065b8701: |-
+    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk 58065b8701) [x86_64-linux]
+    last_commit=[ruby/logger] Add option to set the binary mode of the log device
+  58065b8701 --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk 58065b8701) +JIT [x86_64-linux]
+    last_commit=[ruby/logger] Add option to set the binary mode of the log device
+  1b59ed9b49: |-
+    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk 1b59ed9b49) [x86_64-linux]
+    last_commit=Move helper file of logger to under the test/logger.
+  1b59ed9b49 --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk 1b59ed9b49) +JIT [x86_64-linux]
+    last_commit=Move helper file of logger to under the test/logger.
+  0eafa1dce8: |-
+    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk 0eafa1dce8) [x86_64-linux]
+    last_commit=Fixed inconsitency locations of default gems.
+  0eafa1dce8 --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk 0eafa1dce8) +JIT [x86_64-linux]
+    last_commit=Fixed inconsitency locations of default gems.
+  4b345f9d4b: |-
+    ruby 2.7.0dev (2019-07-15T05:43:24Z trunk 4b345f9d4b) [x86_64-linux]
+    last_commit=compile.c: ignore the result of COMPILE by marking with NO_CHECK
+  4b345f9d4b --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:24Z trunk 4b345f9d4b) +JIT [x86_64-linux]
+    last_commit=compile.c: ignore the result of COMPILE by marking with NO_CHECK
+  f103ed8b7d: |-
+    ruby 2.7.0dev (2019-07-15T05:43:39Z trunk f103ed8b7d) [x86_64-linux]
+    last_commit=* expand tabs.
+  f103ed8b7d --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:43:39Z trunk f103ed8b7d) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  '036039c8a2': |-
+    ruby 2.7.0dev (2019-07-15T05:45:30Z trunk 036039c8a2) [x86_64-linux]
+    last_commit=Fixed LoadError of version file.
+  '036039c8a2 --jit': |-
+    ruby 2.7.0dev (2019-07-15T05:45:30Z trunk 036039c8a2) +JIT [x86_64-linux]
+    last_commit=Fixed LoadError of version file.
+  5349aa23c8: |-
+    ruby 2.7.0dev (2019-07-15T05:47:47Z trunk 5349aa23c8) [x86_64-linux]
+    last_commit=Also fixed up with 036039c8a29d3d8045207c111f9bbc481c904998
+  5349aa23c8 --jit: |-
+    ruby 2.7.0dev (2019-07-15T05:47:47Z trunk 5349aa23c8) +JIT [x86_64-linux]
+    last_commit=Also fixed up with 036039c8a29d3d8045207c111f9bbc481c904998
+  f73ea3342b: |-
+    ruby 2.7.0dev (2019-07-15T06:07:26Z trunk f73ea3342b) [x86_64-linux]
+    last_commit=Fixed ruby/spec for Logger::LogDevice changes.
+  f73ea3342b --jit: |-
+    ruby 2.7.0dev (2019-07-15T06:07:26Z trunk f73ea3342b) +JIT [x86_64-linux]
+    last_commit=Fixed ruby/spec for Logger::LogDevice changes.
+  3a1d3556e2: |-
+    ruby 2.7.0dev (2019-07-15T06:46:08Z trunk 3a1d3556e2) [x86_64-linux]
+    last_commit=Fix a typo of Markdown of NEWS
+  3a1d3556e2 --jit: |-
+    ruby 2.7.0dev (2019-07-15T06:46:08Z trunk 3a1d3556e2) +JIT [x86_64-linux]
+    last_commit=Fix a typo of Markdown of NEWS
+  574e8a6812: |-
+    ruby 2.7.0dev (2019-07-15T06:49:59Z trunk 574e8a6812) [x86_64-linux]
+    last_commit=Add Reline section to NEWS
+  574e8a6812 --jit: |-
+    ruby 2.7.0dev (2019-07-15T06:49:59Z trunk 574e8a6812) +JIT [x86_64-linux]
+    last_commit=Add Reline section to NEWS
+  de0f192444: |-
+    ruby 2.7.0dev (2019-07-15T07:25:50Z trunk de0f192444) [x86_64-linux]
+    last_commit=Add features of IRB to NEWS
+  de0f192444 --jit: |-
+    ruby 2.7.0dev (2019-07-15T07:25:50Z trunk de0f192444) +JIT [x86_64-linux]
+    last_commit=Add features of IRB to NEWS
