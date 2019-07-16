@@ -9,108 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  2c91c5b329: |-
-    ruby 2.7.0dev (2019-05-27 trunk 2c91c5b329) [x86_64-linux]
-    last_commit=Move to the other line when press <- at head or -> at tail
-  2c91c5b329 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 2c91c5b329) +JIT [x86_64-linux]
-    last_commit=Move to the other line when press <- at head or -> at tail
-  29c16b30ce: |-
-    ruby 2.7.0dev (2019-05-27 trunk 29c16b30ce) [x86_64-linux]
-    last_commit=Add support for history with Reline backend
-  29c16b30ce --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 29c16b30ce) +JIT [x86_64-linux]
-    last_commit=Add support for history with Reline backend
-  c49796c930: |-
-    ruby 2.7.0dev (2019-05-27 trunk c49796c930) [x86_64-linux]
-    last_commit=Reline should move to next line after finished in Readline mode
-  c49796c930 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk c49796c930) +JIT [x86_64-linux]
-    last_commit=Reline should move to next line after finished in Readline mode
-  2805c55aa3: |-
-    ruby 2.7.0dev (2019-05-27 trunk 2805c55aa3) [x86_64-linux]
-    last_commit=Move to next of last line by ^C
-  2805c55aa3 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 2805c55aa3) +JIT [x86_64-linux]
-    last_commit=Move to next of last line by ^C
-  4e2c7783e3: |-
-    ruby 2.7.0dev (2019-05-27 trunk 4e2c7783e3) [x86_64-linux]
-    last_commit=Check blank history
-  4e2c7783e3 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 4e2c7783e3) +JIT [x86_64-linux]
-    last_commit=Check blank history
-  9c136f3dea: |-
-    ruby 2.7.0dev (2019-05-27 trunk 9c136f3dea) [x86_64-linux]
-    last_commit=Move to next of last line by ^D
-  9c136f3dea --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 9c136f3dea) +JIT [x86_64-linux]
-    last_commit=Move to next of last line by ^D
-  1d301acbe8: |-
-    ruby 2.7.0dev (2019-05-27 trunk 1d301acbe8) [x86_64-linux]
-    last_commit=Fix rendering bug of ^D
-  1d301acbe8 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 1d301acbe8) +JIT [x86_64-linux]
-    last_commit=Fix rendering bug of ^D
-  9840f52c77: |-
-    ruby 2.7.0dev (2019-05-27 trunk 9840f52c77) [x86_64-linux]
-    last_commit=Use IRB::InputMethod#eof? to quit
-  9840f52c77 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 9840f52c77) +JIT [x86_64-linux]
-    last_commit=Use IRB::InputMethod#eof? to quit
-  0aa9b003de: |-
-    ruby 2.7.0dev (2019-05-27 trunk 0aa9b003de) [x86_64-linux]
-    last_commit=context.rb: hide wrapping lines
-  0aa9b003de --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 0aa9b003de) +JIT [x86_64-linux]
-    last_commit=context.rb: hide wrapping lines
-  4c277364a5: |-
-    ruby 2.7.0dev (2019-05-27 trunk 4c277364a5) [x86_64-linux]
-    last_commit=CSI allows empty digit which equals 0
-  4c277364a5 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 4c277364a5) +JIT [x86_64-linux]
-    last_commit=CSI allows empty digit which equals 0
-  43730256e8: |-
-    ruby 2.7.0dev (2019-05-27 trunk 43730256e8) [x86_64-linux]
-    last_commit=open-uri: Regenerate server certificates for tests
-  43730256e8 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 43730256e8) +JIT [x86_64-linux]
-    last_commit=open-uri: Regenerate server certificates for tests
-  af17e111b3: |-
-    ruby 2.7.0dev (2019-05-27 trunk af17e111b3) [x86_64-linux]
-    last_commit=Added #inspect and #pretty_inspect to Ripper::Lexer::Elem
-  af17e111b3 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk af17e111b3) +JIT [x86_64-linux]
-    last_commit=Added #inspect and #pretty_inspect to Ripper::Lexer::Elem
-  ea6e284d86: |-
-    ruby 2.7.0dev (2019-05-27 trunk ea6e284d86) [x86_64-linux]
-    last_commit=parse.y: removed "parser_" prefix from tokadd_utf8
-  ea6e284d86 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk ea6e284d86) +JIT [x86_64-linux]
-    last_commit=parse.y: removed "parser_" prefix from tokadd_utf8
-  61da57c76a: |-
-    ruby 2.7.0dev (2019-05-27 trunk 61da57c76a) [x86_64-linux]
-    last_commit=is_pointer_to_heap() checks also tomb or not.
-  61da57c76a --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 61da57c76a) +JIT [x86_64-linux]
-    last_commit=is_pointer_to_heap() checks also tomb or not.
-  6c1a07555c: |-
-    ruby 2.7.0dev (2019-05-27 trunk 6c1a07555c) [x86_64-linux]
-    last_commit=fix GC.verify_internal_consistency.
-  6c1a07555c --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 6c1a07555c) +JIT [x86_64-linux]
-    last_commit=fix GC.verify_internal_consistency.
-  b3a6469e46: |-
-    ruby 2.7.0dev (2019-05-27 trunk b3a6469e46) [x86_64-linux]
-    last_commit=add a line break for each error message
-  b3a6469e46 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk b3a6469e46) +JIT [x86_64-linux]
-    last_commit=add a line break for each error message
-  35146c4368: |-
-    ruby 2.7.0dev (2019-05-27 trunk 35146c4368) [x86_64-linux]
-    last_commit=add a space between type and others
-  35146c4368 --jit: |-
-    ruby 2.7.0dev (2019-05-27 trunk 35146c4368) +JIT [x86_64-linux]
-    last_commit=add a space between type and others
   b3602f1d20: |-
     ruby 2.7.0dev (2019-05-27 trunk b3602f1d20) [x86_64-linux]
     last_commit=check the object is in tomb_heap.
@@ -6067,3 +5965,9 @@ commits:
   e2f987e654 --jit: |-
     ruby 2.7.0dev (2019-07-16T00:22:11Z trunk e2f987e654) +JIT [x86_64-linux]
     last_commit=* expand tabs.
+  75fb0a9afa: |-
+    ruby 2.7.0dev (2019-07-16T00:41:23Z trunk 75fb0a9afa) [x86_64-linux]
+    last_commit=Allow mday in Date.iso8601 to be omitted
+  75fb0a9afa --jit: |-
+    ruby 2.7.0dev (2019-07-16T00:41:23Z trunk 75fb0a9afa) +JIT [x86_64-linux]
+    last_commit=Allow mday in Date.iso8601 to be omitted
