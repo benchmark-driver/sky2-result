@@ -5971,3 +5971,27 @@ commits:
   75fb0a9afa --jit: |-
     ruby 2.7.0dev (2019-07-16T00:41:23Z trunk 75fb0a9afa) +JIT [x86_64-linux]
     last_commit=Allow mday in Date.iso8601 to be omitted
+  76c6cf2cbc: |-
+    ruby 2.7.0dev (2019-07-16T08:23:43Z trunk 76c6cf2cbc) [x86_64-linux]
+    last_commit=Print debugging information when updating failed
+  76c6cf2cbc --jit: |-
+    ruby 2.7.0dev (2019-07-16T08:23:43Z trunk 76c6cf2cbc) +JIT [x86_64-linux]
+    last_commit=Print debugging information when updating failed
+  19d592dc82: |-
+    ruby 2.7.0dev (2019-07-16T09:41:11Z trunk 19d592dc82) [x86_64-linux]
+    last_commit=Somehow `if` didn't work
+  19d592dc82 --jit: |-
+    ruby 2.7.0dev (2019-07-16T09:41:11Z trunk 19d592dc82) +JIT [x86_64-linux]
+    last_commit=Somehow `if` didn't work
+  8deabcd328: |-
+    ruby 2.7.0dev (2019-07-16T09:42:56Z trunk 8deabcd328) [x86_64-linux]
+    last_commit=Constified afamily functions
+  8deabcd328 --jit: |-
+    ruby 2.7.0dev (2019-07-16T09:42:56Z trunk 8deabcd328) +JIT [x86_64-linux]
+    last_commit=Constified afamily functions
+  e988048e25: |-
+    ruby 2.7.0dev (2019-07-16T09:57:08Z trunk e988048e25) [x86_64-linux]
+    last_commit=Moved the check for `exception` to rb_execarg_addopt
+  e988048e25 --jit: |-
+    ruby 2.7.0dev (2019-07-16T09:57:08Z trunk e988048e25) +JIT [x86_64-linux]
+    last_commit=Moved the check for `exception` to rb_execarg_addopt

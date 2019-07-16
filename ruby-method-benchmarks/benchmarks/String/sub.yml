@@ -754,6 +754,8 @@ results:
     a53ab897c3: 3317701.593
     4d6c35d33a: 3385627.023
     dd4f128ac5: 3346107.161
+    46491af74c: 3343541.303
+    89e178c7cb: 3404531.961
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1507,6 +1509,8 @@ results:
     a53ab897c3: 3344146.096
     4d6c35d33a: 3358058.14
     dd4f128ac5: 3287798.989
+    46491af74c: 3328099.214
+    89e178c7cb: 3388042.191
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2260,6 +2264,8 @@ results:
     a53ab897c3: 1847426.861
     4d6c35d33a: 1894087.154
     dd4f128ac5: 1847886.087
+    46491af74c: 1817055.276
+    89e178c7cb: 1799857.052
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -3013,6 +3019,8 @@ results:
     a53ab897c3: 2734161.922
     4d6c35d33a: 2738509.767
     dd4f128ac5: 2722171.939
+    46491af74c: 2650085.105
+    89e178c7cb: 2730408.406
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -3766,6 +3774,8 @@ results:
     a53ab897c3: 3672460.115
     4d6c35d33a: 3658130.716
     dd4f128ac5: 3656751.945
+    46491af74c: 3675694.255
+    89e178c7cb: 3606753.476
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -4519,6 +4529,8 @@ results:
     a53ab897c3: 3609007.967
     4d6c35d33a: 3612054.253
     dd4f128ac5: 3616817.622
+    46491af74c: 3515043.628
+    89e178c7cb: 3631452.423
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -5272,6 +5284,8 @@ results:
     a53ab897c3: 1951418.431
     4d6c35d33a: 1942366.245
     dd4f128ac5: 1946574.488
+    46491af74c: 1914444.061
+    89e178c7cb: 1670993.667
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -6025,3 +6039,5 @@ results:
     a53ab897c3: 2921019.151
     4d6c35d33a: 2903533.603
     dd4f128ac5: 2919267.997
+    46491af74c: 2841799.191
+    89e178c7cb: 2920243.858
