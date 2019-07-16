@@ -6007,3 +6007,63 @@ commits:
   0c6c937904 --jit: |-
     ruby 2.7.0dev (2019-07-15T10:39:47Z trunk 0c6c937904) +JIT [x86_64-linux]
     last_commit=Removed duplicate highlighting
+  6aab77a7a3: |-
+    ruby 2.7.0dev (2019-07-15T22:17:57Z trunk 6aab77a7a3) [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  6aab77a7a3 --jit: |-
+    ruby 2.7.0dev (2019-07-15T22:17:57Z trunk 6aab77a7a3) +JIT [x86_64-linux]
+    last_commit=Add a /* fall through */ comment
+  c184a1c261: |-
+    ruby 2.7.0dev (2019-07-15T22:18:54Z trunk c184a1c261) [x86_64-linux]
+    last_commit=compile.c: add NO_CHECK for the calls to COMPILE whose result is unused
+  c184a1c261 --jit: |-
+    ruby 2.7.0dev (2019-07-15T22:18:54Z trunk c184a1c261) +JIT [x86_64-linux]
+    last_commit=compile.c: add NO_CHECK for the calls to COMPILE whose result is unused
+  a8e4b7b12f: |-
+    ruby 2.7.0dev (2019-07-15T22:19:52Z trunk a8e4b7b12f) [x86_64-linux]
+    last_commit=* expand tabs.
+  a8e4b7b12f --jit: |-
+    ruby 2.7.0dev (2019-07-15T22:19:52Z trunk a8e4b7b12f) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  325d546d62: |-
+    ruby 2.7.0dev (2019-07-15T22:19:56Z trunk 325d546d62) [x86_64-linux]
+    last_commit=* 2019-07-16
+  325d546d62 --jit: |-
+    ruby 2.7.0dev (2019-07-15T22:19:56Z trunk 325d546d62) +JIT [x86_64-linux]
+    last_commit=* 2019-07-16
+  34019a22eb: |-
+    ruby 2.7.0dev (2019-07-15T22:59:30Z trunk 34019a22eb) [x86_64-linux]
+    last_commit=Expanded f_denominator
+  34019a22eb --jit: |-
+    ruby 2.7.0dev (2019-07-15T22:59:30Z trunk 34019a22eb) +JIT [x86_64-linux]
+    last_commit=Expanded f_denominator
+  ca524bcd49: |-
+    ruby 2.7.0dev (2019-07-15T23:15:05Z trunk ca524bcd49) [x86_64-linux]
+    last_commit=Expanded f_numerator
+  ca524bcd49 --jit: |-
+    ruby 2.7.0dev (2019-07-15T23:15:05Z trunk ca524bcd49) +JIT [x86_64-linux]
+    last_commit=Expanded f_numerator
+  71d5b4c32e: |-
+    ruby 2.7.0dev (2019-07-15T23:25:39Z trunk 71d5b4c32e) [x86_64-linux]
+    last_commit=Fixed the library path for tools
+  71d5b4c32e --jit: |-
+    ruby 2.7.0dev (2019-07-15T23:25:39Z trunk 71d5b4c32e) +JIT [x86_64-linux]
+    last_commit=Fixed the library path for tools
+  8e37ef76f6: |-
+    ruby 2.7.0dev (2019-07-15T23:46:38Z trunk 8e37ef76f6) [x86_64-linux]
+    last_commit=Fixed the library path for tools
+  8e37ef76f6 --jit: |-
+    ruby 2.7.0dev (2019-07-15T23:46:38Z trunk 8e37ef76f6) +JIT [x86_64-linux]
+    last_commit=Fixed the library path for tools
+  00dc0dae0d: |-
+    ruby 2.7.0dev (2019-07-16T00:15:25Z trunk 00dc0dae0d) [x86_64-linux]
+    last_commit=Removed intermediate local variables
+  00dc0dae0d --jit: |-
+    ruby 2.7.0dev (2019-07-16T00:15:25Z trunk 00dc0dae0d) +JIT [x86_64-linux]
+    last_commit=Removed intermediate local variables
+  e2f987e654: |-
+    ruby 2.7.0dev (2019-07-16T00:22:11Z trunk e2f987e654) [x86_64-linux]
+    last_commit=* expand tabs.
+  e2f987e654 --jit: |-
+    ruby 2.7.0dev (2019-07-16T00:22:11Z trunk e2f987e654) +JIT [x86_64-linux]
+    last_commit=* expand tabs.

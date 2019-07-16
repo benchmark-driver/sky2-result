@@ -756,6 +756,8 @@ results:
     f738eeabc2: 11678503.391
     4adfd5227f: 11605314.816
     05aac90a1b: 11363017.398
+    1f7cb4bee9: 11842399.758
+    a0c141b6d0: 11676434.493
   Enumerable#find_all { |obj| true }:
     052dbbe74f: 252584.682
     07e7ae9ed7: 237543.234
@@ -1511,6 +1513,8 @@ results:
     f738eeabc2: 202398.303
     4adfd5227f: 244876.758
     05aac90a1b: 242376.694
+    1f7cb4bee9: 228513.756
+    a0c141b6d0: 227780.852
   Enumerable#find_all { |obj| false }:
     052dbbe74f: 288915.067
     07e7ae9ed7: 275706.219
@@ -2266,6 +2270,8 @@ results:
     f738eeabc2: 273355.921
     4adfd5227f: 281531.384
     05aac90a1b: 267723.857
+    1f7cb4bee9: 280744.279
+    a0c141b6d0: 270539.589
   Enumerable#select:
     052dbbe74f: 12176254.7
     07e7ae9ed7: 9686421.917
@@ -3021,6 +3027,8 @@ results:
     f738eeabc2: 11371796.158
     4adfd5227f: 11695455.158
     05aac90a1b: 11927509.648
+    1f7cb4bee9: 11810267.128
+    a0c141b6d0: 11719148.497
   Enumerable#select { |obj| true }:
     052dbbe74f: 250206.562
     07e7ae9ed7: 246565.064
@@ -3776,6 +3784,8 @@ results:
     f738eeabc2: 238443.665
     4adfd5227f: 245148.033
     05aac90a1b: 244393.26
+    1f7cb4bee9: 239691.444
+    a0c141b6d0: 244903.743
   Enumerable#select { |obj| false }:
     052dbbe74f: 270616.645
     07e7ae9ed7: 259925.71
@@ -4531,3 +4541,5 @@ results:
     f738eeabc2: 281247.389
     4adfd5227f: 216165.588
     05aac90a1b: 277198.393
+    1f7cb4bee9: 278240.36
+    a0c141b6d0: 273178.348
