@@ -5995,3 +5995,9 @@ commits:
   af07e07ac9 --jit: |-
     ruby 2.7.0dev (2019-07-17T02:57:09Z trunk af07e07ac9) +JIT [x86_64-linux]
     last_commit=Separate pull-github from merge-github [ci skip]
+  cd372f8db2: |-
+    ruby 2.7.0dev (2019-07-17T05:45:33Z trunk cd372f8db2) [x86_64-linux]
+    last_commit=Get rid of LoadError with $DEBUG
+  cd372f8db2 --jit: |-
+    ruby 2.7.0dev (2019-07-17T05:45:33Z trunk cd372f8db2) +JIT [x86_64-linux]
+    last_commit=Get rid of LoadError with $DEBUG
