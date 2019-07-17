@@ -6007,3 +6007,15 @@ commits:
   0e23e0c3a0 --jit: |-
     ruby 2.7.0dev (2019-07-17T08:04:37Z trunk 0e23e0c3a0) +JIT [x86_64-linux]
     last_commit=Adjust indent [ci skip]
+  416ead4cda: |-
+    ruby 2.7.0dev (2019-07-17T14:41:58Z trunk 416ead4cda) [x86_64-linux]
+    last_commit=compile.c: add NO_CHECK for the calls to COMPILE whose result is unused
+  416ead4cda --jit: |-
+    ruby 2.7.0dev (2019-07-17T14:41:58Z trunk 416ead4cda) +JIT [x86_64-linux]
+    last_commit=compile.c: add NO_CHECK for the calls to COMPILE whose result is unused
+  bdec1ad9a9: |-
+    ruby 2.7.0dev (2019-07-17T14:42:21Z trunk bdec1ad9a9) [x86_64-linux]
+    last_commit=* expand tabs.
+  bdec1ad9a9 --jit: |-
+    ruby 2.7.0dev (2019-07-17T14:42:21Z trunk bdec1ad9a9) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
