@@ -9,120 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  74c88e7cda: |-
-    ruby 2.7.0dev (2019-05-28 trunk 74c88e7cda) [x86_64-linux]
-    last_commit=Fix reversed row and column get_screen_size on Windows
-  74c88e7cda --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 74c88e7cda) +JIT [x86_64-linux]
-    last_commit=Fix reversed row and column get_screen_size on Windows
-  57b4df07bc: |-
-    ruby 2.7.0dev (2019-05-28 trunk 57b4df07bc) [x86_64-linux]
-    last_commit=Use Reline.completer_quote_characters to complete
-  57b4df07bc --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 57b4df07bc) +JIT [x86_64-linux]
-    last_commit=Use Reline.completer_quote_characters to complete
-  1cdaa17a06: |-
-    ruby 2.7.0dev (2019-05-28 trunk 1cdaa17a06) [x86_64-linux]
-    last_commit=parse.y: numbered parameter symbol
-  1cdaa17a06 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 1cdaa17a06) +JIT [x86_64-linux]
-    last_commit=parse.y: numbered parameter symbol
-  cf904d9f9f: |-
-    ruby 2.7.0dev (2019-05-28 trunk cf904d9f9f) [x86_64-linux]
-    last_commit=Avoid doubly building Travis and AppVeyor
-  cf904d9f9f --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk cf904d9f9f) +JIT [x86_64-linux]
-    last_commit=Avoid doubly building Travis and AppVeyor
-  ae2a904ce9: |-
-    ruby 2.7.0dev (2019-05-28 trunk ae2a904ce9) [x86_64-linux]
-    last_commit=Update the certificate files to make the test pass on Debian 10
-  ae2a904ce9 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk ae2a904ce9) +JIT [x86_64-linux]
-    last_commit=Update the certificate files to make the test pass on Debian 10
-  165ddfda20: |-
-    ruby 2.7.0dev (2019-05-28 trunk 165ddfda20) [x86_64-linux]
-    last_commit=* remove trailing spaces.
-  165ddfda20 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 165ddfda20) +JIT [x86_64-linux]
-    last_commit=* remove trailing spaces.
-  fa7a768fdf: |-
-    ruby 2.7.0dev (2019-05-28 trunk fa7a768fdf) [x86_64-linux]
-    last_commit=Removed inconsistency file from upstream repository of rubygems.
-  fa7a768fdf --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk fa7a768fdf) +JIT [x86_64-linux]
-    last_commit=Removed inconsistency file from upstream repository of rubygems.
-  cfd839c140: |-
-    ruby 2.7.0dev (2019-05-28 trunk cfd839c140) [x86_64-linux]
-    last_commit=Suppress warning (uninitialized variable).
-  cfd839c140 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk cfd839c140) +JIT [x86_64-linux]
-    last_commit=Suppress warning (uninitialized variable).
-  7f211bfe6c: |-
-    ruby 2.7.0dev (2019-05-28 trunk 7f211bfe6c) [x86_64-linux]
-    last_commit=use only eden_heaps on GC.compact.
-  7f211bfe6c --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 7f211bfe6c) +JIT [x86_64-linux]
-    last_commit=use only eden_heaps on GC.compact.
-  ccfb12d76c: |-
-    ruby 2.7.0dev (2019-05-28 trunk ccfb12d76c) [x86_64-linux]
-    last_commit=Fix condition..."and" is lowest priority operator, than "="
-  ccfb12d76c --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk ccfb12d76c) +JIT [x86_64-linux]
-    last_commit=Fix condition..."and" is lowest priority operator, than "="
-  72333286c4: |-
-    ruby 2.7.0dev (2019-05-28 trunk 72333286c4) [x86_64-linux]
-    last_commit=Fix typos in Ripper::Lexer#inspect and Ripper::Lexer#pretty_print
-  72333286c4 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 72333286c4) +JIT [x86_64-linux]
-    last_commit=Fix typos in Ripper::Lexer#inspect and Ripper::Lexer#pretty_print
-  2229acaa54: |-
-    ruby 2.7.0dev (2019-05-28 trunk 2229acaa54) [x86_64-linux]
-    last_commit=should use heap_eden->total_pages.
-  2229acaa54 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 2229acaa54) +JIT [x86_64-linux]
-    last_commit=should use heap_eden->total_pages.
-  f9401d5d44: |-
-    ruby 2.7.0dev (2019-05-28 trunk f9401d5d44) [x86_64-linux]
-    last_commit=should skip T_ZOMBIE here.
-  f9401d5d44 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk f9401d5d44) +JIT [x86_64-linux]
-    last_commit=should skip T_ZOMBIE here.
-  f3bddc103d: |-
-    ruby 2.7.0dev (2019-05-28 trunk f3bddc103d) [x86_64-linux]
-    last_commit=use malloc() instead of calloc().
-  f3bddc103d --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk f3bddc103d) +JIT [x86_64-linux]
-    last_commit=use malloc() instead of calloc().
-  05bc14d81a: |-
-    ruby 2.7.0dev (2019-05-28 trunk 05bc14d81a) [x86_64-linux]
-    last_commit=Fix building with 1.8 BASERUBY
-  05bc14d81a --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 05bc14d81a) +JIT [x86_64-linux]
-    last_commit=Fix building with 1.8 BASERUBY
-  40e175b390: |-
-    ruby 2.7.0dev (2019-05-28 trunk 40e175b390) [x86_64-linux]
-    last_commit=Clean a garbage [ci skip]
-  40e175b390 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 40e175b390) +JIT [x86_64-linux]
-    last_commit=Clean a garbage [ci skip]
-  62b3d4c721: |-
-    ruby 2.7.0dev (2019-05-28 trunk 62b3d4c721) [x86_64-linux]
-    last_commit=Skip following all digits after `@@`
-  62b3d4c721 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 62b3d4c721) +JIT [x86_64-linux]
-    last_commit=Skip following all digits after `@@`
-  d5f408403f: |-
-    ruby 2.7.0dev (2019-05-28 trunk d5f408403f) [x86_64-linux]
-    last_commit=Set read-only with attrib command
-  d5f408403f --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk d5f408403f) +JIT [x86_64-linux]
-    last_commit=Set read-only with attrib command
-  2562b7d7cd: |-
-    ruby 2.7.0dev (2019-05-28 trunk 2562b7d7cd) [x86_64-linux]
-    last_commit=Unify RELINE_TEST_ENCODING setting
-  2562b7d7cd --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 2562b7d7cd) +JIT [x86_64-linux]
-    last_commit=Unify RELINE_TEST_ENCODING setting
   8a2b497e3b: |-
     ruby 2.7.0dev (2019-05-28 trunk 8a2b497e3b) [x86_64-linux]
     last_commit=remove obsolete rb_gc_finalize_deferred().
@@ -6079,3 +5965,9 @@ commits:
   78bc6cd8df --jit: |-
     ruby 2.7.0dev (2019-07-18T08:55:22Z trunk 78bc6cd8df) +JIT [x86_64-linux]
     last_commit=* remove trailing spaces.
+  9790b778a3: |-
+    ruby 2.7.0dev (2019-07-18T12:33:03Z trunk 9790b778a3) [x86_64-linux]
+    last_commit=Ensure we don't have dangling cfp.
+  9790b778a3 --jit: |-
+    ruby 2.7.0dev (2019-07-18T12:33:03Z trunk 9790b778a3) +JIT [x86_64-linux]
+    last_commit=Ensure we don't have dangling cfp.
