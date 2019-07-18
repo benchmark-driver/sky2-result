@@ -9,54 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  9a68aba79f: |-
-    ruby 2.7.0dev (2019-05-28 trunk 9a68aba79f) [x86_64-linux]
-    last_commit=Support OSC and treat \1 \2 correctly
-  9a68aba79f --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 9a68aba79f) +JIT [x86_64-linux]
-    last_commit=Support OSC and treat \1 \2 correctly
-  b2b5ed1410: |-
-    ruby 2.7.0dev (2019-05-28 trunk b2b5ed1410) [x86_64-linux]
-    last_commit=Supress duplicated warning
-  b2b5ed1410 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk b2b5ed1410) +JIT [x86_64-linux]
-    last_commit=Supress duplicated warning
-  69c7ad1723: |-
-    ruby 2.7.0dev (2019-05-28 trunk 69c7ad1723) [x86_64-linux]
-    last_commit=Exit only when blank input
-  69c7ad1723 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 69c7ad1723) +JIT [x86_64-linux]
-    last_commit=Exit only when blank input
-  7447c7b651: |-
-    ruby 2.7.0dev (2019-05-28 trunk 7447c7b651) [x86_64-linux]
-    last_commit=Join next line if deletes newline at end of line
-  7447c7b651 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 7447c7b651) +JIT [x86_64-linux]
-    last_commit=Join next line if deletes newline at end of line
-  5e275dd2af: |-
-    ruby 2.7.0dev (2019-05-28 trunk 5e275dd2af) [x86_64-linux]
-    last_commit=Treat :@1, :@@1, @1, and @@1 correctly to check termination
-  5e275dd2af --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 5e275dd2af) +JIT [x86_64-linux]
-    last_commit=Treat :@1, :@@1, @1, and @@1 correctly to check termination
-  d5682eb939: |-
-    ruby 2.7.0dev (2019-05-28 trunk d5682eb939) [x86_64-linux]
-    last_commit=Remove unused variable from IRB::InputCompletor
-  d5682eb939 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk d5682eb939) +JIT [x86_64-linux]
-    last_commit=Remove unused variable from IRB::InputCompletor
-  8b135cc875: |-
-    ruby 2.7.0dev (2019-05-28 trunk 8b135cc875) [x86_64-linux]
-    last_commit=Use VK_MENU instead of VK_LMENU to check ALT on Windows
-  8b135cc875 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 8b135cc875) +JIT [x86_64-linux]
-    last_commit=Use VK_MENU instead of VK_LMENU to check ALT on Windows
-  f6b62d8fe7: |-
-    ruby 2.7.0dev (2019-05-28 trunk f6b62d8fe7) [x86_64-linux]
-    last_commit=Use Shift+Enter as Meta+Enter on Windows
-  f6b62d8fe7 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk f6b62d8fe7) +JIT [x86_64-linux]
-    last_commit=Use Shift+Enter as Meta+Enter on Windows
   74c88e7cda: |-
     ruby 2.7.0dev (2019-05-28 trunk 74c88e7cda) [x86_64-linux]
     last_commit=Fix reversed row and column get_screen_size on Windows
