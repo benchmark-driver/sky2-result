@@ -5983,3 +5983,99 @@ commits:
   97808e29cd --jit: |-
     ruby 2.7.0dev (2019-07-17T23:15:46Z trunk 97808e29cd) +JIT [x86_64-linux]
     last_commit=* 2019-07-18
+  1b82c877df: |-
+    ruby 2.7.0dev (2019-07-18T08:54:53Z trunk 1b82c877df) [x86_64-linux]
+    last_commit=Make FIBER_USE_NATIVE the default and reformat code.
+  1b82c877df --jit: |-
+    ruby 2.7.0dev (2019-07-18T08:54:53Z trunk 1b82c877df) +JIT [x86_64-linux]
+    last_commit=Make FIBER_USE_NATIVE the default and reformat code.
+  14cf95cff3: |-
+    ruby 2.7.0dev (2019-07-18T08:54:53Z trunk 14cf95cff3) [x86_64-linux]
+    last_commit=Implement fiber pool for reduced fiber allocation overhead.
+  14cf95cff3 --jit: |-
+    ruby 2.7.0dev (2019-07-18T08:54:53Z trunk 14cf95cff3) +JIT [x86_64-linux]
+    last_commit=Implement fiber pool for reduced fiber allocation overhead.
+  8779382da4: |-
+    ruby 2.7.0dev (2019-07-18T08:54:53Z trunk 8779382da4) [x86_64-linux]
+    last_commit=Remove unused vm_stack recycling.
+  8779382da4 --jit: |-
+    ruby 2.7.0dev (2019-07-18T08:54:53Z trunk 8779382da4) +JIT [x86_64-linux]
+    last_commit=Remove unused vm_stack recycling.
+  91aae651bf: |-
+    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk 91aae651bf) [x86_64-linux]
+    last_commit=Stack copying implementation of coroutines.
+  91aae651bf --jit: |-
+    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk 91aae651bf) +JIT [x86_64-linux]
+    last_commit=Stack copying implementation of coroutines.
+  7291fef55c: |-
+    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk 7291fef55c) [x86_64-linux]
+    last_commit=Improve build process and coroutine implementation selection.
+  7291fef55c --jit: |-
+    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk 7291fef55c) +JIT [x86_64-linux]
+    last_commit=Improve build process and coroutine implementation selection.
+  b8242bce23: |-
+    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk b8242bce23) [x86_64-linux]
+    last_commit=Add `ucontext` and `copy` coroutine implementations to test matrix.
+  b8242bce23 --jit: |-
+    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk b8242bce23) +JIT [x86_64-linux]
+    last_commit=Add `ucontext` and `copy` coroutine implementations to test matrix.
+  47c0cab248: |-
+    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk 47c0cab248) [x86_64-linux]
+    last_commit=Add details of fiber pool and coroutine selection to NEWS.
+  47c0cab248 --jit: |-
+    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk 47c0cab248) +JIT [x86_64-linux]
+    last_commit=Add details of fiber pool and coroutine selection to NEWS.
+  77f3319071: |-
+    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk 77f3319071) [x86_64-linux]
+    last_commit=Enable `madvise` to release stack space back to OS.
+  77f3319071 --jit: |-
+    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk 77f3319071) +JIT [x86_64-linux]
+    last_commit=Enable `madvise` to release stack space back to OS.
+  8ac9a7be0f: |-
+    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk 8ac9a7be0f) [x86_64-linux]
+    last_commit=Limit expansion of fiber pool on 32-bit platforms.
+  8ac9a7be0f --jit: |-
+    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk 8ac9a7be0f) +JIT [x86_64-linux]
+    last_commit=Limit expansion of fiber pool on 32-bit platforms.
+  4d60a5820a: |-
+    ruby 2.7.0dev (2019-07-18T08:54:55Z trunk 4d60a5820a) [x86_64-linux]
+    last_commit=Add FIBER_POOL_ALLOCATION_FREE to control allocation/free strategy.
+  4d60a5820a --jit: |-
+    ruby 2.7.0dev (2019-07-18T08:54:55Z trunk 4d60a5820a) +JIT [x86_64-linux]
+    last_commit=Add FIBER_POOL_ALLOCATION_FREE to control allocation/free strategy.
+  385ea910fc: |-
+    ruby 2.7.0dev (2019-07-18T08:54:55Z trunk 385ea910fc) [x86_64-linux]
+    last_commit=Add `struct fiber_pool {int free_stacks;}` to control usage of madvise.
+  385ea910fc --jit: |-
+    ruby 2.7.0dev (2019-07-18T08:54:55Z trunk 385ea910fc) +JIT [x86_64-linux]
+    last_commit=Add `struct fiber_pool {int free_stacks;}` to control usage of madvise.
+  001f187ed6: |-
+    ruby 2.7.0dev (2019-07-18T08:54:55Z trunk 001f187ed6) [x86_64-linux]
+    last_commit=Make fiber_pool more conservative on platforms with limited address space.
+  001f187ed6 --jit: |-
+    ruby 2.7.0dev (2019-07-18T08:54:55Z trunk 001f187ed6) +JIT [x86_64-linux]
+    last_commit=Make fiber_pool more conservative on platforms with limited address space.
+  56fcf98849: |-
+    ruby 2.7.0dev (2019-07-18T08:54:55Z trunk 56fcf98849) [x86_64-linux]
+    last_commit=Add note about setting `vm.max_map_count` for Linux.
+  56fcf98849 --jit: |-
+    ruby 2.7.0dev (2019-07-18T08:54:55Z trunk 56fcf98849) +JIT [x86_64-linux]
+    last_commit=Add note about setting `vm.max_map_count` for Linux.
+  311007bf40: |-
+    ruby 2.7.0dev (2019-07-18T08:54:55Z trunk 311007bf40) [x86_64-linux]
+    last_commit=Add experimental `RUBY_SHARED_FIBER_POOL_FREE_STACKS` to control madvise.
+  311007bf40 --jit: |-
+    ruby 2.7.0dev (2019-07-18T08:54:55Z trunk 311007bf40) +JIT [x86_64-linux]
+    last_commit=Add experimental `RUBY_SHARED_FIBER_POOL_FREE_STACKS` to control madvise.
+  38e3c65a33: |-
+    ruby 2.7.0dev (2019-07-18T08:54:55Z trunk 38e3c65a33) [x86_64-linux]
+    last_commit=Improve `fiber_pool_expand` allocation strategy.
+  38e3c65a33 --jit: |-
+    ruby 2.7.0dev (2019-07-18T08:54:55Z trunk 38e3c65a33) +JIT [x86_64-linux]
+    last_commit=Improve `fiber_pool_expand` allocation strategy.
+  78bc6cd8df: |-
+    ruby 2.7.0dev (2019-07-18T08:55:22Z trunk 78bc6cd8df) [x86_64-linux]
+    last_commit=* remove trailing spaces.
+  78bc6cd8df --jit: |-
+    ruby 2.7.0dev (2019-07-18T08:55:22Z trunk 78bc6cd8df) +JIT [x86_64-linux]
+    last_commit=* remove trailing spaces.
