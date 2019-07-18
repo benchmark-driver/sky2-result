@@ -5971,3 +5971,9 @@ commits:
   9790b778a3 --jit: |-
     ruby 2.7.0dev (2019-07-18T12:33:03Z trunk 9790b778a3) +JIT [x86_64-linux]
     last_commit=Ensure we don't have dangling cfp.
+  d40d8b3caf: |-
+    ruby 2.7.0dev (2019-07-18T13:59:44Z trunk d40d8b3caf) [x86_64-linux]
+    last_commit=check saved_ec.cfp
+  d40d8b3caf --jit: |-
+    ruby 2.7.0dev (2019-07-18T13:59:44Z trunk d40d8b3caf) +JIT [x86_64-linux]
+    last_commit=check saved_ec.cfp
