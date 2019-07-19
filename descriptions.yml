@@ -5971,3 +5971,15 @@ commits:
   0a7093a8e9 --jit: |-
     ruby 2.7.0dev (2019-07-19T08:18:42Z trunk 0a7093a8e9) +JIT [x86_64-linux]
     last_commit=Add documentation to `fiber_pool_allocate_memory`.
+  3e8d4ff3e5: |-
+    ruby 2.7.0dev (2019-07-19T14:41:24Z trunk 3e8d4ff3e5) [x86_64-linux]
+    last_commit=array.c: factor out `assert(RB_TYPE_P(ary, T_ARRAY))` to a function
+  3e8d4ff3e5 --jit: |-
+    ruby 2.7.0dev (2019-07-19T14:41:24Z trunk 3e8d4ff3e5) +JIT [x86_64-linux]
+    last_commit=array.c: factor out `assert(RB_TYPE_P(ary, T_ARRAY))` to a function
+  0a16ff9f83: |-
+    ruby 2.7.0dev (2019-07-19T14:50:30Z trunk 0a16ff9f83) [x86_64-linux]
+    last_commit=array.c: use assert in macro instead of in a function
+  0a16ff9f83 --jit: |-
+    ruby 2.7.0dev (2019-07-19T14:50:30Z trunk 0a16ff9f83) +JIT [x86_64-linux]
+    last_commit=array.c: use assert in macro instead of in a function
