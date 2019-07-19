@@ -5971,3 +5971,27 @@ commits:
   e14f5762c5 --jit: |-
     ruby 2.7.0dev (2019-07-19T03:55:34Z trunk e14f5762c5) +JIT [x86_64-linux]
     last_commit=Add assertions to `coroutine_initialize_main`.
+  547f574b63: |-
+    ruby 2.7.0dev (2019-07-19T04:03:47Z trunk 547f574b63) [x86_64-linux]
+    last_commit=In some situations, `vm_stack` can be NULL, but `cfp` is valid.
+  547f574b63 --jit: |-
+    ruby 2.7.0dev (2019-07-19T04:03:47Z trunk 547f574b63) +JIT [x86_64-linux]
+    last_commit=In some situations, `vm_stack` can be NULL, but `cfp` is valid.
+  182ae1407b: |-
+    ruby 2.7.0dev (2019-07-19T04:07:59Z trunk 182ae1407b) [x86_64-linux]
+    last_commit=fix shared array terminology.
+  182ae1407b --jit: |-
+    ruby 2.7.0dev (2019-07-19T04:07:59Z trunk 182ae1407b) +JIT [x86_64-linux]
+    last_commit=fix shared array terminology.
+  a44ad9a145: |-
+    ruby 2.7.0dev (2019-07-19T04:10:08Z trunk a44ad9a145) [x86_64-linux]
+    last_commit=* expand tabs.
+  a44ad9a145 --jit: |-
+    ruby 2.7.0dev (2019-07-19T04:10:08Z trunk a44ad9a145) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  ae750799c1: |-
+    ruby 2.7.0dev (2019-07-19T05:41:36Z trunk ae750799c1) [x86_64-linux]
+    last_commit=Use FL_TEST_RAW() to check flags.
+  ae750799c1 --jit: |-
+    ruby 2.7.0dev (2019-07-19T05:41:36Z trunk ae750799c1) +JIT [x86_64-linux]
+    last_commit=Use FL_TEST_RAW() to check flags.
