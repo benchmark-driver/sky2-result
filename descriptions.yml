@@ -9,120 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  8a2b497e3b: |-
-    ruby 2.7.0dev (2019-05-28 trunk 8a2b497e3b) [x86_64-linux]
-    last_commit=remove obsolete rb_gc_finalize_deferred().
-  8a2b497e3b --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk 8a2b497e3b) +JIT [x86_64-linux]
-    last_commit=remove obsolete rb_gc_finalize_deferred().
-  fb568fe724: |-
-    ruby 2.7.0dev (2019-05-28 trunk fb568fe724) [x86_64-linux]
-    last_commit=Added missing predicate macros
-  fb568fe724 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk fb568fe724) +JIT [x86_64-linux]
-    last_commit=Added missing predicate macros
-  c730c25354: |-
-    ruby 2.7.0dev (2019-05-28 trunk c730c25354) [x86_64-linux]
-    last_commit=parse.y: warn escaped whitespace
-  c730c25354 --jit: |-
-    ruby 2.7.0dev (2019-05-28 trunk c730c25354) +JIT [x86_64-linux]
-    last_commit=parse.y: warn escaped whitespace
-  abd556958d: |-
-    ruby 2.7.0dev (2019-05-29 trunk abd556958d) [x86_64-linux]
-    last_commit=* 2019-05-29
-  abd556958d --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk abd556958d) +JIT [x86_64-linux]
-    last_commit=* 2019-05-29
-  462a63c39e: |-
-    ruby 2.7.0dev (2019-05-29 trunk 462a63c39e) [x86_64-linux]
-    last_commit=Drop MJIT debug code from GC.compact
-  462a63c39e --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 462a63c39e) +JIT [x86_64-linux]
-    last_commit=Drop MJIT debug code from GC.compact
-  d070523e7b: |-
-    ruby 2.7.0dev (2019-05-29 trunk d070523e7b) [x86_64-linux]
-    last_commit=Drop unused Travis config: universal-darwin17
-  d070523e7b --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk d070523e7b) +JIT [x86_64-linux]
-    last_commit=Drop unused Travis config: universal-darwin17
-  a66bc2c011: |-
-    ruby 2.7.0dev (2019-05-29 trunk a66bc2c011) [x86_64-linux]
-    last_commit=Update to ruby/spec@9a501a8
-  a66bc2c011 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk a66bc2c011) +JIT [x86_64-linux]
-    last_commit=Update to ruby/spec@9a501a8
-  3b7862c8e8: |-
-    ruby 2.7.0dev (2019-05-29 trunk 3b7862c8e8) [x86_64-linux]
-    last_commit=Use existing instances for LineEditor and Config
-  3b7862c8e8 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 3b7862c8e8) +JIT [x86_64-linux]
-    last_commit=Use existing instances for LineEditor and Config
-  c67934b1c3: |-
-    ruby 2.7.0dev (2019-05-29 trunk c67934b1c3) [x86_64-linux]
-    last_commit=Remove extra items because Reline::HISTORY is a sized queue
-  c67934b1c3 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk c67934b1c3) +JIT [x86_64-linux]
-    last_commit=Remove extra items because Reline::HISTORY is a sized queue
-  91f5a8db59: |-
-    ruby 2.7.0dev (2019-05-29 trunk 91f5a8db59) [x86_64-linux]
-    last_commit=Update to ruby/spec@0c5c5c1
-  91f5a8db59 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 91f5a8db59) +JIT [x86_64-linux]
-    last_commit=Update to ruby/spec@0c5c5c1
-  3e54ff67e6: |-
-    ruby 2.7.0dev (2019-05-29 trunk 3e54ff67e6) [x86_64-linux]
-    last_commit=Test BASERUBY: Ruby 1.9.3 on Travis
-  3e54ff67e6 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 3e54ff67e6) +JIT [x86_64-linux]
-    last_commit=Test BASERUBY: Ruby 1.9.3 on Travis
-  d390af3686: |-
-    ruby 2.7.0dev (2019-05-29 trunk d390af3686) [x86_64-linux]
-    last_commit=Encode completed strings corecctly
-  d390af3686 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk d390af3686) +JIT [x86_64-linux]
-    last_commit=Encode completed strings corecctly
-  d341bb2857: |-
-    ruby 2.7.0dev (2019-05-29 trunk d341bb2857) [x86_64-linux]
-    last_commit=IRB never show RubyVM's doc
-  d341bb2857 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk d341bb2857) +JIT [x86_64-linux]
-    last_commit=IRB never show RubyVM's doc
-  a4a682c450: |-
-    ruby 2.7.0dev (2019-05-29 trunk a4a682c450) [x86_64-linux]
-    last_commit=Check RUBY_YES_I_AM_NOT_A_NORMAL_USER env to access RubyVM doc
-  a4a682c450 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk a4a682c450) +JIT [x86_64-linux]
-    last_commit=Check RUBY_YES_I_AM_NOT_A_NORMAL_USER env to access RubyVM doc
-  8d83743170: |-
-    ruby 2.7.0dev (2019-05-29 trunk 8d83743170) [x86_64-linux]
-    last_commit=Use IO.copy_stream
-  8d83743170 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 8d83743170) +JIT [x86_64-linux]
-    last_commit=Use IO.copy_stream
-  67f75d5b43: |-
-    ruby 2.7.0dev (2019-05-29 trunk 67f75d5b43) [x86_64-linux]
-    last_commit=Add TESTOPTS=-v for Wercker test-all --jit-wait
-  67f75d5b43 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 67f75d5b43) +JIT [x86_64-linux]
-    last_commit=Add TESTOPTS=-v for Wercker test-all --jit-wait
-  f0d1dc5cee: |-
-    ruby 2.7.0dev (2019-05-29 trunk f0d1dc5cee) [x86_64-linux]
-    last_commit=Skip a reline test hanging on Wercker since 3b7862c8e8
-  f0d1dc5cee --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk f0d1dc5cee) +JIT [x86_64-linux]
-    last_commit=Skip a reline test hanging on Wercker since 3b7862c8e8
-  e1f62d7f0e: |-
-    ruby 2.7.0dev (2019-05-29 trunk e1f62d7f0e) [x86_64-linux]
-    last_commit=Check the result of file2lastrev.rb if HAVE_BASERUBY
-  e1f62d7f0e --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk e1f62d7f0e) +JIT [x86_64-linux]
-    last_commit=Check the result of file2lastrev.rb if HAVE_BASERUBY
-  6b5e712361: |-
-    ruby 2.7.0dev (2019-05-29 trunk 6b5e712361) [x86_64-linux]
-    last_commit=Make tool/vcs.rb compliant to BASERUBY
-  6b5e712361 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 6b5e712361) +JIT [x86_64-linux]
-    last_commit=Make tool/vcs.rb compliant to BASERUBY
   797d7efde1: |-
     ruby 2.7.0dev (2019-05-29 trunk 797d7efde1) [x86_64-linux]
     last_commit=Prevent MJIT compilation from running while moving
@@ -6055,3 +5941,33 @@ commits:
   e644e2de85 --jit: |-
     ruby 2.7.0dev (2019-07-19T00:01:53Z trunk e644e2de85) +JIT [x86_64-linux]
     last_commit=Remove doc/etc.rd.ja [ci skip]
+  63160a84b4: |-
+    ruby 2.7.0dev (2019-07-19T03:04:32Z trunk 63160a84b4) [x86_64-linux]
+    last_commit=respect NDEBUG.
+  63160a84b4 --jit: |-
+    ruby 2.7.0dev (2019-07-19T03:04:32Z trunk 63160a84b4) +JIT [x86_64-linux]
+    last_commit=respect NDEBUG.
+  6eef80d824: |-
+    ruby 2.7.0dev (2019-07-19T03:46:56Z trunk 6eef80d824) [x86_64-linux]
+    last_commit=Improve ec assertions.
+  6eef80d824 --jit: |-
+    ruby 2.7.0dev (2019-07-19T03:46:56Z trunk 6eef80d824) +JIT [x86_64-linux]
+    last_commit=Improve ec assertions.
+  cf93f98a60: |-
+    ruby 2.7.0dev (2019-07-19T03:46:56Z trunk cf93f98a60) [x86_64-linux]
+    last_commit=Better usage of `rb_ec_clear_vm_stack` to maintain invariants.
+  cf93f98a60 --jit: |-
+    ruby 2.7.0dev (2019-07-19T03:46:56Z trunk cf93f98a60) +JIT [x86_64-linux]
+    last_commit=Better usage of `rb_ec_clear_vm_stack` to maintain invariants.
+  dd0e33f083: |-
+    ruby 2.7.0dev (2019-07-19T03:53:47Z trunk dd0e33f083) [x86_64-linux]
+    last_commit=Split assertions to check which one fails.
+  dd0e33f083 --jit: |-
+    ruby 2.7.0dev (2019-07-19T03:53:47Z trunk dd0e33f083) +JIT [x86_64-linux]
+    last_commit=Split assertions to check which one fails.
+  e14f5762c5: |-
+    ruby 2.7.0dev (2019-07-19T03:55:34Z trunk e14f5762c5) [x86_64-linux]
+    last_commit=Add assertions to `coroutine_initialize_main`.
+  e14f5762c5 --jit: |-
+    ruby 2.7.0dev (2019-07-19T03:55:34Z trunk e14f5762c5) +JIT [x86_64-linux]
+    last_commit=Add assertions to `coroutine_initialize_main`.

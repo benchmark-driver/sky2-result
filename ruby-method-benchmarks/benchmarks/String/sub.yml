@@ -786,6 +786,8 @@ results:
     1f7cb4bee9: 3351681.312
     f7aa80b3fe: 3396849.449
     35b7e8eed8: 3145479.306
+    2a56702eee: 3410231.755
+    6df1814c08: 3338898.207
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1571,6 +1573,8 @@ results:
     1f7cb4bee9: 3372346.33
     f7aa80b3fe: 3349656.52
     35b7e8eed8: 3163691.287
+    2a56702eee: 3189238.664
+    6df1814c08: 3060724.152
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2356,6 +2360,8 @@ results:
     1f7cb4bee9: 1816696.427
     f7aa80b3fe: 1852747.547
     35b7e8eed8: 1864206.714
+    2a56702eee: 1804986.377
+    6df1814c08: 1615705.304
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -3141,6 +3147,8 @@ results:
     1f7cb4bee9: 2509089.509
     f7aa80b3fe: 2763761.363
     35b7e8eed8: 2745777.128
+    2a56702eee: 2739900.065
+    6df1814c08: 2553388.493
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -3926,6 +3934,8 @@ results:
     1f7cb4bee9: 3708543.673
     f7aa80b3fe: 3669332.974
     35b7e8eed8: 3700700.656
+    2a56702eee: 3613857.306
+    6df1814c08: 3671021.058
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -4711,6 +4721,8 @@ results:
     1f7cb4bee9: 3317376.958
     f7aa80b3fe: 3620129.485
     35b7e8eed8: 3626925.482
+    2a56702eee: 3628936.704
+    6df1814c08: 3612896.327
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -5496,6 +5508,8 @@ results:
     1f7cb4bee9: 1997653.334
     f7aa80b3fe: 1973829.096
     35b7e8eed8: 1878041.056
+    2a56702eee: 1961044.931
+    6df1814c08: 1913953.379
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -6281,3 +6295,5 @@ results:
     1f7cb4bee9: 2934254.128
     f7aa80b3fe: 2767576.278
     35b7e8eed8: 2937310.01
+    2a56702eee: 2914544.449
+    6df1814c08: 2590190.84
