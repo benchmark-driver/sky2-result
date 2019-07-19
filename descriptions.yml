@@ -5977,3 +5977,81 @@ commits:
   d40d8b3caf --jit: |-
     ruby 2.7.0dev (2019-07-18T13:59:44Z trunk d40d8b3caf) +JIT [x86_64-linux]
     last_commit=check saved_ec.cfp
+  a027c4b5b0: |-
+    ruby 2.7.0dev (2019-07-18T21:23:19Z trunk a027c4b5b0) [x86_64-linux]
+    last_commit=Use Qnull instead of 0 and Qundef
+  a027c4b5b0 --jit: |-
+    ruby 2.7.0dev (2019-07-18T21:23:19Z trunk a027c4b5b0) +JIT [x86_64-linux]
+    last_commit=Use Qnull instead of 0 and Qundef
+  a036a8a038: |-
+    ruby 2.7.0dev (2019-07-18T21:35:15Z trunk a036a8a038) [x86_64-linux]
+    last_commit=Adjust styles and indents
+  a036a8a038 --jit: |-
+    ruby 2.7.0dev (2019-07-18T21:35:15Z trunk a036a8a038) +JIT [x86_64-linux]
+    last_commit=Adjust styles and indents
+  d4c4029597: |-
+    ruby 2.7.0dev (2019-07-18T21:40:24Z trunk d4c4029597) [x86_64-linux]
+    last_commit=* 2019-07-19
+  d4c4029597 --jit: |-
+    ruby 2.7.0dev (2019-07-18T21:40:24Z trunk d4c4029597) +JIT [x86_64-linux]
+    last_commit=* 2019-07-19
+  18bce998dd: |-
+    ruby 2.7.0dev (2019-07-18T22:50:32Z trunk 18bce998dd) [x86_64-linux]
+    last_commit=Fixed build error with RIPPER_DEBUG
+  18bce998dd --jit: |-
+    ruby 2.7.0dev (2019-07-18T22:50:32Z trunk 18bce998dd) +JIT [x86_64-linux]
+    last_commit=Fixed build error with RIPPER_DEBUG
+  59d6ce4f4b: |-
+    ruby 2.7.0dev (2019-07-18T22:50:32Z trunk 59d6ce4f4b) [x86_64-linux]
+    last_commit=Moved RIPPER_DEBUG methods to Ripper from Kernel
+  59d6ce4f4b --jit: |-
+    ruby 2.7.0dev (2019-07-18T22:50:32Z trunk 59d6ce4f4b) +JIT [x86_64-linux]
+    last_commit=Moved RIPPER_DEBUG methods to Ripper from Kernel
+  0b826418af: |-
+    ruby 2.7.0dev (2019-07-18T22:51:48Z trunk 0b826418af) [x86_64-linux]
+    last_commit=Update before commit
+  0b826418af --jit: |-
+    ruby 2.7.0dev (2019-07-18T22:51:48Z trunk 0b826418af) +JIT [x86_64-linux]
+    last_commit=Update before commit
+  fd461dea06: |-
+    ruby 2.7.0dev (2019-07-18T22:57:17Z trunk fd461dea06) [x86_64-linux]
+    last_commit=Ripper#validate_object: check if the object is hidden
+  fd461dea06 --jit: |-
+    ruby 2.7.0dev (2019-07-18T22:57:17Z trunk fd461dea06) +JIT [x86_64-linux]
+    last_commit=Ripper#validate_object: check if the object is hidden
+  9dda0a03cc: |-
+    ruby 2.7.0dev (2019-07-18T23:10:01Z trunk 9dda0a03cc) [x86_64-linux]
+    last_commit=Remove `rb_vm_push_frame` as it is no longer used.
+  9dda0a03cc --jit: |-
+    ruby 2.7.0dev (2019-07-18T23:10:01Z trunk 9dda0a03cc) +JIT [x86_64-linux]
+    last_commit=Remove `rb_vm_push_frame` as it is no longer used.
+  d7fdf45a4a: |-
+    ruby 2.7.0dev (2019-07-18T23:10:01Z trunk d7fdf45a4a) [x86_64-linux]
+    last_commit=Ensure cfp is initialized to NULL.
+  d7fdf45a4a --jit: |-
+    ruby 2.7.0dev (2019-07-18T23:10:01Z trunk d7fdf45a4a) +JIT [x86_64-linux]
+    last_commit=Ensure cfp is initialized to NULL.
+  c8ee44f44c: |-
+    ruby 2.7.0dev (2019-07-18T23:23:41Z trunk c8ee44f44c) [x86_64-linux]
+    last_commit=Fix showing doc of "nil.to_s", nil doesn't have #name
+  c8ee44f44c --jit: |-
+    ruby 2.7.0dev (2019-07-18T23:23:41Z trunk c8ee44f44c) +JIT [x86_64-linux]
+    last_commit=Fix showing doc of "nil.to_s", nil doesn't have #name
+  8ca32020b0: |-
+    ruby 2.7.0dev (2019-07-18T23:32:40Z trunk 8ca32020b0) [x86_64-linux]
+    last_commit=Revert "Ensure cfp is initialized to NULL."
+  8ca32020b0 --jit: |-
+    ruby 2.7.0dev (2019-07-18T23:32:40Z trunk 8ca32020b0) +JIT [x86_64-linux]
+    last_commit=Revert "Ensure cfp is initialized to NULL."
+  4ec5b39ce8: |-
+    ruby 2.7.0dev (2019-07-18T23:53:19Z trunk 4ec5b39ce8) [x86_64-linux]
+    last_commit=initialize only Fiber's cfp.
+  4ec5b39ce8 --jit: |-
+    ruby 2.7.0dev (2019-07-18T23:53:19Z trunk 4ec5b39ce8) +JIT [x86_64-linux]
+    last_commit=initialize only Fiber's cfp.
+  e644e2de85: |-
+    ruby 2.7.0dev (2019-07-19T00:01:53Z trunk e644e2de85) [x86_64-linux]
+    last_commit=Remove doc/etc.rd.ja [ci skip]
+  e644e2de85 --jit: |-
+    ruby 2.7.0dev (2019-07-19T00:01:53Z trunk e644e2de85) +JIT [x86_64-linux]
+    last_commit=Remove doc/etc.rd.ja [ci skip]
