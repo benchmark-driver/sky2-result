@@ -9,54 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  797d7efde1: |-
-    ruby 2.7.0dev (2019-05-29 trunk 797d7efde1) [x86_64-linux]
-    last_commit=Prevent MJIT compilation from running while moving
-  797d7efde1 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 797d7efde1) +JIT [x86_64-linux]
-    last_commit=Prevent MJIT compilation from running while moving
-  98ba116d40: |-
-    ruby 2.7.0dev (2019-05-29 trunk 98ba116d40) [x86_64-linux]
-    last_commit=Revert 3b7862c8e88cd7838a53ec083ac5733386400956 causing various CI hangs
-  98ba116d40 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 98ba116d40) +JIT [x86_64-linux]
-    last_commit=Revert 3b7862c8e88cd7838a53ec083ac5733386400956 causing various CI hangs
-  f60a59ed20: |-
-    ruby 2.7.0dev (2019-05-29 trunk f60a59ed20) [x86_64-linux]
-    last_commit=appveyor.yml - update for msys2  - pdcurses, force toolchain
-  f60a59ed20 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk f60a59ed20) +JIT [x86_64-linux]
-    last_commit=appveyor.yml - update for msys2  - pdcurses, force toolchain
-  c86d1fbed5: |-
-    ruby 2.7.0dev (2019-05-29 trunk c86d1fbed5) [x86_64-linux]
-    last_commit=Create empty revision.tmp if no BASERUBY
-  c86d1fbed5 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk c86d1fbed5) +JIT [x86_64-linux]
-    last_commit=Create empty revision.tmp if no BASERUBY
-  3f13297923: |-
-    ruby 2.7.0dev (2019-05-29 trunk 3f13297923) [x86_64-linux]
-    last_commit=Remove extra items because Reline::HISTORY is a sized queue
-  3f13297923 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 3f13297923) +JIT [x86_64-linux]
-    last_commit=Remove extra items because Reline::HISTORY is a sized queue
-  34fe1f7d71: |-
-    ruby 2.7.0dev (2019-05-29 trunk 34fe1f7d71) [x86_64-linux]
-    last_commit=Create empty revision.tmp if BASERUBY is not yes
-  34fe1f7d71 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 34fe1f7d71) +JIT [x86_64-linux]
-    last_commit=Create empty revision.tmp if BASERUBY is not yes
-  c7f3c222c9: |-
-    ruby 2.7.0dev (2019-05-29 trunk c7f3c222c9) [x86_64-linux]
-    last_commit=Colorize error part more
-  c7f3c222c9 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk c7f3c222c9) +JIT [x86_64-linux]
-    last_commit=Colorize error part more
-  8187ffa461: |-
-    ruby 2.7.0dev (2019-05-29 trunk 8187ffa461) [x86_64-linux]
-    last_commit=Revert "Colorize error part more"
-  8187ffa461 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 8187ffa461) +JIT [x86_64-linux]
-    last_commit=Revert "Colorize error part more"
   e04d10b28f: |-
     ruby 2.7.0dev (2019-05-29 trunk e04d10b28f) [x86_64-linux]
     last_commit=test/rubygems/test_gem_stream_ui.rb (test_ask_for_password): extend the timeout
