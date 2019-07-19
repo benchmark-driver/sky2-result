@@ -5995,3 +5995,27 @@ commits:
   ae750799c1 --jit: |-
     ruby 2.7.0dev (2019-07-19T05:41:36Z trunk ae750799c1) +JIT [x86_64-linux]
     last_commit=Use FL_TEST_RAW() to check flags.
+  fba3e76e3f: |-
+    ruby 2.7.0dev (2019-07-19T07:24:14Z trunk fba3e76e3f) [x86_64-linux]
+    last_commit=fix debug counter for Hash counts.
+  fba3e76e3f --jit: |-
+    ruby 2.7.0dev (2019-07-19T07:24:14Z trunk fba3e76e3f) +JIT [x86_64-linux]
+    last_commit=fix debug counter for Hash counts.
+  e004afd46d: |-
+    ruby 2.7.0dev (2019-07-19T07:42:09Z trunk e004afd46d) [x86_64-linux]
+    last_commit=Ensure that madvise does not clobber vacancy data.
+  e004afd46d --jit: |-
+    ruby 2.7.0dev (2019-07-19T07:42:09Z trunk e004afd46d) +JIT [x86_64-linux]
+    last_commit=Ensure that madvise does not clobber vacancy data.
+  517f7f9b57: |-
+    ruby 2.7.0dev (2019-07-19T08:09:03Z trunk 517f7f9b57) [x86_64-linux]
+    last_commit=Fix 32-bit build and typo.
+  517f7f9b57 --jit: |-
+    ruby 2.7.0dev (2019-07-19T08:09:03Z trunk 517f7f9b57) +JIT [x86_64-linux]
+    last_commit=Fix 32-bit build and typo.
+  0a7093a8e9: |-
+    ruby 2.7.0dev (2019-07-19T08:18:42Z trunk 0a7093a8e9) [x86_64-linux]
+    last_commit=Add documentation to `fiber_pool_allocate_memory`.
+  0a7093a8e9 --jit: |-
+    ruby 2.7.0dev (2019-07-19T08:18:42Z trunk 0a7093a8e9) +JIT [x86_64-linux]
+    last_commit=Add documentation to `fiber_pool_allocate_memory`.
