@@ -9,54 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  7c0639f3f8: |-
-    ruby 2.7.0dev (2019-05-29 trunk 7c0639f3f8) [x86_64-linux]
-    last_commit=Never make a method call from MJIT worker
-  7c0639f3f8 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 7c0639f3f8) +JIT [x86_64-linux]
-    last_commit=Never make a method call from MJIT worker
-  5ceff480c2: |-
-    ruby 2.7.0dev (2019-05-29 trunk 5ceff480c2) [x86_64-linux]
-    last_commit=ripper: Ripper::Lexer#scan
-  5ceff480c2 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 5ceff480c2) +JIT [x86_64-linux]
-    last_commit=ripper: Ripper::Lexer#scan
-  fafcbe0eb0: |-
-    ruby 2.7.0dev (2019-05-29 trunk fafcbe0eb0) [x86_64-linux]
-    last_commit=Use reversed get_screen_size correctly on Windows
-  fafcbe0eb0 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk fafcbe0eb0) +JIT [x86_64-linux]
-    last_commit=Use reversed get_screen_size correctly on Windows
-  ab7a6e1a16: |-
-    ruby 2.7.0dev (2019-05-29 trunk ab7a6e1a16) [x86_64-linux]
-    last_commit=Use "require" just for essential
-  ab7a6e1a16 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk ab7a6e1a16) +JIT [x86_64-linux]
-    last_commit=Use "require" just for essential
-  83e905eb4e: |-
-    ruby 2.7.0dev (2019-05-29 trunk 83e905eb4e) [x86_64-linux]
-    last_commit=Revert "Use "require" just for essential"
-  83e905eb4e --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 83e905eb4e) +JIT [x86_64-linux]
-    last_commit=Revert "Use "require" just for essential"
-  1da5c73932: |-
-    ruby 2.7.0dev (2019-05-29 trunk 1da5c73932) [x86_64-linux]
-    last_commit=parse.y: fix state after ivar/cvar
-  1da5c73932 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 1da5c73932) +JIT [x86_64-linux]
-    last_commit=parse.y: fix state after ivar/cvar
-  12644e8b02: |-
-    ruby 2.7.0dev (2019-05-29 trunk 12644e8b02) [x86_64-linux]
-    last_commit=Get rid of nested string interpolations
-  12644e8b02 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 12644e8b02) +JIT [x86_64-linux]
-    last_commit=Get rid of nested string interpolations
-  5b64d7ac6e: |-
-    ruby 2.7.0dev (2019-05-29 trunk 5b64d7ac6e) [x86_64-linux]
-    last_commit=Colorize errors more
-  5b64d7ac6e --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 5b64d7ac6e) +JIT [x86_64-linux]
-    last_commit=Colorize errors more
   814eaa25e2: |-
     ruby 2.7.0dev (2019-05-29 trunk 814eaa25e2) [x86_64-linux]
     last_commit=Do not use rb_iseq_path() while moving ISeq pointers
@@ -6013,3 +5965,9 @@ commits:
   e7b5b9144a --jit: |-
     ruby 2.7.0dev (2019-07-20T06:45:34Z trunk e7b5b9144a) +JIT [x86_64-linux]
     last_commit=--debug was not functional either
+  c584dd8460: |-
+    ruby 2.7.0dev (2019-07-20T07:44:49Z trunk c584dd8460) [x86_64-linux]
+    last_commit=Move travis coroutine check to cron only.
+  c584dd8460 --jit: |-
+    ruby 2.7.0dev (2019-07-20T07:44:49Z trunk c584dd8460) +JIT [x86_64-linux]
+    last_commit=Move travis coroutine check to cron only.
