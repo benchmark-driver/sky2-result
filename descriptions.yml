@@ -9,60 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  e04d10b28f: |-
-    ruby 2.7.0dev (2019-05-29 trunk e04d10b28f) [x86_64-linux]
-    last_commit=test/rubygems/test_gem_stream_ui.rb (test_ask_for_password): extend the timeout
-  e04d10b28f --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk e04d10b28f) +JIT [x86_64-linux]
-    last_commit=test/rubygems/test_gem_stream_ui.rb (test_ask_for_password): extend the timeout
-  aee36bf149: |-
-    ruby 2.7.0dev (2019-05-29 trunk aee36bf149) [x86_64-linux]
-    last_commit=Fix Possible Control flow issues (DEADCODE)
-  aee36bf149 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk aee36bf149) +JIT [x86_64-linux]
-    last_commit=Fix Possible Control flow issues (DEADCODE)
-  8552e9d696: |-
-    ruby 2.7.0dev (2019-05-29 trunk 8552e9d696) [x86_64-linux]
-    last_commit=Fix shorten-64-to-32 warning
-  8552e9d696 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 8552e9d696) +JIT [x86_64-linux]
-    last_commit=Fix shorten-64-to-32 warning
-  cc66272e50: |-
-    ruby 2.7.0dev (2019-05-29 trunk cc66272e50) [x86_64-linux]
-    last_commit=parse.y: flush invalid char
-  cc66272e50 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk cc66272e50) +JIT [x86_64-linux]
-    last_commit=parse.y: flush invalid char
-  '068d327595': |-
-    ruby 2.7.0dev (2019-05-29 trunk 068d327595) [x86_64-linux]
-    last_commit=Colorize compile_error as same as on_parse_error
-  '068d327595 --jit': |-
-    ruby 2.7.0dev (2019-05-29 trunk 068d327595) +JIT [x86_64-linux]
-    last_commit=Colorize compile_error as same as on_parse_error
-  5379ca9250: |-
-    ruby 2.7.0dev (2019-05-29 trunk 5379ca9250) [x86_64-linux]
-    last_commit=Skip spec broken since a66bc2c01194a9c017c874a30db5b3b6bd95e966
-  5379ca9250 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 5379ca9250) +JIT [x86_64-linux]
-    last_commit=Skip spec broken since a66bc2c01194a9c017c874a30db5b3b6bd95e966
-  1a0c3d8dd6: |-
-    ruby 2.7.0dev (2019-05-29 trunk 1a0c3d8dd6) [x86_64-linux]
-    last_commit=Convert Enumerator to Array for Ruby 1.9.3
-  1a0c3d8dd6 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 1a0c3d8dd6) +JIT [x86_64-linux]
-    last_commit=Convert Enumerator to Array for Ruby 1.9.3
-  468b475e61: |-
-    ruby 2.7.0dev (2019-05-29 trunk 468b475e61) [x86_64-linux]
-    last_commit=.travis.yml: Minor reorder for shortening
-  468b475e61 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk 468b475e61) +JIT [x86_64-linux]
-    last_commit=.travis.yml: Minor reorder for shortening
-  ce7b1132c5: |-
-    ruby 2.7.0dev (2019-05-29 trunk ce7b1132c5) [x86_64-linux]
-    last_commit=Do not call FIX2INT while GC.compact may be running
-  ce7b1132c5 --jit: |-
-    ruby 2.7.0dev (2019-05-29 trunk ce7b1132c5) +JIT [x86_64-linux]
-    last_commit=Do not call FIX2INT while GC.compact may be running
   7c0639f3f8: |-
     ruby 2.7.0dev (2019-05-29 trunk 7c0639f3f8) [x86_64-linux]
     last_commit=Never make a method call from MJIT worker
@@ -5983,3 +5929,45 @@ commits:
   0a16ff9f83 --jit: |-
     ruby 2.7.0dev (2019-07-19T14:50:30Z trunk 0a16ff9f83) +JIT [x86_64-linux]
     last_commit=array.c: use assert in macro instead of in a function
+  de18328192: |-
+    ruby 2.7.0dev (2019-07-19T17:53:47Z trunk de18328192) [x86_64-linux]
+    last_commit=Some keywords, "true", "false", and "nil" should be treated as a variable
+  de18328192 --jit: |-
+    ruby 2.7.0dev (2019-07-19T17:53:47Z trunk de18328192) +JIT [x86_64-linux]
+    last_commit=Some keywords, "true", "false", and "nil" should be treated as a variable
+  57b7bfad9e: |-
+    ruby 2.7.0dev (2019-07-19T17:54:41Z trunk 57b7bfad9e) [x86_64-linux]
+    last_commit=* 2019-07-20
+  57b7bfad9e --jit: |-
+    ruby 2.7.0dev (2019-07-19T17:54:41Z trunk 57b7bfad9e) +JIT [x86_64-linux]
+    last_commit=* 2019-07-20
+  71d21f3c75: |-
+    ruby 2.7.0dev (2019-07-19T18:38:42Z trunk 71d21f3c75) [x86_64-linux]
+    last_commit=Document required keyword argument syntax [ci skip]
+  71d21f3c75 --jit: |-
+    ruby 2.7.0dev (2019-07-19T18:38:42Z trunk 71d21f3c75) +JIT [x86_64-linux]
+    last_commit=Document required keyword argument syntax [ci skip]
+  bf2f84b2ff: |-
+    ruby 2.7.0dev (2019-07-19T18:38:49Z trunk bf2f84b2ff) [x86_64-linux]
+    last_commit=Document evaluation order of arguments [ci skip]
+  bf2f84b2ff --jit: |-
+    ruby 2.7.0dev (2019-07-19T18:38:49Z trunk bf2f84b2ff) +JIT [x86_64-linux]
+    last_commit=Document evaluation order of arguments [ci skip]
+  7e2677675d: |-
+    ruby 2.7.0dev (2019-07-19T18:38:49Z trunk 7e2677675d) [x86_64-linux]
+    last_commit=Remove mention of Proc.new with implicit block [ci skip]
+  7e2677675d --jit: |-
+    ruby 2.7.0dev (2019-07-19T18:38:49Z trunk 7e2677675d) +JIT [x86_64-linux]
+    last_commit=Remove mention of Proc.new with implicit block [ci skip]
+  ceeb1535dd: |-
+    ruby 2.7.0dev (2019-07-19T18:38:49Z trunk ceeb1535dd) [x86_64-linux]
+    last_commit=Remove section on performance advantage of not using a block parameter [ci skip]
+  ceeb1535dd --jit: |-
+    ruby 2.7.0dev (2019-07-19T18:38:49Z trunk ceeb1535dd) +JIT [x86_64-linux]
+    last_commit=Remove section on performance advantage of not using a block parameter [ci skip]
+  c945d115a5: |-
+    ruby 2.7.0dev (2019-07-19T18:39:05Z trunk c945d115a5) [x86_64-linux]
+    last_commit=Document use of ensure and else at method level [ci skip]
+  c945d115a5 --jit: |-
+    ruby 2.7.0dev (2019-07-19T18:39:05Z trunk c945d115a5) +JIT [x86_64-linux]
+    last_commit=Document use of ensure and else at method level [ci skip]
