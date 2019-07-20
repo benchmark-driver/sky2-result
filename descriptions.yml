@@ -5983,3 +5983,33 @@ commits:
   77bb79b8cf --jit: |-
     ruby 2.7.0dev (2019-07-20T00:08:34Z trunk 77bb79b8cf) +JIT [x86_64-linux]
     last_commit=array.c: factor out a complex condition of assert
+  8a38eff2bd: |-
+    ruby 2.7.0dev (2019-07-20T06:13:03Z trunk 8a38eff2bd) [x86_64-linux]
+    last_commit=Upgrade benchmark-driver.gem version
+  8a38eff2bd --jit: |-
+    ruby 2.7.0dev (2019-07-20T06:13:03Z trunk 8a38eff2bd) +JIT [x86_64-linux]
+    last_commit=Upgrade benchmark-driver.gem version
+  56b957e88a: |-
+    ruby 2.7.0dev (2019-07-20T06:27:58Z trunk 56b957e88a) [x86_64-linux]
+    last_commit=Upgrade benchmark-driver.gem again
+  56b957e88a --jit: |-
+    ruby 2.7.0dev (2019-07-20T06:27:58Z trunk 56b957e88a) +JIT [x86_64-linux]
+    last_commit=Upgrade benchmark-driver.gem again
+  1392b821b9: |-
+    ruby 2.7.0dev (2019-07-20T06:33:55Z trunk 1392b821b9) [x86_64-linux]
+    last_commit=Explain what's benchmark/lib/load.rb [ci skip]
+  1392b821b9 --jit: |-
+    ruby 2.7.0dev (2019-07-20T06:33:55Z trunk 1392b821b9) +JIT [x86_64-linux]
+    last_commit=Explain what's benchmark/lib/load.rb [ci skip]
+  81fc3becc7: |-
+    ruby 2.7.0dev (2019-07-20T06:43:42Z trunk 81fc3becc7) [x86_64-linux]
+    last_commit=file.c: add a NORETURN declaration for statx_notimplement
+  81fc3becc7 --jit: |-
+    ruby 2.7.0dev (2019-07-20T06:43:42Z trunk 81fc3becc7) +JIT [x86_64-linux]
+    last_commit=file.c: add a NORETURN declaration for statx_notimplement
+  e7b5b9144a: |-
+    ruby 2.7.0dev (2019-07-20T06:45:34Z trunk e7b5b9144a) [x86_64-linux]
+    last_commit=--debug was not functional either
+  e7b5b9144a --jit: |-
+    ruby 2.7.0dev (2019-07-20T06:45:34Z trunk e7b5b9144a) +JIT [x86_64-linux]
+    last_commit=--debug was not functional either
