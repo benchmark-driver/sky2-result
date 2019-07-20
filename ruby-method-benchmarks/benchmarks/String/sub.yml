@@ -797,6 +797,8 @@ results:
     2240de98c0: 3421284.243
     ba94404f70: 3417313.34
     5d9e91afe0: 3393427.097
+    bbe157f340: 3377439.364
+    364f43ab7f: 3415255.903
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1593,6 +1595,8 @@ results:
     2240de98c0: 3347146.287
     ba94404f70: 3387053.909
     5d9e91afe0: 3370649.78
+    bbe157f340: 3373033.073
+    364f43ab7f: 3010494.2
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2389,6 +2393,8 @@ results:
     2240de98c0: 1795331.338
     ba94404f70: 1700388.516
     5d9e91afe0: 1851909.344
+    bbe157f340: 1545878.401
+    364f43ab7f: 1774506.946
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -3185,6 +3191,8 @@ results:
     2240de98c0: 2752265.799
     ba94404f70: 2750277.075
     5d9e91afe0: 2733819.936
+    bbe157f340: 2662521.138
+    364f43ab7f: 2690342.828
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -3981,6 +3989,8 @@ results:
     2240de98c0: 3020778.51
     ba94404f70: 3680856.075
     5d9e91afe0: 3622853.111
+    bbe157f340: 3699033.96
+    364f43ab7f: 3737973.404
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -4777,6 +4787,8 @@ results:
     2240de98c0: 3634546.72
     ba94404f70: 3639851.5
     5d9e91afe0: 3628984.167
+    bbe157f340: 3671333.443
+    364f43ab7f: 3648126.998
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -5573,6 +5585,8 @@ results:
     2240de98c0: 1971330.154
     ba94404f70: 1963832.122
     5d9e91afe0: 1908976.515
+    bbe157f340: 1914375.419
+    364f43ab7f: 1989519.71
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -6369,3 +6383,5 @@ results:
     2240de98c0: 2845598.367
     ba94404f70: 2933347.619
     5d9e91afe0: 2920806.003
+    bbe157f340: 2946699.563
+    364f43ab7f: 2447334.685

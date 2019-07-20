@@ -5971,3 +5971,15 @@ commits:
   c945d115a5 --jit: |-
     ruby 2.7.0dev (2019-07-19T18:39:05Z trunk c945d115a5) +JIT [x86_64-linux]
     last_commit=Document use of ensure and else at method level [ci skip]
+  d304f77c58: |-
+    ruby 2.7.0dev (2019-07-19T22:12:50Z trunk d304f77c58) [x86_64-linux]
+    last_commit=Only disable GC around reference updating
+  d304f77c58 --jit: |-
+    ruby 2.7.0dev (2019-07-19T22:12:50Z trunk d304f77c58) +JIT [x86_64-linux]
+    last_commit=Only disable GC around reference updating
+  77bb79b8cf: |-
+    ruby 2.7.0dev (2019-07-20T00:08:34Z trunk 77bb79b8cf) [x86_64-linux]
+    last_commit=array.c: factor out a complex condition of assert
+  77bb79b8cf --jit: |-
+    ruby 2.7.0dev (2019-07-20T00:08:34Z trunk 77bb79b8cf) +JIT [x86_64-linux]
+    last_commit=array.c: factor out a complex condition of assert
