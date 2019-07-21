@@ -5989,3 +5989,9 @@ commits:
   24712eeec3 --jit: |-
     ruby 2.7.0dev (2019-07-21T10:19:08Z trunk 24712eeec3) +JIT [x86_64-linux]
     last_commit=tool/test/runner.rb: support --test-target-dir option
+  '08ea924043': |-
+    ruby 2.7.0dev (2019-07-21T13:30:15Z trunk 08ea924043) [x86_64-linux]
+    last_commit=common.mk: `make check` now includes `make test-tool`
+  '08ea924043 --jit': |-
+    ruby 2.7.0dev (2019-07-21T13:30:15Z trunk 08ea924043) +JIT [x86_64-linux]
+    last_commit=common.mk: `make check` now includes `make test-tool`
