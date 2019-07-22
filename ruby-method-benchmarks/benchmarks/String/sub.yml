@@ -825,6 +825,8 @@ results:
     '0174285e8c': 3296010.639
     c8e1be6f1f: 3365671.625
     7ac7685fa7: 3393812.211
+    cd7b99bbfc: 3404899.752
+    357f295a0e: 3388280.639
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1649,6 +1651,8 @@ results:
     '0174285e8c': 3224279.957
     c8e1be6f1f: 3329536.906
     7ac7685fa7: 3323050.285
+    cd7b99bbfc: 3356033.717
+    357f295a0e: 3353327.657
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2473,6 +2477,8 @@ results:
     '0174285e8c': 1752438.282
     c8e1be6f1f: 1848429.612
     7ac7685fa7: 1905197.719
+    cd7b99bbfc: 1864583.605
+    357f295a0e: 1888846.246
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -3297,6 +3303,8 @@ results:
     '0174285e8c': 2734589.932
     c8e1be6f1f: 2752930.929
     7ac7685fa7: 2749817.101
+    cd7b99bbfc: 2720213.709
+    357f295a0e: 2712330.739
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -4121,6 +4129,8 @@ results:
     '0174285e8c': 3596098.869
     c8e1be6f1f: 3659121.851
     7ac7685fa7: 3707872.692
+    cd7b99bbfc: 3707376.975
+    357f295a0e: 3661003.057
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -4945,6 +4955,8 @@ results:
     '0174285e8c': 3334442.319
     c8e1be6f1f: 3599302.257
     7ac7685fa7: 3415564.616
+    cd7b99bbfc: 3670613.638
+    357f295a0e: 3616541.069
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -5769,6 +5781,8 @@ results:
     '0174285e8c': 1924576.663
     c8e1be6f1f: 1949975.859
     7ac7685fa7: 1938306.807
+    cd7b99bbfc: 1971548.604
+    357f295a0e: 1692345.275
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -6593,3 +6607,5 @@ results:
     '0174285e8c': 2828330.138
     c8e1be6f1f: 2956130.767
     7ac7685fa7: 2943819.156
+    cd7b99bbfc: 2908411.283
+    357f295a0e: 2910378.403
