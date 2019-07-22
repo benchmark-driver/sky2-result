@@ -827,6 +827,8 @@ results:
     7ac7685fa7: 3393812.211
     cd7b99bbfc: 3404899.752
     357f295a0e: 3388280.639
+    32f0135144: 3345373.195
+    d7fdf45a4a: 3119489.102
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1653,6 +1655,8 @@ results:
     7ac7685fa7: 3323050.285
     cd7b99bbfc: 3356033.717
     357f295a0e: 3353327.657
+    32f0135144: 3330899.802
+    d7fdf45a4a: 2977550.941
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2479,6 +2483,8 @@ results:
     7ac7685fa7: 1905197.719
     cd7b99bbfc: 1864583.605
     357f295a0e: 1888846.246
+    32f0135144: 1856638.585
+    d7fdf45a4a: 1864150.101
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -3305,6 +3311,8 @@ results:
     7ac7685fa7: 2749817.101
     cd7b99bbfc: 2720213.709
     357f295a0e: 2712330.739
+    32f0135144: 2646204.857
+    d7fdf45a4a: 2790046.095
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -4131,6 +4139,8 @@ results:
     7ac7685fa7: 3707872.692
     cd7b99bbfc: 3707376.975
     357f295a0e: 3661003.057
+    32f0135144: 3669115.039
+    d7fdf45a4a: 3674184.443
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -4957,6 +4967,8 @@ results:
     7ac7685fa7: 3415564.616
     cd7b99bbfc: 3670613.638
     357f295a0e: 3616541.069
+    32f0135144: 3622214.545
+    d7fdf45a4a: 3666414.208
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -5783,6 +5795,8 @@ results:
     7ac7685fa7: 1938306.807
     cd7b99bbfc: 1971548.604
     357f295a0e: 1692345.275
+    32f0135144: 1981735.128
+    d7fdf45a4a: 1997478.935
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -6609,3 +6623,5 @@ results:
     7ac7685fa7: 2943819.156
     cd7b99bbfc: 2908411.283
     357f295a0e: 2910378.403
+    32f0135144: 2893982.162
+    d7fdf45a4a: 2628283.125
