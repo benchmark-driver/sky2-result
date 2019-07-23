@@ -5971,3 +5971,51 @@ commits:
   '03958a0c0d --jit': |-
     ruby 2.7.0dev (2019-07-23T09:22:25Z trunk 03958a0c0d) +JIT [x86_64-linux]
     last_commit=Relaxed target_os matching
+  676df311d9: |-
+    ruby 2.7.0dev (2019-07-23T13:46:03Z trunk 676df311d9) [x86_64-linux]
+    last_commit=Reset mtime of all files on osx
+  676df311d9 --jit: |-
+    ruby 2.7.0dev (2019-07-23T13:46:03Z trunk 676df311d9) +JIT [x86_64-linux]
+    last_commit=Reset mtime of all files on osx
+  b6f07f748a: |-
+    ruby 2.7.0dev (2019-07-23T14:17:21Z trunk b6f07f748a) [x86_64-linux]
+    last_commit=Document that non-blocking mode isn't always supported on Windows [ci skip]
+  b6f07f748a --jit: |-
+    ruby 2.7.0dev (2019-07-23T14:17:21Z trunk b6f07f748a) +JIT [x86_64-linux]
+    last_commit=Document that non-blocking mode isn't always supported on Windows [ci skip]
+  325f7b6008: |-
+    ruby 2.7.0dev (2019-07-23T14:57:38Z trunk 325f7b6008) [x86_64-linux]
+    last_commit=Make pkg_config in mkmf include -I cflags in return value
+  325f7b6008 --jit: |-
+    ruby 2.7.0dev (2019-07-23T14:57:38Z trunk 325f7b6008) +JIT [x86_64-linux]
+    last_commit=Make pkg_config in mkmf include -I cflags in return value
+  c9826c20d2: |-
+    ruby 2.7.0dev (2019-07-23T15:26:28Z trunk c9826c20d2) [x86_64-linux]
+    last_commit=Show the caller's location
+  c9826c20d2 --jit: |-
+    ruby 2.7.0dev (2019-07-23T15:26:28Z trunk c9826c20d2) +JIT [x86_64-linux]
+    last_commit=Show the caller's location
+  f295e23e54: |-
+    ruby 2.7.0dev (2019-07-23T15:32:43Z trunk f295e23e54) [x86_64-linux]
+    last_commit=* 2019-07-24
+  f295e23e54 --jit: |-
+    ruby 2.7.0dev (2019-07-23T15:32:43Z trunk f295e23e54) +JIT [x86_64-linux]
+    last_commit=* 2019-07-24
+  afea8db8c7: |-
+    ruby 2.7.0dev (2019-07-23T16:42:45Z trunk afea8db8c7) [x86_64-linux]
+    last_commit=Test invalid offset warnings
+  afea8db8c7 --jit: |-
+    ruby 2.7.0dev (2019-07-23T16:42:45Z trunk afea8db8c7) +JIT [x86_64-linux]
+    last_commit=Test invalid offset warnings
+  11662c70b0: |-
+    ruby 2.7.0dev (2019-07-23T16:42:45Z trunk 11662c70b0) [x86_64-linux]
+    last_commit=Test missing Content-Type warnings
+  11662c70b0 --jit: |-
+    ruby 2.7.0dev (2019-07-23T16:42:45Z trunk 11662c70b0) +JIT [x86_64-linux]
+    last_commit=Test missing Content-Type warnings
+  9aba971e42: |-
+    ruby 2.7.0dev (2019-07-23T16:46:09Z trunk 9aba971e42) [x86_64-linux]
+    last_commit=Make Object#singleton_methods work correctly for singleton classes of objects
+  9aba971e42 --jit: |-
+    ruby 2.7.0dev (2019-07-23T16:46:09Z trunk 9aba971e42) +JIT [x86_64-linux]
+    last_commit=Make Object#singleton_methods work correctly for singleton classes of objects
