@@ -5989,3 +5989,51 @@ commits:
   ab087ecb4d --jit: |-
     ruby 2.7.0dev (2019-07-23T04:34:35Z trunk ab087ecb4d) +JIT [x86_64-linux]
     last_commit=Added the upstream repositories to default gems.
+  90c4bd2d2b: |-
+    ruby 2.7.0dev (2019-07-23T07:22:34Z trunk 90c4bd2d2b) [x86_64-linux]
+    last_commit=Let memory sizes of the various IMEMO object types be reflected correctly
+  90c4bd2d2b --jit: |-
+    ruby 2.7.0dev (2019-07-23T07:22:34Z trunk 90c4bd2d2b) +JIT [x86_64-linux]
+    last_commit=Let memory sizes of the various IMEMO object types be reflected correctly
+  33f54da15b: |-
+    ruby 2.7.0dev (2019-07-23T07:22:53Z trunk 33f54da15b) [x86_64-linux]
+    last_commit=Support memsize of AST
+  33f54da15b --jit: |-
+    ruby 2.7.0dev (2019-07-23T07:22:53Z trunk 33f54da15b) +JIT [x86_64-linux]
+    last_commit=Support memsize of AST
+  c25ff7bb5d: |-
+    ruby 2.7.0dev (2019-07-23T07:42:20Z trunk c25ff7bb5d) [x86_64-linux]
+    last_commit=check iseq is executable
+  c25ff7bb5d --jit: |-
+    ruby 2.7.0dev (2019-07-23T07:42:20Z trunk c25ff7bb5d) +JIT [x86_64-linux]
+    last_commit=check iseq is executable
+  6546aed475: |-
+    ruby 2.7.0dev (2019-07-23T07:45:54Z trunk 6546aed475) [x86_64-linux]
+    last_commit=Explicitly initialise encodings on init to remove branches on encoding lookup
+  6546aed475 --jit: |-
+    ruby 2.7.0dev (2019-07-23T07:45:54Z trunk 6546aed475) +JIT [x86_64-linux]
+    last_commit=Explicitly initialise encodings on init to remove branches on encoding lookup
+  '009ec37a47': |-
+    ruby 2.7.0dev (2019-07-23T07:45:54Z trunk 009ec37a47) [x86_64-linux]
+    last_commit=Let the index boundary check in rb_enc_from_index be flagged as unlikely
+  '009ec37a47 --jit': |-
+    ruby 2.7.0dev (2019-07-23T07:45:54Z trunk 009ec37a47) +JIT [x86_64-linux]
+    last_commit=Let the index boundary check in rb_enc_from_index be flagged as unlikely
+  '0338c44bde': |-
+    ruby 2.7.0dev (2019-07-23T08:39:03Z trunk 0338c44bde) [x86_64-linux]
+    last_commit=Retry to update Unicode timestamp
+  '0338c44bde --jit': |-
+    ruby 2.7.0dev (2019-07-23T08:39:03Z trunk 0338c44bde) +JIT [x86_64-linux]
+    last_commit=Retry to update Unicode timestamp
+  e8d4f0cbc7: |-
+    ruby 2.7.0dev (2019-07-23T08:59:43Z trunk e8d4f0cbc7) [x86_64-linux]
+    last_commit=Show seconds and in the modified time order
+  e8d4f0cbc7 --jit: |-
+    ruby 2.7.0dev (2019-07-23T08:59:43Z trunk e8d4f0cbc7) +JIT [x86_64-linux]
+    last_commit=Show seconds and in the modified time order
+  '03958a0c0d': |-
+    ruby 2.7.0dev (2019-07-23T09:22:25Z trunk 03958a0c0d) [x86_64-linux]
+    last_commit=Relaxed target_os matching
+  '03958a0c0d --jit': |-
+    ruby 2.7.0dev (2019-07-23T09:22:25Z trunk 03958a0c0d) +JIT [x86_64-linux]
+    last_commit=Relaxed target_os matching
