@@ -833,6 +833,8 @@ results:
     a0c141b6d0: 3400355.281
     fe03bbaf34: 3414389.654
     1a0b82210c: 3332601.715
+    73fab16e76: 3407421.688
+    b9ef35e4c6: 3310122.651
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1665,6 +1667,8 @@ results:
     a0c141b6d0: 3361762.661
     fe03bbaf34: 3357184.574
     1a0b82210c: 3233278.112
+    73fab16e76: 3383626.634
+    b9ef35e4c6: 3304482.239
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2497,6 +2501,8 @@ results:
     a0c141b6d0: 1783816.981
     fe03bbaf34: 1628222.709
     1a0b82210c: 1856485.924
+    73fab16e76: 1858632.989
+    b9ef35e4c6: 1868996.431
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -3329,6 +3335,8 @@ results:
     a0c141b6d0: 2493865.296
     fe03bbaf34: 2746004.246
     1a0b82210c: 2674483.29
+    73fab16e76: 2757081.722
+    b9ef35e4c6: 2739065.441
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -4161,6 +4169,8 @@ results:
     a0c141b6d0: 3706569.831
     fe03bbaf34: 3136848.94
     1a0b82210c: 3737049.139
+    73fab16e76: 3679967.145
+    b9ef35e4c6: 3601159.626
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -4993,6 +5003,8 @@ results:
     a0c141b6d0: 3645990.038
     fe03bbaf34: 3476843.348
     1a0b82210c: 3641720.192
+    73fab16e76: 3636215.501
+    b9ef35e4c6: 3593338.302
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -5825,6 +5837,8 @@ results:
     a0c141b6d0: 1919126.733
     fe03bbaf34: 1950127.245
     1a0b82210c: 1578765.882
+    73fab16e76: 1987004.7
+    b9ef35e4c6: 1948060.159
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -6657,3 +6671,5 @@ results:
     a0c141b6d0: 2926171.489
     fe03bbaf34: 2919869.532
     1a0b82210c: 2742541.883
+    73fab16e76: 2945533.056
+    b9ef35e4c6: 2897698.804

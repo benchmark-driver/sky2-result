@@ -5971,3 +5971,9 @@ commits:
   '01995df645 --jit': |-
     ruby 2.7.0dev (2019-07-22T22:07:22Z trunk 01995df645) +JIT [x86_64-linux]
     last_commit=Document BasicObject does not implement #object_id and #send [ci skip]
+  44cfabddbe: |-
+    ruby 2.7.0dev (2019-07-23T02:20:08Z trunk 44cfabddbe) [x86_64-linux]
+    last_commit=Removed duplicated entry for racc.
+  44cfabddbe --jit: |-
+    ruby 2.7.0dev (2019-07-23T02:20:08Z trunk 44cfabddbe) +JIT [x86_64-linux]
+    last_commit=Removed duplicated entry for racc.
