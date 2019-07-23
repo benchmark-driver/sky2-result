@@ -9,72 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  5a229b0a88: |-
-    ruby 2.7.0dev (2019-05-30 trunk 5a229b0a88) [x86_64-linux]
-    last_commit=Calculate vertical position correctly when rerendering all lines
-  5a229b0a88 --jit: |-
-    ruby 2.7.0dev (2019-05-30 trunk 5a229b0a88) +JIT [x86_64-linux]
-    last_commit=Calculate vertical position correctly when rerendering all lines
-  55c34b994b: |-
-    ruby 2.7.0dev (2019-05-30 trunk 55c34b994b) [x86_64-linux]
-    last_commit=Check the end token of heredoc correctly
-  55c34b994b --jit: |-
-    ruby 2.7.0dev (2019-05-30 trunk 55c34b994b) +JIT [x86_64-linux]
-    last_commit=Check the end token of heredoc correctly
-  70e87d9660: |-
-    ruby 2.7.0dev (2019-05-30 trunk 70e87d9660) [x86_64-linux]
-    last_commit=Do not rely on IRB.conf[:MAIN_CONTEXT] before initialize
-  70e87d9660 --jit: |-
-    ruby 2.7.0dev (2019-05-30 trunk 70e87d9660) +JIT [x86_64-linux]
-    last_commit=Do not rely on IRB.conf[:MAIN_CONTEXT] before initialize
-  e15de86583: |-
-    ruby 2.7.0dev (2019-05-30 trunk e15de86583) [x86_64-linux]
-    last_commit=introduce `during_compacting` flag.
-  e15de86583 --jit: |-
-    ruby 2.7.0dev (2019-05-30 trunk e15de86583) +JIT [x86_64-linux]
-    last_commit=introduce `during_compacting` flag.
-  dd63d7da61: |-
-    ruby 2.7.0dev (2019-05-30 trunk dd63d7da61) [x86_64-linux]
-    last_commit=move pinned_bits[] position in struct heap_page.
-  dd63d7da61 --jit: |-
-    ruby 2.7.0dev (2019-05-30 trunk dd63d7da61) +JIT [x86_64-linux]
-    last_commit=move pinned_bits[] position in struct heap_page.
-  5fc9f0008f: |-
-    ruby 2.7.0dev (2019-05-30 trunk 5fc9f0008f) [x86_64-linux]
-    last_commit=reorder bitmap clearing.
-  5fc9f0008f --jit: |-
-    ruby 2.7.0dev (2019-05-30 trunk 5fc9f0008f) +JIT [x86_64-linux]
-    last_commit=reorder bitmap clearing.
-  106843d839: |-
-    ruby 2.7.0dev (2019-05-30 trunk 106843d839) [x86_64-linux]
-    last_commit=* expand tabs.
-  106843d839 --jit: |-
-    ruby 2.7.0dev (2019-05-30 trunk 106843d839) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  fcca39fa73: |-
-    ruby 2.7.0dev (2019-05-30 trunk fcca39fa73) [x86_64-linux]
-    last_commit=Fix strange vertical cursor moving when adding a newline at bottom
-  fcca39fa73 --jit: |-
-    ruby 2.7.0dev (2019-05-30 trunk fcca39fa73) +JIT [x86_64-linux]
-    last_commit=Fix strange vertical cursor moving when adding a newline at bottom
-  ecd0f1d966: |-
-    ruby 2.7.0dev (2019-05-30 trunk ecd0f1d966) [x86_64-linux]
-    last_commit=Use negative lookahead and start_with?
-  ecd0f1d966 --jit: |-
-    ruby 2.7.0dev (2019-05-30 trunk ecd0f1d966) +JIT [x86_64-linux]
-    last_commit=Use negative lookahead and start_with?
-  74a0e3ec23: |-
-    ruby 2.7.0dev (2019-05-30 trunk 74a0e3ec23) [x86_64-linux]
-    last_commit=Use start_with? for escaped quote too
-  74a0e3ec23 --jit: |-
-    ruby 2.7.0dev (2019-05-30 trunk 74a0e3ec23) +JIT [x86_64-linux]
-    last_commit=Use start_with? for escaped quote too
-  279c8e14d4: |-
-    ruby 2.7.0dev (2019-05-30 trunk 279c8e14d4) [x86_64-linux]
-    last_commit=Use rebuilt buffer data to rerender all
-  279c8e14d4 --jit: |-
-    ruby 2.7.0dev (2019-05-30 trunk 279c8e14d4) +JIT [x86_64-linux]
-    last_commit=Use rebuilt buffer data to rerender all
   b0e2b7a5ff: |-
     ruby 2.7.0dev (2019-05-30 trunk b0e2b7a5ff) [x86_64-linux]
     last_commit=Include stack elements left after errors
@@ -6025,3 +5959,15 @@ commits:
   c1ad6321b0 --jit: |-
     ruby 2.7.0dev (2019-07-22T21:02:39Z trunk c1ad6321b0) +JIT [x86_64-linux]
     last_commit=Adjust documentation for Kernel#raise [ci skip]
+  32ec6dd5c7: |-
+    ruby 2.7.0dev (2019-07-22T21:43:36Z trunk 32ec6dd5c7) [x86_64-linux]
+    last_commit=Document encoding of string returned by Regexp.quote [ci skip]
+  32ec6dd5c7 --jit: |-
+    ruby 2.7.0dev (2019-07-22T21:43:36Z trunk 32ec6dd5c7) +JIT [x86_64-linux]
+    last_commit=Document encoding of string returned by Regexp.quote [ci skip]
+  '01995df645': |-
+    ruby 2.7.0dev (2019-07-22T22:07:22Z trunk 01995df645) [x86_64-linux]
+    last_commit=Document BasicObject does not implement #object_id and #send [ci skip]
+  '01995df645 --jit': |-
+    ruby 2.7.0dev (2019-07-22T22:07:22Z trunk 01995df645) +JIT [x86_64-linux]
+    last_commit=Document BasicObject does not implement #object_id and #send [ci skip]
