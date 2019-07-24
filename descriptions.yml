@@ -5977,3 +5977,21 @@ commits:
   df317151a5 --jit: |-
     ruby 2.7.0dev (2019-07-23T20:39:09Z trunk df317151a5) +JIT [x86_64-linux]
     last_commit=should not free local hook_list here.
+  a39f218f22: |-
+    ruby 2.7.0dev (2019-07-24T02:56:17Z trunk a39f218f22) [x86_64-linux]
+    last_commit=Reduced duplicate commands in test-bundled-gems-run
+  a39f218f22 --jit: |-
+    ruby 2.7.0dev (2019-07-24T02:56:17Z trunk a39f218f22) +JIT [x86_64-linux]
+    last_commit=Reduced duplicate commands in test-bundled-gems-run
+  5108a5dd7f: |-
+    ruby 2.7.0dev (2019-07-24T03:13:07Z trunk 5108a5dd7f) [x86_64-linux]
+    last_commit=test-bundled-gems-run: Respect -k option
+  5108a5dd7f --jit: |-
+    ruby 2.7.0dev (2019-07-24T03:13:07Z trunk 5108a5dd7f) +JIT [x86_64-linux]
+    last_commit=test-bundled-gems-run: Respect -k option
+  3a227b99e7: |-
+    ruby 2.7.0dev (2019-07-24T03:25:02Z trunk 3a227b99e7) [x86_64-linux]
+    last_commit=Adjusted test runner
+  3a227b99e7 --jit: |-
+    ruby 2.7.0dev (2019-07-24T03:25:02Z trunk 3a227b99e7) +JIT [x86_64-linux]
+    last_commit=Adjusted test runner
