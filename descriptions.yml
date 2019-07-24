@@ -5995,3 +5995,51 @@ commits:
   3a227b99e7 --jit: |-
     ruby 2.7.0dev (2019-07-24T03:25:02Z trunk 3a227b99e7) +JIT [x86_64-linux]
     last_commit=Adjusted test runner
+  99680f81e8: |-
+    ruby 2.7.0dev (2019-07-24T10:15:47Z trunk 99680f81e8) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Resolve `@@project_dir` from test file paths
+  99680f81e8 --jit: |-
+    ruby 2.7.0dev (2019-07-24T10:15:47Z trunk 99680f81e8) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Resolve `@@project_dir` from test file paths
+  99fb637c41: |-
+    ruby 2.7.0dev (2019-07-24T10:15:54Z trunk 99fb637c41) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Make `@@project_dir` constants per files
+  99fb637c41 --jit: |-
+    ruby 2.7.0dev (2019-07-24T10:15:54Z trunk 99fb637c41) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Make `@@project_dir` constants per files
+  dc954cbb75: |-
+    ruby 2.7.0dev (2019-07-24T11:08:40Z trunk dc954cbb75) [x86_64-linux]
+    last_commit=@@project_dir in Gem::TestCase is no longer used
+  dc954cbb75 --jit: |-
+    ruby 2.7.0dev (2019-07-24T11:08:40Z trunk dc954cbb75) +JIT [x86_64-linux]
+    last_commit=@@project_dir in Gem::TestCase is no longer used
+  7b1893c771: |-
+    ruby 2.7.0dev (2019-07-24T11:50:51Z trunk 7b1893c771) [x86_64-linux]
+    last_commit=Resurrect timestamp debug log
+  7b1893c771 --jit: |-
+    ruby 2.7.0dev (2019-07-24T11:50:51Z trunk 7b1893c771) +JIT [x86_64-linux]
+    last_commit=Resurrect timestamp debug log
+  65a9d4b0f7: |-
+    ruby 2.7.0dev (2019-07-24T11:51:29Z trunk 65a9d4b0f7) [x86_64-linux]
+    last_commit=Fix typo [ci skip]
+  65a9d4b0f7 --jit: |-
+    ruby 2.7.0dev (2019-07-24T11:51:29Z trunk 65a9d4b0f7) +JIT [x86_64-linux]
+    last_commit=Fix typo [ci skip]
+  96b0d7cd6f: |-
+    ruby 2.7.0dev (2019-07-24T12:03:01Z trunk 96b0d7cd6f) [x86_64-linux]
+    last_commit=GNU ls -T has different meaning
+  96b0d7cd6f --jit: |-
+    ruby 2.7.0dev (2019-07-24T12:03:01Z trunk 96b0d7cd6f) +JIT [x86_64-linux]
+    last_commit=GNU ls -T has different meaning
+  538ba984c8: |-
+    ruby 2.7.0dev (2019-07-24T12:07:12Z trunk 538ba984c8) [x86_64-linux]
+    last_commit=Split ls line
+  538ba984c8 --jit: |-
+    ruby 2.7.0dev (2019-07-24T12:07:12Z trunk 538ba984c8) +JIT [x86_64-linux]
+    last_commit=Split ls line
+  1cce430324: |-
+    ruby 2.7.0dev (2019-07-24T13:07:10Z trunk 1cce430324) [x86_64-linux]
+    last_commit=Suppress deflateParams() warnings
+  1cce430324 --jit: |-
+    ruby 2.7.0dev (2019-07-24T13:07:10Z trunk 1cce430324) +JIT [x86_64-linux]
+    last_commit=Suppress deflateParams() warnings
