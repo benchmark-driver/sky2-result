@@ -9,54 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  9eecd7a2fd: |-
-    ruby 2.7.0dev (2019-06-01 trunk 9eecd7a2fd) [x86_64-linux]
-    last_commit=Ignore warnings about ambiguous first argument of regexp with assert match.
-  9eecd7a2fd --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk 9eecd7a2fd) +JIT [x86_64-linux]
-    last_commit=Ignore warnings about ambiguous first argument of regexp with assert match.
-  3c77ef9adc: |-
-    ruby 2.7.0dev (2019-06-01 trunk 3c77ef9adc) [x86_64-linux]
-    last_commit=Ignore warnings about ambiguous first argument with the negative integer.
-  3c77ef9adc --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk 3c77ef9adc) +JIT [x86_64-linux]
-    last_commit=Ignore warnings about ambiguous first argument with the negative integer.
-  464e55f1d0: |-
-    ruby 2.7.0dev (2019-06-01 trunk 464e55f1d0) [x86_64-linux]
-    last_commit=Ignore warnings about argument prefix with operator symbol.
-  464e55f1d0 --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk 464e55f1d0) +JIT [x86_64-linux]
-    last_commit=Ignore warnings about argument prefix with operator symbol.
-  2bad001cfd: |-
-    ruby 2.7.0dev (2019-06-01 trunk 2bad001cfd) [x86_64-linux]
-    last_commit=Ignore warnings about mismatched indentations.
-  2bad001cfd --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk 2bad001cfd) +JIT [x86_64-linux]
-    last_commit=Ignore warnings about mismatched indentations.
-  8a041c1b92: |-
-    ruby 2.7.0dev (2019-06-01 trunk 8a041c1b92) [x86_64-linux]
-    last_commit=delegate.rb: markup method names
-  8a041c1b92 --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk 8a041c1b92) +JIT [x86_64-linux]
-    last_commit=delegate.rb: markup method names
-  e814d2f84a: |-
-    ruby 2.7.0dev (2019-06-02 trunk e814d2f84a) [x86_64-linux]
-    last_commit=* 2019-06-02
-  e814d2f84a --jit: |-
-    ruby 2.7.0dev (2019-06-02 trunk e814d2f84a) +JIT [x86_64-linux]
-    last_commit=* 2019-06-02
-  3afae5b572: |-
-    ruby 2.7.0dev (2019-06-02 trunk 3afae5b572) [x86_64-linux]
-    last_commit=NEWS: markup class and method names
-  3afae5b572 --jit: |-
-    ruby 2.7.0dev (2019-06-02 trunk 3afae5b572) +JIT [x86_64-linux]
-    last_commit=NEWS: markup class and method names
-  '09c09eb0db': |-
-    ruby 2.7.0dev (2019-06-02 trunk 09c09eb0db) [x86_64-linux]
-    last_commit=NEWS: move GC.compact
-  '09c09eb0db --jit': |-
-    ruby 2.7.0dev (2019-06-02 trunk 09c09eb0db) +JIT [x86_64-linux]
-    last_commit=NEWS: move GC.compact
   4b9869e7e0: |-
     ruby 2.7.0dev (2019-06-02 trunk 4b9869e7e0) [x86_64-linux]
     last_commit=Update String#crypt tests to work on OpenBSD
@@ -6013,3 +5965,9 @@ commits:
   a50c844645 --jit: |-
     ruby 2.7.0dev (2019-07-25T08:31:40Z trunk a50c844645) +JIT [x86_64-linux]
     last_commit=Initialize vm_throw_data::throw_state as int
+  7e33f324e1: |-
+    ruby 2.7.0dev (2019-07-25T11:57:32Z trunk 7e33f324e1) [x86_64-linux]
+    last_commit=Get rid of failures about coverage
+  7e33f324e1 --jit: |-
+    ruby 2.7.0dev (2019-07-25T11:57:32Z trunk 7e33f324e1) +JIT [x86_64-linux]
+    last_commit=Get rid of failures about coverage
