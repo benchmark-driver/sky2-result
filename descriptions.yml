@@ -5971,3 +5971,45 @@ commits:
   a850be68a5 --jit: |-
     ruby 2.7.0dev (2019-07-24T23:42:16Z trunk a850be68a5) +JIT [x86_64-linux]
     last_commit=Moved NoMemoryError hook to Test::Unit::AutoRunner
+  d8e90f5558: |-
+    ruby 2.7.0dev (2019-07-25T07:39:28Z trunk d8e90f5558) [x86_64-linux]
+    last_commit=Fix a typo in inspect
+  d8e90f5558 --jit: |-
+    ruby 2.7.0dev (2019-07-25T07:39:28Z trunk d8e90f5558) +JIT [x86_64-linux]
+    last_commit=Fix a typo in inspect
+  f5ea054810: |-
+    ruby 2.7.0dev (2019-07-25T07:57:37Z trunk f5ea054810) [x86_64-linux]
+    last_commit=Moved NoMemoryError hook
+  f5ea054810 --jit: |-
+    ruby 2.7.0dev (2019-07-25T07:57:37Z trunk f5ea054810) +JIT [x86_64-linux]
+    last_commit=Moved NoMemoryError hook
+  4c1db84d17: |-
+    ruby 2.7.0dev (2019-07-25T07:57:37Z trunk 4c1db84d17) [x86_64-linux]
+    last_commit=Added --base-directory option
+  4c1db84d17 --jit: |-
+    ruby 2.7.0dev (2019-07-25T07:57:37Z trunk 4c1db84d17) +JIT [x86_64-linux]
+    last_commit=Added --base-directory option
+  46771abfe5: |-
+    ruby 2.7.0dev (2019-07-25T07:57:37Z trunk 46771abfe5) [x86_64-linux]
+    last_commit=Use libraries in the base directory if given
+  46771abfe5 --jit: |-
+    ruby 2.7.0dev (2019-07-25T07:57:37Z trunk 46771abfe5) +JIT [x86_64-linux]
+    last_commit=Use libraries in the base directory if given
+  8e53d18e67: |-
+    ruby 2.7.0dev (2019-07-25T07:57:38Z trunk 8e53d18e67) [x86_64-linux]
+    last_commit=Separated tool/test/runner.rb and test/runner.rb
+  8e53d18e67 --jit: |-
+    ruby 2.7.0dev (2019-07-25T07:57:38Z trunk 8e53d18e67) +JIT [x86_64-linux]
+    last_commit=Separated tool/test/runner.rb and test/runner.rb
+  0f9ec4a877: |-
+    ruby 2.7.0dev (2019-07-25T08:19:16Z trunk 0f9ec4a877) [x86_64-linux]
+    last_commit=Check wether multibyte character is split
+  0f9ec4a877 --jit: |-
+    ruby 2.7.0dev (2019-07-25T08:19:16Z trunk 0f9ec4a877) +JIT [x86_64-linux]
+    last_commit=Check wether multibyte character is split
+  a50c844645: |-
+    ruby 2.7.0dev (2019-07-25T08:31:40Z trunk a50c844645) [x86_64-linux]
+    last_commit=Initialize vm_throw_data::throw_state as int
+  a50c844645 --jit: |-
+    ruby 2.7.0dev (2019-07-25T08:31:40Z trunk a50c844645) +JIT [x86_64-linux]
+    last_commit=Initialize vm_throw_data::throw_state as int
