@@ -9,84 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  f97979ce88: |-
-    ruby 2.7.0dev (2019-06-01 trunk f97979ce88) [x86_64-linux]
-    last_commit=Update to ruby/mspec@a57a9af
-  f97979ce88 --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk f97979ce88) +JIT [x86_64-linux]
-    last_commit=Update to ruby/mspec@a57a9af
-  1d37cc1900: |-
-    ruby 2.7.0dev (2019-06-01 trunk 1d37cc1900) [x86_64-linux]
-    last_commit=Update to ruby/spec@cfe908c
-  1d37cc1900 --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk 1d37cc1900) +JIT [x86_64-linux]
-    last_commit=Update to ruby/spec@cfe908c
-  aeb9a0ca77: |-
-    ruby 2.7.0dev (2019-06-01 trunk aeb9a0ca77) [x86_64-linux]
-    last_commit=appveyor.yml again!
-  aeb9a0ca77 --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk aeb9a0ca77) +JIT [x86_64-linux]
-    last_commit=appveyor.yml again!
-  c1e5299787: |-
-    ruby 2.7.0dev (2019-06-01 trunk c1e5299787) [x86_64-linux]
-    last_commit=Fix FrozenError when assigning frozen class to constant
-  c1e5299787 --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk c1e5299787) +JIT [x86_64-linux]
-    last_commit=Fix FrozenError when assigning frozen class to constant
-  7df65ef676: |-
-    ruby 2.7.0dev (2019-06-01 trunk 7df65ef676) [x86_64-linux]
-    last_commit=Use inputrc data for keystroke setting
-  7df65ef676 --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk 7df65ef676) +JIT [x86_64-linux]
-    last_commit=Use inputrc data for keystroke setting
-  65e63af377: |-
-    ruby 2.7.0dev (2019-06-01 trunk 65e63af377) [x86_64-linux]
-    last_commit=Make opt_aref instruction support Integer#[]
-  65e63af377 --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk 65e63af377) +JIT [x86_64-linux]
-    last_commit=Make opt_aref instruction support Integer#[]
-  b487b39b85: |-
-    ruby 2.7.0dev (2019-06-01 trunk b487b39b85) [x86_64-linux]
-    last_commit=* expand tabs.
-  b487b39b85 --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk b487b39b85) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  3034d666e8: |-
-    ruby 2.7.0dev (2019-06-01 trunk 3034d666e8) [x86_64-linux]
-    last_commit=Just use `File.readlines`
-  3034d666e8 --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk 3034d666e8) +JIT [x86_64-linux]
-    last_commit=Just use `File.readlines`
-  34727475d0: |-
-    ruby 2.7.0dev (2019-06-01 trunk 34727475d0) [x86_64-linux]
-    last_commit=Remove an unnecessary argument
-  34727475d0 --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk 34727475d0) +JIT [x86_64-linux]
-    last_commit=Remove an unnecessary argument
-  de01c4ec00: |-
-    ruby 2.7.0dev (2019-06-01 trunk de01c4ec00) [x86_64-linux]
-    last_commit=Reset Config at Reline::Config::Test#teardown
-  de01c4ec00 --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk de01c4ec00) +JIT [x86_64-linux]
-    last_commit=Reset Config at Reline::Config::Test#teardown
-  560cd5b1f0: |-
-    ruby 2.7.0dev (2019-06-01 trunk 560cd5b1f0) [x86_64-linux]
-    last_commit=Add myself as OpenBSD platform maintainer
-  560cd5b1f0 --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk 560cd5b1f0) +JIT [x86_64-linux]
-    last_commit=Add myself as OpenBSD platform maintainer
-  56660de3c6: |-
-    ruby 2.7.0dev (2019-06-01 trunk 56660de3c6) [x86_64-linux]
-    last_commit=Merge rubygems master from upstream.
-  56660de3c6 --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk 56660de3c6) +JIT [x86_64-linux]
-    last_commit=Merge rubygems master from upstream.
-  f630359d9b: |-
-    ruby 2.7.0dev (2019-06-01 trunk f630359d9b) [x86_64-linux]
-    last_commit=Add a benchmark using IRB::Color
-  f630359d9b --jit: |-
-    ruby 2.7.0dev (2019-06-01 trunk f630359d9b) +JIT [x86_64-linux]
-    last_commit=Add a benchmark using IRB::Color
   9eecd7a2fd: |-
     ruby 2.7.0dev (2019-06-01 trunk 9eecd7a2fd) [x86_64-linux]
     last_commit=Ignore warnings about ambiguous first argument of regexp with assert match.
@@ -6043,3 +5965,9 @@ commits:
   82ae462113 --jit: |-
     ruby 2.7.0dev (2019-07-24T23:19:03Z trunk 82ae462113) +JIT [x86_64-linux]
     last_commit=Do not fetch remote tags
+  a850be68a5: |-
+    ruby 2.7.0dev (2019-07-24T23:42:16Z trunk a850be68a5) [x86_64-linux]
+    last_commit=Moved NoMemoryError hook to Test::Unit::AutoRunner
+  a850be68a5 --jit: |-
+    ruby 2.7.0dev (2019-07-24T23:42:16Z trunk a850be68a5) +JIT [x86_64-linux]
+    last_commit=Moved NoMemoryError hook to Test::Unit::AutoRunner
