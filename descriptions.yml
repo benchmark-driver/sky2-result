@@ -5971,3 +5971,27 @@ commits:
   1cce430324 --jit: |-
     ruby 2.7.0dev (2019-07-24T13:07:10Z trunk 1cce430324) +JIT [x86_64-linux]
     last_commit=Suppress deflateParams() warnings
+  3556cba503: |-
+    ruby 2.7.0dev (2019-07-24T17:35:28Z trunk 3556cba503) [x86_64-linux]
+    last_commit=Document that Range#cover? returns false if <=> returns nil
+  3556cba503 --jit: |-
+    ruby 2.7.0dev (2019-07-24T17:35:28Z trunk 3556cba503) +JIT [x86_64-linux]
+    last_commit=Document that Range#cover? returns false if <=> returns nil
+  48b4deb418: |-
+    ruby 2.7.0dev (2019-07-24T17:36:25Z trunk 48b4deb418) [x86_64-linux]
+    last_commit=* 2019-07-25
+  48b4deb418 --jit: |-
+    ruby 2.7.0dev (2019-07-24T17:36:25Z trunk 48b4deb418) +JIT [x86_64-linux]
+    last_commit=* 2019-07-25
+  da76c4460f: |-
+    ruby 2.7.0dev (2019-07-24T18:54:07Z trunk da76c4460f) [x86_64-linux]
+    last_commit=Clarify Thread exception handling documentation [ci skip]
+  da76c4460f --jit: |-
+    ruby 2.7.0dev (2019-07-24T18:54:07Z trunk da76c4460f) +JIT [x86_64-linux]
+    last_commit=Clarify Thread exception handling documentation [ci skip]
+  efa380b006: |-
+    ruby 2.7.0dev (2019-07-24T20:54:38Z trunk efa380b006) [x86_64-linux]
+    last_commit=Use PRIuSIZE instead of "%zu"
+  efa380b006 --jit: |-
+    ruby 2.7.0dev (2019-07-24T20:54:38Z trunk efa380b006) +JIT [x86_64-linux]
+    last_commit=Use PRIuSIZE instead of "%zu"
