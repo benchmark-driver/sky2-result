@@ -5995,3 +5995,51 @@ commits:
   efa380b006 --jit: |-
     ruby 2.7.0dev (2019-07-24T20:54:38Z trunk efa380b006) +JIT [x86_64-linux]
     last_commit=Use PRIuSIZE instead of "%zu"
+  0a63c4d5fb: |-
+    ruby 2.7.0dev (2019-07-24T21:39:40Z trunk 0a63c4d5fb) [x86_64-linux]
+    last_commit=Fix errno at seeking socket/pipe on Windows
+  0a63c4d5fb --jit: |-
+    ruby 2.7.0dev (2019-07-24T21:39:40Z trunk 0a63c4d5fb) +JIT [x86_64-linux]
+    last_commit=Fix errno at seeking socket/pipe on Windows
+  938032a790: |-
+    ruby 2.7.0dev (2019-07-24T22:47:07Z trunk 938032a790) [x86_64-linux]
+    last_commit=[ruby/psych] Do not use add_development_dependency.
+  938032a790 --jit: |-
+    ruby 2.7.0dev (2019-07-24T22:47:07Z trunk 938032a790) +JIT [x86_64-linux]
+    last_commit=[ruby/psych] Do not use add_development_dependency.
+  50076903ab: |-
+    ruby 2.7.0dev (2019-07-24T22:50:37Z trunk 50076903ab) [x86_64-linux]
+    last_commit=[ruby/psych] Drop to support fat gem support.
+  50076903ab --jit: |-
+    ruby 2.7.0dev (2019-07-24T22:50:37Z trunk 50076903ab) +JIT [x86_64-linux]
+    last_commit=[ruby/psych] Drop to support fat gem support.
+  6ca7dc69ef: |-
+    ruby 2.7.0dev (2019-07-24T22:52:16Z trunk 6ca7dc69ef) [x86_64-linux]
+    last_commit=[ruby/psych] Deduplicate hash keys if they're strings
+  6ca7dc69ef --jit: |-
+    ruby 2.7.0dev (2019-07-24T22:52:16Z trunk 6ca7dc69ef) +JIT [x86_64-linux]
+    last_commit=[ruby/psych] Deduplicate hash keys if they're strings
+  698dde525a: |-
+    ruby 2.7.0dev (2019-07-24T22:52:17Z trunk 698dde525a) [x86_64-linux]
+    last_commit=[ruby/psych] Suppress uninitialized instance variable warnings
+  698dde525a --jit: |-
+    ruby 2.7.0dev (2019-07-24T22:52:17Z trunk 698dde525a) +JIT [x86_64-linux]
+    last_commit=[ruby/psych] Suppress uninitialized instance variable warnings
+  414d6cf1d3: |-
+    ruby 2.7.0dev (2019-07-24T22:52:19Z trunk 414d6cf1d3) [x86_64-linux]
+    last_commit=[ruby/psych] Get rid of C90 feature
+  414d6cf1d3 --jit: |-
+    ruby 2.7.0dev (2019-07-24T22:52:19Z trunk 414d6cf1d3) +JIT [x86_64-linux]
+    last_commit=[ruby/psych] Get rid of C90 feature
+  077c28887a: |-
+    ruby 2.7.0dev (2019-07-24T23:16:57Z trunk 077c28887a) [x86_64-linux]
+    last_commit=[ruby/io-console] Do not use add_development_dependency
+  077c28887a --jit: |-
+    ruby 2.7.0dev (2019-07-24T23:16:57Z trunk 077c28887a) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Do not use add_development_dependency
+  82ae462113: |-
+    ruby 2.7.0dev (2019-07-24T23:19:03Z trunk 82ae462113) [x86_64-linux]
+    last_commit=Do not fetch remote tags
+  82ae462113 --jit: |-
+    ruby 2.7.0dev (2019-07-24T23:19:03Z trunk 82ae462113) +JIT [x86_64-linux]
+    last_commit=Do not fetch remote tags
