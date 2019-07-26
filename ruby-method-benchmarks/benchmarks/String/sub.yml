@@ -874,6 +874,8 @@ results:
     fae4489a3a: 3397024.022
     '01995df645': 3350239.184
     db1c30b37f: 3348548.903
+    934a3a926c: 2899556.612
+    a44ad9a145: 3409878.028
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1747,6 +1749,8 @@ results:
     fae4489a3a: 3397200.598
     '01995df645': 3332445.796
     db1c30b37f: 3333862.54
+    934a3a926c: 3225649.78
+    a44ad9a145: 3351526.093
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2620,6 +2624,8 @@ results:
     fae4489a3a: 1830073.137
     '01995df645': 1671485.464
     db1c30b37f: 1852431.03
+    934a3a926c: 1890058.88
+    a44ad9a145: 1813826.494
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -3493,6 +3499,8 @@ results:
     fae4489a3a: 2737671.745
     '01995df645': 2734408.715
     db1c30b37f: 2279581.999
+    934a3a926c: 2729209.92
+    a44ad9a145: 2770319.536
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -4366,6 +4374,8 @@ results:
     fae4489a3a: 3636067.494
     '01995df645': 3652191.145
     db1c30b37f: 3644719.559
+    934a3a926c: 3435677.742
+    a44ad9a145: 3675042.666
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -5239,6 +5249,8 @@ results:
     fae4489a3a: 3626490.013
     '01995df645': 3482507.89
     db1c30b37f: 3601255.526
+    934a3a926c: 3584327.205
+    a44ad9a145: 3636746.355
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -6112,6 +6124,8 @@ results:
     fae4489a3a: 1921443.046
     '01995df645': 1976931.745
     db1c30b37f: 1687327.872
+    934a3a926c: 1948823.811
+    a44ad9a145: 1969946.566
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -6985,3 +6999,5 @@ results:
     fae4489a3a: 2908302.291
     '01995df645': 2917308.155
     db1c30b37f: 2824000.34
+    934a3a926c: 2899209.242
+    a44ad9a145: 2957990.991
