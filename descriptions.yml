@@ -5977,3 +5977,27 @@ commits:
   149e414ed5 --jit: |-
     ruby 2.7.0dev (2019-07-27T03:41:33Z trunk 149e414ed5) +JIT [x86_64-linux]
     last_commit=Initialize DST flag
+  012d39c4e6: |-
+    ruby 2.7.0dev (2019-07-27T07:47:24Z trunk 012d39c4e6) [x86_64-linux]
+    last_commit=Added ignore files to sync_default_gems_with_commits and make constant them.
+  012d39c4e6 --jit: |-
+    ruby 2.7.0dev (2019-07-27T07:47:24Z trunk 012d39c4e6) +JIT [x86_64-linux]
+    last_commit=Added ignore files to sync_default_gems_with_commits and make constant them.
+  58bb7f0ca1: |-
+    ruby 2.7.0dev (2019-07-27T07:47:32Z trunk 58bb7f0ca1) [x86_64-linux]
+    last_commit=Skip the some of commits when sync default gems from upstream.
+  58bb7f0ca1 --jit: |-
+    ruby 2.7.0dev (2019-07-27T07:47:32Z trunk 58bb7f0ca1) +JIT [x86_64-linux]
+    last_commit=Skip the some of commits when sync default gems from upstream.
+  f9f02e8216: |-
+    ruby 2.7.0dev (2019-07-27T07:56:04Z trunk f9f02e8216) [x86_64-linux]
+    last_commit=Use JRuby equivalent of RubyVM.compile.
+  f9f02e8216 --jit: |-
+    ruby 2.7.0dev (2019-07-27T07:56:04Z trunk f9f02e8216) +JIT [x86_64-linux]
+    last_commit=Use JRuby equivalent of RubyVM.compile.
+  a06301b103: |-
+    ruby 2.7.0dev (2019-07-27T07:56:04Z trunk a06301b103) [x86_64-linux]
+    last_commit=Ignore history file without saving if permissions cannot be changed
+  a06301b103 --jit: |-
+    ruby 2.7.0dev (2019-07-27T07:56:04Z trunk a06301b103) +JIT [x86_64-linux]
+    last_commit=Ignore history file without saving if permissions cannot be changed
