@@ -9,48 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  aeb3a2b337: |-
-    ruby 2.7.0dev (2019-06-03 trunk aeb3a2b337) [x86_64-linux]
-    last_commit=* 2019-06-03
-  aeb3a2b337 --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk aeb3a2b337) +JIT [x86_64-linux]
-    last_commit=* 2019-06-03
-  65fdb90325: |-
-    ruby 2.7.0dev (2019-06-03 trunk 65fdb90325) [x86_64-linux]
-    last_commit=Reline::LineEditor::ARGUMENTABLE is no longer used
-  65fdb90325 --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk 65fdb90325) +JIT [x86_64-linux]
-    last_commit=Reline::LineEditor::ARGUMENTABLE is no longer used
-  '3428922437': |-
-    ruby 2.7.0dev (2019-06-03 trunk 3428922437) [x86_64-linux]
-    last_commit=The ed_move_to_beg is different from vi_first_print
-  3428922437 --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk 3428922437) +JIT [x86_64-linux]
-    last_commit=The ed_move_to_beg is different from vi_first_print
-  1bfba99b79: |-
-    ruby 2.7.0dev (2019-06-03 trunk 1bfba99b79) [x86_64-linux]
-    last_commit=Close leaked file descripters in tests
-  1bfba99b79 --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk 1bfba99b79) +JIT [x86_64-linux]
-    last_commit=Close leaked file descripters in tests
-  5524de5ca0: |-
-    ruby 2.7.0dev (2019-06-03 trunk 5524de5ca0) [x86_64-linux]
-    last_commit=Add aliases for commands for moving macro
-  5524de5ca0 --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk 5524de5ca0) +JIT [x86_64-linux]
-    last_commit=Add aliases for commands for moving macro
-  182072b211: |-
-    ruby 2.7.0dev (2019-06-03 trunk 182072b211) [x86_64-linux]
-    last_commit=The C-q is also quoted insert in emacs mode
-  182072b211 --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk 182072b211) +JIT [x86_64-linux]
-    last_commit=The C-q is also quoted insert in emacs mode
-  533070bfc6: |-
-    ruby 2.7.0dev (2019-06-03 trunk 533070bfc6) [x86_64-linux]
-    last_commit=Use lines instead of split
-  533070bfc6 --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk 533070bfc6) +JIT [x86_64-linux]
-    last_commit=Use lines instead of split
   f48aad7ba2: |-
     ruby 2.7.0dev (2019-06-03 trunk f48aad7ba2) [x86_64-linux]
     last_commit=Add reline to doc/maintainers.rdoc
