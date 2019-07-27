@@ -9,70 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  f48aad7ba2: |-
-    ruby 2.7.0dev (2019-06-03 trunk f48aad7ba2) [x86_64-linux]
-    last_commit=Add reline to doc/maintainers.rdoc
-  f48aad7ba2 --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk f48aad7ba2) +JIT [x86_64-linux]
-    last_commit=Add reline to doc/maintainers.rdoc
-  17af8bfce6: |-
-    ruby 2.7.0dev (2019-06-03 trunk 17af8bfce6) [x86_64-linux]
-    last_commit=Make size on an infinite each_slice enumerator return Infinity
-  17af8bfce6 --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk 17af8bfce6) +JIT [x86_64-linux]
-    last_commit=Make size on an infinite each_slice enumerator return Infinity
-  3102ca4c6e: "ruby 2.7.0dev (2019-06-03 trunk 3102ca4c6e) [x86_64-linux]\nlast_commit=Default
-    GIT external encoding to UTF-8 \U0001F937‍♂️"
-  3102ca4c6e --jit: "ruby 2.7.0dev (2019-06-03 trunk 3102ca4c6e) +JIT [x86_64-linux]\nlast_commit=Default
-    GIT external encoding to UTF-8 \U0001F937‍♂️"
-  22da5d71ea: |-
-    ruby 2.7.0dev (2019-06-03 trunk 22da5d71ea) [x86_64-linux]
-    last_commit=`ruby -v` may no longer be ASCII-only on non-master branches
-  22da5d71ea --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk 22da5d71ea) +JIT [x86_64-linux]
-    last_commit=`ruby -v` may no longer be ASCII-only on non-master branches
-  c990b3c41a: |-
-    ruby 2.7.0dev (2019-06-03 trunk c990b3c41a) [x86_64-linux]
-    last_commit=Fix the error token on "invalid hex escape"
-  c990b3c41a --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk c990b3c41a) +JIT [x86_64-linux]
-    last_commit=Fix the error token on "invalid hex escape"
-  c280519256: |-
-    ruby 2.7.0dev (2019-06-03 trunk c280519256) [x86_64-linux]
-    last_commit=remove `rb_objspace_pinned_object_p()`
-  c280519256 --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk c280519256) +JIT [x86_64-linux]
-    last_commit=remove `rb_objspace_pinned_object_p()`
-  d7c3eb570b: |-
-    ruby 2.7.0dev (2019-06-03 trunk d7c3eb570b) [x86_64-linux]
-    last_commit=Erase VI_OPERATORS
-  d7c3eb570b --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk d7c3eb570b) +JIT [x86_64-linux]
-    last_commit=Erase VI_OPERATORS
-  a4c5d23404: |-
-    ruby 2.7.0dev (2019-06-03 trunk a4c5d23404) [x86_64-linux]
-    last_commit=benchmark/time_strptime.yml does not work with miniruby
-  a4c5d23404 --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk a4c5d23404) +JIT [x86_64-linux]
-    last_commit=benchmark/time_strptime.yml does not work with miniruby
-  11d3986d65: |-
-    ruby 2.7.0dev (2019-06-03 trunk 11d3986d65) [x86_64-linux]
-    last_commit=common.mk is NOT working with /bin/sh anymore
-  11d3986d65 --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk 11d3986d65) +JIT [x86_64-linux]
-    last_commit=common.mk is NOT working with /bin/sh anymore
-  1b2b0e1f24: |-
-    ruby 2.7.0dev (2019-06-03 trunk 1b2b0e1f24) [x86_64-linux]
-    last_commit=Revert "common.mk is NOT working with /bin/sh anymore"
-  1b2b0e1f24 --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk 1b2b0e1f24) +JIT [x86_64-linux]
-    last_commit=Revert "common.mk is NOT working with /bin/sh anymore"
-  928377d2c5: |-
-    ruby 2.7.0dev (2019-06-03 trunk 928377d2c5) [x86_64-linux]
-    last_commit=Revert "common.mk: allow brace expansion for benchmark targets"
-  928377d2c5 --jit: |-
-    ruby 2.7.0dev (2019-06-03 trunk 928377d2c5) +JIT [x86_64-linux]
-    last_commit=Revert "common.mk: allow brace expansion for benchmark targets"
   0c459af7c2: |-
     ruby 2.7.0dev (2019-06-03 trunk 0c459af7c2) [x86_64-linux]
     last_commit=Colorize error characters
@@ -6031,3 +5967,9 @@ commits:
   f1b76ea63c --jit: |-
     ruby 2.7.0dev (2019-07-27T12:54:34Z trunk f1b76ea63c) +JIT [x86_64-linux]
     last_commit=Occupy match data
+  adf13625ae: |-
+    ruby 2.7.0dev (2019-07-27T14:46:40Z trunk adf13625ae) [x86_64-linux]
+    last_commit=Extend travis_wait to 50min for osx
+  adf13625ae --jit: |-
+    ruby 2.7.0dev (2019-07-27T14:46:40Z trunk adf13625ae) +JIT [x86_64-linux]
+    last_commit=Extend travis_wait to 50min for osx
