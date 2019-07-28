@@ -889,6 +889,8 @@ results:
     e14f5762c5: 3366476.162
     a7fdb22373: 3427280.772
     d02f2fc3e2: 3443306.746
+    f2769ae2c9: 3384993.185
+    ec8e5f5aa6: 3328073.695
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1777,6 +1779,8 @@ results:
     e14f5762c5: 3342274.722
     a7fdb22373: 3366088.938
     d02f2fc3e2: 3390469.891
+    f2769ae2c9: 3341849.171
+    ec8e5f5aa6: 3355923.374
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2665,6 +2669,8 @@ results:
     e14f5762c5: 1789511.342
     a7fdb22373: 1859443.158
     d02f2fc3e2: 1856642.511
+    f2769ae2c9: 1857630.081
+    ec8e5f5aa6: 1855034.41
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -3553,6 +3559,8 @@ results:
     e14f5762c5: 2762566.742
     a7fdb22373: 2726382.885
     d02f2fc3e2: 2737545.649
+    f2769ae2c9: 2679630.098
+    ec8e5f5aa6: 2735205.133
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -4441,6 +4449,8 @@ results:
     e14f5762c5: 3686025.681
     a7fdb22373: 3707765.905
     d02f2fc3e2: 3607902.511
+    f2769ae2c9: 3657121.054
+    ec8e5f5aa6: 3662199.291
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -5329,6 +5339,8 @@ results:
     e14f5762c5: 3585712.458
     a7fdb22373: 3655901.332
     d02f2fc3e2: 3163096.841
+    f2769ae2c9: 3601863.187
+    ec8e5f5aa6: 3644883.937
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -6217,6 +6229,8 @@ results:
     e14f5762c5: 1974469.853
     a7fdb22373: 1918273.262
     d02f2fc3e2: 1945906.54
+    f2769ae2c9: 1942038.081
+    ec8e5f5aa6: 1976192.394
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -7105,3 +7119,5 @@ results:
     e14f5762c5: 2946894.418
     a7fdb22373: 2899861.093
     d02f2fc3e2: 2903985.877
+    f2769ae2c9: 2906582.612
+    ec8e5f5aa6: 2907433.408
