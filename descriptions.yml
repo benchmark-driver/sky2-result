@@ -5985,3 +5985,15 @@ commits:
   bce348204f --jit: |-
     ruby 2.7.0dev (2019-07-27T22:37:35Z trunk bce348204f) +JIT [x86_64-linux]
     last_commit=* 2019-07-28
+  a6e32855d0: |-
+    ruby 2.7.0dev (2019-07-28T00:47:40Z trunk a6e32855d0) [x86_64-linux]
+    last_commit=[reline] Do not escape and compile regexp for each byte
+  a6e32855d0 --jit: |-
+    ruby 2.7.0dev (2019-07-28T00:47:40Z trunk a6e32855d0) +JIT [x86_64-linux]
+    last_commit=[reline] Do not escape and compile regexp for each byte
+  b40589802b: |-
+    ruby 2.7.0dev (2019-07-28T00:52:19Z trunk b40589802b) [x86_64-linux]
+    last_commit=[reline] Do not compile regexp for each line
+  b40589802b --jit: |-
+    ruby 2.7.0dev (2019-07-28T00:52:19Z trunk b40589802b) +JIT [x86_64-linux]
+    last_commit=[reline] Do not compile regexp for each line
