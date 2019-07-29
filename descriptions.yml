@@ -5973,3 +5973,33 @@ commits:
   8c6f1715f0 --jit: |-
     ruby 2.7.0dev (2019-07-29T04:29:42Z trunk 8c6f1715f0) +JIT [x86_64-linux]
     last_commit=Removed unused variables and methods
+  4b4d8a662b: |-
+    ruby 2.7.0dev (2019-07-29T10:45:32Z trunk 4b4d8a662b) [x86_64-linux]
+    last_commit=Stop isolating test_gc_compact on CI
+  4b4d8a662b --jit: |-
+    ruby 2.7.0dev (2019-07-29T10:45:32Z trunk 4b4d8a662b) +JIT [x86_64-linux]
+    last_commit=Stop isolating test_gc_compact on CI
+  5af28fec2f: |-
+    ruby 2.7.0dev (2019-07-29T10:49:20Z trunk 5af28fec2f) [x86_64-linux]
+    last_commit=Resurrect -v to debug osx problems
+  5af28fec2f --jit: |-
+    ruby 2.7.0dev (2019-07-29T10:49:20Z trunk 5af28fec2f) +JIT [x86_64-linux]
+    last_commit=Resurrect -v to debug osx problems
+  e05f397f08: |-
+    ruby 2.7.0dev (2019-07-29T11:25:23Z trunk e05f397f08) [x86_64-linux]
+    last_commit=Give up `brew update` on Travis
+  e05f397f08 --jit: |-
+    ruby 2.7.0dev (2019-07-29T11:25:23Z trunk e05f397f08) +JIT [x86_64-linux]
+    last_commit=Give up `brew update` on Travis
+  f6a6b21f09: |-
+    ruby 2.7.0dev (2019-07-29T11:55:19Z trunk f6a6b21f09) [x86_64-linux]
+    last_commit=`travis_wait` silences any output
+  f6a6b21f09 --jit: |-
+    ruby 2.7.0dev (2019-07-29T11:55:19Z trunk f6a6b21f09) +JIT [x86_64-linux]
+    last_commit=`travis_wait` silences any output
+  a5ea55feb4: |-
+    ruby 2.7.0dev (2019-07-29T11:57:57Z trunk a5ea55feb4) [x86_64-linux]
+    last_commit=Actually remove travis_wait
+  a5ea55feb4 --jit: |-
+    ruby 2.7.0dev (2019-07-29T11:57:57Z trunk a5ea55feb4) +JIT [x86_64-linux]
+    last_commit=Actually remove travis_wait
