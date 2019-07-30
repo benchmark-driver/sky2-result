@@ -5991,3 +5991,9 @@ commits:
   3805ef7fb5 --jit: |-
     ruby 2.7.0dev (2019-07-30T03:39:28Z trunk 3805ef7fb5) +JIT [x86_64-linux]
     last_commit=Separate test_set_lineno_gets
+  2e6f777f9e: |-
+    ruby 2.7.0dev (2019-07-30T03:44:38Z trunk 2e6f777f9e) [x86_64-linux]
+    last_commit=`/o` should not use with instance variable
+  2e6f777f9e --jit: |-
+    ruby 2.7.0dev (2019-07-30T03:44:38Z trunk 2e6f777f9e) +JIT [x86_64-linux]
+    last_commit=`/o` should not use with instance variable
