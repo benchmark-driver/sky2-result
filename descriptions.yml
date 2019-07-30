@@ -5979,3 +5979,15 @@ commits:
   6eab49a40a --jit: |-
     ruby 2.7.0dev (2019-07-29T19:10:15Z trunk 6eab49a40a) +JIT [x86_64-linux]
     last_commit=Revert "Do not always taint the result of File#path"
+  1da3a31a5f: |-
+    ruby 2.7.0dev (2019-07-30T02:59:54Z trunk 1da3a31a5f) [x86_64-linux]
+    last_commit=Use lowercase letters for IPv6 addresses.
+  1da3a31a5f --jit: |-
+    ruby 2.7.0dev (2019-07-30T02:59:54Z trunk 1da3a31a5f) +JIT [x86_64-linux]
+    last_commit=Use lowercase letters for IPv6 addresses.
+  3805ef7fb5: |-
+    ruby 2.7.0dev (2019-07-30T03:39:28Z trunk 3805ef7fb5) [x86_64-linux]
+    last_commit=Separate test_set_lineno_gets
+  3805ef7fb5 --jit: |-
+    ruby 2.7.0dev (2019-07-30T03:39:28Z trunk 3805ef7fb5) +JIT [x86_64-linux]
+    last_commit=Separate test_set_lineno_gets
