@@ -5997,3 +5997,15 @@ commits:
   2e6f777f9e --jit: |-
     ruby 2.7.0dev (2019-07-30T03:44:38Z trunk 2e6f777f9e) +JIT [x86_64-linux]
     last_commit=`/o` should not use with instance variable
+  47144f91a1: |-
+    ruby 2.7.0dev (2019-07-30T07:44:29Z trunk 47144f91a1) [x86_64-linux]
+    last_commit=Separate VCS::GIT#upstream
+  47144f91a1 --jit: |-
+    ruby 2.7.0dev (2019-07-30T07:44:29Z trunk 47144f91a1) +JIT [x86_64-linux]
+    last_commit=Separate VCS::GIT#upstream
+  e25088488b: |-
+    ruby 2.7.0dev (2019-07-30T08:23:42Z trunk e25088488b) [x86_64-linux]
+    last_commit=Hint for the dependency update [Bug #16000]
+  e25088488b --jit: |-
+    ruby 2.7.0dev (2019-07-30T08:23:42Z trunk e25088488b) +JIT [x86_64-linux]
+    last_commit=Hint for the dependency update [Bug #16000]
