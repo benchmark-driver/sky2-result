@@ -9,54 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  ce4b5d90b2: |-
-    ruby 2.7.0dev (2019-06-04 trunk ce4b5d90b2) [x86_64-linux]
-    last_commit=* remove trailing spaces. [ci skip]
-  ce4b5d90b2 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk ce4b5d90b2) +JIT [x86_64-linux]
-    last_commit=* remove trailing spaces. [ci skip]
-  58fd27d3d8: |-
-    ruby 2.7.0dev (2019-06-04 trunk 58fd27d3d8) [x86_64-linux]
-    last_commit=colorize.rb: read `test/colors` file afer `$TEST_COLORS`
-  58fd27d3d8 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 58fd27d3d8) +JIT [x86_64-linux]
-    last_commit=colorize.rb: read `test/colors` file afer `$TEST_COLORS`
-  16cb1fb007: |-
-    ruby 2.7.0dev (2019-06-04 trunk 16cb1fb007) [x86_64-linux]
-    last_commit=extlibs.rb: colorize
-  16cb1fb007 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 16cb1fb007) +JIT [x86_64-linux]
-    last_commit=extlibs.rb: colorize
-  b0c35ff2db: |-
-    ruby 2.7.0dev (2019-06-04 trunk b0c35ff2db) [x86_64-linux]
-    last_commit=colorize.rb: fix reading from test/colors
-  b0c35ff2db --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk b0c35ff2db) +JIT [x86_64-linux]
-    last_commit=colorize.rb: fix reading from test/colors
-  a57d6d2325: |-
-    ruby 2.7.0dev (2019-06-04 trunk a57d6d2325) [x86_64-linux]
-    last_commit=colorize.rb: make `colors_file` optional
-  a57d6d2325 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk a57d6d2325) +JIT [x86_64-linux]
-    last_commit=colorize.rb: make `colors_file` optional
-  fade26afa7: |-
-    ruby 2.7.0dev (2019-06-04 trunk fade26afa7) [x86_64-linux]
-    last_commit=colorize.rb: get rid of syntax errors on older versions
-  fade26afa7 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk fade26afa7) +JIT [x86_64-linux]
-    last_commit=colorize.rb: get rid of syntax errors on older versions
-  e7aa87c353: |-
-    ruby 2.7.0dev (2019-06-04 trunk e7aa87c353) [x86_64-linux]
-    last_commit=Renamed duplicate test
-  e7aa87c353 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk e7aa87c353) +JIT [x86_64-linux]
-    last_commit=Renamed duplicate test
-  51d27d25d7: |-
-    ruby 2.7.0dev (2019-06-04 trunk 51d27d25d7) [x86_64-linux]
-    last_commit=test/lib/test/unit.rb: use colorize.rb
-  51d27d25d7 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 51d27d25d7) +JIT [x86_64-linux]
-    last_commit=test/lib/test/unit.rb: use colorize.rb
   24a96a0228: |-
     ruby 2.7.0dev (2019-06-04 trunk 24a96a0228) [x86_64-linux]
     last_commit=marshal.c: new functions for extensions
