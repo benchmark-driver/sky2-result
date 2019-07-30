@@ -9,90 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  ca22cccc14: |-
-    ruby 2.7.0dev (2019-06-04 trunk ca22cccc14) [x86_64-linux]
-    last_commit=get rid of a warning of VC++
-  ca22cccc14 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk ca22cccc14) +JIT [x86_64-linux]
-    last_commit=get rid of a warning of VC++
-  4eb1c2365c: |-
-    ruby 2.7.0dev (2019-06-04 trunk 4eb1c2365c) [x86_64-linux]
-    last_commit=Unpin objects that `proc` references
-  4eb1c2365c --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 4eb1c2365c) +JIT [x86_64-linux]
-    last_commit=Unpin objects that `proc` references
-  2de3d92844: |-
-    ruby 2.7.0dev (2019-06-04 trunk 2de3d92844) [x86_64-linux]
-    last_commit=allow objects in imemo envs to move
-  2de3d92844 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 2de3d92844) +JIT [x86_64-linux]
-    last_commit=allow objects in imemo envs to move
-  790a1b1790: |-
-    ruby 2.7.0dev (2019-06-04 trunk 790a1b1790) [x86_64-linux]
-    last_commit=object id is stable now for all objects, so we can let hash keys move
-  790a1b1790 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 790a1b1790) +JIT [x86_64-linux]
-    last_commit=object id is stable now for all objects, so we can let hash keys move
-  c9b74f9fd9: |-
-    ruby 2.7.0dev (2019-06-04 trunk c9b74f9fd9) [x86_64-linux]
-    last_commit=Pin keys in "compare by identity" hashes
-  c9b74f9fd9 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk c9b74f9fd9) +JIT [x86_64-linux]
-    last_commit=Pin keys in "compare by identity" hashes
-  4b7213a85a: |-
-    ruby 2.7.0dev (2019-06-04 trunk 4b7213a85a) [x86_64-linux]
-    last_commit=Implement transpose-words
-  4b7213a85a --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 4b7213a85a) +JIT [x86_64-linux]
-    last_commit=Implement transpose-words
-  d950cade53: |-
-    ruby 2.7.0dev (2019-06-04 trunk d950cade53) [x86_64-linux]
-    last_commit=azure-pipelines.yml: Upgrade Ruby for UseRubyVersion
-  d950cade53 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk d950cade53) +JIT [x86_64-linux]
-    last_commit=azure-pipelines.yml: Upgrade Ruby for UseRubyVersion
-  9a07915ae2: |-
-    ruby 2.7.0dev (2019-06-04 trunk 9a07915ae2) [x86_64-linux]
-    last_commit=Add aliases for commands for changing text macro
-  9a07915ae2 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 9a07915ae2) +JIT [x86_64-linux]
-    last_commit=Add aliases for commands for changing text macro
-  aa8d393d8a: |-
-    ruby 2.7.0dev (2019-06-04 trunk aa8d393d8a) [x86_64-linux]
-    last_commit=EOF by 2 ^D on a TTY
-  aa8d393d8a --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk aa8d393d8a) +JIT [x86_64-linux]
-    last_commit=EOF by 2 ^D on a TTY
-  14b5ccf91b: |-
-    ruby 2.7.0dev (2019-06-04 trunk 14b5ccf91b) [x86_64-linux]
-    last_commit=* expand tabs.
-  14b5ccf91b --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 14b5ccf91b) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  7866ed850c: |-
-    ruby 2.7.0dev (2019-06-04 trunk 7866ed850c) [x86_64-linux]
-    last_commit=node.c: Show the ID of internal variable
-  7866ed850c --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 7866ed850c) +JIT [x86_64-linux]
-    last_commit=node.c: Show the ID of internal variable
-  b0cb4bdb4e: |-
-    ruby 2.7.0dev (2019-06-04 trunk b0cb4bdb4e) [x86_64-linux]
-    last_commit=* expand tabs.
-  b0cb4bdb4e --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk b0cb4bdb4e) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  c1e2d50531: |-
-    ruby 2.7.0dev (2019-06-04 trunk c1e2d50531) [x86_64-linux]
-    last_commit=Azure Pipelines run on master instead of trunk [ci skip]
-  c1e2d50531 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk c1e2d50531) +JIT [x86_64-linux]
-    last_commit=Azure Pipelines run on master instead of trunk [ci skip]
-  8406547b7c: |-
-    ruby 2.7.0dev (2019-06-04 trunk 8406547b7c) [x86_64-linux]
-    last_commit=Azure Pipelines run on master instead of trunk [ci skip]
-  8406547b7c --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 8406547b7c) +JIT [x86_64-linux]
-    last_commit=Azure Pipelines run on master instead of trunk [ci skip]
   ce4b5d90b2: |-
     ruby 2.7.0dev (2019-06-04 trunk ce4b5d90b2) [x86_64-linux]
     last_commit=* remove trailing spaces. [ci skip]
@@ -6033,3 +5949,33 @@ commits:
   c2428b8bf6 --jit: |-
     ruby 2.7.0dev (2019-07-29T14:05:41Z trunk c2428b8bf6) +JIT [x86_64-linux]
     last_commit=Erase only on tty
+  aa97410b0a: |-
+    ruby 2.7.0dev (2019-07-29T16:01:23Z trunk aa97410b0a) [x86_64-linux]
+    last_commit=Warn if using return at top-level with an argument
+  aa97410b0a --jit: |-
+    ruby 2.7.0dev (2019-07-29T16:01:23Z trunk aa97410b0a) +JIT [x86_64-linux]
+    last_commit=Warn if using return at top-level with an argument
+  1a759bfe5d: |-
+    ruby 2.7.0dev (2019-07-29T17:45:14Z trunk 1a759bfe5d) [x86_64-linux]
+    last_commit=Do not always taint the result of File#path
+  1a759bfe5d --jit: |-
+    ruby 2.7.0dev (2019-07-29T17:45:14Z trunk 1a759bfe5d) +JIT [x86_64-linux]
+    last_commit=Do not always taint the result of File#path
+  9170646f13: |-
+    ruby 2.7.0dev (2019-07-29T17:48:25Z trunk 9170646f13) [x86_64-linux]
+    last_commit=* 2019-07-30
+  9170646f13 --jit: |-
+    ruby 2.7.0dev (2019-07-29T17:48:25Z trunk 9170646f13) +JIT [x86_64-linux]
+    last_commit=* 2019-07-30
+  177731aadf: |-
+    ruby 2.7.0dev (2019-07-29T18:06:43Z trunk 177731aadf) [x86_64-linux]
+    last_commit=Document that Timezone argument for Time uses dst? if available [ci skip]
+  177731aadf --jit: |-
+    ruby 2.7.0dev (2019-07-29T18:06:43Z trunk 177731aadf) +JIT [x86_64-linux]
+    last_commit=Document that Timezone argument for Time uses dst? if available [ci skip]
+  6eab49a40a: |-
+    ruby 2.7.0dev (2019-07-29T19:10:15Z trunk 6eab49a40a) [x86_64-linux]
+    last_commit=Revert "Do not always taint the result of File#path"
+  6eab49a40a --jit: |-
+    ruby 2.7.0dev (2019-07-29T19:10:15Z trunk 6eab49a40a) +JIT [x86_64-linux]
+    last_commit=Revert "Do not always taint the result of File#path"
