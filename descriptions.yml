@@ -9,444 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  24a96a0228: |-
-    ruby 2.7.0dev (2019-06-04 trunk 24a96a0228) [x86_64-linux]
-    last_commit=marshal.c: new functions for extensions
-  24a96a0228 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 24a96a0228) +JIT [x86_64-linux]
-    last_commit=marshal.c: new functions for extensions
-  9e472e18d2: |-
-    ruby 2.7.0dev (2019-06-04 trunk 9e472e18d2) [x86_64-linux]
-    last_commit=suppress marshal warnings
-  9e472e18d2 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 9e472e18d2) +JIT [x86_64-linux]
-    last_commit=suppress marshal warnings
-  c8b001858e: |-
-    ruby 2.7.0dev (2019-06-04 trunk c8b001858e) [x86_64-linux]
-    last_commit=Revert "marshal.c: new functions for extensions"
-  c8b001858e --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk c8b001858e) +JIT [x86_64-linux]
-    last_commit=Revert "marshal.c: new functions for extensions"
-  2c60f37143: |-
-    ruby 2.7.0dev (2019-06-04 trunk 2c60f37143) [x86_64-linux]
-    last_commit=random_mt_type
-  2c60f37143 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 2c60f37143) +JIT [x86_64-linux]
-    last_commit=random_mt_type
-  2e2cd8297b: |-
-    ruby 2.7.0dev (2019-06-04 trunk 2e2cd8297b) [x86_64-linux]
-    last_commit=* expand tabs.
-  2e2cd8297b --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 2e2cd8297b) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  39eae6bf89: |-
-    ruby 2.7.0dev (2019-06-04 trunk 39eae6bf89) [x86_64-linux]
-    last_commit=tool/vcs.rb: return the commit date as the modified time
-  39eae6bf89 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 39eae6bf89) +JIT [x86_64-linux]
-    last_commit=tool/vcs.rb: return the commit date as the modified time
-  '0872ea5330': |-
-    ruby 2.7.0dev (2019-06-04 trunk 0872ea5330) [x86_64-linux]
-    last_commit=node.h: Avoid a magic number to represent excessed comma
-  '0872ea5330 --jit': |-
-    ruby 2.7.0dev (2019-06-04 trunk 0872ea5330) +JIT [x86_64-linux]
-    last_commit=node.h: Avoid a magic number to represent excessed comma
-  0b0c6cb7e4: |-
-    ruby 2.7.0dev (2019-06-04 trunk 0b0c6cb7e4) [x86_64-linux]
-    last_commit=compile.c: Remove the magical `(const NODE*) -1`
-  0b0c6cb7e4 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 0b0c6cb7e4) +JIT [x86_64-linux]
-    last_commit=compile.c: Remove the magical `(const NODE*) -1`
-  b31e1b4a7c: |-
-    ruby 2.7.0dev (2019-06-04 trunk b31e1b4a7c) [x86_64-linux]
-    last_commit=* expand tabs.
-  b31e1b4a7c --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk b31e1b4a7c) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  8d81e59aa7: |-
-    ruby 2.7.0dev (2019-06-04 trunk 8d81e59aa7) [x86_64-linux]
-    last_commit=Optimize CGI.escapeHTML by reducing buffer extension
-  8d81e59aa7 --jit: |-
-    ruby 2.7.0dev (2019-06-04 trunk 8d81e59aa7) +JIT [x86_64-linux]
-    last_commit=Optimize CGI.escapeHTML by reducing buffer extension
-  804a7907a8: |-
-    ruby 2.7.0dev (2019-06-05 trunk 804a7907a8) [x86_64-linux]
-    last_commit=* 2019-06-05
-  804a7907a8 --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk 804a7907a8) +JIT [x86_64-linux]
-    last_commit=* 2019-06-05
-  71b14affc6: |-
-    ruby 2.7.0dev (2019-06-05 trunk 71b14affc6) [x86_64-linux]
-    last_commit=Revert "Optimize CGI.escapeHTML by reducing buffer extension"
-  71b14affc6 --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk 71b14affc6) +JIT [x86_64-linux]
-    last_commit=Revert "Optimize CGI.escapeHTML by reducing buffer extension"
-  6b66a76f43: |-
-    ruby 2.7.0dev (2019-06-05 trunk 6b66a76f43) [x86_64-linux]
-    last_commit=* expand tabs.
-  6b66a76f43 --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk 6b66a76f43) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  5859ea1b1b: |-
-    ruby 2.7.0dev (2019-06-05 trunk 5859ea1b1b) [x86_64-linux]
-    last_commit=tool/runruby.rb: load .gdbinit explicitly
-  5859ea1b1b --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk 5859ea1b1b) +JIT [x86_64-linux]
-    last_commit=tool/runruby.rb: load .gdbinit explicitly
-  26d02cc7cd: |-
-    ruby 2.7.0dev (2019-06-05 trunk 26d02cc7cd) [x86_64-linux]
-    last_commit=tool/runruby.rb: load the default lldb scripts
-  26d02cc7cd --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk 26d02cc7cd) +JIT [x86_64-linux]
-    last_commit=tool/runruby.rb: load the default lldb scripts
-  a105831819: |-
-    ruby 2.7.0dev (2019-06-05 trunk a105831819) [x86_64-linux]
-    last_commit=tool/runruby.rb: support RUNRUBY_USE_LLDB as well as RUNRUBY_USE_GDB
-  a105831819 --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk a105831819) +JIT [x86_64-linux]
-    last_commit=tool/runruby.rb: support RUNRUBY_USE_LLDB as well as RUNRUBY_USE_GDB
-  96d6527424: |-
-    ruby 2.7.0dev (2019-06-05 trunk 96d6527424) [x86_64-linux]
-    last_commit=Add some documentation to Timeout#timeout about possible issues
-  96d6527424 --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk 96d6527424) +JIT [x86_64-linux]
-    last_commit=Add some documentation to Timeout#timeout about possible issues
-  f1f04caf60: |-
-    ruby 2.7.0dev (2019-06-05 trunk f1f04caf60) [x86_64-linux]
-    last_commit=Include inspect value of object in FrozenError messages
-  f1f04caf60 --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk f1f04caf60) +JIT [x86_64-linux]
-    last_commit=Include inspect value of object in FrozenError messages
-  7c776038ec: |-
-    ruby 2.7.0dev (2019-06-05 trunk 7c776038ec) [x86_64-linux]
-    last_commit=* expand tabs.
-  7c776038ec --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk 7c776038ec) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  c75a3356b3: |-
-    ruby 2.7.0dev (2019-06-05 trunk c75a3356b3) [x86_64-linux]
-    last_commit=Move I/O access from Reline::KeyStroke to Reline
-  c75a3356b3 --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk c75a3356b3) +JIT [x86_64-linux]
-    last_commit=Move I/O access from Reline::KeyStroke to Reline
-  aa8a8d8f6d: |-
-    ruby 2.7.0dev (2019-06-05 trunk aa8a8d8f6d) [x86_64-linux]
-    last_commit=Split an assertion for f1f04caf60e4fc9dc3b12109e0be831f2d692810
-  aa8a8d8f6d --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk aa8a8d8f6d) +JIT [x86_64-linux]
-    last_commit=Split an assertion for f1f04caf60e4fc9dc3b12109e0be831f2d692810
-  542d69c894: |-
-    ruby 2.7.0dev (2019-06-05 trunk 542d69c894) [x86_64-linux]
-    last_commit=Revert "vcs.rb support non-inplace build"
-  542d69c894 --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk 542d69c894) +JIT [x86_64-linux]
-    last_commit=Revert "vcs.rb support non-inplace build"
-  b2fe7484e7: |-
-    ruby 2.7.0dev (2019-06-05 trunk b2fe7484e7) [x86_64-linux]
-    last_commit=Test for f1f04caf60e4fc9dc3b12109e0be831f2d692810
-  b2fe7484e7 --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk b2fe7484e7) +JIT [x86_64-linux]
-    last_commit=Test for f1f04caf60e4fc9dc3b12109e0be831f2d692810
-  1624d77f3e: |-
-    ruby 2.7.0dev (2019-06-05 trunk 1624d77f3e) [x86_64-linux]
-    last_commit=error.c: avoid infinite recursion at inspecting the frozen object
-  1624d77f3e --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk 1624d77f3e) +JIT [x86_64-linux]
-    last_commit=error.c: avoid infinite recursion at inspecting the frozen object
-  f258137083: |-
-    ruby 2.7.0dev (2019-06-05 trunk f258137083) [x86_64-linux]
-    last_commit=Fix grammar of macro name: ECCESSED -> ECCESSIVE
-  f258137083 --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk f258137083) +JIT [x86_64-linux]
-    last_commit=Fix grammar of macro name: ECCESSED -> ECCESSIVE
-  84c294eb0b: |-
-    ruby 2.7.0dev (2019-06-05 trunk 84c294eb0b) [x86_64-linux]
-    last_commit=spec/bundler/bundler/dsl_spec.rb: fix exception to raise
-  84c294eb0b --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk 84c294eb0b) +JIT [x86_64-linux]
-    last_commit=spec/bundler/bundler/dsl_spec.rb: fix exception to raise
-  f3c877e8de: |-
-    ruby 2.7.0dev (2019-06-05 trunk f3c877e8de) [x86_64-linux]
-    last_commit=Ignore ~/.gitconfig on tool/vcs.rb git commands
-  f3c877e8de --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk f3c877e8de) +JIT [x86_64-linux]
-    last_commit=Ignore ~/.gitconfig on tool/vcs.rb git commands
-  0a29dc87e6: |-
-    ruby 2.7.0dev (2019-06-05 trunk 0a29dc87e6) [x86_64-linux]
-    last_commit=Optimize CGI.escapeHTML by reducing buffer extension
-  0a29dc87e6 --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk 0a29dc87e6) +JIT [x86_64-linux]
-    last_commit=Optimize CGI.escapeHTML by reducing buffer extension
-  6dc0541ed3: |-
-    ruby 2.7.0dev (2019-06-05 trunk 6dc0541ed3) [x86_64-linux]
-    last_commit=NEWS: Note about CGI.escapeHTML change [ci skip]
-  6dc0541ed3 --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk 6dc0541ed3) +JIT [x86_64-linux]
-    last_commit=NEWS: Note about CGI.escapeHTML change [ci skip]
-  eadc06ba16: |-
-    ruby 2.7.0dev (2019-06-05 trunk eadc06ba16) [x86_64-linux]
-    last_commit=Add test_ed_transpose_words_for_mbchar
-  eadc06ba16 --jit: |-
-    ruby 2.7.0dev (2019-06-05 trunk eadc06ba16) +JIT [x86_64-linux]
-    last_commit=Add test_ed_transpose_words_for_mbchar
-  fd17337228: |-
-    ruby 2.7.0dev (2019-06-06 trunk fd17337228) [x86_64-linux]
-    last_commit=* 2019-06-06
-  fd17337228 --jit: |-
-    ruby 2.7.0dev (2019-06-06 trunk fd17337228) +JIT [x86_64-linux]
-    last_commit=* 2019-06-06
-  '02880d1f4a': |-
-    ruby 2.7.0dev (2019-06-06 trunk 02880d1f4a) [x86_64-linux]
-    last_commit=Skip transpose-words if less than 2 word
-  '02880d1f4a --jit': |-
-    ruby 2.7.0dev (2019-06-06 trunk 02880d1f4a) +JIT [x86_64-linux]
-    last_commit=Skip transpose-words if less than 2 word
-  884576bf12: |-
-    ruby 2.7.0dev (2019-06-06 trunk 884576bf12) [x86_64-linux]
-    last_commit=Update RDoc of RUBY_REVISION
-  884576bf12 --jit: |-
-    ruby 2.7.0dev (2019-06-06 trunk 884576bf12) +JIT [x86_64-linux]
-    last_commit=Update RDoc of RUBY_REVISION
-  d046fe9262: |-
-    ruby 2.7.0dev (2019-06-06 trunk d046fe9262) [x86_64-linux]
-    last_commit=configure.ac: utilize wide columns for summary
-  d046fe9262 --jit: |-
-    ruby 2.7.0dev (2019-06-06 trunk d046fe9262) +JIT [x86_64-linux]
-    last_commit=configure.ac: utilize wide columns for summary
-  1e54903684: |-
-    ruby 2.7.0dev (2019-06-06 trunk 1e54903684) [x86_64-linux]
-    last_commit=test/openssl: Support OpenSSL 1.1.1
-  1e54903684 --jit: |-
-    ruby 2.7.0dev (2019-06-06 trunk 1e54903684) +JIT [x86_64-linux]
-    last_commit=test/openssl: Support OpenSSL 1.1.1
-  861b50d81d: |-
-    ruby 2.7.0dev (2019-06-06 trunk 861b50d81d) [x86_64-linux]
-    last_commit=lib/rubygems.rb: Stop "Leaked file descriptor" warning
-  861b50d81d --jit: |-
-    ruby 2.7.0dev (2019-06-06 trunk 861b50d81d) +JIT [x86_64-linux]
-    last_commit=lib/rubygems.rb: Stop "Leaked file descriptor" warning
-  c2a9c35024: |-
-    ruby 2.7.0dev (2019-06-06 trunk c2a9c35024) [x86_64-linux]
-    last_commit=Stop `circular require` warning
-  c2a9c35024 --jit: |-
-    ruby 2.7.0dev (2019-06-06 trunk c2a9c35024) +JIT [x86_64-linux]
-    last_commit=Stop `circular require` warning
-  fcc36d767b: |-
-    ruby 2.7.0dev (2019-06-06 trunk fcc36d767b) [x86_64-linux]
-    last_commit=Revert "Stop `circular require` warning"
-  fcc36d767b --jit: |-
-    ruby 2.7.0dev (2019-06-06 trunk fcc36d767b) +JIT [x86_64-linux]
-    last_commit=Revert "Stop `circular require` warning"
-  60924636e5: |-
-    ruby 2.7.0dev (2019-06-06 trunk 60924636e5) [x86_64-linux]
-    last_commit=test/net/http/test_http.rb: extend the timeout for Solaris CI
-  60924636e5 --jit: |-
-    ruby 2.7.0dev (2019-06-06 trunk 60924636e5) +JIT [x86_64-linux]
-    last_commit=test/net/http/test_http.rb: extend the timeout for Solaris CI
-  9f941f61ef: |-
-    ruby 2.7.0dev (2019-06-06 trunk 9f941f61ef) [x86_64-linux]
-    last_commit=test/webrick/test_filehandler.rb: extend the timeout for Solaris CI
-  9f941f61ef --jit: |-
-    ruby 2.7.0dev (2019-06-06 trunk 9f941f61ef) +JIT [x86_64-linux]
-    last_commit=test/webrick/test_filehandler.rb: extend the timeout for Solaris CI
-  '09a2189c1b': |-
-    ruby 2.7.0dev (2019-06-06 trunk 09a2189c1b) [x86_64-linux]
-    last_commit=Adjust indent
-  '09a2189c1b --jit': |-
-    ruby 2.7.0dev (2019-06-06 trunk 09a2189c1b) +JIT [x86_64-linux]
-    last_commit=Adjust indent
-  2bc09665ab: |-
-    ruby 2.7.0dev (2019-06-06 trunk 2bc09665ab) [x86_64-linux]
-    last_commit=win32/registry.rb: fix potential infinite loop
-  2bc09665ab --jit: |-
-    ruby 2.7.0dev (2019-06-06 trunk 2bc09665ab) +JIT [x86_64-linux]
-    last_commit=win32/registry.rb: fix potential infinite loop
-  aee7790131: |-
-    ruby 2.7.0dev (2019-06-07 trunk aee7790131) [x86_64-linux]
-    last_commit=* 2019-06-07
-  aee7790131 --jit: |-
-    ruby 2.7.0dev (2019-06-07 trunk aee7790131) +JIT [x86_64-linux]
-    last_commit=* 2019-06-07
-  6f9d5fafe0: |-
-    ruby 2.7.0dev (2019-06-07 trunk 6f9d5fafe0) [x86_64-linux]
-    last_commit=Moved Makefile.in under template
-  6f9d5fafe0 --jit: |-
-    ruby 2.7.0dev (2019-06-07 trunk 6f9d5fafe0) +JIT [x86_64-linux]
-    last_commit=Moved Makefile.in under template
-  bb3c89b643: |-
-    ruby 2.7.0dev (2019-06-07 trunk bb3c89b643) [x86_64-linux]
-    last_commit=Makefile.in moved under template
-  bb3c89b643 --jit: |-
-    ruby 2.7.0dev (2019-06-07 trunk bb3c89b643) +JIT [x86_64-linux]
-    last_commit=Makefile.in moved under template
-  200c840b95: |-
-    ruby 2.7.0dev (2019-06-07 trunk 200c840b95) [x86_64-linux]
-    last_commit=Revert "Moved Makefile.in under template"
-  200c840b95 --jit: |-
-    ruby 2.7.0dev (2019-06-07 trunk 200c840b95) +JIT [x86_64-linux]
-    last_commit=Revert "Moved Makefile.in under template"
-  aef3bb3513: |-
-    ruby 2.7.0dev (2019-06-07 trunk aef3bb3513) [x86_64-linux]
-    last_commit=Remove the dependency of Makefile on Makefile.in transitionally
-  aef3bb3513 --jit: |-
-    ruby 2.7.0dev (2019-06-07 trunk aef3bb3513) +JIT [x86_64-linux]
-    last_commit=Remove the dependency of Makefile on Makefile.in transitionally
-  c7477c3e1f: |-
-    ruby 2.7.0dev (2019-06-07 trunk c7477c3e1f) [x86_64-linux]
-    last_commit=Moved Makefile.in under template
-  c7477c3e1f --jit: |-
-    ruby 2.7.0dev (2019-06-07 trunk c7477c3e1f) +JIT [x86_64-linux]
-    last_commit=Moved Makefile.in under template
-  7e403dc6c8: |-
-    ruby 2.7.0dev (2019-06-07 trunk 7e403dc6c8) [x86_64-linux]
-    last_commit=test/openssl/utils.rb: Extend the timeout
-  7e403dc6c8 --jit: |-
-    ruby 2.7.0dev (2019-06-07 trunk 7e403dc6c8) +JIT [x86_64-linux]
-    last_commit=test/openssl/utils.rb: Extend the timeout
-  c55de95ff1: |-
-    ruby 2.7.0dev (2019-06-07 trunk c55de95ff1) [x86_64-linux]
-    last_commit=Dummy Makefile.in for CIs
-  c55de95ff1 --jit: |-
-    ruby 2.7.0dev (2019-06-07 trunk c55de95ff1) +JIT [x86_64-linux]
-    last_commit=Dummy Makefile.in for CIs
-  119ca4343c: |-
-    ruby 2.7.0dev (2019-06-07 trunk 119ca4343c) [x86_64-linux]
-    last_commit=Make specs pass on OpenBSD
-  119ca4343c --jit: |-
-    ruby 2.7.0dev (2019-06-07 trunk 119ca4343c) +JIT [x86_64-linux]
-    last_commit=Make specs pass on OpenBSD
-  b8af33e63b: |-
-    ruby 2.7.0dev (2019-06-07 trunk b8af33e63b) [x86_64-linux]
-    last_commit=Skip one assertion for OpenSSL::PKey::EC::Point#mul on LibreSSL
-  b8af33e63b --jit: |-
-    ruby 2.7.0dev (2019-06-07 trunk b8af33e63b) +JIT [x86_64-linux]
-    last_commit=Skip one assertion for OpenSSL::PKey::EC::Point#mul on LibreSSL
-  a6a26e42b1: |-
-    ruby 2.7.0dev (2019-06-07 trunk a6a26e42b1) [x86_64-linux]
-    last_commit=compile.c: Partially revert r63870 which caused wrong optimization
-  a6a26e42b1 --jit: |-
-    ruby 2.7.0dev (2019-06-07 trunk a6a26e42b1) +JIT [x86_64-linux]
-    last_commit=compile.c: Partially revert r63870 which caused wrong optimization
-  '6566919176': |-
-    ruby 2.7.0dev (2019-06-07 trunk 6566919176) [x86_64-linux]
-    last_commit=ripper_state_lex.rb: chomp CR
-  6566919176 --jit: |-
-    ruby 2.7.0dev (2019-06-07 trunk 6566919176) +JIT [x86_64-linux]
-    last_commit=ripper_state_lex.rb: chomp CR
-  b76630f73e: |-
-    ruby 2.7.0dev (2019-06-07 trunk b76630f73e) [x86_64-linux]
-    last_commit=require rubygems/package where used
-  b76630f73e --jit: |-
-    ruby 2.7.0dev (2019-06-07 trunk b76630f73e) +JIT [x86_64-linux]
-    last_commit=require rubygems/package where used
-  75751dca2b: |-
-    ruby 2.7.0dev (2019-06-07 trunk 75751dca2b) [x86_64-linux]
-    last_commit=test/openssl/utils.rb: Extend the timeout for armv7l
-  75751dca2b --jit: |-
-    ruby 2.7.0dev (2019-06-07 trunk 75751dca2b) +JIT [x86_64-linux]
-    last_commit=test/openssl/utils.rb: Extend the timeout for armv7l
-  ffaefcadd8: |-
-    ruby 2.7.0dev (2019-06-07 trunk ffaefcadd8) [x86_64-linux]
-    last_commit=Report a sudden death of workers
-  ffaefcadd8 --jit: |-
-    ruby 2.7.0dev (2019-06-07 trunk ffaefcadd8) +JIT [x86_64-linux]
-    last_commit=Report a sudden death of workers
-  19977cc761: |-
-    ruby 2.7.0dev (2019-06-07 trunk 19977cc761) [x86_64-linux]
-    last_commit=Remove unnecessary variables
-  19977cc761 --jit: |-
-    ruby 2.7.0dev (2019-06-07 trunk 19977cc761) +JIT [x86_64-linux]
-    last_commit=Remove unnecessary variables
-  1696f80f40: |-
-    ruby 2.7.0dev (2019-06-08 trunk 1696f80f40) [x86_64-linux]
-    last_commit=* 2019-06-08
-  1696f80f40 --jit: |-
-    ruby 2.7.0dev (2019-06-08 trunk 1696f80f40) +JIT [x86_64-linux]
-    last_commit=* 2019-06-08
-  3776c48cf4: |-
-    ruby 2.7.0dev (2019-06-08 trunk 3776c48cf4) [x86_64-linux]
-    last_commit=Revert "require rubygems/package where used"
-  3776c48cf4 --jit: |-
-    ruby 2.7.0dev (2019-06-08 trunk 3776c48cf4) +JIT [x86_64-linux]
-    last_commit=Revert "require rubygems/package where used"
-  21de4a574f: |-
-    ruby 2.7.0dev (2019-06-08 trunk 21de4a574f) [x86_64-linux]
-    last_commit=io.c: fold very very long lines
-  21de4a574f --jit: |-
-    ruby 2.7.0dev (2019-06-08 trunk 21de4a574f) +JIT [x86_64-linux]
-    last_commit=io.c: fold very very long lines
-  5a840517ae: |-
-    ruby 2.7.0dev (2019-06-08 trunk 5a840517ae) [x86_64-linux]
-    last_commit=Fix broken `gem unpack`
-  5a840517ae --jit: |-
-    ruby 2.7.0dev (2019-06-08 trunk 5a840517ae) +JIT [x86_64-linux]
-    last_commit=Fix broken `gem unpack`
-  27a59ca2c8: |-
-    ruby 2.7.0dev (2019-06-08 trunk 27a59ca2c8) [x86_64-linux]
-    last_commit=file.c: fix compile error with MacPorts gcc
-  27a59ca2c8 --jit: |-
-    ruby 2.7.0dev (2019-06-08 trunk 27a59ca2c8) +JIT [x86_64-linux]
-    last_commit=file.c: fix compile error with MacPorts gcc
-  1ca03dc4f7: |-
-    ruby 2.7.0dev (2019-06-08 trunk 1ca03dc4f7) [x86_64-linux]
-    last_commit=Suppress warnings by gcc 9.1
-  1ca03dc4f7 --jit: |-
-    ruby 2.7.0dev (2019-06-08 trunk 1ca03dc4f7) +JIT [x86_64-linux]
-    last_commit=Suppress warnings by gcc 9.1
-  f42588f754: |-
-    ruby 2.7.0dev (2019-06-08T20:08:18+09:00 trunk f42588f754) [x86_64-linux]
-    last_commit=Make RUBY_RELEASE_DATE full on development
-  f42588f754 --jit: |-
-    ruby 2.7.0dev (2019-06-08T20:08:18+09:00 trunk f42588f754) +JIT [x86_64-linux]
-    last_commit=Make RUBY_RELEASE_DATE full on development
-  a8ef498d6b: |-
-    ruby 2.7.0dev (2019-06-09T11:11:26+09:00 trunk a8ef498d6b) [x86_64-linux]
-    last_commit=Add tests of the encoding with BOM
-  a8ef498d6b --jit: |-
-    ruby 2.7.0dev (2019-06-09T11:11:26+09:00 trunk a8ef498d6b) +JIT [x86_64-linux]
-    last_commit=Add tests of the encoding with BOM
-  562c0bfeda: |-
-    ruby 2.7.0dev (2019-06-09T12:27:05+09:00 trunk 562c0bfeda) [x86_64-linux]
-    last_commit=Split test_strip_bom for each encoding
-  562c0bfeda --jit: |-
-    ruby 2.7.0dev (2019-06-09T12:27:05+09:00 trunk 562c0bfeda) +JIT [x86_64-linux]
-    last_commit=Split test_strip_bom for each encoding
-  a432c014c9: |-
-    ruby 2.7.0dev (2019-06-09T12:30:40+09:00 trunk a432c014c9) [x86_64-linux]
-    last_commit=* 2019-06-09
-  a432c014c9 --jit: |-
-    ruby 2.7.0dev (2019-06-09T12:30:40+09:00 trunk a432c014c9) +JIT [x86_64-linux]
-    last_commit=* 2019-06-09
-  '6650899248': |-
-    ruby 2.7.0dev (2019-06-09T12:31:12+09:00 trunk 6650899248) [x86_64-linux]
-    last_commit=Make Resolv::DNS#each_name accept Resolv::IPv{4,6} arguments
-  6650899248 --jit: |-
-    ruby 2.7.0dev (2019-06-09T12:31:12+09:00 trunk 6650899248) +JIT [x86_64-linux]
-    last_commit=Make Resolv::DNS#each_name accept Resolv::IPv{4,6} arguments
-  8f37629519: |-
-    ruby 2.7.0dev (2019-06-09T12:44:10+09:00 trunk 8f37629519) [x86_64-linux]
-    last_commit=Merge bundler master from upstream.
-  8f37629519 --jit: |-
-    ruby 2.7.0dev (2019-06-09T12:44:10+09:00 trunk 8f37629519) +JIT [x86_64-linux]
-    last_commit=Merge bundler master from upstream.
-  57ccea6232: |-
-    ruby 2.7.0dev (2019-06-09T12:44:23+09:00 trunk 57ccea6232) [x86_64-linux]
-    last_commit=Revert to change for filelist of bundler gemspec.
-  57ccea6232 --jit: |-
-    ruby 2.7.0dev (2019-06-09T12:44:23+09:00 trunk 57ccea6232) +JIT [x86_64-linux]
-    last_commit=Revert to change for filelist of bundler gemspec.
-  44f7f093ab: |-
-    ruby 2.7.0dev (2019-06-09T12:44:27+09:00 trunk 44f7f093ab) [x86_64-linux]
-    last_commit=Added the condition for ruby_core repository.
-  44f7f093ab --jit: |-
-    ruby 2.7.0dev (2019-06-09T12:44:27+09:00 trunk 44f7f093ab) +JIT [x86_64-linux]
-    last_commit=Added the condition for ruby_core repository.
-  2c59c58a47: |-
-    ruby 2.7.0dev (2019-06-09T12:44:31+09:00 trunk 2c59c58a47) [x86_64-linux]
-    last_commit=Fixed wrong BUNDLE_BIN_PATH for ruby core.
-  2c59c58a47 --jit: |-
-    ruby 2.7.0dev (2019-06-09T12:44:31+09:00 trunk 2c59c58a47) +JIT [x86_64-linux]
-    last_commit=Fixed wrong BUNDLE_BIN_PATH for ruby core.
   614154bbb6: |-
     ruby 2.7.0dev (2019-06-09T13:25:56+09:00 trunk 614154bbb6) [x86_64-linux]
     last_commit=Added missing dependency for rake examples.
@@ -6309,3 +5871,63 @@ commits:
   4afd897524 --jit: |-
     ruby 2.7.0dev (2019-07-30T23:47:03Z trunk 4afd897524) +JIT [x86_64-linux]
     last_commit=File.exists? is deprecated.
+  ebd398ac5a: |-
+    ruby 2.7.0dev (2019-07-31T00:44:23Z trunk ebd398ac5a) [x86_64-linux]
+    last_commit=remove RHash::iter_lev.
+  ebd398ac5a --jit: |-
+    ruby 2.7.0dev (2019-07-31T00:44:23Z trunk ebd398ac5a) +JIT [x86_64-linux]
+    last_commit=remove RHash::iter_lev.
+  72825c35b0: |-
+    ruby 2.7.0dev (2019-07-31T00:52:03Z trunk 72825c35b0) [x86_64-linux]
+    last_commit=Use 1 byte hint for ar_table [Feature #15602]
+  72825c35b0 --jit: |-
+    ruby 2.7.0dev (2019-07-31T00:52:03Z trunk 72825c35b0) +JIT [x86_64-linux]
+    last_commit=Use 1 byte hint for ar_table [Feature #15602]
+  e315f3a134: |-
+    ruby 2.7.0dev (2019-07-31T01:22:47Z trunk e315f3a134) [x86_64-linux]
+    last_commit=* expand tabs.
+  e315f3a134 --jit: |-
+    ruby 2.7.0dev (2019-07-31T01:22:47Z trunk e315f3a134) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  13e84d5c0a: |-
+    ruby 2.7.0dev (2019-07-31T02:08:05Z trunk 13e84d5c0a) [x86_64-linux]
+    last_commit=Moved RHASH_LEV_MASK and turned into a macro
+  13e84d5c0a --jit: |-
+    ruby 2.7.0dev (2019-07-31T02:08:05Z trunk 13e84d5c0a) +JIT [x86_64-linux]
+    last_commit=Moved RHASH_LEV_MASK and turned into a macro
+  4979ba38fa: |-
+    ruby 2.7.0dev (2019-07-31T02:27:59Z trunk 4979ba38fa) [x86_64-linux]
+    last_commit=test/rubygems/test_gem_remote_fetcher.rb: suppress deprecation warnings
+  4979ba38fa --jit: |-
+    ruby 2.7.0dev (2019-07-31T02:27:59Z trunk 4979ba38fa) +JIT [x86_64-linux]
+    last_commit=test/rubygems/test_gem_remote_fetcher.rb: suppress deprecation warnings
+  312879693f: |-
+    ruby 2.7.0dev (2019-07-31T02:32:14Z trunk 312879693f) [x86_64-linux]
+    last_commit=move macro to internal.h for documentation.
+  312879693f --jit: |-
+    ruby 2.7.0dev (2019-07-31T02:32:14Z trunk 312879693f) +JIT [x86_64-linux]
+    last_commit=move macro to internal.h for documentation.
+  823adea954: |-
+    ruby 2.7.0dev (2019-07-31T02:46:56Z trunk 823adea954) [x86_64-linux]
+    last_commit=test/ruby/test_file_exhaustive.rb: suppress method-redefined warning
+  823adea954 --jit: |-
+    ruby 2.7.0dev (2019-07-31T02:46:56Z trunk 823adea954) +JIT [x86_64-linux]
+    last_commit=test/ruby/test_file_exhaustive.rb: suppress method-redefined warning
+  1d02832bcf: |-
+    ruby 2.7.0dev (2019-07-31T02:46:56Z trunk 1d02832bcf) [x86_64-linux]
+    last_commit=test/rdoc/test_rdoc_rubygems_hook.rb: suppress deprecation warning
+  1d02832bcf --jit: |-
+    ruby 2.7.0dev (2019-07-31T02:46:56Z trunk 1d02832bcf) +JIT [x86_64-linux]
+    last_commit=test/rdoc/test_rdoc_rubygems_hook.rb: suppress deprecation warning
+  816e5055c9: |-
+    ruby 2.7.0dev (2019-07-31T02:52:59Z trunk 816e5055c9) [x86_64-linux]
+    last_commit=test/ruby/test_io.rb (test_binmode_pipe): close all pipes explicitly
+  816e5055c9 --jit: |-
+    ruby 2.7.0dev (2019-07-31T02:52:59Z trunk 816e5055c9) +JIT [x86_64-linux]
+    last_commit=test/ruby/test_io.rb (test_binmode_pipe): close all pipes explicitly
+  e83ec207cd: |-
+    ruby 2.7.0dev (2019-07-31T03:46:34Z trunk e83ec207cd) [x86_64-linux]
+    last_commit=add debug code
+  e83ec207cd --jit: |-
+    ruby 2.7.0dev (2019-07-31T03:46:34Z trunk e83ec207cd) +JIT [x86_64-linux]
+    last_commit=add debug code
