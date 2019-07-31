@@ -5931,3 +5931,33 @@ commits:
   e83ec207cd --jit: |-
     ruby 2.7.0dev (2019-07-31T03:46:34Z trunk e83ec207cd) +JIT [x86_64-linux]
     last_commit=add debug code
+  06574ad945: |-
+    ruby 2.7.0dev (2019-07-31T05:35:54Z trunk 06574ad945) [x86_64-linux]
+    last_commit=test/ruby/test_float.rb: suppress an overflow warning
+  06574ad945 --jit: |-
+    ruby 2.7.0dev (2019-07-31T05:35:54Z trunk 06574ad945) +JIT [x86_64-linux]
+    last_commit=test/ruby/test_float.rb: suppress an overflow warning
+  efac0a2384: |-
+    ruby 2.7.0dev (2019-07-31T06:14:50Z trunk efac0a2384) [x86_64-linux]
+    last_commit=Revert "add debug code"
+  efac0a2384 --jit: |-
+    ruby 2.7.0dev (2019-07-31T06:14:50Z trunk efac0a2384) +JIT [x86_64-linux]
+    last_commit=Revert "add debug code"
+  cac44def0b: |-
+    ruby 2.7.0dev (2019-07-31T06:14:50Z trunk cac44def0b) [x86_64-linux]
+    last_commit=backtrace can be nil.
+  cac44def0b --jit: |-
+    ruby 2.7.0dev (2019-07-31T06:14:50Z trunk cac44def0b) +JIT [x86_64-linux]
+    last_commit=backtrace can be nil.
+  5f95edb7af: |-
+    ruby 2.7.0dev (2019-07-31T06:14:51Z trunk 5f95edb7af) [x86_64-linux]
+    last_commit=check SystemStackError
+  5f95edb7af --jit: |-
+    ruby 2.7.0dev (2019-07-31T06:14:51Z trunk 5f95edb7af) +JIT [x86_64-linux]
+    last_commit=check SystemStackError
+  40651cf1f5: |-
+    ruby 2.7.0dev (2019-07-31T06:14:51Z trunk 40651cf1f5) [x86_64-linux]
+    last_commit=delete a check on bad assumption.
+  40651cf1f5 --jit: |-
+    ruby 2.7.0dev (2019-07-31T06:14:51Z trunk 40651cf1f5) +JIT [x86_64-linux]
+    last_commit=delete a check on bad assumption.
