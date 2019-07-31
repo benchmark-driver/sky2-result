@@ -5961,3 +5961,33 @@ commits:
   40651cf1f5 --jit: |-
     ruby 2.7.0dev (2019-07-31T06:14:51Z trunk 40651cf1f5) +JIT [x86_64-linux]
     last_commit=delete a check on bad assumption.
+  14eede6e53: |-
+    ruby 2.7.0dev (2019-07-31T08:45:43Z trunk 14eede6e53) [x86_64-linux]
+    last_commit=Fix `Leaked thread`
+  14eede6e53 --jit: |-
+    ruby 2.7.0dev (2019-07-31T08:45:43Z trunk 14eede6e53) +JIT [x86_64-linux]
+    last_commit=Fix `Leaked thread`
+  eab6c534ad: |-
+    ruby 2.7.0dev (2019-07-31T09:04:35Z trunk eab6c534ad) [x86_64-linux]
+    last_commit=Attempt to fix Hash#rehash spec
+  eab6c534ad --jit: |-
+    ruby 2.7.0dev (2019-07-31T09:04:35Z trunk eab6c534ad) +JIT [x86_64-linux]
+    last_commit=Attempt to fix Hash#rehash spec
+  e432f5dafd: |-
+    ruby 2.7.0dev (2019-07-31T09:06:54Z trunk e432f5dafd) [x86_64-linux]
+    last_commit=Split in two spec examples
+  e432f5dafd --jit: |-
+    ruby 2.7.0dev (2019-07-31T09:06:54Z trunk e432f5dafd) +JIT [x86_64-linux]
+    last_commit=Split in two spec examples
+  4562c13093: |-
+    ruby 2.7.0dev (2019-07-31T10:51:58Z trunk 4562c13093) [x86_64-linux]
+    last_commit=lib/bundler/shared_helpers.rb: remove require "rubygems"
+  4562c13093 --jit: |-
+    ruby 2.7.0dev (2019-07-31T10:51:58Z trunk 4562c13093) +JIT [x86_64-linux]
+    last_commit=lib/bundler/shared_helpers.rb: remove require "rubygems"
+  835fa9e54a: |-
+    ruby 2.7.0dev (2019-07-31T10:55:16Z trunk 835fa9e54a) [x86_64-linux]
+    last_commit=test/ruby/test_hash.rb: remove a unused vrible
+  835fa9e54a --jit: |-
+    ruby 2.7.0dev (2019-07-31T10:55:16Z trunk 835fa9e54a) +JIT [x86_64-linux]
+    last_commit=test/ruby/test_hash.rb: remove a unused vrible
