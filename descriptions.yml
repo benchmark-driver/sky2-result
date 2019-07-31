@@ -5973,3 +5973,33 @@ commits:
   ceb9e276b9 --jit: |-
     ruby 2.7.0dev (2019-07-30T12:16:30Z trunk ceb9e276b9) +JIT [x86_64-linux]
     last_commit=Shorten dependency hint [ci skip]
+  a50bc9f3c8: |-
+    ruby 2.7.0dev (2019-07-30T18:55:59Z trunk a50bc9f3c8) [x86_64-linux]
+    last_commit=Do not always taint the result of File#path
+  a50bc9f3c8 --jit: |-
+    ruby 2.7.0dev (2019-07-30T18:55:59Z trunk a50bc9f3c8) +JIT [x86_64-linux]
+    last_commit=Do not always taint the result of File#path
+  369c36ef15: |-
+    ruby 2.7.0dev (2019-07-30T19:00:46Z trunk 369c36ef15) [x86_64-linux]
+    last_commit=* 2019-07-31
+  369c36ef15 --jit: |-
+    ruby 2.7.0dev (2019-07-30T19:00:46Z trunk 369c36ef15) +JIT [x86_64-linux]
+    last_commit=* 2019-07-31
+  d8562ab2a4: |-
+    ruby 2.7.0dev (2019-07-30T19:03:09Z trunk d8562ab2a4) [x86_64-linux]
+    last_commit=Passing `binmode: true` to `IO.pipe` should behave like `binmode`
+  d8562ab2a4 --jit: |-
+    ruby 2.7.0dev (2019-07-30T19:03:09Z trunk d8562ab2a4) +JIT [x86_64-linux]
+    last_commit=Passing `binmode: true` to `IO.pipe` should behave like `binmode`
+  ebc99e026d: |-
+    ruby 2.7.0dev (2019-07-30T19:12:59Z trunk ebc99e026d) [x86_64-linux]
+    last_commit=Do not change IO.pipe encodings if encodings explicitly given
+  ebc99e026d --jit: |-
+    ruby 2.7.0dev (2019-07-30T19:12:59Z trunk ebc99e026d) +JIT [x86_64-linux]
+    last_commit=Do not change IO.pipe encodings if encodings explicitly given
+  a4c09342a2: |-
+    ruby 2.7.0dev (2019-07-30T20:49:04Z trunk a4c09342a2) [x86_64-linux]
+    last_commit=* expand tabs.
+  a4c09342a2 --jit: |-
+    ruby 2.7.0dev (2019-07-30T20:49:04Z trunk a4c09342a2) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
