@@ -5961,3 +5961,15 @@ commits:
   b8e351a1b9 --jit: |-
     ruby 2.7.0dev (2019-08-01T12:09:59Z trunk b8e351a1b9) +JIT [x86_64-linux]
     last_commit=ext/-test-/bug-14834/bug-14384.c: fallback for MAYBE_UNUSED
+  ef45a57801: |-
+    ruby 2.7.0dev (2019-08-01T15:52:15Z trunk ef45a57801) [x86_64-linux]
+    last_commit=Make attr* methods define public methods if self in caller is not same as receiver
+  ef45a57801 --jit: |-
+    ruby 2.7.0dev (2019-08-01T15:52:15Z trunk ef45a57801) +JIT [x86_64-linux]
+    last_commit=Make attr* methods define public methods if self in caller is not same as receiver
+  8ba8ccc3cc: |-
+    ruby 2.7.0dev (2019-08-01T15:55:03Z trunk 8ba8ccc3cc) [x86_64-linux]
+    last_commit=* 2019-08-02
+  8ba8ccc3cc --jit: |-
+    ruby 2.7.0dev (2019-08-01T15:55:03Z trunk 8ba8ccc3cc) +JIT [x86_64-linux]
+    last_commit=* 2019-08-02
