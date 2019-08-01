@@ -5949,3 +5949,27 @@ commits:
   117241b3c7 --jit: |-
     ruby 2.7.0dev (2019-07-31T20:59:04Z trunk 117241b3c7) +JIT [x86_64-linux]
     last_commit=make inline functions from macros.
+  9faef3113f: |-
+    ruby 2.7.0dev (2019-07-31T23:21:25Z trunk 9faef3113f) [x86_64-linux]
+    last_commit=Add a specialized instruction for `.nil?` calls
+  9faef3113f --jit: |-
+    ruby 2.7.0dev (2019-07-31T23:21:25Z trunk 9faef3113f) +JIT [x86_64-linux]
+    last_commit=Add a specialized instruction for `.nil?` calls
+  714924fd34: |-
+    ruby 2.7.0dev (2019-07-31T23:21:58Z trunk 714924fd34) [x86_64-linux]
+    last_commit=* expand tabs.
+  714924fd34 --jit: |-
+    ruby 2.7.0dev (2019-07-31T23:21:58Z trunk 714924fd34) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  31ec475ad8: |-
+    ruby 2.7.0dev (2019-07-31T23:36:25Z trunk 31ec475ad8) [x86_64-linux]
+    last_commit=Update object.c
+  31ec475ad8 --jit: |-
+    ruby 2.7.0dev (2019-07-31T23:36:25Z trunk 31ec475ad8) +JIT [x86_64-linux]
+    last_commit=Update object.c
+  67f7e5a224: |-
+    ruby 2.7.0dev (2019-08-01T00:12:08Z trunk 67f7e5a224) [x86_64-linux]
+    last_commit=Compact ensure clause and rename variables to fix alignment
+  67f7e5a224 --jit: |-
+    ruby 2.7.0dev (2019-08-01T00:12:08Z trunk 67f7e5a224) +JIT [x86_64-linux]
+    last_commit=Compact ensure clause and rename variables to fix alignment
