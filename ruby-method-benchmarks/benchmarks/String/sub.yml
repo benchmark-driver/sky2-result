@@ -939,6 +939,8 @@ results:
     bb6bd7e985: 3383016.202
     698dde525a: 3468397.817
     6db2d6d852: 3384931.049
+    312879693f: 3394256.924
+    05ae2c11fa: 3356066.275
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1877,6 +1879,8 @@ results:
     bb6bd7e985: 3356717.638
     698dde525a: 3441218.119
     6db2d6d852: 3288994.947
+    312879693f: 3412001.245
+    05ae2c11fa: 3344714.171
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2815,6 +2819,8 @@ results:
     bb6bd7e985: 1901388.758
     698dde525a: 1885201.093
     6db2d6d852: 1854604.816
+    312879693f: 1867209.206
+    05ae2c11fa: 1713446.47
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -3753,6 +3759,8 @@ results:
     bb6bd7e985: 2790099.104
     698dde525a: 2839081.996
     6db2d6d852: 2749680.923
+    312879693f: 2379554.594
+    05ae2c11fa: 2769662.412
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -4691,6 +4699,8 @@ results:
     bb6bd7e985: 3258141.584
     698dde525a: 3767554.544
     6db2d6d852: 3608601.396
+    312879693f: 3691483.418
+    05ae2c11fa: 3396745.296
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -5629,6 +5639,8 @@ results:
     bb6bd7e985: 3637318.637
     698dde525a: 3709667.508
     6db2d6d852: 3580601.818
+    312879693f: 3096164.607
+    05ae2c11fa: 3613034.997
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -6567,6 +6579,8 @@ results:
     bb6bd7e985: 1998611.69
     698dde525a: 2021630.162
     6db2d6d852: 1986663.901
+    312879693f: 2003224.032
+    05ae2c11fa: 2006926.471
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -7505,3 +7519,5 @@ results:
     bb6bd7e985: 2991938.215
     698dde525a: 3050337.224
     6db2d6d852: 2909586.923
+    312879693f: 2672604.97
+    05ae2c11fa: 2987423.52

@@ -9,108 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  e4364dbf6e: |-
-    ruby 2.7.0dev (2019-06-11T03:16:26Z trunk e4364dbf6e) [x86_64-linux]
-    last_commit=Fixed the code-style with the upstream rule.
-  e4364dbf6e --jit: |-
-    ruby 2.7.0dev (2019-06-11T03:16:26Z trunk e4364dbf6e) +JIT [x86_64-linux]
-    last_commit=Fixed the code-style with the upstream rule.
-  42ac8890ef: |-
-    ruby 2.7.0dev (2019-06-11T03:33:34Z trunk 42ac8890ef) [x86_64-linux]
-    last_commit=Fail test if load ~/.irbrc
-  42ac8890ef --jit: |-
-    ruby 2.7.0dev (2019-06-11T03:33:34Z trunk 42ac8890ef) +JIT [x86_64-linux]
-    last_commit=Fail test if load ~/.irbrc
-  140b8117bd: |-
-    ruby 2.7.0dev (2019-06-11T06:22:16Z trunk 140b8117bd) [x86_64-linux]
-    last_commit=&. is not allowed inside LHS of massign
-  140b8117bd --jit: |-
-    ruby 2.7.0dev (2019-06-11T06:22:16Z trunk 140b8117bd) +JIT [x86_64-linux]
-    last_commit=&. is not allowed inside LHS of massign
-  39ae88ad0d: |-
-    ruby 2.7.0dev (2019-06-11T13:31:57Z trunk 39ae88ad0d) [x86_64-linux]
-    last_commit=Refined syntax error messages
-  39ae88ad0d --jit: |-
-    ruby 2.7.0dev (2019-06-11T13:31:57Z trunk 39ae88ad0d) +JIT [x86_64-linux]
-    last_commit=Refined syntax error messages
-  eb016d8353: |-
-    ruby 2.7.0dev (2019-06-11T14:15:46Z trunk eb016d8353) [x86_64-linux]
-    last_commit=Generalize timeout_scale
-  eb016d8353 --jit: |-
-    ruby 2.7.0dev (2019-06-11T14:15:46Z trunk eb016d8353) +JIT [x86_64-linux]
-    last_commit=Generalize timeout_scale
-  42f0a8fd6f: |-
-    ruby 2.7.0dev (2019-06-11T14:15:46Z trunk 42f0a8fd6f) [x86_64-linux]
-    last_commit=MIN_HZ and MIN_MEASURABLE constants
-  42f0a8fd6f --jit: |-
-    ruby 2.7.0dev (2019-06-11T14:15:46Z trunk 42f0a8fd6f) +JIT [x86_64-linux]
-    last_commit=MIN_HZ and MIN_MEASURABLE constants
-  c4cbaef216: |-
-    ruby 2.7.0dev (2019-06-11T14:15:46Z trunk c4cbaef216) [x86_64-linux]
-    last_commit=assert_cpu_usage_low with timeout scale
-  c4cbaef216 --jit: |-
-    ruby 2.7.0dev (2019-06-11T14:15:46Z trunk c4cbaef216) +JIT [x86_64-linux]
-    last_commit=assert_cpu_usage_low with timeout scale
-  6db2d6d852: |-
-    ruby 2.7.0dev (2019-06-11T16:16:14Z trunk 6db2d6d852) [x86_64-linux]
-    last_commit=Add compaction support for more types.
-  6db2d6d852 --jit: |-
-    ruby 2.7.0dev (2019-06-11T16:16:14Z trunk 6db2d6d852) +JIT [x86_64-linux]
-    last_commit=Add compaction support for more types.
-  23e3c1704b: |-
-    ruby 2.7.0dev (2019-06-11T16:16:45Z trunk 23e3c1704b) [x86_64-linux]
-    last_commit=* expand tabs.
-  23e3c1704b --jit: |-
-    ruby 2.7.0dev (2019-06-11T16:16:45Z trunk 23e3c1704b) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  4f9e7c95e4: |-
-    ruby 2.7.0dev (2019-06-11T16:16:49Z trunk 4f9e7c95e4) [x86_64-linux]
-    last_commit=* 2019-06-12
-  4f9e7c95e4 --jit: |-
-    ruby 2.7.0dev (2019-06-11T16:16:49Z trunk 4f9e7c95e4) +JIT [x86_64-linux]
-    last_commit=* 2019-06-12
-  5e018214e7: |-
-    ruby 2.7.0dev (2019-06-11T16:43:38Z trunk 5e018214e7) [x86_64-linux]
-    last_commit=Fix SystemStackError when calling a method in an unused refinement
-  5e018214e7 --jit: |-
-    ruby 2.7.0dev (2019-06-11T16:43:38Z trunk 5e018214e7) +JIT [x86_64-linux]
-    last_commit=Fix SystemStackError when calling a method in an unused refinement
-  c1d78a7f0e: |-
-    ruby 2.7.0dev (2019-06-11T22:44:11Z trunk c1d78a7f0e) [x86_64-linux]
-    last_commit=do_mutex_lock: release mutex before checking for interrupts (fixes issue 15360)
-  c1d78a7f0e --jit: |-
-    ruby 2.7.0dev (2019-06-11T22:44:11Z trunk c1d78a7f0e) +JIT [x86_64-linux]
-    last_commit=do_mutex_lock: release mutex before checking for interrupts (fixes issue 15360)
-  8354cfd03b: |-
-    ruby 2.7.0dev (2019-06-12T02:00:25Z trunk 8354cfd03b) [x86_64-linux]
-    last_commit=Treat "begin rescue end" correctly
-  8354cfd03b --jit: |-
-    ruby 2.7.0dev (2019-06-12T02:00:25Z trunk 8354cfd03b) +JIT [x86_64-linux]
-    last_commit=Treat "begin rescue end" correctly
-  9593e76ac2: |-
-    ruby 2.7.0dev (2019-06-12T06:25:06Z trunk 9593e76ac2) [x86_64-linux]
-    last_commit=Ripper::Lexer: fallback parse error token to the previous one
-  9593e76ac2 --jit: |-
-    ruby 2.7.0dev (2019-06-12T06:25:06Z trunk 9593e76ac2) +JIT [x86_64-linux]
-    last_commit=Ripper::Lexer: fallback parse error token to the previous one
-  88411d350e: |-
-    ruby 2.7.0dev (2019-06-12T06:30:07Z trunk 88411d350e) [x86_64-linux]
-    last_commit=Another incomplete string case
-  88411d350e --jit: |-
-    ruby 2.7.0dev (2019-06-12T06:30:07Z trunk 88411d350e) +JIT [x86_64-linux]
-    last_commit=Another incomplete string case
-  '1808029061': |-
-    ruby 2.7.0dev (2019-06-12T15:32:20Z trunk 1808029061) [x86_64-linux]
-    last_commit=make sync-default-gems GEM=irb
-  1808029061 --jit: |-
-    ruby 2.7.0dev (2019-06-12T15:32:20Z trunk 1808029061) +JIT [x86_64-linux]
-    last_commit=make sync-default-gems GEM=irb
-  8d84e119da: |-
-    ruby 2.7.0dev (2019-06-12T15:32:59Z trunk 8d84e119da) [x86_64-linux]
-    last_commit=* 2019-06-13
-  8d84e119da --jit: |-
-    ruby 2.7.0dev (2019-06-12T15:32:59Z trunk 8d84e119da) +JIT [x86_64-linux]
-    last_commit=* 2019-06-13
   2a26c1ea24: |-
     ruby 2.7.0dev (2019-06-12T15:41:00Z trunk 2a26c1ea24) [x86_64-linux]
     last_commit=Clarify the Ruby version support status in IRB more
@@ -6015,3 +5913,21 @@ commits:
   3a6f51ee35 --jit: |-
     ruby 2.7.0dev (2019-08-01T07:06:43Z trunk 3a6f51ee35) +JIT [x86_64-linux]
     last_commit=introduce ar_hint_t.
+  fd0e3bd249: |-
+    ruby 2.7.0dev (2019-08-01T07:19:49Z trunk fd0e3bd249) [x86_64-linux]
+    last_commit=fix VC 2013 compile error
+  fd0e3bd249 --jit: |-
+    ruby 2.7.0dev (2019-08-01T07:19:49Z trunk fd0e3bd249) +JIT [x86_64-linux]
+    last_commit=fix VC 2013 compile error
+  d488464106: |-
+    ruby 2.7.0dev (2019-08-01T07:35:43Z trunk d488464106) [x86_64-linux]
+    last_commit=Use predefined idOr
+  d488464106 --jit: |-
+    ruby 2.7.0dev (2019-08-01T07:35:43Z trunk d488464106) +JIT [x86_64-linux]
+    last_commit=Use predefined idOr
+  1549fbfda5: |-
+    ruby 2.7.0dev (2019-08-01T07:40:03Z trunk 1549fbfda5) [x86_64-linux]
+    last_commit=Use predefined idTo_proc
+  1549fbfda5 --jit: |-
+    ruby 2.7.0dev (2019-08-01T07:40:03Z trunk 1549fbfda5) +JIT [x86_64-linux]
+    last_commit=Use predefined idTo_proc
