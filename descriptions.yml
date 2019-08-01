@@ -5979,3 +5979,39 @@ commits:
   7463867106 --jit: |-
     ruby 2.7.0dev (2019-08-01T02:22:43Z trunk 7463867106) +JIT [x86_64-linux]
     last_commit=use internal_id.
+  f45bb760fb: |-
+    ruby 2.7.0dev (2019-08-01T05:25:15Z trunk f45bb760fb) [x86_64-linux]
+    last_commit=signal.c: make signame_prefix a nul-terminated string
+  f45bb760fb --jit: |-
+    ruby 2.7.0dev (2019-08-01T05:25:15Z trunk f45bb760fb) +JIT [x86_64-linux]
+    last_commit=signal.c: make signame_prefix a nul-terminated string
+  d2f8e03f34: |-
+    ruby 2.7.0dev (2019-08-01T05:27:19Z trunk d2f8e03f34) [x86_64-linux]
+    last_commit=* expand tabs.
+  d2f8e03f34 --jit: |-
+    ruby 2.7.0dev (2019-08-01T05:27:19Z trunk d2f8e03f34) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  5d33f78716: |-
+    ruby 2.7.0dev (2019-08-01T07:00:59Z trunk 5d33f78716) [x86_64-linux]
+    last_commit=fix tracepoint + backtrace SEGV
+  5d33f78716 --jit: |-
+    ruby 2.7.0dev (2019-08-01T07:00:59Z trunk 5d33f78716) +JIT [x86_64-linux]
+    last_commit=fix tracepoint + backtrace SEGV
+  19d3c80e81: |-
+    ruby 2.7.0dev (2019-08-01T07:00:59Z trunk 19d3c80e81) [x86_64-linux]
+    last_commit=calc_lineno(): add assertions
+  19d3c80e81 --jit: |-
+    ruby 2.7.0dev (2019-08-01T07:00:59Z trunk 19d3c80e81) +JIT [x86_64-linux]
+    last_commit=calc_lineno(): add assertions
+  e18e785253: |-
+    ruby 2.7.0dev (2019-08-01T07:04:09Z trunk e18e785253) [x86_64-linux]
+    last_commit=* expand tabs.
+  e18e785253 --jit: |-
+    ruby 2.7.0dev (2019-08-01T07:04:09Z trunk e18e785253) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  3a6f51ee35: |-
+    ruby 2.7.0dev (2019-08-01T07:06:43Z trunk 3a6f51ee35) [x86_64-linux]
+    last_commit=introduce ar_hint_t.
+  3a6f51ee35 --jit: |-
+    ruby 2.7.0dev (2019-08-01T07:06:43Z trunk 3a6f51ee35) +JIT [x86_64-linux]
+    last_commit=introduce ar_hint_t.
