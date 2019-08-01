@@ -941,6 +941,8 @@ results:
     6db2d6d852: 3384931.049
     312879693f: 3394256.924
     05ae2c11fa: 3356066.275
+    a5ea55feb4: 2979468.041
+    bce348204f: 3389363.071
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1881,6 +1883,8 @@ results:
     6db2d6d852: 3288994.947
     312879693f: 3412001.245
     05ae2c11fa: 3344714.171
+    a5ea55feb4: 3396973.881
+    bce348204f: 3062451.618
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2821,6 +2825,8 @@ results:
     6db2d6d852: 1854604.816
     312879693f: 1867209.206
     05ae2c11fa: 1713446.47
+    a5ea55feb4: 1888717.102
+    bce348204f: 1866011.684
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -3761,6 +3767,8 @@ results:
     6db2d6d852: 2749680.923
     312879693f: 2379554.594
     05ae2c11fa: 2769662.412
+    a5ea55feb4: 2397895.947
+    bce348204f: 2753216.909
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -4701,6 +4709,8 @@ results:
     6db2d6d852: 3608601.396
     312879693f: 3691483.418
     05ae2c11fa: 3396745.296
+    a5ea55feb4: 3673238.271
+    bce348204f: 3636235.756
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -5641,6 +5651,8 @@ results:
     6db2d6d852: 3580601.818
     312879693f: 3096164.607
     05ae2c11fa: 3613034.997
+    a5ea55feb4: 3678789.301
+    bce348204f: 3667604.139
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -6581,6 +6593,8 @@ results:
     6db2d6d852: 1986663.901
     312879693f: 2003224.032
     05ae2c11fa: 2006926.471
+    a5ea55feb4: 1867358.714
+    bce348204f: 1994894.088
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -7521,3 +7535,5 @@ results:
     6db2d6d852: 2909586.923
     312879693f: 2672604.97
     05ae2c11fa: 2987423.52
+    a5ea55feb4: 2982504.04
+    bce348204f: 2772587.366
