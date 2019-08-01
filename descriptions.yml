@@ -9,102 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  614154bbb6: |-
-    ruby 2.7.0dev (2019-06-09T13:25:56+09:00 trunk 614154bbb6) [x86_64-linux]
-    last_commit=Added missing dependency for rake examples.
-  614154bbb6 --jit: |-
-    ruby 2.7.0dev (2019-06-09T13:25:56+09:00 trunk 614154bbb6) +JIT [x86_64-linux]
-    last_commit=Added missing dependency for rake examples.
-  60af6fef3c: |-
-    ruby 2.7.0dev (2019-06-10T19:45:00+09:00 trunk 60af6fef3c) [x86_64-linux]
-    last_commit=Fix Resolv specs to not depend on a system /etc/hosts file
-  60af6fef3c --jit: |-
-    ruby 2.7.0dev (2019-06-10T19:45:00+09:00 trunk 60af6fef3c) +JIT [x86_64-linux]
-    last_commit=Fix Resolv specs to not depend on a system /etc/hosts file
-  626ae5a9b6: |-
-    ruby 2.7.0dev (2019-06-10T19:47:08+09:00 trunk 626ae5a9b6) [x86_64-linux]
-    last_commit=Resolv specs should pass on Windows now
-  626ae5a9b6 --jit: |-
-    ruby 2.7.0dev (2019-06-10T19:47:08+09:00 trunk 626ae5a9b6) +JIT [x86_64-linux]
-    last_commit=Resolv specs should pass on Windows now
-  b9996b7b32: |-
-    ruby 2.7.0dev (2019-06-10T19:48:08+09:00 trunk b9996b7b32) [x86_64-linux]
-    last_commit=* 2019-06-10
-  b9996b7b32 --jit: |-
-    ruby 2.7.0dev (2019-06-10T19:48:08+09:00 trunk b9996b7b32) +JIT [x86_64-linux]
-    last_commit=* 2019-06-10
-  973fd18f11: |-
-    ruby 2.7.0dev (2019-06-10T21:13:14+09:00 trunk 973fd18f11) [x86_64-linux]
-    last_commit=Add a benchmark of irb boot time
-  973fd18f11 --jit: |-
-    ruby 2.7.0dev (2019-06-10T21:13:14+09:00 trunk 973fd18f11) +JIT [x86_64-linux]
-    last_commit=Add a benchmark of irb boot time
-  976c689ad4: |-
-    ruby 2.7.0dev (2019-06-10T21:18:56+09:00 trunk 976c689ad4) [x86_64-linux]
-    last_commit=irb: defer requiring rdoc to improve the start up time
-  976c689ad4 --jit: |-
-    ruby 2.7.0dev (2019-06-10T21:18:56+09:00 trunk 976c689ad4) +JIT [x86_64-linux]
-    last_commit=irb: defer requiring rdoc to improve the start up time
-  880204cf55: |-
-    ruby 2.7.0dev (2019-06-10T21:45:46+09:00 trunk 880204cf55) [x86_64-linux]
-    last_commit=irb/cmd/help.rb: return nil after the redefinition
-  880204cf55 --jit: |-
-    ruby 2.7.0dev (2019-06-10T21:45:46+09:00 trunk 880204cf55) +JIT [x86_64-linux]
-    last_commit=irb/cmd/help.rb: return nil after the redefinition
-  caa90202c9: |-
-    ruby 2.7.0dev (2019-06-10T22:04:52+09:00 trunk caa90202c9) [x86_64-linux]
-    last_commit=Make sure to suppress .irbrc on benchmark
-  caa90202c9 --jit: |-
-    ruby 2.7.0dev (2019-06-10T22:04:52+09:00 trunk caa90202c9) +JIT [x86_64-linux]
-    last_commit=Make sure to suppress .irbrc on benchmark
-  02155da7ba: |-
-    ruby 2.7.0dev (2019-06-10T22:35:32+09:00 trunk 02155da7ba) [x86_64-linux]
-    last_commit=Make file2lastrev timezone consistent with git log
-  02155da7ba --jit: |-
-    ruby 2.7.0dev (2019-06-10T22:35:32+09:00 trunk 02155da7ba) +JIT [x86_64-linux]
-    last_commit=Make file2lastrev timezone consistent with git log
-  f0bfa71ab3: |-
-    ruby 2.7.0dev (2019-06-10T14:31:07Z trunk f0bfa71ab3) [x86_64-linux]
-    last_commit=Use UTC for file2lastrev timezone
-  f0bfa71ab3 --jit: |-
-    ruby 2.7.0dev (2019-06-10T14:31:07Z trunk f0bfa71ab3) +JIT [x86_64-linux]
-    last_commit=Use UTC for file2lastrev timezone
-  be6b462489: |-
-    ruby 2.7.0dev (2019-06-10T15:20:10Z trunk be6b462489) [x86_64-linux]
-    last_commit=Use checktype for performance
-  be6b462489 --jit: |-
-    ruby 2.7.0dev (2019-06-10T15:20:10Z trunk be6b462489) +JIT [x86_64-linux]
-    last_commit=Use checktype for performance
-  d7e7e99862: |-
-    ruby 2.7.0dev (2019-06-10T15:25:57Z trunk d7e7e99862) [x86_64-linux]
-    last_commit=* 2019-06-11
-  d7e7e99862 --jit: |-
-    ruby 2.7.0dev (2019-06-10T15:25:57Z trunk d7e7e99862) +JIT [x86_64-linux]
-    last_commit=* 2019-06-11
-  6096baea5d: |-
-    ruby 2.7.0dev (2019-06-10T21:45:49Z trunk 6096baea5d) [x86_64-linux]
-    last_commit=test/net/http/test_http.rb: Extend the timeout
-  6096baea5d --jit: |-
-    ruby 2.7.0dev (2019-06-10T21:45:49Z trunk 6096baea5d) +JIT [x86_64-linux]
-    last_commit=test/net/http/test_http.rb: Extend the timeout
-  de4b2930f7: |-
-    ruby 2.7.0dev (2019-06-10T21:53:33Z trunk de4b2930f7) [x86_64-linux]
-    last_commit=ext/socket/ipsocket.c: Use SO_REUSEADDR for local_host/port
-  de4b2930f7 --jit: |-
-    ruby 2.7.0dev (2019-06-10T21:53:33Z trunk de4b2930f7) +JIT [x86_64-linux]
-    last_commit=ext/socket/ipsocket.c: Use SO_REUSEADDR for local_host/port
-  fe9701ee00: |-
-    ruby 2.7.0dev (2019-06-10T21:56:46Z trunk fe9701ee00) [x86_64-linux]
-    last_commit=* expand tabs.
-  fe9701ee00 --jit: |-
-    ruby 2.7.0dev (2019-06-10T21:56:46Z trunk fe9701ee00) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  4adc6f07ef: |-
-    ruby 2.7.0dev (2019-06-10T22:17:59Z trunk 4adc6f07ef) [x86_64-linux]
-    last_commit=test/lib/test/unit/assertions.rb (assert_cpu_usage_low): Relax the limit
-  4adc6f07ef --jit: |-
-    ruby 2.7.0dev (2019-06-10T22:17:59Z trunk 4adc6f07ef) +JIT [x86_64-linux]
-    last_commit=test/lib/test/unit/assertions.rb (assert_cpu_usage_low): Relax the limit
   e4364dbf6e: |-
     ruby 2.7.0dev (2019-06-11T03:16:26Z trunk e4364dbf6e) [x86_64-linux]
     last_commit=Fixed the code-style with the upstream rule.
@@ -6015,3 +5919,33 @@ commits:
   5ad2dfd8dc --jit: |-
     ruby 2.7.0dev (2019-07-31T17:34:23Z trunk 5ad2dfd8dc) +JIT [x86_64-linux]
     last_commit=Revert "Let prev EP move"
+  a1a198d03a: |-
+    ruby 2.7.0dev (2019-07-31T20:16:20Z trunk a1a198d03a) [x86_64-linux]
+    last_commit=File.realpath can raise ENOTDIR
+  a1a198d03a --jit: |-
+    ruby 2.7.0dev (2019-07-31T20:16:20Z trunk a1a198d03a) +JIT [x86_64-linux]
+    last_commit=File.realpath can raise ENOTDIR
+  43d74776a1: |-
+    ruby 2.7.0dev (2019-07-31T20:21:42Z trunk 43d74776a1) [x86_64-linux]
+    last_commit=check hash_hint is different.
+  43d74776a1 --jit: |-
+    ruby 2.7.0dev (2019-07-31T20:21:42Z trunk 43d74776a1) +JIT [x86_64-linux]
+    last_commit=check hash_hint is different.
+  deddc80476: |-
+    ruby 2.7.0dev (2019-07-31T20:48:22Z trunk deddc80476) [x86_64-linux]
+    last_commit=HASH_ASSERT() respects HASH_DEBUG
+  deddc80476 --jit: |-
+    ruby 2.7.0dev (2019-07-31T20:48:22Z trunk deddc80476) +JIT [x86_64-linux]
+    last_commit=HASH_ASSERT() respects HASH_DEBUG
+  bd1052d55d: |-
+    ruby 2.7.0dev (2019-07-31T20:50:58Z trunk bd1052d55d) [x86_64-linux]
+    last_commit=use hash_ar_table_set() directly
+  bd1052d55d --jit: |-
+    ruby 2.7.0dev (2019-07-31T20:50:58Z trunk bd1052d55d) +JIT [x86_64-linux]
+    last_commit=use hash_ar_table_set() directly
+  117241b3c7: |-
+    ruby 2.7.0dev (2019-07-31T20:59:04Z trunk 117241b3c7) [x86_64-linux]
+    last_commit=make inline functions from macros.
+  117241b3c7 --jit: |-
+    ruby 2.7.0dev (2019-07-31T20:59:04Z trunk 117241b3c7) +JIT [x86_64-linux]
+    last_commit=make inline functions from macros.
