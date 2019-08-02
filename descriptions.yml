@@ -5931,3 +5931,51 @@ commits:
   eb638b75b3 --jit: |-
     ruby 2.7.0dev (2019-08-02T12:09:43Z trunk eb638b75b3) +JIT [x86_64-linux]
     last_commit=It can be share to use CoreAssertions for default gems.
+  a1727e43af: |-
+    ruby 2.7.0dev (2019-08-02T13:46:15Z trunk a1727e43af) [x86_64-linux]
+    last_commit=Remove opt_nil_p test to remove warning for now
+  a1727e43af --jit: |-
+    ruby 2.7.0dev (2019-08-02T13:46:15Z trunk a1727e43af) +JIT [x86_64-linux]
+    last_commit=Remove opt_nil_p test to remove warning for now
+  247b06d400: |-
+    ruby 2.7.0dev (2019-08-02T14:01:54Z trunk 247b06d400) [x86_64-linux]
+    last_commit=Revert "Give up `brew update` on Travis"
+  247b06d400 --jit: |-
+    ruby 2.7.0dev (2019-08-02T14:01:54Z trunk 247b06d400) +JIT [x86_64-linux]
+    last_commit=Revert "Give up `brew update` on Travis"
+  e9e17cbc05: |-
+    ruby 2.7.0dev (2019-08-02T14:17:19Z trunk e9e17cbc05) [x86_64-linux]
+    last_commit=parse.y: make a warning for __FILE__ in eval by default
+  e9e17cbc05 --jit: |-
+    ruby 2.7.0dev (2019-08-02T14:17:19Z trunk e9e17cbc05) +JIT [x86_64-linux]
+    last_commit=parse.y: make a warning for __FILE__ in eval by default
+  '086ffe72c7': |-
+    ruby 2.7.0dev (2019-08-02T14:25:38Z trunk 086ffe72c7) [x86_64-linux]
+    last_commit=Revert "Revert "Add a specialized instruction for `.nil?` calls""
+  '086ffe72c7 --jit': |-
+    ruby 2.7.0dev (2019-08-02T14:25:38Z trunk 086ffe72c7) +JIT [x86_64-linux]
+    last_commit=Revert "Revert "Add a specialized instruction for `.nil?` calls""
+  536ba7c81e: |-
+    ruby 2.7.0dev (2019-08-02T14:29:58Z trunk 536ba7c81e) [x86_64-linux]
+    last_commit=Revert "Remove opt_nil_p test to remove warning for now"
+  536ba7c81e --jit: |-
+    ruby 2.7.0dev (2019-08-02T14:29:58Z trunk 536ba7c81e) +JIT [x86_64-linux]
+    last_commit=Revert "Remove opt_nil_p test to remove warning for now"
+  4eb54c49f7: |-
+    ruby 2.7.0dev (2019-08-02T15:55:37Z trunk 4eb54c49f7) [x86_64-linux]
+    last_commit=Stop using homebrew addon
+  4eb54c49f7 --jit: |-
+    ruby 2.7.0dev (2019-08-02T15:55:37Z trunk 4eb54c49f7) +JIT [x86_64-linux]
+    last_commit=Stop using homebrew addon
+  60ac8ad194: |-
+    ruby 2.7.0dev (2019-08-02T15:55:56Z trunk 60ac8ad194) [x86_64-linux]
+    last_commit=* 2019-08-03
+  60ac8ad194 --jit: |-
+    ruby 2.7.0dev (2019-08-02T15:55:56Z trunk 60ac8ad194) +JIT [x86_64-linux]
+    last_commit=* 2019-08-03
+  44ddfec0bd: |-
+    ruby 2.7.0dev (2019-08-02T16:07:48Z trunk 44ddfec0bd) [x86_64-linux]
+    last_commit=Add missing backslash
+  44ddfec0bd --jit: |-
+    ruby 2.7.0dev (2019-08-02T16:07:48Z trunk 44ddfec0bd) +JIT [x86_64-linux]
+    last_commit=Add missing backslash
