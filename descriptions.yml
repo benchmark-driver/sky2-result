@@ -6009,3 +6009,21 @@ commits:
   e03b3b4ae0 --jit: |-
     ruby 2.7.0dev (2019-08-02T06:59:47Z trunk e03b3b4ae0) +JIT [x86_64-linux]
     last_commit=add debug_counters to check details.
+  ee1334189b: |-
+    ruby 2.7.0dev (2019-08-02T08:51:45Z trunk ee1334189b) [x86_64-linux]
+    last_commit=Fix uplevel
+  ee1334189b --jit: |-
+    ruby 2.7.0dev (2019-08-02T08:51:45Z trunk ee1334189b) +JIT [x86_64-linux]
+    last_commit=Fix uplevel
+  6640eeb6db: |-
+    ruby 2.7.0dev (2019-08-02T09:11:05Z trunk 6640eeb6db) [x86_64-linux]
+    last_commit=Deduplicate common code
+  6640eeb6db --jit: |-
+    ruby 2.7.0dev (2019-08-02T09:11:05Z trunk 6640eeb6db) +JIT [x86_64-linux]
+    last_commit=Deduplicate common code
+  9921b63ac4: |-
+    ruby 2.7.0dev (2019-08-02T10:04:38Z trunk 9921b63ac4) [x86_64-linux]
+    last_commit=Make float_decode_internal mantissa int
+  9921b63ac4 --jit: |-
+    ruby 2.7.0dev (2019-08-02T10:04:38Z trunk 9921b63ac4) +JIT [x86_64-linux]
+    last_commit=Make float_decode_internal mantissa int
