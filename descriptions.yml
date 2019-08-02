@@ -5997,3 +5997,15 @@ commits:
   19006b711d --jit: |-
     ruby 2.7.0dev (2019-08-02T02:28:24Z trunk 19006b711d) +JIT [x86_64-linux]
     last_commit=Expanded f_quo
+  a0980f2446: |-
+    ruby 2.7.0dev (2019-08-02T06:03:34Z trunk a0980f2446) [x86_64-linux]
+    last_commit=Revert "Add a specialized instruction for `.nil?` calls"
+  a0980f2446 --jit: |-
+    ruby 2.7.0dev (2019-08-02T06:03:34Z trunk a0980f2446) +JIT [x86_64-linux]
+    last_commit=Revert "Add a specialized instruction for `.nil?` calls"
+  e03b3b4ae0: |-
+    ruby 2.7.0dev (2019-08-02T06:59:47Z trunk e03b3b4ae0) [x86_64-linux]
+    last_commit=add debug_counters to check details.
+  e03b3b4ae0 --jit: |-
+    ruby 2.7.0dev (2019-08-02T06:59:47Z trunk e03b3b4ae0) +JIT [x86_64-linux]
+    last_commit=add debug_counters to check details.
