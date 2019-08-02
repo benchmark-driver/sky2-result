@@ -9,108 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  2a26c1ea24: |-
-    ruby 2.7.0dev (2019-06-12T15:41:00Z trunk 2a26c1ea24) [x86_64-linux]
-    last_commit=Clarify the Ruby version support status in IRB more
-  2a26c1ea24 --jit: |-
-    ruby 2.7.0dev (2019-06-12T15:41:00Z trunk 2a26c1ea24) +JIT [x86_64-linux]
-    last_commit=Clarify the Ruby version support status in IRB more
-  7f79a86d8b: |-
-    ruby 2.7.0dev (2019-06-13T06:30:03Z trunk 7f79a86d8b) [x86_64-linux]
-    last_commit=add comments to mention sort.reverse!
-  7f79a86d8b --jit: |-
-    ruby 2.7.0dev (2019-06-13T06:30:03Z trunk 7f79a86d8b) +JIT [x86_64-linux]
-    last_commit=add comments to mention sort.reverse!
-  69509df2f4: |-
-    ruby 2.7.0dev (2019-06-13T07:42:31Z trunk 69509df2f4) [x86_64-linux]
-    last_commit=squeeze space [ci skip]
-  69509df2f4 --jit: |-
-    ruby 2.7.0dev (2019-06-13T07:42:31Z trunk 69509df2f4) +JIT [x86_64-linux]
-    last_commit=squeeze space [ci skip]
-  02b1a85385: |-
-    ruby 2.7.0dev (2019-06-13T09:05:04Z trunk 02b1a85385) [x86_64-linux]
-    last_commit=remove 2 redundant calls to rb_str_dup
-  02b1a85385 --jit: |-
-    ruby 2.7.0dev (2019-06-13T09:05:04Z trunk 02b1a85385) +JIT [x86_64-linux]
-    last_commit=remove 2 redundant calls to rb_str_dup
-  bdc8b3789a: |-
-    ruby 2.7.0dev (2019-06-13T09:07:19Z trunk bdc8b3789a) [x86_64-linux]
-    last_commit=* expand tabs.
-  bdc8b3789a --jit: |-
-    ruby 2.7.0dev (2019-06-13T09:07:19Z trunk bdc8b3789a) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  e717d6faa8: |-
-    ruby 2.7.0dev (2019-06-13T09:13:05Z trunk e717d6faa8) [x86_64-linux]
-    last_commit=IO#set_encoding_by_bom
-  e717d6faa8 --jit: |-
-    ruby 2.7.0dev (2019-06-13T09:13:05Z trunk e717d6faa8) +JIT [x86_64-linux]
-    last_commit=IO#set_encoding_by_bom
-  f169043d81: |-
-    ruby 2.7.0dev (2019-06-13T09:44:32Z trunk f169043d81) [x86_64-linux]
-    last_commit=Add pipeline operator [Feature #15799]
-  f169043d81 --jit: |-
-    ruby 2.7.0dev (2019-06-13T09:44:32Z trunk f169043d81) +JIT [x86_64-linux]
-    last_commit=Add pipeline operator [Feature #15799]
-  043f010c28: |-
-    ruby 2.7.0dev (2019-06-13T13:03:10Z trunk 043f010c28) [x86_64-linux]
-    last_commit=parse.y: moved pipeline to expr
-  043f010c28 --jit: |-
-    ruby 2.7.0dev (2019-06-13T13:03:10Z trunk 043f010c28) +JIT [x86_64-linux]
-    last_commit=parse.y: moved pipeline to expr
-  aa7211836b: |-
-    ruby 2.7.0dev (2019-06-13T13:19:47Z trunk aa7211836b) [x86_64-linux]
-    last_commit=Continue to the next line beginning with a pipeline
-  aa7211836b --jit: |-
-    ruby 2.7.0dev (2019-06-13T13:19:47Z trunk aa7211836b) +JIT [x86_64-linux]
-    last_commit=Continue to the next line beginning with a pipeline
-  e75c278183: |-
-    ruby 2.7.0dev (2019-06-13T13:44:01Z trunk e75c278183) [x86_64-linux]
-    last_commit=test/lib/test/unit/assertions.rb (assert_cpu_usage_low): tweak the wait
-  e75c278183 --jit: |-
-    ruby 2.7.0dev (2019-06-13T13:44:01Z trunk e75c278183) +JIT [x86_64-linux]
-    last_commit=test/lib/test/unit/assertions.rb (assert_cpu_usage_low): tweak the wait
-  56d595198b: |-
-    ruby 2.7.0dev (2019-06-13T14:04:41Z trunk 56d595198b) [x86_64-linux]
-    last_commit=test/webrick/test_ssl_server.rb: Use EnvUtil.timeout for timeout scale factor
-  56d595198b --jit: |-
-    ruby 2.7.0dev (2019-06-13T14:04:41Z trunk 56d595198b) +JIT [x86_64-linux]
-    last_commit=test/webrick/test_ssl_server.rb: Use EnvUtil.timeout for timeout scale factor
-  64310b2573: |-
-    ruby 2.7.0dev (2019-06-13T22:42:53Z trunk 64310b2573) [x86_64-linux]
-    last_commit=Add Reline.prompt_proc
-  64310b2573 --jit: |-
-    ruby 2.7.0dev (2019-06-13T22:42:53Z trunk 64310b2573) +JIT [x86_64-linux]
-    last_commit=Add Reline.prompt_proc
-  3757e492fb: |-
-    ruby 2.7.0dev (2019-06-13T22:46:01Z trunk 3757e492fb) [x86_64-linux]
-    last_commit=* 2019-06-14
-  3757e492fb --jit: |-
-    ruby 2.7.0dev (2019-06-13T22:46:01Z trunk 3757e492fb) +JIT [x86_64-linux]
-    last_commit=* 2019-06-14
-  f80771f0a9: |-
-    ruby 2.7.0dev (2019-06-13T23:26:06Z trunk f80771f0a9) [x86_64-linux]
-    last_commit=Use Reline.prompt_proc in IRB
-  f80771f0a9 --jit: |-
-    ruby 2.7.0dev (2019-06-13T23:26:06Z trunk f80771f0a9) +JIT [x86_64-linux]
-    last_commit=Use Reline.prompt_proc in IRB
-  d0e5564140: |-
-    ruby 2.7.0dev (2019-06-13T23:45:35Z trunk d0e5564140) [x86_64-linux]
-    last_commit=Set allow_escape_code for prompt
-  d0e5564140 --jit: |-
-    ruby 2.7.0dev (2019-06-13T23:45:35Z trunk d0e5564140) +JIT [x86_64-linux]
-    last_commit=Set allow_escape_code for prompt
-  9402d019a5: |-
-    ruby 2.7.0dev (2019-06-13T23:45:52Z trunk 9402d019a5) [x86_64-linux]
-    last_commit=Remove debug print
-  9402d019a5 --jit: |-
-    ruby 2.7.0dev (2019-06-13T23:45:52Z trunk 9402d019a5) +JIT [x86_64-linux]
-    last_commit=Remove debug print
-  50bb8b6052: |-
-    ruby 2.7.0dev (2019-06-13T23:46:22Z trunk 50bb8b6052) [x86_64-linux]
-    last_commit=Use Exception#full_message for traceback
-  50bb8b6052 --jit: |-
-    ruby 2.7.0dev (2019-06-13T23:46:22Z trunk 50bb8b6052) +JIT [x86_64-linux]
-    last_commit=Use Exception#full_message for traceback
   aa32465ab3: |-
     ruby 2.7.0dev (2019-06-14T06:31:03Z trunk aa32465ab3) [x86_64-linux]
     last_commit=irb.rb: [DOC] the default prompt includes :PROMPT_N [ci skip]
@@ -6027,3 +5925,9 @@ commits:
   9921b63ac4 --jit: |-
     ruby 2.7.0dev (2019-08-02T10:04:38Z trunk 9921b63ac4) +JIT [x86_64-linux]
     last_commit=Make float_decode_internal mantissa int
+  eb638b75b3: |-
+    ruby 2.7.0dev (2019-08-02T12:09:43Z trunk eb638b75b3) [x86_64-linux]
+    last_commit=It can be share to use CoreAssertions for default gems.
+  eb638b75b3 --jit: |-
+    ruby 2.7.0dev (2019-08-02T12:09:43Z trunk eb638b75b3) +JIT [x86_64-linux]
+    last_commit=It can be share to use CoreAssertions for default gems.
