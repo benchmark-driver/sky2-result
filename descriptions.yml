@@ -5973,3 +5973,27 @@ commits:
   8ba8ccc3cc --jit: |-
     ruby 2.7.0dev (2019-08-01T15:55:03Z trunk 8ba8ccc3cc) +JIT [x86_64-linux]
     last_commit=* 2019-08-02
+  6de61fb9ed: |-
+    ruby 2.7.0dev (2019-08-02T02:26:51Z trunk 6de61fb9ed) [x86_64-linux]
+    last_commit=Expanded f_mod
+  6de61fb9ed --jit: |-
+    ruby 2.7.0dev (2019-08-02T02:26:51Z trunk 6de61fb9ed) +JIT [x86_64-linux]
+    last_commit=Expanded f_mod
+  ffe4a6ebf9: |-
+    ruby 2.7.0dev (2019-08-02T02:26:58Z trunk ffe4a6ebf9) [x86_64-linux]
+    last_commit=Use RB_INTEGER_TYPE_P
+  ffe4a6ebf9 --jit: |-
+    ruby 2.7.0dev (2019-08-02T02:26:58Z trunk ffe4a6ebf9) +JIT [x86_64-linux]
+    last_commit=Use RB_INTEGER_TYPE_P
+  f9a0492b76: |-
+    ruby 2.7.0dev (2019-08-02T02:26:58Z trunk f9a0492b76) [x86_64-linux]
+    last_commit=Expanded f_ceil
+  f9a0492b76 --jit: |-
+    ruby 2.7.0dev (2019-08-02T02:26:58Z trunk f9a0492b76) +JIT [x86_64-linux]
+    last_commit=Expanded f_ceil
+  19006b711d: |-
+    ruby 2.7.0dev (2019-08-02T02:28:24Z trunk 19006b711d) [x86_64-linux]
+    last_commit=Expanded f_quo
+  19006b711d --jit: |-
+    ruby 2.7.0dev (2019-08-02T02:28:24Z trunk 19006b711d) +JIT [x86_64-linux]
+    last_commit=Expanded f_quo
