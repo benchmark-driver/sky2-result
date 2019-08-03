@@ -5985,3 +5985,807 @@ commits:
   c683763865 --jit: |-
     ruby 2.7.0dev (2019-08-02T22:44:44Z trunk c683763865) +JIT [x86_64-linux]
     last_commit=Use source_location instead of eval(__FILE__,binding) in Binding#irb
+  4c2255fd5c: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 4c2255fd5c) [x86_64-linux]
+    last_commit=[bundler/bundler] Added Ruby 2.6 to dsl.
+  4c2255fd5c --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 4c2255fd5c) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Added Ruby 2.6 to dsl.
+  b95756c7a9: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk b95756c7a9) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary condition
+  b95756c7a9 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk b95756c7a9) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary condition
+  580e165873: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 580e165873) [x86_64-linux]
+    last_commit=[bundler/bundler] Respect color option when instantiating shells
+  580e165873 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 580e165873) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Respect color option when instantiating shells
+  214e992556: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 214e992556) [x86_64-linux]
+    last_commit=[bundler/bundler] Be explicit about coloring in specs that need that
+  214e992556 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 214e992556) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Be explicit about coloring in specs that need that
+  38df9e18da: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 38df9e18da) [x86_64-linux]
+    last_commit=[bundler/bundler] Add missing no-color source specs
+  38df9e18da --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 38df9e18da) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Add missing no-color source specs
+  1a4bb80cd7: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 1a4bb80cd7) [x86_64-linux]
+    last_commit=[bundler/bundler] Skip specs that need coloring on Windows
+  1a4bb80cd7 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 1a4bb80cd7) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Skip specs that need coloring on Windows
+  c5737a9ae1: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk c5737a9ae1) [x86_64-linux]
+    last_commit=[bundler/bundler] Migrate thor to use relative requires
+  c5737a9ae1 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk c5737a9ae1) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Migrate thor to use relative requires
+  9596f43250: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 9596f43250) [x86_64-linux]
+    last_commit=[bundler/bundler] Migrate two more requires to be relative
+  9596f43250 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 9596f43250) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Migrate two more requires to be relative
+  a27198f648: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk a27198f648) [x86_64-linux]
+    last_commit=[bundler/bundler] Migrate requires from exe/ to also be relative
+  a27198f648 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk a27198f648) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Migrate requires from exe/ to also be relative
+  1c070c9c29: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 1c070c9c29) [x86_64-linux]
+    last_commit=[bundler/bundler] Move "on releasing" to a RSpec context
+  1c070c9c29 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 1c070c9c29) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Move "on releasing" to a RSpec context
+  d8d5e16305: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk d8d5e16305) [x86_64-linux]
+    last_commit=[bundler/bundler] Use a clean gemspec for gem helper specs
+  d8d5e16305 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk d8d5e16305) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Use a clean gemspec for gem helper specs
+  c3ddd47ce7: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk c3ddd47ce7) [x86_64-linux]
+    last_commit=[bundler/bundler] Normalize file:// handling in specs
+  c3ddd47ce7 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk c3ddd47ce7) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Normalize file:// handling in specs
+  e111f38f34: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk e111f38f34) [x86_64-linux]
+    last_commit=[bundler/bundler] Fix file:// handling under Windows
+  e111f38f34 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk e111f38f34) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Fix file:// handling under Windows
+  81779e2246: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 81779e2246) [x86_64-linux]
+    last_commit=[bundler/bundler] Use rubygems utility if available
+  81779e2246 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 81779e2246) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Use rubygems utility if available
+  51bdc9433b: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 51bdc9433b) [x86_64-linux]
+    last_commit=[bundler/bundler] Normalize usages of `Gem::Util` in rubygems integration
+  51bdc9433b --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 51bdc9433b) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Normalize usages of `Gem::Util` in rubygems integration
+  a685a8643f: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk a685a8643f) [x86_64-linux]
+    last_commit=[bundler/bundler] Fix `rake release` not prompting for OTP code
+  a685a8643f --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk a685a8643f) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Fix `rake release` not prompting for OTP code
+  cad71f7089: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk cad71f7089) [x86_64-linux]
+    last_commit=[bundler/bundler] Migrate git proxy helpers to use Open3
+  cad71f7089 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk cad71f7089) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Migrate git proxy helpers to use Open3
+  10c0271f97: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 10c0271f97) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove duplicated `let`'s
+  10c0271f97 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:55Z trunk 10c0271f97) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove duplicated `let`'s
+  b014a2157f: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk b014a2157f) [x86_64-linux]
+    last_commit=[bundler/bundler] Factor out gemspec call inside `let`
+  b014a2157f --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk b014a2157f) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Factor out gemspec call inside `let`
+  a12557dbfd: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk a12557dbfd) [x86_64-linux]
+    last_commit=[bundler/bundler] Add `required_ruby_version` to gemspec template
+  a12557dbfd --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk a12557dbfd) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Add `required_ruby_version` to gemspec template
+  e59b57a3a7: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk e59b57a3a7) [x86_64-linux]
+    last_commit=[bundler/bundler] Fix thread leak in compact index specs
+  e59b57a3a7 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk e59b57a3a7) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Fix thread leak in compact index specs
+  4089f8df1e: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 4089f8df1e) [x86_64-linux]
+    last_commit=[bundler/bundler] Use real paths for `bundle clean`
+  4089f8df1e --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 4089f8df1e) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Use real paths for `bundle clean`
+  884f948a90: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 884f948a90) [x86_64-linux]
+    last_commit=[bundler/bundler] bundler/inline should always install gems to system path
+  884f948a90 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 884f948a90) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] bundler/inline should always install gems to system path
+  72daf37dee: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 72daf37dee) [x86_64-linux]
+    last_commit=[bundler/bundler] Fix a typo on a spec comment
+  72daf37dee --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 72daf37dee) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Fix a typo on a spec comment
+  1a8d9a0d5d: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 1a8d9a0d5d) [x86_64-linux]
+    last_commit=[bundler/bundler] Bump rubocop to 0.71
+  1a8d9a0d5d --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 1a8d9a0d5d) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Bump rubocop to 0.71
+  df011b0238: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk df011b0238) [x86_64-linux]
+    last_commit=[bundler/bundler] Lock rubocop-performance to 1.4.0
+  df011b0238 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk df011b0238) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Lock rubocop-performance to 1.4.0
+  33fdd87227: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 33fdd87227) [x86_64-linux]
+    last_commit=[bundler/bundler] Revert "Migrate requires from exe/ to also be relative"
+  33fdd87227 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 33fdd87227) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Revert "Migrate requires from exe/ to also be relative"
+  '2771789302': |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 2771789302) [x86_64-linux]
+    last_commit=[bundler/bundler] Don't re-resolve locked platform specific gems
+  2771789302 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 2771789302) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Don't re-resolve locked platform specific gems
+  f2cc018adb: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk f2cc018adb) [x86_64-linux]
+    last_commit=[bundler/bundler] Reuse `execute_bundle_gem` method
+  f2cc018adb --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk f2cc018adb) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Reuse `execute_bundle_gem` method
+  86757abd25: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 86757abd25) [x86_64-linux]
+    last_commit=[bundler/bundler] Fix local variable name
+  86757abd25 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 86757abd25) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Fix local variable name
+  bdcd1990ad: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk bdcd1990ad) [x86_64-linux]
+    last_commit=[bundler/bundler] Generate new gem development dependencies in Gemfile
+  bdcd1990ad --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk bdcd1990ad) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Generate new gem development dependencies in Gemfile
+  ed37de1c82: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk ed37de1c82) [x86_64-linux]
+    last_commit=[bundler/bundler] Inline `expanded_deps`
+  ed37de1c82 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk ed37de1c82) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Inline `expanded_deps`
+  e405aede09: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk e405aede09) [x86_64-linux]
+    last_commit=[bundler/bundler] Not sure how much this buys us, remove it
+  e405aede09 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk e405aede09) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Not sure how much this buys us, remove it
+  4b1395ab4a: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 4b1395ab4a) [x86_64-linux]
+    last_commit=[bundler/bundler] Clearer MissingRevision git errors
+  4b1395ab4a --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 4b1395ab4a) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Clearer MissingRevision git errors
+  e6dc7b5b5b: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk e6dc7b5b5b) [x86_64-linux]
+    last_commit=[bundler/bundler] Improve spec to be more realistic
+  e6dc7b5b5b --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk e6dc7b5b5b) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Improve spec to be more realistic
+  a375a4518f: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk a375a4518f) [x86_64-linux]
+    last_commit=[bundler/bundler] Correct default cache path
+  a375a4518f --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk a375a4518f) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Correct default cache path
+  5a56f4a541: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 5a56f4a541) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary `order_matters` param
+  5a56f4a541 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 5a56f4a541) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary `order_matters` param
+  2ccb3db5fb: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 2ccb3db5fb) [x86_64-linux]
+    last_commit=[bundler/bundler] Add missing mock
+  2ccb3db5fb --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 2ccb3db5fb) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Add missing mock
+  d761a0f6ff: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk d761a0f6ff) [x86_64-linux]
+    last_commit=[bundler/bundler] [Package] Always resolve remotely for --all-platforms
+  d761a0f6ff --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk d761a0f6ff) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] [Package] Always resolve remotely for --all-platforms
+  215d846ea5: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 215d846ea5) [x86_64-linux]
+    last_commit=[bundler/bundler] [Package] Dont always update on --all-platforms
+  215d846ea5 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 215d846ea5) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] [Package] Dont always update on --all-platforms
+  82bf064375: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 82bf064375) [x86_64-linux]
+    last_commit=[bundler/bundler] [Package] Ensure uninstallable gems are _never_ installed
+  82bf064375 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 82bf064375) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] [Package] Ensure uninstallable gems are _never_ installed
+  81a84076c2: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 81a84076c2) [x86_64-linux]
+    last_commit=[bundler/bundler] Don't persist the cache_all_platforms setting
+  81a84076c2 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 81a84076c2) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Don't persist the cache_all_platforms setting
+  2c262d137c: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 2c262d137c) [x86_64-linux]
+    last_commit=[bundler/bundler] Make spec easier to debug
+  2c262d137c --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 2c262d137c) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Make spec easier to debug
+  13e5bf3454: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 13e5bf3454) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove redundant assertion
+  13e5bf3454 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 13e5bf3454) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove redundant assertion
+  05c3b7c8a9: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 05c3b7c8a9) [x86_64-linux]
+    last_commit=[bundler/bundler] More specific assertion
+  05c3b7c8a9 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 05c3b7c8a9) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] More specific assertion
+  aae244569b: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk aae244569b) [x86_64-linux]
+    last_commit=[bundler/bundler] Reuse `gemfile` spec helper
+  aae244569b --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk aae244569b) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Reuse `gemfile` spec helper
+  2f1d52c266: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 2f1d52c266) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unused filter
+  2f1d52c266 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 2f1d52c266) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unused filter
+  8d9fc8466f: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 8d9fc8466f) [x86_64-linux]
+    last_commit=[bundler/bundler] Reuse `lockfile` spec helper
+  8d9fc8466f --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 8d9fc8466f) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Reuse `lockfile` spec helper
+  0dad89c0fe: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 0dad89c0fe) [x86_64-linux]
+    last_commit=[bundler/bundler] Fix typos
+  0dad89c0fe --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 0dad89c0fe) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Fix typos
+  f8c03b24ca: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk f8c03b24ca) [x86_64-linux]
+    last_commit=[bundler/bundler] Bump rubocop to 0.72.0
+  f8c03b24ca --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk f8c03b24ca) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Bump rubocop to 0.72.0
+  b2baf6bb02: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk b2baf6bb02) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary begin-end block
+  b2baf6bb02 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk b2baf6bb02) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary begin-end block
+  cef81eb8cc: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk cef81eb8cc) [x86_64-linux]
+    last_commit=[bundler/bundler] Make some specs more explicit
+  cef81eb8cc --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk cef81eb8cc) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Make some specs more explicit
+  ead2dc0ec9: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk ead2dc0ec9) [x86_64-linux]
+    last_commit=[bundler/bundler] [GemHelpers] Remove the special code path for ruby platform being its own generic
+  ead2dc0ec9 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk ead2dc0ec9) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] [GemHelpers] Remove the special code path for ruby platform being its own generic
+  3af9d8bb67: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 3af9d8bb67) [x86_64-linux]
+    last_commit=[bundler/bundler] Extract `current_platforms`
+  3af9d8bb67 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 3af9d8bb67) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Extract `current_platforms`
+  ff908983be: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk ff908983be) [x86_64-linux]
+    last_commit=[bundler/bundler] Extract `expanded_platforms`
+  ff908983be --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk ff908983be) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Extract `expanded_platforms`
+  d8cd45cb1a: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk d8cd45cb1a) [x86_64-linux]
+    last_commit=[bundler/bundler] Refactor some specs
+  d8cd45cb1a --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk d8cd45cb1a) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Refactor some specs
+  c1ca77281d: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk c1ca77281d) [x86_64-linux]
+    last_commit=[bundler/bundler] Add all platforms to lockfile by default
+  c1ca77281d --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk c1ca77281d) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Add all platforms to lockfile by default
+  dae6d303d5: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk dae6d303d5) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove now meaningless warning
+  dae6d303d5 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk dae6d303d5) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove now meaningless warning
+  6492f23d91: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 6492f23d91) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove now meaningless setting
+  6492f23d91 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 6492f23d91) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove now meaningless setting
+  6e0dc5594c: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 6e0dc5594c) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove now unused method
+  6e0dc5594c --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 6e0dc5594c) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove now unused method
+  d0c19d1f87: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk d0c19d1f87) [x86_64-linux]
+    last_commit=[bundler/bundler] Use `tap` for `current_platforms`
+  d0c19d1f87 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk d0c19d1f87) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Use `tap` for `current_platforms`
+  6cbe818c66: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 6cbe818c66) [x86_64-linux]
+    last_commit=[bundler/bundler] This seems to pass for me
+  6cbe818c66 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 6cbe818c66) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] This seems to pass for me
+  812dfa44f0: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 812dfa44f0) [x86_64-linux]
+    last_commit=[bundler/bundler] Refactor setting the encoding in quality specs
+  812dfa44f0 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 812dfa44f0) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Refactor setting the encoding in quality specs
+  56fd027aa6: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 56fd027aa6) [x86_64-linux]
+    last_commit=[bundler/bundler] Tweak some quality specs to check more files
+  56fd027aa6 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 56fd027aa6) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Tweak some quality specs to check more files
+  f399a2b796: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk f399a2b796) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary line
+  f399a2b796 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk f399a2b796) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary line
+  a181df7542: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk a181df7542) [x86_64-linux]
+    last_commit=[bundler/bundler] No need to make `Gem.refresh` a noop
+  a181df7542 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk a181df7542) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] No need to make `Gem.refresh` a noop
+  a6ce001bab: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk a6ce001bab) [x86_64-linux]
+    last_commit=[bundler/bundler] Change the refresh spec to not use `stubs_for`
+  a6ce001bab --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk a6ce001bab) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Change the refresh spec to not use `stubs_for`
+  f5cd02f362: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk f5cd02f362) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary test filter
+  f5cd02f362 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk f5cd02f362) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary test filter
+  fc42423b8d: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk fc42423b8d) [x86_64-linux]
+    last_commit=[bundler/bundler] Correct a rubygems test filter
+  fc42423b8d --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk fc42423b8d) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Correct a rubygems test filter
+  31541d7389: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 31541d7389) [x86_64-linux]
+    last_commit=[bundler/bundler] Drop rubygems 2.5.0 and 2.5.1 support
+  31541d7389 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 31541d7389) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Drop rubygems 2.5.0 and 2.5.1 support
+  ad3cba02cf: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk ad3cba02cf) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove redundant condition
+  ad3cba02cf --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk ad3cba02cf) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove redundant condition
+  33ce42dd5d: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 33ce42dd5d) [x86_64-linux]
+    last_commit=[bundler/bundler] Fix incorrect flag usage
+  33ce42dd5d --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 33ce42dd5d) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Fix incorrect flag usage
+  f73020d493: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk f73020d493) [x86_64-linux]
+    last_commit=[bundler/bundler] Always keep `bundle package --all` option
+  f73020d493 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk f73020d493) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Always keep `bundle package --all` option
+  4f5e1b6ebf: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 4f5e1b6ebf) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove `cache_command_is_package` feature flag
+  4f5e1b6ebf --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 4f5e1b6ebf) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove `cache_command_is_package` feature flag
+  a1549fba83: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk a1549fba83) [x86_64-linux]
+    last_commit=[bundler/bundler] Alias `cache` to `package` now
+  a1549fba83 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk a1549fba83) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Alias `cache` to `package` now
+  7b7caf9b55: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 7b7caf9b55) [x86_64-linux]
+    last_commit=[bundler/bundler] dsl_spec.rb - fix for Ruby core
+  7b7caf9b55 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 7b7caf9b55) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] dsl_spec.rb - fix for Ruby core
+  24062bd323: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 24062bd323) [x86_64-linux]
+    last_commit=[bundler/bundler] build_metadata.rb - fix 'warning: instance variable @git_commit_sha not initialized'
+  24062bd323 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 24062bd323) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] build_metadata.rb - fix 'warning: instance variable @git_commit_sha not initialized'
+  432285c004: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 432285c004) [x86_64-linux]
+    last_commit=[bundler/bundler] fix nested bundle exec's when bundler is a default gem
+  432285c004 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 432285c004) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] fix nested bundle exec's when bundler is a default gem
+  d6a2e082e6: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk d6a2e082e6) [x86_64-linux]
+    last_commit=[bundler/bundler] spec/bundler/shared_helpers_spec.rb - fixup after 7248
+  d6a2e082e6 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk d6a2e082e6) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] spec/bundler/shared_helpers_spec.rb - fixup after 7248
+  26f651796c: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 26f651796c) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary assignments
+  26f651796c --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 26f651796c) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary assignments
+  1b081cdd65: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 1b081cdd65) [x86_64-linux]
+    last_commit=[bundler/bundler] Improve test to make it more independent from env
+  1b081cdd65 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 1b081cdd65) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Improve test to make it more independent from env
+  '6794724548': |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 6794724548) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove uneeded bundler key
+  6794724548 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 6794724548) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove uneeded bundler key
+  55831647fb: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 55831647fb) [x86_64-linux]
+    last_commit=[bundler/bundler] Move environment reset to the only test needing it
+  55831647fb --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 55831647fb) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Move environment reset to the only test needing it
+  3e83fbddfa: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 3e83fbddfa) [x86_64-linux]
+    last_commit=[bundler/bundler] Add a comment to explain the initial reset
+  3e83fbddfa --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 3e83fbddfa) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Add a comment to explain the initial reset
+  3e10b4a0be: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 3e10b4a0be) [x86_64-linux]
+    last_commit=[bundler/bundler] Indentation fixes
+  3e10b4a0be --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 3e10b4a0be) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Indentation fixes
+  bd0f19f137: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk bd0f19f137) [x86_64-linux]
+    last_commit=[bundler/bundler] Don't need 1.8 compatibility
+  bd0f19f137 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk bd0f19f137) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Don't need 1.8 compatibility
+  bb6b9b4929: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk bb6b9b4929) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove redundant begin-end block
+  bb6b9b4929 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk bb6b9b4929) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove redundant begin-end block
+  a1c69991a5: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk a1c69991a5) [x86_64-linux]
+    last_commit=[bundler/bundler] Use a consistent requirement in binstub
+  a1c69991a5 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk a1c69991a5) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Use a consistent requirement in binstub
+  f40914e3cf: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk f40914e3cf) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary method parameter
+  f40914e3cf --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk f40914e3cf) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary method parameter
+  cb6abf551a: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk cb6abf551a) [x86_64-linux]
+    last_commit=[bundler/bundler] Update error messages to be more precise
+  cb6abf551a --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk cb6abf551a) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Update error messages to be more precise
+  bb50f87b69: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk bb50f87b69) [x86_64-linux]
+    last_commit=[bundler/bundler] Add workaround from old rubygems
+  bb50f87b69 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk bb50f87b69) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Add workaround from old rubygems
+  9d82962af3: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 9d82962af3) [x86_64-linux]
+    last_commit=[bundler/bundler] Check for generic lockfiles
+  9d82962af3 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 9d82962af3) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Check for generic lockfiles
+  d7487d6c08: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk d7487d6c08) [x86_64-linux]
+    last_commit=[bundler/bundler] Try make some specs platform independent
+  d7487d6c08 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk d7487d6c08) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Try make some specs platform independent
+  51aaed128a: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 51aaed128a) [x86_64-linux]
+    last_commit=[bundler/bundler] Skip specs using `Process.fork` on Windows
+  51aaed128a --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 51aaed128a) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Skip specs using `Process.fork` on Windows
+  640dbdd155: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 640dbdd155) [x86_64-linux]
+    last_commit=[bundler/bundler] Better info about spec exclusions
+  640dbdd155 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 640dbdd155) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Better info about spec exclusions
+  76d205c840: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 76d205c840) [x86_64-linux]
+    last_commit=[bundler/bundler] Restore `cache_all` flag removal
+  76d205c840 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 76d205c840) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Restore `cache_all` flag removal
+  30d10be036: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 30d10be036) [x86_64-linux]
+    last_commit=[bundler/bundler] Prefer feature flag to harcoded check
+  30d10be036 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 30d10be036) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Prefer feature flag to harcoded check
+  322d4fe98d: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 322d4fe98d) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary indirections
+  322d4fe98d --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 322d4fe98d) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary indirections
+  c4a2a9a381: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk c4a2a9a381) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove now unused logic
+  c4a2a9a381 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk c4a2a9a381) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove now unused logic
+  e33dd659d4: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk e33dd659d4) [x86_64-linux]
+    last_commit=[bundler/bundler] Move duplicated code to `before` blocks
+  e33dd659d4 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk e33dd659d4) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Move duplicated code to `before` blocks
+  4e76aef280: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 4e76aef280) [x86_64-linux]
+    last_commit=[bundler/bundler] Move `options_include_groups` to an attribute
+  4e76aef280 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 4e76aef280) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Move `options_include_groups` to an attribute
+  a42478502c: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk a42478502c) [x86_64-linux]
+    last_commit=[bundler/bundler] Move `any?` logic to the attribute
+  a42478502c --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk a42478502c) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Move `any?` logic to the attribute
+  fd3411c73f: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk fd3411c73f) [x86_64-linux]
+    last_commit=[bundler/bundler] Move more locals to attributes
+  fd3411c73f --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk fd3411c73f) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Move more locals to attributes
+  759930dd11: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 759930dd11) [x86_64-linux]
+    last_commit=[bundler/bundler] Less complexity
+  759930dd11 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 759930dd11) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Less complexity
+  e1ccaa8782: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk e1ccaa8782) [x86_64-linux]
+    last_commit=[bundler/bundler] Extract a `print_gems` method
+  e1ccaa8782 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk e1ccaa8782) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Extract a `print_gems` method
+  ee7ec87007: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk ee7ec87007) [x86_64-linux]
+    last_commit=[bundler/bundler] Unfold message to single line for readability
+  ee7ec87007 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk ee7ec87007) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Unfold message to single line for readability
+  1069139a33: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 1069139a33) [x86_64-linux]
+    last_commit=[bundler/bundler] Extract some methods
+  1069139a33 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 1069139a33) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Extract some methods
+  1fbd6a1fe0: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 1fbd6a1fe0) [x86_64-linux]
+    last_commit=[bundler/bundler] Move `strict` to an attribute
+  1fbd6a1fe0 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk 1fbd6a1fe0) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Move `strict` to an attribute
+  b855e33b65: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk b855e33b65) [x86_64-linux]
+    last_commit=[bundler/bundler] Add exclamation mark to method
+  b855e33b65 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:29:59Z trunk b855e33b65) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Add exclamation mark to method
+  d4b1804b11: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk d4b1804b11) [x86_64-linux]
+    last_commit=[bundler/bundler] Removed the environmental variables that are BUNDLE_USER_*.
+  d4b1804b11 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk d4b1804b11) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Removed the environmental variables that are BUNDLE_USER_*.
+  6015bbeeaf: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 6015bbeeaf) [x86_64-linux]
+    last_commit=[bundler/bundler] Fix incorrect sectioning in `gemfile` man page
+  6015bbeeaf --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 6015bbeeaf) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Fix incorrect sectioning in `gemfile` man page
+  56229c4e5d: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 56229c4e5d) [x86_64-linux]
+    last_commit=[bundler/bundler] Fix `git` options examples
+  56229c4e5d --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 56229c4e5d) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Fix `git` options examples
+  d2d6d5c988: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk d2d6d5c988) [x86_64-linux]
+    last_commit=[bundler/bundler] Fix typo in binstubs documentation https://github.com/bundler/bundler/commit/88dbfa18b4
+  d2d6d5c988 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk d2d6d5c988) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Fix typo in binstubs documentation https://github.com/bundler/bundler/commit/88dbfa18b4
+  7255f55dba: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 7255f55dba) [x86_64-linux]
+    last_commit=[bundler/bundler] RUBY_ENGINE should always be defined after 1.8.7
+  7255f55dba --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 7255f55dba) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] RUBY_ENGINE should always be defined after 1.8.7
+  452516f50f: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 452516f50f) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove development dependencies from gemspec
+  452516f50f --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 452516f50f) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove development dependencies from gemspec
+  6fb73e6043: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 6fb73e6043) [x86_64-linux]
+    last_commit=[bundler/bundler] Fully remove compatibility guard
+  6fb73e6043 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 6fb73e6043) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Fully remove compatibility guard
+  4dea1356c3: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 4dea1356c3) [x86_64-linux]
+    last_commit=[bundler/bundler] [CurrentRuby] Say we are ruby? when the generic local platform is Gem::Platform::RUBY
+  4dea1356c3 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 4dea1356c3) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] [CurrentRuby] Say we are ruby? when the generic local platform is Gem::Platform::RUBY
+  e84e63230b: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk e84e63230b) [x86_64-linux]
+    last_commit=[bundler/bundler] Check for straneous quotes
+  e84e63230b --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk e84e63230b) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Check for straneous quotes
+  267a72be80: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 267a72be80) [x86_64-linux]
+    last_commit=[bundler/bundler] Enable `Style/UnneededInterpolation` cop
+  267a72be80 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 267a72be80) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Enable `Style/UnneededInterpolation` cop
+  2b7e39f364: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 2b7e39f364) [x86_64-linux]
+    last_commit=[bundler/bundler] Always set `cache_all` via config during tests
+  2b7e39f364 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 2b7e39f364) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Always set `cache_all` via config during tests
+  97f3ceeaa5: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 97f3ceeaa5) [x86_64-linux]
+    last_commit=[bundler/bundler] Bump net-http-persistent to 3.0.1
+  97f3ceeaa5 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 97f3ceeaa5) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Bump net-http-persistent to 3.0.1
+  1e63683795: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 1e63683795) [x86_64-linux]
+    last_commit=[bundler/bundler] Bump automatiek to 0.2.0
+  1e63683795 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 1e63683795) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Bump automatiek to 0.2.0
+  fcb58f65b1: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk fcb58f65b1) [x86_64-linux]
+    last_commit=[bundler/bundler] Adapt to the way my automatiek patch works
+  fcb58f65b1 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk fcb58f65b1) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Adapt to the way my automatiek patch works
+  dab944e6ca: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk dab944e6ca) [x86_64-linux]
+    last_commit=[bundler/bundler] net-http-persistent 3.1.0 has been released
+  dab944e6ca --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk dab944e6ca) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] net-http-persistent 3.1.0 has been released
+  7ed1fc527e: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 7ed1fc527e) [x86_64-linux]
+    last_commit=[bundler/bundler] Bump rubocop to 0.74.0
+  7ed1fc527e --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 7ed1fc527e) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Bump rubocop to 0.74.0
+  01d141938c: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 01d141938c) [x86_64-linux]
+    last_commit=Fixed the broken example with ruby core structure.
+  01d141938c --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 01d141938c) +JIT [x86_64-linux]
+    last_commit=Fixed the broken example with ruby core structure.
+  4c72ca195d: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 4c72ca195d) [x86_64-linux]
+    last_commit=Fixed up 365ee22d73ec73c119a842de271504e04bed6f45
+  4c72ca195d --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 4c72ca195d) +JIT [x86_64-linux]
+    last_commit=Fixed up 365ee22d73ec73c119a842de271504e04bed6f45
+  220f6aa01c: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 220f6aa01c) [x86_64-linux]
+    last_commit=Explicitly ignored GEMRC environmental variable.
+  220f6aa01c --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 220f6aa01c) +JIT [x86_64-linux]
+    last_commit=Explicitly ignored GEMRC environmental variable.
+  aad7443e16: |-
+    ruby 2.7.0dev (2019-08-03T00:32:38Z trunk aad7443e16) [x86_64-linux]
+    last_commit=[bundler/bundler] Point to CoC which contains the contributor covenant
+  aad7443e16 --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:32:38Z trunk aad7443e16) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Point to CoC which contains the contributor covenant
+  b3b2b55f7b: |-
+    ruby 2.7.0dev (2019-08-03T00:40:11Z trunk b3b2b55f7b) [x86_64-linux]
+    last_commit=[bundler/bundler] The keys for RbConfig::CONFIG was String.
+  b3b2b55f7b --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:40:11Z trunk b3b2b55f7b) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] The keys for RbConfig::CONFIG was String.
+  0bd1cd677f: |-
+    ruby 2.7.0dev (2019-08-03T00:41:17Z trunk 0bd1cd677f) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove Bundler.rubygems.config_map because it was deprecated.
+  0bd1cd677f --jit: |-
+    ruby 2.7.0dev (2019-08-03T00:41:17Z trunk 0bd1cd677f) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove Bundler.rubygems.config_map because it was deprecated.
+  4ea5c5610a: |-
+    ruby 2.7.0dev (2019-08-03T01:18:39Z trunk 4ea5c5610a) [x86_64-linux]
+    last_commit=Predefine some IDs
+  4ea5c5610a --jit: |-
+    ruby 2.7.0dev (2019-08-03T01:18:39Z trunk 4ea5c5610a) +JIT [x86_64-linux]
+    last_commit=Predefine some IDs
+  fb96bea7ed: |-
+    ruby 2.7.0dev (2019-08-03T01:25:20Z trunk fb96bea7ed) [x86_64-linux]
+    last_commit=* expand tabs.
+  fb96bea7ed --jit: |-
+    ruby 2.7.0dev (2019-08-03T01:25:20Z trunk fb96bea7ed) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  688a59f8ac: |-
+    ruby 2.7.0dev (2019-08-03T02:32:37Z trunk 688a59f8ac) [x86_64-linux]
+    last_commit=Show the location of `eval` which uses `__FILE__`/`__LINE__`
+  688a59f8ac --jit: |-
+    ruby 2.7.0dev (2019-08-03T02:32:37Z trunk 688a59f8ac) +JIT [x86_64-linux]
+    last_commit=Show the location of `eval` which uses `__FILE__`/`__LINE__`
