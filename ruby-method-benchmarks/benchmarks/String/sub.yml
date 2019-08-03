@@ -953,6 +953,8 @@ results:
     6da539be3e: 3392263.878
     11a60f9bdb: 3037789.792
     77bb79b8cf: 3402758.62
+    99fb637c41: 3442404.642
+    497efa0ec9: 3384450.932
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1905,6 +1907,8 @@ results:
     6da539be3e: 3352949.848
     11a60f9bdb: 3089092.608
     77bb79b8cf: 3368350.463
+    99fb637c41: 3422140.653
+    497efa0ec9: 3387087.743
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2857,6 +2861,8 @@ results:
     6da539be3e: 1888149.855
     11a60f9bdb: 1834294.086
     77bb79b8cf: 1861833.504
+    99fb637c41: 1915778.698
+    497efa0ec9: 1925697.129
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -3809,6 +3815,8 @@ results:
     6da539be3e: 2735753.745
     11a60f9bdb: 2563375.767
     77bb79b8cf: 2786980.77
+    99fb637c41: 2833092.779
+    497efa0ec9: 2699286.076
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -4761,6 +4769,8 @@ results:
     6da539be3e: 3549749.502
     11a60f9bdb: 3670830.154
     77bb79b8cf: 3690878.708
+    99fb637c41: 3763528.052
+    497efa0ec9: 3340120.689
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -5713,6 +5723,8 @@ results:
     6da539be3e: 3614168.878
     11a60f9bdb: 3623009.148
     77bb79b8cf: 3645453.265
+    99fb637c41: 3353421.921
+    497efa0ec9: 3664303.91
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -6665,6 +6677,8 @@ results:
     6da539be3e: 1665748.794
     11a60f9bdb: 1982829.403
     77bb79b8cf: 1959581.751
+    99fb637c41: 1981050.587
+    497efa0ec9: 2012496.754
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -7617,3 +7631,5 @@ results:
     6da539be3e: 2911150.96
     11a60f9bdb: 2922988.785
     77bb79b8cf: 2949163.635
+    99fb637c41: 2995508.792
+    497efa0ec9: 2991866.317
