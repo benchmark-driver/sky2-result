@@ -5955,3 +5955,27 @@ commits:
   2d8c037e97 --jit: |-
     ruby 2.7.0dev (2019-08-04T02:56:02Z trunk 2d8c037e97) +JIT [x86_64-linux]
     last_commit=[ruby/rexml] gemspec: update
+  39622232c7: |-
+    ruby 2.7.0dev (2019-08-04T11:12:43Z trunk 39622232c7) [x86_64-linux]
+    last_commit=Suppress warnings of bundled libyaml.
+  39622232c7 --jit: |-
+    ruby 2.7.0dev (2019-08-04T11:12:43Z trunk 39622232c7) +JIT [x86_64-linux]
+    last_commit=Suppress warnings of bundled libyaml.
+  346aa557b3: |-
+    ruby 2.7.0dev (2019-08-04T13:20:12Z trunk 346aa557b3) [x86_64-linux]
+    last_commit=Make opt_eq and opt_neq insns leaf
+  346aa557b3 --jit: |-
+    ruby 2.7.0dev (2019-08-04T13:20:12Z trunk 346aa557b3) +JIT [x86_64-linux]
+    last_commit=Make opt_eq and opt_neq insns leaf
+  76e2370f13: |-
+    ruby 2.7.0dev (2019-08-04T13:21:53Z trunk 76e2370f13) [x86_64-linux]
+    last_commit=Fix dangling path name from fstring
+  76e2370f13 --jit: |-
+    ruby 2.7.0dev (2019-08-04T13:21:53Z trunk 76e2370f13) +JIT [x86_64-linux]
+    last_commit=Fix dangling path name from fstring
+  7817a6fa09: |-
+    ruby 2.7.0dev (2019-08-04T13:27:17Z trunk 7817a6fa09) [x86_64-linux]
+    last_commit=* expand tabs.
+  7817a6fa09 --jit: |-
+    ruby 2.7.0dev (2019-08-04T13:27:17Z trunk 7817a6fa09) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
