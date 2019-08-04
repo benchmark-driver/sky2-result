@@ -9,246 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  3840791b7e: |-
-    ruby 2.7.0dev (2019-06-22T22:56:43Z trunk 3840791b7e) [x86_64-linux]
-    last_commit=Get rid of error with frozen string literal
-  3840791b7e --jit: |-
-    ruby 2.7.0dev (2019-06-22T22:56:43Z trunk 3840791b7e) +JIT [x86_64-linux]
-    last_commit=Get rid of error with frozen string literal
-  ec8e5f5aa6: |-
-    ruby 2.7.0dev (2019-06-22T23:05:13Z trunk ec8e5f5aa6) [x86_64-linux]
-    last_commit=array.c: always check frozenness in Array#unshift. Fixes [Bug #15952]
-  ec8e5f5aa6 --jit: |-
-    ruby 2.7.0dev (2019-06-22T23:05:13Z trunk ec8e5f5aa6) +JIT [x86_64-linux]
-    last_commit=array.c: always check frozenness in Array#unshift. Fixes [Bug #15952]
-  5a187e26ad: |-
-    ruby 2.7.0dev (2019-06-23T04:17:41Z trunk 5a187e26ad) [x86_64-linux]
-    last_commit=array.c add back shared array optimization to ary_ensure_room_for_unshift
-  5a187e26ad --jit: |-
-    ruby 2.7.0dev (2019-06-23T04:17:41Z trunk 5a187e26ad) +JIT [x86_64-linux]
-    last_commit=array.c add back shared array optimization to ary_ensure_room_for_unshift
-  '096a45d3d2': |-
-    ruby 2.7.0dev (2019-06-23T13:28:23Z trunk 096a45d3d2) [x86_64-linux]
-    last_commit=Update NEWS.
-  '096a45d3d2 --jit': |-
-    ruby 2.7.0dev (2019-06-23T13:28:23Z trunk 096a45d3d2) +JIT [x86_64-linux]
-    last_commit=Update NEWS.
-  bdcfba547d: |-
-    ruby 2.7.0dev (2019-06-23T13:35:10Z trunk bdcfba547d) [x86_64-linux]
-    last_commit=vcs.rb: handle --dryrun option
-  bdcfba547d --jit: |-
-    ruby 2.7.0dev (2019-06-23T13:35:10Z trunk bdcfba547d) +JIT [x86_64-linux]
-    last_commit=vcs.rb: handle --dryrun option
-  50b2807a7c: |-
-    ruby 2.7.0dev (2019-06-23T14:10:16Z trunk 50b2807a7c) [x86_64-linux]
-    last_commit=Do not lengthen UNIX socket path
-  50b2807a7c --jit: |-
-    ruby 2.7.0dev (2019-06-23T14:10:16Z trunk 50b2807a7c) +JIT [x86_64-linux]
-    last_commit=Do not lengthen UNIX socket path
-  97a7f463f6: |-
-    ruby 2.7.0dev (2019-06-23T14:12:47Z trunk 97a7f463f6) [x86_64-linux]
-    last_commit=Max length of UNIX socket path is 104 bytes on macOS
-  97a7f463f6 --jit: |-
-    ruby 2.7.0dev (2019-06-23T14:12:47Z trunk 97a7f463f6) +JIT [x86_64-linux]
-    last_commit=Max length of UNIX socket path is 104 bytes on macOS
-  11a60f9bdb: |-
-    ruby 2.7.0dev (2019-06-24T01:11:47Z trunk 11a60f9bdb) [x86_64-linux]
-    last_commit=Remove extraneous spaces at the end of status line
-  11a60f9bdb --jit: |-
-    ruby 2.7.0dev (2019-06-24T01:11:47Z trunk 11a60f9bdb) +JIT [x86_64-linux]
-    last_commit=Remove extraneous spaces at the end of status line
-  c6229e7c69: |-
-    ruby 2.7.0dev (2019-06-24T01:11:56Z trunk c6229e7c69) [x86_64-linux]
-    last_commit=Adds WebAssembly MIME type
-  c6229e7c69 --jit: |-
-    ruby 2.7.0dev (2019-06-24T01:11:56Z trunk c6229e7c69) +JIT [x86_64-linux]
-    last_commit=Adds WebAssembly MIME type
-  edbad4adcc: |-
-    ruby 2.7.0dev (2019-06-24T01:12:07Z trunk edbad4adcc) [x86_64-linux]
-    last_commit=httpstatus.rb 100% coverage
-  edbad4adcc --jit: |-
-    ruby 2.7.0dev (2019-06-24T01:12:07Z trunk edbad4adcc) +JIT [x86_64-linux]
-    last_commit=httpstatus.rb 100% coverage
-  0b36c90e12: |-
-    ruby 2.7.0dev (2019-06-24T01:24:51Z trunk 0b36c90e12) [x86_64-linux]
-    last_commit=* 2019-06-24
-  0b36c90e12 --jit: |-
-    ruby 2.7.0dev (2019-06-24T01:24:51Z trunk 0b36c90e12) +JIT [x86_64-linux]
-    last_commit=* 2019-06-24
-  a071bed7a5: |-
-    ruby 2.7.0dev (2019-06-24T02:24:49Z trunk a071bed7a5) [x86_64-linux]
-    last_commit=Print warning if not using native coroutine.
-  a071bed7a5 --jit: |-
-    ruby 2.7.0dev (2019-06-24T02:24:49Z trunk a071bed7a5) +JIT [x86_64-linux]
-    last_commit=Print warning if not using native coroutine.
-  5d4dfcd808: |-
-    ruby 2.7.0dev (2019-06-24T02:25:17Z trunk 5d4dfcd808) [x86_64-linux]
-    last_commit=* remove trailing spaces.
-  5d4dfcd808 --jit: |-
-    ruby 2.7.0dev (2019-06-24T02:25:17Z trunk 5d4dfcd808) +JIT [x86_64-linux]
-    last_commit=* remove trailing spaces.
-  abdbfebad1: |-
-    ruby 2.7.0dev (2019-06-24T03:13:17Z trunk abdbfebad1) [x86_64-linux]
-    last_commit=Use spaces for indentation in `configure.ac`.
-  abdbfebad1 --jit: |-
-    ruby 2.7.0dev (2019-06-24T03:13:17Z trunk abdbfebad1) +JIT [x86_64-linux]
-    last_commit=Use spaces for indentation in `configure.ac`.
-  0e6396d2ac: |-
-    ruby 2.7.0dev (2019-06-24T03:13:17Z trunk 0e6396d2ac) [x86_64-linux]
-    last_commit=Try using arm64 implementation for fibers.
-  0e6396d2ac --jit: |-
-    ruby 2.7.0dev (2019-06-24T03:13:17Z trunk 0e6396d2ac) +JIT [x86_64-linux]
-    last_commit=Try using arm64 implementation for fibers.
-  7f64a0b4db: |-
-    ruby 2.7.0dev (2019-06-24T03:58:33Z trunk 7f64a0b4db) [x86_64-linux]
-    last_commit=Add new encoding CESU-8 [Feature #15931]
-  7f64a0b4db --jit: |-
-    ruby 2.7.0dev (2019-06-24T03:58:33Z trunk 7f64a0b4db) +JIT [x86_64-linux]
-    last_commit=Add new encoding CESU-8 [Feature #15931]
-  97b4fe2ff6: |-
-    ruby 2.7.0dev (2019-06-24T04:34:30Z trunk 97b4fe2ff6) [x86_64-linux]
-    last_commit=array.c: Wrong heap size given to ruby_sized_xfree when freeing shared roots
-  97b4fe2ff6 --jit: |-
-    ruby 2.7.0dev (2019-06-24T04:34:30Z trunk 97b4fe2ff6) +JIT [x86_64-linux]
-    last_commit=array.c: Wrong heap size given to ruby_sized_xfree when freeing shared roots
-  4275f09015: |-
-    ruby 2.7.0dev (2019-06-24T07:01:46Z trunk 4275f09015) [x86_64-linux]
-    last_commit=remove UNREACHABLE
-  4275f09015 --jit: |-
-    ruby 2.7.0dev (2019-06-24T07:01:46Z trunk 4275f09015) +JIT [x86_64-linux]
-    last_commit=remove UNREACHABLE
-  518adcca0a: |-
-    ruby 2.7.0dev (2019-06-24T07:09:27Z trunk 518adcca0a) [x86_64-linux]
-    last_commit=Try using arm32 implementation for fibers.
-  518adcca0a --jit: |-
-    ruby 2.7.0dev (2019-06-24T07:09:27Z trunk 518adcca0a) +JIT [x86_64-linux]
-    last_commit=Try using arm32 implementation for fibers.
-  9c19cd5222: |-
-    ruby 2.7.0dev (2019-06-24T15:18:55Z trunk 9c19cd5222) [x86_64-linux]
-    last_commit=Refactor calculation of corresponding token depth
-  9c19cd5222 --jit: |-
-    ruby 2.7.0dev (2019-06-24T15:18:55Z trunk 9c19cd5222) +JIT [x86_64-linux]
-    last_commit=Refactor calculation of corresponding token depth
-  e09afd15b7: |-
-    ruby 2.7.0dev (2019-06-24T15:19:49Z trunk e09afd15b7) [x86_64-linux]
-    last_commit=* 2019-06-25
-  e09afd15b7 --jit: |-
-    ruby 2.7.0dev (2019-06-24T15:19:49Z trunk e09afd15b7) +JIT [x86_64-linux]
-    last_commit=* 2019-06-25
-  dbe232e24e: |-
-    ruby 2.7.0dev (2019-06-25T05:04:04Z trunk dbe232e24e) [x86_64-linux]
-    last_commit=Order of arguments might be incorrect in arm32 coroutine implementation.
-  dbe232e24e --jit: |-
-    ruby 2.7.0dev (2019-06-25T05:04:04Z trunk dbe232e24e) +JIT [x86_64-linux]
-    last_commit=Order of arguments might be incorrect in arm32 coroutine implementation.
-  9b23aab290: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 9b23aab290) [x86_64-linux]
-    last_commit=Fixed the wrong path for io-console.
-  9b23aab290 --jit: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 9b23aab290) +JIT [x86_64-linux]
-    last_commit=Fixed the wrong path for io-console.
-  '083fda8490': |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 083fda8490) [x86_64-linux]
-    last_commit=Bump version to 1.2.0.
-  '083fda8490 --jit': |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 083fda8490) +JIT [x86_64-linux]
-    last_commit=Bump version to 1.2.0.
-  e572ff2f95: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk e572ff2f95) [x86_64-linux]
-    last_commit=Require version file relatively
-  e572ff2f95 --jit: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk e572ff2f95) +JIT [x86_64-linux]
-    last_commit=Require version file relatively
-  d118c84b0b: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk d118c84b0b) [x86_64-linux]
-    last_commit=Fix IO#scanf on pipes on Windows
-  d118c84b0b --jit: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk d118c84b0b) +JIT [x86_64-linux]
-    last_commit=Fix IO#scanf on pipes on Windows
-  4bd1909427: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 4bd1909427) [x86_64-linux]
-    last_commit=Dumping the backtrace never worked, so remove it
-  4bd1909427 --jit: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 4bd1909427) +JIT [x86_64-linux]
-    last_commit=Dumping the backtrace never worked, so remove it
-  f770a5be66: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk f770a5be66) [x86_64-linux]
-    last_commit=Refactor exception dumping
-  f770a5be66 --jit: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk f770a5be66) +JIT [x86_64-linux]
-    last_commit=Refactor exception dumping
-  a53ab897c3: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk a53ab897c3) [x86_64-linux]
-    last_commit=Round trip exception backtraces
-  a53ab897c3 --jit: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk a53ab897c3) +JIT [x86_64-linux]
-    last_commit=Round trip exception backtraces
-  0016edbead: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 0016edbead) [x86_64-linux]
-    last_commit=Add test to demonstrate issue deserializing hash with ivar
-  0016edbead --jit: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 0016edbead) +JIT [x86_64-linux]
-    last_commit=Add test to demonstrate issue deserializing hash with ivar
-  03dac55f90: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 03dac55f90) [x86_64-linux]
-    last_commit=Dump Hash ivars before elements
-  03dac55f90 --jit: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 03dac55f90) +JIT [x86_64-linux]
-    last_commit=Dump Hash ivars before elements
-  3c4fc830dd: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 3c4fc830dd) [x86_64-linux]
-    last_commit=Retired to write CHANGELOG.rdoc. Because It has no update from 2015.
-  3c4fc830dd --jit: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 3c4fc830dd) +JIT [x86_64-linux]
-    last_commit=Retired to write CHANGELOG.rdoc. Because It has no update from 2015.
-  00d0ede845: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 00d0ede845) [x86_64-linux]
-    last_commit=Removed CHANGELOG from rdoc files.
-  00d0ede845 --jit: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 00d0ede845) +JIT [x86_64-linux]
-    last_commit=Removed CHANGELOG from rdoc files.
-  63f78bbaae: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 63f78bbaae) [x86_64-linux]
-    last_commit=Reduce string allocations in scalar_scanner
-  63f78bbaae --jit: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 63f78bbaae) +JIT [x86_64-linux]
-    last_commit=Reduce string allocations in scalar_scanner
-  5a4d2b9f2f: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 5a4d2b9f2f) [x86_64-linux]
-    last_commit=Remove string_cache in ScalarScanner
-  5a4d2b9f2f --jit: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 5a4d2b9f2f) +JIT [x86_64-linux]
-    last_commit=Remove string_cache in ScalarScanner
-  746812ee96: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 746812ee96) [x86_64-linux]
-    last_commit=Do not allocate a string to check if a scalar is an integer
-  746812ee96 --jit: |-
-    ruby 2.7.0dev (2019-06-25T06:56:20Z trunk 746812ee96) +JIT [x86_64-linux]
-    last_commit=Do not allocate a string to check if a scalar is an integer
-  d7887b05d8: |-
-    ruby 2.7.0dev (2019-06-25T07:46:53Z trunk d7887b05d8) [x86_64-linux]
-    last_commit=Fixed broken ruby/spec related a53ab897c35586a836710a8afeb1e8c1abd9b087
-  d7887b05d8 --jit: |-
-    ruby 2.7.0dev (2019-06-25T07:46:53Z trunk d7887b05d8) +JIT [x86_64-linux]
-    last_commit=Fixed broken ruby/spec related a53ab897c35586a836710a8afeb1e8c1abd9b087
-  1cbc4f9876: |-
-    ruby 2.7.0dev (2019-06-25T08:22:02Z trunk 1cbc4f9876) [x86_64-linux]
-    last_commit=test/net/imap/test_imap.rb: use Thread#stop? to wait for server thread
-  1cbc4f9876 --jit: |-
-    ruby 2.7.0dev (2019-06-25T08:22:02Z trunk 1cbc4f9876) +JIT [x86_64-linux]
-    last_commit=test/net/imap/test_imap.rb: use Thread#stop? to wait for server thread
-  0b57f9b25d: |-
-    ruby 2.7.0dev (2019-06-25T13:02:31Z trunk 0b57f9b25d) [x86_64-linux]
-    last_commit=Decrease indent when "else", "rescue", "ensure", "when", or "in" come
-  0b57f9b25d --jit: |-
-    ruby 2.7.0dev (2019-06-25T13:02:31Z trunk 0b57f9b25d) +JIT [x86_64-linux]
-    last_commit=Decrease indent when "else", "rescue", "ensure", "when", or "in" come
-  57e1a69ea3: |-
-    ruby 2.7.0dev (2019-06-25T13:07:32Z trunk 57e1a69ea3) [x86_64-linux]
-    last_commit=Treat auto indent with newline correctly
-  57e1a69ea3 --jit: |-
-    ruby 2.7.0dev (2019-06-25T13:07:32Z trunk 57e1a69ea3) +JIT [x86_64-linux]
-    last_commit=Treat auto indent with newline correctly
   730aeb2523: |-
     ruby 2.7.0dev (2019-06-25T14:32:26Z trunk 730aeb2523) [x86_64-linux]
     last_commit=Revert 518adcca0a and dbe232e24e
@@ -6039,3 +5799,159 @@ commits:
   0f601df22c --jit: |-
     ruby 2.7.0dev (2019-08-04T00:20:56Z trunk 0f601df22c) +JIT [x86_64-linux]
     last_commit=[Doc] Fix Array#to_h call-seq
+  b6cfacc85d: |-
+    ruby 2.7.0dev (2019-08-04T00:25:32Z trunk b6cfacc85d) [x86_64-linux]
+    last_commit=Remove dependency on `openssl/conf_api.h`
+  b6cfacc85d --jit: |-
+    ruby 2.7.0dev (2019-08-04T00:25:32Z trunk b6cfacc85d) +JIT [x86_64-linux]
+    last_commit=Remove dependency on `openssl/conf_api.h`
+  2d189a6721: |-
+    ruby 2.7.0dev (2019-08-04T00:46:46Z trunk 2d189a6721) [x86_64-linux]
+    last_commit=yaml few build warning fixes
+  2d189a6721 --jit: |-
+    ruby 2.7.0dev (2019-08-04T00:46:46Z trunk 2d189a6721) +JIT [x86_64-linux]
+    last_commit=yaml few build warning fixes
+  a3188f43a8: |-
+    ruby 2.7.0dev (2019-08-04T01:08:17Z trunk a3188f43a8) [x86_64-linux]
+    last_commit=Revert "Revert "Fix dangling path name from fstring""
+  a3188f43a8 --jit: |-
+    ruby 2.7.0dev (2019-08-04T01:08:17Z trunk a3188f43a8) +JIT [x86_64-linux]
+    last_commit=Revert "Revert "Fix dangling path name from fstring""
+  7a75baa6e2: |-
+    ruby 2.7.0dev (2019-08-04T01:49:04Z trunk 7a75baa6e2) [x86_64-linux]
+    last_commit=Skip test_race_exception on MJIT for now
+  7a75baa6e2 --jit: |-
+    ruby 2.7.0dev (2019-08-04T01:49:04Z trunk 7a75baa6e2) +JIT [x86_64-linux]
+    last_commit=Skip test_race_exception on MJIT for now
+  adfc8d6dba: |-
+    ruby 2.7.0dev (2019-08-04T02:05:50Z trunk adfc8d6dba) [x86_64-linux]
+    last_commit=Defer skip to avoid errors on ensure
+  adfc8d6dba --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:05:50Z trunk adfc8d6dba) +JIT [x86_64-linux]
+    last_commit=Defer skip to avoid errors on ensure
+  f76cfb55d7: |-
+    ruby 2.7.0dev (2019-08-04T02:53:49Z trunk f76cfb55d7) [x86_64-linux]
+    last_commit=[ruby/rexml] Bump version
+  f76cfb55d7 --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:53:49Z trunk f76cfb55d7) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] Bump version
+  3583fa166c: |-
+    ruby 2.7.0dev (2019-08-04T02:54:00Z trunk 3583fa166c) [x86_64-linux]
+    last_commit=[ruby/rexml] xpath: fix a bug that no namespace attribute isn't matched with prefix
+  3583fa166c --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:54:00Z trunk 3583fa166c) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] xpath: fix a bug that no namespace attribute isn't matched with prefix
+  27c11892c8: |-
+    ruby 2.7.0dev (2019-08-04T02:54:05Z trunk 27c11892c8) [x86_64-linux]
+    last_commit=[ruby/rexml] Add a TODO for Attribute#namespace
+  27c11892c8 --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:54:05Z trunk 27c11892c8) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] Add a TODO for Attribute#namespace
+  '096e766355': |-
+    ruby 2.7.0dev (2019-08-04T02:54:11Z trunk 096e766355) [x86_64-linux]
+    last_commit=[ruby/rexml] xpath: remove needless nil check
+  '096e766355 --jit': |-
+    ruby 2.7.0dev (2019-08-04T02:54:11Z trunk 096e766355) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] xpath: remove needless nil check
+  84c3742466: |-
+    ruby 2.7.0dev (2019-08-04T02:54:16Z trunk 84c3742466) [x86_64-linux]
+    last_commit=[ruby/rexml] Revert "xpath: remove needless nil check"
+  84c3742466 --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:54:16Z trunk 84c3742466) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] Revert "xpath: remove needless nil check"
+  9b36f0a787: |-
+    ruby 2.7.0dev (2019-08-04T02:54:22Z trunk 9b36f0a787) [x86_64-linux]
+    last_commit=[ruby/rexml] Format
+  9b36f0a787 --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:54:22Z trunk 9b36f0a787) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] Format
+  0f18bc7fca: |-
+    ruby 2.7.0dev (2019-08-04T02:54:27Z trunk 0f18bc7fca) [x86_64-linux]
+    last_commit=[ruby/rexml] Fix attribute's default namespace behavior
+  0f18bc7fca --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:54:27Z trunk 0f18bc7fca) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] Fix attribute's default namespace behavior
+  81354bbd1b: |-
+    ruby 2.7.0dev (2019-08-04T02:54:38Z trunk 81354bbd1b) [x86_64-linux]
+    last_commit=[ruby/rexml] Bump version
+  81354bbd1b --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:54:38Z trunk 81354bbd1b) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] Bump version
+  982208c650: |-
+    ruby 2.7.0dev (2019-08-04T02:54:44Z trunk 982208c650) [x86_64-linux]
+    last_commit=[ruby/rexml] use #inspect to print meta-characters in error messages
+  982208c650 --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:54:44Z trunk 982208c650) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] use #inspect to print meta-characters in error messages
+  ee8985ef0e: |-
+    ruby 2.7.0dev (2019-08-04T02:54:50Z trunk ee8985ef0e) [x86_64-linux]
+    last_commit=[ruby/rexml] Fix crash with nil XPath variables (#13)
+  ee8985ef0e --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:54:50Z trunk ee8985ef0e) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] Fix crash with nil XPath variables (#13)
+  33e4a59b4a: |-
+    ruby 2.7.0dev (2019-08-04T02:54:57Z trunk 33e4a59b4a) [x86_64-linux]
+    last_commit=[ruby/rexml] test: compare with real element
+  33e4a59b4a --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:54:57Z trunk 33e4a59b4a) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] test: compare with real element
+  f85caf40a6: |-
+    ruby 2.7.0dev (2019-08-04T02:55:03Z trunk f85caf40a6) [x86_64-linux]
+    last_commit=[ruby/rexml] Message less confusing error to human (#16)
+  f85caf40a6 --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:55:03Z trunk f85caf40a6) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] Message less confusing error to human (#16)
+  de55e0a008: |-
+    ruby 2.7.0dev (2019-08-04T02:55:14Z trunk de55e0a008) [x86_64-linux]
+    last_commit=[ruby/rexml] Bump version
+  de55e0a008 --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:55:14Z trunk de55e0a008) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] Bump version
+  54525fbfd4: |-
+    ruby 2.7.0dev (2019-08-04T02:55:20Z trunk 54525fbfd4) [x86_64-linux]
+    last_commit=[ruby/rexml] xpath: add support for changing to debug mode by environment variable
+  54525fbfd4 --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:55:20Z trunk 54525fbfd4) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] xpath: add support for changing to debug mode by environment variable
+  c46ba8e9a3: |-
+    ruby 2.7.0dev (2019-08-04T02:55:26Z trunk c46ba8e9a3) [x86_64-linux]
+    last_commit=[ruby/rexml] Use PP
+  c46ba8e9a3 --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:55:26Z trunk c46ba8e9a3) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] Use PP
+  6ef8294397: |-
+    ruby 2.7.0dev (2019-08-04T02:55:31Z trunk 6ef8294397) [x86_64-linux]
+    last_commit=[ruby/rexml] xpath: fix a bug for equality or relational expressions
+  6ef8294397 --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:55:31Z trunk 6ef8294397) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] xpath: fix a bug for equality or relational expressions
+  5f78b138b1: |-
+    ruby 2.7.0dev (2019-08-04T02:55:37Z trunk 5f78b138b1) [x86_64-linux]
+    last_commit=[ruby/rexml] xpath boolean: implement
+  5f78b138b1 --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:55:37Z trunk 5f78b138b1) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] xpath boolean: implement
+  643344dc94: |-
+    ruby 2.7.0dev (2019-08-04T02:55:43Z trunk 643344dc94) [x86_64-linux]
+    last_commit=[ruby/rexml] xpath local_name: fix a bug that nil is returned for nonexistent case
+  643344dc94 --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:55:43Z trunk 643344dc94) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] xpath local_name: fix a bug that nil is returned for nonexistent case
+  39f275edf7: |-
+    ruby 2.7.0dev (2019-08-04T02:55:49Z trunk 39f275edf7) [x86_64-linux]
+    last_commit=[ruby/rexml] xpath number: fix a bug that false is converted to NaN
+  39f275edf7 --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:55:49Z trunk 39f275edf7) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] xpath number: fix a bug that false is converted to NaN
+  310a2a9860: |-
+    ruby 2.7.0dev (2019-08-04T02:55:55Z trunk 310a2a9860) [x86_64-linux]
+    last_commit=[ruby/rexml] xpath: add missing value conversions for equality and relational expressions
+  310a2a9860 --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:55:55Z trunk 310a2a9860) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] xpath: add missing value conversions for equality and relational expressions
+  2d8c037e97: |-
+    ruby 2.7.0dev (2019-08-04T02:56:02Z trunk 2d8c037e97) [x86_64-linux]
+    last_commit=[ruby/rexml] gemspec: update
+  2d8c037e97 --jit: |-
+    ruby 2.7.0dev (2019-08-04T02:56:02Z trunk 2d8c037e97) +JIT [x86_64-linux]
+    last_commit=[ruby/rexml] gemspec: update
