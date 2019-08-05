@@ -5991,3 +5991,27 @@ commits:
   aaf69a8ba8 --jit: |-
     ruby 2.7.0dev (2019-08-04T14:41:34Z trunk aaf69a8ba8) +JIT [x86_64-linux]
     last_commit=Extend sleep before sending USR1 in TestProcess
+  d6ac5c53d4: |-
+    ruby 2.7.0dev (2019-08-04T23:55:09Z trunk d6ac5c53d4) [x86_64-linux]
+    last_commit=Revert "Always evaluate the expression RUBY_ASSERT_MESG_WHEN just once"
+  d6ac5c53d4 --jit: |-
+    ruby 2.7.0dev (2019-08-04T23:55:09Z trunk d6ac5c53d4) +JIT [x86_64-linux]
+    last_commit=Revert "Always evaluate the expression RUBY_ASSERT_MESG_WHEN just once"
+  253da5b219: |-
+    ruby 2.7.0dev (2019-08-05T00:00:13Z trunk 253da5b219) [x86_64-linux]
+    last_commit=* 2019-08-05
+  253da5b219 --jit: |-
+    ruby 2.7.0dev (2019-08-05T00:00:13Z trunk 253da5b219) +JIT [x86_64-linux]
+    last_commit=* 2019-08-05
+  6bb3618f28: |-
+    ruby 2.7.0dev (2019-08-05T00:04:32Z trunk 6bb3618f28) [x86_64-linux]
+    last_commit=n+1 to include n in range
+  6bb3618f28 --jit: |-
+    ruby 2.7.0dev (2019-08-05T00:04:32Z trunk 6bb3618f28) +JIT [x86_64-linux]
+    last_commit=n+1 to include n in range
+  548cd6e2b5: |-
+    ruby 2.7.0dev (2019-08-05T00:16:13Z trunk 548cd6e2b5) [x86_64-linux]
+    last_commit=Drop default leaf definition and obsoleted comments
+  548cd6e2b5 --jit: |-
+    ruby 2.7.0dev (2019-08-05T00:16:13Z trunk 548cd6e2b5) +JIT [x86_64-linux]
+    last_commit=Drop default leaf definition and obsoleted comments
