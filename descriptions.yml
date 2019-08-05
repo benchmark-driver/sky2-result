@@ -6003,3 +6003,51 @@ commits:
   86ac51c301 --jit: |-
     ruby 2.7.0dev (2019-08-05T09:45:24Z trunk 86ac51c301) +JIT [x86_64-linux]
     last_commit=[rubygems/rubygems] Use the standard RUBY_ENGINE_VERSION instead of JRUBY_VERSION
+  4c15b241f8: |-
+    ruby 2.7.0dev (2019-08-05T14:26:19Z trunk 4c15b241f8) [x86_64-linux]
+    last_commit=Unused macro argument `varc`
+  4c15b241f8 --jit: |-
+    ruby 2.7.0dev (2019-08-05T14:26:19Z trunk 4c15b241f8) +JIT [x86_64-linux]
+    last_commit=Unused macro argument `varc`
+  fb9dd6182a: |-
+    ruby 2.7.0dev (2019-08-05T14:26:19Z trunk fb9dd6182a) [x86_64-linux]
+    last_commit=Use negative-sized array instead of zero-division
+  fb9dd6182a --jit: |-
+    ruby 2.7.0dev (2019-08-05T14:26:19Z trunk fb9dd6182a) +JIT [x86_64-linux]
+    last_commit=Use negative-sized array instead of zero-division
+  614c90fe21: |-
+    ruby 2.7.0dev (2019-08-05T15:33:33Z trunk 614c90fe21) [x86_64-linux]
+    last_commit=Control Travis apt retries on our own
+  614c90fe21 --jit: |-
+    ruby 2.7.0dev (2019-08-05T15:33:33Z trunk 614c90fe21) +JIT [x86_64-linux]
+    last_commit=Control Travis apt retries on our own
+  48d460d9a6: |-
+    ruby 2.7.0dev (2019-08-05T15:34:06Z trunk 48d460d9a6) [x86_64-linux]
+    last_commit=* 2019-08-06
+  48d460d9a6 --jit: |-
+    ruby 2.7.0dev (2019-08-05T15:34:06Z trunk 48d460d9a6) +JIT [x86_64-linux]
+    last_commit=* 2019-08-06
+  e80f407ed4: |-
+    ruby 2.7.0dev (2019-08-05T15:48:00Z trunk e80f407ed4) [x86_64-linux]
+    last_commit=Give up stabilizing TestProcess on Travis osx
+  e80f407ed4 --jit: |-
+    ruby 2.7.0dev (2019-08-05T15:48:00Z trunk e80f407ed4) +JIT [x86_64-linux]
+    last_commit=Give up stabilizing TestProcess on Travis osx
+  255e22a827: |-
+    ruby 2.7.0dev (2019-08-05T15:50:48Z trunk 255e22a827) [x86_64-linux]
+    last_commit=Use gcc-8 for BASERUBY test
+  255e22a827 --jit: |-
+    ruby 2.7.0dev (2019-08-05T15:50:48Z trunk 255e22a827) +JIT [x86_64-linux]
+    last_commit=Use gcc-8 for BASERUBY test
+  33d7a58ffb: |-
+    ruby 2.7.0dev (2019-08-05T15:55:34Z trunk 33d7a58ffb) [x86_64-linux]
+    last_commit=add compaction support to weak maps
+  33d7a58ffb --jit: |-
+    ruby 2.7.0dev (2019-08-05T15:55:34Z trunk 33d7a58ffb) +JIT [x86_64-linux]
+    last_commit=add compaction support to weak maps
+  c9192ef2e8: |-
+    ruby 2.7.0dev (2019-08-05T15:56:05Z trunk c9192ef2e8) [x86_64-linux]
+    last_commit=* expand tabs.
+  c9192ef2e8 --jit: |-
+    ruby 2.7.0dev (2019-08-05T15:56:05Z trunk c9192ef2e8) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
