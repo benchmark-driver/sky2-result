@@ -5961,3 +5961,45 @@ commits:
   58a478bce4 --jit: |-
     ruby 2.7.0dev (2019-08-05T05:38:59Z trunk 58a478bce4) +JIT [x86_64-linux]
     last_commit=ext/psych/yaml/loader.c: Cast the difference of pointers to int
+  5a8d848849: |-
+    ruby 2.7.0dev (2019-08-05T09:44:40Z trunk 5a8d848849) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Remove FIXME comment
+  5a8d848849 --jit: |-
+    ruby 2.7.0dev (2019-08-05T09:44:40Z trunk 5a8d848849) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Remove FIXME comment
+  8eb2921f56: |-
+    ruby 2.7.0dev (2019-08-05T09:44:46Z trunk 8eb2921f56) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Fixed to warn with shadowing outer local variable.
+  8eb2921f56 --jit: |-
+    ruby 2.7.0dev (2019-08-05T09:44:46Z trunk 8eb2921f56) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Fixed to warn with shadowing outer local variable.
+  87bc29fe28: |-
+    ruby 2.7.0dev (2019-08-05T09:44:53Z trunk 87bc29fe28) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Revert cadb66037d9b58c80fc795f39384d533229a1f73
+  87bc29fe28 --jit: |-
+    ruby 2.7.0dev (2019-08-05T09:44:53Z trunk 87bc29fe28) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Revert cadb66037d9b58c80fc795f39384d533229a1f73
+  42a9e27d84: |-
+    ruby 2.7.0dev (2019-08-05T09:44:59Z trunk 42a9e27d84) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Use gsub with Hash
+  42a9e27d84 --jit: |-
+    ruby 2.7.0dev (2019-08-05T09:44:59Z trunk 42a9e27d84) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Use gsub with Hash
+  f9dac1bd54: |-
+    ruby 2.7.0dev (2019-08-05T09:45:11Z trunk f9dac1bd54) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Cleanup after testing `rake package`
+  f9dac1bd54 --jit: |-
+    ruby 2.7.0dev (2019-08-05T09:45:11Z trunk f9dac1bd54) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Cleanup after testing `rake package`
+  2ea2108a9f: |-
+    ruby 2.7.0dev (2019-08-05T09:45:18Z trunk 2ea2108a9f) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Fix error handling of #with_engine_version
+  2ea2108a9f --jit: |-
+    ruby 2.7.0dev (2019-08-05T09:45:18Z trunk 2ea2108a9f) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Fix error handling of #with_engine_version
+  86ac51c301: |-
+    ruby 2.7.0dev (2019-08-05T09:45:24Z trunk 86ac51c301) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Use the standard RUBY_ENGINE_VERSION instead of JRUBY_VERSION
+  86ac51c301 --jit: |-
+    ruby 2.7.0dev (2019-08-05T09:45:24Z trunk 86ac51c301) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Use the standard RUBY_ENGINE_VERSION instead of JRUBY_VERSION
