@@ -5955,3 +5955,9 @@ commits:
   2403f9ac3a --jit: |-
     ruby 2.7.0dev (2019-08-05T03:52:14Z trunk 2403f9ac3a) +JIT [x86_64-linux]
     last_commit=Expand the timeout of `test_pstore_files_are_accessed_as_binary_files`
+  58a478bce4: |-
+    ruby 2.7.0dev (2019-08-05T05:38:59Z trunk 58a478bce4) [x86_64-linux]
+    last_commit=ext/psych/yaml/loader.c: Cast the difference of pointers to int
+  58a478bce4 --jit: |-
+    ruby 2.7.0dev (2019-08-05T05:38:59Z trunk 58a478bce4) +JIT [x86_64-linux]
+    last_commit=ext/psych/yaml/loader.c: Cast the difference of pointers to int
