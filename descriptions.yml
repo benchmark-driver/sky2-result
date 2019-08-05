@@ -9,102 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  730aeb2523: |-
-    ruby 2.7.0dev (2019-06-25T14:32:26Z trunk 730aeb2523) [x86_64-linux]
-    last_commit=Revert 518adcca0a and dbe232e24e
-  730aeb2523 --jit: |-
-    ruby 2.7.0dev (2019-06-25T14:32:26Z trunk 730aeb2523) +JIT [x86_64-linux]
-    last_commit=Revert 518adcca0a and dbe232e24e
-  0bd5f846df: |-
-    ruby 2.7.0dev (2019-06-25T16:52:34Z trunk 0bd5f846df) [x86_64-linux]
-    last_commit=Document local variable interactions with eval
-  0bd5f846df --jit: |-
-    ruby 2.7.0dev (2019-06-25T16:52:34Z trunk 0bd5f846df) +JIT [x86_64-linux]
-    last_commit=Document local variable interactions with eval
-  dd57442f74: |-
-    ruby 2.7.0dev (2019-06-25T16:53:19Z trunk dd57442f74) [x86_64-linux]
-    last_commit=* remove trailing spaces.
-  dd57442f74 --jit: |-
-    ruby 2.7.0dev (2019-06-25T16:53:19Z trunk dd57442f74) +JIT [x86_64-linux]
-    last_commit=* remove trailing spaces.
-  0aa8c3d88b: |-
-    ruby 2.7.0dev (2019-06-25T16:53:22Z trunk 0aa8c3d88b) [x86_64-linux]
-    last_commit=* 2019-06-26
-  0aa8c3d88b --jit: |-
-    ruby 2.7.0dev (2019-06-25T16:53:22Z trunk 0aa8c3d88b) +JIT [x86_64-linux]
-    last_commit=* 2019-06-26
-  0f28094201: |-
-    ruby 2.7.0dev (2019-06-25T18:18:08Z trunk 0f28094201) [x86_64-linux]
-    last_commit=Improve wording of Local Variables and eval section
-  0f28094201 --jit: |-
-    ruby 2.7.0dev (2019-06-25T18:18:08Z trunk 0f28094201) +JIT [x86_64-linux]
-    last_commit=Improve wording of Local Variables and eval section
-  cfa1a18431: |-
-    ruby 2.7.0dev (2019-06-25T23:07:58Z trunk cfa1a18431) [x86_64-linux]
-    last_commit=Remove debug print...sorry
-  cfa1a18431 --jit: |-
-    ruby 2.7.0dev (2019-06-25T23:07:58Z trunk cfa1a18431) +JIT [x86_64-linux]
-    last_commit=Remove debug print...sorry
-  e478671e19: |-
-    ruby 2.7.0dev (2019-06-26T00:23:02Z trunk e478671e19) [x86_64-linux]
-    last_commit=Added version guard for backtrace printing feature of psych to ruby/spec.
-  e478671e19 --jit: |-
-    ruby 2.7.0dev (2019-06-26T00:23:02Z trunk e478671e19) +JIT [x86_64-linux]
-    last_commit=Added version guard for backtrace printing feature of psych to ruby/spec.
-  ea8bc6822d: |-
-    ruby 2.7.0dev (2019-06-26T01:49:23Z trunk ea8bc6822d) [x86_64-linux]
-    last_commit=Remove other debug prints
-  ea8bc6822d --jit: |-
-    ruby 2.7.0dev (2019-06-26T01:49:23Z trunk ea8bc6822d) +JIT [x86_64-linux]
-    last_commit=Remove other debug prints
-  a3d1cacda6: |-
-    ruby 2.7.0dev (2019-06-26T01:49:23Z trunk a3d1cacda6) [x86_64-linux]
-    last_commit=Decrease indent at "elsif" too
-  a3d1cacda6 --jit: |-
-    ruby 2.7.0dev (2019-06-26T01:49:23Z trunk a3d1cacda6) +JIT [x86_64-linux]
-    last_commit=Decrease indent at "elsif" too
-  51361272f9: |-
-    ruby 2.7.0dev (2019-06-26T02:02:48Z trunk 51361272f9) [x86_64-linux]
-    last_commit=Respect --dest-dir when removing old default gems
-  51361272f9 --jit: |-
-    ruby 2.7.0dev (2019-06-26T02:02:48Z trunk 51361272f9) +JIT [x86_64-linux]
-    last_commit=Respect --dest-dir when removing old default gems
-  6df1814c08: |-
-    ruby 2.7.0dev (2019-06-26T05:08:10Z trunk 6df1814c08) [x86_64-linux]
-    last_commit=coroutine/arm32/Context.S: save/restore the registers via stack
-  6df1814c08 --jit: |-
-    ruby 2.7.0dev (2019-06-26T05:08:10Z trunk 6df1814c08) +JIT [x86_64-linux]
-    last_commit=coroutine/arm32/Context.S: save/restore the registers via stack
-  fe0ddf0e58: |-
-    ruby 2.7.0dev (2019-06-26T06:01:01Z trunk fe0ddf0e58) [x86_64-linux]
-    last_commit=`ensure` is not a continuos line
-  fe0ddf0e58 --jit: |-
-    ruby 2.7.0dev (2019-06-26T06:01:01Z trunk fe0ddf0e58) +JIT [x86_64-linux]
-    last_commit=`ensure` is not a continuos line
-  04bc4c0662: |-
-    ruby 2.7.0dev (2019-06-26T06:01:48Z trunk 04bc4c0662) [x86_64-linux]
-    last_commit=Resize capacity for fstring
-  04bc4c0662 --jit: |-
-    ruby 2.7.0dev (2019-06-26T06:01:48Z trunk 04bc4c0662) +JIT [x86_64-linux]
-    last_commit=Resize capacity for fstring
-  a84a99ffab: |-
-    ruby 2.7.0dev (2019-06-26T07:04:07Z trunk a84a99ffab) [x86_64-linux]
-    last_commit=test/ruby/test_array.rb (test_sort_with_replace): run in a subprocess
-  a84a99ffab --jit: |-
-    ruby 2.7.0dev (2019-06-26T07:04:07Z trunk a84a99ffab) +JIT [x86_64-linux]
-    last_commit=test/ruby/test_array.rb (test_sort_with_replace): run in a subprocess
-  6c6bf9ffcb: |-
-    ruby 2.7.0dev (2019-06-26T08:19:53Z trunk 6c6bf9ffcb) [x86_64-linux]
-    last_commit=Add `ucontext` coroutine implementation for generic fallback.
-  6c6bf9ffcb --jit: |-
-    ruby 2.7.0dev (2019-06-26T08:19:53Z trunk 6c6bf9ffcb) +JIT [x86_64-linux]
-    last_commit=Add `ucontext` coroutine implementation for generic fallback.
-  28eeaed8a9: |-
-    ruby 2.7.0dev (2019-06-26T08:23:00Z trunk 28eeaed8a9) [x86_64-linux]
-    last_commit=Revert "coroutine/arm32/Context.S: save/restore the registers via stack"
-  28eeaed8a9 --jit: |-
-    ruby 2.7.0dev (2019-06-26T08:23:00Z trunk 28eeaed8a9) +JIT [x86_64-linux]
-    last_commit=Revert "coroutine/arm32/Context.S: save/restore the registers via stack"
   ba17127e99: |-
     ruby 2.7.0dev (2019-06-26T09:44:27Z trunk ba17127e99) [x86_64-linux]
     last_commit=Decrease nesting level when closing token comes at a non-first token of line
@@ -6015,3 +5919,39 @@ commits:
   548cd6e2b5 --jit: |-
     ruby 2.7.0dev (2019-08-05T00:16:13Z trunk 548cd6e2b5) +JIT [x86_64-linux]
     last_commit=Drop default leaf definition and obsoleted comments
+  29092d35d3: |-
+    ruby 2.7.0dev (2019-08-05T01:48:49Z trunk 29092d35d3) [x86_64-linux]
+    last_commit=Moved FailDesc to EnvUtil.failure_description
+  29092d35d3 --jit: |-
+    ruby 2.7.0dev (2019-08-05T01:48:49Z trunk 29092d35d3) +JIT [x86_64-linux]
+    last_commit=Moved FailDesc to EnvUtil.failure_description
+  8cfa3d861c: |-
+    ruby 2.7.0dev (2019-08-05T01:51:52Z trunk 8cfa3d861c) [x86_64-linux]
+    last_commit=Do not expect RSTRING_PTR valid after rb_fstring
+  8cfa3d861c --jit: |-
+    ruby 2.7.0dev (2019-08-05T01:51:52Z trunk 8cfa3d861c) +JIT [x86_64-linux]
+    last_commit=Do not expect RSTRING_PTR valid after rb_fstring
+  521e25baa4: |-
+    ruby 2.7.0dev (2019-08-05T02:47:25Z trunk 521e25baa4) [x86_64-linux]
+    last_commit=Fixed assertion
+  521e25baa4 --jit: |-
+    ruby 2.7.0dev (2019-08-05T02:47:25Z trunk 521e25baa4) +JIT [x86_64-linux]
+    last_commit=Fixed assertion
+  dc0c04764f: |-
+    ruby 2.7.0dev (2019-08-05T02:55:21Z trunk dc0c04764f) [x86_64-linux]
+    last_commit=Refined assertion messages
+  dc0c04764f --jit: |-
+    ruby 2.7.0dev (2019-08-05T02:55:21Z trunk dc0c04764f) +JIT [x86_64-linux]
+    last_commit=Refined assertion messages
+  6a265278b5: |-
+    ruby 2.7.0dev (2019-08-05T03:16:03Z trunk 6a265278b5) [x86_64-linux]
+    last_commit=Check if signaled
+  6a265278b5 --jit: |-
+    ruby 2.7.0dev (2019-08-05T03:16:03Z trunk 6a265278b5) +JIT [x86_64-linux]
+    last_commit=Check if signaled
+  2403f9ac3a: |-
+    ruby 2.7.0dev (2019-08-05T03:52:14Z trunk 2403f9ac3a) [x86_64-linux]
+    last_commit=Expand the timeout of `test_pstore_files_are_accessed_as_binary_files`
+  2403f9ac3a --jit: |-
+    ruby 2.7.0dev (2019-08-05T03:52:14Z trunk 2403f9ac3a) +JIT [x86_64-linux]
+    last_commit=Expand the timeout of `test_pstore_files_are_accessed_as_binary_files`
