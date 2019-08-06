@@ -1001,6 +1001,8 @@ results:
     7adc8c79ea: 3381420.5
     ceeb1535dd: 3371718.555
     4d9504fe13: 3304987.86
+    4f1a00a746: 3415719.862
+    4afd897524: 3137271.165
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2001,6 +2003,8 @@ results:
     7adc8c79ea: 3340047.569
     ceeb1535dd: 3352865.661
     4d9504fe13: 3321054.342
+    4f1a00a746: 3296540.658
+    4afd897524: 2959490.756
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3001,6 +3005,8 @@ results:
     7adc8c79ea: 1887416.256
     ceeb1535dd: 1861841.948
     4d9504fe13: 1880069.84
+    4f1a00a746: 1915706.013
+    4afd897524: 1905148.602
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4001,6 +4007,8 @@ results:
     7adc8c79ea: 2841356.077
     ceeb1535dd: 2678046.72
     4d9504fe13: 2734737.056
+    4f1a00a746: 2749778.464
+    4afd897524: 2792021.321
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5001,6 +5009,8 @@ results:
     7adc8c79ea: 3456358.016
     ceeb1535dd: 3681256.978
     4d9504fe13: 3654881.377
+    4f1a00a746: 3759812.449
+    4afd897524: 3374719.263
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -6001,6 +6011,8 @@ results:
     7adc8c79ea: 3666724.663
     ceeb1535dd: 3527567.487
     4d9504fe13: 3620176.21
+    4f1a00a746: 3142546.562
+    4afd897524: 3528862.619
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -7001,6 +7013,8 @@ results:
     7adc8c79ea: 1946098.188
     ceeb1535dd: 1646514.341
     4d9504fe13: 1930116.673
+    4f1a00a746: 1979948.444
+    4afd897524: 1951237.778
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -8001,3 +8015,5 @@ results:
     7adc8c79ea: 2813349.609
     ceeb1535dd: 2802368.185
     4d9504fe13: 2925189.319
+    4f1a00a746: 2996831.377
+    4afd897524: 3002595.947
