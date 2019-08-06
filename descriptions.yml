@@ -9,102 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  ba17127e99: |-
-    ruby 2.7.0dev (2019-06-26T09:44:27Z trunk ba17127e99) [x86_64-linux]
-    last_commit=Decrease nesting level when closing token comes at a non-first token of line
-  ba17127e99 --jit: |-
-    ruby 2.7.0dev (2019-06-26T09:44:27Z trunk ba17127e99) +JIT [x86_64-linux]
-    last_commit=Decrease nesting level when closing token comes at a non-first token of line
-  acb67472c7: |-
-    ruby 2.7.0dev (2019-06-26T10:02:28Z trunk acb67472c7) [x86_64-linux]
-    last_commit=Restore updated implementation of arm32 coroutine code, but prefer ucontext.
-  acb67472c7 --jit: |-
-    ruby 2.7.0dev (2019-06-26T10:02:28Z trunk acb67472c7) +JIT [x86_64-linux]
-    last_commit=Restore updated implementation of arm32 coroutine code, but prefer ucontext.
-  d9a055a721: |-
-    ruby 2.7.0dev (2019-06-26T12:44:20Z trunk d9a055a721) [x86_64-linux]
-    last_commit=[DOC] Fix svn account [ci skip]
-  d9a055a721 --jit: |-
-    ruby 2.7.0dev (2019-06-26T12:44:20Z trunk d9a055a721) +JIT [x86_64-linux]
-    last_commit=[DOC] Fix svn account [ci skip]
-  1235e054eb: |-
-    ruby 2.7.0dev (2019-06-26T12:44:42Z trunk 1235e054eb) [x86_64-linux]
-    last_commit=[DOC] Add spaces [ci skip]
-  1235e054eb --jit: |-
-    ruby 2.7.0dev (2019-06-26T12:44:42Z trunk 1235e054eb) +JIT [x86_64-linux]
-    last_commit=[DOC] Add spaces [ci skip]
-  d004989ac6: |-
-    ruby 2.7.0dev (2019-06-26T14:53:54Z trunk d004989ac6) [x86_64-linux]
-    last_commit=Do not attempt to use ucontext for fibers on OpenBSD
-  d004989ac6 --jit: |-
-    ruby 2.7.0dev (2019-06-26T14:53:54Z trunk d004989ac6) +JIT [x86_64-linux]
-    last_commit=Do not attempt to use ucontext for fibers on OpenBSD
-  72bfc52de6: |-
-    ruby 2.7.0dev (2019-06-26T16:21:06Z trunk 72bfc52de6) [x86_64-linux]
-    last_commit=Decrease indent by closing token correctly
-  72bfc52de6 --jit: |-
-    ruby 2.7.0dev (2019-06-26T16:21:06Z trunk 72bfc52de6) +JIT [x86_64-linux]
-    last_commit=Decrease indent by closing token correctly
-  df3c94712b: |-
-    ruby 2.7.0dev (2019-06-26T16:21:53Z trunk df3c94712b) [x86_64-linux]
-    last_commit=* 2019-06-27
-  df3c94712b --jit: |-
-    ruby 2.7.0dev (2019-06-26T16:21:53Z trunk df3c94712b) +JIT [x86_64-linux]
-    last_commit=* 2019-06-27
-  24c4e6dec1: |-
-    ruby 2.7.0dev (2019-06-26T16:26:14Z trunk 24c4e6dec1) [x86_64-linux]
-    last_commit=Increase indent of continuation line
-  24c4e6dec1 --jit: |-
-    ruby 2.7.0dev (2019-06-26T16:26:14Z trunk 24c4e6dec1) +JIT [x86_64-linux]
-    last_commit=Increase indent of continuation line
-  7172ab0ec5: |-
-    ruby 2.7.0dev (2019-06-26T23:23:11Z trunk 7172ab0ec5) [x86_64-linux]
-    last_commit=Use native coroutine implementation on OpenBSD-amd64
-  7172ab0ec5 --jit: |-
-    ruby 2.7.0dev (2019-06-26T23:23:11Z trunk 7172ab0ec5) +JIT [x86_64-linux]
-    last_commit=Use native coroutine implementation on OpenBSD-amd64
-  d6bcf36793: |-
-    ruby 2.7.0dev (2019-06-27T01:59:26Z trunk d6bcf36793) [x86_64-linux]
-    last_commit=EXPR_CMDARG also indicates the end of an expression
-  d6bcf36793 --jit: |-
-    ruby 2.7.0dev (2019-06-27T01:59:26Z trunk d6bcf36793) +JIT [x86_64-linux]
-    last_commit=EXPR_CMDARG also indicates the end of an expression
-  c86a9e6592: |-
-    ruby 2.7.0dev (2019-06-27T02:18:02Z trunk c86a9e6592) [x86_64-linux]
-    last_commit=bc mode is already removed [ci skip]
-  c86a9e6592 --jit: |-
-    ruby 2.7.0dev (2019-06-27T02:18:02Z trunk c86a9e6592) +JIT [x86_64-linux]
-    last_commit=bc mode is already removed [ci skip]
-  2a56702eee: |-
-    ruby 2.7.0dev (2019-06-27T06:13:45Z trunk 2a56702eee) [x86_64-linux]
-    last_commit=Test for unterminated here-docs
-  2a56702eee --jit: |-
-    ruby 2.7.0dev (2019-06-27T06:13:45Z trunk 2a56702eee) +JIT [x86_64-linux]
-    last_commit=Test for unterminated here-docs
-  '097554855c': |-
-    ruby 2.7.0dev (2019-06-27T06:32:03Z trunk 097554855c) [x86_64-linux]
-    last_commit=Fix ripper fatal
-  '097554855c --jit': |-
-    ruby 2.7.0dev (2019-06-27T06:32:03Z trunk 097554855c) +JIT [x86_64-linux]
-    last_commit=Fix ripper fatal
-  2fd03fd7e6: |-
-    ruby 2.7.0dev (2019-06-27T07:03:43Z trunk 2fd03fd7e6) [x86_64-linux]
-    last_commit=EXPR_LABEL also indicates non-continuation line
-  2fd03fd7e6 --jit: |-
-    ruby 2.7.0dev (2019-06-27T07:03:43Z trunk 2fd03fd7e6) +JIT [x86_64-linux]
-    last_commit=EXPR_LABEL also indicates non-continuation line
-  7b716bc52a: |-
-    ruby 2.7.0dev (2019-06-27T07:58:06Z trunk 7b716bc52a) [x86_64-linux]
-    last_commit=Show the parser states in pretty_print too
-  7b716bc52a --jit: |-
-    ruby 2.7.0dev (2019-06-27T07:58:06Z trunk 7b716bc52a) +JIT [x86_64-linux]
-    last_commit=Show the parser states in pretty_print too
-  2c02d5714e: |-
-    ruby 2.7.0dev (2019-06-27T09:57:23Z trunk 2c02d5714e) [x86_64-linux]
-    last_commit=Add a comment explaining what to do if specs fail on Ruby 2.4
-  2c02d5714e --jit: |-
-    ruby 2.7.0dev (2019-06-27T09:57:23Z trunk 2c02d5714e) +JIT [x86_64-linux]
-    last_commit=Add a comment explaining what to do if specs fail on Ruby 2.4
   9247f6fcc0: |-
     ruby 2.7.0dev (2019-06-27T10:06:39Z trunk 9247f6fcc0) [x86_64-linux]
     last_commit=Expand and clarify documentation about version guards for specs
@@ -6051,3 +5955,9 @@ commits:
   c9192ef2e8 --jit: |-
     ruby 2.7.0dev (2019-08-05T15:56:05Z trunk c9192ef2e8) +JIT [x86_64-linux]
     last_commit=* expand tabs.
+  81252c5ccd: |-
+    ruby 2.7.0dev (2019-08-05T20:31:58Z trunk 81252c5ccd) [x86_64-linux]
+    last_commit=Let prev EP move again
+  81252c5ccd --jit: |-
+    ruby 2.7.0dev (2019-08-05T20:31:58Z trunk 81252c5ccd) +JIT [x86_64-linux]
+    last_commit=Let prev EP move again
