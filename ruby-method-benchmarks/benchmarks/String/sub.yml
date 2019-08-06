@@ -999,6 +999,8 @@ results:
     72825c35b0: 3381465.422
     f76cfb55d7: 3455481.454
     7adc8c79ea: 3381420.5
+    ceeb1535dd: 3371718.555
+    4d9504fe13: 3304987.86
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -1997,6 +1999,8 @@ results:
     72825c35b0: 3389087.932
     f76cfb55d7: 3420392.182
     7adc8c79ea: 3340047.569
+    ceeb1535dd: 3352865.661
+    4d9504fe13: 3321054.342
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -2995,6 +2999,8 @@ results:
     72825c35b0: 1913694.779
     f76cfb55d7: 1667932.984
     7adc8c79ea: 1887416.256
+    ceeb1535dd: 1861841.948
+    4d9504fe13: 1880069.84
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -3993,6 +3999,8 @@ results:
     72825c35b0: 2553370.429
     f76cfb55d7: 2737153.419
     7adc8c79ea: 2841356.077
+    ceeb1535dd: 2678046.72
+    4d9504fe13: 2734737.056
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -4991,6 +4999,8 @@ results:
     72825c35b0: 3713272.794
     f76cfb55d7: 3756639.521
     7adc8c79ea: 3456358.016
+    ceeb1535dd: 3681256.978
+    4d9504fe13: 3654881.377
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -5989,6 +5999,8 @@ results:
     72825c35b0: 3408982.446
     f76cfb55d7: 3723704.309
     7adc8c79ea: 3666724.663
+    ceeb1535dd: 3527567.487
+    4d9504fe13: 3620176.21
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -6987,6 +6999,8 @@ results:
     72825c35b0: 2023451.523
     f76cfb55d7: 1821470.482
     7adc8c79ea: 1946098.188
+    ceeb1535dd: 1646514.341
+    4d9504fe13: 1930116.673
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -7985,3 +7999,5 @@ results:
     72825c35b0: 2735050.998
     f76cfb55d7: 2769667.993
     7adc8c79ea: 2813349.609
+    ceeb1535dd: 2802368.185
+    4d9504fe13: 2925189.319
