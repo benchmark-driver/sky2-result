@@ -5985,3 +5985,15 @@ commits:
   146cf2f444 --jit: |-
     ruby 2.7.0dev (2019-08-06T00:01:05Z trunk 146cf2f444) +JIT [x86_64-linux]
     last_commit=Removing duplicated assertions on test_array.rb - MINUS method
+  5cff9968ae: |-
+    ruby 2.7.0dev (2019-08-06T02:52:42Z trunk 5cff9968ae) [x86_64-linux]
+    last_commit=Distinguish bad scan format from no argument variables
+  5cff9968ae --jit: |-
+    ruby 2.7.0dev (2019-08-06T02:52:42Z trunk 5cff9968ae) +JIT [x86_64-linux]
+    last_commit=Distinguish bad scan format from no argument variables
+  4daff3a603: |-
+    ruby 2.7.0dev (2019-08-06T03:06:03Z trunk 4daff3a603) [x86_64-linux]
+    last_commit=The value of rb_scan_args_verify is never used
+  4daff3a603 --jit: |-
+    ruby 2.7.0dev (2019-08-06T03:06:03Z trunk 4daff3a603) +JIT [x86_64-linux]
+    last_commit=The value of rb_scan_args_verify is never used
