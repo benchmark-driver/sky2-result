@@ -5967,3 +5967,15 @@ commits:
   8877dbe400 --jit: |-
     ruby 2.7.0dev (2019-08-06T18:13:17Z trunk 8877dbe400) +JIT [x86_64-linux]
     last_commit=ext/ripper/lib/ripper/lexer.rb: Consistently use `Array#push`
+  b839721ae7: |-
+    ruby 2.7.0dev (2019-08-07T00:03:08Z trunk b839721ae7) [x86_64-linux]
+    last_commit=.travis.yml: Use `-eq` instead `=` to compare integers
+  b839721ae7 --jit: |-
+    ruby 2.7.0dev (2019-08-07T00:03:08Z trunk b839721ae7) +JIT [x86_64-linux]
+    last_commit=.travis.yml: Use `-eq` instead `=` to compare integers
+  a0fe396555: |-
+    ruby 2.7.0dev (2019-08-07T00:40:11Z trunk a0fe396555) [x86_64-linux]
+    last_commit=Simplify break logic of Travis retries
+  a0fe396555 --jit: |-
+    ruby 2.7.0dev (2019-08-07T00:40:11Z trunk a0fe396555) +JIT [x86_64-linux]
+    last_commit=Simplify break logic of Travis retries
