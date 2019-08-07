@@ -5955,3 +5955,15 @@ commits:
   2d6b92c5f6 --jit: |-
     ruby 2.7.0dev (2019-08-06T16:26:33Z trunk 2d6b92c5f6) +JIT [x86_64-linux]
     last_commit=Retry ubuntu-toolchain-r-test apt source setup
+  ef8c5161b4: |-
+    ruby 2.7.0dev (2019-08-06T18:12:49Z trunk ef8c5161b4) [x86_64-linux]
+    last_commit=ext/ripper/lib/ripper/lexer.rb: fix a wrong delegation
+  ef8c5161b4 --jit: |-
+    ruby 2.7.0dev (2019-08-06T18:12:49Z trunk ef8c5161b4) +JIT [x86_64-linux]
+    last_commit=ext/ripper/lib/ripper/lexer.rb: fix a wrong delegation
+  8877dbe400: |-
+    ruby 2.7.0dev (2019-08-06T18:13:17Z trunk 8877dbe400) [x86_64-linux]
+    last_commit=ext/ripper/lib/ripper/lexer.rb: Consistently use `Array#push`
+  8877dbe400 --jit: |-
+    ruby 2.7.0dev (2019-08-06T18:13:17Z trunk 8877dbe400) +JIT [x86_64-linux]
+    last_commit=ext/ripper/lib/ripper/lexer.rb: Consistently use `Array#push`
