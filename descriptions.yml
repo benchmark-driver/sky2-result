@@ -9,108 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  023360ee4b: |-
-    ruby 2.7.0dev (2019-06-28T05:38:43Z trunk 023360ee4b) [x86_64-linux]
-    last_commit=[DOC] Singleton.instance [ci skip]
-  023360ee4b --jit: |-
-    ruby 2.7.0dev (2019-06-28T05:38:43Z trunk 023360ee4b) +JIT [x86_64-linux]
-    last_commit=[DOC] Singleton.instance [ci skip]
-  c52dad0ecf: |-
-    ruby 2.7.0dev (2019-06-28T05:54:00Z trunk c52dad0ecf) [x86_64-linux]
-    last_commit=Wait for the helper thread to terminate
-  c52dad0ecf --jit: |-
-    ruby 2.7.0dev (2019-06-28T05:54:00Z trunk c52dad0ecf) +JIT [x86_64-linux]
-    last_commit=Wait for the helper thread to terminate
-  f8b64e5f2c: |-
-    ruby 2.7.0dev (2019-06-28T06:04:25Z trunk f8b64e5f2c) [x86_64-linux]
-    last_commit=Use assigned local variable
-  f8b64e5f2c --jit: |-
-    ruby 2.7.0dev (2019-06-28T06:04:25Z trunk f8b64e5f2c) +JIT [x86_64-linux]
-    last_commit=Use assigned local variable
-  a0c141b6d0: |-
-    ruby 2.7.0dev (2019-06-28T06:09:14Z trunk a0c141b6d0) [x86_64-linux]
-    last_commit=Suppress redefinition and void context warnings
-  a0c141b6d0 --jit: |-
-    ruby 2.7.0dev (2019-06-28T06:09:14Z trunk a0c141b6d0) +JIT [x86_64-linux]
-    last_commit=Suppress redefinition and void context warnings
-  e0c4cb2ea1: |-
-    ruby 2.7.0dev (2019-06-28T06:22:27Z trunk e0c4cb2ea1) [x86_64-linux]
-    last_commit=Define singleton method on each new objects
-  e0c4cb2ea1 --jit: |-
-    ruby 2.7.0dev (2019-06-28T06:22:27Z trunk e0c4cb2ea1) +JIT [x86_64-linux]
-    last_commit=Define singleton method on each new objects
-  11571b0e95: |-
-    ruby 2.7.0dev (2019-06-28T06:25:29Z trunk 11571b0e95) [x86_64-linux]
-    last_commit=Use assert_separately instead of invoke_ruby
-  11571b0e95 --jit: |-
-    ruby 2.7.0dev (2019-06-28T06:25:29Z trunk 11571b0e95) +JIT [x86_64-linux]
-    last_commit=Use assert_separately instead of invoke_ruby
-  f8b528ba92: |-
-    ruby 2.7.0dev (2019-06-28T06:26:25Z trunk f8b528ba92) [x86_64-linux]
-    last_commit=Suppress unused variable warnings
-  f8b528ba92 --jit: |-
-    ruby 2.7.0dev (2019-06-28T06:26:25Z trunk f8b528ba92) +JIT [x86_64-linux]
-    last_commit=Suppress unused variable warnings
-  35b7e8eed8: |-
-    ruby 2.7.0dev (2019-06-28T06:26:54Z trunk 35b7e8eed8) [x86_64-linux]
-    last_commit=Skip instead of return
-  35b7e8eed8 --jit: |-
-    ruby 2.7.0dev (2019-06-28T06:26:54Z trunk 35b7e8eed8) +JIT [x86_64-linux]
-    last_commit=Skip instead of return
-  566e6b0546: |-
-    ruby 2.7.0dev (2019-06-28T07:02:03Z trunk 566e6b0546) [x86_64-linux]
-    last_commit=Fixed name conflict between helper classes
-  566e6b0546 --jit: |-
-    ruby 2.7.0dev (2019-06-28T07:02:03Z trunk 566e6b0546) +JIT [x86_64-linux]
-    last_commit=Fixed name conflict between helper classes
-  e9bce55c12: |-
-    ruby 2.7.0dev (2019-06-28T07:02:47Z trunk e9bce55c12) [x86_64-linux]
-    last_commit=Removed excess spaces
-  e9bce55c12 --jit: |-
-    ruby 2.7.0dev (2019-06-28T07:02:47Z trunk e9bce55c12) +JIT [x86_64-linux]
-    last_commit=Removed excess spaces
-  8d04f90da4: |-
-    ruby 2.7.0dev (2019-06-28T08:07:17Z trunk 8d04f90da4) [x86_64-linux]
-    last_commit=Fixed a variable name
-  8d04f90da4 --jit: |-
-    ruby 2.7.0dev (2019-06-28T08:07:17Z trunk 8d04f90da4) +JIT [x86_64-linux]
-    last_commit=Fixed a variable name
-  5331932cd2: |-
-    ruby 2.7.0dev (2019-06-28T08:08:21Z trunk 5331932cd2) [x86_64-linux]
-    last_commit=Removed unused variables
-  5331932cd2 --jit: |-
-    ruby 2.7.0dev (2019-06-28T08:08:21Z trunk 5331932cd2) +JIT [x86_64-linux]
-    last_commit=Removed unused variables
-  3dba16a5d6: |-
-    ruby 2.7.0dev (2019-06-28T08:08:47Z trunk 3dba16a5d6) [x86_64-linux]
-    last_commit=Test string content
-  3dba16a5d6 --jit: |-
-    ruby 2.7.0dev (2019-06-28T08:08:47Z trunk 3dba16a5d6) +JIT [x86_64-linux]
-    last_commit=Test string content
-  8ec877d183: |-
-    ruby 2.7.0dev (2019-06-28T08:10:18Z trunk 8ec877d183) [x86_64-linux]
-    last_commit=Add parentheses to suppress a warning
-  8ec877d183 --jit: |-
-    ruby 2.7.0dev (2019-06-28T08:10:18Z trunk 8ec877d183) +JIT [x86_64-linux]
-    last_commit=Add parentheses to suppress a warning
-  c718f56ed9: |-
-    ruby 2.7.0dev (2019-06-28T13:25:35Z trunk c718f56ed9) [x86_64-linux]
-    last_commit=Remove auto indent of continuation line
-  c718f56ed9 --jit: |-
-    ruby 2.7.0dev (2019-06-28T13:25:35Z trunk c718f56ed9) +JIT [x86_64-linux]
-    last_commit=Remove auto indent of continuation line
-  d233f9175c: |-
-    ruby 2.7.0dev (2019-06-28T14:21:25Z trunk d233f9175c) [x86_64-linux]
-    last_commit=[DOC] Re-apply r11000, 41256fd43275c8bf66460510da7ab958a802e2a2
-  d233f9175c --jit: |-
-    ruby 2.7.0dev (2019-06-28T14:21:25Z trunk d233f9175c) +JIT [x86_64-linux]
-    last_commit=[DOC] Re-apply r11000, 41256fd43275c8bf66460510da7ab958a802e2a2
-  2bb217bfb7: |-
-    ruby 2.7.0dev (2019-06-28T14:21:37Z trunk 2bb217bfb7) [x86_64-linux]
-    last_commit=Removed unused variables
-  2bb217bfb7 --jit: |-
-    ruby 2.7.0dev (2019-06-28T14:21:37Z trunk 2bb217bfb7) +JIT [x86_64-linux]
-    last_commit=Removed unused variables
   d12d53a6c8: |-
     ruby 2.7.0dev (2019-06-28T16:30:43Z trunk d12d53a6c8) [x86_64-linux]
     last_commit=Adjust caller's line number, expect the next line as here-doc
@@ -6027,3 +5925,33 @@ commits:
   f5481e35ab --jit: |-
     ruby 2.7.0dev (2019-08-07T13:30:10Z trunk f5481e35ab) +JIT [x86_64-linux]
     last_commit=Added separator for failing commits from default gems.
+  0cf6bfca78: |-
+    ruby 2.7.0dev (2019-08-07T13:43:02Z trunk 0cf6bfca78) [x86_64-linux]
+    last_commit=hash.c: gc.h is no longer needed
+  0cf6bfca78 --jit: |-
+    ruby 2.7.0dev (2019-08-07T13:43:02Z trunk 0cf6bfca78) +JIT [x86_64-linux]
+    last_commit=hash.c: gc.h is no longer needed
+  3229e0583f: |-
+    ruby 2.7.0dev (2019-08-07T13:54:38Z trunk 3229e0583f) [x86_64-linux]
+    last_commit=hash.c: gc.h is needed when HASH_DEBUG mode
+  3229e0583f --jit: |-
+    ruby 2.7.0dev (2019-08-07T13:54:38Z trunk 3229e0583f) +JIT [x86_64-linux]
+    last_commit=hash.c: gc.h is needed when HASH_DEBUG mode
+  f82633b6a6: |-
+    ruby 2.7.0dev (2019-08-07T13:56:52Z trunk f82633b6a6) [x86_64-linux]
+    last_commit=array.c: gc.h is not needed
+  f82633b6a6 --jit: |-
+    ruby 2.7.0dev (2019-08-07T13:56:52Z trunk f82633b6a6) +JIT [x86_64-linux]
+    last_commit=array.c: gc.h is not needed
+  fa29f65416: |-
+    ruby 2.7.0dev (2019-08-07T15:10:27Z trunk fa29f65416) [x86_64-linux]
+    last_commit=Debug appveyor mingw failure
+  fa29f65416 --jit: |-
+    ruby 2.7.0dev (2019-08-07T15:10:27Z trunk fa29f65416) +JIT [x86_64-linux]
+    last_commit=Debug appveyor mingw failure
+  2f3795113d: |-
+    ruby 2.7.0dev (2019-08-07T15:11:34Z trunk 2f3795113d) [x86_64-linux]
+    last_commit=* 2019-08-08
+  2f3795113d --jit: |-
+    ruby 2.7.0dev (2019-08-07T15:11:34Z trunk 2f3795113d) +JIT [x86_64-linux]
+    last_commit=* 2019-08-08
