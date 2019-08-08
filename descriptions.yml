@@ -5961,3 +5961,15 @@ commits:
   70fd099220 --jit: |-
     ruby 2.7.0dev (2019-08-07T17:36:17Z trunk 70fd099220) +JIT [x86_64-linux]
     last_commit=Add a way to print debug counters without exiting
+  1c7d3a13ca: |-
+    ruby 2.7.0dev (2019-08-08T05:22:56Z trunk 1c7d3a13ca) [x86_64-linux]
+    last_commit=Add *_start and *_running  methods to VM_COLLECT_USAGE_DETAILS API
+  1c7d3a13ca --jit: |-
+    ruby 2.7.0dev (2019-08-08T05:22:56Z trunk 1c7d3a13ca) +JIT [x86_64-linux]
+    last_commit=Add *_start and *_running  methods to VM_COLLECT_USAGE_DETAILS API
+  1ad0f4e593: |-
+    ruby 2.7.0dev (2019-08-08T05:22:56Z trunk 1ad0f4e593) [x86_64-linux]
+    last_commit=Add *_clear methods to VM_COLLECT_USAGE_DETAILS API
+  1ad0f4e593 --jit: |-
+    ruby 2.7.0dev (2019-08-08T05:22:56Z trunk 1ad0f4e593) +JIT [x86_64-linux]
+    last_commit=Add *_clear methods to VM_COLLECT_USAGE_DETAILS API
