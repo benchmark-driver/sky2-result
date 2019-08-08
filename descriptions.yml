@@ -9,120 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  d12d53a6c8: |-
-    ruby 2.7.0dev (2019-06-28T16:30:43Z trunk d12d53a6c8) [x86_64-linux]
-    last_commit=Adjust caller's line number, expect the next line as here-doc
-  d12d53a6c8 --jit: |-
-    ruby 2.7.0dev (2019-06-28T16:30:43Z trunk d12d53a6c8) +JIT [x86_64-linux]
-    last_commit=Adjust caller's line number, expect the next line as here-doc
-  ede056909b: |-
-    ruby 2.7.0dev (2019-06-28T16:31:52Z trunk ede056909b) [x86_64-linux]
-    last_commit=Set file name and line number
-  ede056909b --jit: |-
-    ruby 2.7.0dev (2019-06-28T16:31:52Z trunk ede056909b) +JIT [x86_64-linux]
-    last_commit=Set file name and line number
-  14da3009f0: |-
-    ruby 2.7.0dev (2019-06-28T23:12:36Z trunk 14da3009f0) [x86_64-linux]
-    last_commit=* 2019-06-29
-  14da3009f0 --jit: |-
-    ruby 2.7.0dev (2019-06-28T23:12:36Z trunk 14da3009f0) +JIT [x86_64-linux]
-    last_commit=* 2019-06-29
-  8aecc90974: |-
-    ruby 2.7.0dev (2019-06-29T01:02:04Z trunk 8aecc90974) [x86_64-linux]
-    last_commit=Hoisted out WIDE_ENCODINGS
-  8aecc90974 --jit: |-
-    ruby 2.7.0dev (2019-06-29T01:02:04Z trunk 8aecc90974) +JIT [x86_64-linux]
-    last_commit=Hoisted out WIDE_ENCODINGS
-  2f6cc15cdb: |-
-    ruby 2.7.0dev (2019-06-29T01:10:17Z trunk 2f6cc15cdb) [x86_64-linux]
-    last_commit=Fixed String#grapheme_clusters with wide encodings
-  2f6cc15cdb --jit: |-
-    ruby 2.7.0dev (2019-06-29T01:10:17Z trunk 2f6cc15cdb) +JIT [x86_64-linux]
-    last_commit=Fixed String#grapheme_clusters with wide encodings
-  a88107c44d: |-
-    ruby 2.7.0dev (2019-06-29T01:17:37Z trunk a88107c44d) [x86_64-linux]
-    last_commit=* expand tabs.
-  a88107c44d --jit: |-
-    ruby 2.7.0dev (2019-06-29T01:17:37Z trunk a88107c44d) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  7ba14b029c: |-
-    ruby 2.7.0dev (2019-06-29T08:52:57Z trunk 7ba14b029c) [x86_64-linux]
-    last_commit=Add max option to TestProtocol#create_mockio
-  7ba14b029c --jit: |-
-    ruby 2.7.0dev (2019-06-29T08:52:57Z trunk 7ba14b029c) +JIT [x86_64-linux]
-    last_commit=Add max option to TestProtocol#create_mockio
-  a17fba6989: |-
-    ruby 2.7.0dev (2019-06-29T08:55:22Z trunk a17fba6989) [x86_64-linux]
-    last_commit=Rmove old TestTimeTZ::TZ#abbr attribute
-  a17fba6989 --jit: |-
-    ruby 2.7.0dev (2019-06-29T08:55:22Z trunk a17fba6989) +JIT [x86_64-linux]
-    last_commit=Rmove old TestTimeTZ::TZ#abbr attribute
-  27723b699b: |-
-    ruby 2.7.0dev (2019-06-29T09:45:24Z trunk 27723b699b) [x86_64-linux]
-    last_commit=Should not warn massign parameters as unused
-  27723b699b --jit: |-
-    ruby 2.7.0dev (2019-06-29T09:45:24Z trunk 27723b699b) +JIT [x86_64-linux]
-    last_commit=Should not warn massign parameters as unused
-  792d1deb94: |-
-    ruby 2.7.0dev (2019-06-29T10:07:25Z trunk 792d1deb94) [x86_64-linux]
-    last_commit=Escape control codes in regexp warning message
-  792d1deb94 --jit: |-
-    ruby 2.7.0dev (2019-06-29T10:07:25Z trunk 792d1deb94) +JIT [x86_64-linux]
-    last_commit=Escape control codes in regexp warning message
-  cbb7dc21a8: |-
-    ruby 2.7.0dev (2019-06-29T10:17:51Z trunk cbb7dc21a8) [x86_64-linux]
-    last_commit=Fix predicate to assert if object is same
-  cbb7dc21a8 --jit: |-
-    ruby 2.7.0dev (2019-06-29T10:17:51Z trunk cbb7dc21a8) +JIT [x86_64-linux]
-    last_commit=Fix predicate to assert if object is same
-  9f648262f9: |-
-    ruby 2.7.0dev (2019-06-29T12:45:59Z trunk 9f648262f9) [x86_64-linux]
-    last_commit=Fix predicate to assert if object is same
-  9f648262f9 --jit: |-
-    ruby 2.7.0dev (2019-06-29T12:45:59Z trunk 9f648262f9) +JIT [x86_64-linux]
-    last_commit=Fix predicate to assert if object is same
-  45ba027d08: |-
-    ruby 2.7.0dev (2019-06-29T23:45:01Z trunk 45ba027d08) [x86_64-linux]
-    last_commit=Removed unused variables
-  45ba027d08 --jit: |-
-    ruby 2.7.0dev (2019-06-29T23:45:01Z trunk 45ba027d08) +JIT [x86_64-linux]
-    last_commit=Removed unused variables
-  81e8830a76: |-
-    ruby 2.7.0dev (2019-06-29T23:50:35Z trunk 81e8830a76) [x86_64-linux]
-    last_commit=* 2019-06-30
-  81e8830a76 --jit: |-
-    ruby 2.7.0dev (2019-06-29T23:50:35Z trunk 81e8830a76) +JIT [x86_64-linux]
-    last_commit=* 2019-06-30
-  78a8888c3e: |-
-    ruby 2.7.0dev (2019-06-30T01:57:24Z trunk 78a8888c3e) [x86_64-linux]
-    last_commit=Hoisted out f_rest_marg
-  78a8888c3e --jit: |-
-    ruby 2.7.0dev (2019-06-30T01:57:24Z trunk 78a8888c3e) +JIT [x86_64-linux]
-    last_commit=Hoisted out f_rest_marg
-  41012f2e2b: |-
-    ruby 2.7.0dev (2019-06-30T02:41:10Z trunk 41012f2e2b) [x86_64-linux]
-    last_commit=Add parentheses to suppress warnings
-  41012f2e2b --jit: |-
-    ruby 2.7.0dev (2019-06-30T02:41:10Z trunk 41012f2e2b) +JIT [x86_64-linux]
-    last_commit=Add parentheses to suppress warnings
-  84837e6d16: |-
-    ruby 2.7.0dev (2019-06-30T02:41:10Z trunk 84837e6d16) [x86_64-linux]
-    last_commit=Wait for the helper thread to terminate
-  84837e6d16 --jit: |-
-    ruby 2.7.0dev (2019-06-30T02:41:10Z trunk 84837e6d16) +JIT [x86_64-linux]
-    last_commit=Wait for the helper thread to terminate
-  409b0ec4c3: |-
-    ruby 2.7.0dev (2019-06-30T02:45:37Z trunk 409b0ec4c3) [x86_64-linux]
-    last_commit=Suppress unused variable warnings
-  409b0ec4c3 --jit: |-
-    ruby 2.7.0dev (2019-06-30T02:45:37Z trunk 409b0ec4c3) +JIT [x86_64-linux]
-    last_commit=Suppress unused variable warnings
-  ad3820886b: |-
-    ruby 2.7.0dev (2019-06-30T02:45:37Z trunk ad3820886b) [x86_64-linux]
-    last_commit=Fixed an assertion
-  ad3820886b --jit: |-
-    ruby 2.7.0dev (2019-06-30T02:45:37Z trunk ad3820886b) +JIT [x86_64-linux]
-    last_commit=Fixed an assertion
   44eca1b22f: |-
     ruby 2.7.0dev (2019-06-30T02:45:38Z trunk 44eca1b22f) [x86_64-linux]
     last_commit=Reset the result between assertions
@@ -6021,3 +5907,51 @@ commits:
   2a6d7fad13 --jit: |-
     ruby 2.7.0dev (2019-08-08T13:18:50Z trunk 2a6d7fad13) +JIT [x86_64-linux]
     last_commit=Arrange installed packages like ruby-loco
+  995c2e9536: |-
+    ruby 2.7.0dev (2019-08-08T13:28:00Z trunk 995c2e9536) [x86_64-linux]
+    last_commit=Reduce unnecessary EXEC_TAG in require
+  995c2e9536 --jit: |-
+    ruby 2.7.0dev (2019-08-08T13:28:00Z trunk 995c2e9536) +JIT [x86_64-linux]
+    last_commit=Reduce unnecessary EXEC_TAG in require
+  a9b9f9d157: |-
+    ruby 2.7.0dev (2019-08-08T13:36:34Z trunk a9b9f9d157) [x86_64-linux]
+    last_commit=Revert "Drop -j from msys2 build for debugging"
+  a9b9f9d157 --jit: |-
+    ruby 2.7.0dev (2019-08-08T13:36:34Z trunk a9b9f9d157) +JIT [x86_64-linux]
+    last_commit=Revert "Drop -j from msys2 build for debugging"
+  a206738762: |-
+    ruby 2.7.0dev (2019-08-08T13:40:20Z trunk a206738762) [x86_64-linux]
+    last_commit=Remove temporary directory [ci skip]
+  a206738762 --jit: |-
+    ruby 2.7.0dev (2019-08-08T13:40:20Z trunk a206738762) +JIT [x86_64-linux]
+    last_commit=Remove temporary directory [ci skip]
+  ad3f7a3667: |-
+    ruby 2.7.0dev (2019-08-08T15:12:54Z trunk ad3f7a3667) [x86_64-linux]
+    last_commit=Should require without wrapper module
+  ad3f7a3667 --jit: |-
+    ruby 2.7.0dev (2019-08-08T15:12:54Z trunk ad3f7a3667) +JIT [x86_64-linux]
+    last_commit=Should require without wrapper module
+  c0f4943840: |-
+    ruby 2.7.0dev (2019-08-08T15:16:24Z trunk c0f4943840) [x86_64-linux]
+    last_commit=* 2019-08-09
+  c0f4943840 --jit: |-
+    ruby 2.7.0dev (2019-08-08T15:16:24Z trunk c0f4943840) +JIT [x86_64-linux]
+    last_commit=* 2019-08-09
+  830fd04181: |-
+    ruby 2.7.0dev (2019-08-08T16:27:52Z trunk 830fd04181) [x86_64-linux]
+    last_commit=C99 allows trailing comma in enum
+  830fd04181 --jit: |-
+    ruby 2.7.0dev (2019-08-08T16:27:52Z trunk 830fd04181) +JIT [x86_64-linux]
+    last_commit=C99 allows trailing comma in enum
+  050b932152: |-
+    ruby 2.7.0dev (2019-08-08T16:29:53Z trunk 050b932152) [x86_64-linux]
+    last_commit=Iseq#to_binary: Add support for NoMatchingPatternError and TypeError
+  050b932152 --jit: |-
+    ruby 2.7.0dev (2019-08-08T16:29:53Z trunk 050b932152) +JIT [x86_64-linux]
+    last_commit=Iseq#to_binary: Add support for NoMatchingPatternError and TypeError
+  57288f5dbd: |-
+    ruby 2.7.0dev (2019-08-08T16:32:30Z trunk 57288f5dbd) [x86_64-linux]
+    last_commit=* expand tabs.
+  57288f5dbd --jit: |-
+    ruby 2.7.0dev (2019-08-08T16:32:30Z trunk 57288f5dbd) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
