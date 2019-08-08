@@ -5997,3 +5997,27 @@ commits:
   29bdfeb0c6 --jit: |-
     ruby 2.7.0dev (2019-08-08T08:59:38Z trunk 29bdfeb0c6) +JIT [x86_64-linux]
     last_commit=* expand tabs.
+  b1594ca3d6: |-
+    ruby 2.7.0dev (2019-08-08T11:37:12Z trunk b1594ca3d6) [x86_64-linux]
+    last_commit=Drop -j from msys2 build for debugging
+  b1594ca3d6 --jit: |-
+    ruby 2.7.0dev (2019-08-08T11:37:12Z trunk b1594ca3d6) +JIT [x86_64-linux]
+    last_commit=Drop -j from msys2 build for debugging
+  3d87b774c4: |-
+    ruby 2.7.0dev (2019-08-08T12:27:39Z trunk 3d87b774c4) [x86_64-linux]
+    last_commit=Use `ec` instead of `th->ec` where the `th` came from the `ec`
+  3d87b774c4 --jit: |-
+    ruby 2.7.0dev (2019-08-08T12:27:39Z trunk 3d87b774c4) +JIT [x86_64-linux]
+    last_commit=Use `ec` instead of `th->ec` where the `th` came from the `ec`
+  76bd0714cf: |-
+    ruby 2.7.0dev (2019-08-08T12:27:39Z trunk 76bd0714cf) [x86_64-linux]
+    last_commit=solve "duplicate :raise event" in require too [Bug #15877]
+  76bd0714cf --jit: |-
+    ruby 2.7.0dev (2019-08-08T12:27:39Z trunk 76bd0714cf) +JIT [x86_64-linux]
+    last_commit=solve "duplicate :raise event" in require too [Bug #15877]
+  2a6d7fad13: |-
+    ruby 2.7.0dev (2019-08-08T13:18:50Z trunk 2a6d7fad13) [x86_64-linux]
+    last_commit=Arrange installed packages like ruby-loco
+  2a6d7fad13 --jit: |-
+    ruby 2.7.0dev (2019-08-08T13:18:50Z trunk 2a6d7fad13) +JIT [x86_64-linux]
+    last_commit=Arrange installed packages like ruby-loco
