@@ -1017,6 +1017,8 @@ results:
     1e63683795: 3442875.828
     0d596c1ab2: 3367134.664
     cef81eb8cc: 3439163.699
+    44eca1b22f: 3360648.839
+    ead2dc0ec9: 3249359.688
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2033,6 +2035,8 @@ results:
     1e63683795: 3436457.29
     0d596c1ab2: 3322002.343
     cef81eb8cc: 3403933.74
+    44eca1b22f: 3377005.605
+    ead2dc0ec9: 3421657.373
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3049,6 +3053,8 @@ results:
     1e63683795: 1891046.988
     0d596c1ab2: 1821225.205
     cef81eb8cc: 1902618.368
+    44eca1b22f: 1781361.602
+    ead2dc0ec9: 1927907.956
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4065,6 +4071,8 @@ results:
     1e63683795: 2393122.049
     0d596c1ab2: 2783276.949
     cef81eb8cc: 2771366.534
+    44eca1b22f: 2715757.86
+    ead2dc0ec9: 2556150.532
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5081,6 +5089,8 @@ results:
     1e63683795: 3703918.21
     0d596c1ab2: 3400839.091
     cef81eb8cc: 3715997.319
+    44eca1b22f: 3535498.842
+    ead2dc0ec9: 3725105.416
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -6097,6 +6107,8 @@ results:
     1e63683795: 3712774.974
     0d596c1ab2: 3389838.0
     cef81eb8cc: 3721285.184
+    44eca1b22f: 3580738.642
+    ead2dc0ec9: 3698429.998
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -7113,6 +7125,8 @@ results:
     1e63683795: 1997272.035
     0d596c1ab2: 1968770.473
     cef81eb8cc: 1710711.99
+    44eca1b22f: 1991507.251
+    ead2dc0ec9: 2013223.623
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -8129,3 +8143,5 @@ results:
     1e63683795: 2949636.255
     0d596c1ab2: 2995118.061
     cef81eb8cc: 2939987.831
+    44eca1b22f: 2913676.782
+    ead2dc0ec9: 2949066.407
