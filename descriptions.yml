@@ -5979,3 +5979,45 @@ commits:
   0176e74d6c --jit: |-
     ruby 2.7.0dev (2019-08-09T02:39:24Z trunk 0176e74d6c) +JIT [x86_64-linux]
     last_commit=Add missing dependency
+  a9fd57056c: |-
+    ruby 2.7.0dev (2019-08-09T04:04:56Z trunk a9fd57056c) [x86_64-linux]
+    last_commit=double memory limit on MJIT.
+  a9fd57056c --jit: |-
+    ruby 2.7.0dev (2019-08-09T04:04:56Z trunk a9fd57056c) +JIT [x86_64-linux]
+    last_commit=double memory limit on MJIT.
+  37eefb11fb: |-
+    ruby 2.7.0dev (2019-08-09T04:08:01Z trunk 37eefb11fb) [x86_64-linux]
+    last_commit=remove useless include and dependency
+  37eefb11fb --jit: |-
+    ruby 2.7.0dev (2019-08-09T04:08:01Z trunk 37eefb11fb) +JIT [x86_64-linux]
+    last_commit=remove useless include and dependency
+  54bdfe27f3: |-
+    ruby 2.7.0dev (2019-08-09T04:15:12Z trunk 54bdfe27f3) [x86_64-linux]
+    last_commit=Run macOS tests on GitHub Actions
+  54bdfe27f3 --jit: |-
+    ruby 2.7.0dev (2019-08-09T04:15:12Z trunk 54bdfe27f3) +JIT [x86_64-linux]
+    last_commit=Run macOS tests on GitHub Actions
+  cb390e87dc: |-
+    ruby 2.7.0dev (2019-08-09T04:15:18Z trunk cb390e87dc) [x86_64-linux]
+    last_commit=Add more runners
+  cb390e87dc --jit: |-
+    ruby 2.7.0dev (2019-08-09T04:15:18Z trunk cb390e87dc) +JIT [x86_64-linux]
+    last_commit=Add more runners
+  6bf8db9a07: |-
+    ruby 2.7.0dev (2019-08-09T05:01:15Z trunk 6bf8db9a07) [x86_64-linux]
+    last_commit=add rp() and bp() in internal.h.
+  6bf8db9a07 --jit: |-
+    ruby 2.7.0dev (2019-08-09T05:01:15Z trunk 6bf8db9a07) +JIT [x86_64-linux]
+    last_commit=add rp() and bp() in internal.h.
+  3b39cc6b03: |-
+    ruby 2.7.0dev (2019-08-09T05:11:24Z trunk 3b39cc6b03) [x86_64-linux]
+    last_commit=gc.h is required on mswin build.
+  3b39cc6b03 --jit: |-
+    ruby 2.7.0dev (2019-08-09T05:11:24Z trunk 3b39cc6b03) +JIT [x86_64-linux]
+    last_commit=gc.h is required on mswin build.
+  26cf4c91ad: |-
+    ruby 2.7.0dev (2019-08-09T06:23:35Z trunk 26cf4c91ad) [x86_64-linux]
+    last_commit=extend timeout to debug.
+  26cf4c91ad --jit: |-
+    ruby 2.7.0dev (2019-08-09T06:23:35Z trunk 26cf4c91ad) +JIT [x86_64-linux]
+    last_commit=extend timeout to debug.
