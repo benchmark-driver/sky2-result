@@ -1035,6 +1035,8 @@ results:
     f9dac1bd54: 3456270.729
     1c070c9c29: 3420615.603
     2453d16f5e: 3367599.542
+    a39f218f22: 3451660.572
+    bef398eb87: 3380034.514
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2069,6 +2071,8 @@ results:
     f9dac1bd54: 3411782.803
     1c070c9c29: 3382301.914
     2453d16f5e: 3369476.901
+    a39f218f22: 3422326.405
+    bef398eb87: 3088148.12
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3103,6 +3107,8 @@ results:
     f9dac1bd54: 1938258.787
     1c070c9c29: 1922418.256
     2453d16f5e: 1888003.178
+    a39f218f22: 1904461.861
+    bef398eb87: 1913720.684
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4137,6 +4143,8 @@ results:
     f9dac1bd54: 2834828.11
     1c070c9c29: 2737468.579
     2453d16f5e: 2412421.412
+    a39f218f22: 2765850.23
+    bef398eb87: 2562789.05
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5171,6 +5179,8 @@ results:
     f9dac1bd54: 3767163.222
     1c070c9c29: 3719365.309
     2453d16f5e: 3308112.896
+    a39f218f22: 3752080.098
+    bef398eb87: 3404859.541
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -6205,6 +6215,8 @@ results:
     f9dac1bd54: 3568044.341
     1c070c9c29: 3715140.758
     2453d16f5e: 3655851.667
+    a39f218f22: 3721995.222
+    bef398eb87: 3675157.379
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -7239,6 +7251,8 @@ results:
     f9dac1bd54: 1946422.48
     1c070c9c29: 1991130.046
     2453d16f5e: 2018225.492
+    a39f218f22: 1944057.777
+    bef398eb87: 1933196.145
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -8273,3 +8287,5 @@ results:
     f9dac1bd54: 2716841.405
     1c070c9c29: 2947818.714
     2453d16f5e: 2994816.327
+    a39f218f22: 3042195.141
+    bef398eb87: 2979878.72

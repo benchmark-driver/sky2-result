@@ -9,96 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  44eca1b22f: |-
-    ruby 2.7.0dev (2019-06-30T02:45:38Z trunk 44eca1b22f) [x86_64-linux]
-    last_commit=Reset the result between assertions
-  44eca1b22f --jit: |-
-    ruby 2.7.0dev (2019-06-30T02:45:38Z trunk 44eca1b22f) +JIT [x86_64-linux]
-    last_commit=Reset the result between assertions
-  8fe3590864: |-
-    ruby 2.7.0dev (2019-06-30T02:45:38Z trunk 8fe3590864) [x86_64-linux]
-    last_commit=Fixed ClosedQueueError by a timing issue
-  8fe3590864 --jit: |-
-    ruby 2.7.0dev (2019-06-30T02:45:38Z trunk 8fe3590864) +JIT [x86_64-linux]
-    last_commit=Fixed ClosedQueueError by a timing issue
-  b43d6e5709: |-
-    ruby 2.7.0dev (2019-06-30T02:45:38Z trunk b43d6e5709) [x86_64-linux]
-    last_commit=Fixed non-working test
-  b43d6e5709 --jit: |-
-    ruby 2.7.0dev (2019-06-30T02:45:38Z trunk b43d6e5709) +JIT [x86_64-linux]
-    last_commit=Fixed non-working test
-  c400c0b4a0: |-
-    ruby 2.7.0dev (2019-06-30T02:45:38Z trunk c400c0b4a0) [x86_64-linux]
-    last_commit=Skip instead of return
-  c400c0b4a0 --jit: |-
-    ruby 2.7.0dev (2019-06-30T02:45:38Z trunk c400c0b4a0) +JIT [x86_64-linux]
-    last_commit=Skip instead of return
-  3620568d3a: |-
-    ruby 2.7.0dev (2019-06-30T02:49:40Z trunk 3620568d3a) [x86_64-linux]
-    last_commit=Suppress void context warnings in verbose mode
-  3620568d3a --jit: |-
-    ruby 2.7.0dev (2019-06-30T02:49:40Z trunk 3620568d3a) +JIT [x86_64-linux]
-    last_commit=Suppress void context warnings in verbose mode
-  4a063546e7: |-
-    ruby 2.7.0dev (2019-06-30T02:49:40Z trunk 4a063546e7) [x86_64-linux]
-    last_commit=Suppress unused literal warnings in verbose mode
-  4a063546e7 --jit: |-
-    ruby 2.7.0dev (2019-06-30T02:49:40Z trunk 4a063546e7) +JIT [x86_64-linux]
-    last_commit=Suppress unused literal warnings in verbose mode
-  5f736d4319: |-
-    ruby 2.7.0dev (2019-06-30T02:49:40Z trunk 5f736d4319) [x86_64-linux]
-    last_commit=Suppress "literal in condition" warnings
-  5f736d4319 --jit: |-
-    ruby 2.7.0dev (2019-06-30T02:49:40Z trunk 5f736d4319) +JIT [x86_64-linux]
-    last_commit=Suppress "literal in condition" warnings
-  cc68084652: |-
-    ruby 2.7.0dev (2019-06-30T02:49:41Z trunk cc68084652) [x86_64-linux]
-    last_commit=Suppress method redefinition warnings
-  cc68084652 --jit: |-
-    ruby 2.7.0dev (2019-06-30T02:49:41Z trunk cc68084652) +JIT [x86_64-linux]
-    last_commit=Suppress method redefinition warnings
-  75129c62eb: |-
-    ruby 2.7.0dev (2019-06-30T02:53:02Z trunk 75129c62eb) [x86_64-linux]
-    last_commit=Suppress "statement not reached" warning
-  75129c62eb --jit: |-
-    ruby 2.7.0dev (2019-06-30T02:53:02Z trunk 75129c62eb) +JIT [x86_64-linux]
-    last_commit=Suppress "statement not reached" warning
-  126cf11d33: |-
-    ruby 2.7.0dev (2019-06-30T11:19:21Z trunk 126cf11d33) [x86_64-linux]
-    last_commit=Producer threads check is the primary condition
-  126cf11d33 --jit: |-
-    ruby 2.7.0dev (2019-06-30T11:19:21Z trunk 126cf11d33) +JIT [x86_64-linux]
-    last_commit=Producer threads check is the primary condition
-  3b86ec2251: |-
-    ruby 2.7.0dev (2019-06-30T11:56:49Z trunk 3b86ec2251) [x86_64-linux]
-    last_commit=dtrace: check for the command availablity with sudo
-  3b86ec2251 --jit: |-
-    ruby 2.7.0dev (2019-06-30T11:56:49Z trunk 3b86ec2251) +JIT [x86_64-linux]
-    last_commit=dtrace: check for the command availablity with sudo
-  b89f6ac843: |-
-    ruby 2.7.0dev (2019-06-30T12:12:15Z trunk b89f6ac843) [x86_64-linux]
-    last_commit=Check for the privileges by the current process groups
-  b89f6ac843 --jit: |-
-    ruby 2.7.0dev (2019-06-30T12:12:15Z trunk b89f6ac843) +JIT [x86_64-linux]
-    last_commit=Check for the privileges by the current process groups
-  62e66b8e18: |-
-    ruby 2.7.0dev (2019-06-30T12:15:56Z trunk 62e66b8e18) [x86_64-linux]
-    last_commit=Allow dtrace without pty, i.e., with miniruby
-  62e66b8e18 --jit: |-
-    ruby 2.7.0dev (2019-06-30T12:15:56Z trunk 62e66b8e18) +JIT [x86_64-linux]
-    last_commit=Allow dtrace without pty, i.e., with miniruby
-  1eca2f3ca9: |-
-    ruby 2.7.0dev (2019-06-30T12:20:16Z trunk 1eca2f3ca9) [x86_64-linux]
-    last_commit=TracePoint#__enable requires 3 arguments now
-  1eca2f3ca9 --jit: |-
-    ruby 2.7.0dev (2019-06-30T12:20:16Z trunk 1eca2f3ca9) +JIT [x86_64-linux]
-    last_commit=TracePoint#__enable requires 3 arguments now
-  8640153e59: |-
-    ruby 2.7.0dev (2019-06-30T12:21:06Z trunk 8640153e59) [x86_64-linux]
-    last_commit=Added test for require-return hook
-  8640153e59 --jit: |-
-    ruby 2.7.0dev (2019-06-30T12:21:06Z trunk 8640153e59) +JIT [x86_64-linux]
-    last_commit=Added test for require-return hook
   c5eb24349a: |-
     ruby 2.7.0dev (2019-06-30T12:23:54Z trunk c5eb24349a) [x86_64-linux]
     last_commit=[DOC] update target_thread to TracePoint#enable
@@ -6021,3 +5931,27 @@ commits:
   26cf4c91ad --jit: |-
     ruby 2.7.0dev (2019-08-09T06:23:35Z trunk 26cf4c91ad) +JIT [x86_64-linux]
     last_commit=extend timeout to debug.
+  3cbd56d574: |-
+    ruby 2.7.0dev (2019-08-09T07:08:15Z trunk 3cbd56d574) [x86_64-linux]
+    last_commit=complement `test_` prefix.
+  3cbd56d574 --jit: |-
+    ruby 2.7.0dev (2019-08-09T07:08:15Z trunk 3cbd56d574) +JIT [x86_64-linux]
+    last_commit=complement `test_` prefix.
+  a4a2dd7942: |-
+    ruby 2.7.0dev (2019-08-09T07:29:43Z trunk a4a2dd7942) [x86_64-linux]
+    last_commit=Revert a6e32855d079e8f3806d8be8a5f5cf7b3a967133 partially
+  a4a2dd7942 --jit: |-
+    ruby 2.7.0dev (2019-08-09T07:29:43Z trunk a4a2dd7942) +JIT [x86_64-linux]
+    last_commit=Revert a6e32855d079e8f3806d8be8a5f5cf7b3a967133 partially
+  ef64ab917e: |-
+    ruby 2.7.0dev (2019-08-09T08:31:19Z trunk ef64ab917e) [x86_64-linux]
+    last_commit=gc.c: Increase STACKFRAME_FOR_CALL_CFUNC
+  ef64ab917e --jit: |-
+    ruby 2.7.0dev (2019-08-09T08:31:19Z trunk ef64ab917e) +JIT [x86_64-linux]
+    last_commit=gc.c: Increase STACKFRAME_FOR_CALL_CFUNC
+  63384591e2: |-
+    ruby 2.7.0dev (2019-08-09T08:48:47Z trunk 63384591e2) [x86_64-linux]
+    last_commit=restore timeout
+  63384591e2 --jit: |-
+    ruby 2.7.0dev (2019-08-09T08:48:47Z trunk 63384591e2) +JIT [x86_64-linux]
+    last_commit=restore timeout
