@@ -5955,3 +5955,57 @@ commits:
   63384591e2 --jit: |-
     ruby 2.7.0dev (2019-08-09T08:48:47Z trunk 63384591e2) +JIT [x86_64-linux]
     last_commit=restore timeout
+  3ddbba84b5: |-
+    ruby 2.7.0dev (2019-08-09T13:48:20Z trunk 3ddbba84b5) [x86_64-linux]
+    last_commit=gc.c: Double STACKFRAME_FOR_CALL_CFUNC (1024->2048)
+  3ddbba84b5 --jit: |-
+    ruby 2.7.0dev (2019-08-09T13:48:20Z trunk 3ddbba84b5) +JIT [x86_64-linux]
+    last_commit=gc.c: Double STACKFRAME_FOR_CALL_CFUNC (1024->2048)
+  c9eb8f82e9: |-
+    ruby 2.7.0dev (2019-08-09T14:08:30Z trunk c9eb8f82e9) [x86_64-linux]
+    last_commit=Removed unused includes
+  c9eb8f82e9 --jit: |-
+    ruby 2.7.0dev (2019-08-09T14:08:30Z trunk c9eb8f82e9) +JIT [x86_64-linux]
+    last_commit=Removed unused includes
+  314b50d7c0: |-
+    ruby 2.7.0dev (2019-08-09T14:10:06Z trunk 314b50d7c0) [x86_64-linux]
+    last_commit=#include <> for system headers
+  314b50d7c0 --jit: |-
+    ruby 2.7.0dev (2019-08-09T14:10:06Z trunk 314b50d7c0) +JIT [x86_64-linux]
+    last_commit=#include <> for system headers
+  a8ba22cd32: |-
+    ruby 2.7.0dev (2019-08-09T15:01:36Z trunk a8ba22cd32) [x86_64-linux]
+    last_commit=Revert "Removed unused includes"
+  a8ba22cd32 --jit: |-
+    ruby 2.7.0dev (2019-08-09T15:01:36Z trunk a8ba22cd32) +JIT [x86_64-linux]
+    last_commit=Revert "Removed unused includes"
+  8d7e0159c0: |-
+    ruby 2.7.0dev (2019-08-09T15:04:06Z trunk 8d7e0159c0) [x86_64-linux]
+    last_commit=* 2019-08-10
+  8d7e0159c0 --jit: |-
+    ruby 2.7.0dev (2019-08-09T15:04:06Z trunk 8d7e0159c0) +JIT [x86_64-linux]
+    last_commit=* 2019-08-10
+  88db6fa479: |-
+    ruby 2.7.0dev (2019-08-09T16:04:39Z trunk 88db6fa479) [x86_64-linux]
+    last_commit=Use ENC_REPLICATE to copy an encoding
+  88db6fa479 --jit: |-
+    ruby 2.7.0dev (2019-08-09T16:04:39Z trunk 88db6fa479) +JIT [x86_64-linux]
+    last_commit=Use ENC_REPLICATE to copy an encoding
+  cecae8593a: |-
+    ruby 2.7.0dev (2019-08-09T16:05:09Z trunk cecae8593a) [x86_64-linux]
+    last_commit=Removed unnecessary headers
+  cecae8593a --jit: |-
+    ruby 2.7.0dev (2019-08-09T16:05:09Z trunk cecae8593a) +JIT [x86_64-linux]
+    last_commit=Removed unnecessary headers
+  53b3be5d58: |-
+    ruby 2.7.0dev (2019-08-09T16:25:30Z trunk 53b3be5d58) [x86_64-linux]
+    last_commit=Fix parsing of mutiple assignment with rescue modifier
+  53b3be5d58 --jit: |-
+    ruby 2.7.0dev (2019-08-09T16:25:30Z trunk 53b3be5d58) +JIT [x86_64-linux]
+    last_commit=Fix parsing of mutiple assignment with rescue modifier
+  162cf2879a: |-
+    ruby 2.7.0dev (2019-08-09T16:41:50Z trunk 162cf2879a) [x86_64-linux]
+    last_commit=Init function is need to link statically
+  162cf2879a --jit: |-
+    ruby 2.7.0dev (2019-08-09T16:41:50Z trunk 162cf2879a) +JIT [x86_64-linux]
+    last_commit=Init function is need to link statically

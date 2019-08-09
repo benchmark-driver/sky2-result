@@ -1039,6 +1039,8 @@ results:
     bef398eb87: 3380034.514
     d0c19d1f87: 3344824.831
     612cad5d20: 3100833.672
+    2d8c037e97: 3465139.985
+    3af9d8bb67: 3438256.343
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2077,6 +2079,8 @@ results:
     bef398eb87: 3088148.12
     d0c19d1f87: 3400403.709
     612cad5d20: 3356861.846
+    2d8c037e97: 3438570.857
+    3af9d8bb67: 3436545.758
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3115,6 +3119,8 @@ results:
     bef398eb87: 1913720.684
     d0c19d1f87: 1642797.611
     612cad5d20: 1856922.257
+    2d8c037e97: 1894713.522
+    3af9d8bb67: 1894542.801
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4153,6 +4159,8 @@ results:
     bef398eb87: 2562789.05
     d0c19d1f87: 2759574.107
     612cad5d20: 2744919.296
+    2d8c037e97: 2747502.471
+    3af9d8bb67: 2575250.928
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5191,6 +5199,8 @@ results:
     bef398eb87: 3404859.541
     d0c19d1f87: 3223228.787
     612cad5d20: 3671318.342
+    2d8c037e97: 3768680.727
+    3af9d8bb67: 3727103.609
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -6229,6 +6239,8 @@ results:
     bef398eb87: 3675157.379
     d0c19d1f87: 3382338.844
     612cad5d20: 3629930.801
+    2d8c037e97: 3723156.77
+    3af9d8bb67: 3704200.359
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -7267,6 +7279,8 @@ results:
     bef398eb87: 1933196.145
     d0c19d1f87: 2002995.666
     612cad5d20: 1945917.996
+    2d8c037e97: 1989743.316
+    3af9d8bb67: 1868243.05
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -8305,3 +8319,5 @@ results:
     bef398eb87: 2979878.72
     d0c19d1f87: 2951372.607
     612cad5d20: 2915204.264
+    2d8c037e97: 2934690.279
+    3af9d8bb67: 2948437.582
