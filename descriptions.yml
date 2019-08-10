@@ -6009,3 +6009,33 @@ commits:
   162cf2879a --jit: |-
     ruby 2.7.0dev (2019-08-09T16:41:50Z trunk 162cf2879a) +JIT [x86_64-linux]
     last_commit=Init function is need to link statically
+  b1678338e5: |-
+    ruby 2.7.0dev (2019-08-09T23:23:49Z trunk b1678338e5) [x86_64-linux]
+    last_commit=Fix typo: duplicated the [skip-ci]
+  b1678338e5 --jit: |-
+    ruby 2.7.0dev (2019-08-09T23:23:49Z trunk b1678338e5) +JIT [x86_64-linux]
+    last_commit=Fix typo: duplicated the [skip-ci]
+  9d298b9dab: |-
+    ruby 2.7.0dev (2019-08-09T23:33:53Z trunk 9d298b9dab) [x86_64-linux]
+    last_commit=Allow Array#join to allocate smaller strings
+  9d298b9dab --jit: |-
+    ruby 2.7.0dev (2019-08-09T23:33:53Z trunk 9d298b9dab) +JIT [x86_64-linux]
+    last_commit=Allow Array#join to allocate smaller strings
+  789776be08: |-
+    ruby 2.7.0dev (2019-08-10T00:06:07Z trunk 789776be08) [x86_64-linux]
+    last_commit=Added some examples to the documentation for String#unpack1 because there are currently no examples and to contrast with String#unpack.
+  789776be08 --jit: |-
+    ruby 2.7.0dev (2019-08-10T00:06:07Z trunk 789776be08) +JIT [x86_64-linux]
+    last_commit=Added some examples to the documentation for String#unpack1 because there are currently no examples and to contrast with String#unpack.
+  49f88eb2f1: |-
+    ruby 2.7.0dev (2019-08-10T00:34:13Z trunk 49f88eb2f1) [x86_64-linux]
+    last_commit=Try building workflow on push
+  49f88eb2f1 --jit: |-
+    ruby 2.7.0dev (2019-08-10T00:34:13Z trunk 49f88eb2f1) +JIT [x86_64-linux]
+    last_commit=Try building workflow on push
+  '6902824729': |-
+    ruby 2.7.0dev (2019-08-10T00:35:28Z trunk 6902824729) [x86_64-linux]
+    last_commit=Fix typo in comment [ci skip]
+  6902824729 --jit: |-
+    ruby 2.7.0dev (2019-08-10T00:35:28Z trunk 6902824729) +JIT [x86_64-linux]
+    last_commit=Fix typo in comment [ci skip]
