@@ -5955,3 +5955,21 @@ commits:
   3c3783ac88 --jit: |-
     ruby 2.7.0dev (2019-08-10T02:43:07Z trunk 3c3783ac88) +JIT [x86_64-linux]
     last_commit=* expand tabs.
+  ffdef3674a: |-
+    ruby 2.7.0dev (2019-08-10T04:18:41Z trunk ffdef3674a) [x86_64-linux]
+    last_commit=Warn instance variable `E`
+  ffdef3674a --jit: |-
+    ruby 2.7.0dev (2019-08-10T04:18:41Z trunk ffdef3674a) +JIT [x86_64-linux]
+    last_commit=Warn instance variable `E`
+  98c22c78e4: |-
+    ruby 2.7.0dev (2019-08-10T05:22:43Z trunk 98c22c78e4) [x86_64-linux]
+    last_commit=Expanded f_real_p
+  98c22c78e4 --jit: |-
+    ruby 2.7.0dev (2019-08-10T05:22:43Z trunk 98c22c78e4) +JIT [x86_64-linux]
+    last_commit=Expanded f_real_p
+  d69ffa4d93: |-
+    ruby 2.7.0dev (2019-08-10T05:38:30Z trunk d69ffa4d93) [x86_64-linux]
+    last_commit=Expanded f_quo
+  d69ffa4d93 --jit: |-
+    ruby 2.7.0dev (2019-08-10T05:38:30Z trunk d69ffa4d93) +JIT [x86_64-linux]
+    last_commit=Expanded f_quo
