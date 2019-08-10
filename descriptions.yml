@@ -5973,3 +5973,21 @@ commits:
   d69ffa4d93 --jit: |-
     ruby 2.7.0dev (2019-08-10T05:38:30Z trunk d69ffa4d93) +JIT [x86_64-linux]
     last_commit=Expanded f_quo
+  c5fbe2a19f: |-
+    ruby 2.7.0dev (2019-08-10T06:48:39Z trunk c5fbe2a19f) [x86_64-linux]
+    last_commit=Moved options to $travis_apt_get_options
+  c5fbe2a19f --jit: |-
+    ruby 2.7.0dev (2019-08-10T06:48:39Z trunk c5fbe2a19f) +JIT [x86_64-linux]
+    last_commit=Moved options to $travis_apt_get_options
+  5e3fb0b357: |-
+    ruby 2.7.0dev (2019-08-10T07:33:32Z trunk 5e3fb0b357) [x86_64-linux]
+    last_commit=Touch the checked out source to fix clock skew on all platform
+  5e3fb0b357 --jit: |-
+    ruby 2.7.0dev (2019-08-10T07:33:32Z trunk 5e3fb0b357) +JIT [x86_64-linux]
+    last_commit=Touch the checked out source to fix clock skew on all platform
+  9b203959d5: |-
+    ruby 2.7.0dev (2019-08-10T10:19:25Z trunk 9b203959d5) [x86_64-linux]
+    last_commit=Rename workflow.yml to macos.yml
+  9b203959d5 --jit: |-
+    ruby 2.7.0dev (2019-08-10T10:19:25Z trunk 9b203959d5) +JIT [x86_64-linux]
+    last_commit=Rename workflow.yml to macos.yml
