@@ -9,120 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  7f4f40ab31: |-
-    ruby 2.7.0dev (2019-07-01T08:09:08Z trunk 7f4f40ab31) [x86_64-linux]
-    last_commit=bootstraptest/runner.rb (show_limit): defer messages unless verbose and a tty
-  7f4f40ab31 --jit: |-
-    ruby 2.7.0dev (2019-07-01T08:09:08Z trunk 7f4f40ab31) +JIT [x86_64-linux]
-    last_commit=bootstraptest/runner.rb (show_limit): defer messages unless verbose and a tty
-  babaad1065: |-
-    ruby 2.7.0dev (2019-07-01T11:05:06Z trunk babaad1065) [x86_64-linux]
-    last_commit=Use configured ASMEXT
-  babaad1065 --jit: |-
-    ruby 2.7.0dev (2019-07-01T11:05:06Z trunk babaad1065) +JIT [x86_64-linux]
-    last_commit=Use configured ASMEXT
-  90c51ca391: |-
-    ruby 2.7.0dev (2019-07-01T11:46:00Z trunk 90c51ca391) [x86_64-linux]
-    last_commit=New indent must be non-negative number
-  90c51ca391 --jit: |-
-    ruby 2.7.0dev (2019-07-01T11:46:00Z trunk 90c51ca391) +JIT [x86_64-linux]
-    last_commit=New indent must be non-negative number
-  76851381cb: |-
-    ruby 2.7.0dev (2019-07-01T12:14:50Z trunk 76851381cb) [x86_64-linux]
-    last_commit=Show "-" if indent level is negative
-  76851381cb --jit: |-
-    ruby 2.7.0dev (2019-07-01T12:14:50Z trunk 76851381cb) +JIT [x86_64-linux]
-    last_commit=Show "-" if indent level is negative
-  f28450c118: |-
-    ruby 2.7.0dev (2019-07-01T12:31:18Z trunk f28450c118) [x86_64-linux]
-    last_commit=Substitue suffixes with dot
-  f28450c118 --jit: |-
-    ruby 2.7.0dev (2019-07-01T12:31:18Z trunk f28450c118) +JIT [x86_64-linux]
-    last_commit=Substitue suffixes with dot
-  acee938484: |-
-    ruby 2.7.0dev (2019-07-01T12:32:02Z trunk acee938484) [x86_64-linux]
-    last_commit=Default ASMEXT
-  acee938484 --jit: |-
-    ruby 2.7.0dev (2019-07-01T12:32:02Z trunk acee938484) +JIT [x86_64-linux]
-    last_commit=Default ASMEXT
-  f2769ae2c9: |-
-    ruby 2.7.0dev (2019-07-01T14:04:26Z trunk f2769ae2c9) [x86_64-linux]
-    last_commit=Default branch name to "master"
-  f2769ae2c9 --jit: |-
-    ruby 2.7.0dev (2019-07-01T14:04:26Z trunk f2769ae2c9) +JIT [x86_64-linux]
-    last_commit=Default branch name to "master"
-  7ff2bfed92: |-
-    ruby 2.7.0dev (2019-07-01T14:16:47Z trunk 7ff2bfed92) [x86_64-linux]
-    last_commit=Alias "master" and "trunk"
-  7ff2bfed92 --jit: |-
-    ruby 2.7.0dev (2019-07-01T14:16:47Z trunk 7ff2bfed92) +JIT [x86_64-linux]
-    last_commit=Alias "master" and "trunk"
-  776759e300: |-
-    ruby 2.7.0dev (2019-07-01T18:34:15Z trunk 776759e300) [x86_64-linux]
-    last_commit=Keyword token that follows EXPR_FNAME must be a method name
-  776759e300 --jit: |-
-    ruby 2.7.0dev (2019-07-01T18:34:15Z trunk 776759e300) +JIT [x86_64-linux]
-    last_commit=Keyword token that follows EXPR_FNAME must be a method name
-  005dadf3c1: |-
-    ruby 2.7.0dev (2019-07-01T18:35:08Z trunk 005dadf3c1) [x86_64-linux]
-    last_commit=* 2019-07-02
-  005dadf3c1 --jit: |-
-    ruby 2.7.0dev (2019-07-01T18:35:08Z trunk 005dadf3c1) +JIT [x86_64-linux]
-    last_commit=* 2019-07-02
-  81fe82be4e: |-
-    ruby 2.7.0dev (2019-07-01T18:44:12Z trunk 81fe82be4e) [x86_64-linux]
-    last_commit=Enable native fiber coroutines on i386-openbsd
-  81fe82be4e --jit: |-
-    ruby 2.7.0dev (2019-07-01T18:44:12Z trunk 81fe82be4e) +JIT [x86_64-linux]
-    last_commit=Enable native fiber coroutines on i386-openbsd
-  11c311e36f: |-
-    ruby 2.7.0dev (2019-07-01T18:46:30Z trunk 11c311e36f) [x86_64-linux]
-    last_commit=Use realpath(3) instead of custom realpath implementation if available
-  11c311e36f --jit: |-
-    ruby 2.7.0dev (2019-07-01T18:46:30Z trunk 11c311e36f) +JIT [x86_64-linux]
-    last_commit=Use realpath(3) instead of custom realpath implementation if available
-  93328b5237: |-
-    ruby 2.7.0dev (2019-07-01T19:14:17Z trunk 93328b5237) [x86_64-linux]
-    last_commit=* expand tabs.
-  93328b5237 --jit: |-
-    ruby 2.7.0dev (2019-07-01T19:14:17Z trunk 93328b5237) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  f53d7e4bfd: |-
-    ruby 2.7.0dev (2019-07-01T19:39:06Z trunk f53d7e4bfd) [x86_64-linux]
-    last_commit=Raise TypeError if calling ENV.freeze
-  f53d7e4bfd --jit: |-
-    ruby 2.7.0dev (2019-07-01T19:39:06Z trunk f53d7e4bfd) +JIT [x86_64-linux]
-    last_commit=Raise TypeError if calling ENV.freeze
-  142617c8e1: |-
-    ruby 2.7.0dev (2019-07-01T22:33:13Z trunk 142617c8e1) [x86_64-linux]
-    last_commit=Don't use native realpath(3) on Solaris
-  142617c8e1 --jit: |-
-    ruby 2.7.0dev (2019-07-01T22:33:13Z trunk 142617c8e1) +JIT [x86_64-linux]
-    last_commit=Don't use native realpath(3) on Solaris
-  c3c0e3f5c9: |-
-    ruby 2.7.0dev (2019-07-01T22:59:54Z trunk c3c0e3f5c9) [x86_64-linux]
-    last_commit=Move to tool/lib from test/lib.
-  c3c0e3f5c9 --jit: |-
-    ruby 2.7.0dev (2019-07-01T22:59:54Z trunk c3c0e3f5c9) +JIT [x86_64-linux]
-    last_commit=Move to tool/lib from test/lib.
-  c68781e918: |-
-    ruby 2.7.0dev (2019-07-01T22:59:54Z trunk c68781e918) [x86_64-linux]
-    last_commit=Split test files for test-framework that are test-unit and minitest to tool direcotry.
-  c68781e918 --jit: |-
-    ruby 2.7.0dev (2019-07-01T22:59:54Z trunk c68781e918) +JIT [x86_64-linux]
-    last_commit=Split test files for test-framework that are test-unit and minitest to tool direcotry.
-  897b1e0562: |-
-    ruby 2.7.0dev (2019-07-01T23:00:29Z trunk 897b1e0562) [x86_64-linux]
-    last_commit=Fixed the wrong path for COVERAGE.
-  897b1e0562 --jit: |-
-    ruby 2.7.0dev (2019-07-01T23:00:29Z trunk 897b1e0562) +JIT [x86_64-linux]
-    last_commit=Fixed the wrong path for COVERAGE.
-  f47254d216: |-
-    ruby 2.7.0dev (2019-07-02T00:19:38Z trunk f47254d216) [x86_64-linux]
-    last_commit=colors file has been moved from test to tool
-  f47254d216 --jit: |-
-    ruby 2.7.0dev (2019-07-02T00:19:38Z trunk f47254d216) +JIT [x86_64-linux]
-    last_commit=colors file has been moved from test to tool
   4adfd5227f: |-
     ruby 2.7.0dev (2019-07-02T00:23:19Z trunk 4adfd5227f) [x86_64-linux]
     last_commit=Removed needless exclude option related testframework.
@@ -6033,3 +5919,39 @@ commits:
   c1c8577088 --jit: |-
     ruby 2.7.0dev (2019-08-10T11:25:59Z trunk c1c8577088) +JIT [x86_64-linux]
     last_commit=Fix wrong pull_request filter
+  52bd4716b4: |-
+    ruby 2.7.0dev (2019-08-10T14:19:24Z trunk 52bd4716b4) [x86_64-linux]
+    last_commit=rb_numeric_quo: support Complex
+  52bd4716b4 --jit: |-
+    ruby 2.7.0dev (2019-08-10T14:19:24Z trunk 52bd4716b4) +JIT [x86_64-linux]
+    last_commit=rb_numeric_quo: support Complex
+  c21c001733: |-
+    ruby 2.7.0dev (2019-08-10T14:30:50Z trunk c21c001733) [x86_64-linux]
+    last_commit=Re-enable parallel build/test on OSX
+  c21c001733 --jit: |-
+    ruby 2.7.0dev (2019-08-10T14:30:50Z trunk c21c001733) +JIT [x86_64-linux]
+    last_commit=Re-enable parallel build/test on OSX
+  '0609087a6b': |-
+    ruby 2.7.0dev (2019-08-10T14:57:20Z trunk 0609087a6b) [x86_64-linux]
+    last_commit=Parallelize osx test-all too
+  '0609087a6b --jit': |-
+    ruby 2.7.0dev (2019-08-10T14:57:20Z trunk 0609087a6b) +JIT [x86_64-linux]
+    last_commit=Parallelize osx test-all too
+  46df7fe91f: |-
+    ruby 2.7.0dev (2019-08-10T15:44:13Z trunk 46df7fe91f) [x86_64-linux]
+    last_commit=prereq.status deals with removal of nmake VPATH notations [ci skip]
+  46df7fe91f --jit: |-
+    ruby 2.7.0dev (2019-08-10T15:44:13Z trunk 46df7fe91f) +JIT [x86_64-linux]
+    last_commit=prereq.status deals with removal of nmake VPATH notations [ci skip]
+  d29bccb39b: |-
+    ruby 2.7.0dev (2019-08-10T15:44:13Z trunk d29bccb39b) [x86_64-linux]
+    last_commit=Adjust indent [ci skip]
+  d29bccb39b --jit: |-
+    ruby 2.7.0dev (2019-08-10T15:44:13Z trunk d29bccb39b) +JIT [x86_64-linux]
+    last_commit=Adjust indent [ci skip]
+  7ee948c3a1: |-
+    ruby 2.7.0dev (2019-08-10T15:45:23Z trunk 7ee948c3a1) [x86_64-linux]
+    last_commit=* 2019-08-11
+  7ee948c3a1 --jit: |-
+    ruby 2.7.0dev (2019-08-10T15:45:23Z trunk 7ee948c3a1) +JIT [x86_64-linux]
+    last_commit=* 2019-08-11
