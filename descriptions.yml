@@ -9,108 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  c5eb24349a: |-
-    ruby 2.7.0dev (2019-06-30T12:23:54Z trunk c5eb24349a) [x86_64-linux]
-    last_commit=[DOC] update target_thread to TracePoint#enable
-  c5eb24349a --jit: |-
-    ruby 2.7.0dev (2019-06-30T12:23:54Z trunk c5eb24349a) +JIT [x86_64-linux]
-    last_commit=[DOC] update target_thread to TracePoint#enable
-  35cf3e8904: |-
-    ruby 2.7.0dev (2019-06-30T15:14:12Z trunk 35cf3e8904) [x86_64-linux]
-    last_commit=The default branch is changed to master
-  35cf3e8904 --jit: |-
-    ruby 2.7.0dev (2019-06-30T15:14:12Z trunk 35cf3e8904) +JIT [x86_64-linux]
-    last_commit=The default branch is changed to master
-  fc4abbfcd0: |-
-    ruby 2.7.0dev (2019-06-30T15:15:04Z trunk fc4abbfcd0) [x86_64-linux]
-    last_commit=* 2019-07-01
-  fc4abbfcd0 --jit: |-
-    ruby 2.7.0dev (2019-06-30T15:15:04Z trunk fc4abbfcd0) +JIT [x86_64-linux]
-    last_commit=* 2019-07-01
-  9cb58f1698: |-
-    ruby 2.7.0dev (2019-06-30T15:22:38Z trunk 9cb58f1698) [x86_64-linux]
-    last_commit=Suppress unused variable warning
-  9cb58f1698 --jit: |-
-    ruby 2.7.0dev (2019-06-30T15:22:38Z trunk 9cb58f1698) +JIT [x86_64-linux]
-    last_commit=Suppress unused variable warning
-  51b2b605e7: |-
-    ruby 2.7.0dev (2019-06-30T15:22:39Z trunk 51b2b605e7) [x86_64-linux]
-    last_commit=Call deprecated method only inside assert_warning block
-  51b2b605e7 --jit: |-
-    ruby 2.7.0dev (2019-06-30T15:22:39Z trunk 51b2b605e7) +JIT [x86_64-linux]
-    last_commit=Call deprecated method only inside assert_warning block
-  f13fb814e0: |-
-    ruby 2.7.0dev (2019-06-30T15:22:39Z trunk f13fb814e0) [x86_64-linux]
-    last_commit=Return the result of the block given to assert_warning/assert_no_warning
-  f13fb814e0 --jit: |-
-    ruby 2.7.0dev (2019-06-30T15:22:39Z trunk f13fb814e0) +JIT [x86_64-linux]
-    last_commit=Return the result of the block given to assert_warning/assert_no_warning
-  3d1536e618: |-
-    ruby 2.7.0dev (2019-06-30T15:24:14Z trunk 3d1536e618) [x86_64-linux]
-    last_commit=Build AppVeyor only on master
-  3d1536e618 --jit: |-
-    ruby 2.7.0dev (2019-06-30T15:24:14Z trunk 3d1536e618) +JIT [x86_64-linux]
-    last_commit=Build AppVeyor only on master
-  d3d903cb5f: |-
-    ruby 2.7.0dev (2019-06-30T15:48:11Z trunk d3d903cb5f) [x86_64-linux]
-    last_commit=[DOC] Fix typos [ci skip]
-  d3d903cb5f --jit: |-
-    ruby 2.7.0dev (2019-06-30T15:48:11Z trunk d3d903cb5f) +JIT [x86_64-linux]
-    last_commit=[DOC] Fix typos [ci skip]
-  dbe834ab5a: |-
-    ruby 2.7.0dev (2019-06-30T16:05:29Z trunk dbe834ab5a) [x86_64-linux]
-    last_commit=Prefer master rather than trunk in README [ci skip]
-  dbe834ab5a --jit: |-
-    ruby 2.7.0dev (2019-06-30T16:05:29Z trunk dbe834ab5a) +JIT [x86_64-linux]
-    last_commit=Prefer master rather than trunk in README [ci skip]
-  fe03bbaf34: |-
-    ruby 2.7.0dev (2019-07-01T01:16:47Z trunk fe03bbaf34) [x86_64-linux]
-    last_commit=bootstraptest/runner.rb (show_limit): show dots only when printing to a tty
-  fe03bbaf34 --jit: |-
-    ruby 2.7.0dev (2019-07-01T01:16:47Z trunk fe03bbaf34) +JIT [x86_64-linux]
-    last_commit=bootstraptest/runner.rb (show_limit): show dots only when printing to a tty
-  6982a9049e: |-
-    ruby 2.7.0dev (2019-07-01T04:02:23Z trunk 6982a9049e) [x86_64-linux]
-    last_commit=Assert obsolete method warnings in IPAddr
-  6982a9049e --jit: |-
-    ruby 2.7.0dev (2019-07-01T04:02:23Z trunk 6982a9049e) +JIT [x86_64-linux]
-    last_commit=Assert obsolete method warnings in IPAddr
-  99dc885974: |-
-    ruby 2.7.0dev (2019-07-01T04:56:55Z trunk 99dc885974) [x86_64-linux]
-    last_commit=Fixed inadvertent ID creation in rb_iv_get
-  99dc885974 --jit: |-
-    ruby 2.7.0dev (2019-07-01T04:56:55Z trunk 99dc885974) +JIT [x86_64-linux]
-    last_commit=Fixed inadvertent ID creation in rb_iv_get
-  77a073239c: |-
-    ruby 2.7.0dev (2019-07-01T05:00:37Z trunk 77a073239c) [x86_64-linux]
-    last_commit=* expand tabs.
-  77a073239c --jit: |-
-    ruby 2.7.0dev (2019-07-01T05:00:37Z trunk 77a073239c) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  c9423b016c: |-
-    ruby 2.7.0dev (2019-07-01T06:02:27Z trunk c9423b016c) [x86_64-linux]
-    last_commit=marshal.c: check instance variable count
-  c9423b016c --jit: |-
-    ruby 2.7.0dev (2019-07-01T06:02:27Z trunk c9423b016c) +JIT [x86_64-linux]
-    last_commit=marshal.c: check instance variable count
-  0b1e26398e: |-
-    ruby 2.7.0dev (2019-07-01T07:18:51Z trunk 0b1e26398e) [x86_64-linux]
-    last_commit=Hoisted out w_ivar_each
-  0b1e26398e --jit: |-
-    ruby 2.7.0dev (2019-07-01T07:18:51Z trunk 0b1e26398e) +JIT [x86_64-linux]
-    last_commit=Hoisted out w_ivar_each
-  78ee2c2453: |-
-    ruby 2.7.0dev (2019-07-01T07:20:03Z trunk 78ee2c2453) [x86_64-linux]
-    last_commit=marshal.c: check instance variable count
-  78ee2c2453 --jit: |-
-    ruby 2.7.0dev (2019-07-01T07:20:03Z trunk 78ee2c2453) +JIT [x86_64-linux]
-    last_commit=marshal.c: check instance variable count
-  70dcf5b368: |-
-    ruby 2.7.0dev (2019-07-01T07:25:56Z trunk 70dcf5b368) [x86_64-linux]
-    last_commit=* expand tabs.
-  70dcf5b368 --jit: |-
-    ruby 2.7.0dev (2019-07-01T07:25:56Z trunk 70dcf5b368) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
   7f4f40ab31: |-
     ruby 2.7.0dev (2019-07-01T08:09:08Z trunk 7f4f40ab31) [x86_64-linux]
     last_commit=bootstraptest/runner.rb (show_limit): defer messages unless verbose and a tty
@@ -6039,3 +5937,21 @@ commits:
   6902824729 --jit: |-
     ruby 2.7.0dev (2019-08-10T00:35:28Z trunk 6902824729) +JIT [x86_64-linux]
     last_commit=Fix typo in comment [ci skip]
+  07e42e88d9: |-
+    ruby 2.7.0dev (2019-08-10T02:26:23Z trunk 07e42e88d9) [x86_64-linux]
+    last_commit=Close created files [ci skip]
+  07e42e88d9 --jit: |-
+    ruby 2.7.0dev (2019-08-10T02:26:23Z trunk 07e42e88d9) +JIT [x86_64-linux]
+    last_commit=Close created files [ci skip]
+  ab31693af1: |-
+    ruby 2.7.0dev (2019-08-10T02:38:49Z trunk ab31693af1) [x86_64-linux]
+    last_commit=Share caches for short encoding ivar name.
+  ab31693af1 --jit: |-
+    ruby 2.7.0dev (2019-08-10T02:38:49Z trunk ab31693af1) +JIT [x86_64-linux]
+    last_commit=Share caches for short encoding ivar name.
+  3c3783ac88: |-
+    ruby 2.7.0dev (2019-08-10T02:43:07Z trunk 3c3783ac88) [x86_64-linux]
+    last_commit=* expand tabs.
+  3c3783ac88 --jit: |-
+    ruby 2.7.0dev (2019-08-10T02:43:07Z trunk 3c3783ac88) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
