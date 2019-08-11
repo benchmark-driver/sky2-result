@@ -1063,6 +1063,8 @@ results:
     ee1334189b: 3303915.038
     9b18cb341f: 3371582.483
     e2bee86dc4: 3241195.548
+    0ca494fc80: 3372725.347
+    ad38f02645: 3372357.857
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2125,6 +2127,8 @@ results:
     ee1334189b: 3359710.99
     9b18cb341f: 3287640.287
     e2bee86dc4: 3323051.003
+    0ca494fc80: 3361314.228
+    ad38f02645: 3239952.519
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3187,6 +3191,8 @@ results:
     ee1334189b: 1934613.828
     9b18cb341f: 1840200.685
     e2bee86dc4: 1851658.471
+    0ca494fc80: 1892731.971
+    ad38f02645: 1843423.982
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4249,6 +4255,8 @@ results:
     ee1334189b: 2661398.085
     9b18cb341f: 2648300.658
     e2bee86dc4: 2715820.281
+    0ca494fc80: 2776750.412
+    ad38f02645: 2739275.285
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5311,6 +5319,8 @@ results:
     ee1334189b: 3708999.581
     9b18cb341f: 3597347.316
     e2bee86dc4: 3614018.903
+    0ca494fc80: 3662195.683
+    ad38f02645: 3400279.363
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -6373,6 +6383,8 @@ results:
     ee1334189b: 3408061.577
     9b18cb341f: 3567372.652
     e2bee86dc4: 3612823.363
+    0ca494fc80: 3644387.129
+    ad38f02645: 3569962.859
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -7435,6 +7447,8 @@ results:
     ee1334189b: 1989796.093
     9b18cb341f: 1930420.966
     e2bee86dc4: 1909194.626
+    0ca494fc80: 2037037.928
+    ad38f02645: 1974479.902
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -8497,3 +8511,5 @@ results:
     ee1334189b: 2850379.707
     9b18cb341f: 2920013.765
     e2bee86dc4: 2917594.057
+    0ca494fc80: 2989968.929
+    ad38f02645: 2921700.46
