@@ -1056,6 +1056,8 @@ results:
     54525fbfd4: 3446301.652
     4cda2e5013: 3371672.803
     f85caf40a6: 3457058.022
+    0b858425e1: 3232108.806
+    640dbdd155: 3440002.676
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2111,6 +2113,8 @@ results:
     54525fbfd4: 3428825.515
     4cda2e5013: 3324028.635
     f85caf40a6: 3435429.889
+    0b858425e1: 3362682.738
+    640dbdd155: 3423863.536
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3166,6 +3170,8 @@ results:
     54525fbfd4: 1935910.185
     4cda2e5013: 1841069.416
     f85caf40a6: 1886296.456
+    0b858425e1: 1861860.159
+    640dbdd155: 1903973.387
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4221,6 +4227,8 @@ results:
     54525fbfd4: 2828133.222
     4cda2e5013: 2743279.62
     f85caf40a6: 2835992.88
+    0b858425e1: 2736855.702
+    640dbdd155: 2762800.423
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5276,6 +5284,8 @@ results:
     54525fbfd4: 3753194.323
     4cda2e5013: 3594700.386
     f85caf40a6: 3769182.313
+    0b858425e1: 3652305.681
+    640dbdd155: 3724740.353
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -6331,6 +6341,8 @@ results:
     54525fbfd4: 3642730.673
     4cda2e5013: 3552210.408
     f85caf40a6: 3737292.251
+    0b858425e1: 3587877.334
+    640dbdd155: 3677951.161
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -7386,6 +7398,8 @@ results:
     54525fbfd4: 1959050.224
     4cda2e5013: 1960779.625
     f85caf40a6: 2022183.583
+    0b858425e1: 1967704.144
+    640dbdd155: 1978643.178
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -8441,3 +8455,5 @@ results:
     54525fbfd4: 3036511.544
     4cda2e5013: 2915293.847
     f85caf40a6: 3039522.918
+    0b858425e1: 2902544.323
+    640dbdd155: 2937069.53
