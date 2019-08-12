@@ -5955,3 +5955,81 @@ commits:
   9fe7e042f5 --jit: |-
     ruby 2.7.0dev (2019-08-11T07:20:11Z trunk 9fe7e042f5) +JIT [x86_64-linux]
     last_commit=Note the reference to the pull request [ci skip]
+  11a09d78c1: |-
+    ruby 2.7.0dev (2019-08-12T03:01:39Z trunk 11a09d78c1) [x86_64-linux]
+    last_commit=Port ubuntu workflow based on macos
+  11a09d78c1 --jit: |-
+    ruby 2.7.0dev (2019-08-12T03:01:39Z trunk 11a09d78c1) +JIT [x86_64-linux]
+    last_commit=Port ubuntu workflow based on macos
+  cfb192a7b9: |-
+    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk cfb192a7b9) [x86_64-linux]
+    last_commit=Added test-bundled-gems to GitHub Actions
+  cfb192a7b9 --jit: |-
+    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk cfb192a7b9) +JIT [x86_64-linux]
+    last_commit=Added test-bundled-gems to GitHub Actions
+  fc97aa9313: |-
+    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk fc97aa9313) [x86_64-linux]
+    last_commit=Fixed the world writable dirs on Ubuntu environment.
+  fc97aa9313 --jit: |-
+    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk fc97aa9313) +JIT [x86_64-linux]
+    last_commit=Fixed the world writable dirs on Ubuntu environment.
+  e96321d006: |-
+    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk e96321d006) [x86_64-linux]
+    last_commit=Removed make check
+  e96321d006 --jit: |-
+    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk e96321d006) +JIT [x86_64-linux]
+    last_commit=Removed make check
+  8a8f680f01: |-
+    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk 8a8f680f01) [x86_64-linux]
+    last_commit=Re-use GITHUB_ACTION variables for filtering bundler examples.
+  8a8f680f01 --jit: |-
+    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk 8a8f680f01) +JIT [x86_64-linux]
+    last_commit=Re-use GITHUB_ACTION variables for filtering bundler examples.
+  ed9d59afc8: |-
+    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk ed9d59afc8) [x86_64-linux]
+    last_commit=Added example filter for Linux of GitHub Actions.
+  ed9d59afc8 --jit: |-
+    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk ed9d59afc8) +JIT [x86_64-linux]
+    last_commit=Added example filter for Linux of GitHub Actions.
+  bf1f872991: |-
+    ruby 2.7.0dev (2019-08-12T03:58:33Z trunk bf1f872991) [x86_64-linux]
+    last_commit=Removed duplicated jobs with GitHub Actions.
+  bf1f872991 --jit: |-
+    ruby 2.7.0dev (2019-08-12T03:58:33Z trunk bf1f872991) +JIT [x86_64-linux]
+    last_commit=Removed duplicated jobs with GitHub Actions.
+  63d3c4fecd: |-
+    ruby 2.7.0dev (2019-08-12T03:59:08Z trunk 63d3c4fecd) [x86_64-linux]
+    last_commit=* 2019-08-12
+  63d3c4fecd --jit: |-
+    ruby 2.7.0dev (2019-08-12T03:59:08Z trunk 63d3c4fecd) +JIT [x86_64-linux]
+    last_commit=* 2019-08-12
+  b1ad628cdf: |-
+    ruby 2.7.0dev (2019-08-12T04:45:57Z trunk b1ad628cdf) [x86_64-linux]
+    last_commit=Resurrect travis_wait for test-all
+  b1ad628cdf --jit: |-
+    ruby 2.7.0dev (2019-08-12T04:45:57Z trunk b1ad628cdf) +JIT [x86_64-linux]
+    last_commit=Resurrect travis_wait for test-all
+  2b3d84d584: |-
+    ruby 2.7.0dev (2019-08-12T05:11:41Z trunk 2b3d84d584) [x86_64-linux]
+    last_commit=Use rev-parse
+  2b3d84d584 --jit: |-
+    ruby 2.7.0dev (2019-08-12T05:11:41Z trunk 2b3d84d584) +JIT [x86_64-linux]
+    last_commit=Use rev-parse
+  4f10a61eaa: |-
+    ruby 2.7.0dev (2019-08-12T05:30:43Z trunk 4f10a61eaa) [x86_64-linux]
+    last_commit=Stop relying on actions/checkout
+  4f10a61eaa --jit: |-
+    ruby 2.7.0dev (2019-08-12T05:30:43Z trunk 4f10a61eaa) +JIT [x86_64-linux]
+    last_commit=Stop relying on actions/checkout
+  b1ef14176b: |-
+    ruby 2.7.0dev (2019-08-12T05:37:26Z trunk b1ef14176b) [x86_64-linux]
+    last_commit=We did not have tool/ before checkout
+  b1ef14176b --jit: |-
+    ruby 2.7.0dev (2019-08-12T05:37:26Z trunk b1ef14176b) +JIT [x86_64-linux]
+    last_commit=We did not have tool/ before checkout
+  0d0ff8277f: |-
+    ruby 2.7.0dev (2019-08-12T06:14:01Z trunk 0d0ff8277f) [x86_64-linux]
+    last_commit=rb_trap_exec has been removed since 1.9
+  0d0ff8277f --jit: |-
+    ruby 2.7.0dev (2019-08-12T06:14:01Z trunk 0d0ff8277f) +JIT [x86_64-linux]
+    last_commit=rb_trap_exec has been removed since 1.9
