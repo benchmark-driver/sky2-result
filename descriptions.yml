@@ -9,126 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  0b858425e1: |-
-    ruby 2.7.0dev (2019-07-02T01:40:41Z trunk 0b858425e1) [x86_64-linux]
-    last_commit=Use GitHub ruby.git for make-snapshot
-  0b858425e1 --jit: |-
-    ruby 2.7.0dev (2019-07-02T01:40:41Z trunk 0b858425e1) +JIT [x86_64-linux]
-    last_commit=Use GitHub ruby.git for make-snapshot
-  eb043c8888: |-
-    ruby 2.7.0dev (2019-07-02T02:46:58Z trunk eb043c8888) [x86_64-linux]
-    last_commit=${} does not work with nmake.exe
-  eb043c8888 --jit: |-
-    ruby 2.7.0dev (2019-07-02T02:46:58Z trunk eb043c8888) +JIT [x86_64-linux]
-    last_commit=${} does not work with nmake.exe
-  92dcee393a: |-
-    ruby 2.7.0dev (2019-07-02T06:02:16Z trunk 92dcee393a) [x86_64-linux]
-    last_commit=Clean up temporary directory for racc
-  92dcee393a --jit: |-
-    ruby 2.7.0dev (2019-07-02T06:02:16Z trunk 92dcee393a) +JIT [x86_64-linux]
-    last_commit=Clean up temporary directory for racc
-  6ffef8d459: |-
-    ruby 2.7.0dev (2019-07-02T06:02:16Z trunk 6ffef8d459) [x86_64-linux]
-    last_commit=Clean up temporary expired cert file
-  6ffef8d459 --jit: |-
-    ruby 2.7.0dev (2019-07-02T06:02:16Z trunk 6ffef8d459) +JIT [x86_64-linux]
-    last_commit=Clean up temporary expired cert file
-  4d6c35d33a: |-
-    ruby 2.7.0dev (2019-07-02T06:22:22Z trunk 4d6c35d33a) [x86_64-linux]
-    last_commit=Fix test-all substitution
-  4d6c35d33a --jit: |-
-    ruby 2.7.0dev (2019-07-02T06:22:22Z trunk 4d6c35d33a) +JIT [x86_64-linux]
-    last_commit=Fix test-all substitution
-  e8a2521abe: |-
-    ruby 2.7.0dev (2019-07-02T12:39:22Z trunk e8a2521abe) [x86_64-linux]
-    last_commit=Adjust memory_status.rb under the tool directory.
-  e8a2521abe --jit: |-
-    ruby 2.7.0dev (2019-07-02T12:39:22Z trunk e8a2521abe) +JIT [x86_64-linux]
-    last_commit=Adjust memory_status.rb under the tool directory.
-  e9ea494171: |-
-    ruby 2.7.0dev (2019-07-02T13:11:23Z trunk e9ea494171) [x86_64-linux]
-    last_commit=The behavior of statx(2) depends on the filesystem
-  e9ea494171 --jit: |-
-    ruby 2.7.0dev (2019-07-02T13:11:23Z trunk e9ea494171) +JIT [x86_64-linux]
-    last_commit=The behavior of statx(2) depends on the filesystem
-  181b966e75: |-
-    ruby 2.7.0dev (2019-07-02T13:56:58Z trunk 181b966e75) [x86_64-linux]
-    last_commit=Add a missing tests for Logger::Period module
-  181b966e75 --jit: |-
-    ruby 2.7.0dev (2019-07-02T13:56:58Z trunk 181b966e75) +JIT [x86_64-linux]
-    last_commit=Add a missing tests for Logger::Period module
-  ea30dd7025: |-
-    ruby 2.7.0dev (2019-07-02T14:35:52Z trunk ea30dd7025) [x86_64-linux]
-    last_commit=Avoid corrupting VM stack on inlined setlocal
-  ea30dd7025 --jit: |-
-    ruby 2.7.0dev (2019-07-02T14:35:52Z trunk ea30dd7025) +JIT [x86_64-linux]
-    last_commit=Avoid corrupting VM stack on inlined setlocal
-  f1043090a2: |-
-    ruby 2.7.0dev (2019-07-02T14:38:25Z trunk f1043090a2) [x86_64-linux]
-    last_commit=Revert "Add a missing tests for Logger::Period module"
-  f1043090a2 --jit: |-
-    ruby 2.7.0dev (2019-07-02T14:38:25Z trunk f1043090a2) +JIT [x86_64-linux]
-    last_commit=Revert "Add a missing tests for Logger::Period module"
-  649753b7f5: |-
-    ruby 2.7.0dev (2019-07-02T14:50:12Z trunk 649753b7f5) [x86_64-linux]
-    last_commit=Fix timezone issue for logger period's tests
-  649753b7f5 --jit: |-
-    ruby 2.7.0dev (2019-07-02T14:50:12Z trunk 649753b7f5) +JIT [x86_64-linux]
-    last_commit=Fix timezone issue for logger period's tests
-  ced640951b: |-
-    ruby 2.7.0dev (2019-07-02T15:07:06Z trunk ced640951b) [x86_64-linux]
-    last_commit=Implement Array#minmax
-  ced640951b --jit: |-
-    ruby 2.7.0dev (2019-07-02T15:07:06Z trunk ced640951b) +JIT [x86_64-linux]
-    last_commit=Implement Array#minmax
-  40d31073b7: |-
-    ruby 2.7.0dev (2019-07-02T15:19:03Z trunk 40d31073b7) [x86_64-linux]
-    last_commit=* 2019-07-03
-  40d31073b7 --jit: |-
-    ruby 2.7.0dev (2019-07-02T15:19:03Z trunk 40d31073b7) +JIT [x86_64-linux]
-    last_commit=* 2019-07-03
-  a4b5aaa9a7: |-
-    ruby 2.7.0dev (2019-07-02T15:22:11Z trunk a4b5aaa9a7) [x86_64-linux]
-    last_commit=Remove Changelog section from doc/contributing.rdoc [ci skip]
-  a4b5aaa9a7 --jit: |-
-    ruby 2.7.0dev (2019-07-02T15:22:11Z trunk a4b5aaa9a7) +JIT [x86_64-linux]
-    last_commit=Remove Changelog section from doc/contributing.rdoc [ci skip]
-  7582287eb2: |-
-    ruby 2.7.0dev (2019-07-02T15:26:50Z trunk 7582287eb2) [x86_64-linux]
-    last_commit=Make String#-@ not freeze receiver if called on unfrozen subclass instance
-  7582287eb2 --jit: |-
-    ruby 2.7.0dev (2019-07-02T15:26:50Z trunk 7582287eb2) +JIT [x86_64-linux]
-    last_commit=Make String#-@ not freeze receiver if called on unfrozen subclass instance
-  0f283054e7: |-
-    ruby 2.7.0dev (2019-07-02T15:34:01Z trunk 0f283054e7) [x86_64-linux]
-    last_commit=Check that String#scrub block does not modify receiver
-  0f283054e7 --jit: |-
-    ruby 2.7.0dev (2019-07-02T15:34:01Z trunk 0f283054e7) +JIT [x86_64-linux]
-    last_commit=Check that String#scrub block does not modify receiver
-  bdddaa9f56: |-
-    ruby 2.7.0dev (2019-07-02T17:09:01Z trunk bdddaa9f56) [x86_64-linux]
-    last_commit=Use rb_ident_hash_new instead of rb_hash_new_compare_by_id
-  bdddaa9f56 --jit: |-
-    ruby 2.7.0dev (2019-07-02T17:09:01Z trunk bdddaa9f56) +JIT [x86_64-linux]
-    last_commit=Use rb_ident_hash_new instead of rb_hash_new_compare_by_id
-  c07165be1d: |-
-    ruby 2.7.0dev (2019-07-02T17:13:25Z trunk c07165be1d) [x86_64-linux]
-    last_commit=* expand tabs.
-  c07165be1d --jit: |-
-    ruby 2.7.0dev (2019-07-02T17:13:25Z trunk c07165be1d) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  712a66b074: |-
-    ruby 2.7.0dev (2019-07-02T18:37:25Z trunk 712a66b074) [x86_64-linux]
-    last_commit=Revert "Avoid corrupting VM stack on inlined setlocal"
-  712a66b074 --jit: |-
-    ruby 2.7.0dev (2019-07-02T18:37:25Z trunk 712a66b074) +JIT [x86_64-linux]
-    last_commit=Revert "Avoid corrupting VM stack on inlined setlocal"
-  efde19ce44: |-
-    ruby 2.7.0dev (2019-07-02T19:05:07Z trunk efde19ce44) [x86_64-linux]
-    last_commit=Revert expansion of test-all
-  efde19ce44 --jit: |-
-    ruby 2.7.0dev (2019-07-02T19:05:07Z trunk efde19ce44) +JIT [x86_64-linux]
-    last_commit=Revert expansion of test-all
   928260c2a6: |-
     ruby 2.7.0dev (2019-07-02T19:05:22Z trunk 928260c2a6) [x86_64-linux]
     last_commit=Warn in verbose mode on defining a finalizer that captures the object
@@ -6033,3 +5913,45 @@ commits:
   0d0ff8277f --jit: |-
     ruby 2.7.0dev (2019-08-12T06:14:01Z trunk 0d0ff8277f) +JIT [x86_64-linux]
     last_commit=rb_trap_exec has been removed since 1.9
+  765cc17c08: |-
+    ruby 2.7.0dev (2019-08-12T07:11:54Z trunk 765cc17c08) [x86_64-linux]
+    last_commit=Update IRB man page
+  765cc17c08 --jit: |-
+    ruby 2.7.0dev (2019-08-12T07:11:54Z trunk 765cc17c08) +JIT [x86_64-linux]
+    last_commit=Update IRB man page
+  d5250808e1: |-
+    ruby 2.7.0dev (2019-08-12T07:37:47Z trunk d5250808e1) [x86_64-linux]
+    last_commit=Try testing openssl@1.1 on GitHub Actions
+  d5250808e1 --jit: |-
+    ruby 2.7.0dev (2019-08-12T07:37:47Z trunk d5250808e1) +JIT [x86_64-linux]
+    last_commit=Try testing openssl@1.1 on GitHub Actions
+  5ee11a95ff: |-
+    ruby 2.7.0dev (2019-08-12T08:44:03Z trunk 5ee11a95ff) [x86_64-linux]
+    last_commit=Roughly retry `brew update` on GitHub Actions
+  5ee11a95ff --jit: |-
+    ruby 2.7.0dev (2019-08-12T08:44:03Z trunk 5ee11a95ff) +JIT [x86_64-linux]
+    last_commit=Roughly retry `brew update` on GitHub Actions
+  927a43a503: |-
+    ruby 2.7.0dev (2019-08-12T08:46:16Z trunk 927a43a503) [x86_64-linux]
+    last_commit=Drop unused ccache
+  927a43a503 --jit: |-
+    ruby 2.7.0dev (2019-08-12T08:46:16Z trunk 927a43a503) +JIT [x86_64-linux]
+    last_commit=Drop unused ccache
+  5edf921e9b: |-
+    ruby 2.7.0dev (2019-08-12T08:55:57Z trunk 5edf921e9b) [x86_64-linux]
+    last_commit=Revert "Roughly retry `brew update` on GitHub Actions"
+  5edf921e9b --jit: |-
+    ruby 2.7.0dev (2019-08-12T08:55:57Z trunk 5edf921e9b) +JIT [x86_64-linux]
+    last_commit=Revert "Roughly retry `brew update` on GitHub Actions"
+  066a3498c6: |-
+    ruby 2.7.0dev (2019-08-12T10:02:55Z trunk 066a3498c6) [x86_64-linux]
+    last_commit=Include commits notes in ChangeLog
+  066a3498c6 --jit: |-
+    ruby 2.7.0dev (2019-08-12T10:02:55Z trunk 066a3498c6) +JIT [x86_64-linux]
+    last_commit=Include commits notes in ChangeLog
+  f9149c5596: |-
+    ruby 2.7.0dev (2019-08-12T10:13:38Z trunk f9149c5596) [x86_64-linux]
+    last_commit=Minor wording fix in NEWS [ci skip]
+  f9149c5596 --jit: |-
+    ruby 2.7.0dev (2019-08-12T10:13:38Z trunk f9149c5596) +JIT [x86_64-linux]
+    last_commit=Minor wording fix in NEWS [ci skip]
