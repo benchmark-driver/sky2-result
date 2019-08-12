@@ -9,150 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  928260c2a6: |-
-    ruby 2.7.0dev (2019-07-02T19:05:22Z trunk 928260c2a6) [x86_64-linux]
-    last_commit=Warn in verbose mode on defining a finalizer that captures the object
-  928260c2a6 --jit: |-
-    ruby 2.7.0dev (2019-07-02T19:05:22Z trunk 928260c2a6) +JIT [x86_64-linux]
-    last_commit=Warn in verbose mode on defining a finalizer that captures the object
-  796eeb6339: |-
-    ruby 2.7.0dev (2019-07-02T19:22:41Z trunk 796eeb6339) [x86_64-linux]
-    last_commit=Fix up [Feature #15974]
-  796eeb6339 --jit: |-
-    ruby 2.7.0dev (2019-07-02T19:22:41Z trunk 796eeb6339) +JIT [x86_64-linux]
-    last_commit=Fix up [Feature #15974]
-  9f26242411: |-
-    ruby 2.7.0dev (2019-07-02T19:26:53Z trunk 9f26242411) [x86_64-linux]
-    last_commit=* expand tabs.
-  9f26242411 --jit: |-
-    ruby 2.7.0dev (2019-07-02T19:26:53Z trunk 9f26242411) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  07e9a1d998: |-
-    ruby 2.7.0dev (2019-07-03T01:23:01Z trunk 07e9a1d998) [x86_64-linux]
-    last_commit=Debugging failures on x86_64-darwin17 of travis-ci
-  07e9a1d998 --jit: |-
-    ruby 2.7.0dev (2019-07-03T01:23:01Z trunk 07e9a1d998) +JIT [x86_64-linux]
-    last_commit=Debugging failures on x86_64-darwin17 of travis-ci
-  10cc6bc4d9: |-
-    ruby 2.7.0dev (2019-07-03T01:39:22Z trunk 10cc6bc4d9) [x86_64-linux]
-    last_commit=Just disable inlining with local varaible for now
-  10cc6bc4d9 --jit: |-
-    ruby 2.7.0dev (2019-07-03T01:39:22Z trunk 10cc6bc4d9) +JIT [x86_64-linux]
-    last_commit=Just disable inlining with local varaible for now
-  dcedf0a008: |-
-    ruby 2.7.0dev (2019-07-03T05:28:25Z trunk dcedf0a008) [x86_64-linux]
-    last_commit=Fix order of tests
-  dcedf0a008 --jit: |-
-    ruby 2.7.0dev (2019-07-03T05:28:25Z trunk dcedf0a008) +JIT [x86_64-linux]
-    last_commit=Fix order of tests
-  89cef1c56b: |-
-    ruby 2.7.0dev (2019-07-03T06:22:16Z trunk 89cef1c56b) [x86_64-linux]
-    last_commit=Version guard for [Feature #15974]
-  89cef1c56b --jit: |-
-    ruby 2.7.0dev (2019-07-03T06:22:16Z trunk 89cef1c56b) +JIT [x86_64-linux]
-    last_commit=Version guard for [Feature #15974]
-  e44c9b1147: |-
-    ruby 2.7.0dev (2019-07-03T10:29:12Z trunk e44c9b1147) [x86_64-linux]
-    last_commit=Try to avoid `not delagated` error
-  e44c9b1147 --jit: |-
-    ruby 2.7.0dev (2019-07-03T10:29:12Z trunk e44c9b1147) +JIT [x86_64-linux]
-    last_commit=Try to avoid `not delagated` error
-  6bd49b33c8: |-
-    ruby 2.7.0dev (2019-07-03T13:45:50Z trunk 6bd49b33c8) [x86_64-linux]
-    last_commit=Ensure that GC is disabled during compaction
-  6bd49b33c8 --jit: |-
-    ruby 2.7.0dev (2019-07-03T13:45:50Z trunk 6bd49b33c8) +JIT [x86_64-linux]
-    last_commit=Ensure that GC is disabled during compaction
-  7b9bb6f44a: |-
-    ruby 2.7.0dev (2019-07-03T14:37:46Z trunk 7b9bb6f44a) [x86_64-linux]
-    last_commit=Check code_block_open for whether code continues
-  7b9bb6f44a --jit: |-
-    ruby 2.7.0dev (2019-07-03T14:37:46Z trunk 7b9bb6f44a) +JIT [x86_64-linux]
-    last_commit=Check code_block_open for whether code continues
-  9f1d67a68f: |-
-    ruby 2.7.0dev (2019-07-03T14:52:52Z trunk 9f1d67a68f) [x86_64-linux]
-    last_commit=Renamed to rb_objspace_reachable_object_p
-  9f1d67a68f --jit: |-
-    ruby 2.7.0dev (2019-07-03T14:52:52Z trunk 9f1d67a68f) +JIT [x86_64-linux]
-    last_commit=Renamed to rb_objspace_reachable_object_p
-  d0cd0866d8: |-
-    ruby 2.7.0dev (2019-07-03T15:58:52Z trunk d0cd0866d8) [x86_64-linux]
-    last_commit=Disable GC during rb_objspace_reachable_object_p
-  d0cd0866d8 --jit: |-
-    ruby 2.7.0dev (2019-07-03T15:58:52Z trunk d0cd0866d8) +JIT [x86_64-linux]
-    last_commit=Disable GC during rb_objspace_reachable_object_p
-  c62aac1086: |-
-    ruby 2.7.0dev (2019-07-03T16:04:44Z trunk c62aac1086) [x86_64-linux]
-    last_commit=* expand tabs.
-  c62aac1086 --jit: |-
-    ruby 2.7.0dev (2019-07-03T16:04:44Z trunk c62aac1086) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  5d9e91afe0: |-
-    ruby 2.7.0dev (2019-07-03T16:04:47Z trunk 5d9e91afe0) [x86_64-linux]
-    last_commit=* 2019-07-04
-  5d9e91afe0 --jit: |-
-    ruby 2.7.0dev (2019-07-03T16:04:47Z trunk 5d9e91afe0) +JIT [x86_64-linux]
-    last_commit=* 2019-07-04
-  23c92b6f82: |-
-    ruby 2.7.0dev (2019-07-03T19:01:06Z trunk 23c92b6f82) [x86_64-linux]
-    last_commit=Revert self-referencing finalizer warning [Feature #15974]
-  23c92b6f82 --jit: |-
-    ruby 2.7.0dev (2019-07-03T19:01:06Z trunk 23c92b6f82) +JIT [x86_64-linux]
-    last_commit=Revert self-referencing finalizer warning [Feature #15974]
-  f19e048d24: |-
-    ruby 2.7.0dev (2019-07-04T06:58:47Z trunk f19e048d24) [x86_64-linux]
-    last_commit=Do not dispatch a nil token in ripper
-  f19e048d24 --jit: |-
-    ruby 2.7.0dev (2019-07-04T06:58:47Z trunk f19e048d24) +JIT [x86_64-linux]
-    last_commit=Do not dispatch a nil token in ripper
-  0c3e6e86bd: |-
-    ruby 2.7.0dev (2019-07-04T09:12:08Z trunk 0c3e6e86bd) [x86_64-linux]
-    last_commit=Suppress uninitialized instance variable warnings
-  0c3e6e86bd --jit: |-
-    ruby 2.7.0dev (2019-07-04T09:12:08Z trunk 0c3e6e86bd) +JIT [x86_64-linux]
-    last_commit=Suppress uninitialized instance variable warnings
-  ee861e43f7: |-
-    ruby 2.7.0dev (2019-07-04T09:47:22Z trunk ee861e43f7) [x86_64-linux]
-    last_commit=Skip indented comment lines [Bug #15981]
-  ee861e43f7 --jit: |-
-    ruby 2.7.0dev (2019-07-04T09:47:22Z trunk ee861e43f7) +JIT [x86_64-linux]
-    last_commit=Skip indented comment lines [Bug #15981]
-  12e06d32f5: |-
-    ruby 2.7.0dev (2019-07-04T09:49:42Z trunk 12e06d32f5) [x86_64-linux]
-    last_commit=Use lstrip instead of gsub which can match only once
-  12e06d32f5 --jit: |-
-    ruby 2.7.0dev (2019-07-04T09:49:42Z trunk 12e06d32f5) +JIT [x86_64-linux]
-    last_commit=Use lstrip instead of gsub which can match only once
-  265b9a0edf: |-
-    ruby 2.7.0dev (2019-07-04T09:54:50Z trunk 265b9a0edf) [x86_64-linux]
-    last_commit=Parse key sequence more strictly
-  265b9a0edf --jit: |-
-    ruby 2.7.0dev (2019-07-04T09:54:50Z trunk 265b9a0edf) +JIT [x86_64-linux]
-    last_commit=Parse key sequence more strictly
-  6fa7ed453e: |-
-    ruby 2.7.0dev (2019-07-04T10:29:07Z trunk 6fa7ed453e) [x86_64-linux]
-    last_commit=Check commented out line in inputrc correctly
-  6fa7ed453e --jit: |-
-    ruby 2.7.0dev (2019-07-04T10:29:07Z trunk 6fa7ed453e) +JIT [x86_64-linux]
-    last_commit=Check commented out line in inputrc correctly
-  d9f8b88b47: |-
-    ruby 2.7.0dev (2019-07-04T10:34:08Z trunk d9f8b88b47) [x86_64-linux]
-    last_commit=Move a comment to proper place
-  d9f8b88b47 --jit: |-
-    ruby 2.7.0dev (2019-07-04T10:34:08Z trunk d9f8b88b47) +JIT [x86_64-linux]
-    last_commit=Move a comment to proper place
-  6c2b59f923: |-
-    ruby 2.7.0dev (2019-07-04T11:58:11Z trunk 6c2b59f923) [x86_64-linux]
-    last_commit=Support Control- and Meta-
-  6c2b59f923 --jit: |-
-    ruby 2.7.0dev (2019-07-04T11:58:11Z trunk 6c2b59f923) +JIT [x86_64-linux]
-    last_commit=Support Control- and Meta-
-  fae4489a3a: |-
-    ruby 2.7.0dev (2019-07-05T10:00:37Z trunk fae4489a3a) [x86_64-linux]
-    last_commit=Fix a typo
-  fae4489a3a --jit: |-
-    ruby 2.7.0dev (2019-07-05T10:00:37Z trunk fae4489a3a) +JIT [x86_64-linux]
-    last_commit=Fix a typo
   0a2f598d23: |-
     ruby 2.7.0dev (2019-07-05T10:01:15Z trunk 0a2f598d23) [x86_64-linux]
     last_commit=* 2019-07-05
@@ -6027,3 +5883,75 @@ commits:
   3fc10eff1e --jit: |-
     ruby 2.7.0dev (2019-08-12T11:41:11Z trunk 3fc10eff1e) +JIT [x86_64-linux]
     last_commit=date_parse.c: trim off
+  8d302c914c: |-
+    ruby 2.7.0dev (2019-08-12T14:28:35Z trunk 8d302c914c) [x86_64-linux]
+    last_commit=string.c (rb_str_sub, _gsub): improve the rdoc
+  8d302c914c --jit: |-
+    ruby 2.7.0dev (2019-08-12T14:28:35Z trunk 8d302c914c) +JIT [x86_64-linux]
+    last_commit=string.c (rb_str_sub, _gsub): improve the rdoc
+  edd2538268: |-
+    ruby 2.7.0dev (2019-08-12T14:44:34Z trunk edd2538268) [x86_64-linux]
+    last_commit=Add a quick job to be used for branch protection
+  edd2538268 --jit: |-
+    ruby 2.7.0dev (2019-08-12T14:44:34Z trunk edd2538268) +JIT [x86_64-linux]
+    last_commit=Add a quick job to be used for branch protection
+  b8b5e7d5be: |-
+    ruby 2.7.0dev (2019-08-12T15:48:52Z trunk b8b5e7d5be) [x86_64-linux]
+    last_commit=Stop rewriting message to include PR URL
+  b8b5e7d5be --jit: |-
+    ruby 2.7.0dev (2019-08-12T15:48:52Z trunk b8b5e7d5be) +JIT [x86_64-linux]
+    last_commit=Stop rewriting message to include PR URL
+  4d3fb24736: |-
+    ruby 2.7.0dev (2019-08-12T15:51:04Z trunk 4d3fb24736) [x86_64-linux]
+    last_commit=* 2019-08-13
+  4d3fb24736 --jit: |-
+    ruby 2.7.0dev (2019-08-12T15:51:04Z trunk 4d3fb24736) +JIT [x86_64-linux]
+    last_commit=* 2019-08-13
+  0f10828fcf: |-
+    ruby 2.7.0dev (2019-08-12T16:03:14Z trunk 0f10828fcf) [x86_64-linux]
+    last_commit=Fix a typo [ci skip]
+  0f10828fcf --jit: |-
+    ruby 2.7.0dev (2019-08-12T16:03:14Z trunk 0f10828fcf) +JIT [x86_64-linux]
+    last_commit=Fix a typo [ci skip]
+  957bdfbab8: |-
+    ruby 2.7.0dev (2019-08-12T16:21:37Z trunk 957bdfbab8) [x86_64-linux]
+    last_commit=Update docs to use more natural English
+  957bdfbab8 --jit: |-
+    ruby 2.7.0dev (2019-08-12T16:21:37Z trunk 957bdfbab8) +JIT [x86_64-linux]
+    last_commit=Update docs to use more natural English
+  4e418a6c06: |-
+    ruby 2.7.0dev (2019-08-12T16:29:37Z trunk 4e418a6c06) [x86_64-linux]
+    last_commit=Update check_branch description a little [ci skip]
+  4e418a6c06 --jit: |-
+    ruby 2.7.0dev (2019-08-12T16:29:37Z trunk 4e418a6c06) +JIT [x86_64-linux]
+    last_commit=Update check_branch description a little [ci skip]
+  76a928bac2: |-
+    ruby 2.7.0dev (2019-08-12T16:34:09Z trunk 76a928bac2) [x86_64-linux]
+    last_commit=Unpin default value objects
+  76a928bac2 --jit: |-
+    ruby 2.7.0dev (2019-08-12T16:34:09Z trunk 76a928bac2) +JIT [x86_64-linux]
+    last_commit=Unpin default value objects
+  6749682f82: |-
+    ruby 2.7.0dev (2019-08-12T16:34:09Z trunk 6749682f82) [x86_64-linux]
+    last_commit=also unpin `final` on weak maps
+  6749682f82 --jit: |-
+    ruby 2.7.0dev (2019-08-12T16:34:09Z trunk 6749682f82) +JIT [x86_64-linux]
+    last_commit=also unpin `final` on weak maps
+  e688ab26c7: |-
+    ruby 2.7.0dev (2019-08-12T16:34:36Z trunk e688ab26c7) [x86_64-linux]
+    last_commit=* expand tabs.
+  e688ab26c7 --jit: |-
+    ruby 2.7.0dev (2019-08-12T16:34:36Z trunk e688ab26c7) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  3979f22cc1: |-
+    ruby 2.7.0dev (2019-08-12T16:45:10Z trunk 3979f22cc1) [x86_64-linux]
+    last_commit=Explain the current status of branches [ci skip] (#2350)
+  3979f22cc1 --jit: |-
+    ruby 2.7.0dev (2019-08-12T16:45:10Z trunk 3979f22cc1) +JIT [x86_64-linux]
+    last_commit=Explain the current status of branches [ci skip] (#2350)
+  404850e134: |-
+    ruby 2.7.0dev (2019-08-12T16:56:35Z trunk 404850e134) [x86_64-linux]
+    last_commit=Remove documentation that fatal cannot be rescued [ci skip]
+  404850e134 --jit: |-
+    ruby 2.7.0dev (2019-08-12T16:56:35Z trunk 404850e134) +JIT [x86_64-linux]
+    last_commit=Remove documentation that fatal cannot be rescued [ci skip]
