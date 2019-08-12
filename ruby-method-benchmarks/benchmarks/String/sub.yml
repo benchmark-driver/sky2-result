@@ -1065,6 +1065,8 @@ results:
     e2bee86dc4: 3241195.548
     0ca494fc80: 3372725.347
     ad38f02645: 3372357.857
+    bdcd1990ad: 3414265.559
+    63160a84b4: 3382242.928
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2129,6 +2131,8 @@ results:
     e2bee86dc4: 3323051.003
     0ca494fc80: 3361314.228
     ad38f02645: 3239952.519
+    bdcd1990ad: 3423351.902
+    63160a84b4: 3348210.057
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3193,6 +3197,8 @@ results:
     e2bee86dc4: 1851658.471
     0ca494fc80: 1892731.971
     ad38f02645: 1843423.982
+    bdcd1990ad: 1895325.762
+    63160a84b4: 1850508.559
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4257,6 +4263,8 @@ results:
     e2bee86dc4: 2715820.281
     0ca494fc80: 2776750.412
     ad38f02645: 2739275.285
+    bdcd1990ad: 2241443.003
+    63160a84b4: 2782425.462
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5321,6 +5329,8 @@ results:
     e2bee86dc4: 3614018.903
     0ca494fc80: 3662195.683
     ad38f02645: 3400279.363
+    bdcd1990ad: 3723670.039
+    63160a84b4: 3553287.507
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -6385,6 +6395,8 @@ results:
     e2bee86dc4: 3612823.363
     0ca494fc80: 3644387.129
     ad38f02645: 3569962.859
+    bdcd1990ad: 3673069.643
+    63160a84b4: 3628703.035
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -7449,6 +7461,8 @@ results:
     e2bee86dc4: 1909194.626
     0ca494fc80: 2037037.928
     ad38f02645: 1974479.902
+    bdcd1990ad: 2009869.596
+    63160a84b4: 1938280.319
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -8513,3 +8527,5 @@ results:
     e2bee86dc4: 2917594.057
     0ca494fc80: 2989968.929
     ad38f02645: 2921700.46
+    bdcd1990ad: 2894041.848
+    63160a84b4: 2424878.144
