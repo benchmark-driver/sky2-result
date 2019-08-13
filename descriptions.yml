@@ -5961,3 +5961,63 @@ commits:
   aac4d9d6c7 --jit: |-
     ruby 2.7.0dev (2019-08-12T20:44:54Z trunk aac4d9d6c7) +JIT [x86_64-linux]
     last_commit=Rename rb_gc_mark_no_pin -> rb_gc_mark_movable
+  0c2d81dada: |-
+    ruby 2.7.0dev (2019-08-13T00:47:08Z trunk 0c2d81dada) [x86_64-linux]
+    last_commit=Renamed ruby_finalize_{0,1}
+  0c2d81dada --jit: |-
+    ruby 2.7.0dev (2019-08-13T00:47:08Z trunk 0c2d81dada) +JIT [x86_64-linux]
+    last_commit=Renamed ruby_finalize_{0,1}
+  917d766508: |-
+    ruby 2.7.0dev (2019-08-13T00:47:08Z trunk 917d766508) [x86_64-linux]
+    last_commit=Move rb_objspace_t* in gc_verify_internal_consistency to an argument
+  917d766508 --jit: |-
+    ruby 2.7.0dev (2019-08-13T00:47:08Z trunk 917d766508) +JIT [x86_64-linux]
+    last_commit=Move rb_objspace_t* in gc_verify_internal_consistency to an argument
+  ac656bc2bd: |-
+    ruby 2.7.0dev (2019-08-13T00:47:08Z trunk ac656bc2bd) [x86_64-linux]
+    last_commit=Hoisted out GPR_DEFAULT_REASON
+  ac656bc2bd --jit: |-
+    ruby 2.7.0dev (2019-08-13T00:47:08Z trunk ac656bc2bd) +JIT [x86_64-linux]
+    last_commit=Hoisted out GPR_DEFAULT_REASON
+  aec93417f0: |-
+    ruby 2.7.0dev (2019-08-13T00:50:34Z trunk aec93417f0) [x86_64-linux]
+    last_commit=* expand tabs.
+  aec93417f0 --jit: |-
+    ruby 2.7.0dev (2019-08-13T00:50:34Z trunk aec93417f0) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  0c1c42c43a: |-
+    ruby 2.7.0dev (2019-08-13T01:33:19Z trunk 0c1c42c43a) [x86_64-linux]
+    last_commit=Move rb_objspace_t* in objspace_reachable_objects_from_root to an argument
+  0c1c42c43a --jit: |-
+    ruby 2.7.0dev (2019-08-13T01:33:19Z trunk 0c1c42c43a) +JIT [x86_64-linux]
+    last_commit=Move rb_objspace_t* in objspace_reachable_objects_from_root to an argument
+  2f744f53c1: |-
+    ruby 2.7.0dev (2019-08-13T01:56:21Z trunk 2f744f53c1) [x86_64-linux]
+    last_commit=Refactored `objspace_each_objects`
+  2f744f53c1 --jit: |-
+    ruby 2.7.0dev (2019-08-13T01:56:21Z trunk 2f744f53c1) +JIT [x86_64-linux]
+    last_commit=Refactored `objspace_each_objects`
+  c215a6f282: |-
+    ruby 2.7.0dev (2019-08-13T02:03:54Z trunk c215a6f282) [x86_64-linux]
+    last_commit=Removed non-VM_OBJSPACE code
+  c215a6f282 --jit: |-
+    ruby 2.7.0dev (2019-08-13T02:03:54Z trunk c215a6f282) +JIT [x86_64-linux]
+    last_commit=Removed non-VM_OBJSPACE code
+  f78916e3c1: |-
+    ruby 2.7.0dev (2019-08-13T02:20:39Z trunk f78916e3c1) [x86_64-linux]
+    last_commit=* expand tabs.
+  f78916e3c1 --jit: |-
+    ruby 2.7.0dev (2019-08-13T02:20:39Z trunk f78916e3c1) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  0d1af9f942: |-
+    ruby 2.7.0dev (2019-08-13T03:24:40Z trunk 0d1af9f942) [x86_64-linux]
+    last_commit=Push commits notes too [ci skip]
+  0d1af9f942 --jit: |-
+    ruby 2.7.0dev (2019-08-13T03:24:40Z trunk 0d1af9f942) +JIT [x86_64-linux]
+    last_commit=Push commits notes too [ci skip]
+  75d9fa8b07: |-
+    ruby 2.7.0dev (2019-08-13T03:24:55Z trunk 75d9fa8b07) [x86_64-linux]
+    last_commit=Detect VCS from the current directory by default [ci skip]
+  75d9fa8b07 --jit: |-
+    ruby 2.7.0dev (2019-08-13T03:24:55Z trunk 75d9fa8b07) +JIT [x86_64-linux]
+    last_commit=Detect VCS from the current directory by default [ci skip]
