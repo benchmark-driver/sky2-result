@@ -5955,3 +5955,15 @@ commits:
   ffab84fa3e --jit: |-
     ruby 2.7.0dev (2019-08-13T06:27:46Z trunk ffab84fa3e) +JIT [x86_64-linux]
     last_commit=Fix a typo [ci skip]
+  d0b2e6412e: |-
+    ruby 2.7.0dev (2019-08-13T06:39:49Z trunk d0b2e6412e) [x86_64-linux]
+    last_commit=Pass rb_execution_context_t* in ruby_run_node
+  d0b2e6412e --jit: |-
+    ruby 2.7.0dev (2019-08-13T06:39:49Z trunk d0b2e6412e) +JIT [x86_64-linux]
+    last_commit=Pass rb_execution_context_t* in ruby_run_node
+  e75e548cf9: |-
+    ruby 2.7.0dev (2019-08-13T12:11:58Z trunk e75e548cf9) [x86_64-linux]
+    last_commit=spec/bundler needs the specific command [ci skip]
+  e75e548cf9 --jit: |-
+    ruby 2.7.0dev (2019-08-13T12:11:58Z trunk e75e548cf9) +JIT [x86_64-linux]
+    last_commit=spec/bundler needs the specific command [ci skip]

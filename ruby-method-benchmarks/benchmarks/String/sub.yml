@@ -1088,6 +1088,8 @@ results:
     934e6b2aeb: 3036339.153
     e80f407ed4: 3125130.967
     11662c70b0: 3442433.525
+    4b7a04a5b8: 3414546.537
+    10d7419eb4: 2910134.02
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2175,6 +2177,8 @@ results:
     934e6b2aeb: 3311272.889
     e80f407ed4: 3441923.65
     11662c70b0: 3407256.322
+    4b7a04a5b8: 3399338.505
+    10d7419eb4: 3349852.147
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3262,6 +3266,8 @@ results:
     934e6b2aeb: 1875284.883
     e80f407ed4: 1921036.908
     11662c70b0: 1810763.079
+    4b7a04a5b8: 1790682.482
+    10d7419eb4: 1859539.525
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4349,6 +4355,8 @@ results:
     934e6b2aeb: 2736130.385
     e80f407ed4: 2833921.842
     11662c70b0: 2814583.771
+    4b7a04a5b8: 2735281.5
+    10d7419eb4: 2724624.656
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5436,6 +5444,8 @@ results:
     934e6b2aeb: 3670962.348
     e80f407ed4: 3762328.299
     11662c70b0: 3730503.471
+    4b7a04a5b8: 3723223.29
+    10d7419eb4: 3284471.973
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -6523,6 +6533,8 @@ results:
     934e6b2aeb: 3526814.409
     e80f407ed4: 3727791.959
     11662c70b0: 3716130.298
+    4b7a04a5b8: 3635685.224
+    10d7419eb4: 3624870.572
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -7610,6 +7622,8 @@ results:
     934e6b2aeb: 1827810.747
     e80f407ed4: 2030535.628
     11662c70b0: 1974709.1
+    4b7a04a5b8: 1945820.605
+    10d7419eb4: 1988618.38
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -8697,3 +8711,5 @@ results:
     934e6b2aeb: 2925575.473
     e80f407ed4: 3014689.699
     11662c70b0: 3004979.127
+    4b7a04a5b8: 2904075.318
+    10d7419eb4: 2920498.677
