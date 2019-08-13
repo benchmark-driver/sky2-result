@@ -5955,3 +5955,9 @@ commits:
   404850e134 --jit: |-
     ruby 2.7.0dev (2019-08-12T16:56:35Z trunk 404850e134) +JIT [x86_64-linux]
     last_commit=Remove documentation that fatal cannot be rescued [ci skip]
+  aac4d9d6c7: |-
+    ruby 2.7.0dev (2019-08-12T20:44:54Z trunk aac4d9d6c7) [x86_64-linux]
+    last_commit=Rename rb_gc_mark_no_pin -> rb_gc_mark_movable
+  aac4d9d6c7 --jit: |-
+    ruby 2.7.0dev (2019-08-12T20:44:54Z trunk aac4d9d6c7) +JIT [x86_64-linux]
+    last_commit=Rename rb_gc_mark_no_pin -> rb_gc_mark_movable

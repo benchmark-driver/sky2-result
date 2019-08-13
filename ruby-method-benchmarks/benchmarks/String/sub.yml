@@ -1078,6 +1078,8 @@ results:
     efa380b006: 3456761.847
     61577fa53b: 3354687.041
     deb5e58230: 3403790.486
+    41dd9f7e67: 3359243.575
+    4b7d7d007f: 3402092.19
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2155,6 +2157,8 @@ results:
     efa380b006: 3403615.922
     61577fa53b: 3291478.355
     deb5e58230: 3383989.186
+    41dd9f7e67: 3378215.23
+    4b7d7d007f: 3398541.521
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3232,6 +3236,8 @@ results:
     efa380b006: 1833411.295
     61577fa53b: 1847825.954
     deb5e58230: 1854693.258
+    41dd9f7e67: 1898758.001
+    4b7d7d007f: 1842430.748
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4309,6 +4315,8 @@ results:
     efa380b006: 2829228.251
     61577fa53b: 2612341.301
     deb5e58230: 2642063.821
+    41dd9f7e67: 2790894.582
+    4b7d7d007f: 2792289.894
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5386,6 +5394,8 @@ results:
     efa380b006: 3757018.508
     61577fa53b: 3670248.338
     deb5e58230: 3710507.882
+    41dd9f7e67: 3711843.271
+    4b7d7d007f: 3666858.576
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -6463,6 +6473,8 @@ results:
     efa380b006: 3710282.358
     61577fa53b: 3615157.896
     deb5e58230: 3686575.546
+    41dd9f7e67: 3666054.162
+    4b7d7d007f: 3638937.128
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -7540,6 +7552,8 @@ results:
     efa380b006: 2011855.204
     61577fa53b: 1947215.119
     deb5e58230: 1972221.972
+    41dd9f7e67: 2039630.028
+    4b7d7d007f: 1968371.239
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -8617,3 +8631,5 @@ results:
     efa380b006: 2929210.235
     61577fa53b: 2913615.963
     deb5e58230: 2886832.227
+    41dd9f7e67: 3003534.902
+    4b7d7d007f: 2991610.045
