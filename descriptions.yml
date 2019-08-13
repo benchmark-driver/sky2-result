@@ -9,78 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  0a2f598d23: |-
-    ruby 2.7.0dev (2019-07-05T10:01:15Z trunk 0a2f598d23) [x86_64-linux]
-    last_commit=* 2019-07-05
-  0a2f598d23 --jit: |-
-    ruby 2.7.0dev (2019-07-05T10:01:15Z trunk 0a2f598d23) +JIT [x86_64-linux]
-    last_commit=* 2019-07-05
-  d746a41e85: |-
-    ruby 2.7.0dev (2019-07-05T13:39:54Z trunk d746a41e85) [x86_64-linux]
-    last_commit=Multiple codepoints are not allowed at single character literal
-  d746a41e85 --jit: |-
-    ruby 2.7.0dev (2019-07-05T13:39:54Z trunk d746a41e85) +JIT [x86_64-linux]
-    last_commit=Multiple codepoints are not allowed at single character literal
-  89e178c7cb: |-
-    ruby 2.7.0dev (2019-07-05T22:19:37Z trunk 89e178c7cb) [x86_64-linux]
-    last_commit=Fix showing document of ClassName.method_name in IRB
-  89e178c7cb --jit: |-
-    ruby 2.7.0dev (2019-07-05T22:19:37Z trunk 89e178c7cb) +JIT [x86_64-linux]
-    last_commit=Fix showing document of ClassName.method_name in IRB
-  833cfeb226: |-
-    ruby 2.7.0dev (2019-07-05T22:20:29Z trunk 833cfeb226) [x86_64-linux]
-    last_commit=* 2019-07-06
-  833cfeb226 --jit: |-
-    ruby 2.7.0dev (2019-07-05T22:20:29Z trunk 833cfeb226) +JIT [x86_64-linux]
-    last_commit=* 2019-07-06
-  44aae5fee6: |-
-    ruby 2.7.0dev (2019-07-06T03:11:12Z trunk 44aae5fee6) [x86_64-linux]
-    last_commit=Simplified
-  44aae5fee6 --jit: |-
-    ruby 2.7.0dev (2019-07-06T03:11:12Z trunk 44aae5fee6) +JIT [x86_64-linux]
-    last_commit=Simplified
-  688cef2169: |-
-    ruby 2.7.0dev (2019-07-06T03:31:11Z trunk 688cef2169) [x86_64-linux]
-    last_commit=Refactored width calculations
-  688cef2169 --jit: |-
-    ruby 2.7.0dev (2019-07-06T03:31:11Z trunk 688cef2169) +JIT [x86_64-linux]
-    last_commit=Refactored width calculations
-  f296c260ef: |-
-    ruby 2.7.0dev (2019-07-06T03:43:38Z trunk f296c260ef) [x86_64-linux]
-    last_commit=Fix segfault when using method reference operator without using result
-  f296c260ef --jit: |-
-    ruby 2.7.0dev (2019-07-06T03:43:38Z trunk f296c260ef) +JIT [x86_64-linux]
-    last_commit=Fix segfault when using method reference operator without using result
-  9d8855b682: |-
-    ruby 2.7.0dev (2019-07-06T09:46:00Z trunk 9d8855b682) [x86_64-linux]
-    last_commit=Added assertions for Unicode escaped CHAR scanner events
-  9d8855b682 --jit: |-
-    ruby 2.7.0dev (2019-07-06T09:46:00Z trunk 9d8855b682) +JIT [x86_64-linux]
-    last_commit=Added assertions for Unicode escaped CHAR scanner events
-  789e49dc7e: |-
-    ruby 2.7.0dev (2019-07-07T05:43:54Z trunk 789e49dc7e) [x86_64-linux]
-    last_commit=Renamed column in token_info to indent
-  789e49dc7e --jit: |-
-    ruby 2.7.0dev (2019-07-07T05:43:54Z trunk 789e49dc7e) +JIT [x86_64-linux]
-    last_commit=Renamed column in token_info to indent
-  d548073f68: |-
-    ruby 2.7.0dev (2019-07-07T06:47:40Z trunk d548073f68) [x86_64-linux]
-    last_commit=Enable indentation warning against `if` just after `else`
-  d548073f68 --jit: |-
-    ruby 2.7.0dev (2019-07-07T06:47:40Z trunk d548073f68) +JIT [x86_64-linux]
-    last_commit=Enable indentation warning against `if` just after `else`
-  a33948f40a: |-
-    ruby 2.7.0dev (2019-07-07T06:50:58Z trunk a33948f40a) [x86_64-linux]
-    last_commit=* 2019-07-07
-  a33948f40a --jit: |-
-    ruby 2.7.0dev (2019-07-07T06:50:58Z trunk a33948f40a) +JIT [x86_64-linux]
-    last_commit=* 2019-07-07
-  a13636e756: |-
-    ruby 2.7.0dev (2019-07-07T09:18:22Z trunk a13636e756) [x86_64-linux]
-    last_commit=Message to pipe should end with a newline
-  a13636e756 --jit: |-
-    ruby 2.7.0dev (2019-07-07T09:18:22Z trunk a13636e756) +JIT [x86_64-linux]
-    last_commit=Message to pipe should end with a newline
   68e5804022: |-
     ruby 2.7.0dev (2019-07-07T09:33:47Z trunk 68e5804022) [x86_64-linux]
     last_commit=Add coroutine context switch for i386-mingw32
@@ -6021,3 +5949,9 @@ commits:
   75d9fa8b07 --jit: |-
     ruby 2.7.0dev (2019-08-13T03:24:55Z trunk 75d9fa8b07) +JIT [x86_64-linux]
     last_commit=Detect VCS from the current directory by default [ci skip]
+  ffab84fa3e: |-
+    ruby 2.7.0dev (2019-08-13T06:27:46Z trunk ffab84fa3e) [x86_64-linux]
+    last_commit=Fix a typo [ci skip]
+  ffab84fa3e --jit: |-
+    ruby 2.7.0dev (2019-08-13T06:27:46Z trunk ffab84fa3e) +JIT [x86_64-linux]
+    last_commit=Fix a typo [ci skip]
