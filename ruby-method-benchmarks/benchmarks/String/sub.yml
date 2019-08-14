@@ -1096,6 +1096,8 @@ results:
     a3c0ea55f8: 3388170.481
     4f10a61eaa: 3462168.998
     29bdfeb0c6: 3396208.661
+    0ee105f3f0: 3414814.217
+    72daf37dee: 3433023.105
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2191,6 +2193,8 @@ results:
     a3c0ea55f8: 3383787.24
     4f10a61eaa: 3367682.554
     29bdfeb0c6: 3089067.143
+    0ee105f3f0: 3390341.598
+    72daf37dee: 3424707.766
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3286,6 +3290,8 @@ results:
     a3c0ea55f8: 1904758.117
     4f10a61eaa: 1640707.353
     29bdfeb0c6: 1894004.683
+    0ee105f3f0: 1844168.617
+    72daf37dee: 1885077.52
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4381,6 +4387,8 @@ results:
     a3c0ea55f8: 2788563.169
     4f10a61eaa: 2838777.752
     29bdfeb0c6: 2707571.653
+    0ee105f3f0: 2710284.33
+    72daf37dee: 2759382.95
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5476,6 +5484,8 @@ results:
     a3c0ea55f8: 3689941.624
     4f10a61eaa: 3743938.279
     29bdfeb0c6: 3630381.643
+    0ee105f3f0: 3716639.136
+    72daf37dee: 3708206.503
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -6571,6 +6581,8 @@ results:
     a3c0ea55f8: 3644199.402
     4f10a61eaa: 3649398.415
     29bdfeb0c6: 3737640.71
+    0ee105f3f0: 3683273.394
+    72daf37dee: 3716525.063
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -7666,6 +7678,8 @@ results:
     a3c0ea55f8: 2037783.817
     4f10a61eaa: 1980470.359
     29bdfeb0c6: 2003769.547
+    0ee105f3f0: 1911218.567
+    72daf37dee: 1999651.848
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -8761,3 +8775,5 @@ results:
     a3c0ea55f8: 2766748.883
     4f10a61eaa: 3016004.653
     29bdfeb0c6: 2919115.004
+    0ee105f3f0: 2911934.689
+    72daf37dee: 2771404.38
