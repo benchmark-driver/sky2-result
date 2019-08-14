@@ -1098,6 +1098,8 @@ results:
     29bdfeb0c6: 3396208.661
     0ee105f3f0: 3414814.217
     72daf37dee: 3433023.105
+    63384591e2: 3424907.213
+    c2428b8bf6: 3385368.602
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2195,6 +2197,8 @@ results:
     29bdfeb0c6: 3089067.143
     0ee105f3f0: 3390341.598
     72daf37dee: 3424707.766
+    63384591e2: 3410876.251
+    c2428b8bf6: 3371264.616
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3292,6 +3296,8 @@ results:
     29bdfeb0c6: 1894004.683
     0ee105f3f0: 1844168.617
     72daf37dee: 1885077.52
+    63384591e2: 1907869.559
+    c2428b8bf6: 1720625.892
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4389,6 +4395,8 @@ results:
     29bdfeb0c6: 2707571.653
     0ee105f3f0: 2710284.33
     72daf37dee: 2759382.95
+    63384591e2: 2828604.942
+    c2428b8bf6: 2788291.046
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5486,6 +5494,8 @@ results:
     29bdfeb0c6: 3630381.643
     0ee105f3f0: 3716639.136
     72daf37dee: 3708206.503
+    63384591e2: 3703470.351
+    c2428b8bf6: 3672388.941
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -6583,6 +6593,8 @@ results:
     29bdfeb0c6: 3737640.71
     0ee105f3f0: 3683273.394
     72daf37dee: 3716525.063
+    63384591e2: 3547874.082
+    c2428b8bf6: 3438299.048
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -7680,6 +7692,8 @@ results:
     29bdfeb0c6: 2003769.547
     0ee105f3f0: 1911218.567
     72daf37dee: 1999651.848
+    63384591e2: 1892095.69
+    c2428b8bf6: 1966425.5
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -8777,3 +8791,5 @@ results:
     29bdfeb0c6: 2919115.004
     0ee105f3f0: 2911934.689
     72daf37dee: 2771404.38
+    63384591e2: 3024342.917
+    c2428b8bf6: 2839027.913

@@ -5955,3 +5955,27 @@ commits:
   0623e2b7cc --jit: |-
     ruby 2.7.0dev (2019-08-14T02:47:22Z trunk 0623e2b7cc) +JIT [x86_64-linux]
     last_commit=Suppress Uninitialized variables by Coverity Scan
+  182a408c2c: |-
+    ruby 2.7.0dev (2019-08-14T07:25:15Z trunk 182a408c2c) [x86_64-linux]
+    last_commit=change Proc#to_s format ('@...' -> ' ...') (#2362)
+  182a408c2c --jit: |-
+    ruby 2.7.0dev (2019-08-14T07:25:15Z trunk 182a408c2c) +JIT [x86_64-linux]
+    last_commit=change Proc#to_s format ('@...' -> ' ...') (#2362)
+  '0971460e31': |-
+    ruby 2.7.0dev (2019-08-14T07:25:32Z trunk 0971460e31) [x86_64-linux]
+    last_commit=* expand tabs.
+  '0971460e31 --jit': |-
+    ruby 2.7.0dev (2019-08-14T07:25:32Z trunk 0971460e31) +JIT [x86_64-linux]
+    last_commit=* expand tabs.
+  1cffd5b4f0: |-
+    ruby 2.7.0dev (2019-08-14T07:30:30Z trunk 1cffd5b4f0) [x86_64-linux]
+    last_commit=fix last commit.
+  1cffd5b4f0 --jit: |-
+    ruby 2.7.0dev (2019-08-14T07:30:30Z trunk 1cffd5b4f0) +JIT [x86_64-linux]
+    last_commit=fix last commit.
+  c8f97596b7: |-
+    ruby 2.7.0dev (2019-08-14T08:13:28Z trunk c8f97596b7) [x86_64-linux]
+    last_commit=Don't accidentally name anonymous module/class
+  c8f97596b7 --jit: |-
+    ruby 2.7.0dev (2019-08-14T08:13:28Z trunk c8f97596b7) +JIT [x86_64-linux]
+    last_commit=Don't accidentally name anonymous module/class
