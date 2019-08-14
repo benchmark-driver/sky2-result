@@ -9,120 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  68e5804022: |-
-    ruby 2.7.0dev (2019-07-07T09:33:47Z trunk 68e5804022) [x86_64-linux]
-    last_commit=Add coroutine context switch for i386-mingw32
-  68e5804022 --jit: |-
-    ruby 2.7.0dev (2019-07-07T09:33:47Z trunk 68e5804022) +JIT [x86_64-linux]
-    last_commit=Add coroutine context switch for i386-mingw32
-  19a4c42d61: |-
-    ruby 2.7.0dev (2019-07-07T10:01:48Z trunk 19a4c42d61) [x86_64-linux]
-    last_commit=Unescape #{} in the last commit title
-  19a4c42d61 --jit: |-
-    ruby 2.7.0dev (2019-07-07T10:01:48Z trunk 19a4c42d61) +JIT [x86_64-linux]
-    last_commit=Unescape #{} in the last commit title
-  fc4dd7d3e2: |-
-    ruby 2.7.0dev (2019-07-07T10:05:33Z trunk fc4dd7d3e2) [x86_64-linux]
-    last_commit=Git branch name can contain `#{}` too
-  fc4dd7d3e2 --jit: |-
-    ruby 2.7.0dev (2019-07-07T10:05:33Z trunk fc4dd7d3e2) +JIT [x86_64-linux]
-    last_commit=Git branch name can contain `#{}` too
-  c1ebb384fd: |-
-    ruby 2.7.0dev (2019-07-07T11:16:31Z trunk c1ebb384fd) [x86_64-linux]
-    last_commit=Fix a typo
-  c1ebb384fd --jit: |-
-    ruby 2.7.0dev (2019-07-07T11:16:31Z trunk c1ebb384fd) +JIT [x86_64-linux]
-    last_commit=Fix a typo
-  3fcffceafd: |-
-    ruby 2.7.0dev (2019-07-07T20:49:47Z trunk 3fcffceafd) [x86_64-linux]
-    last_commit=Fix default argument values for OptParse::Switch#summarize
-  3fcffceafd --jit: |-
-    ruby 2.7.0dev (2019-07-07T20:49:47Z trunk 3fcffceafd) +JIT [x86_64-linux]
-    last_commit=Fix default argument values for OptParse::Switch#summarize
-  a2e0aaea1b: |-
-    ruby 2.7.0dev (2019-07-08T01:59:04Z trunk a2e0aaea1b) [x86_64-linux]
-    last_commit=* 2019-07-08
-  a2e0aaea1b --jit: |-
-    ruby 2.7.0dev (2019-07-08T01:59:04Z trunk a2e0aaea1b) +JIT [x86_64-linux]
-    last_commit=* 2019-07-08
-  e9907122ed: |-
-    ruby 2.7.0dev (2019-07-08T04:03:50Z trunk e9907122ed) [x86_64-linux]
-    last_commit=Suppress a warning when `write_headers: true`
-  e9907122ed --jit: |-
-    ruby 2.7.0dev (2019-07-08T04:03:50Z trunk e9907122ed) +JIT [x86_64-linux]
-    last_commit=Suppress a warning when `write_headers: true`
-  612cad5d20: |-
-    ruby 2.7.0dev (2019-07-08T04:30:21Z trunk 612cad5d20) [x86_64-linux]
-    last_commit=Let struct dump_config in objspace fit in a single cache line
-  612cad5d20 --jit: |-
-    ruby 2.7.0dev (2019-07-08T04:30:21Z trunk 612cad5d20) +JIT [x86_64-linux]
-    last_commit=Let struct dump_config in objspace fit in a single cache line
-  a8c54932ba: |-
-    ruby 2.7.0dev (2019-07-08T06:07:43Z trunk a8c54932ba) [x86_64-linux]
-    last_commit=Renamed fib to fiber
-  a8c54932ba --jit: |-
-    ruby 2.7.0dev (2019-07-08T06:07:43Z trunk a8c54932ba) +JIT [x86_64-linux]
-    last_commit=Renamed fib to fiber
-  663d58ffde: |-
-    ruby 2.7.0dev (2019-07-08T06:13:59Z trunk 663d58ffde) [x86_64-linux]
-    last_commit=Fix indent
-  663d58ffde --jit: |-
-    ruby 2.7.0dev (2019-07-08T06:13:59Z trunk 663d58ffde) +JIT [x86_64-linux]
-    last_commit=Fix indent
-  93c9405e0e: |-
-    ruby 2.7.0dev (2019-07-08T07:00:29Z trunk 93c9405e0e) [x86_64-linux]
-    last_commit=* expand tabs.
-  93c9405e0e --jit: |-
-    ruby 2.7.0dev (2019-07-08T07:00:29Z trunk 93c9405e0e) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  e0a3c547dd: |-
-    ruby 2.7.0dev (2019-07-08T07:05:04Z trunk e0a3c547dd) [x86_64-linux]
-    last_commit=Get rid of toplevel methods
-  e0a3c547dd --jit: |-
-    ruby 2.7.0dev (2019-07-08T07:05:04Z trunk e0a3c547dd) +JIT [x86_64-linux]
-    last_commit=Get rid of toplevel methods
-  995ae6d529: |-
-    ruby 2.7.0dev (2019-07-08T08:09:59Z trunk 995ae6d529) [x86_64-linux]
-    last_commit=Check indent of `end` against `else` if present
-  995ae6d529 --jit: |-
-    ruby 2.7.0dev (2019-07-08T08:09:59Z trunk 995ae6d529) +JIT [x86_64-linux]
-    last_commit=Check indent of `end` against `else` if present
-  ad38f02645: |-
-    ruby 2.7.0dev (2019-07-08T11:31:40Z trunk ad38f02645) [x86_64-linux]
-    last_commit=Adopt the directory structure of ruby repository for racc extension.
-  ad38f02645 --jit: |-
-    ruby 2.7.0dev (2019-07-08T11:31:40Z trunk ad38f02645) +JIT [x86_64-linux]
-    last_commit=Adopt the directory structure of ruby repository for racc extension.
-  2a8be8ec33: |-
-    ruby 2.7.0dev (2019-07-08T23:31:27Z trunk 2a8be8ec33) [x86_64-linux]
-    last_commit=Suppress uninitialized instance variable warnings
-  2a8be8ec33 --jit: |-
-    ruby 2.7.0dev (2019-07-08T23:31:27Z trunk 2a8be8ec33) +JIT [x86_64-linux]
-    last_commit=Suppress uninitialized instance variable warnings
-  9b18cb341f: |-
-    ruby 2.7.0dev (2019-07-08T23:39:30Z trunk 9b18cb341f) [x86_64-linux]
-    last_commit=* 2019-07-09
-  9b18cb341f --jit: |-
-    ruby 2.7.0dev (2019-07-08T23:39:30Z trunk 9b18cb341f) +JIT [x86_64-linux]
-    last_commit=* 2019-07-09
-  4cda2e5013: |-
-    ruby 2.7.0dev (2019-07-09T01:58:12Z trunk 4cda2e5013) [x86_64-linux]
-    last_commit=Moved error messages
-  4cda2e5013 --jit: |-
-    ruby 2.7.0dev (2019-07-09T01:58:12Z trunk 4cda2e5013) +JIT [x86_64-linux]
-    last_commit=Moved error messages
-  515e106fb7: |-
-    ruby 2.7.0dev (2019-07-09T04:01:11Z trunk 515e106fb7) [x86_64-linux]
-    last_commit=[DOC] Add link to Enumerable#grep from Enumerable#select
-  515e106fb7 --jit: |-
-    ruby 2.7.0dev (2019-07-09T04:01:11Z trunk 515e106fb7) +JIT [x86_64-linux]
-    last_commit=[DOC] Add link to Enumerable#grep from Enumerable#select
-  8a831e5cb6: |-
-    ruby 2.7.0dev (2019-07-09T04:15:51Z trunk 8a831e5cb6) [x86_64-linux]
-    last_commit=Do not make Unicode tables timestamp phony
-  8a831e5cb6 --jit: |-
-    ruby 2.7.0dev (2019-07-09T04:15:51Z trunk 8a831e5cb6) +JIT [x86_64-linux]
-    last_commit=Do not make Unicode tables timestamp phony
   d905ff61e6: |-
     ruby 2.7.0dev (2019-07-09T04:47:07Z trunk d905ff61e6) [x86_64-linux]
     last_commit=Update dependencies
@@ -6015,3 +5901,57 @@ commits:
   216d230080 --jit: |-
     ruby 2.7.0dev (2019-08-13T22:44:26Z trunk 216d230080) +JIT [x86_64-linux]
     last_commit=Move some assertions to CoreAssertions. (#2354)
+  8a687b8a4f: |-
+    ruby 2.7.0dev (2019-08-14T01:22:25Z trunk 8a687b8a4f) [x86_64-linux]
+    last_commit=Stop using official actions/checkout
+  8a687b8a4f --jit: |-
+    ruby 2.7.0dev (2019-08-14T01:22:25Z trunk 8a687b8a4f) +JIT [x86_64-linux]
+    last_commit=Stop using official actions/checkout
+  765d603153: |-
+    ruby 2.7.0dev (2019-08-14T01:52:15Z trunk 765d603153) [x86_64-linux]
+    last_commit=Try to fix variable reference on Windows (#2361)
+  765d603153 --jit: |-
+    ruby 2.7.0dev (2019-08-14T01:52:15Z trunk 765d603153) +JIT [x86_64-linux]
+    last_commit=Try to fix variable reference on Windows (#2361)
+  c8f9e9a2a0: |-
+    ruby 2.7.0dev (2019-08-14T02:20:57Z trunk c8f9e9a2a0) [x86_64-linux]
+    last_commit=[ruby/stringio] stringio: encoding support
+  c8f9e9a2a0 --jit: |-
+    ruby 2.7.0dev (2019-08-14T02:20:57Z trunk c8f9e9a2a0) +JIT [x86_64-linux]
+    last_commit=[ruby/stringio] stringio: encoding support
+  e54d349a01: |-
+    ruby 2.7.0dev (2019-08-14T02:20:58Z trunk e54d349a01) [x86_64-linux]
+    last_commit=[ruby/stringio] Added support for older versions
+  e54d349a01 --jit: |-
+    ruby 2.7.0dev (2019-08-14T02:20:58Z trunk e54d349a01) +JIT [x86_64-linux]
+    last_commit=[ruby/stringio] Added support for older versions
+  8b44307894: |-
+    ruby 2.7.0dev (2019-08-14T02:20:58Z trunk 8b44307894) [x86_64-linux]
+    last_commit=[ruby/stringio] Allow bignum mode
+  8b44307894 --jit: |-
+    ruby 2.7.0dev (2019-08-14T02:20:58Z trunk 8b44307894) +JIT [x86_64-linux]
+    last_commit=[ruby/stringio] Allow bignum mode
+  22e942deb2: |-
+    ruby 2.7.0dev (2019-08-14T02:20:58Z trunk 22e942deb2) [x86_64-linux]
+    last_commit=[ruby/stringio] Supported `mode:` option
+  22e942deb2 --jit: |-
+    ruby 2.7.0dev (2019-08-14T02:20:58Z trunk 22e942deb2) +JIT [x86_64-linux]
+    last_commit=[ruby/stringio] Supported `mode:` option
+  cad41bb6d3: |-
+    ruby 2.7.0dev (2019-08-14T02:20:58Z trunk cad41bb6d3) [x86_64-linux]
+    last_commit=[ruby/stringio] Supported BOM
+  cad41bb6d3 --jit: |-
+    ruby 2.7.0dev (2019-08-14T02:20:58Z trunk cad41bb6d3) +JIT [x86_64-linux]
+    last_commit=[ruby/stringio] Supported BOM
+  c744b62698: |-
+    ruby 2.7.0dev (2019-08-14T02:20:58Z trunk c744b62698) [x86_64-linux]
+    last_commit=io.c: export rb_io_extract_modeenc
+  c744b62698 --jit: |-
+    ruby 2.7.0dev (2019-08-14T02:20:58Z trunk c744b62698) +JIT [x86_64-linux]
+    last_commit=io.c: export rb_io_extract_modeenc
+  0623e2b7cc: |-
+    ruby 2.7.0dev (2019-08-14T02:47:22Z trunk 0623e2b7cc) [x86_64-linux]
+    last_commit=Suppress Uninitialized variables by Coverity Scan
+  0623e2b7cc --jit: |-
+    ruby 2.7.0dev (2019-08-14T02:47:22Z trunk 0623e2b7cc) +JIT [x86_64-linux]
+    last_commit=Suppress Uninitialized variables by Coverity Scan
