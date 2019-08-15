@@ -9,108 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  d905ff61e6: |-
-    ruby 2.7.0dev (2019-07-09T04:47:07Z trunk d905ff61e6) [x86_64-linux]
-    last_commit=Update dependencies
-  d905ff61e6 --jit: |-
-    ruby 2.7.0dev (2019-07-09T04:47:07Z trunk d905ff61e6) +JIT [x86_64-linux]
-    last_commit=Update dependencies
-  f9a2440866: |-
-    ruby 2.7.0dev (2019-07-09T12:04:07Z trunk f9a2440866) [x86_64-linux]
-    last_commit=Restore support library for only test files.
-  f9a2440866 --jit: |-
-    ruby 2.7.0dev (2019-07-09T12:04:07Z trunk f9a2440866) +JIT [x86_64-linux]
-    last_commit=Restore support library for only test files.
-  9f275f7971: |-
-    ruby 2.7.0dev (2019-07-09T12:16:49Z trunk 9f275f7971) [x86_64-linux]
-    last_commit=Restore support library for only test files that are digest and csv.
-  9f275f7971 --jit: |-
-    ruby 2.7.0dev (2019-07-09T12:16:49Z trunk 9f275f7971) +JIT [x86_64-linux]
-    last_commit=Restore support library for only test files that are digest and csv.
-  b1be349bfb: |-
-    ruby 2.7.0dev (2019-07-09T12:22:07Z trunk b1be349bfb) [x86_64-linux]
-    last_commit=Make symlink to "ruby" only from the install-name
-  b1be349bfb --jit: |-
-    ruby 2.7.0dev (2019-07-09T12:22:07Z trunk b1be349bfb) +JIT [x86_64-linux]
-    last_commit=Make symlink to "ruby" only from the install-name
-  d0ef5c21fb: |-
-    ruby 2.7.0dev (2019-07-09T14:13:43Z trunk d0ef5c21fb) [x86_64-linux]
-    last_commit=Check dependencies on Travis-CI
-  d0ef5c21fb --jit: |-
-    ruby 2.7.0dev (2019-07-09T14:13:43Z trunk d0ef5c21fb) +JIT [x86_64-linux]
-    last_commit=Check dependencies on Travis-CI
-  57b8ca21f1: |-
-    ruby 2.7.0dev (2019-07-09T15:09:43Z trunk 57b8ca21f1) [x86_64-linux]
-    last_commit=* 2019-07-10
-  57b8ca21f1 --jit: |-
-    ruby 2.7.0dev (2019-07-09T15:09:43Z trunk 57b8ca21f1) +JIT [x86_64-linux]
-    last_commit=* 2019-07-10
-  49cad67635: |-
-    ruby 2.7.0dev (2019-07-09T15:20:00Z trunk 49cad67635) [x86_64-linux]
-    last_commit=Removed duplicate assignment
-  49cad67635 --jit: |-
-    ruby 2.7.0dev (2019-07-09T15:20:00Z trunk 49cad67635) +JIT [x86_64-linux]
-    last_commit=Removed duplicate assignment
-  db844749af: |-
-    ruby 2.7.0dev (2019-07-09T16:21:05Z trunk db844749af) [x86_64-linux]
-    last_commit=Added StringIO::VERSION
-  db844749af --jit: |-
-    ruby 2.7.0dev (2019-07-09T16:21:05Z trunk db844749af) +JIT [x86_64-linux]
-    last_commit=Added StringIO::VERSION
-  9c48472b1e: |-
-    ruby 2.7.0dev (2019-07-09T16:57:18Z trunk 9c48472b1e) [x86_64-linux]
-    last_commit=Removed useless `freeze`s
-  9c48472b1e --jit: |-
-    ruby 2.7.0dev (2019-07-09T16:57:18Z trunk 9c48472b1e) +JIT [x86_64-linux]
-    last_commit=Removed useless `freeze`s
-  de4889ce5c: |-
-    ruby 2.7.0dev (2019-07-09T17:07:42Z trunk de4889ce5c) [x86_64-linux]
-    last_commit=Use the found version number
-  de4889ce5c --jit: |-
-    ruby 2.7.0dev (2019-07-09T17:07:42Z trunk de4889ce5c) +JIT [x86_64-linux]
-    last_commit=Use the found version number
-  cc936402eb: |-
-    ruby 2.7.0dev (2019-07-09T18:02:01Z trunk cc936402eb) [x86_64-linux]
-    last_commit=C90 for old versions
-  cc936402eb --jit: |-
-    ruby 2.7.0dev (2019-07-09T18:02:01Z trunk cc936402eb) +JIT [x86_64-linux]
-    last_commit=C90 for old versions
-  612b7b6224: |-
-    ruby 2.7.0dev (2019-07-10T03:32:35Z trunk 612b7b6224) [x86_64-linux]
-    last_commit=Removed unused files
-  612b7b6224 --jit: |-
-    ruby 2.7.0dev (2019-07-10T03:32:35Z trunk 612b7b6224) +JIT [x86_64-linux]
-    last_commit=Removed unused files
-  1d2ec4b216: |-
-    ruby 2.7.0dev (2019-07-10T03:33:29Z trunk 1d2ec4b216) [x86_64-linux]
-    last_commit=Added Etc::VERSION
-  1d2ec4b216 --jit: |-
-    ruby 2.7.0dev (2019-07-10T03:33:29Z trunk 1d2ec4b216) +JIT [x86_64-linux]
-    last_commit=Added Etc::VERSION
-  f91879a7b5: |-
-    ruby 2.7.0dev (2019-07-10T09:13:38Z trunk f91879a7b5) [x86_64-linux]
-    last_commit=handle_interrupt to defend monitor state [Bug #15992]
-  f91879a7b5 --jit: |-
-    ruby 2.7.0dev (2019-07-10T09:13:38Z trunk f91879a7b5) +JIT [x86_64-linux]
-    last_commit=handle_interrupt to defend monitor state [Bug #15992]
-  12762b76cb: |-
-    ruby 2.7.0dev (2019-07-10T16:12:28Z trunk 12762b76cb) [x86_64-linux]
-    last_commit=Don't manipulate GC flags directly
-  12762b76cb --jit: |-
-    ruby 2.7.0dev (2019-07-10T16:12:28Z trunk 12762b76cb) +JIT [x86_64-linux]
-    last_commit=Don't manipulate GC flags directly
-  d57ce99b7d: |-
-    ruby 2.7.0dev (2019-07-10T18:37:22Z trunk d57ce99b7d) [x86_64-linux]
-    last_commit=* 2019-07-11
-  d57ce99b7d --jit: |-
-    ruby 2.7.0dev (2019-07-10T18:37:22Z trunk d57ce99b7d) +JIT [x86_64-linux]
-    last_commit=* 2019-07-11
-  50d85436f8: |-
-    ruby 2.7.0dev (2019-07-11T00:18:41Z trunk 50d85436f8) [x86_64-linux]
-    last_commit=WEBrick::HTTPResponse create tempfile if required.
-  50d85436f8 --jit: |-
-    ruby 2.7.0dev (2019-07-11T00:18:41Z trunk 50d85436f8) +JIT [x86_64-linux]
-    last_commit=WEBrick::HTTPResponse create tempfile if required.
   26d674fdc7: |-
     ruby 2.7.0dev (2019-07-11T02:58:35Z trunk 26d674fdc7) [x86_64-linux]
     last_commit=Suppress warning on x64-mingw
@@ -6027,3 +5925,33 @@ commits:
   7d32cb7631 --jit: |-
     ruby 2.7.0dev (2019-08-14T16:00:46Z trunk 7d32cb7631) +JIT [x86_64-linux]
     last_commit=* 2019-08-15 [ci skip]
+  fbcd065294: |-
+    ruby 2.7.0dev (2019-08-14T16:50:14Z trunk fbcd065294) [x86_64-linux]
+    last_commit=Remove support for nil::Constant
+  fbcd065294 --jit: |-
+    ruby 2.7.0dev (2019-08-14T16:50:14Z trunk fbcd065294) +JIT [x86_64-linux]
+    last_commit=Remove support for nil::Constant
+  d053a57014: |-
+    ruby 2.7.0dev (2019-08-14T16:51:19Z trunk d053a57014) [x86_64-linux]
+    last_commit=* expand tabs. [ci skip]
+  d053a57014 --jit: |-
+    ruby 2.7.0dev (2019-08-14T16:51:19Z trunk d053a57014) +JIT [x86_64-linux]
+    last_commit=* expand tabs. [ci skip]
+  6ac6de84ac: |-
+    ruby 2.7.0dev (2019-08-14T16:59:27Z trunk 6ac6de84ac) [x86_64-linux]
+    last_commit=Use Qtrue/Qfalse instead of 1/0 for 2nd operand to getconstant
+  6ac6de84ac --jit: |-
+    ruby 2.7.0dev (2019-08-14T16:59:27Z trunk 6ac6de84ac) +JIT [x86_64-linux]
+    last_commit=Use Qtrue/Qfalse instead of 1/0 for 2nd operand to getconstant
+  661927a4c5: |-
+    ruby 2.7.0dev (2019-08-14T18:22:07Z trunk 661927a4c5) [x86_64-linux]
+    last_commit=Switch to using a VM stack argument instead of 2nd operand for getconstant
+  661927a4c5 --jit: |-
+    ruby 2.7.0dev (2019-08-14T18:22:07Z trunk 661927a4c5) +JIT [x86_64-linux]
+    last_commit=Switch to using a VM stack argument instead of 2nd operand for getconstant
+  d5c60214c4: |-
+    ruby 2.7.0dev (2019-08-14T18:22:07Z trunk d5c60214c4) [x86_64-linux]
+    last_commit=Implement Range#minmax
+  d5c60214c4 --jit: |-
+    ruby 2.7.0dev (2019-08-14T18:22:07Z trunk d5c60214c4) +JIT [x86_64-linux]
+    last_commit=Implement Range#minmax
