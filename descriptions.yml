@@ -5955,3 +5955,21 @@ commits:
   d5c60214c4 --jit: |-
     ruby 2.7.0dev (2019-08-14T18:22:07Z trunk d5c60214c4) +JIT [x86_64-linux]
     last_commit=Implement Range#minmax
+  '082424ef58': |-
+    ruby 2.7.0dev (2019-08-14T21:11:39Z trunk 082424ef58) [x86_64-linux]
+    last_commit=Fold to lowercase intead of uppercase for String#casecmp
+  '082424ef58 --jit': |-
+    ruby 2.7.0dev (2019-08-14T21:11:39Z trunk 082424ef58) +JIT [x86_64-linux]
+    last_commit=Fold to lowercase intead of uppercase for String#casecmp
+  6954ff1dcb: |-
+    ruby 2.7.0dev (2019-08-14T21:14:49Z trunk 6954ff1dcb) [x86_64-linux]
+    last_commit=Make Range#=== operate like cover? instead of include? for string ranges
+  6954ff1dcb --jit: |-
+    ruby 2.7.0dev (2019-08-14T21:14:49Z trunk 6954ff1dcb) +JIT [x86_64-linux]
+    last_commit=Make Range#=== operate like cover? instead of include? for string ranges
+  132b7eb104: |-
+    ruby 2.7.0dev (2019-08-14T23:16:14Z trunk 132b7eb104) [x86_64-linux]
+    last_commit=* expand tabs. [ci skip]
+  132b7eb104 --jit: |-
+    ruby 2.7.0dev (2019-08-14T23:16:14Z trunk 132b7eb104) +JIT [x86_64-linux]
+    last_commit=* expand tabs. [ci skip]
