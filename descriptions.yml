@@ -5955,3 +5955,21 @@ commits:
   1b02f6c020 --jit: |-
     ruby 2.7.0dev (2019-08-15T22:10:45Z trunk 1b02f6c020) +JIT [x86_64-linux]
     last_commit=Set IRB::Context#return_format on test clarify
+  12074ad01c: |-
+    ruby 2.7.0dev (2019-08-16T01:25:27Z trunk 12074ad01c) [x86_64-linux]
+    last_commit=Use GNU make built-in funtion [ci skip]
+  12074ad01c --jit: |-
+    ruby 2.7.0dev (2019-08-16T01:25:27Z trunk 12074ad01c) +JIT [x86_64-linux]
+    last_commit=Use GNU make built-in funtion [ci skip]
+  64bffddda1: |-
+    ruby 2.7.0dev (2019-08-16T01:25:27Z trunk 64bffddda1) [x86_64-linux]
+    last_commit=exit accepts true and false [ci skip]
+  64bffddda1 --jit: |-
+    ruby 2.7.0dev (2019-08-16T01:25:27Z trunk 64bffddda1) +JIT [x86_64-linux]
+    last_commit=exit accepts true and false [ci skip]
+  cd41378ef9: |-
+    ruby 2.7.0dev (2019-08-16T02:36:47Z trunk cd41378ef9) [x86_64-linux]
+    last_commit=lib/rdoc/parser/ruby.rb: Avoid `.chars.to_a.last`
+  cd41378ef9 --jit: |-
+    ruby 2.7.0dev (2019-08-16T02:36:47Z trunk cd41378ef9) +JIT [x86_64-linux]
+    last_commit=lib/rdoc/parser/ruby.rb: Avoid `.chars.to_a.last`
