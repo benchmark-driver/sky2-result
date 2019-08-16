@@ -9,210 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  315d3adf0f: |-
-    ruby 2.7.0dev (2019-07-14T04:49:39Z trunk 315d3adf0f) [x86_64-linux]
-    last_commit=Avoid io_tell whose return value is not used
-  315d3adf0f --jit: |-
-    ruby 2.7.0dev (2019-07-14T04:49:39Z trunk 315d3adf0f) +JIT [x86_64-linux]
-    last_commit=Avoid io_tell whose return value is not used
-  1d46642487: |-
-    ruby 2.7.0dev (2019-07-14T04:57:57Z trunk 1d46642487) [x86_64-linux]
-    last_commit=* expand tabs.
-  1d46642487 --jit: |-
-    ruby 2.7.0dev (2019-07-14T04:57:57Z trunk 1d46642487) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  ba94404f70: |-
-    ruby 2.7.0dev (2019-07-14T05:04:19Z trunk ba94404f70) [x86_64-linux]
-    last_commit=Add /* fall through */ comments
-  ba94404f70 --jit: |-
-    ruby 2.7.0dev (2019-07-14T05:04:19Z trunk ba94404f70) +JIT [x86_64-linux]
-    last_commit=Add /* fall through */ comments
-  ff5b149435: |-
-    ruby 2.7.0dev (2019-07-14T05:04:34Z trunk ff5b149435) [x86_64-linux]
-    last_commit=* expand tabs.
-  ff5b149435 --jit: |-
-    ruby 2.7.0dev (2019-07-14T05:04:34Z trunk ff5b149435) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  34b3ef29b6: |-
-    ruby 2.7.0dev (2019-07-14T05:09:33Z trunk 34b3ef29b6) [x86_64-linux]
-    last_commit=Drop obsoleted mjit_cancel_ivar debug_counter
-  34b3ef29b6 --jit: |-
-    ruby 2.7.0dev (2019-07-14T05:09:33Z trunk 34b3ef29b6) +JIT [x86_64-linux]
-    last_commit=Drop obsoleted mjit_cancel_ivar debug_counter
-  219643c075: |-
-    ruby 2.7.0dev (2019-07-14T05:28:01Z trunk 219643c075) [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  219643c075 --jit: |-
-    ruby 2.7.0dev (2019-07-14T05:28:01Z trunk 219643c075) +JIT [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  421dd31145: |-
-    ruby 2.7.0dev (2019-07-14T05:34:32Z trunk 421dd31145) [x86_64-linux]
-    last_commit=[DOC] Fix experimental marker [ci skip]
-  421dd31145 --jit: |-
-    ruby 2.7.0dev (2019-07-14T05:34:32Z trunk 421dd31145) +JIT [x86_64-linux]
-    last_commit=[DOC] Fix experimental marker [ci skip]
-  4f351111b8: |-
-    ruby 2.7.0dev (2019-07-14T05:40:38Z trunk 4f351111b8) [x86_64-linux]
-    last_commit=NEWS: warning of flip-flop is reverted [ci skip]
-  4f351111b8 --jit: |-
-    ruby 2.7.0dev (2019-07-14T05:40:38Z trunk 4f351111b8) +JIT [x86_64-linux]
-    last_commit=NEWS: warning of flip-flop is reverted [ci skip]
-  6da539be3e: |-
-    ruby 2.7.0dev (2019-07-14T05:52:31Z trunk 6da539be3e) [x86_64-linux]
-    last_commit=Fix typos [ci skip]
-  6da539be3e --jit: |-
-    ruby 2.7.0dev (2019-07-14T05:52:31Z trunk 6da539be3e) +JIT [x86_64-linux]
-    last_commit=Fix typos [ci skip]
-  dda2c860d9: |-
-    ruby 2.7.0dev (2019-07-14T05:59:34Z trunk dda2c860d9) [x86_64-linux]
-    last_commit=[DOC] Fix link to feature [ci skip]
-  dda2c860d9 --jit: |-
-    ruby 2.7.0dev (2019-07-14T05:59:34Z trunk dda2c860d9) +JIT [x86_64-linux]
-    last_commit=[DOC] Fix link to feature [ci skip]
-  357f295a0e: |-
-    ruby 2.7.0dev (2019-07-14T06:01:39Z trunk 357f295a0e) [x86_64-linux]
-    last_commit=Describe lambda-ness of Proc more.
-  357f295a0e --jit: |-
-    ruby 2.7.0dev (2019-07-14T06:01:39Z trunk 357f295a0e) +JIT [x86_64-linux]
-    last_commit=Describe lambda-ness of Proc more.
-  7504d676c8: |-
-    ruby 2.7.0dev (2019-07-14T06:24:32Z trunk 7504d676c8) [x86_64-linux]
-    last_commit=Do not use hard-coded file path of default gems upstream.
-  7504d676c8 --jit: |-
-    ruby 2.7.0dev (2019-07-14T06:24:32Z trunk 7504d676c8) +JIT [x86_64-linux]
-    last_commit=Do not use hard-coded file path of default gems upstream.
-  7d24a7ed7b: |-
-    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk 7d24a7ed7b) [x86_64-linux]
-    last_commit=Use FileUtils.rm_rf instead of rm command directly.
-  7d24a7ed7b --jit: |-
-    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk 7d24a7ed7b) +JIT [x86_64-linux]
-    last_commit=Use FileUtils.rm_rf instead of rm command directly.
-  d25f355c65: |-
-    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk d25f355c65) [x86_64-linux]
-    last_commit=Fixup dccb0e1ec94e7b9c13c715939ae7e0ccc4ffb23e
-  d25f355c65 --jit: |-
-    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk d25f355c65) +JIT [x86_64-linux]
-    last_commit=Fixup dccb0e1ec94e7b9c13c715939ae7e0ccc4ffb23e
-  e91ff4dbaf: |-
-    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk e91ff4dbaf) [x86_64-linux]
-    last_commit=Use FileUtils.cp_r instead of cp command directoly.
-  e91ff4dbaf --jit: |-
-    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk e91ff4dbaf) +JIT [x86_64-linux]
-    last_commit=Use FileUtils.cp_r instead of cp command directoly.
-  a73f452476: |-
-    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk a73f452476) [x86_64-linux]
-    last_commit=Use FileUtils.mkdir_p instead of mkdir command directoly.
-  a73f452476 --jit: |-
-    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk a73f452476) +JIT [x86_64-linux]
-    last_commit=Use FileUtils.mkdir_p instead of mkdir command directoly.
-  4ce935cd5d: |-
-    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk 4ce935cd5d) [x86_64-linux]
-    last_commit=Removed FileUtils for file manipulations with module inclusion.
-  4ce935cd5d --jit: |-
-    ruby 2.7.0dev (2019-07-14T06:24:33Z trunk 4ce935cd5d) +JIT [x86_64-linux]
-    last_commit=Removed FileUtils for file manipulations with module inclusion.
-  47b04557b0: |-
-    ruby 2.7.0dev (2019-07-14T06:46:07Z trunk 47b04557b0) [x86_64-linux]
-    last_commit=Method#inspect with source location.
-  47b04557b0 --jit: |-
-    ruby 2.7.0dev (2019-07-14T06:46:07Z trunk 47b04557b0) +JIT [x86_64-linux]
-    last_commit=Method#inspect with source location.
-  3163a07878: |-
-    ruby 2.7.0dev (2019-07-14T06:51:09Z trunk 3163a07878) [x86_64-linux]
-    last_commit=fix issue with 'SIGINT' handling in LineEditor#reset
-  3163a07878 --jit: |-
-    ruby 2.7.0dev (2019-07-14T06:51:09Z trunk 3163a07878) +JIT [x86_64-linux]
-    last_commit=fix issue with 'SIGINT' handling in LineEditor#reset
-  f2d99fd820: |-
-    ruby 2.7.0dev (2019-07-14T06:54:19Z trunk f2d99fd820) [x86_64-linux]
-    last_commit=[DOC] Fix indent [ci skip]
-  f2d99fd820 --jit: |-
-    ruby 2.7.0dev (2019-07-14T06:54:19Z trunk f2d99fd820) +JIT [x86_64-linux]
-    last_commit=[DOC] Fix indent [ci skip]
-  2618db3011: |-
-    ruby 2.7.0dev (2019-07-14T07:00:34Z trunk 2618db3011) [x86_64-linux]
-    last_commit=[DOC] Fix typos [ci skip]
-  2618db3011 --jit: |-
-    ruby 2.7.0dev (2019-07-14T07:00:34Z trunk 2618db3011) +JIT [x86_64-linux]
-    last_commit=[DOC] Fix typos [ci skip]
-  95de69df99: |-
-    ruby 2.7.0dev (2019-07-14T07:18:32Z trunk 95de69df99) [x86_64-linux]
-    last_commit=io.c (rb_file_open_internal): initialize all the fields
-  95de69df99 --jit: |-
-    ruby 2.7.0dev (2019-07-14T07:18:32Z trunk 95de69df99) +JIT [x86_64-linux]
-    last_commit=io.c (rb_file_open_internal): initialize all the fields
-  73fab16e76: |-
-    ruby 2.7.0dev (2019-07-14T07:18:32Z trunk 73fab16e76) [x86_64-linux]
-    last_commit=compile.c (defined_expr): return void instead of int
-  73fab16e76 --jit: |-
-    ruby 2.7.0dev (2019-07-14T07:18:32Z trunk 73fab16e76) +JIT [x86_64-linux]
-    last_commit=compile.c (defined_expr): return void instead of int
-  83153bbb14: |-
-    ruby 2.7.0dev (2019-07-14T07:18:48Z trunk 83153bbb14) [x86_64-linux]
-    last_commit=* expand tabs.
-  83153bbb14 --jit: |-
-    ruby 2.7.0dev (2019-07-14T07:18:48Z trunk 83153bbb14) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  10de5f149a: |-
-    ruby 2.7.0dev (2019-07-14T07:56:25Z trunk 10de5f149a) [x86_64-linux]
-    last_commit=Calculate float complex division per each part
-  10de5f149a --jit: |-
-    ruby 2.7.0dev (2019-07-14T07:56:25Z trunk 10de5f149a) +JIT [x86_64-linux]
-    last_commit=Calculate float complex division per each part
-  934e6b2aeb: |-
-    ruby 2.7.0dev (2019-07-14T08:16:19Z trunk 934e6b2aeb) [x86_64-linux]
-    last_commit=Prefer `rb_error_arity` to `rb_check_arity` when it can be used
-  934e6b2aeb --jit: |-
-    ruby 2.7.0dev (2019-07-14T08:16:19Z trunk 934e6b2aeb) +JIT [x86_64-linux]
-    last_commit=Prefer `rb_error_arity` to `rb_check_arity` when it can be used
-  9987296b8b: |-
-    ruby 2.7.0dev (2019-07-14T08:16:35Z trunk 9987296b8b) [x86_64-linux]
-    last_commit=* expand tabs.
-  9987296b8b --jit: |-
-    ruby 2.7.0dev (2019-07-14T08:16:35Z trunk 9987296b8b) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  05aac90a1b: |-
-    ruby 2.7.0dev (2019-07-14T08:18:17Z trunk 05aac90a1b) [x86_64-linux]
-    last_commit=Warn open-uri's "open" method at Kernel.
-  05aac90a1b --jit: |-
-    ruby 2.7.0dev (2019-07-14T08:18:17Z trunk 05aac90a1b) +JIT [x86_64-linux]
-    last_commit=Warn open-uri's "open" method at Kernel.
-  6bca4437de: |-
-    ruby 2.7.0dev (2019-07-14T08:22:13Z trunk 6bca4437de) [x86_64-linux]
-    last_commit=Describe warning of open-uri.
-  6bca4437de --jit: |-
-    ruby 2.7.0dev (2019-07-14T08:22:13Z trunk 6bca4437de) +JIT [x86_64-linux]
-    last_commit=Describe warning of open-uri.
-  61577fa53b: |-
-    ruby 2.7.0dev (2019-07-14T08:32:53Z trunk 61577fa53b) [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  61577fa53b --jit: |-
-    ruby 2.7.0dev (2019-07-14T08:32:53Z trunk 61577fa53b) +JIT [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  4d9504fe13: |-
-    ruby 2.7.0dev (2019-07-14T08:42:58Z trunk 4d9504fe13) [x86_64-linux]
-    last_commit=Delegates 3 arguments for Pathname.glob.
-  4d9504fe13 --jit: |-
-    ruby 2.7.0dev (2019-07-14T08:42:58Z trunk 4d9504fe13) +JIT [x86_64-linux]
-    last_commit=Delegates 3 arguments for Pathname.glob.
-  5786df12f5: |-
-    ruby 2.7.0dev (2019-07-14T08:44:33Z trunk 5786df12f5) [x86_64-linux]
-    last_commit=Describe about Pathname.glob.
-  5786df12f5 --jit: |-
-    ruby 2.7.0dev (2019-07-14T08:44:33Z trunk 5786df12f5) +JIT [x86_64-linux]
-    last_commit=Describe about Pathname.glob.
-  32f0135144: |-
-    ruby 2.7.0dev (2019-07-14T08:45:21Z trunk 32f0135144) [x86_64-linux]
-    last_commit=Split RUBY_ASSERT and so on under include/ruby
-  32f0135144 --jit: |-
-    ruby 2.7.0dev (2019-07-14T08:45:21Z trunk 32f0135144) +JIT [x86_64-linux]
-    last_commit=Split RUBY_ASSERT and so on under include/ruby
-  73904abb95: |-
-    ruby 2.7.0dev (2019-07-14T08:45:52Z trunk 73904abb95) [x86_64-linux]
-    last_commit=* expand tabs.
-  73904abb95 --jit: |-
-    ruby 2.7.0dev (2019-07-14T08:45:52Z trunk 73904abb95) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
   b67b07bd5b: |-
     ruby 2.7.0dev (2019-07-14T08:46:16Z trunk b67b07bd5b) [x86_64-linux]
     last_commit=Fix links to headings A previous change made the header's id be fully referenced (for the sidebar I believe) but this broke links to them. This fixes the issue.
@@ -6147,3 +5943,15 @@ commits:
   02d0d424be --jit: |-
     ruby 2.7.0dev (2019-08-16T05:52:03Z trunk 02d0d424be) +JIT [x86_64-linux]
     last_commit=Revert "[bundler/bundler] Fixup #7297"
+  03f4a0b18e: |-
+    ruby 2.7.0dev (2019-08-16T08:28:40Z trunk 03f4a0b18e) [x86_64-linux]
+    last_commit=[ruby/rdoc] Use assert_raise
+  03f4a0b18e --jit: |-
+    ruby 2.7.0dev (2019-08-16T08:28:40Z trunk 03f4a0b18e) +JIT [x86_64-linux]
+    last_commit=[ruby/rdoc] Use assert_raise
+  619f82bb6b: |-
+    ruby 2.7.0dev (2019-08-16T08:44:45Z trunk 619f82bb6b) [x86_64-linux]
+    last_commit=Hoisted out unixsocket_len, triming NUL chars from sun_path
+  619f82bb6b --jit: |-
+    ruby 2.7.0dev (2019-08-16T08:44:45Z trunk 619f82bb6b) +JIT [x86_64-linux]
+    last_commit=Hoisted out unixsocket_len, triming NUL chars from sun_path
