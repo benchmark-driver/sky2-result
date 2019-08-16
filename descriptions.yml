@@ -9,126 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  26d674fdc7: |-
-    ruby 2.7.0dev (2019-07-11T02:58:35Z trunk 26d674fdc7) [x86_64-linux]
-    last_commit=Suppress warning on x64-mingw
-  26d674fdc7 --jit: |-
-    ruby 2.7.0dev (2019-07-11T02:58:35Z trunk 26d674fdc7) +JIT [x86_64-linux]
-    last_commit=Suppress warning on x64-mingw
-  d34303ad10: |-
-    ruby 2.7.0dev (2019-07-11T04:04:07Z trunk d34303ad10) [x86_64-linux]
-    last_commit=remove an unused variable.
-  d34303ad10 --jit: |-
-    ruby 2.7.0dev (2019-07-11T04:04:07Z trunk d34303ad10) +JIT [x86_64-linux]
-    last_commit=remove an unused variable.
-  d77b84ca82: |-
-    ruby 2.7.0dev (2019-07-11T05:05:34Z trunk d77b84ca82) [x86_64-linux]
-    last_commit=$LOAD_PATH.resolve_feature_path
-  d77b84ca82 --jit: |-
-    ruby 2.7.0dev (2019-07-11T05:05:34Z trunk d77b84ca82) +JIT [x86_64-linux]
-    last_commit=$LOAD_PATH.resolve_feature_path
-  4e038a7e64: |-
-    ruby 2.7.0dev (2019-07-11T05:52:02Z trunk 4e038a7e64) [x86_64-linux]
-    last_commit=Revert "parse.y: Deprecate flip-flops"
-  4e038a7e64 --jit: |-
-    ruby 2.7.0dev (2019-07-11T05:52:02Z trunk 4e038a7e64) +JIT [x86_64-linux]
-    last_commit=Revert "parse.y: Deprecate flip-flops"
-  71ead07872: |-
-    ruby 2.7.0dev (2019-07-11T08:21:00Z trunk 71ead07872) [x86_64-linux]
-    last_commit=Add arg check to Reline.dig_perfect_match_proc=
-  71ead07872 --jit: |-
-    ruby 2.7.0dev (2019-07-11T08:21:00Z trunk 71ead07872) +JIT [x86_64-linux]
-    last_commit=Add arg check to Reline.dig_perfect_match_proc=
-  cd069df365: |-
-    ruby 2.7.0dev (2019-07-11T10:46:11Z trunk cd069df365) [x86_64-linux]
-    last_commit=File::Stat uses Time#inspect
-  cd069df365 --jit: |-
-    ruby 2.7.0dev (2019-07-11T10:46:11Z trunk cd069df365) +JIT [x86_64-linux]
-    last_commit=File::Stat uses Time#inspect
-  3e7d002118: |-
-    ruby 2.7.0dev (2019-07-11T11:04:29Z trunk 3e7d002118) [x86_64-linux]
-    last_commit=Check exception flag as a bool [Bug #15987]
-  3e7d002118 --jit: |-
-    ruby 2.7.0dev (2019-07-11T11:04:29Z trunk 3e7d002118) +JIT [x86_64-linux]
-    last_commit=Check exception flag as a bool [Bug #15987]
-  4018eee431: |-
-    ruby 2.7.0dev (2019-07-11T11:14:57Z trunk 4018eee431) [x86_64-linux]
-    last_commit=* expand tabs.
-  4018eee431 --jit: |-
-    ruby 2.7.0dev (2019-07-11T11:14:57Z trunk 4018eee431) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  c2723e59c2: |-
-    ruby 2.7.0dev (2019-07-11T11:20:02Z trunk c2723e59c2) [x86_64-linux]
-    last_commit=Removed wrong argument in the fallback function [Bug #15987]
-  c2723e59c2 --jit: |-
-    ruby 2.7.0dev (2019-07-11T11:20:02Z trunk c2723e59c2) +JIT [x86_64-linux]
-    last_commit=Removed wrong argument in the fallback function [Bug #15987]
-  f74e23af32: |-
-    ruby 2.7.0dev (2019-07-11T11:21:50Z trunk f74e23af32) [x86_64-linux]
-    last_commit=Fixed argument in the fallback function [Bug #15987]
-  f74e23af32 --jit: |-
-    ruby 2.7.0dev (2019-07-11T11:21:50Z trunk f74e23af32) +JIT [x86_64-linux]
-    last_commit=Fixed argument in the fallback function [Bug #15987]
-  8745fa2ff0: |-
-    ruby 2.7.0dev (2019-07-11T12:05:25Z trunk 8745fa2ff0) [x86_64-linux]
-    last_commit=Default to true when no exception flag [Bug #15987]
-  8745fa2ff0 --jit: |-
-    ruby 2.7.0dev (2019-07-11T12:05:25Z trunk 8745fa2ff0) +JIT [x86_64-linux]
-    last_commit=Default to true when no exception flag [Bug #15987]
-  012e954b47: |-
-    ruby 2.7.0dev (2019-07-11T23:56:51Z trunk 012e954b47) [x86_64-linux]
-    last_commit=Improved fiber benchmarks. Increase number of iterations.
-  012e954b47 --jit: |-
-    ruby 2.7.0dev (2019-07-11T23:56:51Z trunk 012e954b47) +JIT [x86_64-linux]
-    last_commit=Improved fiber benchmarks. Increase number of iterations.
-  5c8061a9e2: |-
-    ruby 2.7.0dev (2019-07-11T23:56:51Z trunk 5c8061a9e2) [x86_64-linux]
-    last_commit=Make `stack_check` slightly easier to use in debugger.
-  5c8061a9e2 --jit: |-
-    ruby 2.7.0dev (2019-07-11T23:56:51Z trunk 5c8061a9e2) +JIT [x86_64-linux]
-    last_commit=Make `stack_check` slightly easier to use in debugger.
-  a2adcd40df: |-
-    ruby 2.7.0dev (2019-07-11T23:56:51Z trunk a2adcd40df) [x86_64-linux]
-    last_commit=Add note about `STACK_GROW_DIR_DETECTION`.
-  a2adcd40df --jit: |-
-    ruby 2.7.0dev (2019-07-11T23:56:51Z trunk a2adcd40df) +JIT [x86_64-linux]
-    last_commit=Add note about `STACK_GROW_DIR_DETECTION`.
-  b9ad62ea13: |-
-    ruby 2.7.0dev (2019-07-12T06:02:25Z trunk b9ad62ea13) [x86_64-linux]
-    last_commit=* remove trailing spaces.
-  b9ad62ea13 --jit: |-
-    ruby 2.7.0dev (2019-07-12T06:02:25Z trunk b9ad62ea13) +JIT [x86_64-linux]
-    last_commit=* remove trailing spaces.
-  a9ff21a282: |-
-    ruby 2.7.0dev (2019-07-12T06:02:29Z trunk a9ff21a282) [x86_64-linux]
-    last_commit=* 2019-07-12
-  a9ff21a282 --jit: |-
-    ruby 2.7.0dev (2019-07-12T06:02:29Z trunk a9ff21a282) +JIT [x86_64-linux]
-    last_commit=* 2019-07-12
-  00b34b0592: |-
-    ruby 2.7.0dev (2019-07-12T08:52:22Z trunk 00b34b0592) [x86_64-linux]
-    last_commit=Fixed duplicate test name
-  00b34b0592 --jit: |-
-    ruby 2.7.0dev (2019-07-12T08:52:22Z trunk 00b34b0592) +JIT [x86_64-linux]
-    last_commit=Fixed duplicate test name
-  ae599db22f: |-
-    ruby 2.7.0dev (2019-07-12T08:57:28Z trunk ae599db22f) [x86_64-linux]
-    last_commit=* remove trailing spaces.
-  ae599db22f --jit: |-
-    ruby 2.7.0dev (2019-07-12T08:57:28Z trunk ae599db22f) +JIT [x86_64-linux]
-    last_commit=* remove trailing spaces.
-  1ee17782e1: |-
-    ruby 2.7.0dev (2019-07-12T21:09:33Z trunk 1ee17782e1) [x86_64-linux]
-    last_commit=Removed binary line
-  1ee17782e1 --jit: |-
-    ruby 2.7.0dev (2019-07-12T21:09:33Z trunk 1ee17782e1) +JIT [x86_64-linux]
-    last_commit=Removed binary line
-  10d7419eb4: |-
-    ruby 2.7.0dev (2019-07-12T21:10:07Z trunk 10d7419eb4) [x86_64-linux]
-    last_commit=* 2019-07-13
-  10d7419eb4 --jit: |-
-    ruby 2.7.0dev (2019-07-12T21:10:07Z trunk 10d7419eb4) +JIT [x86_64-linux]
-    last_commit=* 2019-07-13
   cbe623f1c7: |-
     ruby 2.7.0dev (2019-07-12T22:22:55Z trunk cbe623f1c7) [x86_64-linux]
     last_commit=change default value of load_limit (ignore load_limit)
@@ -6051,3 +5931,129 @@ commits:
   2f919a92ba --jit: |-
     ruby 2.7.0dev (2019-08-15T16:37:22Z trunk 2f919a92ba) +JIT [x86_64-linux]
     last_commit=Improve `make update-github` to avoid configure
+  2665e5858f: |-
+    ruby 2.7.0dev (2019-08-15T16:38:46Z trunk 2665e5858f) [x86_64-linux]
+    last_commit=Adding missing test for Net::HTTPGenericRequest initializer (#1835)
+  2665e5858f --jit: |-
+    ruby 2.7.0dev (2019-08-15T16:38:46Z trunk 2665e5858f) +JIT [x86_64-linux]
+    last_commit=Adding missing test for Net::HTTPGenericRequest initializer (#1835)
+  d21616eeb0: |-
+    ruby 2.7.0dev (2019-08-15T16:45:11Z trunk d21616eeb0) [x86_64-linux]
+    last_commit=Clean up temporary git resources
+  d21616eeb0 --jit: |-
+    ruby 2.7.0dev (2019-08-15T16:45:11Z trunk d21616eeb0) +JIT [x86_64-linux]
+    last_commit=Clean up temporary git resources
+  409ce8c3da: |-
+    ruby 2.7.0dev (2019-08-15T16:51:22Z trunk 409ce8c3da) [x86_64-linux]
+    last_commit=Also clean up branch for worktree
+  409ce8c3da --jit: |-
+    ruby 2.7.0dev (2019-08-15T16:51:22Z trunk 409ce8c3da) +JIT [x86_64-linux]
+    last_commit=Also clean up branch for worktree
+  74726691ba: |-
+    ruby 2.7.0dev (2019-08-15T17:21:17Z trunk 74726691ba) [x86_64-linux]
+    last_commit=Add details about parameters to define_method doc (#2165)
+  74726691ba --jit: |-
+    ruby 2.7.0dev (2019-08-15T17:21:17Z trunk 74726691ba) +JIT [x86_64-linux]
+    last_commit=Add details about parameters to define_method doc (#2165)
+  9d2fed2ccd: |-
+    ruby 2.7.0dev (2019-08-15T21:02:45Z trunk 9d2fed2ccd) [x86_64-linux]
+    last_commit=Don't echo results of assignment expressions
+  9d2fed2ccd --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:02:45Z trunk 9d2fed2ccd) +JIT [x86_64-linux]
+    last_commit=Don't echo results of assignment expressions
+  0a0760aa63: |-
+    ruby 2.7.0dev (2019-08-15T21:02:45Z trunk 0a0760aa63) [x86_64-linux]
+    last_commit=Refactor and improve performance of RDoc::Markup::Parser
+  0a0760aa63 --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:02:45Z trunk 0a0760aa63) +JIT [x86_64-linux]
+    last_commit=Refactor and improve performance of RDoc::Markup::Parser
+  723a37d038: |-
+    ruby 2.7.0dev (2019-08-15T21:02:45Z trunk 723a37d038) [x86_64-linux]
+    last_commit=Separate RDoc::TokenStream#add_tokens and #add_token
+  723a37d038 --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:02:45Z trunk 723a37d038) +JIT [x86_64-linux]
+    last_commit=Separate RDoc::TokenStream#add_tokens and #add_token
+  64f9f512c5: |-
+    ruby 2.7.0dev (2019-08-15T21:02:45Z trunk 64f9f512c5) [x86_64-linux]
+    last_commit=Treat linking to Markdown label correctly
+  64f9f512c5 --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:02:45Z trunk 64f9f512c5) +JIT [x86_64-linux]
+    last_commit=Treat linking to Markdown label correctly
+  1a5304228a: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 1a5304228a) [x86_64-linux]
+    last_commit=Use test-unit instead of minitest
+  1a5304228a --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 1a5304228a) +JIT [x86_64-linux]
+    last_commit=Use test-unit instead of minitest
+  8045ebbf78: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 8045ebbf78) [x86_64-linux]
+    last_commit=Use locale directory for the tests
+  8045ebbf78 --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 8045ebbf78) +JIT [x86_64-linux]
+    last_commit=Use locale directory for the tests
+  5555e3ef57: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 5555e3ef57) [x86_64-linux]
+    last_commit=Renamed minitest_helper.rb as helper.rb
+  5555e3ef57 --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 5555e3ef57) +JIT [x86_64-linux]
+    last_commit=Renamed minitest_helper.rb as helper.rb
+  787b437a2a: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 787b437a2a) [x86_64-linux]
+    last_commit=Use Gem.default_specifications_dir
+  787b437a2a --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 787b437a2a) +JIT [x86_64-linux]
+    last_commit=Use Gem.default_specifications_dir
+  71fd26b195: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 71fd26b195) [x86_64-linux]
+    last_commit=Fallback for older Rubygems
+  71fd26b195 --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 71fd26b195) +JIT [x86_64-linux]
+    last_commit=Fallback for older Rubygems
+  8a18a639b7: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 8a18a639b7) [x86_64-linux]
+    last_commit=Use Gemfile instead of add_development_dependency.
+  8a18a639b7 --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 8a18a639b7) +JIT [x86_64-linux]
+    last_commit=Use Gemfile instead of add_development_dependency.
+  '9218655660': |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 9218655660) [x86_64-linux]
+    last_commit=Removed needless alias for capture_io.
+  9218655660 --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 9218655660) +JIT [x86_64-linux]
+    last_commit=Removed needless alias for capture_io.
+  2066dae991: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 2066dae991) [x86_64-linux]
+    last_commit=Cleanup commented-out code.
+  2066dae991 --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 2066dae991) +JIT [x86_64-linux]
+    last_commit=Cleanup commented-out code.
+  e87e10e5e7: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk e87e10e5e7) [x86_64-linux]
+    last_commit=Use test/unit instead of test-unit. Because test-unit is only provided standalone gem.
+  e87e10e5e7 --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk e87e10e5e7) +JIT [x86_64-linux]
+    last_commit=Use test/unit instead of test-unit. Because test-unit is only provided standalone gem.
+  daf5ce3ba1: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk daf5ce3ba1) [x86_64-linux]
+    last_commit=Use omit instead of skip for test-unit.
+  daf5ce3ba1 --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk daf5ce3ba1) +JIT [x86_64-linux]
+    last_commit=Use omit instead of skip for test-unit.
+  bad937b00b: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk bad937b00b) [x86_64-linux]
+    last_commit=Gem::TestCase is based on Minitest
+  bad937b00b --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk bad937b00b) +JIT [x86_64-linux]
+    last_commit=Gem::TestCase is based on Minitest
+  b64911f4e2: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk b64911f4e2) [x86_64-linux]
+    last_commit=Parser was replaced
+  b64911f4e2 --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk b64911f4e2) +JIT [x86_64-linux]
+    last_commit=Parser was replaced
+  f71bd7477e: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk f71bd7477e) [x86_64-linux]
+    last_commit=RDoc::Parser::C: Integrate do_classes and do_modules by one regexp match
+  f71bd7477e --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk f71bd7477e) +JIT [x86_64-linux]
+    last_commit=RDoc::Parser::C: Integrate do_classes and do_modules by one regexp match
