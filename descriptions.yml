@@ -9,120 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  cbe623f1c7: |-
-    ruby 2.7.0dev (2019-07-12T22:22:55Z trunk cbe623f1c7) [x86_64-linux]
-    last_commit=change default value of load_limit (ignore load_limit)
-  cbe623f1c7 --jit: |-
-    ruby 2.7.0dev (2019-07-12T22:22:55Z trunk cbe623f1c7) +JIT [x86_64-linux]
-    last_commit=change default value of load_limit (ignore load_limit)
-  143581cf4e: |-
-    ruby 2.7.0dev (2019-07-12T22:25:51Z trunk 143581cf4e) [x86_64-linux]
-    last_commit=Removed stub lines from gemspec files
-  143581cf4e --jit: |-
-    ruby 2.7.0dev (2019-07-12T22:25:51Z trunk 143581cf4e) +JIT [x86_64-linux]
-    last_commit=Removed stub lines from gemspec files
-  fd9f26df00: |-
-    ruby 2.7.0dev (2019-07-12T22:25:54Z trunk fd9f26df00) [x86_64-linux]
-    last_commit=Drop fossil rubygems support
-  fd9f26df00 --jit: |-
-    ruby 2.7.0dev (2019-07-12T22:25:54Z trunk fd9f26df00) +JIT [x86_64-linux]
-    last_commit=Drop fossil rubygems support
-  331eccf3fe: |-
-    ruby 2.7.0dev (2019-07-12T22:25:54Z trunk 331eccf3fe) [x86_64-linux]
-    last_commit=Removed useless `freeze`s from gemspec files
-  331eccf3fe --jit: |-
-    ruby 2.7.0dev (2019-07-12T22:25:54Z trunk 331eccf3fe) +JIT [x86_64-linux]
-    last_commit=Removed useless `freeze`s from gemspec files
-  e2bee86dc4: |-
-    ruby 2.7.0dev (2019-07-13T00:48:12Z trunk e2bee86dc4) [x86_64-linux]
-    last_commit=Relaxed delta of nanosec from Float time
-  e2bee86dc4 --jit: |-
-    ruby 2.7.0dev (2019-07-13T00:48:12Z trunk e2bee86dc4) +JIT [x86_64-linux]
-    last_commit=Relaxed delta of nanosec from Float time
-  43677a2c58: |-
-    ruby 2.7.0dev (2019-07-13T13:07:19Z trunk 43677a2c58) [x86_64-linux]
-    last_commit=Document the long form of global variables and mention aliases on the same line
-  43677a2c58 --jit: |-
-    ruby 2.7.0dev (2019-07-13T13:07:19Z trunk 43677a2c58) +JIT [x86_64-linux]
-    last_commit=Document the long form of global variables and mention aliases on the same line
-  b0f6f33094: |-
-    ruby 2.7.0dev (2019-07-13T13:16:26Z trunk b0f6f33094) [x86_64-linux]
-    last_commit=Document a few more RUBY_* constants
-  b0f6f33094 --jit: |-
-    ruby 2.7.0dev (2019-07-13T13:16:26Z trunk b0f6f33094) +JIT [x86_64-linux]
-    last_commit=Document a few more RUBY_* constants
-  4a935bc6f6: |-
-    ruby 2.7.0dev (2019-07-13T13:23:49Z trunk 4a935bc6f6) [x86_64-linux]
-    last_commit=Document $LOAD_PATH.resolve_feature_path in globals.rdoc
-  4a935bc6f6 --jit: |-
-    ruby 2.7.0dev (2019-07-13T13:23:49Z trunk 4a935bc6f6) +JIT [x86_64-linux]
-    last_commit=Document $LOAD_PATH.resolve_feature_path in globals.rdoc
-  0a5463f764: |-
-    ruby 2.7.0dev (2019-07-13T13:26:47Z trunk 0a5463f764) [x86_64-linux]
-    last_commit=Add $LOAD_PATH.resolve_feature_path in NEWS
-  0a5463f764 --jit: |-
-    ruby 2.7.0dev (2019-07-13T13:26:47Z trunk 0a5463f764) +JIT [x86_64-linux]
-    last_commit=Add $LOAD_PATH.resolve_feature_path in NEWS
-  b1ee7148f8: |-
-    ruby 2.7.0dev (2019-07-13T13:35:16Z trunk b1ee7148f8) [x86_64-linux]
-    last_commit=Improve documentation of $LOAD_PATH
-  b1ee7148f8 --jit: |-
-    ruby 2.7.0dev (2019-07-13T13:35:16Z trunk b1ee7148f8) +JIT [x86_64-linux]
-    last_commit=Improve documentation of $LOAD_PATH
-  237b3e00c7: |-
-    ruby 2.7.0dev (2019-07-13T13:39:54Z trunk 237b3e00c7) [x86_64-linux]
-    last_commit=Document $~ before dependent global variables
-  237b3e00c7 --jit: |-
-    ruby 2.7.0dev (2019-07-13T13:39:54Z trunk 237b3e00c7) +JIT [x86_64-linux]
-    last_commit=Document $~ before dependent global variables
-  6ef73c1472: |-
-    ruby 2.7.0dev (2019-07-13T13:47:37Z trunk 6ef73c1472) [x86_64-linux]
-    last_commit=Improve documentation in doc/globals.rdoc
-  6ef73c1472 --jit: |-
-    ruby 2.7.0dev (2019-07-13T13:47:37Z trunk 6ef73c1472) +JIT [x86_64-linux]
-    last_commit=Improve documentation in doc/globals.rdoc
-  1a4f7c9bfa: |-
-    ruby 2.7.0dev (2019-07-13T14:36:34Z trunk 1a4f7c9bfa) [x86_64-linux]
-    last_commit=[DOC] Markup code in globals.rdoc
-  1a4f7c9bfa --jit: |-
-    ruby 2.7.0dev (2019-07-13T14:36:34Z trunk 1a4f7c9bfa) +JIT [x86_64-linux]
-    last_commit=[DOC] Markup code in globals.rdoc
-  dcb8c41a1e: |-
-    ruby 2.7.0dev (2019-07-13T16:31:29Z trunk dcb8c41a1e) [x86_64-linux]
-    last_commit=Added depend files
-  dcb8c41a1e --jit: |-
-    ruby 2.7.0dev (2019-07-13T16:31:29Z trunk dcb8c41a1e) +JIT [x86_64-linux]
-    last_commit=Added depend files
-  69a66e8a8b: |-
-    ruby 2.7.0dev (2019-07-13T16:32:27Z trunk 69a66e8a8b) [x86_64-linux]
-    last_commit=* 2019-07-14
-  69a66e8a8b --jit: |-
-    ruby 2.7.0dev (2019-07-13T16:32:27Z trunk 69a66e8a8b) +JIT [x86_64-linux]
-    last_commit=* 2019-07-14
-  ac2866005b: |-
-    ruby 2.7.0dev (2019-07-13T18:04:23Z trunk ac2866005b) [x86_64-linux]
-    last_commit=Add empty depend file if extconf.rb only exists
-  ac2866005b --jit: |-
-    ruby 2.7.0dev (2019-07-13T18:04:23Z trunk ac2866005b) +JIT [x86_64-linux]
-    last_commit=Add empty depend file if extconf.rb only exists
-  369ff79394: |-
-    ruby 2.7.0dev (2019-07-14T01:58:50Z trunk 369ff79394) [x86_64-linux]
-    last_commit=add encoding conversion from/to CESU-8
-  369ff79394 --jit: |-
-    ruby 2.7.0dev (2019-07-14T01:58:50Z trunk 369ff79394) +JIT [x86_64-linux]
-    last_commit=add encoding conversion from/to CESU-8
-  4402c66978: |-
-    ruby 2.7.0dev (2019-07-14T03:53:42Z trunk 4402c66978) [x86_64-linux]
-    last_commit=Refactor mjit_worker command line with C99
-  4402c66978 --jit: |-
-    ruby 2.7.0dev (2019-07-14T03:53:42Z trunk 4402c66978) +JIT [x86_64-linux]
-    last_commit=Refactor mjit_worker command line with C99
-  18603e9046: |-
-    ruby 2.7.0dev (2019-07-14T03:55:58Z trunk 18603e9046) [x86_64-linux]
-    last_commit=Update dependencies for 369ff79394765ce198ac7cee872a8c739d895aaa
-  18603e9046 --jit: |-
-    ruby 2.7.0dev (2019-07-14T03:55:58Z trunk 18603e9046) +JIT [x86_64-linux]
-    last_commit=Update dependencies for 369ff79394765ce198ac7cee872a8c739d895aaa
   315d3adf0f: |-
     ruby 2.7.0dev (2019-07-14T04:49:39Z trunk 315d3adf0f) [x86_64-linux]
     last_commit=Avoid io_tell whose return value is not used
@@ -6057,3 +5943,15 @@ commits:
   f71bd7477e --jit: |-
     ruby 2.7.0dev (2019-08-15T21:07:11Z trunk f71bd7477e) +JIT [x86_64-linux]
     last_commit=RDoc::Parser::C: Integrate do_classes and do_modules by one regexp match
+  a458317b91: |-
+    ruby 2.7.0dev (2019-08-15T21:45:36Z trunk a458317b91) [x86_64-linux]
+    last_commit=Use assert_raise and skip for test/unit
+  a458317b91 --jit: |-
+    ruby 2.7.0dev (2019-08-15T21:45:36Z trunk a458317b91) +JIT [x86_64-linux]
+    last_commit=Use assert_raise and skip for test/unit
+  1b02f6c020: |-
+    ruby 2.7.0dev (2019-08-15T22:10:45Z trunk 1b02f6c020) [x86_64-linux]
+    last_commit=Set IRB::Context#return_format on test clarify
+  1b02f6c020 --jit: |-
+    ruby 2.7.0dev (2019-08-15T22:10:45Z trunk 1b02f6c020) +JIT [x86_64-linux]
+    last_commit=Set IRB::Context#return_format on test clarify
