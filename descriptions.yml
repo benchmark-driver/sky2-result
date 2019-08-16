@@ -5955,3 +5955,9 @@ commits:
   619f82bb6b --jit: |-
     ruby 2.7.0dev (2019-08-16T08:44:45Z trunk 619f82bb6b) +JIT [x86_64-linux]
     last_commit=Hoisted out unixsocket_len, triming NUL chars from sun_path
+  229ae3269d: |-
+    ruby 2.7.0dev (2019-08-16T12:27:05Z trunk 229ae3269d) [x86_64-linux]
+    last_commit=lib/rdoc/store.rb: Use `Marshal.dump(obj, io)`
+  229ae3269d --jit: |-
+    ruby 2.7.0dev (2019-08-16T12:27:05Z trunk 229ae3269d) +JIT [x86_64-linux]
+    last_commit=lib/rdoc/store.rb: Use `Marshal.dump(obj, io)`
