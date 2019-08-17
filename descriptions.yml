@@ -9,156 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  b67b07bd5b: |-
-    ruby 2.7.0dev (2019-07-14T08:46:16Z trunk b67b07bd5b) [x86_64-linux]
-    last_commit=Fix links to headings A previous change made the header's id be fully referenced (for the sidebar I believe) but this broke links to them. This fixes the issue.
-  b67b07bd5b --jit: |-
-    ruby 2.7.0dev (2019-07-14T08:46:16Z trunk b67b07bd5b) +JIT [x86_64-linux]
-    last_commit=Fix links to headings A previous change made the header's id be fully referenced (for the sidebar I believe) but this broke links to them. This fixes the issue.
-  47e571c951: |-
-    ruby 2.7.0dev (2019-07-14T08:52:19Z trunk 47e571c951) [x86_64-linux]
-    last_commit=complement '.rb' on `test-all TESTS=test_xxx`
-  47e571c951 --jit: |-
-    ruby 2.7.0dev (2019-07-14T08:52:19Z trunk 47e571c951) +JIT [x86_64-linux]
-    last_commit=complement '.rb' on `test-all TESTS=test_xxx`
-  db1c30b37f: |-
-    ruby 2.7.0dev (2019-07-14T08:54:48Z trunk db1c30b37f) [x86_64-linux]
-    last_commit=addr2line.c (main_exe_path): avoid SEGV when /proc is not available
-  db1c30b37f --jit: |-
-    ruby 2.7.0dev (2019-07-14T08:54:48Z trunk db1c30b37f) +JIT [x86_64-linux]
-    last_commit=addr2line.c (main_exe_path): avoid SEGV when /proc is not available
-  db64093f51: |-
-    ruby 2.7.0dev (2019-07-14T08:56:38Z trunk db64093f51) [x86_64-linux]
-    last_commit=[DOC] Fix a typo [ci skip]
-  db64093f51 --jit: |-
-    ruby 2.7.0dev (2019-07-14T08:56:38Z trunk db64093f51) +JIT [x86_64-linux]
-    last_commit=[DOC] Fix a typo [ci skip]
-  715955ff27: |-
-    ruby 2.7.0dev (2019-07-14T08:58:03Z trunk 715955ff27) [x86_64-linux]
-    last_commit=Include ruby/assert.h in ruby/ruby.h so that assertions can be there
-  715955ff27 --jit: |-
-    ruby 2.7.0dev (2019-07-14T08:58:03Z trunk 715955ff27) +JIT [x86_64-linux]
-    last_commit=Include ruby/assert.h in ruby/ruby.h so that assertions can be there
-  '08c2a9dc59': |-
-    ruby 2.7.0dev (2019-07-14T08:58:06Z trunk 08c2a9dc59) [x86_64-linux]
-    last_commit=Introduce RUBY_DEBUG flag macro
-  '08c2a9dc59 --jit': |-
-    ruby 2.7.0dev (2019-07-14T08:58:06Z trunk 08c2a9dc59) +JIT [x86_64-linux]
-    last_commit=Introduce RUBY_DEBUG flag macro
-  043e3d2cdc: |-
-    ruby 2.7.0dev (2019-07-14T08:58:41Z trunk 043e3d2cdc) [x86_64-linux]
-    last_commit=[DOC] Add missing headings [ci skip]
-  043e3d2cdc --jit: |-
-    ruby 2.7.0dev (2019-07-14T08:58:41Z trunk 043e3d2cdc) +JIT [x86_64-linux]
-    last_commit=[DOC] Add missing headings [ci skip]
-  d30d404bc4: |-
-    ruby 2.7.0dev (2019-07-14T09:04:19Z trunk d30d404bc4) [x86_64-linux]
-    last_commit=MJIT Support for getblockparamproxy
-  d30d404bc4 --jit: |-
-    ruby 2.7.0dev (2019-07-14T09:04:19Z trunk d30d404bc4) +JIT [x86_64-linux]
-    last_commit=MJIT Support for getblockparamproxy
-  2553608c3b: |-
-    ruby 2.7.0dev (2019-07-14T09:07:40Z trunk 2553608c3b) [x86_64-linux]
-    last_commit=Removed binop macro which has not been used
-  2553608c3b --jit: |-
-    ruby 2.7.0dev (2019-07-14T09:07:40Z trunk 2553608c3b) +JIT [x86_64-linux]
-    last_commit=Removed binop macro which has not been used
-  45dfd4c09d: |-
-    ruby 2.7.0dev (2019-07-14T09:09:10Z trunk 45dfd4c09d) [x86_64-linux]
-    last_commit=Make export declaration place more consistent
-  45dfd4c09d --jit: |-
-    ruby 2.7.0dev (2019-07-14T09:09:10Z trunk 45dfd4c09d) +JIT [x86_64-linux]
-    last_commit=Make export declaration place more consistent
-  a7dd6763bd: |-
-    ruby 2.7.0dev (2019-07-14T11:17:05Z trunk a7dd6763bd) [x86_64-linux]
-    last_commit=Increase fetchDepth to prevent checkout failure
-  a7dd6763bd --jit: |-
-    ruby 2.7.0dev (2019-07-14T11:17:05Z trunk a7dd6763bd) +JIT [x86_64-linux]
-    last_commit=Increase fetchDepth to prevent checkout failure
-  41e09ca4be: |-
-    ruby 2.7.0dev (2019-07-14T11:23:29Z trunk 41e09ca4be) [x86_64-linux]
-    last_commit=addr2line.c (binary_filename): extend the buffer for NUL terminator
-  41e09ca4be --jit: |-
-    ruby 2.7.0dev (2019-07-14T11:23:29Z trunk 41e09ca4be) +JIT [x86_64-linux]
-    last_commit=addr2line.c (binary_filename): extend the buffer for NUL terminator
-  0df4a813ca: |-
-    ruby 2.7.0dev (2019-07-14T11:33:41Z trunk 0df4a813ca) [x86_64-linux]
-    last_commit=NEWS: RubyVM.resolve_feature_path moved [ci skip]
-  0df4a813ca --jit: |-
-    ruby 2.7.0dev (2019-07-14T11:33:41Z trunk 0df4a813ca) +JIT [x86_64-linux]
-    last_commit=NEWS: RubyVM.resolve_feature_path moved [ci skip]
-  1464f7a149: |-
-    ruby 2.7.0dev (2019-07-14T11:42:08Z trunk 1464f7a149) [x86_64-linux]
-    last_commit=Expand f_abs to use particular functions directly
-  1464f7a149 --jit: |-
-    ruby 2.7.0dev (2019-07-14T11:42:08Z trunk 1464f7a149) +JIT [x86_64-linux]
-    last_commit=Expand f_abs to use particular functions directly
-  5bd83909b9: |-
-    ruby 2.7.0dev (2019-07-14T11:42:10Z trunk 5bd83909b9) [x86_64-linux]
-    last_commit=Expand f_arg to use particular functions directly
-  5bd83909b9 --jit: |-
-    ruby 2.7.0dev (2019-07-14T11:42:10Z trunk 5bd83909b9) +JIT [x86_64-linux]
-    last_commit=Expand f_arg to use particular functions directly
-  4900a10689: |-
-    ruby 2.7.0dev (2019-07-14T11:46:51Z trunk 4900a10689) [x86_64-linux]
-    last_commit=socket: use frozen string buffer when releasing GVL
-  4900a10689 --jit: |-
-    ruby 2.7.0dev (2019-07-14T11:46:51Z trunk 4900a10689) +JIT [x86_64-linux]
-    last_commit=socket: use frozen string buffer when releasing GVL
-  e8700b596b: |-
-    ruby 2.7.0dev (2019-07-14T11:56:38Z trunk e8700b596b) [x86_64-linux]
-    last_commit=Check the result of String#-@
-  e8700b596b --jit: |-
-    ruby 2.7.0dev (2019-07-14T11:56:38Z trunk e8700b596b) +JIT [x86_64-linux]
-    last_commit=Check the result of String#-@
-  20a3fb3c4b: |-
-    ruby 2.7.0dev (2019-07-14T12:34:32Z trunk 20a3fb3c4b) [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  20a3fb3c4b --jit: |-
-    ruby 2.7.0dev (2019-07-14T12:34:32Z trunk 20a3fb3c4b) +JIT [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  d8cc41c43b: |-
-    ruby 2.7.0dev (2019-07-14T12:48:45Z trunk d8cc41c43b) [x86_64-linux]
-    last_commit=Fix a wrong buffer size to avoid stack corruption
-  d8cc41c43b --jit: |-
-    ruby 2.7.0dev (2019-07-14T12:48:45Z trunk d8cc41c43b) +JIT [x86_64-linux]
-    last_commit=Fix a wrong buffer size to avoid stack corruption
-  be082e2800: |-
-    ruby 2.7.0dev (2019-07-14T12:53:18Z trunk be082e2800) [x86_64-linux]
-    last_commit=Try to sync with commit history for default gems.
-  be082e2800 --jit: |-
-    ruby 2.7.0dev (2019-07-14T12:53:18Z trunk be082e2800) +JIT [x86_64-linux]
-    last_commit=Try to sync with commit history for default gems.
-  265e94a7fa: |-
-    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk 265e94a7fa) [x86_64-linux]
-    last_commit=Added chrry-pick feature from upstream repository.
-  265e94a7fa --jit: |-
-    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk 265e94a7fa) +JIT [x86_64-linux]
-    last_commit=Added chrry-pick feature from upstream repository.
-  46491af74c: |-
-    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk 46491af74c) [x86_64-linux]
-    last_commit=Modified commit message with upstream repository name.
-  46491af74c --jit: |-
-    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk 46491af74c) +JIT [x86_64-linux]
-    last_commit=Modified commit message with upstream repository name.
-  c8e1be6f1f: |-
-    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk c8e1be6f1f) [x86_64-linux]
-    last_commit=Skip merge commit with rubygems and bundler.
-  c8e1be6f1f --jit: |-
-    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk c8e1be6f1f) +JIT [x86_64-linux]
-    last_commit=Skip merge commit with rubygems and bundler.
-  8e6a68c18e: |-
-    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk 8e6a68c18e) [x86_64-linux]
-    last_commit=Use force flag for filter-branch.
-  8e6a68c18e --jit: |-
-    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk 8e6a68c18e) +JIT [x86_64-linux]
-    last_commit=Use force flag for filter-branch.
-  a3493521a5: |-
-    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk a3493521a5) [x86_64-linux]
-    last_commit=abort sync commit history when it failed to modify commit message.
-  a3493521a5 --jit: |-
-    ruby 2.7.0dev (2019-07-14T12:53:19Z trunk a3493521a5) +JIT [x86_64-linux]
-    last_commit=abort sync commit history when it failed to modify commit message.
   '085d0e5ccb': |-
     ruby 2.7.0dev (2019-07-14T12:58:22Z trunk 085d0e5ccb) [x86_64-linux]
     last_commit=ruby.c (name_match_p): remove unnecessary condition
@@ -6081,3 +5931,27 @@ commits:
   75d29db8f9 --jit: |-
     ruby 2.7.0dev (2019-08-16T23:52:39Z trunk 75d29db8f9) +JIT [x86_64-linux]
     last_commit=Revert "[rubygems/rubygems] [Require] Ensure -I beats a default gem"
+  045152df9e: |-
+    ruby 2.7.0dev (2019-08-17T00:43:06Z trunk 045152df9e) [x86_64-linux]
+    last_commit=Disable fail-fast of GitHub Actions
+  045152df9e --jit: |-
+    ruby 2.7.0dev (2019-08-17T00:43:06Z trunk 045152df9e) +JIT [x86_64-linux]
+    last_commit=Disable fail-fast of GitHub Actions
+  042be439d9: |-
+    ruby 2.7.0dev (2019-08-17T03:19:13Z trunk 042be439d9) [x86_64-linux]
+    last_commit=Improve the doc example of `method_missing`
+  042be439d9 --jit: |-
+    ruby 2.7.0dev (2019-08-17T03:19:13Z trunk 042be439d9) +JIT [x86_64-linux]
+    last_commit=Improve the doc example of `method_missing`
+  11a9f7ab94: |-
+    ruby 2.7.0dev (2019-08-17T03:30:38Z trunk 11a9f7ab94) [x86_64-linux]
+    last_commit=Search refinement module along nested usings
+  11a9f7ab94 --jit: |-
+    ruby 2.7.0dev (2019-08-17T03:30:38Z trunk 11a9f7ab94) +JIT [x86_64-linux]
+    last_commit=Search refinement module along nested usings
+  dc020b06ff: |-
+    ruby 2.7.0dev (2019-08-17T03:32:34Z trunk dc020b06ff) [x86_64-linux]
+    last_commit=Hoisted out search_refined_method
+  dc020b06ff --jit: |-
+    ruby 2.7.0dev (2019-08-17T03:32:34Z trunk dc020b06ff) +JIT [x86_64-linux]
+    last_commit=Hoisted out search_refined_method
