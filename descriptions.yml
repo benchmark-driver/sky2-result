@@ -5955,3 +5955,33 @@ commits:
   37d0e6e471 --jit: |-
     ruby 2.7.0dev (2019-08-17T09:20:50Z trunk 37d0e6e471) +JIT [x86_64-linux]
     last_commit=Skip teardown with JRuby
+  79fe84edf5: |-
+    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 79fe84edf5) [x86_64-linux]
+    last_commit=Removed test_case files from lib directory.
+  79fe84edf5 --jit: |-
+    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 79fe84edf5) +JIT [x86_64-linux]
+    last_commit=Removed test_case files from lib directory.
+  3a06c11a7d: |-
+    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 3a06c11a7d) [x86_64-linux]
+    last_commit=Removed autoload from Markup.
+  3a06c11a7d --jit: |-
+    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 3a06c11a7d) +JIT [x86_64-linux]
+    last_commit=Removed autoload from Markup.
+  e095803c37: |-
+    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk e095803c37) [x86_64-linux]
+    last_commit=Removed formatter_test_case and text_formatter_test_case from Gem::Specification#files.
+  e095803c37 --jit: |-
+    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk e095803c37) +JIT [x86_64-linux]
+    last_commit=Removed formatter_test_case and text_formatter_test_case from Gem::Specification#files.
+  15da2aad76: |-
+    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 15da2aad76) [x86_64-linux]
+    last_commit=Remove Travis CI workaround
+  15da2aad76 --jit: |-
+    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 15da2aad76) +JIT [x86_64-linux]
+    last_commit=Remove Travis CI workaround
+  2a65498ca2: |-
+    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 2a65498ca2) [x86_64-linux]
+    last_commit=Remove CI files from list
+  2a65498ca2 --jit: |-
+    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 2a65498ca2) +JIT [x86_64-linux]
+    last_commit=Remove CI files from list
