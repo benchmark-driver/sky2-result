@@ -9,312 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  '085d0e5ccb': |-
-    ruby 2.7.0dev (2019-07-14T12:58:22Z trunk 085d0e5ccb) [x86_64-linux]
-    last_commit=ruby.c (name_match_p): remove unnecessary condition
-  '085d0e5ccb --jit': |-
-    ruby 2.7.0dev (2019-07-14T12:58:22Z trunk 085d0e5ccb) +JIT [x86_64-linux]
-    last_commit=ruby.c (name_match_p): remove unnecessary condition
-  b7ec77f361: |-
-    ruby 2.7.0dev (2019-07-14T13:04:27Z trunk b7ec77f361) [x86_64-linux]
-    last_commit=fix typos.
-  b7ec77f361 --jit: |-
-    ruby 2.7.0dev (2019-07-14T13:04:27Z trunk b7ec77f361) +JIT [x86_64-linux]
-    last_commit=fix typos.
-  7ac7685fa7: |-
-    ruby 2.7.0dev (2019-07-14T13:12:59Z trunk 7ac7685fa7) [x86_64-linux]
-    last_commit=Simplify link_o_to_so arguments
-  7ac7685fa7 --jit: |-
-    ruby 2.7.0dev (2019-07-14T13:12:59Z trunk 7ac7685fa7) +JIT [x86_64-linux]
-    last_commit=Simplify link_o_to_so arguments
-  5d606b5174: |-
-    ruby 2.7.0dev (2019-07-14T13:15:42Z trunk 5d606b5174) [x86_64-linux]
-    last_commit=doc/globals.rdoc: Add TOPLEVEL_BINDING [ci skip]
-  5d606b5174 --jit: |-
-    ruby 2.7.0dev (2019-07-14T13:15:42Z trunk 5d606b5174) +JIT [x86_64-linux]
-    last_commit=doc/globals.rdoc: Add TOPLEVEL_BINDING [ci skip]
-  9a402cf61f: |-
-    ruby 2.7.0dev (2019-07-14T13:15:42Z trunk 9a402cf61f) [x86_64-linux]
-    last_commit=doc/globals.rdoc: Add RUBY_COPYRIGHT [ci skip]
-  9a402cf61f --jit: |-
-    ruby 2.7.0dev (2019-07-14T13:15:42Z trunk 9a402cf61f) +JIT [x86_64-linux]
-    last_commit=doc/globals.rdoc: Add RUBY_COPYRIGHT [ci skip]
-  ab31e13e75: |-
-    ruby 2.7.0dev (2019-07-14T13:15:42Z trunk ab31e13e75) [x86_64-linux]
-    last_commit=doc/globals.rdoc: Add RUBY_PATCHLEVEL [ci skip]
-  ab31e13e75 --jit: |-
-    ruby 2.7.0dev (2019-07-14T13:15:42Z trunk ab31e13e75) +JIT [x86_64-linux]
-    last_commit=doc/globals.rdoc: Add RUBY_PATCHLEVEL [ci skip]
-  d0f113f6c1: |-
-    ruby 2.7.0dev (2019-07-14T13:15:42Z trunk d0f113f6c1) [x86_64-linux]
-    last_commit=doc/globals.rdoc: Add RUBY_REVISION [ci skip]
-  d0f113f6c1 --jit: |-
-    ruby 2.7.0dev (2019-07-14T13:15:42Z trunk d0f113f6c1) +JIT [x86_64-linux]
-    last_commit=doc/globals.rdoc: Add RUBY_REVISION [ci skip]
-  49362ddac6: |-
-    ruby 2.7.0dev (2019-07-14T13:21:10Z trunk 49362ddac6) [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  49362ddac6 --jit: |-
-    ruby 2.7.0dev (2019-07-14T13:21:10Z trunk 49362ddac6) +JIT [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  36f2d9bac2: |-
-    ruby 2.7.0dev (2019-07-14T13:46:34Z trunk 36f2d9bac2) [x86_64-linux]
-    last_commit=numeric.c (fix_cmp): remove a unreachable return statement
-  36f2d9bac2 --jit: |-
-    ruby 2.7.0dev (2019-07-14T13:46:34Z trunk 36f2d9bac2) +JIT [x86_64-linux]
-    last_commit=numeric.c (fix_cmp): remove a unreachable return statement
-  0bf829c17b: |-
-    ruby 2.7.0dev (2019-07-14T14:02:23Z trunk 0bf829c17b) [x86_64-linux]
-    last_commit=transcode.c (rb_trans_conv): remove unnecessary assignments
-  0bf829c17b --jit: |-
-    ruby 2.7.0dev (2019-07-14T14:02:23Z trunk 0bf829c17b) +JIT [x86_64-linux]
-    last_commit=transcode.c (rb_trans_conv): remove unnecessary assignments
-  '8549774430': |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 8549774430) [x86_64-linux]
-    last_commit=Tweak upstream information of upstream commit.
-  8549774430 --jit: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 8549774430) +JIT [x86_64-linux]
-    last_commit=Tweak upstream information of upstream commit.
-  864e2a95d9: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 864e2a95d9) [x86_64-linux]
-    last_commit=[ruby/csv] Bump version
-  864e2a95d9 --jit: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 864e2a95d9) +JIT [x86_64-linux]
-    last_commit=[ruby/csv] Bump version
-  9171f83305: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 9171f83305) [x86_64-linux]
-    last_commit=[ruby/csv] Refactor range in delete_suffix (#85)
-  9171f83305 --jit: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 9171f83305) +JIT [x86_64-linux]
-    last_commit=[ruby/csv] Refactor range in delete_suffix (#85)
-  8392592a0a: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 8392592a0a) [x86_64-linux]
-    last_commit=[ruby/csv] Don't raise on eof?
-  8392592a0a --jit: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 8392592a0a) +JIT [x86_64-linux]
-    last_commit=[ruby/csv] Don't raise on eof?
-  c8b82998d4: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk c8b82998d4) [x86_64-linux]
-    last_commit=[ruby/csv] Bump version
-  c8b82998d4 --jit: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk c8b82998d4) +JIT [x86_64-linux]
-    last_commit=[ruby/csv] Bump version
-  fe40841bfb: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk fe40841bfb) [x86_64-linux]
-    last_commit=[ruby/csv] add document of strip (#88)
-  fe40841bfb --jit: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk fe40841bfb) +JIT [x86_64-linux]
-    last_commit=[ruby/csv] add document of strip (#88)
-  75620c804e: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 75620c804e) [x86_64-linux]
-    last_commit=[ruby/csv] Add options doc: :write_converters, :write_nil_value, :write_empty_value (#87)
-  75620c804e --jit: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 75620c804e) +JIT [x86_64-linux]
-    last_commit=[ruby/csv] Add options doc: :write_converters, :write_nil_value, :write_empty_value (#87)
-  8c0edbd79d: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 8c0edbd79d) [x86_64-linux]
-    last_commit=[ruby/csv] add options doc :quote_empty (#89)
-  8c0edbd79d --jit: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 8c0edbd79d) +JIT [x86_64-linux]
-    last_commit=[ruby/csv] add options doc :quote_empty (#89)
-  198281a71d: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 198281a71d) [x86_64-linux]
-    last_commit=[ruby/csv] Fix a bug that strip: true removes newlines
-  198281a71d --jit: |-
-    ruby 2.7.0dev (2019-07-14T14:07:31Z trunk 198281a71d) +JIT [x86_64-linux]
-    last_commit=[ruby/csv] Fix a bug that strip: true removes newlines
-  3fd086ed56: |-
-    ruby 2.7.0dev (2019-07-14T14:09:24Z trunk 3fd086ed56) [x86_64-linux]
-    last_commit=string.c (str_succ): remove a unnecessary assignment
-  3fd086ed56 --jit: |-
-    ruby 2.7.0dev (2019-07-14T14:09:24Z trunk 3fd086ed56) +JIT [x86_64-linux]
-    last_commit=string.c (str_succ): remove a unnecessary assignment
-  43c337dfc1: |-
-    ruby 2.7.0dev (2019-07-14T14:09:24Z trunk 43c337dfc1) [x86_64-linux]
-    last_commit=string.c (str_succ): refactoring
-  43c337dfc1 --jit: |-
-    ruby 2.7.0dev (2019-07-14T14:09:24Z trunk 43c337dfc1) +JIT [x86_64-linux]
-    last_commit=string.c (str_succ): refactoring
-  80da68db1e: |-
-    ruby 2.7.0dev (2019-07-14T14:36:23Z trunk 80da68db1e) [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  80da68db1e --jit: |-
-    ruby 2.7.0dev (2019-07-14T14:36:23Z trunk 80da68db1e) +JIT [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  b4975693ed: |-
-    ruby 2.7.0dev (2019-07-14T15:07:32Z trunk b4975693ed) [x86_64-linux]
-    last_commit=process.c (p_sys_setregid, p_sys_setresgid): remove unused tmp buffer
-  b4975693ed --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:07:32Z trunk b4975693ed) +JIT [x86_64-linux]
-    last_commit=process.c (p_sys_setregid, p_sys_setresgid): remove unused tmp buffer
-  721fc84937: |-
-    ruby 2.7.0dev (2019-07-14T15:08:33Z trunk 721fc84937) [x86_64-linux]
-    last_commit=* 2019-07-15
-  721fc84937 --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:08:33Z trunk 721fc84937) +JIT [x86_64-linux]
-    last_commit=* 2019-07-15
-  517c8a5324: |-
-    ruby 2.7.0dev (2019-07-14T15:10:11Z trunk 517c8a5324) [x86_64-linux]
-    last_commit=dir.c (dir_each_entry): remove unnecessary check
-  517c8a5324 --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:10:11Z trunk 517c8a5324) +JIT [x86_64-linux]
-    last_commit=dir.c (dir_each_entry): remove unnecessary check
-  '09187c64b8': |-
-    ruby 2.7.0dev (2019-07-14T15:10:39Z trunk 09187c64b8) [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  '09187c64b8 --jit': |-
-    ruby 2.7.0dev (2019-07-14T15:10:39Z trunk 09187c64b8) +JIT [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  312d72000a: |-
-    ruby 2.7.0dev (2019-07-14T15:11:07Z trunk 312d72000a) [x86_64-linux]
-    last_commit=[ruby/rdoc] Correction to include regexp_handling in list of loaded files
-  312d72000a --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:11:07Z trunk 312d72000a) +JIT [x86_64-linux]
-    last_commit=[ruby/rdoc] Correction to include regexp_handling in list of loaded files
-  83171b0ee8: |-
-    ruby 2.7.0dev (2019-07-14T15:11:07Z trunk 83171b0ee8) [x86_64-linux]
-    last_commit=[ruby/rdoc] Bump version to 6.1.1
-  83171b0ee8 --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:11:07Z trunk 83171b0ee8) +JIT [x86_64-linux]
-    last_commit=[ruby/rdoc] Bump version to 6.1.1
-  9806da50f4: |-
-    ruby 2.7.0dev (2019-07-14T15:13:01Z trunk 9806da50f4) [x86_64-linux]
-    last_commit=Suppress warnings
-  9806da50f4 --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:13:01Z trunk 9806da50f4) +JIT [x86_64-linux]
-    last_commit=Suppress warnings
-  073cc52dcc: |-
-    ruby 2.7.0dev (2019-07-14T15:17:59Z trunk 073cc52dcc) [x86_64-linux]
-    last_commit=Add `class Reline::History` and test.
-  073cc52dcc --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:17:59Z trunk 073cc52dcc) +JIT [x86_64-linux]
-    last_commit=Add `class Reline::History` and test.
-  e6f188ea03: |-
-    ruby 2.7.0dev (2019-07-14T15:18:10Z trunk e6f188ea03) [x86_64-linux]
-    last_commit=Rename to Reline::History::Test.
-  e6f188ea03 --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:18:10Z trunk e6f188ea03) +JIT [x86_64-linux]
-    last_commit=Rename to Reline::History::Test.
-  deb5e58230: |-
-    ruby 2.7.0dev (2019-07-14T15:20:32Z trunk deb5e58230) [x86_64-linux]
-    last_commit=ext/stringio/stringio.c (strio_read): "binray" is always zero here
-  deb5e58230 --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:20:32Z trunk deb5e58230) +JIT [x86_64-linux]
-    last_commit=ext/stringio/stringio.c (strio_read): "binray" is always zero here
-  9e3971c3ad: |-
-    ruby 2.7.0dev (2019-07-14T15:29:56Z trunk 9e3971c3ad) [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  9e3971c3ad --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:29:56Z trunk 9e3971c3ad) +JIT [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  970c12551e: |-
-    ruby 2.7.0dev (2019-07-14T15:30:35Z trunk 970c12551e) [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  970c12551e --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:30:35Z trunk 970c12551e) +JIT [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  3201062adf: |-
-    ruby 2.7.0dev (2019-07-14T15:31:07Z trunk 3201062adf) [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  3201062adf --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:31:07Z trunk 3201062adf) +JIT [x86_64-linux]
-    last_commit=Add a /* fall through */ comment
-  '4403130193': |-
-    ruby 2.7.0dev (2019-07-14T15:32:00Z trunk 4403130193) [x86_64-linux]
-    last_commit=[ruby/matrix] Add missing `lib/matrix/' files to file list in gemspec
-  4403130193 --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:32:00Z trunk 4403130193) +JIT [x86_64-linux]
-    last_commit=[ruby/matrix] Add missing `lib/matrix/' files to file list in gemspec
-  423feb53a2: |-
-    ruby 2.7.0dev (2019-07-14T15:32:00Z trunk 423feb53a2) [x86_64-linux]
-    last_commit=[ruby/matrix] Add Matrix::VERSION constant
-  423feb53a2 --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:32:00Z trunk 423feb53a2) +JIT [x86_64-linux]
-    last_commit=[ruby/matrix] Add Matrix::VERSION constant
-  04e6b90d5b: |-
-    ruby 2.7.0dev (2019-07-14T15:33:16Z trunk 04e6b90d5b) [x86_64-linux]
-    last_commit=Remove unused method.
-  04e6b90d5b --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:33:16Z trunk 04e6b90d5b) +JIT [x86_64-linux]
-    last_commit=Remove unused method.
-  cd7b99bbfc: |-
-    ruby 2.7.0dev (2019-07-14T15:36:59Z trunk cd7b99bbfc) [x86_64-linux]
-    last_commit=Version 0.0.1
-  cd7b99bbfc --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:36:59Z trunk cd7b99bbfc) +JIT [x86_64-linux]
-    last_commit=Version 0.0.1
-  d0b1a8d5fb: |-
-    ruby 2.7.0dev (2019-07-14T15:43:36Z trunk d0b1a8d5fb) [x86_64-linux]
-    last_commit=Need reline-0.0.1 or later for some features
-  d0b1a8d5fb --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:43:36Z trunk d0b1a8d5fb) +JIT [x86_64-linux]
-    last_commit=Need reline-0.0.1 or later for some features
-  82b058ff60: |-
-    ruby 2.7.0dev (2019-07-14T15:43:47Z trunk 82b058ff60) [x86_64-linux]
-    last_commit=Version 1.1.0.pre.2
-  82b058ff60 --jit: |-
-    ruby 2.7.0dev (2019-07-14T15:43:47Z trunk 82b058ff60) +JIT [x86_64-linux]
-    last_commit=Version 1.1.0.pre.2
-  6d57369105: |-
-    ruby 2.7.0dev (2019-07-14T16:07:37Z trunk 6d57369105) [x86_64-linux]
-    last_commit=Auto indent in IRB is enabled by default
-  6d57369105 --jit: |-
-    ruby 2.7.0dev (2019-07-14T16:07:37Z trunk 6d57369105) +JIT [x86_64-linux]
-    last_commit=Auto indent in IRB is enabled by default
-  '078e50c5e9': |-
-    ruby 2.7.0dev (2019-07-14T16:16:18Z trunk 078e50c5e9) [x86_64-linux]
-    last_commit=Save history in IRB is enabled by default
-  '078e50c5e9 --jit': |-
-    ruby 2.7.0dev (2019-07-14T16:16:18Z trunk 078e50c5e9) +JIT [x86_64-linux]
-    last_commit=Save history in IRB is enabled by default
-  10d7b39d5d: |-
-    ruby 2.7.0dev (2019-07-14T17:58:28Z trunk 10d7b39d5d) [x86_64-linux]
-    last_commit=Check wether prompt_i is nil
-  10d7b39d5d --jit: |-
-    ruby 2.7.0dev (2019-07-14T17:58:28Z trunk 10d7b39d5d) +JIT [x86_64-linux]
-    last_commit=Check wether prompt_i is nil
-  0ee105f3f0: |-
-    ruby 2.7.0dev (2019-07-14T21:08:55Z trunk 0ee105f3f0) [x86_64-linux]
-    last_commit=Mention SPECOPTS variable in make help
-  0ee105f3f0 --jit: |-
-    ruby 2.7.0dev (2019-07-14T21:08:55Z trunk 0ee105f3f0) +JIT [x86_64-linux]
-    last_commit=Mention SPECOPTS variable in make help
-  364f43ab7f: |-
-    ruby 2.7.0dev (2019-07-14T21:11:47Z trunk 364f43ab7f) [x86_64-linux]
-    last_commit=Reduce the number of make help entries
-  364f43ab7f --jit: |-
-    ruby 2.7.0dev (2019-07-14T21:11:47Z trunk 364f43ab7f) +JIT [x86_64-linux]
-    last_commit=Reduce the number of make help entries
-  e8b6f63039: |-
-    ruby 2.7.0dev (2019-07-14T21:17:31Z trunk e8b6f63039) [x86_64-linux]
-    last_commit=Drop `make change` and tool/change_maker.rb
-  e8b6f63039 --jit: |-
-    ruby 2.7.0dev (2019-07-14T21:17:31Z trunk e8b6f63039) +JIT [x86_64-linux]
-    last_commit=Drop `make change` and tool/change_maker.rb
-  ea71128573: |-
-    ruby 2.7.0dev (2019-07-14T21:22:23Z trunk ea71128573) [x86_64-linux]
-    last_commit=Unify documentations of `make benchmark`
-  ea71128573 --jit: |-
-    ruby 2.7.0dev (2019-07-14T21:22:23Z trunk ea71128573) +JIT [x86_64-linux]
-    last_commit=Unify documentations of `make benchmark`
-  d37da60128: |-
-    ruby 2.7.0dev (2019-07-14T21:44:16Z trunk d37da60128) [x86_64-linux]
-    last_commit=time.c (time_mdump): use another buffer for year_extend
-  d37da60128 --jit: |-
-    ruby 2.7.0dev (2019-07-14T21:44:16Z trunk d37da60128) +JIT [x86_64-linux]
-    last_commit=time.c (time_mdump): use another buffer for year_extend
-  4b7a04a5b8: |-
-    ruby 2.7.0dev (2019-07-14T22:51:57Z trunk 4b7a04a5b8) [x86_64-linux]
-    last_commit=Support multiline irb_history
-  4b7a04a5b8 --jit: |-
-    ruby 2.7.0dev (2019-07-14T22:51:57Z trunk 4b7a04a5b8) +JIT [x86_64-linux]
-    last_commit=Support multiline irb_history
-  266f6cd8a1: |-
-    ruby 2.7.0dev (2019-07-14T22:54:47Z trunk 266f6cd8a1) [x86_64-linux]
-    last_commit=Remove debug print
-  266f6cd8a1 --jit: |-
-    ruby 2.7.0dev (2019-07-14T22:54:47Z trunk 266f6cd8a1) +JIT [x86_64-linux]
-    last_commit=Remove debug print
   772dae8bef: |-
     ruby 2.7.0dev (2019-07-14T22:57:07Z trunk 772dae8bef) [x86_64-linux]
     last_commit=Add a /* fall through */ comment
@@ -6039,3 +5733,225 @@ commits:
   d041c6cebb --jit: |-
     ruby 2.7.0dev (2019-08-17T06:12:46Z trunk d041c6cebb) +JIT [x86_64-linux]
     last_commit=Added comments for extended require by RubyGems
+  221ba9b66c: |-
+    ruby 2.7.0dev (2019-08-17T08:01:23Z trunk 221ba9b66c) [x86_64-linux]
+    last_commit=Revert "`Gem.load_path_insert_index always returns non-nil index after Ruby 1.9"
+  221ba9b66c --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:01:23Z trunk 221ba9b66c) +JIT [x86_64-linux]
+    last_commit=Revert "`Gem.load_path_insert_index always returns non-nil index after Ruby 1.9"
+  7664b5cb65: |-
+    ruby 2.7.0dev (2019-08-17T08:06:36Z trunk 7664b5cb65) [x86_64-linux]
+    last_commit=Support the current stable version of Ruby like 2.5 and 2.6.
+  7664b5cb65 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:06:36Z trunk 7664b5cb65) +JIT [x86_64-linux]
+    last_commit=Support the current stable version of Ruby like 2.5 and 2.6.
+  ef2d415802: |-
+    ruby 2.7.0dev (2019-08-17T08:08:49Z trunk ef2d415802) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove duplicated method
+  ef2d415802 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:49Z trunk ef2d415802) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove duplicated method
+  50a91fcd10: |-
+    ruby 2.7.0dev (2019-08-17T08:08:49Z trunk 50a91fcd10) [x86_64-linux]
+    last_commit=[bundler/bundler] Reuse `lib` method
+  50a91fcd10 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:49Z trunk 50a91fcd10) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Reuse `lib` method
+  745b286161: |-
+    ruby 2.7.0dev (2019-08-17T08:08:49Z trunk 745b286161) [x86_64-linux]
+    last_commit=[bundler/bundler] Move `lib` helper together with path helpers
+  745b286161 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:49Z trunk 745b286161) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Move `lib` helper together with path helpers
+  a2ca3a12ba: |-
+    ruby 2.7.0dev (2019-08-17T08:08:49Z trunk a2ca3a12ba) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary `let`
+  a2ca3a12ba --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:49Z trunk a2ca3a12ba) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary `let`
+  9995ce64a2: |-
+    ruby 2.7.0dev (2019-08-17T08:08:49Z trunk 9995ce64a2) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary assignment
+  9995ce64a2 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:49Z trunk 9995ce64a2) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary assignment
+  7551117c70: |-
+    ruby 2.7.0dev (2019-08-17T08:08:49Z trunk 7551117c70) [x86_64-linux]
+    last_commit=[bundler/bundler] Reuse more shared path helpers
+  7551117c70 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:49Z trunk 7551117c70) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Reuse more shared path helpers
+  '6357540945': |-
+    ruby 2.7.0dev (2019-08-17T08:08:49Z trunk 6357540945) [x86_64-linux]
+    last_commit=[bundler/bundler] Fix bundle bin location in core repo
+  6357540945 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:49Z trunk 6357540945) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Fix bundle bin location in core repo
+  7af12a92c8: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 7af12a92c8) [x86_64-linux]
+    last_commit=[bundler/bundler] Use path helpers to find bundle bin
+  7af12a92c8 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 7af12a92c8) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Use path helpers to find bundle bin
+  3bebdda649: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 3bebdda649) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary rubygems require
+  3bebdda649 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 3bebdda649) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary rubygems require
+  2e6509498c: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 2e6509498c) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove dead code
+  2e6509498c --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 2e6509498c) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove dead code
+  63d78afc2d: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 63d78afc2d) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove more dead code
+  63d78afc2d --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 63d78afc2d) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove more dead code
+  e38994d2f7: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk e38994d2f7) [x86_64-linux]
+    last_commit=[bundler/bundler] Reuse `gem_command!` helper
+  e38994d2f7 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk e38994d2f7) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Reuse `gem_command!` helper
+  91c63828f7: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 91c63828f7) [x86_64-linux]
+    last_commit=[bundler/bundler] Extract a `gem_bin` path helper
+  91c63828f7 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 91c63828f7) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Extract a `gem_bin` path helper
+  30a4ec1fee: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 30a4ec1fee) [x86_64-linux]
+    last_commit=[bundler/bundler] Always use `--backtrace` when invoking `gem` CLI
+  30a4ec1fee --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 30a4ec1fee) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Always use `--backtrace` when invoking `gem` CLI
+  122bc65042: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 122bc65042) [x86_64-linux]
+    last_commit=[bundler/bundler] Reuse `gem_bin` helper inside `gem_command`
+  122bc65042 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 122bc65042) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Reuse `gem_bin` helper inside `gem_command`
+  334e615022: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 334e615022) [x86_64-linux]
+    last_commit=[bundler/bundler] Reconcile test
+  334e615022 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 334e615022) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Reconcile test
+  b43f4bd218: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk b43f4bd218) [x86_64-linux]
+    last_commit=[bundler/bundler] Rename some variables
+  b43f4bd218 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk b43f4bd218) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Rename some variables
+  c896f71577: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk c896f71577) [x86_64-linux]
+    last_commit=[bundler/bundler] Extract a `tracked_files` path helper
+  c896f71577 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk c896f71577) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Extract a `tracked_files` path helper
+  19dabfbe57: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 19dabfbe57) [x86_64-linux]
+    last_commit=[bundler/bundler] Rename a variable
+  19dabfbe57 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 19dabfbe57) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Rename a variable
+  6a299906b4: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 6a299906b4) [x86_64-linux]
+    last_commit=[bundler/bundler] Extract a `lib_tracked_files` path helper
+  6a299906b4 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 6a299906b4) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Extract a `lib_tracked_files` path helper
+  '6506993462': |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 6506993462) [x86_64-linux]
+    last_commit=[bundler/bundler] Use `join` consistently
+  6506993462 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 6506993462) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Use `join` consistently
+  20af44c277: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 20af44c277) [x86_64-linux]
+    last_commit=[bundler/bundler] Unalias `install_gem`
+  20af44c277 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 20af44c277) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Unalias `install_gem`
+  aef5509139: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk aef5509139) [x86_64-linux]
+    last_commit=[bundler/bundler] Extract single gem installation logic
+  aef5509139 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk aef5509139) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Extract single gem installation logic
+  f88237623f: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk f88237623f) [x86_64-linux]
+    last_commit=[bundler/bundler] Consistently use `Path` over `Spec::Path`
+  f88237623f --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk f88237623f) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Consistently use `Path` over `Spec::Path`
+  9925e1a10f: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 9925e1a10f) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unneeded `to_s` calls
+  9925e1a10f --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 9925e1a10f) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unneeded `to_s` calls
+  adfca752d6: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk adfca752d6) [x86_64-linux]
+    last_commit=[bundler/bundler] Remve another unneeded `to_s`
+  adfca752d6 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk adfca752d6) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remve another unneeded `to_s`
+  9c0fcd1d0f: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 9c0fcd1d0f) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove obvious comment
+  9c0fcd1d0f --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 9c0fcd1d0f) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove obvious comment
+  a56bf5bfde: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk a56bf5bfde) [x86_64-linux]
+    last_commit=[bundler/bundler] Cleanup in a location independent way
+  a56bf5bfde --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk a56bf5bfde) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Cleanup in a location independent way
+  580e093fdd: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 580e093fdd) [x86_64-linux]
+    last_commit=[bundler/bundler] Make sure gem has been built before deleteng it
+  580e093fdd --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 580e093fdd) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Make sure gem has been built before deleteng it
+  20c5154f0b: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 20c5154f0b) [x86_64-linux]
+    last_commit=[bundler/bundler] Only chdir when necessary
+  20c5154f0b --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 20c5154f0b) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Only chdir when necessary
+  '09455301ef': |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 09455301ef) [x86_64-linux]
+    last_commit=[bundler/bundler] Extract a `with_root_gemspec` helper
+  '09455301ef --jit': |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 09455301ef) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Extract a `with_root_gemspec` helper
+  '4318405609': |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 4318405609) [x86_64-linux]
+    last_commit=[bundler/bundler] Extract a `root_gemspec` local variable
+  4318405609 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 4318405609) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Extract a `root_gemspec` local variable
+  a2d7c97a91: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk a2d7c97a91) [x86_64-linux]
+    last_commit=[bundler/bundler] Extract yet another helper method
+  a2d7c97a91 --jit: |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk a2d7c97a91) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Extract yet another helper method
+  '08c58e3c0d': |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 08c58e3c0d) [x86_64-linux]
+    last_commit=[bundler/bundler] Extract a `gemspec_dir` helper
+  '08c58e3c0d --jit': |-
+    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 08c58e3c0d) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Extract a `gemspec_dir` helper
+  37d0e6e471: |-
+    ruby 2.7.0dev (2019-08-17T09:20:50Z trunk 37d0e6e471) [x86_64-linux]
+    last_commit=Skip teardown with JRuby
+  37d0e6e471 --jit: |-
+    ruby 2.7.0dev (2019-08-17T09:20:50Z trunk 37d0e6e471) +JIT [x86_64-linux]
+    last_commit=Skip teardown with JRuby
