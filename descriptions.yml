@@ -5985,3 +5985,45 @@ commits:
   2a65498ca2 --jit: |-
     ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 2a65498ca2) +JIT [x86_64-linux]
     last_commit=Remove CI files from list
+  765eb18a45: |-
+    ruby 2.7.0dev (2019-08-17T14:14:52Z trunk 765eb18a45) [x86_64-linux]
+    last_commit=Make VM_DEBUG_VERIFY_METHOD_CACHE derived from VMDEBUG
+  765eb18a45 --jit: |-
+    ruby 2.7.0dev (2019-08-17T14:14:52Z trunk 765eb18a45) +JIT [x86_64-linux]
+    last_commit=Make VM_DEBUG_VERIFY_METHOD_CACHE derived from VMDEBUG
+  8b8e7e6e9e: |-
+    ruby 2.7.0dev (2019-08-17T15:32:21Z trunk 8b8e7e6e9e) [x86_64-linux]
+    last_commit=$LOAD_PATH elements should be real paths
+  8b8e7e6e9e --jit: |-
+    ruby 2.7.0dev (2019-08-17T15:32:21Z trunk 8b8e7e6e9e) +JIT [x86_64-linux]
+    last_commit=$LOAD_PATH elements should be real paths
+  aa00f7b8ec: |-
+    ruby 2.7.0dev (2019-08-17T15:33:13Z trunk aa00f7b8ec) [x86_64-linux]
+    last_commit=* 2019-08-18 [ci skip]
+  aa00f7b8ec --jit: |-
+    ruby 2.7.0dev (2019-08-17T15:33:13Z trunk aa00f7b8ec) +JIT [x86_64-linux]
+    last_commit=* 2019-08-18 [ci skip]
+  6db3051fcc: |-
+    ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 6db3051fcc) [x86_64-linux]
+    last_commit=Ensure VM_DEBUG_VERIFY_METHOD_CACHE code valid
+  6db3051fcc --jit: |-
+    ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 6db3051fcc) +JIT [x86_64-linux]
+    last_commit=Ensure VM_DEBUG_VERIFY_METHOD_CACHE code valid
+  1d11a8b193: |-
+    ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 1d11a8b193) [x86_64-linux]
+    last_commit=Ensure non-OPT_GLOBAL_METHOD_CACHE code valid
+  1d11a8b193 --jit: |-
+    ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 1d11a8b193) +JIT [x86_64-linux]
+    last_commit=Ensure non-OPT_GLOBAL_METHOD_CACHE code valid
+  74ca6b88dd: |-
+    ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 74ca6b88dd) [x86_64-linux]
+    last_commit=Omit a tag unless loading with a wrapper module
+  74ca6b88dd --jit: |-
+    ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 74ca6b88dd) +JIT [x86_64-linux]
+    last_commit=Omit a tag unless loading with a wrapper module
+  7bb0a7d7cb: |-
+    ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 7bb0a7d7cb) [x86_64-linux]
+    last_commit=Prefer exact ITEM to benchmark
+  7bb0a7d7cb --jit: |-
+    ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 7bb0a7d7cb) +JIT [x86_64-linux]
+    last_commit=Prefer exact ITEM to benchmark
