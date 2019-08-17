@@ -5961,3 +5961,123 @@ commits:
   229ae3269d --jit: |-
     ruby 2.7.0dev (2019-08-16T12:27:05Z trunk 229ae3269d) +JIT [x86_64-linux]
     last_commit=lib/rdoc/store.rb: Use `Marshal.dump(obj, io)`
+  bb2a65800d: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk bb2a65800d) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Use `assert_require`
+  bb2a65800d --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk bb2a65800d) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Use `assert_require`
+  d4feeb1936: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk d4feeb1936) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Make test also assert the gems that it should load
+  d4feeb1936 --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk d4feeb1936) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Make test also assert the gems that it should load
+  00cd5d74ce: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 00cd5d74ce) [x86_64-linux]
+    last_commit=[rubygems/rubygems] [Require] Ensure -I beats a default gem
+  00cd5d74ce --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 00cd5d74ce) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] [Require] Ensure -I beats a default gem
+  37abd2c390: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 37abd2c390) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Fix old rubies compat
+  37abd2c390 --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 37abd2c390) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Fix old rubies compat
+  b8984370da: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk b8984370da) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Fix jruby issue
+  b8984370da --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk b8984370da) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Fix jruby issue
+  89ad5df979: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 89ad5df979) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Replace domain parameter in Gem::Command#show_lookup_failure with a parameter to suppress suggestions
+  89ad5df979 --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 89ad5df979) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Replace domain parameter in Gem::Command#show_lookup_failure with a parameter to suppress suggestions
+  f42ad4a425: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk f42ad4a425) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Little refactor
+  f42ad4a425 --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk f42ad4a425) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Little refactor
+  1ac6890bd0: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 1ac6890bd0) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Fix removing unresolved default spec files from map
+  1ac6890bd0 --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 1ac6890bd0) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Fix removing unresolved default spec files from map
+  3587824d71: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 3587824d71) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Don't unregister default specifications
+  3587824d71 --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 3587824d71) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Don't unregister default specifications
+  5998012a0c: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 5998012a0c) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Autoswitch to exact bundler version if present
+  5998012a0c --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 5998012a0c) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Autoswitch to exact bundler version if present
+  c78839902b: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk c78839902b) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Return `nil` to clarify return value is ignored
+  c78839902b --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk c78839902b) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Return `nil` to clarify return value is ignored
+  c4f7c260f9: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk c4f7c260f9) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Make deprecate Gem::RubyGemsVersion and Gem::ConfigMap.
+  c4f7c260f9 --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk c4f7c260f9) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Make deprecate Gem::RubyGemsVersion and Gem::ConfigMap.
+  25a327d41b: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 25a327d41b) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Do not mutate uri.query during s3 signature creation
+  25a327d41b --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 25a327d41b) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Do not mutate uri.query during s3 signature creation
+  56a28a8728: |-
+    ruby 2.7.0dev (2019-08-16T22:35:49Z trunk 56a28a8728) [x86_64-linux]
+    last_commit=[rubygems/rubygems] installer.rb - fix #windows_stub_script
+  56a28a8728 --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:35:49Z trunk 56a28a8728) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] installer.rb - fix #windows_stub_script
+  ae3002b540: |-
+    ruby 2.7.0dev (2019-08-16T22:35:49Z trunk ae3002b540) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Fixup #2844
+  ae3002b540 --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:35:49Z trunk ae3002b540) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Fixup #2844
+  f30d38bdd0: |-
+    ruby 2.7.0dev (2019-08-16T22:47:19Z trunk f30d38bdd0) [x86_64-linux]
+    last_commit=Move lib directory to the last of $LOAD_PATH on ruby repository.
+  f30d38bdd0 --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:47:19Z trunk f30d38bdd0) +JIT [x86_64-linux]
+    last_commit=Move lib directory to the last of $LOAD_PATH on ruby repository.
+  e0fc9b7ccd: |-
+    ruby 2.7.0dev (2019-08-16T22:49:00Z trunk e0fc9b7ccd) [x86_64-linux]
+    last_commit=* 2019-08-17 [ci skip]
+  e0fc9b7ccd --jit: |-
+    ruby 2.7.0dev (2019-08-16T22:49:00Z trunk e0fc9b7ccd) +JIT [x86_64-linux]
+    last_commit=* 2019-08-17 [ci skip]
+  '7624154595': |-
+    ruby 2.7.0dev (2019-08-16T23:44:31Z trunk 7624154595) [x86_64-linux]
+    last_commit=Fixed Insecure Operation in require
+  7624154595 --jit: |-
+    ruby 2.7.0dev (2019-08-16T23:44:31Z trunk 7624154595) +JIT [x86_64-linux]
+    last_commit=Fixed Insecure Operation in require
+  efd37f8fc3: |-
+    ruby 2.7.0dev (2019-08-16T23:52:23Z trunk efd37f8fc3) [x86_64-linux]
+    last_commit=Remove redundant each from `sum` example (#2190) [ci skip]
+  efd37f8fc3 --jit: |-
+    ruby 2.7.0dev (2019-08-16T23:52:23Z trunk efd37f8fc3) +JIT [x86_64-linux]
+    last_commit=Remove redundant each from `sum` example (#2190) [ci skip]
+  75d29db8f9: |-
+    ruby 2.7.0dev (2019-08-16T23:52:39Z trunk 75d29db8f9) [x86_64-linux]
+    last_commit=Revert "[rubygems/rubygems] [Require] Ensure -I beats a default gem"
+  75d29db8f9 --jit: |-
+    ruby 2.7.0dev (2019-08-16T23:52:39Z trunk 75d29db8f9) +JIT [x86_64-linux]
+    last_commit=Revert "[rubygems/rubygems] [Require] Ensure -I beats a default gem"
