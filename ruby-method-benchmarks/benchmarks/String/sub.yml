@@ -1145,6 +1145,8 @@ results:
     71efad1ed3: 3441303.209
     146cf2f444: 3340748.935
     673ef894ac: 3348484.799
+    52bd4716b4: 3439807.253
+    51d9d0f888: 3438867.363
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2289,6 +2291,8 @@ results:
     71efad1ed3: 3392985.298
     146cf2f444: 3463288.463
     673ef894ac: 3066450.342
+    52bd4716b4: 3215258.748
+    51d9d0f888: 3428359.607
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3433,6 +3437,8 @@ results:
     71efad1ed3: 1869005.147
     146cf2f444: 1886103.079
     673ef894ac: 1879832.405
+    52bd4716b4: 1595414.427
+    51d9d0f888: 1887461.605
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4577,6 +4583,8 @@ results:
     71efad1ed3: 2752176.021
     146cf2f444: 2840994.653
     673ef894ac: 2777205.406
+    52bd4716b4: 2838075.519
+    51d9d0f888: 2840946.945
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5721,6 +5729,8 @@ results:
     71efad1ed3: 3708590.237
     146cf2f444: 3750984.939
     673ef894ac: 3697526.15
+    52bd4716b4: 3749742.145
+    51d9d0f888: 3742257.723
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -6865,6 +6875,8 @@ results:
     71efad1ed3: 3613915.022
     146cf2f444: 3747983.852
     673ef894ac: 3665165.079
+    52bd4716b4: 3686733.426
+    51d9d0f888: 3714030.921
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -8009,6 +8021,8 @@ results:
     71efad1ed3: 2012099.53
     146cf2f444: 1980192.032
     673ef894ac: 1992071.22
+    52bd4716b4: 1888559.128
+    51d9d0f888: 1980658.477
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -9153,3 +9167,5 @@ results:
     71efad1ed3: 2870688.63
     146cf2f444: 2925688.988
     673ef894ac: 2997674.956
+    52bd4716b4: 2513104.422
+    51d9d0f888: 3018375.998
