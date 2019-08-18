@@ -5985,3 +5985,117 @@ commits:
   a0e80c7cb7 --jit: |-
     ruby 2.7.0dev (2019-08-18T00:30:36Z trunk a0e80c7cb7) +JIT [x86_64-linux]
     last_commit=Drop continue-on-error for make check
+  3ecb5125c6: |-
+    ruby 2.7.0dev (2019-08-18T04:25:31Z trunk 3ecb5125c6) [x86_64-linux]
+    last_commit=Gem::ConfigMap is deprecated now
+  3ecb5125c6 --jit: |-
+    ruby 2.7.0dev (2019-08-18T04:25:31Z trunk 3ecb5125c6) +JIT [x86_64-linux]
+    last_commit=Gem::ConfigMap is deprecated now
+  a02dbcecb1: |-
+    ruby 2.7.0dev (2019-08-18T04:43:59Z trunk a02dbcecb1) [x86_64-linux]
+    last_commit=[bundler/bundler] Bundler displays a duplicate gem entries warning even if gems only appear once per group
+  a02dbcecb1 --jit: |-
+    ruby 2.7.0dev (2019-08-18T04:43:59Z trunk a02dbcecb1) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Bundler displays a duplicate gem entries warning even if gems only appear once per group
+  cc644c7116: |-
+    ruby 2.7.0dev (2019-08-18T04:44:03Z trunk cc644c7116) [x86_64-linux]
+    last_commit=[bundler/bundler] Fix `bundle doctor` command
+  cc644c7116 --jit: |-
+    ruby 2.7.0dev (2019-08-18T04:44:03Z trunk cc644c7116) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Fix `bundle doctor` command
+  e6e8d2d8c0: |-
+    ruby 2.7.0dev (2019-08-18T04:44:13Z trunk e6e8d2d8c0) [x86_64-linux]
+    last_commit=[bundler/bundler] Prefer `before` to `before :each`
+  e6e8d2d8c0 --jit: |-
+    ruby 2.7.0dev (2019-08-18T04:44:13Z trunk e6e8d2d8c0) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Prefer `before` to `before :each`
+  98841b2b19: |-
+    ruby 2.7.0dev (2019-08-18T04:44:22Z trunk 98841b2b19) [x86_64-linux]
+    last_commit=[bundler/bundler] Wrap `open` specs with a context
+  98841b2b19 --jit: |-
+    ruby 2.7.0dev (2019-08-18T04:44:22Z trunk 98841b2b19) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Wrap `open` specs with a context
+  d80f5399ad: |-
+    ruby 2.7.0dev (2019-08-18T04:44:26Z trunk d80f5399ad) [x86_64-linux]
+    last_commit=[bundler/bundler] Fix open default gem error
+  d80f5399ad --jit: |-
+    ruby 2.7.0dev (2019-08-18T04:44:26Z trunk d80f5399ad) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Fix open default gem error
+  7659f00a8d: |-
+    ruby 2.7.0dev (2019-08-18T04:44:36Z trunk 7659f00a8d) [x86_64-linux]
+    last_commit=[bundler/bundler] Move local variable to only branch where it's used
+  7659f00a8d --jit: |-
+    ruby 2.7.0dev (2019-08-18T04:44:36Z trunk 7659f00a8d) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Move local variable to only branch where it's used
+  f753961611: |-
+    ruby 2.7.0dev (2019-08-18T04:44:46Z trunk f753961611) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove a bunch of unneeded rubygems requires
+  f753961611 --jit: |-
+    ruby 2.7.0dev (2019-08-18T04:44:46Z trunk f753961611) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove a bunch of unneeded rubygems requires
+  998204882b: |-
+    ruby 2.7.0dev (2019-08-18T04:44:56Z trunk 998204882b) [x86_64-linux]
+    last_commit=[bundler/bundler] Last relative requires
+  998204882b --jit: |-
+    ruby 2.7.0dev (2019-08-18T04:44:56Z trunk 998204882b) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Last relative requires
+  c50c2354cf: |-
+    ruby 2.7.0dev (2019-08-18T04:45:05Z trunk c50c2354cf) [x86_64-linux]
+    last_commit=[bundler/bundler] Require relatively from exe/ when possible
+  c50c2354cf --jit: |-
+    ruby 2.7.0dev (2019-08-18T04:45:05Z trunk c50c2354cf) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Require relatively from exe/ when possible
+  0653d8c601: |-
+    ruby 2.7.0dev (2019-08-18T04:45:15Z trunk 0653d8c601) [x86_64-linux]
+    last_commit=[bundler/bundler] Fix spec using the deprecated `bundle config` mode
+  0653d8c601 --jit: |-
+    ruby 2.7.0dev (2019-08-18T04:45:15Z trunk 0653d8c601) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Fix spec using the deprecated `bundle config` mode
+  5a69a23afc: |-
+    ruby 2.7.0dev (2019-08-18T04:45:25Z trunk 5a69a23afc) [x86_64-linux]
+    last_commit=[bundler/bundler] Don't use system bundler on this spec
+  5a69a23afc --jit: |-
+    ruby 2.7.0dev (2019-08-18T04:45:25Z trunk 5a69a23afc) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Don't use system bundler on this spec
+  4756c5f7e7: |-
+    ruby 2.7.0dev (2019-08-18T04:45:35Z trunk 4756c5f7e7) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary rubygems monkeypatch
+  4756c5f7e7 --jit: |-
+    ruby 2.7.0dev (2019-08-18T04:45:35Z trunk 4756c5f7e7) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary rubygems monkeypatch
+  683f9e1dbf: |-
+    ruby 2.7.0dev (2019-08-18T04:45:45Z trunk 683f9e1dbf) [x86_64-linux]
+    last_commit=[bundler/bundler] No need to activate the `fileutils` default gem
+  683f9e1dbf --jit: |-
+    ruby 2.7.0dev (2019-08-18T04:45:45Z trunk 683f9e1dbf) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] No need to activate the `fileutils` default gem
+  a77b3b4476: |-
+    ruby 2.7.0dev (2019-08-18T04:45:57Z trunk a77b3b4476) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary require
+  a77b3b4476 --jit: |-
+    ruby 2.7.0dev (2019-08-18T04:45:57Z trunk a77b3b4476) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove unnecessary require
+  d3da1d57d3: |-
+    ruby 2.7.0dev (2019-08-18T06:02:21Z trunk d3da1d57d3) [x86_64-linux]
+    last_commit=Skip open_spec.rb:L95 because ruby repo doesn't have json as default gems.
+  d3da1d57d3 --jit: |-
+    ruby 2.7.0dev (2019-08-18T06:02:21Z trunk d3da1d57d3) +JIT [x86_64-linux]
+    last_commit=Skip open_spec.rb:L95 because ruby repo doesn't have json as default gems.
+  6b42b0c60c: |-
+    ruby 2.7.0dev (2019-08-18T06:39:19Z trunk 6b42b0c60c) [x86_64-linux]
+    last_commit=Fix document of `GC.start` (#2382)
+  6b42b0c60c --jit: |-
+    ruby 2.7.0dev (2019-08-18T06:39:19Z trunk 6b42b0c60c) +JIT [x86_64-linux]
+    last_commit=Fix document of `GC.start` (#2382)
+  cba8166cc1: |-
+    ruby 2.7.0dev (2019-08-18T06:47:19Z trunk cba8166cc1) [x86_64-linux]
+    last_commit=Appveyor - vc120 use OpenSSL 1.0.2, vc140 use 1.1.1 (#1998)
+  cba8166cc1 --jit: |-
+    ruby 2.7.0dev (2019-08-18T06:47:19Z trunk cba8166cc1) +JIT [x86_64-linux]
+    last_commit=Appveyor - vc120 use OpenSSL 1.0.2, vc140 use 1.1.1 (#1998)
+  ad0ea708ca: |-
+    ruby 2.7.0dev (2019-08-18T06:50:03Z trunk ad0ea708ca) [x86_64-linux]
+    last_commit=Drop before_test for mswin too
+  ad0ea708ca --jit: |-
+    ruby 2.7.0dev (2019-08-18T06:50:03Z trunk ad0ea708ca) +JIT [x86_64-linux]
+    last_commit=Drop before_test for mswin too
