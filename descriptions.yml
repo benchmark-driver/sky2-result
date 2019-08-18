@@ -5955,3 +5955,33 @@ commits:
   7bb0a7d7cb --jit: |-
     ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 7bb0a7d7cb) +JIT [x86_64-linux]
     last_commit=Prefer exact ITEM to benchmark
+  e9f82585ee: |-
+    ruby 2.7.0dev (2019-08-17T22:43:19Z trunk e9f82585ee) [x86_64-linux]
+    last_commit=Don't crash when deleting at the end of the line
+  e9f82585ee --jit: |-
+    ruby 2.7.0dev (2019-08-17T22:43:19Z trunk e9f82585ee) +JIT [x86_64-linux]
+    last_commit=Don't crash when deleting at the end of the line
+  0bbbe82986: |-
+    ruby 2.7.0dev (2019-08-17T22:52:49Z trunk 0bbbe82986) [x86_64-linux]
+    last_commit=Fix copy path of ruby/reline's test
+  0bbbe82986 --jit: |-
+    ruby 2.7.0dev (2019-08-17T22:52:49Z trunk 0bbbe82986) +JIT [x86_64-linux]
+    last_commit=Fix copy path of ruby/reline's test
+  113a5c1e1d: |-
+    ruby 2.7.0dev (2019-08-17T23:05:08Z trunk 113a5c1e1d) [x86_64-linux]
+    last_commit=The "exe" dir doesn't exist in this repostiroy
+  113a5c1e1d --jit: |-
+    ruby 2.7.0dev (2019-08-17T23:05:08Z trunk 113a5c1e1d) +JIT [x86_64-linux]
+    last_commit=The "exe" dir doesn't exist in this repostiroy
+  50623f3df0: |-
+    ruby 2.7.0dev (2019-08-17T23:05:14Z trunk 50623f3df0) [x86_64-linux]
+    last_commit=Remove commented out debug print
+  50623f3df0 --jit: |-
+    ruby 2.7.0dev (2019-08-17T23:05:14Z trunk 50623f3df0) +JIT [x86_64-linux]
+    last_commit=Remove commented out debug print
+  a0e80c7cb7: |-
+    ruby 2.7.0dev (2019-08-18T00:30:36Z trunk a0e80c7cb7) [x86_64-linux]
+    last_commit=Drop continue-on-error for make check
+  a0e80c7cb7 --jit: |-
+    ruby 2.7.0dev (2019-08-18T00:30:36Z trunk a0e80c7cb7) +JIT [x86_64-linux]
+    last_commit=Drop continue-on-error for make check

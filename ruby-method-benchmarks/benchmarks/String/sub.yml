@@ -1140,6 +1140,8 @@ results:
     0176e74d6c: 3384084.933
     f811a5e910: 3364108.702
     badfbdf32c: 3355243.275
+    '03958a0c0d': 3431543.364
+    94e26a97a1: 3453946.856
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2279,6 +2281,8 @@ results:
     0176e74d6c: 3412635.271
     f811a5e910: 3385899.865
     badfbdf32c: 3305725.76
+    '03958a0c0d': 3419175.319
+    94e26a97a1: 3396140.258
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3418,6 +3422,8 @@ results:
     0176e74d6c: 1877271.108
     f811a5e910: 1902642.185
     badfbdf32c: 1869932.606
+    '03958a0c0d': 1889097.911
+    94e26a97a1: 1894840.683
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4557,6 +4563,8 @@ results:
     0176e74d6c: 2706228.724
     f811a5e910: 2778021.082
     badfbdf32c: 2403928.186
+    '03958a0c0d': 2803373.685
+    94e26a97a1: 2816097.21
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5696,6 +5704,8 @@ results:
     0176e74d6c: 3712450.306
     f811a5e910: 3661089.449
     badfbdf32c: 3699769.222
+    '03958a0c0d': 3740205.892
+    94e26a97a1: 3730979.887
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -6835,6 +6845,8 @@ results:
     0176e74d6c: 3692030.602
     f811a5e910: 3637460.556
     badfbdf32c: 3711973.496
+    '03958a0c0d': 3697469.045
+    94e26a97a1: 3690347.02
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -7974,6 +7986,8 @@ results:
     0176e74d6c: 1904670.93
     f811a5e910: 1996714.291
     badfbdf32c: 1893321.349
+    '03958a0c0d': 2008138.91
+    94e26a97a1: 2004432.353
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -9113,3 +9127,5 @@ results:
     0176e74d6c: 2873941.897
     f811a5e910: 2983930.429
     badfbdf32c: 2837253.314
+    '03958a0c0d': 2987921.835
+    94e26a97a1: 3011552.763
