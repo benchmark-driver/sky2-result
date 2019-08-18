@@ -1142,6 +1142,8 @@ results:
     badfbdf32c: 3355243.275
     '03958a0c0d': 3431543.364
     94e26a97a1: 3453946.856
+    71efad1ed3: 3441303.209
+    146cf2f444: 3340748.935
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2283,6 +2285,8 @@ results:
     badfbdf32c: 3305725.76
     '03958a0c0d': 3419175.319
     94e26a97a1: 3396140.258
+    71efad1ed3: 3392985.298
+    146cf2f444: 3463288.463
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3424,6 +3428,8 @@ results:
     badfbdf32c: 1869932.606
     '03958a0c0d': 1889097.911
     94e26a97a1: 1894840.683
+    71efad1ed3: 1869005.147
+    146cf2f444: 1886103.079
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4565,6 +4571,8 @@ results:
     badfbdf32c: 2403928.186
     '03958a0c0d': 2803373.685
     94e26a97a1: 2816097.21
+    71efad1ed3: 2752176.021
+    146cf2f444: 2840994.653
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5706,6 +5714,8 @@ results:
     badfbdf32c: 3699769.222
     '03958a0c0d': 3740205.892
     94e26a97a1: 3730979.887
+    71efad1ed3: 3708590.237
+    146cf2f444: 3750984.939
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -6847,6 +6857,8 @@ results:
     badfbdf32c: 3711973.496
     '03958a0c0d': 3697469.045
     94e26a97a1: 3690347.02
+    71efad1ed3: 3613915.022
+    146cf2f444: 3747983.852
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -7988,6 +8000,8 @@ results:
     badfbdf32c: 1893321.349
     '03958a0c0d': 2008138.91
     94e26a97a1: 2004432.353
+    71efad1ed3: 2012099.53
+    146cf2f444: 1980192.032
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -9129,3 +9143,5 @@ results:
     badfbdf32c: 2837253.314
     '03958a0c0d': 2987921.835
     94e26a97a1: 3011552.763
+    71efad1ed3: 2870688.63
+    146cf2f444: 2925688.988
