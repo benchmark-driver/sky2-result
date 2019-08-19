@@ -5967,3 +5967,69 @@ commits:
   1bd60c66d3 --jit: |-
     ruby 2.7.0dev (2019-08-19T06:55:53Z trunk 1bd60c66d3) +JIT [x86_64-linux]
     last_commit=Fix FL_USER19
+  8108594f47: |-
+    ruby 2.7.0dev (2019-08-19T07:18:54Z trunk 8108594f47) [x86_64-linux]
+    last_commit=unsigned int should have enough bits for rb_thread_shield_waiting
+  8108594f47 --jit: |-
+    ruby 2.7.0dev (2019-08-19T07:18:54Z trunk 8108594f47) +JIT [x86_64-linux]
+    last_commit=unsigned int should have enough bits for rb_thread_shield_waiting
+  b4daa44270: |-
+    ruby 2.7.0dev (2019-08-19T07:32:57Z trunk b4daa44270) [x86_64-linux]
+    last_commit=Use modifier for pid_t
+  b4daa44270 --jit: |-
+    ruby 2.7.0dev (2019-08-19T07:32:57Z trunk b4daa44270) +JIT [x86_64-linux]
+    last_commit=Use modifier for pid_t
+  45454bdb8b: |-
+    ruby 2.7.0dev (2019-08-19T07:39:42Z trunk 45454bdb8b) [x86_64-linux]
+    last_commit=Prefer Regexp#=~ to Regexp#match when the RHS may be nil
+  45454bdb8b --jit: |-
+    ruby 2.7.0dev (2019-08-19T07:39:42Z trunk 45454bdb8b) +JIT [x86_64-linux]
+    last_commit=Prefer Regexp#=~ to Regexp#match when the RHS may be nil
+  605d2ce9b9: |-
+    ruby 2.7.0dev (2019-08-19T08:30:59Z trunk 605d2ce9b9) [x86_64-linux]
+    last_commit=Accurate a sample to show having some ext (#2385)
+  605d2ce9b9 --jit: |-
+    ruby 2.7.0dev (2019-08-19T08:30:59Z trunk 605d2ce9b9) +JIT [x86_64-linux]
+    last_commit=Accurate a sample to show having some ext (#2385)
+  6dd9736c3a: |-
+    ruby 2.7.0dev (2019-08-19T08:36:28Z trunk 6dd9736c3a) [x86_64-linux]
+    last_commit=crash report on mac little update
+  6dd9736c3a --jit: |-
+    ruby 2.7.0dev (2019-08-19T08:36:28Z trunk 6dd9736c3a) +JIT [x86_64-linux]
+    last_commit=crash report on mac little update
+  355acbafde: |-
+    ruby 2.7.0dev (2019-08-19T08:52:20Z trunk 355acbafde) [x86_64-linux]
+    last_commit=Update the canonical repository url
+  355acbafde --jit: |-
+    ruby 2.7.0dev (2019-08-19T08:52:20Z trunk 355acbafde) +JIT [x86_64-linux]
+    last_commit=Update the canonical repository url
+  cda8664471: |-
+    ruby 2.7.0dev (2019-08-19T09:00:29Z trunk cda8664471) [x86_64-linux]
+    last_commit=Update a sample code (#2387)
+  cda8664471 --jit: |-
+    ruby 2.7.0dev (2019-08-19T09:00:29Z trunk cda8664471) +JIT [x86_64-linux]
+    last_commit=Update a sample code (#2387)
+  97c377e2b1: |-
+    ruby 2.7.0dev (2019-08-19T09:13:09Z trunk 97c377e2b1) [x86_64-linux]
+    last_commit=Mark Travis osx cron-only
+  97c377e2b1 --jit: |-
+    ruby 2.7.0dev (2019-08-19T09:13:09Z trunk 97c377e2b1) +JIT [x86_64-linux]
+    last_commit=Mark Travis osx cron-only
+  9b330200f8: |-
+    ruby 2.7.0dev (2019-08-19T09:16:45Z trunk 9b330200f8) [x86_64-linux]
+    last_commit=Remove unused variable to suppress warning (#2388) [ci skip]
+  9b330200f8 --jit: |-
+    ruby 2.7.0dev (2019-08-19T09:16:45Z trunk 9b330200f8) +JIT [x86_64-linux]
+    last_commit=Remove unused variable to suppress warning (#2388) [ci skip]
+  209ea85b54: |-
+    ruby 2.7.0dev (2019-08-19T09:37:22Z trunk 209ea85b54) [x86_64-linux]
+    last_commit=Make portable for standalone test-unit gem.
+  209ea85b54 --jit: |-
+    ruby 2.7.0dev (2019-08-19T09:37:22Z trunk 209ea85b54) +JIT [x86_64-linux]
+    last_commit=Make portable for standalone test-unit gem.
+  8882986d97: |-
+    ruby 2.7.0dev (2019-08-19T09:43:23Z trunk 8882986d97) [x86_64-linux]
+    last_commit=Drop duplicated sample code (#2389) [ci skip]
+  8882986d97 --jit: |-
+    ruby 2.7.0dev (2019-08-19T09:43:23Z trunk 8882986d97) +JIT [x86_64-linux]
+    last_commit=Drop duplicated sample code (#2389) [ci skip]
