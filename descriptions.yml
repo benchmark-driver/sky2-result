@@ -9,108 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  929fa856ef: |-
-    ruby 2.7.0dev (2019-07-15T04:45:14Z trunk 929fa856ef) [x86_64-linux]
-    last_commit=Add tool/leaked-globals to .gitattributes [ci skip]
-  929fa856ef --jit: |-
-    ruby 2.7.0dev (2019-07-15T04:45:14Z trunk 929fa856ef) +JIT [x86_64-linux]
-    last_commit=Add tool/leaked-globals to .gitattributes [ci skip]
-  d1e2650aca: |-
-    ruby 2.7.0dev (2019-07-15T04:49:15Z trunk d1e2650aca) [x86_64-linux]
-    last_commit=Force-fetch unicode update only when it's needed
-  d1e2650aca --jit: |-
-    ruby 2.7.0dev (2019-07-15T04:49:15Z trunk d1e2650aca) +JIT [x86_64-linux]
-    last_commit=Force-fetch unicode update only when it's needed
-  9c38904ead: |-
-    ruby 2.7.0dev (2019-07-15T04:57:23Z trunk 9c38904ead) [x86_64-linux]
-    last_commit=Use consistent fetchDepth for all jobs
-  9c38904ead --jit: |-
-    ruby 2.7.0dev (2019-07-15T04:57:23Z trunk 9c38904ead) +JIT [x86_64-linux]
-    last_commit=Use consistent fetchDepth for all jobs
-  62f34bd1fe: |-
-    ruby 2.7.0dev (2019-07-15T04:59:02Z trunk 62f34bd1fe) [x86_64-linux]
-    last_commit=doc/globals.rdoc: Add deprecated to TRUE,FALSE,NIL [ci skip]
-  62f34bd1fe --jit: |-
-    ruby 2.7.0dev (2019-07-15T04:59:02Z trunk 62f34bd1fe) +JIT [x86_64-linux]
-    last_commit=doc/globals.rdoc: Add deprecated to TRUE,FALSE,NIL [ci skip]
-  5353401c25: |-
-    ruby 2.7.0dev (2019-07-15T05:08:17Z trunk 5353401c25) [x86_64-linux]
-    last_commit=thread.c (rb_thread_shield_waiting_{inc,dec}): prefer long to int
-  5353401c25 --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:08:17Z trunk 5353401c25) +JIT [x86_64-linux]
-    last_commit=thread.c (rb_thread_shield_waiting_{inc,dec}): prefer long to int
-  711dfec3fa: |-
-    ruby 2.7.0dev (2019-07-15T05:08:17Z trunk 711dfec3fa) [x86_64-linux]
-    last_commit=parse.y (here_document): remove dead code
-  711dfec3fa --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:08:17Z trunk 711dfec3fa) +JIT [x86_64-linux]
-    last_commit=parse.y (here_document): remove dead code
-  e4c1b19996: |-
-    ruby 2.7.0dev (2019-07-15T05:17:27Z trunk e4c1b19996) [x86_64-linux]
-    last_commit=add tests for orphan/not-orphan proc/lambda.
-  e4c1b19996 --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:17:27Z trunk e4c1b19996) +JIT [x86_64-linux]
-    last_commit=add tests for orphan/not-orphan proc/lambda.
-  3dc212896c: |-
-    ruby 2.7.0dev (2019-07-15T05:29:47Z trunk 3dc212896c) [x86_64-linux]
-    last_commit=check return value of blocking_region_begin().
-  3dc212896c --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:29:47Z trunk 3dc212896c) +JIT [x86_64-linux]
-    last_commit=check return value of blocking_region_begin().
-  99c14fb694: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 99c14fb694) [x86_64-linux]
-    last_commit=[ruby/logger] remove files that dont need to be included in gem releases
-  99c14fb694 --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 99c14fb694) +JIT [x86_64-linux]
-    last_commit=[ruby/logger] remove files that dont need to be included in gem releases
-  b9ba07a05c: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk b9ba07a05c) [x86_64-linux]
-    last_commit=[ruby/logger] dont lock bundler to a specific version in travis
-  b9ba07a05c --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk b9ba07a05c) +JIT [x86_64-linux]
-    last_commit=[ruby/logger] dont lock bundler to a specific version in travis
-  227eae79ac: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 227eae79ac) [x86_64-linux]
-    last_commit=[ruby/logger] Say that logger requires ruby >= 2.3
-  227eae79ac --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 227eae79ac) +JIT [x86_64-linux]
-    last_commit=[ruby/logger] Say that logger requires ruby >= 2.3
-  310198d6be: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 310198d6be) [x86_64-linux]
-    last_commit=[ruby/logger] Add missing closing " https://github.com/ruby/logger/commit/b4b3caae40
-  310198d6be --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 310198d6be) +JIT [x86_64-linux]
-    last_commit=[ruby/logger] Add missing closing " https://github.com/ruby/logger/commit/b4b3caae40
-  47500f2055: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 47500f2055) [x86_64-linux]
-    last_commit=[ruby/logger] Add support for changing severity using bang methods.
-  47500f2055 --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 47500f2055) +JIT [x86_64-linux]
-    last_commit=[ruby/logger] Add support for changing severity using bang methods.
-  136196785b: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 136196785b) [x86_64-linux]
-    last_commit=[ruby/logger] Fix to use logger and test-unit in this repo with
-  136196785b --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 136196785b) +JIT [x86_64-linux]
-    last_commit=[ruby/logger] Fix to use logger and test-unit in this repo with
-  bbe157f340: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk bbe157f340) [x86_64-linux]
-    last_commit=[ruby/logger] split logger classes/modules into separate files
-  bbe157f340 --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk bbe157f340) +JIT [x86_64-linux]
-    last_commit=[ruby/logger] split logger classes/modules into separate files
-  7f10da9d27: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 7f10da9d27) [x86_64-linux]
-    last_commit=[ruby/logger] require 'logger/errors' just for compat
-  7f10da9d27 --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 7f10da9d27) +JIT [x86_64-linux]
-    last_commit=[ruby/logger] require 'logger/errors' just for compat
-  7ef0856287: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 7ef0856287) [x86_64-linux]
-    last_commit=[ruby/logger] Update logger.gemspec
-  7ef0856287 --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 7ef0856287) +JIT [x86_64-linux]
-    last_commit=[ruby/logger] Update logger.gemspec
   3fdb963827: |-
     ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 3fdb963827) [x86_64-linux]
     last_commit=[ruby/logger] Prefer require_relative, it's a little bit faster.
@@ -6021,3 +5919,51 @@ commits:
   bc1e2271af --jit: |-
     ruby 2.7.0dev (2019-08-19T01:07:05Z trunk bc1e2271af) +JIT [x86_64-linux]
     last_commit=lib/rdoc/markup/parser.rb: remove a unused variable initialization
+  574a9edfb3: |-
+    ruby 2.7.0dev (2019-08-19T05:34:13Z trunk 574a9edfb3) [x86_64-linux]
+    last_commit=Set flag to allow unprivileged users to create symlinks (#2381)
+  574a9edfb3 --jit: |-
+    ruby 2.7.0dev (2019-08-19T05:34:13Z trunk 574a9edfb3) +JIT [x86_64-linux]
+    last_commit=Set flag to allow unprivileged users to create symlinks (#2381)
+  1f3f50fb5e: |-
+    ruby 2.7.0dev (2019-08-19T05:34:29Z trunk 1f3f50fb5e) [x86_64-linux]
+    last_commit=* expand tabs. [ci skip]
+  1f3f50fb5e --jit: |-
+    ruby 2.7.0dev (2019-08-19T05:34:29Z trunk 1f3f50fb5e) +JIT [x86_64-linux]
+    last_commit=* expand tabs. [ci skip]
+  d76be10df1: |-
+    ruby 2.7.0dev (2019-08-19T05:43:55Z trunk d76be10df1) [x86_64-linux]
+    last_commit=missing/memcmp.c: suppress a `-Wparentheses` warning
+  d76be10df1 --jit: |-
+    ruby 2.7.0dev (2019-08-19T05:43:55Z trunk d76be10df1) +JIT [x86_64-linux]
+    last_commit=missing/memcmp.c: suppress a `-Wparentheses` warning
+  39a43d9cd0: |-
+    ruby 2.7.0dev (2019-08-19T05:51:00Z trunk 39a43d9cd0) [x86_64-linux]
+    last_commit=Make it as clear as possible that RubyVM is MRI-specific and only exists on MRI (#2113) [ci skip]
+  39a43d9cd0 --jit: |-
+    ruby 2.7.0dev (2019-08-19T05:51:00Z trunk 39a43d9cd0) +JIT [x86_64-linux]
+    last_commit=Make it as clear as possible that RubyVM is MRI-specific and only exists on MRI (#2113) [ci skip]
+  6c2aa8689a: |-
+    ruby 2.7.0dev (2019-08-19T05:59:59Z trunk 6c2aa8689a) [x86_64-linux]
+    last_commit=Roughly retry `brew update`
+  6c2aa8689a --jit: |-
+    ruby 2.7.0dev (2019-08-19T05:59:59Z trunk 6c2aa8689a) +JIT [x86_64-linux]
+    last_commit=Roughly retry `brew update`
+  c5db4c28f9: |-
+    ruby 2.7.0dev (2019-08-19T06:01:48Z trunk c5db4c28f9) [x86_64-linux]
+    last_commit=cont.c: remove unused STACK_GROW_DIR_DETECTION
+  c5db4c28f9 --jit: |-
+    ruby 2.7.0dev (2019-08-19T06:01:48Z trunk c5db4c28f9) +JIT [x86_64-linux]
+    last_commit=cont.c: remove unused STACK_GROW_DIR_DETECTION
+  4515bcc922: |-
+    ruby 2.7.0dev (2019-08-19T06:37:28Z trunk 4515bcc922) [x86_64-linux]
+    last_commit=Omit version.h when merging
+  4515bcc922 --jit: |-
+    ruby 2.7.0dev (2019-08-19T06:37:28Z trunk 4515bcc922) +JIT [x86_64-linux]
+    last_commit=Omit version.h when merging
+  1bd60c66d3: |-
+    ruby 2.7.0dev (2019-08-19T06:55:53Z trunk 1bd60c66d3) [x86_64-linux]
+    last_commit=Fix FL_USER19
+  1bd60c66d3 --jit: |-
+    ruby 2.7.0dev (2019-08-19T06:55:53Z trunk 1bd60c66d3) +JIT [x86_64-linux]
+    last_commit=Fix FL_USER19
