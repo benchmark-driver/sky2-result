@@ -5967,3 +5967,15 @@ commits:
   45bed2850e --jit: |-
     ruby 2.7.0dev (2019-08-19T10:37:07Z trunk 45bed2850e) +JIT [x86_64-linux]
     last_commit=Reduce sub-shell and use `&&` instead of `;`
+  8df25214de: |-
+    ruby 2.7.0dev (2019-08-19T15:17:26Z trunk 8df25214de) [x86_64-linux]
+    last_commit=io.c: make ioctl_req_t int in Android
+  8df25214de --jit: |-
+    ruby 2.7.0dev (2019-08-19T15:17:26Z trunk 8df25214de) +JIT [x86_64-linux]
+    last_commit=io.c: make ioctl_req_t int in Android
+  1408f15921: |-
+    ruby 2.7.0dev (2019-08-19T15:21:17Z trunk 1408f15921) [x86_64-linux]
+    last_commit=* 2019-08-20 [ci skip]
+  1408f15921 --jit: |-
+    ruby 2.7.0dev (2019-08-19T15:21:17Z trunk 1408f15921) +JIT [x86_64-linux]
+    last_commit=* 2019-08-20 [ci skip]

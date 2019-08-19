@@ -1160,6 +1160,8 @@ results:
     f4064a0a0c: 3391615.067
     0a0760aa63: 3065938.366
     2990c2cc3e: 3421896.469
+    4af3665fd9: 3430532.134
+    ed2f2b4f98: 3394101.666
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2319,6 +2321,8 @@ results:
     f4064a0a0c: 3375074.942
     0a0760aa63: 3385521.374
     2990c2cc3e: 3432297.315
+    4af3665fd9: 3407169.84
+    ed2f2b4f98: 3388902.214
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3478,6 +3482,8 @@ results:
     f4064a0a0c: 1804533.91
     0a0760aa63: 1715618.086
     2990c2cc3e: 1848227.357
+    4af3665fd9: 1566154.925
+    ed2f2b4f98: 1870779.962
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4637,6 +4643,8 @@ results:
     f4064a0a0c: 2758452.519
     0a0760aa63: 2819184.125
     2990c2cc3e: 2841279.54
+    4af3665fd9: 2813969.771
+    ed2f2b4f98: 2661180.507
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5796,6 +5804,8 @@ results:
     f4064a0a0c: 3672936.151
     0a0760aa63: 3728288.697
     2990c2cc3e: 3626539.508
+    4af3665fd9: 3733500.362
+    ed2f2b4f98: 3686573.154
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -6955,6 +6965,8 @@ results:
     f4064a0a0c: 3694034.065
     0a0760aa63: 3001365.474
     2990c2cc3e: 3513876.673
+    4af3665fd9: 3673821.523
+    ed2f2b4f98: 3678710.472
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -8114,6 +8126,8 @@ results:
     f4064a0a0c: 1940498.105
     0a0760aa63: 2016905.059
     2990c2cc3e: 1936452.836
+    4af3665fd9: 1967251.636
+    ed2f2b4f98: 1948159.929
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -9273,3 +9287,5 @@ results:
     f4064a0a0c: 2949842.095
     0a0760aa63: 2561044.666
     2990c2cc3e: 3001616.165
+    4af3665fd9: 3009587.4
+    ed2f2b4f98: 2857445.426
