@@ -9,78 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  3fdb963827: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 3fdb963827) [x86_64-linux]
-    last_commit=[ruby/logger] Prefer require_relative, it's a little bit faster.
-  3fdb963827 --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:07Z trunk 3fdb963827) +JIT [x86_64-linux]
-    last_commit=[ruby/logger] Prefer require_relative, it's a little bit faster.
-  2c22051b4b: |-
-    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk 2c22051b4b) [x86_64-linux]
-    last_commit=[ruby/logger] Enable `frozen_string_literal: true` in `logger.rb`.
-  2c22051b4b --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk 2c22051b4b) +JIT [x86_64-linux]
-    last_commit=[ruby/logger] Enable `frozen_string_literal: true` in `logger.rb`.
-  f4064a0a0c: |-
-    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk f4064a0a0c) [x86_64-linux]
-    last_commit=[ruby/logger] Set filename when initializing logger with a File object
-  f4064a0a0c --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk f4064a0a0c) +JIT [x86_64-linux]
-    last_commit=[ruby/logger] Set filename when initializing logger with a File object
-  58065b8701: |-
-    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk 58065b8701) [x86_64-linux]
-    last_commit=[ruby/logger] Add option to set the binary mode of the log device
-  58065b8701 --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk 58065b8701) +JIT [x86_64-linux]
-    last_commit=[ruby/logger] Add option to set the binary mode of the log device
-  1b59ed9b49: |-
-    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk 1b59ed9b49) [x86_64-linux]
-    last_commit=Move helper file of logger to under the test/logger.
-  1b59ed9b49 --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk 1b59ed9b49) +JIT [x86_64-linux]
-    last_commit=Move helper file of logger to under the test/logger.
-  0eafa1dce8: |-
-    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk 0eafa1dce8) [x86_64-linux]
-    last_commit=Fixed inconsitency locations of default gems.
-  0eafa1dce8 --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:08Z trunk 0eafa1dce8) +JIT [x86_64-linux]
-    last_commit=Fixed inconsitency locations of default gems.
-  4b345f9d4b: |-
-    ruby 2.7.0dev (2019-07-15T05:43:24Z trunk 4b345f9d4b) [x86_64-linux]
-    last_commit=compile.c: ignore the result of COMPILE by marking with NO_CHECK
-  4b345f9d4b --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:24Z trunk 4b345f9d4b) +JIT [x86_64-linux]
-    last_commit=compile.c: ignore the result of COMPILE by marking with NO_CHECK
-  f103ed8b7d: |-
-    ruby 2.7.0dev (2019-07-15T05:43:39Z trunk f103ed8b7d) [x86_64-linux]
-    last_commit=* expand tabs.
-  f103ed8b7d --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:43:39Z trunk f103ed8b7d) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  '036039c8a2': |-
-    ruby 2.7.0dev (2019-07-15T05:45:30Z trunk 036039c8a2) [x86_64-linux]
-    last_commit=Fixed LoadError of version file.
-  '036039c8a2 --jit': |-
-    ruby 2.7.0dev (2019-07-15T05:45:30Z trunk 036039c8a2) +JIT [x86_64-linux]
-    last_commit=Fixed LoadError of version file.
-  5349aa23c8: |-
-    ruby 2.7.0dev (2019-07-15T05:47:47Z trunk 5349aa23c8) [x86_64-linux]
-    last_commit=Also fixed up with 036039c8a29d3d8045207c111f9bbc481c904998
-  5349aa23c8 --jit: |-
-    ruby 2.7.0dev (2019-07-15T05:47:47Z trunk 5349aa23c8) +JIT [x86_64-linux]
-    last_commit=Also fixed up with 036039c8a29d3d8045207c111f9bbc481c904998
-  f73ea3342b: |-
-    ruby 2.7.0dev (2019-07-15T06:07:26Z trunk f73ea3342b) [x86_64-linux]
-    last_commit=Fixed ruby/spec for Logger::LogDevice changes.
-  f73ea3342b --jit: |-
-    ruby 2.7.0dev (2019-07-15T06:07:26Z trunk f73ea3342b) +JIT [x86_64-linux]
-    last_commit=Fixed ruby/spec for Logger::LogDevice changes.
-  3a1d3556e2: |-
-    ruby 2.7.0dev (2019-07-15T06:46:08Z trunk 3a1d3556e2) [x86_64-linux]
-    last_commit=Fix a typo of Markdown of NEWS
-  3a1d3556e2 --jit: |-
-    ruby 2.7.0dev (2019-07-15T06:46:08Z trunk 3a1d3556e2) +JIT [x86_64-linux]
-    last_commit=Fix a typo of Markdown of NEWS
   574e8a6812: |-
     ruby 2.7.0dev (2019-07-15T06:49:59Z trunk 574e8a6812) [x86_64-linux]
     last_commit=Add Reline section to NEWS
@@ -6033,3 +5961,9 @@ commits:
   8882986d97 --jit: |-
     ruby 2.7.0dev (2019-08-19T09:43:23Z trunk 8882986d97) +JIT [x86_64-linux]
     last_commit=Drop duplicated sample code (#2389) [ci skip]
+  45bed2850e: |-
+    ruby 2.7.0dev (2019-08-19T10:37:07Z trunk 45bed2850e) [x86_64-linux]
+    last_commit=Reduce sub-shell and use `&&` instead of `;`
+  45bed2850e --jit: |-
+    ruby 2.7.0dev (2019-08-19T10:37:07Z trunk 45bed2850e) +JIT [x86_64-linux]
+    last_commit=Reduce sub-shell and use `&&` instead of `;`
