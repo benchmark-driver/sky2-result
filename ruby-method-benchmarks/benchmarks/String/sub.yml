@@ -1163,6 +1163,8 @@ results:
     4af3665fd9: 3430532.134
     ed2f2b4f98: 3394101.666
     7b727e30fc: 3423102.242
+    d5c60214c4: 3336741.766
+    b6f07f748a: 3443730.439
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2325,6 +2327,8 @@ results:
     4af3665fd9: 3407169.84
     ed2f2b4f98: 3388902.214
     7b727e30fc: 3413446.606
+    d5c60214c4: 3428892.66
+    b6f07f748a: 3370676.008
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3487,6 +3491,8 @@ results:
     4af3665fd9: 1566154.925
     ed2f2b4f98: 1870779.962
     7b727e30fc: 1848636.346
+    d5c60214c4: 1943924.909
+    b6f07f748a: 1907461.589
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4649,6 +4655,8 @@ results:
     4af3665fd9: 2813969.771
     ed2f2b4f98: 2661180.507
     7b727e30fc: 2802886.383
+    d5c60214c4: 2801117.629
+    b6f07f748a: 2713380.201
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5811,6 +5819,8 @@ results:
     4af3665fd9: 3733500.362
     ed2f2b4f98: 3686573.154
     7b727e30fc: 3580160.843
+    d5c60214c4: 3746358.41
+    b6f07f748a: 3754751.857
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -6973,6 +6983,8 @@ results:
     4af3665fd9: 3673821.523
     ed2f2b4f98: 3678710.472
     7b727e30fc: 3590680.743
+    d5c60214c4: 3735748.328
+    b6f07f748a: 3699335.01
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -8135,6 +8147,8 @@ results:
     4af3665fd9: 1967251.636
     ed2f2b4f98: 1948159.929
     7b727e30fc: 1980669.646
+    d5c60214c4: 2021482.172
+    b6f07f748a: 1964559.834
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -9297,3 +9311,5 @@ results:
     4af3665fd9: 3009587.4
     ed2f2b4f98: 2857445.426
     7b727e30fc: 2904750.275
+    d5c60214c4: 2982585.959
+    b6f07f748a: 3012525.362
