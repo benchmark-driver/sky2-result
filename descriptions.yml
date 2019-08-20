@@ -5991,3 +5991,27 @@ commits:
   73af1c4d00 --jit: |-
     ruby 2.7.0dev (2019-08-20T08:00:13Z trunk 73af1c4d00) +JIT [x86_64-linux]
     last_commit=[rubygems/rubygems] Use `RbConfig::CONFIG['rubylibprefix']`
+  7a07c54bef: |-
+    ruby 2.7.0dev (2019-08-20T10:29:35Z trunk 7a07c54bef) [x86_64-linux]
+    last_commit=Subjects may contain a comma [ci skip]
+  7a07c54bef --jit: |-
+    ruby 2.7.0dev (2019-08-20T10:29:35Z trunk 7a07c54bef) +JIT [x86_64-linux]
+    last_commit=Subjects may contain a comma [ci skip]
+  af12172035: |-
+    ruby 2.7.0dev (2019-08-20T10:29:43Z trunk af12172035) [x86_64-linux]
+    last_commit=Removed unused literal assignments [ci skip]
+  af12172035 --jit: |-
+    ruby 2.7.0dev (2019-08-20T10:29:43Z trunk af12172035) +JIT [x86_64-linux]
+    last_commit=Removed unused literal assignments [ci skip]
+  '9557069299': |-
+    ruby 2.7.0dev (2019-08-20T13:08:41Z trunk 9557069299) [x86_64-linux]
+    last_commit=Avoid creating Hash objects per each mon_synchronize call (#2393)
+  9557069299 --jit: |-
+    ruby 2.7.0dev (2019-08-20T13:08:41Z trunk 9557069299) +JIT [x86_64-linux]
+    last_commit=Avoid creating Hash objects per each mon_synchronize call (#2393)
+  235d810c2e: |-
+    ruby 2.7.0dev (2019-08-20T13:33:32Z trunk 235d810c2e) [x86_64-linux]
+    last_commit=Deprecate alerting multiple channels
+  235d810c2e --jit: |-
+    ruby 2.7.0dev (2019-08-20T13:33:32Z trunk 235d810c2e) +JIT [x86_64-linux]
+    last_commit=Deprecate alerting multiple channels
