@@ -5985,3 +5985,27 @@ commits:
   3df9f3cc13 --jit: |-
     ruby 2.7.0dev (2019-08-21T07:20:31Z trunk 3df9f3cc13) +JIT [x86_64-linux]
     last_commit=Separated initializing IDs
+  c030cec7ca: |-
+    ruby 2.7.0dev (2019-08-21T14:13:22Z trunk c030cec7ca) [x86_64-linux]
+    last_commit=Debug GitHub context on broken notification
+  c030cec7ca --jit: |-
+    ruby 2.7.0dev (2019-08-21T14:13:22Z trunk c030cec7ca) +JIT [x86_64-linux]
+    last_commit=Debug GitHub context on broken notification
+  74c6662af5: |-
+    ruby 2.7.0dev (2019-08-21T15:19:55Z trunk 74c6662af5) [x86_64-linux]
+    last_commit=Hoisted out rb_digest_namespace
+  74c6662af5 --jit: |-
+    ruby 2.7.0dev (2019-08-21T15:19:55Z trunk 74c6662af5) +JIT [x86_64-linux]
+    last_commit=Hoisted out rb_digest_namespace
+  a963851100: |-
+    ruby 2.7.0dev (2019-08-21T15:19:56Z trunk a963851100) [x86_64-linux]
+    last_commit=Hoisted out rb_id_metadata
+  a963851100 --jit: |-
+    ruby 2.7.0dev (2019-08-21T15:19:56Z trunk a963851100) +JIT [x86_64-linux]
+    last_commit=Hoisted out rb_id_metadata
+  6bdb65c0e6: |-
+    ruby 2.7.0dev (2019-08-21T15:20:27Z trunk 6bdb65c0e6) [x86_64-linux]
+    last_commit=* 2019-08-22 [ci skip]
+  6bdb65c0e6 --jit: |-
+    ruby 2.7.0dev (2019-08-21T15:20:27Z trunk 6bdb65c0e6) +JIT [x86_64-linux]
+    last_commit=* 2019-08-22 [ci skip]
