@@ -9,54 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  76c6cf2cbc: |-
-    ruby 2.7.0dev (2019-07-16T08:23:43Z trunk 76c6cf2cbc) [x86_64-linux]
-    last_commit=Print debugging information when updating failed
-  76c6cf2cbc --jit: |-
-    ruby 2.7.0dev (2019-07-16T08:23:43Z trunk 76c6cf2cbc) +JIT [x86_64-linux]
-    last_commit=Print debugging information when updating failed
-  19d592dc82: |-
-    ruby 2.7.0dev (2019-07-16T09:41:11Z trunk 19d592dc82) [x86_64-linux]
-    last_commit=Somehow `if` didn't work
-  19d592dc82 --jit: |-
-    ruby 2.7.0dev (2019-07-16T09:41:11Z trunk 19d592dc82) +JIT [x86_64-linux]
-    last_commit=Somehow `if` didn't work
-  8deabcd328: |-
-    ruby 2.7.0dev (2019-07-16T09:42:56Z trunk 8deabcd328) [x86_64-linux]
-    last_commit=Constified afamily functions
-  8deabcd328 --jit: |-
-    ruby 2.7.0dev (2019-07-16T09:42:56Z trunk 8deabcd328) +JIT [x86_64-linux]
-    last_commit=Constified afamily functions
-  e988048e25: |-
-    ruby 2.7.0dev (2019-07-16T09:57:08Z trunk e988048e25) [x86_64-linux]
-    last_commit=Moved the check for `exception` to rb_execarg_addopt
-  e988048e25 --jit: |-
-    ruby 2.7.0dev (2019-07-16T09:57:08Z trunk e988048e25) +JIT [x86_64-linux]
-    last_commit=Moved the check for `exception` to rb_execarg_addopt
-  d8e23a67c3: |-
-    ruby 2.7.0dev (2019-07-16T10:27:22Z trunk d8e23a67c3) [x86_64-linux]
-    last_commit=nil as the default of optional parameters
-  d8e23a67c3 --jit: |-
-    ruby 2.7.0dev (2019-07-16T10:27:22Z trunk d8e23a67c3) +JIT [x86_64-linux]
-    last_commit=nil as the default of optional parameters
-  d45d448d71: |-
-    ruby 2.7.0dev (2019-07-16T12:38:25Z trunk d45d448d71) [x86_64-linux]
-    last_commit=nil as the default of optional parameters
-  d45d448d71 --jit: |-
-    ruby 2.7.0dev (2019-07-16T12:38:25Z trunk d45d448d71) +JIT [x86_64-linux]
-    last_commit=nil as the default of optional parameters
-  6ab95fb741: |-
-    ruby 2.7.0dev (2019-07-16T13:03:25Z trunk 6ab95fb741) [x86_64-linux]
-    last_commit=Removed twisted tests
-  6ab95fb741 --jit: |-
-    ruby 2.7.0dev (2019-07-16T13:03:25Z trunk 6ab95fb741) +JIT [x86_64-linux]
-    last_commit=Removed twisted tests
-  ed2f2b4f98: |-
-    ruby 2.7.0dev (2019-07-16T22:28:17Z trunk ed2f2b4f98) [x86_64-linux]
-    last_commit=Named the backward compatible dump size
-  ed2f2b4f98 --jit: |-
-    ruby 2.7.0dev (2019-07-16T22:28:17Z trunk ed2f2b4f98) +JIT [x86_64-linux]
-    last_commit=Named the backward compatible dump size
   f487e5b7a4: |-
     ruby 2.7.0dev (2019-07-16T23:34:19Z trunk f487e5b7a4) [x86_64-linux]
     last_commit=Expanded buf to copy at once
