@@ -5967,3 +5967,51 @@ commits:
   864f23a457 --jit: |-
     ruby 2.7.0dev (2019-08-20T16:04:27Z trunk 864f23a457) +JIT [x86_64-linux]
     last_commit=* 2019-08-21 [ci skip]
+  5ea08883cf: |-
+    ruby 2.7.0dev (2019-08-20T22:58:46Z trunk 5ea08883cf) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove old rubies stuff no longer needed
+  5ea08883cf --jit: |-
+    ruby 2.7.0dev (2019-08-20T22:58:46Z trunk 5ea08883cf) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove old rubies stuff no longer needed
+  bcc4ac924d: |-
+    ruby 2.7.0dev (2019-08-20T22:58:46Z trunk bcc4ac924d) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove another 1.8.7 specific bit
+  bcc4ac924d --jit: |-
+    ruby 2.7.0dev (2019-08-20T22:58:46Z trunk bcc4ac924d) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove another 1.8.7 specific bit
+  1120bacd8b: |-
+    ruby 2.7.0dev (2019-08-20T22:58:46Z trunk 1120bacd8b) [x86_64-linux]
+    last_commit=[bundler/bundler] Remove the :ruby exclusion tag
+  1120bacd8b --jit: |-
+    ruby 2.7.0dev (2019-08-20T22:58:46Z trunk 1120bacd8b) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Remove the :ruby exclusion tag
+  ede77d82e7: |-
+    ruby 2.7.0dev (2019-08-20T22:58:46Z trunk ede77d82e7) [x86_64-linux]
+    last_commit=[bundler/bundler] Fix a couple of typos
+  ede77d82e7 --jit: |-
+    ruby 2.7.0dev (2019-08-20T22:58:46Z trunk ede77d82e7) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Fix a couple of typos
+  ace88852f2: |-
+    ruby 2.7.0dev (2019-08-20T23:10:48Z trunk ace88852f2) [x86_64-linux]
+    last_commit=[bundler/bundler] Parallelize test suite
+  ace88852f2 --jit: |-
+    ruby 2.7.0dev (2019-08-20T23:10:48Z trunk ace88852f2) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Parallelize test suite
+  10011f4371: |-
+    ruby 2.7.0dev (2019-08-20T23:10:48Z trunk 10011f4371) [x86_64-linux]
+    last_commit=[bundler/bundler] Try to use RunTimeLogger for parallel_tests
+  10011f4371 --jit: |-
+    ruby 2.7.0dev (2019-08-20T23:10:48Z trunk 10011f4371) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Try to use RunTimeLogger for parallel_tests
+  1c2774526e: |-
+    ruby 2.7.0dev (2019-08-20T23:10:49Z trunk 1c2774526e) [x86_64-linux]
+    last_commit=[bundler/bundler] Share test fixtures with parallel_tests
+  1c2774526e --jit: |-
+    ruby 2.7.0dev (2019-08-20T23:10:49Z trunk 1c2774526e) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Share test fixtures with parallel_tests
+  a230e65e8b: |-
+    ruby 2.7.0dev (2019-08-20T23:10:49Z trunk a230e65e8b) [x86_64-linux]
+    last_commit=[bundler/bundler] Freeze time to avoid failures at midnight
+  a230e65e8b --jit: |-
+    ruby 2.7.0dev (2019-08-20T23:10:49Z trunk a230e65e8b) +JIT [x86_64-linux]
+    last_commit=[bundler/bundler] Freeze time to avoid failures at midnight
