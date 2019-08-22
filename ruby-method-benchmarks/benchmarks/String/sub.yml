@@ -1192,6 +1192,8 @@ results:
     79fe84edf5: 3481214.618
     0b0fedad70: 3454004.744
     a77b3b4476: 3482268.647
+    77c0e23b0c: 3368897.223
+    e1ccaa8782: 3426032.278
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2383,6 +2385,8 @@ results:
     79fe84edf5: 2900682.586
     0b0fedad70: 3337060.004
     a77b3b4476: 3450047.298
+    77c0e23b0c: 3339747.432
+    e1ccaa8782: 3423536.18
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3574,6 +3578,8 @@ results:
     79fe84edf5: 1937119.238
     0b0fedad70: 1937786.844
     a77b3b4476: 1902623.412
+    77c0e23b0c: 1896237.799
+    e1ccaa8782: 1694593.648
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4765,6 +4771,8 @@ results:
     79fe84edf5: 2829061.956
     0b0fedad70: 2838041.966
     a77b3b4476: 2809525.53
+    77c0e23b0c: 2579630.495
+    e1ccaa8782: 2470881.379
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -5956,6 +5964,8 @@ results:
     79fe84edf5: 3779704.078
     0b0fedad70: 3748832.912
     a77b3b4476: 3760414.541
+    77c0e23b0c: 3703268.997
+    e1ccaa8782: 3722543.604
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -7147,6 +7157,8 @@ results:
     79fe84edf5: 3706197.969
     0b0fedad70: 3603562.985
     a77b3b4476: 3736656.851
+    77c0e23b0c: 3006155.123
+    e1ccaa8782: 3595907.072
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -8338,6 +8350,8 @@ results:
     79fe84edf5: 1967286.571
     0b0fedad70: 2033236.929
     a77b3b4476: 2023946.001
+    77c0e23b0c: 2012920.228
+    e1ccaa8782: 1985972.755
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -9529,3 +9543,5 @@ results:
     79fe84edf5: 3015550.957
     0b0fedad70: 3027134.774
     a77b3b4476: 3011263.837
+    77c0e23b0c: 2984164.425
+    e1ccaa8782: 2951968.317
