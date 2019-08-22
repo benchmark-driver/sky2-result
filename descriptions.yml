@@ -9,96 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  f487e5b7a4: |-
-    ruby 2.7.0dev (2019-07-16T23:34:19Z trunk f487e5b7a4) [x86_64-linux]
-    last_commit=Expanded buf to copy at once
-  f487e5b7a4 --jit: |-
-    ruby 2.7.0dev (2019-07-16T23:34:19Z trunk f487e5b7a4) +JIT [x86_64-linux]
-    last_commit=Expanded buf to copy at once
-  '0965bb6091': |-
-    ruby 2.7.0dev (2019-07-17T01:53:00Z trunk 0965bb6091) [x86_64-linux]
-    last_commit=* 2019-07-17
-  '0965bb6091 --jit': |-
-    ruby 2.7.0dev (2019-07-17T01:53:00Z trunk 0965bb6091) +JIT [x86_64-linux]
-    last_commit=* 2019-07-17
-  af07e07ac9: |-
-    ruby 2.7.0dev (2019-07-17T02:57:09Z trunk af07e07ac9) [x86_64-linux]
-    last_commit=Separate pull-github from merge-github [ci skip]
-  af07e07ac9 --jit: |-
-    ruby 2.7.0dev (2019-07-17T02:57:09Z trunk af07e07ac9) +JIT [x86_64-linux]
-    last_commit=Separate pull-github from merge-github [ci skip]
-  cd372f8db2: |-
-    ruby 2.7.0dev (2019-07-17T05:45:33Z trunk cd372f8db2) [x86_64-linux]
-    last_commit=Get rid of LoadError with $DEBUG
-  cd372f8db2 --jit: |-
-    ruby 2.7.0dev (2019-07-17T05:45:33Z trunk cd372f8db2) +JIT [x86_64-linux]
-    last_commit=Get rid of LoadError with $DEBUG
-  0e23e0c3a0: |-
-    ruby 2.7.0dev (2019-07-17T08:04:37Z trunk 0e23e0c3a0) [x86_64-linux]
-    last_commit=Adjust indent [ci skip]
-  0e23e0c3a0 --jit: |-
-    ruby 2.7.0dev (2019-07-17T08:04:37Z trunk 0e23e0c3a0) +JIT [x86_64-linux]
-    last_commit=Adjust indent [ci skip]
-  416ead4cda: |-
-    ruby 2.7.0dev (2019-07-17T14:41:58Z trunk 416ead4cda) [x86_64-linux]
-    last_commit=compile.c: add NO_CHECK for the calls to COMPILE whose result is unused
-  416ead4cda --jit: |-
-    ruby 2.7.0dev (2019-07-17T14:41:58Z trunk 416ead4cda) +JIT [x86_64-linux]
-    last_commit=compile.c: add NO_CHECK for the calls to COMPILE whose result is unused
-  bdec1ad9a9: |-
-    ruby 2.7.0dev (2019-07-17T14:42:21Z trunk bdec1ad9a9) [x86_64-linux]
-    last_commit=* expand tabs.
-  bdec1ad9a9 --jit: |-
-    ruby 2.7.0dev (2019-07-17T14:42:21Z trunk bdec1ad9a9) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  9b28eefeb2: |-
-    ruby 2.7.0dev (2019-07-17T23:13:49Z trunk 9b28eefeb2) [x86_64-linux]
-    last_commit=Add benchmark to help diagnose performance regression.
-  9b28eefeb2 --jit: |-
-    ruby 2.7.0dev (2019-07-17T23:13:49Z trunk 9b28eefeb2) +JIT [x86_64-linux]
-    last_commit=Add benchmark to help diagnose performance regression.
-  97808e29cd: |-
-    ruby 2.7.0dev (2019-07-17T23:15:46Z trunk 97808e29cd) [x86_64-linux]
-    last_commit=* 2019-07-18
-  97808e29cd --jit: |-
-    ruby 2.7.0dev (2019-07-17T23:15:46Z trunk 97808e29cd) +JIT [x86_64-linux]
-    last_commit=* 2019-07-18
-  1b82c877df: |-
-    ruby 2.7.0dev (2019-07-18T08:54:53Z trunk 1b82c877df) [x86_64-linux]
-    last_commit=Make FIBER_USE_NATIVE the default and reformat code.
-  1b82c877df --jit: |-
-    ruby 2.7.0dev (2019-07-18T08:54:53Z trunk 1b82c877df) +JIT [x86_64-linux]
-    last_commit=Make FIBER_USE_NATIVE the default and reformat code.
-  14cf95cff3: |-
-    ruby 2.7.0dev (2019-07-18T08:54:53Z trunk 14cf95cff3) [x86_64-linux]
-    last_commit=Implement fiber pool for reduced fiber allocation overhead.
-  14cf95cff3 --jit: |-
-    ruby 2.7.0dev (2019-07-18T08:54:53Z trunk 14cf95cff3) +JIT [x86_64-linux]
-    last_commit=Implement fiber pool for reduced fiber allocation overhead.
-  8779382da4: |-
-    ruby 2.7.0dev (2019-07-18T08:54:53Z trunk 8779382da4) [x86_64-linux]
-    last_commit=Remove unused vm_stack recycling.
-  8779382da4 --jit: |-
-    ruby 2.7.0dev (2019-07-18T08:54:53Z trunk 8779382da4) +JIT [x86_64-linux]
-    last_commit=Remove unused vm_stack recycling.
-  91aae651bf: |-
-    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk 91aae651bf) [x86_64-linux]
-    last_commit=Stack copying implementation of coroutines.
-  91aae651bf --jit: |-
-    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk 91aae651bf) +JIT [x86_64-linux]
-    last_commit=Stack copying implementation of coroutines.
-  7291fef55c: |-
-    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk 7291fef55c) [x86_64-linux]
-    last_commit=Improve build process and coroutine implementation selection.
-  7291fef55c --jit: |-
-    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk 7291fef55c) +JIT [x86_64-linux]
-    last_commit=Improve build process and coroutine implementation selection.
-  b8242bce23: |-
-    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk b8242bce23) [x86_64-linux]
-    last_commit=Add `ucontext` and `copy` coroutine implementations to test matrix.
-  b8242bce23 --jit: |-
-    ruby 2.7.0dev (2019-07-18T08:54:54Z trunk b8242bce23) +JIT [x86_64-linux]
-    last_commit=Add `ucontext` and `copy` coroutine implementations to test matrix.
   47c0cab248: |-
     ruby 2.7.0dev (2019-07-18T08:54:54Z trunk 47c0cab248) [x86_64-linux]
     last_commit=Add details of fiber pool and coroutine selection to NEWS.
@@ -6027,3 +5937,33 @@ commits:
   800821831d --jit: |-
     ruby 2.7.0dev (2019-08-21T21:02:27Z trunk 800821831d) +JIT [x86_64-linux]
     last_commit=Always check multiline termination
+  0b0fedad70: |-
+    ruby 2.7.0dev (2019-08-21T22:02:48Z trunk 0b0fedad70) [x86_64-linux]
+    last_commit=Introduce test-bundler-parallel task.
+  0b0fedad70 --jit: |-
+    ruby 2.7.0dev (2019-08-21T22:02:48Z trunk 0b0fedad70) +JIT [x86_64-linux]
+    last_commit=Introduce test-bundler-parallel task.
+  2d8d6345ff: |-
+    ruby 2.7.0dev (2019-08-21T22:03:54Z trunk 2d8d6345ff) [x86_64-linux]
+    last_commit=`--fomart progress` is default. It's duplicated.
+  2d8d6345ff --jit: |-
+    ruby 2.7.0dev (2019-08-21T22:03:54Z trunk 2d8d6345ff) +JIT [x86_64-linux]
+    last_commit=`--fomart progress` is default. It's duplicated.
+  1940347fdf: |-
+    ruby 2.7.0dev (2019-08-21T22:21:43Z trunk 1940347fdf) [x86_64-linux]
+    last_commit=Use () instead of {} for nmake
+  1940347fdf --jit: |-
+    ruby 2.7.0dev (2019-08-21T22:21:43Z trunk 1940347fdf) +JIT [x86_64-linux]
+    last_commit=Use () instead of {} for nmake
+  a1d606c079: |-
+    ruby 2.7.0dev (2019-08-21T22:57:12Z trunk a1d606c079) [x86_64-linux]
+    last_commit=Show short message to Slack
+  a1d606c079 --jit: |-
+    ruby 2.7.0dev (2019-08-21T22:57:12Z trunk a1d606c079) +JIT [x86_64-linux]
+    last_commit=Show short message to Slack
+  d8d8015b93: |-
+    ruby 2.7.0dev (2019-08-22T00:24:35Z trunk d8d8015b93) [x86_64-linux]
+    last_commit=Remove footer from message to Slack
+  d8d8015b93 --jit: |-
+    ruby 2.7.0dev (2019-08-22T00:24:35Z trunk d8d8015b93) +JIT [x86_64-linux]
+    last_commit=Remove footer from message to Slack
