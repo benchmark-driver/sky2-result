@@ -6009,3 +6009,27 @@ commits:
   5d5502dc85 --jit: |-
     ruby 2.7.0dev (2019-08-24T12:26:24Z trunk 5d5502dc85) +JIT [x86_64-linux]
     last_commit=Fix typos
+  df348310dc: |-
+    ruby 2.7.0dev (2019-08-24T14:17:12Z trunk df348310dc) [x86_64-linux]
+    last_commit=Add workaround for some CIs
+  df348310dc --jit: |-
+    ruby 2.7.0dev (2019-08-24T14:17:12Z trunk df348310dc) +JIT [x86_64-linux]
+    last_commit=Add workaround for some CIs
+  03ee12a3b8: |-
+    ruby 2.7.0dev (2019-08-24T15:50:34Z trunk 03ee12a3b8) [x86_64-linux]
+    last_commit=Add workaround (2nd try)
+  03ee12a3b8 --jit: |-
+    ruby 2.7.0dev (2019-08-24T15:50:34Z trunk 03ee12a3b8) +JIT [x86_64-linux]
+    last_commit=Add workaround (2nd try)
+  cf5516de7b: |-
+    ruby 2.7.0dev (2019-08-24T15:51:59Z trunk cf5516de7b) [x86_64-linux]
+    last_commit=* 2019-08-25 [ci skip]
+  cf5516de7b --jit: |-
+    ruby 2.7.0dev (2019-08-24T15:51:59Z trunk cf5516de7b) +JIT [x86_64-linux]
+    last_commit=* 2019-08-25 [ci skip]
+  e1c991f8d7: |-
+    ruby 2.7.0dev (2019-08-24T16:09:53Z trunk e1c991f8d7) [x86_64-linux]
+    last_commit=Move Object#hash rdoc to hash.c [ci skip]
+  e1c991f8d7 --jit: |-
+    ruby 2.7.0dev (2019-08-24T16:09:53Z trunk e1c991f8d7) +JIT [x86_64-linux]
+    last_commit=Move Object#hash rdoc to hash.c [ci skip]
