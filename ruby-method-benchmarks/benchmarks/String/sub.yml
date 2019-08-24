@@ -1212,6 +1212,8 @@ results:
     414d6cf1d3: 3466766.488
     cd15d27d10: 3419911.28
     76a928bac2: 3048668.533
+    7e33f324e1: 3425902.583
+    a3b784b3a0: 3379524.078
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2423,6 +2425,8 @@ results:
     414d6cf1d3: 3453656.02
     cd15d27d10: 3057342.055
     76a928bac2: 3404765.665
+    7e33f324e1: 3297487.329
+    a3b784b3a0: 3388253.844
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3634,6 +3638,8 @@ results:
     414d6cf1d3: 1886667.033
     cd15d27d10: 1923536.901
     76a928bac2: 1922382.092
+    7e33f324e1: 1925905.932
+    a3b784b3a0: 1638256.926
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4845,6 +4851,8 @@ results:
     414d6cf1d3: 2837228.854
     cd15d27d10: 2817245.859
     76a928bac2: 2825936.453
+    7e33f324e1: 2823836.611
+    a3b784b3a0: 2785097.66
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -6056,6 +6064,8 @@ results:
     414d6cf1d3: 3760284.995
     cd15d27d10: 3539114.563
     76a928bac2: 3734471.597
+    7e33f324e1: 3732711.24
+    a3b784b3a0: 3260752.839
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -7267,6 +7277,8 @@ results:
     414d6cf1d3: 3644003.297
     cd15d27d10: 3368185.4
     76a928bac2: 3686531.187
+    7e33f324e1: 3713538.678
+    a3b784b3a0: 3669257.645
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -8478,6 +8490,8 @@ results:
     414d6cf1d3: 1979706.541
     cd15d27d10: 1851401.587
     76a928bac2: 1926419.868
+    7e33f324e1: 1962695.504
+    a3b784b3a0: 1655239.648
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -9689,3 +9703,5 @@ results:
     414d6cf1d3: 3046474.385
     cd15d27d10: 3003411.324
     76a928bac2: 2518824.994
+    7e33f324e1: 2986579.521
+    a3b784b3a0: 2990243.265
