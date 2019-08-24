@@ -1210,6 +1210,8 @@ results:
     9b330200f8: 3384206.464
     9f9a6dbc14: 3381652.209
     414d6cf1d3: 3466766.488
+    cd15d27d10: 3419911.28
+    76a928bac2: 3048668.533
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2419,6 +2421,8 @@ results:
     9b330200f8: 3428350.825
     9f9a6dbc14: 3376172.332
     414d6cf1d3: 3453656.02
+    cd15d27d10: 3057342.055
+    76a928bac2: 3404765.665
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3628,6 +3632,8 @@ results:
     9b330200f8: 1879989.567
     9f9a6dbc14: 1871103.389
     414d6cf1d3: 1886667.033
+    cd15d27d10: 1923536.901
+    76a928bac2: 1922382.092
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4837,6 +4843,8 @@ results:
     9b330200f8: 2792689.502
     9f9a6dbc14: 2766343.425
     414d6cf1d3: 2837228.854
+    cd15d27d10: 2817245.859
+    76a928bac2: 2825936.453
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -6046,6 +6054,8 @@ results:
     9b330200f8: 3606240.044
     9f9a6dbc14: 3666466.226
     414d6cf1d3: 3760284.995
+    cd15d27d10: 3539114.563
+    76a928bac2: 3734471.597
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -7255,6 +7265,8 @@ results:
     9b330200f8: 3574721.379
     9f9a6dbc14: 3639936.43
     414d6cf1d3: 3644003.297
+    cd15d27d10: 3368185.4
+    76a928bac2: 3686531.187
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -8464,6 +8476,8 @@ results:
     9b330200f8: 1958923.507
     9f9a6dbc14: 1922631.354
     414d6cf1d3: 1979706.541
+    cd15d27d10: 1851401.587
+    76a928bac2: 1926419.868
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -9673,3 +9687,5 @@ results:
     9b330200f8: 2963068.956
     9f9a6dbc14: 2967338.839
     414d6cf1d3: 3046474.385
+    cd15d27d10: 3003411.324
+    76a928bac2: 2518824.994
