@@ -5997,3 +5997,15 @@ commits:
   97ad7862d5 --jit: |-
     ruby 2.7.0dev (2019-08-24T07:22:37Z trunk 97ad7862d5) +JIT [x86_64-linux]
     last_commit=Add debug print
+  571ffcd609: |-
+    ruby 2.7.0dev (2019-08-24T11:31:16Z trunk 571ffcd609) [x86_64-linux]
+    last_commit=ext/psych/yaml/api.c: Suppress a "variable set but not used" warning
+  571ffcd609 --jit: |-
+    ruby 2.7.0dev (2019-08-24T11:31:16Z trunk 571ffcd609) +JIT [x86_64-linux]
+    last_commit=ext/psych/yaml/api.c: Suppress a "variable set but not used" warning
+  5d5502dc85: |-
+    ruby 2.7.0dev (2019-08-24T12:26:24Z trunk 5d5502dc85) [x86_64-linux]
+    last_commit=Fix typos
+  5d5502dc85 --jit: |-
+    ruby 2.7.0dev (2019-08-24T12:26:24Z trunk 5d5502dc85) +JIT [x86_64-linux]
+    last_commit=Fix typos
