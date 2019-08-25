@@ -6009,3 +6009,21 @@ commits:
   c775ab5e28 --jit: |-
     ruby 2.7.0dev (2019-08-25T09:27:57Z trunk c775ab5e28) +JIT [x86_64-linux]
     last_commit=`local_path?` is a class method [ci skip]
+  6944a1aa4f: |-
+    ruby 2.7.0dev (2019-08-25T10:29:52Z trunk 6944a1aa4f) [x86_64-linux]
+    last_commit=lib/webrick.rb: use require_relative for webrick/utils.rb
+  6944a1aa4f --jit: |-
+    ruby 2.7.0dev (2019-08-25T10:29:52Z trunk 6944a1aa4f) +JIT [x86_64-linux]
+    last_commit=lib/webrick.rb: use require_relative for webrick/utils.rb
+  fa5f7771f2: |-
+    ruby 2.7.0dev (2019-08-25T11:10:25Z trunk fa5f7771f2) [x86_64-linux]
+    last_commit=Drop duration from AppVeyor notification
+  fa5f7771f2 --jit: |-
+    ruby 2.7.0dev (2019-08-25T11:10:25Z trunk fa5f7771f2) +JIT [x86_64-linux]
+    last_commit=Drop duration from AppVeyor notification
+  11f7c30fa7: |-
+    ruby 2.7.0dev (2019-08-25T13:16:26Z trunk 11f7c30fa7) [x86_64-linux]
+    last_commit=configure.ac: fix the guess of icc_version
+  11f7c30fa7 --jit: |-
+    ruby 2.7.0dev (2019-08-25T13:16:26Z trunk 11f7c30fa7) +JIT [x86_64-linux]
+    last_commit=configure.ac: fix the guess of icc_version
