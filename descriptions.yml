@@ -5991,3 +5991,9 @@ commits:
   5decf66ab3 --jit: |-
     ruby 2.7.0dev (2019-08-25T02:39:20Z trunk 5decf66ab3) +JIT [x86_64-linux]
     last_commit=Inspect dynamic symbol as well as static symbol
+  1b03d2d76b: |-
+    ruby 2.7.0dev (2019-08-25T04:58:30Z trunk 1b03d2d76b) [x86_64-linux]
+    last_commit=Revert workaround
+  1b03d2d76b --jit: |-
+    ruby 2.7.0dev (2019-08-25T04:58:30Z trunk 1b03d2d76b) +JIT [x86_64-linux]
+    last_commit=Revert workaround

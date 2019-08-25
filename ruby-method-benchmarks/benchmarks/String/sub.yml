@@ -1229,6 +1229,8 @@ results:
     c8f97596b7: 3461501.358
     58bb7f0ca1: 3417594.196
     56229c4e5d: 3444310.734
+    7ee948c3a1: 3322327.428
+    4c1db84d17: 3357901.11
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2457,6 +2459,8 @@ results:
     c8f97596b7: 3409670.923
     58bb7f0ca1: 3145639.815
     56229c4e5d: 3424107.593
+    7ee948c3a1: 3433398.421
+    4c1db84d17: 3402957.06
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3685,6 +3689,8 @@ results:
     c8f97596b7: 1843699.559
     58bb7f0ca1: 1898082.301
     56229c4e5d: 1882650.571
+    7ee948c3a1: 1906444.27
+    4c1db84d17: 1693174.62
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -4913,6 +4919,8 @@ results:
     c8f97596b7: 2562761.157
     58bb7f0ca1: 2804886.017
     56229c4e5d: 2756071.669
+    7ee948c3a1: 2572046.541
+    4c1db84d17: 2843046.377
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -6141,6 +6149,8 @@ results:
     c8f97596b7: 3609483.76
     58bb7f0ca1: 3710260.64
     56229c4e5d: 3722690.17
+    7ee948c3a1: 3637963.071
+    4c1db84d17: 3680498.92
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -7369,6 +7379,8 @@ results:
     c8f97596b7: 3683657.737
     58bb7f0ca1: 3253988.277
     56229c4e5d: 3723275.026
+    7ee948c3a1: 3685337.669
+    4c1db84d17: 3590391.795
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -8597,6 +8609,8 @@ results:
     c8f97596b7: 2004615.498
     58bb7f0ca1: 2006844.435
     56229c4e5d: 1984376.208
+    7ee948c3a1: 1887262.963
+    4c1db84d17: 2016638.627
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -9825,3 +9839,5 @@ results:
     c8f97596b7: 2664152.663
     58bb7f0ca1: 2774178.313
     56229c4e5d: 2944272.772
+    7ee948c3a1: 3024810.078
+    4c1db84d17: 3030850.394
