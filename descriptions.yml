@@ -5997,3 +5997,15 @@ commits:
   1b03d2d76b --jit: |-
     ruby 2.7.0dev (2019-08-25T04:58:30Z trunk 1b03d2d76b) +JIT [x86_64-linux]
     last_commit=Revert workaround
+  cc6fe15241: |-
+    ruby 2.7.0dev (2019-08-25T07:59:45Z trunk cc6fe15241) [x86_64-linux]
+    last_commit=tool/lib/vcs.rb: explicitly fail when notes/commits is not available
+  cc6fe15241 --jit: |-
+    ruby 2.7.0dev (2019-08-25T07:59:45Z trunk cc6fe15241) +JIT [x86_64-linux]
+    last_commit=tool/lib/vcs.rb: explicitly fail when notes/commits is not available
+  c775ab5e28: |-
+    ruby 2.7.0dev (2019-08-25T09:27:57Z trunk c775ab5e28) [x86_64-linux]
+    last_commit=`local_path?` is a class method [ci skip]
+  c775ab5e28 --jit: |-
+    ruby 2.7.0dev (2019-08-25T09:27:57Z trunk c775ab5e28) +JIT [x86_64-linux]
+    last_commit=`local_path?` is a class method [ci skip]
