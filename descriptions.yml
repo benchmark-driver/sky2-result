@@ -9,72 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  8ca32020b0: |-
-    ruby 2.7.0dev (2019-07-18T23:32:40Z trunk 8ca32020b0) [x86_64-linux]
-    last_commit=Revert "Ensure cfp is initialized to NULL."
-  8ca32020b0 --jit: |-
-    ruby 2.7.0dev (2019-07-18T23:32:40Z trunk 8ca32020b0) +JIT [x86_64-linux]
-    last_commit=Revert "Ensure cfp is initialized to NULL."
-  4ec5b39ce8: |-
-    ruby 2.7.0dev (2019-07-18T23:53:19Z trunk 4ec5b39ce8) [x86_64-linux]
-    last_commit=initialize only Fiber's cfp.
-  4ec5b39ce8 --jit: |-
-    ruby 2.7.0dev (2019-07-18T23:53:19Z trunk 4ec5b39ce8) +JIT [x86_64-linux]
-    last_commit=initialize only Fiber's cfp.
-  e644e2de85: |-
-    ruby 2.7.0dev (2019-07-19T00:01:53Z trunk e644e2de85) [x86_64-linux]
-    last_commit=Remove doc/etc.rd.ja [ci skip]
-  e644e2de85 --jit: |-
-    ruby 2.7.0dev (2019-07-19T00:01:53Z trunk e644e2de85) +JIT [x86_64-linux]
-    last_commit=Remove doc/etc.rd.ja [ci skip]
-  63160a84b4: |-
-    ruby 2.7.0dev (2019-07-19T03:04:32Z trunk 63160a84b4) [x86_64-linux]
-    last_commit=respect NDEBUG.
-  63160a84b4 --jit: |-
-    ruby 2.7.0dev (2019-07-19T03:04:32Z trunk 63160a84b4) +JIT [x86_64-linux]
-    last_commit=respect NDEBUG.
-  6eef80d824: |-
-    ruby 2.7.0dev (2019-07-19T03:46:56Z trunk 6eef80d824) [x86_64-linux]
-    last_commit=Improve ec assertions.
-  6eef80d824 --jit: |-
-    ruby 2.7.0dev (2019-07-19T03:46:56Z trunk 6eef80d824) +JIT [x86_64-linux]
-    last_commit=Improve ec assertions.
-  cf93f98a60: |-
-    ruby 2.7.0dev (2019-07-19T03:46:56Z trunk cf93f98a60) [x86_64-linux]
-    last_commit=Better usage of `rb_ec_clear_vm_stack` to maintain invariants.
-  cf93f98a60 --jit: |-
-    ruby 2.7.0dev (2019-07-19T03:46:56Z trunk cf93f98a60) +JIT [x86_64-linux]
-    last_commit=Better usage of `rb_ec_clear_vm_stack` to maintain invariants.
-  dd0e33f083: |-
-    ruby 2.7.0dev (2019-07-19T03:53:47Z trunk dd0e33f083) [x86_64-linux]
-    last_commit=Split assertions to check which one fails.
-  dd0e33f083 --jit: |-
-    ruby 2.7.0dev (2019-07-19T03:53:47Z trunk dd0e33f083) +JIT [x86_64-linux]
-    last_commit=Split assertions to check which one fails.
-  e14f5762c5: |-
-    ruby 2.7.0dev (2019-07-19T03:55:34Z trunk e14f5762c5) [x86_64-linux]
-    last_commit=Add assertions to `coroutine_initialize_main`.
-  e14f5762c5 --jit: |-
-    ruby 2.7.0dev (2019-07-19T03:55:34Z trunk e14f5762c5) +JIT [x86_64-linux]
-    last_commit=Add assertions to `coroutine_initialize_main`.
-  547f574b63: |-
-    ruby 2.7.0dev (2019-07-19T04:03:47Z trunk 547f574b63) [x86_64-linux]
-    last_commit=In some situations, `vm_stack` can be NULL, but `cfp` is valid.
-  547f574b63 --jit: |-
-    ruby 2.7.0dev (2019-07-19T04:03:47Z trunk 547f574b63) +JIT [x86_64-linux]
-    last_commit=In some situations, `vm_stack` can be NULL, but `cfp` is valid.
-  182ae1407b: |-
-    ruby 2.7.0dev (2019-07-19T04:07:59Z trunk 182ae1407b) [x86_64-linux]
-    last_commit=fix shared array terminology.
-  182ae1407b --jit: |-
-    ruby 2.7.0dev (2019-07-19T04:07:59Z trunk 182ae1407b) +JIT [x86_64-linux]
-    last_commit=fix shared array terminology.
-  a44ad9a145: |-
-    ruby 2.7.0dev (2019-07-19T04:10:08Z trunk a44ad9a145) [x86_64-linux]
-    last_commit=* expand tabs.
-  a44ad9a145 --jit: |-
-    ruby 2.7.0dev (2019-07-19T04:10:08Z trunk a44ad9a145) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
   ae750799c1: |-
     ruby 2.7.0dev (2019-07-19T05:41:36Z trunk ae750799c1) [x86_64-linux]
     last_commit=Use FL_TEST_RAW() to check flags.
@@ -6027,3 +5961,9 @@ commits:
   11f7c30fa7 --jit: |-
     ruby 2.7.0dev (2019-08-25T13:16:26Z trunk 11f7c30fa7) +JIT [x86_64-linux]
     last_commit=configure.ac: fix the guess of icc_version
+  365e5b38a9: |-
+    ruby 2.7.0dev (2019-08-25T14:08:13Z trunk 365e5b38a9) [x86_64-linux]
+    last_commit=configure.ac: Improve icc_version guessing for non-icc environment
+  365e5b38a9 --jit: |-
+    ruby 2.7.0dev (2019-08-25T14:08:13Z trunk 365e5b38a9) +JIT [x86_64-linux]
+    last_commit=configure.ac: Improve icc_version guessing for non-icc environment
