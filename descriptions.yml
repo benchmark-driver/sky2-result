@@ -6003,3 +6003,27 @@ commits:
   fa6c1b06ad --jit: |-
     ruby 2.7.0dev (2019-08-26T03:00:19Z trunk fa6c1b06ad) +JIT [x86_64-linux]
     last_commit=Suppress a "clobbered" warning
+  48131a4673: |-
+    ruby 2.7.0dev (2019-08-26T04:01:58Z trunk 48131a4673) [x86_64-linux]
+    last_commit=rb_mjit_header.h is not worth documenting [ci skip]
+  48131a4673 --jit: |-
+    ruby 2.7.0dev (2019-08-26T04:01:58Z trunk 48131a4673) +JIT [x86_64-linux]
+    last_commit=rb_mjit_header.h is not worth documenting [ci skip]
+  5e86b005c0: |-
+    ruby 2.7.0dev (2019-08-26T04:01:58Z trunk 5e86b005c0) [x86_64-linux]
+    last_commit=uid_t and gid_t are narrower than VALUE.
+  5e86b005c0 --jit: |-
+    ruby 2.7.0dev (2019-08-26T04:01:58Z trunk 5e86b005c0) +JIT [x86_64-linux]
+    last_commit=uid_t and gid_t are narrower than VALUE.
+  1581249de3: |-
+    ruby 2.7.0dev (2019-08-26T04:13:19Z trunk 1581249de3) [x86_64-linux]
+    last_commit=Added in-srcdir macro [ci skip]
+  1581249de3 --jit: |-
+    ruby 2.7.0dev (2019-08-26T04:13:19Z trunk 1581249de3) +JIT [x86_64-linux]
+    last_commit=Added in-srcdir macro [ci skip]
+  b4d6d9c167: |-
+    ruby 2.7.0dev (2019-08-26T04:14:01Z trunk b4d6d9c167) [x86_64-linux]
+    last_commit=Removed unnecessary flags for fake.rb
+  b4d6d9c167 --jit: |-
+    ruby 2.7.0dev (2019-08-26T04:14:01Z trunk b4d6d9c167) +JIT [x86_64-linux]
+    last_commit=Removed unnecessary flags for fake.rb
