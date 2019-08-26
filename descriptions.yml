@@ -5967,3 +5967,21 @@ commits:
   365e5b38a9 --jit: |-
     ruby 2.7.0dev (2019-08-25T14:08:13Z trunk 365e5b38a9) +JIT [x86_64-linux]
     last_commit=configure.ac: Improve icc_version guessing for non-icc environment
+  71d97a5ef8: |-
+    ruby 2.7.0dev (2019-08-25T17:56:47Z trunk 71d97a5ef8) [x86_64-linux]
+    last_commit=Fix sample/drb/http0serv.rb
+  71d97a5ef8 --jit: |-
+    ruby 2.7.0dev (2019-08-25T17:56:47Z trunk 71d97a5ef8) +JIT [x86_64-linux]
+    last_commit=Fix sample/drb/http0serv.rb
+  e496e96547: |-
+    ruby 2.7.0dev (2019-08-25T19:50:19Z trunk e496e96547) [x86_64-linux]
+    last_commit=Document that Enumerable#sum may not respect redefinition of Range#each
+  e496e96547 --jit: |-
+    ruby 2.7.0dev (2019-08-25T19:50:19Z trunk e496e96547) +JIT [x86_64-linux]
+    last_commit=Document that Enumerable#sum may not respect redefinition of Range#each
+  b4dfac2c12: |-
+    ruby 2.7.0dev (2019-08-25T19:53:15Z trunk b4dfac2c12) [x86_64-linux]
+    last_commit=Fix ArgumentError in expand_tabs.rb
+  b4dfac2c12 --jit: |-
+    ruby 2.7.0dev (2019-08-25T19:53:15Z trunk b4dfac2c12) +JIT [x86_64-linux]
+    last_commit=Fix ArgumentError in expand_tabs.rb
