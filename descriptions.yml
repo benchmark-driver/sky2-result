@@ -5985,3 +5985,21 @@ commits:
   b4dfac2c12 --jit: |-
     ruby 2.7.0dev (2019-08-25T19:53:15Z trunk b4dfac2c12) +JIT [x86_64-linux]
     last_commit=Fix ArgumentError in expand_tabs.rb
+  5e10cb04e8: |-
+    ruby 2.7.0dev (2019-08-26T02:07:34Z trunk 5e10cb04e8) [x86_64-linux]
+    last_commit=Refined the appropriate C++ compiler in OS X selection
+  5e10cb04e8 --jit: |-
+    ruby 2.7.0dev (2019-08-26T02:07:34Z trunk 5e10cb04e8) +JIT [x86_64-linux]
+    last_commit=Refined the appropriate C++ compiler in OS X selection
+  4448d58642: |-
+    ruby 2.7.0dev (2019-08-26T02:08:30Z trunk 4448d58642) [x86_64-linux]
+    last_commit=* 2019-08-26 [ci skip]
+  4448d58642 --jit: |-
+    ruby 2.7.0dev (2019-08-26T02:08:30Z trunk 4448d58642) +JIT [x86_64-linux]
+    last_commit=* 2019-08-26 [ci skip]
+  fa6c1b06ad: |-
+    ruby 2.7.0dev (2019-08-26T03:00:19Z trunk fa6c1b06ad) [x86_64-linux]
+    last_commit=Suppress a "clobbered" warning
+  fa6c1b06ad --jit: |-
+    ruby 2.7.0dev (2019-08-26T03:00:19Z trunk fa6c1b06ad) +JIT [x86_64-linux]
+    last_commit=Suppress a "clobbered" warning
