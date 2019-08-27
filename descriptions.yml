@@ -9,114 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  d304f77c58: |-
-    ruby 2.7.0dev (2019-07-19T22:12:50Z trunk d304f77c58) [x86_64-linux]
-    last_commit=Only disable GC around reference updating
-  d304f77c58 --jit: |-
-    ruby 2.7.0dev (2019-07-19T22:12:50Z trunk d304f77c58) +JIT [x86_64-linux]
-    last_commit=Only disable GC around reference updating
-  77bb79b8cf: |-
-    ruby 2.7.0dev (2019-07-20T00:08:34Z trunk 77bb79b8cf) [x86_64-linux]
-    last_commit=array.c: factor out a complex condition of assert
-  77bb79b8cf --jit: |-
-    ruby 2.7.0dev (2019-07-20T00:08:34Z trunk 77bb79b8cf) +JIT [x86_64-linux]
-    last_commit=array.c: factor out a complex condition of assert
-  8a38eff2bd: |-
-    ruby 2.7.0dev (2019-07-20T06:13:03Z trunk 8a38eff2bd) [x86_64-linux]
-    last_commit=Upgrade benchmark-driver.gem version
-  8a38eff2bd --jit: |-
-    ruby 2.7.0dev (2019-07-20T06:13:03Z trunk 8a38eff2bd) +JIT [x86_64-linux]
-    last_commit=Upgrade benchmark-driver.gem version
-  56b957e88a: |-
-    ruby 2.7.0dev (2019-07-20T06:27:58Z trunk 56b957e88a) [x86_64-linux]
-    last_commit=Upgrade benchmark-driver.gem again
-  56b957e88a --jit: |-
-    ruby 2.7.0dev (2019-07-20T06:27:58Z trunk 56b957e88a) +JIT [x86_64-linux]
-    last_commit=Upgrade benchmark-driver.gem again
-  1392b821b9: |-
-    ruby 2.7.0dev (2019-07-20T06:33:55Z trunk 1392b821b9) [x86_64-linux]
-    last_commit=Explain what's benchmark/lib/load.rb [ci skip]
-  1392b821b9 --jit: |-
-    ruby 2.7.0dev (2019-07-20T06:33:55Z trunk 1392b821b9) +JIT [x86_64-linux]
-    last_commit=Explain what's benchmark/lib/load.rb [ci skip]
-  81fc3becc7: |-
-    ruby 2.7.0dev (2019-07-20T06:43:42Z trunk 81fc3becc7) [x86_64-linux]
-    last_commit=file.c: add a NORETURN declaration for statx_notimplement
-  81fc3becc7 --jit: |-
-    ruby 2.7.0dev (2019-07-20T06:43:42Z trunk 81fc3becc7) +JIT [x86_64-linux]
-    last_commit=file.c: add a NORETURN declaration for statx_notimplement
-  e7b5b9144a: |-
-    ruby 2.7.0dev (2019-07-20T06:45:34Z trunk e7b5b9144a) [x86_64-linux]
-    last_commit=--debug was not functional either
-  e7b5b9144a --jit: |-
-    ruby 2.7.0dev (2019-07-20T06:45:34Z trunk e7b5b9144a) +JIT [x86_64-linux]
-    last_commit=--debug was not functional either
-  c584dd8460: |-
-    ruby 2.7.0dev (2019-07-20T07:44:49Z trunk c584dd8460) [x86_64-linux]
-    last_commit=Move travis coroutine check to cron only.
-  c584dd8460 --jit: |-
-    ruby 2.7.0dev (2019-07-20T07:44:49Z trunk c584dd8460) +JIT [x86_64-linux]
-    last_commit=Move travis coroutine check to cron only.
-  d285579ea7: |-
-    ruby 2.7.0dev (2019-07-21T00:46:49Z trunk d285579ea7) [x86_64-linux]
-    last_commit=Update simplecov and doclie to the latest version.
-  d285579ea7 --jit: |-
-    ruby 2.7.0dev (2019-07-21T00:46:49Z trunk d285579ea7) +JIT [x86_64-linux]
-    last_commit=Update simplecov and doclie to the latest version.
-  523fec8a4b: |-
-    ruby 2.7.0dev (2019-07-21T00:47:57Z trunk 523fec8a4b) [x86_64-linux]
-    last_commit=* 2019-07-21
-  523fec8a4b --jit: |-
-    ruby 2.7.0dev (2019-07-21T00:47:57Z trunk 523fec8a4b) +JIT [x86_64-linux]
-    last_commit=* 2019-07-21
-  24712eeec3: |-
-    ruby 2.7.0dev (2019-07-21T10:19:08Z trunk 24712eeec3) [x86_64-linux]
-    last_commit=tool/test/runner.rb: support --test-target-dir option
-  24712eeec3 --jit: |-
-    ruby 2.7.0dev (2019-07-21T10:19:08Z trunk 24712eeec3) +JIT [x86_64-linux]
-    last_commit=tool/test/runner.rb: support --test-target-dir option
-  '08ea924043': |-
-    ruby 2.7.0dev (2019-07-21T13:30:15Z trunk 08ea924043) [x86_64-linux]
-    last_commit=common.mk: `make check` now includes `make test-tool`
-  '08ea924043 --jit': |-
-    ruby 2.7.0dev (2019-07-21T13:30:15Z trunk 08ea924043) +JIT [x86_64-linux]
-    last_commit=common.mk: `make check` now includes `make test-tool`
-  28ae30b6ac: |-
-    ruby 2.7.0dev (2019-07-22T01:10:28Z trunk 28ae30b6ac) [x86_64-linux]
-    last_commit=Run test-tool in the order of the tests
-  28ae30b6ac --jit: |-
-    ruby 2.7.0dev (2019-07-22T01:10:28Z trunk 28ae30b6ac) +JIT [x86_64-linux]
-    last_commit=Run test-tool in the order of the tests
-  f6a7b10afa: |-
-    ruby 2.7.0dev (2019-07-22T01:10:51Z trunk f6a7b10afa) [x86_64-linux]
-    last_commit=* 2019-07-22
-  f6a7b10afa --jit: |-
-    ruby 2.7.0dev (2019-07-22T01:10:51Z trunk f6a7b10afa) +JIT [x86_64-linux]
-    last_commit=* 2019-07-22
-  463092b84d: |-
-    ruby 2.7.0dev (2019-07-22T02:05:34Z trunk 463092b84d) [x86_64-linux]
-    last_commit=Update rake-12.3.3.
-  463092b84d --jit: |-
-    ruby 2.7.0dev (2019-07-22T02:05:34Z trunk 463092b84d) +JIT [x86_64-linux]
-    last_commit=Update rake-12.3.3.
-  f6461fa890: |-
-    ruby 2.7.0dev (2019-07-22T04:07:03Z trunk f6461fa890) [x86_64-linux]
-    last_commit=Only the first argument can be --test-target-dir option
-  f6461fa890 --jit: |-
-    ruby 2.7.0dev (2019-07-22T04:07:03Z trunk f6461fa890) +JIT [x86_64-linux]
-    last_commit=Only the first argument can be --test-target-dir option
-  d1c2b19698: |-
-    ruby 2.7.0dev (2019-07-22T04:51:14Z trunk d1c2b19698) [x86_64-linux]
-    last_commit=Fixed exception message
-  d1c2b19698 --jit: |-
-    ruby 2.7.0dev (2019-07-22T04:51:14Z trunk d1c2b19698) +JIT [x86_64-linux]
-    last_commit=Fixed exception message
-  f75561b8d4: |-
-    ruby 2.7.0dev (2019-07-22T08:01:31Z trunk f75561b8d4) [x86_64-linux]
-    last_commit=constify RHash::ifnone.
-  f75561b8d4 --jit: |-
-    ruby 2.7.0dev (2019-07-22T08:01:31Z trunk f75561b8d4) +JIT [x86_64-linux]
-    last_commit=constify RHash::ifnone.
   9095ff53cf: |-
     ruby 2.7.0dev (2019-07-22T08:36:20Z trunk 9095ff53cf) [x86_64-linux]
     last_commit=[ruby/date] Describe what is meant by valid in the Date.valid_date? rdoc
@@ -6063,3 +5955,57 @@ commits:
   3a4a58e2cc --jit: |-
     ruby 2.7.0dev (2019-08-26T16:42:41Z trunk 3a4a58e2cc) +JIT [x86_64-linux]
     last_commit=Fix use_lib_reline for test/readline
+  d9bfbe363d: |-
+    ruby 2.7.0dev (2019-08-26T18:14:03Z trunk d9bfbe363d) [x86_64-linux]
+    last_commit=Make `gc_update_table_refs` match `mark_tbl_no_pin` a little more closely
+  d9bfbe363d --jit: |-
+    ruby 2.7.0dev (2019-08-26T18:14:03Z trunk d9bfbe363d) +JIT [x86_64-linux]
+    last_commit=Make `gc_update_table_refs` match `mark_tbl_no_pin` a little more closely
+  '09d8e06b33': |-
+    ruby 2.7.0dev (2019-08-26T18:31:52Z trunk 09d8e06b33) [x86_64-linux]
+    last_commit=Try only updating hash value references
+  '09d8e06b33 --jit': |-
+    ruby 2.7.0dev (2019-08-26T18:31:52Z trunk 09d8e06b33) +JIT [x86_64-linux]
+    last_commit=Try only updating hash value references
+  d8bcede9c3: |-
+    ruby 2.7.0dev (2019-08-26T20:18:46Z trunk d8bcede9c3) [x86_64-linux]
+    last_commit=Adjust method forwardings of Reline
+  d8bcede9c3 --jit: |-
+    ruby 2.7.0dev (2019-08-26T20:18:46Z trunk d8bcede9c3) +JIT [x86_64-linux]
+    last_commit=Adjust method forwardings of Reline
+  68207bb4fc: |-
+    ruby 2.7.0dev (2019-08-26T20:18:51Z trunk 68207bb4fc) [x86_64-linux]
+    last_commit=Use preposing "private" to define methods
+  68207bb4fc --jit: |-
+    ruby 2.7.0dev (2019-08-26T20:18:51Z trunk 68207bb4fc) +JIT [x86_64-linux]
+    last_commit=Use preposing "private" to define methods
+  f2a5c50f94: |-
+    ruby 2.7.0dev (2019-08-26T20:18:51Z trunk f2a5c50f94) [x86_64-linux]
+    last_commit=The "private" doesn't make sence for class methods and a constant
+  f2a5c50f94 --jit: |-
+    ruby 2.7.0dev (2019-08-26T20:18:51Z trunk f2a5c50f94) +JIT [x86_64-linux]
+    last_commit=The "private" doesn't make sence for class methods and a constant
+  978ff1ff3a: |-
+    ruby 2.7.0dev (2019-08-26T20:24:13Z trunk 978ff1ff3a) [x86_64-linux]
+    last_commit=Pick lib/readline.rb from ruby/reline
+  978ff1ff3a --jit: |-
+    ruby 2.7.0dev (2019-08-26T20:24:13Z trunk 978ff1ff3a) +JIT [x86_64-linux]
+    last_commit=Pick lib/readline.rb from ruby/reline
+  f13db4adde: |-
+    ruby 2.7.0dev (2019-08-26T20:33:27Z trunk f13db4adde) [x86_64-linux]
+    last_commit=Save value to @ambiguous_width because of a accessor
+  f13db4adde --jit: |-
+    ruby 2.7.0dev (2019-08-26T20:33:27Z trunk f13db4adde) +JIT [x86_64-linux]
+    last_commit=Save value to @ambiguous_width because of a accessor
+  9f0f777173: |-
+    ruby 2.7.0dev (2019-08-26T20:42:16Z trunk 9f0f777173) [x86_64-linux]
+    last_commit=this iv table should also use the new update function
+  9f0f777173 --jit: |-
+    ruby 2.7.0dev (2019-08-26T20:42:16Z trunk 9f0f777173) +JIT [x86_64-linux]
+    last_commit=this iv table should also use the new update function
+  fd0a4a64a3: |-
+    ruby 2.7.0dev (2019-08-26T20:59:56Z trunk fd0a4a64a3) [x86_64-linux]
+    last_commit=Delegete an instance method to a class method correctly
+  fd0a4a64a3 --jit: |-
+    ruby 2.7.0dev (2019-08-26T20:59:56Z trunk fd0a4a64a3) +JIT [x86_64-linux]
+    last_commit=Delegete an instance method to a class method correctly
