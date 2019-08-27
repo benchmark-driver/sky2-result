@@ -6009,3 +6009,15 @@ commits:
   fd0a4a64a3 --jit: |-
     ruby 2.7.0dev (2019-08-26T20:59:56Z trunk fd0a4a64a3) +JIT [x86_64-linux]
     last_commit=Delegete an instance method to a class method correctly
+  744be55fad: |-
+    ruby 2.7.0dev (2019-08-26T21:30:32Z trunk 744be55fad) [x86_64-linux]
+    last_commit=Remove duplicated delegation
+  744be55fad --jit: |-
+    ruby 2.7.0dev (2019-08-26T21:30:32Z trunk 744be55fad) +JIT [x86_64-linux]
+    last_commit=Remove duplicated delegation
+  '2283411265': |-
+    ruby 2.7.0dev (2019-08-26T22:59:50Z trunk 2283411265) [x86_64-linux]
+    last_commit=Added license comment [Bug #12230] [ci skip]
+  2283411265 --jit: |-
+    ruby 2.7.0dev (2019-08-26T22:59:50Z trunk 2283411265) +JIT [x86_64-linux]
+    last_commit=Added license comment [Bug #12230] [ci skip]
