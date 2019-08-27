@@ -9,66 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  9095ff53cf: |-
-    ruby 2.7.0dev (2019-07-22T08:36:20Z trunk 9095ff53cf) [x86_64-linux]
-    last_commit=[ruby/date] Describe what is meant by valid in the Date.valid_date? rdoc
-  9095ff53cf --jit: |-
-    ruby 2.7.0dev (2019-07-22T08:36:20Z trunk 9095ff53cf) +JIT [x86_64-linux]
-    last_commit=[ruby/date] Describe what is meant by valid in the Date.valid_date? rdoc
-  1feda1c2b0: |-
-    ruby 2.7.0dev (2019-07-22T08:53:10Z trunk 1feda1c2b0) [x86_64-linux]
-    last_commit=constify again.
-  1feda1c2b0 --jit: |-
-    ruby 2.7.0dev (2019-07-22T08:53:10Z trunk 1feda1c2b0) +JIT [x86_64-linux]
-    last_commit=constify again.
-  9f9a6dbc14: |-
-    ruby 2.7.0dev (2019-07-22T09:00:37Z trunk 9f9a6dbc14) [x86_64-linux]
-    last_commit=Allways fetch the latest commit from default gems repository.
-  9f9a6dbc14 --jit: |-
-    ruby 2.7.0dev (2019-07-22T09:00:37Z trunk 9f9a6dbc14) +JIT [x86_64-linux]
-    last_commit=Allways fetch the latest commit from default gems repository.
-  2f6cc00338: |-
-    ruby 2.7.0dev (2019-07-22T19:06:41Z trunk 2f6cc00338) [x86_64-linux]
-    last_commit=Fix documentation for Array#pack m directive count specifier [ci skip]
-  2f6cc00338 --jit: |-
-    ruby 2.7.0dev (2019-07-22T19:06:41Z trunk 2f6cc00338) +JIT [x86_64-linux]
-    last_commit=Fix documentation for Array#pack m directive count specifier [ci skip]
-  6b62aa7aec: |-
-    ruby 2.7.0dev (2019-07-22T19:10:42Z trunk 6b62aa7aec) [x86_64-linux]
-    last_commit=* 2019-07-23
-  6b62aa7aec --jit: |-
-    ruby 2.7.0dev (2019-07-22T19:10:42Z trunk 6b62aa7aec) +JIT [x86_64-linux]
-    last_commit=* 2019-07-23
-  11f3da8e9d: |-
-    ruby 2.7.0dev (2019-07-22T20:20:04Z trunk 11f3da8e9d) [x86_64-linux]
-    last_commit=Stop packing rb_method_definition_t
-  11f3da8e9d --jit: |-
-    ruby 2.7.0dev (2019-07-22T20:20:04Z trunk 11f3da8e9d) +JIT [x86_64-linux]
-    last_commit=Stop packing rb_method_definition_t
-  d2710ba866: |-
-    ruby 2.7.0dev (2019-07-22T20:21:41Z trunk d2710ba866) [x86_64-linux]
-    last_commit=Split test/ripper/test_files.rb to run in parallel
-  d2710ba866 --jit: |-
-    ruby 2.7.0dev (2019-07-22T20:21:41Z trunk d2710ba866) +JIT [x86_64-linux]
-    last_commit=Split test/ripper/test_files.rb to run in parallel
-  c1ad6321b0: |-
-    ruby 2.7.0dev (2019-07-22T21:02:39Z trunk c1ad6321b0) [x86_64-linux]
-    last_commit=Adjust documentation for Kernel#raise [ci skip]
-  c1ad6321b0 --jit: |-
-    ruby 2.7.0dev (2019-07-22T21:02:39Z trunk c1ad6321b0) +JIT [x86_64-linux]
-    last_commit=Adjust documentation for Kernel#raise [ci skip]
-  32ec6dd5c7: |-
-    ruby 2.7.0dev (2019-07-22T21:43:36Z trunk 32ec6dd5c7) [x86_64-linux]
-    last_commit=Document encoding of string returned by Regexp.quote [ci skip]
-  32ec6dd5c7 --jit: |-
-    ruby 2.7.0dev (2019-07-22T21:43:36Z trunk 32ec6dd5c7) +JIT [x86_64-linux]
-    last_commit=Document encoding of string returned by Regexp.quote [ci skip]
-  '01995df645': |-
-    ruby 2.7.0dev (2019-07-22T22:07:22Z trunk 01995df645) [x86_64-linux]
-    last_commit=Document BasicObject does not implement #object_id and #send [ci skip]
-  '01995df645 --jit': |-
-    ruby 2.7.0dev (2019-07-22T22:07:22Z trunk 01995df645) +JIT [x86_64-linux]
-    last_commit=Document BasicObject does not implement #object_id and #send [ci skip]
   44cfabddbe: |-
     ruby 2.7.0dev (2019-07-23T02:20:08Z trunk 44cfabddbe) [x86_64-linux]
     last_commit=Removed duplicated entry for racc.
@@ -6021,3 +5961,9 @@ commits:
   2283411265 --jit: |-
     ruby 2.7.0dev (2019-08-26T22:59:50Z trunk 2283411265) +JIT [x86_64-linux]
     last_commit=Added license comment [Bug #12230] [ci skip]
+  76abd79629: |-
+    ruby 2.7.0dev (2019-08-27T01:43:37Z trunk 76abd79629) [x86_64-linux]
+    last_commit=Fix the appropriate C++ compiler in OS X selection
+  76abd79629 --jit: |-
+    ruby 2.7.0dev (2019-08-27T01:43:37Z trunk 76abd79629) +JIT [x86_64-linux]
+    last_commit=Fix the appropriate C++ compiler in OS X selection
