@@ -5967,3 +5967,147 @@ commits:
   76abd79629 --jit: |-
     ruby 2.7.0dev (2019-08-27T01:43:37Z trunk 76abd79629) +JIT [x86_64-linux]
     last_commit=Fix the appropriate C++ compiler in OS X selection
+  8eee3f3a36: |-
+    ruby 2.7.0dev (2019-08-27T04:59:13Z trunk 8eee3f3a36) [x86_64-linux]
+    last_commit=signal.c: Don't mark ruby_abort as NORETURN on Solaris
+  8eee3f3a36 --jit: |-
+    ruby 2.7.0dev (2019-08-27T04:59:13Z trunk 8eee3f3a36) +JIT [x86_64-linux]
+    last_commit=signal.c: Don't mark ruby_abort as NORETURN on Solaris
+  d53b669948: |-
+    ruby 2.7.0dev (2019-08-27T05:05:20Z trunk d53b669948) [x86_64-linux]
+    last_commit=compile.c: remove const from the first argument of dladdr
+  d53b669948 --jit: |-
+    ruby 2.7.0dev (2019-08-27T05:05:20Z trunk d53b669948) +JIT [x86_64-linux]
+    last_commit=compile.c: remove const from the first argument of dladdr
+  2789bdddc7: |-
+    ruby 2.7.0dev (2019-08-27T05:25:58Z trunk 2789bdddc7) [x86_64-linux]
+    last_commit=Use array indexing with considering clang's feeling
+  2789bdddc7 --jit: |-
+    ruby 2.7.0dev (2019-08-27T05:25:58Z trunk 2789bdddc7) +JIT [x86_64-linux]
+    last_commit=Use array indexing with considering clang's feeling
+  9bc1667a18: |-
+    ruby 2.7.0dev (2019-08-27T05:30:52Z trunk 9bc1667a18) [x86_64-linux]
+    last_commit=Explain which test task
+  9bc1667a18 --jit: |-
+    ruby 2.7.0dev (2019-08-27T05:30:52Z trunk 9bc1667a18) +JIT [x86_64-linux]
+    last_commit=Explain which test task
+  0c8525ecc9: |-
+    ruby 2.7.0dev (2019-08-27T05:40:59Z trunk 0c8525ecc9) [x86_64-linux]
+    last_commit=.github/workflows/coverage.yml: add a cron job for coverage in Actions
+  0c8525ecc9 --jit: |-
+    ruby 2.7.0dev (2019-08-27T05:40:59Z trunk 0c8525ecc9) +JIT [x86_64-linux]
+    last_commit=.github/workflows/coverage.yml: add a cron job for coverage in Actions
+  2fb723b8af: |-
+    ruby 2.7.0dev (2019-08-27T06:11:39Z trunk 2fb723b8af) [x86_64-linux]
+    last_commit=Revert "Explain which test task"
+  2fb723b8af --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:11:39Z trunk 2fb723b8af) +JIT [x86_64-linux]
+    last_commit=Revert "Explain which test task"
+  6007c7c366: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 6007c7c366) [x86_64-linux]
+    last_commit=delete rb_method_defined_by declaration.
+  6007c7c366 --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 6007c7c366) +JIT [x86_64-linux]
+    last_commit=delete rb_method_defined_by declaration.
+  0c8592b9af: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 0c8592b9af) [x86_64-linux]
+    last_commit=fix function prototype mismatch of rb_block_call
+  0c8592b9af --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 0c8592b9af) +JIT [x86_64-linux]
+    last_commit=fix function prototype mismatch of rb_block_call
+  7329b3339a: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 7329b3339a) [x86_64-linux]
+    last_commit=#define RB_BLOCK_CALL_FUNC_STRICT 1
+  7329b3339a --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 7329b3339a) +JIT [x86_64-linux]
+    last_commit=#define RB_BLOCK_CALL_FUNC_STRICT 1
+  b8fd2e83e7: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk b8fd2e83e7) [x86_64-linux]
+    last_commit=decouple compile.c usage of imemo_ifunc
+  b8fd2e83e7 --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk b8fd2e83e7) +JIT [x86_64-linux]
+    last_commit=decouple compile.c usage of imemo_ifunc
+  3cae73133c: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 3cae73133c) [x86_64-linux]
+    last_commit=rb_iterate now takes rb_block_call_func_t
+  3cae73133c --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 3cae73133c) +JIT [x86_64-linux]
+    last_commit=rb_iterate now takes rb_block_call_func_t
+  5c7c2d9951: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 5c7c2d9951) [x86_64-linux]
+    last_commit=rb_rescue / rb_rescue2 now free from ANYARGS
+  5c7c2d9951 --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 5c7c2d9951) +JIT [x86_64-linux]
+    last_commit=rb_rescue / rb_rescue2 now free from ANYARGS
+  703783324c: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 703783324c) [x86_64-linux]
+    last_commit=rb_ensure now free from ANYARGS
+  703783324c --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 703783324c) +JIT [x86_64-linux]
+    last_commit=rb_ensure now free from ANYARGS
+  af5e256640: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk af5e256640) [x86_64-linux]
+    last_commit=rb_catch now free from ANYARGS
+  af5e256640 --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk af5e256640) +JIT [x86_64-linux]
+    last_commit=rb_catch now free from ANYARGS
+  bc3e7924bc: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk bc3e7924bc) [x86_64-linux]
+    last_commit=rb_proc_new / rb_fiber_new now free from ANYARGS
+  bc3e7924bc --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk bc3e7924bc) +JIT [x86_64-linux]
+    last_commit=rb_proc_new / rb_fiber_new now free from ANYARGS
+  e3fc30564e: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk e3fc30564e) [x86_64-linux]
+    last_commit=rb_thread_create now free from ANYARGS
+  e3fc30564e --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk e3fc30564e) +JIT [x86_64-linux]
+    last_commit=rb_thread_create now free from ANYARGS
+  6dd60cf114: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 6dd60cf114) [x86_64-linux]
+    last_commit=st_foreach now free from ANYARGS
+  6dd60cf114 --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 6dd60cf114) +JIT [x86_64-linux]
+    last_commit=st_foreach now free from ANYARGS
+  78628618da: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 78628618da) [x86_64-linux]
+    last_commit=struct st_hash_type now free from ANYARGS
+  78628618da --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 78628618da) +JIT [x86_64-linux]
+    last_commit=struct st_hash_type now free from ANYARGS
+  ae2dc3f217: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk ae2dc3f217) [x86_64-linux]
+    last_commit=rb_define_hooked_variable now free from ANYARGS
+  ae2dc3f217 --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk ae2dc3f217) +JIT [x86_64-linux]
+    last_commit=rb_define_hooked_variable now free from ANYARGS
+  50f5a0a8d6: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 50f5a0a8d6) [x86_64-linux]
+    last_commit=rb_hash_foreach now free from ANYARGS
+  50f5a0a8d6 --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 50f5a0a8d6) +JIT [x86_64-linux]
+    last_commit=rb_hash_foreach now free from ANYARGS
+  79d280a5e8: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 79d280a5e8) [x86_64-linux]
+    last_commit=rb_ivar_foreach now free from ANYARGS
+  79d280a5e8 --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 79d280a5e8) +JIT [x86_64-linux]
+    last_commit=rb_ivar_foreach now free from ANYARGS
+  bd8dc2561d: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk bd8dc2561d) [x86_64-linux]
+    last_commit=struct MEMO now free from ANYARGS
+  bd8dc2561d --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk bd8dc2561d) +JIT [x86_64-linux]
+    last_commit=struct MEMO now free from ANYARGS
+  19b6678132: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 19b6678132) [x86_64-linux]
+    last_commit=rb_uninterruptible now free from ANYARGS
+  19b6678132 --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 19b6678132) +JIT [x86_64-linux]
+    last_commit=rb_uninterruptible now free from ANYARGS
+  1663d347c9: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 1663d347c9) [x86_64-linux]
+    last_commit=delete `$` sign from C identifiers
+  1663d347c9 --jit: |-
+    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 1663d347c9) +JIT [x86_64-linux]
+    last_commit=delete `$` sign from C identifiers
