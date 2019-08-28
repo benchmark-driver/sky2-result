@@ -9,84 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  414d6cf1d3: |-
-    ruby 2.7.0dev (2019-07-24T22:52:19Z trunk 414d6cf1d3) [x86_64-linux]
-    last_commit=[ruby/psych] Get rid of C90 feature
-  414d6cf1d3 --jit: |-
-    ruby 2.7.0dev (2019-07-24T22:52:19Z trunk 414d6cf1d3) +JIT [x86_64-linux]
-    last_commit=[ruby/psych] Get rid of C90 feature
-  077c28887a: |-
-    ruby 2.7.0dev (2019-07-24T23:16:57Z trunk 077c28887a) [x86_64-linux]
-    last_commit=[ruby/io-console] Do not use add_development_dependency
-  077c28887a --jit: |-
-    ruby 2.7.0dev (2019-07-24T23:16:57Z trunk 077c28887a) +JIT [x86_64-linux]
-    last_commit=[ruby/io-console] Do not use add_development_dependency
-  82ae462113: |-
-    ruby 2.7.0dev (2019-07-24T23:19:03Z trunk 82ae462113) [x86_64-linux]
-    last_commit=Do not fetch remote tags
-  82ae462113 --jit: |-
-    ruby 2.7.0dev (2019-07-24T23:19:03Z trunk 82ae462113) +JIT [x86_64-linux]
-    last_commit=Do not fetch remote tags
-  a850be68a5: |-
-    ruby 2.7.0dev (2019-07-24T23:42:16Z trunk a850be68a5) [x86_64-linux]
-    last_commit=Moved NoMemoryError hook to Test::Unit::AutoRunner
-  a850be68a5 --jit: |-
-    ruby 2.7.0dev (2019-07-24T23:42:16Z trunk a850be68a5) +JIT [x86_64-linux]
-    last_commit=Moved NoMemoryError hook to Test::Unit::AutoRunner
-  d8e90f5558: |-
-    ruby 2.7.0dev (2019-07-25T07:39:28Z trunk d8e90f5558) [x86_64-linux]
-    last_commit=Fix a typo in inspect
-  d8e90f5558 --jit: |-
-    ruby 2.7.0dev (2019-07-25T07:39:28Z trunk d8e90f5558) +JIT [x86_64-linux]
-    last_commit=Fix a typo in inspect
-  f5ea054810: |-
-    ruby 2.7.0dev (2019-07-25T07:57:37Z trunk f5ea054810) [x86_64-linux]
-    last_commit=Moved NoMemoryError hook
-  f5ea054810 --jit: |-
-    ruby 2.7.0dev (2019-07-25T07:57:37Z trunk f5ea054810) +JIT [x86_64-linux]
-    last_commit=Moved NoMemoryError hook
-  4c1db84d17: |-
-    ruby 2.7.0dev (2019-07-25T07:57:37Z trunk 4c1db84d17) [x86_64-linux]
-    last_commit=Added --base-directory option
-  4c1db84d17 --jit: |-
-    ruby 2.7.0dev (2019-07-25T07:57:37Z trunk 4c1db84d17) +JIT [x86_64-linux]
-    last_commit=Added --base-directory option
-  46771abfe5: |-
-    ruby 2.7.0dev (2019-07-25T07:57:37Z trunk 46771abfe5) [x86_64-linux]
-    last_commit=Use libraries in the base directory if given
-  46771abfe5 --jit: |-
-    ruby 2.7.0dev (2019-07-25T07:57:37Z trunk 46771abfe5) +JIT [x86_64-linux]
-    last_commit=Use libraries in the base directory if given
-  8e53d18e67: |-
-    ruby 2.7.0dev (2019-07-25T07:57:38Z trunk 8e53d18e67) [x86_64-linux]
-    last_commit=Separated tool/test/runner.rb and test/runner.rb
-  8e53d18e67 --jit: |-
-    ruby 2.7.0dev (2019-07-25T07:57:38Z trunk 8e53d18e67) +JIT [x86_64-linux]
-    last_commit=Separated tool/test/runner.rb and test/runner.rb
-  0f9ec4a877: |-
-    ruby 2.7.0dev (2019-07-25T08:19:16Z trunk 0f9ec4a877) [x86_64-linux]
-    last_commit=Check wether multibyte character is split
-  0f9ec4a877 --jit: |-
-    ruby 2.7.0dev (2019-07-25T08:19:16Z trunk 0f9ec4a877) +JIT [x86_64-linux]
-    last_commit=Check wether multibyte character is split
-  a50c844645: |-
-    ruby 2.7.0dev (2019-07-25T08:31:40Z trunk a50c844645) [x86_64-linux]
-    last_commit=Initialize vm_throw_data::throw_state as int
-  a50c844645 --jit: |-
-    ruby 2.7.0dev (2019-07-25T08:31:40Z trunk a50c844645) +JIT [x86_64-linux]
-    last_commit=Initialize vm_throw_data::throw_state as int
-  7e33f324e1: |-
-    ruby 2.7.0dev (2019-07-25T11:57:32Z trunk 7e33f324e1) [x86_64-linux]
-    last_commit=Get rid of failures about coverage
-  7e33f324e1 --jit: |-
-    ruby 2.7.0dev (2019-07-25T11:57:32Z trunk 7e33f324e1) +JIT [x86_64-linux]
-    last_commit=Get rid of failures about coverage
-  957a29fc6e: |-
-    ruby 2.7.0dev (2019-07-26T00:21:04Z trunk 957a29fc6e) [x86_64-linux]
-    last_commit=Bump osx_image on Travis CI to xcode11
-  957a29fc6e --jit: |-
-    ruby 2.7.0dev (2019-07-26T00:21:04Z trunk 957a29fc6e) +JIT [x86_64-linux]
-    last_commit=Bump osx_image on Travis CI to xcode11
   300de6aec2: |-
     ruby 2.7.0dev (2019-07-26T01:46:31Z trunk 300de6aec2) [x86_64-linux]
     last_commit=* 2019-07-26
@@ -6021,3 +5943,27 @@ commits:
   8e13da1ee8 --jit: |-
     ruby 2.7.0dev (2019-08-28T02:29:49Z trunk 8e13da1ee8) +JIT [x86_64-linux]
     last_commit=optimize get_power2 [Feature #15631]
+  c9dc569a94: |-
+    ruby 2.7.0dev (2019-08-28T03:32:43Z trunk c9dc569a94) [x86_64-linux]
+    last_commit=Ensure the last and changed revisions as Integers
+  c9dc569a94 --jit: |-
+    ruby 2.7.0dev (2019-08-28T03:32:43Z trunk c9dc569a94) +JIT [x86_64-linux]
+    last_commit=Ensure the last and changed revisions as Integers
+  ed8d2e1cfd: |-
+    ruby 2.7.0dev (2019-08-28T05:50:21Z trunk ed8d2e1cfd) [x86_64-linux]
+    last_commit=tool/merger.rb: fix tag existence check with subversion.
+  ed8d2e1cfd --jit: |-
+    ruby 2.7.0dev (2019-08-28T05:50:21Z trunk ed8d2e1cfd) +JIT [x86_64-linux]
+    last_commit=tool/merger.rb: fix tag existence check with subversion.
+  2b55df7315: |-
+    ruby 2.7.0dev (2019-08-28T06:57:30Z trunk 2b55df7315) [x86_64-linux]
+    last_commit=`revision` might be an Integer
+  2b55df7315 --jit: |-
+    ruby 2.7.0dev (2019-08-28T06:57:30Z trunk 2b55df7315) +JIT [x86_64-linux]
+    last_commit=`revision` might be an Integer
+  a506b7f35a: |-
+    ruby 2.7.0dev (2019-08-28T07:08:14Z trunk a506b7f35a) [x86_64-linux]
+    last_commit=Adjusted indents and supplied last commas
+  a506b7f35a --jit: |-
+    ruby 2.7.0dev (2019-08-28T07:08:14Z trunk a506b7f35a) +JIT [x86_64-linux]
+    last_commit=Adjusted indents and supplied last commas
