@@ -5967,3 +5967,21 @@ commits:
   932a471d38 --jit: |-
     ruby 2.7.0dev (2019-08-27T18:43:18Z trunk 932a471d38) +JIT [x86_64-linux]
     last_commit=Directly mark compile options from the AST object
+  d4de5e6459: |-
+    ruby 2.7.0dev (2019-08-28T00:13:43Z trunk d4de5e6459) [x86_64-linux]
+    last_commit=Show projectnumber in current index.html and GITHUB_SHA
+  d4de5e6459 --jit: |-
+    ruby 2.7.0dev (2019-08-28T00:13:43Z trunk d4de5e6459) +JIT [x86_64-linux]
+    last_commit=Show projectnumber in current index.html and GITHUB_SHA
+  767992329e: |-
+    ruby 2.7.0dev (2019-08-28T00:15:40Z trunk 767992329e) [x86_64-linux]
+    last_commit=Allow missing projectnumber [ci skip]
+  767992329e --jit: |-
+    ruby 2.7.0dev (2019-08-28T00:15:40Z trunk 767992329e) +JIT [x86_64-linux]
+    last_commit=Allow missing projectnumber [ci skip]
+  17c0ce3798: |-
+    ruby 2.7.0dev (2019-08-28T00:20:07Z trunk 17c0ce3798) [x86_64-linux]
+    last_commit=Remove GITHUB_SHA from jobs.<job_id>.steps.env
+  17c0ce3798 --jit: |-
+    ruby 2.7.0dev (2019-08-28T00:20:07Z trunk 17c0ce3798) +JIT [x86_64-linux]
+    last_commit=Remove GITHUB_SHA from jobs.<job_id>.steps.env
