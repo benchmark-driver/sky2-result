@@ -5985,3 +5985,39 @@ commits:
   17c0ce3798 --jit: |-
     ruby 2.7.0dev (2019-08-28T00:20:07Z trunk 17c0ce3798) +JIT [x86_64-linux]
     last_commit=Remove GITHUB_SHA from jobs.<job_id>.steps.env
+  230f405479: |-
+    ruby 2.7.0dev (2019-08-28T00:38:52Z trunk 230f405479) [x86_64-linux]
+    last_commit=Add name to autoconf
+  230f405479 --jit: |-
+    ruby 2.7.0dev (2019-08-28T00:38:52Z trunk 230f405479) +JIT [x86_64-linux]
+    last_commit=Add name to autoconf
+  330c2f7597: |-
+    ruby 2.7.0dev (2019-08-28T00:41:14Z trunk 330c2f7597) [x86_64-linux]
+    last_commit=Change name to `Tests (test-bundled-gems)`
+  330c2f7597 --jit: |-
+    ruby 2.7.0dev (2019-08-28T00:41:14Z trunk 330c2f7597) +JIT [x86_64-linux]
+    last_commit=Change name to `Tests (test-bundled-gems)`
+  108dbb389b: |-
+    ruby 2.7.0dev (2019-08-28T00:45:31Z trunk 108dbb389b) [x86_64-linux]
+    last_commit=Use JOBS again like macos.yml
+  108dbb389b --jit: |-
+    ruby 2.7.0dev (2019-08-28T00:45:31Z trunk 108dbb389b) +JIT [x86_64-linux]
+    last_commit=Use JOBS again like macos.yml
+  624a0ad44d: |-
+    ruby 2.7.0dev (2019-08-28T01:07:54Z trunk 624a0ad44d) [x86_64-linux]
+    last_commit=Use `set-env` instead of `grep` in each step
+  624a0ad44d --jit: |-
+    ruby 2.7.0dev (2019-08-28T01:07:54Z trunk 624a0ad44d) +JIT [x86_64-linux]
+    last_commit=Use `set-env` instead of `grep` in each step
+  989e8ad322: |-
+    ruby 2.7.0dev (2019-08-28T01:34:56Z trunk 989e8ad322) [x86_64-linux]
+    last_commit=Remove debug print [ci skip]
+  989e8ad322 --jit: |-
+    ruby 2.7.0dev (2019-08-28T01:34:56Z trunk 989e8ad322) +JIT [x86_64-linux]
+    last_commit=Remove debug print [ci skip]
+  8e13da1ee8: |-
+    ruby 2.7.0dev (2019-08-28T02:29:49Z trunk 8e13da1ee8) [x86_64-linux]
+    last_commit=optimize get_power2 [Feature #15631]
+  8e13da1ee8 --jit: |-
+    ruby 2.7.0dev (2019-08-28T02:29:49Z trunk 8e13da1ee8) +JIT [x86_64-linux]
+    last_commit=optimize get_power2 [Feature #15631]
