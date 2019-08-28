@@ -5967,3 +5967,15 @@ commits:
   a506b7f35a --jit: |-
     ruby 2.7.0dev (2019-08-28T07:08:14Z trunk a506b7f35a) +JIT [x86_64-linux]
     last_commit=Adjusted indents and supplied last commas
+  b11d739444: |-
+    ruby 2.7.0dev (2019-08-28T07:51:48Z trunk b11d739444) [x86_64-linux]
+    last_commit=Fix warnings
+  b11d739444 --jit: |-
+    ruby 2.7.0dev (2019-08-28T07:51:48Z trunk b11d739444) +JIT [x86_64-linux]
+    last_commit=Fix warnings
+  c1d0b6adfc: |-
+    ruby 2.7.0dev (2019-08-28T07:51:49Z trunk c1d0b6adfc) [x86_64-linux]
+    last_commit=Revert "Treat RUBY_REVISION as an integer on old rubies"
+  c1d0b6adfc --jit: |-
+    ruby 2.7.0dev (2019-08-28T07:51:49Z trunk c1d0b6adfc) +JIT [x86_64-linux]
+    last_commit=Revert "Treat RUBY_REVISION as an integer on old rubies"
