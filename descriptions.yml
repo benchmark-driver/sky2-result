@@ -9,96 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  dc954cbb75: |-
-    ruby 2.7.0dev (2019-07-24T11:08:40Z trunk dc954cbb75) [x86_64-linux]
-    last_commit=@@project_dir in Gem::TestCase is no longer used
-  dc954cbb75 --jit: |-
-    ruby 2.7.0dev (2019-07-24T11:08:40Z trunk dc954cbb75) +JIT [x86_64-linux]
-    last_commit=@@project_dir in Gem::TestCase is no longer used
-  7b1893c771: |-
-    ruby 2.7.0dev (2019-07-24T11:50:51Z trunk 7b1893c771) [x86_64-linux]
-    last_commit=Resurrect timestamp debug log
-  7b1893c771 --jit: |-
-    ruby 2.7.0dev (2019-07-24T11:50:51Z trunk 7b1893c771) +JIT [x86_64-linux]
-    last_commit=Resurrect timestamp debug log
-  65a9d4b0f7: |-
-    ruby 2.7.0dev (2019-07-24T11:51:29Z trunk 65a9d4b0f7) [x86_64-linux]
-    last_commit=Fix typo [ci skip]
-  65a9d4b0f7 --jit: |-
-    ruby 2.7.0dev (2019-07-24T11:51:29Z trunk 65a9d4b0f7) +JIT [x86_64-linux]
-    last_commit=Fix typo [ci skip]
-  96b0d7cd6f: |-
-    ruby 2.7.0dev (2019-07-24T12:03:01Z trunk 96b0d7cd6f) [x86_64-linux]
-    last_commit=GNU ls -T has different meaning
-  96b0d7cd6f --jit: |-
-    ruby 2.7.0dev (2019-07-24T12:03:01Z trunk 96b0d7cd6f) +JIT [x86_64-linux]
-    last_commit=GNU ls -T has different meaning
-  538ba984c8: |-
-    ruby 2.7.0dev (2019-07-24T12:07:12Z trunk 538ba984c8) [x86_64-linux]
-    last_commit=Split ls line
-  538ba984c8 --jit: |-
-    ruby 2.7.0dev (2019-07-24T12:07:12Z trunk 538ba984c8) +JIT [x86_64-linux]
-    last_commit=Split ls line
-  1cce430324: |-
-    ruby 2.7.0dev (2019-07-24T13:07:10Z trunk 1cce430324) [x86_64-linux]
-    last_commit=Suppress deflateParams() warnings
-  1cce430324 --jit: |-
-    ruby 2.7.0dev (2019-07-24T13:07:10Z trunk 1cce430324) +JIT [x86_64-linux]
-    last_commit=Suppress deflateParams() warnings
-  3556cba503: |-
-    ruby 2.7.0dev (2019-07-24T17:35:28Z trunk 3556cba503) [x86_64-linux]
-    last_commit=Document that Range#cover? returns false if <=> returns nil
-  3556cba503 --jit: |-
-    ruby 2.7.0dev (2019-07-24T17:35:28Z trunk 3556cba503) +JIT [x86_64-linux]
-    last_commit=Document that Range#cover? returns false if <=> returns nil
-  48b4deb418: |-
-    ruby 2.7.0dev (2019-07-24T17:36:25Z trunk 48b4deb418) [x86_64-linux]
-    last_commit=* 2019-07-25
-  48b4deb418 --jit: |-
-    ruby 2.7.0dev (2019-07-24T17:36:25Z trunk 48b4deb418) +JIT [x86_64-linux]
-    last_commit=* 2019-07-25
-  da76c4460f: |-
-    ruby 2.7.0dev (2019-07-24T18:54:07Z trunk da76c4460f) [x86_64-linux]
-    last_commit=Clarify Thread exception handling documentation [ci skip]
-  da76c4460f --jit: |-
-    ruby 2.7.0dev (2019-07-24T18:54:07Z trunk da76c4460f) +JIT [x86_64-linux]
-    last_commit=Clarify Thread exception handling documentation [ci skip]
-  efa380b006: |-
-    ruby 2.7.0dev (2019-07-24T20:54:38Z trunk efa380b006) [x86_64-linux]
-    last_commit=Use PRIuSIZE instead of "%zu"
-  efa380b006 --jit: |-
-    ruby 2.7.0dev (2019-07-24T20:54:38Z trunk efa380b006) +JIT [x86_64-linux]
-    last_commit=Use PRIuSIZE instead of "%zu"
-  0a63c4d5fb: |-
-    ruby 2.7.0dev (2019-07-24T21:39:40Z trunk 0a63c4d5fb) [x86_64-linux]
-    last_commit=Fix errno at seeking socket/pipe on Windows
-  0a63c4d5fb --jit: |-
-    ruby 2.7.0dev (2019-07-24T21:39:40Z trunk 0a63c4d5fb) +JIT [x86_64-linux]
-    last_commit=Fix errno at seeking socket/pipe on Windows
-  938032a790: |-
-    ruby 2.7.0dev (2019-07-24T22:47:07Z trunk 938032a790) [x86_64-linux]
-    last_commit=[ruby/psych] Do not use add_development_dependency.
-  938032a790 --jit: |-
-    ruby 2.7.0dev (2019-07-24T22:47:07Z trunk 938032a790) +JIT [x86_64-linux]
-    last_commit=[ruby/psych] Do not use add_development_dependency.
-  50076903ab: |-
-    ruby 2.7.0dev (2019-07-24T22:50:37Z trunk 50076903ab) [x86_64-linux]
-    last_commit=[ruby/psych] Drop to support fat gem support.
-  50076903ab --jit: |-
-    ruby 2.7.0dev (2019-07-24T22:50:37Z trunk 50076903ab) +JIT [x86_64-linux]
-    last_commit=[ruby/psych] Drop to support fat gem support.
-  6ca7dc69ef: |-
-    ruby 2.7.0dev (2019-07-24T22:52:16Z trunk 6ca7dc69ef) [x86_64-linux]
-    last_commit=[ruby/psych] Deduplicate hash keys if they're strings
-  6ca7dc69ef --jit: |-
-    ruby 2.7.0dev (2019-07-24T22:52:16Z trunk 6ca7dc69ef) +JIT [x86_64-linux]
-    last_commit=[ruby/psych] Deduplicate hash keys if they're strings
-  698dde525a: |-
-    ruby 2.7.0dev (2019-07-24T22:52:17Z trunk 698dde525a) [x86_64-linux]
-    last_commit=[ruby/psych] Suppress uninitialized instance variable warnings
-  698dde525a --jit: |-
-    ruby 2.7.0dev (2019-07-24T22:52:17Z trunk 698dde525a) +JIT [x86_64-linux]
-    last_commit=[ruby/psych] Suppress uninitialized instance variable warnings
   414d6cf1d3: |-
     ruby 2.7.0dev (2019-07-24T22:52:19Z trunk 414d6cf1d3) [x86_64-linux]
     last_commit=[ruby/psych] Get rid of C90 feature
@@ -6045,3 +5955,15 @@ commits:
   71e5871c3b --jit: |-
     ruby 2.7.0dev (2019-08-27T16:48:40Z trunk 71e5871c3b) +JIT [x86_64-linux]
     last_commit=Run on schedule only and skip if not modified
+  cbcad66741: |-
+    ruby 2.7.0dev (2019-08-27T17:16:28Z trunk cbcad66741) [x86_64-linux]
+    last_commit=Fix doxygen action
+  cbcad66741 --jit: |-
+    ruby 2.7.0dev (2019-08-27T17:16:28Z trunk cbcad66741) +JIT [x86_64-linux]
+    last_commit=Fix doxygen action
+  932a471d38: |-
+    ruby 2.7.0dev (2019-08-27T18:43:18Z trunk 932a471d38) [x86_64-linux]
+    last_commit=Directly mark compile options from the AST object
+  932a471d38 --jit: |-
+    ruby 2.7.0dev (2019-08-27T18:43:18Z trunk 932a471d38) +JIT [x86_64-linux]
+    last_commit=Directly mark compile options from the AST object
