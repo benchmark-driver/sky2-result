@@ -5991,3 +5991,21 @@ commits:
   cd0e208963 --jit: |-
     ruby 2.7.0dev (2019-08-28T18:50:33Z trunk cd0e208963) +JIT [x86_64-linux]
     last_commit=Document {n}? regexp pattern is optional and not non-greedy [ci skip]
+  d92289cd8d: |-
+    ruby 2.7.0dev (2019-08-29T02:10:45Z trunk d92289cd8d) [x86_64-linux]
+    last_commit=Revert "Remove warnings of flip-flop deprecation from tests and specs"
+  d92289cd8d --jit: |-
+    ruby 2.7.0dev (2019-08-29T02:10:45Z trunk d92289cd8d) +JIT [x86_64-linux]
+    last_commit=Revert "Remove warnings of flip-flop deprecation from tests and specs"
+  1cf5a31e7a: |-
+    ruby 2.7.0dev (2019-08-29T02:16:17Z trunk 1cf5a31e7a) [x86_64-linux]
+    last_commit=Aseert exception at negative step for non-endless range too
+  1cf5a31e7a --jit: |-
+    ruby 2.7.0dev (2019-08-29T02:16:17Z trunk 1cf5a31e7a) +JIT [x86_64-linux]
+    last_commit=Aseert exception at negative step for non-endless range too
+  d3e0bc07e2: |-
+    ruby 2.7.0dev (2019-08-29T02:23:16Z trunk d3e0bc07e2) [x86_64-linux]
+    last_commit=Fixed a comment [ci skip]
+  d3e0bc07e2 --jit: |-
+    ruby 2.7.0dev (2019-08-29T02:23:16Z trunk d3e0bc07e2) +JIT [x86_64-linux]
+    last_commit=Fixed a comment [ci skip]
