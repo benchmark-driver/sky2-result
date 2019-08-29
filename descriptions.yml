@@ -9,156 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  300de6aec2: |-
-    ruby 2.7.0dev (2019-07-26T01:46:31Z trunk 300de6aec2) [x86_64-linux]
-    last_commit=* 2019-07-26
-  300de6aec2 --jit: |-
-    ruby 2.7.0dev (2019-07-26T01:46:31Z trunk 300de6aec2) +JIT [x86_64-linux]
-    last_commit=* 2019-07-26
-  82b02c131e: |-
-    ruby 2.7.0dev (2019-07-26T02:45:25Z trunk 82b02c131e) [x86_64-linux]
-    last_commit=pass to obj_info().
-  82b02c131e --jit: |-
-    ruby 2.7.0dev (2019-07-26T02:45:25Z trunk 82b02c131e) +JIT [x86_64-linux]
-    last_commit=pass to obj_info().
-  51f22deadb: |-
-    ruby 2.7.0dev (2019-07-26T07:34:15Z trunk 51f22deadb) [x86_64-linux]
-    last_commit=Adjust the test direcotry structure of rdoc.
-  51f22deadb --jit: |-
-    ruby 2.7.0dev (2019-07-26T07:34:15Z trunk 51f22deadb) +JIT [x86_64-linux]
-    last_commit=Adjust the test direcotry structure of rdoc.
-  348c9687bf: |-
-    ruby 2.7.0dev (2019-07-26T07:45:18Z trunk 348c9687bf) [x86_64-linux]
-    last_commit=Escape parentheses for syntax hilighting for VScode.
-  348c9687bf --jit: |-
-    ruby 2.7.0dev (2019-07-26T07:45:18Z trunk 348c9687bf) +JIT [x86_64-linux]
-    last_commit=Escape parentheses for syntax hilighting for VScode.
-  071bf88970: |-
-    ruby 2.7.0dev (2019-07-26T08:06:54Z trunk 071bf88970) [x86_64-linux]
-    last_commit=Improve the commits list for cherry-picking from default gems.
-  071bf88970 --jit: |-
-    ruby 2.7.0dev (2019-07-26T08:06:54Z trunk 071bf88970) +JIT [x86_64-linux]
-    last_commit=Improve the commits list for cherry-picking from default gems.
-  95aa60f6cd: |-
-    ruby 2.7.0dev (2019-07-26T09:20:07Z trunk 95aa60f6cd) [x86_64-linux]
-    last_commit=Ignore Merge commit and insufficiency commit for ruby core repository.
-  95aa60f6cd --jit: |-
-    ruby 2.7.0dev (2019-07-26T09:20:07Z trunk 95aa60f6cd) +JIT [x86_64-linux]
-    last_commit=Ignore Merge commit and insufficiency commit for ruby core repository.
-  f7cbbc7074: |-
-    ruby 2.7.0dev (2019-07-26T09:20:27Z trunk f7cbbc7074) [x86_64-linux]
-    last_commit=[ruby/rdoc] ClassModule#add_comment should receive RDoc::Comment
-  f7cbbc7074 --jit: |-
-    ruby 2.7.0dev (2019-07-26T09:20:27Z trunk f7cbbc7074) +JIT [x86_64-linux]
-    last_commit=[ruby/rdoc] ClassModule#add_comment should receive RDoc::Comment
-  a86d4eef4b: |-
-    ruby 2.7.0dev (2019-07-26T09:20:58Z trunk a86d4eef4b) [x86_64-linux]
-    last_commit=[ruby/rdoc] Normalization of comment should check language
-  a86d4eef4b --jit: |-
-    ruby 2.7.0dev (2019-07-26T09:20:58Z trunk a86d4eef4b) +JIT [x86_64-linux]
-    last_commit=[ruby/rdoc] Normalization of comment should check language
-  3b0f952ec8: |-
-    ruby 2.7.0dev (2019-07-26T09:29:17Z trunk 3b0f952ec8) [x86_64-linux]
-    last_commit=[ruby/rdoc] Support nesting text page URL
-  3b0f952ec8 --jit: |-
-    ruby 2.7.0dev (2019-07-26T09:29:17Z trunk 3b0f952ec8) +JIT [x86_64-linux]
-    last_commit=[ruby/rdoc] Support nesting text page URL
-  8bb4892376: |-
-    ruby 2.7.0dev (2019-07-26T09:32:19Z trunk 8bb4892376) [x86_64-linux]
-    last_commit=[ruby/rdoc] Update jQuery to 3.3.1
-  8bb4892376 --jit: |-
-    ruby 2.7.0dev (2019-07-26T09:32:19Z trunk 8bb4892376) +JIT [x86_64-linux]
-    last_commit=[ruby/rdoc] Update jQuery to 3.3.1
-  21ce8b3298: |-
-    ruby 2.7.0dev (2019-07-26T09:32:46Z trunk 21ce8b3298) [x86_64-linux]
-    last_commit=[ruby/rdoc] Fix image links in rdoc.css
-  21ce8b3298 --jit: |-
-    ruby 2.7.0dev (2019-07-26T09:32:46Z trunk 21ce8b3298) +JIT [x86_64-linux]
-    last_commit=[ruby/rdoc] Fix image links in rdoc.css
-  4b7d7d007f: |-
-    ruby 2.7.0dev (2019-07-26T14:35:58Z trunk 4b7d7d007f) [x86_64-linux]
-    last_commit=Document and add spec for delegating to constants in Forwardable
-  4b7d7d007f --jit: |-
-    ruby 2.7.0dev (2019-07-26T14:35:58Z trunk 4b7d7d007f) +JIT [x86_64-linux]
-    last_commit=Document and add spec for delegating to constants in Forwardable
-  b1a2eddbfc: |-
-    ruby 2.7.0dev (2019-07-26T15:13:34Z trunk b1a2eddbfc) [x86_64-linux]
-    last_commit=Document acceptance of negative pid in Process.kill [ci skip]
-  b1a2eddbfc --jit: |-
-    ruby 2.7.0dev (2019-07-26T15:13:34Z trunk b1a2eddbfc) +JIT [x86_64-linux]
-    last_commit=Document acceptance of negative pid in Process.kill [ci skip]
-  4f978a1c99: |-
-    ruby 2.7.0dev (2019-07-26T15:18:35Z trunk 4f978a1c99) [x86_64-linux]
-    last_commit=* 2019-07-27
-  4f978a1c99 --jit: |-
-    ruby 2.7.0dev (2019-07-26T15:18:35Z trunk 4f978a1c99) +JIT [x86_64-linux]
-    last_commit=* 2019-07-27
-  5fef46ae0d: |-
-    ruby 2.7.0dev (2019-07-26T16:56:53Z trunk 5fef46ae0d) [x86_64-linux]
-    last_commit=Test SecureRandom.uuid format
-  5fef46ae0d --jit: |-
-    ruby 2.7.0dev (2019-07-26T16:56:53Z trunk 5fef46ae0d) +JIT [x86_64-linux]
-    last_commit=Test SecureRandom.uuid format
-  bd32833382: |-
-    ruby 2.7.0dev (2019-07-26T21:26:59Z trunk bd32833382) [x86_64-linux]
-    last_commit=Document behavior when mixing named captures with parentheses [ci skip]
-  bd32833382 --jit: |-
-    ruby 2.7.0dev (2019-07-26T21:26:59Z trunk bd32833382) +JIT [x86_64-linux]
-    last_commit=Document behavior when mixing named captures with parentheses [ci skip]
-  6279cf8b2b: |-
-    ruby 2.7.0dev (2019-07-26T23:57:42Z trunk 6279cf8b2b) [x86_64-linux]
-    last_commit=Restore documentation for Object#hash [ci skip]
-  6279cf8b2b --jit: |-
-    ruby 2.7.0dev (2019-07-26T23:57:42Z trunk 6279cf8b2b) +JIT [x86_64-linux]
-    last_commit=Restore documentation for Object#hash [ci skip]
-  8bccbf3cfe: |-
-    ruby 2.7.0dev (2019-07-27T00:05:46Z trunk 8bccbf3cfe) [x86_64-linux]
-    last_commit=Add more documentation on #eql?/#hash relationship [ci skip]
-  8bccbf3cfe --jit: |-
-    ruby 2.7.0dev (2019-07-27T00:05:46Z trunk 8bccbf3cfe) +JIT [x86_64-linux]
-    last_commit=Add more documentation on #eql?/#hash relationship [ci skip]
-  149e414ed5: |-
-    ruby 2.7.0dev (2019-07-27T03:41:33Z trunk 149e414ed5) [x86_64-linux]
-    last_commit=Initialize DST flag
-  149e414ed5 --jit: |-
-    ruby 2.7.0dev (2019-07-27T03:41:33Z trunk 149e414ed5) +JIT [x86_64-linux]
-    last_commit=Initialize DST flag
-  012d39c4e6: |-
-    ruby 2.7.0dev (2019-07-27T07:47:24Z trunk 012d39c4e6) [x86_64-linux]
-    last_commit=Added ignore files to sync_default_gems_with_commits and make constant them.
-  012d39c4e6 --jit: |-
-    ruby 2.7.0dev (2019-07-27T07:47:24Z trunk 012d39c4e6) +JIT [x86_64-linux]
-    last_commit=Added ignore files to sync_default_gems_with_commits and make constant them.
-  58bb7f0ca1: |-
-    ruby 2.7.0dev (2019-07-27T07:47:32Z trunk 58bb7f0ca1) [x86_64-linux]
-    last_commit=Skip the some of commits when sync default gems from upstream.
-  58bb7f0ca1 --jit: |-
-    ruby 2.7.0dev (2019-07-27T07:47:32Z trunk 58bb7f0ca1) +JIT [x86_64-linux]
-    last_commit=Skip the some of commits when sync default gems from upstream.
-  f9f02e8216: |-
-    ruby 2.7.0dev (2019-07-27T07:56:04Z trunk f9f02e8216) [x86_64-linux]
-    last_commit=Use JRuby equivalent of RubyVM.compile.
-  f9f02e8216 --jit: |-
-    ruby 2.7.0dev (2019-07-27T07:56:04Z trunk f9f02e8216) +JIT [x86_64-linux]
-    last_commit=Use JRuby equivalent of RubyVM.compile.
-  a06301b103: |-
-    ruby 2.7.0dev (2019-07-27T07:56:04Z trunk a06301b103) [x86_64-linux]
-    last_commit=Ignore history file without saving if permissions cannot be changed
-  a06301b103 --jit: |-
-    ruby 2.7.0dev (2019-07-27T07:56:04Z trunk a06301b103) +JIT [x86_64-linux]
-    last_commit=Ignore history file without saving if permissions cannot be changed
-  5c276e1cc9: |-
-    ruby 2.7.0dev (2019-07-27T10:40:09Z trunk 5c276e1cc9) [x86_64-linux]
-    last_commit=Update to ruby/spec@875a09e
-  5c276e1cc9 --jit: |-
-    ruby 2.7.0dev (2019-07-27T10:40:09Z trunk 5c276e1cc9) +JIT [x86_64-linux]
-    last_commit=Update to ruby/spec@875a09e
-  7b727e30fc: |-
-    ruby 2.7.0dev (2019-07-27T10:57:46Z trunk 7b727e30fc) [x86_64-linux]
-    last_commit=Update to ruby/spec@0526d8f
-  7b727e30fc --jit: |-
-    ruby 2.7.0dev (2019-07-27T10:57:46Z trunk 7b727e30fc) +JIT [x86_64-linux]
-    last_commit=Update to ruby/spec@0526d8f
   73530a9619: |-
     ruby 2.7.0dev (2019-07-27T11:15:53Z trunk 73530a9619) [x86_64-linux]
     last_commit=tool/merger.rb: execute 'svn update' after 'svn ci' to update revision info on working copy.
@@ -6045,3 +5895,75 @@ commits:
   2ed68d0ff9 --jit: |-
     ruby 2.7.0dev (2019-08-29T06:27:59Z trunk 2ed68d0ff9) +JIT [x86_64-linux]
     last_commit=Revert "Add pipeline operator [Feature #15799]"
+  abe12d8b96: |-
+    ruby 2.7.0dev (2019-08-29T07:58:21Z trunk abe12d8b96) [x86_64-linux]
+    last_commit=Freeze method reference operator object
+  abe12d8b96 --jit: |-
+    ruby 2.7.0dev (2019-08-29T07:58:21Z trunk abe12d8b96) +JIT [x86_64-linux]
+    last_commit=Freeze method reference operator object
+  69683968a9: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 69683968a9) [x86_64-linux]
+    last_commit=fix arity of rb_mutex_synchronize_m
+  69683968a9 --jit: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 69683968a9) +JIT [x86_64-linux]
+    last_commit=fix arity of rb_mutex_synchronize_m
+  48e346a088: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 48e346a088) [x86_64-linux]
+    last_commit=fix arity of bug_start
+  48e346a088 --jit: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 48e346a088) +JIT [x86_64-linux]
+    last_commit=fix arity of bug_start
+  9ef51b0b89: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 9ef51b0b89) [x86_64-linux]
+    last_commit=drop-in type check for rb_define_method
+  9ef51b0b89 --jit: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 9ef51b0b89) +JIT [x86_64-linux]
+    last_commit=drop-in type check for rb_define_method
+  7b6fde4258: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 7b6fde4258) [x86_64-linux]
+    last_commit=drop-in type check for rb_define_module_function
+  7b6fde4258 --jit: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 7b6fde4258) +JIT [x86_64-linux]
+    last_commit=drop-in type check for rb_define_module_function
+  7bcfd9189a: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 7bcfd9189a) [x86_64-linux]
+    last_commit=drop-in type check for rb_define_global_function
+  7bcfd9189a --jit: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 7bcfd9189a) +JIT [x86_64-linux]
+    last_commit=drop-in type check for rb_define_global_function
+  0766f67168: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 0766f67168) [x86_64-linux]
+    last_commit=move docs around [ci skip]
+  0766f67168 --jit: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 0766f67168) +JIT [x86_64-linux]
+    last_commit=move docs around [ci skip]
+  0b81e7d6e2: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 0b81e7d6e2) [x86_64-linux]
+    last_commit=drop-in type check for rb_define_method_id
+  0b81e7d6e2 --jit: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 0b81e7d6e2) +JIT [x86_64-linux]
+    last_commit=drop-in type check for rb_define_method_id
+  9b429eb3b1: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 9b429eb3b1) [x86_64-linux]
+    last_commit=drop-in type check for rb_define_protected_method
+  9b429eb3b1 --jit: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 9b429eb3b1) +JIT [x86_64-linux]
+    last_commit=drop-in type check for rb_define_protected_method
+  bfe5d22f89: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk bfe5d22f89) [x86_64-linux]
+    last_commit=drop-in type check for rb_define_private_method
+  bfe5d22f89 --jit: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk bfe5d22f89) +JIT [x86_64-linux]
+    last_commit=drop-in type check for rb_define_private_method
+  3df37259d8: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 3df37259d8) [x86_64-linux]
+    last_commit=drop-in type check for rb_define_singleton_method
+  3df37259d8 --jit: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 3df37259d8) +JIT [x86_64-linux]
+    last_commit=drop-in type check for rb_define_singleton_method
+  e4be2fda3d: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk e4be2fda3d) [x86_64-linux]
+    last_commit=Rule out gcc on Windows
+  e4be2fda3d --jit: |-
+    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk e4be2fda3d) +JIT [x86_64-linux]
+    last_commit=Rule out gcc on Windows
