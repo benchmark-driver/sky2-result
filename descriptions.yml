@@ -5967,3 +5967,39 @@ commits:
   e4be2fda3d --jit: |-
     ruby 2.7.0dev (2019-08-29T09:34:09Z trunk e4be2fda3d) +JIT [x86_64-linux]
     last_commit=Rule out gcc on Windows
+  a4a19b114b: |-
+    ruby 2.7.0dev (2019-08-29T11:40:52Z trunk a4a19b114b) [x86_64-linux]
+    last_commit=Allow non-finalizable objects in ObjectSpace::WeakMap
+  a4a19b114b --jit: |-
+    ruby 2.7.0dev (2019-08-29T11:40:52Z trunk a4a19b114b) +JIT [x86_64-linux]
+    last_commit=Allow non-finalizable objects in ObjectSpace::WeakMap
+  b74dd665c0: |-
+    ruby 2.7.0dev (2019-08-29T12:03:44Z trunk b74dd665c0) [x86_64-linux]
+    last_commit=CONSOLE_SCREEN_BUFFER_INFO is 22bytes
+  b74dd665c0 --jit: |-
+    ruby 2.7.0dev (2019-08-29T12:03:44Z trunk b74dd665c0) +JIT [x86_64-linux]
+    last_commit=CONSOLE_SCREEN_BUFFER_INFO is 22bytes
+  3a425c7623: |-
+    ruby 2.7.0dev (2019-08-29T12:05:19Z trunk 3a425c7623) [x86_64-linux]
+    last_commit=Fix alignment of a SHORT variable
+  3a425c7623 --jit: |-
+    ruby 2.7.0dev (2019-08-29T12:05:19Z trunk 3a425c7623) +JIT [x86_64-linux]
+    last_commit=Fix alignment of a SHORT variable
+  a39b26b594: |-
+    ruby 2.7.0dev (2019-08-29T12:11:53Z trunk a39b26b594) [x86_64-linux]
+    last_commit=Check events that console window size changed on Windows
+  a39b26b594 --jit: |-
+    ruby 2.7.0dev (2019-08-29T12:11:53Z trunk a39b26b594) +JIT [x86_64-linux]
+    last_commit=Check events that console window size changed on Windows
+  2c1e902cba: |-
+    ruby 2.7.0dev (2019-08-29T12:49:19Z trunk 2c1e902cba) [x86_64-linux]
+    last_commit=Don't pick up lib/readline.rb from ruby/reline
+  2c1e902cba --jit: |-
+    ruby 2.7.0dev (2019-08-29T12:49:19Z trunk 2c1e902cba) +JIT [x86_64-linux]
+    last_commit=Don't pick up lib/readline.rb from ruby/reline
+  79117d4a9b: |-
+    ruby 2.7.0dev (2019-08-29T13:06:37Z trunk 79117d4a9b) [x86_64-linux]
+    last_commit=NEWS: [Feature #16035] [ci skip]
+  79117d4a9b --jit: |-
+    ruby 2.7.0dev (2019-08-29T13:06:37Z trunk 79117d4a9b) +JIT [x86_64-linux]
+    last_commit=NEWS: [Feature #16035] [ci skip]
