@@ -1287,6 +1287,8 @@ results:
     fc97aa9313: 3375448.137
     a34168f2ac: 3378427.658
     61893ddf75: 3383319.772
+    1cf5a31e7a: 3475525.574
+    fd0e3bd249: 3440016.476
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2573,6 +2575,8 @@ results:
     fc97aa9313: 3339829.174
     a34168f2ac: 3365149.876
     61893ddf75: 3392597.842
+    1cf5a31e7a: 3434604.289
+    fd0e3bd249: 3288875.755
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3859,6 +3863,8 @@ results:
     fc97aa9313: 1768829.692
     a34168f2ac: 1930990.789
     61893ddf75: 1857326.313
+    1cf5a31e7a: 1931232.798
+    fd0e3bd249: 1885321.976
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5145,6 +5151,8 @@ results:
     fc97aa9313: 2808433.434
     a34168f2ac: 2785072.465
     61893ddf75: 2699754.645
+    1cf5a31e7a: 2852479.822
+    fd0e3bd249: 2835509.636
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -6431,6 +6439,8 @@ results:
     fc97aa9313: 3400571.529
     a34168f2ac: 3701994.288
     61893ddf75: 3708148.332
+    1cf5a31e7a: 3759828.485
+    fd0e3bd249: 3744896.279
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -7717,6 +7727,8 @@ results:
     fc97aa9313: 3353842.792
     a34168f2ac: 3673213.798
     61893ddf75: 3648110.547
+    1cf5a31e7a: 3355512.426
+    fd0e3bd249: 3158624.293
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -9003,6 +9015,8 @@ results:
     fc97aa9313: 2005687.503
     a34168f2ac: 1851560.483
     61893ddf75: 1986312.885
+    1cf5a31e7a: 1797949.102
+    fd0e3bd249: 1982832.844
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -10289,3 +10303,5 @@ results:
     fc97aa9313: 3023100.868
     a34168f2ac: 2729881.748
     61893ddf75: 2996880.875
+    1cf5a31e7a: 2955849.192
+    fd0e3bd249: 3028216.317
