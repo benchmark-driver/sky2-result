@@ -5979,3 +5979,93 @@ commits:
   0a9d74f8cf --jit: |-
     ruby 2.7.0dev (2019-08-29T21:58:29Z trunk 0a9d74f8cf) +JIT [x86_64-linux]
     last_commit=Move pread + pwrite tests out of RUBY_ENGINE block
+  500149709b: |-
+    ruby 2.7.0dev (2019-08-30T01:21:50Z trunk 500149709b) [x86_64-linux]
+    last_commit=require 'pp' before use PP
+  500149709b --jit: |-
+    ruby 2.7.0dev (2019-08-30T01:21:50Z trunk 500149709b) +JIT [x86_64-linux]
+    last_commit=require 'pp' before use PP
+  83c6a1ef45: |-
+    ruby 2.7.0dev (2019-08-30T02:13:00Z trunk 83c6a1ef45) [x86_64-linux]
+    last_commit=proc.c: Add UnboundMethod#bind_call
+  83c6a1ef45 --jit: |-
+    ruby 2.7.0dev (2019-08-30T02:13:00Z trunk 83c6a1ef45) +JIT [x86_64-linux]
+    last_commit=proc.c: Add UnboundMethod#bind_call
+  '09c940b17f': |-
+    ruby 2.7.0dev (2019-08-30T02:13:00Z trunk 09c940b17f) [x86_64-linux]
+    last_commit=spec/ruby/core/unboundmethod/bind_call_spec.rb: Added
+  '09c940b17f --jit': |-
+    ruby 2.7.0dev (2019-08-30T02:13:00Z trunk 09c940b17f) +JIT [x86_64-linux]
+    last_commit=spec/ruby/core/unboundmethod/bind_call_spec.rb: Added
+  c9fc82983c: |-
+    ruby 2.7.0dev (2019-08-30T02:13:00Z trunk c9fc82983c) [x86_64-linux]
+    last_commit=lib/pp.rb: Use UnboundMethod#bind_call instead of .bind(obj).call(...)
+  c9fc82983c --jit: |-
+    ruby 2.7.0dev (2019-08-30T02:13:00Z trunk c9fc82983c) +JIT [x86_64-linux]
+    last_commit=lib/pp.rb: Use UnboundMethod#bind_call instead of .bind(obj).call(...)
+  43ab88c737: |-
+    ruby 2.7.0dev (2019-08-30T02:20:43Z trunk 43ab88c737) [x86_64-linux]
+    last_commit=Workaround for https://reviews.llvm.org/D25824
+  43ab88c737 --jit: |-
+    ruby 2.7.0dev (2019-08-30T02:20:43Z trunk 43ab88c737) +JIT [x86_64-linux]
+    last_commit=Workaround for https://reviews.llvm.org/D25824
+  '1191049436': |-
+    ruby 2.7.0dev (2019-08-30T02:23:21Z trunk 1191049436) [x86_64-linux]
+    last_commit=Updated comment of VCS#get_revisions [ci skip]
+  1191049436 --jit: |-
+    ruby 2.7.0dev (2019-08-30T02:23:21Z trunk 1191049436) +JIT [x86_64-linux]
+    last_commit=Updated comment of VCS#get_revisions [ci skip]
+  55f496c89b: |-
+    ruby 2.7.0dev (2019-08-30T02:23:21Z trunk 55f496c89b) [x86_64-linux]
+    last_commit=Support revision in git-svn log
+  55f496c89b --jit: |-
+    ruby 2.7.0dev (2019-08-30T02:23:21Z trunk 55f496c89b) +JIT [x86_64-linux]
+    last_commit=Support revision in git-svn log
+  e593d5b31a: |-
+    ruby 2.7.0dev (2019-08-30T02:23:21Z trunk e593d5b31a) [x86_64-linux]
+    last_commit=Suppress uninitialized instance variable warnings [ci skip]
+  e593d5b31a --jit: |-
+    ruby 2.7.0dev (2019-08-30T02:23:21Z trunk e593d5b31a) +JIT [x86_64-linux]
+    last_commit=Suppress uninitialized instance variable warnings [ci skip]
+  98ccdd744a: |-
+    ruby 2.7.0dev (2019-08-30T02:23:21Z trunk 98ccdd744a) [x86_64-linux]
+    last_commit=Export the last modified revision for tags [ci skip]
+  98ccdd744a --jit: |-
+    ruby 2.7.0dev (2019-08-30T02:23:21Z trunk 98ccdd744a) +JIT [x86_64-linux]
+    last_commit=Export the last modified revision for tags [ci skip]
+  96b32aad93: |-
+    ruby 2.7.0dev (2019-08-30T02:26:48Z trunk 96b32aad93) [x86_64-linux]
+    last_commit=Exclude ripper y.output from packages [ci skip]
+  96b32aad93 --jit: |-
+    ruby 2.7.0dev (2019-08-30T02:26:48Z trunk 96b32aad93) +JIT [x86_64-linux]
+    last_commit=Exclude ripper y.output from packages [ci skip]
+  ba9adcc175: |-
+    ruby 2.7.0dev (2019-08-30T02:49:42Z trunk ba9adcc175) [x86_64-linux]
+    last_commit=spec/ruby/core/unboundmethod/bind_call_spec.rb: Add ruby_version_is guard
+  ba9adcc175 --jit: |-
+    ruby 2.7.0dev (2019-08-30T02:49:42Z trunk ba9adcc175) +JIT [x86_64-linux]
+    last_commit=spec/ruby/core/unboundmethod/bind_call_spec.rb: Add ruby_version_is guard
+  1680bd4e4f: |-
+    ruby 2.7.0dev (2019-08-30T03:03:50Z trunk 1680bd4e4f) [x86_64-linux]
+    last_commit=[DOC] Return obj may be different from 1st argument [ci skip]
+  1680bd4e4f --jit: |-
+    ruby 2.7.0dev (2019-08-30T03:03:50Z trunk 1680bd4e4f) +JIT [x86_64-linux]
+    last_commit=[DOC] Return obj may be different from 1st argument [ci skip]
+  e9da4f57b3: |-
+    ruby 2.7.0dev (2019-08-30T03:06:42Z trunk e9da4f57b3) [x86_64-linux]
+    last_commit=Adjust indent [ci skip]
+  e9da4f57b3 --jit: |-
+    ruby 2.7.0dev (2019-08-30T03:06:42Z trunk e9da4f57b3) +JIT [x86_64-linux]
+    last_commit=Adjust indent [ci skip]
+  896d9f967b: |-
+    ruby 2.7.0dev (2019-08-30T03:06:42Z trunk 896d9f967b) [x86_64-linux]
+    last_commit=Constified local variable `translator`
+  896d9f967b --jit: |-
+    ruby 2.7.0dev (2019-08-30T03:06:42Z trunk 896d9f967b) +JIT [x86_64-linux]
+    last_commit=Constified local variable `translator`
+  b870ca5879: |-
+    ruby 2.7.0dev (2019-08-30T03:49:27Z trunk b870ca5879) [x86_64-linux]
+    last_commit=Add guard as same as `==`
+  b870ca5879 --jit: |-
+    ruby 2.7.0dev (2019-08-30T03:49:27Z trunk b870ca5879) +JIT [x86_64-linux]
+    last_commit=Add guard as same as `==`

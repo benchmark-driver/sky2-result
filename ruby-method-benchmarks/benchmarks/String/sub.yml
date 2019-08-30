@@ -1289,6 +1289,8 @@ results:
     61893ddf75: 3383319.772
     1cf5a31e7a: 3475525.574
     fd0e3bd249: 3440016.476
+    a4a2dd7942: 3425750.499
+    927a43a503: 3400076.839
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2577,6 +2579,8 @@ results:
     61893ddf75: 3392597.842
     1cf5a31e7a: 3434604.289
     fd0e3bd249: 3288875.755
+    a4a2dd7942: 3424083.47
+    927a43a503: 3416669.174
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3865,6 +3869,8 @@ results:
     61893ddf75: 1857326.313
     1cf5a31e7a: 1931232.798
     fd0e3bd249: 1885321.976
+    a4a2dd7942: 1883666.152
+    927a43a503: 1926719.118
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5153,6 +5159,8 @@ results:
     61893ddf75: 2699754.645
     1cf5a31e7a: 2852479.822
     fd0e3bd249: 2835509.636
+    a4a2dd7942: 2822785.531
+    927a43a503: 2744783.221
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -6441,6 +6449,8 @@ results:
     61893ddf75: 3708148.332
     1cf5a31e7a: 3759828.485
     fd0e3bd249: 3744896.279
+    a4a2dd7942: 3746555.14
+    927a43a503: 3729959.425
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -7729,6 +7739,8 @@ results:
     61893ddf75: 3648110.547
     1cf5a31e7a: 3355512.426
     fd0e3bd249: 3158624.293
+    a4a2dd7942: 3694407.382
+    927a43a503: 3701474.608
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -9017,6 +9029,8 @@ results:
     61893ddf75: 1986312.885
     1cf5a31e7a: 1797949.102
     fd0e3bd249: 1982832.844
+    a4a2dd7942: 2012349.788
+    927a43a503: 1973910.126
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -10305,3 +10319,5 @@ results:
     61893ddf75: 2996880.875
     1cf5a31e7a: 2955849.192
     fd0e3bd249: 3028216.317
+    a4a2dd7942: 3016029.172
+    927a43a503: 2918785.404
