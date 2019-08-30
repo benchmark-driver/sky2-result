@@ -5973,3 +5973,15 @@ commits:
   c45dd4d482 --jit: |-
     ruby 2.7.0dev (2019-08-30T09:24:33Z trunk c45dd4d482) +JIT [x86_64-linux]
     last_commit=Make the dot-colon method reference frozen
+  8c7f4e8f8b: |-
+    ruby 2.7.0dev (2019-08-30T13:03:37Z trunk 8c7f4e8f8b) [x86_64-linux]
+    last_commit=Try dropping DLDFLAGS from compile_c_to_o
+  8c7f4e8f8b --jit: |-
+    ruby 2.7.0dev (2019-08-30T13:03:37Z trunk 8c7f4e8f8b) +JIT [x86_64-linux]
+    last_commit=Try dropping DLDFLAGS from compile_c_to_o
+  b0a291f6f6: |-
+    ruby 2.7.0dev (2019-08-30T13:33:21Z trunk b0a291f6f6) [x86_64-linux]
+    last_commit=Split CC_LINKER_ARGS from CC_DLDFLAGS_ARGS
+  b0a291f6f6 --jit: |-
+    ruby 2.7.0dev (2019-08-30T13:33:21Z trunk b0a291f6f6) +JIT [x86_64-linux]
+    last_commit=Split CC_LINKER_ARGS from CC_DLDFLAGS_ARGS
