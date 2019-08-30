@@ -1285,6 +1285,8 @@ results:
     6623cde731: 3459587.376
     deddc80476: 3209042.509
     fc97aa9313: 3375448.137
+    a34168f2ac: 3378427.658
+    61893ddf75: 3383319.772
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2569,6 +2571,8 @@ results:
     6623cde731: 3176739.833
     deddc80476: 3433802.43
     fc97aa9313: 3339829.174
+    a34168f2ac: 3365149.876
+    61893ddf75: 3392597.842
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -3853,6 +3857,8 @@ results:
     6623cde731: 1885283.117
     deddc80476: 1585808.527
     fc97aa9313: 1768829.692
+    a34168f2ac: 1930990.789
+    61893ddf75: 1857326.313
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5137,6 +5143,8 @@ results:
     6623cde731: 2445807.614
     deddc80476: 2784992.839
     fc97aa9313: 2808433.434
+    a34168f2ac: 2785072.465
+    61893ddf75: 2699754.645
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -6421,6 +6429,8 @@ results:
     6623cde731: 3753741.754
     deddc80476: 3752967.382
     fc97aa9313: 3400571.529
+    a34168f2ac: 3701994.288
+    61893ddf75: 3708148.332
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -7705,6 +7715,8 @@ results:
     6623cde731: 3565343.37
     deddc80476: 3740057.561
     fc97aa9313: 3353842.792
+    a34168f2ac: 3673213.798
+    61893ddf75: 3648110.547
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -8989,6 +9001,8 @@ results:
     6623cde731: 1995188.123
     deddc80476: 1833805.041
     fc97aa9313: 2005687.503
+    a34168f2ac: 1851560.483
+    61893ddf75: 1986312.885
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -10273,3 +10287,5 @@ results:
     6623cde731: 3039563.297
     deddc80476: 3006809.224
     fc97aa9313: 3023100.868
+    a34168f2ac: 2729881.748
+    61893ddf75: 2996880.875

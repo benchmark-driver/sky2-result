@@ -9,72 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  73530a9619: |-
-    ruby 2.7.0dev (2019-07-27T11:15:53Z trunk 73530a9619) [x86_64-linux]
-    last_commit=tool/merger.rb: execute 'svn update' after 'svn ci' to update revision info on working copy.
-  73530a9619 --jit: |-
-    ruby 2.7.0dev (2019-07-27T11:15:53Z trunk 73530a9619) +JIT [x86_64-linux]
-    last_commit=tool/merger.rb: execute 'svn update' after 'svn ci' to update revision info on working copy.
-  e3b613a669: |-
-    ruby 2.7.0dev (2019-07-27T12:34:35Z trunk e3b613a669) [x86_64-linux]
-    last_commit=Include travis osx timeout
-  e3b613a669 --jit: |-
-    ruby 2.7.0dev (2019-07-27T12:34:35Z trunk e3b613a669) +JIT [x86_64-linux]
-    last_commit=Include travis osx timeout
-  f1b76ea63c: |-
-    ruby 2.7.0dev (2019-07-27T12:54:34Z trunk f1b76ea63c) [x86_64-linux]
-    last_commit=Occupy match data
-  f1b76ea63c --jit: |-
-    ruby 2.7.0dev (2019-07-27T12:54:34Z trunk f1b76ea63c) +JIT [x86_64-linux]
-    last_commit=Occupy match data
-  adf13625ae: |-
-    ruby 2.7.0dev (2019-07-27T14:46:40Z trunk adf13625ae) [x86_64-linux]
-    last_commit=Extend travis_wait to 50min for osx
-  adf13625ae --jit: |-
-    ruby 2.7.0dev (2019-07-27T14:46:40Z trunk adf13625ae) +JIT [x86_64-linux]
-    last_commit=Extend travis_wait to 50min for osx
-  1d1f98d49c: |-
-    ruby 2.7.0dev (2019-07-27T22:33:21Z trunk 1d1f98d49c) [x86_64-linux]
-    last_commit=Reuse match data
-  1d1f98d49c --jit: |-
-    ruby 2.7.0dev (2019-07-27T22:33:21Z trunk 1d1f98d49c) +JIT [x86_64-linux]
-    last_commit=Reuse match data
-  bce348204f: |-
-    ruby 2.7.0dev (2019-07-27T22:37:35Z trunk bce348204f) [x86_64-linux]
-    last_commit=* 2019-07-28
-  bce348204f --jit: |-
-    ruby 2.7.0dev (2019-07-27T22:37:35Z trunk bce348204f) +JIT [x86_64-linux]
-    last_commit=* 2019-07-28
-  a6e32855d0: |-
-    ruby 2.7.0dev (2019-07-28T00:47:40Z trunk a6e32855d0) [x86_64-linux]
-    last_commit=[reline] Do not escape and compile regexp for each byte
-  a6e32855d0 --jit: |-
-    ruby 2.7.0dev (2019-07-28T00:47:40Z trunk a6e32855d0) +JIT [x86_64-linux]
-    last_commit=[reline] Do not escape and compile regexp for each byte
-  b40589802b: |-
-    ruby 2.7.0dev (2019-07-28T00:52:19Z trunk b40589802b) [x86_64-linux]
-    last_commit=[reline] Do not compile regexp for each line
-  b40589802b --jit: |-
-    ruby 2.7.0dev (2019-07-28T00:52:19Z trunk b40589802b) +JIT [x86_64-linux]
-    last_commit=[reline] Do not compile regexp for each line
-  61f0f71e5b: |-
-    ruby 2.7.0dev (2019-07-29T02:44:56Z trunk 61f0f71e5b) [x86_64-linux]
-    last_commit=Moved osx_image
-  61f0f71e5b --jit: |-
-    ruby 2.7.0dev (2019-07-29T02:44:56Z trunk 61f0f71e5b) +JIT [x86_64-linux]
-    last_commit=Moved osx_image
-  f811a5e910: |-
-    ruby 2.7.0dev (2019-07-29T03:06:13Z trunk f811a5e910) [x86_64-linux]
-    last_commit=* 2019-07-29
-  f811a5e910 --jit: |-
-    ruby 2.7.0dev (2019-07-29T03:06:13Z trunk f811a5e910) +JIT [x86_64-linux]
-    last_commit=* 2019-07-29
-  630eb04bc4: |-
-    ruby 2.7.0dev (2019-07-29T04:29:35Z trunk 630eb04bc4) [x86_64-linux]
-    last_commit=[ruby/rdoc] Removed unused variable
-  630eb04bc4 --jit: |-
-    ruby 2.7.0dev (2019-07-29T04:29:35Z trunk 630eb04bc4) +JIT [x86_64-linux]
-    last_commit=[ruby/rdoc] Removed unused variable
   8c6f1715f0: |-
     ruby 2.7.0dev (2019-07-29T04:29:42Z trunk 8c6f1715f0) [x86_64-linux]
     last_commit=Removed unused variables and methods
@@ -6027,3 +5961,9 @@ commits:
   a8b310e14c --jit: |-
     ruby 2.7.0dev (2019-08-29T15:35:37Z trunk a8b310e14c) +JIT [x86_64-linux]
     last_commit=7z does not accept gzip's options
+  94b79bffb1: |-
+    ruby 2.7.0dev (2019-08-29T18:57:23Z trunk 94b79bffb1) [x86_64-linux]
+    last_commit=Add word "Euler's number" to Math::E docs
+  94b79bffb1 --jit: |-
+    ruby 2.7.0dev (2019-08-29T18:57:23Z trunk 94b79bffb1) +JIT [x86_64-linux]
+    last_commit=Add word "Euler's number" to Math::E docs
