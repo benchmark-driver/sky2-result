@@ -5967,3 +5967,9 @@ commits:
   998ee350b9 --jit: |-
     ruby 2.7.0dev (2019-08-30T07:09:08Z trunk 998ee350b9) +JIT [x86_64-linux]
     last_commit=Revert "require 'pp' before use PP"
+  c45dd4d482: |-
+    ruby 2.7.0dev (2019-08-30T09:24:33Z trunk c45dd4d482) [x86_64-linux]
+    last_commit=Make the dot-colon method reference frozen
+  c45dd4d482 --jit: |-
+    ruby 2.7.0dev (2019-08-30T09:24:33Z trunk c45dd4d482) +JIT [x86_64-linux]
+    last_commit=Make the dot-colon method reference frozen
