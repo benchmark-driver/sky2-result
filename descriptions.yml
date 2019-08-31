@@ -5967,3 +5967,9 @@ commits:
   602fbd4338 --jit: |-
     ruby 2.7.0dev (2019-08-31T08:34:25Z trunk 602fbd4338) +JIT [x86_64-linux]
     last_commit=Limit the apt addon enablement to trusty
+  d4eef04883: |-
+    ruby 2.7.0dev (2019-08-31T11:55:35Z trunk d4eef04883) [x86_64-linux]
+    last_commit=Use double splat for keyword args by a hash object in lib/un.rb
+  d4eef04883 --jit: |-
+    ruby 2.7.0dev (2019-08-31T11:55:35Z trunk d4eef04883) +JIT [x86_64-linux]
+    last_commit=Use double splat for keyword args by a hash object in lib/un.rb
