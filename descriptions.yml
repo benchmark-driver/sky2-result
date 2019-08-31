@@ -5991,3 +5991,33 @@ commits:
   3463e83192 --jit: |-
     ruby 2.7.0dev (2019-08-31T02:25:46Z trunk 3463e83192) +JIT [x86_64-linux]
     last_commit=Warn for keyword to last hash parameter when method has no optional/rest parameters
+  ec6206a81a: |-
+    ruby 2.7.0dev (2019-08-31T04:56:50Z trunk ec6206a81a) [x86_64-linux]
+    last_commit=Use more accurate source location in keyword argument separation warnings
+  ec6206a81a --jit: |-
+    ruby 2.7.0dev (2019-08-31T04:56:50Z trunk ec6206a81a) +JIT [x86_64-linux]
+    last_commit=Use more accurate source location in keyword argument separation warnings
+  60a08d9a6c: |-
+    ruby 2.7.0dev (2019-08-31T05:11:00Z trunk 60a08d9a6c) [x86_64-linux]
+    last_commit=Add rb_iseq_location
+  60a08d9a6c --jit: |-
+    ruby 2.7.0dev (2019-08-31T05:11:00Z trunk 60a08d9a6c) +JIT [x86_64-linux]
+    last_commit=Add rb_iseq_location
+  d7aa1260b6: |-
+    ruby 2.7.0dev (2019-08-31T05:45:57Z trunk d7aa1260b6) [x86_64-linux]
+    last_commit=Remove files/directories for git/github which are committed [ci skip]
+  d7aa1260b6 --jit: |-
+    ruby 2.7.0dev (2019-08-31T05:45:57Z trunk d7aa1260b6) +JIT [x86_64-linux]
+    last_commit=Remove files/directories for git/github which are committed [ci skip]
+  4868ad7e5b: |-
+    ruby 2.7.0dev (2019-08-31T06:30:10Z trunk 4868ad7e5b) [x86_64-linux]
+    last_commit=fix CI failures in x64-mingw32
+  4868ad7e5b --jit: |-
+    ruby 2.7.0dev (2019-08-31T06:30:10Z trunk 4868ad7e5b) +JIT [x86_64-linux]
+    last_commit=fix CI failures in x64-mingw32
+  1f18b578ce: |-
+    ruby 2.7.0dev (2019-08-31T06:50:50Z trunk 1f18b578ce) [x86_64-linux]
+    last_commit=Don't pass an empty keyword hash when double splatting empty hash
+  1f18b578ce --jit: |-
+    ruby 2.7.0dev (2019-08-31T06:50:50Z trunk 1f18b578ce) +JIT [x86_64-linux]
+    last_commit=Don't pass an empty keyword hash when double splatting empty hash
