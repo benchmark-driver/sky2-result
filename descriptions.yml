@@ -5985,3 +5985,9 @@ commits:
   6424d316b9 --jit: |-
     ruby 2.7.0dev (2019-08-31T00:34:18Z trunk 6424d316b9) +JIT [x86_64-linux]
     last_commit=Remove a verbose warning that is no longer needed
+  3463e83192: |-
+    ruby 2.7.0dev (2019-08-31T02:25:46Z trunk 3463e83192) [x86_64-linux]
+    last_commit=Warn for keyword to last hash parameter when method has no optional/rest parameters
+  3463e83192 --jit: |-
+    ruby 2.7.0dev (2019-08-31T02:25:46Z trunk 3463e83192) +JIT [x86_64-linux]
+    last_commit=Warn for keyword to last hash parameter when method has no optional/rest parameters
