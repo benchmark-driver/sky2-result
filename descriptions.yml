@@ -9,84 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  6be927ff4a: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 6be927ff4a) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove missleading TODO comment. Can't use @parser.accept since not every class where this is used has a parser available. i.e lib/rubygems/install_update_options.rb
-  6be927ff4a --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 6be927ff4a) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove missleading TODO comment. Can't use @parser.accept since not every class where this is used has a parser available. i.e lib/rubygems/install_update_options.rb
-  8103d46a4d: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 8103d46a4d) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Add a package attr_reader to Gem::Installer.
-  8103d46a4d --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 8103d46a4d) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Add a package attr_reader to Gem::Installer.
-  688ccc9602: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 688ccc9602) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Move metadata method to Gem::Package
-  688ccc9602 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 688ccc9602) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Move metadata method to Gem::Package
-  38daeded66: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 38daeded66) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Upgrading S3 source signature to AWS SigV4
-  38daeded66 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 38daeded66) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Upgrading S3 source signature to AWS SigV4
-  6bd7772361: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 6bd7772361) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Rename Gem::Package.metadata to Gem::Package.raw_spec
-  6bd7772361 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 6bd7772361) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Rename Gem::Package.metadata to Gem::Package.raw_spec
-  ff214e9232: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk ff214e9232) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove useless comment in exceptions.rb
-  ff214e9232 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk ff214e9232) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove useless comment in exceptions.rb
-  56801d4532: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 56801d4532) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove missleading comment, no reason to move Gem.host to Gem::Util
-  56801d4532 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 56801d4532) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove missleading comment, no reason to move Gem.host to Gem::Util
-  b2a54744f2: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk b2a54744f2) [x86_64-linux]
-    last_commit=[rubygems/rubygems] check_version_conflict don't have a 'dep' variable available for use
-  b2a54744f2 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk b2a54744f2) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] check_version_conflict don't have a 'dep' variable available for use
-  bd78eabcf3: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk bd78eabcf3) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Addressing PR comments
-  bd78eabcf3 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk bd78eabcf3) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Addressing PR comments
-  60d3f9ef9f: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 60d3f9ef9f) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove useless TODO comment
-  60d3f9ef9f --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 60d3f9ef9f) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove useless TODO comment
-  eb35124cca: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk eb35124cca) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove TODO comment, there's no Gem::Dirs constant
-  eb35124cca --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk eb35124cca) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove TODO comment, there's no Gem::Dirs constant
-  '7081185664': |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 7081185664) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove unused 'raise' from test_case
-  7081185664 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 7081185664) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove unused 'raise' from test_case
-  1dfe132aa5: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 1dfe132aa5) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Move TODO comment to an information comment
-  1dfe132aa5 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 1dfe132aa5) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Move TODO comment to an information comment
   4a8c2dd419: |-
     ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 4a8c2dd419) [x86_64-linux]
     last_commit=[rubygems/rubygems] Extracting sign_s3_url & s3_source_auth into a separate S3URISigner class
@@ -6021,3 +5943,27 @@ commits:
   1f18b578ce --jit: |-
     ruby 2.7.0dev (2019-08-31T06:50:50Z trunk 1f18b578ce) +JIT [x86_64-linux]
     last_commit=Don't pass an empty keyword hash when double splatting empty hash
+  58a373e9ed: |-
+    ruby 2.7.0dev (2019-08-31T07:44:44Z trunk 58a373e9ed) [x86_64-linux]
+    last_commit=Try to suppress errors in BASERUBY Travis
+  58a373e9ed --jit: |-
+    ruby 2.7.0dev (2019-08-31T07:44:44Z trunk 58a373e9ed) +JIT [x86_64-linux]
+    last_commit=Try to suppress errors in BASERUBY Travis
+  3868df8333: |-
+    ruby 2.7.0dev (2019-08-31T08:05:53Z trunk 3868df8333) [x86_64-linux]
+    last_commit=Try to fix apt-get update error for trusty (take 2)
+  3868df8333 --jit: |-
+    ruby 2.7.0dev (2019-08-31T08:05:53Z trunk 3868df8333) +JIT [x86_64-linux]
+    last_commit=Try to fix apt-get update error for trusty (take 2)
+  8897fa60fd: |-
+    ruby 2.7.0dev (2019-08-31T08:18:59Z trunk 8897fa60fd) [x86_64-linux]
+    last_commit=Try using built-in apt source for gcc-8
+  8897fa60fd --jit: |-
+    ruby 2.7.0dev (2019-08-31T08:18:59Z trunk 8897fa60fd) +JIT [x86_64-linux]
+    last_commit=Try using built-in apt source for gcc-8
+  602fbd4338: |-
+    ruby 2.7.0dev (2019-08-31T08:34:25Z trunk 602fbd4338) [x86_64-linux]
+    last_commit=Limit the apt addon enablement to trusty
+  602fbd4338 --jit: |-
+    ruby 2.7.0dev (2019-08-31T08:34:25Z trunk 602fbd4338) +JIT [x86_64-linux]
+    last_commit=Limit the apt addon enablement to trusty
