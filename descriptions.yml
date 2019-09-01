@@ -9,114 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  4a8c2dd419: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 4a8c2dd419) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Extracting sign_s3_url & s3_source_auth into a separate S3URISigner class
-  4a8c2dd419 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 4a8c2dd419) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Extracting sign_s3_url & s3_source_auth into a separate S3URISigner class
-  aa9015dd84: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk aa9015dd84) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Moving rubygems/request dependencies into ec2_metadata
-  aa9015dd84 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk aa9015dd84) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Moving rubygems/request dependencies into ec2_metadata
-  74419711ad: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 74419711ad) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Use default value for expiration in the method signature
-  74419711ad --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 74419711ad) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Use default value for expiration in the method signature
-  0d596c1ab2: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 0d596c1ab2) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Making Gem::S3URISigner.sign method smaller with helper methods
-  0d596c1ab2 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:01Z trunk 0d596c1ab2) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Making Gem::S3URISigner.sign method smaller with helper methods
-  5947ea31ca: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 5947ea31ca) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Missing dependency
-  5947ea31ca --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 5947ea31ca) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Missing dependency
-  a2f0331c4e: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk a2f0331c4e) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Simplify #to_ruby code
-  a2f0331c4e --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk a2f0331c4e) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Simplify #to_ruby code
-  a34168f2ac: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk a34168f2ac) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Autorequire was used by old RubyGems, it is neither supported nor functional.
-  a34168f2ac --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk a34168f2ac) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Autorequire was used by old RubyGems, it is neither supported nor functional.
-  41dd9f7e67: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 41dd9f7e67) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Deprecate Gem::RemoteFetcher#fetch_size
-  41dd9f7e67 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 41dd9f7e67) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Deprecate Gem::RemoteFetcher#fetch_size
-  1eaacb1ef5: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 1eaacb1ef5) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Use File#open instead of Kernel#open
-  1eaacb1ef5 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 1eaacb1ef5) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Use File#open instead of Kernel#open
-  a3c0ea55f8: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk a3c0ea55f8) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Ignore GEMRC variable for test suite. It affects with some test case.
-  a3c0ea55f8 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk a3c0ea55f8) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Ignore GEMRC variable for test suite. It affects with some test case.
-  d1806bd8da: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk d1806bd8da) [x86_64-linux]
-    last_commit=[rubygems/rubygems] There is no usage of @orig_env_* variables in test suite.
-  d1806bd8da --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk d1806bd8da) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] There is no usage of @orig_env_* variables in test suite.
-  a3b784b3a0: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk a3b784b3a0) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Move default specifications dir definition out of BasicSpecification.
-  a3b784b3a0 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk a3b784b3a0) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Move default specifications dir definition out of BasicSpecification.
-  33025d9768: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 33025d9768) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Make error code a constant and remove TODO comment
-  33025d9768 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 33025d9768) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Make error code a constant and remove TODO comment
-  3cc814bdf6: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 3cc814bdf6) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove warning: shadowing outer local variable - spec
-  3cc814bdf6 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 3cc814bdf6) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove warning: shadowing outer local variable - spec
-  '0817d95714': |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 0817d95714) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Enable `Layout/EmptyLinesAroundAccessModifier`
-  '0817d95714 --jit': |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 0817d95714) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Enable `Layout/EmptyLinesAroundAccessModifier`
-  497efa0ec9: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 497efa0ec9) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Enable `Layout/AlignArray` cop
-  497efa0ec9 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 497efa0ec9) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Enable `Layout/AlignArray` cop
-  bb6bd7e985: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk bb6bd7e985) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Generate a licenses.rb file with correct style
-  bb6bd7e985 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk bb6bd7e985) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Generate a licenses.rb file with correct style
-  61893ddf75: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 61893ddf75) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Get `rake package` tested
-  61893ddf75 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 61893ddf75) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Get `rake package` tested
   62e2b2e66f: |-
     ruby 2.7.0dev (2019-07-30T23:47:02Z trunk 62e2b2e66f) [x86_64-linux]
     last_commit=[rubygems/rubygems] Improve `rake package` test error message
@@ -6045,3 +5937,33 @@ commits:
   02dfa0f163 --jit: |-
     ruby 2.7.0dev (2019-09-01T06:24:37Z trunk 02dfa0f163) +JIT [x86_64-linux]
     last_commit=test/ruby/test_keyword.rb: Add remove_method before method redefinition
+  ea84a68075: |-
+    ruby 2.7.0dev (2019-09-01T07:25:01Z trunk ea84a68075) [x86_64-linux]
+    last_commit=Export rb_const_source_location_at for MJIT
+  ea84a68075 --jit: |-
+    ruby 2.7.0dev (2019-09-01T07:25:01Z trunk ea84a68075) +JIT [x86_64-linux]
+    last_commit=Export rb_const_source_location_at for MJIT
+  cda5745c1b: |-
+    ruby 2.7.0dev (2019-09-01T07:31:15Z trunk cda5745c1b) [x86_64-linux]
+    last_commit=Automatically detect missing symbols
+  cda5745c1b --jit: |-
+    ruby 2.7.0dev (2019-09-01T07:31:15Z trunk cda5745c1b) +JIT [x86_64-linux]
+    last_commit=Automatically detect missing symbols
+  94d6ec1d90: |-
+    ruby 2.7.0dev (2019-09-01T07:39:34Z trunk 94d6ec1d90) [x86_64-linux]
+    last_commit=Make pattern matching support **nil syntax
+  94d6ec1d90 --jit: |-
+    ruby 2.7.0dev (2019-09-01T07:39:34Z trunk 94d6ec1d90) +JIT [x86_64-linux]
+    last_commit=Make pattern matching support **nil syntax
+  3be3948870: |-
+    ruby 2.7.0dev (2019-09-01T09:57:40Z trunk 3be3948870) [x86_64-linux]
+    last_commit=Revert "Revert "Skip BUGs on Solaris""
+  3be3948870 --jit: |-
+    ruby 2.7.0dev (2019-09-01T09:57:40Z trunk 3be3948870) +JIT [x86_64-linux]
+    last_commit=Revert "Revert "Skip BUGs on Solaris""
+  04c3e34456: |-
+    ruby 2.7.0dev (2019-09-01T10:26:23Z trunk 04c3e34456) [x86_64-linux]
+    last_commit=Upgrade benchmark-driver for keyword args warnings
+  04c3e34456 --jit: |-
+    ruby 2.7.0dev (2019-09-01T10:26:23Z trunk 04c3e34456) +JIT [x86_64-linux]
+    last_commit=Upgrade benchmark-driver for keyword args warnings
