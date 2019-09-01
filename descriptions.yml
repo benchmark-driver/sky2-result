@@ -6009,3 +6009,39 @@ commits:
   e5dd63ba8c --jit: |-
     ruby 2.7.0dev (2019-09-01T02:23:58Z trunk e5dd63ba8c) +JIT [x86_64-linux]
     last_commit=IRB 1.1.0.pre.3
+  e80a6f65c8: |-
+    ruby 2.7.0dev (2019-09-01T04:37:28Z trunk e80a6f65c8) [x86_64-linux]
+    last_commit=Made :nil static ID
+  e80a6f65c8 --jit: |-
+    ruby 2.7.0dev (2019-09-01T04:37:28Z trunk e80a6f65c8) +JIT [x86_64-linux]
+    last_commit=Made :nil static ID
+  15757390ff: |-
+    ruby 2.7.0dev (2019-09-01T04:54:06Z trunk 15757390ff) [x86_64-linux]
+    last_commit=Don't pass an empty keyword hash when double splatting empty hash when calling cfunc
+  15757390ff --jit: |-
+    ruby 2.7.0dev (2019-09-01T04:54:06Z trunk 15757390ff) +JIT [x86_64-linux]
+    last_commit=Don't pass an empty keyword hash when double splatting empty hash when calling cfunc
+  e13c0bb820: |-
+    ruby 2.7.0dev (2019-09-01T06:00:27Z trunk e13c0bb820) [x86_64-linux]
+    last_commit=Note about ANYARGS in NEWS
+  e13c0bb820 --jit: |-
+    ruby 2.7.0dev (2019-09-01T06:00:27Z trunk e13c0bb820) +JIT [x86_64-linux]
+    last_commit=Note about ANYARGS in NEWS
+  d646a292cd: |-
+    ruby 2.7.0dev (2019-09-01T06:06:49Z trunk d646a292cd) [x86_64-linux]
+    last_commit=Fix keyword argument separation warning when using send
+  d646a292cd --jit: |-
+    ruby 2.7.0dev (2019-09-01T06:06:49Z trunk d646a292cd) +JIT [x86_64-linux]
+    last_commit=Fix keyword argument separation warning when using send
+  84dca8eff0: |-
+    ruby 2.7.0dev (2019-09-01T06:16:19Z trunk 84dca8eff0) [x86_64-linux]
+    last_commit=Revert "Skip BUGs on Solaris"
+  84dca8eff0 --jit: |-
+    ruby 2.7.0dev (2019-09-01T06:16:19Z trunk 84dca8eff0) +JIT [x86_64-linux]
+    last_commit=Revert "Skip BUGs on Solaris"
+  02dfa0f163: |-
+    ruby 2.7.0dev (2019-09-01T06:24:37Z trunk 02dfa0f163) [x86_64-linux]
+    last_commit=test/ruby/test_keyword.rb: Add remove_method before method redefinition
+  02dfa0f163 --jit: |-
+    ruby 2.7.0dev (2019-09-01T06:24:37Z trunk 02dfa0f163) +JIT [x86_64-linux]
+    last_commit=test/ruby/test_keyword.rb: Add remove_method before method redefinition
