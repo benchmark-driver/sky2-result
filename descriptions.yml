@@ -9,78 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  4979ba38fa: |-
-    ruby 2.7.0dev (2019-07-31T02:27:59Z trunk 4979ba38fa) [x86_64-linux]
-    last_commit=test/rubygems/test_gem_remote_fetcher.rb: suppress deprecation warnings
-  4979ba38fa --jit: |-
-    ruby 2.7.0dev (2019-07-31T02:27:59Z trunk 4979ba38fa) +JIT [x86_64-linux]
-    last_commit=test/rubygems/test_gem_remote_fetcher.rb: suppress deprecation warnings
-  312879693f: |-
-    ruby 2.7.0dev (2019-07-31T02:32:14Z trunk 312879693f) [x86_64-linux]
-    last_commit=move macro to internal.h for documentation.
-  312879693f --jit: |-
-    ruby 2.7.0dev (2019-07-31T02:32:14Z trunk 312879693f) +JIT [x86_64-linux]
-    last_commit=move macro to internal.h for documentation.
-  823adea954: |-
-    ruby 2.7.0dev (2019-07-31T02:46:56Z trunk 823adea954) [x86_64-linux]
-    last_commit=test/ruby/test_file_exhaustive.rb: suppress method-redefined warning
-  823adea954 --jit: |-
-    ruby 2.7.0dev (2019-07-31T02:46:56Z trunk 823adea954) +JIT [x86_64-linux]
-    last_commit=test/ruby/test_file_exhaustive.rb: suppress method-redefined warning
-  1d02832bcf: |-
-    ruby 2.7.0dev (2019-07-31T02:46:56Z trunk 1d02832bcf) [x86_64-linux]
-    last_commit=test/rdoc/test_rdoc_rubygems_hook.rb: suppress deprecation warning
-  1d02832bcf --jit: |-
-    ruby 2.7.0dev (2019-07-31T02:46:56Z trunk 1d02832bcf) +JIT [x86_64-linux]
-    last_commit=test/rdoc/test_rdoc_rubygems_hook.rb: suppress deprecation warning
-  816e5055c9: |-
-    ruby 2.7.0dev (2019-07-31T02:52:59Z trunk 816e5055c9) [x86_64-linux]
-    last_commit=test/ruby/test_io.rb (test_binmode_pipe): close all pipes explicitly
-  816e5055c9 --jit: |-
-    ruby 2.7.0dev (2019-07-31T02:52:59Z trunk 816e5055c9) +JIT [x86_64-linux]
-    last_commit=test/ruby/test_io.rb (test_binmode_pipe): close all pipes explicitly
-  e83ec207cd: |-
-    ruby 2.7.0dev (2019-07-31T03:46:34Z trunk e83ec207cd) [x86_64-linux]
-    last_commit=add debug code
-  e83ec207cd --jit: |-
-    ruby 2.7.0dev (2019-07-31T03:46:34Z trunk e83ec207cd) +JIT [x86_64-linux]
-    last_commit=add debug code
-  06574ad945: |-
-    ruby 2.7.0dev (2019-07-31T05:35:54Z trunk 06574ad945) [x86_64-linux]
-    last_commit=test/ruby/test_float.rb: suppress an overflow warning
-  06574ad945 --jit: |-
-    ruby 2.7.0dev (2019-07-31T05:35:54Z trunk 06574ad945) +JIT [x86_64-linux]
-    last_commit=test/ruby/test_float.rb: suppress an overflow warning
-  efac0a2384: |-
-    ruby 2.7.0dev (2019-07-31T06:14:50Z trunk efac0a2384) [x86_64-linux]
-    last_commit=Revert "add debug code"
-  efac0a2384 --jit: |-
-    ruby 2.7.0dev (2019-07-31T06:14:50Z trunk efac0a2384) +JIT [x86_64-linux]
-    last_commit=Revert "add debug code"
-  cac44def0b: |-
-    ruby 2.7.0dev (2019-07-31T06:14:50Z trunk cac44def0b) [x86_64-linux]
-    last_commit=backtrace can be nil.
-  cac44def0b --jit: |-
-    ruby 2.7.0dev (2019-07-31T06:14:50Z trunk cac44def0b) +JIT [x86_64-linux]
-    last_commit=backtrace can be nil.
-  5f95edb7af: |-
-    ruby 2.7.0dev (2019-07-31T06:14:51Z trunk 5f95edb7af) [x86_64-linux]
-    last_commit=check SystemStackError
-  5f95edb7af --jit: |-
-    ruby 2.7.0dev (2019-07-31T06:14:51Z trunk 5f95edb7af) +JIT [x86_64-linux]
-    last_commit=check SystemStackError
-  40651cf1f5: |-
-    ruby 2.7.0dev (2019-07-31T06:14:51Z trunk 40651cf1f5) [x86_64-linux]
-    last_commit=delete a check on bad assumption.
-  40651cf1f5 --jit: |-
-    ruby 2.7.0dev (2019-07-31T06:14:51Z trunk 40651cf1f5) +JIT [x86_64-linux]
-    last_commit=delete a check on bad assumption.
-  14eede6e53: |-
-    ruby 2.7.0dev (2019-07-31T08:45:43Z trunk 14eede6e53) [x86_64-linux]
-    last_commit=Fix `Leaked thread`
-  14eede6e53 --jit: |-
-    ruby 2.7.0dev (2019-07-31T08:45:43Z trunk 14eede6e53) +JIT [x86_64-linux]
-    last_commit=Fix `Leaked thread`
   eab6c534ad: |-
     ruby 2.7.0dev (2019-07-31T09:04:35Z trunk eab6c534ad) [x86_64-linux]
     last_commit=Attempt to fix Hash#rehash spec
@@ -6069,3 +5997,15 @@ commits:
   6f206b8ec6 --jit: |-
     ruby 2.7.0dev (2019-09-02T06:08:53Z trunk 6f206b8ec6) +JIT [x86_64-linux]
     last_commit=Prohibit nul-separated glob pattern [Feature #14643] (#2419)
+  8e38d4c78c: |-
+    ruby 2.7.0dev (2019-09-02T07:46:28Z trunk 8e38d4c78c) [x86_64-linux]
+    last_commit=Rewrote using assert_separately
+  8e38d4c78c --jit: |-
+    ruby 2.7.0dev (2019-09-02T07:46:28Z trunk 8e38d4c78c) +JIT [x86_64-linux]
+    last_commit=Rewrote using assert_separately
+  8b2e1ca10e: |-
+    ruby 2.7.0dev (2019-09-02T07:47:12Z trunk 8b2e1ca10e) [x86_64-linux]
+    last_commit=Do not clear backtrace in Exception#exception
+  8b2e1ca10e --jit: |-
+    ruby 2.7.0dev (2019-09-02T07:47:12Z trunk 8b2e1ca10e) +JIT [x86_64-linux]
+    last_commit=Do not clear backtrace in Exception#exception
