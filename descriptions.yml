@@ -9,42 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  3e4e8dbe20: |-
-    ruby 2.7.0dev (2019-07-30T23:47:03Z trunk 3e4e8dbe20) [x86_64-linux]
-    last_commit=Uninstall ntlm-http and plist for failure of osx test.
-  3e4e8dbe20 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:03Z trunk 3e4e8dbe20) +JIT [x86_64-linux]
-    last_commit=Uninstall ntlm-http and plist for failure of osx test.
-  4afd897524: |-
-    ruby 2.7.0dev (2019-07-30T23:47:03Z trunk 4afd897524) [x86_64-linux]
-    last_commit=File.exists? is deprecated.
-  4afd897524 --jit: |-
-    ruby 2.7.0dev (2019-07-30T23:47:03Z trunk 4afd897524) +JIT [x86_64-linux]
-    last_commit=File.exists? is deprecated.
-  ebd398ac5a: |-
-    ruby 2.7.0dev (2019-07-31T00:44:23Z trunk ebd398ac5a) [x86_64-linux]
-    last_commit=remove RHash::iter_lev.
-  ebd398ac5a --jit: |-
-    ruby 2.7.0dev (2019-07-31T00:44:23Z trunk ebd398ac5a) +JIT [x86_64-linux]
-    last_commit=remove RHash::iter_lev.
-  72825c35b0: |-
-    ruby 2.7.0dev (2019-07-31T00:52:03Z trunk 72825c35b0) [x86_64-linux]
-    last_commit=Use 1 byte hint for ar_table [Feature #15602]
-  72825c35b0 --jit: |-
-    ruby 2.7.0dev (2019-07-31T00:52:03Z trunk 72825c35b0) +JIT [x86_64-linux]
-    last_commit=Use 1 byte hint for ar_table [Feature #15602]
-  e315f3a134: |-
-    ruby 2.7.0dev (2019-07-31T01:22:47Z trunk e315f3a134) [x86_64-linux]
-    last_commit=* expand tabs.
-  e315f3a134 --jit: |-
-    ruby 2.7.0dev (2019-07-31T01:22:47Z trunk e315f3a134) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  13e84d5c0a: |-
-    ruby 2.7.0dev (2019-07-31T02:08:05Z trunk 13e84d5c0a) [x86_64-linux]
-    last_commit=Moved RHASH_LEV_MASK and turned into a macro
-  13e84d5c0a --jit: |-
-    ruby 2.7.0dev (2019-07-31T02:08:05Z trunk 13e84d5c0a) +JIT [x86_64-linux]
-    last_commit=Moved RHASH_LEV_MASK and turned into a macro
   4979ba38fa: |-
     ruby 2.7.0dev (2019-07-31T02:27:59Z trunk 4979ba38fa) [x86_64-linux]
     last_commit=test/rubygems/test_gem_remote_fetcher.rb: suppress deprecation warnings
@@ -6021,3 +5985,27 @@ commits:
   3fde9ef937 --jit: |-
     ruby 2.7.0dev (2019-09-01T23:08:42Z trunk 3fde9ef937) +JIT [x86_64-linux]
     last_commit=Fix keyword argument separation warning in method_missing
+  ca11a7d74e: |-
+    ruby 2.7.0dev (2019-09-02T01:54:30Z trunk ca11a7d74e) [x86_64-linux]
+    last_commit=Fix method name in test to not override existing method name
+  ca11a7d74e --jit: |-
+    ruby 2.7.0dev (2019-09-02T01:54:30Z trunk ca11a7d74e) +JIT [x86_64-linux]
+    last_commit=Fix method name in test to not override existing method name
+  f58db5a6f5: |-
+    ruby 2.7.0dev (2019-09-02T02:46:19Z trunk f58db5a6f5) [x86_64-linux]
+    last_commit=Simplify setting of VM_CALL_KW_SPLAT in vm_call_method_missing
+  f58db5a6f5 --jit: |-
+    ruby 2.7.0dev (2019-09-02T02:46:19Z trunk f58db5a6f5) +JIT [x86_64-linux]
+    last_commit=Simplify setting of VM_CALL_KW_SPLAT in vm_call_method_missing
+  63ab7046a1: |-
+    ruby 2.7.0dev (2019-09-02T03:01:47Z trunk 63ab7046a1) [x86_64-linux]
+    last_commit=Skip POINTOPOINT of IPv4 too instead of IPv6 only
+  63ab7046a1 --jit: |-
+    ruby 2.7.0dev (2019-09-02T03:01:47Z trunk 63ab7046a1) +JIT [x86_64-linux]
+    last_commit=Skip POINTOPOINT of IPv4 too instead of IPv6 only
+  1f636e74e6: |-
+    ruby 2.7.0dev (2019-09-02T03:16:21Z trunk 1f636e74e6) [x86_64-linux]
+    last_commit=Set mtime of checked out files to past time
+  1f636e74e6 --jit: |-
+    ruby 2.7.0dev (2019-09-02T03:16:21Z trunk 1f636e74e6) +JIT [x86_64-linux]
+    last_commit=Set mtime of checked out files to past time
