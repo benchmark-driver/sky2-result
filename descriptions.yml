@@ -6009,3 +6009,63 @@ commits:
   1f636e74e6 --jit: |-
     ruby 2.7.0dev (2019-09-02T03:16:21Z trunk 1f636e74e6) +JIT [x86_64-linux]
     last_commit=Set mtime of checked out files to past time
+  ff462bc6c3: |-
+    ruby 2.7.0dev (2019-09-02T04:46:33Z trunk ff462bc6c3) [x86_64-linux]
+    last_commit=Add a benchmark for opt_regexpmatch2
+  ff462bc6c3 --jit: |-
+    ruby 2.7.0dev (2019-09-02T04:46:33Z trunk ff462bc6c3) +JIT [x86_64-linux]
+    last_commit=Add a benchmark for opt_regexpmatch2
+  8ad7fafcdd: |-
+    ruby 2.7.0dev (2019-09-02T04:56:40Z trunk 8ad7fafcdd) [x86_64-linux]
+    last_commit=opt_regexpmatch1 is actually making things slower.
+  8ad7fafcdd --jit: |-
+    ruby 2.7.0dev (2019-09-02T04:56:40Z trunk 8ad7fafcdd) +JIT [x86_64-linux]
+    last_commit=opt_regexpmatch1 is actually making things slower.
+  ec80d5c4f3: |-
+    ruby 2.7.0dev (2019-09-02T04:56:40Z trunk ec80d5c4f3) [x86_64-linux]
+    last_commit=delete unused function
+  ec80d5c4f3 --jit: |-
+    ruby 2.7.0dev (2019-09-02T04:56:40Z trunk ec80d5c4f3) +JIT [x86_64-linux]
+    last_commit=delete unused function
+  79e3d6bb9e: |-
+    ruby 2.7.0dev (2019-09-02T04:56:40Z trunk 79e3d6bb9e) [x86_64-linux]
+    last_commit=fix shortcut condition
+  79e3d6bb9e --jit: |-
+    ruby 2.7.0dev (2019-09-02T04:56:40Z trunk 79e3d6bb9e) +JIT [x86_64-linux]
+    last_commit=fix shortcut condition
+  83498854eb: |-
+    ruby 2.7.0dev (2019-09-02T05:20:05Z trunk 83498854eb) [x86_64-linux]
+    last_commit=Make Enumerator::Lazy#with_index be lazy
+  83498854eb --jit: |-
+    ruby 2.7.0dev (2019-09-02T05:20:05Z trunk 83498854eb) +JIT [x86_64-linux]
+    last_commit=Make Enumerator::Lazy#with_index be lazy
+  c69545ae32: |-
+    ruby 2.7.0dev (2019-09-02T05:33:37Z trunk c69545ae32) [x86_64-linux]
+    last_commit=Fix opt_regexpmatch1 references
+  c69545ae32 --jit: |-
+    ruby 2.7.0dev (2019-09-02T05:33:37Z trunk c69545ae32) +JIT [x86_64-linux]
+    last_commit=Fix opt_regexpmatch1 references
+  6724b1f83d: |-
+    ruby 2.7.0dev (2019-09-02T05:35:38Z trunk 6724b1f83d) [x86_64-linux]
+    last_commit=Revert "Make Enumerator::Lazy#with_index be lazy"
+  6724b1f83d --jit: |-
+    ruby 2.7.0dev (2019-09-02T05:35:38Z trunk 6724b1f83d) +JIT [x86_64-linux]
+    last_commit=Revert "Make Enumerator::Lazy#with_index be lazy"
+  e9b271d1e2: |-
+    ruby 2.7.0dev (2019-09-02T05:38:26Z trunk e9b271d1e2) [x86_64-linux]
+    last_commit=Get rid of interpreting BTS references as label-list [ci skip]
+  e9b271d1e2 --jit: |-
+    ruby 2.7.0dev (2019-09-02T05:38:26Z trunk e9b271d1e2) +JIT [x86_64-linux]
+    last_commit=Get rid of interpreting BTS references as label-list [ci skip]
+  633ae3278e: |-
+    ruby 2.7.0dev (2019-09-02T05:43:51Z trunk 633ae3278e) [x86_64-linux]
+    last_commit=Add Net::FTP#features and Net::FTP#option
+  633ae3278e --jit: |-
+    ruby 2.7.0dev (2019-09-02T05:43:51Z trunk 633ae3278e) +JIT [x86_64-linux]
+    last_commit=Add Net::FTP#features and Net::FTP#option
+  6f206b8ec6: |-
+    ruby 2.7.0dev (2019-09-02T06:08:53Z trunk 6f206b8ec6) [x86_64-linux]
+    last_commit=Prohibit nul-separated glob pattern [Feature #14643] (#2419)
+  6f206b8ec6 --jit: |-
+    ruby 2.7.0dev (2019-09-02T06:08:53Z trunk 6f206b8ec6) +JIT [x86_64-linux]
+    last_commit=Prohibit nul-separated glob pattern [Feature #14643] (#2419)
