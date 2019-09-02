@@ -6009,3 +6009,9 @@ commits:
   8b2e1ca10e --jit: |-
     ruby 2.7.0dev (2019-09-02T07:47:12Z trunk 8b2e1ca10e) +JIT [x86_64-linux]
     last_commit=Do not clear backtrace in Exception#exception
+  53a7abe2cd: |-
+    ruby 2.7.0dev (2019-09-02T13:33:27Z trunk 53a7abe2cd) [x86_64-linux]
+    last_commit=test/drb/drbtest.rb: Skip test_06_timeout on Solaris10s
+  53a7abe2cd --jit: |-
+    ruby 2.7.0dev (2019-09-02T13:33:27Z trunk 53a7abe2cd) +JIT [x86_64-linux]
+    last_commit=test/drb/drbtest.rb: Skip test_06_timeout on Solaris10s
