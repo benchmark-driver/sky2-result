@@ -9,102 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  eab6c534ad: |-
-    ruby 2.7.0dev (2019-07-31T09:04:35Z trunk eab6c534ad) [x86_64-linux]
-    last_commit=Attempt to fix Hash#rehash spec
-  eab6c534ad --jit: |-
-    ruby 2.7.0dev (2019-07-31T09:04:35Z trunk eab6c534ad) +JIT [x86_64-linux]
-    last_commit=Attempt to fix Hash#rehash spec
-  e432f5dafd: |-
-    ruby 2.7.0dev (2019-07-31T09:06:54Z trunk e432f5dafd) [x86_64-linux]
-    last_commit=Split in two spec examples
-  e432f5dafd --jit: |-
-    ruby 2.7.0dev (2019-07-31T09:06:54Z trunk e432f5dafd) +JIT [x86_64-linux]
-    last_commit=Split in two spec examples
-  4562c13093: |-
-    ruby 2.7.0dev (2019-07-31T10:51:58Z trunk 4562c13093) [x86_64-linux]
-    last_commit=lib/bundler/shared_helpers.rb: remove require "rubygems"
-  4562c13093 --jit: |-
-    ruby 2.7.0dev (2019-07-31T10:51:58Z trunk 4562c13093) +JIT [x86_64-linux]
-    last_commit=lib/bundler/shared_helpers.rb: remove require "rubygems"
-  835fa9e54a: |-
-    ruby 2.7.0dev (2019-07-31T10:55:16Z trunk 835fa9e54a) [x86_64-linux]
-    last_commit=test/ruby/test_hash.rb: remove a unused vrible
-  835fa9e54a --jit: |-
-    ruby 2.7.0dev (2019-07-31T10:55:16Z trunk 835fa9e54a) +JIT [x86_64-linux]
-    last_commit=test/ruby/test_hash.rb: remove a unused vrible
-  c94cc6d968: |-
-    ruby 2.7.0dev (2019-07-31T11:46:01Z trunk c94cc6d968) [x86_64-linux]
-    last_commit=run single spec [ci skip]
-  c94cc6d968 --jit: |-
-    ruby 2.7.0dev (2019-07-31T11:46:01Z trunk c94cc6d968) +JIT [x86_64-linux]
-    last_commit=run single spec [ci skip]
-  e352445863: |-
-    ruby 2.7.0dev (2019-07-31T16:42:43Z trunk e352445863) [x86_64-linux]
-    last_commit=Let prev EP move
-  e352445863 --jit: |-
-    ruby 2.7.0dev (2019-07-31T16:42:43Z trunk e352445863) +JIT [x86_64-linux]
-    last_commit=Let prev EP move
-  8d138e9702: |-
-    ruby 2.7.0dev (2019-07-31T16:43:23Z trunk 8d138e9702) [x86_64-linux]
-    last_commit=* 2019-08-01
-  8d138e9702 --jit: |-
-    ruby 2.7.0dev (2019-07-31T16:43:23Z trunk 8d138e9702) +JIT [x86_64-linux]
-    last_commit=* 2019-08-01
-  5ad2dfd8dc: |-
-    ruby 2.7.0dev (2019-07-31T17:34:23Z trunk 5ad2dfd8dc) [x86_64-linux]
-    last_commit=Revert "Let prev EP move"
-  5ad2dfd8dc --jit: |-
-    ruby 2.7.0dev (2019-07-31T17:34:23Z trunk 5ad2dfd8dc) +JIT [x86_64-linux]
-    last_commit=Revert "Let prev EP move"
-  a1a198d03a: |-
-    ruby 2.7.0dev (2019-07-31T20:16:20Z trunk a1a198d03a) [x86_64-linux]
-    last_commit=File.realpath can raise ENOTDIR
-  a1a198d03a --jit: |-
-    ruby 2.7.0dev (2019-07-31T20:16:20Z trunk a1a198d03a) +JIT [x86_64-linux]
-    last_commit=File.realpath can raise ENOTDIR
-  43d74776a1: |-
-    ruby 2.7.0dev (2019-07-31T20:21:42Z trunk 43d74776a1) [x86_64-linux]
-    last_commit=check hash_hint is different.
-  43d74776a1 --jit: |-
-    ruby 2.7.0dev (2019-07-31T20:21:42Z trunk 43d74776a1) +JIT [x86_64-linux]
-    last_commit=check hash_hint is different.
-  deddc80476: |-
-    ruby 2.7.0dev (2019-07-31T20:48:22Z trunk deddc80476) [x86_64-linux]
-    last_commit=HASH_ASSERT() respects HASH_DEBUG
-  deddc80476 --jit: |-
-    ruby 2.7.0dev (2019-07-31T20:48:22Z trunk deddc80476) +JIT [x86_64-linux]
-    last_commit=HASH_ASSERT() respects HASH_DEBUG
-  bd1052d55d: |-
-    ruby 2.7.0dev (2019-07-31T20:50:58Z trunk bd1052d55d) [x86_64-linux]
-    last_commit=use hash_ar_table_set() directly
-  bd1052d55d --jit: |-
-    ruby 2.7.0dev (2019-07-31T20:50:58Z trunk bd1052d55d) +JIT [x86_64-linux]
-    last_commit=use hash_ar_table_set() directly
-  117241b3c7: |-
-    ruby 2.7.0dev (2019-07-31T20:59:04Z trunk 117241b3c7) [x86_64-linux]
-    last_commit=make inline functions from macros.
-  117241b3c7 --jit: |-
-    ruby 2.7.0dev (2019-07-31T20:59:04Z trunk 117241b3c7) +JIT [x86_64-linux]
-    last_commit=make inline functions from macros.
-  9faef3113f: |-
-    ruby 2.7.0dev (2019-07-31T23:21:25Z trunk 9faef3113f) [x86_64-linux]
-    last_commit=Add a specialized instruction for `.nil?` calls
-  9faef3113f --jit: |-
-    ruby 2.7.0dev (2019-07-31T23:21:25Z trunk 9faef3113f) +JIT [x86_64-linux]
-    last_commit=Add a specialized instruction for `.nil?` calls
-  714924fd34: |-
-    ruby 2.7.0dev (2019-07-31T23:21:58Z trunk 714924fd34) [x86_64-linux]
-    last_commit=* expand tabs.
-  714924fd34 --jit: |-
-    ruby 2.7.0dev (2019-07-31T23:21:58Z trunk 714924fd34) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  31ec475ad8: |-
-    ruby 2.7.0dev (2019-07-31T23:36:25Z trunk 31ec475ad8) [x86_64-linux]
-    last_commit=Update object.c
-  31ec475ad8 --jit: |-
-    ruby 2.7.0dev (2019-07-31T23:36:25Z trunk 31ec475ad8) +JIT [x86_64-linux]
-    last_commit=Update object.c
   67f7e5a224: |-
     ruby 2.7.0dev (2019-08-01T00:12:08Z trunk 67f7e5a224) [x86_64-linux]
     last_commit=Compact ensure clause and rename variables to fix alignment
@@ -6015,3 +5919,93 @@ commits:
   53a7abe2cd --jit: |-
     ruby 2.7.0dev (2019-09-02T13:33:27Z trunk 53a7abe2cd) +JIT [x86_64-linux]
     last_commit=test/drb/drbtest.rb: Skip test_06_timeout on Solaris10s
+  6a9c5ef186: |-
+    ruby 2.7.0dev (2019-09-02T14:28:21Z trunk 6a9c5ef186) [x86_64-linux]
+    last_commit=Extract git commit log as raw format like git-svn for ChangeLog
+  6a9c5ef186 --jit: |-
+    ruby 2.7.0dev (2019-09-02T14:28:21Z trunk 6a9c5ef186) +JIT [x86_64-linux]
+    last_commit=Extract git commit log as raw format like git-svn for ChangeLog
+  ca8ae759d0: |-
+    ruby 2.7.0dev (2019-09-02T14:37:52Z trunk ca8ae759d0) [x86_64-linux]
+    last_commit=Fix compilation error in SUPPORT_JOKE
+  ca8ae759d0 --jit: |-
+    ruby 2.7.0dev (2019-09-02T14:37:52Z trunk ca8ae759d0) +JIT [x86_64-linux]
+    last_commit=Fix compilation error in SUPPORT_JOKE
+  834e771860: |-
+    ruby 2.7.0dev (2019-09-02T14:48:38Z trunk 834e771860) [x86_64-linux]
+    last_commit=Run daily cron against SUPPORT_JOKE
+  834e771860 --jit: |-
+    ruby 2.7.0dev (2019-09-02T14:48:38Z trunk 834e771860) +JIT [x86_64-linux]
+    last_commit=Run daily cron against SUPPORT_JOKE
+  60a49a6ff9: |-
+    ruby 2.7.0dev (2019-09-02T15:07:37Z trunk 60a49a6ff9) [x86_64-linux]
+    last_commit=Fix SUPPORT_JOKE CI on Travis
+  60a49a6ff9 --jit: |-
+    ruby 2.7.0dev (2019-09-02T15:07:37Z trunk 60a49a6ff9) +JIT [x86_64-linux]
+    last_commit=Fix SUPPORT_JOKE CI on Travis
+  be86591458: |-
+    ruby 2.7.0dev (2019-09-02T15:08:39Z trunk be86591458) [x86_64-linux]
+    last_commit=* 2019-09-03 [ci skip]
+  be86591458 --jit: |-
+    ruby 2.7.0dev (2019-09-02T15:08:39Z trunk be86591458) +JIT [x86_64-linux]
+    last_commit=* 2019-09-03 [ci skip]
+  f560609d66: |-
+    ruby 2.7.0dev (2019-09-02T15:21:30Z trunk f560609d66) [x86_64-linux]
+    last_commit=Merge pull request #2418 from jeremyevans/array-empty-kwsplat
+  f560609d66 --jit: |-
+    ruby 2.7.0dev (2019-09-02T15:21:30Z trunk f560609d66) +JIT [x86_64-linux]
+    last_commit=Merge pull request #2418 from jeremyevans/array-empty-kwsplat
+  d83ade1db5: |-
+    ruby 2.7.0dev (2019-09-02T15:33:02Z trunk d83ade1db5) [x86_64-linux]
+    last_commit=Use -z option for git-log
+  d83ade1db5 --jit: |-
+    ruby 2.7.0dev (2019-09-02T15:33:02Z trunk d83ade1db5) +JIT [x86_64-linux]
+    last_commit=Use -z option for git-log
+  f1d8d0f47b: |-
+    ruby 2.7.0dev (2019-09-02T15:35:24Z trunk f1d8d0f47b) [x86_64-linux]
+    last_commit=Drop obsoleted branch references
+  f1d8d0f47b --jit: |-
+    ruby 2.7.0dev (2019-09-02T15:35:24Z trunk f1d8d0f47b) +JIT [x86_64-linux]
+    last_commit=Drop obsoleted branch references
+  1d68d29c14: |-
+    ruby 2.7.0dev (2019-09-02T15:36:19Z trunk 1d68d29c14) [x86_64-linux]
+    last_commit=Drop obsoleted IRC channel reference
+  1d68d29c14 --jit: |-
+    ruby 2.7.0dev (2019-09-02T15:36:19Z trunk 1d68d29c14) +JIT [x86_64-linux]
+    last_commit=Drop obsoleted IRC channel reference
+  91aa8bfff8: |-
+    ruby 2.7.0dev (2019-09-02T16:01:48Z trunk 91aa8bfff8) [x86_64-linux]
+    last_commit=Drop unstable Travis osx in favor of GitHub Actions
+  91aa8bfff8 --jit: |-
+    ruby 2.7.0dev (2019-09-02T16:01:48Z trunk 91aa8bfff8) +JIT [x86_64-linux]
+    last_commit=Drop unstable Travis osx in favor of GitHub Actions
+  52f0c31558: |-
+    ruby 2.7.0dev (2019-09-02T16:06:29Z trunk 52f0c31558) [x86_64-linux]
+    last_commit=Fix accidental leftover for Linux
+  52f0c31558 --jit: |-
+    ruby 2.7.0dev (2019-09-02T16:06:29Z trunk 52f0c31558) +JIT [x86_64-linux]
+    last_commit=Fix accidental leftover for Linux
+  6c3ab99eae: |-
+    ruby 2.7.0dev (2019-09-02T16:11:18Z trunk 6c3ab99eae) [x86_64-linux]
+    last_commit=Now it's always os: linux
+  6c3ab99eae --jit: |-
+    ruby 2.7.0dev (2019-09-02T16:11:18Z trunk 6c3ab99eae) +JIT [x86_64-linux]
+    last_commit=Now it's always os: linux
+  e13da00824: |-
+    ruby 2.7.0dev (2019-09-02T16:25:59Z trunk e13da00824) [x86_64-linux]
+    last_commit=Explain how to run an individual btest in help
+  e13da00824 --jit: |-
+    ruby 2.7.0dev (2019-09-02T16:25:59Z trunk e13da00824) +JIT [x86_64-linux]
+    last_commit=Explain how to run an individual btest in help
+  1a5a01e9ce: |-
+    ruby 2.7.0dev (2019-09-02T16:39:00Z trunk 1a5a01e9ce) [x86_64-linux]
+    last_commit=Add insn tests for newarraykwsplat
+  1a5a01e9ce --jit: |-
+    ruby 2.7.0dev (2019-09-02T16:39:00Z trunk 1a5a01e9ce) +JIT [x86_64-linux]
+    last_commit=Add insn tests for newarraykwsplat
+  a848b62819: |-
+    ruby 2.7.0dev (2019-09-02T16:53:49Z trunk a848b62819) [x86_64-linux]
+    last_commit=Make the rb_vmdebug_debug_print_post declaration
+  a848b62819 --jit: |-
+    ruby 2.7.0dev (2019-09-02T16:53:49Z trunk a848b62819) +JIT [x86_64-linux]
+    last_commit=Make the rb_vmdebug_debug_print_post declaration
