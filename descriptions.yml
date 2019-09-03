@@ -6009,3 +6009,9 @@ commits:
   a848b62819 --jit: |-
     ruby 2.7.0dev (2019-09-02T16:53:49Z trunk a848b62819) +JIT [x86_64-linux]
     last_commit=Make the rb_vmdebug_debug_print_post declaration
+  1994adf938: |-
+    ruby 2.7.0dev (2019-09-02T20:42:31Z trunk 1994adf938) [x86_64-linux]
+    last_commit=Make Array#uniq return subclass instance if called on subclass instance
+  1994adf938 --jit: |-
+    ruby 2.7.0dev (2019-09-02T20:42:31Z trunk 1994adf938) +JIT [x86_64-linux]
+    last_commit=Make Array#uniq return subclass instance if called on subclass instance
