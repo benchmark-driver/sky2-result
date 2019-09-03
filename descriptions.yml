@@ -9,36 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  076f3fcf11: |-
-    ruby 2.7.0dev (2019-08-01T11:19:54Z trunk 076f3fcf11) [x86_64-linux]
-    last_commit=Extend sleep before sending USR1 in TestProcess
-  076f3fcf11 --jit: |-
-    ruby 2.7.0dev (2019-08-01T11:19:54Z trunk 076f3fcf11) +JIT [x86_64-linux]
-    last_commit=Extend sleep before sending USR1 in TestProcess
-  2eec526053: |-
-    ruby 2.7.0dev (2019-08-01T11:34:31Z trunk 2eec526053) [x86_64-linux]
-    last_commit=bootstraptest/test_insns.rb: test opt_nil_p
-  2eec526053 --jit: |-
-    ruby 2.7.0dev (2019-08-01T11:34:31Z trunk 2eec526053) +JIT [x86_64-linux]
-    last_commit=bootstraptest/test_insns.rb: test opt_nil_p
-  8b162ce9d1: |-
-    ruby 2.7.0dev (2019-08-01T11:55:03Z trunk 8b162ce9d1) [x86_64-linux]
-    last_commit=Fix assertion failure when VM_CHECK_MODE
-  8b162ce9d1 --jit: |-
-    ruby 2.7.0dev (2019-08-01T11:55:03Z trunk 8b162ce9d1) +JIT [x86_64-linux]
-    last_commit=Fix assertion failure when VM_CHECK_MODE
-  b8e351a1b9: |-
-    ruby 2.7.0dev (2019-08-01T12:09:59Z trunk b8e351a1b9) [x86_64-linux]
-    last_commit=ext/-test-/bug-14834/bug-14384.c: fallback for MAYBE_UNUSED
-  b8e351a1b9 --jit: |-
-    ruby 2.7.0dev (2019-08-01T12:09:59Z trunk b8e351a1b9) +JIT [x86_64-linux]
-    last_commit=ext/-test-/bug-14834/bug-14384.c: fallback for MAYBE_UNUSED
-  ef45a57801: |-
-    ruby 2.7.0dev (2019-08-01T15:52:15Z trunk ef45a57801) [x86_64-linux]
-    last_commit=Make attr* methods define public methods if self in caller is not same as receiver
-  ef45a57801 --jit: |-
-    ruby 2.7.0dev (2019-08-01T15:52:15Z trunk ef45a57801) +JIT [x86_64-linux]
-    last_commit=Make attr* methods define public methods if self in caller is not same as receiver
   8ba8ccc3cc: |-
     ruby 2.7.0dev (2019-08-01T15:55:03Z trunk 8ba8ccc3cc) [x86_64-linux]
     last_commit=* 2019-08-02
