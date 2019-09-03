@@ -6009,3 +6009,21 @@ commits:
   547887138f --jit: |-
     ruby 2.7.0dev (2019-09-03T03:29:36Z trunk 547887138f) +JIT [x86_64-linux]
     last_commit=test/ruby/test_fiber.rb: reduce the count of object creation to cause GC
+  355ccdeae5: |-
+    ruby 2.7.0dev (2019-09-03T03:59:08Z trunk 355ccdeae5) [x86_64-linux]
+    last_commit=Disable method definition type checks on Cygwin too
+  355ccdeae5 --jit: |-
+    ruby 2.7.0dev (2019-09-03T03:59:08Z trunk 355ccdeae5) +JIT [x86_64-linux]
+    last_commit=Disable method definition type checks on Cygwin too
+  1a9cc3b27c: |-
+    ruby 2.7.0dev (2019-09-03T05:22:44Z trunk 1a9cc3b27c) [x86_64-linux]
+    last_commit=Avoid defining unused instructions
+  1a9cc3b27c --jit: |-
+    ruby 2.7.0dev (2019-09-03T05:22:44Z trunk 1a9cc3b27c) +JIT [x86_64-linux]
+    last_commit=Avoid defining unused instructions
+  e913fa94d3: |-
+    ruby 2.7.0dev (2019-09-03T05:43:08Z trunk e913fa94d3) [x86_64-linux]
+    last_commit=delete ruby_eval_string_from_file_protect
+  e913fa94d3 --jit: |-
+    ruby 2.7.0dev (2019-09-03T05:43:08Z trunk e913fa94d3) +JIT [x86_64-linux]
+    last_commit=delete ruby_eval_string_from_file_protect
