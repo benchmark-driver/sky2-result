@@ -9,36 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  3a6f51ee35: |-
-    ruby 2.7.0dev (2019-08-01T07:06:43Z trunk 3a6f51ee35) [x86_64-linux]
-    last_commit=introduce ar_hint_t.
-  3a6f51ee35 --jit: |-
-    ruby 2.7.0dev (2019-08-01T07:06:43Z trunk 3a6f51ee35) +JIT [x86_64-linux]
-    last_commit=introduce ar_hint_t.
-  fd0e3bd249: |-
-    ruby 2.7.0dev (2019-08-01T07:19:49Z trunk fd0e3bd249) [x86_64-linux]
-    last_commit=fix VC 2013 compile error
-  fd0e3bd249 --jit: |-
-    ruby 2.7.0dev (2019-08-01T07:19:49Z trunk fd0e3bd249) +JIT [x86_64-linux]
-    last_commit=fix VC 2013 compile error
-  d488464106: |-
-    ruby 2.7.0dev (2019-08-01T07:35:43Z trunk d488464106) [x86_64-linux]
-    last_commit=Use predefined idOr
-  d488464106 --jit: |-
-    ruby 2.7.0dev (2019-08-01T07:35:43Z trunk d488464106) +JIT [x86_64-linux]
-    last_commit=Use predefined idOr
-  1549fbfda5: |-
-    ruby 2.7.0dev (2019-08-01T07:40:03Z trunk 1549fbfda5) [x86_64-linux]
-    last_commit=Use predefined idTo_proc
-  1549fbfda5 --jit: |-
-    ruby 2.7.0dev (2019-08-01T07:40:03Z trunk 1549fbfda5) +JIT [x86_64-linux]
-    last_commit=Use predefined idTo_proc
-  cb84824481: |-
-    ruby 2.7.0dev (2019-08-01T10:42:48Z trunk cb84824481) [x86_64-linux]
-    last_commit=Add a test for opt_nil_p
-  cb84824481 --jit: |-
-    ruby 2.7.0dev (2019-08-01T10:42:48Z trunk cb84824481) +JIT [x86_64-linux]
-    last_commit=Add a test for opt_nil_p
   076f3fcf11: |-
     ruby 2.7.0dev (2019-08-01T11:19:54Z trunk 076f3fcf11) [x86_64-linux]
     last_commit=Extend sleep before sending USR1 in TestProcess
@@ -6027,3 +5997,15 @@ commits:
   e913fa94d3 --jit: |-
     ruby 2.7.0dev (2019-09-03T05:43:08Z trunk e913fa94d3) +JIT [x86_64-linux]
     last_commit=delete ruby_eval_string_from_file_protect
+  83889292f5: |-
+    ruby 2.7.0dev (2019-09-03T07:51:01Z trunk 83889292f5) [x86_64-linux]
+    last_commit=Examine TestIO#test_select_exceptfds on Solaris with 1 byte data
+  83889292f5 --jit: |-
+    ruby 2.7.0dev (2019-09-03T07:51:01Z trunk 83889292f5) +JIT [x86_64-linux]
+    last_commit=Examine TestIO#test_select_exceptfds on Solaris with 1 byte data
+  36a0c668b6: |-
+    ruby 2.7.0dev (2019-09-03T09:36:08Z trunk 36a0c668b6) [x86_64-linux]
+    last_commit=Remove SKIP_DOXYGEN because job.env does not set in `if:`
+  36a0c668b6 --jit: |-
+    ruby 2.7.0dev (2019-09-03T09:36:08Z trunk 36a0c668b6) +JIT [x86_64-linux]
+    last_commit=Remove SKIP_DOXYGEN because job.env does not set in `if:`

@@ -1348,6 +1348,8 @@ results:
     787b437a2a: 3438043.177
     bd785ca077: 3443052.306
     8a687b8a4f: 3473992.476
+    f5481e35ab: 3467605.054
+    8d50bf40d9: 3449375.637
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2695,6 +2697,8 @@ results:
     787b437a2a: 3400401.794
     bd785ca077: 3386643.986
     8a687b8a4f: 3438984.216
+    f5481e35ab: 3434323.195
+    8d50bf40d9: 3380062.43
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4042,6 +4046,8 @@ results:
     787b437a2a: 1882804.41
     bd785ca077: 1858423.194
     8a687b8a4f: 1654988.397
+    f5481e35ab: 1803721.501
+    8d50bf40d9: 1533078.32
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5389,6 +5395,8 @@ results:
     787b437a2a: 2806549.154
     bd785ca077: 2824712.359
     8a687b8a4f: 2737131.444
+    f5481e35ab: 2824577.479
+    8d50bf40d9: 2831322.065
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -6736,6 +6744,8 @@ results:
     787b437a2a: 3732679.217
     bd785ca077: 3375669.613
     8a687b8a4f: 3777270.804
+    f5481e35ab: 3606702.566
+    8d50bf40d9: 3737466.668
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -8083,6 +8093,8 @@ results:
     787b437a2a: 3539844.388
     bd785ca077: 3492855.529
     8a687b8a4f: 3709368.787
+    f5481e35ab: 3723001.134
+    8d50bf40d9: 3352484.328
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -9430,6 +9442,8 @@ results:
     787b437a2a: 2016279.306
     bd785ca077: 1996307.019
     8a687b8a4f: 1819009.933
+    f5481e35ab: 1928694.455
+    8d50bf40d9: 1930166.551
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -10777,3 +10791,5 @@ results:
     787b437a2a: 3003951.056
     bd785ca077: 3014299.661
     8a687b8a4f: 2996349.195
+    f5481e35ab: 3033216.701
+    8d50bf40d9: 3014344.403
