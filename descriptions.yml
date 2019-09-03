@@ -9,48 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  67f7e5a224: |-
-    ruby 2.7.0dev (2019-08-01T00:12:08Z trunk 67f7e5a224) [x86_64-linux]
-    last_commit=Compact ensure clause and rename variables to fix alignment
-  67f7e5a224 --jit: |-
-    ruby 2.7.0dev (2019-08-01T00:12:08Z trunk 67f7e5a224) +JIT [x86_64-linux]
-    last_commit=Compact ensure clause and rename variables to fix alignment
-  '7463867106': |-
-    ruby 2.7.0dev (2019-08-01T02:22:43Z trunk 7463867106) [x86_64-linux]
-    last_commit=use internal_id.
-  7463867106 --jit: |-
-    ruby 2.7.0dev (2019-08-01T02:22:43Z trunk 7463867106) +JIT [x86_64-linux]
-    last_commit=use internal_id.
-  f45bb760fb: |-
-    ruby 2.7.0dev (2019-08-01T05:25:15Z trunk f45bb760fb) [x86_64-linux]
-    last_commit=signal.c: make signame_prefix a nul-terminated string
-  f45bb760fb --jit: |-
-    ruby 2.7.0dev (2019-08-01T05:25:15Z trunk f45bb760fb) +JIT [x86_64-linux]
-    last_commit=signal.c: make signame_prefix a nul-terminated string
-  d2f8e03f34: |-
-    ruby 2.7.0dev (2019-08-01T05:27:19Z trunk d2f8e03f34) [x86_64-linux]
-    last_commit=* expand tabs.
-  d2f8e03f34 --jit: |-
-    ruby 2.7.0dev (2019-08-01T05:27:19Z trunk d2f8e03f34) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  5d33f78716: |-
-    ruby 2.7.0dev (2019-08-01T07:00:59Z trunk 5d33f78716) [x86_64-linux]
-    last_commit=fix tracepoint + backtrace SEGV
-  5d33f78716 --jit: |-
-    ruby 2.7.0dev (2019-08-01T07:00:59Z trunk 5d33f78716) +JIT [x86_64-linux]
-    last_commit=fix tracepoint + backtrace SEGV
-  19d3c80e81: |-
-    ruby 2.7.0dev (2019-08-01T07:00:59Z trunk 19d3c80e81) [x86_64-linux]
-    last_commit=calc_lineno(): add assertions
-  19d3c80e81 --jit: |-
-    ruby 2.7.0dev (2019-08-01T07:00:59Z trunk 19d3c80e81) +JIT [x86_64-linux]
-    last_commit=calc_lineno(): add assertions
-  e18e785253: |-
-    ruby 2.7.0dev (2019-08-01T07:04:09Z trunk e18e785253) [x86_64-linux]
-    last_commit=* expand tabs.
-  e18e785253 --jit: |-
-    ruby 2.7.0dev (2019-08-01T07:04:09Z trunk e18e785253) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
   3a6f51ee35: |-
     ruby 2.7.0dev (2019-08-01T07:06:43Z trunk 3a6f51ee35) [x86_64-linux]
     last_commit=introduce ar_hint_t.
@@ -6015,3 +5973,39 @@ commits:
   1994adf938 --jit: |-
     ruby 2.7.0dev (2019-09-02T20:42:31Z trunk 1994adf938) +JIT [x86_64-linux]
     last_commit=Make Array#uniq return subclass instance if called on subclass instance
+  c181ecc161: |-
+    ruby 2.7.0dev (2019-09-03T02:14:07Z trunk c181ecc161) [x86_64-linux]
+    last_commit=Align timestamps to make tarball stable
+  c181ecc161 --jit: |-
+    ruby 2.7.0dev (2019-09-03T02:14:07Z trunk c181ecc161) +JIT [x86_64-linux]
+    last_commit=Align timestamps to make tarball stable
+  703f0cd3d0: |-
+    ruby 2.7.0dev (2019-09-03T02:30:40Z trunk 703f0cd3d0) [x86_64-linux]
+    last_commit=Do not keep tar file by the default
+  703f0cd3d0 --jit: |-
+    ruby 2.7.0dev (2019-09-03T02:30:40Z trunk 703f0cd3d0) +JIT [x86_64-linux]
+    last_commit=Do not keep tar file by the default
+  542a1ade80: |-
+    ruby 2.7.0dev (2019-09-03T02:33:29Z trunk 542a1ade80) [x86_64-linux]
+    last_commit=--date=iso-local does not work with old git
+  542a1ade80 --jit: |-
+    ruby 2.7.0dev (2019-09-03T02:33:29Z trunk 542a1ade80) +JIT [x86_64-linux]
+    last_commit=--date=iso-local does not work with old git
+  b0a7221dcf: |-
+    ruby 2.7.0dev (2019-09-03T02:58:02Z trunk b0a7221dcf) [x86_64-linux]
+    last_commit=Touch the toplevel directory too
+  b0a7221dcf --jit: |-
+    ruby 2.7.0dev (2019-09-03T02:58:02Z trunk b0a7221dcf) +JIT [x86_64-linux]
+    last_commit=Touch the toplevel directory too
+  e6c4ea22d6: |-
+    ruby 2.7.0dev (2019-09-03T03:28:00Z trunk e6c4ea22d6) [x86_64-linux]
+    last_commit=Touch tar file itself to make gz file hash stable
+  e6c4ea22d6 --jit: |-
+    ruby 2.7.0dev (2019-09-03T03:28:00Z trunk e6c4ea22d6) +JIT [x86_64-linux]
+    last_commit=Touch tar file itself to make gz file hash stable
+  547887138f: |-
+    ruby 2.7.0dev (2019-09-03T03:29:36Z trunk 547887138f) [x86_64-linux]
+    last_commit=test/ruby/test_fiber.rb: reduce the count of object creation to cause GC
+  547887138f --jit: |-
+    ruby 2.7.0dev (2019-09-03T03:29:36Z trunk 547887138f) +JIT [x86_64-linux]
+    last_commit=test/ruby/test_fiber.rb: reduce the count of object creation to cause GC
