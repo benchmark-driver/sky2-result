@@ -6009,3 +6009,15 @@ commits:
   2a6457b5b7 --jit: |-
     ruby 2.7.0dev (2019-09-04T05:08:40Z trunk 2a6457b5b7) +JIT [x86_64-linux]
     last_commit=add rb_funcallv_with_cc()
+  1d4bd229b8: |-
+    ruby 2.7.0dev (2019-09-04T07:16:46Z trunk 1d4bd229b8) [x86_64-linux]
+    last_commit=Implement Enumerator::Lazy#eager [Feature #15901]
+  1d4bd229b8 --jit: |-
+    ruby 2.7.0dev (2019-09-04T07:16:46Z trunk 1d4bd229b8) +JIT [x86_64-linux]
+    last_commit=Implement Enumerator::Lazy#eager [Feature #15901]
+  f6da4a5447: |-
+    ruby 2.7.0dev (2019-09-04T07:16:47Z trunk f6da4a5447) [x86_64-linux]
+    last_commit=Describe #eager in the Enumerator::Lazy section
+  f6da4a5447 --jit: |-
+    ruby 2.7.0dev (2019-09-04T07:16:47Z trunk f6da4a5447) +JIT [x86_64-linux]
+    last_commit=Describe #eager in the Enumerator::Lazy section
