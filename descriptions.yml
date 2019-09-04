@@ -9,42 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  e03b3b4ae0: |-
-    ruby 2.7.0dev (2019-08-02T06:59:47Z trunk e03b3b4ae0) [x86_64-linux]
-    last_commit=add debug_counters to check details.
-  e03b3b4ae0 --jit: |-
-    ruby 2.7.0dev (2019-08-02T06:59:47Z trunk e03b3b4ae0) +JIT [x86_64-linux]
-    last_commit=add debug_counters to check details.
-  ee1334189b: |-
-    ruby 2.7.0dev (2019-08-02T08:51:45Z trunk ee1334189b) [x86_64-linux]
-    last_commit=Fix uplevel
-  ee1334189b --jit: |-
-    ruby 2.7.0dev (2019-08-02T08:51:45Z trunk ee1334189b) +JIT [x86_64-linux]
-    last_commit=Fix uplevel
-  6640eeb6db: |-
-    ruby 2.7.0dev (2019-08-02T09:11:05Z trunk 6640eeb6db) [x86_64-linux]
-    last_commit=Deduplicate common code
-  6640eeb6db --jit: |-
-    ruby 2.7.0dev (2019-08-02T09:11:05Z trunk 6640eeb6db) +JIT [x86_64-linux]
-    last_commit=Deduplicate common code
-  9921b63ac4: |-
-    ruby 2.7.0dev (2019-08-02T10:04:38Z trunk 9921b63ac4) [x86_64-linux]
-    last_commit=Make float_decode_internal mantissa int
-  9921b63ac4 --jit: |-
-    ruby 2.7.0dev (2019-08-02T10:04:38Z trunk 9921b63ac4) +JIT [x86_64-linux]
-    last_commit=Make float_decode_internal mantissa int
-  eb638b75b3: |-
-    ruby 2.7.0dev (2019-08-02T12:09:43Z trunk eb638b75b3) [x86_64-linux]
-    last_commit=It can be share to use CoreAssertions for default gems.
-  eb638b75b3 --jit: |-
-    ruby 2.7.0dev (2019-08-02T12:09:43Z trunk eb638b75b3) +JIT [x86_64-linux]
-    last_commit=It can be share to use CoreAssertions for default gems.
-  a1727e43af: |-
-    ruby 2.7.0dev (2019-08-02T13:46:15Z trunk a1727e43af) [x86_64-linux]
-    last_commit=Remove opt_nil_p test to remove warning for now
-  a1727e43af --jit: |-
-    ruby 2.7.0dev (2019-08-02T13:46:15Z trunk a1727e43af) +JIT [x86_64-linux]
-    last_commit=Remove opt_nil_p test to remove warning for now
   247b06d400: |-
     ruby 2.7.0dev (2019-08-02T14:01:54Z trunk 247b06d400) [x86_64-linux]
     last_commit=Revert "Give up `brew update` on Travis"
@@ -6039,3 +6003,9 @@ commits:
   ccad34f453 --jit: |-
     ruby 2.7.0dev (2019-09-04T03:51:39Z trunk ccad34f453) +JIT [x86_64-linux]
     last_commit=Add TEST_BUNDLED_GEMS_ALLOW_FAILURES=minitest
+  2a6457b5b7: |-
+    ruby 2.7.0dev (2019-09-04T05:08:40Z trunk 2a6457b5b7) [x86_64-linux]
+    last_commit=add rb_funcallv_with_cc()
+  2a6457b5b7 --jit: |-
+    ruby 2.7.0dev (2019-09-04T05:08:40Z trunk 2a6457b5b7) +JIT [x86_64-linux]
+    last_commit=add rb_funcallv_with_cc()

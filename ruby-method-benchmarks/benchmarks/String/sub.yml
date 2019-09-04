@@ -1358,6 +1358,8 @@ results:
     cb6abf551a: 3330572.493
     e9da4f57b3: 3463646.802
     58a373e9ed: 3401454.279
+    989e8ad322: 3463444.67
+    631db0de27: 3460259.846
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2715,6 +2717,8 @@ results:
     cb6abf551a: 3423229.7
     e9da4f57b3: 3415549.634
     58a373e9ed: 3381539.009
+    989e8ad322: 3480633.106
+    631db0de27: 3407091.848
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4072,6 +4076,8 @@ results:
     cb6abf551a: 1892177.724
     e9da4f57b3: 1897902.208
     58a373e9ed: 1933181.273
+    989e8ad322: 1929085.625
+    631db0de27: 1856948.887
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5429,6 +5435,8 @@ results:
     cb6abf551a: 2749225.201
     e9da4f57b3: 2857245.514
     58a373e9ed: 2682901.904
+    989e8ad322: 2578483.422
+    631db0de27: 2864726.537
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -6786,6 +6794,8 @@ results:
     cb6abf551a: 3718841.428
     e9da4f57b3: 3757966.961
     58a373e9ed: 3689195.031
+    989e8ad322: 3509397.477
+    631db0de27: 3761472.313
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -8143,6 +8153,8 @@ results:
     cb6abf551a: 3040397.305
     e9da4f57b3: 3698186.864
     58a373e9ed: 3676086.293
+    989e8ad322: 3782316.579
+    631db0de27: 3345508.004
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -9500,6 +9512,8 @@ results:
     cb6abf551a: 1976590.017
     e9da4f57b3: 1978645.9
     58a373e9ed: 2023264.448
+    989e8ad322: 1844886.985
+    631db0de27: 1647496.79
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -10857,3 +10871,5 @@ results:
     cb6abf551a: 2689558.921
     e9da4f57b3: 2992585.772
     58a373e9ed: 2982973.978
+    989e8ad322: 3051579.287
+    631db0de27: 3077237.018
