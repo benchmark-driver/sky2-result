@@ -6009,3 +6009,33 @@ commits:
   77596fb7a9 --jit: |-
     ruby 2.7.0dev (2019-09-03T21:02:24Z trunk 77596fb7a9) +JIT [x86_64-linux]
     last_commit=Do not turn on keyword_init for Struct subclass if keyword hash is empty
+  c14b67b2a8: |-
+    ruby 2.7.0dev (2019-09-04T02:10:21Z trunk c14b67b2a8) [x86_64-linux]
+    last_commit=Check frozen flag on MJIT setinstancevariable
+  c14b67b2a8 --jit: |-
+    ruby 2.7.0dev (2019-09-04T02:10:21Z trunk c14b67b2a8) +JIT [x86_64-linux]
+    last_commit=Check frozen flag on MJIT setinstancevariable
+  b0d0b850bc: |-
+    ruby 2.7.0dev (2019-09-04T02:50:37Z trunk b0d0b850bc) [x86_64-linux]
+    last_commit=Use RUBY_TESTOPTS instead of TESTOPTS
+  b0d0b850bc --jit: |-
+    ruby 2.7.0dev (2019-09-04T02:50:37Z trunk b0d0b850bc) +JIT [x86_64-linux]
+    last_commit=Use RUBY_TESTOPTS instead of TESTOPTS
+  1e30d0af7d: |-
+    ruby 2.7.0dev (2019-09-04T03:03:28Z trunk 1e30d0af7d) [x86_64-linux]
+    last_commit=`$JOBS` does not set in `env:`
+  1e30d0af7d --jit: |-
+    ruby 2.7.0dev (2019-09-04T03:03:28Z trunk 1e30d0af7d) +JIT [x86_64-linux]
+    last_commit=`$JOBS` does not set in `env:`
+  967ef0d4f6: |-
+    ruby 2.7.0dev (2019-09-04T03:46:26Z trunk 967ef0d4f6) [x86_64-linux]
+    last_commit=Use `git pull` instead of `git fetch` if master branch
+  967ef0d4f6 --jit: |-
+    ruby 2.7.0dev (2019-09-04T03:46:26Z trunk 967ef0d4f6) +JIT [x86_64-linux]
+    last_commit=Use `git pull` instead of `git fetch` if master branch
+  ccad34f453: |-
+    ruby 2.7.0dev (2019-09-04T03:51:39Z trunk ccad34f453) [x86_64-linux]
+    last_commit=Add TEST_BUNDLED_GEMS_ALLOW_FAILURES=minitest
+  ccad34f453 --jit: |-
+    ruby 2.7.0dev (2019-09-04T03:51:39Z trunk ccad34f453) +JIT [x86_64-linux]
+    last_commit=Add TEST_BUNDLED_GEMS_ALLOW_FAILURES=minitest
