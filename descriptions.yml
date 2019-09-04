@@ -9,42 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  8ba8ccc3cc: |-
-    ruby 2.7.0dev (2019-08-01T15:55:03Z trunk 8ba8ccc3cc) [x86_64-linux]
-    last_commit=* 2019-08-02
-  8ba8ccc3cc --jit: |-
-    ruby 2.7.0dev (2019-08-01T15:55:03Z trunk 8ba8ccc3cc) +JIT [x86_64-linux]
-    last_commit=* 2019-08-02
-  6de61fb9ed: |-
-    ruby 2.7.0dev (2019-08-02T02:26:51Z trunk 6de61fb9ed) [x86_64-linux]
-    last_commit=Expanded f_mod
-  6de61fb9ed --jit: |-
-    ruby 2.7.0dev (2019-08-02T02:26:51Z trunk 6de61fb9ed) +JIT [x86_64-linux]
-    last_commit=Expanded f_mod
-  ffe4a6ebf9: |-
-    ruby 2.7.0dev (2019-08-02T02:26:58Z trunk ffe4a6ebf9) [x86_64-linux]
-    last_commit=Use RB_INTEGER_TYPE_P
-  ffe4a6ebf9 --jit: |-
-    ruby 2.7.0dev (2019-08-02T02:26:58Z trunk ffe4a6ebf9) +JIT [x86_64-linux]
-    last_commit=Use RB_INTEGER_TYPE_P
-  f9a0492b76: |-
-    ruby 2.7.0dev (2019-08-02T02:26:58Z trunk f9a0492b76) [x86_64-linux]
-    last_commit=Expanded f_ceil
-  f9a0492b76 --jit: |-
-    ruby 2.7.0dev (2019-08-02T02:26:58Z trunk f9a0492b76) +JIT [x86_64-linux]
-    last_commit=Expanded f_ceil
-  19006b711d: |-
-    ruby 2.7.0dev (2019-08-02T02:28:24Z trunk 19006b711d) [x86_64-linux]
-    last_commit=Expanded f_quo
-  19006b711d --jit: |-
-    ruby 2.7.0dev (2019-08-02T02:28:24Z trunk 19006b711d) +JIT [x86_64-linux]
-    last_commit=Expanded f_quo
-  a0980f2446: |-
-    ruby 2.7.0dev (2019-08-02T06:03:34Z trunk a0980f2446) [x86_64-linux]
-    last_commit=Revert "Add a specialized instruction for `.nil?` calls"
-  a0980f2446 --jit: |-
-    ruby 2.7.0dev (2019-08-02T06:03:34Z trunk a0980f2446) +JIT [x86_64-linux]
-    last_commit=Revert "Add a specialized instruction for `.nil?` calls"
   e03b3b4ae0: |-
     ruby 2.7.0dev (2019-08-02T06:59:47Z trunk e03b3b4ae0) [x86_64-linux]
     last_commit=add debug_counters to check details.
@@ -6009,3 +5973,39 @@ commits:
   fb67d4fc77 --jit: |-
     ruby 2.7.0dev (2019-09-03T12:49:52Z trunk fb67d4fc77) +JIT [x86_64-linux]
     last_commit=Move an unstable bootstraptest to pending
+  e94ac03eb0: |-
+    ruby 2.7.0dev (2019-09-03T18:30:49Z trunk e94ac03eb0) [x86_64-linux]
+    last_commit=Make Enumerator::Lazy#with_index be lazy
+  e94ac03eb0 --jit: |-
+    ruby 2.7.0dev (2019-09-03T18:30:49Z trunk e94ac03eb0) +JIT [x86_64-linux]
+    last_commit=Make Enumerator::Lazy#with_index be lazy
+  4a3972c261: |-
+    ruby 2.7.0dev (2019-09-03T18:30:49Z trunk 4a3972c261) [x86_64-linux]
+    last_commit=Remove bad expectation in spec
+  4a3972c261 --jit: |-
+    ruby 2.7.0dev (2019-09-03T18:30:49Z trunk 4a3972c261) +JIT [x86_64-linux]
+    last_commit=Remove bad expectation in spec
+  a7d7a0df91: |-
+    ruby 2.7.0dev (2019-09-03T18:30:49Z trunk a7d7a0df91) [x86_64-linux]
+    last_commit=Fix Enumerator::Lazy#{to_enum,enum_for} where method is defined in Lazy
+  a7d7a0df91 --jit: |-
+    ruby 2.7.0dev (2019-09-03T18:30:49Z trunk a7d7a0df91) +JIT [x86_64-linux]
+    last_commit=Fix Enumerator::Lazy#{to_enum,enum_for} where method is defined in Lazy
+  f702cd6ace: |-
+    ruby 2.7.0dev (2019-09-03T18:31:11Z trunk f702cd6ace) [x86_64-linux]
+    last_commit=* 2019-09-04 [ci skip]
+  f702cd6ace --jit: |-
+    ruby 2.7.0dev (2019-09-03T18:31:11Z trunk f702cd6ace) +JIT [x86_64-linux]
+    last_commit=* 2019-09-04 [ci skip]
+  39c3252cd1: |-
+    ruby 2.7.0dev (2019-09-03T18:32:02Z trunk 39c3252cd1) [x86_64-linux]
+    last_commit=Merge pull request #2422 from jeremyevans/rb_keyword_given_p
+  39c3252cd1 --jit: |-
+    ruby 2.7.0dev (2019-09-03T18:32:02Z trunk 39c3252cd1) +JIT [x86_64-linux]
+    last_commit=Merge pull request #2422 from jeremyevans/rb_keyword_given_p
+  77596fb7a9: |-
+    ruby 2.7.0dev (2019-09-03T21:02:24Z trunk 77596fb7a9) [x86_64-linux]
+    last_commit=Do not turn on keyword_init for Struct subclass if keyword hash is empty
+  77596fb7a9 --jit: |-
+    ruby 2.7.0dev (2019-09-03T21:02:24Z trunk 77596fb7a9) +JIT [x86_64-linux]
+    last_commit=Do not turn on keyword_init for Struct subclass if keyword hash is empty
