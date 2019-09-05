@@ -9,48 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  a12557dbfd: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk a12557dbfd) [x86_64-linux]
-    last_commit=[bundler/bundler] Add `required_ruby_version` to gemspec template
-  a12557dbfd --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk a12557dbfd) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Add `required_ruby_version` to gemspec template
-  e59b57a3a7: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk e59b57a3a7) [x86_64-linux]
-    last_commit=[bundler/bundler] Fix thread leak in compact index specs
-  e59b57a3a7 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk e59b57a3a7) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fix thread leak in compact index specs
-  4089f8df1e: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 4089f8df1e) [x86_64-linux]
-    last_commit=[bundler/bundler] Use real paths for `bundle clean`
-  4089f8df1e --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 4089f8df1e) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Use real paths for `bundle clean`
-  884f948a90: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 884f948a90) [x86_64-linux]
-    last_commit=[bundler/bundler] bundler/inline should always install gems to system path
-  884f948a90 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 884f948a90) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] bundler/inline should always install gems to system path
-  72daf37dee: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 72daf37dee) [x86_64-linux]
-    last_commit=[bundler/bundler] Fix a typo on a spec comment
-  72daf37dee --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 72daf37dee) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fix a typo on a spec comment
-  1a8d9a0d5d: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 1a8d9a0d5d) [x86_64-linux]
-    last_commit=[bundler/bundler] Bump rubocop to 0.71
-  1a8d9a0d5d --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 1a8d9a0d5d) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Bump rubocop to 0.71
-  df011b0238: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk df011b0238) [x86_64-linux]
-    last_commit=[bundler/bundler] Lock rubocop-performance to 1.4.0
-  df011b0238 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk df011b0238) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Lock rubocop-performance to 1.4.0
   33fdd87227: |-
     ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 33fdd87227) [x86_64-linux]
     last_commit=[bundler/bundler] Revert "Migrate requires from exe/ to also be relative"
@@ -6033,3 +5991,21 @@ commits:
   433c9c00d9 --jit: |-
     ruby 2.7.0dev (2019-09-05T13:16:21Z trunk 433c9c00d9) +JIT [x86_64-linux]
     last_commit=Add a temporal stack dumper for debugging on trunk-mjit
+  1d5066efb0: |-
+    ruby 2.7.0dev (2019-09-05T16:57:43Z trunk 1d5066efb0) [x86_64-linux]
+    last_commit=Make m(**{}) mean call without keywords
+  1d5066efb0 --jit: |-
+    ruby 2.7.0dev (2019-09-05T16:57:43Z trunk 1d5066efb0) +JIT [x86_64-linux]
+    last_commit=Make m(**{}) mean call without keywords
+  c6464c44c0: |-
+    ruby 2.7.0dev (2019-09-05T16:57:43Z trunk c6464c44c0) [x86_64-linux]
+    last_commit=Fix code locations of array node inside hash node when multiple kw splats
+  c6464c44c0 --jit: |-
+    ruby 2.7.0dev (2019-09-05T16:57:43Z trunk c6464c44c0) +JIT [x86_64-linux]
+    last_commit=Fix code locations of array node inside hash node when multiple kw splats
+  70d3596a4a: |-
+    ruby 2.7.0dev (2019-09-05T16:58:03Z trunk 70d3596a4a) [x86_64-linux]
+    last_commit=* 2019-09-06 [ci skip]
+  70d3596a4a --jit: |-
+    ruby 2.7.0dev (2019-09-05T16:58:03Z trunk 70d3596a4a) +JIT [x86_64-linux]
+    last_commit=* 2019-09-06 [ci skip]
