@@ -6009,3 +6009,27 @@ commits:
   d9e6315177 --jit: |-
     ruby 2.7.0dev (2019-09-05T09:48:15Z trunk d9e6315177) +JIT [x86_64-linux]
     last_commit=[rubygems/rubygems] Bump rubocop to 0.74.0 and fix new offenses
+  2a166cfea2: |-
+    ruby 2.7.0dev (2019-09-05T11:00:50Z trunk 2a166cfea2) [x86_64-linux]
+    last_commit=Add `File.absolute_path?` (#2198)
+  2a166cfea2 --jit: |-
+    ruby 2.7.0dev (2019-09-05T11:00:50Z trunk 2a166cfea2) +JIT [x86_64-linux]
+    last_commit=Add `File.absolute_path?` (#2198)
+  1c4af1a77f: |-
+    ruby 2.7.0dev (2019-09-05T11:04:50Z trunk 1c4af1a77f) [x86_64-linux]
+    last_commit=Add tests for `File.absolute_path?`
+  1c4af1a77f --jit: |-
+    ruby 2.7.0dev (2019-09-05T11:04:50Z trunk 1c4af1a77f) +JIT [x86_64-linux]
+    last_commit=Add tests for `File.absolute_path?`
+  0036aa3532: |-
+    ruby 2.7.0dev (2019-09-05T13:09:15Z trunk 0036aa3532) [x86_64-linux]
+    last_commit=Add version that FreeBSD supports `CLOCK_PROCESS_CPUTIME_ID` [ci skip]
+  0036aa3532 --jit: |-
+    ruby 2.7.0dev (2019-09-05T13:09:15Z trunk 0036aa3532) +JIT [x86_64-linux]
+    last_commit=Add version that FreeBSD supports `CLOCK_PROCESS_CPUTIME_ID` [ci skip]
+  433c9c00d9: |-
+    ruby 2.7.0dev (2019-09-05T13:16:21Z trunk 433c9c00d9) [x86_64-linux]
+    last_commit=Add a temporal stack dumper for debugging on trunk-mjit
+  433c9c00d9 --jit: |-
+    ruby 2.7.0dev (2019-09-05T13:16:21Z trunk 433c9c00d9) +JIT [x86_64-linux]
+    last_commit=Add a temporal stack dumper for debugging on trunk-mjit
