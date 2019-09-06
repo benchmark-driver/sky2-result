@@ -5997,3 +5997,21 @@ commits:
   3b60e5e6bc --jit: |-
     ruby 2.7.0dev (2019-09-06T01:34:33Z trunk 3b60e5e6bc) +JIT [x86_64-linux]
     last_commit=Try shrinking tested VM stack max
+  41b7c335d3: |-
+    ruby 2.7.0dev (2019-09-06T04:04:36Z trunk 41b7c335d3) [x86_64-linux]
+    last_commit=Revert "Add a temporal stack dumper for debugging on trunk-mjit"
+  41b7c335d3 --jit: |-
+    ruby 2.7.0dev (2019-09-06T04:04:36Z trunk 41b7c335d3) +JIT [x86_64-linux]
+    last_commit=Revert "Add a temporal stack dumper for debugging on trunk-mjit"
+  d6a94cffda: |-
+    ruby 2.7.0dev (2019-09-06T06:50:58Z trunk d6a94cffda) [x86_64-linux]
+    last_commit=doxygen update [ci skip]
+  d6a94cffda --jit: |-
+    ruby 2.7.0dev (2019-09-06T06:50:58Z trunk d6a94cffda) +JIT [x86_64-linux]
+    last_commit=doxygen update [ci skip]
+  a569bc09e2: |-
+    ruby 2.7.0dev (2019-09-06T06:50:58Z trunk a569bc09e2) [x86_64-linux]
+    last_commit=add include/ruby/backward/cxxanyargs.hpp
+  a569bc09e2 --jit: |-
+    ruby 2.7.0dev (2019-09-06T06:50:58Z trunk a569bc09e2) +JIT [x86_64-linux]
+    last_commit=add include/ruby/backward/cxxanyargs.hpp
