@@ -1376,6 +1376,8 @@ results:
     22e942deb2: 3470031.33
     d013d8e02e: 3338758.134
     a1549fba83: 3437316.369
+    48e9155e65: 3463720.715
+    a810f6cbef: 3441228.408
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2751,6 +2753,8 @@ results:
     22e942deb2: 3420791.43
     d013d8e02e: 3395172.336
     a1549fba83: 2990955.041
+    48e9155e65: 3424501.132
+    a810f6cbef: 3396225.487
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4126,6 +4130,8 @@ results:
     22e942deb2: 1941987.805
     d013d8e02e: 1658628.067
     a1549fba83: 1892397.854
+    48e9155e65: 1813139.599
+    a810f6cbef: 1880369.527
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5501,6 +5507,8 @@ results:
     22e942deb2: 2786726.759
     d013d8e02e: 2807406.847
     a1549fba83: 2760422.917
+    48e9155e65: 2826869.736
+    a810f6cbef: 2849078.39
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -6876,6 +6884,8 @@ results:
     22e942deb2: 3744922.192
     d013d8e02e: 3602901.569
     a1549fba83: 3730272.741
+    48e9155e65: 3748113.146
+    a810f6cbef: 3742839.857
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -8251,6 +8261,8 @@ results:
     22e942deb2: 3680620.586
     d013d8e02e: 3678127.799
     a1549fba83: 3702767.903
+    48e9155e65: 3668127.599
+    a810f6cbef: 3669262.838
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -9626,6 +9638,8 @@ results:
     22e942deb2: 2020650.597
     d013d8e02e: 2008294.85
     a1549fba83: 1693349.885
+    48e9155e65: 1977614.435
+    a810f6cbef: 1992649.531
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -11001,3 +11015,5 @@ results:
     22e942deb2: 3004903.117
     d013d8e02e: 2902553.636
     a1549fba83: 2948225.77
+    48e9155e65: 3021942.807
+    a810f6cbef: 3033904.802

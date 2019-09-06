@@ -9,66 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  33fdd87227: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 33fdd87227) [x86_64-linux]
-    last_commit=[bundler/bundler] Revert "Migrate requires from exe/ to also be relative"
-  33fdd87227 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 33fdd87227) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Revert "Migrate requires from exe/ to also be relative"
-  '2771789302': |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 2771789302) [x86_64-linux]
-    last_commit=[bundler/bundler] Don't re-resolve locked platform specific gems
-  2771789302 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 2771789302) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Don't re-resolve locked platform specific gems
-  f2cc018adb: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk f2cc018adb) [x86_64-linux]
-    last_commit=[bundler/bundler] Reuse `execute_bundle_gem` method
-  f2cc018adb --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk f2cc018adb) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Reuse `execute_bundle_gem` method
-  86757abd25: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 86757abd25) [x86_64-linux]
-    last_commit=[bundler/bundler] Fix local variable name
-  86757abd25 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 86757abd25) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fix local variable name
-  bdcd1990ad: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk bdcd1990ad) [x86_64-linux]
-    last_commit=[bundler/bundler] Generate new gem development dependencies in Gemfile
-  bdcd1990ad --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk bdcd1990ad) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Generate new gem development dependencies in Gemfile
-  ed37de1c82: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk ed37de1c82) [x86_64-linux]
-    last_commit=[bundler/bundler] Inline `expanded_deps`
-  ed37de1c82 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk ed37de1c82) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Inline `expanded_deps`
-  e405aede09: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk e405aede09) [x86_64-linux]
-    last_commit=[bundler/bundler] Not sure how much this buys us, remove it
-  e405aede09 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk e405aede09) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Not sure how much this buys us, remove it
-  4b1395ab4a: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 4b1395ab4a) [x86_64-linux]
-    last_commit=[bundler/bundler] Clearer MissingRevision git errors
-  4b1395ab4a --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 4b1395ab4a) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Clearer MissingRevision git errors
-  e6dc7b5b5b: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk e6dc7b5b5b) [x86_64-linux]
-    last_commit=[bundler/bundler] Improve spec to be more realistic
-  e6dc7b5b5b --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk e6dc7b5b5b) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Improve spec to be more realistic
-  a375a4518f: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk a375a4518f) [x86_64-linux]
-    last_commit=[bundler/bundler] Correct default cache path
-  a375a4518f --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk a375a4518f) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Correct default cache path
   5a56f4a541: |-
     ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 5a56f4a541) [x86_64-linux]
     last_commit=[bundler/bundler] Remove unnecessary `order_matters` param
@@ -6009,3 +5949,63 @@ commits:
   70d3596a4a --jit: |-
     ruby 2.7.0dev (2019-09-05T16:58:03Z trunk 70d3596a4a) +JIT [x86_64-linux]
     last_commit=* 2019-09-06 [ci skip]
+  581fcde088: |-
+    ruby 2.7.0dev (2019-09-05T17:13:49Z trunk 581fcde088) [x86_64-linux]
+    last_commit=Directly mark node objects instead of using a mark array
+  581fcde088 --jit: |-
+    ruby 2.7.0dev (2019-09-05T17:13:49Z trunk 581fcde088) +JIT [x86_64-linux]
+    last_commit=Directly mark node objects instead of using a mark array
+  64817a7cfd: |-
+    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 64817a7cfd) [x86_64-linux]
+    last_commit=Mark some tmpbufs via node objects
+  64817a7cfd --jit: |-
+    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 64817a7cfd) +JIT [x86_64-linux]
+    last_commit=Mark some tmpbufs via node objects
+  f0fd1c0cd8: |-
+    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk f0fd1c0cd8) [x86_64-linux]
+    last_commit=Stash the imemo buf at the end of the ID list
+  f0fd1c0cd8 --jit: |-
+    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk f0fd1c0cd8) +JIT [x86_64-linux]
+    last_commit=Stash the imemo buf at the end of the ID list
+  545b6db3fb: |-
+    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 545b6db3fb) [x86_64-linux]
+    last_commit=Create two buckets for allocating NODE structs
+  545b6db3fb --jit: |-
+    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 545b6db3fb) +JIT [x86_64-linux]
+    last_commit=Create two buckets for allocating NODE structs
+  429ed8d587: |-
+    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 429ed8d587) [x86_64-linux]
+    last_commit=Don't change DSTR nodes to ARRAY nodes
+  429ed8d587 --jit: |-
+    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 429ed8d587) +JIT [x86_64-linux]
+    last_commit=Don't change DSTR nodes to ARRAY nodes
+  01aa2462b5: |-
+    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 01aa2462b5) [x86_64-linux]
+    last_commit=lazily allocate the mark array
+  01aa2462b5 --jit: |-
+    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 01aa2462b5) +JIT [x86_64-linux]
+    last_commit=lazily allocate the mark array
+  8cd845aa5b: |-
+    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 8cd845aa5b) [x86_64-linux]
+    last_commit=add debugging code to the mark function
+  8cd845aa5b --jit: |-
+    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 8cd845aa5b) +JIT [x86_64-linux]
+    last_commit=add debugging code to the mark function
+  8f096226e1: |-
+    ruby 2.7.0dev (2019-09-05T18:04:43Z trunk 8f096226e1) [x86_64-linux]
+    last_commit=Stash tmpbuffer inside internal structs
+  8f096226e1 --jit: |-
+    ruby 2.7.0dev (2019-09-05T18:04:43Z trunk 8f096226e1) +JIT [x86_64-linux]
+    last_commit=Stash tmpbuffer inside internal structs
+  f211ab2015: |-
+    ruby 2.7.0dev (2019-09-05T18:37:03Z trunk f211ab2015) [x86_64-linux]
+    last_commit=I forgot to add `break` in my case statements
+  f211ab2015 --jit: |-
+    ruby 2.7.0dev (2019-09-05T18:37:03Z trunk f211ab2015) +JIT [x86_64-linux]
+    last_commit=I forgot to add `break` in my case statements
+  '092f31e7e2': |-
+    ruby 2.7.0dev (2019-09-05T19:44:23Z trunk 092f31e7e2) [x86_64-linux]
+    last_commit=Reverting node marking until I can fix GC problem.
+  '092f31e7e2 --jit': |-
+    ruby 2.7.0dev (2019-09-05T19:44:23Z trunk 092f31e7e2) +JIT [x86_64-linux]
+    last_commit=Reverting node marking until I can fix GC problem.
