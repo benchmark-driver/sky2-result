@@ -9,72 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  a181df7542: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk a181df7542) [x86_64-linux]
-    last_commit=[bundler/bundler] No need to make `Gem.refresh` a noop
-  a181df7542 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk a181df7542) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] No need to make `Gem.refresh` a noop
-  a6ce001bab: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk a6ce001bab) [x86_64-linux]
-    last_commit=[bundler/bundler] Change the refresh spec to not use `stubs_for`
-  a6ce001bab --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk a6ce001bab) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Change the refresh spec to not use `stubs_for`
-  f5cd02f362: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk f5cd02f362) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unnecessary test filter
-  f5cd02f362 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk f5cd02f362) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unnecessary test filter
-  fc42423b8d: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk fc42423b8d) [x86_64-linux]
-    last_commit=[bundler/bundler] Correct a rubygems test filter
-  fc42423b8d --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk fc42423b8d) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Correct a rubygems test filter
-  31541d7389: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 31541d7389) [x86_64-linux]
-    last_commit=[bundler/bundler] Drop rubygems 2.5.0 and 2.5.1 support
-  31541d7389 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 31541d7389) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Drop rubygems 2.5.0 and 2.5.1 support
-  ad3cba02cf: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk ad3cba02cf) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove redundant condition
-  ad3cba02cf --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk ad3cba02cf) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove redundant condition
-  33ce42dd5d: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 33ce42dd5d) [x86_64-linux]
-    last_commit=[bundler/bundler] Fix incorrect flag usage
-  33ce42dd5d --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 33ce42dd5d) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fix incorrect flag usage
-  f73020d493: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk f73020d493) [x86_64-linux]
-    last_commit=[bundler/bundler] Always keep `bundle package --all` option
-  f73020d493 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk f73020d493) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Always keep `bundle package --all` option
-  4f5e1b6ebf: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 4f5e1b6ebf) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove `cache_command_is_package` feature flag
-  4f5e1b6ebf --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 4f5e1b6ebf) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove `cache_command_is_package` feature flag
-  a1549fba83: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk a1549fba83) [x86_64-linux]
-    last_commit=[bundler/bundler] Alias `cache` to `package` now
-  a1549fba83 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk a1549fba83) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Alias `cache` to `package` now
-  7b7caf9b55: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 7b7caf9b55) [x86_64-linux]
-    last_commit=[bundler/bundler] dsl_spec.rb - fix for Ruby core
-  7b7caf9b55 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 7b7caf9b55) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] dsl_spec.rb - fix for Ruby core
   24062bd323: |-
     ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 24062bd323) [x86_64-linux]
     last_commit=[bundler/bundler] build_metadata.rb - fix 'warning: instance variable @git_commit_sha not initialized'
@@ -6015,3 +5949,21 @@ commits:
   a569bc09e2 --jit: |-
     ruby 2.7.0dev (2019-09-06T06:50:58Z trunk a569bc09e2) +JIT [x86_64-linux]
     last_commit=add include/ruby/backward/cxxanyargs.hpp
+  53d21087da: |-
+    ruby 2.7.0dev (2019-09-06T09:20:11Z trunk 53d21087da) [x86_64-linux]
+    last_commit=save committers' weekend from CI failures
+  53d21087da --jit: |-
+    ruby 2.7.0dev (2019-09-06T09:20:11Z trunk 53d21087da) +JIT [x86_64-linux]
+    last_commit=save committers' weekend from CI failures
+  dd26c9f333: |-
+    ruby 2.7.0dev (2019-09-06T09:43:41Z trunk dd26c9f333) [x86_64-linux]
+    last_commit=Check clang++ as CXX when CXX is bare clang without suffix
+  dd26c9f333 --jit: |-
+    ruby 2.7.0dev (2019-09-06T09:43:41Z trunk dd26c9f333) +JIT [x86_64-linux]
+    last_commit=Check clang++ as CXX when CXX is bare clang without suffix
+  733aa2f8b5: |-
+    ruby 2.7.0dev (2019-09-06T09:43:41Z trunk 733aa2f8b5) [x86_64-linux]
+    last_commit=Stop setting same flags as cflags to cxxflags
+  733aa2f8b5 --jit: |-
+    ruby 2.7.0dev (2019-09-06T09:43:41Z trunk 733aa2f8b5) +JIT [x86_64-linux]
+    last_commit=Stop setting same flags as cflags to cxxflags
