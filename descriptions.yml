@@ -5973,3 +5973,21 @@ commits:
   055b441093 --jit: |-
     ruby 2.7.0dev (2019-09-06T13:15:36Z trunk 055b441093) +JIT [x86_64-linux]
     last_commit=VCS::GIT no longer accepts remote repository
+  ade1283ca2: |-
+    ruby 2.7.0dev (2019-09-06T14:35:20Z trunk ade1283ca2) [x86_64-linux]
+    last_commit=Fix a use-after-free bug by avoiding rb_str_new_frozen
+  ade1283ca2 --jit: |-
+    ruby 2.7.0dev (2019-09-06T14:35:20Z trunk ade1283ca2) +JIT [x86_64-linux]
+    last_commit=Fix a use-after-free bug by avoiding rb_str_new_frozen
+  bb53ddfe0e: |-
+    ruby 2.7.0dev (2019-09-06T15:43:38Z trunk bb53ddfe0e) [x86_64-linux]
+    last_commit=Upgrade benchmark-driver to v0.15.3
+  bb53ddfe0e --jit: |-
+    ruby 2.7.0dev (2019-09-06T15:43:38Z trunk bb53ddfe0e) +JIT [x86_64-linux]
+    last_commit=Upgrade benchmark-driver to v0.15.3
+  2d076dd5ac: |-
+    ruby 2.7.0dev (2019-09-06T15:45:44Z trunk 2d076dd5ac) [x86_64-linux]
+    last_commit=* 2019-09-07 [ci skip]
+  2d076dd5ac --jit: |-
+    ruby 2.7.0dev (2019-09-06T15:45:44Z trunk 2d076dd5ac) +JIT [x86_64-linux]
+    last_commit=* 2019-09-07 [ci skip]
