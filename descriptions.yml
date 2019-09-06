@@ -9,180 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  5a56f4a541: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 5a56f4a541) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unnecessary `order_matters` param
-  5a56f4a541 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 5a56f4a541) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unnecessary `order_matters` param
-  2ccb3db5fb: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 2ccb3db5fb) [x86_64-linux]
-    last_commit=[bundler/bundler] Add missing mock
-  2ccb3db5fb --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 2ccb3db5fb) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Add missing mock
-  d761a0f6ff: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk d761a0f6ff) [x86_64-linux]
-    last_commit=[bundler/bundler] [Package] Always resolve remotely for --all-platforms
-  d761a0f6ff --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk d761a0f6ff) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] [Package] Always resolve remotely for --all-platforms
-  215d846ea5: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 215d846ea5) [x86_64-linux]
-    last_commit=[bundler/bundler] [Package] Dont always update on --all-platforms
-  215d846ea5 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:56Z trunk 215d846ea5) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] [Package] Dont always update on --all-platforms
-  82bf064375: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 82bf064375) [x86_64-linux]
-    last_commit=[bundler/bundler] [Package] Ensure uninstallable gems are _never_ installed
-  82bf064375 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 82bf064375) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] [Package] Ensure uninstallable gems are _never_ installed
-  81a84076c2: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 81a84076c2) [x86_64-linux]
-    last_commit=[bundler/bundler] Don't persist the cache_all_platforms setting
-  81a84076c2 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 81a84076c2) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Don't persist the cache_all_platforms setting
-  2c262d137c: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 2c262d137c) [x86_64-linux]
-    last_commit=[bundler/bundler] Make spec easier to debug
-  2c262d137c --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 2c262d137c) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Make spec easier to debug
-  13e5bf3454: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 13e5bf3454) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove redundant assertion
-  13e5bf3454 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 13e5bf3454) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove redundant assertion
-  05c3b7c8a9: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 05c3b7c8a9) [x86_64-linux]
-    last_commit=[bundler/bundler] More specific assertion
-  05c3b7c8a9 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 05c3b7c8a9) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] More specific assertion
-  aae244569b: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk aae244569b) [x86_64-linux]
-    last_commit=[bundler/bundler] Reuse `gemfile` spec helper
-  aae244569b --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk aae244569b) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Reuse `gemfile` spec helper
-  2f1d52c266: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 2f1d52c266) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unused filter
-  2f1d52c266 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 2f1d52c266) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unused filter
-  8d9fc8466f: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 8d9fc8466f) [x86_64-linux]
-    last_commit=[bundler/bundler] Reuse `lockfile` spec helper
-  8d9fc8466f --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 8d9fc8466f) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Reuse `lockfile` spec helper
-  0dad89c0fe: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 0dad89c0fe) [x86_64-linux]
-    last_commit=[bundler/bundler] Fix typos
-  0dad89c0fe --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 0dad89c0fe) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fix typos
-  f8c03b24ca: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk f8c03b24ca) [x86_64-linux]
-    last_commit=[bundler/bundler] Bump rubocop to 0.72.0
-  f8c03b24ca --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk f8c03b24ca) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Bump rubocop to 0.72.0
-  b2baf6bb02: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk b2baf6bb02) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unnecessary begin-end block
-  b2baf6bb02 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk b2baf6bb02) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unnecessary begin-end block
-  cef81eb8cc: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk cef81eb8cc) [x86_64-linux]
-    last_commit=[bundler/bundler] Make some specs more explicit
-  cef81eb8cc --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk cef81eb8cc) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Make some specs more explicit
-  ead2dc0ec9: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk ead2dc0ec9) [x86_64-linux]
-    last_commit=[bundler/bundler] [GemHelpers] Remove the special code path for ruby platform being its own generic
-  ead2dc0ec9 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk ead2dc0ec9) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] [GemHelpers] Remove the special code path for ruby platform being its own generic
-  3af9d8bb67: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 3af9d8bb67) [x86_64-linux]
-    last_commit=[bundler/bundler] Extract `current_platforms`
-  3af9d8bb67 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 3af9d8bb67) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Extract `current_platforms`
-  ff908983be: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk ff908983be) [x86_64-linux]
-    last_commit=[bundler/bundler] Extract `expanded_platforms`
-  ff908983be --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk ff908983be) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Extract `expanded_platforms`
-  d8cd45cb1a: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk d8cd45cb1a) [x86_64-linux]
-    last_commit=[bundler/bundler] Refactor some specs
-  d8cd45cb1a --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk d8cd45cb1a) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Refactor some specs
-  c1ca77281d: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk c1ca77281d) [x86_64-linux]
-    last_commit=[bundler/bundler] Add all platforms to lockfile by default
-  c1ca77281d --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk c1ca77281d) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Add all platforms to lockfile by default
-  dae6d303d5: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk dae6d303d5) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove now meaningless warning
-  dae6d303d5 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk dae6d303d5) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove now meaningless warning
-  6492f23d91: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 6492f23d91) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove now meaningless setting
-  6492f23d91 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 6492f23d91) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove now meaningless setting
-  6e0dc5594c: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 6e0dc5594c) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove now unused method
-  6e0dc5594c --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 6e0dc5594c) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove now unused method
-  d0c19d1f87: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk d0c19d1f87) [x86_64-linux]
-    last_commit=[bundler/bundler] Use `tap` for `current_platforms`
-  d0c19d1f87 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk d0c19d1f87) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Use `tap` for `current_platforms`
-  6cbe818c66: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 6cbe818c66) [x86_64-linux]
-    last_commit=[bundler/bundler] This seems to pass for me
-  6cbe818c66 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 6cbe818c66) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] This seems to pass for me
-  812dfa44f0: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 812dfa44f0) [x86_64-linux]
-    last_commit=[bundler/bundler] Refactor setting the encoding in quality specs
-  812dfa44f0 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:57Z trunk 812dfa44f0) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Refactor setting the encoding in quality specs
-  56fd027aa6: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 56fd027aa6) [x86_64-linux]
-    last_commit=[bundler/bundler] Tweak some quality specs to check more files
-  56fd027aa6 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk 56fd027aa6) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Tweak some quality specs to check more files
-  f399a2b796: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk f399a2b796) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unnecessary line
-  f399a2b796 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:29:58Z trunk f399a2b796) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unnecessary line
   a181df7542: |-
     ruby 2.7.0dev (2019-08-03T00:29:58Z trunk a181df7542) [x86_64-linux]
     last_commit=[bundler/bundler] No need to make `Gem.refresh` a noop
@@ -6015,3 +5841,159 @@ commits:
   3754e15530 --jit: |-
     ruby 2.7.0dev (2019-09-06T00:02:12Z trunk 3754e15530) +JIT [x86_64-linux]
     last_commit=Warn local variables which conflict with new numbered parameters
+  ce04392d8d: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk ce04392d8d) [x86_64-linux]
+    last_commit=Propagate kw_splat information
+  ce04392d8d --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk ce04392d8d) +JIT [x86_64-linux]
+    last_commit=Propagate kw_splat information
+  fd2ef1a9bf: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk fd2ef1a9bf) [x86_64-linux]
+    last_commit=Add VM_NO_KEYWORDS
+  fd2ef1a9bf --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk fd2ef1a9bf) +JIT [x86_64-linux]
+    last_commit=Add VM_NO_KEYWORDS
+  e3cb3e11af: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk e3cb3e11af) [x86_64-linux]
+    last_commit=Set VM_FRAME_FLAG_CFRAME_KW if kw_splat set in vm_yield_with_cfunc
+  e3cb3e11af --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk e3cb3e11af) +JIT [x86_64-linux]
+    last_commit=Set VM_FRAME_FLAG_CFRAME_KW if kw_splat set in vm_yield_with_cfunc
+  6f9b86616a: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 6f9b86616a) [x86_64-linux]
+    last_commit=Make Symbol#to_proc calls handle keyword arguments
+  6f9b86616a --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 6f9b86616a) +JIT [x86_64-linux]
+    last_commit=Make Symbol#to_proc calls handle keyword arguments
+  1fffd33189: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 1fffd33189) [x86_64-linux]
+    last_commit=Fix passing keywords without splats to sym procs, define_method, and method_missing
+  1fffd33189 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 1fffd33189) +JIT [x86_64-linux]
+    last_commit=Fix passing keywords without splats to sym procs, define_method, and method_missing
+  030b8e5edf: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 030b8e5edf) [x86_64-linux]
+    last_commit=Set calling->kw_splat = 1 in vm_caller_setup_arg_kw
+  030b8e5edf --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 030b8e5edf) +JIT [x86_64-linux]
+    last_commit=Set calling->kw_splat = 1 in vm_caller_setup_arg_kw
+  a23ddf7ff5: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk a23ddf7ff5) [x86_64-linux]
+    last_commit=vm_argc.c (vm_caller_setup_arg_kw): "cfunc" argument is no longer used
+  a23ddf7ff5 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk a23ddf7ff5) +JIT [x86_64-linux]
+    last_commit=vm_argc.c (vm_caller_setup_arg_kw): "cfunc" argument is no longer used
+  c5555e2eb8: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk c5555e2eb8) [x86_64-linux]
+    last_commit=CALLER_SETUP_ARG removes an empty keyword hash from argv
+  c5555e2eb8 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk c5555e2eb8) +JIT [x86_64-linux]
+    last_commit=CALLER_SETUP_ARG removes an empty keyword hash from argv
+  437ff40879: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 437ff40879) [x86_64-linux]
+    last_commit=C method should accept a keyword hash (for compatibility with 2.6)
+  437ff40879 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 437ff40879) +JIT [x86_64-linux]
+    last_commit=C method should accept a keyword hash (for compatibility with 2.6)
+  0bfe3bf4d1: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 0bfe3bf4d1) [x86_64-linux]
+    last_commit=Ignore an empty keyword splat for attr_reader/writer methods
+  0bfe3bf4d1 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 0bfe3bf4d1) +JIT [x86_64-linux]
+    last_commit=Ignore an empty keyword splat for attr_reader/writer methods
+  eda8dcea16: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk eda8dcea16) [x86_64-linux]
+    last_commit=Add a comment that some ci->flag is inconsistent after CALLER_SETUP_ARG
+  eda8dcea16 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk eda8dcea16) +JIT [x86_64-linux]
+    last_commit=Add a comment that some ci->flag is inconsistent after CALLER_SETUP_ARG
+  acee630241: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk acee630241) [x86_64-linux]
+    last_commit=vm_insnhelper.c: Do not read `ci->flag` after CALLER_SETUP_ARG
+  acee630241 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk acee630241) +JIT [x86_64-linux]
+    last_commit=vm_insnhelper.c: Do not read `ci->flag` after CALLER_SETUP_ARG
+  4615886c76: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 4615886c76) [x86_64-linux]
+    last_commit=test_method_missing_kwsplat should call the target directly
+  4615886c76 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 4615886c76) +JIT [x86_64-linux]
+    last_commit=test_method_missing_kwsplat should call the target directly
+  252e299009: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 252e299009) [x86_64-linux]
+    last_commit=vm_call_opt_send should not drop the empty keyword hash
+  252e299009 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 252e299009) +JIT [x86_64-linux]
+    last_commit=vm_call_opt_send should not drop the empty keyword hash
+  70f2780892: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 70f2780892) [x86_64-linux]
+    last_commit=vm_call_bmethod should not drop the empty keyword hash
+  70f2780892 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 70f2780892) +JIT [x86_64-linux]
+    last_commit=vm_call_bmethod should not drop the empty keyword hash
+  dd83f7bf98: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk dd83f7bf98) [x86_64-linux]
+    last_commit=define_method should not drop the empty keyword hash
+  dd83f7bf98 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk dd83f7bf98) +JIT [x86_64-linux]
+    last_commit=define_method should not drop the empty keyword hash
+  55b96c5d2d: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 55b96c5d2d) [x86_64-linux]
+    last_commit=Add a keyword-to-last-hash warning for some case of define_method method
+  55b96c5d2d --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 55b96c5d2d) +JIT [x86_64-linux]
+    last_commit=Add a keyword-to-last-hash warning for some case of define_method method
+  d1ef73b59c: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk d1ef73b59c) [x86_64-linux]
+    last_commit=Always remove empty keyword hashes when calling methods
+  d1ef73b59c --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk d1ef73b59c) +JIT [x86_64-linux]
+    last_commit=Always remove empty keyword hashes when calling methods
+  e7274a8ec4: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk e7274a8ec4) [x86_64-linux]
+    last_commit=Convert empty keyword hash to required positional argument and warn
+  e7274a8ec4 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk e7274a8ec4) +JIT [x86_64-linux]
+    last_commit=Convert empty keyword hash to required positional argument and warn
+  e2878a96f7: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk e2878a96f7) [x86_64-linux]
+    last_commit=Convert empty keyword hash to required positional argument and warn for lambda and bmethod
+  e2878a96f7 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk e2878a96f7) +JIT [x86_64-linux]
+    last_commit=Convert empty keyword hash to required positional argument and warn for lambda and bmethod
+  e220b467ef: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk e220b467ef) [x86_64-linux]
+    last_commit=Convert empty keyword hash to required positional argument and warn for sym procs
+  e220b467ef --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk e220b467ef) +JIT [x86_64-linux]
+    last_commit=Convert empty keyword hash to required positional argument and warn for sym procs
+  729de9ee68: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 729de9ee68) [x86_64-linux]
+    last_commit=Convert empty keyword hash to required positional argument and warn for method_missing
+  729de9ee68 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 729de9ee68) +JIT [x86_64-linux]
+    last_commit=Convert empty keyword hash to required positional argument and warn for method_missing
+  5045fe6017: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 5045fe6017) [x86_64-linux]
+    last_commit=Mark rb_warn_keyword_to_last_hash at MJIT_FUNC_EXPORTED
+  5045fe6017 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 5045fe6017) +JIT [x86_64-linux]
+    last_commit=Mark rb_warn_keyword_to_last_hash at MJIT_FUNC_EXPORTED
+  d3cf0eb214: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk d3cf0eb214) [x86_64-linux]
+    last_commit=Mark rb_warn_keyword_to_last_hash as static inline
+  d3cf0eb214 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk d3cf0eb214) +JIT [x86_64-linux]
+    last_commit=Mark rb_warn_keyword_to_last_hash as static inline
+  dd81af7b6a: |-
+    ruby 2.7.0dev (2019-09-06T00:50:59Z trunk dd81af7b6a) [x86_64-linux]
+    last_commit=* remove trailing spaces. [ci skip]
+  dd81af7b6a --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:50:59Z trunk dd81af7b6a) +JIT [x86_64-linux]
+    last_commit=* remove trailing spaces. [ci skip]
+  3b60e5e6bc: |-
+    ruby 2.7.0dev (2019-09-06T01:34:33Z trunk 3b60e5e6bc) [x86_64-linux]
+    last_commit=Try shrinking tested VM stack max
+  3b60e5e6bc --jit: |-
+    ruby 2.7.0dev (2019-09-06T01:34:33Z trunk 3b60e5e6bc) +JIT [x86_64-linux]
+    last_commit=Try shrinking tested VM stack max
