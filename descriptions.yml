@@ -6009,3 +6009,9 @@ commits:
   '092f31e7e2 --jit': |-
     ruby 2.7.0dev (2019-09-05T19:44:23Z trunk 092f31e7e2) +JIT [x86_64-linux]
     last_commit=Reverting node marking until I can fix GC problem.
+  3754e15530: |-
+    ruby 2.7.0dev (2019-09-06T00:02:12Z trunk 3754e15530) [x86_64-linux]
+    last_commit=Warn local variables which conflict with new numbered parameters
+  3754e15530 --jit: |-
+    ruby 2.7.0dev (2019-09-06T00:02:12Z trunk 3754e15530) +JIT [x86_64-linux]
+    last_commit=Warn local variables which conflict with new numbered parameters
