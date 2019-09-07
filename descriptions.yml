@@ -5967,3 +5967,27 @@ commits:
   1e008105bc --jit: |-
     ruby 2.7.0dev (2019-09-07T07:05:15Z trunk 1e008105bc) +JIT [x86_64-linux]
     last_commit=compile.c (compile_list): emit newarraykwsplat only at the last chunk
+  2f2f8107d0: |-
+    ruby 2.7.0dev (2019-09-07T07:26:38Z trunk 2f2f8107d0) [x86_64-linux]
+    last_commit=compile.c (compile_list): allow an odd-length hidden array literal
+  2f2f8107d0 --jit: |-
+    ruby 2.7.0dev (2019-09-07T07:26:38Z trunk 2f2f8107d0) +JIT [x86_64-linux]
+    last_commit=compile.c (compile_list): allow an odd-length hidden array literal
+  a2260bd636: |-
+    ruby 2.7.0dev (2019-09-07T07:45:49Z trunk a2260bd636) [x86_64-linux]
+    last_commit=compile.c: Separate compile_list to two functions for Array and Hash
+  a2260bd636 --jit: |-
+    ruby 2.7.0dev (2019-09-07T07:45:49Z trunk a2260bd636) +JIT [x86_64-linux]
+    last_commit=compile.c: Separate compile_list to two functions for Array and Hash
+  5b5c9b6101: |-
+    ruby 2.7.0dev (2019-09-07T08:26:28Z trunk 5b5c9b6101) [x86_64-linux]
+    last_commit=Removed no longer used variable
+  5b5c9b6101 --jit: |-
+    ruby 2.7.0dev (2019-09-07T08:26:28Z trunk 5b5c9b6101) +JIT [x86_64-linux]
+    last_commit=Removed no longer used variable
+  '5511213487': |-
+    ruby 2.7.0dev (2019-09-07T08:26:28Z trunk 5511213487) [x86_64-linux]
+    last_commit=Exit gently if no VCS found but --suppress_not_found is given
+  5511213487 --jit: |-
+    ruby 2.7.0dev (2019-09-07T08:26:28Z trunk 5511213487) +JIT [x86_64-linux]
+    last_commit=Exit gently if no VCS found but --suppress_not_found is given
