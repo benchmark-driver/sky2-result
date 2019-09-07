@@ -5991,3 +5991,21 @@ commits:
   2d076dd5ac --jit: |-
     ruby 2.7.0dev (2019-09-06T15:45:44Z trunk 2d076dd5ac) +JIT [x86_64-linux]
     last_commit=* 2019-09-07 [ci skip]
+  258843106f: |-
+    ruby 2.7.0dev (2019-09-06T21:20:22Z trunk 258843106f) [x86_64-linux]
+    last_commit=Fix SortedSet subclasses that override initialize
+  258843106f --jit: |-
+    ruby 2.7.0dev (2019-09-06T21:20:22Z trunk 258843106f) +JIT [x86_64-linux]
+    last_commit=Fix SortedSet subclasses that override initialize
+  9c0626fa90: |-
+    ruby 2.7.0dev (2019-09-07T00:14:33Z trunk 9c0626fa90) [x86_64-linux]
+    last_commit=Upgrade benchmark-driver to v0.15.4
+  9c0626fa90 --jit: |-
+    ruby 2.7.0dev (2019-09-07T00:14:33Z trunk 9c0626fa90) +JIT [x86_64-linux]
+    last_commit=Upgrade benchmark-driver to v0.15.4
+  3bb3fa4051: |-
+    ruby 2.7.0dev (2019-09-07T00:20:27Z trunk 3bb3fa4051) [x86_64-linux]
+    last_commit=eval.c (rb_rescue2): fix a probably wrong return
+  3bb3fa4051 --jit: |-
+    ruby 2.7.0dev (2019-09-07T00:20:27Z trunk 3bb3fa4051) +JIT [x86_64-linux]
+    last_commit=eval.c (rb_rescue2): fix a probably wrong return
