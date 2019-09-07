@@ -6009,3 +6009,93 @@ commits:
   3bb3fa4051 --jit: |-
     ruby 2.7.0dev (2019-09-07T00:20:27Z trunk 3bb3fa4051) +JIT [x86_64-linux]
     last_commit=eval.c (rb_rescue2): fix a probably wrong return
+  4068be1d9f: |-
+    ruby 2.7.0dev (2019-09-07T01:48:40Z trunk 4068be1d9f) [x86_64-linux]
+    last_commit=appveyor.yml - msys2 update code
+  4068be1d9f --jit: |-
+    ruby 2.7.0dev (2019-09-07T01:48:40Z trunk 4068be1d9f) +JIT [x86_64-linux]
+    last_commit=appveyor.yml - msys2 update code
+  799de9122e: |-
+    ruby 2.7.0dev (2019-09-07T02:38:38Z trunk 799de9122e) [x86_64-linux]
+    last_commit=Separated VCS.define_options for common VCS options
+  799de9122e --jit: |-
+    ruby 2.7.0dev (2019-09-07T02:38:38Z trunk 799de9122e) +JIT [x86_64-linux]
+    last_commit=Separated VCS.define_options for common VCS options
+  71f7b0421a: |-
+    ruby 2.7.0dev (2019-09-07T02:38:38Z trunk 71f7b0421a) [x86_64-linux]
+    last_commit=Refined file2lastrev.rb options
+  71f7b0421a --jit: |-
+    ruby 2.7.0dev (2019-09-07T02:38:38Z trunk 71f7b0421a) +JIT [x86_64-linux]
+    last_commit=Refined file2lastrev.rb options
+  3890c9eeee: |-
+    ruby 2.7.0dev (2019-09-07T02:38:38Z trunk 3890c9eeee) [x86_64-linux]
+    last_commit=Added more debug outputs from VCS::GIT
+  3890c9eeee --jit: |-
+    ruby 2.7.0dev (2019-09-07T02:38:38Z trunk 3890c9eeee) +JIT [x86_64-linux]
+    last_commit=Added more debug outputs from VCS::GIT
+  5118aa2d58: |-
+    ruby 2.7.0dev (2019-09-07T02:38:38Z trunk 5118aa2d58) [x86_64-linux]
+    last_commit=Use `git describe --contains` for tags
+  5118aa2d58 --jit: |-
+    ruby 2.7.0dev (2019-09-07T02:38:38Z trunk 5118aa2d58) +JIT [x86_64-linux]
+    last_commit=Use `git describe --contains` for tags
+  d783609ac3: |-
+    ruby 2.7.0dev (2019-09-07T02:38:39Z trunk d783609ac3) [x86_64-linux]
+    last_commit=Get rid of overwriting revision.h and creating .revision.time
+  d783609ac3 --jit: |-
+    ruby 2.7.0dev (2019-09-07T02:38:39Z trunk d783609ac3) +JIT [x86_64-linux]
+    last_commit=Get rid of overwriting revision.h and creating .revision.time
+  3fafc549ba: |-
+    ruby 2.7.0dev (2019-09-07T02:38:39Z trunk 3fafc549ba) [x86_64-linux]
+    last_commit=Fix error when checking file modified with git-svn
+  3fafc549ba --jit: |-
+    ruby 2.7.0dev (2019-09-07T02:38:39Z trunk 3fafc549ba) +JIT [x86_64-linux]
+    last_commit=Fix error when checking file modified with git-svn
+  37a2c660aa: |-
+    ruby 2.7.0dev (2019-09-07T02:41:23Z trunk 37a2c660aa) [x86_64-linux]
+    last_commit=Convert keyword argument to required positional hash argument for Class#new, Method#call, UnboundMethod#bind_call
+  37a2c660aa --jit: |-
+    ruby 2.7.0dev (2019-09-07T02:41:23Z trunk 37a2c660aa) +JIT [x86_64-linux]
+    last_commit=Convert keyword argument to required positional hash argument for Class#new, Method#call, UnboundMethod#bind_call
+  80e679ef2d: |-
+    ruby 2.7.0dev (2019-09-07T02:41:23Z trunk 80e679ef2d) [x86_64-linux]
+    last_commit=Fix keyword argument separation warnings for enumerators
+  80e679ef2d --jit: |-
+    ruby 2.7.0dev (2019-09-07T02:41:23Z trunk 80e679ef2d) +JIT [x86_64-linux]
+    last_commit=Fix keyword argument separation warnings for enumerators
+  '5603681520': |-
+    ruby 2.7.0dev (2019-09-07T02:41:23Z trunk 5603681520) [x86_64-linux]
+    last_commit=Enable keyword argument warnings when called from C
+  5603681520 --jit: |-
+    ruby 2.7.0dev (2019-09-07T02:41:23Z trunk 5603681520) +JIT [x86_64-linux]
+    last_commit=Enable keyword argument warnings when called from C
+  434582d888: |-
+    ruby 2.7.0dev (2019-09-07T02:41:23Z trunk 434582d888) [x86_64-linux]
+    last_commit=Fix Tempfile.open to correctly pass keywords to Tempfile.new
+  434582d888 --jit: |-
+    ruby 2.7.0dev (2019-09-07T02:41:23Z trunk 434582d888) +JIT [x86_64-linux]
+    last_commit=Fix Tempfile.open to correctly pass keywords to Tempfile.new
+  146677a1e7: |-
+    ruby 2.7.0dev (2019-09-07T02:41:23Z trunk 146677a1e7) [x86_64-linux]
+    last_commit=Fix keyword argument warnings in the tests from Class#new
+  146677a1e7 --jit: |-
+    ruby 2.7.0dev (2019-09-07T02:41:23Z trunk 146677a1e7) +JIT [x86_64-linux]
+    last_commit=Fix keyword argument warnings in the tests from Class#new
+  59e29389a8: |-
+    ruby 2.7.0dev (2019-09-07T02:47:45Z trunk 59e29389a8) [x86_64-linux]
+    last_commit=Fixed wrong method at 71f7b0421ac
+  59e29389a8 --jit: |-
+    ruby 2.7.0dev (2019-09-07T02:47:45Z trunk 59e29389a8) +JIT [x86_64-linux]
+    last_commit=Fixed wrong method at 71f7b0421ac
+  8b290448e3: |-
+    ruby 2.7.0dev (2019-09-07T02:56:23Z trunk 8b290448e3) [x86_64-linux]
+    last_commit=Assign to vcs in new_vcs block not to use rescue result
+  8b290448e3 --jit: |-
+    ruby 2.7.0dev (2019-09-07T02:56:23Z trunk 8b290448e3) +JIT [x86_64-linux]
+    last_commit=Assign to vcs in new_vcs block not to use rescue result
+  8bfc46a9a3: |-
+    ruby 2.7.0dev (2019-09-07T02:59:19Z trunk 8bfc46a9a3) [x86_64-linux]
+    last_commit=Fixed wrong usage of file2lastrev.rb
+  8bfc46a9a3 --jit: |-
+    ruby 2.7.0dev (2019-09-07T02:59:19Z trunk 8bfc46a9a3) +JIT [x86_64-linux]
+    last_commit=Fixed wrong usage of file2lastrev.rb
