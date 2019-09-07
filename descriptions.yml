@@ -5991,3 +5991,33 @@ commits:
   5511213487 --jit: |-
     ruby 2.7.0dev (2019-09-07T08:26:28Z trunk 5511213487) +JIT [x86_64-linux]
     last_commit=Exit gently if no VCS found but --suppress_not_found is given
+  324dd9d01f: |-
+    ruby 2.7.0dev (2019-09-07T10:53:47Z trunk 324dd9d01f) [x86_64-linux]
+    last_commit=armv7l and armv7l are the same platform, generalize to armv7
+  324dd9d01f --jit: |-
+    ruby 2.7.0dev (2019-09-07T10:53:47Z trunk 324dd9d01f) +JIT [x86_64-linux]
+    last_commit=armv7l and armv7l are the same platform, generalize to armv7
+  187328b703: |-
+    ruby 2.7.0dev (2019-09-07T11:25:12Z trunk 187328b703) [x86_64-linux]
+    last_commit=compile.c (compile_array): refactoring
+  187328b703 --jit: |-
+    ruby 2.7.0dev (2019-09-07T11:25:12Z trunk 187328b703) +JIT [x86_64-linux]
+    last_commit=compile.c (compile_array): refactoring
+  '07876bf6db': |-
+    ruby 2.7.0dev (2019-09-07T11:25:12Z trunk 07876bf6db) [x86_64-linux]
+    last_commit=compile.c (compile_hash): refactoring
+  '07876bf6db --jit': |-
+    ruby 2.7.0dev (2019-09-07T11:25:12Z trunk 07876bf6db) +JIT [x86_64-linux]
+    last_commit=compile.c (compile_hash): refactoring
+  8c908c9890: |-
+    ruby 2.7.0dev (2019-09-07T13:08:39Z trunk 8c908c9890) [x86_64-linux]
+    last_commit=compile.c (compile_array): rewrite the compilation algorithm
+  8c908c9890 --jit: |-
+    ruby 2.7.0dev (2019-09-07T13:08:39Z trunk 8c908c9890) +JIT [x86_64-linux]
+    last_commit=compile.c (compile_array): rewrite the compilation algorithm
+  a9b63db3b6: |-
+    ruby 2.7.0dev (2019-09-07T13:22:30Z trunk a9b63db3b6) [x86_64-linux]
+    last_commit=* remove trailing spaces. [ci skip]
+  a9b63db3b6 --jit: |-
+    ruby 2.7.0dev (2019-09-07T13:22:30Z trunk a9b63db3b6) +JIT [x86_64-linux]
+    last_commit=* remove trailing spaces. [ci skip]
