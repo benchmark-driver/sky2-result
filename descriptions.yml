@@ -5967,3 +5967,27 @@ commits:
   4f63634af1 --jit: |-
     ruby 2.7.0dev (2019-09-07T16:22:26Z trunk 4f63634af1) +JIT [x86_64-linux]
     last_commit=compile.c (NODE_OP_ASGN1): Remove unneeded DECL_ANCHOR
+  '3568029823': |-
+    ruby 2.7.0dev (2019-09-07T18:07:45Z trunk 3568029823) [x86_64-linux]
+    last_commit=Remove .document and .gitignore from file list of rdoc.gemspec
+  3568029823 --jit: |-
+    ruby 2.7.0dev (2019-09-07T18:07:45Z trunk 3568029823) +JIT [x86_64-linux]
+    last_commit=Remove .document and .gitignore from file list of rdoc.gemspec
+  95297a15f1: |-
+    ruby 2.7.0dev (2019-09-07T18:17:04Z trunk 95297a15f1) [x86_64-linux]
+    last_commit=compile.c (compile_hash): rewrite the compilation algorithm
+  95297a15f1 --jit: |-
+    ruby 2.7.0dev (2019-09-07T18:17:04Z trunk 95297a15f1) +JIT [x86_64-linux]
+    last_commit=compile.c (compile_hash): rewrite the compilation algorithm
+  46bfe907f1: |-
+    ruby 2.7.0dev (2019-09-07T18:17:04Z trunk 46bfe907f1) [x86_64-linux]
+    last_commit=compile.c (compile_hash): rewrite keyword splat handling
+  46bfe907f1 --jit: |-
+    ruby 2.7.0dev (2019-09-07T18:17:04Z trunk 46bfe907f1) +JIT [x86_64-linux]
+    last_commit=compile.c (compile_hash): rewrite keyword splat handling
+  e9bc8b35c6: |-
+    ruby 2.7.0dev (2019-09-07T18:26:35Z trunk e9bc8b35c6) [x86_64-linux]
+    last_commit=Behave ESC key correctly when vi command mode
+  e9bc8b35c6 --jit: |-
+    ruby 2.7.0dev (2019-09-07T18:26:35Z trunk e9bc8b35c6) +JIT [x86_64-linux]
+    last_commit=Behave ESC key correctly when vi command mode
