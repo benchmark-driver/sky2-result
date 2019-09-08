@@ -1402,6 +1402,8 @@ results:
     60a49a6ff9: 3416789.059
     76abd79629: 3445996.524
     d80f5399ad: 3480018.58
+    46df7fe91f: 3450046.917
+    16cd0de6ec: 3448464.111
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2803,6 +2805,8 @@ results:
     60a49a6ff9: 3369599.068
     76abd79629: 3399512.083
     d80f5399ad: 3450940.424
+    46df7fe91f: 3354517.884
+    16cd0de6ec: 3397159.886
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4204,6 +4208,8 @@ results:
     60a49a6ff9: 1857809.256
     76abd79629: 1568721.034
     d80f5399ad: 1908201.871
+    46df7fe91f: 1920619.759
+    16cd0de6ec: 1908180.274
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5605,6 +5611,8 @@ results:
     60a49a6ff9: 2801045.558
     76abd79629: 2498778.61
     d80f5399ad: 2825846.034
+    46df7fe91f: 2846387.68
+    16cd0de6ec: 2849737.589
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7006,6 +7014,8 @@ results:
     60a49a6ff9: 3728330.951
     76abd79629: 3689685.285
     d80f5399ad: 3758026.58
+    46df7fe91f: 3736705.592
+    16cd0de6ec: 3738821.225
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -8407,6 +8417,8 @@ results:
     60a49a6ff9: 3589255.047
     76abd79629: 3238284.011
     d80f5399ad: 3741345.052
+    46df7fe91f: 3681035.126
+    16cd0de6ec: 3669258.151
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -9808,6 +9820,8 @@ results:
     60a49a6ff9: 1581675.308
     76abd79629: 1953537.271
     d80f5399ad: 1831593.347
+    46df7fe91f: 1968130.291
+    16cd0de6ec: 2025688.597
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -11209,3 +11223,5 @@ results:
     60a49a6ff9: 3001839.581
     76abd79629: 2929135.092
     d80f5399ad: 3010541.017
+    46df7fe91f: 2940638.052
+    16cd0de6ec: 3041404.022
