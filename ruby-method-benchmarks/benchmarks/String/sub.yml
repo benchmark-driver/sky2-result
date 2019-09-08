@@ -1408,6 +1408,8 @@ results:
     2b3d84d584: 3438082.176
     1bec27f05b: 3456562.399
     95f9d7c76d: 3466244.926
+    b578c63f83: 3432019.123
+    d646a292cd: 2960743.103
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2815,6 +2817,8 @@ results:
     2b3d84d584: 3418928.931
     1bec27f05b: 3412257.423
     95f9d7c76d: 3419190.468
+    b578c63f83: 3396916.623
+    d646a292cd: 3399470.565
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4222,6 +4226,8 @@ results:
     2b3d84d584: 1848983.104
     1bec27f05b: 1879326.466
     95f9d7c76d: 1883736.05
+    b578c63f83: 1891373.53
+    d646a292cd: 1894022.086
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5629,6 +5635,8 @@ results:
     2b3d84d584: 2785571.766
     1bec27f05b: 2827231.161
     95f9d7c76d: 2902936.527
+    b578c63f83: 2817054.833
+    d646a292cd: 2719512.849
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7036,6 +7044,8 @@ results:
     2b3d84d584: 3716649.043
     1bec27f05b: 3737826.112
     95f9d7c76d: 3751072.534
+    b578c63f83: 3737373.447
+    d646a292cd: 3706954.621
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -8443,6 +8453,8 @@ results:
     2b3d84d584: 3677731.729
     1bec27f05b: 3690547.6
     95f9d7c76d: 3614220.481
+    b578c63f83: 3295931.783
+    d646a292cd: 3714479.318
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -9850,6 +9862,8 @@ results:
     2b3d84d584: 1988560.218
     1bec27f05b: 1977175.412
     95f9d7c76d: 1951820.498
+    b578c63f83: 1582675.149
+    d646a292cd: 2009459.46
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -11257,3 +11271,5 @@ results:
     2b3d84d584: 3025552.658
     1bec27f05b: 3024987.568
     95f9d7c76d: 3093115.808
+    b578c63f83: 2847704.503
+    d646a292cd: 2561036.123
