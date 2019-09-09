@@ -9,66 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  7ed1fc527e: |-
-    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 7ed1fc527e) [x86_64-linux]
-    last_commit=[bundler/bundler] Bump rubocop to 0.74.0
-  7ed1fc527e --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 7ed1fc527e) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Bump rubocop to 0.74.0
-  01d141938c: |-
-    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 01d141938c) [x86_64-linux]
-    last_commit=Fixed the broken example with ruby core structure.
-  01d141938c --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 01d141938c) +JIT [x86_64-linux]
-    last_commit=Fixed the broken example with ruby core structure.
-  4c72ca195d: |-
-    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 4c72ca195d) [x86_64-linux]
-    last_commit=Fixed up 365ee22d73ec73c119a842de271504e04bed6f45
-  4c72ca195d --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 4c72ca195d) +JIT [x86_64-linux]
-    last_commit=Fixed up 365ee22d73ec73c119a842de271504e04bed6f45
-  220f6aa01c: |-
-    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 220f6aa01c) [x86_64-linux]
-    last_commit=Explicitly ignored GEMRC environmental variable.
-  220f6aa01c --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:30:00Z trunk 220f6aa01c) +JIT [x86_64-linux]
-    last_commit=Explicitly ignored GEMRC environmental variable.
-  aad7443e16: |-
-    ruby 2.7.0dev (2019-08-03T00:32:38Z trunk aad7443e16) [x86_64-linux]
-    last_commit=[bundler/bundler] Point to CoC which contains the contributor covenant
-  aad7443e16 --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:32:38Z trunk aad7443e16) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Point to CoC which contains the contributor covenant
-  b3b2b55f7b: |-
-    ruby 2.7.0dev (2019-08-03T00:40:11Z trunk b3b2b55f7b) [x86_64-linux]
-    last_commit=[bundler/bundler] The keys for RbConfig::CONFIG was String.
-  b3b2b55f7b --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:40:11Z trunk b3b2b55f7b) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] The keys for RbConfig::CONFIG was String.
-  0bd1cd677f: |-
-    ruby 2.7.0dev (2019-08-03T00:41:17Z trunk 0bd1cd677f) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove Bundler.rubygems.config_map because it was deprecated.
-  0bd1cd677f --jit: |-
-    ruby 2.7.0dev (2019-08-03T00:41:17Z trunk 0bd1cd677f) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove Bundler.rubygems.config_map because it was deprecated.
-  4ea5c5610a: |-
-    ruby 2.7.0dev (2019-08-03T01:18:39Z trunk 4ea5c5610a) [x86_64-linux]
-    last_commit=Predefine some IDs
-  4ea5c5610a --jit: |-
-    ruby 2.7.0dev (2019-08-03T01:18:39Z trunk 4ea5c5610a) +JIT [x86_64-linux]
-    last_commit=Predefine some IDs
-  fb96bea7ed: |-
-    ruby 2.7.0dev (2019-08-03T01:25:20Z trunk fb96bea7ed) [x86_64-linux]
-    last_commit=* expand tabs.
-  fb96bea7ed --jit: |-
-    ruby 2.7.0dev (2019-08-03T01:25:20Z trunk fb96bea7ed) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  688a59f8ac: |-
-    ruby 2.7.0dev (2019-08-03T02:32:37Z trunk 688a59f8ac) [x86_64-linux]
-    last_commit=Show the location of `eval` which uses `__FILE__`/`__LINE__`
-  688a59f8ac --jit: |-
-    ruby 2.7.0dev (2019-08-03T02:32:37Z trunk 688a59f8ac) +JIT [x86_64-linux]
-    last_commit=Show the location of `eval` which uses `__FILE__`/`__LINE__`
   '5931857281': |-
     ruby 2.7.0dev (2019-08-03T04:48:29Z trunk 5931857281) [x86_64-linux]
     last_commit=Fix dangling path name from fstring
@@ -6021,3 +5961,9 @@ commits:
   d636feb6a6 --jit: |-
     ruby 2.7.0dev (2019-09-08T15:27:05Z trunk d636feb6a6) +JIT [x86_64-linux]
     last_commit=* 2019-09-09 [ci skip]
+  fa79219356: |-
+    ruby 2.7.0dev (2019-09-08T17:34:34Z trunk fa79219356) [x86_64-linux]
+    last_commit=Add keyword argument separation tests for implicit/explicit super calls
+  fa79219356 --jit: |-
+    ruby 2.7.0dev (2019-09-08T17:34:34Z trunk fa79219356) +JIT [x86_64-linux]
+    last_commit=Add keyword argument separation tests for implicit/explicit super calls
