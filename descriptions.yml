@@ -6003,3 +6003,51 @@ commits:
   551edf64bc --jit: |-
     ruby 2.7.0dev (2019-09-09T10:16:01Z trunk 551edf64bc) +JIT [x86_64-linux]
     last_commit=Reline: Fix wrong variable name
+  '0691a748b6': |-
+    ruby 2.7.0dev (2019-09-09T11:06:00Z trunk 0691a748b6) [x86_64-linux]
+    last_commit=Fix a typo [ci skip]
+  '0691a748b6 --jit': |-
+    ruby 2.7.0dev (2019-09-09T11:06:00Z trunk 0691a748b6) +JIT [x86_64-linux]
+    last_commit=Fix a typo [ci skip]
+  cce6cfbe48: |-
+    ruby 2.7.0dev (2019-09-09T11:24:03Z trunk cce6cfbe48) [x86_64-linux]
+    last_commit=Make test-all and test-spec runnable on Android
+  cce6cfbe48 --jit: |-
+    ruby 2.7.0dev (2019-09-09T11:24:03Z trunk cce6cfbe48) +JIT [x86_64-linux]
+    last_commit=Make test-all and test-spec runnable on Android
+  c4efbf663e: |-
+    ruby 2.7.0dev (2019-09-09T11:34:51Z trunk c4efbf663e) [x86_64-linux]
+    last_commit=Revert "Support timeout for Addrinfo"
+  c4efbf663e --jit: |-
+    ruby 2.7.0dev (2019-09-09T11:34:51Z trunk c4efbf663e) +JIT [x86_64-linux]
+    last_commit=Revert "Support timeout for Addrinfo"
+  92a8726994: |-
+    ruby 2.7.0dev (2019-09-09T12:27:40Z trunk 92a8726994) [x86_64-linux]
+    last_commit=Revert "save committers' weekend from CI failures"
+  92a8726994 --jit: |-
+    ruby 2.7.0dev (2019-09-09T12:27:40Z trunk 92a8726994) +JIT [x86_64-linux]
+    last_commit=Revert "save committers' weekend from CI failures"
+  1364217bcd: |-
+    ruby 2.7.0dev (2019-09-09T12:27:40Z trunk 1364217bcd) [x86_64-linux]
+    last_commit=add missing dependency for .travis.yml
+  1364217bcd --jit: |-
+    ruby 2.7.0dev (2019-09-09T12:27:40Z trunk 1364217bcd) +JIT [x86_64-linux]
+    last_commit=add missing dependency for .travis.yml
+  042c436cd9: |-
+    ruby 2.7.0dev (2019-09-09T12:27:40Z trunk 042c436cd9) [x86_64-linux]
+    last_commit=static member variables must explictly be initialized
+  042c436cd9 --jit: |-
+    ruby 2.7.0dev (2019-09-09T12:27:40Z trunk 042c436cd9) +JIT [x86_64-linux]
+    last_commit=static member variables must explictly be initialized
+  150f514e19: |-
+    ruby 2.7.0dev (2019-09-09T12:27:40Z trunk 150f514e19) [x86_64-linux]
+    last_commit=workaround for C++ 98 const union problem.
+  150f514e19 --jit: |-
+    ruby 2.7.0dev (2019-09-09T12:27:40Z trunk 150f514e19) +JIT [x86_64-linux]
+    last_commit=workaround for C++ 98 const union problem.
+  89c5d5a64e: |-
+    ruby 2.7.0dev (2019-09-09T12:27:40Z trunk 89c5d5a64e) [x86_64-linux]
+    last_commit=add minimaist C++ check
+  89c5d5a64e --jit: |-
+    ruby 2.7.0dev (2019-09-09T12:27:40Z trunk 89c5d5a64e) +JIT [x86_64-linux]
+    last_commit=add minimaist C++ check
