@@ -9,114 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  '5931857281': |-
-    ruby 2.7.0dev (2019-08-03T04:48:29Z trunk 5931857281) [x86_64-linux]
-    last_commit=Fix dangling path name from fstring
-  5931857281 --jit: |-
-    ruby 2.7.0dev (2019-08-03T04:48:29Z trunk 5931857281) +JIT [x86_64-linux]
-    last_commit=Fix dangling path name from fstring
-  cee394eb22: |-
-    ruby 2.7.0dev (2019-08-03T04:51:23Z trunk cee394eb22) [x86_64-linux]
-    last_commit=* expand tabs.
-  cee394eb22 --jit: |-
-    ruby 2.7.0dev (2019-08-03T04:51:23Z trunk cee394eb22) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  ec0d742dd7: |-
-    ruby 2.7.0dev (2019-08-03T05:07:10Z trunk ec0d742dd7) [x86_64-linux]
-    last_commit=Suppress warnings against locations in eval
-  ec0d742dd7 --jit: |-
-    ruby 2.7.0dev (2019-08-03T05:07:10Z trunk ec0d742dd7) +JIT [x86_64-linux]
-    last_commit=Suppress warnings against locations in eval
-  4d75346187: |-
-    ruby 2.7.0dev (2019-08-03T05:20:36Z trunk 4d75346187) [x86_64-linux]
-    last_commit=Refine error message
-  4d75346187 --jit: |-
-    ruby 2.7.0dev (2019-08-03T05:20:36Z trunk 4d75346187) +JIT [x86_64-linux]
-    last_commit=Refine error message
-  6623cde731: |-
-    ruby 2.7.0dev (2019-08-03T05:56:07Z trunk 6623cde731) [x86_64-linux]
-    last_commit=Added more attributes [ci skip]
-  6623cde731 --jit: |-
-    ruby 2.7.0dev (2019-08-03T05:56:07Z trunk 6623cde731) +JIT [x86_64-linux]
-    last_commit=Added more attributes [ci skip]
-  954223ebd4: |-
-    ruby 2.7.0dev (2019-08-03T05:56:41Z trunk 954223ebd4) [x86_64-linux]
-    last_commit=[DOC] mentioned minimum versions of tools [ci skip]
-  954223ebd4 --jit: |-
-    ruby 2.7.0dev (2019-08-03T05:56:41Z trunk 954223ebd4) +JIT [x86_64-linux]
-    last_commit=[DOC] mentioned minimum versions of tools [ci skip]
-  d569d721f9: |-
-    ruby 2.7.0dev (2019-08-03T13:17:45Z trunk d569d721f9) [x86_64-linux]
-    last_commit=Move assert_ruby_status and assert_throw to CoreAssertions for default gems.
-  d569d721f9 --jit: |-
-    ruby 2.7.0dev (2019-08-03T13:17:45Z trunk d569d721f9) +JIT [x86_64-linux]
-    last_commit=Move assert_ruby_status and assert_throw to CoreAssertions for default gems.
-  6a1458caf2: |-
-    ruby 2.7.0dev (2019-08-03T22:14:17Z trunk 6a1458caf2) [x86_64-linux]
-    last_commit=[DOC] Mark up path names to show a backslash [ci skip]
-  6a1458caf2 --jit: |-
-    ruby 2.7.0dev (2019-08-03T22:14:17Z trunk 6a1458caf2) +JIT [x86_64-linux]
-    last_commit=[DOC] Mark up path names to show a backslash [ci skip]
-  9733b47eb8: |-
-    ruby 2.7.0dev (2019-08-03T22:14:30Z trunk 9733b47eb8) [x86_64-linux]
-    last_commit=[DOC] "nmake check" is preferable to "nmake exam" now [ci skip]
-  9733b47eb8 --jit: |-
-    ruby 2.7.0dev (2019-08-03T22:14:30Z trunk 9733b47eb8) +JIT [x86_64-linux]
-    last_commit=[DOC] "nmake check" is preferable to "nmake exam" now [ci skip]
-  586e23c97d: |-
-    ruby 2.7.0dev (2019-08-03T22:15:25Z trunk 586e23c97d) [x86_64-linux]
-    last_commit=* 2019-08-04
-  586e23c97d --jit: |-
-    ruby 2.7.0dev (2019-08-03T22:15:25Z trunk 586e23c97d) +JIT [x86_64-linux]
-    last_commit=* 2019-08-04
-  9b38c84550: |-
-    ruby 2.7.0dev (2019-08-03T23:07:06Z trunk 9b38c84550) [x86_64-linux]
-    last_commit=[DOC] updated about icons in win32/README.win32 [ci skip]
-  9b38c84550 --jit: |-
-    ruby 2.7.0dev (2019-08-03T23:07:06Z trunk 9b38c84550) +JIT [x86_64-linux]
-    last_commit=[DOC] updated about icons in win32/README.win32 [ci skip]
-  7adc8c79ea: |-
-    ruby 2.7.0dev (2019-08-03T23:15:05Z trunk 7adc8c79ea) [x86_64-linux]
-    last_commit=[DOC] "nmake check" is preferable to "nmake exam" now [ci skip]
-  7adc8c79ea --jit: |-
-    ruby 2.7.0dev (2019-08-03T23:15:05Z trunk 7adc8c79ea) +JIT [x86_64-linux]
-    last_commit=[DOC] "nmake check" is preferable to "nmake exam" now [ci skip]
-  326c00b6f8: |-
-    ruby 2.7.0dev (2019-08-03T23:52:41Z trunk 326c00b6f8) [x86_64-linux]
-    last_commit=Revert "Fix dangling path name from fstring"
-  326c00b6f8 --jit: |-
-    ruby 2.7.0dev (2019-08-03T23:52:41Z trunk 326c00b6f8) +JIT [x86_64-linux]
-    last_commit=Revert "Fix dangling path name from fstring"
-  7614cc5b24: |-
-    ruby 2.7.0dev (2019-08-03T23:58:20Z trunk 7614cc5b24) [x86_64-linux]
-    last_commit=Fix release post output for tool/format-release
-  7614cc5b24 --jit: |-
-    ruby 2.7.0dev (2019-08-03T23:58:20Z trunk 7614cc5b24) +JIT [x86_64-linux]
-    last_commit=Fix release post output for tool/format-release
-  636a4fad16: |-
-    ruby 2.7.0dev (2019-08-04T00:03:05Z trunk 636a4fad16) [x86_64-linux]
-    last_commit=README: Add smart URL for joining mailing list
-  636a4fad16 --jit: |-
-    ruby 2.7.0dev (2019-08-04T00:03:05Z trunk 636a4fad16) +JIT [x86_64-linux]
-    last_commit=README: Add smart URL for joining mailing list
-  '9311656914': |-
-    ruby 2.7.0dev (2019-08-04T00:03:46Z trunk 9311656914) [x86_64-linux]
-    last_commit=Better wording for __ENCODING__
-  9311656914 --jit: |-
-    ruby 2.7.0dev (2019-08-04T00:03:46Z trunk 9311656914) +JIT [x86_64-linux]
-    last_commit=Better wording for __ENCODING__
-  8e7df4bbf9: |-
-    ruby 2.7.0dev (2019-08-04T00:18:48Z trunk 8e7df4bbf9) [x86_64-linux]
-    last_commit=Use the word heredocs in Here Documents docs
-  8e7df4bbf9 --jit: |-
-    ruby 2.7.0dev (2019-08-04T00:18:48Z trunk 8e7df4bbf9) +JIT [x86_64-linux]
-    last_commit=Use the word heredocs in Here Documents docs
-  4173258fd0: |-
-    ruby 2.7.0dev (2019-08-04T00:19:30Z trunk 4173258fd0) [x86_64-linux]
-    last_commit=change call CGI methods from :: to .
-  4173258fd0 --jit: |-
-    ruby 2.7.0dev (2019-08-04T00:19:30Z trunk 4173258fd0) +JIT [x86_64-linux]
-    last_commit=change call CGI methods from :: to .
   84829392f5: |-
     ruby 2.7.0dev (2019-08-04T00:20:29Z trunk 84829392f5) [x86_64-linux]
     last_commit=[Doc] Fix Array#difference call-seq
@@ -6051,3 +5943,27 @@ commits:
   89c5d5a64e --jit: |-
     ruby 2.7.0dev (2019-09-09T12:27:40Z trunk 89c5d5a64e) +JIT [x86_64-linux]
     last_commit=add minimaist C++ check
+  805b0a4811: |-
+    ruby 2.7.0dev (2019-09-09T15:56:31Z trunk 805b0a4811) [x86_64-linux]
+    last_commit=Use IO#getch to read one char in raw mode
+  805b0a4811 --jit: |-
+    ruby 2.7.0dev (2019-09-09T15:56:31Z trunk 805b0a4811) +JIT [x86_64-linux]
+    last_commit=Use IO#getch to read one char in raw mode
+  685f12bbca: |-
+    ruby 2.7.0dev (2019-09-09T15:56:31Z trunk 685f12bbca) [x86_64-linux]
+    last_commit=Use IO#getbyte
+  685f12bbca --jit: |-
+    ruby 2.7.0dev (2019-09-09T15:56:31Z trunk 685f12bbca) +JIT [x86_64-linux]
+    last_commit=Use IO#getbyte
+  6d9e54816f: |-
+    ruby 2.7.0dev (2019-09-09T15:56:31Z trunk 6d9e54816f) [x86_64-linux]
+    last_commit=Support multibyte input
+  6d9e54816f --jit: |-
+    ruby 2.7.0dev (2019-09-09T15:56:31Z trunk 6d9e54816f) +JIT [x86_64-linux]
+    last_commit=Support multibyte input
+  9b53a69d57: |-
+    ruby 2.7.0dev (2019-09-09T15:57:34Z trunk 9b53a69d57) [x86_64-linux]
+    last_commit=* 2019-09-10 [ci skip]
+  9b53a69d57 --jit: |-
+    ruby 2.7.0dev (2019-09-09T15:57:34Z trunk 9b53a69d57) +JIT [x86_64-linux]
+    last_commit=* 2019-09-10 [ci skip]
