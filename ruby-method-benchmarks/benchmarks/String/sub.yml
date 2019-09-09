@@ -1419,6 +1419,8 @@ results:
     834e771860: 3420491.146
     cecae8593a: 3435551.673
     3ef76ce44a: 3454646.42
+    5998012a0c: 2945236.549
+    6a0d2bc2af: 3485219.238
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2837,6 +2839,8 @@ results:
     834e771860: 3422960.199
     cecae8593a: 3426967.224
     3ef76ce44a: 3343027.207
+    5998012a0c: 3417240.749
+    6a0d2bc2af: 3371575.261
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4255,6 +4259,8 @@ results:
     834e771860: 1851752.034
     cecae8593a: 1895907.091
     3ef76ce44a: 1874530.04
+    5998012a0c: 1898805.75
+    6a0d2bc2af: 1915909.725
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5673,6 +5679,8 @@ results:
     834e771860: 2811335.187
     cecae8593a: 2844209.814
     3ef76ce44a: 2917678.683
+    5998012a0c: 2648041.668
+    6a0d2bc2af: 2740658.688
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7091,6 +7099,8 @@ results:
     834e771860: 3706672.682
     cecae8593a: 3741314.028
     3ef76ce44a: 3747975.476
+    5998012a0c: 3734890.383
+    6a0d2bc2af: 3686983.401
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -8509,6 +8519,8 @@ results:
     834e771860: 3678118.213
     cecae8593a: 3732220.561
     3ef76ce44a: 3669938.57
+    5998012a0c: 3102056.396
+    6a0d2bc2af: 3747896.11
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -9927,6 +9939,8 @@ results:
     834e771860: 1987811.23
     cecae8593a: 1941227.613
     3ef76ce44a: 1977806.323
+    5998012a0c: 2008537.993
+    6a0d2bc2af: 1931469.697
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -11345,3 +11359,5 @@ results:
     834e771860: 2984032.428
     cecae8593a: 3023048.59
     3ef76ce44a: 3112432.984
+    5998012a0c: 2992254.764
+    6a0d2bc2af: 2970661.72
