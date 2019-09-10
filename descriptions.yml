@@ -5967,3 +5967,75 @@ commits:
   9b53a69d57 --jit: |-
     ruby 2.7.0dev (2019-09-09T15:57:34Z trunk 9b53a69d57) +JIT [x86_64-linux]
     last_commit=* 2019-09-10 [ci skip]
+  4524780d17: |-
+    ruby 2.7.0dev (2019-09-09T21:26:51Z trunk 4524780d17) [x86_64-linux]
+    last_commit=Revert "Reverting node marking until I can fix GC problem."
+  4524780d17 --jit: |-
+    ruby 2.7.0dev (2019-09-09T21:26:51Z trunk 4524780d17) +JIT [x86_64-linux]
+    last_commit=Revert "Reverting node marking until I can fix GC problem."
+  d8a4af47a5: |-
+    ruby 2.7.0dev (2019-09-09T21:26:57Z trunk d8a4af47a5) [x86_64-linux]
+    last_commit=Only use `add_mark_object` in Ripper
+  d8a4af47a5 --jit: |-
+    ruby 2.7.0dev (2019-09-09T21:26:57Z trunk d8a4af47a5) +JIT [x86_64-linux]
+    last_commit=Only use `add_mark_object` in Ripper
+  00744a03d5: |-
+    ruby 2.7.0dev (2019-09-09T22:23:26Z trunk 00744a03d5) [x86_64-linux]
+    last_commit=Update documentation for Exception [ci skip]
+  00744a03d5 --jit: |-
+    ruby 2.7.0dev (2019-09-09T22:23:26Z trunk 00744a03d5) +JIT [x86_64-linux]
+    last_commit=Update documentation for Exception [ci skip]
+  f4aa06c0ff: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk f4aa06c0ff) [x86_64-linux]
+    last_commit=[ruby/io-console] Drop fat gem support
+  f4aa06c0ff --jit: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk f4aa06c0ff) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Drop fat gem support
+  803dc9e1e4: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 803dc9e1e4) [x86_64-linux]
+    last_commit=[ruby/io-console] Added console_vt_response
+  803dc9e1e4 --jit: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 803dc9e1e4) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Added console_vt_response
+  53ed4fb376: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 53ed4fb376) [x86_64-linux]
+    last_commit=[ruby/io-console] Added IO#cursor for VT
+  53ed4fb376 --jit: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 53ed4fb376) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Added IO#cursor for VT
+  3d9c7c2835: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 3d9c7c2835) [x86_64-linux]
+    last_commit=[ruby/io-console] Added IO#goto and IO#cursor= for VT
+  3d9c7c2835 --jit: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 3d9c7c2835) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Added IO#goto and IO#cursor= for VT
+  e8be056af9: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk e8be056af9) [x86_64-linux]
+    last_commit=[ruby/io-console] Added relative cursor move methods
+  e8be056af9 --jit: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk e8be056af9) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Added relative cursor move methods
+  9844a349bf: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 9844a349bf) [x86_64-linux]
+    last_commit=[ruby/io-console] Added IO#goto_column
+  9844a349bf --jit: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 9844a349bf) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Added IO#goto_column
+  c1412bd6d9: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk c1412bd6d9) [x86_64-linux]
+    last_commit=[ruby/io-console] Added line/screen erase methods
+  c1412bd6d9 --jit: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk c1412bd6d9) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Added line/screen erase methods
+  74790e2dc4: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 74790e2dc4) [x86_64-linux]
+    last_commit=[ruby/io-console] Added scroll methods
+  74790e2dc4 --jit: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 74790e2dc4) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Added scroll methods
+  3678c37119: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 3678c37119) [x86_64-linux]
+    last_commit=[ruby/io-console] Added IO#check_winsize_changed on Windows
+  3678c37119 --jit: |-
+    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 3678c37119) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Added IO#check_winsize_changed on Windows

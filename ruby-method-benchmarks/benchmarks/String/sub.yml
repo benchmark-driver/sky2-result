@@ -1429,6 +1429,8 @@ results:
     5cff9968ae: 3438660.799
     3ddbba84b5: 3445031.007
     20c5154f0b: 2946794.281
+    d7aa1260b6: 3473450.39
+    e7996e0fd6: 3315390.737
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2857,6 +2859,8 @@ results:
     5cff9968ae: 3462635.527
     3ddbba84b5: 3445133.486
     20c5154f0b: 3226621.111
+    d7aa1260b6: 2902834.88
+    e7996e0fd6: 3373830.402
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4285,6 +4289,8 @@ results:
     5cff9968ae: 1697501.344
     3ddbba84b5: 1839487.379
     20c5154f0b: 1901975.075
+    d7aa1260b6: 1918801.735
+    e7996e0fd6: 1917187.396
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5713,6 +5719,8 @@ results:
     5cff9968ae: 2826271.735
     3ddbba84b5: 2820543.952
     20c5154f0b: 2824241.928
+    d7aa1260b6: 2821952.343
+    e7996e0fd6: 2840662.184
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7141,6 +7149,8 @@ results:
     5cff9968ae: 3587879.164
     3ddbba84b5: 3741263.041
     20c5154f0b: 3782309.772
+    d7aa1260b6: 3745299.883
+    e7996e0fd6: 3742073.765
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -8569,6 +8579,8 @@ results:
     5cff9968ae: 3763195.919
     3ddbba84b5: 3748136.793
     20c5154f0b: 3724118.687
+    d7aa1260b6: 3698826.598
+    e7996e0fd6: 3700391.932
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -9997,6 +10009,8 @@ results:
     5cff9968ae: 1917807.128
     3ddbba84b5: 2003495.014
     20c5154f0b: 1997889.777
+    d7aa1260b6: 2024141.558
+    e7996e0fd6: 1960904.28
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -11425,3 +11439,5 @@ results:
     5cff9968ae: 3039475.95
     3ddbba84b5: 3009569.44
     20c5154f0b: 3017350.428
+    d7aa1260b6: 3022647.56
+    e7996e0fd6: 3021230.695
