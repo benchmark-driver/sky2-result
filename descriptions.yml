@@ -5979,3 +5979,21 @@ commits:
   487d290044 --jit: |-
     ruby 2.7.0dev (2019-09-10T07:04:17Z trunk 487d290044) +JIT [x86_64-linux]
     last_commit=oops
+  ad6cbc1d33: |-
+    ruby 2.7.0dev (2019-09-10T08:20:31Z trunk ad6cbc1d33) [x86_64-linux]
+    last_commit=Unused LONG_MAX_as_double
+  ad6cbc1d33 --jit: |-
+    ruby 2.7.0dev (2019-09-10T08:20:31Z trunk ad6cbc1d33) +JIT [x86_64-linux]
+    last_commit=Unused LONG_MAX_as_double
+  b5ab918d0c: |-
+    ruby 2.7.0dev (2019-09-10T08:29:09Z trunk b5ab918d0c) [x86_64-linux]
+    last_commit=[ruby/io-console] Suppress warnings on Windows
+  b5ab918d0c --jit: |-
+    ruby 2.7.0dev (2019-09-10T08:29:09Z trunk b5ab918d0c) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Suppress warnings on Windows
+  83ef58f264: |-
+    ruby 2.7.0dev (2019-09-10T08:29:11Z trunk 83ef58f264) [x86_64-linux]
+    last_commit=[ruby/io-console] Suppress yet another warning on Windows
+  83ef58f264 --jit: |-
+    ruby 2.7.0dev (2019-09-10T08:29:11Z trunk 83ef58f264) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Suppress yet another warning on Windows
