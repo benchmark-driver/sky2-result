@@ -1427,6 +1427,8 @@ results:
     209ea85b54: 3329031.009
     789f17665e: 3443948.42
     5cff9968ae: 3438660.799
+    3ddbba84b5: 3445031.007
+    20c5154f0b: 2946794.281
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2853,6 +2855,8 @@ results:
     209ea85b54: 3436930.258
     789f17665e: 3370119.54
     5cff9968ae: 3462635.527
+    3ddbba84b5: 3445133.486
+    20c5154f0b: 3226621.111
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4279,6 +4283,8 @@ results:
     209ea85b54: 1709833.689
     789f17665e: 1827576.765
     5cff9968ae: 1697501.344
+    3ddbba84b5: 1839487.379
+    20c5154f0b: 1901975.075
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5705,6 +5711,8 @@ results:
     209ea85b54: 2791697.354
     789f17665e: 2591719.508
     5cff9968ae: 2826271.735
+    3ddbba84b5: 2820543.952
+    20c5154f0b: 2824241.928
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7131,6 +7139,8 @@ results:
     209ea85b54: 3681380.656
     789f17665e: 3594673.946
     5cff9968ae: 3587879.164
+    3ddbba84b5: 3741263.041
+    20c5154f0b: 3782309.772
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -8557,6 +8567,8 @@ results:
     209ea85b54: 3716597.365
     789f17665e: 3683400.343
     5cff9968ae: 3763195.919
+    3ddbba84b5: 3748136.793
+    20c5154f0b: 3724118.687
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -9983,6 +9995,8 @@ results:
     209ea85b54: 1964401.213
     789f17665e: 1983991.118
     5cff9968ae: 1917807.128
+    3ddbba84b5: 2003495.014
+    20c5154f0b: 1997889.777
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -11409,3 +11423,5 @@ results:
     209ea85b54: 2968041.193
     789f17665e: 2998297.683
     5cff9968ae: 3039475.95
+    3ddbba84b5: 3009569.44
+    20c5154f0b: 3017350.428
