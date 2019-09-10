@@ -9,102 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  84829392f5: |-
-    ruby 2.7.0dev (2019-08-04T00:20:29Z trunk 84829392f5) [x86_64-linux]
-    last_commit=[Doc] Fix Array#difference call-seq
-  84829392f5 --jit: |-
-    ruby 2.7.0dev (2019-08-04T00:20:29Z trunk 84829392f5) +JIT [x86_64-linux]
-    last_commit=[Doc] Fix Array#difference call-seq
-  0f601df22c: |-
-    ruby 2.7.0dev (2019-08-04T00:20:56Z trunk 0f601df22c) [x86_64-linux]
-    last_commit=[Doc] Fix Array#to_h call-seq
-  0f601df22c --jit: |-
-    ruby 2.7.0dev (2019-08-04T00:20:56Z trunk 0f601df22c) +JIT [x86_64-linux]
-    last_commit=[Doc] Fix Array#to_h call-seq
-  b6cfacc85d: |-
-    ruby 2.7.0dev (2019-08-04T00:25:32Z trunk b6cfacc85d) [x86_64-linux]
-    last_commit=Remove dependency on `openssl/conf_api.h`
-  b6cfacc85d --jit: |-
-    ruby 2.7.0dev (2019-08-04T00:25:32Z trunk b6cfacc85d) +JIT [x86_64-linux]
-    last_commit=Remove dependency on `openssl/conf_api.h`
-  2d189a6721: |-
-    ruby 2.7.0dev (2019-08-04T00:46:46Z trunk 2d189a6721) [x86_64-linux]
-    last_commit=yaml few build warning fixes
-  2d189a6721 --jit: |-
-    ruby 2.7.0dev (2019-08-04T00:46:46Z trunk 2d189a6721) +JIT [x86_64-linux]
-    last_commit=yaml few build warning fixes
-  a3188f43a8: |-
-    ruby 2.7.0dev (2019-08-04T01:08:17Z trunk a3188f43a8) [x86_64-linux]
-    last_commit=Revert "Revert "Fix dangling path name from fstring""
-  a3188f43a8 --jit: |-
-    ruby 2.7.0dev (2019-08-04T01:08:17Z trunk a3188f43a8) +JIT [x86_64-linux]
-    last_commit=Revert "Revert "Fix dangling path name from fstring""
-  7a75baa6e2: |-
-    ruby 2.7.0dev (2019-08-04T01:49:04Z trunk 7a75baa6e2) [x86_64-linux]
-    last_commit=Skip test_race_exception on MJIT for now
-  7a75baa6e2 --jit: |-
-    ruby 2.7.0dev (2019-08-04T01:49:04Z trunk 7a75baa6e2) +JIT [x86_64-linux]
-    last_commit=Skip test_race_exception on MJIT for now
-  adfc8d6dba: |-
-    ruby 2.7.0dev (2019-08-04T02:05:50Z trunk adfc8d6dba) [x86_64-linux]
-    last_commit=Defer skip to avoid errors on ensure
-  adfc8d6dba --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:05:50Z trunk adfc8d6dba) +JIT [x86_64-linux]
-    last_commit=Defer skip to avoid errors on ensure
-  f76cfb55d7: |-
-    ruby 2.7.0dev (2019-08-04T02:53:49Z trunk f76cfb55d7) [x86_64-linux]
-    last_commit=[ruby/rexml] Bump version
-  f76cfb55d7 --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:53:49Z trunk f76cfb55d7) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] Bump version
-  3583fa166c: |-
-    ruby 2.7.0dev (2019-08-04T02:54:00Z trunk 3583fa166c) [x86_64-linux]
-    last_commit=[ruby/rexml] xpath: fix a bug that no namespace attribute isn't matched with prefix
-  3583fa166c --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:54:00Z trunk 3583fa166c) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] xpath: fix a bug that no namespace attribute isn't matched with prefix
-  27c11892c8: |-
-    ruby 2.7.0dev (2019-08-04T02:54:05Z trunk 27c11892c8) [x86_64-linux]
-    last_commit=[ruby/rexml] Add a TODO for Attribute#namespace
-  27c11892c8 --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:54:05Z trunk 27c11892c8) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] Add a TODO for Attribute#namespace
-  '096e766355': |-
-    ruby 2.7.0dev (2019-08-04T02:54:11Z trunk 096e766355) [x86_64-linux]
-    last_commit=[ruby/rexml] xpath: remove needless nil check
-  '096e766355 --jit': |-
-    ruby 2.7.0dev (2019-08-04T02:54:11Z trunk 096e766355) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] xpath: remove needless nil check
-  84c3742466: |-
-    ruby 2.7.0dev (2019-08-04T02:54:16Z trunk 84c3742466) [x86_64-linux]
-    last_commit=[ruby/rexml] Revert "xpath: remove needless nil check"
-  84c3742466 --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:54:16Z trunk 84c3742466) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] Revert "xpath: remove needless nil check"
-  9b36f0a787: |-
-    ruby 2.7.0dev (2019-08-04T02:54:22Z trunk 9b36f0a787) [x86_64-linux]
-    last_commit=[ruby/rexml] Format
-  9b36f0a787 --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:54:22Z trunk 9b36f0a787) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] Format
-  0f18bc7fca: |-
-    ruby 2.7.0dev (2019-08-04T02:54:27Z trunk 0f18bc7fca) [x86_64-linux]
-    last_commit=[ruby/rexml] Fix attribute's default namespace behavior
-  0f18bc7fca --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:54:27Z trunk 0f18bc7fca) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] Fix attribute's default namespace behavior
-  81354bbd1b: |-
-    ruby 2.7.0dev (2019-08-04T02:54:38Z trunk 81354bbd1b) [x86_64-linux]
-    last_commit=[ruby/rexml] Bump version
-  81354bbd1b --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:54:38Z trunk 81354bbd1b) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] Bump version
-  982208c650: |-
-    ruby 2.7.0dev (2019-08-04T02:54:44Z trunk 982208c650) [x86_64-linux]
-    last_commit=[ruby/rexml] use #inspect to print meta-characters in error messages
-  982208c650 --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:54:44Z trunk 982208c650) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] use #inspect to print meta-characters in error messages
   ee8985ef0e: |-
     ruby 2.7.0dev (2019-08-04T02:54:50Z trunk ee8985ef0e) [x86_64-linux]
     last_commit=[ruby/rexml] Fix crash with nil XPath variables (#13)
@@ -6039,3 +5943,27 @@ commits:
   3678c37119 --jit: |-
     ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 3678c37119) +JIT [x86_64-linux]
     last_commit=[ruby/io-console] Added IO#check_winsize_changed on Windows
+  0e9d56f5e7: |-
+    ruby 2.7.0dev (2019-09-10T01:10:59Z trunk 0e9d56f5e7) [x86_64-linux]
+    last_commit=Support timeout for Addrinfo
+  0e9d56f5e7 --jit: |-
+    ruby 2.7.0dev (2019-09-10T01:10:59Z trunk 0e9d56f5e7) +JIT [x86_64-linux]
+    last_commit=Support timeout for Addrinfo
+  8d3db4f26c: |-
+    ruby 2.7.0dev (2019-09-10T01:11:52Z trunk 8d3db4f26c) [x86_64-linux]
+    last_commit=Default to cc/c++ instead of gcc/g++ on OpenBSD
+  8d3db4f26c --jit: |-
+    ruby 2.7.0dev (2019-09-10T01:11:52Z trunk 8d3db4f26c) +JIT [x86_64-linux]
+    last_commit=Default to cc/c++ instead of gcc/g++ on OpenBSD
+  20e428ec40: |-
+    ruby 2.7.0dev (2019-09-10T03:25:36Z trunk 20e428ec40) [x86_64-linux]
+    last_commit=fix CentOS 6 compile error
+  20e428ec40 --jit: |-
+    ruby 2.7.0dev (2019-09-10T03:25:36Z trunk 20e428ec40) +JIT [x86_64-linux]
+    last_commit=fix CentOS 6 compile error
+  f5024de002: |-
+    ruby 2.7.0dev (2019-09-10T03:39:49Z trunk f5024de002) [x86_64-linux]
+    last_commit=Remove check of ai.protocol
+  f5024de002 --jit: |-
+    ruby 2.7.0dev (2019-09-10T03:39:49Z trunk f5024de002) +JIT [x86_64-linux]
+    last_commit=Remove check of ai.protocol
