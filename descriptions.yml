@@ -5967,3 +5967,9 @@ commits:
   91ee9584f9 --jit: |-
     ruby 2.7.0dev (2019-09-10T21:00:48Z trunk 91ee9584f9) +JIT [x86_64-linux]
     last_commit=Macros can't be expressions, so make a function
+  489676bd20: |-
+    ruby 2.7.0dev (2019-09-11T00:35:06Z trunk 489676bd20) [x86_64-linux]
+    last_commit=Add `--no-progress` to `aws s3` [ci skip]
+  489676bd20 --jit: |-
+    ruby 2.7.0dev (2019-09-11T00:35:06Z trunk 489676bd20) +JIT [x86_64-linux]
+    last_commit=Add `--no-progress` to `aws s3` [ci skip]
