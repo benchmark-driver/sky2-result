@@ -5985,3 +5985,15 @@ commits:
   343b0a281d --jit: |-
     ruby 2.7.0dev (2019-09-11T07:27:30Z trunk 343b0a281d) +JIT [x86_64-linux]
     last_commit=Made a short-circuit expression w/o result into an `if`-statement
+  fc3bfd521d: |-
+    ruby 2.7.0dev (2019-09-11T12:36:00Z trunk fc3bfd521d) [x86_64-linux]
+    last_commit=Fixed the function signature to rb_rescue2
+  fc3bfd521d --jit: |-
+    ruby 2.7.0dev (2019-09-11T12:36:00Z trunk fc3bfd521d) +JIT [x86_64-linux]
+    last_commit=Fixed the function signature to rb_rescue2
+  fba5bbc695: |-
+    ruby 2.7.0dev (2019-09-11T14:39:36Z trunk fba5bbc695) [x86_64-linux]
+    last_commit=Moved doxygen.yml to https://github.com/ruby/actions [ci skip]
+  fba5bbc695 --jit: |-
+    ruby 2.7.0dev (2019-09-11T14:39:36Z trunk fba5bbc695) +JIT [x86_64-linux]
+    last_commit=Moved doxygen.yml to https://github.com/ruby/actions [ci skip]
