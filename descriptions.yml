@@ -9,60 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  ee8985ef0e: |-
-    ruby 2.7.0dev (2019-08-04T02:54:50Z trunk ee8985ef0e) [x86_64-linux]
-    last_commit=[ruby/rexml] Fix crash with nil XPath variables (#13)
-  ee8985ef0e --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:54:50Z trunk ee8985ef0e) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] Fix crash with nil XPath variables (#13)
-  33e4a59b4a: |-
-    ruby 2.7.0dev (2019-08-04T02:54:57Z trunk 33e4a59b4a) [x86_64-linux]
-    last_commit=[ruby/rexml] test: compare with real element
-  33e4a59b4a --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:54:57Z trunk 33e4a59b4a) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] test: compare with real element
-  f85caf40a6: |-
-    ruby 2.7.0dev (2019-08-04T02:55:03Z trunk f85caf40a6) [x86_64-linux]
-    last_commit=[ruby/rexml] Message less confusing error to human (#16)
-  f85caf40a6 --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:55:03Z trunk f85caf40a6) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] Message less confusing error to human (#16)
-  de55e0a008: |-
-    ruby 2.7.0dev (2019-08-04T02:55:14Z trunk de55e0a008) [x86_64-linux]
-    last_commit=[ruby/rexml] Bump version
-  de55e0a008 --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:55:14Z trunk de55e0a008) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] Bump version
-  54525fbfd4: |-
-    ruby 2.7.0dev (2019-08-04T02:55:20Z trunk 54525fbfd4) [x86_64-linux]
-    last_commit=[ruby/rexml] xpath: add support for changing to debug mode by environment variable
-  54525fbfd4 --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:55:20Z trunk 54525fbfd4) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] xpath: add support for changing to debug mode by environment variable
-  c46ba8e9a3: |-
-    ruby 2.7.0dev (2019-08-04T02:55:26Z trunk c46ba8e9a3) [x86_64-linux]
-    last_commit=[ruby/rexml] Use PP
-  c46ba8e9a3 --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:55:26Z trunk c46ba8e9a3) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] Use PP
-  6ef8294397: |-
-    ruby 2.7.0dev (2019-08-04T02:55:31Z trunk 6ef8294397) [x86_64-linux]
-    last_commit=[ruby/rexml] xpath: fix a bug for equality or relational expressions
-  6ef8294397 --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:55:31Z trunk 6ef8294397) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] xpath: fix a bug for equality or relational expressions
-  5f78b138b1: |-
-    ruby 2.7.0dev (2019-08-04T02:55:37Z trunk 5f78b138b1) [x86_64-linux]
-    last_commit=[ruby/rexml] xpath boolean: implement
-  5f78b138b1 --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:55:37Z trunk 5f78b138b1) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] xpath boolean: implement
-  643344dc94: |-
-    ruby 2.7.0dev (2019-08-04T02:55:43Z trunk 643344dc94) [x86_64-linux]
-    last_commit=[ruby/rexml] xpath local_name: fix a bug that nil is returned for nonexistent case
-  643344dc94 --jit: |-
-    ruby 2.7.0dev (2019-08-04T02:55:43Z trunk 643344dc94) +JIT [x86_64-linux]
-    last_commit=[ruby/rexml] xpath local_name: fix a bug that nil is returned for nonexistent case
   39f275edf7: |-
     ruby 2.7.0dev (2019-08-04T02:55:49Z trunk 39f275edf7) [x86_64-linux]
     last_commit=[ruby/rexml] xpath number: fix a bug that false is converted to NaN
@@ -5997,3 +5943,27 @@ commits:
   83ef58f264 --jit: |-
     ruby 2.7.0dev (2019-09-10T08:29:11Z trunk 83ef58f264) +JIT [x86_64-linux]
     last_commit=[ruby/io-console] Suppress yet another warning on Windows
+  414a80d242: |-
+    ruby 2.7.0dev (2019-09-10T17:44:49Z trunk 414a80d242) [x86_64-linux]
+    last_commit=`NODE_MATCH` needs to be marked / allocated from marking bucket
+  414a80d242 --jit: |-
+    ruby 2.7.0dev (2019-09-10T17:44:49Z trunk 414a80d242) +JIT [x86_64-linux]
+    last_commit=`NODE_MATCH` needs to be marked / allocated from marking bucket
+  721cab4706: |-
+    ruby 2.7.0dev (2019-09-10T17:45:56Z trunk 721cab4706) [x86_64-linux]
+    last_commit=* 2019-09-11 [ci skip]
+  721cab4706 --jit: |-
+    ruby 2.7.0dev (2019-09-10T17:45:56Z trunk 721cab4706) +JIT [x86_64-linux]
+    last_commit=* 2019-09-11 [ci skip]
+  139510238b: |-
+    ruby 2.7.0dev (2019-09-10T19:42:35Z trunk 139510238b) [x86_64-linux]
+    last_commit=WB needs to be executed after object is reachable
+  139510238b --jit: |-
+    ruby 2.7.0dev (2019-09-10T19:42:35Z trunk 139510238b) +JIT [x86_64-linux]
+    last_commit=WB needs to be executed after object is reachable
+  91ee9584f9: |-
+    ruby 2.7.0dev (2019-09-10T21:00:48Z trunk 91ee9584f9) [x86_64-linux]
+    last_commit=Macros can't be expressions, so make a function
+  91ee9584f9 --jit: |-
+    ruby 2.7.0dev (2019-09-10T21:00:48Z trunk 91ee9584f9) +JIT [x86_64-linux]
+    last_commit=Macros can't be expressions, so make a function
