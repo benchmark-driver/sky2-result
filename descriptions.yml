@@ -5973,3 +5973,9 @@ commits:
   489676bd20 --jit: |-
     ruby 2.7.0dev (2019-09-11T00:35:06Z trunk 489676bd20) +JIT [x86_64-linux]
     last_commit=Add `--no-progress` to `aws s3` [ci skip]
+  655c65d65b: |-
+    ruby 2.7.0dev (2019-09-11T07:01:18Z trunk 655c65d65b) [x86_64-linux]
+    last_commit=&$$->nd_lit is uninitialized at this point
+  655c65d65b --jit: |-
+    ruby 2.7.0dev (2019-09-11T07:01:18Z trunk 655c65d65b) +JIT [x86_64-linux]
+    last_commit=&$$->nd_lit is uninitialized at this point
