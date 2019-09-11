@@ -1445,6 +1445,8 @@ results:
     ffdef3674a: 3414579.065
     dd16f8524c: 3479295.84
     5a8d848849: 3429249.66
+    8cb9efbbe6: 3431615.018
+    36a0c668b6: 3187239.716
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2889,6 +2891,8 @@ results:
     ffdef3674a: 3427200.738
     dd16f8524c: 3147949.687
     5a8d848849: 3438710.714
+    8cb9efbbe6: 3293752.817
+    36a0c668b6: 3368195.459
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4333,6 +4337,8 @@ results:
     ffdef3674a: 1904807.38
     dd16f8524c: 1714241.947
     5a8d848849: 1848705.346
+    8cb9efbbe6: 1928660.594
+    36a0c668b6: 1523014.6
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5777,6 +5783,8 @@ results:
     ffdef3674a: 2765630.058
     dd16f8524c: 2727773.657
     5a8d848849: 2822576.371
+    8cb9efbbe6: 2831908.029
+    36a0c668b6: 2807643.844
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7221,6 +7229,8 @@ results:
     ffdef3674a: 3736388.02
     dd16f8524c: 3769874.411
     5a8d848849: 3766127.381
+    8cb9efbbe6: 3694907.679
+    36a0c668b6: 3626457.633
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -8665,6 +8675,8 @@ results:
     ffdef3674a: 3704837.807
     dd16f8524c: 3127846.67
     5a8d848849: 3703120.94
+    8cb9efbbe6: 3087808.175
+    36a0c668b6: 3645402.839
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10109,6 +10121,8 @@ results:
     ffdef3674a: 1980092.93
     dd16f8524c: 1939379.785
     5a8d848849: 2019245.008
+    8cb9efbbe6: 2002946.261
+    36a0c668b6: 1847514.864
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -11553,3 +11567,5 @@ results:
     ffdef3674a: 2912651.174
     dd16f8524c: 2971598.6
     5a8d848849: 2605700.673
+    8cb9efbbe6: 2905210.793
+    36a0c668b6: 3010311.433
