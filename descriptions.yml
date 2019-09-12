@@ -5967,3 +5967,9 @@ commits:
   21994b7fd6 --jit: |-
     ruby 2.7.0dev (2019-09-11T21:23:11Z trunk 21994b7fd6) +JIT [x86_64-linux]
     last_commit=Avoid rehashing keys in transform_values
+  515b1989b1: |-
+    ruby 2.7.0dev (2019-09-11T21:58:51Z trunk 515b1989b1) [x86_64-linux]
+    last_commit=Make NODE_ARYPTN layout consistent between Ripper and AST
+  515b1989b1 --jit: |-
+    ruby 2.7.0dev (2019-09-11T21:58:51Z trunk 515b1989b1) +JIT [x86_64-linux]
+    last_commit=Make NODE_ARYPTN layout consistent between Ripper and AST
