@@ -9,66 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  d6ac5c53d4: |-
-    ruby 2.7.0dev (2019-08-04T23:55:09Z trunk d6ac5c53d4) [x86_64-linux]
-    last_commit=Revert "Always evaluate the expression RUBY_ASSERT_MESG_WHEN just once"
-  d6ac5c53d4 --jit: |-
-    ruby 2.7.0dev (2019-08-04T23:55:09Z trunk d6ac5c53d4) +JIT [x86_64-linux]
-    last_commit=Revert "Always evaluate the expression RUBY_ASSERT_MESG_WHEN just once"
-  253da5b219: |-
-    ruby 2.7.0dev (2019-08-05T00:00:13Z trunk 253da5b219) [x86_64-linux]
-    last_commit=* 2019-08-05
-  253da5b219 --jit: |-
-    ruby 2.7.0dev (2019-08-05T00:00:13Z trunk 253da5b219) +JIT [x86_64-linux]
-    last_commit=* 2019-08-05
-  6bb3618f28: |-
-    ruby 2.7.0dev (2019-08-05T00:04:32Z trunk 6bb3618f28) [x86_64-linux]
-    last_commit=n+1 to include n in range
-  6bb3618f28 --jit: |-
-    ruby 2.7.0dev (2019-08-05T00:04:32Z trunk 6bb3618f28) +JIT [x86_64-linux]
-    last_commit=n+1 to include n in range
-  548cd6e2b5: |-
-    ruby 2.7.0dev (2019-08-05T00:16:13Z trunk 548cd6e2b5) [x86_64-linux]
-    last_commit=Drop default leaf definition and obsoleted comments
-  548cd6e2b5 --jit: |-
-    ruby 2.7.0dev (2019-08-05T00:16:13Z trunk 548cd6e2b5) +JIT [x86_64-linux]
-    last_commit=Drop default leaf definition and obsoleted comments
-  29092d35d3: |-
-    ruby 2.7.0dev (2019-08-05T01:48:49Z trunk 29092d35d3) [x86_64-linux]
-    last_commit=Moved FailDesc to EnvUtil.failure_description
-  29092d35d3 --jit: |-
-    ruby 2.7.0dev (2019-08-05T01:48:49Z trunk 29092d35d3) +JIT [x86_64-linux]
-    last_commit=Moved FailDesc to EnvUtil.failure_description
-  8cfa3d861c: |-
-    ruby 2.7.0dev (2019-08-05T01:51:52Z trunk 8cfa3d861c) [x86_64-linux]
-    last_commit=Do not expect RSTRING_PTR valid after rb_fstring
-  8cfa3d861c --jit: |-
-    ruby 2.7.0dev (2019-08-05T01:51:52Z trunk 8cfa3d861c) +JIT [x86_64-linux]
-    last_commit=Do not expect RSTRING_PTR valid after rb_fstring
-  521e25baa4: |-
-    ruby 2.7.0dev (2019-08-05T02:47:25Z trunk 521e25baa4) [x86_64-linux]
-    last_commit=Fixed assertion
-  521e25baa4 --jit: |-
-    ruby 2.7.0dev (2019-08-05T02:47:25Z trunk 521e25baa4) +JIT [x86_64-linux]
-    last_commit=Fixed assertion
-  dc0c04764f: |-
-    ruby 2.7.0dev (2019-08-05T02:55:21Z trunk dc0c04764f) [x86_64-linux]
-    last_commit=Refined assertion messages
-  dc0c04764f --jit: |-
-    ruby 2.7.0dev (2019-08-05T02:55:21Z trunk dc0c04764f) +JIT [x86_64-linux]
-    last_commit=Refined assertion messages
-  6a265278b5: |-
-    ruby 2.7.0dev (2019-08-05T03:16:03Z trunk 6a265278b5) [x86_64-linux]
-    last_commit=Check if signaled
-  6a265278b5 --jit: |-
-    ruby 2.7.0dev (2019-08-05T03:16:03Z trunk 6a265278b5) +JIT [x86_64-linux]
-    last_commit=Check if signaled
-  2403f9ac3a: |-
-    ruby 2.7.0dev (2019-08-05T03:52:14Z trunk 2403f9ac3a) [x86_64-linux]
-    last_commit=Expand the timeout of `test_pstore_files_are_accessed_as_binary_files`
-  2403f9ac3a --jit: |-
-    ruby 2.7.0dev (2019-08-05T03:52:14Z trunk 2403f9ac3a) +JIT [x86_64-linux]
-    last_commit=Expand the timeout of `test_pstore_files_are_accessed_as_binary_files`
   58a478bce4: |-
     ruby 2.7.0dev (2019-08-05T05:38:59Z trunk 58a478bce4) [x86_64-linux]
     last_commit=ext/psych/yaml/loader.c: Cast the difference of pointers to int
@@ -6021,3 +5961,9 @@ commits:
   5f5aca1b5f --jit: |-
     ruby 2.7.0dev (2019-09-13T08:20:11Z trunk 5f5aca1b5f) +JIT [x86_64-linux]
     last_commit=Moved ruby_node_name declaration to node.h
+  7e0f56fb3d: |-
+    ruby 2.7.0dev (2019-09-13T10:48:44Z trunk 7e0f56fb3d) [x86_64-linux]
+    last_commit=Name dynamically defined methods with line numbers
+  7e0f56fb3d --jit: |-
+    ruby 2.7.0dev (2019-09-13T10:48:44Z trunk 7e0f56fb3d) +JIT [x86_64-linux]
+    last_commit=Name dynamically defined methods with line numbers
