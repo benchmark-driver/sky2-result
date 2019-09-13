@@ -5967,3 +5967,33 @@ commits:
   7e0f56fb3d --jit: |-
     ruby 2.7.0dev (2019-09-13T10:48:44Z trunk 7e0f56fb3d) +JIT [x86_64-linux]
     last_commit=Name dynamically defined methods with line numbers
+  06bbacc086: |-
+    ruby 2.7.0dev (2019-09-13T15:10:34Z trunk 06bbacc086) [x86_64-linux]
+    last_commit=Revert "Support multibyte input"
+  06bbacc086 --jit: |-
+    ruby 2.7.0dev (2019-09-13T15:10:34Z trunk 06bbacc086) +JIT [x86_64-linux]
+    last_commit=Revert "Support multibyte input"
+  e8fff0ec9c: |-
+    ruby 2.7.0dev (2019-09-13T15:10:45Z trunk e8fff0ec9c) [x86_64-linux]
+    last_commit=Revert "Use IO#getbyte"
+  e8fff0ec9c --jit: |-
+    ruby 2.7.0dev (2019-09-13T15:10:45Z trunk e8fff0ec9c) +JIT [x86_64-linux]
+    last_commit=Revert "Use IO#getbyte"
+  83ef23bd75: |-
+    ruby 2.7.0dev (2019-09-13T15:11:01Z trunk 83ef23bd75) [x86_64-linux]
+    last_commit=Revert "Use IO#getch to read one char in raw mode"
+  83ef23bd75 --jit: |-
+    ruby 2.7.0dev (2019-09-13T15:11:01Z trunk 83ef23bd75) +JIT [x86_64-linux]
+    last_commit=Revert "Use IO#getch to read one char in raw mode"
+  70fe473c7d: |-
+    ruby 2.7.0dev (2019-09-13T15:12:12Z trunk 70fe473c7d) [x86_64-linux]
+    last_commit=* 2019-09-14 [ci skip]
+  70fe473c7d --jit: |-
+    ruby 2.7.0dev (2019-09-13T15:12:12Z trunk 70fe473c7d) +JIT [x86_64-linux]
+    last_commit=* 2019-09-14 [ci skip]
+  98f919ed47: |-
+    ruby 2.7.0dev (2019-09-13T15:16:31Z trunk 98f919ed47) [x86_64-linux]
+    last_commit=The stdlib readline should raise Interrupt when pressing C-c
+  98f919ed47 --jit: |-
+    ruby 2.7.0dev (2019-09-13T15:16:31Z trunk 98f919ed47) +JIT [x86_64-linux]
+    last_commit=The stdlib readline should raise Interrupt when pressing C-c
