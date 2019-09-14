@@ -1477,6 +1477,8 @@ results:
     b2c29bbab6: 3048345.975
     1fffd33189: 3387251.524
     e173012f44: 3481214.629
+    aa5fbb5a76: 3480774.564
+    f560609d66: 3446725.157
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2953,6 +2955,8 @@ results:
     b2c29bbab6: 3330100.955
     1fffd33189: 3217338.799
     e173012f44: 3299787.973
+    aa5fbb5a76: 3450078.634
+    f560609d66: 3413241.719
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4429,6 +4433,8 @@ results:
     b2c29bbab6: 1528000.485
     1fffd33189: 1876133.579
     e173012f44: 1921493.043
+    aa5fbb5a76: 1947623.422
+    f560609d66: 1885968.566
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5905,6 +5911,8 @@ results:
     b2c29bbab6: 2630495.306
     1fffd33189: 2555512.567
     e173012f44: 2818979.776
+    aa5fbb5a76: 2826669.278
+    f560609d66: 2820893.58
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7381,6 +7389,8 @@ results:
     b2c29bbab6: 3298586.293
     1fffd33189: 3690194.418
     e173012f44: 3499489.775
+    aa5fbb5a76: 3756886.081
+    f560609d66: 3718405.475
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -8857,6 +8867,8 @@ results:
     b2c29bbab6: 3650419.346
     1fffd33189: 3619603.02
     e173012f44: 3519296.027
+    aa5fbb5a76: 3398676.275
+    f560609d66: 3666555.621
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10333,6 +10345,8 @@ results:
     b2c29bbab6: 1958925.958
     1fffd33189: 1968566.583
     e173012f44: 1799528.249
+    aa5fbb5a76: 1987801.898
+    f560609d66: 2012403.464
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -11809,3 +11823,5 @@ results:
     b2c29bbab6: 3096639.474
     1fffd33189: 3075235.758
     e173012f44: 2907004.665
+    aa5fbb5a76: 2961954.176
+    f560609d66: 2635238.337
