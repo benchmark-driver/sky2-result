@@ -5997,3 +5997,9 @@ commits:
   98f919ed47 --jit: |-
     ruby 2.7.0dev (2019-09-13T15:16:31Z trunk 98f919ed47) +JIT [x86_64-linux]
     last_commit=The stdlib readline should raise Interrupt when pressing C-c
+  24b1b33975: |-
+    ruby 2.7.0dev (2019-09-13T16:53:54Z trunk 24b1b33975) [x86_64-linux]
+    last_commit=Correctly handle keywords for Method#call for cfuncs, send, and attr_*
+  24b1b33975 --jit: |-
+    ruby 2.7.0dev (2019-09-13T16:53:54Z trunk 24b1b33975) +JIT [x86_64-linux]
+    last_commit=Correctly handle keywords for Method#call for cfuncs, send, and attr_*

@@ -1472,6 +1472,8 @@ results:
     9c2e165f7d: 3461036.854
     581fcde088: 3313480.652
     2b0f3aa095: 3447613.889
+    0c1c42c43a: 3415495.614
+    bdc36094e3: 3448638.698
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2943,6 +2945,8 @@ results:
     9c2e165f7d: 3368001.088
     581fcde088: 3432669.652
     2b0f3aa095: 3283297.702
+    0c1c42c43a: 3385968.209
+    bdc36094e3: 3408495.559
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4414,6 +4418,8 @@ results:
     9c2e165f7d: 1874272.434
     581fcde088: 1891965.574
     2b0f3aa095: 1749812.519
+    0c1c42c43a: 1874516.728
+    bdc36094e3: 1939342.283
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5885,6 +5891,8 @@ results:
     9c2e165f7d: 2826620.737
     581fcde088: 2913703.733
     2b0f3aa095: 2723022.492
+    0c1c42c43a: 2807958.066
+    bdc36094e3: 2838572.906
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7356,6 +7364,8 @@ results:
     9c2e165f7d: 3653605.663
     581fcde088: 3368773.658
     2b0f3aa095: 3388045.607
+    0c1c42c43a: 3703168.13
+    bdc36094e3: 3534668.64
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -8827,6 +8837,8 @@ results:
     9c2e165f7d: 3657865.645
     581fcde088: 3275241.994
     2b0f3aa095: 3582345.734
+    0c1c42c43a: 3654807.373
+    bdc36094e3: 3686432.682
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10298,6 +10310,8 @@ results:
     9c2e165f7d: 1988982.145
     581fcde088: 2014702.766
     2b0f3aa095: 1895694.736
+    0c1c42c43a: 1993529.284
+    bdc36094e3: 1912165.724
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -11769,3 +11783,5 @@ results:
     9c2e165f7d: 2968479.252
     581fcde088: 2880179.741
     2b0f3aa095: 2950108.998
+    0c1c42c43a: 2994185.353
+    bdc36094e3: 3031774.628
