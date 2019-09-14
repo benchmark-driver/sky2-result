@@ -5967,3 +5967,15 @@ commits:
   b2c29bbab6 --jit: |-
     ruby 2.7.0dev (2019-09-13T23:54:08Z trunk b2c29bbab6) +JIT [x86_64-linux]
     last_commit=* remove trailing spaces. [ci skip]
+  b78a345bd6: |-
+    ruby 2.7.0dev (2019-09-14T08:49:33Z trunk b78a345bd6) [x86_64-linux]
+    last_commit=Only set RB_PASS_CALLED_KEYWORDS in C functions called directly from Ruby
+  b78a345bd6 --jit: |-
+    ruby 2.7.0dev (2019-09-14T08:49:33Z trunk b78a345bd6) +JIT [x86_64-linux]
+    last_commit=Only set RB_PASS_CALLED_KEYWORDS in C functions called directly from Ruby
+  39c37acf86: |-
+    ruby 2.7.0dev (2019-09-14T09:21:37Z trunk 39c37acf86) [x86_64-linux]
+    last_commit=Fix memory leak when adding empty keyword hashes
+  39c37acf86 --jit: |-
+    ruby 2.7.0dev (2019-09-14T09:21:37Z trunk 39c37acf86) +JIT [x86_64-linux]
+    last_commit=Fix memory leak when adding empty keyword hashes
