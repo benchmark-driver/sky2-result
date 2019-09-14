@@ -1474,6 +1474,8 @@ results:
     2b0f3aa095: 3447613.889
     0c1c42c43a: 3415495.614
     bdc36094e3: 3448638.698
+    b2c29bbab6: 3048345.975
+    1fffd33189: 3387251.524
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2947,6 +2949,8 @@ results:
     2b0f3aa095: 3283297.702
     0c1c42c43a: 3385968.209
     bdc36094e3: 3408495.559
+    b2c29bbab6: 3330100.955
+    1fffd33189: 3217338.799
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4420,6 +4424,8 @@ results:
     2b0f3aa095: 1749812.519
     0c1c42c43a: 1874516.728
     bdc36094e3: 1939342.283
+    b2c29bbab6: 1528000.485
+    1fffd33189: 1876133.579
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5893,6 +5899,8 @@ results:
     2b0f3aa095: 2723022.492
     0c1c42c43a: 2807958.066
     bdc36094e3: 2838572.906
+    b2c29bbab6: 2630495.306
+    1fffd33189: 2555512.567
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7366,6 +7374,8 @@ results:
     2b0f3aa095: 3388045.607
     0c1c42c43a: 3703168.13
     bdc36094e3: 3534668.64
+    b2c29bbab6: 3298586.293
+    1fffd33189: 3690194.418
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -8839,6 +8849,8 @@ results:
     2b0f3aa095: 3582345.734
     0c1c42c43a: 3654807.373
     bdc36094e3: 3686432.682
+    b2c29bbab6: 3650419.346
+    1fffd33189: 3619603.02
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10312,6 +10324,8 @@ results:
     2b0f3aa095: 1895694.736
     0c1c42c43a: 1993529.284
     bdc36094e3: 1912165.724
+    b2c29bbab6: 1958925.958
+    1fffd33189: 1968566.583
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -11785,3 +11799,5 @@ results:
     2b0f3aa095: 2950108.998
     0c1c42c43a: 2994185.353
     bdc36094e3: 3031774.628
+    b2c29bbab6: 3096639.474
+    1fffd33189: 3075235.758

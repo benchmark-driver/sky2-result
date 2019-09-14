@@ -6003,3 +6003,15 @@ commits:
   24b1b33975 --jit: |-
     ruby 2.7.0dev (2019-09-13T16:53:54Z trunk 24b1b33975) +JIT [x86_64-linux]
     last_commit=Correctly handle keywords for Method#call for cfuncs, send, and attr_*
+  3cfbfa9628: |-
+    ruby 2.7.0dev (2019-09-13T23:42:27Z trunk 3cfbfa9628) [x86_64-linux]
+    last_commit=Consolidate empty keyword handling
+  3cfbfa9628 --jit: |-
+    ruby 2.7.0dev (2019-09-13T23:42:27Z trunk 3cfbfa9628) +JIT [x86_64-linux]
+    last_commit=Consolidate empty keyword handling
+  b2c29bbab6: |-
+    ruby 2.7.0dev (2019-09-13T23:54:08Z trunk b2c29bbab6) [x86_64-linux]
+    last_commit=* remove trailing spaces. [ci skip]
+  b2c29bbab6 --jit: |-
+    ruby 2.7.0dev (2019-09-13T23:54:08Z trunk b2c29bbab6) +JIT [x86_64-linux]
+    last_commit=* remove trailing spaces. [ci skip]
