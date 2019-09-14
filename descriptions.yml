@@ -5997,3 +5997,15 @@ commits:
   8263459627 --jit: |-
     ruby 2.7.0dev (2019-09-14T12:38:41Z trunk 8263459627) +JIT [x86_64-linux]
     last_commit=Keep the reference of imemo while argv may be used
+  6d2dcf9632: |-
+    ruby 2.7.0dev (2019-09-14T14:27:53Z trunk 6d2dcf9632) [x86_64-linux]
+    last_commit=[ruby/io-console] Added `intr:` option to IO#raw
+  6d2dcf9632 --jit: |-
+    ruby 2.7.0dev (2019-09-14T14:27:53Z trunk 6d2dcf9632) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Added `intr:` option to IO#raw
+  e9c7fc7ca9: |-
+    ruby 2.7.0dev (2019-09-14T14:50:45Z trunk e9c7fc7ca9) [x86_64-linux]
+    last_commit=Continue to export even if no notes/commits
+  e9c7fc7ca9 --jit: |-
+    ruby 2.7.0dev (2019-09-14T14:50:45Z trunk e9c7fc7ca9) +JIT [x86_64-linux]
+    last_commit=Continue to export even if no notes/commits
