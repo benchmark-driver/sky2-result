@@ -5979,3 +5979,21 @@ commits:
   39c37acf86 --jit: |-
     ruby 2.7.0dev (2019-09-14T09:21:37Z trunk 39c37acf86) +JIT [x86_64-linux]
     last_commit=Fix memory leak when adding empty keyword hashes
+  9699a5c5bc: |-
+    ruby 2.7.0dev (2019-09-14T10:43:51Z trunk 9699a5c5bc) [x86_64-linux]
+    last_commit=Update news regarding `Fiber#raise`.
+  9699a5c5bc --jit: |-
+    ruby 2.7.0dev (2019-09-14T10:43:51Z trunk 9699a5c5bc) +JIT [x86_64-linux]
+    last_commit=Update news regarding `Fiber#raise`.
+  f41cd4ba43: |-
+    ruby 2.7.0dev (2019-09-14T12:09:39Z trunk f41cd4ba43) [x86_64-linux]
+    last_commit=Fixed one-off error
+  f41cd4ba43 --jit: |-
+    ruby 2.7.0dev (2019-09-14T12:09:39Z trunk f41cd4ba43) +JIT [x86_64-linux]
+    last_commit=Fixed one-off error
+  '8263459627': |-
+    ruby 2.7.0dev (2019-09-14T12:38:41Z trunk 8263459627) [x86_64-linux]
+    last_commit=Keep the reference of imemo while argv may be used
+  8263459627 --jit: |-
+    ruby 2.7.0dev (2019-09-14T12:38:41Z trunk 8263459627) +JIT [x86_64-linux]
+    last_commit=Keep the reference of imemo while argv may be used
