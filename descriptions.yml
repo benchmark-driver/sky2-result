@@ -5985,3 +5985,9 @@ commits:
   585b15d75d --jit: |-
     ruby 2.7.0dev (2019-09-15T02:22:32Z trunk 585b15d75d) +JIT [x86_64-linux]
     last_commit=make-snapshot: no merge commits in ChangeLog
+  44d594189a: |-
+    ruby 2.7.0dev (2019-09-15T04:29:12Z trunk 44d594189a) [x86_64-linux]
+    last_commit=rb_scan_args_count_lead: use arguments instead of magic numbers
+  44d594189a --jit: |-
+    ruby 2.7.0dev (2019-09-15T04:29:12Z trunk 44d594189a) +JIT [x86_64-linux]
+    last_commit=rb_scan_args_count_lead: use arguments instead of magic numbers
