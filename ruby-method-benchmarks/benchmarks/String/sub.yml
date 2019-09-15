@@ -1493,6 +1493,8 @@ results:
     981f0be6ff: 3457370.987
     f702cd6ace: 3405749.854
     6017e81b03: 3461260.626
+    ae8b977742: 3459183.606
+    e13da00824: 3465159.685
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2985,6 +2987,8 @@ results:
     981f0be6ff: 3416972.001
     f702cd6ace: 3380758.69
     6017e81b03: 3084534.723
+    ae8b977742: 3376839.418
+    e13da00824: 3424806.43
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4477,6 +4481,8 @@ results:
     981f0be6ff: 1896607.768
     f702cd6ace: 1912902.168
     6017e81b03: 1924600.645
+    ae8b977742: 1871520.833
+    e13da00824: 1874484.538
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5969,6 +5975,8 @@ results:
     981f0be6ff: 2825637.737
     f702cd6ace: 2753173.812
     6017e81b03: 2444083.671
+    ae8b977742: 2912505.501
+    e13da00824: 2797738.179
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7461,6 +7469,8 @@ results:
     981f0be6ff: 3736597.228
     f702cd6ace: 3707283.601
     6017e81b03: 3703575.974
+    ae8b977742: 3708640.708
+    e13da00824: 3750202.985
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -8953,6 +8963,8 @@ results:
     981f0be6ff: 3713791.521
     f702cd6ace: 3658098.555
     6017e81b03: 3693090.089
+    ae8b977742: 3692046.202
+    e13da00824: 3688145.151
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10445,6 +10457,8 @@ results:
     981f0be6ff: 2004757.235
     f702cd6ace: 1925657.722
     6017e81b03: 1979076.321
+    ae8b977742: 1973445.85
+    e13da00824: 1982638.21
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -11937,3 +11951,5 @@ results:
     981f0be6ff: 3011989.987
     f702cd6ace: 3007538.458
     6017e81b03: 3021723.368
+    ae8b977742: 3103575.713
+    e13da00824: 2745863.665
