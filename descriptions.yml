@@ -9,60 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  4c15b241f8: |-
-    ruby 2.7.0dev (2019-08-05T14:26:19Z trunk 4c15b241f8) [x86_64-linux]
-    last_commit=Unused macro argument `varc`
-  4c15b241f8 --jit: |-
-    ruby 2.7.0dev (2019-08-05T14:26:19Z trunk 4c15b241f8) +JIT [x86_64-linux]
-    last_commit=Unused macro argument `varc`
-  fb9dd6182a: |-
-    ruby 2.7.0dev (2019-08-05T14:26:19Z trunk fb9dd6182a) [x86_64-linux]
-    last_commit=Use negative-sized array instead of zero-division
-  fb9dd6182a --jit: |-
-    ruby 2.7.0dev (2019-08-05T14:26:19Z trunk fb9dd6182a) +JIT [x86_64-linux]
-    last_commit=Use negative-sized array instead of zero-division
-  614c90fe21: |-
-    ruby 2.7.0dev (2019-08-05T15:33:33Z trunk 614c90fe21) [x86_64-linux]
-    last_commit=Control Travis apt retries on our own
-  614c90fe21 --jit: |-
-    ruby 2.7.0dev (2019-08-05T15:33:33Z trunk 614c90fe21) +JIT [x86_64-linux]
-    last_commit=Control Travis apt retries on our own
-  48d460d9a6: |-
-    ruby 2.7.0dev (2019-08-05T15:34:06Z trunk 48d460d9a6) [x86_64-linux]
-    last_commit=* 2019-08-06
-  48d460d9a6 --jit: |-
-    ruby 2.7.0dev (2019-08-05T15:34:06Z trunk 48d460d9a6) +JIT [x86_64-linux]
-    last_commit=* 2019-08-06
-  e80f407ed4: |-
-    ruby 2.7.0dev (2019-08-05T15:48:00Z trunk e80f407ed4) [x86_64-linux]
-    last_commit=Give up stabilizing TestProcess on Travis osx
-  e80f407ed4 --jit: |-
-    ruby 2.7.0dev (2019-08-05T15:48:00Z trunk e80f407ed4) +JIT [x86_64-linux]
-    last_commit=Give up stabilizing TestProcess on Travis osx
-  255e22a827: |-
-    ruby 2.7.0dev (2019-08-05T15:50:48Z trunk 255e22a827) [x86_64-linux]
-    last_commit=Use gcc-8 for BASERUBY test
-  255e22a827 --jit: |-
-    ruby 2.7.0dev (2019-08-05T15:50:48Z trunk 255e22a827) +JIT [x86_64-linux]
-    last_commit=Use gcc-8 for BASERUBY test
-  33d7a58ffb: |-
-    ruby 2.7.0dev (2019-08-05T15:55:34Z trunk 33d7a58ffb) [x86_64-linux]
-    last_commit=add compaction support to weak maps
-  33d7a58ffb --jit: |-
-    ruby 2.7.0dev (2019-08-05T15:55:34Z trunk 33d7a58ffb) +JIT [x86_64-linux]
-    last_commit=add compaction support to weak maps
-  c9192ef2e8: |-
-    ruby 2.7.0dev (2019-08-05T15:56:05Z trunk c9192ef2e8) [x86_64-linux]
-    last_commit=* expand tabs.
-  c9192ef2e8 --jit: |-
-    ruby 2.7.0dev (2019-08-05T15:56:05Z trunk c9192ef2e8) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  81252c5ccd: |-
-    ruby 2.7.0dev (2019-08-05T20:31:58Z trunk 81252c5ccd) [x86_64-linux]
-    last_commit=Let prev EP move again
-  81252c5ccd --jit: |-
-    ruby 2.7.0dev (2019-08-05T20:31:58Z trunk 81252c5ccd) +JIT [x86_64-linux]
-    last_commit=Let prev EP move again
   2b6441196e: |-
     ruby 2.7.0dev (2019-08-05T23:10:25Z trunk 2b6441196e) [x86_64-linux]
     last_commit=Remove documentation of %m in Syslog
@@ -6009,3 +5955,15 @@ commits:
   e9c7fc7ca9 --jit: |-
     ruby 2.7.0dev (2019-09-14T14:50:45Z trunk e9c7fc7ca9) +JIT [x86_64-linux]
     last_commit=Continue to export even if no notes/commits
+  1ad4be13cb: |-
+    ruby 2.7.0dev (2019-09-14T17:07:00Z trunk 1ad4be13cb) [x86_64-linux]
+    last_commit=make-snapshot: deprecated -exported option [Bug #16167]
+  1ad4be13cb --jit: |-
+    ruby 2.7.0dev (2019-09-14T17:07:00Z trunk 1ad4be13cb) +JIT [x86_64-linux]
+    last_commit=make-snapshot: deprecated -exported option [Bug #16167]
+  395e5f510c: |-
+    ruby 2.7.0dev (2019-09-14T17:15:29Z trunk 395e5f510c) [x86_64-linux]
+    last_commit=* 2019-09-15 [ci skip]
+  395e5f510c --jit: |-
+    ruby 2.7.0dev (2019-09-14T17:15:29Z trunk 395e5f510c) +JIT [x86_64-linux]
+    last_commit=* 2019-09-15 [ci skip]
