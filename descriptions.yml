@@ -5967,3 +5967,9 @@ commits:
   395e5f510c --jit: |-
     ruby 2.7.0dev (2019-09-14T17:15:29Z trunk 395e5f510c) +JIT [x86_64-linux]
     last_commit=* 2019-09-15 [ci skip]
+  1edcfd6107: |-
+    ruby 2.7.0dev (2019-09-14T20:57:39Z trunk 1edcfd6107) [x86_64-linux]
+    last_commit=Issue a warning if invalid kw_splat is passed to *_kw function
+  1edcfd6107 --jit: |-
+    ruby 2.7.0dev (2019-09-14T20:57:39Z trunk 1edcfd6107) +JIT [x86_64-linux]
+    last_commit=Issue a warning if invalid kw_splat is passed to *_kw function
