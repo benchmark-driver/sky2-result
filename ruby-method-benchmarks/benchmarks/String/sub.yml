@@ -1489,6 +1489,8 @@ results:
     ce04392d8d: 2905331.196
     d8fa88294f: 3485714.395
     113a5c1e1d: 3474664.026
+    a1d606c079: 3452644.57
+    981f0be6ff: 3457370.987
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -2977,6 +2979,8 @@ results:
     ce04392d8d: 3173349.829
     d8fa88294f: 3478762.494
     113a5c1e1d: 3451653.917
+    a1d606c079: 3402894.393
+    981f0be6ff: 3416972.001
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4465,6 +4469,8 @@ results:
     ce04392d8d: 1857506.838
     d8fa88294f: 1906065.641
     113a5c1e1d: 1778661.581
+    a1d606c079: 1921823.007
+    981f0be6ff: 1896607.768
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -5953,6 +5959,8 @@ results:
     ce04392d8d: 2873167.362
     d8fa88294f: 2841234.658
     113a5c1e1d: 2742829.934
+    a1d606c079: 2840910.63
+    981f0be6ff: 2825637.737
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7441,6 +7449,8 @@ results:
     ce04392d8d: 3695807.422
     d8fa88294f: 3774275.019
     113a5c1e1d: 3769811.742
+    a1d606c079: 3737538.734
+    981f0be6ff: 3736597.228
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -8929,6 +8939,8 @@ results:
     ce04392d8d: 3649151.04
     d8fa88294f: 3709677.965
     113a5c1e1d: 3250484.777
+    a1d606c079: 3685614.629
+    981f0be6ff: 3713791.521
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10417,6 +10429,8 @@ results:
     ce04392d8d: 1979767.558
     d8fa88294f: 2029056.659
     113a5c1e1d: 1975468.907
+    a1d606c079: 1995196.058
+    981f0be6ff: 2004757.235
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -11905,3 +11919,5 @@ results:
     ce04392d8d: 3055298.202
     d8fa88294f: 3024522.274
     113a5c1e1d: 3002133.662
+    a1d606c079: 3020581.126
+    981f0be6ff: 3011989.987
