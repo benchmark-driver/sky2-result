@@ -9,54 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  2b6441196e: |-
-    ruby 2.7.0dev (2019-08-05T23:10:25Z trunk 2b6441196e) [x86_64-linux]
-    last_commit=Remove documentation of %m in Syslog
-  2b6441196e --jit: |-
-    ruby 2.7.0dev (2019-08-05T23:10:25Z trunk 2b6441196e) +JIT [x86_64-linux]
-    last_commit=Remove documentation of %m in Syslog
-  96cec6b277: |-
-    ruby 2.7.0dev (2019-08-05T23:14:30Z trunk 96cec6b277) [x86_64-linux]
-    last_commit=Document that RubyVM::InstructionSequence methods are implementation and version dependent
-  96cec6b277 --jit: |-
-    ruby 2.7.0dev (2019-08-05T23:14:30Z trunk 96cec6b277) +JIT [x86_64-linux]
-    last_commit=Document that RubyVM::InstructionSequence methods are implementation and version dependent
-  4f1a00a746: |-
-    ruby 2.7.0dev (2019-08-06T00:01:04Z trunk 4f1a00a746) [x86_64-linux]
-    last_commit=Improve same directory detection in FileUtils
-  4f1a00a746 --jit: |-
-    ruby 2.7.0dev (2019-08-06T00:01:04Z trunk 4f1a00a746) +JIT [x86_64-linux]
-    last_commit=Improve same directory detection in FileUtils
-  146cf2f444: |-
-    ruby 2.7.0dev (2019-08-06T00:01:05Z trunk 146cf2f444) [x86_64-linux]
-    last_commit=Removing duplicated assertions on test_array.rb - MINUS method
-  146cf2f444 --jit: |-
-    ruby 2.7.0dev (2019-08-06T00:01:05Z trunk 146cf2f444) +JIT [x86_64-linux]
-    last_commit=Removing duplicated assertions on test_array.rb - MINUS method
-  5cff9968ae: |-
-    ruby 2.7.0dev (2019-08-06T02:52:42Z trunk 5cff9968ae) [x86_64-linux]
-    last_commit=Distinguish bad scan format from no argument variables
-  5cff9968ae --jit: |-
-    ruby 2.7.0dev (2019-08-06T02:52:42Z trunk 5cff9968ae) +JIT [x86_64-linux]
-    last_commit=Distinguish bad scan format from no argument variables
-  4daff3a603: |-
-    ruby 2.7.0dev (2019-08-06T03:06:03Z trunk 4daff3a603) [x86_64-linux]
-    last_commit=The value of rb_scan_args_verify is never used
-  4daff3a603 --jit: |-
-    ruby 2.7.0dev (2019-08-06T03:06:03Z trunk 4daff3a603) +JIT [x86_64-linux]
-    last_commit=The value of rb_scan_args_verify is never used
-  81a15d636e: |-
-    ruby 2.7.0dev (2019-08-06T11:03:23Z trunk 81a15d636e) [x86_64-linux]
-    last_commit=Update Unicode URL to 12.1.0
-  81a15d636e --jit: |-
-    ruby 2.7.0dev (2019-08-06T11:03:23Z trunk 81a15d636e) +JIT [x86_64-linux]
-    last_commit=Update Unicode URL to 12.1.0
-  d626ca1e98: |-
-    ruby 2.7.0dev (2019-08-06T11:03:23Z trunk d626ca1e98) [x86_64-linux]
-    last_commit=Remove obsolete TODO comment
-  d626ca1e98 --jit: |-
-    ruby 2.7.0dev (2019-08-06T11:03:23Z trunk d626ca1e98) +JIT [x86_64-linux]
-    last_commit=Remove obsolete TODO comment
   842364792f: |-
     ruby 2.7.0dev (2019-08-06T11:03:23Z trunk 842364792f) [x86_64-linux]
     last_commit=Use host_os from RbConfig to detect host OS.
