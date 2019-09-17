@@ -1510,6 +1510,8 @@ results:
     6c3ab99eae: 3443618.752
     aa03de8ba1: 3460378.734
     66a13413ee: 3458429.446
+    b0d885da76: 2891907.304
+    6711343d5a: 3440170.13
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3019,6 +3021,8 @@ results:
     6c3ab99eae: 3428592.91
     aa03de8ba1: 3412000.972
     66a13413ee: 3432013.284
+    b0d885da76: 3405394.847
+    6711343d5a: 3312860.807
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4528,6 +4532,8 @@ results:
     6c3ab99eae: 1844998.598
     aa03de8ba1: 1937919.311
     66a13413ee: 1884560.514
+    b0d885da76: 1870355.268
+    6711343d5a: 1911423.264
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6037,6 +6043,8 @@ results:
     6c3ab99eae: 2778675.602
     aa03de8ba1: 2829123.828
     66a13413ee: 2834149.137
+    b0d885da76: 2831527.308
+    6711343d5a: 2803853.517
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7546,6 +7554,8 @@ results:
     6c3ab99eae: 3715310.702
     aa03de8ba1: 3725110.328
     66a13413ee: 3752706.0
+    b0d885da76: 3706059.977
+    6711343d5a: 3734417.268
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9055,6 +9065,8 @@ results:
     6c3ab99eae: 3682532.033
     aa03de8ba1: 3655051.415
     66a13413ee: 3703421.666
+    b0d885da76: 3685494.988
+    6711343d5a: 3663570.452
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10564,6 +10576,8 @@ results:
     6c3ab99eae: 1995566.057
     aa03de8ba1: 1809665.813
     66a13413ee: 1974231.033
+    b0d885da76: 1822135.752
+    6711343d5a: 1984702.236
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12073,3 +12087,5 @@ results:
     6c3ab99eae: 2890333.419
     aa03de8ba1: 2825856.123
     66a13413ee: 3026030.681
+    b0d885da76: 2682852.899
+    6711343d5a: 2559259.983
