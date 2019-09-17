@@ -1507,6 +1507,8 @@ results:
     3c162df9d4: 3199224.028
     f42ad4a425: 3452352.944
     4524780d17: 3396910.765
+    6c3ab99eae: 3443618.752
+    aa03de8ba1: 3460378.734
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3013,6 +3015,8 @@ results:
     3c162df9d4: 3122438.218
     f42ad4a425: 3422355.082
     4524780d17: 3325553.894
+    6c3ab99eae: 3428592.91
+    aa03de8ba1: 3412000.972
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4519,6 +4523,8 @@ results:
     3c162df9d4: 1885657.192
     f42ad4a425: 1909357.51
     4524780d17: 1582832.575
+    6c3ab99eae: 1844998.598
+    aa03de8ba1: 1937919.311
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6025,6 +6031,8 @@ results:
     3c162df9d4: 2496867.863
     f42ad4a425: 2823742.08
     4524780d17: 2823925.137
+    6c3ab99eae: 2778675.602
+    aa03de8ba1: 2829123.828
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7531,6 +7539,8 @@ results:
     3c162df9d4: 3656063.236
     f42ad4a425: 3171658.706
     4524780d17: 3617945.915
+    6c3ab99eae: 3715310.702
+    aa03de8ba1: 3725110.328
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9037,6 +9047,8 @@ results:
     3c162df9d4: 3626142.457
     f42ad4a425: 3709587.949
     4524780d17: 3576895.22
+    6c3ab99eae: 3682532.033
+    aa03de8ba1: 3655051.415
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10543,6 +10555,8 @@ results:
     3c162df9d4: 1983468.365
     f42ad4a425: 1963899.344
     4524780d17: 1939302.131
+    6c3ab99eae: 1995566.057
+    aa03de8ba1: 1809665.813
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12049,3 +12063,5 @@ results:
     3c162df9d4: 2767090.739
     f42ad4a425: 2998033.173
     4524780d17: 2854419.807
+    6c3ab99eae: 2890333.419
+    aa03de8ba1: 2825856.123
