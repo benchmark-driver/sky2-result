@@ -9,54 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  842364792f: |-
-    ruby 2.7.0dev (2019-08-06T11:03:23Z trunk 842364792f) [x86_64-linux]
-    last_commit=Use host_os from RbConfig to detect host OS.
-  842364792f --jit: |-
-    ruby 2.7.0dev (2019-08-06T11:03:23Z trunk 842364792f) +JIT [x86_64-linux]
-    last_commit=Use host_os from RbConfig to detect host OS.
-  1ee88c51b3: |-
-    ruby 2.7.0dev (2019-08-06T11:15:07Z trunk 1ee88c51b3) [x86_64-linux]
-    last_commit=Don't echo results of assignment expressions
-  1ee88c51b3 --jit: |-
-    ruby 2.7.0dev (2019-08-06T11:15:07Z trunk 1ee88c51b3) +JIT [x86_64-linux]
-    last_commit=Don't echo results of assignment expressions
-  43b52ac0a5: |-
-    ruby 2.7.0dev (2019-08-06T11:28:48Z trunk 43b52ac0a5) [x86_64-linux]
-    last_commit=Revert "Don't echo results of assignment expressions"
-  43b52ac0a5 --jit: |-
-    ruby 2.7.0dev (2019-08-06T11:28:48Z trunk 43b52ac0a5) +JIT [x86_64-linux]
-    last_commit=Revert "Don't echo results of assignment expressions"
-  b5146e375a: |-
-    ruby 2.7.0dev (2019-08-06T11:59:19Z trunk b5146e375a) [x86_64-linux]
-    last_commit=leafify opt_plus
-  b5146e375a --jit: |-
-    ruby 2.7.0dev (2019-08-06T11:59:19Z trunk b5146e375a) +JIT [x86_64-linux]
-    last_commit=leafify opt_plus
-  3e6b9926b7: |-
-    ruby 2.7.0dev (2019-08-06T11:59:41Z trunk 3e6b9926b7) [x86_64-linux]
-    last_commit=* expand tabs.
-  3e6b9926b7 --jit: |-
-    ruby 2.7.0dev (2019-08-06T11:59:41Z trunk 3e6b9926b7) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  a04e3585d3: |-
-    ruby 2.7.0dev (2019-08-06T14:00:29Z trunk a04e3585d3) [x86_64-linux]
-    last_commit=Extracted wmap_live_p
-  a04e3585d3 --jit: |-
-    ruby 2.7.0dev (2019-08-06T14:00:29Z trunk a04e3585d3) +JIT [x86_64-linux]
-    last_commit=Extracted wmap_live_p
-  0ed298f382: |-
-    ruby 2.7.0dev (2019-08-06T14:39:14Z trunk 0ed298f382) [x86_64-linux]
-    last_commit=Refine time_to_r
-  0ed298f382 --jit: |-
-    ruby 2.7.0dev (2019-08-06T14:39:14Z trunk 0ed298f382) +JIT [x86_64-linux]
-    last_commit=Refine time_to_r
-  e89d9f3deb: |-
-    ruby 2.7.0dev (2019-08-06T15:02:45Z trunk e89d9f3deb) [x86_64-linux]
-    last_commit=Deprecate Float::ROUNDS, which should not be a constant
-  e89d9f3deb --jit: |-
-    ruby 2.7.0dev (2019-08-06T15:02:45Z trunk e89d9f3deb) +JIT [x86_64-linux]
-    last_commit=Deprecate Float::ROUNDS, which should not be a constant
   66a13413ee: |-
     ruby 2.7.0dev (2019-08-06T15:07:06Z trunk 66a13413ee) [x86_64-linux]
     last_commit=* 2019-08-07
