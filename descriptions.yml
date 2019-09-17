@@ -6009,3 +6009,9 @@ commits:
   68ffb679d4 --jit: |-
     ruby 2.7.0dev (2019-09-17T06:16:12Z trunk 68ffb679d4) +JIT [x86_64-linux]
     last_commit=Undefine DSUSP key
+  '0785469a40': |-
+    ruby 2.7.0dev (2019-09-17T09:02:03Z trunk 0785469a40) [x86_64-linux]
+    last_commit=`brew install` may fail, so try to use `tool/travis_retry.sh`
+  '0785469a40 --jit': |-
+    ruby 2.7.0dev (2019-09-17T09:02:03Z trunk 0785469a40) +JIT [x86_64-linux]
+    last_commit=`brew install` may fail, so try to use `tool/travis_retry.sh`
