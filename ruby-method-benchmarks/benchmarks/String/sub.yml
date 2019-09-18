@@ -1521,6 +1521,8 @@ results:
     5c507db467: 3473967.721
     ca8ae759d0: 3435979.959
     d92289cd8d: 3480618.483
+    1ad0f4e593: 3464818.379
+    6724b1f83d: 3464823.692
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3041,6 +3043,8 @@ results:
     5c507db467: 3431254.376
     ca8ae759d0: 3127931.969
     d92289cd8d: 3038524.899
+    1ad0f4e593: 3426006.73
+    6724b1f83d: 3460317.441
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4561,6 +4565,8 @@ results:
     5c507db467: 1914556.792
     ca8ae759d0: 1831082.489
     d92289cd8d: 1867414.38
+    1ad0f4e593: 1905280.252
+    6724b1f83d: 1877587.642
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6081,6 +6087,8 @@ results:
     5c507db467: 2837711.055
     ca8ae759d0: 2802787.611
     d92289cd8d: 2755849.553
+    1ad0f4e593: 2835762.043
+    6724b1f83d: 2642526.602
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7601,6 +7609,8 @@ results:
     5c507db467: 3757050.236
     ca8ae759d0: 3721847.596
     d92289cd8d: 3770167.378
+    1ad0f4e593: 3764089.909
+    6724b1f83d: 3734371.599
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9121,6 +9131,8 @@ results:
     5c507db467: 3754764.225
     ca8ae759d0: 3709088.801
     d92289cd8d: 3723270.762
+    1ad0f4e593: 3691738.051
+    6724b1f83d: 3719572.086
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10641,6 +10653,8 @@ results:
     5c507db467: 2043381.155
     ca8ae759d0: 1742806.172
     d92289cd8d: 2035190.297
+    1ad0f4e593: 1943499.603
+    6724b1f83d: 1986144.795
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12161,3 +12175,5 @@ results:
     5c507db467: 3037632.526
     ca8ae759d0: 2987605.05
     d92289cd8d: 3042818.941
+    1ad0f4e593: 3035541.441
+    6724b1f83d: 3015277.064
