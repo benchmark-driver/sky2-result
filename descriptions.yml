@@ -5967,3 +5967,21 @@ commits:
   '0785469a40 --jit': |-
     ruby 2.7.0dev (2019-09-17T09:02:03Z trunk 0785469a40) +JIT [x86_64-linux]
     last_commit=`brew install` may fail, so try to use `tool/travis_retry.sh`
+  9b35dc3864: |-
+    ruby 2.7.0dev (2019-09-17T23:22:44Z trunk 9b35dc3864) [x86_64-linux]
+    last_commit=Pass keyword argument flag when rb_call_super_kw calls method_missing
+  9b35dc3864 --jit: |-
+    ruby 2.7.0dev (2019-09-17T23:22:44Z trunk 9b35dc3864) +JIT [x86_64-linux]
+    last_commit=Pass keyword argument flag when rb_call_super_kw calls method_missing
+  775365cbd2: |-
+    ruby 2.7.0dev (2019-09-17T23:22:44Z trunk 775365cbd2) [x86_64-linux]
+    last_commit=Fix keyword argument separation issues with sym procs when using refinements
+  775365cbd2 --jit: |-
+    ruby 2.7.0dev (2019-09-17T23:22:44Z trunk 775365cbd2) +JIT [x86_64-linux]
+    last_commit=Fix keyword argument separation issues with sym procs when using refinements
+  c170e23d81: |-
+    ruby 2.7.0dev (2019-09-17T23:23:06Z trunk c170e23d81) [x86_64-linux]
+    last_commit=* 2019-09-18 [ci skip]
+  c170e23d81 --jit: |-
+    ruby 2.7.0dev (2019-09-17T23:23:06Z trunk c170e23d81) +JIT [x86_64-linux]
+    last_commit=* 2019-09-18 [ci skip]
