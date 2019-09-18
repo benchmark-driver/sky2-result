@@ -9,150 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  66a13413ee: |-
-    ruby 2.7.0dev (2019-08-06T15:07:06Z trunk 66a13413ee) [x86_64-linux]
-    last_commit=* 2019-08-07
-  66a13413ee --jit: |-
-    ruby 2.7.0dev (2019-08-06T15:07:06Z trunk 66a13413ee) +JIT [x86_64-linux]
-    last_commit=* 2019-08-07
-  2d6b92c5f6: |-
-    ruby 2.7.0dev (2019-08-06T16:26:33Z trunk 2d6b92c5f6) [x86_64-linux]
-    last_commit=Retry ubuntu-toolchain-r-test apt source setup
-  2d6b92c5f6 --jit: |-
-    ruby 2.7.0dev (2019-08-06T16:26:33Z trunk 2d6b92c5f6) +JIT [x86_64-linux]
-    last_commit=Retry ubuntu-toolchain-r-test apt source setup
-  ef8c5161b4: |-
-    ruby 2.7.0dev (2019-08-06T18:12:49Z trunk ef8c5161b4) [x86_64-linux]
-    last_commit=ext/ripper/lib/ripper/lexer.rb: fix a wrong delegation
-  ef8c5161b4 --jit: |-
-    ruby 2.7.0dev (2019-08-06T18:12:49Z trunk ef8c5161b4) +JIT [x86_64-linux]
-    last_commit=ext/ripper/lib/ripper/lexer.rb: fix a wrong delegation
-  8877dbe400: |-
-    ruby 2.7.0dev (2019-08-06T18:13:17Z trunk 8877dbe400) [x86_64-linux]
-    last_commit=ext/ripper/lib/ripper/lexer.rb: Consistently use `Array#push`
-  8877dbe400 --jit: |-
-    ruby 2.7.0dev (2019-08-06T18:13:17Z trunk 8877dbe400) +JIT [x86_64-linux]
-    last_commit=ext/ripper/lib/ripper/lexer.rb: Consistently use `Array#push`
-  b839721ae7: |-
-    ruby 2.7.0dev (2019-08-07T00:03:08Z trunk b839721ae7) [x86_64-linux]
-    last_commit=.travis.yml: Use `-eq` instead `=` to compare integers
-  b839721ae7 --jit: |-
-    ruby 2.7.0dev (2019-08-07T00:03:08Z trunk b839721ae7) +JIT [x86_64-linux]
-    last_commit=.travis.yml: Use `-eq` instead `=` to compare integers
-  a0fe396555: |-
-    ruby 2.7.0dev (2019-08-07T00:40:11Z trunk a0fe396555) [x86_64-linux]
-    last_commit=Simplify break logic of Travis retries
-  a0fe396555 --jit: |-
-    ruby 2.7.0dev (2019-08-07T00:40:11Z trunk a0fe396555) +JIT [x86_64-linux]
-    last_commit=Simplify break logic of Travis retries
-  1bf796c69d: |-
-    ruby 2.7.0dev (2019-08-07T00:43:11Z trunk 1bf796c69d) [x86_64-linux]
-    last_commit=Fix Date#step test
-  1bf796c69d --jit: |-
-    ruby 2.7.0dev (2019-08-07T00:43:11Z trunk 1bf796c69d) +JIT [x86_64-linux]
-    last_commit=Fix Date#step test
-  e6901cea74: |-
-    ruby 2.7.0dev (2019-08-07T01:41:12Z trunk e6901cea74) [x86_64-linux]
-    last_commit=Fixed deprecation message
-  e6901cea74 --jit: |-
-    ruby 2.7.0dev (2019-08-07T01:41:12Z trunk e6901cea74) +JIT [x86_64-linux]
-    last_commit=Fixed deprecation message
-  330e3f19c3: |-
-    ruby 2.7.0dev (2019-08-07T12:47:03Z trunk 330e3f19c3) [x86_64-linux]
-    last_commit=Refactor .travis.yml by introducing travis_retry.sh
-  330e3f19c3 --jit: |-
-    ruby 2.7.0dev (2019-08-07T12:47:03Z trunk 330e3f19c3) +JIT [x86_64-linux]
-    last_commit=Refactor .travis.yml by introducing travis_retry.sh
-  0d2aa6fec9: |-
-    ruby 2.7.0dev (2019-08-07T13:11:53Z trunk 0d2aa6fec9) [x86_64-linux]
-    last_commit=Upgrade benchmark-driver version
-  0d2aa6fec9 --jit: |-
-    ruby 2.7.0dev (2019-08-07T13:11:53Z trunk 0d2aa6fec9) +JIT [x86_64-linux]
-    last_commit=Upgrade benchmark-driver version
-  58dec9625c: |-
-    ruby 2.7.0dev (2019-08-07T13:24:20Z trunk 58dec9625c) [x86_64-linux]
-    last_commit=enum.c: Remove unused #include
-  58dec9625c --jit: |-
-    ruby 2.7.0dev (2019-08-07T13:24:20Z trunk 58dec9625c) +JIT [x86_64-linux]
-    last_commit=enum.c: Remove unused #include
-  82527d9b50: |-
-    ruby 2.7.0dev (2019-08-07T13:25:50Z trunk 82527d9b50) [x86_64-linux]
-    last_commit=fix spelling
-  82527d9b50 --jit: |-
-    ruby 2.7.0dev (2019-08-07T13:25:50Z trunk 82527d9b50) +JIT [x86_64-linux]
-    last_commit=fix spelling
-  67cde179c5: |-
-    ruby 2.7.0dev (2019-08-07T13:29:02Z trunk 67cde179c5) [x86_64-linux]
-    last_commit=Skip merge commit created by bundlerbot.
-  67cde179c5 --jit: |-
-    ruby 2.7.0dev (2019-08-07T13:29:02Z trunk 67cde179c5) +JIT [x86_64-linux]
-    last_commit=Skip merge commit created by bundlerbot.
-  f5481e35ab: |-
-    ruby 2.7.0dev (2019-08-07T13:30:10Z trunk f5481e35ab) [x86_64-linux]
-    last_commit=Added separator for failing commits from default gems.
-  f5481e35ab --jit: |-
-    ruby 2.7.0dev (2019-08-07T13:30:10Z trunk f5481e35ab) +JIT [x86_64-linux]
-    last_commit=Added separator for failing commits from default gems.
-  0cf6bfca78: |-
-    ruby 2.7.0dev (2019-08-07T13:43:02Z trunk 0cf6bfca78) [x86_64-linux]
-    last_commit=hash.c: gc.h is no longer needed
-  0cf6bfca78 --jit: |-
-    ruby 2.7.0dev (2019-08-07T13:43:02Z trunk 0cf6bfca78) +JIT [x86_64-linux]
-    last_commit=hash.c: gc.h is no longer needed
-  3229e0583f: |-
-    ruby 2.7.0dev (2019-08-07T13:54:38Z trunk 3229e0583f) [x86_64-linux]
-    last_commit=hash.c: gc.h is needed when HASH_DEBUG mode
-  3229e0583f --jit: |-
-    ruby 2.7.0dev (2019-08-07T13:54:38Z trunk 3229e0583f) +JIT [x86_64-linux]
-    last_commit=hash.c: gc.h is needed when HASH_DEBUG mode
-  f82633b6a6: |-
-    ruby 2.7.0dev (2019-08-07T13:56:52Z trunk f82633b6a6) [x86_64-linux]
-    last_commit=array.c: gc.h is not needed
-  f82633b6a6 --jit: |-
-    ruby 2.7.0dev (2019-08-07T13:56:52Z trunk f82633b6a6) +JIT [x86_64-linux]
-    last_commit=array.c: gc.h is not needed
-  fa29f65416: |-
-    ruby 2.7.0dev (2019-08-07T15:10:27Z trunk fa29f65416) [x86_64-linux]
-    last_commit=Debug appveyor mingw failure
-  fa29f65416 --jit: |-
-    ruby 2.7.0dev (2019-08-07T15:10:27Z trunk fa29f65416) +JIT [x86_64-linux]
-    last_commit=Debug appveyor mingw failure
-  2f3795113d: |-
-    ruby 2.7.0dev (2019-08-07T15:11:34Z trunk 2f3795113d) [x86_64-linux]
-    last_commit=* 2019-08-08
-  2f3795113d --jit: |-
-    ruby 2.7.0dev (2019-08-07T15:11:34Z trunk 2f3795113d) +JIT [x86_64-linux]
-    last_commit=* 2019-08-08
-  70fd099220: |-
-    ruby 2.7.0dev (2019-08-07T17:36:17Z trunk 70fd099220) [x86_64-linux]
-    last_commit=Add a way to print debug counters without exiting
-  70fd099220 --jit: |-
-    ruby 2.7.0dev (2019-08-07T17:36:17Z trunk 70fd099220) +JIT [x86_64-linux]
-    last_commit=Add a way to print debug counters without exiting
-  1c7d3a13ca: |-
-    ruby 2.7.0dev (2019-08-08T05:22:56Z trunk 1c7d3a13ca) [x86_64-linux]
-    last_commit=Add *_start and *_running  methods to VM_COLLECT_USAGE_DETAILS API
-  1c7d3a13ca --jit: |-
-    ruby 2.7.0dev (2019-08-08T05:22:56Z trunk 1c7d3a13ca) +JIT [x86_64-linux]
-    last_commit=Add *_start and *_running  methods to VM_COLLECT_USAGE_DETAILS API
-  1ad0f4e593: |-
-    ruby 2.7.0dev (2019-08-08T05:22:56Z trunk 1ad0f4e593) [x86_64-linux]
-    last_commit=Add *_clear methods to VM_COLLECT_USAGE_DETAILS API
-  1ad0f4e593 --jit: |-
-    ruby 2.7.0dev (2019-08-08T05:22:56Z trunk 1ad0f4e593) +JIT [x86_64-linux]
-    last_commit=Add *_clear methods to VM_COLLECT_USAGE_DETAILS API
-  b39efb163d: |-
-    ruby 2.7.0dev (2019-08-08T08:19:23Z trunk b39efb163d) [x86_64-linux]
-    last_commit=Aliases capture_output to capture_io for test-unit compatiblity.
-  b39efb163d --jit: |-
-    ruby 2.7.0dev (2019-08-08T08:19:23Z trunk b39efb163d) +JIT [x86_64-linux]
-    last_commit=Aliases capture_output to capture_io for test-unit compatiblity.
-  20cb8e8aea: |-
-    ruby 2.7.0dev (2019-08-08T08:36:12Z trunk 20cb8e8aea) [x86_64-linux]
-    last_commit=main.c: Add doxygen mainpage
-  20cb8e8aea --jit: |-
-    ruby 2.7.0dev (2019-08-08T08:36:12Z trunk 20cb8e8aea) +JIT [x86_64-linux]
-    last_commit=main.c: Add doxygen mainpage
   b004d3e830: |-
     ruby 2.7.0dev (2019-08-08T08:56:04Z trunk b004d3e830) [x86_64-linux]
     last_commit=solve "duplicate :raise event" [Bug #15877]
@@ -6105,3 +5961,9 @@ commits:
   38069a3a55 --jit: |-
     ruby 2.7.0dev (2019-09-18T09:54:09Z trunk 38069a3a55) +JIT [x86_64-linux]
     last_commit=Try using Ruby 1.9.3 on Travis xenial
+  a491159a6e: |-
+    ruby 2.7.0dev (2019-09-18T13:46:05Z trunk a491159a6e) [x86_64-linux]
+    last_commit=Add badges of GitHub Actions [ci skip]
+  a491159a6e --jit: |-
+    ruby 2.7.0dev (2019-09-18T13:46:05Z trunk a491159a6e) +JIT [x86_64-linux]
+    last_commit=Add badges of GitHub Actions [ci skip]
