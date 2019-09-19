@@ -6009,3 +6009,51 @@ commits:
   a9cdaaada4 --jit: |-
     ruby 2.7.0dev (2019-09-18T23:47:07Z trunk a9cdaaada4) +JIT [x86_64-linux]
     last_commit=DEBUG
+  70fd022a2a: |-
+    ruby 2.7.0dev (2019-09-19T00:47:11Z trunk 70fd022a2a) [x86_64-linux]
+    last_commit=DEBUG
+  70fd022a2a --jit: |-
+    ruby 2.7.0dev (2019-09-19T00:47:11Z trunk 70fd022a2a) +JIT [x86_64-linux]
+    last_commit=DEBUG
+  a98181eb11: |-
+    ruby 2.7.0dev (2019-09-19T01:46:52Z trunk a98181eb11) [x86_64-linux]
+    last_commit=DEBUG: cxxanyargs
+  a98181eb11 --jit: |-
+    ruby 2.7.0dev (2019-09-19T01:46:52Z trunk a98181eb11) +JIT [x86_64-linux]
+    last_commit=DEBUG: cxxanyargs
+  2d1e3bd8f1: |-
+    ruby 2.7.0dev (2019-09-19T02:25:09Z trunk 2d1e3bd8f1) [x86_64-linux]
+    last_commit=DEBUG: cxxanyargs
+  2d1e3bd8f1 --jit: |-
+    ruby 2.7.0dev (2019-09-19T02:25:09Z trunk 2d1e3bd8f1) +JIT [x86_64-linux]
+    last_commit=DEBUG: cxxanyargs
+  69e209a345: |-
+    ruby 2.7.0dev (2019-09-19T03:03:58Z trunk 69e209a345) [x86_64-linux]
+    last_commit=DEBUG: dump mkmf.log
+  69e209a345 --jit: |-
+    ruby 2.7.0dev (2019-09-19T03:03:58Z trunk 69e209a345) +JIT [x86_64-linux]
+    last_commit=DEBUG: dump mkmf.log
+  66c644da5e: |-
+    ruby 2.7.0dev (2019-09-19T03:18:18Z trunk 66c644da5e) [x86_64-linux]
+    last_commit=refactor reuse existing on-stack structs
+  66c644da5e --jit: |-
+    ruby 2.7.0dev (2019-09-19T03:18:18Z trunk 66c644da5e) +JIT [x86_64-linux]
+    last_commit=refactor reuse existing on-stack structs
+  df3fd50717: |-
+    ruby 2.7.0dev (2019-09-19T03:25:48Z trunk df3fd50717) [x86_64-linux]
+    last_commit=Removed mkmf.log dump in Makefile
+  df3fd50717 --jit: |-
+    ruby 2.7.0dev (2019-09-19T03:25:48Z trunk df3fd50717) +JIT [x86_64-linux]
+    last_commit=Removed mkmf.log dump in Makefile
+  e2aac6a611: |-
+    ruby 2.7.0dev (2019-09-19T03:25:48Z trunk e2aac6a611) [x86_64-linux]
+    last_commit=Separate @have_devel for C++
+  e2aac6a611 --jit: |-
+    ruby 2.7.0dev (2019-09-19T03:25:48Z trunk e2aac6a611) +JIT [x86_64-linux]
+    last_commit=Separate @have_devel for C++
+  9fb9f2d318: |-
+    ruby 2.7.0dev (2019-09-19T03:47:09Z trunk 9fb9f2d318) [x86_64-linux]
+    last_commit=Add draft-release.yml [ci skip]
+  9fb9f2d318 --jit: |-
+    ruby 2.7.0dev (2019-09-19T03:47:09Z trunk 9fb9f2d318) +JIT [x86_64-linux]
+    last_commit=Add draft-release.yml [ci skip]
