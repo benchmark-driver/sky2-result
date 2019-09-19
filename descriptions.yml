@@ -9,108 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  b004d3e830: |-
-    ruby 2.7.0dev (2019-08-08T08:56:04Z trunk b004d3e830) [x86_64-linux]
-    last_commit=solve "duplicate :raise event" [Bug #15877]
-  b004d3e830 --jit: |-
-    ruby 2.7.0dev (2019-08-08T08:56:04Z trunk b004d3e830) +JIT [x86_64-linux]
-    last_commit=solve "duplicate :raise event" [Bug #15877]
-  29bdfeb0c6: |-
-    ruby 2.7.0dev (2019-08-08T08:59:38Z trunk 29bdfeb0c6) [x86_64-linux]
-    last_commit=* expand tabs.
-  29bdfeb0c6 --jit: |-
-    ruby 2.7.0dev (2019-08-08T08:59:38Z trunk 29bdfeb0c6) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  b1594ca3d6: |-
-    ruby 2.7.0dev (2019-08-08T11:37:12Z trunk b1594ca3d6) [x86_64-linux]
-    last_commit=Drop -j from msys2 build for debugging
-  b1594ca3d6 --jit: |-
-    ruby 2.7.0dev (2019-08-08T11:37:12Z trunk b1594ca3d6) +JIT [x86_64-linux]
-    last_commit=Drop -j from msys2 build for debugging
-  3d87b774c4: |-
-    ruby 2.7.0dev (2019-08-08T12:27:39Z trunk 3d87b774c4) [x86_64-linux]
-    last_commit=Use `ec` instead of `th->ec` where the `th` came from the `ec`
-  3d87b774c4 --jit: |-
-    ruby 2.7.0dev (2019-08-08T12:27:39Z trunk 3d87b774c4) +JIT [x86_64-linux]
-    last_commit=Use `ec` instead of `th->ec` where the `th` came from the `ec`
-  76bd0714cf: |-
-    ruby 2.7.0dev (2019-08-08T12:27:39Z trunk 76bd0714cf) [x86_64-linux]
-    last_commit=solve "duplicate :raise event" in require too [Bug #15877]
-  76bd0714cf --jit: |-
-    ruby 2.7.0dev (2019-08-08T12:27:39Z trunk 76bd0714cf) +JIT [x86_64-linux]
-    last_commit=solve "duplicate :raise event" in require too [Bug #15877]
-  2a6d7fad13: |-
-    ruby 2.7.0dev (2019-08-08T13:18:50Z trunk 2a6d7fad13) [x86_64-linux]
-    last_commit=Arrange installed packages like ruby-loco
-  2a6d7fad13 --jit: |-
-    ruby 2.7.0dev (2019-08-08T13:18:50Z trunk 2a6d7fad13) +JIT [x86_64-linux]
-    last_commit=Arrange installed packages like ruby-loco
-  995c2e9536: |-
-    ruby 2.7.0dev (2019-08-08T13:28:00Z trunk 995c2e9536) [x86_64-linux]
-    last_commit=Reduce unnecessary EXEC_TAG in require
-  995c2e9536 --jit: |-
-    ruby 2.7.0dev (2019-08-08T13:28:00Z trunk 995c2e9536) +JIT [x86_64-linux]
-    last_commit=Reduce unnecessary EXEC_TAG in require
-  a9b9f9d157: |-
-    ruby 2.7.0dev (2019-08-08T13:36:34Z trunk a9b9f9d157) [x86_64-linux]
-    last_commit=Revert "Drop -j from msys2 build for debugging"
-  a9b9f9d157 --jit: |-
-    ruby 2.7.0dev (2019-08-08T13:36:34Z trunk a9b9f9d157) +JIT [x86_64-linux]
-    last_commit=Revert "Drop -j from msys2 build for debugging"
-  a206738762: |-
-    ruby 2.7.0dev (2019-08-08T13:40:20Z trunk a206738762) [x86_64-linux]
-    last_commit=Remove temporary directory [ci skip]
-  a206738762 --jit: |-
-    ruby 2.7.0dev (2019-08-08T13:40:20Z trunk a206738762) +JIT [x86_64-linux]
-    last_commit=Remove temporary directory [ci skip]
-  ad3f7a3667: |-
-    ruby 2.7.0dev (2019-08-08T15:12:54Z trunk ad3f7a3667) [x86_64-linux]
-    last_commit=Should require without wrapper module
-  ad3f7a3667 --jit: |-
-    ruby 2.7.0dev (2019-08-08T15:12:54Z trunk ad3f7a3667) +JIT [x86_64-linux]
-    last_commit=Should require without wrapper module
-  c0f4943840: |-
-    ruby 2.7.0dev (2019-08-08T15:16:24Z trunk c0f4943840) [x86_64-linux]
-    last_commit=* 2019-08-09
-  c0f4943840 --jit: |-
-    ruby 2.7.0dev (2019-08-08T15:16:24Z trunk c0f4943840) +JIT [x86_64-linux]
-    last_commit=* 2019-08-09
-  830fd04181: |-
-    ruby 2.7.0dev (2019-08-08T16:27:52Z trunk 830fd04181) [x86_64-linux]
-    last_commit=C99 allows trailing comma in enum
-  830fd04181 --jit: |-
-    ruby 2.7.0dev (2019-08-08T16:27:52Z trunk 830fd04181) +JIT [x86_64-linux]
-    last_commit=C99 allows trailing comma in enum
-  050b932152: |-
-    ruby 2.7.0dev (2019-08-08T16:29:53Z trunk 050b932152) [x86_64-linux]
-    last_commit=Iseq#to_binary: Add support for NoMatchingPatternError and TypeError
-  050b932152 --jit: |-
-    ruby 2.7.0dev (2019-08-08T16:29:53Z trunk 050b932152) +JIT [x86_64-linux]
-    last_commit=Iseq#to_binary: Add support for NoMatchingPatternError and TypeError
-  57288f5dbd: |-
-    ruby 2.7.0dev (2019-08-08T16:32:30Z trunk 57288f5dbd) [x86_64-linux]
-    last_commit=* expand tabs.
-  57288f5dbd --jit: |-
-    ruby 2.7.0dev (2019-08-08T16:32:30Z trunk 57288f5dbd) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  c7acb37248: |-
-    ruby 2.7.0dev (2019-08-08T18:29:15Z trunk c7acb37248) [x86_64-linux]
-    last_commit=Enable GitHub Actions on Ruby
-  c7acb37248 --jit: |-
-    ruby 2.7.0dev (2019-08-08T18:29:15Z trunk c7acb37248) +JIT [x86_64-linux]
-    last_commit=Enable GitHub Actions on Ruby
-  71efad1ed3: |-
-    ruby 2.7.0dev (2019-08-09T02:05:11Z trunk 71efad1ed3) [x86_64-linux]
-    last_commit=introduce RCLASS_CLONED flag for inline cache.
-  71efad1ed3 --jit: |-
-    ruby 2.7.0dev (2019-08-09T02:05:11Z trunk 71efad1ed3) +JIT [x86_64-linux]
-    last_commit=introduce RCLASS_CLONED flag for inline cache.
-  4e9382a827: |-
-    ruby 2.7.0dev (2019-08-09T02:11:18Z trunk 4e9382a827) [x86_64-linux]
-    last_commit=* expand tabs.
-  4e9382a827 --jit: |-
-    ruby 2.7.0dev (2019-08-09T02:11:18Z trunk 4e9382a827) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
   0176e74d6c: |-
     ruby 2.7.0dev (2019-08-09T02:39:24Z trunk 0176e74d6c) [x86_64-linux]
     last_commit=Add missing dependency
@@ -6057,3 +5955,15 @@ commits:
   9fb9f2d318 --jit: |-
     ruby 2.7.0dev (2019-09-19T03:47:09Z trunk 9fb9f2d318) +JIT [x86_64-linux]
     last_commit=Add draft-release.yml [ci skip]
+  d74fa8e55c: |-
+    ruby 2.7.0dev (2019-09-19T06:18:10Z trunk d74fa8e55c) [x86_64-linux]
+    last_commit=reuse cc->call
+  d74fa8e55c --jit: |-
+    ruby 2.7.0dev (2019-09-19T06:18:10Z trunk d74fa8e55c) +JIT [x86_64-linux]
+    last_commit=reuse cc->call
+  fcfe36b733: |-
+    ruby 2.7.0dev (2019-09-19T06:18:10Z trunk fcfe36b733) [x86_64-linux]
+    last_commit=fix spec failure
+  fcfe36b733 --jit: |-
+    ruby 2.7.0dev (2019-09-19T06:18:10Z trunk fcfe36b733) +JIT [x86_64-linux]
+    last_commit=fix spec failure
