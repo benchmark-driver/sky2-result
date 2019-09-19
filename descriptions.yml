@@ -5967,3 +5967,33 @@ commits:
   fcfe36b733 --jit: |-
     ruby 2.7.0dev (2019-09-19T06:18:10Z trunk fcfe36b733) +JIT [x86_64-linux]
     last_commit=fix spec failure
+  7202bf9ed8: |-
+    ruby 2.7.0dev (2019-09-19T08:19:22Z trunk 7202bf9ed8) [x86_64-linux]
+    last_commit=Drop PREFETCH macro unused since 6b534134a7
+  7202bf9ed8 --jit: |-
+    ruby 2.7.0dev (2019-09-19T08:19:22Z trunk 7202bf9ed8) +JIT [x86_64-linux]
+    last_commit=Drop PREFETCH macro unused since 6b534134a7
+  f84efe4b9d: |-
+    ruby 2.7.0dev (2019-09-19T08:30:31Z trunk f84efe4b9d) [x86_64-linux]
+    last_commit=Avoid unneeded casts in INSN_ENTRY_SIG
+  f84efe4b9d --jit: |-
+    ruby 2.7.0dev (2019-09-19T08:30:31Z trunk f84efe4b9d) +JIT [x86_64-linux]
+    last_commit=Avoid unneeded casts in INSN_ENTRY_SIG
+  20baa08d65: |-
+    ruby 2.7.0dev (2019-09-19T08:35:32Z trunk 20baa08d65) [x86_64-linux]
+    last_commit=Improve the output of `RubyVM::InstructionSequence#to_binary` (#2450)
+  20baa08d65 --jit: |-
+    ruby 2.7.0dev (2019-09-19T08:35:32Z trunk 20baa08d65) +JIT [x86_64-linux]
+    last_commit=Improve the output of `RubyVM::InstructionSequence#to_binary` (#2450)
+  6045ff64e3: |-
+    ruby 2.7.0dev (2019-09-19T09:04:47Z trunk 6045ff64e3) [x86_64-linux]
+    last_commit=Use benchmark-driver v0.15.6
+  6045ff64e3 --jit: |-
+    ruby 2.7.0dev (2019-09-19T09:04:47Z trunk 6045ff64e3) +JIT [x86_64-linux]
+    last_commit=Use benchmark-driver v0.15.6
+  6180f1fede: |-
+    ruby 2.7.0dev (2019-09-19T10:06:18Z trunk 6180f1fede) [x86_64-linux]
+    last_commit=Added link_command for C++
+  6180f1fede --jit: |-
+    ruby 2.7.0dev (2019-09-19T10:06:18Z trunk 6180f1fede) +JIT [x86_64-linux]
+    last_commit=Added link_command for C++
