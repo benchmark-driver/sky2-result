@@ -5997,3 +5997,39 @@ commits:
   6180f1fede --jit: |-
     ruby 2.7.0dev (2019-09-19T10:06:18Z trunk 6180f1fede) +JIT [x86_64-linux]
     last_commit=Added link_command for C++
+  2698f13a1f: |-
+    ruby 2.7.0dev (2019-09-19T10:40:44Z trunk 2698f13a1f) [x86_64-linux]
+    last_commit=Fixed reserved numbered parameter warning
+  2698f13a1f --jit: |-
+    ruby 2.7.0dev (2019-09-19T10:40:44Z trunk 2698f13a1f) +JIT [x86_64-linux]
+    last_commit=Fixed reserved numbered parameter warning
+  5208c431be: |-
+    ruby 2.7.0dev (2019-09-19T11:20:15Z trunk 5208c431be) [x86_64-linux]
+    last_commit=Separate Time#inspect from to_s and show subsec [Feature #15958]
+  5208c431be --jit: |-
+    ruby 2.7.0dev (2019-09-19T11:20:15Z trunk 5208c431be) +JIT [x86_64-linux]
+    last_commit=Separate Time#inspect from to_s and show subsec [Feature #15958]
+  cbf405fec4: |-
+    ruby 2.7.0dev (2019-09-19T11:45:24Z trunk cbf405fec4) [x86_64-linux]
+    last_commit=Specify encoding explicitly for sprintf
+  cbf405fec4 --jit: |-
+    ruby 2.7.0dev (2019-09-19T11:45:24Z trunk cbf405fec4) +JIT [x86_64-linux]
+    last_commit=Specify encoding explicitly for sprintf
+  b3ddeac33e: |-
+    ruby 2.7.0dev (2019-09-19T11:57:57Z trunk b3ddeac33e) [x86_64-linux]
+    last_commit=Revert "DEBUG: dump mkmf.log"
+  b3ddeac33e --jit: |-
+    ruby 2.7.0dev (2019-09-19T11:57:57Z trunk b3ddeac33e) +JIT [x86_64-linux]
+    last_commit=Revert "DEBUG: dump mkmf.log"
+  a3daf8e49a: |-
+    ruby 2.7.0dev (2019-09-19T11:57:58Z trunk a3daf8e49a) [x86_64-linux]
+    last_commit=Ensure that unmatched arity fails in C++
+  a3daf8e49a --jit: |-
+    ruby 2.7.0dev (2019-09-19T11:57:58Z trunk a3daf8e49a) +JIT [x86_64-linux]
+    last_commit=Ensure that unmatched arity fails in C++
+  e0c56b45a4: |-
+    ruby 2.7.0dev (2019-09-19T13:09:43Z trunk e0c56b45a4) [x86_64-linux]
+    last_commit=Moved unmatch arity check to depend file
+  e0c56b45a4 --jit: |-
+    ruby 2.7.0dev (2019-09-19T13:09:43Z trunk e0c56b45a4) +JIT [x86_64-linux]
+    last_commit=Moved unmatch arity check to depend file
