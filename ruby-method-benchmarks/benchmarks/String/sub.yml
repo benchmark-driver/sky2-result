@@ -1528,6 +1528,8 @@ results:
     94d6ec1d90: 3441742.403
     4868ad7e5b: 3459931.295
     d8d8015b93: 3130941.584
+    7bcfd9189a: 3474086.514
+    a2ca3a12ba: 3482663.346
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3055,6 +3057,8 @@ results:
     94d6ec1d90: 3061167.614
     4868ad7e5b: 3276540.632
     d8d8015b93: 3415269.43
+    7bcfd9189a: 3445803.042
+    a2ca3a12ba: 3436925.963
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4582,6 +4586,8 @@ results:
     94d6ec1d90: 1792210.765
     4868ad7e5b: 1859492.255
     d8d8015b93: 1889035.738
+    7bcfd9189a: 1877802.643
+    a2ca3a12ba: 1906700.817
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6109,6 +6115,8 @@ results:
     94d6ec1d90: 2825598.415
     4868ad7e5b: 2820470.946
     d8d8015b93: 2824851.784
+    7bcfd9189a: 2829978.633
+    a2ca3a12ba: 2827156.742
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7636,6 +7644,8 @@ results:
     94d6ec1d90: 3730832.666
     4868ad7e5b: 3612727.145
     d8d8015b93: 3401871.314
+    7bcfd9189a: 3506416.677
+    a2ca3a12ba: 3778121.309
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9163,6 +9173,8 @@ results:
     94d6ec1d90: 3679134.949
     4868ad7e5b: 3700479.891
     d8d8015b93: 3265384.27
+    7bcfd9189a: 3734117.006
+    a2ca3a12ba: 3604056.437
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10690,6 +10702,8 @@ results:
     94d6ec1d90: 2018279.623
     4868ad7e5b: 2019387.959
     d8d8015b93: 2005922.612
+    7bcfd9189a: 2016907.761
+    a2ca3a12ba: 2039797.385
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12217,3 +12231,5 @@ results:
     94d6ec1d90: 2942350.925
     4868ad7e5b: 2759989.524
     d8d8015b93: 2970677.422
+    7bcfd9189a: 3013292.129
+    a2ca3a12ba: 2912902.638
