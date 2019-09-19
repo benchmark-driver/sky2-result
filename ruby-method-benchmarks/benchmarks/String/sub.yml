@@ -1530,6 +1530,8 @@ results:
     d8d8015b93: 3130941.584
     7bcfd9189a: 3474086.514
     a2ca3a12ba: 3482663.346
+    c21c001733: 3438656.151
+    2f744f53c1: 3477538.168
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3059,6 +3061,8 @@ results:
     d8d8015b93: 3415269.43
     7bcfd9189a: 3445803.042
     a2ca3a12ba: 3436925.963
+    c21c001733: 3428230.437
+    2f744f53c1: 3440328.629
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4588,6 +4592,8 @@ results:
     d8d8015b93: 1889035.738
     7bcfd9189a: 1877802.643
     a2ca3a12ba: 1906700.817
+    c21c001733: 1908200.121
+    2f744f53c1: 1931153.754
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6117,6 +6123,8 @@ results:
     d8d8015b93: 2824851.784
     7bcfd9189a: 2829978.633
     a2ca3a12ba: 2827156.742
+    c21c001733: 2844996.187
+    2f744f53c1: 2723744.168
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7646,6 +7654,8 @@ results:
     d8d8015b93: 3401871.314
     7bcfd9189a: 3506416.677
     a2ca3a12ba: 3778121.309
+    c21c001733: 3750982.373
+    2f744f53c1: 3763571.135
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9175,6 +9185,8 @@ results:
     d8d8015b93: 3265384.27
     7bcfd9189a: 3734117.006
     a2ca3a12ba: 3604056.437
+    c21c001733: 3702094.894
+    2f744f53c1: 3712169.087
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10704,6 +10716,8 @@ results:
     d8d8015b93: 2005922.612
     7bcfd9189a: 2016907.761
     a2ca3a12ba: 2039797.385
+    c21c001733: 1918445.173
+    2f744f53c1: 1978692.992
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12233,3 +12247,5 @@ results:
     d8d8015b93: 2970677.422
     7bcfd9189a: 3013292.129
     a2ca3a12ba: 2912902.638
+    c21c001733: 3013810.777
+    2f744f53c1: 2878070.758
