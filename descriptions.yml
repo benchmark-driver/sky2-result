@@ -9,102 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  0176e74d6c: |-
-    ruby 2.7.0dev (2019-08-09T02:39:24Z trunk 0176e74d6c) [x86_64-linux]
-    last_commit=Add missing dependency
-  0176e74d6c --jit: |-
-    ruby 2.7.0dev (2019-08-09T02:39:24Z trunk 0176e74d6c) +JIT [x86_64-linux]
-    last_commit=Add missing dependency
-  a9fd57056c: |-
-    ruby 2.7.0dev (2019-08-09T04:04:56Z trunk a9fd57056c) [x86_64-linux]
-    last_commit=double memory limit on MJIT.
-  a9fd57056c --jit: |-
-    ruby 2.7.0dev (2019-08-09T04:04:56Z trunk a9fd57056c) +JIT [x86_64-linux]
-    last_commit=double memory limit on MJIT.
-  37eefb11fb: |-
-    ruby 2.7.0dev (2019-08-09T04:08:01Z trunk 37eefb11fb) [x86_64-linux]
-    last_commit=remove useless include and dependency
-  37eefb11fb --jit: |-
-    ruby 2.7.0dev (2019-08-09T04:08:01Z trunk 37eefb11fb) +JIT [x86_64-linux]
-    last_commit=remove useless include and dependency
-  54bdfe27f3: |-
-    ruby 2.7.0dev (2019-08-09T04:15:12Z trunk 54bdfe27f3) [x86_64-linux]
-    last_commit=Run macOS tests on GitHub Actions
-  54bdfe27f3 --jit: |-
-    ruby 2.7.0dev (2019-08-09T04:15:12Z trunk 54bdfe27f3) +JIT [x86_64-linux]
-    last_commit=Run macOS tests on GitHub Actions
-  cb390e87dc: |-
-    ruby 2.7.0dev (2019-08-09T04:15:18Z trunk cb390e87dc) [x86_64-linux]
-    last_commit=Add more runners
-  cb390e87dc --jit: |-
-    ruby 2.7.0dev (2019-08-09T04:15:18Z trunk cb390e87dc) +JIT [x86_64-linux]
-    last_commit=Add more runners
-  6bf8db9a07: |-
-    ruby 2.7.0dev (2019-08-09T05:01:15Z trunk 6bf8db9a07) [x86_64-linux]
-    last_commit=add rp() and bp() in internal.h.
-  6bf8db9a07 --jit: |-
-    ruby 2.7.0dev (2019-08-09T05:01:15Z trunk 6bf8db9a07) +JIT [x86_64-linux]
-    last_commit=add rp() and bp() in internal.h.
-  3b39cc6b03: |-
-    ruby 2.7.0dev (2019-08-09T05:11:24Z trunk 3b39cc6b03) [x86_64-linux]
-    last_commit=gc.h is required on mswin build.
-  3b39cc6b03 --jit: |-
-    ruby 2.7.0dev (2019-08-09T05:11:24Z trunk 3b39cc6b03) +JIT [x86_64-linux]
-    last_commit=gc.h is required on mswin build.
-  26cf4c91ad: |-
-    ruby 2.7.0dev (2019-08-09T06:23:35Z trunk 26cf4c91ad) [x86_64-linux]
-    last_commit=extend timeout to debug.
-  26cf4c91ad --jit: |-
-    ruby 2.7.0dev (2019-08-09T06:23:35Z trunk 26cf4c91ad) +JIT [x86_64-linux]
-    last_commit=extend timeout to debug.
-  3cbd56d574: |-
-    ruby 2.7.0dev (2019-08-09T07:08:15Z trunk 3cbd56d574) [x86_64-linux]
-    last_commit=complement `test_` prefix.
-  3cbd56d574 --jit: |-
-    ruby 2.7.0dev (2019-08-09T07:08:15Z trunk 3cbd56d574) +JIT [x86_64-linux]
-    last_commit=complement `test_` prefix.
-  a4a2dd7942: |-
-    ruby 2.7.0dev (2019-08-09T07:29:43Z trunk a4a2dd7942) [x86_64-linux]
-    last_commit=Revert a6e32855d079e8f3806d8be8a5f5cf7b3a967133 partially
-  a4a2dd7942 --jit: |-
-    ruby 2.7.0dev (2019-08-09T07:29:43Z trunk a4a2dd7942) +JIT [x86_64-linux]
-    last_commit=Revert a6e32855d079e8f3806d8be8a5f5cf7b3a967133 partially
-  ef64ab917e: |-
-    ruby 2.7.0dev (2019-08-09T08:31:19Z trunk ef64ab917e) [x86_64-linux]
-    last_commit=gc.c: Increase STACKFRAME_FOR_CALL_CFUNC
-  ef64ab917e --jit: |-
-    ruby 2.7.0dev (2019-08-09T08:31:19Z trunk ef64ab917e) +JIT [x86_64-linux]
-    last_commit=gc.c: Increase STACKFRAME_FOR_CALL_CFUNC
-  63384591e2: |-
-    ruby 2.7.0dev (2019-08-09T08:48:47Z trunk 63384591e2) [x86_64-linux]
-    last_commit=restore timeout
-  63384591e2 --jit: |-
-    ruby 2.7.0dev (2019-08-09T08:48:47Z trunk 63384591e2) +JIT [x86_64-linux]
-    last_commit=restore timeout
-  3ddbba84b5: |-
-    ruby 2.7.0dev (2019-08-09T13:48:20Z trunk 3ddbba84b5) [x86_64-linux]
-    last_commit=gc.c: Double STACKFRAME_FOR_CALL_CFUNC (1024->2048)
-  3ddbba84b5 --jit: |-
-    ruby 2.7.0dev (2019-08-09T13:48:20Z trunk 3ddbba84b5) +JIT [x86_64-linux]
-    last_commit=gc.c: Double STACKFRAME_FOR_CALL_CFUNC (1024->2048)
-  c9eb8f82e9: |-
-    ruby 2.7.0dev (2019-08-09T14:08:30Z trunk c9eb8f82e9) [x86_64-linux]
-    last_commit=Removed unused includes
-  c9eb8f82e9 --jit: |-
-    ruby 2.7.0dev (2019-08-09T14:08:30Z trunk c9eb8f82e9) +JIT [x86_64-linux]
-    last_commit=Removed unused includes
-  314b50d7c0: |-
-    ruby 2.7.0dev (2019-08-09T14:10:06Z trunk 314b50d7c0) [x86_64-linux]
-    last_commit=#include <> for system headers
-  314b50d7c0 --jit: |-
-    ruby 2.7.0dev (2019-08-09T14:10:06Z trunk 314b50d7c0) +JIT [x86_64-linux]
-    last_commit=#include <> for system headers
-  a8ba22cd32: |-
-    ruby 2.7.0dev (2019-08-09T15:01:36Z trunk a8ba22cd32) [x86_64-linux]
-    last_commit=Revert "Removed unused includes"
-  a8ba22cd32 --jit: |-
-    ruby 2.7.0dev (2019-08-09T15:01:36Z trunk a8ba22cd32) +JIT [x86_64-linux]
-    last_commit=Revert "Removed unused includes"
   8d7e0159c0: |-
     ruby 2.7.0dev (2019-08-09T15:04:06Z trunk 8d7e0159c0) [x86_64-linux]
     last_commit=* 2019-08-10
@@ -6033,3 +5937,33 @@ commits:
   e0c56b45a4 --jit: |-
     ruby 2.7.0dev (2019-09-19T13:09:43Z trunk e0c56b45a4) +JIT [x86_64-linux]
     last_commit=Moved unmatch arity check to depend file
+  82f25404ff: |-
+    ruby 2.7.0dev (2019-09-19T14:44:37Z trunk 82f25404ff) [x86_64-linux]
+    last_commit=Check COMPILE_RECV result
+  82f25404ff --jit: |-
+    ruby 2.7.0dev (2019-09-19T14:44:37Z trunk 82f25404ff) +JIT [x86_64-linux]
+    last_commit=Check COMPILE_RECV result
+  e13b09c450: |-
+    ruby 2.7.0dev (2019-09-19T14:45:09Z trunk e13b09c450) [x86_64-linux]
+    last_commit=Use EXPECT_NODE_NONULL
+  e13b09c450 --jit: |-
+    ruby 2.7.0dev (2019-09-19T14:45:09Z trunk e13b09c450) +JIT [x86_64-linux]
+    last_commit=Use EXPECT_NODE_NONULL
+  5e3771aad4: |-
+    ruby 2.7.0dev (2019-09-19T15:20:35Z trunk 5e3771aad4) [x86_64-linux]
+    last_commit=* 2019-09-20 [ci skip]
+  5e3771aad4 --jit: |-
+    ruby 2.7.0dev (2019-09-19T15:20:35Z trunk 5e3771aad4) +JIT [x86_64-linux]
+    last_commit=* 2019-09-20 [ci skip]
+  9c0d5e51cb: |-
+    ruby 2.7.0dev (2019-09-19T16:29:48Z trunk 9c0d5e51cb) [x86_64-linux]
+    last_commit=Check method functions in C++
+  9c0d5e51cb --jit: |-
+    ruby 2.7.0dev (2019-09-19T16:29:48Z trunk 9c0d5e51cb) +JIT [x86_64-linux]
+    last_commit=Check method functions in C++
+  17a1366399: |-
+    ruby 2.7.0dev (2019-09-19T16:29:48Z trunk 17a1366399) [x86_64-linux]
+    last_commit=Overload variable definition functions
+  17a1366399 --jit: |-
+    ruby 2.7.0dev (2019-09-19T16:29:48Z trunk 17a1366399) +JIT [x86_64-linux]
+    last_commit=Overload variable definition functions
