@@ -1549,6 +1549,8 @@ results:
     60a08d9a6c: 3465633.685
     e6b72e8cae: 3381979.192
     6cad064424: 3386374.552
+    f4df9fb46b: 3364250.842
+    805b0a4811: 3312332.157
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3097,6 +3099,8 @@ results:
     60a08d9a6c: 3407841.06
     e6b72e8cae: 3433876.334
     6cad064424: 3221749.487
+    f4df9fb46b: 3403147.301
+    805b0a4811: 3360212.937
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4645,6 +4649,8 @@ results:
     60a08d9a6c: 1909516.585
     e6b72e8cae: 1884828.682
     6cad064424: 1858249.11
+    f4df9fb46b: 1896990.419
+    805b0a4811: 1926114.548
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6193,6 +6199,8 @@ results:
     60a08d9a6c: 2733258.508
     e6b72e8cae: 2771274.124
     6cad064424: 2854500.154
+    f4df9fb46b: 2889314.197
+    805b0a4811: 2920785.237
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7741,6 +7749,8 @@ results:
     60a08d9a6c: 3735219.692
     e6b72e8cae: 3684053.821
     6cad064424: 3629010.34
+    f4df9fb46b: 3461472.225
+    805b0a4811: 3700089.633
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9289,6 +9299,8 @@ results:
     60a08d9a6c: 3578569.958
     e6b72e8cae: 3696586.552
     6cad064424: 3652274.156
+    f4df9fb46b: 3689749.641
+    805b0a4811: 3650333.442
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10837,6 +10849,8 @@ results:
     60a08d9a6c: 1742134.021
     e6b72e8cae: 1911718.207
     6cad064424: 2008067.897
+    f4df9fb46b: 2024349.793
+    805b0a4811: 1983607.223
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12385,3 +12399,5 @@ results:
     60a08d9a6c: 2929718.164
     e6b72e8cae: 2969239.226
     6cad064424: 3065583.051
+    f4df9fb46b: 3077225.002
+    805b0a4811: 3076306.496

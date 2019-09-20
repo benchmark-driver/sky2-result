@@ -6003,3 +6003,21 @@ commits:
   740a98fe10 --jit: |-
     ruby 2.7.0dev (2019-09-20T10:12:36Z trunk 740a98fe10) +JIT [x86_64-linux]
     last_commit=Fix for explicit cast without RUBY_METHOD_FUNC
+  6e0dd3e7c1: |-
+    ruby 2.7.0dev (2019-09-20T12:06:08Z trunk 6e0dd3e7c1) [x86_64-linux]
+    last_commit=Use RUBY_VM_NEXT_CONTROL_FRAME macro
+  6e0dd3e7c1 --jit: |-
+    ruby 2.7.0dev (2019-09-20T12:06:08Z trunk 6e0dd3e7c1) +JIT [x86_64-linux]
+    last_commit=Use RUBY_VM_NEXT_CONTROL_FRAME macro
+  9e171b1fa0: |-
+    ruby 2.7.0dev (2019-09-20T12:50:33Z trunk 9e171b1fa0) [x86_64-linux]
+    last_commit=Fix wrong allocation failure handling
+  9e171b1fa0 --jit: |-
+    ruby 2.7.0dev (2019-09-20T12:50:33Z trunk 9e171b1fa0) +JIT [x86_64-linux]
+    last_commit=Fix wrong allocation failure handling
+  e81a3e6df5: |-
+    ruby 2.7.0dev (2019-09-20T13:05:54Z trunk e81a3e6df5) [x86_64-linux]
+    last_commit=Allows calling a private method only with bare `self`
+  e81a3e6df5 --jit: |-
+    ruby 2.7.0dev (2019-09-20T13:05:54Z trunk e81a3e6df5) +JIT [x86_64-linux]
+    last_commit=Allows calling a private method only with bare `self`
