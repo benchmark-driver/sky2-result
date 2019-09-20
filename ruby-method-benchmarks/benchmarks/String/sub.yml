@@ -1540,6 +1540,8 @@ results:
     3be3948870: 3435164.977
     5118aa2d58: 3343321.517
     cce6cfbe48: 3465672.066
+    9b53a69d57: 3428524.09
+    f71bd7477e: 3326603.209
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3079,6 +3081,8 @@ results:
     3be3948870: 3360097.585
     5118aa2d58: 3250044.906
     cce6cfbe48: 3327823.955
+    9b53a69d57: 3354533.259
+    f71bd7477e: 3400898.303
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4618,6 +4622,8 @@ results:
     3be3948870: 1871296.9
     5118aa2d58: 1890105.914
     cce6cfbe48: 1832014.681
+    9b53a69d57: 1926224.004
+    f71bd7477e: 1935752.449
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6157,6 +6163,8 @@ results:
     3be3948870: 2181243.584
     5118aa2d58: 2878129.599
     cce6cfbe48: 2935346.995
+    9b53a69d57: 2906982.411
+    f71bd7477e: 2732177.139
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7696,6 +7704,8 @@ results:
     3be3948870: 3681278.932
     5118aa2d58: 3626598.453
     cce6cfbe48: 3458661.055
+    9b53a69d57: 3707046.8
+    f71bd7477e: 3731142.979
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9235,6 +9245,8 @@ results:
     3be3948870: 3695023.187
     5118aa2d58: 3551430.233
     cce6cfbe48: 3430959.211
+    9b53a69d57: 3631651.445
+    f71bd7477e: 3334334.714
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10774,6 +10786,8 @@ results:
     3be3948870: 1996880.53
     5118aa2d58: 1964922.826
     cce6cfbe48: 2027100.698
+    9b53a69d57: 1948642.287
+    f71bd7477e: 2018999.708
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12313,3 +12327,5 @@ results:
     3be3948870: 3013300.637
     5118aa2d58: 3059210.796
     cce6cfbe48: 3142218.174
+    9b53a69d57: 3098158.384
+    f71bd7477e: 2663438.013
