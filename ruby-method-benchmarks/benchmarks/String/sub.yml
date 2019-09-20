@@ -1547,6 +1547,8 @@ results:
     02dfa0f163: 3449657.879
     a29ead52e1: 3204645.479
     60a08d9a6c: 3465633.685
+    e6b72e8cae: 3381979.192
+    6cad064424: 3386374.552
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3093,6 +3095,8 @@ results:
     02dfa0f163: 3366363.796
     a29ead52e1: 3366546.245
     60a08d9a6c: 3407841.06
+    e6b72e8cae: 3433876.334
+    6cad064424: 3221749.487
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4639,6 +4643,8 @@ results:
     02dfa0f163: 1896577.779
     a29ead52e1: 1861536.176
     60a08d9a6c: 1909516.585
+    e6b72e8cae: 1884828.682
+    6cad064424: 1858249.11
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6185,6 +6191,8 @@ results:
     02dfa0f163: 2811859.971
     a29ead52e1: 2671647.275
     60a08d9a6c: 2733258.508
+    e6b72e8cae: 2771274.124
+    6cad064424: 2854500.154
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7731,6 +7739,8 @@ results:
     02dfa0f163: 3732658.738
     a29ead52e1: 3687459.328
     60a08d9a6c: 3735219.692
+    e6b72e8cae: 3684053.821
+    6cad064424: 3629010.34
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9277,6 +9287,8 @@ results:
     02dfa0f163: 3646497.398
     a29ead52e1: 3559131.275
     60a08d9a6c: 3578569.958
+    e6b72e8cae: 3696586.552
+    6cad064424: 3652274.156
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10823,6 +10835,8 @@ results:
     02dfa0f163: 2000275.362
     a29ead52e1: 1986464.198
     60a08d9a6c: 1742134.021
+    e6b72e8cae: 1911718.207
+    6cad064424: 2008067.897
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12369,3 +12383,5 @@ results:
     02dfa0f163: 2987572.534
     a29ead52e1: 3071319.071
     60a08d9a6c: 2929718.164
+    e6b72e8cae: 2969239.226
+    6cad064424: 3065583.051
