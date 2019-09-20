@@ -1542,6 +1542,8 @@ results:
     cce6cfbe48: 3465672.066
     9b53a69d57: 3428524.09
     f71bd7477e: 3326603.209
+    2698f13a1f: 3340330.973
+    b4d6d9c167: 3434765.421
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3083,6 +3085,8 @@ results:
     cce6cfbe48: 3327823.955
     9b53a69d57: 3354533.259
     f71bd7477e: 3400898.303
+    2698f13a1f: 3314628.828
+    b4d6d9c167: 3357017.066
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4624,6 +4628,8 @@ results:
     cce6cfbe48: 1832014.681
     9b53a69d57: 1926224.004
     f71bd7477e: 1935752.449
+    2698f13a1f: 1823521.825
+    b4d6d9c167: 1911101.596
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6165,6 +6171,8 @@ results:
     cce6cfbe48: 2935346.995
     9b53a69d57: 2906982.411
     f71bd7477e: 2732177.139
+    2698f13a1f: 2868173.333
+    b4d6d9c167: 2780606.286
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7706,6 +7714,8 @@ results:
     cce6cfbe48: 3458661.055
     9b53a69d57: 3707046.8
     f71bd7477e: 3731142.979
+    2698f13a1f: 3645891.997
+    b4d6d9c167: 3731321.856
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9247,6 +9257,8 @@ results:
     cce6cfbe48: 3430959.211
     9b53a69d57: 3631651.445
     f71bd7477e: 3334334.714
+    2698f13a1f: 3571376.065
+    b4d6d9c167: 3660710.627
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10788,6 +10800,8 @@ results:
     cce6cfbe48: 2027100.698
     9b53a69d57: 1948642.287
     f71bd7477e: 2018999.708
+    2698f13a1f: 1882998.663
+    b4d6d9c167: 2020314.13
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12329,3 +12343,5 @@ results:
     cce6cfbe48: 3142218.174
     9b53a69d57: 3098158.384
     f71bd7477e: 2663438.013
+    2698f13a1f: 3048713.979
+    b4d6d9c167: 3016320.377
