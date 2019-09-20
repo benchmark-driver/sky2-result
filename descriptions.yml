@@ -9,102 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  ffdef3674a: |-
-    ruby 2.7.0dev (2019-08-10T04:18:41Z trunk ffdef3674a) [x86_64-linux]
-    last_commit=Warn instance variable `E`
-  ffdef3674a --jit: |-
-    ruby 2.7.0dev (2019-08-10T04:18:41Z trunk ffdef3674a) +JIT [x86_64-linux]
-    last_commit=Warn instance variable `E`
-  98c22c78e4: |-
-    ruby 2.7.0dev (2019-08-10T05:22:43Z trunk 98c22c78e4) [x86_64-linux]
-    last_commit=Expanded f_real_p
-  98c22c78e4 --jit: |-
-    ruby 2.7.0dev (2019-08-10T05:22:43Z trunk 98c22c78e4) +JIT [x86_64-linux]
-    last_commit=Expanded f_real_p
-  d69ffa4d93: |-
-    ruby 2.7.0dev (2019-08-10T05:38:30Z trunk d69ffa4d93) [x86_64-linux]
-    last_commit=Expanded f_quo
-  d69ffa4d93 --jit: |-
-    ruby 2.7.0dev (2019-08-10T05:38:30Z trunk d69ffa4d93) +JIT [x86_64-linux]
-    last_commit=Expanded f_quo
-  c5fbe2a19f: |-
-    ruby 2.7.0dev (2019-08-10T06:48:39Z trunk c5fbe2a19f) [x86_64-linux]
-    last_commit=Moved options to $travis_apt_get_options
-  c5fbe2a19f --jit: |-
-    ruby 2.7.0dev (2019-08-10T06:48:39Z trunk c5fbe2a19f) +JIT [x86_64-linux]
-    last_commit=Moved options to $travis_apt_get_options
-  5e3fb0b357: |-
-    ruby 2.7.0dev (2019-08-10T07:33:32Z trunk 5e3fb0b357) [x86_64-linux]
-    last_commit=Touch the checked out source to fix clock skew on all platform
-  5e3fb0b357 --jit: |-
-    ruby 2.7.0dev (2019-08-10T07:33:32Z trunk 5e3fb0b357) +JIT [x86_64-linux]
-    last_commit=Touch the checked out source to fix clock skew on all platform
-  9b203959d5: |-
-    ruby 2.7.0dev (2019-08-10T10:19:25Z trunk 9b203959d5) [x86_64-linux]
-    last_commit=Rename workflow.yml to macos.yml
-  9b203959d5 --jit: |-
-    ruby 2.7.0dev (2019-08-10T10:19:25Z trunk 9b203959d5) +JIT [x86_64-linux]
-    last_commit=Rename workflow.yml to macos.yml
-  e43b3bb442: |-
-    ruby 2.7.0dev (2019-08-10T10:28:10Z trunk e43b3bb442) [x86_64-linux]
-    last_commit=Skip running GitHub Actions on trunk
-  e43b3bb442 --jit: |-
-    ruby 2.7.0dev (2019-08-10T10:28:10Z trunk e43b3bb442) +JIT [x86_64-linux]
-    last_commit=Skip running GitHub Actions on trunk
-  6205f95539: |-
-    ruby 2.7.0dev (2019-08-10T10:29:39Z trunk 6205f95539) [x86_64-linux]
-    last_commit=Escape asterisk on pull request paths
-  6205f95539 --jit: |-
-    ruby 2.7.0dev (2019-08-10T10:29:39Z trunk 6205f95539) +JIT [x86_64-linux]
-    last_commit=Escape asterisk on pull request paths
-  59a8003ac5: |-
-    ruby 2.7.0dev (2019-08-10T10:33:12Z trunk 59a8003ac5) [x86_64-linux]
-    last_commit=Drop confusing label from workflow
-  59a8003ac5 --jit: |-
-    ruby 2.7.0dev (2019-08-10T10:33:12Z trunk 59a8003ac5) +JIT [x86_64-linux]
-    last_commit=Drop confusing label from workflow
-  b3903ef2a1: |-
-    ruby 2.7.0dev (2019-08-10T10:38:28Z trunk b3903ef2a1) [x86_64-linux]
-    last_commit=Set more descriptive labels to workflow
-  b3903ef2a1 --jit: |-
-    ruby 2.7.0dev (2019-08-10T10:38:28Z trunk b3903ef2a1) +JIT [x86_64-linux]
-    last_commit=Set more descriptive labels to workflow
-  a6c5ce7a9b: |-
-    ruby 2.7.0dev (2019-08-10T10:44:39Z trunk a6c5ce7a9b) [x86_64-linux]
-    last_commit=Increase the fetch-depth of GitHub Actions
-  a6c5ce7a9b --jit: |-
-    ruby 2.7.0dev (2019-08-10T10:44:39Z trunk a6c5ce7a9b) +JIT [x86_64-linux]
-    last_commit=Increase the fetch-depth of GitHub Actions
-  00e7ef7e8d: |-
-    ruby 2.7.0dev (2019-08-10T10:50:46Z trunk 00e7ef7e8d) [x86_64-linux]
-    last_commit=Suppress flags messages [ci skip]
-  00e7ef7e8d --jit: |-
-    ruby 2.7.0dev (2019-08-10T10:50:46Z trunk 00e7ef7e8d) +JIT [x86_64-linux]
-    last_commit=Suppress flags messages [ci skip]
-  c1c8577088: |-
-    ruby 2.7.0dev (2019-08-10T11:25:59Z trunk c1c8577088) [x86_64-linux]
-    last_commit=Fix wrong pull_request filter
-  c1c8577088 --jit: |-
-    ruby 2.7.0dev (2019-08-10T11:25:59Z trunk c1c8577088) +JIT [x86_64-linux]
-    last_commit=Fix wrong pull_request filter
-  52bd4716b4: |-
-    ruby 2.7.0dev (2019-08-10T14:19:24Z trunk 52bd4716b4) [x86_64-linux]
-    last_commit=rb_numeric_quo: support Complex
-  52bd4716b4 --jit: |-
-    ruby 2.7.0dev (2019-08-10T14:19:24Z trunk 52bd4716b4) +JIT [x86_64-linux]
-    last_commit=rb_numeric_quo: support Complex
-  c21c001733: |-
-    ruby 2.7.0dev (2019-08-10T14:30:50Z trunk c21c001733) [x86_64-linux]
-    last_commit=Re-enable parallel build/test on OSX
-  c21c001733 --jit: |-
-    ruby 2.7.0dev (2019-08-10T14:30:50Z trunk c21c001733) +JIT [x86_64-linux]
-    last_commit=Re-enable parallel build/test on OSX
-  '0609087a6b': |-
-    ruby 2.7.0dev (2019-08-10T14:57:20Z trunk 0609087a6b) [x86_64-linux]
-    last_commit=Parallelize osx test-all too
-  '0609087a6b --jit': |-
-    ruby 2.7.0dev (2019-08-10T14:57:20Z trunk 0609087a6b) +JIT [x86_64-linux]
-    last_commit=Parallelize osx test-all too
   46df7fe91f: |-
     ruby 2.7.0dev (2019-08-10T15:44:13Z trunk 46df7fe91f) [x86_64-linux]
     last_commit=prereq.status deals with removal of nmake VPATH notations [ci skip]
@@ -6021,3 +5925,45 @@ commits:
   e81a3e6df5 --jit: |-
     ruby 2.7.0dev (2019-09-20T13:05:54Z trunk e81a3e6df5) +JIT [x86_64-linux]
     last_commit=Allows calling a private method only with bare `self`
+  27b6746872: |-
+    ruby 2.7.0dev (2019-09-20T14:45:11Z trunk 27b6746872) [x86_64-linux]
+    last_commit=Make passing empty keywords to dig pass empty keywords to next dig method
+  27b6746872 --jit: |-
+    ruby 2.7.0dev (2019-09-20T14:45:11Z trunk 27b6746872) +JIT [x86_64-linux]
+    last_commit=Make passing empty keywords to dig pass empty keywords to next dig method
+  c9f2b790ad: |-
+    ruby 2.7.0dev (2019-09-20T14:45:18Z trunk c9f2b790ad) [x86_64-linux]
+    last_commit=Handle keyword argument separation for Enumerator#size
+  c9f2b790ad --jit: |-
+    ruby 2.7.0dev (2019-09-20T14:45:18Z trunk c9f2b790ad) +JIT [x86_64-linux]
+    last_commit=Handle keyword argument separation for Enumerator#size
+  e47b111627: |-
+    ruby 2.7.0dev (2019-09-20T14:45:29Z trunk e47b111627) [x86_64-linux]
+    last_commit=Call rb_vm_call_kw insted of rb_vm_call0 in a few cases
+  e47b111627 --jit: |-
+    ruby 2.7.0dev (2019-09-20T14:45:29Z trunk e47b111627) +JIT [x86_64-linux]
+    last_commit=Call rb_vm_call_kw insted of rb_vm_call0 in a few cases
+  fe1e623fae: |-
+    ruby 2.7.0dev (2019-09-20T14:57:20Z trunk fe1e623fae) [x86_64-linux]
+    last_commit=Fixed format specifiers
+  fe1e623fae --jit: |-
+    ruby 2.7.0dev (2019-09-20T14:57:20Z trunk fe1e623fae) +JIT [x86_64-linux]
+    last_commit=Fixed format specifiers
+  daa4ad8ed7: |-
+    ruby 2.7.0dev (2019-09-20T15:48:24Z trunk daa4ad8ed7) [x86_64-linux]
+    last_commit=Disable method definition type checks on Windows
+  daa4ad8ed7 --jit: |-
+    ruby 2.7.0dev (2019-09-20T15:48:24Z trunk daa4ad8ed7) +JIT [x86_64-linux]
+    last_commit=Disable method definition type checks on Windows
+  990e714fd3: |-
+    ruby 2.7.0dev (2019-09-20T15:48:46Z trunk 990e714fd3) [x86_64-linux]
+    last_commit=* 2019-09-21 [ci skip]
+  990e714fd3 --jit: |-
+    ruby 2.7.0dev (2019-09-20T15:48:46Z trunk 990e714fd3) +JIT [x86_64-linux]
+    last_commit=* 2019-09-21 [ci skip]
+  7aeacb213b: |-
+    ruby 2.7.0dev (2019-09-20T16:57:29Z trunk 7aeacb213b) [x86_64-linux]
+    last_commit=Revert eval.c in e81a3e6df54842b5a836dad7055a4295cf4155bc
+  7aeacb213b --jit: |-
+    ruby 2.7.0dev (2019-09-20T16:57:29Z trunk 7aeacb213b) +JIT [x86_64-linux]
+    last_commit=Revert eval.c in e81a3e6df54842b5a836dad7055a4295cf4155bc
