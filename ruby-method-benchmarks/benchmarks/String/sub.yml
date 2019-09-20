@@ -1545,6 +1545,8 @@ results:
     2698f13a1f: 3340330.973
     b4d6d9c167: 3434765.421
     02dfa0f163: 3449657.879
+    a29ead52e1: 3204645.479
+    60a08d9a6c: 3465633.685
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3089,6 +3091,8 @@ results:
     2698f13a1f: 3314628.828
     b4d6d9c167: 3357017.066
     02dfa0f163: 3366363.796
+    a29ead52e1: 3366546.245
+    60a08d9a6c: 3407841.06
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4633,6 +4637,8 @@ results:
     2698f13a1f: 1823521.825
     b4d6d9c167: 1911101.596
     02dfa0f163: 1896577.779
+    a29ead52e1: 1861536.176
+    60a08d9a6c: 1909516.585
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6177,6 +6183,8 @@ results:
     2698f13a1f: 2868173.333
     b4d6d9c167: 2780606.286
     02dfa0f163: 2811859.971
+    a29ead52e1: 2671647.275
+    60a08d9a6c: 2733258.508
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7721,6 +7729,8 @@ results:
     2698f13a1f: 3645891.997
     b4d6d9c167: 3731321.856
     02dfa0f163: 3732658.738
+    a29ead52e1: 3687459.328
+    60a08d9a6c: 3735219.692
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9265,6 +9275,8 @@ results:
     2698f13a1f: 3571376.065
     b4d6d9c167: 3660710.627
     02dfa0f163: 3646497.398
+    a29ead52e1: 3559131.275
+    60a08d9a6c: 3578569.958
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10809,6 +10821,8 @@ results:
     2698f13a1f: 1882998.663
     b4d6d9c167: 2020314.13
     02dfa0f163: 2000275.362
+    a29ead52e1: 1986464.198
+    60a08d9a6c: 1742134.021
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12353,3 +12367,5 @@ results:
     2698f13a1f: 3048713.979
     b4d6d9c167: 3016320.377
     02dfa0f163: 2987572.534
+    a29ead52e1: 3071319.071
+    60a08d9a6c: 2929718.164

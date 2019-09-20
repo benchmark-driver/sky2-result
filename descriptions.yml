@@ -9,84 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  8d7e0159c0: |-
-    ruby 2.7.0dev (2019-08-09T15:04:06Z trunk 8d7e0159c0) [x86_64-linux]
-    last_commit=* 2019-08-10
-  8d7e0159c0 --jit: |-
-    ruby 2.7.0dev (2019-08-09T15:04:06Z trunk 8d7e0159c0) +JIT [x86_64-linux]
-    last_commit=* 2019-08-10
-  88db6fa479: |-
-    ruby 2.7.0dev (2019-08-09T16:04:39Z trunk 88db6fa479) [x86_64-linux]
-    last_commit=Use ENC_REPLICATE to copy an encoding
-  88db6fa479 --jit: |-
-    ruby 2.7.0dev (2019-08-09T16:04:39Z trunk 88db6fa479) +JIT [x86_64-linux]
-    last_commit=Use ENC_REPLICATE to copy an encoding
-  cecae8593a: |-
-    ruby 2.7.0dev (2019-08-09T16:05:09Z trunk cecae8593a) [x86_64-linux]
-    last_commit=Removed unnecessary headers
-  cecae8593a --jit: |-
-    ruby 2.7.0dev (2019-08-09T16:05:09Z trunk cecae8593a) +JIT [x86_64-linux]
-    last_commit=Removed unnecessary headers
-  53b3be5d58: |-
-    ruby 2.7.0dev (2019-08-09T16:25:30Z trunk 53b3be5d58) [x86_64-linux]
-    last_commit=Fix parsing of mutiple assignment with rescue modifier
-  53b3be5d58 --jit: |-
-    ruby 2.7.0dev (2019-08-09T16:25:30Z trunk 53b3be5d58) +JIT [x86_64-linux]
-    last_commit=Fix parsing of mutiple assignment with rescue modifier
-  162cf2879a: |-
-    ruby 2.7.0dev (2019-08-09T16:41:50Z trunk 162cf2879a) [x86_64-linux]
-    last_commit=Init function is need to link statically
-  162cf2879a --jit: |-
-    ruby 2.7.0dev (2019-08-09T16:41:50Z trunk 162cf2879a) +JIT [x86_64-linux]
-    last_commit=Init function is need to link statically
-  b1678338e5: |-
-    ruby 2.7.0dev (2019-08-09T23:23:49Z trunk b1678338e5) [x86_64-linux]
-    last_commit=Fix typo: duplicated the [skip-ci]
-  b1678338e5 --jit: |-
-    ruby 2.7.0dev (2019-08-09T23:23:49Z trunk b1678338e5) +JIT [x86_64-linux]
-    last_commit=Fix typo: duplicated the [skip-ci]
-  9d298b9dab: |-
-    ruby 2.7.0dev (2019-08-09T23:33:53Z trunk 9d298b9dab) [x86_64-linux]
-    last_commit=Allow Array#join to allocate smaller strings
-  9d298b9dab --jit: |-
-    ruby 2.7.0dev (2019-08-09T23:33:53Z trunk 9d298b9dab) +JIT [x86_64-linux]
-    last_commit=Allow Array#join to allocate smaller strings
-  789776be08: |-
-    ruby 2.7.0dev (2019-08-10T00:06:07Z trunk 789776be08) [x86_64-linux]
-    last_commit=Added some examples to the documentation for String#unpack1 because there are currently no examples and to contrast with String#unpack.
-  789776be08 --jit: |-
-    ruby 2.7.0dev (2019-08-10T00:06:07Z trunk 789776be08) +JIT [x86_64-linux]
-    last_commit=Added some examples to the documentation for String#unpack1 because there are currently no examples and to contrast with String#unpack.
-  49f88eb2f1: |-
-    ruby 2.7.0dev (2019-08-10T00:34:13Z trunk 49f88eb2f1) [x86_64-linux]
-    last_commit=Try building workflow on push
-  49f88eb2f1 --jit: |-
-    ruby 2.7.0dev (2019-08-10T00:34:13Z trunk 49f88eb2f1) +JIT [x86_64-linux]
-    last_commit=Try building workflow on push
-  '6902824729': |-
-    ruby 2.7.0dev (2019-08-10T00:35:28Z trunk 6902824729) [x86_64-linux]
-    last_commit=Fix typo in comment [ci skip]
-  6902824729 --jit: |-
-    ruby 2.7.0dev (2019-08-10T00:35:28Z trunk 6902824729) +JIT [x86_64-linux]
-    last_commit=Fix typo in comment [ci skip]
-  07e42e88d9: |-
-    ruby 2.7.0dev (2019-08-10T02:26:23Z trunk 07e42e88d9) [x86_64-linux]
-    last_commit=Close created files [ci skip]
-  07e42e88d9 --jit: |-
-    ruby 2.7.0dev (2019-08-10T02:26:23Z trunk 07e42e88d9) +JIT [x86_64-linux]
-    last_commit=Close created files [ci skip]
-  ab31693af1: |-
-    ruby 2.7.0dev (2019-08-10T02:38:49Z trunk ab31693af1) [x86_64-linux]
-    last_commit=Share caches for short encoding ivar name.
-  ab31693af1 --jit: |-
-    ruby 2.7.0dev (2019-08-10T02:38:49Z trunk ab31693af1) +JIT [x86_64-linux]
-    last_commit=Share caches for short encoding ivar name.
-  3c3783ac88: |-
-    ruby 2.7.0dev (2019-08-10T02:43:07Z trunk 3c3783ac88) [x86_64-linux]
-    last_commit=* expand tabs.
-  3c3783ac88 --jit: |-
-    ruby 2.7.0dev (2019-08-10T02:43:07Z trunk 3c3783ac88) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
   ffdef3674a: |-
     ruby 2.7.0dev (2019-08-10T04:18:41Z trunk ffdef3674a) [x86_64-linux]
     last_commit=Warn instance variable `E`
@@ -6021,3 +5943,27 @@ commits:
   67a6662032 --jit: |-
     ruby 2.7.0dev (2019-09-20T03:43:11Z trunk 67a6662032) +JIT [x86_64-linux]
     last_commit=Removed Scanf from the ruby repository.
+  3b56a0934f: |-
+    ruby 2.7.0dev (2019-09-20T03:56:18Z trunk 3b56a0934f) [x86_64-linux]
+    last_commit=Removed Shell from the ruby repository.
+  3b56a0934f --jit: |-
+    ruby 2.7.0dev (2019-09-20T03:56:18Z trunk 3b56a0934f) +JIT [x86_64-linux]
+    last_commit=Removed Shell from the ruby repository.
+  37c0839425: |-
+    ruby 2.7.0dev (2019-09-20T05:06:22Z trunk 37c0839425) [x86_64-linux]
+    last_commit=Removed Synchronizer from the ruby repository.
+  37c0839425 --jit: |-
+    ruby 2.7.0dev (2019-09-20T05:06:22Z trunk 37c0839425) +JIT [x86_64-linux]
+    last_commit=Removed Synchronizer from the ruby repository.
+  9d25c652a9: |-
+    ruby 2.7.0dev (2019-09-20T05:21:04Z trunk 9d25c652a9) [x86_64-linux]
+    last_commit=Removed ThreadsWait from the ruby repository
+  9d25c652a9 --jit: |-
+    ruby 2.7.0dev (2019-09-20T05:21:04Z trunk 9d25c652a9) +JIT [x86_64-linux]
+    last_commit=Removed ThreadsWait from the ruby repository
+  1de242de0f: |-
+    ruby 2.7.0dev (2019-09-20T05:22:32Z trunk 1de242de0f) [x86_64-linux]
+    last_commit=Fixed up 37c083942509dd7e0d8b7ccd3575936a2017c400
+  1de242de0f --jit: |-
+    ruby 2.7.0dev (2019-09-20T05:22:32Z trunk 1de242de0f) +JIT [x86_64-linux]
+    last_commit=Fixed up 37c083942509dd7e0d8b7ccd3575936a2017c400
