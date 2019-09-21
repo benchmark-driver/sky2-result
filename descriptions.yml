@@ -5985,3 +5985,9 @@ commits:
   b414999370 --jit: |-
     ruby 2.7.0dev (2019-09-21T07:09:52Z trunk b414999370) +JIT [x86_64-linux]
     last_commit=Add a benchmark for JIT-ed code dispatch
+  5cb283217b: |-
+    ruby 2.7.0dev (2019-09-21T10:23:47Z trunk 5cb283217b) [x86_64-linux]
+    last_commit=test/ruby/test_assignment.rb: use bug number for assert message
+  5cb283217b --jit: |-
+    ruby 2.7.0dev (2019-09-21T10:23:47Z trunk 5cb283217b) +JIT [x86_64-linux]
+    last_commit=test/ruby/test_assignment.rb: use bug number for assert message
