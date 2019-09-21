@@ -5973,3 +5973,9 @@ commits:
   27144de2bd --jit: |-
     ruby 2.7.0dev (2019-09-20T19:18:07Z trunk 27144de2bd) +JIT [x86_64-linux]
     last_commit=Fix documentation for ENV.each to return ENV
+  e006b992c2: |-
+    ruby 2.7.0dev (2019-09-21T04:24:58Z trunk e006b992c2) [x86_64-linux]
+    last_commit=typedef rb_jmpbuf_t to void *[5] if __builtin_setjmp is used
+  e006b992c2 --jit: |-
+    ruby 2.7.0dev (2019-09-21T04:24:58Z trunk e006b992c2) +JIT [x86_64-linux]
+    last_commit=typedef rb_jmpbuf_t to void *[5] if __builtin_setjmp is used
