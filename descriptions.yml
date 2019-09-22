@@ -5991,3 +5991,21 @@ commits:
   5cb283217b --jit: |-
     ruby 2.7.0dev (2019-09-21T10:23:47Z trunk 5cb283217b) +JIT [x86_64-linux]
     last_commit=test/ruby/test_assignment.rb: use bug number for assert message
+  7470f96565: |-
+    ruby 2.7.0dev (2019-09-21T23:10:18Z trunk 7470f96565) [x86_64-linux]
+    last_commit=Fix Module#class_variables for singleton classes of classes/modules
+  7470f96565 --jit: |-
+    ruby 2.7.0dev (2019-09-21T23:10:18Z trunk 7470f96565) +JIT [x86_64-linux]
+    last_commit=Fix Module#class_variables for singleton classes of classes/modules
+  2e551356a7: |-
+    ruby 2.7.0dev (2019-09-21T23:10:37Z trunk 2e551356a7) [x86_64-linux]
+    last_commit=Make Kernel#{Pathname,BigDecimal,Complex} return argument if given correct type
+  2e551356a7 --jit: |-
+    ruby 2.7.0dev (2019-09-21T23:10:37Z trunk 2e551356a7) +JIT [x86_64-linux]
+    last_commit=Make Kernel#{Pathname,BigDecimal,Complex} return argument if given correct type
+  c020fd6aa8: |-
+    ruby 2.7.0dev (2019-09-21T23:10:56Z trunk c020fd6aa8) [x86_64-linux]
+    last_commit=* 2019-09-22 [ci skip]
+  c020fd6aa8 --jit: |-
+    ruby 2.7.0dev (2019-09-21T23:10:56Z trunk c020fd6aa8) +JIT [x86_64-linux]
+    last_commit=* 2019-09-22 [ci skip]
