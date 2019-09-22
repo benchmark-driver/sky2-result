@@ -5979,3 +5979,9 @@ commits:
   2272efa463 --jit: |-
     ruby 2.7.0dev (2019-09-22T07:39:47Z trunk 2272efa463) +JIT [x86_64-linux]
     last_commit=st.c (st_add_direct_with_hash): make it "static inline"
+  5f35b8ca30: |-
+    ruby 2.7.0dev (2019-09-22T13:12:18Z trunk 5f35b8ca30) [x86_64-linux]
+    last_commit=st.c: Use rb_st_* prefix instead of st_* (#2479)
+  5f35b8ca30 --jit: |-
+    ruby 2.7.0dev (2019-09-22T13:12:18Z trunk 5f35b8ca30) +JIT [x86_64-linux]
+    last_commit=st.c: Use rb_st_* prefix instead of st_* (#2479)
