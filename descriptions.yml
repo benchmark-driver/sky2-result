@@ -5985,3 +5985,33 @@ commits:
   5f35b8ca30 --jit: |-
     ruby 2.7.0dev (2019-09-22T13:12:18Z trunk 5f35b8ca30) +JIT [x86_64-linux]
     last_commit=st.c: Use rb_st_* prefix instead of st_* (#2479)
+  7fe7dec7e5: |-
+    ruby 2.7.0dev (2019-09-22T13:18:14Z trunk 7fe7dec7e5) [x86_64-linux]
+    last_commit=make-snapshot: Do not save extra file attributes
+  7fe7dec7e5 --jit: |-
+    ruby 2.7.0dev (2019-09-22T13:18:14Z trunk 7fe7dec7e5) +JIT [x86_64-linux]
+    last_commit=make-snapshot: Do not save extra file attributes
+  b0d24e262f: |-
+    ruby 2.7.0dev (2019-09-22T13:26:07Z trunk b0d24e262f) [x86_64-linux]
+    last_commit=make-snapshot: Added -no7z option
+  b0d24e262f --jit: |-
+    ruby 2.7.0dev (2019-09-22T13:26:07Z trunk b0d24e262f) +JIT [x86_64-linux]
+    last_commit=make-snapshot: Added -no7z option
+  d8221a54f2: |-
+    ruby 2.7.0dev (2019-09-22T15:55:48Z trunk d8221a54f2) [x86_64-linux]
+    last_commit=Add `-mtc=off` to `7z` not to store NTFS timestamps
+  d8221a54f2 --jit: |-
+    ruby 2.7.0dev (2019-09-22T15:55:48Z trunk d8221a54f2) +JIT [x86_64-linux]
+    last_commit=Add `-mtc=off` to `7z` not to store NTFS timestamps
+  2afe86e4be: |-
+    ruby 2.7.0dev (2019-09-22T16:04:25Z trunk 2afe86e4be) [x86_64-linux]
+    last_commit=* 2019-09-23 [ci skip]
+  2afe86e4be --jit: |-
+    ruby 2.7.0dev (2019-09-22T16:04:25Z trunk 2afe86e4be) +JIT [x86_64-linux]
+    last_commit=* 2019-09-23 [ci skip]
+  642dbb962c: |-
+    ruby 2.7.0dev (2019-09-22T16:25:17Z trunk 642dbb962c) [x86_64-linux]
+    last_commit=make-snapshot: store timestamps in UTC for zip which lacks timezone
+  642dbb962c --jit: |-
+    ruby 2.7.0dev (2019-09-22T16:25:17Z trunk 642dbb962c) +JIT [x86_64-linux]
+    last_commit=make-snapshot: store timestamps in UTC for zip which lacks timezone

@@ -1572,6 +1572,8 @@ results:
     84dca8eff0: 3444950.765
     365e5b38a9: 3419081.026
     619f82bb6b: 3355710.166
+    d5b917d500: 3442603.266
+    2a166cfea2: 3375709.336
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3143,6 +3145,8 @@ results:
     84dca8eff0: 3383273.146
     365e5b38a9: 3100009.008
     619f82bb6b: 3403277.28
+    d5b917d500: 3426599.908
+    2a166cfea2: 3345185.792
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4714,6 +4718,8 @@ results:
     84dca8eff0: 1896227.342
     365e5b38a9: 1935300.738
     619f82bb6b: 1742635.312
+    d5b917d500: 1913170.5
+    2a166cfea2: 1919589.593
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6285,6 +6291,8 @@ results:
     84dca8eff0: 2800497.837
     365e5b38a9: 2805004.133
     619f82bb6b: 2741224.468
+    d5b917d500: 2841910.079
+    2a166cfea2: 2642772.323
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7856,6 +7864,8 @@ results:
     84dca8eff0: 3741579.206
     365e5b38a9: 3709779.349
     619f82bb6b: 3733851.513
+    d5b917d500: 3742141.827
+    2a166cfea2: 3661952.752
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9427,6 +9437,8 @@ results:
     84dca8eff0: 3681993.852
     365e5b38a9: 3576986.215
     619f82bb6b: 3693506.181
+    d5b917d500: 3707783.531
+    2a166cfea2: 3606315.705
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10998,6 +11010,8 @@ results:
     84dca8eff0: 2019357.363
     365e5b38a9: 2025813.083
     619f82bb6b: 1984209.705
+    d5b917d500: 2023965.603
+    2a166cfea2: 1977821.721
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12569,3 +12583,5 @@ results:
     84dca8eff0: 2991851.562
     365e5b38a9: 2995398.213
     619f82bb6b: 3003101.459
+    d5b917d500: 3028031.011
+    2a166cfea2: 3064452.392
