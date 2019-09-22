@@ -1566,6 +1566,8 @@ results:
     2fb723b8af: 3446564.013
     68ffb679d4: 3341313.634
     7704bbd640: 3312569.436
+    1f18b578ce: 3374247.586
+    e3fc30564e: 3466910.626
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3131,6 +3133,8 @@ results:
     2fb723b8af: 3386212.546
     68ffb679d4: 2994330.13
     7704bbd640: 3360786.515
+    1f18b578ce: 3372261.043
+    e3fc30564e: 3439400.343
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4696,6 +4700,8 @@ results:
     2fb723b8af: 1873506.62
     68ffb679d4: 1855438.232
     7704bbd640: 1776419.088
+    1f18b578ce: 1931079.129
+    e3fc30564e: 1925576.65
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6261,6 +6267,8 @@ results:
     2fb723b8af: 2791437.129
     68ffb679d4: 2771623.924
     7704bbd640: 2816930.157
+    1f18b578ce: 2791814.478
+    e3fc30564e: 2815138.941
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -7826,6 +7834,8 @@ results:
     2fb723b8af: 3747228.687
     68ffb679d4: 3672348.999
     7704bbd640: 3719774.318
+    1f18b578ce: 3698586.862
+    e3fc30564e: 3772943.13
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9391,6 +9401,8 @@ results:
     2fb723b8af: 3676870.931
     68ffb679d4: 3664920.081
     7704bbd640: 3695997.45
+    1f18b578ce: 3678772.411
+    e3fc30564e: 3693973.447
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -10956,6 +10968,8 @@ results:
     2fb723b8af: 1729292.891
     68ffb679d4: 2002213.943
     7704bbd640: 1850933.568
+    1f18b578ce: 2007320.952
+    e3fc30564e: 1999071.405
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12521,3 +12535,5 @@ results:
     2fb723b8af: 2982549.26
     68ffb679d4: 2960991.966
     7704bbd640: 2989403.302
+    1f18b578ce: 2991075.012
+    e3fc30564e: 3007275.268

@@ -9,60 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  46df7fe91f: |-
-    ruby 2.7.0dev (2019-08-10T15:44:13Z trunk 46df7fe91f) [x86_64-linux]
-    last_commit=prereq.status deals with removal of nmake VPATH notations [ci skip]
-  46df7fe91f --jit: |-
-    ruby 2.7.0dev (2019-08-10T15:44:13Z trunk 46df7fe91f) +JIT [x86_64-linux]
-    last_commit=prereq.status deals with removal of nmake VPATH notations [ci skip]
-  d29bccb39b: |-
-    ruby 2.7.0dev (2019-08-10T15:44:13Z trunk d29bccb39b) [x86_64-linux]
-    last_commit=Adjust indent [ci skip]
-  d29bccb39b --jit: |-
-    ruby 2.7.0dev (2019-08-10T15:44:13Z trunk d29bccb39b) +JIT [x86_64-linux]
-    last_commit=Adjust indent [ci skip]
-  7ee948c3a1: |-
-    ruby 2.7.0dev (2019-08-10T15:45:23Z trunk 7ee948c3a1) [x86_64-linux]
-    last_commit=* 2019-08-11
-  7ee948c3a1 --jit: |-
-    ruby 2.7.0dev (2019-08-10T15:45:23Z trunk 7ee948c3a1) +JIT [x86_64-linux]
-    last_commit=* 2019-08-11
-  2990c2cc3e: |-
-    ruby 2.7.0dev (2019-08-10T21:14:01Z trunk 2990c2cc3e) [x86_64-linux]
-    last_commit=Use capture_output instead of capture_io.
-  2990c2cc3e --jit: |-
-    ruby 2.7.0dev (2019-08-10T21:14:01Z trunk 2990c2cc3e) +JIT [x86_64-linux]
-    last_commit=Use capture_output instead of capture_io.
-  f731cc0984: |-
-    ruby 2.7.0dev (2019-08-11T01:15:05Z trunk f731cc0984) [x86_64-linux]
-    last_commit=Use `end_with?` instead of Regexp with missing escape
-  f731cc0984 --jit: |-
-    ruby 2.7.0dev (2019-08-11T01:15:05Z trunk f731cc0984) +JIT [x86_64-linux]
-    last_commit=Use `end_with?` instead of Regexp with missing escape
-  6017e81b03: |-
-    ruby 2.7.0dev (2019-08-11T02:01:39Z trunk 6017e81b03) [x86_64-linux]
-    last_commit=Update power_assert to 1.1.5
-  6017e81b03 --jit: |-
-    ruby 2.7.0dev (2019-08-11T02:01:39Z trunk 6017e81b03) +JIT [x86_64-linux]
-    last_commit=Update power_assert to 1.1.5
-  e7996e0fd6: |-
-    ruby 2.7.0dev (2019-08-11T03:17:22Z trunk e7996e0fd6) [x86_64-linux]
-    last_commit=Try to migrate test-bundler to Actions.
-  e7996e0fd6 --jit: |-
-    ruby 2.7.0dev (2019-08-11T03:17:22Z trunk e7996e0fd6) +JIT [x86_64-linux]
-    last_commit=Try to migrate test-bundler to Actions.
-  c685679e25: |-
-    ruby 2.7.0dev (2019-08-11T03:17:22Z trunk c685679e25) [x86_64-linux]
-    last_commit=Use check.
-  c685679e25 --jit: |-
-    ruby 2.7.0dev (2019-08-11T03:17:22Z trunk c685679e25) +JIT [x86_64-linux]
-    last_commit=Use check.
-  bb2f24251f: |-
-    ruby 2.7.0dev (2019-08-11T03:17:22Z trunk bb2f24251f) [x86_64-linux]
-    last_commit=GitHub Actions does not support ANSI color code. Skip failing examples.
-  bb2f24251f --jit: |-
-    ruby 2.7.0dev (2019-08-11T03:17:22Z trunk bb2f24251f) +JIT [x86_64-linux]
-    last_commit=GitHub Actions does not support ANSI color code. Skip failing examples.
   91fcd87f5c: |-
     ruby 2.7.0dev (2019-08-11T03:17:22Z trunk 91fcd87f5c) [x86_64-linux]
     last_commit=Increase fetch-depth
