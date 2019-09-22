@@ -6009,3 +6009,15 @@ commits:
   c020fd6aa8 --jit: |-
     ruby 2.7.0dev (2019-09-21T23:10:56Z trunk c020fd6aa8) +JIT [x86_64-linux]
     last_commit=* 2019-09-22 [ci skip]
+  a0ce0b6297: |-
+    ruby 2.7.0dev (2019-09-22T01:11:51Z trunk a0ce0b6297) [x86_64-linux]
+    last_commit=Add `if: always()` because 2.4.x's `make check` failed on snapshot [ci skip]
+  a0ce0b6297 --jit: |-
+    ruby 2.7.0dev (2019-09-22T01:11:51Z trunk a0ce0b6297) +JIT [x86_64-linux]
+    last_commit=Add `if: always()` because 2.4.x's `make check` failed on snapshot [ci skip]
+  b4c328bebc: |-
+    ruby 2.7.0dev (2019-09-22T02:55:00Z trunk b4c328bebc) [x86_64-linux]
+    last_commit=test/bigdecimal/test_bigdecimal.rb: Use BigDecimal()
+  b4c328bebc --jit: |-
+    ruby 2.7.0dev (2019-09-22T02:55:00Z trunk b4c328bebc) +JIT [x86_64-linux]
+    last_commit=test/bigdecimal/test_bigdecimal.rb: Use BigDecimal()
