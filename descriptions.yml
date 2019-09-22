@@ -5967,3 +5967,15 @@ commits:
   b4c328bebc --jit: |-
     ruby 2.7.0dev (2019-09-22T02:55:00Z trunk b4c328bebc) +JIT [x86_64-linux]
     last_commit=test/bigdecimal/test_bigdecimal.rb: Use BigDecimal()
+  28eefb33c8: |-
+    ruby 2.7.0dev (2019-09-22T07:21:26Z trunk 28eefb33c8) [x86_64-linux]
+    last_commit=variable.c: Rename rb_st_copy to rb_iv_tbl_copy
+  28eefb33c8 --jit: |-
+    ruby 2.7.0dev (2019-09-22T07:21:26Z trunk 28eefb33c8) +JIT [x86_64-linux]
+    last_commit=variable.c: Rename rb_st_copy to rb_iv_tbl_copy
+  2272efa463: |-
+    ruby 2.7.0dev (2019-09-22T07:39:47Z trunk 2272efa463) [x86_64-linux]
+    last_commit=st.c (st_add_direct_with_hash): make it "static inline"
+  2272efa463 --jit: |-
+    ruby 2.7.0dev (2019-09-22T07:39:47Z trunk 2272efa463) +JIT [x86_64-linux]
+    last_commit=st.c (st_add_direct_with_hash): make it "static inline"
