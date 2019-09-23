@@ -5967,3 +5967,15 @@ commits:
   142efba93e --jit: |-
     ruby 2.7.0dev (2019-09-22T17:21:54Z trunk 142efba93e) +JIT [x86_64-linux]
     last_commit=Adjusted directives order of a function [ci skip]
+  934507472c: |-
+    ruby 2.7.0dev (2019-09-23T08:27:01Z trunk 934507472c) [x86_64-linux]
+    last_commit=Retrieve key-buffer that was supposed to lose
+  934507472c --jit: |-
+    ruby 2.7.0dev (2019-09-23T08:27:01Z trunk 934507472c) +JIT [x86_64-linux]
+    last_commit=Retrieve key-buffer that was supposed to lose
+  b443bdbdb9: |-
+    ruby 2.7.0dev (2019-09-23T08:33:25Z trunk b443bdbdb9) [x86_64-linux]
+    last_commit=Use short wait for select(2)
+  b443bdbdb9 --jit: |-
+    ruby 2.7.0dev (2019-09-23T08:33:25Z trunk b443bdbdb9) +JIT [x86_64-linux]
+    last_commit=Use short wait for select(2)
