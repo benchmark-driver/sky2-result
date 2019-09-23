@@ -9,66 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  91fcd87f5c: |-
-    ruby 2.7.0dev (2019-08-11T03:17:22Z trunk 91fcd87f5c) [x86_64-linux]
-    last_commit=Increase fetch-depth
-  91fcd87f5c --jit: |-
-    ruby 2.7.0dev (2019-08-11T03:17:22Z trunk 91fcd87f5c) +JIT [x86_64-linux]
-    last_commit=Increase fetch-depth
-  053bee64cb: |-
-    ruby 2.7.0dev (2019-08-11T03:17:22Z trunk 053bee64cb) [x86_64-linux]
-    last_commit=Cleanup the duplicated tasks on Azure Pipelines.
-  053bee64cb --jit: |-
-    ruby 2.7.0dev (2019-08-11T03:17:22Z trunk 053bee64cb) +JIT [x86_64-linux]
-    last_commit=Cleanup the duplicated tasks on Azure Pipelines.
-  1c7eadf754: |-
-    ruby 2.7.0dev (2019-08-11T05:15:49Z trunk 1c7eadf754) [x86_64-linux]
-    last_commit=Debug which test hangs on mswin
-  1c7eadf754 --jit: |-
-    ruby 2.7.0dev (2019-08-11T05:15:49Z trunk 1c7eadf754) +JIT [x86_64-linux]
-    last_commit=Debug which test hangs on mswin
-  51d9d0f888: |-
-    ruby 2.7.0dev (2019-08-11T06:47:39Z trunk 51d9d0f888) [x86_64-linux]
-    last_commit=Use already fetched pull request [ci skip]
-  51d9d0f888 --jit: |-
-    ruby 2.7.0dev (2019-08-11T06:47:39Z trunk 51d9d0f888) +JIT [x86_64-linux]
-    last_commit=Use already fetched pull request [ci skip]
-  9fe7e042f5: |-
-    ruby 2.7.0dev (2019-08-11T07:20:11Z trunk 9fe7e042f5) [x86_64-linux]
-    last_commit=Note the reference to the pull request [ci skip]
-  9fe7e042f5 --jit: |-
-    ruby 2.7.0dev (2019-08-11T07:20:11Z trunk 9fe7e042f5) +JIT [x86_64-linux]
-    last_commit=Note the reference to the pull request [ci skip]
-  11a09d78c1: |-
-    ruby 2.7.0dev (2019-08-12T03:01:39Z trunk 11a09d78c1) [x86_64-linux]
-    last_commit=Port ubuntu workflow based on macos
-  11a09d78c1 --jit: |-
-    ruby 2.7.0dev (2019-08-12T03:01:39Z trunk 11a09d78c1) +JIT [x86_64-linux]
-    last_commit=Port ubuntu workflow based on macos
-  cfb192a7b9: |-
-    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk cfb192a7b9) [x86_64-linux]
-    last_commit=Added test-bundled-gems to GitHub Actions
-  cfb192a7b9 --jit: |-
-    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk cfb192a7b9) +JIT [x86_64-linux]
-    last_commit=Added test-bundled-gems to GitHub Actions
-  fc97aa9313: |-
-    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk fc97aa9313) [x86_64-linux]
-    last_commit=Fixed the world writable dirs on Ubuntu environment.
-  fc97aa9313 --jit: |-
-    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk fc97aa9313) +JIT [x86_64-linux]
-    last_commit=Fixed the world writable dirs on Ubuntu environment.
-  e96321d006: |-
-    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk e96321d006) [x86_64-linux]
-    last_commit=Removed make check
-  e96321d006 --jit: |-
-    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk e96321d006) +JIT [x86_64-linux]
-    last_commit=Removed make check
-  8a8f680f01: |-
-    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk 8a8f680f01) [x86_64-linux]
-    last_commit=Re-use GITHUB_ACTION variables for filtering bundler examples.
-  8a8f680f01 --jit: |-
-    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk 8a8f680f01) +JIT [x86_64-linux]
-    last_commit=Re-use GITHUB_ACTION variables for filtering bundler examples.
   ed9d59afc8: |-
     ruby 2.7.0dev (2019-08-12T03:14:39Z trunk ed9d59afc8) [x86_64-linux]
     last_commit=Added example filter for Linux of GitHub Actions.
@@ -6015,3 +5955,15 @@ commits:
   642dbb962c --jit: |-
     ruby 2.7.0dev (2019-09-22T16:25:17Z trunk 642dbb962c) +JIT [x86_64-linux]
     last_commit=make-snapshot: store timestamps in UTC for zip which lacks timezone
+  cadfaacb25: |-
+    ruby 2.7.0dev (2019-09-22T17:14:44Z trunk cadfaacb25) [x86_64-linux]
+    last_commit=Lazy init thread local storage
+  cadfaacb25 --jit: |-
+    ruby 2.7.0dev (2019-09-22T17:14:44Z trunk cadfaacb25) +JIT [x86_64-linux]
+    last_commit=Lazy init thread local storage
+  142efba93e: |-
+    ruby 2.7.0dev (2019-09-22T17:21:54Z trunk 142efba93e) [x86_64-linux]
+    last_commit=Adjusted directives order of a function [ci skip]
+  142efba93e --jit: |-
+    ruby 2.7.0dev (2019-09-22T17:21:54Z trunk 142efba93e) +JIT [x86_64-linux]
+    last_commit=Adjusted directives order of a function [ci skip]
