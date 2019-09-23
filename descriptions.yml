@@ -5991,3 +5991,15 @@ commits:
   9e4be78ea8 --jit: |-
     ruby 2.7.0dev (2019-09-23T10:29:36Z trunk 9e4be78ea8) +JIT [x86_64-linux]
     last_commit=[ruby/io-console] Try fallback to stdout when stdin
+  74e33662fe: |-
+    ruby 2.7.0dev (2019-09-23T16:28:27Z trunk 74e33662fe) [x86_64-linux]
+    last_commit=Make public_send and rb_f_send handle keyword argument separation
+  74e33662fe --jit: |-
+    ruby 2.7.0dev (2019-09-23T16:28:27Z trunk 74e33662fe) +JIT [x86_64-linux]
+    last_commit=Make public_send and rb_f_send handle keyword argument separation
+  e561e4a8f3: |-
+    ruby 2.7.0dev (2019-09-23T16:28:48Z trunk e561e4a8f3) [x86_64-linux]
+    last_commit=* 2019-09-24 [ci skip]
+  e561e4a8f3 --jit: |-
+    ruby 2.7.0dev (2019-09-23T16:28:48Z trunk e561e4a8f3) +JIT [x86_64-linux]
+    last_commit=* 2019-09-24 [ci skip]
