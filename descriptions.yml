@@ -5979,3 +5979,15 @@ commits:
   b443bdbdb9 --jit: |-
     ruby 2.7.0dev (2019-09-23T08:33:25Z trunk b443bdbdb9) +JIT [x86_64-linux]
     last_commit=Use short wait for select(2)
+  8487193b10: |-
+    ruby 2.7.0dev (2019-09-23T10:24:43Z trunk 8487193b10) [x86_64-linux]
+    last_commit=[ruby/io-console] Try to write DSR query to writable IO
+  8487193b10 --jit: |-
+    ruby 2.7.0dev (2019-09-23T10:24:43Z trunk 8487193b10) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Try to write DSR query to writable IO
+  9e4be78ea8: |-
+    ruby 2.7.0dev (2019-09-23T10:29:36Z trunk 9e4be78ea8) [x86_64-linux]
+    last_commit=[ruby/io-console] Try fallback to stdout when stdin
+  9e4be78ea8 --jit: |-
+    ruby 2.7.0dev (2019-09-23T10:29:36Z trunk 9e4be78ea8) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Try fallback to stdout when stdin
