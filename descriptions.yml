@@ -9,54 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  765cc17c08: |-
-    ruby 2.7.0dev (2019-08-12T07:11:54Z trunk 765cc17c08) [x86_64-linux]
-    last_commit=Update IRB man page
-  765cc17c08 --jit: |-
-    ruby 2.7.0dev (2019-08-12T07:11:54Z trunk 765cc17c08) +JIT [x86_64-linux]
-    last_commit=Update IRB man page
-  d5250808e1: |-
-    ruby 2.7.0dev (2019-08-12T07:37:47Z trunk d5250808e1) [x86_64-linux]
-    last_commit=Try testing openssl@1.1 on GitHub Actions
-  d5250808e1 --jit: |-
-    ruby 2.7.0dev (2019-08-12T07:37:47Z trunk d5250808e1) +JIT [x86_64-linux]
-    last_commit=Try testing openssl@1.1 on GitHub Actions
-  5ee11a95ff: |-
-    ruby 2.7.0dev (2019-08-12T08:44:03Z trunk 5ee11a95ff) [x86_64-linux]
-    last_commit=Roughly retry `brew update` on GitHub Actions
-  5ee11a95ff --jit: |-
-    ruby 2.7.0dev (2019-08-12T08:44:03Z trunk 5ee11a95ff) +JIT [x86_64-linux]
-    last_commit=Roughly retry `brew update` on GitHub Actions
-  927a43a503: |-
-    ruby 2.7.0dev (2019-08-12T08:46:16Z trunk 927a43a503) [x86_64-linux]
-    last_commit=Drop unused ccache
-  927a43a503 --jit: |-
-    ruby 2.7.0dev (2019-08-12T08:46:16Z trunk 927a43a503) +JIT [x86_64-linux]
-    last_commit=Drop unused ccache
-  5edf921e9b: |-
-    ruby 2.7.0dev (2019-08-12T08:55:57Z trunk 5edf921e9b) [x86_64-linux]
-    last_commit=Revert "Roughly retry `brew update` on GitHub Actions"
-  5edf921e9b --jit: |-
-    ruby 2.7.0dev (2019-08-12T08:55:57Z trunk 5edf921e9b) +JIT [x86_64-linux]
-    last_commit=Revert "Roughly retry `brew update` on GitHub Actions"
-  066a3498c6: |-
-    ruby 2.7.0dev (2019-08-12T10:02:55Z trunk 066a3498c6) [x86_64-linux]
-    last_commit=Include commits notes in ChangeLog
-  066a3498c6 --jit: |-
-    ruby 2.7.0dev (2019-08-12T10:02:55Z trunk 066a3498c6) +JIT [x86_64-linux]
-    last_commit=Include commits notes in ChangeLog
-  f9149c5596: |-
-    ruby 2.7.0dev (2019-08-12T10:13:38Z trunk f9149c5596) [x86_64-linux]
-    last_commit=Minor wording fix in NEWS [ci skip]
-  f9149c5596 --jit: |-
-    ruby 2.7.0dev (2019-08-12T10:13:38Z trunk f9149c5596) +JIT [x86_64-linux]
-    last_commit=Minor wording fix in NEWS [ci skip]
-  1bec27f05b: |-
-    ruby 2.7.0dev (2019-08-12T10:52:38Z trunk 1bec27f05b) [x86_64-linux]
-    last_commit=Add exec to apt-get update
-  1bec27f05b --jit: |-
-    ruby 2.7.0dev (2019-08-12T10:52:38Z trunk 1bec27f05b) +JIT [x86_64-linux]
-    last_commit=Add exec to apt-get update
   bbc5e97b95: |-
     ruby 2.7.0dev (2019-08-12T11:11:49Z trunk bbc5e97b95) [x86_64-linux]
     last_commit=Migrate Windows 2016 env to GitHub Actions from AzurePipelines
