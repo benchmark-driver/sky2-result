@@ -5967,3 +5967,15 @@ commits:
   2366c68116 --jit: |-
     ruby 2.7.0dev (2019-09-24T02:50:38Z trunk 2366c68116) +JIT [x86_64-linux]
     last_commit=suppress meddlesome clang10 warrning
+  244f7ec204: |-
+    ruby 2.7.0dev (2019-09-24T07:20:30Z trunk 244f7ec204) [x86_64-linux]
+    last_commit=[ruby/io-console] Made cursor position consistent with `winsize`
+  244f7ec204 --jit: |-
+    ruby 2.7.0dev (2019-09-24T07:20:30Z trunk 244f7ec204) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Made cursor position consistent with `winsize`
+  10e3267c31: |-
+    ruby 2.7.0dev (2019-09-24T07:20:31Z trunk 10e3267c31) [x86_64-linux]
+    last_commit=[ruby/io-console] Made cursor position 0-origin
+  10e3267c31 --jit: |-
+    ruby 2.7.0dev (2019-09-24T07:20:31Z trunk 10e3267c31) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Made cursor position 0-origin
