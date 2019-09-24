@@ -9,54 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  ed9d59afc8: |-
-    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk ed9d59afc8) [x86_64-linux]
-    last_commit=Added example filter for Linux of GitHub Actions.
-  ed9d59afc8 --jit: |-
-    ruby 2.7.0dev (2019-08-12T03:14:39Z trunk ed9d59afc8) +JIT [x86_64-linux]
-    last_commit=Added example filter for Linux of GitHub Actions.
-  bf1f872991: |-
-    ruby 2.7.0dev (2019-08-12T03:58:33Z trunk bf1f872991) [x86_64-linux]
-    last_commit=Removed duplicated jobs with GitHub Actions.
-  bf1f872991 --jit: |-
-    ruby 2.7.0dev (2019-08-12T03:58:33Z trunk bf1f872991) +JIT [x86_64-linux]
-    last_commit=Removed duplicated jobs with GitHub Actions.
-  63d3c4fecd: |-
-    ruby 2.7.0dev (2019-08-12T03:59:08Z trunk 63d3c4fecd) [x86_64-linux]
-    last_commit=* 2019-08-12
-  63d3c4fecd --jit: |-
-    ruby 2.7.0dev (2019-08-12T03:59:08Z trunk 63d3c4fecd) +JIT [x86_64-linux]
-    last_commit=* 2019-08-12
-  b1ad628cdf: |-
-    ruby 2.7.0dev (2019-08-12T04:45:57Z trunk b1ad628cdf) [x86_64-linux]
-    last_commit=Resurrect travis_wait for test-all
-  b1ad628cdf --jit: |-
-    ruby 2.7.0dev (2019-08-12T04:45:57Z trunk b1ad628cdf) +JIT [x86_64-linux]
-    last_commit=Resurrect travis_wait for test-all
-  2b3d84d584: |-
-    ruby 2.7.0dev (2019-08-12T05:11:41Z trunk 2b3d84d584) [x86_64-linux]
-    last_commit=Use rev-parse
-  2b3d84d584 --jit: |-
-    ruby 2.7.0dev (2019-08-12T05:11:41Z trunk 2b3d84d584) +JIT [x86_64-linux]
-    last_commit=Use rev-parse
-  4f10a61eaa: |-
-    ruby 2.7.0dev (2019-08-12T05:30:43Z trunk 4f10a61eaa) [x86_64-linux]
-    last_commit=Stop relying on actions/checkout
-  4f10a61eaa --jit: |-
-    ruby 2.7.0dev (2019-08-12T05:30:43Z trunk 4f10a61eaa) +JIT [x86_64-linux]
-    last_commit=Stop relying on actions/checkout
-  b1ef14176b: |-
-    ruby 2.7.0dev (2019-08-12T05:37:26Z trunk b1ef14176b) [x86_64-linux]
-    last_commit=We did not have tool/ before checkout
-  b1ef14176b --jit: |-
-    ruby 2.7.0dev (2019-08-12T05:37:26Z trunk b1ef14176b) +JIT [x86_64-linux]
-    last_commit=We did not have tool/ before checkout
-  0d0ff8277f: |-
-    ruby 2.7.0dev (2019-08-12T06:14:01Z trunk 0d0ff8277f) [x86_64-linux]
-    last_commit=rb_trap_exec has been removed since 1.9
-  0d0ff8277f --jit: |-
-    ruby 2.7.0dev (2019-08-12T06:14:01Z trunk 0d0ff8277f) +JIT [x86_64-linux]
-    last_commit=rb_trap_exec has been removed since 1.9
   765cc17c08: |-
     ruby 2.7.0dev (2019-08-12T07:11:54Z trunk 765cc17c08) [x86_64-linux]
     last_commit=Update IRB man page
