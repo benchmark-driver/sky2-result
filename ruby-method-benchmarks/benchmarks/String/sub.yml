@@ -1608,6 +1608,8 @@ results:
     142efba93e: 3420112.274
     c9f2b790ad: 3380693.455
     a7a2be7a31: 3407205.675
+    b1003301af: 2904393.453
+    9995ce64a2: 3139345.775
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3215,6 +3217,8 @@ results:
     142efba93e: 3410188.487
     c9f2b790ad: 3337881.677
     a7a2be7a31: 3305590.168
+    b1003301af: 3382982.536
+    9995ce64a2: 3427591.229
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4822,6 +4826,8 @@ results:
     142efba93e: 1887355.277
     c9f2b790ad: 1856126.553
     a7a2be7a31: 1856512.79
+    b1003301af: 1872359.987
+    9995ce64a2: 1921449.201
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6429,6 +6435,8 @@ results:
     142efba93e: 2886704.828
     c9f2b790ad: 2853336.553
     a7a2be7a31: 2886545.337
+    b1003301af: 2741376.922
+    9995ce64a2: 2623178.65
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8036,6 +8044,8 @@ results:
     142efba93e: 3714451.895
     c9f2b790ad: 3697442.436
     a7a2be7a31: 3711605.681
+    b1003301af: 3672690.536
+    9995ce64a2: 3724304.85
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9643,6 +9653,8 @@ results:
     142efba93e: 3149647.713
     c9f2b790ad: 3646818.123
     a7a2be7a31: 3620990.814
+    b1003301af: 3654939.257
+    9995ce64a2: 3595349.486
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -11250,6 +11262,8 @@ results:
     142efba93e: 2013544.628
     c9f2b790ad: 1988453.298
     a7a2be7a31: 2001634.146
+    b1003301af: 1838469.07
+    9995ce64a2: 2013200.665
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12857,3 +12871,5 @@ results:
     142efba93e: 3085588.324
     c9f2b790ad: 3079908.398
     a7a2be7a31: 3078513.764
+    b1003301af: 3008047.566
+    9995ce64a2: 3016604.335

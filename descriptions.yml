@@ -5973,3 +5973,15 @@ commits:
   5b1fd79ad9 --jit: |-
     ruby 2.7.0dev (2019-09-25T11:54:33Z trunk 5b1fd79ad9) +JIT [x86_64-linux]
     last_commit=[DOC] fixed the return value of IO#ready? [ci skip]
+  ae83dbe28d: |-
+    ruby 2.7.0dev (2019-09-25T15:26:33Z trunk ae83dbe28d) [x86_64-linux]
+    last_commit=Get rid of `IO.select` to fix multiline paste
+  ae83dbe28d --jit: |-
+    ruby 2.7.0dev (2019-09-25T15:26:33Z trunk ae83dbe28d) +JIT [x86_64-linux]
+    last_commit=Get rid of `IO.select` to fix multiline paste
+  4755e23d2e: |-
+    ruby 2.7.0dev (2019-09-25T15:27:40Z trunk 4755e23d2e) [x86_64-linux]
+    last_commit=* 2019-09-26 [ci skip]
+  4755e23d2e --jit: |-
+    ruby 2.7.0dev (2019-09-25T15:27:40Z trunk 4755e23d2e) +JIT [x86_64-linux]
+    last_commit=* 2019-09-26 [ci skip]
