@@ -1604,6 +1604,8 @@ results:
     6b42b0c60c: 3455303.319
     8ad7fafcdd: 3466968.746
     bb53ddfe0e: 3364818.967
+    2b55df7315: 3469165.814
+    142efba93e: 3420112.274
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3207,6 +3209,8 @@ results:
     6b42b0c60c: 3452005.377
     8ad7fafcdd: 3382980.094
     bb53ddfe0e: 3349202.335
+    2b55df7315: 3456811.672
+    142efba93e: 3410188.487
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4810,6 +4814,8 @@ results:
     6b42b0c60c: 1923331.43
     8ad7fafcdd: 1864777.63
     bb53ddfe0e: 1898706.499
+    2b55df7315: 1933818.787
+    142efba93e: 1887355.277
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6413,6 +6419,8 @@ results:
     6b42b0c60c: 2806060.601
     8ad7fafcdd: 2806345.951
     bb53ddfe0e: 2881998.977
+    2b55df7315: 2841778.119
+    142efba93e: 2886704.828
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8016,6 +8024,8 @@ results:
     6b42b0c60c: 3269255.253
     8ad7fafcdd: 3756464.713
     bb53ddfe0e: 3600423.839
+    2b55df7315: 3782597.583
+    142efba93e: 3714451.895
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9619,6 +9629,8 @@ results:
     6b42b0c60c: 3424228.888
     8ad7fafcdd: 3726514.588
     bb53ddfe0e: 3594246.595
+    2b55df7315: 3737040.673
+    142efba93e: 3149647.713
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -11222,6 +11234,8 @@ results:
     6b42b0c60c: 1950077.777
     8ad7fafcdd: 1597926.559
     bb53ddfe0e: 1969470.75
+    2b55df7315: 2032204.805
+    142efba93e: 2013544.628
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12825,3 +12839,5 @@ results:
     6b42b0c60c: 3012734.433
     8ad7fafcdd: 3002725.309
     bb53ddfe0e: 3058574.264
+    2b55df7315: 3046134.322
+    142efba93e: 3085588.324
