@@ -9,78 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  bbc5e97b95: |-
-    ruby 2.7.0dev (2019-08-12T11:11:49Z trunk bbc5e97b95) [x86_64-linux]
-    last_commit=Migrate Windows 2016 env to GitHub Actions from AzurePipelines
-  bbc5e97b95 --jit: |-
-    ruby 2.7.0dev (2019-08-12T11:11:49Z trunk bbc5e97b95) +JIT [x86_64-linux]
-    last_commit=Migrate Windows 2016 env to GitHub Actions from AzurePipelines
-  981f0be6ff: |-
-    ruby 2.7.0dev (2019-08-12T11:11:49Z trunk 981f0be6ff) [x86_64-linux]
-    last_commit=Try to nmake
-  981f0be6ff --jit: |-
-    ruby 2.7.0dev (2019-08-12T11:11:49Z trunk 981f0be6ff) +JIT [x86_64-linux]
-    last_commit=Try to nmake
-  040bf4c0a6: |-
-    ruby 2.7.0dev (2019-08-12T11:11:49Z trunk 040bf4c0a6) [x86_64-linux]
-    last_commit=Added windows-2019 workflow
-  040bf4c0a6 --jit: |-
-    ruby 2.7.0dev (2019-08-12T11:11:49Z trunk 040bf4c0a6) +JIT [x86_64-linux]
-    last_commit=Added windows-2019 workflow
-  0fd0f74508: |-
-    ruby 2.7.0dev (2019-08-12T11:11:49Z trunk 0fd0f74508) [x86_64-linux]
-    last_commit=Try to merge windows 2016 and 2019
-  0fd0f74508 --jit: |-
-    ruby 2.7.0dev (2019-08-12T11:11:49Z trunk 0fd0f74508) +JIT [x86_64-linux]
-    last_commit=Try to merge windows 2016 and 2019
-  8d50bf40d9: |-
-    ruby 2.7.0dev (2019-08-12T11:11:49Z trunk 8d50bf40d9) [x86_64-linux]
-    last_commit=Try to nmake test
-  8d50bf40d9 --jit: |-
-    ruby 2.7.0dev (2019-08-12T11:11:49Z trunk 8d50bf40d9) +JIT [x86_64-linux]
-    last_commit=Try to nmake test
-  ab3ab07b28: |-
-    ruby 2.7.0dev (2019-08-12T11:11:49Z trunk ab3ab07b28) [x86_64-linux]
-    last_commit=Removed configuration of Azure Pipelines
-  ab3ab07b28 --jit: |-
-    ruby 2.7.0dev (2019-08-12T11:11:49Z trunk ab3ab07b28) +JIT [x86_64-linux]
-    last_commit=Removed configuration of Azure Pipelines
-  188381053c: |-
-    ruby 2.7.0dev (2019-08-12T11:11:49Z trunk 188381053c) [x86_64-linux]
-    last_commit=added --disable-install-doc to Windows workflow of GitHub Actions
-  188381053c --jit: |-
-    ruby 2.7.0dev (2019-08-12T11:11:49Z trunk 188381053c) +JIT [x86_64-linux]
-    last_commit=added --disable-install-doc to Windows workflow of GitHub Actions
-  a5f9306065: |-
-    ruby 2.7.0dev (2019-08-12T11:20:59Z trunk a5f9306065) [x86_64-linux]
-    last_commit=Simplify sudo specification
-  a5f9306065 --jit: |-
-    ruby 2.7.0dev (2019-08-12T11:20:59Z trunk a5f9306065) +JIT [x86_64-linux]
-    last_commit=Simplify sudo specification
-  e6a0a954c9: |-
-    ruby 2.7.0dev (2019-08-12T11:40:13Z trunk e6a0a954c9) [x86_64-linux]
-    last_commit=Add another test for frame omitted inlining
-  e6a0a954c9 --jit: |-
-    ruby 2.7.0dev (2019-08-12T11:40:13Z trunk e6a0a954c9) +JIT [x86_64-linux]
-    last_commit=Add another test for frame omitted inlining
-  d96feee37c: |-
-    ruby 2.7.0dev (2019-08-12T11:41:11Z trunk d96feee37c) [x86_64-linux]
-    last_commit=date_parse.c: avoid copying
-  d96feee37c --jit: |-
-    ruby 2.7.0dev (2019-08-12T11:41:11Z trunk d96feee37c) +JIT [x86_64-linux]
-    last_commit=date_parse.c: avoid copying
-  3fc10eff1e: |-
-    ruby 2.7.0dev (2019-08-12T11:41:11Z trunk 3fc10eff1e) [x86_64-linux]
-    last_commit=date_parse.c: trim off
-  3fc10eff1e --jit: |-
-    ruby 2.7.0dev (2019-08-12T11:41:11Z trunk 3fc10eff1e) +JIT [x86_64-linux]
-    last_commit=date_parse.c: trim off
-  8d302c914c: |-
-    ruby 2.7.0dev (2019-08-12T14:28:35Z trunk 8d302c914c) [x86_64-linux]
-    last_commit=string.c (rb_str_sub, _gsub): improve the rdoc
-  8d302c914c --jit: |-
-    ruby 2.7.0dev (2019-08-12T14:28:35Z trunk 8d302c914c) +JIT [x86_64-linux]
-    last_commit=string.c (rb_str_sub, _gsub): improve the rdoc
   edd2538268: |-
     ruby 2.7.0dev (2019-08-12T14:44:34Z trunk edd2538268) [x86_64-linux]
     last_commit=Add a quick job to be used for branch protection
@@ -6021,3 +5949,21 @@ commits:
   33c5ad3154 --jit: |-
     ruby 2.7.0dev (2019-09-25T04:52:53Z trunk 33c5ad3154) +JIT [x86_64-linux]
     last_commit=Removed idNUMPARAM_0
+  112c9f1430: |-
+    ruby 2.7.0dev (2019-09-25T07:58:24Z trunk 112c9f1430) [x86_64-linux]
+    last_commit=lldb_inspect: removed unnecessary newline and `end` option
+  112c9f1430 --jit: |-
+    ruby 2.7.0dev (2019-09-25T07:58:24Z trunk 112c9f1430) +JIT [x86_64-linux]
+    last_commit=lldb_inspect: removed unnecessary newline and `end` option
+  3deeb3fd91: |-
+    ruby 2.7.0dev (2019-09-25T08:01:54Z trunk 3deeb3fd91) [x86_64-linux]
+    last_commit=introduce `obj_ary_extracapa`.
+  3deeb3fd91 --jit: |-
+    ruby 2.7.0dev (2019-09-25T08:01:54Z trunk 3deeb3fd91) +JIT [x86_64-linux]
+    last_commit=introduce `obj_ary_extracapa`.
+  6d578164f5: |-
+    ruby 2.7.0dev (2019-09-25T08:12:55Z trunk 6d578164f5) [x86_64-linux]
+    last_commit=check `ARY_SHARED_ROOT_P()`.
+  6d578164f5 --jit: |-
+    ruby 2.7.0dev (2019-09-25T08:12:55Z trunk 6d578164f5) +JIT [x86_64-linux]
+    last_commit=check `ARY_SHARED_ROOT_P()`.
