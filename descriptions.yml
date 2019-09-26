@@ -5997,3 +5997,21 @@ commits:
   3b302ea8c9 --jit: |-
     ruby 2.7.0dev (2019-09-25T19:33:52Z trunk 3b302ea8c9) +JIT [x86_64-linux]
     last_commit=Add Module#ruby2_keywords for passing keywords through regular argument splats
+  9b10698705: |-
+    ruby 2.7.0dev (2019-09-26T00:59:27Z trunk 9b10698705) [x86_64-linux]
+    last_commit=[ruby/io-console] Added IO#console_mode
+  9b10698705 --jit: |-
+    ruby 2.7.0dev (2019-09-26T00:59:27Z trunk 9b10698705) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Added IO#console_mode
+  5357ceb1ca: |-
+    ruby 2.7.0dev (2019-09-26T00:59:27Z trunk 5357ceb1ca) [x86_64-linux]
+    last_commit=[ruby/io-console] Defer creating VT query string
+  5357ceb1ca --jit: |-
+    ruby 2.7.0dev (2019-09-26T00:59:27Z trunk 5357ceb1ca) +JIT [x86_64-linux]
+    last_commit=[ruby/io-console] Defer creating VT query string
+  1fe73dc860: |-
+    ruby 2.7.0dev (2019-09-26T02:35:01Z trunk 1fe73dc860) [x86_64-linux]
+    last_commit=include/ruby/ruby.h: suppress a false-positive warning of GCC
+  1fe73dc860 --jit: |-
+    ruby 2.7.0dev (2019-09-26T02:35:01Z trunk 1fe73dc860) +JIT [x86_64-linux]
+    last_commit=include/ruby/ruby.h: suppress a false-positive warning of GCC
