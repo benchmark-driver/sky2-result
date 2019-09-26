@@ -1611,6 +1611,8 @@ results:
     b1003301af: 2904393.453
     9995ce64a2: 3139345.775
     932a471d38: 3470797.363
+    1a5a01e9ce: 3453782.739
+    42adc5bc6b: 3433281.945
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3221,6 +3223,8 @@ results:
     b1003301af: 3382982.536
     9995ce64a2: 3427591.229
     932a471d38: 3442714.77
+    1a5a01e9ce: 3418465.562
+    42adc5bc6b: 3381300.841
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4831,6 +4835,8 @@ results:
     b1003301af: 1872359.987
     9995ce64a2: 1921449.201
     932a471d38: 1904765.463
+    1a5a01e9ce: 1873038.813
+    42adc5bc6b: 1801883.528
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6441,6 +6447,8 @@ results:
     b1003301af: 2741376.922
     9995ce64a2: 2623178.65
     932a471d38: 2854798.181
+    1a5a01e9ce: 2831601.922
+    42adc5bc6b: 2835193.479
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8051,6 +8059,8 @@ results:
     b1003301af: 3672690.536
     9995ce64a2: 3724304.85
     932a471d38: 3787524.775
+    1a5a01e9ce: 3714303.713
+    42adc5bc6b: 3665588.661
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9661,6 +9671,8 @@ results:
     b1003301af: 3654939.257
     9995ce64a2: 3595349.486
     932a471d38: 3777350.957
+    1a5a01e9ce: 3685803.276
+    42adc5bc6b: 3611005.847
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -11271,6 +11283,8 @@ results:
     b1003301af: 1838469.07
     9995ce64a2: 2013200.665
     932a471d38: 2004072.884
+    1a5a01e9ce: 2022855.484
+    42adc5bc6b: 1933621.656
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12881,3 +12895,5 @@ results:
     b1003301af: 3008047.566
     9995ce64a2: 3016604.335
     932a471d38: 3057749.849
+    1a5a01e9ce: 3014631.258
+    42adc5bc6b: 3013198.723
