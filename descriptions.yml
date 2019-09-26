@@ -9,72 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  edd2538268: |-
-    ruby 2.7.0dev (2019-08-12T14:44:34Z trunk edd2538268) [x86_64-linux]
-    last_commit=Add a quick job to be used for branch protection
-  edd2538268 --jit: |-
-    ruby 2.7.0dev (2019-08-12T14:44:34Z trunk edd2538268) +JIT [x86_64-linux]
-    last_commit=Add a quick job to be used for branch protection
-  b8b5e7d5be: |-
-    ruby 2.7.0dev (2019-08-12T15:48:52Z trunk b8b5e7d5be) [x86_64-linux]
-    last_commit=Stop rewriting message to include PR URL
-  b8b5e7d5be --jit: |-
-    ruby 2.7.0dev (2019-08-12T15:48:52Z trunk b8b5e7d5be) +JIT [x86_64-linux]
-    last_commit=Stop rewriting message to include PR URL
-  4d3fb24736: |-
-    ruby 2.7.0dev (2019-08-12T15:51:04Z trunk 4d3fb24736) [x86_64-linux]
-    last_commit=* 2019-08-13
-  4d3fb24736 --jit: |-
-    ruby 2.7.0dev (2019-08-12T15:51:04Z trunk 4d3fb24736) +JIT [x86_64-linux]
-    last_commit=* 2019-08-13
-  0f10828fcf: |-
-    ruby 2.7.0dev (2019-08-12T16:03:14Z trunk 0f10828fcf) [x86_64-linux]
-    last_commit=Fix a typo [ci skip]
-  0f10828fcf --jit: |-
-    ruby 2.7.0dev (2019-08-12T16:03:14Z trunk 0f10828fcf) +JIT [x86_64-linux]
-    last_commit=Fix a typo [ci skip]
-  957bdfbab8: |-
-    ruby 2.7.0dev (2019-08-12T16:21:37Z trunk 957bdfbab8) [x86_64-linux]
-    last_commit=Update docs to use more natural English
-  957bdfbab8 --jit: |-
-    ruby 2.7.0dev (2019-08-12T16:21:37Z trunk 957bdfbab8) +JIT [x86_64-linux]
-    last_commit=Update docs to use more natural English
-  4e418a6c06: |-
-    ruby 2.7.0dev (2019-08-12T16:29:37Z trunk 4e418a6c06) [x86_64-linux]
-    last_commit=Update check_branch description a little [ci skip]
-  4e418a6c06 --jit: |-
-    ruby 2.7.0dev (2019-08-12T16:29:37Z trunk 4e418a6c06) +JIT [x86_64-linux]
-    last_commit=Update check_branch description a little [ci skip]
-  76a928bac2: |-
-    ruby 2.7.0dev (2019-08-12T16:34:09Z trunk 76a928bac2) [x86_64-linux]
-    last_commit=Unpin default value objects
-  76a928bac2 --jit: |-
-    ruby 2.7.0dev (2019-08-12T16:34:09Z trunk 76a928bac2) +JIT [x86_64-linux]
-    last_commit=Unpin default value objects
-  6749682f82: |-
-    ruby 2.7.0dev (2019-08-12T16:34:09Z trunk 6749682f82) [x86_64-linux]
-    last_commit=also unpin `final` on weak maps
-  6749682f82 --jit: |-
-    ruby 2.7.0dev (2019-08-12T16:34:09Z trunk 6749682f82) +JIT [x86_64-linux]
-    last_commit=also unpin `final` on weak maps
-  e688ab26c7: |-
-    ruby 2.7.0dev (2019-08-12T16:34:36Z trunk e688ab26c7) [x86_64-linux]
-    last_commit=* expand tabs.
-  e688ab26c7 --jit: |-
-    ruby 2.7.0dev (2019-08-12T16:34:36Z trunk e688ab26c7) +JIT [x86_64-linux]
-    last_commit=* expand tabs.
-  3979f22cc1: |-
-    ruby 2.7.0dev (2019-08-12T16:45:10Z trunk 3979f22cc1) [x86_64-linux]
-    last_commit=Explain the current status of branches [ci skip] (#2350)
-  3979f22cc1 --jit: |-
-    ruby 2.7.0dev (2019-08-12T16:45:10Z trunk 3979f22cc1) +JIT [x86_64-linux]
-    last_commit=Explain the current status of branches [ci skip] (#2350)
-  404850e134: |-
-    ruby 2.7.0dev (2019-08-12T16:56:35Z trunk 404850e134) [x86_64-linux]
-    last_commit=Remove documentation that fatal cannot be rescued [ci skip]
-  404850e134 --jit: |-
-    ruby 2.7.0dev (2019-08-12T16:56:35Z trunk 404850e134) +JIT [x86_64-linux]
-    last_commit=Remove documentation that fatal cannot be rescued [ci skip]
   aac4d9d6c7: |-
     ruby 2.7.0dev (2019-08-12T20:44:54Z trunk aac4d9d6c7) [x86_64-linux]
     last_commit=Rename rb_gc_mark_no_pin -> rb_gc_mark_movable
@@ -6015,3 +5949,21 @@ commits:
   1fe73dc860 --jit: |-
     ruby 2.7.0dev (2019-09-26T02:35:01Z trunk 1fe73dc860) +JIT [x86_64-linux]
     last_commit=include/ruby/ruby.h: suppress a false-positive warning of GCC
+  3cee99808d: |-
+    ruby 2.7.0dev (2019-09-26T06:10:48Z trunk 3cee99808d) [x86_64-linux]
+    last_commit=[EXPERIMENTAL] Expression with modifier `in`
+  3cee99808d --jit: |-
+    ruby 2.7.0dev (2019-09-26T06:10:48Z trunk 3cee99808d) +JIT [x86_64-linux]
+    last_commit=[EXPERIMENTAL] Expression with modifier `in`
+  93faa011d3: |-
+    ruby 2.7.0dev (2019-09-26T06:30:18Z trunk 93faa011d3) [x86_64-linux]
+    last_commit=Tag string shared roots to fix use-after-free
+  93faa011d3 --jit: |-
+    ruby 2.7.0dev (2019-09-26T06:30:18Z trunk 93faa011d3) +JIT [x86_64-linux]
+    last_commit=Tag string shared roots to fix use-after-free
+  47a234954a: |-
+    ruby 2.7.0dev (2019-09-26T06:30:18Z trunk 47a234954a) [x86_64-linux]
+    last_commit=Rename STR_IS_SHARED_M to STR_BORROWED
+  47a234954a --jit: |-
+    ruby 2.7.0dev (2019-09-26T06:30:18Z trunk 47a234954a) +JIT [x86_64-linux]
+    last_commit=Rename STR_IS_SHARED_M to STR_BORROWED
