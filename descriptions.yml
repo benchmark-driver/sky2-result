@@ -5985,3 +5985,15 @@ commits:
   4755e23d2e --jit: |-
     ruby 2.7.0dev (2019-09-25T15:27:40Z trunk 4755e23d2e) +JIT [x86_64-linux]
     last_commit=* 2019-09-26 [ci skip]
+  80b5a0ff2a: |-
+    ruby 2.7.0dev (2019-09-25T18:18:49Z trunk 80b5a0ff2a) [x86_64-linux]
+    last_commit=Make rb_scan_args handle keywords more similar to Ruby methods (#2460)
+  80b5a0ff2a --jit: |-
+    ruby 2.7.0dev (2019-09-25T18:18:49Z trunk 80b5a0ff2a) +JIT [x86_64-linux]
+    last_commit=Make rb_scan_args handle keywords more similar to Ruby methods (#2460)
+  3b302ea8c9: |-
+    ruby 2.7.0dev (2019-09-25T19:33:52Z trunk 3b302ea8c9) [x86_64-linux]
+    last_commit=Add Module#ruby2_keywords for passing keywords through regular argument splats
+  3b302ea8c9 --jit: |-
+    ruby 2.7.0dev (2019-09-25T19:33:52Z trunk 3b302ea8c9) +JIT [x86_64-linux]
+    last_commit=Add Module#ruby2_keywords for passing keywords through regular argument splats
