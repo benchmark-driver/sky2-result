@@ -6009,3 +6009,75 @@ commits:
   660c7e050f --jit: |-
     ruby 2.7.0dev (2019-09-27T02:24:58Z trunk 660c7e050f) +JIT [x86_64-linux]
     last_commit=Fix more keyword separation issues
+  366dd9d803: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 366dd9d803) [x86_64-linux]
+    last_commit=[ruby/fileutils] Update the documentation content and formatting
+  366dd9d803 --jit: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 366dd9d803) +JIT [x86_64-linux]
+    last_commit=[ruby/fileutils] Update the documentation content and formatting
+  1d99163aa5: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 1d99163aa5) [x86_64-linux]
+    last_commit=[ruby/fileutils] Make copy methods handle FIFOs and UNIX sockets
+  1d99163aa5 --jit: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 1d99163aa5) +JIT [x86_64-linux]
+    last_commit=[ruby/fileutils] Make copy methods handle FIFOs and UNIX sockets
+  02cd420505: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 02cd420505) [x86_64-linux]
+    last_commit=[ruby/fileutils] Skip test_cp_r_socket on JRuby
+  02cd420505 --jit: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 02cd420505) +JIT [x86_64-linux]
+    last_commit=[ruby/fileutils] Skip test_cp_r_socket on JRuby
+  9494ef8b2d: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 9494ef8b2d) [x86_64-linux]
+    last_commit=[ruby/fileutils] Do not break in verbose mode if using FileUtils with a frozen object
+  9494ef8b2d --jit: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 9494ef8b2d) +JIT [x86_64-linux]
+    last_commit=[ruby/fileutils] Do not break in verbose mode if using FileUtils with a frozen object
+  9792c9d183: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 9792c9d183) [x86_64-linux]
+    last_commit=[ruby/fileutils] Fix test_cp_r_dev on Windows or other systems without character/block device in /dev
+  9792c9d183 --jit: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 9792c9d183) +JIT [x86_64-linux]
+    last_commit=[ruby/fileutils] Fix test_cp_r_dev on Windows or other systems without character/block device in /dev
+  06c35cfa65: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 06c35cfa65) [x86_64-linux]
+    last_commit=[ruby/fileutils] Fix cp_r with symlink root on Windows
+  06c35cfa65 --jit: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 06c35cfa65) +JIT [x86_64-linux]
+    last_commit=[ruby/fileutils] Fix cp_r with symlink root on Windows
+  d5355123cc: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk d5355123cc) [x86_64-linux]
+    last_commit=[ruby/fileutils] Reduce global variables
+  d5355123cc --jit: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk d5355123cc) +JIT [x86_64-linux]
+    last_commit=[ruby/fileutils] Reduce global variables
+  49b7805e9a: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 49b7805e9a) [x86_64-linux]
+    last_commit=[ruby/fileutils] Use Gemfile instead of Gem::Specification#add_development_dependency.
+  49b7805e9a --jit: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 49b7805e9a) +JIT [x86_64-linux]
+    last_commit=[ruby/fileutils] Use Gemfile instead of Gem::Specification#add_development_dependency.
+  2082a26dc7: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 2082a26dc7) [x86_64-linux]
+    last_commit=[ruby/fileutils] Bump version to 1.3.0.
+  2082a26dc7 --jit: |-
+    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 2082a26dc7) +JIT [x86_64-linux]
+    last_commit=[ruby/fileutils] Bump version to 1.3.0.
+  eff15a269f: |-
+    ruby 2.7.0dev (2019-09-27T04:52:33Z trunk eff15a269f) [x86_64-linux]
+    last_commit=[EXPERIMENTAL] Make NilClass#to_s, TrueClass#to_s and FalseClass#to_s return a frozen String
+  eff15a269f --jit: |-
+    ruby 2.7.0dev (2019-09-27T04:52:33Z trunk eff15a269f) +JIT [x86_64-linux]
+    last_commit=[EXPERIMENTAL] Make NilClass#to_s, TrueClass#to_s and FalseClass#to_s return a frozen String
+  4d3502d57f: |-
+    ruby 2.7.0dev (2019-09-27T05:01:37Z trunk 4d3502d57f) [x86_64-linux]
+    last_commit=More tests for [Feature #16150]
+  4d3502d57f --jit: |-
+    ruby 2.7.0dev (2019-09-27T05:01:37Z trunk 4d3502d57f) +JIT [x86_64-linux]
+    last_commit=More tests for [Feature #16150]
+  8d0ff88727: |-
+    ruby 2.7.0dev (2019-09-27T05:06:07Z trunk 8d0ff88727) [x86_64-linux]
+    last_commit=Adjusted spaces [ci skip]
+  8d0ff88727 --jit: |-
+    ruby 2.7.0dev (2019-09-27T05:06:07Z trunk 8d0ff88727) +JIT [x86_64-linux]
+    last_commit=Adjusted spaces [ci skip]
