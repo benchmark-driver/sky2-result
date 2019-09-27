@@ -9,144 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  1cffd5b4f0: |-
-    ruby 2.7.0dev (2019-08-14T07:30:30Z trunk 1cffd5b4f0) [x86_64-linux]
-    last_commit=fix last commit.
-  1cffd5b4f0 --jit: |-
-    ruby 2.7.0dev (2019-08-14T07:30:30Z trunk 1cffd5b4f0) +JIT [x86_64-linux]
-    last_commit=fix last commit.
-  c8f97596b7: |-
-    ruby 2.7.0dev (2019-08-14T08:13:28Z trunk c8f97596b7) [x86_64-linux]
-    last_commit=Don't accidentally name anonymous module/class
-  c8f97596b7 --jit: |-
-    ruby 2.7.0dev (2019-08-14T08:13:28Z trunk c8f97596b7) +JIT [x86_64-linux]
-    last_commit=Don't accidentally name anonymous module/class
-  8be521662d: |-
-    ruby 2.7.0dev (2019-08-14T13:22:12Z trunk 8be521662d) [x86_64-linux]
-    last_commit=Rename check_branch.master to pull_request.check_branch
-  8be521662d --jit: |-
-    ruby 2.7.0dev (2019-08-14T13:22:12Z trunk 8be521662d) +JIT [x86_64-linux]
-    last_commit=Rename check_branch.master to pull_request.check_branch
-  bf77f43b39: |-
-    ruby 2.7.0dev (2019-08-14T13:36:49Z trunk bf77f43b39) [x86_64-linux]
-    last_commit=Update the description of check_branch
-  bf77f43b39 --jit: |-
-    ruby 2.7.0dev (2019-08-14T13:36:49Z trunk bf77f43b39) +JIT [x86_64-linux]
-    last_commit=Update the description of check_branch
-  9874dca3e7: |-
-    ruby 2.7.0dev (2019-08-14T14:02:09Z trunk 9874dca3e7) [x86_64-linux]
-    last_commit=Mark bundler / bundled-gems as continue-on-failure
-  9874dca3e7 --jit: |-
-    ruby 2.7.0dev (2019-08-14T14:02:09Z trunk 9874dca3e7) +JIT [x86_64-linux]
-    last_commit=Mark bundler / bundled-gems as continue-on-failure
-  48e9155e65: |-
-    ruby 2.7.0dev (2019-08-14T14:13:06Z trunk 48e9155e65) [x86_64-linux]
-    last_commit=Remove strange formatting from English [ci skip]
-  48e9155e65 --jit: |-
-    ruby 2.7.0dev (2019-08-14T14:13:06Z trunk 48e9155e65) +JIT [x86_64-linux]
-    last_commit=Remove strange formatting from English [ci skip]
-  7da40d74e1: |-
-    ruby 2.7.0dev (2019-08-14T14:35:47Z trunk 7da40d74e1) [x86_64-linux]
-    last_commit=backtrace and backtrace_locations can be nil (#2358)
-  7da40d74e1 --jit: |-
-    ruby 2.7.0dev (2019-08-14T14:35:47Z trunk 7da40d74e1) +JIT [x86_64-linux]
-    last_commit=backtrace and backtrace_locations can be nil (#2358)
-  e173012f44: |-
-    ruby 2.7.0dev (2019-08-14T14:41:41Z trunk e173012f44) [x86_64-linux]
-    last_commit=Drop obsoleted `make merge-github` task
-  e173012f44 --jit: |-
-    ruby 2.7.0dev (2019-08-14T14:41:41Z trunk e173012f44) +JIT [x86_64-linux]
-    last_commit=Drop obsoleted `make merge-github` task
-  938e075273: |-
-    ruby 2.7.0dev (2019-08-14T16:00:26Z trunk 938e075273) [x86_64-linux]
-    last_commit=Add `make update-github PR=1234` to refresh PR (#2368)
-  938e075273 --jit: |-
-    ruby 2.7.0dev (2019-08-14T16:00:26Z trunk 938e075273) +JIT [x86_64-linux]
-    last_commit=Add `make update-github PR=1234` to refresh PR (#2368)
-  7d32cb7631: |-
-    ruby 2.7.0dev (2019-08-14T16:00:46Z trunk 7d32cb7631) [x86_64-linux]
-    last_commit=* 2019-08-15 [ci skip]
-  7d32cb7631 --jit: |-
-    ruby 2.7.0dev (2019-08-14T16:00:46Z trunk 7d32cb7631) +JIT [x86_64-linux]
-    last_commit=* 2019-08-15 [ci skip]
-  fbcd065294: |-
-    ruby 2.7.0dev (2019-08-14T16:50:14Z trunk fbcd065294) [x86_64-linux]
-    last_commit=Remove support for nil::Constant
-  fbcd065294 --jit: |-
-    ruby 2.7.0dev (2019-08-14T16:50:14Z trunk fbcd065294) +JIT [x86_64-linux]
-    last_commit=Remove support for nil::Constant
-  d053a57014: |-
-    ruby 2.7.0dev (2019-08-14T16:51:19Z trunk d053a57014) [x86_64-linux]
-    last_commit=* expand tabs. [ci skip]
-  d053a57014 --jit: |-
-    ruby 2.7.0dev (2019-08-14T16:51:19Z trunk d053a57014) +JIT [x86_64-linux]
-    last_commit=* expand tabs. [ci skip]
-  6ac6de84ac: |-
-    ruby 2.7.0dev (2019-08-14T16:59:27Z trunk 6ac6de84ac) [x86_64-linux]
-    last_commit=Use Qtrue/Qfalse instead of 1/0 for 2nd operand to getconstant
-  6ac6de84ac --jit: |-
-    ruby 2.7.0dev (2019-08-14T16:59:27Z trunk 6ac6de84ac) +JIT [x86_64-linux]
-    last_commit=Use Qtrue/Qfalse instead of 1/0 for 2nd operand to getconstant
-  661927a4c5: |-
-    ruby 2.7.0dev (2019-08-14T18:22:07Z trunk 661927a4c5) [x86_64-linux]
-    last_commit=Switch to using a VM stack argument instead of 2nd operand for getconstant
-  661927a4c5 --jit: |-
-    ruby 2.7.0dev (2019-08-14T18:22:07Z trunk 661927a4c5) +JIT [x86_64-linux]
-    last_commit=Switch to using a VM stack argument instead of 2nd operand for getconstant
-  d5c60214c4: |-
-    ruby 2.7.0dev (2019-08-14T18:22:07Z trunk d5c60214c4) [x86_64-linux]
-    last_commit=Implement Range#minmax
-  d5c60214c4 --jit: |-
-    ruby 2.7.0dev (2019-08-14T18:22:07Z trunk d5c60214c4) +JIT [x86_64-linux]
-    last_commit=Implement Range#minmax
-  '082424ef58': |-
-    ruby 2.7.0dev (2019-08-14T21:11:39Z trunk 082424ef58) [x86_64-linux]
-    last_commit=Fold to lowercase intead of uppercase for String#casecmp
-  '082424ef58 --jit': |-
-    ruby 2.7.0dev (2019-08-14T21:11:39Z trunk 082424ef58) +JIT [x86_64-linux]
-    last_commit=Fold to lowercase intead of uppercase for String#casecmp
-  6954ff1dcb: |-
-    ruby 2.7.0dev (2019-08-14T21:14:49Z trunk 6954ff1dcb) [x86_64-linux]
-    last_commit=Make Range#=== operate like cover? instead of include? for string ranges
-  6954ff1dcb --jit: |-
-    ruby 2.7.0dev (2019-08-14T21:14:49Z trunk 6954ff1dcb) +JIT [x86_64-linux]
-    last_commit=Make Range#=== operate like cover? instead of include? for string ranges
-  132b7eb104: |-
-    ruby 2.7.0dev (2019-08-14T23:16:14Z trunk 132b7eb104) [x86_64-linux]
-    last_commit=* expand tabs. [ci skip]
-  132b7eb104 --jit: |-
-    ruby 2.7.0dev (2019-08-14T23:16:14Z trunk 132b7eb104) +JIT [x86_64-linux]
-    last_commit=* expand tabs. [ci skip]
-  53a55aeff3: |-
-    ruby 2.7.0dev (2019-08-15T04:48:58Z trunk 53a55aeff3) [x86_64-linux]
-    last_commit=introduce RUBY_ON_BUG envval. (#2331)
-  53a55aeff3 --jit: |-
-    ruby 2.7.0dev (2019-08-15T04:48:58Z trunk 53a55aeff3) +JIT [x86_64-linux]
-    last_commit=introduce RUBY_ON_BUG envval. (#2331)
-  fff2b231a3: |-
-    ruby 2.7.0dev (2019-08-15T12:26:51Z trunk fff2b231a3) [x86_64-linux]
-    last_commit=Simplified GITHUB_TOKEN argument [ci skip]
-  fff2b231a3 --jit: |-
-    ruby 2.7.0dev (2019-08-15T12:26:51Z trunk fff2b231a3) +JIT [x86_64-linux]
-    last_commit=Simplified GITHUB_TOKEN argument [ci skip]
-  c4152b11a7: |-
-    ruby 2.7.0dev (2019-08-15T12:34:34Z trunk c4152b11a7) [x86_64-linux]
-    last_commit=Prepare to pull commits notes [ci skip]
-  c4152b11a7 --jit: |-
-    ruby 2.7.0dev (2019-08-15T12:34:34Z trunk c4152b11a7) +JIT [x86_64-linux]
-    last_commit=Prepare to pull commits notes [ci skip]
-  d5c33364e3: |-
-    ruby 2.7.0dev (2019-08-15T14:39:14Z trunk d5c33364e3) [x86_64-linux]
-    last_commit=Fixed heap-use-after-free
-  d5c33364e3 --jit: |-
-    ruby 2.7.0dev (2019-08-15T14:39:14Z trunk d5c33364e3) +JIT [x86_64-linux]
-    last_commit=Fixed heap-use-after-free
-  b1003301af: |-
-    ruby 2.7.0dev (2019-08-15T14:59:28Z trunk b1003301af) [x86_64-linux]
-    last_commit=Fixed a markup in different format [ci skip]
-  b1003301af --jit: |-
-    ruby 2.7.0dev (2019-08-15T14:59:28Z trunk b1003301af) +JIT [x86_64-linux]
-    last_commit=Fixed a markup in different format [ci skip]
   40806793a9: |-
     ruby 2.7.0dev (2019-08-15T15:00:50Z trunk 40806793a9) [x86_64-linux]
     last_commit=Fixed class, module and method references [ci skip]
@@ -6039,3 +5901,69 @@ commits:
   dd1e047fcb --jit: |-
     ruby 2.7.0dev (2019-09-26T17:31:39Z trunk dd1e047fcb) +JIT [x86_64-linux]
     last_commit=NEWS: fixed markups and indent [ci skip]
+  451776f13d: |-
+    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk 451776f13d) [x86_64-linux]
+    last_commit=Pass in arena to allocator
+  451776f13d --jit: |-
+    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk 451776f13d) +JIT [x86_64-linux]
+    last_commit=Pass in arena to allocator
+  bd017c633d: |-
+    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk bd017c633d) [x86_64-linux]
+    last_commit=Extract allocation and free functions
+  bd017c633d --jit: |-
+    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk bd017c633d) +JIT [x86_64-linux]
+    last_commit=Extract allocation and free functions
+  3cd8f76f7f: |-
+    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk 3cd8f76f7f) [x86_64-linux]
+    last_commit=Introduce a secondary arena
+  3cd8f76f7f --jit: |-
+    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk 3cd8f76f7f) +JIT [x86_64-linux]
+    last_commit=Introduce a secondary arena
+  a618d64086: |-
+    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk a618d64086) [x86_64-linux]
+    last_commit=Allocate `INSN *` out of a separate arena
+  a618d64086 --jit: |-
+    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk a618d64086) +JIT [x86_64-linux]
+    last_commit=Allocate `INSN *` out of a separate arena
+  50fadefb7e: |-
+    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk 50fadefb7e) [x86_64-linux]
+    last_commit=Scan the ISEQ arena for markables and mark them
+  50fadefb7e --jit: |-
+    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk 50fadefb7e) +JIT [x86_64-linux]
+    last_commit=Scan the ISEQ arena for markables and mark them
+  f639e04699: |-
+    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk f639e04699) [x86_64-linux]
+    last_commit=Pull "mark object" up
+  f639e04699 --jit: |-
+    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk f639e04699) +JIT [x86_64-linux]
+    last_commit=Pull "mark object" up
+  98d7583bfc: |-
+    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk 98d7583bfc) [x86_64-linux]
+    last_commit=Pull `iseq_add_mark_object_compile_time` out of `freeze_string`
+  98d7583bfc --jit: |-
+    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk 98d7583bfc) +JIT [x86_64-linux]
+    last_commit=Pull `iseq_add_mark_object_compile_time` out of `freeze_string`
+  e197d9ca71: |-
+    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk e197d9ca71) [x86_64-linux]
+    last_commit=Execute write barrier instead of adding to array
+  e197d9ca71 --jit: |-
+    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk e197d9ca71) +JIT [x86_64-linux]
+    last_commit=Execute write barrier instead of adding to array
+  9b6460cacc: |-
+    ruby 2.7.0dev (2019-09-26T20:56:42Z trunk 9b6460cacc) [x86_64-linux]
+    last_commit=Remove mark array
+  9b6460cacc --jit: |-
+    ruby 2.7.0dev (2019-09-26T20:56:42Z trunk 9b6460cacc) +JIT [x86_64-linux]
+    last_commit=Remove mark array
+  '0846d48853': |-
+    ruby 2.7.0dev (2019-09-26T20:56:42Z trunk 0846d48853) [x86_64-linux]
+    last_commit=Remove `iseq_add_mark_object_compile_time`
+  '0846d48853 --jit': |-
+    ruby 2.7.0dev (2019-09-26T20:56:42Z trunk 0846d48853) +JIT [x86_64-linux]
+    last_commit=Remove `iseq_add_mark_object_compile_time`
+  4808afb360: |-
+    ruby 2.7.0dev (2019-09-26T20:56:42Z trunk 4808afb360) [x86_64-linux]
+    last_commit=Replace `freeze_string` with `rb_fstring`
+  4808afb360 --jit: |-
+    ruby 2.7.0dev (2019-09-26T20:56:42Z trunk 4808afb360) +JIT [x86_64-linux]
+    last_commit=Replace `freeze_string` with `rb_fstring`
