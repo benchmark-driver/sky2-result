@@ -1622,6 +1622,8 @@ results:
     b4dfac2c12: 3416912.166
     6180f1fede: 3239049.196
     122bc65042: 3416405.788
+    f82cf05626: 3365309.806
+    e9b271d1e2: 3454843.402
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3243,6 +3245,8 @@ results:
     b4dfac2c12: 3411641.076
     6180f1fede: 3359705.149
     122bc65042: 3436501.984
+    f82cf05626: 3394344.556
+    e9b271d1e2: 3460656.578
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4864,6 +4868,8 @@ results:
     b4dfac2c12: 1928384.056
     6180f1fede: 1880492.016
     122bc65042: 1896865.763
+    f82cf05626: 1880137.331
+    e9b271d1e2: 1887118.389
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6485,6 +6491,8 @@ results:
     b4dfac2c12: 2799359.47
     6180f1fede: 2853165.149
     122bc65042: 2766998.308
+    f82cf05626: 2825556.039
+    e9b271d1e2: 2804124.916
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8106,6 +8114,8 @@ results:
     b4dfac2c12: 3393988.628
     6180f1fede: 3732287.355
     122bc65042: 3779008.568
+    f82cf05626: 3742843.136
+    e9b271d1e2: 3722477.201
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9727,6 +9737,8 @@ results:
     b4dfac2c12: 3640274.365
     6180f1fede: 3661863.854
     122bc65042: 3714543.32
+    f82cf05626: 3689017.569
+    e9b271d1e2: 3722167.351
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -11348,6 +11360,8 @@ results:
     b4dfac2c12: 1954246.59
     6180f1fede: 1964404.933
     122bc65042: 2007362.418
+    f82cf05626: 1979812.63
+    e9b271d1e2: 1954007.185
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12969,3 +12983,5 @@ results:
     b4dfac2c12: 2971217.389
     6180f1fede: 2743921.473
     122bc65042: 2993265.057
+    f82cf05626: 3014692.485
+    e9b271d1e2: 2909812.083
