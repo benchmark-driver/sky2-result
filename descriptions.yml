@@ -5967,3 +5967,21 @@ commits:
   8d0ff88727 --jit: |-
     ruby 2.7.0dev (2019-09-27T05:06:07Z trunk 8d0ff88727) +JIT [x86_64-linux]
     last_commit=Adjusted spaces [ci skip]
+  '03284fb911': |-
+    ruby 2.7.0dev (2019-09-27T12:07:53Z trunk 03284fb911) [x86_64-linux]
+    last_commit=assert_in_out_err should use FailDesc too
+  '03284fb911 --jit': |-
+    ruby 2.7.0dev (2019-09-27T12:07:53Z trunk 03284fb911) +JIT [x86_64-linux]
+    last_commit=assert_in_out_err should use FailDesc too
+  79d5332a2d: |-
+    ruby 2.7.0dev (2019-09-27T12:12:27Z trunk 79d5332a2d) [x86_64-linux]
+    last_commit=Drop eliminated catch-entries
+  79d5332a2d --jit: |-
+    ruby 2.7.0dev (2019-09-27T12:12:27Z trunk 79d5332a2d) +JIT [x86_64-linux]
+    last_commit=Drop eliminated catch-entries
+  80d0b6f132: |-
+    ruby 2.7.0dev (2019-09-27T12:54:26Z trunk 80d0b6f132) [x86_64-linux]
+    last_commit=Updated bundled_gems
+  80d0b6f132 --jit: |-
+    ruby 2.7.0dev (2019-09-27T12:54:26Z trunk 80d0b6f132) +JIT [x86_64-linux]
+    last_commit=Updated bundled_gems
