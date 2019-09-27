@@ -1620,6 +1620,8 @@ results:
     3754e15530: 3436998.014
     5decf66ab3: 3410817.695
     b4dfac2c12: 3416912.166
+    6180f1fede: 3239049.196
+    122bc65042: 3416405.788
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3239,6 +3241,8 @@ results:
     3754e15530: 3402525.15
     5decf66ab3: 3403344.615
     b4dfac2c12: 3411641.076
+    6180f1fede: 3359705.149
+    122bc65042: 3436501.984
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4858,6 +4862,8 @@ results:
     3754e15530: 1894317.124
     5decf66ab3: 1879033.115
     b4dfac2c12: 1928384.056
+    6180f1fede: 1880492.016
+    122bc65042: 1896865.763
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6477,6 +6483,8 @@ results:
     3754e15530: 2878606.147
     5decf66ab3: 2805236.088
     b4dfac2c12: 2799359.47
+    6180f1fede: 2853165.149
+    122bc65042: 2766998.308
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8096,6 +8104,8 @@ results:
     3754e15530: 3549071.022
     5decf66ab3: 3708124.613
     b4dfac2c12: 3393988.628
+    6180f1fede: 3732287.355
+    122bc65042: 3779008.568
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9715,6 +9725,8 @@ results:
     3754e15530: 3669935.323
     5decf66ab3: 3670767.813
     b4dfac2c12: 3640274.365
+    6180f1fede: 3661863.854
+    122bc65042: 3714543.32
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -11334,6 +11346,8 @@ results:
     3754e15530: 1976076.213
     5decf66ab3: 2030193.724
     b4dfac2c12: 1954246.59
+    6180f1fede: 1964404.933
+    122bc65042: 2007362.418
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -12953,3 +12967,5 @@ results:
     3754e15530: 3099350.443
     5decf66ab3: 2983083.765
     b4dfac2c12: 2971217.389
+    6180f1fede: 2743921.473
+    122bc65042: 2993265.057
