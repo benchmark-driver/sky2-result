@@ -9,78 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  787b437a2a: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 787b437a2a) [x86_64-linux]
-    last_commit=Use Gem.default_specifications_dir
-  787b437a2a --jit: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 787b437a2a) +JIT [x86_64-linux]
-    last_commit=Use Gem.default_specifications_dir
-  71fd26b195: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 71fd26b195) [x86_64-linux]
-    last_commit=Fallback for older Rubygems
-  71fd26b195 --jit: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 71fd26b195) +JIT [x86_64-linux]
-    last_commit=Fallback for older Rubygems
-  8a18a639b7: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 8a18a639b7) [x86_64-linux]
-    last_commit=Use Gemfile instead of add_development_dependency.
-  8a18a639b7 --jit: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 8a18a639b7) +JIT [x86_64-linux]
-    last_commit=Use Gemfile instead of add_development_dependency.
-  '9218655660': |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 9218655660) [x86_64-linux]
-    last_commit=Removed needless alias for capture_io.
-  9218655660 --jit: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 9218655660) +JIT [x86_64-linux]
-    last_commit=Removed needless alias for capture_io.
-  2066dae991: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 2066dae991) [x86_64-linux]
-    last_commit=Cleanup commented-out code.
-  2066dae991 --jit: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk 2066dae991) +JIT [x86_64-linux]
-    last_commit=Cleanup commented-out code.
-  e87e10e5e7: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk e87e10e5e7) [x86_64-linux]
-    last_commit=Use test/unit instead of test-unit. Because test-unit is only provided standalone gem.
-  e87e10e5e7 --jit: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk e87e10e5e7) +JIT [x86_64-linux]
-    last_commit=Use test/unit instead of test-unit. Because test-unit is only provided standalone gem.
-  daf5ce3ba1: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk daf5ce3ba1) [x86_64-linux]
-    last_commit=Use omit instead of skip for test-unit.
-  daf5ce3ba1 --jit: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk daf5ce3ba1) +JIT [x86_64-linux]
-    last_commit=Use omit instead of skip for test-unit.
-  bad937b00b: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk bad937b00b) [x86_64-linux]
-    last_commit=Gem::TestCase is based on Minitest
-  bad937b00b --jit: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk bad937b00b) +JIT [x86_64-linux]
-    last_commit=Gem::TestCase is based on Minitest
-  b64911f4e2: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk b64911f4e2) [x86_64-linux]
-    last_commit=Parser was replaced
-  b64911f4e2 --jit: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk b64911f4e2) +JIT [x86_64-linux]
-    last_commit=Parser was replaced
-  f71bd7477e: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk f71bd7477e) [x86_64-linux]
-    last_commit=RDoc::Parser::C: Integrate do_classes and do_modules by one regexp match
-  f71bd7477e --jit: |-
-    ruby 2.7.0dev (2019-08-15T21:07:11Z trunk f71bd7477e) +JIT [x86_64-linux]
-    last_commit=RDoc::Parser::C: Integrate do_classes and do_modules by one regexp match
-  a458317b91: |-
-    ruby 2.7.0dev (2019-08-15T21:45:36Z trunk a458317b91) [x86_64-linux]
-    last_commit=Use assert_raise and skip for test/unit
-  a458317b91 --jit: |-
-    ruby 2.7.0dev (2019-08-15T21:45:36Z trunk a458317b91) +JIT [x86_64-linux]
-    last_commit=Use assert_raise and skip for test/unit
-  1b02f6c020: |-
-    ruby 2.7.0dev (2019-08-15T22:10:45Z trunk 1b02f6c020) [x86_64-linux]
-    last_commit=Set IRB::Context#return_format on test clarify
-  1b02f6c020 --jit: |-
-    ruby 2.7.0dev (2019-08-15T22:10:45Z trunk 1b02f6c020) +JIT [x86_64-linux]
-    last_commit=Set IRB::Context#return_format on test clarify
   12074ad01c: |-
     ruby 2.7.0dev (2019-08-16T01:25:27Z trunk 12074ad01c) [x86_64-linux]
     last_commit=Use GNU make built-in funtion [ci skip]
@@ -6027,3 +5955,15 @@ commits:
   fd0e214183 --jit: |-
     ruby 2.7.0dev (2019-09-27T16:44:59Z trunk fd0e214183) +JIT [x86_64-linux]
     last_commit=Update NEWS section on keyword argument separation [ci skip]
+  7814b6c657: |-
+    ruby 2.7.0dev (2019-09-27T18:21:50Z trunk 7814b6c657) [x86_64-linux]
+    last_commit=Correctly issue ArgumentError when calling method that accepts no keywords
+  7814b6c657 --jit: |-
+    ruby 2.7.0dev (2019-09-27T18:21:50Z trunk 7814b6c657) +JIT [x86_64-linux]
+    last_commit=Correctly issue ArgumentError when calling method that accepts no keywords
+  d53cf85474: |-
+    ruby 2.7.0dev (2019-09-27T18:22:21Z trunk d53cf85474) [x86_64-linux]
+    last_commit=Fix warning when doing Struct.new(:x, keyword_init: true){}
+  d53cf85474 --jit: |-
+    ruby 2.7.0dev (2019-09-27T18:22:21Z trunk d53cf85474) +JIT [x86_64-linux]
+    last_commit=Fix warning when doing Struct.new(:x, keyword_init: true){}
