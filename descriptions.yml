@@ -5967,3 +5967,15 @@ commits:
   d53cf85474 --jit: |-
     ruby 2.7.0dev (2019-09-27T18:22:21Z trunk d53cf85474) +JIT [x86_64-linux]
     last_commit=Fix warning when doing Struct.new(:x, keyword_init: true){}
+  d474243e8c: |-
+    ruby 2.7.0dev (2019-09-28T04:51:09Z trunk d474243e8c) [x86_64-linux]
+    last_commit=NEWS: Added module name to proc and lambda [ci skip]
+  d474243e8c --jit: |-
+    ruby 2.7.0dev (2019-09-28T04:51:09Z trunk d474243e8c) +JIT [x86_64-linux]
+    last_commit=NEWS: Added module name to proc and lambda [ci skip]
+  550a6a6bc1: |-
+    ruby 2.7.0dev (2019-09-28T04:51:27Z trunk 550a6a6bc1) [x86_64-linux]
+    last_commit=NEWS: marked up `**nil` [ci skip]
+  550a6a6bc1 --jit: |-
+    ruby 2.7.0dev (2019-09-28T04:51:27Z trunk 550a6a6bc1) +JIT [x86_64-linux]
+    last_commit=NEWS: marked up `**nil` [ci skip]
