@@ -5991,3 +5991,57 @@ commits:
   289cad501d --jit: |-
     ruby 2.7.0dev (2019-09-29T04:17:05Z trunk 289cad501d) +JIT [x86_64-linux]
     last_commit=* 2019-09-29 [ci skip]
+  e2d97cffe5: |-
+    ruby 2.7.0dev (2019-09-29T08:28:58Z trunk e2d97cffe5) [x86_64-linux]
+    last_commit=[DOC] stated that Array#to_s calls #inspect [ci skip]
+  e2d97cffe5 --jit: |-
+    ruby 2.7.0dev (2019-09-29T08:28:58Z trunk e2d97cffe5) +JIT [x86_64-linux]
+    last_commit=[DOC] stated that Array#to_s calls #inspect [ci skip]
+  ce477089f6: |-
+    ruby 2.7.0dev (2019-09-29T09:04:28Z trunk ce477089f6) [x86_64-linux]
+    last_commit=[DOC] Fix typos in Array#{to_s,inspect} doc [ci skip]
+  ce477089f6 --jit: |-
+    ruby 2.7.0dev (2019-09-29T09:04:28Z trunk ce477089f6) +JIT [x86_64-linux]
+    last_commit=[DOC] Fix typos in Array#{to_s,inspect} doc [ci skip]
+  f10c9cb1f2: |-
+    ruby 2.7.0dev (2019-09-29T09:47:59Z trunk f10c9cb1f2) [x86_64-linux]
+    last_commit=[ruby/zlib] Search zlib.c as a gem
+  f10c9cb1f2 --jit: |-
+    ruby 2.7.0dev (2019-09-29T09:47:59Z trunk f10c9cb1f2) +JIT [x86_64-linux]
+    last_commit=[ruby/zlib] Search zlib.c as a gem
+  94db8cda9b: |-
+    ruby 2.7.0dev (2019-09-29T09:53:11Z trunk 94db8cda9b) [x86_64-linux]
+    last_commit=[ruby/zlib] Fix for older ruby 2.6 or earlier
+  94db8cda9b --jit: |-
+    ruby 2.7.0dev (2019-09-29T09:53:11Z trunk 94db8cda9b) +JIT [x86_64-linux]
+    last_commit=[ruby/zlib] Fix for older ruby 2.6 or earlier
+  7f30783af7: |-
+    ruby 2.7.0dev (2019-09-29T09:55:26Z trunk 7f30783af7) [x86_64-linux]
+    last_commit=[ruby/stringio] Get rid of String#undump for ruby 2.4 or earlier
+  7f30783af7 --jit: |-
+    ruby 2.7.0dev (2019-09-29T09:55:26Z trunk 7f30783af7) +JIT [x86_64-linux]
+    last_commit=[ruby/stringio] Get rid of String#undump for ruby 2.4 or earlier
+  ef795f9abd: |-
+    ruby 2.7.0dev (2019-09-29T09:55:28Z trunk ef795f9abd) [x86_64-linux]
+    last_commit=[ruby/stringio] Dropped older ruby versions
+  ef795f9abd --jit: |-
+    ruby 2.7.0dev (2019-09-29T09:55:28Z trunk ef795f9abd) +JIT [x86_64-linux]
+    last_commit=[ruby/stringio] Dropped older ruby versions
+  68ab4a5e35: |-
+    ruby 2.7.0dev (2019-09-29T09:55:30Z trunk 68ab4a5e35) [x86_64-linux]
+    last_commit=[ruby/stringio] Replaced rb_funcall2 with rb_funcallv
+  68ab4a5e35 --jit: |-
+    ruby 2.7.0dev (2019-09-29T09:55:30Z trunk 68ab4a5e35) +JIT [x86_64-linux]
+    last_commit=[ruby/stringio] Replaced rb_funcall2 with rb_funcallv
+  7fe253f47f: |-
+    ruby 2.7.0dev (2019-09-29T09:55:32Z trunk 7fe253f47f) [x86_64-linux]
+    last_commit=[ruby/stringio] Use rb_funcallv_kw when delegating arguments
+  7fe253f47f --jit: |-
+    ruby 2.7.0dev (2019-09-29T09:55:32Z trunk 7fe253f47f) +JIT [x86_64-linux]
+    last_commit=[ruby/stringio] Use rb_funcallv_kw when delegating arguments
+  f6f03dcad6: |-
+    ruby 2.7.0dev (2019-09-29T09:55:34Z trunk f6f03dcad6) [x86_64-linux]
+    last_commit=[ruby/stringio] Bump up the version
+  f6f03dcad6 --jit: |-
+    ruby 2.7.0dev (2019-09-29T09:55:34Z trunk f6f03dcad6) +JIT [x86_64-linux]
+    last_commit=[ruby/stringio] Bump up the version

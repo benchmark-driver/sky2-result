@@ -1648,6 +1648,8 @@ results:
     9bd77d7cf3: 3373575.299
     9844a349bf: 3346671.598
     e4be2fda3d: 3461434.353
+    28267cea08: 3485570.023
+    83498854eb: 3470012.345
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3295,6 +3297,8 @@ results:
     9bd77d7cf3: 3345936.367
     9844a349bf: 3324592.585
     e4be2fda3d: 3397445.133
+    28267cea08: 3452450.982
+    83498854eb: 3462023.647
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4942,6 +4946,8 @@ results:
     9bd77d7cf3: 1855599.953
     9844a349bf: 1854395.361
     e4be2fda3d: 1927157.908
+    28267cea08: 1902767.467
+    83498854eb: 1898286.403
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6589,6 +6595,8 @@ results:
     9bd77d7cf3: 2846575.807
     9844a349bf: 2871328.477
     e4be2fda3d: 2858522.561
+    28267cea08: 2810994.52
+    83498854eb: 2778775.155
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8236,6 +8244,8 @@ results:
     9bd77d7cf3: 3644281.22
     9844a349bf: 3675421.923
     e4be2fda3d: 3754451.558
+    28267cea08: 3771373.694
+    83498854eb: 3730487.171
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9883,6 +9893,8 @@ results:
     9bd77d7cf3: 3612047.943
     9844a349bf: 3525978.254
     e4be2fda3d: 3669005.374
+    28267cea08: 3741969.977
+    83498854eb: 3696443.723
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -11530,6 +11542,8 @@ results:
     9bd77d7cf3: 1951690.609
     9844a349bf: 1976733.697
     e4be2fda3d: 1992231.244
+    28267cea08: 1913866.316
+    83498854eb: 2010891.082
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -13177,3 +13191,5 @@ results:
     9bd77d7cf3: 3051366.669
     9844a349bf: 3061726.162
     e4be2fda3d: 3050731.77
+    28267cea08: 3017127.003
+    83498854eb: 3013348.405
