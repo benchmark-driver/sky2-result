@@ -5967,3 +5967,45 @@ commits:
   a27dc83113 --jit: |-
     ruby 2.7.0dev (2019-09-29T11:57:54Z trunk a27dc83113) +JIT [x86_64-linux]
     last_commit=Pass $(XRUBY) to test-bundled-gems.rb since RbConfig.ruby is incorrect for miniruby
+  31bb66a19d: |-
+    ruby 2.7.0dev (2019-09-29T14:03:47Z trunk 31bb66a19d) [x86_64-linux]
+    last_commit=Update to ruby/mspec@8106083
+  31bb66a19d --jit: |-
+    ruby 2.7.0dev (2019-09-29T14:03:47Z trunk 31bb66a19d) +JIT [x86_64-linux]
+    last_commit=Update to ruby/mspec@8106083
+  1c938a72aa: |-
+    ruby 2.7.0dev (2019-09-29T14:03:58Z trunk 1c938a72aa) [x86_64-linux]
+    last_commit=Update to ruby/spec@519df35
+  1c938a72aa --jit: |-
+    ruby 2.7.0dev (2019-09-29T14:03:58Z trunk 1c938a72aa) +JIT [x86_64-linux]
+    last_commit=Update to ruby/spec@519df35
+  f9a9f3c7c6: |-
+    ruby 2.7.0dev (2019-09-29T16:01:30Z trunk f9a9f3c7c6) [x86_64-linux]
+    last_commit=Update to ruby/mspec@8cabcef
+  f9a9f3c7c6 --jit: |-
+    ruby 2.7.0dev (2019-09-29T16:01:30Z trunk f9a9f3c7c6) +JIT [x86_64-linux]
+    last_commit=Update to ruby/mspec@8cabcef
+  a17bc04d15: |-
+    ruby 2.7.0dev (2019-09-29T16:01:32Z trunk a17bc04d15) [x86_64-linux]
+    last_commit=Update to ruby/spec@e69a14c
+  a17bc04d15 --jit: |-
+    ruby 2.7.0dev (2019-09-29T16:01:32Z trunk a17bc04d15) +JIT [x86_64-linux]
+    last_commit=Update to ruby/spec@e69a14c
+  f39314a98a: |-
+    ruby 2.7.0dev (2019-09-29T16:02:54Z trunk f39314a98a) [x86_64-linux]
+    last_commit=* 2019-09-30 [ci skip]
+  f39314a98a --jit: |-
+    ruby 2.7.0dev (2019-09-29T16:02:54Z trunk f39314a98a) +JIT [x86_64-linux]
+    last_commit=* 2019-09-30 [ci skip]
+  59648af296: |-
+    ruby 2.7.0dev (2019-09-29T16:17:55Z trunk 59648af296) [x86_64-linux]
+    last_commit=Suppress keyword argument warning from #step
+  59648af296 --jit: |-
+    ruby 2.7.0dev (2019-09-29T16:17:55Z trunk 59648af296) +JIT [x86_64-linux]
+    last_commit=Suppress keyword argument warning from #step
+  2d41c712a7: |-
+    ruby 2.7.0dev (2019-09-29T16:34:12Z trunk 2d41c712a7) [x86_64-linux]
+    last_commit=Skip default gemspecs spec if the default_specifications_dir cannot be found
+  2d41c712a7 --jit: |-
+    ruby 2.7.0dev (2019-09-29T16:34:12Z trunk 2d41c712a7) +JIT [x86_64-linux]
+    last_commit=Skip default gemspecs spec if the default_specifications_dir cannot be found
