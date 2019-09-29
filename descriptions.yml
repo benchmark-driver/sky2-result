@@ -9,108 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  12074ad01c: |-
-    ruby 2.7.0dev (2019-08-16T01:25:27Z trunk 12074ad01c) [x86_64-linux]
-    last_commit=Use GNU make built-in funtion [ci skip]
-  12074ad01c --jit: |-
-    ruby 2.7.0dev (2019-08-16T01:25:27Z trunk 12074ad01c) +JIT [x86_64-linux]
-    last_commit=Use GNU make built-in funtion [ci skip]
-  64bffddda1: |-
-    ruby 2.7.0dev (2019-08-16T01:25:27Z trunk 64bffddda1) [x86_64-linux]
-    last_commit=exit accepts true and false [ci skip]
-  64bffddda1 --jit: |-
-    ruby 2.7.0dev (2019-08-16T01:25:27Z trunk 64bffddda1) +JIT [x86_64-linux]
-    last_commit=exit accepts true and false [ci skip]
-  cd41378ef9: |-
-    ruby 2.7.0dev (2019-08-16T02:36:47Z trunk cd41378ef9) [x86_64-linux]
-    last_commit=lib/rdoc/parser/ruby.rb: Avoid `.chars.to_a.last`
-  cd41378ef9 --jit: |-
-    ruby 2.7.0dev (2019-08-16T02:36:47Z trunk cd41378ef9) +JIT [x86_64-linux]
-    last_commit=lib/rdoc/parser/ruby.rb: Avoid `.chars.to_a.last`
-  500c3cb6a5: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 500c3cb6a5) [x86_64-linux]
-    last_commit=[bundler/bundler] Reuse `root` method
-  500c3cb6a5 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 500c3cb6a5) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Reuse `root` method
-  c11c8b69ea: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk c11c8b69ea) [x86_64-linux]
-    last_commit=[bundler/bundler] Indentation tweak
-  c11c8b69ea --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk c11c8b69ea) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Indentation tweak
-  6711343d5a: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 6711343d5a) [x86_64-linux]
-    last_commit=[bundler/bundler] Fix inconsistent lockfile order
-  6711343d5a --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 6711343d5a) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fix inconsistent lockfile order
-  2b0f3aa095: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 2b0f3aa095) [x86_64-linux]
-    last_commit=[bundler/bundler] Use the standard RUBY_ENGINE_VERSION instead of JRUBY_VERSION
-  2b0f3aa095 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 2b0f3aa095) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Use the standard RUBY_ENGINE_VERSION instead of JRUBY_VERSION
-  3f0e19c9fa: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 3f0e19c9fa) [x86_64-linux]
-    last_commit=[bundler/bundler] Enable retries on flaky spec
-  3f0e19c9fa --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 3f0e19c9fa) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Enable retries on flaky spec
-  3c23bb29ec: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 3c23bb29ec) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unnecessary exclusions
-  3c23bb29ec --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 3c23bb29ec) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unnecessary exclusions
-  41534ce327: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 41534ce327) [x86_64-linux]
-    last_commit=[bundler/bundler] Make spec pass more resiliently
-  41534ce327 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 41534ce327) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Make spec pass more resiliently
-  129657ab6a: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 129657ab6a) [x86_64-linux]
-    last_commit=[bundler/bundler] Normalize style with other artifice files
-  129657ab6a --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 129657ab6a) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Normalize style with other artifice files
-  0aed0bd9ed: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 0aed0bd9ed) [x86_64-linux]
-    last_commit=[bundler/bundler] Bump rack and sinatra to latest versions
-  0aed0bd9ed --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 0aed0bd9ed) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Bump rack and sinatra to latest versions
-  ee1f3038f1: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk ee1f3038f1) [x86_64-linux]
-    last_commit=[bundler/bundler] Clarify spec description
-  ee1f3038f1 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk ee1f3038f1) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Clarify spec description
-  6c6c4c7388: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 6c6c4c7388) [x86_64-linux]
-    last_commit=[bundler/bundler] Use non deprecated way of setting bundler path
-  6c6c4c7388 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 6c6c4c7388) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Use non deprecated way of setting bundler path
-  7ff0b4fec4: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 7ff0b4fec4) [x86_64-linux]
-    last_commit=[bundler/bundler] Fix installation of system bundler
-  7ff0b4fec4 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 7ff0b4fec4) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fix installation of system bundler
-  5bff72c912: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 5bff72c912) [x86_64-linux]
-    last_commit=[bundler/bundler] Make sure spec fails if `bundle install` fails
-  5bff72c912 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 5bff72c912) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Make sure spec fails if `bundle install` fails
-  521a2d2beb: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 521a2d2beb) [x86_64-linux]
-    last_commit=[bundler/bundler] Revert "make system_bundle_bin_path helper and resolve failing tests for ruby < 2.6"
-  521a2d2beb --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 521a2d2beb) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Revert "make system_bundle_bin_path helper and resolve failing tests for ruby < 2.6"
   94e26a97a1: |-
     ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 94e26a97a1) [x86_64-linux]
     last_commit=[bundler/bundler] Bump rspec dependency to 3.8
@@ -6045,3 +5943,27 @@ commits:
   f6f03dcad6 --jit: |-
     ruby 2.7.0dev (2019-09-29T09:55:34Z trunk f6f03dcad6) +JIT [x86_64-linux]
     last_commit=[ruby/stringio] Bump up the version
+  e3b11566bf: |-
+    ruby 2.7.0dev (2019-09-29T11:57:54Z trunk e3b11566bf) [x86_64-linux]
+    last_commit=Remove continue-on-error for test-bundled-gems
+  e3b11566bf --jit: |-
+    ruby 2.7.0dev (2019-09-29T11:57:54Z trunk e3b11566bf) +JIT [x86_64-linux]
+    last_commit=Remove continue-on-error for test-bundled-gems
+  d090e449ef: |-
+    ruby 2.7.0dev (2019-09-29T11:57:54Z trunk d090e449ef) [x86_64-linux]
+    last_commit=Exclude the test-unit bundled gem tests since they also fail since the Time#inspect change
+  d090e449ef --jit: |-
+    ruby 2.7.0dev (2019-09-29T11:57:54Z trunk d090e449ef) +JIT [x86_64-linux]
+    last_commit=Exclude the test-unit bundled gem tests since they also fail since the Time#inspect change
+  4096e4b08c: |-
+    ruby 2.7.0dev (2019-09-29T11:57:54Z trunk 4096e4b08c) [x86_64-linux]
+    last_commit=Move the logic to test bundled gems to Ruby code
+  4096e4b08c --jit: |-
+    ruby 2.7.0dev (2019-09-29T11:57:54Z trunk 4096e4b08c) +JIT [x86_64-linux]
+    last_commit=Move the logic to test bundled gems to Ruby code
+  a27dc83113: |-
+    ruby 2.7.0dev (2019-09-29T11:57:54Z trunk a27dc83113) [x86_64-linux]
+    last_commit=Pass $(XRUBY) to test-bundled-gems.rb since RbConfig.ruby is incorrect for miniruby
+  a27dc83113 --jit: |-
+    ruby 2.7.0dev (2019-09-29T11:57:54Z trunk a27dc83113) +JIT [x86_64-linux]
+    last_commit=Pass $(XRUBY) to test-bundled-gems.rb since RbConfig.ruby is incorrect for miniruby
