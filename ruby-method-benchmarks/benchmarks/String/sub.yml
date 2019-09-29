@@ -1644,6 +1644,8 @@ results:
     f3bae2c6cf: 3367302.785
     2272efa463: 3409835.823
     642dbb962c: 3391542.301
+    1fb44d2b8c: 3204119.29
+    9bd77d7cf3: 3373575.299
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3287,6 +3289,8 @@ results:
     f3bae2c6cf: 3300671.626
     2272efa463: 2869588.308
     642dbb962c: 3240554.494
+    1fb44d2b8c: 3225727.325
+    9bd77d7cf3: 3345936.367
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4930,6 +4934,8 @@ results:
     f3bae2c6cf: 1910672.164
     2272efa463: 1823045.219
     642dbb962c: 1905057.382
+    1fb44d2b8c: 1863458.139
+    9bd77d7cf3: 1855599.953
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6573,6 +6579,8 @@ results:
     f3bae2c6cf: 2884871.84
     2272efa463: 2861393.494
     642dbb962c: 2784986.215
+    1fb44d2b8c: 2794226.73
+    9bd77d7cf3: 2846575.807
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8216,6 +8224,8 @@ results:
     f3bae2c6cf: 3745856.851
     2272efa463: 3678773.764
     642dbb962c: 3641931.518
+    1fb44d2b8c: 3652751.679
+    9bd77d7cf3: 3644281.22
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9859,6 +9869,8 @@ results:
     f3bae2c6cf: 3607674.939
     2272efa463: 3657844.704
     642dbb962c: 3613704.105
+    1fb44d2b8c: 3616339.01
+    9bd77d7cf3: 3612047.943
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -11502,6 +11514,8 @@ results:
     f3bae2c6cf: 1973512.702
     2272efa463: 1927807.309
     642dbb962c: 1968885.541
+    1fb44d2b8c: 1933093.129
+    9bd77d7cf3: 1951690.609
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -13145,3 +13159,5 @@ results:
     f3bae2c6cf: 3104864.983
     2272efa463: 3069526.124
     642dbb962c: 2871144.547
+    1fb44d2b8c: 2872319.829
+    9bd77d7cf3: 3051366.669
