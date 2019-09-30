@@ -1662,6 +1662,8 @@ results:
     eff15a269f: 3033380.873
     f4aa06c0ff: 3325716.959
     799de9122e: 3346851.15
+    d9bfbe363d: 3415408.433
+    83ef23bd75: 3370430.995
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3323,6 +3325,8 @@ results:
     eff15a269f: 3367329.633
     f4aa06c0ff: 3242741.854
     799de9122e: 3331471.046
+    d9bfbe363d: 3390328.312
+    83ef23bd75: 3342661.927
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -4984,6 +4988,8 @@ results:
     eff15a269f: 1505139.309
     f4aa06c0ff: 1596976.755
     799de9122e: 1882510.11
+    d9bfbe363d: 1839063.529
+    83ef23bd75: 1907531.059
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6645,6 +6651,8 @@ results:
     eff15a269f: 3167893.651
     f4aa06c0ff: 2877456.156
     799de9122e: 2856759.198
+    d9bfbe363d: 2805046.902
+    83ef23bd75: 2855707.695
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8306,6 +8314,8 @@ results:
     eff15a269f: 3271451.732
     f4aa06c0ff: 3668684.782
     799de9122e: 3651025.642
+    d9bfbe363d: 3712392.902
+    83ef23bd75: 3650587.313
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -9967,6 +9977,8 @@ results:
     eff15a269f: 3668916.684
     f4aa06c0ff: 3591631.767
     799de9122e: 3607586.163
+    d9bfbe363d: 3651018.71
+    83ef23bd75: 3626732.196
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -11628,6 +11640,8 @@ results:
     eff15a269f: 1900807.571
     f4aa06c0ff: 1880910.108
     799de9122e: 1606686.686
+    d9bfbe363d: 2000335.042
+    83ef23bd75: 1888623.181
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -13289,3 +13303,5 @@ results:
     eff15a269f: 3408851.764
     f4aa06c0ff: 2986536.459
     799de9122e: 3064319.61
+    d9bfbe363d: 3000601.265
+    83ef23bd75: 3006445.111

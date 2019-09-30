@@ -9,84 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  25a327d41b: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 25a327d41b) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Do not mutate uri.query during s3 signature creation
-  25a327d41b --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 25a327d41b) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Do not mutate uri.query during s3 signature creation
-  56a28a8728: |-
-    ruby 2.7.0dev (2019-08-16T22:35:49Z trunk 56a28a8728) [x86_64-linux]
-    last_commit=[rubygems/rubygems] installer.rb - fix #windows_stub_script
-  56a28a8728 --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:35:49Z trunk 56a28a8728) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] installer.rb - fix #windows_stub_script
-  ae3002b540: |-
-    ruby 2.7.0dev (2019-08-16T22:35:49Z trunk ae3002b540) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fixup #2844
-  ae3002b540 --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:35:49Z trunk ae3002b540) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fixup #2844
-  f30d38bdd0: |-
-    ruby 2.7.0dev (2019-08-16T22:47:19Z trunk f30d38bdd0) [x86_64-linux]
-    last_commit=Move lib directory to the last of $LOAD_PATH on ruby repository.
-  f30d38bdd0 --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:47:19Z trunk f30d38bdd0) +JIT [x86_64-linux]
-    last_commit=Move lib directory to the last of $LOAD_PATH on ruby repository.
-  e0fc9b7ccd: |-
-    ruby 2.7.0dev (2019-08-16T22:49:00Z trunk e0fc9b7ccd) [x86_64-linux]
-    last_commit=* 2019-08-17 [ci skip]
-  e0fc9b7ccd --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:49:00Z trunk e0fc9b7ccd) +JIT [x86_64-linux]
-    last_commit=* 2019-08-17 [ci skip]
-  '7624154595': |-
-    ruby 2.7.0dev (2019-08-16T23:44:31Z trunk 7624154595) [x86_64-linux]
-    last_commit=Fixed Insecure Operation in require
-  7624154595 --jit: |-
-    ruby 2.7.0dev (2019-08-16T23:44:31Z trunk 7624154595) +JIT [x86_64-linux]
-    last_commit=Fixed Insecure Operation in require
-  efd37f8fc3: |-
-    ruby 2.7.0dev (2019-08-16T23:52:23Z trunk efd37f8fc3) [x86_64-linux]
-    last_commit=Remove redundant each from `sum` example (#2190) [ci skip]
-  efd37f8fc3 --jit: |-
-    ruby 2.7.0dev (2019-08-16T23:52:23Z trunk efd37f8fc3) +JIT [x86_64-linux]
-    last_commit=Remove redundant each from `sum` example (#2190) [ci skip]
-  75d29db8f9: |-
-    ruby 2.7.0dev (2019-08-16T23:52:39Z trunk 75d29db8f9) [x86_64-linux]
-    last_commit=Revert "[rubygems/rubygems] [Require] Ensure -I beats a default gem"
-  75d29db8f9 --jit: |-
-    ruby 2.7.0dev (2019-08-16T23:52:39Z trunk 75d29db8f9) +JIT [x86_64-linux]
-    last_commit=Revert "[rubygems/rubygems] [Require] Ensure -I beats a default gem"
-  045152df9e: |-
-    ruby 2.7.0dev (2019-08-17T00:43:06Z trunk 045152df9e) [x86_64-linux]
-    last_commit=Disable fail-fast of GitHub Actions
-  045152df9e --jit: |-
-    ruby 2.7.0dev (2019-08-17T00:43:06Z trunk 045152df9e) +JIT [x86_64-linux]
-    last_commit=Disable fail-fast of GitHub Actions
-  042be439d9: |-
-    ruby 2.7.0dev (2019-08-17T03:19:13Z trunk 042be439d9) [x86_64-linux]
-    last_commit=Improve the doc example of `method_missing`
-  042be439d9 --jit: |-
-    ruby 2.7.0dev (2019-08-17T03:19:13Z trunk 042be439d9) +JIT [x86_64-linux]
-    last_commit=Improve the doc example of `method_missing`
-  11a9f7ab94: |-
-    ruby 2.7.0dev (2019-08-17T03:30:38Z trunk 11a9f7ab94) [x86_64-linux]
-    last_commit=Search refinement module along nested usings
-  11a9f7ab94 --jit: |-
-    ruby 2.7.0dev (2019-08-17T03:30:38Z trunk 11a9f7ab94) +JIT [x86_64-linux]
-    last_commit=Search refinement module along nested usings
-  dc020b06ff: |-
-    ruby 2.7.0dev (2019-08-17T03:32:34Z trunk dc020b06ff) [x86_64-linux]
-    last_commit=Hoisted out search_refined_method
-  dc020b06ff --jit: |-
-    ruby 2.7.0dev (2019-08-17T03:32:34Z trunk dc020b06ff) +JIT [x86_64-linux]
-    last_commit=Hoisted out search_refined_method
-  ea496e9fb2: |-
-    ruby 2.7.0dev (2019-08-17T04:27:11Z trunk ea496e9fb2) [x86_64-linux]
-    last_commit=Added test check to ubuntu on GitHub Actions
-  ea496e9fb2 --jit: |-
-    ruby 2.7.0dev (2019-08-17T04:27:11Z trunk ea496e9fb2) +JIT [x86_64-linux]
-    last_commit=Added test check to ubuntu on GitHub Actions
   2468466a1a: |-
     ruby 2.7.0dev (2019-08-17T04:27:11Z trunk 2468466a1a) [x86_64-linux]
     last_commit=Added missing condition for test-bundler and test-bundled-gems.
@@ -6021,3 +5943,27 @@ commits:
   5ddc2ba13e --jit: |-
     ruby 2.7.0dev (2019-09-30T11:24:26Z trunk 5ddc2ba13e) +JIT [x86_64-linux]
     last_commit=test/ruby/test_io.rb: supress a "method redefined" warning
+  3073404e74: |-
+    ruby 2.7.0dev (2019-09-30T14:06:42Z trunk 3073404e74) [x86_64-linux]
+    last_commit=Add rb_enumeratorize_with_size_kw and related macros
+  3073404e74 --jit: |-
+    ruby 2.7.0dev (2019-09-30T14:06:42Z trunk 3073404e74) +JIT [x86_64-linux]
+    last_commit=Add rb_enumeratorize_with_size_kw and related macros
+  a8c436d9a1: |-
+    ruby 2.7.0dev (2019-09-30T14:06:42Z trunk a8c436d9a1) [x86_64-linux]
+    last_commit=Issue keyword flag warning even with no arguments
+  a8c436d9a1 --jit: |-
+    ruby 2.7.0dev (2019-09-30T14:06:42Z trunk a8c436d9a1) +JIT [x86_64-linux]
+    last_commit=Issue keyword flag warning even with no arguments
+  671ca21254: |-
+    ruby 2.7.0dev (2019-09-30T16:14:19Z trunk 671ca21254) [x86_64-linux]
+    last_commit=remove `unused var` warning
+  671ca21254 --jit: |-
+    ruby 2.7.0dev (2019-09-30T16:14:19Z trunk 671ca21254) +JIT [x86_64-linux]
+    last_commit=remove `unused var` warning
+  01e75b6be9: |-
+    ruby 2.7.0dev (2019-09-30T16:14:45Z trunk 01e75b6be9) [x86_64-linux]
+    last_commit=* 2019-10-01 [ci skip]
+  01e75b6be9 --jit: |-
+    ruby 2.7.0dev (2019-09-30T16:14:45Z trunk 01e75b6be9) +JIT [x86_64-linux]
+    last_commit=* 2019-10-01 [ci skip]
