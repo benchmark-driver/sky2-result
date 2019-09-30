@@ -5967,3 +5967,45 @@ commits:
   8ba48c1b85 --jit: |-
     ruby 2.7.0dev (2019-09-30T05:27:02Z trunk 8ba48c1b85) +JIT [x86_64-linux]
     last_commit=rb_method_attr_t::location should be 0 or others.
+  bf8d7d9c1d: |-
+    ruby 2.7.0dev (2019-09-30T06:35:22Z trunk bf8d7d9c1d) [x86_64-linux]
+    last_commit=show RUBY_ISEQ_DUMP_DEBUG envval if given.
+  bf8d7d9c1d --jit: |-
+    ruby 2.7.0dev (2019-09-30T06:35:22Z trunk bf8d7d9c1d) +JIT [x86_64-linux]
+    last_commit=show RUBY_ISEQ_DUMP_DEBUG envval if given.
+  88f38c187e: |-
+    ruby 2.7.0dev (2019-09-30T06:36:19Z trunk 88f38c187e) [x86_64-linux]
+    last_commit=Emulate method_list (chkbuild) on test-all.
+  88f38c187e --jit: |-
+    ruby 2.7.0dev (2019-09-30T06:36:19Z trunk 88f38c187e) +JIT [x86_64-linux]
+    last_commit=Emulate method_list (chkbuild) on test-all.
+  c3b84f2de8: |-
+    ruby 2.7.0dev (2019-09-30T08:23:36Z trunk c3b84f2de8) [x86_64-linux]
+    last_commit=introduce debug check.
+  c3b84f2de8 --jit: |-
+    ruby 2.7.0dev (2019-09-30T08:23:36Z trunk c3b84f2de8) +JIT [x86_64-linux]
+    last_commit=introduce debug check.
+  1722c156dd: |-
+    ruby 2.7.0dev (2019-09-30T08:38:54Z trunk 1722c156dd) [x86_64-linux]
+    last_commit=Now `use_symbol` is always true
+  1722c156dd --jit: |-
+    ruby 2.7.0dev (2019-09-30T08:38:54Z trunk 1722c156dd) +JIT [x86_64-linux]
+    last_commit=Now `use_symbol` is always true
+  771fd915a4: |-
+    ruby 2.7.0dev (2019-09-30T08:39:38Z trunk 771fd915a4) [x86_64-linux]
+    last_commit=Use assert_operator instead of mere assert
+  771fd915a4 --jit: |-
+    ruby 2.7.0dev (2019-09-30T08:39:38Z trunk 771fd915a4) +JIT [x86_64-linux]
+    last_commit=Use assert_operator instead of mere assert
+  10d6a3aca7: |-
+    ruby 2.7.0dev (2019-09-30T08:43:11Z trunk 10d6a3aca7) [x86_64-linux]
+    last_commit=Fix assertion
+  10d6a3aca7 --jit: |-
+    ruby 2.7.0dev (2019-09-30T08:43:11Z trunk 10d6a3aca7) +JIT [x86_64-linux]
+    last_commit=Fix assertion
+  945560008f: |-
+    ruby 2.7.0dev (2019-09-30T08:59:10Z trunk 945560008f) [x86_64-linux]
+    last_commit=Revert "introduce debug check."
+  945560008f --jit: |-
+    ruby 2.7.0dev (2019-09-30T08:59:10Z trunk 945560008f) +JIT [x86_64-linux]
+    last_commit=Revert "introduce debug check."
