@@ -9,120 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  e8fd720434: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk e8fd720434) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove mention to remembered options
-  e8fd720434 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk e8fd720434) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove mention to remembered options
-  8cf90a2f80: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 8cf90a2f80) [x86_64-linux]
-    last_commit=[bundler/bundler] Fixed rubocop error
-  8cf90a2f80 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 8cf90a2f80) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fixed rubocop error
-  b8d759806f: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk b8d759806f) [x86_64-linux]
-    last_commit=[bundler/bundler] Fixup #7297
-  b8d759806f --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk b8d759806f) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fixup #7297
-  02d0d424be: |-
-    ruby 2.7.0dev (2019-08-16T05:52:03Z trunk 02d0d424be) [x86_64-linux]
-    last_commit=Revert "[bundler/bundler] Fixup #7297"
-  02d0d424be --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:52:03Z trunk 02d0d424be) +JIT [x86_64-linux]
-    last_commit=Revert "[bundler/bundler] Fixup #7297"
-  03f4a0b18e: |-
-    ruby 2.7.0dev (2019-08-16T08:28:40Z trunk 03f4a0b18e) [x86_64-linux]
-    last_commit=[ruby/rdoc] Use assert_raise
-  03f4a0b18e --jit: |-
-    ruby 2.7.0dev (2019-08-16T08:28:40Z trunk 03f4a0b18e) +JIT [x86_64-linux]
-    last_commit=[ruby/rdoc] Use assert_raise
-  619f82bb6b: |-
-    ruby 2.7.0dev (2019-08-16T08:44:45Z trunk 619f82bb6b) [x86_64-linux]
-    last_commit=Hoisted out unixsocket_len, triming NUL chars from sun_path
-  619f82bb6b --jit: |-
-    ruby 2.7.0dev (2019-08-16T08:44:45Z trunk 619f82bb6b) +JIT [x86_64-linux]
-    last_commit=Hoisted out unixsocket_len, triming NUL chars from sun_path
-  229ae3269d: |-
-    ruby 2.7.0dev (2019-08-16T12:27:05Z trunk 229ae3269d) [x86_64-linux]
-    last_commit=lib/rdoc/store.rb: Use `Marshal.dump(obj, io)`
-  229ae3269d --jit: |-
-    ruby 2.7.0dev (2019-08-16T12:27:05Z trunk 229ae3269d) +JIT [x86_64-linux]
-    last_commit=lib/rdoc/store.rb: Use `Marshal.dump(obj, io)`
-  bb2a65800d: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk bb2a65800d) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Use `assert_require`
-  bb2a65800d --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk bb2a65800d) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Use `assert_require`
-  d4feeb1936: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk d4feeb1936) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Make test also assert the gems that it should load
-  d4feeb1936 --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk d4feeb1936) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Make test also assert the gems that it should load
-  00cd5d74ce: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 00cd5d74ce) [x86_64-linux]
-    last_commit=[rubygems/rubygems] [Require] Ensure -I beats a default gem
-  00cd5d74ce --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 00cd5d74ce) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] [Require] Ensure -I beats a default gem
-  37abd2c390: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 37abd2c390) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fix old rubies compat
-  37abd2c390 --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 37abd2c390) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fix old rubies compat
-  b8984370da: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk b8984370da) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fix jruby issue
-  b8984370da --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk b8984370da) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fix jruby issue
-  89ad5df979: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 89ad5df979) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Replace domain parameter in Gem::Command#show_lookup_failure with a parameter to suppress suggestions
-  89ad5df979 --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 89ad5df979) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Replace domain parameter in Gem::Command#show_lookup_failure with a parameter to suppress suggestions
-  f42ad4a425: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk f42ad4a425) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Little refactor
-  f42ad4a425 --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk f42ad4a425) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Little refactor
-  1ac6890bd0: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 1ac6890bd0) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fix removing unresolved default spec files from map
-  1ac6890bd0 --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 1ac6890bd0) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fix removing unresolved default spec files from map
-  3587824d71: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 3587824d71) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Don't unregister default specifications
-  3587824d71 --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 3587824d71) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Don't unregister default specifications
-  5998012a0c: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 5998012a0c) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Autoswitch to exact bundler version if present
-  5998012a0c --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 5998012a0c) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Autoswitch to exact bundler version if present
-  c78839902b: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk c78839902b) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Return `nil` to clarify return value is ignored
-  c78839902b --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk c78839902b) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Return `nil` to clarify return value is ignored
-  c4f7c260f9: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk c4f7c260f9) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Make deprecate Gem::RubyGemsVersion and Gem::ConfigMap.
-  c4f7c260f9 --jit: |-
-    ruby 2.7.0dev (2019-08-16T22:35:48Z trunk c4f7c260f9) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Make deprecate Gem::RubyGemsVersion and Gem::ConfigMap.
   25a327d41b: |-
     ruby 2.7.0dev (2019-08-16T22:35:48Z trunk 25a327d41b) [x86_64-linux]
     last_commit=[rubygems/rubygems] Do not mutate uri.query during s3 signature creation
@@ -6075,3 +5961,9 @@ commits:
   649a64ae29 --jit: |-
     ruby 2.7.0dev (2019-09-30T01:31:08Z trunk 649a64ae29) +JIT [x86_64-linux]
     last_commit=Add three more C-API functions for handling keywords
+  8ba48c1b85: |-
+    ruby 2.7.0dev (2019-09-30T05:27:02Z trunk 8ba48c1b85) [x86_64-linux]
+    last_commit=rb_method_attr_t::location should be 0 or others.
+  8ba48c1b85 --jit: |-
+    ruby 2.7.0dev (2019-09-30T05:27:02Z trunk 8ba48c1b85) +JIT [x86_64-linux]
+    last_commit=rb_method_attr_t::location should be 0 or others.
