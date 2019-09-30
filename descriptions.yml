@@ -5991,3 +5991,87 @@ commits:
   6fdd701472 --jit: |-
     ruby 2.7.0dev (2019-09-29T23:41:00Z trunk 6fdd701472) +JIT [x86_64-linux]
     last_commit=Remove VM_NO_KEYWORDS, replace with RB_NO_KEYWORDS
+  86427a3219: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 86427a3219) [x86_64-linux]
+    last_commit=refactor delete METHOD_ENTRY_COMPLEMENTED flag
+  86427a3219 --jit: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 86427a3219) +JIT [x86_64-linux]
+    last_commit=refactor delete METHOD_ENTRY_COMPLEMENTED flag
+  f56506be0d: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk f56506be0d) [x86_64-linux]
+    last_commit=refactor delete ID_TABLE_ITERATOR_RESULT_END
+  f56506be0d --jit: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk f56506be0d) +JIT [x86_64-linux]
+    last_commit=refactor delete ID_TABLE_ITERATOR_RESULT_END
+  3632a812c0: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 3632a812c0) [x86_64-linux]
+    last_commit=refactor add rb_id_table_foreach_with_replace_with_key
+  3632a812c0 --jit: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 3632a812c0) +JIT [x86_64-linux]
+    last_commit=refactor add rb_id_table_foreach_with_replace_with_key
+  cf33608203: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk cf33608203) [x86_64-linux]
+    last_commit=refactor constify most of rb_method_definition_t
+  cf33608203 --jit: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk cf33608203) +JIT [x86_64-linux]
+    last_commit=refactor constify most of rb_method_definition_t
+  c11c5e69ac: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk c11c5e69ac) [x86_64-linux]
+    last_commit=refactor split rb_method_definition_set
+  c11c5e69ac --jit: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk c11c5e69ac) +JIT [x86_64-linux]
+    last_commit=refactor split rb_method_definition_set
+  1521f7cf89: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 1521f7cf89) [x86_64-linux]
+    last_commit=refactor delete vm_cref_dump
+  1521f7cf89 --jit: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 1521f7cf89) +JIT [x86_64-linux]
+    last_commit=refactor delete vm_cref_dump
+  595b3c4fdd: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 595b3c4fdd) [x86_64-linux]
+    last_commit=refactor rb_method_definition_create take opts
+  595b3c4fdd --jit: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 595b3c4fdd) +JIT [x86_64-linux]
+    last_commit=refactor rb_method_definition_create take opts
+  '3207979278': |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 3207979278) [x86_64-linux]
+    last_commit=refactor delete rb_method_definition_set
+  3207979278 --jit: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 3207979278) +JIT [x86_64-linux]
+    last_commit=refactor delete rb_method_definition_set
+  7cb96d41a5: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 7cb96d41a5) [x86_64-linux]
+    last_commit=refactor delete rb_method_entry_copy
+  7cb96d41a5 --jit: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 7cb96d41a5) +JIT [x86_64-linux]
+    last_commit=refactor delete rb_method_entry_copy
+  167e6b48f1: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 167e6b48f1) [x86_64-linux]
+    last_commit=refactor reduce METHOD_ENTRY_FLAGS_COPY
+  167e6b48f1 --jit: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 167e6b48f1) +JIT [x86_64-linux]
+    last_commit=refactor reduce METHOD_ENTRY_FLAGS_COPY
+  6c6a25feca: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 6c6a25feca) [x86_64-linux]
+    last_commit=refactor add rb_method_entry_from_template
+  6c6a25feca --jit: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 6c6a25feca) +JIT [x86_64-linux]
+    last_commit=refactor add rb_method_entry_from_template
+  dd883de5ba: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk dd883de5ba) [x86_64-linux]
+    last_commit=refactor constify most of rb_method_entry_t
+  dd883de5ba --jit: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk dd883de5ba) +JIT [x86_64-linux]
+    last_commit=refactor constify most of rb_method_entry_t
+  fba8627dc1: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk fba8627dc1) [x86_64-linux]
+    last_commit=delete unnecessary branch
+  fba8627dc1 --jit: |-
+    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk fba8627dc1) +JIT [x86_64-linux]
+    last_commit=delete unnecessary branch
+  649a64ae29: |-
+    ruby 2.7.0dev (2019-09-30T01:31:08Z trunk 649a64ae29) [x86_64-linux]
+    last_commit=Add three more C-API functions for handling keywords
+  649a64ae29 --jit: |-
+    ruby 2.7.0dev (2019-09-30T01:31:08Z trunk 649a64ae29) +JIT [x86_64-linux]
+    last_commit=Add three more C-API functions for handling keywords
