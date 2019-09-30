@@ -9,72 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  94e26a97a1: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 94e26a97a1) [x86_64-linux]
-    last_commit=[bundler/bundler] Bump rspec dependency to 3.8
-  94e26a97a1 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 94e26a97a1) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Bump rspec dependency to 3.8
-  6412121b00: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 6412121b00) [x86_64-linux]
-    last_commit=[bundler/bundler] Fix typo in comment: attibutes -> attributes https://github.com/bundler/bundler/commit/876545805e
-  6412121b00 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 6412121b00) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fix typo in comment: attibutes -> attributes https://github.com/bundler/bundler/commit/876545805e
-  4913c9b6bf: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 4913c9b6bf) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unexistent file from exemptions
-  4913c9b6bf --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 4913c9b6bf) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unexistent file from exemptions
-  4af3665fd9: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 4af3665fd9) [x86_64-linux]
-    last_commit=[bundler/bundler] Use a newer debugging gem in docs
-  4af3665fd9 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 4af3665fd9) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Use a newer debugging gem in docs
-  cd15d27d10: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk cd15d27d10) [x86_64-linux]
-    last_commit=[bundler/bundler] Stop printing deprecation messages during specs
-  cd15d27d10 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk cd15d27d10) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Stop printing deprecation messages during specs
-  8f28ae65a8: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 8f28ae65a8) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove misleading comment in Gemfile
-  8f28ae65a8 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 8f28ae65a8) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove misleading comment in Gemfile
-  f48a61fb46: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk f48a61fb46) [x86_64-linux]
-    last_commit=[bundler/bundler] Commit man pages to source control
-  f48a61fb46 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk f48a61fb46) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Commit man pages to source control
-  cb71930351: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk cb71930351) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unexistent folder from exemptions
-  cb71930351 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk cb71930351) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unexistent folder from exemptions
-  b587e8c7f1: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk b587e8c7f1) [x86_64-linux]
-    last_commit=[bundler/bundler] Add `--[no-]git` option to `bundle gem`
-  b587e8c7f1 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk b587e8c7f1) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Add `--[no-]git` option to `bundle gem`
-  3b61019a89: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 3b61019a89) [x86_64-linux]
-    last_commit=[bundler/bundler] Add initial Bundler::BuildMetadata Spec
-  3b61019a89 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 3b61019a89) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Add initial Bundler::BuildMetadata Spec
-  502ad4d391: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 502ad4d391) [x86_64-linux]
-    last_commit=[bundler/bundler] Document upcoming changes to remembered options
-  502ad4d391 --jit: |-
-    ruby 2.7.0dev (2019-08-16T05:30:23Z trunk 502ad4d391) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Document upcoming changes to remembered options
   e8fd720434: |-
     ruby 2.7.0dev (2019-08-16T05:30:23Z trunk e8fd720434) [x86_64-linux]
     last_commit=[bundler/bundler] Remove mention to remembered options
@@ -6009,3 +5943,27 @@ commits:
   2d41c712a7 --jit: |-
     ruby 2.7.0dev (2019-09-29T16:34:12Z trunk 2d41c712a7) +JIT [x86_64-linux]
     last_commit=Skip default gemspecs spec if the default_specifications_dir cannot be found
+  d51b4e34fb: |-
+    ruby 2.7.0dev (2019-09-29T17:13:35Z trunk d51b4e34fb) [x86_64-linux]
+    last_commit=Update to ruby/mspec@5dda9fb
+  d51b4e34fb --jit: |-
+    ruby 2.7.0dev (2019-09-29T17:13:35Z trunk d51b4e34fb) +JIT [x86_64-linux]
+    last_commit=Update to ruby/mspec@5dda9fb
+  070cbe22b7: |-
+    ruby 2.7.0dev (2019-09-29T17:13:37Z trunk 070cbe22b7) [x86_64-linux]
+    last_commit=Update to ruby/spec@34e6246
+  070cbe22b7 --jit: |-
+    ruby 2.7.0dev (2019-09-29T17:13:37Z trunk 070cbe22b7) +JIT [x86_64-linux]
+    last_commit=Update to ruby/spec@34e6246
+  869e4f6e4c: |-
+    ruby 2.7.0dev (2019-09-29T17:34:07Z trunk 869e4f6e4c) [x86_64-linux]
+    last_commit=Fix or suppress keyword argument separation warnings in util_spec
+  869e4f6e4c --jit: |-
+    ruby 2.7.0dev (2019-09-29T17:34:07Z trunk 869e4f6e4c) +JIT [x86_64-linux]
+    last_commit=Fix or suppress keyword argument separation warnings in util_spec
+  54d49aeb52: |-
+    ruby 2.7.0dev (2019-09-29T17:56:15Z trunk 54d49aeb52) [x86_64-linux]
+    last_commit=Update to ruby/spec@2699ea4
+  54d49aeb52 --jit: |-
+    ruby 2.7.0dev (2019-09-29T17:56:15Z trunk 54d49aeb52) +JIT [x86_64-linux]
+    last_commit=Update to ruby/spec@2699ea4
