@@ -6009,3 +6009,15 @@ commits:
   945560008f --jit: |-
     ruby 2.7.0dev (2019-09-30T08:59:10Z trunk 945560008f) +JIT [x86_64-linux]
     last_commit=Revert "introduce debug check."
+  fc66947c61: |-
+    ruby 2.7.0dev (2019-09-30T11:22:29Z trunk fc66947c61) [x86_64-linux]
+    last_commit=test/-ext-/string/test_fstring.rb: suppress "possibly useless use of -@"
+  fc66947c61 --jit: |-
+    ruby 2.7.0dev (2019-09-30T11:22:29Z trunk fc66947c61) +JIT [x86_64-linux]
+    last_commit=test/-ext-/string/test_fstring.rb: suppress "possibly useless use of -@"
+  5ddc2ba13e: |-
+    ruby 2.7.0dev (2019-09-30T11:24:26Z trunk 5ddc2ba13e) [x86_64-linux]
+    last_commit=test/ruby/test_io.rb: supress a "method redefined" warning
+  5ddc2ba13e --jit: |-
+    ruby 2.7.0dev (2019-09-30T11:24:26Z trunk 5ddc2ba13e) +JIT [x86_64-linux]
+    last_commit=test/ruby/test_io.rb: supress a "method redefined" warning
