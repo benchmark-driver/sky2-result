@@ -5973,3 +5973,33 @@ commits:
   a38fe1fbf0 --jit: |-
     ruby 2.7.0dev (2019-09-30T23:57:50Z trunk a38fe1fbf0) +JIT [x86_64-linux]
     last_commit=ext/-test-/enumerator_kw/enumerator_kw.c: remove unused variable
+  a0a2640b39: |-
+    ruby 2.7.0dev (2019-10-01T10:19:56Z trunk a0a2640b39) [x86_64-linux]
+    last_commit=Fix for wrong fnmatch patttern
+  a0a2640b39 --jit: |-
+    ruby 2.7.0dev (2019-10-01T10:19:56Z trunk a0a2640b39) +JIT [x86_64-linux]
+    last_commit=Fix for wrong fnmatch patttern
+  36e057e26e: |-
+    ruby 2.7.0dev (2019-10-01T10:19:56Z trunk 36e057e26e) [x86_64-linux]
+    last_commit=Loop with String#scan without creating substrings
+  36e057e26e --jit: |-
+    ruby 2.7.0dev (2019-10-01T10:19:56Z trunk 36e057e26e) +JIT [x86_64-linux]
+    last_commit=Loop with String#scan without creating substrings
+  3ce238b5f9: |-
+    ruby 2.7.0dev (2019-10-01T10:19:56Z trunk 3ce238b5f9) [x86_64-linux]
+    last_commit=WEBrick: prevent response splitting and header injection
+  3ce238b5f9 --jit: |-
+    ruby 2.7.0dev (2019-10-01T10:19:56Z trunk 3ce238b5f9) +JIT [x86_64-linux]
+    last_commit=WEBrick: prevent response splitting and header injection
+  55de0282da: |-
+    ruby 2.7.0dev (2019-10-01T12:26:54Z trunk 55de0282da) [x86_64-linux]
+    last_commit=Remove draft-release.yml [ci skip]
+  55de0282da --jit: |-
+    ruby 2.7.0dev (2019-10-01T12:26:54Z trunk 55de0282da) +JIT [x86_64-linux]
+    last_commit=Remove draft-release.yml [ci skip]
+  15606963de: |-
+    ruby 2.7.0dev (2019-10-01T13:19:18Z trunk 15606963de) [x86_64-linux]
+    last_commit=expose assert_raise and assert_join_threads
+  15606963de --jit: |-
+    ruby 2.7.0dev (2019-10-01T13:19:18Z trunk 15606963de) +JIT [x86_64-linux]
+    last_commit=expose assert_raise and assert_join_threads
