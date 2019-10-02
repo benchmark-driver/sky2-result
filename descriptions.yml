@@ -6003,3 +6003,21 @@ commits:
   15606963de --jit: |-
     ruby 2.7.0dev (2019-10-01T13:19:18Z trunk 15606963de) +JIT [x86_64-linux]
     last_commit=expose assert_raise and assert_join_threads
+  5af2c8735a: |-
+    ruby 2.7.0dev (2019-10-02T03:59:59Z trunk 5af2c8735a) [x86_64-linux]
+    last_commit=Should fail if `system` failed
+  5af2c8735a --jit: |-
+    ruby 2.7.0dev (2019-10-02T03:59:59Z trunk 5af2c8735a) +JIT [x86_64-linux]
+    last_commit=Should fail if `system` failed
+  a61ae414b6: |-
+    ruby 2.7.0dev (2019-10-02T04:00:17Z trunk a61ae414b6) [x86_64-linux]
+    last_commit=Fix the order of executing `after-update` task
+  a61ae414b6 --jit: |-
+    ruby 2.7.0dev (2019-10-02T04:00:17Z trunk a61ae414b6) +JIT [x86_64-linux]
+    last_commit=Fix the order of executing `after-update` task
+  4946d83a1c: |-
+    ruby 2.7.0dev (2019-10-02T04:00:56Z trunk 4946d83a1c) [x86_64-linux]
+    last_commit=* 2019-10-02 [ci skip]
+  4946d83a1c --jit: |-
+    ruby 2.7.0dev (2019-10-02T04:00:56Z trunk 4946d83a1c) +JIT [x86_64-linux]
+    last_commit=* 2019-10-02 [ci skip]
