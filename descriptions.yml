@@ -9,84 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  2468466a1a: |-
-    ruby 2.7.0dev (2019-08-17T04:27:11Z trunk 2468466a1a) [x86_64-linux]
-    last_commit=Added missing condition for test-bundler and test-bundled-gems.
-  2468466a1a --jit: |-
-    ruby 2.7.0dev (2019-08-17T04:27:11Z trunk 2468466a1a) +JIT [x86_64-linux]
-    last_commit=Added missing condition for test-bundler and test-bundled-gems.
-  ccbfb054b1: |-
-    ruby 2.7.0dev (2019-08-17T04:57:12Z trunk ccbfb054b1) [x86_64-linux]
-    last_commit=Fix typos
-  ccbfb054b1 --jit: |-
-    ruby 2.7.0dev (2019-08-17T04:57:12Z trunk ccbfb054b1) +JIT [x86_64-linux]
-    last_commit=Fix typos
-  28267cea08: |-
-    ruby 2.7.0dev (2019-08-17T05:17:30Z trunk 28267cea08) [x86_64-linux]
-    last_commit=NetBSD native support of explicit_bzero's like feature (#2145)
-  28267cea08 --jit: |-
-    ruby 2.7.0dev (2019-08-17T05:17:30Z trunk 28267cea08) +JIT [x86_64-linux]
-    last_commit=NetBSD native support of explicit_bzero's like feature (#2145)
-  dce1e14e80: |-
-    ruby 2.7.0dev (2019-08-17T05:24:45Z trunk dce1e14e80) [x86_64-linux]
-    last_commit=Use more different arguments in Fiber.yield documentation to make it clear (#2170)
-  dce1e14e80 --jit: |-
-    ruby 2.7.0dev (2019-08-17T05:24:45Z trunk dce1e14e80) +JIT [x86_64-linux]
-    last_commit=Use more different arguments in Fiber.yield documentation to make it clear (#2170)
-  72adc6cffb: |-
-    ruby 2.7.0dev (2019-08-17T05:56:57Z trunk 72adc6cffb) [x86_64-linux]
-    last_commit=Simplify a sample code (#2374)
-  72adc6cffb --jit: |-
-    ruby 2.7.0dev (2019-08-17T05:56:57Z trunk 72adc6cffb) +JIT [x86_64-linux]
-    last_commit=Simplify a sample code (#2374)
-  9d20d2b0f5: |-
-    ruby 2.7.0dev (2019-08-17T06:03:00Z trunk 9d20d2b0f5) [x86_64-linux]
-    last_commit=Clean sample code biorhythm (#2375)
-  9d20d2b0f5 --jit: |-
-    ruby 2.7.0dev (2019-08-17T06:03:00Z trunk 9d20d2b0f5) +JIT [x86_64-linux]
-    last_commit=Clean sample code biorhythm (#2375)
-  dd16f8524c: |-
-    ruby 2.7.0dev (2019-08-17T06:12:45Z trunk dd16f8524c) [x86_64-linux]
-    last_commit=Revert "Revert "[rubygems/rubygems] [Require] Ensure -I beats a default gem""
-  dd16f8524c --jit: |-
-    ruby 2.7.0dev (2019-08-17T06:12:45Z trunk dd16f8524c) +JIT [x86_64-linux]
-    last_commit=Revert "Revert "[rubygems/rubygems] [Require] Ensure -I beats a default gem""
-  273f1f4498: |-
-    ruby 2.7.0dev (2019-08-17T06:12:45Z trunk 273f1f4498) [x86_64-linux]
-    last_commit=Move fixture path to last path
-  273f1f4498 --jit: |-
-    ruby 2.7.0dev (2019-08-17T06:12:45Z trunk 273f1f4498) +JIT [x86_64-linux]
-    last_commit=Move fixture path to last path
-  22d9bd944d: |-
-    ruby 2.7.0dev (2019-08-17T06:12:45Z trunk 22d9bd944d) [x86_64-linux]
-    last_commit=Keep the existance behavior with symlink path
-  22d9bd944d --jit: |-
-    ruby 2.7.0dev (2019-08-17T06:12:45Z trunk 22d9bd944d) +JIT [x86_64-linux]
-    last_commit=Keep the existance behavior with symlink path
-  d8148650f6: |-
-    ruby 2.7.0dev (2019-08-17T06:12:46Z trunk d8148650f6) [x86_64-linux]
-    last_commit=Try to continue on LoadError with gem_original_require
-  d8148650f6 --jit: |-
-    ruby 2.7.0dev (2019-08-17T06:12:46Z trunk d8148650f6) +JIT [x86_64-linux]
-    last_commit=Try to continue on LoadError with gem_original_require
-  06fcf88d69: |-
-    ruby 2.7.0dev (2019-08-17T06:12:46Z trunk 06fcf88d69) [x86_64-linux]
-    last_commit=Use the original require for test_race_exception
-  06fcf88d69 --jit: |-
-    ruby 2.7.0dev (2019-08-17T06:12:46Z trunk 06fcf88d69) +JIT [x86_64-linux]
-    last_commit=Use the original require for test_race_exception
-  260ef51a73: |-
-    ruby 2.7.0dev (2019-08-17T06:12:46Z trunk 260ef51a73) [x86_64-linux]
-    last_commit=`Gem.load_path_insert_index always returns non-nil index after Ruby 1.9
-  260ef51a73 --jit: |-
-    ruby 2.7.0dev (2019-08-17T06:12:46Z trunk 260ef51a73) +JIT [x86_64-linux]
-    last_commit=`Gem.load_path_insert_index always returns non-nil index after Ruby 1.9
-  d041c6cebb: |-
-    ruby 2.7.0dev (2019-08-17T06:12:46Z trunk d041c6cebb) [x86_64-linux]
-    last_commit=Added comments for extended require by RubyGems
-  d041c6cebb --jit: |-
-    ruby 2.7.0dev (2019-08-17T06:12:46Z trunk d041c6cebb) +JIT [x86_64-linux]
-    last_commit=Added comments for extended require by RubyGems
   221ba9b66c: |-
     ruby 2.7.0dev (2019-08-17T08:01:23Z trunk 221ba9b66c) [x86_64-linux]
     last_commit=Revert "`Gem.load_path_insert_index always returns non-nil index after Ruby 1.9"
@@ -6021,3 +5943,27 @@ commits:
   4946d83a1c --jit: |-
     ruby 2.7.0dev (2019-10-02T04:00:56Z trunk 4946d83a1c) +JIT [x86_64-linux]
     last_commit=* 2019-10-02 [ci skip]
+  99d3043bd8: |-
+    ruby 2.7.0dev (2019-10-02T07:05:40Z trunk 99d3043bd8) [x86_64-linux]
+    last_commit=Iseq#to_binary: dump flag for **nil (#2508)
+  99d3043bd8 --jit: |-
+    ruby 2.7.0dev (2019-10-02T07:05:40Z trunk 99d3043bd8) +JIT [x86_64-linux]
+    last_commit=Iseq#to_binary: dump flag for **nil (#2508)
+  84cbce3d88: |-
+    ruby 2.7.0dev (2019-10-02T07:23:00Z trunk 84cbce3d88) [x86_64-linux]
+    last_commit=Enable checkers on parallel test.
+  84cbce3d88 --jit: |-
+    ruby 2.7.0dev (2019-10-02T07:23:00Z trunk 84cbce3d88) +JIT [x86_64-linux]
+    last_commit=Enable checkers on parallel test.
+  4ed51b3956: |-
+    ruby 2.7.0dev (2019-10-02T08:03:55Z trunk 4ed51b3956) [x86_64-linux]
+    last_commit=Fixed failure message for `clean-cache`
+  4ed51b3956 --jit: |-
+    ruby 2.7.0dev (2019-10-02T08:03:55Z trunk 4ed51b3956) +JIT [x86_64-linux]
+    last_commit=Fixed failure message for `clean-cache`
+  9759e3c9f0: |-
+    ruby 2.7.0dev (2019-10-02T08:19:14Z trunk 9759e3c9f0) [x86_64-linux]
+    last_commit=fix assertion number.
+  9759e3c9f0 --jit: |-
+    ruby 2.7.0dev (2019-10-02T08:19:14Z trunk 9759e3c9f0) +JIT [x86_64-linux]
+    last_commit=fix assertion number.
