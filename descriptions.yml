@@ -5967,3 +5967,9 @@ commits:
   9759e3c9f0 --jit: |-
     ruby 2.7.0dev (2019-10-02T08:19:14Z trunk 9759e3c9f0) +JIT [x86_64-linux]
     last_commit=fix assertion number.
+  ef697388be: |-
+    ruby 2.7.0dev (2019-10-02T14:56:28Z trunk ef697388be) [x86_64-linux]
+    last_commit=Treat return in block in class/module as LocalJumpError (#2511)
+  ef697388be --jit: |-
+    ruby 2.7.0dev (2019-10-02T14:56:28Z trunk ef697388be) +JIT [x86_64-linux]
+    last_commit=Treat return in block in class/module as LocalJumpError (#2511)
