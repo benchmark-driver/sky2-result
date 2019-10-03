@@ -6009,3 +6009,39 @@ commits:
   3ffd98c5cd --jit: |-
     ruby 2.7.0dev (2019-10-03T06:24:09Z trunk 3ffd98c5cd) +JIT [x86_64-linux]
     last_commit=add debug counters for vm_search_method_slowpath()
+  c14755e9ca: |-
+    ruby 2.7.0dev (2019-10-03T09:32:21Z trunk c14755e9ca) [x86_64-linux]
+    last_commit=[ruby/fileutils] improve the compatibility of minitest
+  c14755e9ca --jit: |-
+    ruby 2.7.0dev (2019-10-03T09:32:21Z trunk c14755e9ca) +JIT [x86_64-linux]
+    last_commit=[ruby/fileutils] improve the compatibility of minitest
+  ad67adb5f9: |-
+    ruby 2.7.0dev (2019-10-03T09:32:29Z trunk ad67adb5f9) [x86_64-linux]
+    last_commit=[ruby/fileutils] Use pend instead of skip
+  ad67adb5f9 --jit: |-
+    ruby 2.7.0dev (2019-10-03T09:32:29Z trunk ad67adb5f9) +JIT [x86_64-linux]
+    last_commit=[ruby/fileutils] Use pend instead of skip
+  b7ae26e2ee: |-
+    ruby 2.7.0dev (2019-10-03T10:07:48Z trunk b7ae26e2ee) [x86_64-linux]
+    last_commit=vcs.rb: fix to export git-svn version
+  b7ae26e2ee --jit: |-
+    ruby 2.7.0dev (2019-10-03T10:07:48Z trunk b7ae26e2ee) +JIT [x86_64-linux]
+    last_commit=vcs.rb: fix to export git-svn version
+  47d143be17: |-
+    ruby 2.7.0dev (2019-10-03T10:09:16Z trunk 47d143be17) [x86_64-linux]
+    last_commit=make-snapshot: copy cache files instead of linking
+  47d143be17 --jit: |-
+    ruby 2.7.0dev (2019-10-03T10:09:16Z trunk 47d143be17) +JIT [x86_64-linux]
+    last_commit=make-snapshot: copy cache files instead of linking
+  8142a9b43d: |-
+    ruby 2.7.0dev (2019-10-03T10:12:03Z trunk 8142a9b43d) [x86_64-linux]
+    last_commit=make-snapshot: suppress make error messages unless failed
+  8142a9b43d --jit: |-
+    ruby 2.7.0dev (2019-10-03T10:12:03Z trunk 8142a9b43d) +JIT [x86_64-linux]
+    last_commit=make-snapshot: suppress make error messages unless failed
+  8f7fca784a: |-
+    ruby 2.7.0dev (2019-10-03T10:14:49Z trunk 8f7fca784a) [x86_64-linux]
+    last_commit=make-snapshot: touch updated files after prepared
+  8f7fca784a --jit: |-
+    ruby 2.7.0dev (2019-10-03T10:14:49Z trunk 8f7fca784a) +JIT [x86_64-linux]
+    last_commit=make-snapshot: touch updated files after prepared
