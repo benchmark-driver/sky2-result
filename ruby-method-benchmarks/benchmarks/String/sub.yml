@@ -1692,6 +1692,8 @@ results:
     e593d5b31a: 3475416.983
     e663299a5f: 3373306.268
     399501cdfe: 3391792.726
+    df4a4bd88c: 3366949.818
+    e4c43207f9: 3485297.035
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3383,6 +3385,8 @@ results:
     e593d5b31a: 3407435.962
     e663299a5f: 3282758.515
     399501cdfe: 3292466.092
+    df4a4bd88c: 3349738.542
+    e4c43207f9: 3426942.579
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5074,6 +5078,8 @@ results:
     e593d5b31a: 1853339.33
     e663299a5f: 1861761.286
     399501cdfe: 1864707.622
+    df4a4bd88c: 1860364.342
+    e4c43207f9: 1921097.008
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6765,6 +6771,8 @@ results:
     e593d5b31a: 2866186.713
     e663299a5f: 2848940.24
     399501cdfe: 2874639.236
+    df4a4bd88c: 2878553.47
+    e4c43207f9: 2814427.005
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8456,6 +8464,8 @@ results:
     e593d5b31a: 3758703.095
     e663299a5f: 3669105.676
     399501cdfe: 3681718.633
+    df4a4bd88c: 3675322.597
+    e4c43207f9: 3770842.208
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -10147,6 +10157,8 @@ results:
     e593d5b31a: 3692741.876
     e663299a5f: 3644983.169
     399501cdfe: 3643502.232
+    df4a4bd88c: 3647759.881
+    e4c43207f9: 3614798.301
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -11838,6 +11850,8 @@ results:
     e593d5b31a: 1984833.66
     e663299a5f: 1978541.097
     399501cdfe: 1997655.519
+    df4a4bd88c: 1993956.509
+    e4c43207f9: 2046193.154
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -13529,3 +13543,5 @@ results:
     e593d5b31a: 3066895.538
     e663299a5f: 3045611.655
     399501cdfe: 2874701.314
+    df4a4bd88c: 3066647.6
+    e4c43207f9: 3017283.425

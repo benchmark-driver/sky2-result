@@ -5991,3 +5991,21 @@ commits:
   a515e3f99e --jit: |-
     ruby 2.7.0dev (2019-10-03T03:48:30Z trunk a515e3f99e) +JIT [x86_64-linux]
     last_commit=* 2019-10-03 [ci skip]
+  1c999952e7: |-
+    ruby 2.7.0dev (2019-10-03T04:44:52Z trunk 1c999952e7) [x86_64-linux]
+    last_commit=Resolve unused local variable reported by LGTM
+  1c999952e7 --jit: |-
+    ruby 2.7.0dev (2019-10-03T04:44:52Z trunk 1c999952e7) +JIT [x86_64-linux]
+    last_commit=Resolve unused local variable reported by LGTM
+  84fc1de512: |-
+    ruby 2.7.0dev (2019-10-03T06:24:09Z trunk 84fc1de512) [x86_64-linux]
+    last_commit=use bind_call for test-all --gc-stress
+  84fc1de512 --jit: |-
+    ruby 2.7.0dev (2019-10-03T06:24:09Z trunk 84fc1de512) +JIT [x86_64-linux]
+    last_commit=use bind_call for test-all --gc-stress
+  3ffd98c5cd: |-
+    ruby 2.7.0dev (2019-10-03T06:24:09Z trunk 3ffd98c5cd) [x86_64-linux]
+    last_commit=add debug counters for vm_search_method_slowpath()
+  3ffd98c5cd --jit: |-
+    ruby 2.7.0dev (2019-10-03T06:24:09Z trunk 3ffd98c5cd) +JIT [x86_64-linux]
+    last_commit=add debug counters for vm_search_method_slowpath()
