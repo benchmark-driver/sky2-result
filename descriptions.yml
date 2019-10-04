@@ -5967,3 +5967,9 @@ commits:
   113bef6976 --jit: |-
     ruby 2.7.0dev (2019-10-04T07:07:46Z trunk 113bef6976) +JIT [x86_64-linux]
     last_commit=array.c (rb_mem_clear): remove "register" from arguments
+  c8a18e25c1: |-
+    ruby 2.7.0dev (2019-10-04T12:30:32Z trunk c8a18e25c1) [x86_64-linux]
+    last_commit=iseq.c (rb_iseq_compile_on_base): Removed
+  c8a18e25c1 --jit: |-
+    ruby 2.7.0dev (2019-10-04T12:30:32Z trunk c8a18e25c1) +JIT [x86_64-linux]
+    last_commit=iseq.c (rb_iseq_compile_on_base): Removed
