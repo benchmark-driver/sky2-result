@@ -5961,3 +5961,9 @@ commits:
   5be2af5f90 --jit: |-
     ruby 2.7.0dev (2019-10-04T01:15:24Z trunk 5be2af5f90) +JIT [x86_64-linux]
     last_commit=Remove call-seq for method that doesn't exist (#2521)
+  113bef6976: |-
+    ruby 2.7.0dev (2019-10-04T07:07:46Z trunk 113bef6976) [x86_64-linux]
+    last_commit=array.c (rb_mem_clear): remove "register" from arguments
+  113bef6976 --jit: |-
+    ruby 2.7.0dev (2019-10-04T07:07:46Z trunk 113bef6976) +JIT [x86_64-linux]
+    last_commit=array.c (rb_mem_clear): remove "register" from arguments
