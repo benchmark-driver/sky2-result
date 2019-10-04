@@ -5967,3 +5967,51 @@ commits:
   8f7fca784a --jit: |-
     ruby 2.7.0dev (2019-10-03T10:14:49Z trunk 8f7fca784a) +JIT [x86_64-linux]
     last_commit=make-snapshot: touch updated files after prepared
+  711c40ebdc: |-
+    ruby 2.7.0dev (2019-10-03T17:30:36Z trunk 711c40ebdc) [x86_64-linux]
+    last_commit=Refactor parser_params by removing "in_main" flag
+  711c40ebdc --jit: |-
+    ruby 2.7.0dev (2019-10-03T17:30:36Z trunk 711c40ebdc) +JIT [x86_64-linux]
+    last_commit=Refactor parser_params by removing "in_main" flag
+  b732a9f8a0: |-
+    ruby 2.7.0dev (2019-10-03T17:34:36Z trunk b732a9f8a0) [x86_64-linux]
+    last_commit=parse.y: use "struct rb_iseq_struct" instead of rb_iseq_t
+  b732a9f8a0 --jit: |-
+    ruby 2.7.0dev (2019-10-03T17:34:36Z trunk b732a9f8a0) +JIT [x86_64-linux]
+    last_commit=parse.y: use "struct rb_iseq_struct" instead of rb_iseq_t
+  c3dd3b9553: |-
+    ruby 2.7.0dev (2019-10-03T17:35:10Z trunk c3dd3b9553) [x86_64-linux]
+    last_commit=iseq.c (rb_iseq_compile_with_option): dummy parent_iseq for the parser
+  c3dd3b9553 --jit: |-
+    ruby 2.7.0dev (2019-10-03T17:35:10Z trunk c3dd3b9553) +JIT [x86_64-linux]
+    last_commit=iseq.c (rb_iseq_compile_with_option): dummy parent_iseq for the parser
+  bdbf8de498: |-
+    ruby 2.7.0dev (2019-10-03T21:12:58Z trunk bdbf8de498) [x86_64-linux]
+    last_commit=Enable Drone CI for ARM 64/32-bit cases. (#2520)
+  bdbf8de498 --jit: |-
+    ruby 2.7.0dev (2019-10-03T21:12:58Z trunk bdbf8de498) +JIT [x86_64-linux]
+    last_commit=Enable Drone CI for ARM 64/32-bit cases. (#2520)
+  12e27a411c: |-
+    ruby 2.7.0dev (2019-10-03T21:13:27Z trunk 12e27a411c) [x86_64-linux]
+    last_commit=Minor updates to methods and calling_methods documentation [ci skip]
+  12e27a411c --jit: |-
+    ruby 2.7.0dev (2019-10-03T21:13:27Z trunk 12e27a411c) +JIT [x86_64-linux]
+    last_commit=Minor updates to methods and calling_methods documentation [ci skip]
+  c7715a4936: |-
+    ruby 2.7.0dev (2019-10-03T21:13:27Z trunk c7715a4936) [x86_64-linux]
+    last_commit=Add documentation regarding keyword argument separation [ci skip]
+  c7715a4936 --jit: |-
+    ruby 2.7.0dev (2019-10-03T21:13:27Z trunk c7715a4936) +JIT [x86_64-linux]
+    last_commit=Add documentation regarding keyword argument separation [ci skip]
+  9f24e8fdbb: |-
+    ruby 2.7.0dev (2019-10-03T21:13:27Z trunk 9f24e8fdbb) [x86_64-linux]
+    last_commit=Document *_kw functions added to include/ruby/ruby.h [ci skip]
+  9f24e8fdbb --jit: |-
+    ruby 2.7.0dev (2019-10-03T21:13:27Z trunk 9f24e8fdbb) +JIT [x86_64-linux]
+    last_commit=Document *_kw functions added to include/ruby/ruby.h [ci skip]
+  804672e7b4: |-
+    ruby 2.7.0dev (2019-10-03T21:17:36Z trunk 804672e7b4) [x86_64-linux]
+    last_commit=Try disabling build on trunk
+  804672e7b4 --jit: |-
+    ruby 2.7.0dev (2019-10-03T21:17:36Z trunk 804672e7b4) +JIT [x86_64-linux]
+    last_commit=Try disabling build on trunk
