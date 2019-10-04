@@ -9,90 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  e38994d2f7: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk e38994d2f7) [x86_64-linux]
-    last_commit=[bundler/bundler] Reuse `gem_command!` helper
-  e38994d2f7 --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk e38994d2f7) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Reuse `gem_command!` helper
-  91c63828f7: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 91c63828f7) [x86_64-linux]
-    last_commit=[bundler/bundler] Extract a `gem_bin` path helper
-  91c63828f7 --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 91c63828f7) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Extract a `gem_bin` path helper
-  30a4ec1fee: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 30a4ec1fee) [x86_64-linux]
-    last_commit=[bundler/bundler] Always use `--backtrace` when invoking `gem` CLI
-  30a4ec1fee --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 30a4ec1fee) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Always use `--backtrace` when invoking `gem` CLI
-  122bc65042: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 122bc65042) [x86_64-linux]
-    last_commit=[bundler/bundler] Reuse `gem_bin` helper inside `gem_command`
-  122bc65042 --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 122bc65042) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Reuse `gem_bin` helper inside `gem_command`
-  334e615022: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 334e615022) [x86_64-linux]
-    last_commit=[bundler/bundler] Reconcile test
-  334e615022 --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 334e615022) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Reconcile test
-  b43f4bd218: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk b43f4bd218) [x86_64-linux]
-    last_commit=[bundler/bundler] Rename some variables
-  b43f4bd218 --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk b43f4bd218) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Rename some variables
-  c896f71577: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk c896f71577) [x86_64-linux]
-    last_commit=[bundler/bundler] Extract a `tracked_files` path helper
-  c896f71577 --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk c896f71577) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Extract a `tracked_files` path helper
-  19dabfbe57: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 19dabfbe57) [x86_64-linux]
-    last_commit=[bundler/bundler] Rename a variable
-  19dabfbe57 --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 19dabfbe57) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Rename a variable
-  6a299906b4: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 6a299906b4) [x86_64-linux]
-    last_commit=[bundler/bundler] Extract a `lib_tracked_files` path helper
-  6a299906b4 --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 6a299906b4) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Extract a `lib_tracked_files` path helper
-  '6506993462': |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 6506993462) [x86_64-linux]
-    last_commit=[bundler/bundler] Use `join` consistently
-  6506993462 --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 6506993462) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Use `join` consistently
-  20af44c277: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 20af44c277) [x86_64-linux]
-    last_commit=[bundler/bundler] Unalias `install_gem`
-  20af44c277 --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:50Z trunk 20af44c277) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Unalias `install_gem`
-  aef5509139: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk aef5509139) [x86_64-linux]
-    last_commit=[bundler/bundler] Extract single gem installation logic
-  aef5509139 --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk aef5509139) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Extract single gem installation logic
-  f88237623f: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk f88237623f) [x86_64-linux]
-    last_commit=[bundler/bundler] Consistently use `Path` over `Spec::Path`
-  f88237623f --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk f88237623f) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Consistently use `Path` over `Spec::Path`
-  9925e1a10f: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 9925e1a10f) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unneeded `to_s` calls
-  9925e1a10f --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 9925e1a10f) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unneeded `to_s` calls
   adfca752d6: |-
     ruby 2.7.0dev (2019-08-17T08:08:51Z trunk adfca752d6) [x86_64-linux]
     last_commit=[bundler/bundler] Remve another unneeded `to_s`
@@ -6015,3 +5931,27 @@ commits:
   804672e7b4 --jit: |-
     ruby 2.7.0dev (2019-10-03T21:17:36Z trunk 804672e7b4) +JIT [x86_64-linux]
     last_commit=Try disabling build on trunk
+  182336ccb5: |-
+    ruby 2.7.0dev (2019-10-03T21:25:45Z trunk 182336ccb5) [x86_64-linux]
+    last_commit=bin_path_spec.rb has failed from the beginning
+  182336ccb5 --jit: |-
+    ruby 2.7.0dev (2019-10-03T21:25:45Z trunk 182336ccb5) +JIT [x86_64-linux]
+    last_commit=bin_path_spec.rb has failed from the beginning
+  ac69a051cf: |-
+    ruby 2.7.0dev (2019-10-03T22:15:05Z trunk ac69a051cf) [x86_64-linux]
+    last_commit=Ignore arm32 failure for now
+  ac69a051cf --jit: |-
+    ruby 2.7.0dev (2019-10-03T22:15:05Z trunk ac69a051cf) +JIT [x86_64-linux]
+    last_commit=Ignore arm32 failure for now
+  a56d742e69: |-
+    ruby 2.7.0dev (2019-10-03T22:33:11Z trunk a56d742e69) [x86_64-linux]
+    last_commit=Simplify bin_path_spec.rb guard
+  a56d742e69 --jit: |-
+    ruby 2.7.0dev (2019-10-03T22:33:11Z trunk a56d742e69) +JIT [x86_64-linux]
+    last_commit=Simplify bin_path_spec.rb guard
+  7db83b04d0: |-
+    ruby 2.7.0dev (2019-10-03T22:58:20Z trunk 7db83b04d0) [x86_64-linux]
+    last_commit=Revert "Simplify bin_path_spec.rb guard"
+  7db83b04d0 --jit: |-
+    ruby 2.7.0dev (2019-10-03T22:58:20Z trunk 7db83b04d0) +JIT [x86_64-linux]
+    last_commit=Revert "Simplify bin_path_spec.rb guard"

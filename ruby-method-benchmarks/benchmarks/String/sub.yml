@@ -1699,6 +1699,8 @@ results:
     e81a3e6df5: 3382070.607
     d5b237325b: 3441842.109
     4f63634af1: 3430684.839
+    3bb1162cac: 3390785.663
+    33c5ad3154: 3436023.928
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3397,6 +3399,8 @@ results:
     e81a3e6df5: 3313404.487
     d5b237325b: 3271397.375
     4f63634af1: 3391877.352
+    3bb1162cac: 3361943.251
+    33c5ad3154: 3398089.646
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5095,6 +5099,8 @@ results:
     e81a3e6df5: 1900932.271
     d5b237325b: 1913231.366
     4f63634af1: 1876198.068
+    3bb1162cac: 1908342.796
+    33c5ad3154: 1896058.855
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6793,6 +6799,8 @@ results:
     e81a3e6df5: 2849082.568
     d5b237325b: 2826831.839
     4f63634af1: 2837282.947
+    3bb1162cac: 2809992.585
+    33c5ad3154: 2884992.787
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8491,6 +8499,8 @@ results:
     e81a3e6df5: 3432915.229
     d5b237325b: 3095436.775
     4f63634af1: 3711876.074
+    3bb1162cac: 3602086.784
+    33c5ad3154: 3718551.389
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -10189,6 +10199,8 @@ results:
     e81a3e6df5: 3628631.464
     d5b237325b: 3682926.9
     4f63634af1: 3671183.38
+    3bb1162cac: 3661079.405
+    33c5ad3154: 3682350.961
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -11887,6 +11899,8 @@ results:
     e81a3e6df5: 1816582.585
     d5b237325b: 1806121.137
     4f63634af1: 1965363.841
+    3bb1162cac: 1986932.698
+    33c5ad3154: 1931777.682
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -13585,3 +13599,5 @@ results:
     e81a3e6df5: 3058409.507
     d5b237325b: 3005332.735
     4f63634af1: 3073895.341
+    3bb1162cac: 3081942.319
+    33c5ad3154: 3093968.901
