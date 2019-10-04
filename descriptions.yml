@@ -5955,3 +5955,9 @@ commits:
   7db83b04d0 --jit: |-
     ruby 2.7.0dev (2019-10-03T22:58:20Z trunk 7db83b04d0) +JIT [x86_64-linux]
     last_commit=Revert "Simplify bin_path_spec.rb guard"
+  5be2af5f90: |-
+    ruby 2.7.0dev (2019-10-04T01:15:24Z trunk 5be2af5f90) [x86_64-linux]
+    last_commit=Remove call-seq for method that doesn't exist (#2521)
+  5be2af5f90 --jit: |-
+    ruby 2.7.0dev (2019-10-04T01:15:24Z trunk 5be2af5f90) +JIT [x86_64-linux]
+    last_commit=Remove call-seq for method that doesn't exist (#2521)
