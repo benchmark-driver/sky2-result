@@ -5997,3 +5997,27 @@ commits:
   bd4b65f4b0 --jit: |-
     ruby 2.7.0dev (2019-10-04T19:02:41Z trunk bd4b65f4b0) +JIT [x86_64-linux]
     last_commit=IMEMO objects don't have a class, so return early
+  076d3d758b: |-
+    ruby 2.7.0dev (2019-10-04T21:34:40Z trunk 076d3d758b) [x86_64-linux]
+    last_commit=ext/json/parser/parser.rl: Update the source code of parser.c
+  076d3d758b --jit: |-
+    ruby 2.7.0dev (2019-10-04T21:34:40Z trunk 076d3d758b) +JIT [x86_64-linux]
+    last_commit=ext/json/parser/parser.rl: Update the source code of parser.c
+  5717e55e9a: |-
+    ruby 2.7.0dev (2019-10-04T22:00:07Z trunk 5717e55e9a) [x86_64-linux]
+    last_commit=ext/json/parser/prereq.mk: Add a "automatically generated" header
+  5717e55e9a --jit: |-
+    ruby 2.7.0dev (2019-10-04T22:00:07Z trunk 5717e55e9a) +JIT [x86_64-linux]
+    last_commit=ext/json/parser/prereq.mk: Add a "automatically generated" header
+  417c64b9a8: |-
+    ruby 2.7.0dev (2019-10-04T22:00:57Z trunk 417c64b9a8) [x86_64-linux]
+    last_commit=ext/json/parser/parser.rl: Use "signed" char to contain negative values
+  417c64b9a8 --jit: |-
+    ruby 2.7.0dev (2019-10-04T22:00:57Z trunk 417c64b9a8) +JIT [x86_64-linux]
+    last_commit=ext/json/parser/parser.rl: Use "signed" char to contain negative values
+  170d154059: |-
+    ruby 2.7.0dev (2019-10-04T22:37:19Z trunk 170d154059) [x86_64-linux]
+    last_commit=signal.c: Use MINSIGSTKSZ by casting to int
+  170d154059 --jit: |-
+    ruby 2.7.0dev (2019-10-04T22:37:19Z trunk 170d154059) +JIT [x86_64-linux]
+    last_commit=signal.c: Use MINSIGSTKSZ by casting to int
