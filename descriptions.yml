@@ -5973,3 +5973,27 @@ commits:
   c8a18e25c1 --jit: |-
     ruby 2.7.0dev (2019-10-04T12:30:32Z trunk c8a18e25c1) +JIT [x86_64-linux]
     last_commit=iseq.c (rb_iseq_compile_on_base): Removed
+  cbbe198c89: |-
+    ruby 2.7.0dev (2019-10-04T18:02:09Z trunk cbbe198c89) [x86_64-linux]
+    last_commit=Fix potential memory leaks by `rb_imemo_tmpbuf_auto_free_pointer`
+  cbbe198c89 --jit: |-
+    ruby 2.7.0dev (2019-10-04T18:02:09Z trunk cbbe198c89) +JIT [x86_64-linux]
+    last_commit=Fix potential memory leaks by `rb_imemo_tmpbuf_auto_free_pointer`
+  cbf88064f5: |-
+    ruby 2.7.0dev (2019-10-04T18:07:31Z trunk cbf88064f5) [x86_64-linux]
+    last_commit=* 2019-10-05 [ci skip]
+  cbf88064f5 --jit: |-
+    ruby 2.7.0dev (2019-10-04T18:07:31Z trunk cbf88064f5) +JIT [x86_64-linux]
+    last_commit=* 2019-10-05 [ci skip]
+  a20ed0565e: |-
+    ruby 2.7.0dev (2019-10-04T18:11:59Z trunk a20ed0565e) [x86_64-linux]
+    last_commit=Don't allocate objects in `gc_compact`
+  a20ed0565e --jit: |-
+    ruby 2.7.0dev (2019-10-04T18:11:59Z trunk a20ed0565e) +JIT [x86_64-linux]
+    last_commit=Don't allocate objects in `gc_compact`
+  bd4b65f4b0: |-
+    ruby 2.7.0dev (2019-10-04T19:02:41Z trunk bd4b65f4b0) [x86_64-linux]
+    last_commit=IMEMO objects don't have a class, so return early
+  bd4b65f4b0 --jit: |-
+    ruby 2.7.0dev (2019-10-04T19:02:41Z trunk bd4b65f4b0) +JIT [x86_64-linux]
+    last_commit=IMEMO objects don't have a class, so return early
