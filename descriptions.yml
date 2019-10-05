@@ -9,126 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  adfca752d6: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk adfca752d6) [x86_64-linux]
-    last_commit=[bundler/bundler] Remve another unneeded `to_s`
-  adfca752d6 --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk adfca752d6) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remve another unneeded `to_s`
-  9c0fcd1d0f: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 9c0fcd1d0f) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove obvious comment
-  9c0fcd1d0f --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 9c0fcd1d0f) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove obvious comment
-  a56bf5bfde: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk a56bf5bfde) [x86_64-linux]
-    last_commit=[bundler/bundler] Cleanup in a location independent way
-  a56bf5bfde --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk a56bf5bfde) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Cleanup in a location independent way
-  580e093fdd: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 580e093fdd) [x86_64-linux]
-    last_commit=[bundler/bundler] Make sure gem has been built before deleteng it
-  580e093fdd --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 580e093fdd) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Make sure gem has been built before deleteng it
-  20c5154f0b: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 20c5154f0b) [x86_64-linux]
-    last_commit=[bundler/bundler] Only chdir when necessary
-  20c5154f0b --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 20c5154f0b) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Only chdir when necessary
-  '09455301ef': |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 09455301ef) [x86_64-linux]
-    last_commit=[bundler/bundler] Extract a `with_root_gemspec` helper
-  '09455301ef --jit': |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 09455301ef) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Extract a `with_root_gemspec` helper
-  '4318405609': |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 4318405609) [x86_64-linux]
-    last_commit=[bundler/bundler] Extract a `root_gemspec` local variable
-  4318405609 --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 4318405609) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Extract a `root_gemspec` local variable
-  a2d7c97a91: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk a2d7c97a91) [x86_64-linux]
-    last_commit=[bundler/bundler] Extract yet another helper method
-  a2d7c97a91 --jit: |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk a2d7c97a91) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Extract yet another helper method
-  '08c58e3c0d': |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 08c58e3c0d) [x86_64-linux]
-    last_commit=[bundler/bundler] Extract a `gemspec_dir` helper
-  '08c58e3c0d --jit': |-
-    ruby 2.7.0dev (2019-08-17T08:08:51Z trunk 08c58e3c0d) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Extract a `gemspec_dir` helper
-  37d0e6e471: |-
-    ruby 2.7.0dev (2019-08-17T09:20:50Z trunk 37d0e6e471) [x86_64-linux]
-    last_commit=Skip teardown with JRuby
-  37d0e6e471 --jit: |-
-    ruby 2.7.0dev (2019-08-17T09:20:50Z trunk 37d0e6e471) +JIT [x86_64-linux]
-    last_commit=Skip teardown with JRuby
-  79fe84edf5: |-
-    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 79fe84edf5) [x86_64-linux]
-    last_commit=Removed test_case files from lib directory.
-  79fe84edf5 --jit: |-
-    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 79fe84edf5) +JIT [x86_64-linux]
-    last_commit=Removed test_case files from lib directory.
-  3a06c11a7d: |-
-    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 3a06c11a7d) [x86_64-linux]
-    last_commit=Removed autoload from Markup.
-  3a06c11a7d --jit: |-
-    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 3a06c11a7d) +JIT [x86_64-linux]
-    last_commit=Removed autoload from Markup.
-  e095803c37: |-
-    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk e095803c37) [x86_64-linux]
-    last_commit=Removed formatter_test_case and text_formatter_test_case from Gem::Specification#files.
-  e095803c37 --jit: |-
-    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk e095803c37) +JIT [x86_64-linux]
-    last_commit=Removed formatter_test_case and text_formatter_test_case from Gem::Specification#files.
-  15da2aad76: |-
-    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 15da2aad76) [x86_64-linux]
-    last_commit=Remove Travis CI workaround
-  15da2aad76 --jit: |-
-    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 15da2aad76) +JIT [x86_64-linux]
-    last_commit=Remove Travis CI workaround
-  2a65498ca2: |-
-    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 2a65498ca2) [x86_64-linux]
-    last_commit=Remove CI files from list
-  2a65498ca2 --jit: |-
-    ruby 2.7.0dev (2019-08-17T11:20:04Z trunk 2a65498ca2) +JIT [x86_64-linux]
-    last_commit=Remove CI files from list
-  765eb18a45: |-
-    ruby 2.7.0dev (2019-08-17T14:14:52Z trunk 765eb18a45) [x86_64-linux]
-    last_commit=Make VM_DEBUG_VERIFY_METHOD_CACHE derived from VMDEBUG
-  765eb18a45 --jit: |-
-    ruby 2.7.0dev (2019-08-17T14:14:52Z trunk 765eb18a45) +JIT [x86_64-linux]
-    last_commit=Make VM_DEBUG_VERIFY_METHOD_CACHE derived from VMDEBUG
-  8b8e7e6e9e: |-
-    ruby 2.7.0dev (2019-08-17T15:32:21Z trunk 8b8e7e6e9e) [x86_64-linux]
-    last_commit=$LOAD_PATH elements should be real paths
-  8b8e7e6e9e --jit: |-
-    ruby 2.7.0dev (2019-08-17T15:32:21Z trunk 8b8e7e6e9e) +JIT [x86_64-linux]
-    last_commit=$LOAD_PATH elements should be real paths
-  aa00f7b8ec: |-
-    ruby 2.7.0dev (2019-08-17T15:33:13Z trunk aa00f7b8ec) [x86_64-linux]
-    last_commit=* 2019-08-18 [ci skip]
-  aa00f7b8ec --jit: |-
-    ruby 2.7.0dev (2019-08-17T15:33:13Z trunk aa00f7b8ec) +JIT [x86_64-linux]
-    last_commit=* 2019-08-18 [ci skip]
-  6db3051fcc: |-
-    ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 6db3051fcc) [x86_64-linux]
-    last_commit=Ensure VM_DEBUG_VERIFY_METHOD_CACHE code valid
-  6db3051fcc --jit: |-
-    ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 6db3051fcc) +JIT [x86_64-linux]
-    last_commit=Ensure VM_DEBUG_VERIFY_METHOD_CACHE code valid
-  1d11a8b193: |-
-    ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 1d11a8b193) [x86_64-linux]
-    last_commit=Ensure non-OPT_GLOBAL_METHOD_CACHE code valid
-  1d11a8b193 --jit: |-
-    ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 1d11a8b193) +JIT [x86_64-linux]
-    last_commit=Ensure non-OPT_GLOBAL_METHOD_CACHE code valid
   74ca6b88dd: |-
     ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 74ca6b88dd) [x86_64-linux]
     last_commit=Omit a tag unless loading with a wrapper module
@@ -6021,3 +5901,57 @@ commits:
   170d154059 --jit: |-
     ruby 2.7.0dev (2019-10-04T22:37:19Z trunk 170d154059) +JIT [x86_64-linux]
     last_commit=signal.c: Use MINSIGSTKSZ by casting to int
+  f8104d9e9f: |-
+    ruby 2.7.0dev (2019-10-05T01:50:01Z trunk f8104d9e9f) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Fixed assertion arguments
+  f8104d9e9f --jit: |-
+    ruby 2.7.0dev (2019-10-05T01:50:01Z trunk f8104d9e9f) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Fixed assertion arguments
+  39e8d5e1cd: |-
+    ruby 2.7.0dev (2019-10-05T01:50:01Z trunk 39e8d5e1cd) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Use dedicated assertion methods
+  39e8d5e1cd --jit: |-
+    ruby 2.7.0dev (2019-10-05T01:50:01Z trunk 39e8d5e1cd) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Use dedicated assertion methods
+  caa9d0bd78: |-
+    ruby 2.7.0dev (2019-10-05T01:50:01Z trunk caa9d0bd78) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Always pass an encoding option to Zlib::GzipReader.wrap
+  caa9d0bd78 --jit: |-
+    ruby 2.7.0dev (2019-10-05T01:50:01Z trunk caa9d0bd78) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Always pass an encoding option to Zlib::GzipReader.wrap
+  871005bdd2: |-
+    ruby 2.7.0dev (2019-10-05T01:50:02Z trunk 871005bdd2) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Suppress keywords warning in ruby 2.7
+  871005bdd2 --jit: |-
+    ruby 2.7.0dev (2019-10-05T01:50:02Z trunk 871005bdd2) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Suppress keywords warning in ruby 2.7
+  b659c1b92f: |-
+    ruby 2.7.0dev (2019-10-05T01:50:02Z trunk b659c1b92f) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Add Gem::Dependency#identity method
+  b659c1b92f --jit: |-
+    ruby 2.7.0dev (2019-10-05T01:50:02Z trunk b659c1b92f) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Add Gem::Dependency#identity method
+  7d4ab8bbe7: |-
+    ruby 2.7.0dev (2019-10-05T01:50:02Z trunk 7d4ab8bbe7) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Use dependency.identity in available_specs
+  7d4ab8bbe7 --jit: |-
+    ruby 2.7.0dev (2019-10-05T01:50:02Z trunk 7d4ab8bbe7) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Use dependency.identity in available_specs
+  6dfe0c9dcd: |-
+    ruby 2.7.0dev (2019-10-05T01:50:02Z trunk 6dfe0c9dcd) [x86_64-linux]
+    last_commit=[rubygems/rubygems] The date might have advanced since TODAY has been set
+  6dfe0c9dcd --jit: |-
+    ruby 2.7.0dev (2019-10-05T01:50:02Z trunk 6dfe0c9dcd) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] The date might have advanced since TODAY has been set
+  212da9a6ae: |-
+    ruby 2.7.0dev (2019-10-05T02:04:23Z trunk 212da9a6ae) [x86_64-linux]
+    last_commit=Added dependencies on prerequisite makefiles
+  212da9a6ae --jit: |-
+    ruby 2.7.0dev (2019-10-05T02:04:23Z trunk 212da9a6ae) +JIT [x86_64-linux]
+    last_commit=Added dependencies on prerequisite makefiles
+  3e3cc0885a: |-
+    ruby 2.7.0dev (2019-10-05T02:30:05Z trunk 3e3cc0885a) [x86_64-linux]
+    last_commit=Now keyword parameter warnings are suppressed by 871005bdd204
+  3e3cc0885a --jit: |-
+    ruby 2.7.0dev (2019-10-05T02:30:05Z trunk 3e3cc0885a) +JIT [x86_64-linux]
+    last_commit=Now keyword parameter warnings are suppressed by 871005bdd204
