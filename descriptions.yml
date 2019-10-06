@@ -5985,3 +5985,9 @@ commits:
   2ca353c2e0 --jit: |-
     ruby 2.7.0dev (2019-10-06T02:49:27Z trunk 2ca353c2e0) +JIT [x86_64-linux]
     last_commit=* 2019-10-06 [ci skip]
+  6525d3bcc7: |-
+    ruby 2.7.0dev (2019-10-06T06:23:00Z trunk 6525d3bcc7) [x86_64-linux]
+    last_commit=test/dtrace/helper.rb: Etc.getgrnam may return nil on some platforms
+  6525d3bcc7 --jit: |-
+    ruby 2.7.0dev (2019-10-06T06:23:00Z trunk 6525d3bcc7) +JIT [x86_64-linux]
+    last_commit=test/dtrace/helper.rb: Etc.getgrnam may return nil on some platforms

@@ -1727,6 +1727,8 @@ results:
     515b1989b1: 3314556.266
     51edcbad5b: 3480436.389
     b80df6e8e0: 3407237.689
+    4a4c502825: 3098991.91
+    11d6094cbe: 3438421.212
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3453,6 +3455,8 @@ results:
     515b1989b1: 3309855.778
     51edcbad5b: 3444734.582
     b80df6e8e0: 3308943.723
+    4a4c502825: 3342287.073
+    11d6094cbe: 3414782.453
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5179,6 +5183,8 @@ results:
     515b1989b1: 1890124.172
     51edcbad5b: 1947116.33
     b80df6e8e0: 1845495.812
+    4a4c502825: 1768076.606
+    11d6094cbe: 1622968.219
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6905,6 +6911,8 @@ results:
     515b1989b1: 2852283.72
     51edcbad5b: 2830349.682
     b80df6e8e0: 2892381.418
+    4a4c502825: 2803054.656
+    11d6094cbe: 2803870.047
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8631,6 +8639,8 @@ results:
     515b1989b1: 3645011.863
     51edcbad5b: 3758896.828
     b80df6e8e0: 3695121.537
+    4a4c502825: 3171972.906
+    11d6094cbe: 3304874.714
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -10357,6 +10367,8 @@ results:
     515b1989b1: 3615385.034
     51edcbad5b: 3742056.721
     b80df6e8e0: 3417085.225
+    4a4c502825: 3170727.793
+    11d6094cbe: 3685882.127
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -12083,6 +12095,8 @@ results:
     515b1989b1: 1953757.044
     51edcbad5b: 2007883.31
     b80df6e8e0: 1870381.266
+    4a4c502825: 1879749.223
+    11d6094cbe: 2013516.357
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -13809,3 +13823,5 @@ results:
     515b1989b1: 3062278.393
     51edcbad5b: 3018877.343
     b80df6e8e0: 3077252.53
+    4a4c502825: 3011396.819
+    11d6094cbe: 3004817.295
