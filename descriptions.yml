@@ -5973,3 +5973,15 @@ commits:
   06a04a1aa3 --jit: |-
     ruby 2.7.0dev (2019-10-05T10:08:23Z trunk 06a04a1aa3) +JIT [x86_64-linux]
     last_commit=ext/openssl/ossl_ssl.c: Use const declaration if LibreSSL >= 2.8.0
+  2409667aa2: |-
+    ruby 2.7.0dev (2019-10-06T02:39:01Z trunk 2409667aa2) [x86_64-linux]
+    last_commit=time.c: Fix some bugs about WIDEVALUE
+  2409667aa2 --jit: |-
+    ruby 2.7.0dev (2019-10-06T02:39:01Z trunk 2409667aa2) +JIT [x86_64-linux]
+    last_commit=time.c: Fix some bugs about WIDEVALUE
+  2ca353c2e0: |-
+    ruby 2.7.0dev (2019-10-06T02:49:27Z trunk 2ca353c2e0) [x86_64-linux]
+    last_commit=* 2019-10-06 [ci skip]
+  2ca353c2e0 --jit: |-
+    ruby 2.7.0dev (2019-10-06T02:49:27Z trunk 2ca353c2e0) +JIT [x86_64-linux]
+    last_commit=* 2019-10-06 [ci skip]
