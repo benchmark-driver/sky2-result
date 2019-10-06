@@ -5991,3 +5991,15 @@ commits:
   6525d3bcc7 --jit: |-
     ruby 2.7.0dev (2019-10-06T06:23:00Z trunk 6525d3bcc7) +JIT [x86_64-linux]
     last_commit=test/dtrace/helper.rb: Etc.getgrnam may return nil on some platforms
+  f62f90367f: |-
+    ruby 2.7.0dev (2019-10-06T07:52:09Z trunk f62f90367f) [x86_64-linux]
+    last_commit=tailcall optimization again (#2528)
+  f62f90367f --jit: |-
+    ruby 2.7.0dev (2019-10-06T07:52:09Z trunk f62f90367f) +JIT [x86_64-linux]
+    last_commit=tailcall optimization again (#2528)
+  ddf5020e4f: |-
+    ruby 2.7.0dev (2019-10-06T08:01:00Z trunk ddf5020e4f) [x86_64-linux]
+    last_commit=Revert "tailcall optimization again (#2528)"
+  ddf5020e4f --jit: |-
+    ruby 2.7.0dev (2019-10-06T08:01:00Z trunk ddf5020e4f) +JIT [x86_64-linux]
+    last_commit=Revert "tailcall optimization again (#2528)"
