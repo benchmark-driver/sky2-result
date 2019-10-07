@@ -1740,6 +1740,8 @@ results:
     8399609e5a: 3451348.863
     10d6a3aca7: 3404258.938
     293c6c8cc3: 3378535.271
+    1ad4be13cb: 3373089.245
+    27144de2bd: 3421536.068
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3479,6 +3481,8 @@ results:
     8399609e5a: 3404017.29
     10d6a3aca7: 3350261.304
     293c6c8cc3: 2968078.647
+    1ad4be13cb: 3359064.398
+    27144de2bd: 3361678.273
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5218,6 +5222,8 @@ results:
     8399609e5a: 1877346.909
     10d6a3aca7: 1754240.904
     293c6c8cc3: 1822082.061
+    1ad4be13cb: 1891622.626
+    27144de2bd: 1775907.214
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -6957,6 +6963,8 @@ results:
     8399609e5a: 2837898.795
     10d6a3aca7: 3153837.852
     293c6c8cc3: 2833517.3
+    1ad4be13cb: 2869700.241
+    27144de2bd: 2835063.387
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8696,6 +8704,8 @@ results:
     8399609e5a: 3725737.512
     10d6a3aca7: 3076376.497
     293c6c8cc3: 3694287.811
+    1ad4be13cb: 3690669.84
+    27144de2bd: 3716434.935
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -10435,6 +10445,8 @@ results:
     8399609e5a: 3713769.799
     10d6a3aca7: 3561108.633
     293c6c8cc3: 3644719.273
+    1ad4be13cb: 3631022.639
+    27144de2bd: 3303607.151
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -12174,6 +12186,8 @@ results:
     8399609e5a: 1941913.086
     10d6a3aca7: 1841594.801
     293c6c8cc3: 1662038.764
+    1ad4be13cb: 1948762.408
+    27144de2bd: 1975324.058
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -13913,3 +13927,5 @@ results:
     8399609e5a: 3027108.572
     10d6a3aca7: 3308785.425
     293c6c8cc3: 2972724.783
+    1ad4be13cb: 3073705.906
+    27144de2bd: 3065785.256
