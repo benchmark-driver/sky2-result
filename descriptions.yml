@@ -9,90 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  74ca6b88dd: |-
-    ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 74ca6b88dd) [x86_64-linux]
-    last_commit=Omit a tag unless loading with a wrapper module
-  74ca6b88dd --jit: |-
-    ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 74ca6b88dd) +JIT [x86_64-linux]
-    last_commit=Omit a tag unless loading with a wrapper module
-  7bb0a7d7cb: |-
-    ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 7bb0a7d7cb) [x86_64-linux]
-    last_commit=Prefer exact ITEM to benchmark
-  7bb0a7d7cb --jit: |-
-    ruby 2.7.0dev (2019-08-17T15:34:12Z trunk 7bb0a7d7cb) +JIT [x86_64-linux]
-    last_commit=Prefer exact ITEM to benchmark
-  e9f82585ee: |-
-    ruby 2.7.0dev (2019-08-17T22:43:19Z trunk e9f82585ee) [x86_64-linux]
-    last_commit=Don't crash when deleting at the end of the line
-  e9f82585ee --jit: |-
-    ruby 2.7.0dev (2019-08-17T22:43:19Z trunk e9f82585ee) +JIT [x86_64-linux]
-    last_commit=Don't crash when deleting at the end of the line
-  0bbbe82986: |-
-    ruby 2.7.0dev (2019-08-17T22:52:49Z trunk 0bbbe82986) [x86_64-linux]
-    last_commit=Fix copy path of ruby/reline's test
-  0bbbe82986 --jit: |-
-    ruby 2.7.0dev (2019-08-17T22:52:49Z trunk 0bbbe82986) +JIT [x86_64-linux]
-    last_commit=Fix copy path of ruby/reline's test
-  113a5c1e1d: |-
-    ruby 2.7.0dev (2019-08-17T23:05:08Z trunk 113a5c1e1d) [x86_64-linux]
-    last_commit=The "exe" dir doesn't exist in this repostiroy
-  113a5c1e1d --jit: |-
-    ruby 2.7.0dev (2019-08-17T23:05:08Z trunk 113a5c1e1d) +JIT [x86_64-linux]
-    last_commit=The "exe" dir doesn't exist in this repostiroy
-  50623f3df0: |-
-    ruby 2.7.0dev (2019-08-17T23:05:14Z trunk 50623f3df0) [x86_64-linux]
-    last_commit=Remove commented out debug print
-  50623f3df0 --jit: |-
-    ruby 2.7.0dev (2019-08-17T23:05:14Z trunk 50623f3df0) +JIT [x86_64-linux]
-    last_commit=Remove commented out debug print
-  a0e80c7cb7: |-
-    ruby 2.7.0dev (2019-08-18T00:30:36Z trunk a0e80c7cb7) [x86_64-linux]
-    last_commit=Drop continue-on-error for make check
-  a0e80c7cb7 --jit: |-
-    ruby 2.7.0dev (2019-08-18T00:30:36Z trunk a0e80c7cb7) +JIT [x86_64-linux]
-    last_commit=Drop continue-on-error for make check
-  3ecb5125c6: |-
-    ruby 2.7.0dev (2019-08-18T04:25:31Z trunk 3ecb5125c6) [x86_64-linux]
-    last_commit=Gem::ConfigMap is deprecated now
-  3ecb5125c6 --jit: |-
-    ruby 2.7.0dev (2019-08-18T04:25:31Z trunk 3ecb5125c6) +JIT [x86_64-linux]
-    last_commit=Gem::ConfigMap is deprecated now
-  a02dbcecb1: |-
-    ruby 2.7.0dev (2019-08-18T04:43:59Z trunk a02dbcecb1) [x86_64-linux]
-    last_commit=[bundler/bundler] Bundler displays a duplicate gem entries warning even if gems only appear once per group
-  a02dbcecb1 --jit: |-
-    ruby 2.7.0dev (2019-08-18T04:43:59Z trunk a02dbcecb1) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Bundler displays a duplicate gem entries warning even if gems only appear once per group
-  cc644c7116: |-
-    ruby 2.7.0dev (2019-08-18T04:44:03Z trunk cc644c7116) [x86_64-linux]
-    last_commit=[bundler/bundler] Fix `bundle doctor` command
-  cc644c7116 --jit: |-
-    ruby 2.7.0dev (2019-08-18T04:44:03Z trunk cc644c7116) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fix `bundle doctor` command
-  e6e8d2d8c0: |-
-    ruby 2.7.0dev (2019-08-18T04:44:13Z trunk e6e8d2d8c0) [x86_64-linux]
-    last_commit=[bundler/bundler] Prefer `before` to `before :each`
-  e6e8d2d8c0 --jit: |-
-    ruby 2.7.0dev (2019-08-18T04:44:13Z trunk e6e8d2d8c0) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Prefer `before` to `before :each`
-  98841b2b19: |-
-    ruby 2.7.0dev (2019-08-18T04:44:22Z trunk 98841b2b19) [x86_64-linux]
-    last_commit=[bundler/bundler] Wrap `open` specs with a context
-  98841b2b19 --jit: |-
-    ruby 2.7.0dev (2019-08-18T04:44:22Z trunk 98841b2b19) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Wrap `open` specs with a context
-  d80f5399ad: |-
-    ruby 2.7.0dev (2019-08-18T04:44:26Z trunk d80f5399ad) [x86_64-linux]
-    last_commit=[bundler/bundler] Fix open default gem error
-  d80f5399ad --jit: |-
-    ruby 2.7.0dev (2019-08-18T04:44:26Z trunk d80f5399ad) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fix open default gem error
-  7659f00a8d: |-
-    ruby 2.7.0dev (2019-08-18T04:44:36Z trunk 7659f00a8d) [x86_64-linux]
-    last_commit=[bundler/bundler] Move local variable to only branch where it's used
-  7659f00a8d --jit: |-
-    ruby 2.7.0dev (2019-08-18T04:44:36Z trunk 7659f00a8d) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Move local variable to only branch where it's used
   f753961611: |-
     ruby 2.7.0dev (2019-08-18T04:44:46Z trunk f753961611) [x86_64-linux]
     last_commit=[bundler/bundler] Remove a bunch of unneeded rubygems requires
@@ -6027,3 +5943,15 @@ commits:
   d4ec37f69e --jit: |-
     ruby 2.7.0dev (2019-10-07T05:16:12Z trunk d4ec37f69e) +JIT [x86_64-linux]
     last_commit=* 2019-10-07 [ci skip]
+  c8542ab484: |-
+    ruby 2.7.0dev (2019-10-07T06:59:12Z trunk c8542ab484) [x86_64-linux]
+    last_commit=Add: Array#intersection method
+  c8542ab484 --jit: |-
+    ruby 2.7.0dev (2019-10-07T06:59:12Z trunk c8542ab484) +JIT [x86_64-linux]
+    last_commit=Add: Array#intersection method
+  f4252f6496: |-
+    ruby 2.7.0dev (2019-10-07T07:14:03Z trunk f4252f6496) [x86_64-linux]
+    last_commit=Version 0.0.3
+  f4252f6496 --jit: |-
+    ruby 2.7.0dev (2019-10-07T07:14:03Z trunk f4252f6496) +JIT [x86_64-linux]
+    last_commit=Version 0.0.3
