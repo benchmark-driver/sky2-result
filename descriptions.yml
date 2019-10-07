@@ -5979,3 +5979,21 @@ commits:
   468184a996 --jit: |-
     ruby 2.7.0dev (2019-10-07T14:37:12Z trunk 468184a996) +JIT [x86_64-linux]
     last_commit=Allow ruby2_keywords to be used with bmethods
+  7abb02771a: |-
+    ruby 2.7.0dev (2019-10-07T15:00:24Z trunk 7abb02771a) [x86_64-linux]
+    last_commit=Fix typo [ci skip]
+  7abb02771a --jit: |-
+    ruby 2.7.0dev (2019-10-07T15:00:24Z trunk 7abb02771a) +JIT [x86_64-linux]
+    last_commit=Fix typo [ci skip]
+  d8b6f58502: |-
+    ruby 2.7.0dev (2019-10-07T15:00:54Z trunk d8b6f58502) [x86_64-linux]
+    last_commit=* 2019-10-08 [ci skip]
+  d8b6f58502 --jit: |-
+    ruby 2.7.0dev (2019-10-07T15:00:54Z trunk d8b6f58502) +JIT [x86_64-linux]
+    last_commit=* 2019-10-08 [ci skip]
+  0a2f04e156: |-
+    ruby 2.7.0dev (2019-10-07T17:57:30Z trunk 0a2f04e156) [x86_64-linux]
+    last_commit=Eliminate second GC pass for eliminating T_MOVED
+  0a2f04e156 --jit: |-
+    ruby 2.7.0dev (2019-10-07T17:57:30Z trunk 0a2f04e156) +JIT [x86_64-linux]
+    last_commit=Eliminate second GC pass for eliminating T_MOVED
