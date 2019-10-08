@@ -5973,3 +5973,9 @@ commits:
   8feb8c9bb7 --jit: |-
     ruby 2.7.0dev (2019-10-08T08:04:46Z trunk 8feb8c9bb7) +JIT [x86_64-linux]
     last_commit=Packed delayed token elements
+  7909f06212: |-
+    ruby 2.7.0dev (2019-10-08T14:30:55Z trunk 7909f06212) [x86_64-linux]
+    last_commit=Check for invalid hex escapes in URI#query=
+  7909f06212 --jit: |-
+    ruby 2.7.0dev (2019-10-08T14:30:55Z trunk 7909f06212) +JIT [x86_64-linux]
+    last_commit=Check for invalid hex escapes in URI#query=
