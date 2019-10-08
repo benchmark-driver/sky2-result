@@ -9,78 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  f753961611: |-
-    ruby 2.7.0dev (2019-08-18T04:44:46Z trunk f753961611) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove a bunch of unneeded rubygems requires
-  f753961611 --jit: |-
-    ruby 2.7.0dev (2019-08-18T04:44:46Z trunk f753961611) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove a bunch of unneeded rubygems requires
-  998204882b: |-
-    ruby 2.7.0dev (2019-08-18T04:44:56Z trunk 998204882b) [x86_64-linux]
-    last_commit=[bundler/bundler] Last relative requires
-  998204882b --jit: |-
-    ruby 2.7.0dev (2019-08-18T04:44:56Z trunk 998204882b) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Last relative requires
-  c50c2354cf: |-
-    ruby 2.7.0dev (2019-08-18T04:45:05Z trunk c50c2354cf) [x86_64-linux]
-    last_commit=[bundler/bundler] Require relatively from exe/ when possible
-  c50c2354cf --jit: |-
-    ruby 2.7.0dev (2019-08-18T04:45:05Z trunk c50c2354cf) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Require relatively from exe/ when possible
-  0653d8c601: |-
-    ruby 2.7.0dev (2019-08-18T04:45:15Z trunk 0653d8c601) [x86_64-linux]
-    last_commit=[bundler/bundler] Fix spec using the deprecated `bundle config` mode
-  0653d8c601 --jit: |-
-    ruby 2.7.0dev (2019-08-18T04:45:15Z trunk 0653d8c601) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fix spec using the deprecated `bundle config` mode
-  5a69a23afc: |-
-    ruby 2.7.0dev (2019-08-18T04:45:25Z trunk 5a69a23afc) [x86_64-linux]
-    last_commit=[bundler/bundler] Don't use system bundler on this spec
-  5a69a23afc --jit: |-
-    ruby 2.7.0dev (2019-08-18T04:45:25Z trunk 5a69a23afc) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Don't use system bundler on this spec
-  4756c5f7e7: |-
-    ruby 2.7.0dev (2019-08-18T04:45:35Z trunk 4756c5f7e7) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unnecessary rubygems monkeypatch
-  4756c5f7e7 --jit: |-
-    ruby 2.7.0dev (2019-08-18T04:45:35Z trunk 4756c5f7e7) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unnecessary rubygems monkeypatch
-  683f9e1dbf: |-
-    ruby 2.7.0dev (2019-08-18T04:45:45Z trunk 683f9e1dbf) [x86_64-linux]
-    last_commit=[bundler/bundler] No need to activate the `fileutils` default gem
-  683f9e1dbf --jit: |-
-    ruby 2.7.0dev (2019-08-18T04:45:45Z trunk 683f9e1dbf) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] No need to activate the `fileutils` default gem
-  a77b3b4476: |-
-    ruby 2.7.0dev (2019-08-18T04:45:57Z trunk a77b3b4476) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unnecessary require
-  a77b3b4476 --jit: |-
-    ruby 2.7.0dev (2019-08-18T04:45:57Z trunk a77b3b4476) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove unnecessary require
-  d3da1d57d3: |-
-    ruby 2.7.0dev (2019-08-18T06:02:21Z trunk d3da1d57d3) [x86_64-linux]
-    last_commit=Skip open_spec.rb:L95 because ruby repo doesn't have json as default gems.
-  d3da1d57d3 --jit: |-
-    ruby 2.7.0dev (2019-08-18T06:02:21Z trunk d3da1d57d3) +JIT [x86_64-linux]
-    last_commit=Skip open_spec.rb:L95 because ruby repo doesn't have json as default gems.
-  6b42b0c60c: |-
-    ruby 2.7.0dev (2019-08-18T06:39:19Z trunk 6b42b0c60c) [x86_64-linux]
-    last_commit=Fix document of `GC.start` (#2382)
-  6b42b0c60c --jit: |-
-    ruby 2.7.0dev (2019-08-18T06:39:19Z trunk 6b42b0c60c) +JIT [x86_64-linux]
-    last_commit=Fix document of `GC.start` (#2382)
-  cba8166cc1: |-
-    ruby 2.7.0dev (2019-08-18T06:47:19Z trunk cba8166cc1) [x86_64-linux]
-    last_commit=Appveyor - vc120 use OpenSSL 1.0.2, vc140 use 1.1.1 (#1998)
-  cba8166cc1 --jit: |-
-    ruby 2.7.0dev (2019-08-18T06:47:19Z trunk cba8166cc1) +JIT [x86_64-linux]
-    last_commit=Appveyor - vc120 use OpenSSL 1.0.2, vc140 use 1.1.1 (#1998)
-  ad0ea708ca: |-
-    ruby 2.7.0dev (2019-08-18T06:50:03Z trunk ad0ea708ca) [x86_64-linux]
-    last_commit=Drop before_test for mswin too
-  ad0ea708ca --jit: |-
-    ruby 2.7.0dev (2019-08-18T06:50:03Z trunk ad0ea708ca) +JIT [x86_64-linux]
-    last_commit=Drop before_test for mswin too
   '9132153930': |-
     ruby 2.7.0dev (2019-08-18T09:08:59Z trunk 9132153930) [x86_64-linux]
     last_commit=Ignore tags on default gems from ruby core repository.
@@ -5997,3 +5925,33 @@ commits:
   0a2f04e156 --jit: |-
     ruby 2.7.0dev (2019-10-07T17:57:30Z trunk 0a2f04e156) +JIT [x86_64-linux]
     last_commit=Eliminate second GC pass for eliminating T_MOVED
+  '058db33c5e': |-
+    ruby 2.7.0dev (2019-10-07T19:10:24Z trunk 058db33c5e) [x86_64-linux]
+    last_commit=Move empty pages to the tomb
+  '058db33c5e --jit': |-
+    ruby 2.7.0dev (2019-10-07T19:10:24Z trunk 058db33c5e) +JIT [x86_64-linux]
+    last_commit=Move empty pages to the tomb
+  6abcd35762: |-
+    ruby 2.7.0dev (2019-10-07T19:28:21Z trunk 6abcd35762) [x86_64-linux]
+    last_commit=Do not free too many pages.
+  6abcd35762 --jit: |-
+    ruby 2.7.0dev (2019-10-07T19:28:21Z trunk 6abcd35762) +JIT [x86_64-linux]
+    last_commit=Do not free too many pages.
+  055a85d3d9: |-
+    ruby 2.7.0dev (2019-10-07T19:56:52Z trunk 055a85d3d9) [x86_64-linux]
+    last_commit=Update NEWS with Module#ruby2_keywords and a few other things
+  055a85d3d9 --jit: |-
+    ruby 2.7.0dev (2019-10-07T19:56:52Z trunk 055a85d3d9) +JIT [x86_64-linux]
+    last_commit=Update NEWS with Module#ruby2_keywords and a few other things
+  c0eae130b1: |-
+    ruby 2.7.0dev (2019-10-07T20:51:21Z trunk c0eae130b1) [x86_64-linux]
+    last_commit=Note RB_PASS_EMPTY_KEYWORDS and RB_SCAN_ARGS_EMPTY_KEYWORDS will be removed
+  c0eae130b1 --jit: |-
+    ruby 2.7.0dev (2019-10-07T20:51:21Z trunk c0eae130b1) +JIT [x86_64-linux]
+    last_commit=Note RB_PASS_EMPTY_KEYWORDS and RB_SCAN_ARGS_EMPTY_KEYWORDS will be removed
+  59c3b1c9c8: |-
+    ruby 2.7.0dev (2019-10-07T20:51:28Z trunk 59c3b1c9c8) [x86_64-linux]
+    last_commit=Add section to extension.rdoc for backwards compatibility macros [ci skip]
+  59c3b1c9c8 --jit: |-
+    ruby 2.7.0dev (2019-10-07T20:51:28Z trunk 59c3b1c9c8) +JIT [x86_64-linux]
+    last_commit=Add section to extension.rdoc for backwards compatibility macros [ci skip]
