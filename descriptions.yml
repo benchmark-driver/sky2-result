@@ -5955,3 +5955,45 @@ commits:
   6f11c3b335 --jit: |-
     ruby 2.7.0dev (2019-10-09T08:46:05Z trunk 6f11c3b335) +JIT [x86_64-linux]
     last_commit=Check '[ci skip]' at job level
+  b9cf58d2b2: |-
+    ruby 2.7.0dev (2019-10-09T13:57:19Z trunk b9cf58d2b2) [x86_64-linux]
+    last_commit=signal.c (ruby_abort): move the definition for refactoring
+  b9cf58d2b2 --jit: |-
+    ruby 2.7.0dev (2019-10-09T13:57:19Z trunk b9cf58d2b2) +JIT [x86_64-linux]
+    last_commit=signal.c (ruby_abort): move the definition for refactoring
+  dd477df411: |-
+    ruby 2.7.0dev (2019-10-09T14:02:22Z trunk dd477df411) [x86_64-linux]
+    last_commit=error.c (rb_bug_for_fatal_signal): renamed from rb_bug_context
+  dd477df411 --jit: |-
+    ruby 2.7.0dev (2019-10-09T14:02:22Z trunk dd477df411) +JIT [x86_64-linux]
+    last_commit=error.c (rb_bug_for_fatal_signal): renamed from rb_bug_context
+  891cbd66a4: |-
+    ruby 2.7.0dev (2019-10-09T14:22:15Z trunk 891cbd66a4) [x86_64-linux]
+    last_commit=signal.c: save the original sighandlers for fatal signals
+  891cbd66a4 --jit: |-
+    ruby 2.7.0dev (2019-10-09T14:22:15Z trunk 891cbd66a4) +JIT [x86_64-linux]
+    last_commit=signal.c: save the original sighandlers for fatal signals
+  29e6782f5d: |-
+    ruby 2.7.0dev (2019-10-09T14:39:58Z trunk 29e6782f5d) [x86_64-linux]
+    last_commit=Share ruby_sighandler_t definition
+  29e6782f5d --jit: |-
+    ruby 2.7.0dev (2019-10-09T14:39:58Z trunk 29e6782f5d) +JIT [x86_64-linux]
+    last_commit=Share ruby_sighandler_t definition
+  bb71a128eb: |-
+    ruby 2.7.0dev (2019-10-09T14:46:50Z trunk bb71a128eb) [x86_64-linux]
+    last_commit=Prefer st_is_member over st_lookup with 0
+  bb71a128eb --jit: |-
+    ruby 2.7.0dev (2019-10-09T14:46:50Z trunk bb71a128eb) +JIT [x86_64-linux]
+    last_commit=Prefer st_is_member over st_lookup with 0
+  9b919885a0: |-
+    ruby 2.7.0dev (2019-10-09T15:13:30Z trunk 9b919885a0) [x86_64-linux]
+    last_commit=fix memory corruption in old GCC
+  9b919885a0 --jit: |-
+    ruby 2.7.0dev (2019-10-09T15:13:30Z trunk 9b919885a0) +JIT [x86_64-linux]
+    last_commit=fix memory corruption in old GCC
+  ecf6c0402e: |-
+    ruby 2.7.0dev (2019-10-09T15:14:36Z trunk ecf6c0402e) [x86_64-linux]
+    last_commit=* 2019-10-10 [ci skip]
+  ecf6c0402e --jit: |-
+    ruby 2.7.0dev (2019-10-09T15:14:36Z trunk ecf6c0402e) +JIT [x86_64-linux]
+    last_commit=* 2019-10-10 [ci skip]
