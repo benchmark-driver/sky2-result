@@ -9,102 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  '9132153930': |-
-    ruby 2.7.0dev (2019-08-18T09:08:59Z trunk 9132153930) [x86_64-linux]
-    last_commit=Ignore tags on default gems from ruby core repository.
-  9132153930 --jit: |-
-    ruby 2.7.0dev (2019-08-18T09:08:59Z trunk 9132153930) +JIT [x86_64-linux]
-    last_commit=Ignore tags on default gems from ruby core repository.
-  51edcbad5b: |-
-    ruby 2.7.0dev (2019-08-18T09:08:59Z trunk 51edcbad5b) [x86_64-linux]
-    last_commit=Use master branch instead of trunk.
-  51edcbad5b --jit: |-
-    ruby 2.7.0dev (2019-08-18T09:08:59Z trunk 51edcbad5b) +JIT [x86_64-linux]
-    last_commit=Use master branch instead of trunk.
-  829b800c10: |-
-    ruby 2.7.0dev (2019-08-18T10:10:24Z trunk 829b800c10) [x86_64-linux]
-    last_commit=Reoder Travis matrix.include
-  829b800c10 --jit: |-
-    ruby 2.7.0dev (2019-08-18T10:10:24Z trunk 829b800c10) +JIT [x86_64-linux]
-    last_commit=Reoder Travis matrix.include
-  d8807e8b1a: |-
-    ruby 2.7.0dev (2019-08-18T14:19:10Z trunk d8807e8b1a) [x86_64-linux]
-    last_commit=Try notifying Slack from Actions
-  d8807e8b1a --jit: |-
-    ruby 2.7.0dev (2019-08-18T14:19:10Z trunk d8807e8b1a) +JIT [x86_64-linux]
-    last_commit=Try notifying Slack from Actions
-  e4c43207f9: |-
-    ruby 2.7.0dev (2019-08-18T14:32:49Z trunk e4c43207f9) [x86_64-linux]
-    last_commit=Revert "Try notifying Slack from Actions"
-  e4c43207f9 --jit: |-
-    ruby 2.7.0dev (2019-08-18T14:32:49Z trunk e4c43207f9) +JIT [x86_64-linux]
-    last_commit=Revert "Try notifying Slack from Actions"
-  2f6c8ed26e: |-
-    ruby 2.7.0dev (2019-08-18T16:49:52Z trunk 2f6c8ed26e) [x86_64-linux]
-    last_commit=Implement Slack notification for Actions
-  2f6c8ed26e --jit: |-
-    ruby 2.7.0dev (2019-08-18T16:49:52Z trunk 2f6c8ed26e) +JIT [x86_64-linux]
-    last_commit=Implement Slack notification for Actions
-  aa5fbb5a76: |-
-    ruby 2.7.0dev (2019-08-18T16:50:18Z trunk aa5fbb5a76) [x86_64-linux]
-    last_commit=* 2019-08-19 [ci skip]
-  aa5fbb5a76 --jit: |-
-    ruby 2.7.0dev (2019-08-18T16:50:18Z trunk aa5fbb5a76) +JIT [x86_64-linux]
-    last_commit=* 2019-08-19 [ci skip]
-  e139d27748: |-
-    ruby 2.7.0dev (2019-08-18T18:14:19Z trunk e139d27748) [x86_64-linux]
-    last_commit=Make Slack notification available
-  e139d27748 --jit: |-
-    ruby 2.7.0dev (2019-08-18T18:14:19Z trunk e139d27748) +JIT [x86_64-linux]
-    last_commit=Make Slack notification available
-  c100e3856a: |-
-    ruby 2.7.0dev (2019-08-18T18:40:34Z trunk c100e3856a) [x86_64-linux]
-    last_commit=Workaround errors on multi-line commit message
-  c100e3856a --jit: |-
-    ruby 2.7.0dev (2019-08-18T18:40:34Z trunk c100e3856a) +JIT [x86_64-linux]
-    last_commit=Workaround errors on multi-line commit message
-  d106f08291: |-
-    ruby 2.7.0dev (2019-08-19T00:41:52Z trunk d106f08291) [x86_64-linux]
-    last_commit=Stop reporting test-bundled-gems results
-  d106f08291 --jit: |-
-    ruby 2.7.0dev (2019-08-19T00:41:52Z trunk d106f08291) +JIT [x86_64-linux]
-    last_commit=Stop reporting test-bundled-gems results
-  4c13368972: |-
-    ruby 2.7.0dev (2019-08-19T00:47:05Z trunk 4c13368972) [x86_64-linux]
-    last_commit=Make AppVeyor notification colors consistent
-  4c13368972 --jit: |-
-    ruby 2.7.0dev (2019-08-19T00:47:05Z trunk 4c13368972) +JIT [x86_64-linux]
-    last_commit=Make AppVeyor notification colors consistent
-  bc1e2271af: |-
-    ruby 2.7.0dev (2019-08-19T01:07:05Z trunk bc1e2271af) [x86_64-linux]
-    last_commit=lib/rdoc/markup/parser.rb: remove a unused variable initialization
-  bc1e2271af --jit: |-
-    ruby 2.7.0dev (2019-08-19T01:07:05Z trunk bc1e2271af) +JIT [x86_64-linux]
-    last_commit=lib/rdoc/markup/parser.rb: remove a unused variable initialization
-  574a9edfb3: |-
-    ruby 2.7.0dev (2019-08-19T05:34:13Z trunk 574a9edfb3) [x86_64-linux]
-    last_commit=Set flag to allow unprivileged users to create symlinks (#2381)
-  574a9edfb3 --jit: |-
-    ruby 2.7.0dev (2019-08-19T05:34:13Z trunk 574a9edfb3) +JIT [x86_64-linux]
-    last_commit=Set flag to allow unprivileged users to create symlinks (#2381)
-  1f3f50fb5e: |-
-    ruby 2.7.0dev (2019-08-19T05:34:29Z trunk 1f3f50fb5e) [x86_64-linux]
-    last_commit=* expand tabs. [ci skip]
-  1f3f50fb5e --jit: |-
-    ruby 2.7.0dev (2019-08-19T05:34:29Z trunk 1f3f50fb5e) +JIT [x86_64-linux]
-    last_commit=* expand tabs. [ci skip]
-  d76be10df1: |-
-    ruby 2.7.0dev (2019-08-19T05:43:55Z trunk d76be10df1) [x86_64-linux]
-    last_commit=missing/memcmp.c: suppress a `-Wparentheses` warning
-  d76be10df1 --jit: |-
-    ruby 2.7.0dev (2019-08-19T05:43:55Z trunk d76be10df1) +JIT [x86_64-linux]
-    last_commit=missing/memcmp.c: suppress a `-Wparentheses` warning
-  39a43d9cd0: |-
-    ruby 2.7.0dev (2019-08-19T05:51:00Z trunk 39a43d9cd0) [x86_64-linux]
-    last_commit=Make it as clear as possible that RubyVM is MRI-specific and only exists on MRI (#2113) [ci skip]
-  39a43d9cd0 --jit: |-
-    ruby 2.7.0dev (2019-08-19T05:51:00Z trunk 39a43d9cd0) +JIT [x86_64-linux]
-    last_commit=Make it as clear as possible that RubyVM is MRI-specific and only exists on MRI (#2113) [ci skip]
   6c2aa8689a: |-
     ruby 2.7.0dev (2019-08-19T05:59:59Z trunk 6c2aa8689a) [x86_64-linux]
     last_commit=Roughly retry `brew update`
@@ -6045,3 +5949,9 @@ commits:
   d0e30fc955 --jit: |-
     ruby 2.7.0dev (2019-10-09T05:03:04Z trunk d0e30fc955) +JIT [x86_64-linux]
     last_commit=vm_eval.c (rb_adjust_argv_kw_splat): avoid memcpy with zero length
+  6f11c3b335: |-
+    ruby 2.7.0dev (2019-10-09T08:46:05Z trunk 6f11c3b335) [x86_64-linux]
+    last_commit=Check '[ci skip]' at job level
+  6f11c3b335 --jit: |-
+    ruby 2.7.0dev (2019-10-09T08:46:05Z trunk 6f11c3b335) +JIT [x86_64-linux]
+    last_commit=Check '[ci skip]' at job level
