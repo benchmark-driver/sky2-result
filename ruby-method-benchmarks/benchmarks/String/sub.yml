@@ -1774,6 +1774,8 @@ results:
     5717e55e9a: 3057868.689
     671ca21254: 3348306.299
     cadfaacb25: 3418205.23
+    f5248f6f50: 3290492.474
+    1a9cc3b27c: 3311276.003
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3547,6 +3549,8 @@ results:
     5717e55e9a: 3335600.188
     671ca21254: 3304424.686
     cadfaacb25: 2791233.579
+    f5248f6f50: 3333205.066
+    1a9cc3b27c: 3040964.488
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5320,6 +5324,8 @@ results:
     5717e55e9a: 1751887.103
     671ca21254: 1878456.236
     cadfaacb25: 1882470.804
+    f5248f6f50: 1550312.608
+    1a9cc3b27c: 1914896.882
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7093,6 +7099,8 @@ results:
     5717e55e9a: 3015567.596
     671ca21254: 3101860.432
     cadfaacb25: 2844641.645
+    f5248f6f50: 2818435.715
+    1a9cc3b27c: 2723034.755
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8866,6 +8874,8 @@ results:
     5717e55e9a: 3242314.085
     671ca21254: 3658902.978
     cadfaacb25: 3716534.716
+    f5248f6f50: 3583570.347
+    1a9cc3b27c: 3709506.8
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -10639,6 +10649,8 @@ results:
     5717e55e9a: 3622175.472
     671ca21254: 3602810.9
     cadfaacb25: 3684141.769
+    f5248f6f50: 3644143.36
+    1a9cc3b27c: 3556412.51
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -12412,6 +12424,8 @@ results:
     5717e55e9a: 1839039.284
     671ca21254: 1962908.574
     cadfaacb25: 2020602.199
+    f5248f6f50: 1895220.251
+    1a9cc3b27c: 2024416.897
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -14185,3 +14199,5 @@ results:
     5717e55e9a: 3129530.541
     671ca21254: 3064763.611
     cadfaacb25: 3057254.768
+    f5248f6f50: 2731528.552
+    1a9cc3b27c: 2895100.558
