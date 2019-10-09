@@ -5997,3 +5997,51 @@ commits:
   59cfa2d187 --jit: |-
     ruby 2.7.0dev (2019-10-09T00:08:53Z trunk 59cfa2d187) +JIT [x86_64-linux]
     last_commit=* 2019-10-09 [ci skip]
+  2f3b4029da: |-
+    ruby 2.7.0dev (2019-10-09T03:12:28Z trunk 2f3b4029da) [x86_64-linux]
+    last_commit=fix arity mismatch
+  2f3b4029da --jit: |-
+    ruby 2.7.0dev (2019-10-09T03:12:28Z trunk 2f3b4029da) +JIT [x86_64-linux]
+    last_commit=fix arity mismatch
+  a220410be7: |-
+    ruby 2.7.0dev (2019-10-09T03:12:28Z trunk a220410be7) [x86_64-linux]
+    last_commit=annotate malloc-ish functions
+  a220410be7 --jit: |-
+    ruby 2.7.0dev (2019-10-09T03:12:28Z trunk a220410be7) +JIT [x86_64-linux]
+    last_commit=annotate malloc-ish functions
+  7e0ae1698d: |-
+    ruby 2.7.0dev (2019-10-09T03:12:28Z trunk 7e0ae1698d) [x86_64-linux]
+    last_commit=avoid overflow in integer multiplication
+  7e0ae1698d --jit: |-
+    ruby 2.7.0dev (2019-10-09T03:12:28Z trunk 7e0ae1698d) +JIT [x86_64-linux]
+    last_commit=avoid overflow in integer multiplication
+  a14cc07f2f: |-
+    ruby 2.7.0dev (2019-10-09T03:12:28Z trunk a14cc07f2f) [x86_64-linux]
+    last_commit=avoid returning NULL from xrealloc
+  a14cc07f2f --jit: |-
+    ruby 2.7.0dev (2019-10-09T03:12:28Z trunk a14cc07f2f) +JIT [x86_64-linux]
+    last_commit=avoid returning NULL from xrealloc
+  2d001003e4: |-
+    ruby 2.7.0dev (2019-10-09T03:25:07Z trunk 2d001003e4) [x86_64-linux]
+    last_commit=Improve performance of Array#sum with float elements (#1555)
+  2d001003e4 --jit: |-
+    ruby 2.7.0dev (2019-10-09T03:25:07Z trunk 2d001003e4) +JIT [x86_64-linux]
+    last_commit=Improve performance of Array#sum with float elements (#1555)
+  12d05537d7: |-
+    ruby 2.7.0dev (2019-10-09T03:25:50Z trunk 12d05537d7) [x86_64-linux]
+    last_commit=Update required_ruby_version to 2.4.0
+  12d05537d7 --jit: |-
+    ruby 2.7.0dev (2019-10-09T03:25:50Z trunk 12d05537d7) +JIT [x86_64-linux]
+    last_commit=Update required_ruby_version to 2.4.0
+  b439ee1b8f: |-
+    ruby 2.7.0dev (2019-10-09T03:41:41Z trunk b439ee1b8f) [x86_64-linux]
+    last_commit=Remove uselsess shebang
+  b439ee1b8f --jit: |-
+    ruby 2.7.0dev (2019-10-09T03:41:41Z trunk b439ee1b8f) +JIT [x86_64-linux]
+    last_commit=Remove uselsess shebang
+  d0e30fc955: |-
+    ruby 2.7.0dev (2019-10-09T05:03:04Z trunk d0e30fc955) [x86_64-linux]
+    last_commit=vm_eval.c (rb_adjust_argv_kw_splat): avoid memcpy with zero length
+  d0e30fc955 --jit: |-
+    ruby 2.7.0dev (2019-10-09T05:03:04Z trunk d0e30fc955) +JIT [x86_64-linux]
+    last_commit=vm_eval.c (rb_adjust_argv_kw_splat): avoid memcpy with zero length
