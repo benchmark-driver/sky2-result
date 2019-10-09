@@ -1768,6 +1768,8 @@ results:
     02cd420505: 3400396.668
     a02da1012b: 3404176.355
     434af7303c: 3362505.041
+    fc9eb5b9c1: 3379067.882
+    a17bc04d15: 3366614.945
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3535,6 +3537,8 @@ results:
     02cd420505: 3243152.231
     a02da1012b: 3335218.529
     434af7303c: 3349285.227
+    fc9eb5b9c1: 3310690.905
+    a17bc04d15: 3222175.684
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5302,6 +5306,8 @@ results:
     02cd420505: 1736773.814
     a02da1012b: 1832159.738
     434af7303c: 1852661.536
+    fc9eb5b9c1: 1782409.156
+    a17bc04d15: 1426001.75
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7069,6 +7075,8 @@ results:
     02cd420505: 2841814.425
     a02da1012b: 2887317.463
     434af7303c: 2856353.53
+    fc9eb5b9c1: 2841963.035
+    a17bc04d15: 3139400.082
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8836,6 +8844,8 @@ results:
     02cd420505: 3682141.187
     a02da1012b: 3356465.049
     434af7303c: 3677801.629
+    fc9eb5b9c1: 3396399.696
+    a17bc04d15: 3657642.349
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -10603,6 +10613,8 @@ results:
     02cd420505: 3642393.479
     a02da1012b: 3691738.585
     434af7303c: 3631666.521
+    fc9eb5b9c1: 3539966.926
+    a17bc04d15: 3644483.918
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -12370,6 +12382,8 @@ results:
     02cd420505: 1572423.028
     a02da1012b: 1995070.574
     434af7303c: 1822396.235
+    fc9eb5b9c1: 1976152.299
+    a17bc04d15: 1982343.346
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -14137,3 +14151,5 @@ results:
     02cd420505: 3057250.503
     a02da1012b: 3078246.974
     434af7303c: 3038788.122
+    fc9eb5b9c1: 2848459.632
+    a17bc04d15: 3389859.971
