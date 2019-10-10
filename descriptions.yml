@@ -5991,3 +5991,39 @@ commits:
   6f522455bf --jit: |-
     ruby 2.7.0dev (2019-10-10T05:51:48Z trunk 6f522455bf) +JIT [x86_64-linux]
     last_commit=[rubygems/rubygems] Do not compare with unreliable Gem::Specification::TODAY
+  203b7fa1ae: |-
+    ruby 2.7.0dev (2019-10-10T07:25:28Z trunk 203b7fa1ae) [x86_64-linux]
+    last_commit=Guard static variable first
+  203b7fa1ae --jit: |-
+    ruby 2.7.0dev (2019-10-10T07:25:28Z trunk 203b7fa1ae) +JIT [x86_64-linux]
+    last_commit=Guard static variable first
+  0b26f56a77: |-
+    ruby 2.7.0dev (2019-10-10T07:48:26Z trunk 0b26f56a77) [x86_64-linux]
+    last_commit=Remove unreachable step level `[ci skip]`
+  0b26f56a77 --jit: |-
+    ruby 2.7.0dev (2019-10-10T07:48:26Z trunk 0b26f56a77) +JIT [x86_64-linux]
+    last_commit=Remove unreachable step level `[ci skip]`
+  d96f04d73a: |-
+    ruby 2.7.0dev (2019-10-10T08:10:21Z trunk d96f04d73a) [x86_64-linux]
+    last_commit=add "[FATAL]" marker on abort
+  d96f04d73a --jit: |-
+    ruby 2.7.0dev (2019-10-10T08:10:21Z trunk d96f04d73a) +JIT [x86_64-linux]
+    last_commit=add "[FATAL]" marker on abort
+  f1ce4897f2: |-
+    ruby 2.7.0dev (2019-10-10T08:10:21Z trunk f1ce4897f2) [x86_64-linux]
+    last_commit=make rb_raise a GVL-only function again
+  f1ce4897f2 --jit: |-
+    ruby 2.7.0dev (2019-10-10T08:10:21Z trunk f1ce4897f2) +JIT [x86_64-linux]
+    last_commit=make rb_raise a GVL-only function again
+  2d393bf125: |-
+    ruby 2.7.0dev (2019-10-10T08:49:31Z trunk 2d393bf125) [x86_64-linux]
+    last_commit=guard rb_fatal against non-GVL call
+  2d393bf125 --jit: |-
+    ruby 2.7.0dev (2019-10-10T08:49:31Z trunk 2d393bf125) +JIT [x86_64-linux]
+    last_commit=guard rb_fatal against non-GVL call
+  3f413896c3: |-
+    ruby 2.7.0dev (2019-10-10T09:15:33Z trunk 3f413896c3) [x86_64-linux]
+    last_commit=forgot to delete unused #incude line
+  3f413896c3 --jit: |-
+    ruby 2.7.0dev (2019-10-10T09:15:33Z trunk 3f413896c3) +JIT [x86_64-linux]
+    last_commit=forgot to delete unused #incude line
