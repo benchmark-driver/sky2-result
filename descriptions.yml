@@ -5955,3 +5955,39 @@ commits:
   9c3153e0da --jit: |-
     ruby 2.7.0dev (2019-10-10T03:07:38Z trunk 9c3153e0da) +JIT [x86_64-linux]
     last_commit=allow rb_raise from outside of GVL
+  a23b639050: |-
+    ruby 2.7.0dev (2019-10-10T05:07:45Z trunk a23b639050) [x86_64-linux]
+    last_commit=negative_size_allocation_error never returns
+  a23b639050 --jit: |-
+    ruby 2.7.0dev (2019-10-10T05:07:45Z trunk a23b639050) +JIT [x86_64-linux]
+    last_commit=negative_size_allocation_error never returns
+  c2065c64cb: |-
+    ruby 2.7.0dev (2019-10-10T05:07:45Z trunk c2065c64cb) [x86_64-linux]
+    last_commit=Fixed numbered parameter check
+  c2065c64cb --jit: |-
+    ruby 2.7.0dev (2019-10-10T05:07:45Z trunk c2065c64cb) +JIT [x86_64-linux]
+    last_commit=Fixed numbered parameter check
+  495ebd6e95: |-
+    ruby 2.7.0dev (2019-10-10T05:21:29Z trunk 495ebd6e95) [x86_64-linux]
+    last_commit=Now error.o needs thread.h
+  495ebd6e95 --jit: |-
+    ruby 2.7.0dev (2019-10-10T05:21:29Z trunk 495ebd6e95) +JIT [x86_64-linux]
+    last_commit=Now error.o needs thread.h
+  717b72a8af: |-
+    ruby 2.7.0dev (2019-10-10T05:51:45Z trunk 717b72a8af) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Optimize Gem::Package::TarReader#each
+  717b72a8af --jit: |-
+    ruby 2.7.0dev (2019-10-10T05:51:45Z trunk 717b72a8af) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Optimize Gem::Package::TarReader#each
+  dc2b301994: |-
+    ruby 2.7.0dev (2019-10-10T05:51:47Z trunk dc2b301994) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Restrict possible date range
+  dc2b301994 --jit: |-
+    ruby 2.7.0dev (2019-10-10T05:51:47Z trunk dc2b301994) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Restrict possible date range
+  6f522455bf: |-
+    ruby 2.7.0dev (2019-10-10T05:51:48Z trunk 6f522455bf) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Do not compare with unreliable Gem::Specification::TODAY
+  6f522455bf --jit: |-
+    ruby 2.7.0dev (2019-10-10T05:51:48Z trunk 6f522455bf) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Do not compare with unreliable Gem::Specification::TODAY
