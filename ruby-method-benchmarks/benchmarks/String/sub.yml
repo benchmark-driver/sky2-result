@@ -1781,6 +1781,8 @@ results:
     c9dc569a94: 3485852.32
     '09c940b17f': 3464189.699
     0b65a7a19e: 3376728.712
+    a4d389d8fe: 3449071.321
+    b7ae26e2ee: 3235646.238
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3561,6 +3563,8 @@ results:
     c9dc569a94: 3472570.902
     '09c940b17f': 3423934.179
     0b65a7a19e: 3334642.528
+    a4d389d8fe: 3349724.404
+    b7ae26e2ee: 2993137.881
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5341,6 +5345,8 @@ results:
     c9dc569a94: 1936567.411
     '09c940b17f': 1885003.519
     0b65a7a19e: 1779199.498
+    a4d389d8fe: 1929145.4
+    b7ae26e2ee: 1714997.482
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7121,6 +7127,8 @@ results:
     c9dc569a94: 2846223.107
     '09c940b17f': 2863142.505
     0b65a7a19e: 2802300.341
+    a4d389d8fe: 2552494.905
+    b7ae26e2ee: 3146606.14
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8901,6 +8909,8 @@ results:
     c9dc569a94: 3776921.171
     '09c940b17f': 3763397.395
     0b65a7a19e: 3404821.427
+    a4d389d8fe: 3694691.818
+    b7ae26e2ee: 3656375.591
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -10681,6 +10691,8 @@ results:
     c9dc569a94: 3750371.067
     '09c940b17f': 3699709.419
     0b65a7a19e: 3609118.126
+    a4d389d8fe: 3651337.896
+    b7ae26e2ee: 3583116.42
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -12461,6 +12473,8 @@ results:
     c9dc569a94: 1938865.78
     '09c940b17f': 2003135.844
     0b65a7a19e: 1979557.365
+    a4d389d8fe: 1861179.884
+    b7ae26e2ee: 1786447.266
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -14241,3 +14255,5 @@ results:
     c9dc569a94: 3043629.813
     '09c940b17f': 3062900.619
     0b65a7a19e: 2939599.63
+    a4d389d8fe: 3027340.605
+    b7ae26e2ee: 3381408.136

@@ -9,72 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  6c2aa8689a: |-
-    ruby 2.7.0dev (2019-08-19T05:59:59Z trunk 6c2aa8689a) [x86_64-linux]
-    last_commit=Roughly retry `brew update`
-  6c2aa8689a --jit: |-
-    ruby 2.7.0dev (2019-08-19T05:59:59Z trunk 6c2aa8689a) +JIT [x86_64-linux]
-    last_commit=Roughly retry `brew update`
-  c5db4c28f9: |-
-    ruby 2.7.0dev (2019-08-19T06:01:48Z trunk c5db4c28f9) [x86_64-linux]
-    last_commit=cont.c: remove unused STACK_GROW_DIR_DETECTION
-  c5db4c28f9 --jit: |-
-    ruby 2.7.0dev (2019-08-19T06:01:48Z trunk c5db4c28f9) +JIT [x86_64-linux]
-    last_commit=cont.c: remove unused STACK_GROW_DIR_DETECTION
-  4515bcc922: |-
-    ruby 2.7.0dev (2019-08-19T06:37:28Z trunk 4515bcc922) [x86_64-linux]
-    last_commit=Omit version.h when merging
-  4515bcc922 --jit: |-
-    ruby 2.7.0dev (2019-08-19T06:37:28Z trunk 4515bcc922) +JIT [x86_64-linux]
-    last_commit=Omit version.h when merging
-  1bd60c66d3: |-
-    ruby 2.7.0dev (2019-08-19T06:55:53Z trunk 1bd60c66d3) [x86_64-linux]
-    last_commit=Fix FL_USER19
-  1bd60c66d3 --jit: |-
-    ruby 2.7.0dev (2019-08-19T06:55:53Z trunk 1bd60c66d3) +JIT [x86_64-linux]
-    last_commit=Fix FL_USER19
-  8108594f47: |-
-    ruby 2.7.0dev (2019-08-19T07:18:54Z trunk 8108594f47) [x86_64-linux]
-    last_commit=unsigned int should have enough bits for rb_thread_shield_waiting
-  8108594f47 --jit: |-
-    ruby 2.7.0dev (2019-08-19T07:18:54Z trunk 8108594f47) +JIT [x86_64-linux]
-    last_commit=unsigned int should have enough bits for rb_thread_shield_waiting
-  b4daa44270: |-
-    ruby 2.7.0dev (2019-08-19T07:32:57Z trunk b4daa44270) [x86_64-linux]
-    last_commit=Use modifier for pid_t
-  b4daa44270 --jit: |-
-    ruby 2.7.0dev (2019-08-19T07:32:57Z trunk b4daa44270) +JIT [x86_64-linux]
-    last_commit=Use modifier for pid_t
-  45454bdb8b: |-
-    ruby 2.7.0dev (2019-08-19T07:39:42Z trunk 45454bdb8b) [x86_64-linux]
-    last_commit=Prefer Regexp#=~ to Regexp#match when the RHS may be nil
-  45454bdb8b --jit: |-
-    ruby 2.7.0dev (2019-08-19T07:39:42Z trunk 45454bdb8b) +JIT [x86_64-linux]
-    last_commit=Prefer Regexp#=~ to Regexp#match when the RHS may be nil
-  605d2ce9b9: |-
-    ruby 2.7.0dev (2019-08-19T08:30:59Z trunk 605d2ce9b9) [x86_64-linux]
-    last_commit=Accurate a sample to show having some ext (#2385)
-  605d2ce9b9 --jit: |-
-    ruby 2.7.0dev (2019-08-19T08:30:59Z trunk 605d2ce9b9) +JIT [x86_64-linux]
-    last_commit=Accurate a sample to show having some ext (#2385)
-  6dd9736c3a: |-
-    ruby 2.7.0dev (2019-08-19T08:36:28Z trunk 6dd9736c3a) [x86_64-linux]
-    last_commit=crash report on mac little update
-  6dd9736c3a --jit: |-
-    ruby 2.7.0dev (2019-08-19T08:36:28Z trunk 6dd9736c3a) +JIT [x86_64-linux]
-    last_commit=crash report on mac little update
-  355acbafde: |-
-    ruby 2.7.0dev (2019-08-19T08:52:20Z trunk 355acbafde) [x86_64-linux]
-    last_commit=Update the canonical repository url
-  355acbafde --jit: |-
-    ruby 2.7.0dev (2019-08-19T08:52:20Z trunk 355acbafde) +JIT [x86_64-linux]
-    last_commit=Update the canonical repository url
-  cda8664471: |-
-    ruby 2.7.0dev (2019-08-19T09:00:29Z trunk cda8664471) [x86_64-linux]
-    last_commit=Update a sample code (#2387)
-  cda8664471 --jit: |-
-    ruby 2.7.0dev (2019-08-19T09:00:29Z trunk cda8664471) +JIT [x86_64-linux]
-    last_commit=Update a sample code (#2387)
   97c377e2b1: |-
     ruby 2.7.0dev (2019-08-19T09:13:09Z trunk 97c377e2b1) [x86_64-linux]
     last_commit=Mark Travis osx cron-only
@@ -6015,3 +5949,9 @@ commits:
   25100c4697 --jit: |-
     ruby 2.7.0dev (2019-10-09T23:53:46Z trunk 25100c4697) +JIT [x86_64-linux]
     last_commit=lhs of pattern matching expression of should have a value
+  9c3153e0da: |-
+    ruby 2.7.0dev (2019-10-10T03:07:38Z trunk 9c3153e0da) [x86_64-linux]
+    last_commit=allow rb_raise from outside of GVL
+  9c3153e0da --jit: |-
+    ruby 2.7.0dev (2019-10-10T03:07:38Z trunk 9c3153e0da) +JIT [x86_64-linux]
+    last_commit=allow rb_raise from outside of GVL
