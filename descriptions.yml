@@ -5955,3 +5955,21 @@ commits:
   c144d7215b --jit: |-
     ruby 2.7.0dev (2019-10-10T12:02:45Z trunk c144d7215b) +JIT [x86_64-linux]
     last_commit=Skip very time consuming test [Bug #16196]
+  a886d5cb79: |-
+    ruby 2.7.0dev (2019-10-10T14:18:44Z trunk a886d5cb79) [x86_64-linux]
+    last_commit=test/ruby/test_file_exhaustive.rb: check the owner of the root directory
+  a886d5cb79 --jit: |-
+    ruby 2.7.0dev (2019-10-10T14:18:44Z trunk a886d5cb79) +JIT [x86_64-linux]
+    last_commit=test/ruby/test_file_exhaustive.rb: check the owner of the root directory
+  f845e1bc99: |-
+    ruby 2.7.0dev (2019-10-10T14:21:24Z trunk f845e1bc99) [x86_64-linux]
+    last_commit=ext/syslog/extconf.rb: add -llog for Android
+  f845e1bc99 --jit: |-
+    ruby 2.7.0dev (2019-10-10T14:21:24Z trunk f845e1bc99) +JIT [x86_64-linux]
+    last_commit=ext/syslog/extconf.rb: add -llog for Android
+  '4171909695': |-
+    ruby 2.7.0dev (2019-10-10T14:22:37Z trunk 4171909695) [x86_64-linux]
+    last_commit=mjit_worker.c: Add `-lm` to the C compiler in MJIT on Android
+  4171909695 --jit: |-
+    ruby 2.7.0dev (2019-10-10T14:22:37Z trunk 4171909695) +JIT [x86_64-linux]
+    last_commit=mjit_worker.c: Add `-lm` to the C compiler in MJIT on Android

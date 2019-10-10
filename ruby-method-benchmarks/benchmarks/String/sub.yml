@@ -1788,6 +1788,8 @@ results:
     48131a4673: 3452144.51
     c030cec7ca: 3454915.283
     2082a26dc7: 3414290.304
+    f8104d9e9f: 3032324.094
+    9f24e8fdbb: 3412692.851
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3575,6 +3577,8 @@ results:
     48131a4673: 3405954.327
     c030cec7ca: 3418131.285
     2082a26dc7: 3337312.969
+    f8104d9e9f: 3318482.158
+    9f24e8fdbb: 3362105.262
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5362,6 +5366,8 @@ results:
     48131a4673: 1942266.7
     c030cec7ca: 1929351.712
     2082a26dc7: 1758810.887
+    f8104d9e9f: 1556419.549
+    9f24e8fdbb: 1622011.506
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7149,6 +7155,8 @@ results:
     48131a4673: 2829428.129
     c030cec7ca: 2808102.325
     2082a26dc7: 2759997.078
+    f8104d9e9f: 2502124.607
+    9f24e8fdbb: 2568200.26
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8936,6 +8944,8 @@ results:
     48131a4673: 3495038.525
     c030cec7ca: 3743735.849
     2082a26dc7: 3699732.553
+    f8104d9e9f: 2819979.656
+    9f24e8fdbb: 2932194.287
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -10723,6 +10733,8 @@ results:
     48131a4673: 3685253.568
     c030cec7ca: 3690190.2
     2082a26dc7: 3649471.917
+    f8104d9e9f: 3337891.14
+    9f24e8fdbb: 3556384.552
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -12510,6 +12522,8 @@ results:
     48131a4673: 1846213.462
     c030cec7ca: 2016486.265
     2082a26dc7: 1856124.558
+    f8104d9e9f: 1885311.409
+    9f24e8fdbb: 1828158.512
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -14297,3 +14311,5 @@ results:
     48131a4673: 2944008.762
     c030cec7ca: 2940513.905
     2082a26dc7: 3056950.348
+    f8104d9e9f: 3327172.109
+    9f24e8fdbb: 3387823.045
