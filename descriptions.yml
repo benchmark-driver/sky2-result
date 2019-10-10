@@ -9,96 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  97c377e2b1: |-
-    ruby 2.7.0dev (2019-08-19T09:13:09Z trunk 97c377e2b1) [x86_64-linux]
-    last_commit=Mark Travis osx cron-only
-  97c377e2b1 --jit: |-
-    ruby 2.7.0dev (2019-08-19T09:13:09Z trunk 97c377e2b1) +JIT [x86_64-linux]
-    last_commit=Mark Travis osx cron-only
-  9b330200f8: |-
-    ruby 2.7.0dev (2019-08-19T09:16:45Z trunk 9b330200f8) [x86_64-linux]
-    last_commit=Remove unused variable to suppress warning (#2388) [ci skip]
-  9b330200f8 --jit: |-
-    ruby 2.7.0dev (2019-08-19T09:16:45Z trunk 9b330200f8) +JIT [x86_64-linux]
-    last_commit=Remove unused variable to suppress warning (#2388) [ci skip]
-  209ea85b54: |-
-    ruby 2.7.0dev (2019-08-19T09:37:22Z trunk 209ea85b54) [x86_64-linux]
-    last_commit=Make portable for standalone test-unit gem.
-  209ea85b54 --jit: |-
-    ruby 2.7.0dev (2019-08-19T09:37:22Z trunk 209ea85b54) +JIT [x86_64-linux]
-    last_commit=Make portable for standalone test-unit gem.
-  8882986d97: |-
-    ruby 2.7.0dev (2019-08-19T09:43:23Z trunk 8882986d97) [x86_64-linux]
-    last_commit=Drop duplicated sample code (#2389) [ci skip]
-  8882986d97 --jit: |-
-    ruby 2.7.0dev (2019-08-19T09:43:23Z trunk 8882986d97) +JIT [x86_64-linux]
-    last_commit=Drop duplicated sample code (#2389) [ci skip]
-  45bed2850e: |-
-    ruby 2.7.0dev (2019-08-19T10:37:07Z trunk 45bed2850e) [x86_64-linux]
-    last_commit=Reduce sub-shell and use `&&` instead of `;`
-  45bed2850e --jit: |-
-    ruby 2.7.0dev (2019-08-19T10:37:07Z trunk 45bed2850e) +JIT [x86_64-linux]
-    last_commit=Reduce sub-shell and use `&&` instead of `;`
-  8df25214de: |-
-    ruby 2.7.0dev (2019-08-19T15:17:26Z trunk 8df25214de) [x86_64-linux]
-    last_commit=io.c: make ioctl_req_t int in Android
-  8df25214de --jit: |-
-    ruby 2.7.0dev (2019-08-19T15:17:26Z trunk 8df25214de) +JIT [x86_64-linux]
-    last_commit=io.c: make ioctl_req_t int in Android
-  1408f15921: |-
-    ruby 2.7.0dev (2019-08-19T15:21:17Z trunk 1408f15921) [x86_64-linux]
-    last_commit=* 2019-08-20 [ci skip]
-  1408f15921 --jit: |-
-    ruby 2.7.0dev (2019-08-19T15:21:17Z trunk 1408f15921) +JIT [x86_64-linux]
-    last_commit=* 2019-08-20 [ci skip]
-  e6b72e8cae: |-
-    ruby 2.7.0dev (2019-08-19T17:05:10Z trunk e6b72e8cae) [x86_64-linux]
-    last_commit=retrieve current path on macOS
-  e6b72e8cae --jit: |-
-    ruby 2.7.0dev (2019-08-19T17:05:10Z trunk e6b72e8cae) +JIT [x86_64-linux]
-    last_commit=retrieve current path on macOS
-  af2c8d2836: |-
-    ruby 2.7.0dev (2019-08-19T17:14:28Z trunk af2c8d2836) [x86_64-linux]
-    last_commit=Fixed the check for OSX version
-  af2c8d2836 --jit: |-
-    ruby 2.7.0dev (2019-08-19T17:14:28Z trunk af2c8d2836) +JIT [x86_64-linux]
-    last_commit=Fixed the check for OSX version
-  9ee770a2ce: |-
-    ruby 2.7.0dev (2019-08-19T17:14:28Z trunk 9ee770a2ce) [x86_64-linux]
-    last_commit=Bail out if unsupported old MacOSX is required
-  9ee770a2ce --jit: |-
-    ruby 2.7.0dev (2019-08-19T17:14:28Z trunk 9ee770a2ce) +JIT [x86_64-linux]
-    last_commit=Bail out if unsupported old MacOSX is required
-  588b74e8d8: |-
-    ruby 2.7.0dev (2019-08-19T17:14:28Z trunk 588b74e8d8) [x86_64-linux]
-    last_commit=Check for minimum required OSX version earlier
-  588b74e8d8 --jit: |-
-    ruby 2.7.0dev (2019-08-19T17:14:28Z trunk 588b74e8d8) +JIT [x86_64-linux]
-    last_commit=Check for minimum required OSX version earlier
-  19b0161b85: |-
-    ruby 2.7.0dev (2019-08-19T17:14:28Z trunk 19b0161b85) [x86_64-linux]
-    last_commit=Check whether syscall(2) is deprecated by actual warnings
-  19b0161b85 --jit: |-
-    ruby 2.7.0dev (2019-08-19T17:14:28Z trunk 19b0161b85) +JIT [x86_64-linux]
-    last_commit=Check whether syscall(2) is deprecated by actual warnings
-  dc0e45e39b: |-
-    ruby 2.7.0dev (2019-08-19T19:44:38Z trunk dc0e45e39b) [x86_64-linux]
-    last_commit=Update moved objects in original_iseq
-  dc0e45e39b --jit: |-
-    ruby 2.7.0dev (2019-08-19T19:44:38Z trunk dc0e45e39b) +JIT [x86_64-linux]
-    last_commit=Update moved objects in original_iseq
-  aa03de8ba1: |-
-    ruby 2.7.0dev (2019-08-19T23:31:02Z trunk aa03de8ba1) [x86_64-linux]
-    last_commit=Treat two types "do" correctly
-  aa03de8ba1 --jit: |-
-    ruby 2.7.0dev (2019-08-19T23:31:02Z trunk aa03de8ba1) +JIT [x86_64-linux]
-    last_commit=Treat two types "do" correctly
-  5a384e2c08: |-
-    ruby 2.7.0dev (2019-08-20T00:46:31Z trunk 5a384e2c08) [x86_64-linux]
-    last_commit=Fix some bundler specs (#2380)
-  5a384e2c08 --jit: |-
-    ruby 2.7.0dev (2019-08-20T00:46:31Z trunk 5a384e2c08) +JIT [x86_64-linux]
-    last_commit=Fix some bundler specs (#2380)
   dd58c4ba35: |-
     ruby 2.7.0dev (2019-08-20T07:07:43Z trunk dd58c4ba35) [x86_64-linux]
     last_commit=Investigation of a sporadic error at Github Actions
@@ -6027,3 +5937,21 @@ commits:
   3f413896c3 --jit: |-
     ruby 2.7.0dev (2019-10-10T09:15:33Z trunk 3f413896c3) +JIT [x86_64-linux]
     last_commit=forgot to delete unused #incude line
+  0131fab749: |-
+    ruby 2.7.0dev (2019-10-10T10:59:21Z trunk 0131fab749) [x86_64-linux]
+    last_commit=Slimed down test runtime by stressing openssl.so only [Bug #16196]
+  0131fab749 --jit: |-
+    ruby 2.7.0dev (2019-10-10T10:59:21Z trunk 0131fab749) +JIT [x86_64-linux]
+    last_commit=Slimed down test runtime by stressing openssl.so only [Bug #16196]
+  9c0cd5c569: |-
+    ruby 2.7.0dev (2019-10-10T10:59:21Z trunk 9c0cd5c569) [x86_64-linux]
+    last_commit=Prefer rb_gc_register_mark_object
+  9c0cd5c569 --jit: |-
+    ruby 2.7.0dev (2019-10-10T10:59:21Z trunk 9c0cd5c569) +JIT [x86_64-linux]
+    last_commit=Prefer rb_gc_register_mark_object
+  c144d7215b: |-
+    ruby 2.7.0dev (2019-10-10T12:02:45Z trunk c144d7215b) [x86_64-linux]
+    last_commit=Skip very time consuming test [Bug #16196]
+  c144d7215b --jit: |-
+    ruby 2.7.0dev (2019-10-10T12:02:45Z trunk c144d7215b) +JIT [x86_64-linux]
+    last_commit=Skip very time consuming test [Bug #16196]
