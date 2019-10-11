@@ -1790,6 +1790,8 @@ results:
     2082a26dc7: 3414290.304
     f8104d9e9f: 3032324.094
     9f24e8fdbb: 3412692.851
+    20e428ec40: 3369630.923
+    bb78c83678: 3442976.465
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3579,6 +3581,8 @@ results:
     2082a26dc7: 3337312.969
     f8104d9e9f: 3318482.158
     9f24e8fdbb: 3362105.262
+    20e428ec40: 3259693.588
+    bb78c83678: 3371052.007
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5368,6 +5372,8 @@ results:
     2082a26dc7: 1758810.887
     f8104d9e9f: 1556419.549
     9f24e8fdbb: 1622011.506
+    20e428ec40: 1908557.51
+    bb78c83678: 1836987.225
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7157,6 +7163,8 @@ results:
     2082a26dc7: 2759997.078
     f8104d9e9f: 2502124.607
     9f24e8fdbb: 2568200.26
+    20e428ec40: 2860865.612
+    bb78c83678: 2898702.016
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8946,6 +8954,8 @@ results:
     2082a26dc7: 3699732.553
     f8104d9e9f: 2819979.656
     9f24e8fdbb: 2932194.287
+    20e428ec40: 3674927.505
+    bb78c83678: 3727886.531
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -10735,6 +10745,8 @@ results:
     2082a26dc7: 3649471.917
     f8104d9e9f: 3337891.14
     9f24e8fdbb: 3556384.552
+    20e428ec40: 3511275.089
+    bb78c83678: 3662551.759
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -12524,6 +12536,8 @@ results:
     2082a26dc7: 1856124.558
     f8104d9e9f: 1885311.409
     9f24e8fdbb: 1828158.512
+    20e428ec40: 1999133.333
+    bb78c83678: 2006696.935
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -14313,3 +14327,5 @@ results:
     2082a26dc7: 3056950.348
     f8104d9e9f: 3327172.109
     9f24e8fdbb: 3387823.045
+    20e428ec40: 3048519.811
+    bb78c83678: 3093615.591

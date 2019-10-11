@@ -5973,3 +5973,21 @@ commits:
   4171909695 --jit: |-
     ruby 2.7.0dev (2019-10-10T14:22:37Z trunk 4171909695) +JIT [x86_64-linux]
     last_commit=mjit_worker.c: Add `-lm` to the C compiler in MJIT on Android
+  2322c94dd6: |-
+    ruby 2.7.0dev (2019-10-10T20:15:00Z trunk 2322c94dd6) [x86_64-linux]
+    last_commit=Support delegates for BasicObject
+  2322c94dd6 --jit: |-
+    ruby 2.7.0dev (2019-10-10T20:15:00Z trunk 2322c94dd6) +JIT [x86_64-linux]
+    last_commit=Support delegates for BasicObject
+  ddb0267e76: |-
+    ruby 2.7.0dev (2019-10-10T20:15:28Z trunk ddb0267e76) [x86_64-linux]
+    last_commit=* 2019-10-11 [ci skip]
+  ddb0267e76 --jit: |-
+    ruby 2.7.0dev (2019-10-10T20:15:28Z trunk ddb0267e76) +JIT [x86_64-linux]
+    last_commit=* 2019-10-11 [ci skip]
+  29c1e9a0d4: |-
+    ruby 2.7.0dev (2019-10-10T20:45:19Z trunk 29c1e9a0d4) [x86_64-linux]
+    last_commit=Document the difference between expressions and statements [ci skip]
+  29c1e9a0d4 --jit: |-
+    ruby 2.7.0dev (2019-10-10T20:45:19Z trunk 29c1e9a0d4) +JIT [x86_64-linux]
+    last_commit=Document the difference between expressions and statements [ci skip]
