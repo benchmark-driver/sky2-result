@@ -5955,3 +5955,21 @@ commits:
   d6c80876b7 --jit: |-
     ruby 2.7.0dev (2019-10-11T04:50:27Z trunk d6c80876b7) +JIT [x86_64-linux]
     last_commit=Use `bind_call` instead of `bind` and `call`
+  f3c4e620ac: |-
+    ruby 2.7.0dev (2019-10-11T12:13:52Z trunk f3c4e620ac) [x86_64-linux]
+    last_commit=test/test_syslog.rb (test_log): skipped on Android
+  f3c4e620ac --jit: |-
+    ruby 2.7.0dev (2019-10-11T12:13:52Z trunk f3c4e620ac) +JIT [x86_64-linux]
+    last_commit=test/test_syslog.rb (test_log): skipped on Android
+  9e4a53fe13: |-
+    ruby 2.7.0dev (2019-10-11T12:39:21Z trunk 9e4a53fe13) [x86_64-linux]
+    last_commit=test/ruby/test_rubyoptions.rb (test_encoding): skipped on Android
+  9e4a53fe13 --jit: |-
+    ruby 2.7.0dev (2019-10-11T12:39:21Z trunk 9e4a53fe13) +JIT [x86_64-linux]
+    last_commit=test/ruby/test_rubyoptions.rb (test_encoding): skipped on Android
+  c866663784: |-
+    ruby 2.7.0dev (2019-10-11T12:43:18Z trunk c866663784) [x86_64-linux]
+    last_commit=io.c (NUM2IOCTLREQ): Accept a value more than INT_MAX
+  c866663784 --jit: |-
+    ruby 2.7.0dev (2019-10-11T12:43:18Z trunk c866663784) +JIT [x86_64-linux]
+    last_commit=io.c (NUM2IOCTLREQ): Accept a value more than INT_MAX
