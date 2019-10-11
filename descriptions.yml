@@ -5997,3 +5997,21 @@ commits:
   87958520f3 --jit: |-
     ruby 2.7.0dev (2019-10-11T00:33:25Z trunk 87958520f3) +JIT [x86_64-linux]
     last_commit=set real path to __FILE__ and __dir__ in Binding#irb
+  0ca4f74967: |-
+    ruby 2.7.0dev (2019-10-11T02:15:43Z trunk 0ca4f74967) [x86_64-linux]
+    last_commit=Right size the numtable in insn_make_insn_table to VM_INSTRUCTION_SIZE
+  0ca4f74967 --jit: |-
+    ruby 2.7.0dev (2019-10-11T02:15:43Z trunk 0ca4f74967) +JIT [x86_64-linux]
+    last_commit=Right size the numtable in insn_make_insn_table to VM_INSTRUCTION_SIZE
+  9c24ce551d: |-
+    ruby 2.7.0dev (2019-10-11T02:16:16Z trunk 9c24ce551d) [x86_64-linux]
+    last_commit=Reduce the minimum string buffer size from 127 to 63 bytes
+  9c24ce551d --jit: |-
+    ruby 2.7.0dev (2019-10-11T02:16:16Z trunk 9c24ce551d) +JIT [x86_64-linux]
+    last_commit=Reduce the minimum string buffer size from 127 to 63 bytes
+  7cc1cd3d1e: |-
+    ruby 2.7.0dev (2019-10-11T02:20:11Z trunk 7cc1cd3d1e) [x86_64-linux]
+    last_commit=Module#define_method: Add UnboundMethod to expected classes
+  7cc1cd3d1e --jit: |-
+    ruby 2.7.0dev (2019-10-11T02:20:11Z trunk 7cc1cd3d1e) +JIT [x86_64-linux]
+    last_commit=Module#define_method: Add UnboundMethod to expected classes
