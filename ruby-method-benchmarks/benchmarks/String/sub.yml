@@ -1792,6 +1792,8 @@ results:
     9f24e8fdbb: 3412692.851
     20e428ec40: 3369630.923
     bb78c83678: 3442976.465
+    571ffcd609: 3105963.918
+    649a64ae29: 3339442.592
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3583,6 +3585,8 @@ results:
     9f24e8fdbb: 3362105.262
     20e428ec40: 3259693.588
     bb78c83678: 3371052.007
+    571ffcd609: 2929270.772
+    649a64ae29: 3270812.517
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5374,6 +5378,8 @@ results:
     9f24e8fdbb: 1622011.506
     20e428ec40: 1908557.51
     bb78c83678: 1836987.225
+    571ffcd609: 1905319.832
+    649a64ae29: 1883978.093
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7165,6 +7171,8 @@ results:
     9f24e8fdbb: 2568200.26
     20e428ec40: 2860865.612
     bb78c83678: 2898702.016
+    571ffcd609: 2726216.74
+    649a64ae29: 3161954.128
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -8956,6 +8964,8 @@ results:
     9f24e8fdbb: 2932194.287
     20e428ec40: 3674927.505
     bb78c83678: 3727886.531
+    571ffcd609: 3749084.666
+    649a64ae29: 3591844.021
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -10747,6 +10757,8 @@ results:
     9f24e8fdbb: 3556384.552
     20e428ec40: 3511275.089
     bb78c83678: 3662551.759
+    571ffcd609: 3537038.147
+    649a64ae29: 3577278.014
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -12538,6 +12550,8 @@ results:
     9f24e8fdbb: 1828158.512
     20e428ec40: 1999133.333
     bb78c83678: 2006696.935
+    571ffcd609: 2017649.745
+    649a64ae29: 1932859.824
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -14329,3 +14343,5 @@ results:
     9f24e8fdbb: 3387823.045
     20e428ec40: 3048519.811
     bb78c83678: 3093615.591
+    571ffcd609: 2818968.858
+    649a64ae29: 3234124.62

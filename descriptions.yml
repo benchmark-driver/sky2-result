@@ -5991,3 +5991,9 @@ commits:
   29c1e9a0d4 --jit: |-
     ruby 2.7.0dev (2019-10-10T20:45:19Z trunk 29c1e9a0d4) +JIT [x86_64-linux]
     last_commit=Document the difference between expressions and statements [ci skip]
+  87958520f3: |-
+    ruby 2.7.0dev (2019-10-11T00:33:25Z trunk 87958520f3) [x86_64-linux]
+    last_commit=set real path to __FILE__ and __dir__ in Binding#irb
+  87958520f3 --jit: |-
+    ruby 2.7.0dev (2019-10-11T00:33:25Z trunk 87958520f3) +JIT [x86_64-linux]
+    last_commit=set real path to __FILE__ and __dir__ in Binding#irb
