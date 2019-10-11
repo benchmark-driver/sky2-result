@@ -9,78 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  dd58c4ba35: |-
-    ruby 2.7.0dev (2019-08-20T07:07:43Z trunk dd58c4ba35) [x86_64-linux]
-    last_commit=Investigation of a sporadic error at Github Actions
-  dd58c4ba35 --jit: |-
-    ruby 2.7.0dev (2019-08-20T07:07:43Z trunk dd58c4ba35) +JIT [x86_64-linux]
-    last_commit=Investigation of a sporadic error at Github Actions
-  73af1c4d00: |-
-    ruby 2.7.0dev (2019-08-20T08:00:13Z trunk 73af1c4d00) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Use `RbConfig::CONFIG['rubylibprefix']`
-  73af1c4d00 --jit: |-
-    ruby 2.7.0dev (2019-08-20T08:00:13Z trunk 73af1c4d00) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Use `RbConfig::CONFIG['rubylibprefix']`
-  7a07c54bef: |-
-    ruby 2.7.0dev (2019-08-20T10:29:35Z trunk 7a07c54bef) [x86_64-linux]
-    last_commit=Subjects may contain a comma [ci skip]
-  7a07c54bef --jit: |-
-    ruby 2.7.0dev (2019-08-20T10:29:35Z trunk 7a07c54bef) +JIT [x86_64-linux]
-    last_commit=Subjects may contain a comma [ci skip]
-  af12172035: |-
-    ruby 2.7.0dev (2019-08-20T10:29:43Z trunk af12172035) [x86_64-linux]
-    last_commit=Removed unused literal assignments [ci skip]
-  af12172035 --jit: |-
-    ruby 2.7.0dev (2019-08-20T10:29:43Z trunk af12172035) +JIT [x86_64-linux]
-    last_commit=Removed unused literal assignments [ci skip]
-  '9557069299': |-
-    ruby 2.7.0dev (2019-08-20T13:08:41Z trunk 9557069299) [x86_64-linux]
-    last_commit=Avoid creating Hash objects per each mon_synchronize call (#2393)
-  9557069299 --jit: |-
-    ruby 2.7.0dev (2019-08-20T13:08:41Z trunk 9557069299) +JIT [x86_64-linux]
-    last_commit=Avoid creating Hash objects per each mon_synchronize call (#2393)
-  235d810c2e: |-
-    ruby 2.7.0dev (2019-08-20T13:33:32Z trunk 235d810c2e) [x86_64-linux]
-    last_commit=Deprecate alerting multiple channels
-  235d810c2e --jit: |-
-    ruby 2.7.0dev (2019-08-20T13:33:32Z trunk 235d810c2e) +JIT [x86_64-linux]
-    last_commit=Deprecate alerting multiple channels
-  d10e28b875: |-
-    ruby 2.7.0dev (2019-08-20T14:58:37Z trunk d10e28b875) [x86_64-linux]
-    last_commit=Skip tests on Actions if [ci skip]
-  d10e28b875 --jit: |-
-    ruby 2.7.0dev (2019-08-20T14:58:37Z trunk d10e28b875) +JIT [x86_64-linux]
-    last_commit=Skip tests on Actions if [ci skip]
-  88b1f2dac4: |-
-    ruby 2.7.0dev (2019-08-20T16:04:08Z trunk 88b1f2dac4) [x86_64-linux]
-    last_commit=`rp(obj)` shows func, file and line. (#2394)
-  88b1f2dac4 --jit: |-
-    ruby 2.7.0dev (2019-08-20T16:04:08Z trunk 88b1f2dac4) +JIT [x86_64-linux]
-    last_commit=`rp(obj)` shows func, file and line. (#2394)
-  864f23a457: |-
-    ruby 2.7.0dev (2019-08-20T16:04:27Z trunk 864f23a457) [x86_64-linux]
-    last_commit=* 2019-08-21 [ci skip]
-  864f23a457 --jit: |-
-    ruby 2.7.0dev (2019-08-20T16:04:27Z trunk 864f23a457) +JIT [x86_64-linux]
-    last_commit=* 2019-08-21 [ci skip]
-  5ea08883cf: |-
-    ruby 2.7.0dev (2019-08-20T22:58:46Z trunk 5ea08883cf) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove old rubies stuff no longer needed
-  5ea08883cf --jit: |-
-    ruby 2.7.0dev (2019-08-20T22:58:46Z trunk 5ea08883cf) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove old rubies stuff no longer needed
-  bcc4ac924d: |-
-    ruby 2.7.0dev (2019-08-20T22:58:46Z trunk bcc4ac924d) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove another 1.8.7 specific bit
-  bcc4ac924d --jit: |-
-    ruby 2.7.0dev (2019-08-20T22:58:46Z trunk bcc4ac924d) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove another 1.8.7 specific bit
-  1120bacd8b: |-
-    ruby 2.7.0dev (2019-08-20T22:58:46Z trunk 1120bacd8b) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove the :ruby exclusion tag
-  1120bacd8b --jit: |-
-    ruby 2.7.0dev (2019-08-20T22:58:46Z trunk 1120bacd8b) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove the :ruby exclusion tag
   ede77d82e7: |-
     ruby 2.7.0dev (2019-08-20T22:58:46Z trunk ede77d82e7) [x86_64-linux]
     last_commit=[bundler/bundler] Fix a couple of typos
@@ -6015,3 +5943,15 @@ commits:
   7cc1cd3d1e --jit: |-
     ruby 2.7.0dev (2019-10-11T02:20:11Z trunk 7cc1cd3d1e) +JIT [x86_64-linux]
     last_commit=Module#define_method: Add UnboundMethod to expected classes
+  ddfb306e8e: |-
+    ruby 2.7.0dev (2019-10-11T04:48:02Z trunk ddfb306e8e) [x86_64-linux]
+    last_commit=win32.c: Remove unused calls to StartSockets (#2312)
+  ddfb306e8e --jit: |-
+    ruby 2.7.0dev (2019-10-11T04:48:02Z trunk ddfb306e8e) +JIT [x86_64-linux]
+    last_commit=win32.c: Remove unused calls to StartSockets (#2312)
+  d6c80876b7: |-
+    ruby 2.7.0dev (2019-10-11T04:50:27Z trunk d6c80876b7) [x86_64-linux]
+    last_commit=Use `bind_call` instead of `bind` and `call`
+  d6c80876b7 --jit: |-
+    ruby 2.7.0dev (2019-10-11T04:50:27Z trunk d6c80876b7) +JIT [x86_64-linux]
+    last_commit=Use `bind_call` instead of `bind` and `call`
