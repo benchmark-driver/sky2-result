@@ -5985,3 +5985,21 @@ commits:
   f6a666a1fc --jit: |-
     ruby 2.7.0dev (2019-10-12T03:07:36Z trunk f6a666a1fc) +JIT [x86_64-linux]
     last_commit=* 2019-10-12 [ci skip]
+  d6e68bb263: |-
+    ruby 2.7.0dev (2019-10-12T04:25:52Z trunk d6e68bb263) [x86_64-linux]
+    last_commit=Use `warn` with `uplevel:` instead of `caller`
+  d6e68bb263 --jit: |-
+    ruby 2.7.0dev (2019-10-12T04:25:52Z trunk d6e68bb263) +JIT [x86_64-linux]
+    last_commit=Use `warn` with `uplevel:` instead of `caller`
+  92df7d98b6: |-
+    ruby 2.7.0dev (2019-10-12T05:03:21Z trunk 92df7d98b6) [x86_64-linux]
+    last_commit=Import CSV 3.1.2 (#2547)
+  92df7d98b6 --jit: |-
+    ruby 2.7.0dev (2019-10-12T05:03:21Z trunk 92df7d98b6) +JIT [x86_64-linux]
+    last_commit=Import CSV 3.1.2 (#2547)
+  6333020fc9: |-
+    ruby 2.7.0dev (2019-10-12T05:58:55Z trunk 6333020fc9) [x86_64-linux]
+    last_commit=atime may not updated unless strictatime is set on macOS Catalina
+  6333020fc9 --jit: |-
+    ruby 2.7.0dev (2019-10-12T05:58:55Z trunk 6333020fc9) +JIT [x86_64-linux]
+    last_commit=atime may not updated unless strictatime is set on macOS Catalina
