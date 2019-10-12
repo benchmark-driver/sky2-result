@@ -5955,3 +5955,21 @@ commits:
   ebc2198d9f --jit: |-
     ruby 2.7.0dev (2019-10-12T13:44:23Z trunk ebc2198d9f) +JIT [x86_64-linux]
     last_commit=re.c (match_set_string): add a check for memory allocation
+  90b9900dc1: |-
+    ruby 2.7.0dev (2019-10-12T15:49:18Z trunk 90b9900dc1) [x86_64-linux]
+    last_commit=io.c (rb_update_max_fd): fail with a negative file descripter
+  90b9900dc1 --jit: |-
+    ruby 2.7.0dev (2019-10-12T15:49:18Z trunk 90b9900dc1) +JIT [x86_64-linux]
+    last_commit=io.c (rb_update_max_fd): fail with a negative file descripter
+  a5ecf7e0a1: |-
+    ruby 2.7.0dev (2019-10-12T15:51:50Z trunk a5ecf7e0a1) [x86_64-linux]
+    last_commit=dir.c (join_path_from_pattern): check NULL from malloc
+  a5ecf7e0a1 --jit: |-
+    ruby 2.7.0dev (2019-10-12T15:51:50Z trunk a5ecf7e0a1) +JIT [x86_64-linux]
+    last_commit=dir.c (join_path_from_pattern): check NULL from malloc
+  6ee2fb5021: |-
+    ruby 2.7.0dev (2019-10-12T15:54:04Z trunk 6ee2fb5021) [x86_64-linux]
+    last_commit=* 2019-10-13 [ci skip]
+  6ee2fb5021 --jit: |-
+    ruby 2.7.0dev (2019-10-12T15:54:04Z trunk 6ee2fb5021) +JIT [x86_64-linux]
+    last_commit=* 2019-10-13 [ci skip]
