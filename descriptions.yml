@@ -9,90 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  ede77d82e7: |-
-    ruby 2.7.0dev (2019-08-20T22:58:46Z trunk ede77d82e7) [x86_64-linux]
-    last_commit=[bundler/bundler] Fix a couple of typos
-  ede77d82e7 --jit: |-
-    ruby 2.7.0dev (2019-08-20T22:58:46Z trunk ede77d82e7) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fix a couple of typos
-  ace88852f2: |-
-    ruby 2.7.0dev (2019-08-20T23:10:48Z trunk ace88852f2) [x86_64-linux]
-    last_commit=[bundler/bundler] Parallelize test suite
-  ace88852f2 --jit: |-
-    ruby 2.7.0dev (2019-08-20T23:10:48Z trunk ace88852f2) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Parallelize test suite
-  10011f4371: |-
-    ruby 2.7.0dev (2019-08-20T23:10:48Z trunk 10011f4371) [x86_64-linux]
-    last_commit=[bundler/bundler] Try to use RunTimeLogger for parallel_tests
-  10011f4371 --jit: |-
-    ruby 2.7.0dev (2019-08-20T23:10:48Z trunk 10011f4371) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Try to use RunTimeLogger for parallel_tests
-  1c2774526e: |-
-    ruby 2.7.0dev (2019-08-20T23:10:49Z trunk 1c2774526e) [x86_64-linux]
-    last_commit=[bundler/bundler] Share test fixtures with parallel_tests
-  1c2774526e --jit: |-
-    ruby 2.7.0dev (2019-08-20T23:10:49Z trunk 1c2774526e) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Share test fixtures with parallel_tests
-  a230e65e8b: |-
-    ruby 2.7.0dev (2019-08-20T23:10:49Z trunk a230e65e8b) [x86_64-linux]
-    last_commit=[bundler/bundler] Freeze time to avoid failures at midnight
-  a230e65e8b --jit: |-
-    ruby 2.7.0dev (2019-08-20T23:10:49Z trunk a230e65e8b) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Freeze time to avoid failures at midnight
-  81dfe3c47b: |-
-    ruby 2.7.0dev (2019-08-21T04:26:12Z trunk 81dfe3c47b) [x86_64-linux]
-    last_commit=Enable more Time TZ tests on OpenBSD
-  81dfe3c47b --jit: |-
-    ruby 2.7.0dev (2019-08-21T04:26:12Z trunk 81dfe3c47b) +JIT [x86_64-linux]
-    last_commit=Enable more Time TZ tests on OpenBSD
-  4419b5dbc2: |-
-    ruby 2.7.0dev (2019-08-21T04:31:22Z trunk 4419b5dbc2) [x86_64-linux]
-    last_commit=The investigation is going on...
-  4419b5dbc2 --jit: |-
-    ruby 2.7.0dev (2019-08-21T04:31:22Z trunk 4419b5dbc2) +JIT [x86_64-linux]
-    last_commit=The investigation is going on...
-  3df9f3cc13: |-
-    ruby 2.7.0dev (2019-08-21T07:20:31Z trunk 3df9f3cc13) [x86_64-linux]
-    last_commit=Separated initializing IDs
-  3df9f3cc13 --jit: |-
-    ruby 2.7.0dev (2019-08-21T07:20:31Z trunk 3df9f3cc13) +JIT [x86_64-linux]
-    last_commit=Separated initializing IDs
-  c030cec7ca: |-
-    ruby 2.7.0dev (2019-08-21T14:13:22Z trunk c030cec7ca) [x86_64-linux]
-    last_commit=Debug GitHub context on broken notification
-  c030cec7ca --jit: |-
-    ruby 2.7.0dev (2019-08-21T14:13:22Z trunk c030cec7ca) +JIT [x86_64-linux]
-    last_commit=Debug GitHub context on broken notification
-  74c6662af5: |-
-    ruby 2.7.0dev (2019-08-21T15:19:55Z trunk 74c6662af5) [x86_64-linux]
-    last_commit=Hoisted out rb_digest_namespace
-  74c6662af5 --jit: |-
-    ruby 2.7.0dev (2019-08-21T15:19:55Z trunk 74c6662af5) +JIT [x86_64-linux]
-    last_commit=Hoisted out rb_digest_namespace
-  a963851100: |-
-    ruby 2.7.0dev (2019-08-21T15:19:56Z trunk a963851100) [x86_64-linux]
-    last_commit=Hoisted out rb_id_metadata
-  a963851100 --jit: |-
-    ruby 2.7.0dev (2019-08-21T15:19:56Z trunk a963851100) +JIT [x86_64-linux]
-    last_commit=Hoisted out rb_id_metadata
-  6bdb65c0e6: |-
-    ruby 2.7.0dev (2019-08-21T15:20:27Z trunk 6bdb65c0e6) [x86_64-linux]
-    last_commit=* 2019-08-22 [ci skip]
-  6bdb65c0e6 --jit: |-
-    ruby 2.7.0dev (2019-08-21T15:20:27Z trunk 6bdb65c0e6) +JIT [x86_64-linux]
-    last_commit=* 2019-08-22 [ci skip]
-  48fdc37ad5: |-
-    ruby 2.7.0dev (2019-08-21T20:09:08Z trunk 48fdc37ad5) [x86_64-linux]
-    last_commit=IRB's multiline history is enable only when Reidline mode
-  48fdc37ad5 --jit: |-
-    ruby 2.7.0dev (2019-08-21T20:09:08Z trunk 48fdc37ad5) +JIT [x86_64-linux]
-    last_commit=IRB's multiline history is enable only when Reidline mode
-  8d804e41a0: |-
-    ruby 2.7.0dev (2019-08-21T20:36:39Z trunk 8d804e41a0) [x86_64-linux]
-    last_commit=Add abs to Matrix (#2199)
-  8d804e41a0 --jit: |-
-    ruby 2.7.0dev (2019-08-21T20:36:39Z trunk 8d804e41a0) +JIT [x86_64-linux]
-    last_commit=Add abs to Matrix (#2199)
   800821831d: |-
     ruby 2.7.0dev (2019-08-21T21:02:27Z trunk 800821831d) [x86_64-linux]
     last_commit=Always check multiline termination
@@ -6003,3 +5919,39 @@ commits:
   6333020fc9 --jit: |-
     ruby 2.7.0dev (2019-10-12T05:58:55Z trunk 6333020fc9) +JIT [x86_64-linux]
     last_commit=atime may not updated unless strictatime is set on macOS Catalina
+  710bc00379: |-
+    ruby 2.7.0dev (2019-10-12T08:47:28Z trunk 710bc00379) [x86_64-linux]
+    last_commit=Moved RB_METHOD_DEFINITION_DECL to intern.h
+  710bc00379 --jit: |-
+    ruby 2.7.0dev (2019-10-12T08:47:28Z trunk 710bc00379) +JIT [x86_64-linux]
+    last_commit=Moved RB_METHOD_DEFINITION_DECL to intern.h
+  04333da7be: |-
+    ruby 2.7.0dev (2019-10-12T09:14:15Z trunk 04333da7be) [x86_64-linux]
+    last_commit=Suppress "clobbered" warnings by gcc 9.2.0
+  04333da7be --jit: |-
+    ruby 2.7.0dev (2019-10-12T09:14:15Z trunk 04333da7be) +JIT [x86_64-linux]
+    last_commit=Suppress "clobbered" warnings by gcc 9.2.0
+  f405564711: |-
+    ruby 2.7.0dev (2019-10-12T09:47:06Z trunk f405564711) [x86_64-linux]
+    last_commit=Suppress deprecation warnings of MD5 from Xcode 11.1
+  f405564711 --jit: |-
+    ruby 2.7.0dev (2019-10-12T09:47:06Z trunk f405564711) +JIT [x86_64-linux]
+    last_commit=Suppress deprecation warnings of MD5 from Xcode 11.1
+  cb14c4a535: |-
+    ruby 2.7.0dev (2019-10-12T12:14:20Z trunk cb14c4a535) [x86_64-linux]
+    last_commit=missing/setproctitle.c: remove nonsense NULL check
+  cb14c4a535 --jit: |-
+    ruby 2.7.0dev (2019-10-12T12:14:20Z trunk cb14c4a535) +JIT [x86_64-linux]
+    last_commit=missing/setproctitle.c: remove nonsense NULL check
+  7ebf9da788: |-
+    ruby 2.7.0dev (2019-10-12T13:09:49Z trunk 7ebf9da788) [x86_64-linux]
+    last_commit=Also moved fallback definition of __has_attribute
+  7ebf9da788 --jit: |-
+    ruby 2.7.0dev (2019-10-12T13:09:49Z trunk 7ebf9da788) +JIT [x86_64-linux]
+    last_commit=Also moved fallback definition of __has_attribute
+  ebc2198d9f: |-
+    ruby 2.7.0dev (2019-10-12T13:44:23Z trunk ebc2198d9f) [x86_64-linux]
+    last_commit=re.c (match_set_string): add a check for memory allocation
+  ebc2198d9f --jit: |-
+    ruby 2.7.0dev (2019-10-12T13:44:23Z trunk ebc2198d9f) +JIT [x86_64-linux]
+    last_commit=re.c (match_set_string): add a check for memory allocation
