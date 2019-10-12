@@ -1802,6 +1802,8 @@ results:
     c2065c64cb: 3423298.05
     ba8fb735cb: 3297122.85
     c4efbf663e: 3379754.433
+    48f1a38f23: 2856565.084
+    e13b09c450: 3374191.315
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3603,6 +3605,8 @@ results:
     c2065c64cb: 3366315.809
     ba8fb735cb: 3339898.172
     c4efbf663e: 3365435.35
+    48f1a38f23: 3350144.532
+    e13b09c450: 3291317.866
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5404,6 +5408,8 @@ results:
     c2065c64cb: 1910355.761
     ba8fb735cb: 1711303.032
     c4efbf663e: 1917444.472
+    48f1a38f23: 1924885.649
+    e13b09c450: 1825922.549
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7205,6 +7211,8 @@ results:
     c2065c64cb: 3048163.293
     ba8fb735cb: 2795530.951
     c4efbf663e: 2912473.36
+    48f1a38f23: 2812659.381
+    e13b09c450: 2702117.723
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -9006,6 +9014,8 @@ results:
     c2065c64cb: 3698153.486
     ba8fb735cb: 3278224.52
     c4efbf663e: 3710851.089
+    48f1a38f23: 3738190.466
+    e13b09c450: 3677169.129
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -10807,6 +10817,8 @@ results:
     c2065c64cb: 3597270.326
     ba8fb735cb: 3583282.518
     c4efbf663e: 3653114.536
+    48f1a38f23: 3515418.842
+    e13b09c450: 3495991.738
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -12608,6 +12620,8 @@ results:
     c2065c64cb: 2024028.38
     ba8fb735cb: 1840030.322
     c4efbf663e: 2021228.206
+    48f1a38f23: 2020606.831
+    e13b09c450: 1840381.359
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -14409,3 +14423,5 @@ results:
     c2065c64cb: 3132492.842
     ba8fb735cb: 2951108.567
     c4efbf663e: 3115326.359
+    48f1a38f23: 3018727.544
+    e13b09c450: 3082562.952
