@@ -9,84 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  800821831d: |-
-    ruby 2.7.0dev (2019-08-21T21:02:27Z trunk 800821831d) [x86_64-linux]
-    last_commit=Always check multiline termination
-  800821831d --jit: |-
-    ruby 2.7.0dev (2019-08-21T21:02:27Z trunk 800821831d) +JIT [x86_64-linux]
-    last_commit=Always check multiline termination
-  0b0fedad70: |-
-    ruby 2.7.0dev (2019-08-21T22:02:48Z trunk 0b0fedad70) [x86_64-linux]
-    last_commit=Introduce test-bundler-parallel task.
-  0b0fedad70 --jit: |-
-    ruby 2.7.0dev (2019-08-21T22:02:48Z trunk 0b0fedad70) +JIT [x86_64-linux]
-    last_commit=Introduce test-bundler-parallel task.
-  2d8d6345ff: |-
-    ruby 2.7.0dev (2019-08-21T22:03:54Z trunk 2d8d6345ff) [x86_64-linux]
-    last_commit=`--fomart progress` is default. It's duplicated.
-  2d8d6345ff --jit: |-
-    ruby 2.7.0dev (2019-08-21T22:03:54Z trunk 2d8d6345ff) +JIT [x86_64-linux]
-    last_commit=`--fomart progress` is default. It's duplicated.
-  1940347fdf: |-
-    ruby 2.7.0dev (2019-08-21T22:21:43Z trunk 1940347fdf) [x86_64-linux]
-    last_commit=Use () instead of {} for nmake
-  1940347fdf --jit: |-
-    ruby 2.7.0dev (2019-08-21T22:21:43Z trunk 1940347fdf) +JIT [x86_64-linux]
-    last_commit=Use () instead of {} for nmake
-  a1d606c079: |-
-    ruby 2.7.0dev (2019-08-21T22:57:12Z trunk a1d606c079) [x86_64-linux]
-    last_commit=Show short message to Slack
-  a1d606c079 --jit: |-
-    ruby 2.7.0dev (2019-08-21T22:57:12Z trunk a1d606c079) +JIT [x86_64-linux]
-    last_commit=Show short message to Slack
-  d8d8015b93: |-
-    ruby 2.7.0dev (2019-08-22T00:24:35Z trunk d8d8015b93) [x86_64-linux]
-    last_commit=Remove footer from message to Slack
-  d8d8015b93 --jit: |-
-    ruby 2.7.0dev (2019-08-22T00:24:35Z trunk d8d8015b93) +JIT [x86_64-linux]
-    last_commit=Remove footer from message to Slack
-  15eaedf805: |-
-    ruby 2.7.0dev (2019-08-22T12:24:47Z trunk 15eaedf805) [x86_64-linux]
-    last_commit=Add misc/expand_tabs.rb ported from auto-style.rb
-  15eaedf805 --jit: |-
-    ruby 2.7.0dev (2019-08-22T12:24:47Z trunk 15eaedf805) +JIT [x86_64-linux]
-    last_commit=Add misc/expand_tabs.rb ported from auto-style.rb
-  a4d389d8fe: |-
-    ruby 2.7.0dev (2019-08-22T13:46:47Z trunk a4d389d8fe) [x86_64-linux]
-    last_commit=Improve the description of MJIT cancel-all [ci skip]
-  a4d389d8fe --jit: |-
-    ruby 2.7.0dev (2019-08-22T13:46:47Z trunk a4d389d8fe) +JIT [x86_64-linux]
-    last_commit=Improve the description of MJIT cancel-all [ci skip]
-  efc8970336: |-
-    ruby 2.7.0dev (2019-08-22T13:47:05Z trunk efc8970336) [x86_64-linux]
-    last_commit=* expand tabs. [ci skip]
-  efc8970336 --jit: |-
-    ruby 2.7.0dev (2019-08-22T13:47:05Z trunk efc8970336) +JIT [x86_64-linux]
-    last_commit=* expand tabs. [ci skip]
-  fd20b32130: |-
-    ruby 2.7.0dev (2019-08-22T14:10:55Z trunk fd20b32130) [x86_64-linux]
-    last_commit=Make GitHub Actions Slack notification consistent
-  fd20b32130 --jit: |-
-    ruby 2.7.0dev (2019-08-22T14:10:55Z trunk fd20b32130) +JIT [x86_64-linux]
-    last_commit=Make GitHub Actions Slack notification consistent
-  1d6a31f3d5: |-
-    ruby 2.7.0dev (2019-08-23T00:45:49Z trunk 1d6a31f3d5) [x86_64-linux]
-    last_commit=Make AppVeyor notification similar to Travis
-  1d6a31f3d5 --jit: |-
-    ruby 2.7.0dev (2019-08-23T00:45:49Z trunk 1d6a31f3d5) +JIT [x86_64-linux]
-    last_commit=Make AppVeyor notification similar to Travis
-  9ffb0548bf: |-
-    ruby 2.7.0dev (2019-08-23T00:46:17Z trunk 9ffb0548bf) [x86_64-linux]
-    last_commit=* 2019-08-23 [ci skip]
-  9ffb0548bf --jit: |-
-    ruby 2.7.0dev (2019-08-23T00:46:17Z trunk 9ffb0548bf) +JIT [x86_64-linux]
-    last_commit=* 2019-08-23 [ci skip]
-  650cd24555: |-
-    ruby 2.7.0dev (2019-08-23T03:27:48Z trunk 650cd24555) [x86_64-linux]
-    last_commit=Hoisted out get_digest_obj_metadata
-  650cd24555 --jit: |-
-    ruby 2.7.0dev (2019-08-23T03:27:48Z trunk 650cd24555) +JIT [x86_64-linux]
-    last_commit=Hoisted out get_digest_obj_metadata
   a5b809e994: |-
     ruby 2.7.0dev (2019-08-23T04:00:17Z trunk a5b809e994) [x86_64-linux]
     last_commit=Check metadata a bit more
@@ -6015,3 +5937,21 @@ commits:
   d0ed935d5b --jit: |-
     ruby 2.7.0dev (2019-10-14T05:20:32Z trunk d0ed935d5b) +JIT [x86_64-linux]
     last_commit=Fix some DRb issues (#2552)
+  3e763883ea: |-
+    ruby 2.7.0dev (2019-10-14T06:10:56Z trunk 3e763883ea) [x86_64-linux]
+    last_commit=Fixed overflow at onig_region_set
+  3e763883ea --jit: |-
+    ruby 2.7.0dev (2019-10-14T06:10:56Z trunk 3e763883ea) +JIT [x86_64-linux]
+    last_commit=Fixed overflow at onig_region_set
+  '0195966ba2': |-
+    ruby 2.7.0dev (2019-10-14T06:42:27Z trunk 0195966ba2) [x86_64-linux]
+    last_commit=Suppress warnings for Thread.exclusive
+  '0195966ba2 --jit': |-
+    ruby 2.7.0dev (2019-10-14T06:42:27Z trunk 0195966ba2) +JIT [x86_64-linux]
+    last_commit=Suppress warnings for Thread.exclusive
+  ede1a3dc11: |-
+    ruby 2.7.0dev (2019-10-14T08:30:04Z trunk ede1a3dc11) [x86_64-linux]
+    last_commit=Fix typos [ci skip]
+  ede1a3dc11 --jit: |-
+    ruby 2.7.0dev (2019-10-14T08:30:04Z trunk ede1a3dc11) +JIT [x86_64-linux]
+    last_commit=Fix typos [ci skip]
