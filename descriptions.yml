@@ -5997,3 +5997,9 @@ commits:
   183b421509 --jit: |-
     ruby 2.7.0dev (2019-10-13T21:15:14Z trunk 183b421509) +JIT [x86_64-linux]
     last_commit=Delay the free until we stop referring to a unit
+  6fa3492362: |-
+    ruby 2.7.0dev (2019-10-14T02:31:18Z trunk 6fa3492362) [x86_64-linux]
+    last_commit=Eliminate the possibility to leave freed ISeq
+  6fa3492362 --jit: |-
+    ruby 2.7.0dev (2019-10-14T02:31:18Z trunk 6fa3492362) +JIT [x86_64-linux]
+    last_commit=Eliminate the possibility to leave freed ISeq
