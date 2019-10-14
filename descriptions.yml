@@ -5955,3 +5955,69 @@ commits:
   ede1a3dc11 --jit: |-
     ruby 2.7.0dev (2019-10-14T08:30:04Z trunk ede1a3dc11) +JIT [x86_64-linux]
     last_commit=Fix typos [ci skip]
+  7376d70cb0: |-
+    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk 7376d70cb0) [x86_64-linux]
+    last_commit=[flori/json] Only attempt to resize strings not other objects
+  7376d70cb0 --jit: |-
+    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk 7376d70cb0) +JIT [x86_64-linux]
+    last_commit=[flori/json] Only attempt to resize strings not other objects
+  d9e50fcbeb: |-
+    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk d9e50fcbeb) [x86_64-linux]
+    last_commit=[flori/json] Pass args all #to_json in json/add/*.
+  d9e50fcbeb --jit: |-
+    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk d9e50fcbeb) +JIT [x86_64-linux]
+    last_commit=[flori/json] Pass args all #to_json in json/add/*.
+  641136c4af: |-
+    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk 641136c4af) [x86_64-linux]
+    last_commit=[flori/json] Does not check whether illegal utf-8 if string has ascii only.
+  641136c4af --jit: |-
+    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk 641136c4af) +JIT [x86_64-linux]
+    last_commit=[flori/json] Does not check whether illegal utf-8 if string has ascii only.
+  40724d7d10: |-
+    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk 40724d7d10) [x86_64-linux]
+    last_commit=[flori/json] Convert String encoding using `rb_str_encode()`
+  40724d7d10 --jit: |-
+    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk 40724d7d10) +JIT [x86_64-linux]
+    last_commit=[flori/json] Convert String encoding using `rb_str_encode()`
+  d7fa7e2c86: |-
+    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk d7fa7e2c86) [x86_64-linux]
+    last_commit=[flori/json] Convert string encoding to UTF-8 only when needed
+  d7fa7e2c86 --jit: |-
+    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk d7fa7e2c86) +JIT [x86_64-linux]
+    last_commit=[flori/json] Convert string encoding to UTF-8 only when needed
+  2003755a2c: |-
+    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk 2003755a2c) [x86_64-linux]
+    last_commit=[flori/json] Fixed unexpected illegal/malformed utf-8 error
+  2003755a2c --jit: |-
+    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk 2003755a2c) +JIT [x86_64-linux]
+    last_commit=[flori/json] Fixed unexpected illegal/malformed utf-8 error
+  a2f9c38a71: |-
+    ruby 2.7.0dev (2019-10-14T10:54:49Z trunk a2f9c38a71) [x86_64-linux]
+    last_commit=[flori/json] Convert Hash object using rb_hash_foreach()
+  a2f9c38a71 --jit: |-
+    ruby 2.7.0dev (2019-10-14T10:54:49Z trunk a2f9c38a71) +JIT [x86_64-linux]
+    last_commit=[flori/json] Convert Hash object using rb_hash_foreach()
+  98a9445db9: |-
+    ruby 2.7.0dev (2019-10-14T10:54:49Z trunk 98a9445db9) [x86_64-linux]
+    last_commit=[flori/json] Add shortcut converting to String
+  98a9445db9 --jit: |-
+    ruby 2.7.0dev (2019-10-14T10:54:49Z trunk 98a9445db9) +JIT [x86_64-linux]
+    last_commit=[flori/json] Add shortcut converting to String
+  308bbb4e10: |-
+    ruby 2.7.0dev (2019-10-14T10:54:49Z trunk 308bbb4e10) [x86_64-linux]
+    last_commit=[flori/json] Add ascii_only option to JSON::Ext::Generator::State.new.
+  308bbb4e10 --jit: |-
+    ruby 2.7.0dev (2019-10-14T10:54:49Z trunk 308bbb4e10) +JIT [x86_64-linux]
+    last_commit=[flori/json] Add ascii_only option to JSON::Ext::Generator::State.new.
+  a4cf11c10f: |-
+    ruby 2.7.0dev (2019-10-14T10:54:49Z trunk a4cf11c10f) [x86_64-linux]
+    last_commit=[flori/json] fix test as reported in #343
+  a4cf11c10f --jit: |-
+    ruby 2.7.0dev (2019-10-14T10:54:49Z trunk a4cf11c10f) +JIT [x86_64-linux]
+    last_commit=[flori/json] fix test as reported in #343
+  8488d5b5b6: |-
+    ruby 2.7.0dev (2019-10-14T11:30:22Z trunk 8488d5b5b6) [x86_64-linux]
+    last_commit=Automatically close fds on fork (and GC). The connection pools are maintained at thread scope.
+  8488d5b5b6 --jit: |-
+    ruby 2.7.0dev (2019-10-14T11:30:22Z trunk 8488d5b5b6) +JIT [x86_64-linux]
+    last_commit=Automatically close fds on fork (and GC). The connection pools are maintained at thread scope.
