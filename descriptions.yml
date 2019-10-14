@@ -9,78 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  a5b809e994: |-
-    ruby 2.7.0dev (2019-08-23T04:00:17Z trunk a5b809e994) [x86_64-linux]
-    last_commit=Check metadata a bit more
-  a5b809e994 --jit: |-
-    ruby 2.7.0dev (2019-08-23T04:00:17Z trunk a5b809e994) +JIT [x86_64-linux]
-    last_commit=Check metadata a bit more
-  1c5a268239: |-
-    ruby 2.7.0dev (2019-08-23T04:57:42Z trunk 1c5a268239) [x86_64-linux]
-    last_commit=Simplify expand_tabs.rb file selection
-  1c5a268239 --jit: |-
-    ruby 2.7.0dev (2019-08-23T04:57:42Z trunk 1c5a268239) +JIT [x86_64-linux]
-    last_commit=Simplify expand_tabs.rb file selection
-  3b55394b07: |-
-    ruby 2.7.0dev (2019-08-23T08:20:46Z trunk 3b55394b07) [x86_64-linux]
-    last_commit=Ensure all default gems have an gem folder
-  3b55394b07 --jit: |-
-    ruby 2.7.0dev (2019-08-23T08:20:46Z trunk 3b55394b07) +JIT [x86_64-linux]
-    last_commit=Ensure all default gems have an gem folder
-  d9b73dcc0d: |-
-    ruby 2.7.0dev (2019-08-23T09:05:45Z trunk d9b73dcc0d) [x86_64-linux]
-    last_commit=Remove github_action_linux tag from bundler examples.
-  d9b73dcc0d --jit: |-
-    ruby 2.7.0dev (2019-08-23T09:05:45Z trunk d9b73dcc0d) +JIT [x86_64-linux]
-    last_commit=Remove github_action_linux tag from bundler examples.
-  2e28b3678f: |-
-    ruby 2.7.0dev (2019-08-23T11:52:53Z trunk 2e28b3678f) [x86_64-linux]
-    last_commit=[ruby/stringio] Fixed a typo
-  2e28b3678f --jit: |-
-    ruby 2.7.0dev (2019-08-23T11:52:53Z trunk 2e28b3678f) +JIT [x86_64-linux]
-    last_commit=[ruby/stringio] Fixed a typo
-  d5b917d500: |-
-    ruby 2.7.0dev (2019-08-23T16:10:42Z trunk d5b917d500) [x86_64-linux]
-    last_commit=Named numbered parameter indexes
-  d5b917d500 --jit: |-
-    ruby 2.7.0dev (2019-08-23T16:10:42Z trunk d5b917d500) +JIT [x86_64-linux]
-    last_commit=Named numbered parameter indexes
-  b38ab0a3a9: |-
-    ruby 2.7.0dev (2019-08-23T16:41:09Z trunk b38ab0a3a9) [x86_64-linux]
-    last_commit=* 2019-08-24 [ci skip]
-  b38ab0a3a9 --jit: |-
-    ruby 2.7.0dev (2019-08-23T16:41:09Z trunk b38ab0a3a9) +JIT [x86_64-linux]
-    last_commit=* 2019-08-24 [ci skip]
-  fe83ed47e7: |-
-    ruby 2.7.0dev (2019-08-24T01:20:44Z trunk fe83ed47e7) [x86_64-linux]
-    last_commit=Try to fix `make dist` error on chkbuild
-  fe83ed47e7 --jit: |-
-    ruby 2.7.0dev (2019-08-24T01:20:44Z trunk fe83ed47e7) +JIT [x86_64-linux]
-    last_commit=Try to fix `make dist` error on chkbuild
-  97ad7862d5: |-
-    ruby 2.7.0dev (2019-08-24T07:22:37Z trunk 97ad7862d5) [x86_64-linux]
-    last_commit=Add debug print
-  97ad7862d5 --jit: |-
-    ruby 2.7.0dev (2019-08-24T07:22:37Z trunk 97ad7862d5) +JIT [x86_64-linux]
-    last_commit=Add debug print
-  571ffcd609: |-
-    ruby 2.7.0dev (2019-08-24T11:31:16Z trunk 571ffcd609) [x86_64-linux]
-    last_commit=ext/psych/yaml/api.c: Suppress a "variable set but not used" warning
-  571ffcd609 --jit: |-
-    ruby 2.7.0dev (2019-08-24T11:31:16Z trunk 571ffcd609) +JIT [x86_64-linux]
-    last_commit=ext/psych/yaml/api.c: Suppress a "variable set but not used" warning
-  5d5502dc85: |-
-    ruby 2.7.0dev (2019-08-24T12:26:24Z trunk 5d5502dc85) [x86_64-linux]
-    last_commit=Fix typos
-  5d5502dc85 --jit: |-
-    ruby 2.7.0dev (2019-08-24T12:26:24Z trunk 5d5502dc85) +JIT [x86_64-linux]
-    last_commit=Fix typos
-  df348310dc: |-
-    ruby 2.7.0dev (2019-08-24T14:17:12Z trunk df348310dc) [x86_64-linux]
-    last_commit=Add workaround for some CIs
-  df348310dc --jit: |-
-    ruby 2.7.0dev (2019-08-24T14:17:12Z trunk df348310dc) +JIT [x86_64-linux]
-    last_commit=Add workaround for some CIs
   03ee12a3b8: |-
     ruby 2.7.0dev (2019-08-24T15:50:34Z trunk 03ee12a3b8) [x86_64-linux]
     last_commit=Add workaround (2nd try)
@@ -6021,3 +5949,9 @@ commits:
   8488d5b5b6 --jit: |-
     ruby 2.7.0dev (2019-10-14T11:30:22Z trunk 8488d5b5b6) +JIT [x86_64-linux]
     last_commit=Automatically close fds on fork (and GC). The connection pools are maintained at thread scope.
+  c3a6260302: |-
+    ruby 2.7.0dev (2019-10-14T13:56:37Z trunk c3a6260302) [x86_64-linux]
+    last_commit=add require "monitor"
+  c3a6260302 --jit: |-
+    ruby 2.7.0dev (2019-10-14T13:56:37Z trunk c3a6260302) +JIT [x86_64-linux]
+    last_commit=add require "monitor"
