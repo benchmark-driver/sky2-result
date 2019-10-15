@@ -5967,3 +5967,15 @@ commits:
   ddd42d8ebd --jit: |-
     ruby 2.7.0dev (2019-10-15T00:55:44Z trunk ddd42d8ebd) +JIT [x86_64-linux]
     last_commit=* 2019-10-15 [ci skip]
+  96617ad1d5: |-
+    ruby 2.7.0dev (2019-10-15T04:25:05Z trunk 96617ad1d5) [x86_64-linux]
+    last_commit=IRB colorize: take into account recursive arrays and hashes (#2555)
+  96617ad1d5 --jit: |-
+    ruby 2.7.0dev (2019-10-15T04:25:05Z trunk 96617ad1d5) +JIT [x86_64-linux]
+    last_commit=IRB colorize: take into account recursive arrays and hashes (#2555)
+  c800967acd: |-
+    ruby 2.7.0dev (2019-10-15T04:58:13Z trunk c800967acd) [x86_64-linux]
+    last_commit=Simplify circular reference check of IRB::Color
+  c800967acd --jit: |-
+    ruby 2.7.0dev (2019-10-15T04:58:13Z trunk c800967acd) +JIT [x86_64-linux]
+    last_commit=Simplify circular reference check of IRB::Color
