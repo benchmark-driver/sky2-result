@@ -5979,3 +5979,51 @@ commits:
   c800967acd --jit: |-
     ruby 2.7.0dev (2019-10-15T04:58:13Z trunk c800967acd) +JIT [x86_64-linux]
     last_commit=Simplify circular reference check of IRB::Color
+  b7079e5384: |-
+    ruby 2.7.0dev (2019-10-15T09:53:33Z trunk b7079e5384) [x86_64-linux]
+    last_commit=Try to avoid random failure
+  b7079e5384 --jit: |-
+    ruby 2.7.0dev (2019-10-15T09:53:33Z trunk b7079e5384) +JIT [x86_64-linux]
+    last_commit=Try to avoid random failure
+  f94202fcc2: |-
+    ruby 2.7.0dev (2019-10-15T10:41:16Z trunk f94202fcc2) [x86_64-linux]
+    last_commit=Use compare_by_identity hash [Bug #16250]
+  f94202fcc2 --jit: |-
+    ruby 2.7.0dev (2019-10-15T10:41:16Z trunk f94202fcc2) +JIT [x86_64-linux]
+    last_commit=Use compare_by_identity hash [Bug #16250]
+  d2982bea67: |-
+    ruby 2.7.0dev (2019-10-15T11:18:32Z trunk d2982bea67) [x86_64-linux]
+    last_commit=Remove duplicated `.` [ci skip]
+  d2982bea67 --jit: |-
+    ruby 2.7.0dev (2019-10-15T11:18:32Z trunk d2982bea67) +JIT [x86_64-linux]
+    last_commit=Remove duplicated `.` [ci skip]
+  51a31b86e9: |-
+    ruby 2.7.0dev (2019-10-15T11:56:33Z trunk 51a31b86e9) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Also bump test variable
+  51a31b86e9 --jit: |-
+    ruby 2.7.0dev (2019-10-15T11:56:33Z trunk 51a31b86e9) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Also bump test variable
+  e0e93a199d: |-
+    ruby 2.7.0dev (2019-10-15T11:57:01Z trunk e0e93a199d) [x86_64-linux]
+    last_commit=[rubygems/rubygems] Bump version to 3.1.0.pre2
+  e0e93a199d --jit: |-
+    ruby 2.7.0dev (2019-10-15T11:57:01Z trunk e0e93a199d) +JIT [x86_64-linux]
+    last_commit=[rubygems/rubygems] Bump version to 3.1.0.pre2
+  81176095f4: |-
+    ruby 2.7.0dev (2019-10-15T13:38:39Z trunk 81176095f4) [x86_64-linux]
+    last_commit=[DOC] fixed a variable name [ci skip]
+  81176095f4 --jit: |-
+    ruby 2.7.0dev (2019-10-15T13:38:39Z trunk 81176095f4) +JIT [x86_64-linux]
+    last_commit=[DOC] fixed a variable name [ci skip]
+  c01df7e58f: |-
+    ruby 2.7.0dev (2019-10-15T14:16:24Z trunk c01df7e58f) [x86_64-linux]
+    last_commit=Fixed the key to delete [Bug #16250]
+  c01df7e58f --jit: |-
+    ruby 2.7.0dev (2019-10-15T14:16:24Z trunk c01df7e58f) +JIT [x86_64-linux]
+    last_commit=Fixed the key to delete [Bug #16250]
+  375cf12918: |-
+    ruby 2.7.0dev (2019-10-15T14:29:49Z trunk 375cf12918) [x86_64-linux]
+    last_commit=test/csv/write/test_general.rb: suppress warnings
+  375cf12918 --jit: |-
+    ruby 2.7.0dev (2019-10-15T14:29:49Z trunk 375cf12918) +JIT [x86_64-linux]
+    last_commit=test/csv/write/test_general.rb: suppress warnings
