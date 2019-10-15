@@ -1831,6 +1831,8 @@ results:
     e197d9ca71: 3345104.683
     3bed468e88: 3484117.962
     0c8592b9af: 3405832.984
+    69acf40b45: 3274631.268
+    595b3c4fdd: 3225985.071
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3661,6 +3663,8 @@ results:
     e197d9ca71: 3373710.834
     3bed468e88: 3470278.899
     0c8592b9af: 3393076.156
+    69acf40b45: 3334388.663
+    595b3c4fdd: 3301041.748
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5491,6 +5495,8 @@ results:
     e197d9ca71: 1764112.263
     3bed468e88: 1896319.302
     0c8592b9af: 1931349.079
+    69acf40b45: 1851092.687
+    595b3c4fdd: 1857490.513
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7321,6 +7327,8 @@ results:
     e197d9ca71: 2819722.274
     3bed468e88: 2797537.574
     0c8592b9af: 2637617.847
+    69acf40b45: 2730663.754
+    595b3c4fdd: 2969660.707
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -9151,6 +9159,8 @@ results:
     e197d9ca71: 3145638.374
     3bed468e88: 3777301.999
     0c8592b9af: 3745115.098
+    69acf40b45: 3651952.702
+    595b3c4fdd: 3505713.654
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -10981,6 +10991,8 @@ results:
     e197d9ca71: 3473885.315
     3bed468e88: 3750500.16
     0c8592b9af: 3672344.017
+    69acf40b45: 3629082.398
+    595b3c4fdd: 3555808.165
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -12811,6 +12823,8 @@ results:
     e197d9ca71: 1762224.583
     3bed468e88: 1912076.748
     0c8592b9af: 2029495.456
+    69acf40b45: 1968770.905
+    595b3c4fdd: 1940665.014
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -14641,3 +14655,5 @@ results:
     e197d9ca71: 2746092.157
     3bed468e88: 3018237.868
     0c8592b9af: 2975496.338
+    69acf40b45: 2999875.055
+    595b3c4fdd: 3314674.628
