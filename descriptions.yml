@@ -5961,3 +5961,63 @@ commits:
   6081ddd6e6 --jit: |-
     ruby 2.7.0dev (2019-10-15T19:46:24Z trunk 6081ddd6e6) +JIT [x86_64-linux]
     last_commit=Dup hash with keyword flag when converted to keywords
+  d97229de5c: |-
+    ruby 2.7.0dev (2019-10-16T03:59:40Z trunk d97229de5c) [x86_64-linux]
+    last_commit=Add arm64 case on Travis. (#2559)
+  d97229de5c --jit: |-
+    ruby 2.7.0dev (2019-10-16T03:59:40Z trunk d97229de5c) +JIT [x86_64-linux]
+    last_commit=Add arm64 case on Travis. (#2559)
+  2679e10942: |-
+    ruby 2.7.0dev (2019-10-16T04:37:01Z trunk 2679e10942) [x86_64-linux]
+    last_commit=Test without --jit-debug by default
+  2679e10942 --jit: |-
+    ruby 2.7.0dev (2019-10-16T04:37:01Z trunk 2679e10942) +JIT [x86_64-linux]
+    last_commit=Test without --jit-debug by default
+  759576a03f: |-
+    ruby 2.7.0dev (2019-10-16T05:01:25Z trunk 759576a03f) [x86_64-linux]
+    last_commit=Fix test path on travis build
+  759576a03f --jit: |-
+    ruby 2.7.0dev (2019-10-16T05:01:25Z trunk 759576a03f) +JIT [x86_64-linux]
+    last_commit=Fix test path on travis build
+  4ccb49bad3: |-
+    ruby 2.7.0dev (2019-10-16T05:47:20Z trunk 4ccb49bad3) [x86_64-linux]
+    last_commit=Enforce --jit-debug test by another way
+  4ccb49bad3 --jit: |-
+    ruby 2.7.0dev (2019-10-16T05:47:20Z trunk 4ccb49bad3) +JIT [x86_64-linux]
+    last_commit=Enforce --jit-debug test by another way
+  e8124729fb: |-
+    ruby 2.7.0dev (2019-10-16T05:54:43Z trunk e8124729fb) [x86_64-linux]
+    last_commit=Disable ccache on arm64 build
+  e8124729fb --jit: |-
+    ruby 2.7.0dev (2019-10-16T05:54:43Z trunk e8124729fb) +JIT [x86_64-linux]
+    last_commit=Disable ccache on arm64 build
+  006d9013ea: |-
+    ruby 2.7.0dev (2019-10-16T05:56:20Z trunk 006d9013ea) [x86_64-linux]
+    last_commit=Remove arm64 build from Drone
+  006d9013ea --jit: |-
+    ruby 2.7.0dev (2019-10-16T05:56:20Z trunk 006d9013ea) +JIT [x86_64-linux]
+    last_commit=Remove arm64 build from Drone
+  eef25f95b7: |-
+    ruby 2.7.0dev (2019-10-16T06:04:34Z trunk eef25f95b7) [x86_64-linux]
+    last_commit=Maintain the intention of comment in Travis matrix
+  eef25f95b7 --jit: |-
+    ruby 2.7.0dev (2019-10-16T06:04:34Z trunk eef25f95b7) +JIT [x86_64-linux]
+    last_commit=Maintain the intention of comment in Travis matrix
+  c15856d76d: |-
+    ruby 2.7.0dev (2019-10-16T06:14:55Z trunk c15856d76d) [x86_64-linux]
+    last_commit=Do not test --jit-debug on -DVM_CHECK_MODE
+  c15856d76d --jit: |-
+    ruby 2.7.0dev (2019-10-16T06:14:55Z trunk c15856d76d) +JIT [x86_64-linux]
+    last_commit=Do not test --jit-debug on -DVM_CHECK_MODE
+  17ee01e3f6: |-
+    ruby 2.7.0dev (2019-10-16T06:16:54Z trunk 17ee01e3f6) [x86_64-linux]
+    last_commit=Removed an unused assignment
+  17ee01e3f6 --jit: |-
+    ruby 2.7.0dev (2019-10-16T06:16:54Z trunk 17ee01e3f6) +JIT [x86_64-linux]
+    last_commit=Removed an unused assignment
+  d70855c725: |-
+    ruby 2.7.0dev (2019-10-16T06:16:55Z trunk d70855c725) [x86_64-linux]
+    last_commit=Added test for rdoc `--force-update` option
+  d70855c725 --jit: |-
+    ruby 2.7.0dev (2019-10-16T06:16:55Z trunk d70855c725) +JIT [x86_64-linux]
+    last_commit=Added test for rdoc `--force-update` option
