@@ -5955,3 +5955,9 @@ commits:
   43015275b9 --jit: |-
     ruby 2.7.0dev (2019-10-16T08:44:51Z trunk 43015275b9) +JIT [x86_64-linux]
     last_commit=alias assert_raise_message for compatibility with test-unit
+  f8fb51c976: |-
+    ruby 2.7.0dev (2019-10-16T12:00:36Z trunk f8fb51c976) [x86_64-linux]
+    last_commit=Revert "alias assert_raise_message for compatibility with test-unit"
+  f8fb51c976 --jit: |-
+    ruby 2.7.0dev (2019-10-16T12:00:36Z trunk f8fb51c976) +JIT [x86_64-linux]
+    last_commit=Revert "alias assert_raise_message for compatibility with test-unit"
