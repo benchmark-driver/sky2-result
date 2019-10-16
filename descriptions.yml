@@ -9,84 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  b4dfac2c12: |-
-    ruby 2.7.0dev (2019-08-25T19:53:15Z trunk b4dfac2c12) [x86_64-linux]
-    last_commit=Fix ArgumentError in expand_tabs.rb
-  b4dfac2c12 --jit: |-
-    ruby 2.7.0dev (2019-08-25T19:53:15Z trunk b4dfac2c12) +JIT [x86_64-linux]
-    last_commit=Fix ArgumentError in expand_tabs.rb
-  5e10cb04e8: |-
-    ruby 2.7.0dev (2019-08-26T02:07:34Z trunk 5e10cb04e8) [x86_64-linux]
-    last_commit=Refined the appropriate C++ compiler in OS X selection
-  5e10cb04e8 --jit: |-
-    ruby 2.7.0dev (2019-08-26T02:07:34Z trunk 5e10cb04e8) +JIT [x86_64-linux]
-    last_commit=Refined the appropriate C++ compiler in OS X selection
-  4448d58642: |-
-    ruby 2.7.0dev (2019-08-26T02:08:30Z trunk 4448d58642) [x86_64-linux]
-    last_commit=* 2019-08-26 [ci skip]
-  4448d58642 --jit: |-
-    ruby 2.7.0dev (2019-08-26T02:08:30Z trunk 4448d58642) +JIT [x86_64-linux]
-    last_commit=* 2019-08-26 [ci skip]
-  fa6c1b06ad: |-
-    ruby 2.7.0dev (2019-08-26T03:00:19Z trunk fa6c1b06ad) [x86_64-linux]
-    last_commit=Suppress a "clobbered" warning
-  fa6c1b06ad --jit: |-
-    ruby 2.7.0dev (2019-08-26T03:00:19Z trunk fa6c1b06ad) +JIT [x86_64-linux]
-    last_commit=Suppress a "clobbered" warning
-  48131a4673: |-
-    ruby 2.7.0dev (2019-08-26T04:01:58Z trunk 48131a4673) [x86_64-linux]
-    last_commit=rb_mjit_header.h is not worth documenting [ci skip]
-  48131a4673 --jit: |-
-    ruby 2.7.0dev (2019-08-26T04:01:58Z trunk 48131a4673) +JIT [x86_64-linux]
-    last_commit=rb_mjit_header.h is not worth documenting [ci skip]
-  5e86b005c0: |-
-    ruby 2.7.0dev (2019-08-26T04:01:58Z trunk 5e86b005c0) [x86_64-linux]
-    last_commit=uid_t and gid_t are narrower than VALUE.
-  5e86b005c0 --jit: |-
-    ruby 2.7.0dev (2019-08-26T04:01:58Z trunk 5e86b005c0) +JIT [x86_64-linux]
-    last_commit=uid_t and gid_t are narrower than VALUE.
-  1581249de3: |-
-    ruby 2.7.0dev (2019-08-26T04:13:19Z trunk 1581249de3) [x86_64-linux]
-    last_commit=Added in-srcdir macro [ci skip]
-  1581249de3 --jit: |-
-    ruby 2.7.0dev (2019-08-26T04:13:19Z trunk 1581249de3) +JIT [x86_64-linux]
-    last_commit=Added in-srcdir macro [ci skip]
-  b4d6d9c167: |-
-    ruby 2.7.0dev (2019-08-26T04:14:01Z trunk b4d6d9c167) [x86_64-linux]
-    last_commit=Removed unnecessary flags for fake.rb
-  b4d6d9c167 --jit: |-
-    ruby 2.7.0dev (2019-08-26T04:14:01Z trunk b4d6d9c167) +JIT [x86_64-linux]
-    last_commit=Removed unnecessary flags for fake.rb
-  fafabe2f43: |-
-    ruby 2.7.0dev (2019-08-26T07:11:53Z trunk fafabe2f43) [x86_64-linux]
-    last_commit=Add INCFLAGS for fake.rb
-  fafabe2f43 --jit: |-
-    ruby 2.7.0dev (2019-08-26T07:11:53Z trunk fafabe2f43) +JIT [x86_64-linux]
-    last_commit=Add INCFLAGS for fake.rb
-  '2614653622': |-
-    ruby 2.7.0dev (2019-08-26T07:54:10Z trunk 2614653622) [x86_64-linux]
-    last_commit=Moved INCFLAGS to XCFLAGS from CPPFLAGS as well as mswin
-  2614653622 --jit: |-
-    ruby 2.7.0dev (2019-08-26T07:54:10Z trunk 2614653622) +JIT [x86_64-linux]
-    last_commit=Moved INCFLAGS to XCFLAGS from CPPFLAGS as well as mswin
-  44bead391f: |-
-    ruby 2.7.0dev (2019-08-26T07:54:10Z trunk 44bead391f) [x86_64-linux]
-    last_commit=CPPFLAGS is not needed for link
-  44bead391f --jit: |-
-    ruby 2.7.0dev (2019-08-26T07:54:10Z trunk 44bead391f) +JIT [x86_64-linux]
-    last_commit=CPPFLAGS is not needed for link
-  972222c039: |-
-    ruby 2.7.0dev (2019-08-26T08:45:18Z trunk 972222c039) [x86_64-linux]
-    last_commit=Show MFLAGS to check `Set ENV` in .github/workflows/ubuntu.yml
-  972222c039 --jit: |-
-    ruby 2.7.0dev (2019-08-26T08:45:18Z trunk 972222c039) +JIT [x86_64-linux]
-    last_commit=Show MFLAGS to check `Set ENV` in .github/workflows/ubuntu.yml
-  48f1a38f23: |-
-    ruby 2.7.0dev (2019-08-26T09:27:17Z trunk 48f1a38f23) [x86_64-linux]
-    last_commit=Limit ChangeLog entries
-  48f1a38f23 --jit: |-
-    ruby 2.7.0dev (2019-08-26T09:27:17Z trunk 48f1a38f23) +JIT [x86_64-linux]
-    last_commit=Limit ChangeLog entries
   ccc5b22a7f: |-
     ruby 2.7.0dev (2019-08-26T12:09:02Z trunk ccc5b22a7f) [x86_64-linux]
     last_commit=Expand JOBS instead of meaningless export (#2402)
@@ -6021,3 +5943,15 @@ commits:
   d70855c725 --jit: |-
     ruby 2.7.0dev (2019-10-16T06:16:55Z trunk d70855c725) +JIT [x86_64-linux]
     last_commit=Added test for rdoc `--force-update` option
+  5437d7c879: |-
+    ruby 2.7.0dev (2019-10-16T07:11:41Z trunk 5437d7c879) [x86_64-linux]
+    last_commit=Temporarily drop test_jit_debug.rb
+  5437d7c879 --jit: |-
+    ruby 2.7.0dev (2019-10-16T07:11:41Z trunk 5437d7c879) +JIT [x86_64-linux]
+    last_commit=Temporarily drop test_jit_debug.rb
+  43015275b9: |-
+    ruby 2.7.0dev (2019-10-16T08:44:51Z trunk 43015275b9) [x86_64-linux]
+    last_commit=alias assert_raise_message for compatibility with test-unit
+  43015275b9 --jit: |-
+    ruby 2.7.0dev (2019-10-16T08:44:51Z trunk 43015275b9) +JIT [x86_64-linux]
+    last_commit=alias assert_raise_message for compatibility with test-unit
