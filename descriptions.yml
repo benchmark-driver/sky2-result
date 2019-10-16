@@ -9,102 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  03ee12a3b8: |-
-    ruby 2.7.0dev (2019-08-24T15:50:34Z trunk 03ee12a3b8) [x86_64-linux]
-    last_commit=Add workaround (2nd try)
-  03ee12a3b8 --jit: |-
-    ruby 2.7.0dev (2019-08-24T15:50:34Z trunk 03ee12a3b8) +JIT [x86_64-linux]
-    last_commit=Add workaround (2nd try)
-  cf5516de7b: |-
-    ruby 2.7.0dev (2019-08-24T15:51:59Z trunk cf5516de7b) [x86_64-linux]
-    last_commit=* 2019-08-25 [ci skip]
-  cf5516de7b --jit: |-
-    ruby 2.7.0dev (2019-08-24T15:51:59Z trunk cf5516de7b) +JIT [x86_64-linux]
-    last_commit=* 2019-08-25 [ci skip]
-  e1c991f8d7: |-
-    ruby 2.7.0dev (2019-08-24T16:09:53Z trunk e1c991f8d7) [x86_64-linux]
-    last_commit=Move Object#hash rdoc to hash.c [ci skip]
-  e1c991f8d7 --jit: |-
-    ruby 2.7.0dev (2019-08-24T16:09:53Z trunk e1c991f8d7) +JIT [x86_64-linux]
-    last_commit=Move Object#hash rdoc to hash.c [ci skip]
-  04735c48ab: |-
-    ruby 2.7.0dev (2019-08-24T21:05:19Z trunk 04735c48ab) [x86_64-linux]
-    last_commit=Minor documentation fixes [ci skip]
-  04735c48ab --jit: |-
-    ruby 2.7.0dev (2019-08-24T21:05:19Z trunk 04735c48ab) +JIT [x86_64-linux]
-    last_commit=Minor documentation fixes [ci skip]
-  f13a00f5b4: |-
-    ruby 2.7.0dev (2019-08-25T02:24:53Z trunk f13a00f5b4) [x86_64-linux]
-    last_commit=Export all commits as ChangeLog when no starting commit is found [ci skip]
-  f13a00f5b4 --jit: |-
-    ruby 2.7.0dev (2019-08-25T02:24:53Z trunk f13a00f5b4) +JIT [x86_64-linux]
-    last_commit=Export all commits as ChangeLog when no starting commit is found [ci skip]
-  b341e98b04: |-
-    ruby 2.7.0dev (2019-08-25T02:38:15Z trunk b341e98b04) [x86_64-linux]
-    last_commit=Simplified f13a00f5b4 [ci skip]
-  b341e98b04 --jit: |-
-    ruby 2.7.0dev (2019-08-25T02:38:15Z trunk b341e98b04) +JIT [x86_64-linux]
-    last_commit=Simplified f13a00f5b4 [ci skip]
-  5decf66ab3: |-
-    ruby 2.7.0dev (2019-08-25T02:39:20Z trunk 5decf66ab3) [x86_64-linux]
-    last_commit=Inspect dynamic symbol as well as static symbol
-  5decf66ab3 --jit: |-
-    ruby 2.7.0dev (2019-08-25T02:39:20Z trunk 5decf66ab3) +JIT [x86_64-linux]
-    last_commit=Inspect dynamic symbol as well as static symbol
-  1b03d2d76b: |-
-    ruby 2.7.0dev (2019-08-25T04:58:30Z trunk 1b03d2d76b) [x86_64-linux]
-    last_commit=Revert workaround
-  1b03d2d76b --jit: |-
-    ruby 2.7.0dev (2019-08-25T04:58:30Z trunk 1b03d2d76b) +JIT [x86_64-linux]
-    last_commit=Revert workaround
-  cc6fe15241: |-
-    ruby 2.7.0dev (2019-08-25T07:59:45Z trunk cc6fe15241) [x86_64-linux]
-    last_commit=tool/lib/vcs.rb: explicitly fail when notes/commits is not available
-  cc6fe15241 --jit: |-
-    ruby 2.7.0dev (2019-08-25T07:59:45Z trunk cc6fe15241) +JIT [x86_64-linux]
-    last_commit=tool/lib/vcs.rb: explicitly fail when notes/commits is not available
-  c775ab5e28: |-
-    ruby 2.7.0dev (2019-08-25T09:27:57Z trunk c775ab5e28) [x86_64-linux]
-    last_commit=`local_path?` is a class method [ci skip]
-  c775ab5e28 --jit: |-
-    ruby 2.7.0dev (2019-08-25T09:27:57Z trunk c775ab5e28) +JIT [x86_64-linux]
-    last_commit=`local_path?` is a class method [ci skip]
-  6944a1aa4f: |-
-    ruby 2.7.0dev (2019-08-25T10:29:52Z trunk 6944a1aa4f) [x86_64-linux]
-    last_commit=lib/webrick.rb: use require_relative for webrick/utils.rb
-  6944a1aa4f --jit: |-
-    ruby 2.7.0dev (2019-08-25T10:29:52Z trunk 6944a1aa4f) +JIT [x86_64-linux]
-    last_commit=lib/webrick.rb: use require_relative for webrick/utils.rb
-  fa5f7771f2: |-
-    ruby 2.7.0dev (2019-08-25T11:10:25Z trunk fa5f7771f2) [x86_64-linux]
-    last_commit=Drop duration from AppVeyor notification
-  fa5f7771f2 --jit: |-
-    ruby 2.7.0dev (2019-08-25T11:10:25Z trunk fa5f7771f2) +JIT [x86_64-linux]
-    last_commit=Drop duration from AppVeyor notification
-  11f7c30fa7: |-
-    ruby 2.7.0dev (2019-08-25T13:16:26Z trunk 11f7c30fa7) [x86_64-linux]
-    last_commit=configure.ac: fix the guess of icc_version
-  11f7c30fa7 --jit: |-
-    ruby 2.7.0dev (2019-08-25T13:16:26Z trunk 11f7c30fa7) +JIT [x86_64-linux]
-    last_commit=configure.ac: fix the guess of icc_version
-  365e5b38a9: |-
-    ruby 2.7.0dev (2019-08-25T14:08:13Z trunk 365e5b38a9) [x86_64-linux]
-    last_commit=configure.ac: Improve icc_version guessing for non-icc environment
-  365e5b38a9 --jit: |-
-    ruby 2.7.0dev (2019-08-25T14:08:13Z trunk 365e5b38a9) +JIT [x86_64-linux]
-    last_commit=configure.ac: Improve icc_version guessing for non-icc environment
-  71d97a5ef8: |-
-    ruby 2.7.0dev (2019-08-25T17:56:47Z trunk 71d97a5ef8) [x86_64-linux]
-    last_commit=Fix sample/drb/http0serv.rb
-  71d97a5ef8 --jit: |-
-    ruby 2.7.0dev (2019-08-25T17:56:47Z trunk 71d97a5ef8) +JIT [x86_64-linux]
-    last_commit=Fix sample/drb/http0serv.rb
-  e496e96547: |-
-    ruby 2.7.0dev (2019-08-25T19:50:19Z trunk e496e96547) [x86_64-linux]
-    last_commit=Document that Enumerable#sum may not respect redefinition of Range#each
-  e496e96547 --jit: |-
-    ruby 2.7.0dev (2019-08-25T19:50:19Z trunk e496e96547) +JIT [x86_64-linux]
-    last_commit=Document that Enumerable#sum may not respect redefinition of Range#each
   b4dfac2c12: |-
     ruby 2.7.0dev (2019-08-25T19:53:15Z trunk b4dfac2c12) [x86_64-linux]
     last_commit=Fix ArgumentError in expand_tabs.rb
@@ -6027,3 +5931,33 @@ commits:
   375cf12918 --jit: |-
     ruby 2.7.0dev (2019-10-15T14:29:49Z trunk 375cf12918) +JIT [x86_64-linux]
     last_commit=test/csv/write/test_general.rb: suppress warnings
+  929d5fd3b9: |-
+    ruby 2.7.0dev (2019-10-15T16:42:34Z trunk 929d5fd3b9) [x86_64-linux]
+    last_commit=Comparable#clamp with a range [Feature #14784]
+  929d5fd3b9 --jit: |-
+    ruby 2.7.0dev (2019-10-15T16:42:34Z trunk 929d5fd3b9) +JIT [x86_64-linux]
+    last_commit=Comparable#clamp with a range [Feature #14784]
+  1c50ce2cf8: |-
+    ruby 2.7.0dev (2019-10-15T16:42:52Z trunk 1c50ce2cf8) [x86_64-linux]
+    last_commit=* 2019-10-16 [ci skip]
+  1c50ce2cf8 --jit: |-
+    ruby 2.7.0dev (2019-10-15T16:42:52Z trunk 1c50ce2cf8) +JIT [x86_64-linux]
+    last_commit=* 2019-10-16 [ci skip]
+  a5245c1658: |-
+    ruby 2.7.0dev (2019-10-15T17:08:52Z trunk a5245c1658) [x86_64-linux]
+    last_commit=C-r is incremental history search in vi insert mode
+  a5245c1658 --jit: |-
+    ruby 2.7.0dev (2019-10-15T17:08:52Z trunk a5245c1658) +JIT [x86_64-linux]
+    last_commit=C-r is incremental history search in vi insert mode
+  259601ab57: |-
+    ruby 2.7.0dev (2019-10-15T17:55:45Z trunk 259601ab57) [x86_64-linux]
+    last_commit=Support backspace in incremental search
+  259601ab57 --jit: |-
+    ruby 2.7.0dev (2019-10-15T17:55:45Z trunk 259601ab57) +JIT [x86_64-linux]
+    last_commit=Support backspace in incremental search
+  6081ddd6e6: |-
+    ruby 2.7.0dev (2019-10-15T19:46:24Z trunk 6081ddd6e6) [x86_64-linux]
+    last_commit=Dup hash with keyword flag when converted to keywords
+  6081ddd6e6 --jit: |-
+    ruby 2.7.0dev (2019-10-15T19:46:24Z trunk 6081ddd6e6) +JIT [x86_64-linux]
+    last_commit=Dup hash with keyword flag when converted to keywords
