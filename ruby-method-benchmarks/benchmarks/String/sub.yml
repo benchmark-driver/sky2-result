@@ -1848,6 +1848,8 @@ results:
     fd2ef1a9bf: 3400920.016
     '09d8e06b33': 3437475.589
     070cbe22b7: 3017121.727
+    7cc1cd3d1e: 3373538.377
+    759576a03f: 3391601.723
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3695,6 +3697,8 @@ results:
     fd2ef1a9bf: 3367127.332
     '09d8e06b33': 3178218.965
     070cbe22b7: 3329415.696
+    7cc1cd3d1e: 3237480.053
+    759576a03f: 3388194.291
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5542,6 +5546,8 @@ results:
     fd2ef1a9bf: 1883528.708
     '09d8e06b33': 1886523.938
     070cbe22b7: 1566217.793
+    7cc1cd3d1e: 1890177.392
+    759576a03f: 1976075.806
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7389,6 +7395,8 @@ results:
     fd2ef1a9bf: 2868234.291
     '09d8e06b33': 2822990.737
     070cbe22b7: 3127800.254
+    7cc1cd3d1e: 2631707.385
+    759576a03f: 3115146.278
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -9236,6 +9244,8 @@ results:
     fd2ef1a9bf: 3697385.283
     '09d8e06b33': 3739145.89
     070cbe22b7: 3492920.561
+    7cc1cd3d1e: 3250814.809
+    759576a03f: 3688001.737
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -11083,6 +11093,8 @@ results:
     fd2ef1a9bf: 3192591.662
     '09d8e06b33': 3648178.644
     070cbe22b7: 3397499.269
+    7cc1cd3d1e: 3566990.423
+    759576a03f: 3657019.505
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -12930,6 +12942,8 @@ results:
     fd2ef1a9bf: 1987110.09
     '09d8e06b33': 2005540.046
     070cbe22b7: 1964112.727
+    7cc1cd3d1e: 2062076.553
+    759576a03f: 2084711.147
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -14777,3 +14791,5 @@ results:
     fd2ef1a9bf: 3000506.617
     '09d8e06b33': 3024744.056
     070cbe22b7: 3383612.631
+    7cc1cd3d1e: 3368542.984
+    759576a03f: 3317742.299
