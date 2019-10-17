@@ -9,72 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  ccc5b22a7f: |-
-    ruby 2.7.0dev (2019-08-26T12:09:02Z trunk ccc5b22a7f) [x86_64-linux]
-    last_commit=Expand JOBS instead of meaningless export (#2402)
-  ccc5b22a7f --jit: |-
-    ruby 2.7.0dev (2019-08-26T12:09:02Z trunk ccc5b22a7f) +JIT [x86_64-linux]
-    last_commit=Expand JOBS instead of meaningless export (#2402)
-  caeafbe825: |-
-    ruby 2.7.0dev (2019-08-26T15:10:34Z trunk caeafbe825) [x86_64-linux]
-    last_commit=Move private call without arguments inside method
-  caeafbe825 --jit: |-
-    ruby 2.7.0dev (2019-08-26T15:10:34Z trunk caeafbe825) +JIT [x86_64-linux]
-    last_commit=Move private call without arguments inside method
-  7d9c3a5712: |-
-    ruby 2.7.0dev (2019-08-26T15:10:34Z trunk 7d9c3a5712) [x86_64-linux]
-    last_commit=Handle binding.irb for frozen objects and BasicObjects using a delegate
-  7d9c3a5712 --jit: |-
-    ruby 2.7.0dev (2019-08-26T15:10:34Z trunk 7d9c3a5712) +JIT [x86_64-linux]
-    last_commit=Handle binding.irb for frozen objects and BasicObjects using a delegate
-  d5b237325b: |-
-    ruby 2.7.0dev (2019-08-26T15:11:32Z trunk d5b237325b) [x86_64-linux]
-    last_commit=* 2019-08-27 [ci skip]
-  d5b237325b --jit: |-
-    ruby 2.7.0dev (2019-08-26T15:11:32Z trunk d5b237325b) +JIT [x86_64-linux]
-    last_commit=* 2019-08-27 [ci skip]
-  9c0cd6a09e: |-
-    ruby 2.7.0dev (2019-08-26T16:23:04Z trunk 9c0cd6a09e) [x86_64-linux]
-    last_commit=Refactoring Reline accessor.
-  9c0cd6a09e --jit: |-
-    ruby 2.7.0dev (2019-08-26T16:23:04Z trunk 9c0cd6a09e) +JIT [x86_64-linux]
-    last_commit=Refactoring Reline accessor.
-  f60e5a1f99: |-
-    ruby 2.7.0dev (2019-08-26T16:23:10Z trunk f60e5a1f99) [x86_64-linux]
-    last_commit=Remove test_mode in `lib/reline`.
-  f60e5a1f99 --jit: |-
-    ruby 2.7.0dev (2019-08-26T16:23:10Z trunk f60e5a1f99) +JIT [x86_64-linux]
-    last_commit=Remove test_mode in `lib/reline`.
-  afed2668a6: |-
-    ruby 2.7.0dev (2019-08-26T16:23:15Z trunk afed2668a6) [x86_64-linux]
-    last_commit=Fix reference core method.
-  afed2668a6 --jit: |-
-    ruby 2.7.0dev (2019-08-26T16:23:15Z trunk afed2668a6) +JIT [x86_64-linux]
-    last_commit=Fix reference core method.
-  298ac04710: |-
-    ruby 2.7.0dev (2019-08-26T16:23:19Z trunk 298ac04710) [x86_64-linux]
-    last_commit=Refactoring Reline.
-  298ac04710 --jit: |-
-    ruby 2.7.0dev (2019-08-26T16:23:19Z trunk 298ac04710) +JIT [x86_64-linux]
-    last_commit=Refactoring Reline.
-  195f545c14: |-
-    ruby 2.7.0dev (2019-08-26T16:23:24Z trunk 195f545c14) [x86_64-linux]
-    last_commit=Fix `Reline::Windows`.
-  195f545c14 --jit: |-
-    ruby 2.7.0dev (2019-08-26T16:23:24Z trunk 195f545c14) +JIT [x86_64-linux]
-    last_commit=Fix `Reline::Windows`.
-  f33117fbc6: |-
-    ruby 2.7.0dev (2019-08-26T16:23:29Z trunk f33117fbc6) [x86_64-linux]
-    last_commit=Add test reline.
-  f33117fbc6 --jit: |-
-    ruby 2.7.0dev (2019-08-26T16:23:29Z trunk f33117fbc6) +JIT [x86_64-linux]
-    last_commit=Add test reline.
-  1ee9299bca: |-
-    ruby 2.7.0dev (2019-08-26T16:23:34Z trunk 1ee9299bca) [x86_64-linux]
-    last_commit=Add support Windows in CI.
-  1ee9299bca --jit: |-
-    ruby 2.7.0dev (2019-08-26T16:23:34Z trunk 1ee9299bca) +JIT [x86_64-linux]
-    last_commit=Add support Windows in CI.
   '0295bffc96': |-
     ruby 2.7.0dev (2019-08-26T16:23:39Z trunk 0295bffc96) [x86_64-linux]
     last_commit=Change to test file path.
@@ -5985,3 +5919,39 @@ commits:
   3fea2d91ad --jit: |-
     ruby 2.7.0dev (2019-10-16T16:21:18Z trunk 3fea2d91ad) +JIT [x86_64-linux]
     last_commit=Use an even indent in NEWS for code
+  e26c6d4ab8: |-
+    ruby 2.7.0dev (2019-10-16T16:56:20Z trunk e26c6d4ab8) [x86_64-linux]
+    last_commit=Collect multiline prompt logic into a method
+  e26c6d4ab8 --jit: |-
+    ruby 2.7.0dev (2019-10-16T16:56:20Z trunk e26c6d4ab8) +JIT [x86_64-linux]
+    last_commit=Collect multiline prompt logic into a method
+  db84123600: |-
+    ruby 2.7.0dev (2019-10-16T17:19:01Z trunk db84123600) [x86_64-linux]
+    last_commit=Calculate prompt width correctly
+  db84123600 --jit: |-
+    ruby 2.7.0dev (2019-10-16T17:19:01Z trunk db84123600) +JIT [x86_64-linux]
+    last_commit=Calculate prompt width correctly
+  2993b24a1e: |-
+    ruby 2.7.0dev (2019-10-16T19:50:40Z trunk 2993b24a1e) [x86_64-linux]
+    last_commit=Warn for calling public/protected/private/module_function without arguments inside method
+  2993b24a1e --jit: |-
+    ruby 2.7.0dev (2019-10-16T19:50:40Z trunk 2993b24a1e) +JIT [x86_64-linux]
+    last_commit=Warn for calling public/protected/private/module_function without arguments inside method
+  50b8033d6b: |-
+    ruby 2.7.0dev (2019-10-16T19:51:13Z trunk 50b8033d6b) [x86_64-linux]
+    last_commit=Handle subclasses of Exception in drb
+  50b8033d6b --jit: |-
+    ruby 2.7.0dev (2019-10-16T19:51:13Z trunk 50b8033d6b) +JIT [x86_64-linux]
+    last_commit=Handle subclasses of Exception in drb
+  567e312d1f: |-
+    ruby 2.7.0dev (2019-10-16T19:51:13Z trunk 567e312d1f) [x86_64-linux]
+    last_commit=Do not raise an exception on a closed DRb socket
+  567e312d1f --jit: |-
+    ruby 2.7.0dev (2019-10-16T19:51:13Z trunk 567e312d1f) +JIT [x86_64-linux]
+    last_commit=Do not raise an exception on a closed DRb socket
+  d5744aff3a: |-
+    ruby 2.7.0dev (2019-10-16T19:51:13Z trunk d5744aff3a) [x86_64-linux]
+    last_commit=Fix DRbServer#any_to_s
+  d5744aff3a --jit: |-
+    ruby 2.7.0dev (2019-10-16T19:51:13Z trunk d5744aff3a) +JIT [x86_64-linux]
+    last_commit=Fix DRbServer#any_to_s
