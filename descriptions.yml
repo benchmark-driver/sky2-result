@@ -5997,3 +5997,27 @@ commits:
   d4e52f672c --jit: |-
     ruby 2.7.0dev (2019-10-18T06:19:26Z trunk d4e52f672c) +JIT [x86_64-linux]
     last_commit=Added no suggestion test case
+  e29e49abf0: |-
+    ruby 2.7.0dev (2019-10-18T07:43:40Z trunk e29e49abf0) [x86_64-linux]
+    last_commit=Default DidYouMean.formatter to PlainFormatter
+  e29e49abf0 --jit: |-
+    ruby 2.7.0dev (2019-10-18T07:43:40Z trunk e29e49abf0) +JIT [x86_64-linux]
+    last_commit=Default DidYouMean.formatter to PlainFormatter
+  b4d308b419: |-
+    ruby 2.7.0dev (2019-10-18T08:39:16Z trunk b4d308b419) [x86_64-linux]
+    last_commit=Defer adding additional info until getting the message of an error
+  b4d308b419 --jit: |-
+    ruby 2.7.0dev (2019-10-18T08:39:16Z trunk b4d308b419) +JIT [x86_64-linux]
+    last_commit=Defer adding additional info until getting the message of an error
+  e2b719bed6: |-
+    ruby 2.7.0dev (2019-10-18T08:46:53Z trunk e2b719bed6) [x86_64-linux]
+    last_commit=Support DidYouMean by AmbiguousOption too
+  e2b719bed6 --jit: |-
+    ruby 2.7.0dev (2019-10-18T08:46:53Z trunk e2b719bed6) +JIT [x86_64-linux]
+    last_commit=Support DidYouMean by AmbiguousOption too
+  ddad1fb229: |-
+    ruby 2.7.0dev (2019-10-18T08:53:17Z trunk ddad1fb229) [x86_64-linux]
+    last_commit=NEWS: Mention that optparse now supports did_you_mean for unknown option
+  ddad1fb229 --jit: |-
+    ruby 2.7.0dev (2019-10-18T08:53:17Z trunk ddad1fb229) +JIT [x86_64-linux]
+    last_commit=NEWS: Mention that optparse now supports did_you_mean for unknown option
