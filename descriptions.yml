@@ -9,108 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  '0295bffc96': |-
-    ruby 2.7.0dev (2019-08-26T16:23:39Z trunk 0295bffc96) [x86_64-linux]
-    last_commit=Change to test file path.
-  '0295bffc96 --jit': |-
-    ruby 2.7.0dev (2019-08-26T16:23:39Z trunk 0295bffc96) +JIT [x86_64-linux]
-    last_commit=Change to test file path.
-  50d4a77041: |-
-    ruby 2.7.0dev (2019-08-26T16:23:46Z trunk 50d4a77041) [x86_64-linux]
-    last_commit=Add test with encoding.
-  50d4a77041 --jit: |-
-    ruby 2.7.0dev (2019-08-26T16:23:46Z trunk 50d4a77041) +JIT [x86_64-linux]
-    last_commit=Add test with encoding.
-  344f507e4e: |-
-    ruby 2.7.0dev (2019-08-26T16:23:50Z trunk 344f507e4e) [x86_64-linux]
-    last_commit=Remove .freeze.
-  344f507e4e --jit: |-
-    ruby 2.7.0dev (2019-08-26T16:23:50Z trunk 344f507e4e) +JIT [x86_64-linux]
-    last_commit=Remove .freeze.
-  3a4a58e2cc: |-
-    ruby 2.7.0dev (2019-08-26T16:42:41Z trunk 3a4a58e2cc) [x86_64-linux]
-    last_commit=Fix use_lib_reline for test/readline
-  3a4a58e2cc --jit: |-
-    ruby 2.7.0dev (2019-08-26T16:42:41Z trunk 3a4a58e2cc) +JIT [x86_64-linux]
-    last_commit=Fix use_lib_reline for test/readline
-  d9bfbe363d: |-
-    ruby 2.7.0dev (2019-08-26T18:14:03Z trunk d9bfbe363d) [x86_64-linux]
-    last_commit=Make `gc_update_table_refs` match `mark_tbl_no_pin` a little more closely
-  d9bfbe363d --jit: |-
-    ruby 2.7.0dev (2019-08-26T18:14:03Z trunk d9bfbe363d) +JIT [x86_64-linux]
-    last_commit=Make `gc_update_table_refs` match `mark_tbl_no_pin` a little more closely
-  '09d8e06b33': |-
-    ruby 2.7.0dev (2019-08-26T18:31:52Z trunk 09d8e06b33) [x86_64-linux]
-    last_commit=Try only updating hash value references
-  '09d8e06b33 --jit': |-
-    ruby 2.7.0dev (2019-08-26T18:31:52Z trunk 09d8e06b33) +JIT [x86_64-linux]
-    last_commit=Try only updating hash value references
-  d8bcede9c3: |-
-    ruby 2.7.0dev (2019-08-26T20:18:46Z trunk d8bcede9c3) [x86_64-linux]
-    last_commit=Adjust method forwardings of Reline
-  d8bcede9c3 --jit: |-
-    ruby 2.7.0dev (2019-08-26T20:18:46Z trunk d8bcede9c3) +JIT [x86_64-linux]
-    last_commit=Adjust method forwardings of Reline
-  68207bb4fc: |-
-    ruby 2.7.0dev (2019-08-26T20:18:51Z trunk 68207bb4fc) [x86_64-linux]
-    last_commit=Use preposing "private" to define methods
-  68207bb4fc --jit: |-
-    ruby 2.7.0dev (2019-08-26T20:18:51Z trunk 68207bb4fc) +JIT [x86_64-linux]
-    last_commit=Use preposing "private" to define methods
-  f2a5c50f94: |-
-    ruby 2.7.0dev (2019-08-26T20:18:51Z trunk f2a5c50f94) [x86_64-linux]
-    last_commit=The "private" doesn't make sence for class methods and a constant
-  f2a5c50f94 --jit: |-
-    ruby 2.7.0dev (2019-08-26T20:18:51Z trunk f2a5c50f94) +JIT [x86_64-linux]
-    last_commit=The "private" doesn't make sence for class methods and a constant
-  978ff1ff3a: |-
-    ruby 2.7.0dev (2019-08-26T20:24:13Z trunk 978ff1ff3a) [x86_64-linux]
-    last_commit=Pick lib/readline.rb from ruby/reline
-  978ff1ff3a --jit: |-
-    ruby 2.7.0dev (2019-08-26T20:24:13Z trunk 978ff1ff3a) +JIT [x86_64-linux]
-    last_commit=Pick lib/readline.rb from ruby/reline
-  f13db4adde: |-
-    ruby 2.7.0dev (2019-08-26T20:33:27Z trunk f13db4adde) [x86_64-linux]
-    last_commit=Save value to @ambiguous_width because of a accessor
-  f13db4adde --jit: |-
-    ruby 2.7.0dev (2019-08-26T20:33:27Z trunk f13db4adde) +JIT [x86_64-linux]
-    last_commit=Save value to @ambiguous_width because of a accessor
-  9f0f777173: |-
-    ruby 2.7.0dev (2019-08-26T20:42:16Z trunk 9f0f777173) [x86_64-linux]
-    last_commit=this iv table should also use the new update function
-  9f0f777173 --jit: |-
-    ruby 2.7.0dev (2019-08-26T20:42:16Z trunk 9f0f777173) +JIT [x86_64-linux]
-    last_commit=this iv table should also use the new update function
-  fd0a4a64a3: |-
-    ruby 2.7.0dev (2019-08-26T20:59:56Z trunk fd0a4a64a3) [x86_64-linux]
-    last_commit=Delegete an instance method to a class method correctly
-  fd0a4a64a3 --jit: |-
-    ruby 2.7.0dev (2019-08-26T20:59:56Z trunk fd0a4a64a3) +JIT [x86_64-linux]
-    last_commit=Delegete an instance method to a class method correctly
-  744be55fad: |-
-    ruby 2.7.0dev (2019-08-26T21:30:32Z trunk 744be55fad) [x86_64-linux]
-    last_commit=Remove duplicated delegation
-  744be55fad --jit: |-
-    ruby 2.7.0dev (2019-08-26T21:30:32Z trunk 744be55fad) +JIT [x86_64-linux]
-    last_commit=Remove duplicated delegation
-  '2283411265': |-
-    ruby 2.7.0dev (2019-08-26T22:59:50Z trunk 2283411265) [x86_64-linux]
-    last_commit=Added license comment [Bug #12230] [ci skip]
-  2283411265 --jit: |-
-    ruby 2.7.0dev (2019-08-26T22:59:50Z trunk 2283411265) +JIT [x86_64-linux]
-    last_commit=Added license comment [Bug #12230] [ci skip]
-  76abd79629: |-
-    ruby 2.7.0dev (2019-08-27T01:43:37Z trunk 76abd79629) [x86_64-linux]
-    last_commit=Fix the appropriate C++ compiler in OS X selection
-  76abd79629 --jit: |-
-    ruby 2.7.0dev (2019-08-27T01:43:37Z trunk 76abd79629) +JIT [x86_64-linux]
-    last_commit=Fix the appropriate C++ compiler in OS X selection
-  8eee3f3a36: |-
-    ruby 2.7.0dev (2019-08-27T04:59:13Z trunk 8eee3f3a36) [x86_64-linux]
-    last_commit=signal.c: Don't mark ruby_abort as NORETURN on Solaris
-  8eee3f3a36 --jit: |-
-    ruby 2.7.0dev (2019-08-27T04:59:13Z trunk 8eee3f3a36) +JIT [x86_64-linux]
-    last_commit=signal.c: Don't mark ruby_abort as NORETURN on Solaris
   d53b669948: |-
     ruby 2.7.0dev (2019-08-27T05:05:20Z trunk d53b669948) [x86_64-linux]
     last_commit=compile.c: remove const from the first argument of dladdr
@@ -6009,3 +5907,51 @@ commits:
   fdfb5100b9 --jit: |-
     ruby 2.7.0dev (2019-10-17T15:46:02Z trunk fdfb5100b9) +JIT [x86_64-linux]
     last_commit=* 2019-10-18 [ci skip]
+  0162e7e647: |-
+    ruby 2.7.0dev (2019-10-17T16:32:06Z trunk 0162e7e647) [x86_64-linux]
+    last_commit=Make circular argument reference a SyntaxError instead of a warning
+  0162e7e647 --jit: |-
+    ruby 2.7.0dev (2019-10-17T16:32:06Z trunk 0162e7e647) +JIT [x86_64-linux]
+    last_commit=Make circular argument reference a SyntaxError instead of a warning
+  13b106a19c: |-
+    ruby 2.7.0dev (2019-10-17T17:54:20Z trunk 13b106a19c) [x86_64-linux]
+    last_commit=Ignore the input method key sequence from getwch() correctly
+  13b106a19c --jit: |-
+    ruby 2.7.0dev (2019-10-17T17:54:20Z trunk 13b106a19c) +JIT [x86_64-linux]
+    last_commit=Ignore the input method key sequence from getwch() correctly
+  53c05a6cf4: |-
+    ruby 2.7.0dev (2019-10-17T17:54:20Z trunk 53c05a6cf4) [x86_64-linux]
+    last_commit=Remove freeze
+  53c05a6cf4 --jit: |-
+    ruby 2.7.0dev (2019-10-17T17:54:20Z trunk 53c05a6cf4) +JIT [x86_64-linux]
+    last_commit=Remove freeze
+  58657fa134: |-
+    ruby 2.7.0dev (2019-10-17T17:54:20Z trunk 58657fa134) [x86_64-linux]
+    last_commit=Add numeric keypad key sequences on Windows
+  58657fa134 --jit: |-
+    ruby 2.7.0dev (2019-10-17T17:54:20Z trunk 58657fa134) +JIT [x86_64-linux]
+    last_commit=Add numeric keypad key sequences on Windows
+  8c0629ba58: |-
+    ruby 2.7.0dev (2019-10-17T17:54:20Z trunk 8c0629ba58) [x86_64-linux]
+    last_commit=Treat key sequences from getwch() that start from 0 or 0xE0 correctly
+  8c0629ba58 --jit: |-
+    ruby 2.7.0dev (2019-10-17T17:54:20Z trunk 8c0629ba58) +JIT [x86_64-linux]
+    last_commit=Treat key sequences from getwch() that start from 0 or 0xE0 correctly
+  ee821e9074: |-
+    ruby 2.7.0dev (2019-10-17T19:21:47Z trunk ee821e9074) [x86_64-linux]
+    last_commit=Update test to handle x32 ABI compiled Ruby on Linux
+  ee821e9074 --jit: |-
+    ruby 2.7.0dev (2019-10-17T19:21:47Z trunk ee821e9074) +JIT [x86_64-linux]
+    last_commit=Update test to handle x32 ABI compiled Ruby on Linux
+  9026e12f93: |-
+    ruby 2.7.0dev (2019-10-17T20:30:09Z trunk 9026e12f93) [x86_64-linux]
+    last_commit=Look up constant instead of caching in a global
+  9026e12f93 --jit: |-
+    ruby 2.7.0dev (2019-10-17T20:30:09Z trunk 9026e12f93) +JIT [x86_64-linux]
+    last_commit=Look up constant instead of caching in a global
+  1d564acedc: |-
+    ruby 2.7.0dev (2019-10-17T20:35:26Z trunk 1d564acedc) [x86_64-linux]
+    last_commit=Remove unused constant.
+  1d564acedc --jit: |-
+    ruby 2.7.0dev (2019-10-17T20:35:26Z trunk 1d564acedc) +JIT [x86_64-linux]
+    last_commit=Remove unused constant.
