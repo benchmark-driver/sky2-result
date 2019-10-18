@@ -5955,3 +5955,15 @@ commits:
   1d564acedc --jit: |-
     ruby 2.7.0dev (2019-10-17T20:35:26Z trunk 1d564acedc) +JIT [x86_64-linux]
     last_commit=Remove unused constant.
+  5ca5529d22: |-
+    ruby 2.7.0dev (2019-10-18T02:23:50Z trunk 5ca5529d22) [x86_64-linux]
+    last_commit=Fix warning of generated parser for nested module
+  5ca5529d22 --jit: |-
+    ruby 2.7.0dev (2019-10-18T02:23:50Z trunk 5ca5529d22) +JIT [x86_64-linux]
+    last_commit=Fix warning of generated parser for nested module
+  c3b64a86bc: |-
+    ruby 2.7.0dev (2019-10-18T03:20:58Z trunk c3b64a86bc) [x86_64-linux]
+    last_commit=lib/optparse.rb: Show a did_you_mean hint for unknown option
+  c3b64a86bc --jit: |-
+    ruby 2.7.0dev (2019-10-18T03:20:58Z trunk c3b64a86bc) +JIT [x86_64-linux]
+    last_commit=lib/optparse.rb: Show a did_you_mean hint for unknown option
