@@ -1883,6 +1883,8 @@ results:
     c8542ab484: 3083844.977
     6f206b8ec6: 3451591.708
     bcd49a4669: 3368741.466
+    fc66947c61: 3433359.808
+    c3b64a86bc: 3364889.751
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3765,6 +3767,8 @@ results:
     c8542ab484: 3322689.234
     6f206b8ec6: 3335161.905
     bcd49a4669: 3075217.194
+    fc66947c61: 3377403.464
+    c3b64a86bc: 3361877.309
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5647,6 +5651,8 @@ results:
     c8542ab484: 1749503.681
     6f206b8ec6: 1785261.087
     bcd49a4669: 1858199.854
+    fc66947c61: 1867640.188
+    c3b64a86bc: 1971681.64
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7529,6 +7535,8 @@ results:
     c8542ab484: 2969951.29
     6f206b8ec6: 2823261.295
     bcd49a4669: 2839361.383
+    fc66947c61: 3163712.253
+    c3b64a86bc: 3130898.058
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -9411,6 +9419,8 @@ results:
     c8542ab484: 3419931.39
     6f206b8ec6: 3283874.982
     bcd49a4669: 3620485.636
+    fc66947c61: 3615842.292
+    c3b64a86bc: 3646511.756
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -11293,6 +11303,8 @@ results:
     c8542ab484: 3659514.095
     6f206b8ec6: 3730054.03
     bcd49a4669: 3633301.369
+    fc66947c61: 3630342.362
+    c3b64a86bc: 3635058.869
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -13175,6 +13187,8 @@ results:
     c8542ab484: 1841828.421
     6f206b8ec6: 1935371.84
     bcd49a4669: 1664485.296
+    fc66947c61: 1978120.203
+    c3b64a86bc: 2086845.544
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -15057,3 +15071,5 @@ results:
     c8542ab484: 3301934.844
     6f206b8ec6: 2639838.214
     bcd49a4669: 2954540.135
+    fc66947c61: 3334394.968
+    c3b64a86bc: 3289363.804
