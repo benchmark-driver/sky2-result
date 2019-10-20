@@ -1894,6 +1894,8 @@ results:
     7d4ab8bbe7: 11561533.415
     53c05a6cf4: 11799001.802
     ae83dbe28d: 12149391.158
+    beaabd2308: 12485592.28
+    1de242de0f: 12646549.424
   Array#find_index(val) with Numerics, found:
     '009a0a3870': 4571994.321
     02df0f38df: 5000368.529
@@ -3787,6 +3789,8 @@ results:
     7d4ab8bbe7: 5643549.193
     53c05a6cf4: 5080603.35
     ae83dbe28d: 4937851.282
+    beaabd2308: 4984132.278
+    1de242de0f: 5538658.088
   Array#find_index(val), not found:
     '009a0a3870': 10248066.505
     02df0f38df: 10130014.465
@@ -5680,6 +5684,8 @@ results:
     7d4ab8bbe7: 9571715.117
     53c05a6cf4: 10189999.901
     ae83dbe28d: 10229883.299
+    beaabd2308: 9114405.867
+    1de242de0f: 10455895.256
   Array#find_index(val) with Numerics, not found:
     '009a0a3870': 4357253.186
     02df0f38df: 6224673.777
@@ -7573,6 +7579,8 @@ results:
     7d4ab8bbe7: 7072526.003
     53c05a6cf4: 6744937.94
     ae83dbe28d: 7029756.281
+    beaabd2308: 6354400.501
+    1de242de0f: 6557711.485
   Array#find_index { |item| ...}:
     '009a0a3870': 4028297.887
     02df0f38df: 3840860.48
@@ -9466,3 +9474,5 @@ results:
     7d4ab8bbe7: 3921049.215
     53c05a6cf4: 3922754.654
     ae83dbe28d: 3740620.492
+    beaabd2308: 3466550.518
+    1de242de0f: 3973242.721
