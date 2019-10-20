@@ -1885,6 +1885,8 @@ results:
     bcd49a4669: 3368741.466
     fc66947c61: 3433359.808
     c3b64a86bc: 3364889.751
+    9f59d30daa: 3332998.256
+    343b0a281d: 3354337.209
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3769,6 +3771,8 @@ results:
     bcd49a4669: 3075217.194
     fc66947c61: 3377403.464
     c3b64a86bc: 3361877.309
+    9f59d30daa: 3144833.685
+    343b0a281d: 3330049.867
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5653,6 +5657,8 @@ results:
     bcd49a4669: 1858199.854
     fc66947c61: 1867640.188
     c3b64a86bc: 1971681.64
+    9f59d30daa: 1881264.703
+    343b0a281d: 1846696.124
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7537,6 +7543,8 @@ results:
     bcd49a4669: 2839361.383
     fc66947c61: 3163712.253
     c3b64a86bc: 3130898.058
+    9f59d30daa: 2864784.571
+    343b0a281d: 2839210.566
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -9421,6 +9429,8 @@ results:
     bcd49a4669: 3620485.636
     fc66947c61: 3615842.292
     c3b64a86bc: 3646511.756
+    9f59d30daa: 3687342.853
+    343b0a281d: 3640522.912
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -11305,6 +11315,8 @@ results:
     bcd49a4669: 3633301.369
     fc66947c61: 3630342.362
     c3b64a86bc: 3635058.869
+    9f59d30daa: 3684293.852
+    343b0a281d: 3607517.032
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -13189,6 +13201,8 @@ results:
     bcd49a4669: 1664485.296
     fc66947c61: 1978120.203
     c3b64a86bc: 2086845.544
+    9f59d30daa: 2010363.494
+    343b0a281d: 1972722.5
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -15073,3 +15087,5 @@ results:
     bcd49a4669: 2954540.135
     fc66947c61: 3334394.968
     c3b64a86bc: 3289363.804
+    9f59d30daa: 3098435.349
+    343b0a281d: 3051249.292
