@@ -9,72 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  bc3e7924bc: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk bc3e7924bc) [x86_64-linux]
-    last_commit=rb_proc_new / rb_fiber_new now free from ANYARGS
-  bc3e7924bc --jit: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk bc3e7924bc) +JIT [x86_64-linux]
-    last_commit=rb_proc_new / rb_fiber_new now free from ANYARGS
-  e3fc30564e: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk e3fc30564e) [x86_64-linux]
-    last_commit=rb_thread_create now free from ANYARGS
-  e3fc30564e --jit: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk e3fc30564e) +JIT [x86_64-linux]
-    last_commit=rb_thread_create now free from ANYARGS
-  6dd60cf114: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 6dd60cf114) [x86_64-linux]
-    last_commit=st_foreach now free from ANYARGS
-  6dd60cf114 --jit: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 6dd60cf114) +JIT [x86_64-linux]
-    last_commit=st_foreach now free from ANYARGS
-  78628618da: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 78628618da) [x86_64-linux]
-    last_commit=struct st_hash_type now free from ANYARGS
-  78628618da --jit: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 78628618da) +JIT [x86_64-linux]
-    last_commit=struct st_hash_type now free from ANYARGS
-  ae2dc3f217: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk ae2dc3f217) [x86_64-linux]
-    last_commit=rb_define_hooked_variable now free from ANYARGS
-  ae2dc3f217 --jit: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk ae2dc3f217) +JIT [x86_64-linux]
-    last_commit=rb_define_hooked_variable now free from ANYARGS
-  50f5a0a8d6: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 50f5a0a8d6) [x86_64-linux]
-    last_commit=rb_hash_foreach now free from ANYARGS
-  50f5a0a8d6 --jit: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 50f5a0a8d6) +JIT [x86_64-linux]
-    last_commit=rb_hash_foreach now free from ANYARGS
-  79d280a5e8: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 79d280a5e8) [x86_64-linux]
-    last_commit=rb_ivar_foreach now free from ANYARGS
-  79d280a5e8 --jit: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 79d280a5e8) +JIT [x86_64-linux]
-    last_commit=rb_ivar_foreach now free from ANYARGS
-  bd8dc2561d: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk bd8dc2561d) [x86_64-linux]
-    last_commit=struct MEMO now free from ANYARGS
-  bd8dc2561d --jit: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk bd8dc2561d) +JIT [x86_64-linux]
-    last_commit=struct MEMO now free from ANYARGS
-  19b6678132: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 19b6678132) [x86_64-linux]
-    last_commit=rb_uninterruptible now free from ANYARGS
-  19b6678132 --jit: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 19b6678132) +JIT [x86_64-linux]
-    last_commit=rb_uninterruptible now free from ANYARGS
-  1663d347c9: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 1663d347c9) [x86_64-linux]
-    last_commit=delete `$` sign from C identifiers
-  1663d347c9 --jit: |-
-    ruby 2.7.0dev (2019-08-27T06:52:26Z trunk 1663d347c9) +JIT [x86_64-linux]
-    last_commit=delete `$` sign from C identifiers
-  3ac0b75c45: |-
-    ruby 2.7.0dev (2019-08-27T07:39:42Z trunk 3ac0b75c45) [x86_64-linux]
-    last_commit=Doxygen in GitHub Actions  (#2406)
-  3ac0b75c45 --jit: |-
-    ruby 2.7.0dev (2019-08-27T07:39:42Z trunk 3ac0b75c45) +JIT [x86_64-linux]
-    last_commit=Doxygen in GitHub Actions  (#2406)
   d806078237: |-
     ruby 2.7.0dev (2019-08-27T09:46:16Z trunk d806078237) [x86_64-linux]
     last_commit=Add graphviz for dot command
@@ -6015,3 +5949,9 @@ commits:
   9e07dfd253 --jit: |-
     ruby 2.7.0dev (2019-10-20T07:16:54Z trunk 9e07dfd253) +JIT [x86_64-linux]
     last_commit=show BASERUBY version at configure.
+  ca7de0334d: |-
+    ruby 2.7.0dev (2019-10-20T11:45:56Z trunk ca7de0334d) [x86_64-linux]
+    last_commit=Also BDOT2 and BDOT3 are operators
+  ca7de0334d --jit: |-
+    ruby 2.7.0dev (2019-10-20T11:45:56Z trunk ca7de0334d) +JIT [x86_64-linux]
+    last_commit=Also BDOT2 and BDOT3 are operators
