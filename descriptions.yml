@@ -6003,3 +6003,15 @@ commits:
   a0a3c70181 --jit: |-
     ruby 2.7.0dev (2019-10-20T05:21:04Z trunk a0a3c70181) +JIT [x86_64-linux]
     last_commit=delegate synchronize method
+  a236eaa762: |-
+    ruby 2.7.0dev (2019-10-20T06:45:30Z trunk a236eaa762) [x86_64-linux]
+    last_commit=Native MonitorMixin::ConditionVariable#wait
+  a236eaa762 --jit: |-
+    ruby 2.7.0dev (2019-10-20T06:45:30Z trunk a236eaa762) +JIT [x86_64-linux]
+    last_commit=Native MonitorMixin::ConditionVariable#wait
+  9e07dfd253: |-
+    ruby 2.7.0dev (2019-10-20T07:16:54Z trunk 9e07dfd253) [x86_64-linux]
+    last_commit=show BASERUBY version at configure.
+  9e07dfd253 --jit: |-
+    ruby 2.7.0dev (2019-10-20T07:16:54Z trunk 9e07dfd253) +JIT [x86_64-linux]
+    last_commit=show BASERUBY version at configure.
