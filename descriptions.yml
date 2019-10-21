@@ -5955,3 +5955,21 @@ commits:
   c8f97d1620 --jit: |-
     ruby 2.7.0dev (2019-10-21T09:46:54Z trunk c8f97d1620) +JIT [x86_64-linux]
     last_commit=NEWS: structured the "Language changes" section
+  f364564e66: |-
+    ruby 2.7.0dev (2019-10-21T12:24:21Z trunk f364564e66) [x86_64-linux]
+    last_commit=bignum.c (estimate_initial_sqrt): prevent integer overflow
+  f364564e66 --jit: |-
+    ruby 2.7.0dev (2019-10-21T12:24:21Z trunk f364564e66) +JIT [x86_64-linux]
+    last_commit=bignum.c (estimate_initial_sqrt): prevent integer overflow
+  228ebdbf2f: |-
+    ruby 2.7.0dev (2019-10-21T12:26:47Z trunk 228ebdbf2f) [x86_64-linux]
+    last_commit=NEWS: fix a typo
+  228ebdbf2f --jit: |-
+    ruby 2.7.0dev (2019-10-21T12:26:47Z trunk 228ebdbf2f) +JIT [x86_64-linux]
+    last_commit=NEWS: fix a typo
+  ec2da08e2b: |-
+    ruby 2.7.0dev (2019-10-21T12:32:40Z trunk ec2da08e2b) [x86_64-linux]
+    last_commit=NEWS: fixed indents [ci skip]
+  ec2da08e2b --jit: |-
+    ruby 2.7.0dev (2019-10-21T12:32:40Z trunk ec2da08e2b) +JIT [x86_64-linux]
+    last_commit=NEWS: fixed indents [ci skip]
