@@ -5955,3 +5955,45 @@ commits:
   ca7de0334d --jit: |-
     ruby 2.7.0dev (2019-10-20T11:45:56Z trunk ca7de0334d) +JIT [x86_64-linux]
     last_commit=Also BDOT2 and BDOT3 are operators
+  '9223466752': |-
+    ruby 2.7.0dev (2019-10-21T00:11:27Z trunk 9223466752) [x86_64-linux]
+    last_commit=test_exception - fix with & w/o did_you_mean
+  9223466752 --jit: |-
+    ruby 2.7.0dev (2019-10-21T00:11:27Z trunk 9223466752) +JIT [x86_64-linux]
+    last_commit=test_exception - fix with & w/o did_you_mean
+  1d29c9bd46: |-
+    ruby 2.7.0dev (2019-10-21T00:11:47Z trunk 1d29c9bd46) [x86_64-linux]
+    last_commit=* 2019-10-21 [ci skip]
+  1d29c9bd46 --jit: |-
+    ruby 2.7.0dev (2019-10-21T00:11:47Z trunk 1d29c9bd46) +JIT [x86_64-linux]
+    last_commit=* 2019-10-21 [ci skip]
+  27261007eb: |-
+    ruby 2.7.0dev (2019-10-21T00:28:28Z trunk 27261007eb) [x86_64-linux]
+    last_commit=DidYouMean can be an empty stub module [Bug #16263]
+  27261007eb --jit: |-
+    ruby 2.7.0dev (2019-10-21T00:28:28Z trunk 27261007eb) +JIT [x86_64-linux]
+    last_commit=DidYouMean can be an empty stub module [Bug #16263]
+  71ffe40a44: |-
+    ruby 2.7.0dev (2019-10-21T00:53:56Z trunk 71ffe40a44) [x86_64-linux]
+    last_commit=test/optparse/test_did_you_mean.rb - fix suggestion order
+  71ffe40a44 --jit: |-
+    ruby 2.7.0dev (2019-10-21T00:53:56Z trunk 71ffe40a44) +JIT [x86_64-linux]
+    last_commit=test/optparse/test_did_you_mean.rb - fix suggestion order
+  263ee6639d: |-
+    ruby 2.7.0dev (2019-10-21T00:54:11Z trunk 263ee6639d) [x86_64-linux]
+    last_commit=Make suggestions order stable [Bug #16263]
+  263ee6639d --jit: |-
+    ruby 2.7.0dev (2019-10-21T00:54:11Z trunk 263ee6639d) +JIT [x86_64-linux]
+    last_commit=Make suggestions order stable [Bug #16263]
+  e70e81b54e: |-
+    ruby 2.7.0dev (2019-10-21T02:14:36Z trunk e70e81b54e) [x86_64-linux]
+    last_commit=st: Add NULL checking
+  e70e81b54e --jit: |-
+    ruby 2.7.0dev (2019-10-21T02:14:36Z trunk e70e81b54e) +JIT [x86_64-linux]
+    last_commit=st: Add NULL checking
+  375124be51: |-
+    ruby 2.7.0dev (2019-10-21T02:14:36Z trunk 375124be51) [x86_64-linux]
+    last_commit=st: Do error check only on non-Ruby
+  375124be51 --jit: |-
+    ruby 2.7.0dev (2019-10-21T02:14:36Z trunk 375124be51) +JIT [x86_64-linux]
+    last_commit=st: Do error check only on non-Ruby
