@@ -5955,3 +5955,9 @@ commits:
   f37cc1c719 --jit: |-
     ruby 2.7.0dev (2019-10-21T19:48:38Z trunk f37cc1c719) +JIT [x86_64-linux]
     last_commit=Fallback to TCP in resolv if UDP bind raises EACCES
+  fa8ac91e95: |-
+    ruby 2.7.0dev (2019-10-21T23:54:58Z trunk fa8ac91e95) [x86_64-linux]
+    last_commit=Fix Fiber#transfer
+  fa8ac91e95 --jit: |-
+    ruby 2.7.0dev (2019-10-21T23:54:58Z trunk fa8ac91e95) +JIT [x86_64-linux]
+    last_commit=Fix Fiber#transfer
