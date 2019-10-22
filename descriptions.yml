@@ -5973,3 +5973,15 @@ commits:
   97a03a0356 --jit: |-
     ruby 2.7.0dev (2019-10-22T03:21:02Z trunk 97a03a0356) +JIT [x86_64-linux]
     last_commit=Add a cron job to keep CPDEBUG working
+  5e0d33a856: |-
+    ruby 2.7.0dev (2019-10-22T05:06:39Z trunk 5e0d33a856) [x86_64-linux]
+    last_commit=appveyor.yml - remove timezone & tzinfo gems from MSVC builds
+  5e0d33a856 --jit: |-
+    ruby 2.7.0dev (2019-10-22T05:06:39Z trunk 5e0d33a856) +JIT [x86_64-linux]
+    last_commit=appveyor.yml - remove timezone & tzinfo gems from MSVC builds
+  22845176d7: |-
+    ruby 2.7.0dev (2019-10-22T05:06:45Z trunk 22845176d7) [x86_64-linux]
+    last_commit=test/ruby/test_exception typo fix
+  22845176d7 --jit: |-
+    ruby 2.7.0dev (2019-10-22T05:06:45Z trunk 22845176d7) +JIT [x86_64-linux]
+    last_commit=test/ruby/test_exception typo fix
