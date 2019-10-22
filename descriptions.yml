@@ -5985,3 +5985,57 @@ commits:
   22845176d7 --jit: |-
     ruby 2.7.0dev (2019-10-22T05:06:45Z trunk 22845176d7) +JIT [x86_64-linux]
     last_commit=test/ruby/test_exception typo fix
+  0e735b218f: |-
+    ruby 2.7.0dev (2019-10-22T10:32:04Z trunk 0e735b218f) [x86_64-linux]
+    last_commit=NEWS: Make Net::FTP#features and #option more informative
+  0e735b218f --jit: |-
+    ruby 2.7.0dev (2019-10-22T10:32:04Z trunk 0e735b218f) +JIT [x86_64-linux]
+    last_commit=NEWS: Make Net::FTP#features and #option more informative
+  fac4339a12: |-
+    ruby 2.7.0dev (2019-10-22T10:39:42Z trunk fac4339a12) [x86_64-linux]
+    last_commit=NEWS: add an example for Lazy#eager
+  fac4339a12 --jit: |-
+    ruby 2.7.0dev (2019-10-22T10:39:42Z trunk fac4339a12) +JIT [x86_64-linux]
+    last_commit=NEWS: add an example for Lazy#eager
+  02aadf1032: |-
+    ruby 2.7.0dev (2019-10-22T10:46:44Z trunk 02aadf1032) [x86_64-linux]
+    last_commit=NEWS: Fix the example of Lazy#eager
+  02aadf1032 --jit: |-
+    ruby 2.7.0dev (2019-10-22T10:46:44Z trunk 02aadf1032) +JIT [x86_64-linux]
+    last_commit=NEWS: Fix the example of Lazy#eager
+  501b517dfb: |-
+    ruby 2.7.0dev (2019-10-22T11:06:07Z trunk 501b517dfb) [x86_64-linux]
+    last_commit=NEWS: add a URL about the performance improvement of CGI.escapeHTML
+  501b517dfb --jit: |-
+    ruby 2.7.0dev (2019-10-22T11:06:07Z trunk 501b517dfb) +JIT [x86_64-linux]
+    last_commit=NEWS: add a URL about the performance improvement of CGI.escapeHTML
+  ed3333f873: |-
+    ruby 2.7.0dev (2019-10-22T12:05:52Z trunk ed3333f873) [x86_64-linux]
+    last_commit=make-snapshot: Regexp#match raises on nil now
+  ed3333f873 --jit: |-
+    ruby 2.7.0dev (2019-10-22T12:05:52Z trunk ed3333f873) +JIT [x86_64-linux]
+    last_commit=make-snapshot: Regexp#match raises on nil now
+  aec0a293a4: |-
+    ruby 2.7.0dev (2019-10-22T12:17:29Z trunk aec0a293a4) [x86_64-linux]
+    last_commit=Add a tool to generate a patch for www from log
+  aec0a293a4 --jit: |-
+    ruby 2.7.0dev (2019-10-22T12:17:29Z trunk aec0a293a4) +JIT [x86_64-linux]
+    last_commit=Add a tool to generate a patch for www from log
+  04075305d3: |-
+    ruby 2.7.0dev (2019-10-22T12:33:24Z trunk 04075305d3) [x86_64-linux]
+    last_commit=Ignore timestamp file for the expected failure [ci skip]
+  04075305d3 --jit: |-
+    ruby 2.7.0dev (2019-10-22T12:33:24Z trunk 04075305d3) +JIT [x86_64-linux]
+    last_commit=Ignore timestamp file for the expected failure [ci skip]
+  d736511e42: |-
+    ruby 2.7.0dev (2019-10-22T12:44:19Z trunk d736511e42) [x86_64-linux]
+    last_commit=Move format-release to tool and fix bugs
+  d736511e42 --jit: |-
+    ruby 2.7.0dev (2019-10-22T12:44:19Z trunk d736511e42) +JIT [x86_64-linux]
+    last_commit=Move format-release to tool and fix bugs
+  99ca5705a2: |-
+    ruby 2.7.0dev (2019-10-22T13:15:52Z trunk 99ca5705a2) [x86_64-linux]
+    last_commit=tool/release.sh uses ruby-actions' result
+  99ca5705a2 --jit: |-
+    ruby 2.7.0dev (2019-10-22T13:15:52Z trunk 99ca5705a2) +JIT [x86_64-linux]
+    last_commit=tool/release.sh uses ruby-actions' result
