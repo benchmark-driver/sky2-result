@@ -5955,3 +5955,27 @@ commits:
   801a11d0ab --jit: |-
     ruby 2.7.0dev (2019-10-22T16:05:52Z trunk 801a11d0ab) +JIT [x86_64-linux]
     last_commit=Relaxed tests for CPDEBUG mode
+  afab8122c3: |-
+    ruby 2.7.0dev (2019-10-22T17:04:36Z trunk afab8122c3) [x86_64-linux]
+    last_commit=Fix the exception when CPDEBUG
+  afab8122c3 --jit: |-
+    ruby 2.7.0dev (2019-10-22T17:04:36Z trunk afab8122c3) +JIT [x86_64-linux]
+    last_commit=Fix the exception when CPDEBUG
+  601f1fb456: |-
+    ruby 2.7.0dev (2019-10-22T17:05:28Z trunk 601f1fb456) [x86_64-linux]
+    last_commit=Catch syntax error even if fatal
+  601f1fb456 --jit: |-
+    ruby 2.7.0dev (2019-10-22T17:05:28Z trunk 601f1fb456) +JIT [x86_64-linux]
+    last_commit=Catch syntax error even if fatal
+  d5d5844744: |-
+    ruby 2.7.0dev (2019-10-22T17:30:14Z trunk d5d5844744) [x86_64-linux]
+    last_commit=Use dedicated assertion methods for warning and syntax error
+  d5d5844744 --jit: |-
+    ruby 2.7.0dev (2019-10-22T17:30:14Z trunk d5d5844744) +JIT [x86_64-linux]
+    last_commit=Use dedicated assertion methods for warning and syntax error
+  46f175ed5c: |-
+    ruby 2.7.0dev (2019-10-22T17:53:36Z trunk 46f175ed5c) [x86_64-linux]
+    last_commit=Use cppflags to pass preprocessor options
+  46f175ed5c --jit: |-
+    ruby 2.7.0dev (2019-10-22T17:53:36Z trunk 46f175ed5c) +JIT [x86_64-linux]
+    last_commit=Use cppflags to pass preprocessor options
