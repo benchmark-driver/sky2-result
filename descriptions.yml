@@ -5955,3 +5955,15 @@ commits:
   df91896f32 --jit: |-
     ruby 2.7.0dev (2019-10-23T18:12:22Z trunk df91896f32) +JIT [x86_64-linux]
     last_commit=More rdoc for ENV#[] and ENV#fetch
+  f26f0f4109: |-
+    ruby 2.7.0dev (2019-10-23T23:04:45Z trunk f26f0f4109) [x86_64-linux]
+    last_commit=hash.c: Do not use Unicode double-quotes
+  f26f0f4109 --jit: |-
+    ruby 2.7.0dev (2019-10-23T23:04:45Z trunk f26f0f4109) +JIT [x86_64-linux]
+    last_commit=hash.c: Do not use Unicode double-quotes
+  281f754126: |-
+    ruby 2.7.0dev (2019-10-23T23:30:33Z trunk 281f754126) [x86_64-linux]
+    last_commit=include/ruby/backward/cxxanyargs.hpp: call `va_end` before return
+  281f754126 --jit: |-
+    ruby 2.7.0dev (2019-10-23T23:30:33Z trunk 281f754126) +JIT [x86_64-linux]
+    last_commit=include/ruby/backward/cxxanyargs.hpp: call `va_end` before return
