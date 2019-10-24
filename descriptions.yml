@@ -5955,3 +5955,51 @@ commits:
   dc44ab2913 --jit: |-
     ruby 2.7.0dev (2019-10-24T11:58:32Z trunk dc44ab2913) +JIT [x86_64-linux]
     last_commit=Revert "[ruby/fiddle] Fix a failing test (#13)"
+  8439caab0a: |-
+    ruby 2.7.0dev (2019-10-24T14:38:27Z trunk 8439caab0a) [x86_64-linux]
+    last_commit=Refined `rp` output [ci skip]
+  8439caab0a --jit: |-
+    ruby 2.7.0dev (2019-10-24T14:38:27Z trunk 8439caab0a) +JIT [x86_64-linux]
+    last_commit=Refined `rp` output [ci skip]
+  1fb4584825: |-
+    ruby 2.7.0dev (2019-10-24T14:47:50Z trunk 1fb4584825) [x86_64-linux]
+    last_commit=Remove unsused output_method argument
+  1fb4584825 --jit: |-
+    ruby 2.7.0dev (2019-10-24T14:47:50Z trunk 1fb4584825) +JIT [x86_64-linux]
+    last_commit=Remove unsused output_method argument
+  6279e45cde: |-
+    ruby 2.7.0dev (2019-10-24T15:15:39Z trunk 6279e45cde) [x86_64-linux]
+    last_commit=Arguments forwarding is not allowed in lambda [Feature #16253]
+  6279e45cde --jit: |-
+    ruby 2.7.0dev (2019-10-24T15:15:39Z trunk 6279e45cde) +JIT [x86_64-linux]
+    last_commit=Arguments forwarding is not allowed in lambda [Feature #16253]
+  2ea698969e: |-
+    ruby 2.7.0dev (2019-10-24T15:16:26Z trunk 2ea698969e) [x86_64-linux]
+    last_commit=* 2019-10-25 [ci skip]
+  2ea698969e --jit: |-
+    ruby 2.7.0dev (2019-10-24T15:16:26Z trunk 2ea698969e) +JIT [x86_64-linux]
+    last_commit=* 2019-10-25 [ci skip]
+  8d0c5eb805: |-
+    ruby 2.7.0dev (2019-10-24T15:54:24Z trunk 8d0c5eb805) [x86_64-linux]
+    last_commit=Set method locations
+  8d0c5eb805 --jit: |-
+    ruby 2.7.0dev (2019-10-24T15:54:24Z trunk 8d0c5eb805) +JIT [x86_64-linux]
+    last_commit=Set method locations
+  ed65e2d5ae: |-
+    ruby 2.7.0dev (2019-10-24T15:56:27Z trunk ed65e2d5ae) [x86_64-linux]
+    last_commit=Assert no-block case
+  ed65e2d5ae --jit: |-
+    ruby 2.7.0dev (2019-10-24T15:56:27Z trunk ed65e2d5ae) +JIT [x86_64-linux]
+    last_commit=Assert no-block case
+  4b3e007e07: |-
+    ruby 2.7.0dev (2019-10-24T16:07:22Z trunk 4b3e007e07) [x86_64-linux]
+    last_commit=Assert no-kwrest case
+  4b3e007e07 --jit: |-
+    ruby 2.7.0dev (2019-10-24T16:07:22Z trunk 4b3e007e07) +JIT [x86_64-linux]
+    last_commit=Assert no-kwrest case
+  b609bdeb53: |-
+    ruby 2.7.0dev (2019-10-24T16:16:05Z trunk b609bdeb53) [x86_64-linux]
+    last_commit=Define arguments forwarding as `ruby2_keywords` style
+  b609bdeb53 --jit: |-
+    ruby 2.7.0dev (2019-10-24T16:16:05Z trunk b609bdeb53) +JIT [x86_64-linux]
+    last_commit=Define arguments forwarding as `ruby2_keywords` style
