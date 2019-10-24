@@ -9,108 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  69683968a9: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 69683968a9) [x86_64-linux]
-    last_commit=fix arity of rb_mutex_synchronize_m
-  69683968a9 --jit: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 69683968a9) +JIT [x86_64-linux]
-    last_commit=fix arity of rb_mutex_synchronize_m
-  48e346a088: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 48e346a088) [x86_64-linux]
-    last_commit=fix arity of bug_start
-  48e346a088 --jit: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 48e346a088) +JIT [x86_64-linux]
-    last_commit=fix arity of bug_start
-  9ef51b0b89: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 9ef51b0b89) [x86_64-linux]
-    last_commit=drop-in type check for rb_define_method
-  9ef51b0b89 --jit: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 9ef51b0b89) +JIT [x86_64-linux]
-    last_commit=drop-in type check for rb_define_method
-  7b6fde4258: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 7b6fde4258) [x86_64-linux]
-    last_commit=drop-in type check for rb_define_module_function
-  7b6fde4258 --jit: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 7b6fde4258) +JIT [x86_64-linux]
-    last_commit=drop-in type check for rb_define_module_function
-  7bcfd9189a: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 7bcfd9189a) [x86_64-linux]
-    last_commit=drop-in type check for rb_define_global_function
-  7bcfd9189a --jit: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 7bcfd9189a) +JIT [x86_64-linux]
-    last_commit=drop-in type check for rb_define_global_function
-  0766f67168: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 0766f67168) [x86_64-linux]
-    last_commit=move docs around [ci skip]
-  0766f67168 --jit: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 0766f67168) +JIT [x86_64-linux]
-    last_commit=move docs around [ci skip]
-  0b81e7d6e2: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 0b81e7d6e2) [x86_64-linux]
-    last_commit=drop-in type check for rb_define_method_id
-  0b81e7d6e2 --jit: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 0b81e7d6e2) +JIT [x86_64-linux]
-    last_commit=drop-in type check for rb_define_method_id
-  9b429eb3b1: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 9b429eb3b1) [x86_64-linux]
-    last_commit=drop-in type check for rb_define_protected_method
-  9b429eb3b1 --jit: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 9b429eb3b1) +JIT [x86_64-linux]
-    last_commit=drop-in type check for rb_define_protected_method
-  bfe5d22f89: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk bfe5d22f89) [x86_64-linux]
-    last_commit=drop-in type check for rb_define_private_method
-  bfe5d22f89 --jit: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk bfe5d22f89) +JIT [x86_64-linux]
-    last_commit=drop-in type check for rb_define_private_method
-  3df37259d8: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 3df37259d8) [x86_64-linux]
-    last_commit=drop-in type check for rb_define_singleton_method
-  3df37259d8 --jit: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk 3df37259d8) +JIT [x86_64-linux]
-    last_commit=drop-in type check for rb_define_singleton_method
-  e4be2fda3d: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk e4be2fda3d) [x86_64-linux]
-    last_commit=Rule out gcc on Windows
-  e4be2fda3d --jit: |-
-    ruby 2.7.0dev (2019-08-29T09:34:09Z trunk e4be2fda3d) +JIT [x86_64-linux]
-    last_commit=Rule out gcc on Windows
-  a4a19b114b: |-
-    ruby 2.7.0dev (2019-08-29T11:40:52Z trunk a4a19b114b) [x86_64-linux]
-    last_commit=Allow non-finalizable objects in ObjectSpace::WeakMap
-  a4a19b114b --jit: |-
-    ruby 2.7.0dev (2019-08-29T11:40:52Z trunk a4a19b114b) +JIT [x86_64-linux]
-    last_commit=Allow non-finalizable objects in ObjectSpace::WeakMap
-  b74dd665c0: |-
-    ruby 2.7.0dev (2019-08-29T12:03:44Z trunk b74dd665c0) [x86_64-linux]
-    last_commit=CONSOLE_SCREEN_BUFFER_INFO is 22bytes
-  b74dd665c0 --jit: |-
-    ruby 2.7.0dev (2019-08-29T12:03:44Z trunk b74dd665c0) +JIT [x86_64-linux]
-    last_commit=CONSOLE_SCREEN_BUFFER_INFO is 22bytes
-  3a425c7623: |-
-    ruby 2.7.0dev (2019-08-29T12:05:19Z trunk 3a425c7623) [x86_64-linux]
-    last_commit=Fix alignment of a SHORT variable
-  3a425c7623 --jit: |-
-    ruby 2.7.0dev (2019-08-29T12:05:19Z trunk 3a425c7623) +JIT [x86_64-linux]
-    last_commit=Fix alignment of a SHORT variable
-  a39b26b594: |-
-    ruby 2.7.0dev (2019-08-29T12:11:53Z trunk a39b26b594) [x86_64-linux]
-    last_commit=Check events that console window size changed on Windows
-  a39b26b594 --jit: |-
-    ruby 2.7.0dev (2019-08-29T12:11:53Z trunk a39b26b594) +JIT [x86_64-linux]
-    last_commit=Check events that console window size changed on Windows
-  2c1e902cba: |-
-    ruby 2.7.0dev (2019-08-29T12:49:19Z trunk 2c1e902cba) [x86_64-linux]
-    last_commit=Don't pick up lib/readline.rb from ruby/reline
-  2c1e902cba --jit: |-
-    ruby 2.7.0dev (2019-08-29T12:49:19Z trunk 2c1e902cba) +JIT [x86_64-linux]
-    last_commit=Don't pick up lib/readline.rb from ruby/reline
-  79117d4a9b: |-
-    ruby 2.7.0dev (2019-08-29T13:06:37Z trunk 79117d4a9b) [x86_64-linux]
-    last_commit=NEWS: [Feature #16035] [ci skip]
-  79117d4a9b --jit: |-
-    ruby 2.7.0dev (2019-08-29T13:06:37Z trunk 79117d4a9b) +JIT [x86_64-linux]
-    last_commit=NEWS: [Feature #16035] [ci skip]
   01b723ba6d: |-
     ruby 2.7.0dev (2019-08-29T14:06:27Z trunk 01b723ba6d) [x86_64-linux]
     last_commit=Refined warnings against literal in flip-flop
@@ -6027,3 +5925,33 @@ commits:
   659f7c0aeb --jit: |-
     ruby 2.7.0dev (2019-10-23T15:00:59Z trunk 659f7c0aeb) +JIT [x86_64-linux]
     last_commit=* 2019-10-24 [ci skip]
+  7bc787fa06: |-
+    ruby 2.7.0dev (2019-10-23T15:12:58Z trunk 7bc787fa06) [x86_64-linux]
+    last_commit=Support forced enter insertion by Ctrl+Enter on Windows
+  7bc787fa06 --jit: |-
+    ruby 2.7.0dev (2019-10-23T15:12:58Z trunk 7bc787fa06) +JIT [x86_64-linux]
+    last_commit=Support forced enter insertion by Ctrl+Enter on Windows
+  7391db4ab3: |-
+    ruby 2.7.0dev (2019-10-23T16:18:19Z trunk 7391db4ab3) [x86_64-linux]
+    last_commit=Updated minitest to 5.12.2
+  7391db4ab3 --jit: |-
+    ruby 2.7.0dev (2019-10-23T16:18:19Z trunk 7391db4ab3) +JIT [x86_64-linux]
+    last_commit=Updated minitest to 5.12.2
+  f1d4216bd9: |-
+    ruby 2.7.0dev (2019-10-23T16:42:48Z trunk f1d4216bd9) [x86_64-linux]
+    last_commit=Added refresh-gems
+  f1d4216bd9 --jit: |-
+    ruby 2.7.0dev (2019-10-23T16:42:48Z trunk f1d4216bd9) +JIT [x86_64-linux]
+    last_commit=Added refresh-gems
+  6df6611ce7: |-
+    ruby 2.7.0dev (2019-10-23T17:49:14Z trunk 6df6611ce7) [x86_64-linux]
+    last_commit=Treat only left alt key as meta-key on Windows
+  6df6611ce7 --jit: |-
+    ruby 2.7.0dev (2019-10-23T17:49:14Z trunk 6df6611ce7) +JIT [x86_64-linux]
+    last_commit=Treat only left alt key as meta-key on Windows
+  df91896f32: |-
+    ruby 2.7.0dev (2019-10-23T18:12:22Z trunk df91896f32) [x86_64-linux]
+    last_commit=More rdoc for ENV#[] and ENV#fetch
+  df91896f32 --jit: |-
+    ruby 2.7.0dev (2019-10-23T18:12:22Z trunk df91896f32) +JIT [x86_64-linux]
+    last_commit=More rdoc for ENV#[] and ENV#fetch
