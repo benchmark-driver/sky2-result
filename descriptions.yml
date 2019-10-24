@@ -9,198 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  01b723ba6d: |-
-    ruby 2.7.0dev (2019-08-29T14:06:27Z trunk 01b723ba6d) [x86_64-linux]
-    last_commit=Refined warnings against literal in flip-flop
-  01b723ba6d --jit: |-
-    ruby 2.7.0dev (2019-08-29T14:06:27Z trunk 01b723ba6d) +JIT [x86_64-linux]
-    last_commit=Refined warnings against literal in flip-flop
-  e51dca2596: |-
-    ruby 2.7.0dev (2019-08-29T15:17:43Z trunk e51dca2596) [x86_64-linux]
-    last_commit=Disallow use of attrset symbols as Struct members
-  e51dca2596 --jit: |-
-    ruby 2.7.0dev (2019-08-29T15:17:43Z trunk e51dca2596) +JIT [x86_64-linux]
-    last_commit=Disallow use of attrset symbols as Struct members
-  c52d38b7b6: |-
-    ruby 2.7.0dev (2019-08-29T15:23:35Z trunk c52d38b7b6) [x86_64-linux]
-    last_commit=* 2019-08-30 [ci skip]
-  c52d38b7b6 --jit: |-
-    ruby 2.7.0dev (2019-08-29T15:23:35Z trunk c52d38b7b6) +JIT [x86_64-linux]
-    last_commit=* 2019-08-30 [ci skip]
-  a8b310e14c: |-
-    ruby 2.7.0dev (2019-08-29T15:35:37Z trunk a8b310e14c) [x86_64-linux]
-    last_commit=7z does not accept gzip's options
-  a8b310e14c --jit: |-
-    ruby 2.7.0dev (2019-08-29T15:35:37Z trunk a8b310e14c) +JIT [x86_64-linux]
-    last_commit=7z does not accept gzip's options
-  94b79bffb1: |-
-    ruby 2.7.0dev (2019-08-29T18:57:23Z trunk 94b79bffb1) [x86_64-linux]
-    last_commit=Add word "Euler's number" to Math::E docs
-  94b79bffb1 --jit: |-
-    ruby 2.7.0dev (2019-08-29T18:57:23Z trunk 94b79bffb1) +JIT [x86_64-linux]
-    last_commit=Add word "Euler's number" to Math::E docs
-  bdc36094e3: |-
-    ruby 2.7.0dev (2019-08-29T21:51:34Z trunk bdc36094e3) [x86_64-linux]
-    last_commit=Add some NODE information for lldb
-  bdc36094e3 --jit: |-
-    ruby 2.7.0dev (2019-08-29T21:51:34Z trunk bdc36094e3) +JIT [x86_64-linux]
-    last_commit=Add some NODE information for lldb
-  0a9d74f8cf: |-
-    ruby 2.7.0dev (2019-08-29T21:58:29Z trunk 0a9d74f8cf) [x86_64-linux]
-    last_commit=Move pread + pwrite tests out of RUBY_ENGINE block
-  0a9d74f8cf --jit: |-
-    ruby 2.7.0dev (2019-08-29T21:58:29Z trunk 0a9d74f8cf) +JIT [x86_64-linux]
-    last_commit=Move pread + pwrite tests out of RUBY_ENGINE block
-  500149709b: |-
-    ruby 2.7.0dev (2019-08-30T01:21:50Z trunk 500149709b) [x86_64-linux]
-    last_commit=require 'pp' before use PP
-  500149709b --jit: |-
-    ruby 2.7.0dev (2019-08-30T01:21:50Z trunk 500149709b) +JIT [x86_64-linux]
-    last_commit=require 'pp' before use PP
-  83c6a1ef45: |-
-    ruby 2.7.0dev (2019-08-30T02:13:00Z trunk 83c6a1ef45) [x86_64-linux]
-    last_commit=proc.c: Add UnboundMethod#bind_call
-  83c6a1ef45 --jit: |-
-    ruby 2.7.0dev (2019-08-30T02:13:00Z trunk 83c6a1ef45) +JIT [x86_64-linux]
-    last_commit=proc.c: Add UnboundMethod#bind_call
-  '09c940b17f': |-
-    ruby 2.7.0dev (2019-08-30T02:13:00Z trunk 09c940b17f) [x86_64-linux]
-    last_commit=spec/ruby/core/unboundmethod/bind_call_spec.rb: Added
-  '09c940b17f --jit': |-
-    ruby 2.7.0dev (2019-08-30T02:13:00Z trunk 09c940b17f) +JIT [x86_64-linux]
-    last_commit=spec/ruby/core/unboundmethod/bind_call_spec.rb: Added
-  c9fc82983c: |-
-    ruby 2.7.0dev (2019-08-30T02:13:00Z trunk c9fc82983c) [x86_64-linux]
-    last_commit=lib/pp.rb: Use UnboundMethod#bind_call instead of .bind(obj).call(...)
-  c9fc82983c --jit: |-
-    ruby 2.7.0dev (2019-08-30T02:13:00Z trunk c9fc82983c) +JIT [x86_64-linux]
-    last_commit=lib/pp.rb: Use UnboundMethod#bind_call instead of .bind(obj).call(...)
-  43ab88c737: |-
-    ruby 2.7.0dev (2019-08-30T02:20:43Z trunk 43ab88c737) [x86_64-linux]
-    last_commit=Workaround for https://reviews.llvm.org/D25824
-  43ab88c737 --jit: |-
-    ruby 2.7.0dev (2019-08-30T02:20:43Z trunk 43ab88c737) +JIT [x86_64-linux]
-    last_commit=Workaround for https://reviews.llvm.org/D25824
-  '1191049436': |-
-    ruby 2.7.0dev (2019-08-30T02:23:21Z trunk 1191049436) [x86_64-linux]
-    last_commit=Updated comment of VCS#get_revisions [ci skip]
-  1191049436 --jit: |-
-    ruby 2.7.0dev (2019-08-30T02:23:21Z trunk 1191049436) +JIT [x86_64-linux]
-    last_commit=Updated comment of VCS#get_revisions [ci skip]
-  55f496c89b: |-
-    ruby 2.7.0dev (2019-08-30T02:23:21Z trunk 55f496c89b) [x86_64-linux]
-    last_commit=Support revision in git-svn log
-  55f496c89b --jit: |-
-    ruby 2.7.0dev (2019-08-30T02:23:21Z trunk 55f496c89b) +JIT [x86_64-linux]
-    last_commit=Support revision in git-svn log
-  e593d5b31a: |-
-    ruby 2.7.0dev (2019-08-30T02:23:21Z trunk e593d5b31a) [x86_64-linux]
-    last_commit=Suppress uninitialized instance variable warnings [ci skip]
-  e593d5b31a --jit: |-
-    ruby 2.7.0dev (2019-08-30T02:23:21Z trunk e593d5b31a) +JIT [x86_64-linux]
-    last_commit=Suppress uninitialized instance variable warnings [ci skip]
-  98ccdd744a: |-
-    ruby 2.7.0dev (2019-08-30T02:23:21Z trunk 98ccdd744a) [x86_64-linux]
-    last_commit=Export the last modified revision for tags [ci skip]
-  98ccdd744a --jit: |-
-    ruby 2.7.0dev (2019-08-30T02:23:21Z trunk 98ccdd744a) +JIT [x86_64-linux]
-    last_commit=Export the last modified revision for tags [ci skip]
-  96b32aad93: |-
-    ruby 2.7.0dev (2019-08-30T02:26:48Z trunk 96b32aad93) [x86_64-linux]
-    last_commit=Exclude ripper y.output from packages [ci skip]
-  96b32aad93 --jit: |-
-    ruby 2.7.0dev (2019-08-30T02:26:48Z trunk 96b32aad93) +JIT [x86_64-linux]
-    last_commit=Exclude ripper y.output from packages [ci skip]
-  ba9adcc175: |-
-    ruby 2.7.0dev (2019-08-30T02:49:42Z trunk ba9adcc175) [x86_64-linux]
-    last_commit=spec/ruby/core/unboundmethod/bind_call_spec.rb: Add ruby_version_is guard
-  ba9adcc175 --jit: |-
-    ruby 2.7.0dev (2019-08-30T02:49:42Z trunk ba9adcc175) +JIT [x86_64-linux]
-    last_commit=spec/ruby/core/unboundmethod/bind_call_spec.rb: Add ruby_version_is guard
-  1680bd4e4f: |-
-    ruby 2.7.0dev (2019-08-30T03:03:50Z trunk 1680bd4e4f) [x86_64-linux]
-    last_commit=[DOC] Return obj may be different from 1st argument [ci skip]
-  1680bd4e4f --jit: |-
-    ruby 2.7.0dev (2019-08-30T03:03:50Z trunk 1680bd4e4f) +JIT [x86_64-linux]
-    last_commit=[DOC] Return obj may be different from 1st argument [ci skip]
-  e9da4f57b3: |-
-    ruby 2.7.0dev (2019-08-30T03:06:42Z trunk e9da4f57b3) [x86_64-linux]
-    last_commit=Adjust indent [ci skip]
-  e9da4f57b3 --jit: |-
-    ruby 2.7.0dev (2019-08-30T03:06:42Z trunk e9da4f57b3) +JIT [x86_64-linux]
-    last_commit=Adjust indent [ci skip]
-  896d9f967b: |-
-    ruby 2.7.0dev (2019-08-30T03:06:42Z trunk 896d9f967b) [x86_64-linux]
-    last_commit=Constified local variable `translator`
-  896d9f967b --jit: |-
-    ruby 2.7.0dev (2019-08-30T03:06:42Z trunk 896d9f967b) +JIT [x86_64-linux]
-    last_commit=Constified local variable `translator`
-  b870ca5879: |-
-    ruby 2.7.0dev (2019-08-30T03:49:27Z trunk b870ca5879) [x86_64-linux]
-    last_commit=Add guard as same as `==`
-  b870ca5879 --jit: |-
-    ruby 2.7.0dev (2019-08-30T03:49:27Z trunk b870ca5879) +JIT [x86_64-linux]
-    last_commit=Add guard as same as `==`
-  631db0de27: |-
-    ruby 2.7.0dev (2019-08-30T07:00:18Z trunk 631db0de27) [x86_64-linux]
-    last_commit=Removed debug print
-  631db0de27 --jit: |-
-    ruby 2.7.0dev (2019-08-30T07:00:18Z trunk 631db0de27) +JIT [x86_64-linux]
-    last_commit=Removed debug print
-  998ee350b9: |-
-    ruby 2.7.0dev (2019-08-30T07:09:08Z trunk 998ee350b9) [x86_64-linux]
-    last_commit=Revert "require 'pp' before use PP"
-  998ee350b9 --jit: |-
-    ruby 2.7.0dev (2019-08-30T07:09:08Z trunk 998ee350b9) +JIT [x86_64-linux]
-    last_commit=Revert "require 'pp' before use PP"
-  c45dd4d482: |-
-    ruby 2.7.0dev (2019-08-30T09:24:33Z trunk c45dd4d482) [x86_64-linux]
-    last_commit=Make the dot-colon method reference frozen
-  c45dd4d482 --jit: |-
-    ruby 2.7.0dev (2019-08-30T09:24:33Z trunk c45dd4d482) +JIT [x86_64-linux]
-    last_commit=Make the dot-colon method reference frozen
-  8c7f4e8f8b: |-
-    ruby 2.7.0dev (2019-08-30T13:03:37Z trunk 8c7f4e8f8b) [x86_64-linux]
-    last_commit=Try dropping DLDFLAGS from compile_c_to_o
-  8c7f4e8f8b --jit: |-
-    ruby 2.7.0dev (2019-08-30T13:03:37Z trunk 8c7f4e8f8b) +JIT [x86_64-linux]
-    last_commit=Try dropping DLDFLAGS from compile_c_to_o
-  b0a291f6f6: |-
-    ruby 2.7.0dev (2019-08-30T13:33:21Z trunk b0a291f6f6) [x86_64-linux]
-    last_commit=Split CC_LINKER_ARGS from CC_DLDFLAGS_ARGS
-  b0a291f6f6 --jit: |-
-    ruby 2.7.0dev (2019-08-30T13:33:21Z trunk b0a291f6f6) +JIT [x86_64-linux]
-    last_commit=Split CC_LINKER_ARGS from CC_DLDFLAGS_ARGS
-  16c6984bb9: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 16c6984bb9) [x86_64-linux]
-    last_commit=Separate keyword arguments from positional arguments
-  16c6984bb9 --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 16c6984bb9) +JIT [x86_64-linux]
-    last_commit=Separate keyword arguments from positional arguments
-  334b41a46b: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 334b41a46b) [x86_64-linux]
-    last_commit=Allow ** syntax to be used for calling methods that do not accept keywords
-  334b41a46b --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 334b41a46b) +JIT [x86_64-linux]
-    last_commit=Allow ** syntax to be used for calling methods that do not accept keywords
-  3f67fcd3d5: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 3f67fcd3d5) [x86_64-linux]
-    last_commit=Fix hash to keyword warning to apply in all cases
-  3f67fcd3d5 --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 3f67fcd3d5) +JIT [x86_64-linux]
-    last_commit=Fix hash to keyword warning to apply in all cases
-  d08e1004e0: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk d08e1004e0) [x86_64-linux]
-    last_commit=Fix keyword argument separation issues in lib
-  d08e1004e0 --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk d08e1004e0) +JIT [x86_64-linux]
-    last_commit=Fix keyword argument separation issues in lib
-  e0b4599bba: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk e0b4599bba) [x86_64-linux]
-    last_commit=Fix keyword argument separation warnings in test
-  e0b4599bba --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk e0b4599bba) +JIT [x86_64-linux]
-    last_commit=Fix keyword argument separation warnings in test
   9c2e165f7d: |-
     ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 9c2e165f7d) [x86_64-linux]
     last_commit=Only promote last hash to keyword if all keys are symbols
@@ -6057,3 +5865,93 @@ commits:
   70ca56deda --jit: |-
     ruby 2.7.0dev (2019-10-24T09:50:57Z trunk 70ca56deda) +JIT [x86_64-linux]
     last_commit=Temporarily skipped with upstream changes of Date library.
+  7733db665a: |-
+    ruby 2.7.0dev (2019-10-24T10:34:15Z trunk 7733db665a) [x86_64-linux]
+    last_commit=[ruby/fiddle] Fiddle::Function must maintain a reference to the closure
+  7733db665a --jit: |-
+    ruby 2.7.0dev (2019-10-24T10:34:15Z trunk 7733db665a) +JIT [x86_64-linux]
+    last_commit=[ruby/fiddle] Fiddle::Function must maintain a reference to the closure
+  5ebb0d50f6: |-
+    ruby 2.7.0dev (2019-10-24T10:34:22Z trunk 5ebb0d50f6) [x86_64-linux]
+    last_commit=[ruby/fiddle] Fix a failing test (#13)
+  5ebb0d50f6 --jit: |-
+    ruby 2.7.0dev (2019-10-24T10:34:22Z trunk 5ebb0d50f6) +JIT [x86_64-linux]
+    last_commit=[ruby/fiddle] Fix a failing test (#13)
+  4d844cbaed: |-
+    ruby 2.7.0dev (2019-10-24T10:34:29Z trunk 4d844cbaed) [x86_64-linux]
+    last_commit=[ruby/fiddle] test: use env Hash
+  4d844cbaed --jit: |-
+    ruby 2.7.0dev (2019-10-24T10:34:29Z trunk 4d844cbaed) +JIT [x86_64-linux]
+    last_commit=[ruby/fiddle] test: use env Hash
+  30d46966a9: |-
+    ruby 2.7.0dev (2019-10-24T10:34:36Z trunk 30d46966a9) [x86_64-linux]
+    last_commit=[ruby/fiddle] Use RbConfig::SIZEOF (#19)
+  30d46966a9 --jit: |-
+    ruby 2.7.0dev (2019-10-24T10:34:36Z trunk 30d46966a9) +JIT [x86_64-linux]
+    last_commit=[ruby/fiddle] Use RbConfig::SIZEOF (#19)
+  ce6caade7c: |-
+    ruby 2.7.0dev (2019-10-24T10:34:43Z trunk ce6caade7c) [x86_64-linux]
+    last_commit=[ruby/fiddle] Use ffi_closure_free by default. (#20)
+  ce6caade7c --jit: |-
+    ruby 2.7.0dev (2019-10-24T10:34:43Z trunk ce6caade7c) +JIT [x86_64-linux]
+    last_commit=[ruby/fiddle] Use ffi_closure_free by default. (#20)
+  b809784817: |-
+    ruby 2.7.0dev (2019-10-24T10:34:49Z trunk b809784817) [x86_64-linux]
+    last_commit=[ruby/fiddle] Remove taint support (#21)
+  b809784817 --jit: |-
+    ruby 2.7.0dev (2019-10-24T10:34:49Z trunk b809784817) +JIT [x86_64-linux]
+    last_commit=[ruby/fiddle] Remove taint support (#21)
+  f0452574b1: |-
+    ruby 2.7.0dev (2019-10-24T10:46:01Z trunk f0452574b1) [x86_64-linux]
+    last_commit=[ruby/webrick] after ruby-2.6.0, set Net::HTTP#write_timeout
+  f0452574b1 --jit: |-
+    ruby 2.7.0dev (2019-10-24T10:46:01Z trunk f0452574b1) +JIT [x86_64-linux]
+    last_commit=[ruby/webrick] after ruby-2.6.0, set Net::HTTP#write_timeout
+  8189d496df: |-
+    ruby 2.7.0dev (2019-10-24T10:46:08Z trunk 8189d496df) [x86_64-linux]
+    last_commit=[ruby/webrick] Remove Webrick::HTTPResponse#to_s
+  8189d496df --jit: |-
+    ruby 2.7.0dev (2019-10-24T10:46:08Z trunk 8189d496df) +JIT [x86_64-linux]
+    last_commit=[ruby/webrick] Remove Webrick::HTTPResponse#to_s
+  84ed4c3d59: |-
+    ruby 2.7.0dev (2019-10-24T10:47:01Z trunk 84ed4c3d59) [x86_64-linux]
+    last_commit=[ruby/webrick] bump version to 1.5.0
+  84ed4c3d59 --jit: |-
+    ruby 2.7.0dev (2019-10-24T10:47:01Z trunk 84ed4c3d59) +JIT [x86_64-linux]
+    last_commit=[ruby/webrick] bump version to 1.5.0
+  37c266aa57: |-
+    ruby 2.7.0dev (2019-10-24T10:47:10Z trunk 37c266aa57) [x86_64-linux]
+    last_commit=[ruby/webrick] Remove the squishing of whitespace in header values
+  37c266aa57 --jit: |-
+    ruby 2.7.0dev (2019-10-24T10:47:10Z trunk 37c266aa57) +JIT [x86_64-linux]
+    last_commit=[ruby/webrick] Remove the squishing of whitespace in header values
+  c28d50a753: |-
+    ruby 2.7.0dev (2019-10-24T10:47:20Z trunk c28d50a753) [x86_64-linux]
+    last_commit=[ruby/webrick] Support literal IPv6 addresses in X-Forwarded-Host
+  c28d50a753 --jit: |-
+    ruby 2.7.0dev (2019-10-24T10:47:20Z trunk c28d50a753) +JIT [x86_64-linux]
+    last_commit=[ruby/webrick] Support literal IPv6 addresses in X-Forwarded-Host
+  f126d80b1e: |-
+    ruby 2.7.0dev (2019-10-24T10:47:29Z trunk f126d80b1e) [x86_64-linux]
+    last_commit=[ruby/webrick] Don't check tainting in access log escaping
+  f126d80b1e --jit: |-
+    ruby 2.7.0dev (2019-10-24T10:47:29Z trunk f126d80b1e) +JIT [x86_64-linux]
+    last_commit=[ruby/webrick] Don't check tainting in access log escaping
+  efd641ffab: |-
+    ruby 2.7.0dev (2019-10-24T11:58:32Z trunk efd641ffab) [x86_64-linux]
+    last_commit=Revert "[ruby/fiddle] Use ffi_closure_free by default. (#20)"
+  efd641ffab --jit: |-
+    ruby 2.7.0dev (2019-10-24T11:58:32Z trunk efd641ffab) +JIT [x86_64-linux]
+    last_commit=Revert "[ruby/fiddle] Use ffi_closure_free by default. (#20)"
+  de5ee47c3d: |-
+    ruby 2.7.0dev (2019-10-24T11:58:32Z trunk de5ee47c3d) [x86_64-linux]
+    last_commit=Revert "[ruby/fiddle] test: use env Hash"
+  de5ee47c3d --jit: |-
+    ruby 2.7.0dev (2019-10-24T11:58:32Z trunk de5ee47c3d) +JIT [x86_64-linux]
+    last_commit=Revert "[ruby/fiddle] test: use env Hash"
+  dc44ab2913: |-
+    ruby 2.7.0dev (2019-10-24T11:58:32Z trunk dc44ab2913) [x86_64-linux]
+    last_commit=Revert "[ruby/fiddle] Fix a failing test (#13)"
+  dc44ab2913 --jit: |-
+    ruby 2.7.0dev (2019-10-24T11:58:32Z trunk dc44ab2913) +JIT [x86_64-linux]
+    last_commit=Revert "[ruby/fiddle] Fix a failing test (#13)"
