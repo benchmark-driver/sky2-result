@@ -5967,3 +5967,93 @@ commits:
   281f754126 --jit: |-
     ruby 2.7.0dev (2019-10-23T23:30:33Z trunk 281f754126) +JIT [x86_64-linux]
     last_commit=include/ruby/backward/cxxanyargs.hpp: call `va_end` before return
+  2791989a31: |-
+    ruby 2.7.0dev (2019-10-24T07:11:01Z trunk 2791989a31) [x86_64-linux]
+    last_commit=Fixed sync path of e2mmap structure for gemspec.
+  2791989a31 --jit: |-
+    ruby 2.7.0dev (2019-10-24T07:11:01Z trunk 2791989a31) +JIT [x86_64-linux]
+    last_commit=Fixed sync path of e2mmap structure for gemspec.
+  ff953a003e: |-
+    ruby 2.7.0dev (2019-10-24T07:12:34Z trunk ff953a003e) [x86_64-linux]
+    last_commit=Fixed the require path for e2mmap version file.
+  ff953a003e --jit: |-
+    ruby 2.7.0dev (2019-10-24T07:12:34Z trunk ff953a003e) +JIT [x86_64-linux]
+    last_commit=Fixed the require path for e2mmap version file.
+  65e8267938: |-
+    ruby 2.7.0dev (2019-10-24T07:17:17Z trunk 65e8267938) [x86_64-linux]
+    last_commit=Revert "Fixed the require path for e2mmap version file."
+  65e8267938 --jit: |-
+    ruby 2.7.0dev (2019-10-24T07:17:17Z trunk 65e8267938) +JIT [x86_64-linux]
+    last_commit=Revert "Fixed the require path for e2mmap version file."
+  4c3e3b8028: |-
+    ruby 2.7.0dev (2019-10-24T07:46:21Z trunk 4c3e3b8028) [x86_64-linux]
+    last_commit=Revert "Fix Fiber#transfer"
+  4c3e3b8028 --jit: |-
+    ruby 2.7.0dev (2019-10-24T07:46:21Z trunk 4c3e3b8028) +JIT [x86_64-linux]
+    last_commit=Revert "Fix Fiber#transfer"
+  38e931fa2c: |-
+    ruby 2.7.0dev (2019-10-24T07:46:21Z trunk 38e931fa2c) [x86_64-linux]
+    last_commit=show "transferred" attribute on Fiber#to_s
+  38e931fa2c --jit: |-
+    ruby 2.7.0dev (2019-10-24T07:46:21Z trunk 38e931fa2c) +JIT [x86_64-linux]
+    last_commit=show "transferred" attribute on Fiber#to_s
+  89e7997622: |-
+    ruby 2.7.0dev (2019-10-24T09:03:42Z trunk 89e7997622) [x86_64-linux]
+    last_commit=Combine call info and cache to speed up method invocation
+  89e7997622 --jit: |-
+    ruby 2.7.0dev (2019-10-24T09:03:42Z trunk 89e7997622) +JIT [x86_64-linux]
+    last_commit=Combine call info and cache to speed up method invocation
+  f1de438380: |-
+    ruby 2.7.0dev (2019-10-24T09:03:42Z trunk f1de438380) [x86_64-linux]
+    last_commit=Use CPDEBUG for debug code
+  f1de438380 --jit: |-
+    ruby 2.7.0dev (2019-10-24T09:03:42Z trunk f1de438380) +JIT [x86_64-linux]
+    last_commit=Use CPDEBUG for debug code
+  9eb798a3f1: |-
+    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 9eb798a3f1) [x86_64-linux]
+    last_commit=[ruby/date] Make julian dates roundtrip through to_time.to_date
+  9eb798a3f1 --jit: |-
+    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 9eb798a3f1) +JIT [x86_64-linux]
+    last_commit=[ruby/date] Make julian dates roundtrip through to_time.to_date
+  4e40ca301c: |-
+    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 4e40ca301c) [x86_64-linux]
+    last_commit=[ruby/date] Check for numeric arguments in constructors
+  4e40ca301c --jit: |-
+    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 4e40ca301c) +JIT [x86_64-linux]
+    last_commit=[ruby/date] Check for numeric arguments in constructors
+  fc0e8d00bc: |-
+    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk fc0e8d00bc) [x86_64-linux]
+    last_commit=[ruby/date] Support -Float::INFINITY...date ranges
+  fc0e8d00bc --jit: |-
+    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk fc0e8d00bc) +JIT [x86_64-linux]
+    last_commit=[ruby/date] Support -Float::INFINITY...date ranges
+  2e37c1960a: |-
+    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 2e37c1960a) [x86_64-linux]
+    last_commit=[ruby/date] Remove taint support
+  2e37c1960a --jit: |-
+    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 2e37c1960a) +JIT [x86_64-linux]
+    last_commit=[ruby/date] Remove taint support
+  913807bd6c: |-
+    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 913807bd6c) [x86_64-linux]
+    last_commit=[ruby/date] Simplify #inspect
+  913807bd6c --jit: |-
+    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 913807bd6c) +JIT [x86_64-linux]
+    last_commit=[ruby/date] Simplify #inspect
+  9d3a4ab05b: |-
+    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 9d3a4ab05b) [x86_64-linux]
+    last_commit=[ruby/date] Update docs
+  9d3a4ab05b --jit: |-
+    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 9d3a4ab05b) +JIT [x86_64-linux]
+    last_commit=[ruby/date] Update docs
+  487d96c6b1: |-
+    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 487d96c6b1) [x86_64-linux]
+    last_commit=[ruby/date] Use Gemfile instead of Gem::Specification#add_development_dependency.
+  487d96c6b1 --jit: |-
+    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 487d96c6b1) +JIT [x86_64-linux]
+    last_commit=[ruby/date] Use Gemfile instead of Gem::Specification#add_development_dependency.
+  70ca56deda: |-
+    ruby 2.7.0dev (2019-10-24T09:50:57Z trunk 70ca56deda) [x86_64-linux]
+    last_commit=Temporarily skipped with upstream changes of Date library.
+  70ca56deda --jit: |-
+    ruby 2.7.0dev (2019-10-24T09:50:57Z trunk 70ca56deda) +JIT [x86_64-linux]
+    last_commit=Temporarily skipped with upstream changes of Date library.
