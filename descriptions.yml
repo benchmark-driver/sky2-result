@@ -5955,3 +5955,21 @@ commits:
   4ff2c58f91 --jit: |-
     ruby 2.7.0dev (2019-10-24T19:40:39Z trunk 4ff2c58f91) +JIT [x86_64-linux]
     last_commit=retry tailcall optimization (#2529)
+  5040eea959: |-
+    ruby 2.7.0dev (2019-10-24T23:54:33Z trunk 5040eea959) [x86_64-linux]
+    last_commit=Do not show progress at chocolatey
+  5040eea959 --jit: |-
+    ruby 2.7.0dev (2019-10-24T23:54:33Z trunk 5040eea959) +JIT [x86_64-linux]
+    last_commit=Do not show progress at chocolatey
+  fb15e79403: |-
+    ruby 2.7.0dev (2019-10-25T00:25:43Z trunk fb15e79403) [x86_64-linux]
+    last_commit=Handle case where ruby2_keywords method splats to ruby2_keywords method
+  fb15e79403 --jit: |-
+    ruby 2.7.0dev (2019-10-25T00:25:43Z trunk fb15e79403) +JIT [x86_64-linux]
+    last_commit=Handle case where ruby2_keywords method splats to ruby2_keywords method
+  '09936d1d74': |-
+    ruby 2.7.0dev (2019-10-25T00:29:10Z trunk 09936d1d74) [x86_64-linux]
+    last_commit=[ruby/tracer] Use Gemfile instead of Gem::Specification#add_development_dependency.
+  '09936d1d74 --jit': |-
+    ruby 2.7.0dev (2019-10-25T00:29:10Z trunk 09936d1d74) +JIT [x86_64-linux]
+    last_commit=[ruby/tracer] Use Gemfile instead of Gem::Specification#add_development_dependency.
