@@ -6003,3 +6003,9 @@ commits:
   88135845f1 --jit: |-
     ruby 2.7.0dev (2019-10-25T08:58:54Z trunk 88135845f1) +JIT [x86_64-linux]
     last_commit=enable assertion for debug.
+  42c652d195: |-
+    ruby 2.7.0dev (2019-10-25T14:30:47Z trunk 42c652d195) [x86_64-linux]
+    last_commit=Fixed range argument condition [Feature #14784]
+  42c652d195 --jit: |-
+    ruby 2.7.0dev (2019-10-25T14:30:47Z trunk 42c652d195) +JIT [x86_64-linux]
+    last_commit=Fixed range argument condition [Feature #14784]
