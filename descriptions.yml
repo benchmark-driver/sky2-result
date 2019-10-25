@@ -5991,3 +5991,15 @@ commits:
   356e203a3a --jit: |-
     ruby 2.7.0dev (2019-10-25T03:24:22Z trunk 356e203a3a) +JIT [x86_64-linux]
     last_commit=more on struct rb_call_data
+  f3f1d89d46: |-
+    ruby 2.7.0dev (2019-10-25T07:44:15Z trunk f3f1d89d46) [x86_64-linux]
+    last_commit=skip tests that do not work on GC.stress
+  f3f1d89d46 --jit: |-
+    ruby 2.7.0dev (2019-10-25T07:44:15Z trunk f3f1d89d46) +JIT [x86_64-linux]
+    last_commit=skip tests that do not work on GC.stress
+  88135845f1: |-
+    ruby 2.7.0dev (2019-10-25T08:58:54Z trunk 88135845f1) [x86_64-linux]
+    last_commit=enable assertion for debug.
+  88135845f1 --jit: |-
+    ruby 2.7.0dev (2019-10-25T08:58:54Z trunk 88135845f1) +JIT [x86_64-linux]
+    last_commit=enable assertion for debug.
