@@ -9,114 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  9c2e165f7d: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 9c2e165f7d) [x86_64-linux]
-    last_commit=Only promote last hash to keyword if all keys are symbols
-  9c2e165f7d --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 9c2e165f7d) +JIT [x86_64-linux]
-    last_commit=Only promote last hash to keyword if all keys are symbols
-  '03697ddf63': |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 03697ddf63) [x86_64-linux]
-    last_commit=Update tests to fix warning message changes
-  '03697ddf63 --jit': |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 03697ddf63) +JIT [x86_64-linux]
-    last_commit=Update tests to fix warning message changes
-  15bca0d4d3: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 15bca0d4d3) [x86_64-linux]
-    last_commit=Fix test after keyword argument separation
-  15bca0d4d3 --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 15bca0d4d3) +JIT [x86_64-linux]
-    last_commit=Fix test after keyword argument separation
-  896e42d93f: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 896e42d93f) [x86_64-linux]
-    last_commit=Restore splitting of hashes into positional and keyword arguments, add warning
-  896e42d93f --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 896e42d93f) +JIT [x86_64-linux]
-    last_commit=Restore splitting of hashes into positional and keyword arguments, add warning
-  afae8555da: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk afae8555da) [x86_64-linux]
-    last_commit=Set symbol export for rb_hash_stlike_foreach
-  afae8555da --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk afae8555da) +JIT [x86_64-linux]
-    last_commit=Set symbol export for rb_hash_stlike_foreach
-  6a9ce1fea8: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 6a9ce1fea8) [x86_64-linux]
-    last_commit=Support **nil syntax for specifying a method does not accept keyword arguments
-  6a9ce1fea8 --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 6a9ce1fea8) +JIT [x86_64-linux]
-    last_commit=Support **nil syntax for specifying a method does not accept keyword arguments
-  4d64693c70: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 4d64693c70) [x86_64-linux]
-    last_commit=Make ripper support **nil syntax
-  4d64693c70 --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 4d64693c70) +JIT [x86_64-linux]
-    last_commit=Make ripper support **nil syntax
-  fa41a7b260: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk fa41a7b260) [x86_64-linux]
-    last_commit=Make RubyVM::AbstractSyntaxTree handle **nil syntax
-  fa41a7b260 --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk fa41a7b260) +JIT [x86_64-linux]
-    last_commit=Make RubyVM::AbstractSyntaxTree handle **nil syntax
-  3a23b71f0a: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 3a23b71f0a) [x86_64-linux]
-    last_commit=Make Method/Proc#parameters handle **nil syntax
-  3a23b71f0a --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 3a23b71f0a) +JIT [x86_64-linux]
-    last_commit=Make Method/Proc#parameters handle **nil syntax
-  8399609e5a: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 8399609e5a) [x86_64-linux]
-    last_commit=Make keyword_hash_split static
-  8399609e5a --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 8399609e5a) +JIT [x86_64-linux]
-    last_commit=Make keyword_hash_split static
-  5c507db467: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 5c507db467) [x86_64-linux]
-    last_commit=Implement keyword argument to last positional hash emulation
-  5c507db467 --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 5c507db467) +JIT [x86_64-linux]
-    last_commit=Implement keyword argument to last positional hash emulation
-  16cd0de6ec: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 16cd0de6ec) [x86_64-linux]
-    last_commit=When splitting a keyword hash, dup it first to not mutate it
-  16cd0de6ec --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 16cd0de6ec) +JIT [x86_64-linux]
-    last_commit=When splitting a keyword hash, dup it first to not mutate it
-  a810f6cbef: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk a810f6cbef) [x86_64-linux]
-    last_commit=Update specs to handle non-Symbols for keyword splats in 2.7
-  a810f6cbef --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk a810f6cbef) +JIT [x86_64-linux]
-    last_commit=Update specs to handle non-Symbols for keyword splats in 2.7
-  42adc5bc6b: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 42adc5bc6b) [x86_64-linux]
-    last_commit=Add back missing warning for duplicate keys in splatted hashes
-  42adc5bc6b --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 42adc5bc6b) +JIT [x86_64-linux]
-    last_commit=Add back missing warning for duplicate keys in splatted hashes
-  856bb3c35d: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 856bb3c35d) [x86_64-linux]
-    last_commit=Fix remaining warning issues in the tests due to keyword argument separation
-  856bb3c35d --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk 856bb3c35d) +JIT [x86_64-linux]
-    last_commit=Fix remaining warning issues in the tests due to keyword argument separation
-  b5b3afadfa: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk b5b3afadfa) [x86_64-linux]
-    last_commit=Fix a couple of bundler issues with keyword argument separation
-  b5b3afadfa --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:31Z trunk b5b3afadfa) +JIT [x86_64-linux]
-    last_commit=Fix a couple of bundler issues with keyword argument separation
-  38e08db48e: |-
-    ruby 2.7.0dev (2019-08-30T19:39:56Z trunk 38e08db48e) [x86_64-linux]
-    last_commit=* 2019-08-31 [ci skip]
-  38e08db48e --jit: |-
-    ruby 2.7.0dev (2019-08-30T19:39:56Z trunk 38e08db48e) +JIT [x86_64-linux]
-    last_commit=* 2019-08-31 [ci skip]
-  a1e588d1a7: |-
-    ruby 2.7.0dev (2019-08-30T22:03:27Z trunk a1e588d1a7) [x86_64-linux]
-    last_commit=NEWS: Hash-to-keywords automatic conversion is now warned
-  a1e588d1a7 --jit: |-
-    ruby 2.7.0dev (2019-08-30T22:03:27Z trunk a1e588d1a7) +JIT [x86_64-linux]
-    last_commit=NEWS: Hash-to-keywords automatic conversion is now warned
   8cb9efbbe6: |-
     ruby 2.7.0dev (2019-08-30T22:17:46Z trunk 8cb9efbbe6) [x86_64-linux]
     last_commit=tool/rbinstall.rb: remove a keyword-argument warning
@@ -6003,3 +5895,63 @@ commits:
   b609bdeb53 --jit: |-
     ruby 2.7.0dev (2019-10-24T16:16:05Z trunk b609bdeb53) +JIT [x86_64-linux]
     last_commit=Define arguments forwarding as `ruby2_keywords` style
+  b86af95c5b: |-
+    ruby 2.7.0dev (2019-10-24T17:04:14Z trunk b86af95c5b) [x86_64-linux]
+    last_commit=Get rid of control flow by cmd.exe
+  b86af95c5b --jit: |-
+    ruby 2.7.0dev (2019-10-24T17:04:14Z trunk b86af95c5b) +JIT [x86_64-linux]
+    last_commit=Get rid of control flow by cmd.exe
+  967b924aa0: |-
+    ruby 2.7.0dev (2019-10-24T17:08:03Z trunk 967b924aa0) [x86_64-linux]
+    last_commit=Expanded an environment variable
+  967b924aa0 --jit: |-
+    ruby 2.7.0dev (2019-10-24T17:08:03Z trunk 967b924aa0) +JIT [x86_64-linux]
+    last_commit=Expanded an environment variable
+  826bbf9837: |-
+    ruby 2.7.0dev (2019-10-24T17:24:00Z trunk 826bbf9837) [x86_64-linux]
+    last_commit=Split by `&&`
+  826bbf9837 --jit: |-
+    ruby 2.7.0dev (2019-10-24T17:24:00Z trunk 826bbf9837) +JIT [x86_64-linux]
+    last_commit=Split by `&&`
+  b7c8874b62: |-
+    ruby 2.7.0dev (2019-10-24T17:31:21Z trunk b7c8874b62) [x86_64-linux]
+    last_commit=Install openssl with chocolatey
+  b7c8874b62 --jit: |-
+    ruby 2.7.0dev (2019-10-24T17:31:21Z trunk b7c8874b62) +JIT [x86_64-linux]
+    last_commit=Install openssl with chocolatey
+  e8f90e7397: |-
+    ruby 2.7.0dev (2019-10-24T19:01:02Z trunk e8f90e7397) [x86_64-linux]
+    last_commit=check T_ICLASS for Method#inspect.
+  e8f90e7397 --jit: |-
+    ruby 2.7.0dev (2019-10-24T19:01:02Z trunk e8f90e7397) +JIT [x86_64-linux]
+    last_commit=check T_ICLASS for Method#inspect.
+  5fe8943fda: |-
+    ruby 2.7.0dev (2019-10-24T19:34:51Z trunk 5fe8943fda) [x86_64-linux]
+    last_commit=Fix typo causing Date.new(year, month) to fail
+  5fe8943fda --jit: |-
+    ruby 2.7.0dev (2019-10-24T19:34:51Z trunk 5fe8943fda) +JIT [x86_64-linux]
+    last_commit=Fix typo causing Date.new(year, month) to fail
+  8c59b9250c: |-
+    ruby 2.7.0dev (2019-10-24T19:34:51Z trunk 8c59b9250c) [x86_64-linux]
+    last_commit=Update date specs
+  8c59b9250c --jit: |-
+    ruby 2.7.0dev (2019-10-24T19:34:51Z trunk 8c59b9250c) +JIT [x86_64-linux]
+    last_commit=Update date specs
+  d6a2507e49: |-
+    ruby 2.7.0dev (2019-10-24T19:35:04Z trunk d6a2507e49) [x86_64-linux]
+    last_commit=Duplicate hash when converting keyword hash to keywords
+  d6a2507e49 --jit: |-
+    ruby 2.7.0dev (2019-10-24T19:35:04Z trunk d6a2507e49) +JIT [x86_64-linux]
+    last_commit=Duplicate hash when converting keyword hash to keywords
+  58b363bf0d: |-
+    ruby 2.7.0dev (2019-10-24T19:39:22Z trunk 58b363bf0d) [x86_64-linux]
+    last_commit=respect `param.flags.ruby2_keywords` at to_binary.
+  58b363bf0d --jit: |-
+    ruby 2.7.0dev (2019-10-24T19:39:22Z trunk 58b363bf0d) +JIT [x86_64-linux]
+    last_commit=respect `param.flags.ruby2_keywords` at to_binary.
+  4ff2c58f91: |-
+    ruby 2.7.0dev (2019-10-24T19:40:39Z trunk 4ff2c58f91) [x86_64-linux]
+    last_commit=retry tailcall optimization (#2529)
+  4ff2c58f91 --jit: |-
+    ruby 2.7.0dev (2019-10-24T19:40:39Z trunk 4ff2c58f91) +JIT [x86_64-linux]
+    last_commit=retry tailcall optimization (#2529)
