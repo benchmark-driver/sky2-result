@@ -9,72 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  8cb9efbbe6: |-
-    ruby 2.7.0dev (2019-08-30T22:17:46Z trunk 8cb9efbbe6) [x86_64-linux]
-    last_commit=tool/rbinstall.rb: remove a keyword-argument warning
-  8cb9efbbe6 --jit: |-
-    ruby 2.7.0dev (2019-08-30T22:17:46Z trunk 8cb9efbbe6) +JIT [x86_64-linux]
-    last_commit=tool/rbinstall.rb: remove a keyword-argument warning
-  6424d316b9: |-
-    ruby 2.7.0dev (2019-08-31T00:34:18Z trunk 6424d316b9) [x86_64-linux]
-    last_commit=Remove a verbose warning that is no longer needed
-  6424d316b9 --jit: |-
-    ruby 2.7.0dev (2019-08-31T00:34:18Z trunk 6424d316b9) +JIT [x86_64-linux]
-    last_commit=Remove a verbose warning that is no longer needed
-  3463e83192: |-
-    ruby 2.7.0dev (2019-08-31T02:25:46Z trunk 3463e83192) [x86_64-linux]
-    last_commit=Warn for keyword to last hash parameter when method has no optional/rest parameters
-  3463e83192 --jit: |-
-    ruby 2.7.0dev (2019-08-31T02:25:46Z trunk 3463e83192) +JIT [x86_64-linux]
-    last_commit=Warn for keyword to last hash parameter when method has no optional/rest parameters
-  ec6206a81a: |-
-    ruby 2.7.0dev (2019-08-31T04:56:50Z trunk ec6206a81a) [x86_64-linux]
-    last_commit=Use more accurate source location in keyword argument separation warnings
-  ec6206a81a --jit: |-
-    ruby 2.7.0dev (2019-08-31T04:56:50Z trunk ec6206a81a) +JIT [x86_64-linux]
-    last_commit=Use more accurate source location in keyword argument separation warnings
-  60a08d9a6c: |-
-    ruby 2.7.0dev (2019-08-31T05:11:00Z trunk 60a08d9a6c) [x86_64-linux]
-    last_commit=Add rb_iseq_location
-  60a08d9a6c --jit: |-
-    ruby 2.7.0dev (2019-08-31T05:11:00Z trunk 60a08d9a6c) +JIT [x86_64-linux]
-    last_commit=Add rb_iseq_location
-  d7aa1260b6: |-
-    ruby 2.7.0dev (2019-08-31T05:45:57Z trunk d7aa1260b6) [x86_64-linux]
-    last_commit=Remove files/directories for git/github which are committed [ci skip]
-  d7aa1260b6 --jit: |-
-    ruby 2.7.0dev (2019-08-31T05:45:57Z trunk d7aa1260b6) +JIT [x86_64-linux]
-    last_commit=Remove files/directories for git/github which are committed [ci skip]
-  4868ad7e5b: |-
-    ruby 2.7.0dev (2019-08-31T06:30:10Z trunk 4868ad7e5b) [x86_64-linux]
-    last_commit=fix CI failures in x64-mingw32
-  4868ad7e5b --jit: |-
-    ruby 2.7.0dev (2019-08-31T06:30:10Z trunk 4868ad7e5b) +JIT [x86_64-linux]
-    last_commit=fix CI failures in x64-mingw32
-  1f18b578ce: |-
-    ruby 2.7.0dev (2019-08-31T06:50:50Z trunk 1f18b578ce) [x86_64-linux]
-    last_commit=Don't pass an empty keyword hash when double splatting empty hash
-  1f18b578ce --jit: |-
-    ruby 2.7.0dev (2019-08-31T06:50:50Z trunk 1f18b578ce) +JIT [x86_64-linux]
-    last_commit=Don't pass an empty keyword hash when double splatting empty hash
-  58a373e9ed: |-
-    ruby 2.7.0dev (2019-08-31T07:44:44Z trunk 58a373e9ed) [x86_64-linux]
-    last_commit=Try to suppress errors in BASERUBY Travis
-  58a373e9ed --jit: |-
-    ruby 2.7.0dev (2019-08-31T07:44:44Z trunk 58a373e9ed) +JIT [x86_64-linux]
-    last_commit=Try to suppress errors in BASERUBY Travis
-  3868df8333: |-
-    ruby 2.7.0dev (2019-08-31T08:05:53Z trunk 3868df8333) [x86_64-linux]
-    last_commit=Try to fix apt-get update error for trusty (take 2)
-  3868df8333 --jit: |-
-    ruby 2.7.0dev (2019-08-31T08:05:53Z trunk 3868df8333) +JIT [x86_64-linux]
-    last_commit=Try to fix apt-get update error for trusty (take 2)
-  8897fa60fd: |-
-    ruby 2.7.0dev (2019-08-31T08:18:59Z trunk 8897fa60fd) [x86_64-linux]
-    last_commit=Try using built-in apt source for gcc-8
-  8897fa60fd --jit: |-
-    ruby 2.7.0dev (2019-08-31T08:18:59Z trunk 8897fa60fd) +JIT [x86_64-linux]
-    last_commit=Try using built-in apt source for gcc-8
   602fbd4338: |-
     ruby 2.7.0dev (2019-08-31T08:34:25Z trunk 602fbd4338) [x86_64-linux]
     last_commit=Limit the apt addon enablement to trusty
@@ -6009,3 +5943,15 @@ commits:
   42c652d195 --jit: |-
     ruby 2.7.0dev (2019-10-25T14:30:47Z trunk 42c652d195) +JIT [x86_64-linux]
     last_commit=Fixed range argument condition [Feature #14784]
+  84b69c520e: |-
+    ruby 2.7.0dev (2019-10-25T17:54:29Z trunk 84b69c520e) [x86_64-linux]
+    last_commit=Edit vm_opts.h for VM options
+  84b69c520e --jit: |-
+    ruby 2.7.0dev (2019-10-25T17:54:29Z trunk 84b69c520e) +JIT [x86_64-linux]
+    last_commit=Edit vm_opts.h for VM options
+  41d5294506: |-
+    ruby 2.7.0dev (2019-10-25T17:56:12Z trunk 41d5294506) [x86_64-linux]
+    last_commit=* 2019-10-26 [ci skip]
+  41d5294506 --jit: |-
+    ruby 2.7.0dev (2019-10-25T17:56:12Z trunk 41d5294506) +JIT [x86_64-linux]
+    last_commit=* 2019-10-26 [ci skip]
