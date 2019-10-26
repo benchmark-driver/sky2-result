@@ -5955,3 +5955,45 @@ commits:
   41d5294506 --jit: |-
     ruby 2.7.0dev (2019-10-25T17:56:12Z trunk 41d5294506) +JIT [x86_64-linux]
     last_commit=* 2019-10-26 [ci skip]
+  0c579b0a97: |-
+    ruby 2.7.0dev (2019-10-25T22:03:33Z trunk 0c579b0a97) [x86_64-linux]
+    last_commit=[ruby/dbm] Remove taint support
+  0c579b0a97 --jit: |-
+    ruby 2.7.0dev (2019-10-25T22:03:33Z trunk 0c579b0a97) +JIT [x86_64-linux]
+    last_commit=[ruby/dbm] Remove taint support
+  b25ab3832f: |-
+    ruby 2.7.0dev (2019-10-26T00:24:55Z trunk b25ab3832f) [x86_64-linux]
+    last_commit=[ruby/forwardable] Extracted VERSION constant for gemspec
+  b25ab3832f --jit: |-
+    ruby 2.7.0dev (2019-10-26T00:24:55Z trunk b25ab3832f) +JIT [x86_64-linux]
+    last_commit=[ruby/forwardable] Extracted VERSION constant for gemspec
+  b15e0983f7: |-
+    ruby 2.7.0dev (2019-10-26T00:25:01Z trunk b15e0983f7) [x86_64-linux]
+    last_commit=[ruby/forwardable] Update spec.files
+  b15e0983f7 --jit: |-
+    ruby 2.7.0dev (2019-10-26T00:25:01Z trunk b15e0983f7) +JIT [x86_64-linux]
+    last_commit=[ruby/forwardable] Update spec.files
+  d00551a7bb: |-
+    ruby 2.7.0dev (2019-10-26T00:25:06Z trunk d00551a7bb) [x86_64-linux]
+    last_commit=[ruby/forwardable] Make def_{instance,single}_delegators skip :__send__ and :__id__
+  d00551a7bb --jit: |-
+    ruby 2.7.0dev (2019-10-26T00:25:06Z trunk d00551a7bb) +JIT [x86_64-linux]
+    last_commit=[ruby/forwardable] Make def_{instance,single}_delegators skip :__send__ and :__id__
+  '0098977053': |-
+    ruby 2.7.0dev (2019-10-26T00:25:11Z trunk 0098977053) [x86_64-linux]
+    last_commit=[ruby/forwardable] Remove string allocation in def_{instance,single}_delegators
+  '0098977053 --jit': |-
+    ruby 2.7.0dev (2019-10-26T00:25:11Z trunk 0098977053) +JIT [x86_64-linux]
+    last_commit=[ruby/forwardable] Remove string allocation in def_{instance,single}_delegators
+  f625a4be3c: |-
+    ruby 2.7.0dev (2019-10-26T00:25:17Z trunk f625a4be3c) [x86_64-linux]
+    last_commit=[ruby/forwardable] Fix NoMethodError on ruby 2.4 or earlier
+  f625a4be3c --jit: |-
+    ruby 2.7.0dev (2019-10-26T00:25:17Z trunk f625a4be3c) +JIT [x86_64-linux]
+    last_commit=[ruby/forwardable] Fix NoMethodError on ruby 2.4 or earlier
+  f14b754151: |-
+    ruby 2.7.0dev (2019-10-26T00:26:51Z trunk f14b754151) [x86_64-linux]
+    last_commit=[ruby/forwardable] Use Gemfile instead of Gem::Specification#add_development_dependency.
+  f14b754151 --jit: |-
+    ruby 2.7.0dev (2019-10-26T00:26:51Z trunk f14b754151) +JIT [x86_64-linux]
+    last_commit=[ruby/forwardable] Use Gemfile instead of Gem::Specification#add_development_dependency.

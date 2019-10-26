@@ -1954,6 +1954,8 @@ results:
     37c266aa57: 3418666.434
     ff462bc6c3: 3437347.364
     66c644da5e: 3349353.678
+    50fadefb7e: 2753072.995
+    6b52959ef7: 3314558.764
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3907,6 +3909,8 @@ results:
     37c266aa57: 3375953.69
     ff462bc6c3: 3390363.14
     66c644da5e: 3316307.886
+    50fadefb7e: 3339031.165
+    6b52959ef7: 3381326.187
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5860,6 +5864,8 @@ results:
     37c266aa57: 1985766.93
     ff462bc6c3: 1881588.841
     66c644da5e: 1894971.876
+    50fadefb7e: 1778384.561
+    6b52959ef7: 1570093.54
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7813,6 +7819,8 @@ results:
     37c266aa57: 3186626.146
     ff462bc6c3: 2829056.859
     66c644da5e: 2838566.33
+    50fadefb7e: 2809721.864
+    6b52959ef7: 2789673.804
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -9766,6 +9774,8 @@ results:
     37c266aa57: 3722516.247
     ff462bc6c3: 3749205.159
     66c644da5e: 3647493.462
+    50fadefb7e: 3140901.438
+    6b52959ef7: 3317383.455
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -11719,6 +11729,8 @@ results:
     37c266aa57: 3677110.572
     ff462bc6c3: 3694975.211
     66c644da5e: 3582222.063
+    50fadefb7e: 3678285.857
+    6b52959ef7: 3128540.731
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -13672,6 +13684,8 @@ results:
     37c266aa57: 2074588.33
     ff462bc6c3: 1998567.661
     66c644da5e: 1941435.619
+    50fadefb7e: 1951304.266
+    6b52959ef7: 1845643.516
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -15625,3 +15639,5 @@ results:
     37c266aa57: 3436854.655
     ff462bc6c3: 3014591.989
     66c644da5e: 3040219.665
+    50fadefb7e: 2735857.079
+    6b52959ef7: 2968588.794
