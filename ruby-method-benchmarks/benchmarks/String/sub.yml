@@ -1961,6 +1961,8 @@ results:
     '095cdca15b': 3320154.324
     b4c328bebc: 3374930.048
     258843106f: 3367277.762
+    1edcfd6107: 3361571.902
+    ad67adb5f9: 2827961.033
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3921,6 +3923,8 @@ results:
     '095cdca15b': 3374628.474
     b4c328bebc: 3252350.246
     258843106f: 3351809.303
+    1edcfd6107: 3350707.126
+    ad67adb5f9: 3248390.242
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5881,6 +5885,8 @@ results:
     '095cdca15b': 1947380.628
     b4c328bebc: 1833754.483
     258843106f: 1886594.944
+    1edcfd6107: 1870188.865
+    ad67adb5f9: 1873502.342
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7841,6 +7847,8 @@ results:
     '095cdca15b': 3146149.854
     b4c328bebc: 2472635.823
     258843106f: 2849248.063
+    1edcfd6107: 2861946.411
+    ad67adb5f9: 3152488.474
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -9801,6 +9809,8 @@ results:
     '095cdca15b': 3626700.123
     b4c328bebc: 3696285.47
     258843106f: 3650219.3
+    1edcfd6107: 3669822.265
+    ad67adb5f9: 3654646.98
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -11761,6 +11771,8 @@ results:
     '095cdca15b': 3651799.966
     b4c328bebc: 3601656.718
     258843106f: 3624846.577
+    1edcfd6107: 3453452.534
+    ad67adb5f9: 3040781.896
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -13721,6 +13733,8 @@ results:
     '095cdca15b': 2050452.24
     b4c328bebc: 1975361.3
     258843106f: 1973117.304
+    1edcfd6107: 1972095.932
+    ad67adb5f9: 1974026.754
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -15681,3 +15695,5 @@ results:
     '095cdca15b': 3266565.036
     b4c328bebc: 3054623.621
     258843106f: 3054803.896
+    1edcfd6107: 3079591.14
+    ad67adb5f9: 3392002.894
