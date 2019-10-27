@@ -9,144 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  602fbd4338: |-
-    ruby 2.7.0dev (2019-08-31T08:34:25Z trunk 602fbd4338) [x86_64-linux]
-    last_commit=Limit the apt addon enablement to trusty
-  602fbd4338 --jit: |-
-    ruby 2.7.0dev (2019-08-31T08:34:25Z trunk 602fbd4338) +JIT [x86_64-linux]
-    last_commit=Limit the apt addon enablement to trusty
-  d4eef04883: |-
-    ruby 2.7.0dev (2019-08-31T11:55:35Z trunk d4eef04883) [x86_64-linux]
-    last_commit=Use double splat for keyword args by a hash object in lib/un.rb
-  d4eef04883 --jit: |-
-    ruby 2.7.0dev (2019-08-31T11:55:35Z trunk d4eef04883) +JIT [x86_64-linux]
-    last_commit=Use double splat for keyword args by a hash object in lib/un.rb
-  431a99b556: |-
-    ruby 2.7.0dev (2019-08-31T16:52:48Z trunk 431a99b556) [x86_64-linux]
-    last_commit=Split warning messages for tag-jump
-  431a99b556 --jit: |-
-    ruby 2.7.0dev (2019-08-31T16:52:48Z trunk 431a99b556) +JIT [x86_64-linux]
-    last_commit=Split warning messages for tag-jump
-  a060629e66: |-
-    ruby 2.7.0dev (2019-08-31T16:56:24Z trunk a060629e66) [x86_64-linux]
-    last_commit=* 2019-09-01 [ci skip]
-  a060629e66 --jit: |-
-    ruby 2.7.0dev (2019-08-31T16:56:24Z trunk a060629e66) +JIT [x86_64-linux]
-    last_commit=* 2019-09-01 [ci skip]
-  1756ec2065: |-
-    ruby 2.7.0dev (2019-08-31T23:56:00Z trunk 1756ec2065) [x86_64-linux]
-    last_commit=Ignore the all of warnings with inline_spec.rb of bundler examples.
-  1756ec2065 --jit: |-
-    ruby 2.7.0dev (2019-08-31T23:56:00Z trunk 1756ec2065) +JIT [x86_64-linux]
-    last_commit=Ignore the all of warnings with inline_spec.rb of bundler examples.
-  c5bb074fe7: |-
-    ruby 2.7.0dev (2019-09-01T02:02:58Z trunk c5bb074fe7) [x86_64-linux]
-    last_commit=Re-calculate state variables of screen when screen size changes
-  c5bb074fe7 --jit: |-
-    ruby 2.7.0dev (2019-09-01T02:02:58Z trunk c5bb074fe7) +JIT [x86_64-linux]
-    last_commit=Re-calculate state variables of screen when screen size changes
-  11d6094cbe: |-
-    ruby 2.7.0dev (2019-09-01T02:23:52Z trunk 11d6094cbe) [x86_64-linux]
-    last_commit=Reline 0.0.2
-  11d6094cbe --jit: |-
-    ruby 2.7.0dev (2019-09-01T02:23:52Z trunk 11d6094cbe) +JIT [x86_64-linux]
-    last_commit=Reline 0.0.2
-  e5dd63ba8c: |-
-    ruby 2.7.0dev (2019-09-01T02:23:58Z trunk e5dd63ba8c) [x86_64-linux]
-    last_commit=IRB 1.1.0.pre.3
-  e5dd63ba8c --jit: |-
-    ruby 2.7.0dev (2019-09-01T02:23:58Z trunk e5dd63ba8c) +JIT [x86_64-linux]
-    last_commit=IRB 1.1.0.pre.3
-  e80a6f65c8: |-
-    ruby 2.7.0dev (2019-09-01T04:37:28Z trunk e80a6f65c8) [x86_64-linux]
-    last_commit=Made :nil static ID
-  e80a6f65c8 --jit: |-
-    ruby 2.7.0dev (2019-09-01T04:37:28Z trunk e80a6f65c8) +JIT [x86_64-linux]
-    last_commit=Made :nil static ID
-  15757390ff: |-
-    ruby 2.7.0dev (2019-09-01T04:54:06Z trunk 15757390ff) [x86_64-linux]
-    last_commit=Don't pass an empty keyword hash when double splatting empty hash when calling cfunc
-  15757390ff --jit: |-
-    ruby 2.7.0dev (2019-09-01T04:54:06Z trunk 15757390ff) +JIT [x86_64-linux]
-    last_commit=Don't pass an empty keyword hash when double splatting empty hash when calling cfunc
-  e13c0bb820: |-
-    ruby 2.7.0dev (2019-09-01T06:00:27Z trunk e13c0bb820) [x86_64-linux]
-    last_commit=Note about ANYARGS in NEWS
-  e13c0bb820 --jit: |-
-    ruby 2.7.0dev (2019-09-01T06:00:27Z trunk e13c0bb820) +JIT [x86_64-linux]
-    last_commit=Note about ANYARGS in NEWS
-  d646a292cd: |-
-    ruby 2.7.0dev (2019-09-01T06:06:49Z trunk d646a292cd) [x86_64-linux]
-    last_commit=Fix keyword argument separation warning when using send
-  d646a292cd --jit: |-
-    ruby 2.7.0dev (2019-09-01T06:06:49Z trunk d646a292cd) +JIT [x86_64-linux]
-    last_commit=Fix keyword argument separation warning when using send
-  84dca8eff0: |-
-    ruby 2.7.0dev (2019-09-01T06:16:19Z trunk 84dca8eff0) [x86_64-linux]
-    last_commit=Revert "Skip BUGs on Solaris"
-  84dca8eff0 --jit: |-
-    ruby 2.7.0dev (2019-09-01T06:16:19Z trunk 84dca8eff0) +JIT [x86_64-linux]
-    last_commit=Revert "Skip BUGs on Solaris"
-  02dfa0f163: |-
-    ruby 2.7.0dev (2019-09-01T06:24:37Z trunk 02dfa0f163) [x86_64-linux]
-    last_commit=test/ruby/test_keyword.rb: Add remove_method before method redefinition
-  02dfa0f163 --jit: |-
-    ruby 2.7.0dev (2019-09-01T06:24:37Z trunk 02dfa0f163) +JIT [x86_64-linux]
-    last_commit=test/ruby/test_keyword.rb: Add remove_method before method redefinition
-  ea84a68075: |-
-    ruby 2.7.0dev (2019-09-01T07:25:01Z trunk ea84a68075) [x86_64-linux]
-    last_commit=Export rb_const_source_location_at for MJIT
-  ea84a68075 --jit: |-
-    ruby 2.7.0dev (2019-09-01T07:25:01Z trunk ea84a68075) +JIT [x86_64-linux]
-    last_commit=Export rb_const_source_location_at for MJIT
-  cda5745c1b: |-
-    ruby 2.7.0dev (2019-09-01T07:31:15Z trunk cda5745c1b) [x86_64-linux]
-    last_commit=Automatically detect missing symbols
-  cda5745c1b --jit: |-
-    ruby 2.7.0dev (2019-09-01T07:31:15Z trunk cda5745c1b) +JIT [x86_64-linux]
-    last_commit=Automatically detect missing symbols
-  94d6ec1d90: |-
-    ruby 2.7.0dev (2019-09-01T07:39:34Z trunk 94d6ec1d90) [x86_64-linux]
-    last_commit=Make pattern matching support **nil syntax
-  94d6ec1d90 --jit: |-
-    ruby 2.7.0dev (2019-09-01T07:39:34Z trunk 94d6ec1d90) +JIT [x86_64-linux]
-    last_commit=Make pattern matching support **nil syntax
-  3be3948870: |-
-    ruby 2.7.0dev (2019-09-01T09:57:40Z trunk 3be3948870) [x86_64-linux]
-    last_commit=Revert "Revert "Skip BUGs on Solaris""
-  3be3948870 --jit: |-
-    ruby 2.7.0dev (2019-09-01T09:57:40Z trunk 3be3948870) +JIT [x86_64-linux]
-    last_commit=Revert "Revert "Skip BUGs on Solaris""
-  04c3e34456: |-
-    ruby 2.7.0dev (2019-09-01T10:26:23Z trunk 04c3e34456) [x86_64-linux]
-    last_commit=Upgrade benchmark-driver for keyword args warnings
-  04c3e34456 --jit: |-
-    ruby 2.7.0dev (2019-09-01T10:26:23Z trunk 04c3e34456) +JIT [x86_64-linux]
-    last_commit=Upgrade benchmark-driver for keyword args warnings
-  ff7c95dfd9: |-
-    ruby 2.7.0dev (2019-09-01T14:22:49Z trunk ff7c95dfd9) [x86_64-linux]
-    last_commit=Support git tags
-  ff7c95dfd9 --jit: |-
-    ruby 2.7.0dev (2019-09-01T14:22:49Z trunk ff7c95dfd9) +JIT [x86_64-linux]
-    last_commit=Support git tags
-  b578c63f83: |-
-    ruby 2.7.0dev (2019-09-01T14:22:49Z trunk b578c63f83) [x86_64-linux]
-    last_commit=Resolve symlinks to cache directory under gems
-  b578c63f83 --jit: |-
-    ruby 2.7.0dev (2019-09-01T14:22:49Z trunk b578c63f83) +JIT [x86_64-linux]
-    last_commit=Resolve symlinks to cache directory under gems
-  d8260bc872: |-
-    ruby 2.7.0dev (2019-09-01T14:22:49Z trunk d8260bc872) [x86_64-linux]
-    last_commit=Fetch commit notes
-  d8260bc872 --jit: |-
-    ruby 2.7.0dev (2019-09-01T14:22:49Z trunk d8260bc872) +JIT [x86_64-linux]
-    last_commit=Fetch commit notes
-  fd4aad6d41: |-
-    ruby 2.7.0dev (2019-09-01T14:22:50Z trunk fd4aad6d41) [x86_64-linux]
-    last_commit=Support packaging different branch/tag
-  fd4aad6d41 --jit: |-
-    ruby 2.7.0dev (2019-09-01T14:22:50Z trunk fd4aad6d41) +JIT [x86_64-linux]
-    last_commit=Support packaging different branch/tag
   bd785ca077: |-
     ruby 2.7.0dev (2019-09-01T14:24:05Z trunk bd785ca077) [x86_64-linux]
     last_commit=Restore pwd for each version
@@ -5997,3 +5859,99 @@ commits:
   f14b754151 --jit: |-
     ruby 2.7.0dev (2019-10-26T00:26:51Z trunk f14b754151) +JIT [x86_64-linux]
     last_commit=[ruby/forwardable] Use Gemfile instead of Gem::Specification#add_development_dependency.
+  cf9344131c: |-
+    ruby 2.7.0dev (2019-10-26T03:52:50Z trunk cf9344131c) [x86_64-linux]
+    last_commit=Raise on end-exclusive ranges [Feature #14784]
+  cf9344131c --jit: |-
+    ruby 2.7.0dev (2019-10-26T03:52:50Z trunk cf9344131c) +JIT [x86_64-linux]
+    last_commit=Raise on end-exclusive ranges [Feature #14784]
+  bddb31bb37: |-
+    ruby 2.7.0dev (2019-10-26T05:58:08Z trunk bddb31bb37) [x86_64-linux]
+    last_commit=Documentation improvements for Ruby core
+  bddb31bb37 --jit: |-
+    ruby 2.7.0dev (2019-10-26T05:58:08Z trunk bddb31bb37) +JIT [x86_64-linux]
+    last_commit=Documentation improvements for Ruby core
+  5aacb30455: |-
+    ruby 2.7.0dev (2019-10-26T06:35:18Z trunk 5aacb30455) [x86_64-linux]
+    last_commit=refactor assign variables
+  5aacb30455 --jit: |-
+    ruby 2.7.0dev (2019-10-26T06:35:18Z trunk 5aacb30455) +JIT [x86_64-linux]
+    last_commit=refactor assign variables
+  d70fdeedf0: |-
+    ruby 2.7.0dev (2019-10-26T06:48:11Z trunk d70fdeedf0) [x86_64-linux]
+    last_commit=Make `(#methodname)` a link
+  d70fdeedf0 --jit: |-
+    ruby 2.7.0dev (2019-10-26T06:48:11Z trunk d70fdeedf0) +JIT [x86_64-linux]
+    last_commit=Make `(#methodname)` a link
+  ad9c713728: |-
+    ruby 2.7.0dev (2019-10-26T07:27:23Z trunk ad9c713728) [x86_64-linux]
+    last_commit=Make `(#methodname)` a link with --hyperlink-all option
+  ad9c713728 --jit: |-
+    ruby 2.7.0dev (2019-10-26T07:27:23Z trunk ad9c713728) +JIT [x86_64-linux]
+    last_commit=Make `(#methodname)` a link with --hyperlink-all option
+  f6f1377a4e: |-
+    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk f6f1377a4e) [x86_64-linux]
+    last_commit=Update ERB docs
+  f6f1377a4e --jit: |-
+    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk f6f1377a4e) +JIT [x86_64-linux]
+    last_commit=Update ERB docs
+  2746fd5d50: |-
+    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk 2746fd5d50) [x86_64-linux]
+    last_commit=Update StringIO docs:
+  2746fd5d50 --jit: |-
+    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk 2746fd5d50) +JIT [x86_64-linux]
+    last_commit=Update StringIO docs:
+  4fe06f4667: |-
+    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk 4fe06f4667) [x86_64-linux]
+    last_commit=IRB: Document command evaluation history.
+  4fe06f4667 --jit: |-
+    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk 4fe06f4667) +JIT [x86_64-linux]
+    last_commit=IRB: Document command evaluation history.
+  de147bb721: |-
+    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk de147bb721) [x86_64-linux]
+    last_commit=Net::FTP: fix formatting problems for #status method
+  de147bb721 --jit: |-
+    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk de147bb721) +JIT [x86_64-linux]
+    last_commit=Net::FTP: fix formatting problems for #status method
+  a24bff461d: |-
+    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk a24bff461d) [x86_64-linux]
+    last_commit=open-uri: change global docs to reflect that URI.open syntax is preferred
+  a24bff461d --jit: |-
+    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk a24bff461d) +JIT [x86_64-linux]
+    last_commit=open-uri: change global docs to reflect that URI.open syntax is preferred
+  f93cb6904c: |-
+    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk f93cb6904c) [x86_64-linux]
+    last_commit=OptionParser: document into: argument
+  f93cb6904c --jit: |-
+    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk f93cb6904c) +JIT [x86_64-linux]
+    last_commit=OptionParser: document into: argument
+  '6221248294': |-
+    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk 6221248294) [x86_64-linux]
+    last_commit=Improve Net::HTTP docs:
+  6221248294 --jit: |-
+    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk 6221248294) +JIT [x86_64-linux]
+    last_commit=Improve Net::HTTP docs:
+  9c5a962354: |-
+    ruby 2.7.0dev (2019-10-26T17:24:50Z trunk 9c5a962354) [x86_64-linux]
+    last_commit=* 2019-10-27 [ci skip]
+  9c5a962354 --jit: |-
+    ruby 2.7.0dev (2019-10-26T17:24:50Z trunk 9c5a962354) +JIT [x86_64-linux]
+    last_commit=* 2019-10-27 [ci skip]
+  3eb0d50c0b: |-
+    ruby 2.7.0dev (2019-10-26T18:52:59Z trunk 3eb0d50c0b) [x86_64-linux]
+    last_commit=Update to ruby/mspec@e171725
+  3eb0d50c0b --jit: |-
+    ruby 2.7.0dev (2019-10-26T18:52:59Z trunk 3eb0d50c0b) +JIT [x86_64-linux]
+    last_commit=Update to ruby/mspec@e171725
+  664e96b1de: |-
+    ruby 2.7.0dev (2019-10-26T18:53:01Z trunk 664e96b1de) [x86_64-linux]
+    last_commit=Update to ruby/spec@28a728b
+  664e96b1de --jit: |-
+    ruby 2.7.0dev (2019-10-26T18:53:01Z trunk 664e96b1de) +JIT [x86_64-linux]
+    last_commit=Update to ruby/spec@28a728b
+  4fe89e0821: |-
+    ruby 2.7.0dev (2019-10-26T20:33:43Z trunk 4fe89e0821) [x86_64-linux]
+    last_commit=Add entry for Feature #13083 in NEWS
+  4fe89e0821 --jit: |-
+    ruby 2.7.0dev (2019-10-26T20:33:43Z trunk 4fe89e0821) +JIT [x86_64-linux]
+    last_commit=Add entry for Feature #13083 in NEWS
