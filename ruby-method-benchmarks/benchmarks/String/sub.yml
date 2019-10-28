@@ -1966,6 +1966,8 @@ results:
     dd0c75fdc2: 3375949.058
     58657fa134: 3314778.494
     3fea2d91ad: 3367303.313
+    a5ecf7e0a1: 3420892.662
+    8a608f1b1f: 3407445.713
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3931,6 +3933,8 @@ results:
     dd0c75fdc2: 3332000.213
     58657fa134: 3079997.663
     3fea2d91ad: 3401358.777
+    a5ecf7e0a1: 3355674.68
+    8a608f1b1f: 3418474.199
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5896,6 +5900,8 @@ results:
     dd0c75fdc2: 1911654.737
     58657fa134: 1945505.853
     3fea2d91ad: 1986751.95
+    a5ecf7e0a1: 1973036.667
+    8a608f1b1f: 1898333.131
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7861,6 +7867,8 @@ results:
     dd0c75fdc2: 3163519.904
     58657fa134: 2887414.746
     3fea2d91ad: 3148358.073
+    a5ecf7e0a1: 3105994.045
+    8a608f1b1f: 2884699.946
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -9826,6 +9834,8 @@ results:
     dd0c75fdc2: 3654454.349
     58657fa134: 3587755.177
     3fea2d91ad: 3541576.926
+    a5ecf7e0a1: 3721083.66
+    8a608f1b1f: 3666888.22
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -11791,6 +11801,8 @@ results:
     dd0c75fdc2: 3612932.254
     58657fa134: 3630210.362
     3fea2d91ad: 3671034.673
+    a5ecf7e0a1: 3664642.199
+    8a608f1b1f: 3691885.598
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -13756,6 +13768,8 @@ results:
     dd0c75fdc2: 1966173.556
     58657fa134: 2068251.592
     3fea2d91ad: 1975216.421
+    a5ecf7e0a1: 2075506.217
+    8a608f1b1f: 1990418.428
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -15721,3 +15735,5 @@ results:
     dd0c75fdc2: 3144089.736
     58657fa134: 3384078.298
     3fea2d91ad: 3021178.853
+    a5ecf7e0a1: 3280069.346
+    8a608f1b1f: 3075943.278
