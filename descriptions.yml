@@ -5985,3 +5985,9 @@ commits:
   a72cb6b11d --jit: |-
     ruby 2.7.0dev (2019-10-28T03:20:36Z trunk a72cb6b11d) +JIT [x86_64-linux]
     last_commit=* 2019-10-28 [ci skip]
+  cc5580f175: |-
+    ruby 2.7.0dev (2019-10-28T05:38:05Z trunk cc5580f175) [x86_64-linux]
+    last_commit=fix bug in keyword + protected combination
+  cc5580f175 --jit: |-
+    ruby 2.7.0dev (2019-10-28T05:38:05Z trunk cc5580f175) +JIT [x86_64-linux]
+    last_commit=fix bug in keyword + protected combination
