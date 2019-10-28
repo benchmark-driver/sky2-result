@@ -9,66 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  bd785ca077: |-
-    ruby 2.7.0dev (2019-09-01T14:24:05Z trunk bd785ca077) [x86_64-linux]
-    last_commit=Restore pwd for each version
-  bd785ca077 --jit: |-
-    ruby 2.7.0dev (2019-09-01T14:24:05Z trunk bd785ca077) +JIT [x86_64-linux]
-    last_commit=Restore pwd for each version
-  188c2b67c9: |-
-    ruby 2.7.0dev (2019-09-01T14:27:44Z trunk 188c2b67c9) [x86_64-linux]
-    last_commit=Revert "Revert "Revert "Skip BUGs on Solaris"""
-  188c2b67c9 --jit: |-
-    ruby 2.7.0dev (2019-09-01T14:27:44Z trunk 188c2b67c9) +JIT [x86_64-linux]
-    last_commit=Revert "Revert "Revert "Skip BUGs on Solaris"""
-  007d6d15f4: |-
-    ruby 2.7.0dev (2019-09-01T14:29:39Z trunk 007d6d15f4) [x86_64-linux]
-    last_commit=test/drb/drbtest.rb: Use EnvUtil.timeout for timeout scale factor
-  007d6d15f4 --jit: |-
-    ruby 2.7.0dev (2019-09-01T14:29:39Z trunk 007d6d15f4) +JIT [x86_64-linux]
-    last_commit=test/drb/drbtest.rb: Use EnvUtil.timeout for timeout scale factor
-  f82cf05626: |-
-    ruby 2.7.0dev (2019-09-01T15:42:23Z trunk f82cf05626) [x86_64-linux]
-    last_commit=Fixed the directory to be removed
-  f82cf05626 --jit: |-
-    ruby 2.7.0dev (2019-09-01T15:42:23Z trunk f82cf05626) +JIT [x86_64-linux]
-    last_commit=Fixed the directory to be removed
-  b0d885da76: |-
-    ruby 2.7.0dev (2019-09-01T15:42:54Z trunk b0d885da76) [x86_64-linux]
-    last_commit=* 2019-09-02 [ci skip]
-  b0d885da76 --jit: |-
-    ruby 2.7.0dev (2019-09-01T15:42:54Z trunk b0d885da76) +JIT [x86_64-linux]
-    last_commit=* 2019-09-02 [ci skip]
-  85dc89c907: |-
-    ruby 2.7.0dev (2019-09-01T21:37:25Z trunk 85dc89c907) [x86_64-linux]
-    last_commit=Treat Japanese IME on/off code correctly
-  85dc89c907 --jit: |-
-    ruby 2.7.0dev (2019-09-01T21:37:25Z trunk 85dc89c907) +JIT [x86_64-linux]
-    last_commit=Treat Japanese IME on/off code correctly
-  3fde9ef937: |-
-    ruby 2.7.0dev (2019-09-01T23:08:42Z trunk 3fde9ef937) [x86_64-linux]
-    last_commit=Fix keyword argument separation warning in method_missing
-  3fde9ef937 --jit: |-
-    ruby 2.7.0dev (2019-09-01T23:08:42Z trunk 3fde9ef937) +JIT [x86_64-linux]
-    last_commit=Fix keyword argument separation warning in method_missing
-  ca11a7d74e: |-
-    ruby 2.7.0dev (2019-09-02T01:54:30Z trunk ca11a7d74e) [x86_64-linux]
-    last_commit=Fix method name in test to not override existing method name
-  ca11a7d74e --jit: |-
-    ruby 2.7.0dev (2019-09-02T01:54:30Z trunk ca11a7d74e) +JIT [x86_64-linux]
-    last_commit=Fix method name in test to not override existing method name
-  f58db5a6f5: |-
-    ruby 2.7.0dev (2019-09-02T02:46:19Z trunk f58db5a6f5) [x86_64-linux]
-    last_commit=Simplify setting of VM_CALL_KW_SPLAT in vm_call_method_missing
-  f58db5a6f5 --jit: |-
-    ruby 2.7.0dev (2019-09-02T02:46:19Z trunk f58db5a6f5) +JIT [x86_64-linux]
-    last_commit=Simplify setting of VM_CALL_KW_SPLAT in vm_call_method_missing
-  63ab7046a1: |-
-    ruby 2.7.0dev (2019-09-02T03:01:47Z trunk 63ab7046a1) [x86_64-linux]
-    last_commit=Skip POINTOPOINT of IPv4 too instead of IPv6 only
-  63ab7046a1 --jit: |-
-    ruby 2.7.0dev (2019-09-02T03:01:47Z trunk 63ab7046a1) +JIT [x86_64-linux]
-    last_commit=Skip POINTOPOINT of IPv4 too instead of IPv6 only
   1f636e74e6: |-
     ruby 2.7.0dev (2019-09-02T03:16:21Z trunk 1f636e74e6) [x86_64-linux]
     last_commit=Set mtime of checked out files to past time
