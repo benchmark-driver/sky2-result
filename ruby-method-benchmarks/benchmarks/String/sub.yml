@@ -1978,6 +1978,8 @@ results:
     '039faecdb8': 3396313.04
     d9e50fcbeb: 3362352.237
     0aa267f985: 3042726.165
+    dc2b301994: 3421800.183
+    a0a3c70181: 3351149.839
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3955,6 +3957,8 @@ results:
     '039faecdb8': 3300208.822
     d9e50fcbeb: 3364377.781
     0aa267f985: 3182125.932
+    dc2b301994: 3131452.809
+    a0a3c70181: 3283902.453
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5932,6 +5936,8 @@ results:
     '039faecdb8': 1889924.616
     d9e50fcbeb: 1942487.038
     0aa267f985: 1752040.599
+    dc2b301994: 1911550.653
+    a0a3c70181: 1976244.701
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7909,6 +7915,8 @@ results:
     '039faecdb8': 3206251.116
     d9e50fcbeb: 2955402.839
     0aa267f985: 2696349.86
+    dc2b301994: 3163234.936
+    a0a3c70181: 3054379.044
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -9886,6 +9894,8 @@ results:
     '039faecdb8': 3696637.293
     d9e50fcbeb: 3662802.164
     0aa267f985: 3496710.609
+    dc2b301994: 3741260.445
+    a0a3c70181: 3666282.545
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -11863,6 +11873,8 @@ results:
     '039faecdb8': 3673589.092
     d9e50fcbeb: 3064594.548
     0aa267f985: 3613550.289
+    dc2b301994: 3632434.034
+    a0a3c70181: 3653858.029
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -13840,6 +13852,8 @@ results:
     '039faecdb8': 2080043.767
     d9e50fcbeb: 1752590.598
     0aa267f985: 1823875.057
+    dc2b301994: 1852191.481
+    a0a3c70181: 2067607.338
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -15817,3 +15831,5 @@ results:
     '039faecdb8': 3414804.77
     d9e50fcbeb: 3193622.182
     0aa267f985: 2937787.464
+    dc2b301994: 3161132.719
+    a0a3c70181: 3381708.078

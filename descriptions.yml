@@ -5955,3 +5955,33 @@ commits:
   6e0b40af3d --jit: |-
     ruby 2.7.0dev (2019-10-28T13:05:57Z trunk 6e0b40af3d) +JIT [x86_64-linux]
     last_commit=Try out-of-place build
+  aec16b7540: |-
+    ruby 2.7.0dev (2019-10-28T18:18:56Z trunk aec16b7540) [x86_64-linux]
+    last_commit=Marshal is calling functions that should pin things
+  aec16b7540 --jit: |-
+    ruby 2.7.0dev (2019-10-28T18:18:56Z trunk aec16b7540) +JIT [x86_64-linux]
+    last_commit=Marshal is calling functions that should pin things
+  a51583b678: |-
+    ruby 2.7.0dev (2019-10-28T18:19:25Z trunk a51583b678) [x86_64-linux]
+    last_commit=* 2019-10-29 [ci skip]
+  a51583b678 --jit: |-
+    ruby 2.7.0dev (2019-10-28T18:19:25Z trunk a51583b678) +JIT [x86_64-linux]
+    last_commit=* 2019-10-29 [ci skip]
+  339a891c7d: |-
+    ruby 2.7.0dev (2019-10-28T18:47:09Z trunk 339a891c7d) [x86_64-linux]
+    last_commit=Pin keys of this st_table
+  339a891c7d --jit: |-
+    ruby 2.7.0dev (2019-10-28T18:47:09Z trunk 339a891c7d) +JIT [x86_64-linux]
+    last_commit=Pin keys of this st_table
+  bbf3de22b6: |-
+    ruby 2.7.0dev (2019-10-28T19:15:05Z trunk bbf3de22b6) [x86_64-linux]
+    last_commit=Pin labels during disassembly
+  bbf3de22b6 --jit: |-
+    ruby 2.7.0dev (2019-10-28T19:15:05Z trunk bbf3de22b6) +JIT [x86_64-linux]
+    last_commit=Pin labels during disassembly
+  6147fa82a9: |-
+    ruby 2.7.0dev (2019-10-28T20:09:10Z trunk 6147fa82a9) [x86_64-linux]
+    last_commit=Fix continuation mark / compact
+  6147fa82a9 --jit: |-
+    ruby 2.7.0dev (2019-10-28T20:09:10Z trunk 6147fa82a9) +JIT [x86_64-linux]
+    last_commit=Fix continuation mark / compact
