@@ -5985,3 +5985,21 @@ commits:
   6147fa82a9 --jit: |-
     ruby 2.7.0dev (2019-10-28T20:09:10Z trunk 6147fa82a9) +JIT [x86_64-linux]
     last_commit=Fix continuation mark / compact
+  60a7f9f446: |-
+    ruby 2.7.0dev (2019-10-28T21:50:36Z trunk 60a7f9f446) [x86_64-linux]
+    last_commit=Protect finalizer references during execution
+  60a7f9f446 --jit: |-
+    ruby 2.7.0dev (2019-10-28T21:50:36Z trunk 60a7f9f446) +JIT [x86_64-linux]
+    last_commit=Protect finalizer references during execution
+  da3774e5eb: |-
+    ruby 2.7.0dev (2019-10-28T23:14:50Z trunk da3774e5eb) [x86_64-linux]
+    last_commit=Revert "Protect finalizer references during execution"
+  da3774e5eb --jit: |-
+    ruby 2.7.0dev (2019-10-28T23:14:50Z trunk da3774e5eb) +JIT [x86_64-linux]
+    last_commit=Revert "Protect finalizer references during execution"
+  b4229c0a90: |-
+    ruby 2.7.0dev (2019-10-28T23:58:39Z trunk b4229c0a90) [x86_64-linux]
+    last_commit=Restore `in_kwarg` flag properly
+  b4229c0a90 --jit: |-
+    ruby 2.7.0dev (2019-10-28T23:58:39Z trunk b4229c0a90) +JIT [x86_64-linux]
+    last_commit=Restore `in_kwarg` flag properly
