@@ -6003,3 +6003,75 @@ commits:
   b4229c0a90 --jit: |-
     ruby 2.7.0dev (2019-10-28T23:58:39Z trunk b4229c0a90) +JIT [x86_64-linux]
     last_commit=Restore `in_kwarg` flag properly
+  '0547627705': |-
+    ruby 2.7.0dev (2019-10-29T01:35:43Z trunk 0547627705) [x86_64-linux]
+    last_commit=Version 0.0.4
+  0547627705 --jit: |-
+    ruby 2.7.0dev (2019-10-29T01:35:43Z trunk 0547627705) +JIT [x86_64-linux]
+    last_commit=Version 0.0.4
+  65744fb19e: |-
+    ruby 2.7.0dev (2019-10-29T02:30:49Z trunk 65744fb19e) [x86_64-linux]
+    last_commit=Right size the iseq coverage branches tmp array - initializes with 5 elements
+  65744fb19e --jit: |-
+    ruby 2.7.0dev (2019-10-29T02:30:49Z trunk 65744fb19e) +JIT [x86_64-linux]
+    last_commit=Right size the iseq coverage branches tmp array - initializes with 5 elements
+  4480d68931: |-
+    ruby 2.7.0dev (2019-10-29T02:31:15Z trunk 4480d68931) [x86_64-linux]
+    last_commit=Right size the compile option hash
+  4480d68931 --jit: |-
+    ruby 2.7.0dev (2019-10-29T02:31:15Z trunk 4480d68931) +JIT [x86_64-linux]
+    last_commit=Right size the compile option hash
+  0e68913f81: |-
+    ruby 2.7.0dev (2019-10-29T02:31:34Z trunk 0e68913f81) [x86_64-linux]
+    last_commit=Right size the Enumerator internal lazy_use_super_method hash
+  0e68913f81 --jit: |-
+    ruby 2.7.0dev (2019-10-29T02:31:34Z trunk 0e68913f81) +JIT [x86_64-linux]
+    last_commit=Right size the Enumerator internal lazy_use_super_method hash
+  '0095362918': |-
+    ruby 2.7.0dev (2019-10-29T02:31:50Z trunk 0095362918) [x86_64-linux]
+    last_commit=Right size the vm_default_params hash
+  '0095362918 --jit': |-
+    ruby 2.7.0dev (2019-10-29T02:31:50Z trunk 0095362918) +JIT [x86_64-linux]
+    last_commit=Right size the vm_default_params hash
+  fecaa6e946: |-
+    ruby 2.7.0dev (2019-10-29T02:32:09Z trunk fecaa6e946) [x86_64-linux]
+    last_commit=Let the backtrace array constructed in backtrace_collect be initialized with the size already given
+  fecaa6e946 --jit: |-
+    ruby 2.7.0dev (2019-10-29T02:32:09Z trunk fecaa6e946) +JIT [x86_64-linux]
+    last_commit=Let the backtrace array constructed in backtrace_collect be initialized with the size already given
+  85b88c1d89: |-
+    ruby 2.7.0dev (2019-10-29T02:32:46Z trunk 85b88c1d89) [x86_64-linux]
+    last_commit=Let the arrays for the singleton and instance method reflection helpers be initialized to the methods count
+  85b88c1d89 --jit: |-
+    ruby 2.7.0dev (2019-10-29T02:32:46Z trunk 85b88c1d89) +JIT [x86_64-linux]
+    last_commit=Let the arrays for the singleton and instance method reflection helpers be initialized to the methods count
+  b86e5c9fec: |-
+    ruby 2.7.0dev (2019-10-29T03:07:44Z trunk b86e5c9fec) [x86_64-linux]
+    last_commit=Clang can also use C call cache
+  b86e5c9fec --jit: |-
+    ruby 2.7.0dev (2019-10-29T03:07:44Z trunk b86e5c9fec) +JIT [x86_64-linux]
+    last_commit=Clang can also use C call cache
+  54eb51d72b: |-
+    ruby 2.7.0dev (2019-10-29T03:12:07Z trunk 54eb51d72b) [x86_64-linux]
+    last_commit=Check for nonnull attribute in configure
+  54eb51d72b --jit: |-
+    ruby 2.7.0dev (2019-10-29T03:12:07Z trunk 54eb51d72b) +JIT [x86_64-linux]
+    last_commit=Check for nonnull attribute in configure
+  b4da6fc1c2: |-
+    ruby 2.7.0dev (2019-10-29T03:34:44Z trunk b4da6fc1c2) [x86_64-linux]
+    last_commit=[ruby/rdoc] Use omit of test-unit instead of skip of minitest
+  b4da6fc1c2 --jit: |-
+    ruby 2.7.0dev (2019-10-29T03:34:44Z trunk b4da6fc1c2) +JIT [x86_64-linux]
+    last_commit=[ruby/rdoc] Use omit of test-unit instead of skip of minitest
+  c8ce37d427: |-
+    ruby 2.7.0dev (2019-10-29T03:34:44Z trunk c8ce37d427) [x86_64-linux]
+    last_commit=[ruby/rdoc] Support different drive latters in include paths
+  c8ce37d427 --jit: |-
+    ruby 2.7.0dev (2019-10-29T03:34:44Z trunk c8ce37d427) +JIT [x86_64-linux]
+    last_commit=[ruby/rdoc] Support different drive latters in include paths
+  9525541d02: |-
+    ruby 2.7.0dev (2019-10-29T03:34:44Z trunk 9525541d02) [x86_64-linux]
+    last_commit=[ruby/rdoc] Use Dir.glob to convert short path of Dir.tmpdir to long path
+  9525541d02 --jit: |-
+    ruby 2.7.0dev (2019-10-29T03:34:44Z trunk 9525541d02) +JIT [x86_64-linux]
+    last_commit=[ruby/rdoc] Use Dir.glob to convert short path of Dir.tmpdir to long path
