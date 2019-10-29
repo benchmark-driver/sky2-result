@@ -5955,3 +5955,15 @@ commits:
   7bf51ced55 --jit: |-
     ruby 2.7.0dev (2019-10-29T05:40:26Z trunk 7bf51ced55) +JIT [x86_64-linux]
     last_commit=test/rubygems/test_gem.rb: early failure when there is /tmp/Gemfile
+  9195ed18ca: |-
+    ruby 2.7.0dev (2019-10-29T07:05:39Z trunk 9195ed18ca) [x86_64-linux]
+    last_commit=Revert "Check for nonnull attribute in configure"
+  9195ed18ca --jit: |-
+    ruby 2.7.0dev (2019-10-29T07:05:39Z trunk 9195ed18ca) +JIT [x86_64-linux]
+    last_commit=Revert "Check for nonnull attribute in configure"
+  ad4da86669: |-
+    ruby 2.7.0dev (2019-10-29T07:38:15Z trunk ad4da86669) [x86_64-linux]
+    last_commit=Check for nonnull attribute in configure
+  ad4da86669 --jit: |-
+    ruby 2.7.0dev (2019-10-29T07:38:15Z trunk ad4da86669) +JIT [x86_64-linux]
+    last_commit=Check for nonnull attribute in configure
