@@ -1983,6 +1983,8 @@ results:
     82f25404ff: 3328697.963
     967ef0d4f6: 3445597.971
     efd641ffab: 3428847.472
+    c99fb0f41e: 3156236.061
+    cf9344131c: 3288688.24
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3965,6 +3967,8 @@ results:
     82f25404ff: 3230730.406
     967ef0d4f6: 3212036.771
     efd641ffab: 3382152.627
+    c99fb0f41e: 3326547.091
+    cf9344131c: 3364195.729
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5947,6 +5951,8 @@ results:
     82f25404ff: 1834397.368
     967ef0d4f6: 1868678.523
     efd641ffab: 1863122.94
+    c99fb0f41e: 1463389.99
+    cf9344131c: 1855567.822
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7929,6 +7935,8 @@ results:
     82f25404ff: 2866009.687
     967ef0d4f6: 2810436.563
     efd641ffab: 3179190.768
+    c99fb0f41e: 2642658.154
+    cf9344131c: 2840406.112
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -9911,6 +9919,8 @@ results:
     82f25404ff: 3672945.598
     967ef0d4f6: 3723420.685
     efd641ffab: 3567962.943
+    c99fb0f41e: 3682421.828
+    cf9344131c: 3639300.672
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -11893,6 +11903,8 @@ results:
     82f25404ff: 3545112.631
     967ef0d4f6: 3645775.912
     efd641ffab: 3583177.458
+    c99fb0f41e: 3595471.627
+    cf9344131c: 3352352.094
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -13875,6 +13887,8 @@ results:
     82f25404ff: 1854493.876
     967ef0d4f6: 1976403.334
     efd641ffab: 2071424.9
+    c99fb0f41e: 1940653.236
+    cf9344131c: 1756735.435
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -15857,3 +15871,5 @@ results:
     82f25404ff: 3074892.972
     967ef0d4f6: 2997184.713
     efd641ffab: 3423664.008
+    c99fb0f41e: 3047961.777
+    cf9344131c: 3416899.913

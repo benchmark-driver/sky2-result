@@ -9,150 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  1f636e74e6: |-
-    ruby 2.7.0dev (2019-09-02T03:16:21Z trunk 1f636e74e6) [x86_64-linux]
-    last_commit=Set mtime of checked out files to past time
-  1f636e74e6 --jit: |-
-    ruby 2.7.0dev (2019-09-02T03:16:21Z trunk 1f636e74e6) +JIT [x86_64-linux]
-    last_commit=Set mtime of checked out files to past time
-  ff462bc6c3: |-
-    ruby 2.7.0dev (2019-09-02T04:46:33Z trunk ff462bc6c3) [x86_64-linux]
-    last_commit=Add a benchmark for opt_regexpmatch2
-  ff462bc6c3 --jit: |-
-    ruby 2.7.0dev (2019-09-02T04:46:33Z trunk ff462bc6c3) +JIT [x86_64-linux]
-    last_commit=Add a benchmark for opt_regexpmatch2
-  8ad7fafcdd: |-
-    ruby 2.7.0dev (2019-09-02T04:56:40Z trunk 8ad7fafcdd) [x86_64-linux]
-    last_commit=opt_regexpmatch1 is actually making things slower.
-  8ad7fafcdd --jit: |-
-    ruby 2.7.0dev (2019-09-02T04:56:40Z trunk 8ad7fafcdd) +JIT [x86_64-linux]
-    last_commit=opt_regexpmatch1 is actually making things slower.
-  ec80d5c4f3: |-
-    ruby 2.7.0dev (2019-09-02T04:56:40Z trunk ec80d5c4f3) [x86_64-linux]
-    last_commit=delete unused function
-  ec80d5c4f3 --jit: |-
-    ruby 2.7.0dev (2019-09-02T04:56:40Z trunk ec80d5c4f3) +JIT [x86_64-linux]
-    last_commit=delete unused function
-  79e3d6bb9e: |-
-    ruby 2.7.0dev (2019-09-02T04:56:40Z trunk 79e3d6bb9e) [x86_64-linux]
-    last_commit=fix shortcut condition
-  79e3d6bb9e --jit: |-
-    ruby 2.7.0dev (2019-09-02T04:56:40Z trunk 79e3d6bb9e) +JIT [x86_64-linux]
-    last_commit=fix shortcut condition
-  83498854eb: |-
-    ruby 2.7.0dev (2019-09-02T05:20:05Z trunk 83498854eb) [x86_64-linux]
-    last_commit=Make Enumerator::Lazy#with_index be lazy
-  83498854eb --jit: |-
-    ruby 2.7.0dev (2019-09-02T05:20:05Z trunk 83498854eb) +JIT [x86_64-linux]
-    last_commit=Make Enumerator::Lazy#with_index be lazy
-  c69545ae32: |-
-    ruby 2.7.0dev (2019-09-02T05:33:37Z trunk c69545ae32) [x86_64-linux]
-    last_commit=Fix opt_regexpmatch1 references
-  c69545ae32 --jit: |-
-    ruby 2.7.0dev (2019-09-02T05:33:37Z trunk c69545ae32) +JIT [x86_64-linux]
-    last_commit=Fix opt_regexpmatch1 references
-  6724b1f83d: |-
-    ruby 2.7.0dev (2019-09-02T05:35:38Z trunk 6724b1f83d) [x86_64-linux]
-    last_commit=Revert "Make Enumerator::Lazy#with_index be lazy"
-  6724b1f83d --jit: |-
-    ruby 2.7.0dev (2019-09-02T05:35:38Z trunk 6724b1f83d) +JIT [x86_64-linux]
-    last_commit=Revert "Make Enumerator::Lazy#with_index be lazy"
-  e9b271d1e2: |-
-    ruby 2.7.0dev (2019-09-02T05:38:26Z trunk e9b271d1e2) [x86_64-linux]
-    last_commit=Get rid of interpreting BTS references as label-list [ci skip]
-  e9b271d1e2 --jit: |-
-    ruby 2.7.0dev (2019-09-02T05:38:26Z trunk e9b271d1e2) +JIT [x86_64-linux]
-    last_commit=Get rid of interpreting BTS references as label-list [ci skip]
-  633ae3278e: |-
-    ruby 2.7.0dev (2019-09-02T05:43:51Z trunk 633ae3278e) [x86_64-linux]
-    last_commit=Add Net::FTP#features and Net::FTP#option
-  633ae3278e --jit: |-
-    ruby 2.7.0dev (2019-09-02T05:43:51Z trunk 633ae3278e) +JIT [x86_64-linux]
-    last_commit=Add Net::FTP#features and Net::FTP#option
-  6f206b8ec6: |-
-    ruby 2.7.0dev (2019-09-02T06:08:53Z trunk 6f206b8ec6) [x86_64-linux]
-    last_commit=Prohibit nul-separated glob pattern [Feature #14643] (#2419)
-  6f206b8ec6 --jit: |-
-    ruby 2.7.0dev (2019-09-02T06:08:53Z trunk 6f206b8ec6) +JIT [x86_64-linux]
-    last_commit=Prohibit nul-separated glob pattern [Feature #14643] (#2419)
-  8e38d4c78c: |-
-    ruby 2.7.0dev (2019-09-02T07:46:28Z trunk 8e38d4c78c) [x86_64-linux]
-    last_commit=Rewrote using assert_separately
-  8e38d4c78c --jit: |-
-    ruby 2.7.0dev (2019-09-02T07:46:28Z trunk 8e38d4c78c) +JIT [x86_64-linux]
-    last_commit=Rewrote using assert_separately
-  8b2e1ca10e: |-
-    ruby 2.7.0dev (2019-09-02T07:47:12Z trunk 8b2e1ca10e) [x86_64-linux]
-    last_commit=Do not clear backtrace in Exception#exception
-  8b2e1ca10e --jit: |-
-    ruby 2.7.0dev (2019-09-02T07:47:12Z trunk 8b2e1ca10e) +JIT [x86_64-linux]
-    last_commit=Do not clear backtrace in Exception#exception
-  53a7abe2cd: |-
-    ruby 2.7.0dev (2019-09-02T13:33:27Z trunk 53a7abe2cd) [x86_64-linux]
-    last_commit=test/drb/drbtest.rb: Skip test_06_timeout on Solaris10s
-  53a7abe2cd --jit: |-
-    ruby 2.7.0dev (2019-09-02T13:33:27Z trunk 53a7abe2cd) +JIT [x86_64-linux]
-    last_commit=test/drb/drbtest.rb: Skip test_06_timeout on Solaris10s
-  6a9c5ef186: |-
-    ruby 2.7.0dev (2019-09-02T14:28:21Z trunk 6a9c5ef186) [x86_64-linux]
-    last_commit=Extract git commit log as raw format like git-svn for ChangeLog
-  6a9c5ef186 --jit: |-
-    ruby 2.7.0dev (2019-09-02T14:28:21Z trunk 6a9c5ef186) +JIT [x86_64-linux]
-    last_commit=Extract git commit log as raw format like git-svn for ChangeLog
-  ca8ae759d0: |-
-    ruby 2.7.0dev (2019-09-02T14:37:52Z trunk ca8ae759d0) [x86_64-linux]
-    last_commit=Fix compilation error in SUPPORT_JOKE
-  ca8ae759d0 --jit: |-
-    ruby 2.7.0dev (2019-09-02T14:37:52Z trunk ca8ae759d0) +JIT [x86_64-linux]
-    last_commit=Fix compilation error in SUPPORT_JOKE
-  834e771860: |-
-    ruby 2.7.0dev (2019-09-02T14:48:38Z trunk 834e771860) [x86_64-linux]
-    last_commit=Run daily cron against SUPPORT_JOKE
-  834e771860 --jit: |-
-    ruby 2.7.0dev (2019-09-02T14:48:38Z trunk 834e771860) +JIT [x86_64-linux]
-    last_commit=Run daily cron against SUPPORT_JOKE
-  60a49a6ff9: |-
-    ruby 2.7.0dev (2019-09-02T15:07:37Z trunk 60a49a6ff9) [x86_64-linux]
-    last_commit=Fix SUPPORT_JOKE CI on Travis
-  60a49a6ff9 --jit: |-
-    ruby 2.7.0dev (2019-09-02T15:07:37Z trunk 60a49a6ff9) +JIT [x86_64-linux]
-    last_commit=Fix SUPPORT_JOKE CI on Travis
-  be86591458: |-
-    ruby 2.7.0dev (2019-09-02T15:08:39Z trunk be86591458) [x86_64-linux]
-    last_commit=* 2019-09-03 [ci skip]
-  be86591458 --jit: |-
-    ruby 2.7.0dev (2019-09-02T15:08:39Z trunk be86591458) +JIT [x86_64-linux]
-    last_commit=* 2019-09-03 [ci skip]
-  f560609d66: |-
-    ruby 2.7.0dev (2019-09-02T15:21:30Z trunk f560609d66) [x86_64-linux]
-    last_commit=Merge pull request #2418 from jeremyevans/array-empty-kwsplat
-  f560609d66 --jit: |-
-    ruby 2.7.0dev (2019-09-02T15:21:30Z trunk f560609d66) +JIT [x86_64-linux]
-    last_commit=Merge pull request #2418 from jeremyevans/array-empty-kwsplat
-  d83ade1db5: |-
-    ruby 2.7.0dev (2019-09-02T15:33:02Z trunk d83ade1db5) [x86_64-linux]
-    last_commit=Use -z option for git-log
-  d83ade1db5 --jit: |-
-    ruby 2.7.0dev (2019-09-02T15:33:02Z trunk d83ade1db5) +JIT [x86_64-linux]
-    last_commit=Use -z option for git-log
-  f1d8d0f47b: |-
-    ruby 2.7.0dev (2019-09-02T15:35:24Z trunk f1d8d0f47b) [x86_64-linux]
-    last_commit=Drop obsoleted branch references
-  f1d8d0f47b --jit: |-
-    ruby 2.7.0dev (2019-09-02T15:35:24Z trunk f1d8d0f47b) +JIT [x86_64-linux]
-    last_commit=Drop obsoleted branch references
-  1d68d29c14: |-
-    ruby 2.7.0dev (2019-09-02T15:36:19Z trunk 1d68d29c14) [x86_64-linux]
-    last_commit=Drop obsoleted IRC channel reference
-  1d68d29c14 --jit: |-
-    ruby 2.7.0dev (2019-09-02T15:36:19Z trunk 1d68d29c14) +JIT [x86_64-linux]
-    last_commit=Drop obsoleted IRC channel reference
-  91aa8bfff8: |-
-    ruby 2.7.0dev (2019-09-02T16:01:48Z trunk 91aa8bfff8) [x86_64-linux]
-    last_commit=Drop unstable Travis osx in favor of GitHub Actions
-  91aa8bfff8 --jit: |-
-    ruby 2.7.0dev (2019-09-02T16:01:48Z trunk 91aa8bfff8) +JIT [x86_64-linux]
-    last_commit=Drop unstable Travis osx in favor of GitHub Actions
   52f0c31558: |-
     ruby 2.7.0dev (2019-09-02T16:06:29Z trunk 52f0c31558) [x86_64-linux]
     last_commit=Fix accidental leftover for Linux
@@ -6075,3 +5931,27 @@ commits:
   9525541d02 --jit: |-
     ruby 2.7.0dev (2019-10-29T03:34:44Z trunk 9525541d02) +JIT [x86_64-linux]
     last_commit=[ruby/rdoc] Use Dir.glob to convert short path of Dir.tmpdir to long path
+  ca5812fe45: |-
+    ruby 2.7.0dev (2019-10-29T03:57:31Z trunk ca5812fe45) [x86_64-linux]
+    last_commit=Revert "[ruby/rdoc] Use omit of test-unit instead of skip of minitest"
+  ca5812fe45 --jit: |-
+    ruby 2.7.0dev (2019-10-29T03:57:31Z trunk ca5812fe45) +JIT [x86_64-linux]
+    last_commit=Revert "[ruby/rdoc] Use omit of test-unit instead of skip of minitest"
+  1820aeeeb2: |-
+    ruby 2.7.0dev (2019-10-29T04:15:09Z trunk 1820aeeeb2) [x86_64-linux]
+    last_commit=tool/lib/minitest/unit.rb: add "omit" as an alias to "skip"
+  1820aeeeb2 --jit: |-
+    ruby 2.7.0dev (2019-10-29T04:15:09Z trunk 1820aeeeb2) +JIT [x86_64-linux]
+    last_commit=tool/lib/minitest/unit.rb: add "omit" as an alias to "skip"
+  79a7fd9120: |-
+    ruby 2.7.0dev (2019-10-29T04:16:31Z trunk 79a7fd9120) [x86_64-linux]
+    last_commit=Revert "Revert "[ruby/rdoc] Use omit of test-unit instead of skip of minitest""
+  79a7fd9120 --jit: |-
+    ruby 2.7.0dev (2019-10-29T04:16:31Z trunk 79a7fd9120) +JIT [x86_64-linux]
+    last_commit=Revert "Revert "[ruby/rdoc] Use omit of test-unit instead of skip of minitest""
+  7bf51ced55: |-
+    ruby 2.7.0dev (2019-10-29T05:40:26Z trunk 7bf51ced55) [x86_64-linux]
+    last_commit=test/rubygems/test_gem.rb: early failure when there is /tmp/Gemfile
+  7bf51ced55 --jit: |-
+    ruby 2.7.0dev (2019-10-29T05:40:26Z trunk 7bf51ced55) +JIT [x86_64-linux]
+    last_commit=test/rubygems/test_gem.rb: early failure when there is /tmp/Gemfile
