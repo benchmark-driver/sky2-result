@@ -9,108 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  547887138f: |-
-    ruby 2.7.0dev (2019-09-03T03:29:36Z trunk 547887138f) [x86_64-linux]
-    last_commit=test/ruby/test_fiber.rb: reduce the count of object creation to cause GC
-  547887138f --jit: |-
-    ruby 2.7.0dev (2019-09-03T03:29:36Z trunk 547887138f) +JIT [x86_64-linux]
-    last_commit=test/ruby/test_fiber.rb: reduce the count of object creation to cause GC
-  355ccdeae5: |-
-    ruby 2.7.0dev (2019-09-03T03:59:08Z trunk 355ccdeae5) [x86_64-linux]
-    last_commit=Disable method definition type checks on Cygwin too
-  355ccdeae5 --jit: |-
-    ruby 2.7.0dev (2019-09-03T03:59:08Z trunk 355ccdeae5) +JIT [x86_64-linux]
-    last_commit=Disable method definition type checks on Cygwin too
-  1a9cc3b27c: |-
-    ruby 2.7.0dev (2019-09-03T05:22:44Z trunk 1a9cc3b27c) [x86_64-linux]
-    last_commit=Avoid defining unused instructions
-  1a9cc3b27c --jit: |-
-    ruby 2.7.0dev (2019-09-03T05:22:44Z trunk 1a9cc3b27c) +JIT [x86_64-linux]
-    last_commit=Avoid defining unused instructions
-  e913fa94d3: |-
-    ruby 2.7.0dev (2019-09-03T05:43:08Z trunk e913fa94d3) [x86_64-linux]
-    last_commit=delete ruby_eval_string_from_file_protect
-  e913fa94d3 --jit: |-
-    ruby 2.7.0dev (2019-09-03T05:43:08Z trunk e913fa94d3) +JIT [x86_64-linux]
-    last_commit=delete ruby_eval_string_from_file_protect
-  83889292f5: |-
-    ruby 2.7.0dev (2019-09-03T07:51:01Z trunk 83889292f5) [x86_64-linux]
-    last_commit=Examine TestIO#test_select_exceptfds on Solaris with 1 byte data
-  83889292f5 --jit: |-
-    ruby 2.7.0dev (2019-09-03T07:51:01Z trunk 83889292f5) +JIT [x86_64-linux]
-    last_commit=Examine TestIO#test_select_exceptfds on Solaris with 1 byte data
-  36a0c668b6: |-
-    ruby 2.7.0dev (2019-09-03T09:36:08Z trunk 36a0c668b6) [x86_64-linux]
-    last_commit=Remove SKIP_DOXYGEN because job.env does not set in `if:`
-  36a0c668b6 --jit: |-
-    ruby 2.7.0dev (2019-09-03T09:36:08Z trunk 36a0c668b6) +JIT [x86_64-linux]
-    last_commit=Remove SKIP_DOXYGEN because job.env does not set in `if:`
-  afe8bf2489: |-
-    ruby 2.7.0dev (2019-09-03T11:34:52Z trunk afe8bf2489) [x86_64-linux]
-    last_commit=Try extending timeout of IO.select
-  afe8bf2489 --jit: |-
-    ruby 2.7.0dev (2019-09-03T11:34:52Z trunk afe8bf2489) +JIT [x86_64-linux]
-    last_commit=Try extending timeout of IO.select
-  7cb19b3f5b: |-
-    ruby 2.7.0dev (2019-09-03T12:03:11Z trunk 7cb19b3f5b) [x86_64-linux]
-    last_commit=Roughly retry choco install commands
-  7cb19b3f5b --jit: |-
-    ruby 2.7.0dev (2019-09-03T12:03:11Z trunk 7cb19b3f5b) +JIT [x86_64-linux]
-    last_commit=Roughly retry choco install commands
-  beaabd2308: |-
-    ruby 2.7.0dev (2019-09-03T12:12:31Z trunk beaabd2308) [x86_64-linux]
-    last_commit=Unify SUPPORT_JOKE and OPT_SUPPORT_JOKE
-  beaabd2308 --jit: |-
-    ruby 2.7.0dev (2019-09-03T12:12:31Z trunk beaabd2308) +JIT [x86_64-linux]
-    last_commit=Unify SUPPORT_JOKE and OPT_SUPPORT_JOKE
-  ecc37ee67b: |-
-    ruby 2.7.0dev (2019-09-03T12:38:32Z trunk ecc37ee67b) [x86_64-linux]
-    last_commit=Stop testing inexistent instructions
-  ecc37ee67b --jit: |-
-    ruby 2.7.0dev (2019-09-03T12:38:32Z trunk ecc37ee67b) +JIT [x86_64-linux]
-    last_commit=Stop testing inexistent instructions
-  fb67d4fc77: |-
-    ruby 2.7.0dev (2019-09-03T12:49:52Z trunk fb67d4fc77) [x86_64-linux]
-    last_commit=Move an unstable bootstraptest to pending
-  fb67d4fc77 --jit: |-
-    ruby 2.7.0dev (2019-09-03T12:49:52Z trunk fb67d4fc77) +JIT [x86_64-linux]
-    last_commit=Move an unstable bootstraptest to pending
-  e94ac03eb0: |-
-    ruby 2.7.0dev (2019-09-03T18:30:49Z trunk e94ac03eb0) [x86_64-linux]
-    last_commit=Make Enumerator::Lazy#with_index be lazy
-  e94ac03eb0 --jit: |-
-    ruby 2.7.0dev (2019-09-03T18:30:49Z trunk e94ac03eb0) +JIT [x86_64-linux]
-    last_commit=Make Enumerator::Lazy#with_index be lazy
-  4a3972c261: |-
-    ruby 2.7.0dev (2019-09-03T18:30:49Z trunk 4a3972c261) [x86_64-linux]
-    last_commit=Remove bad expectation in spec
-  4a3972c261 --jit: |-
-    ruby 2.7.0dev (2019-09-03T18:30:49Z trunk 4a3972c261) +JIT [x86_64-linux]
-    last_commit=Remove bad expectation in spec
-  a7d7a0df91: |-
-    ruby 2.7.0dev (2019-09-03T18:30:49Z trunk a7d7a0df91) [x86_64-linux]
-    last_commit=Fix Enumerator::Lazy#{to_enum,enum_for} where method is defined in Lazy
-  a7d7a0df91 --jit: |-
-    ruby 2.7.0dev (2019-09-03T18:30:49Z trunk a7d7a0df91) +JIT [x86_64-linux]
-    last_commit=Fix Enumerator::Lazy#{to_enum,enum_for} where method is defined in Lazy
-  f702cd6ace: |-
-    ruby 2.7.0dev (2019-09-03T18:31:11Z trunk f702cd6ace) [x86_64-linux]
-    last_commit=* 2019-09-04 [ci skip]
-  f702cd6ace --jit: |-
-    ruby 2.7.0dev (2019-09-03T18:31:11Z trunk f702cd6ace) +JIT [x86_64-linux]
-    last_commit=* 2019-09-04 [ci skip]
-  39c3252cd1: |-
-    ruby 2.7.0dev (2019-09-03T18:32:02Z trunk 39c3252cd1) [x86_64-linux]
-    last_commit=Merge pull request #2422 from jeremyevans/rb_keyword_given_p
-  39c3252cd1 --jit: |-
-    ruby 2.7.0dev (2019-09-03T18:32:02Z trunk 39c3252cd1) +JIT [x86_64-linux]
-    last_commit=Merge pull request #2422 from jeremyevans/rb_keyword_given_p
-  77596fb7a9: |-
-    ruby 2.7.0dev (2019-09-03T21:02:24Z trunk 77596fb7a9) [x86_64-linux]
-    last_commit=Do not turn on keyword_init for Struct subclass if keyword hash is empty
-  77596fb7a9 --jit: |-
-    ruby 2.7.0dev (2019-09-03T21:02:24Z trunk 77596fb7a9) +JIT [x86_64-linux]
-    last_commit=Do not turn on keyword_init for Struct subclass if keyword hash is empty
   c14b67b2a8: |-
     ruby 2.7.0dev (2019-09-04T02:10:21Z trunk c14b67b2a8) [x86_64-linux]
     last_commit=Check frozen flag on MJIT setinstancevariable
@@ -6015,3 +5913,45 @@ commits:
   39281d5774 --jit: |-
     ruby 2.7.0dev (2019-10-31T06:34:01Z trunk 39281d5774) +JIT [x86_64-linux]
     last_commit=[ruby/gdbm] Use Gemfile instead of Gem::Specification#add_development_dependency.
+  e4cd0d7287: |-
+    ruby 2.7.0dev (2019-10-31T06:41:46Z trunk e4cd0d7287) [x86_64-linux]
+    last_commit=[ruby/fileutils] Remove use of untaint on Ruby 2.7 to avoid deprecation warnings
+  e4cd0d7287 --jit: |-
+    ruby 2.7.0dev (2019-10-31T06:41:46Z trunk e4cd0d7287) +JIT [x86_64-linux]
+    last_commit=[ruby/fileutils] Remove use of untaint on Ruby 2.7 to avoid deprecation warnings
+  fce940aac7: |-
+    ruby 2.7.0dev (2019-10-31T06:51:25Z trunk fce940aac7) [x86_64-linux]
+    last_commit=[ruby/date] introduce Date::Error, raise Date::Error for every "invalid <anything>" type of exception
+  fce940aac7 --jit: |-
+    ruby 2.7.0dev (2019-10-31T06:51:25Z trunk fce940aac7) +JIT [x86_64-linux]
+    last_commit=[ruby/date] introduce Date::Error, raise Date::Error for every "invalid <anything>" type of exception
+  3895e548bd: |-
+    ruby 2.7.0dev (2019-10-31T06:51:30Z trunk 3895e548bd) [x86_64-linux]
+    last_commit=[ruby/date] Revert "Simplify #inspect"
+  3895e548bd --jit: |-
+    ruby 2.7.0dev (2019-10-31T06:51:30Z trunk 3895e548bd) +JIT [x86_64-linux]
+    last_commit=[ruby/date] Revert "Simplify #inspect"
+  ebc884461b: |-
+    ruby 2.7.0dev (2019-10-31T07:24:02Z trunk ebc884461b) [x86_64-linux]
+    last_commit=[ruby/stringio] Remove taint support
+  ebc884461b --jit: |-
+    ruby 2.7.0dev (2019-10-31T07:24:02Z trunk ebc884461b) +JIT [x86_64-linux]
+    last_commit=[ruby/stringio] Remove taint support
+  473882e01f: |-
+    ruby 2.7.0dev (2019-10-31T07:50:00Z trunk 473882e01f) [x86_64-linux]
+    last_commit=Skip tainted examples for stringio
+  473882e01f --jit: |-
+    ruby 2.7.0dev (2019-10-31T07:50:00Z trunk 473882e01f) +JIT [x86_64-linux]
+    last_commit=Skip tainted examples for stringio
+  5f6fbf8725: |-
+    ruby 2.7.0dev (2019-10-31T08:11:23Z trunk 5f6fbf8725) [x86_64-linux]
+    last_commit=spec: Fix syntax errors
+  5f6fbf8725 --jit: |-
+    ruby 2.7.0dev (2019-10-31T08:11:23Z trunk 5f6fbf8725) +JIT [x86_64-linux]
+    last_commit=spec: Fix syntax errors
+  d6ed7a984c: |-
+    ruby 2.7.0dev (2019-10-31T08:51:50Z trunk d6ed7a984c) [x86_64-linux]
+    last_commit=Fix verbose warning being emitted
+  d6ed7a984c --jit: |-
+    ruby 2.7.0dev (2019-10-31T08:51:50Z trunk d6ed7a984c) +JIT [x86_64-linux]
+    last_commit=Fix verbose warning being emitted
