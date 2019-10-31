@@ -1998,6 +1998,8 @@ results:
     '0098977053': 3394796.033
     8bfc46a9a3: 3384011.907
     4096e4b08c: 3366277.279
+    beaabd2308: 3427813.377
+    7d4ab8bbe7: 2750408.707
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3995,6 +3997,8 @@ results:
     '0098977053': 3364391.391
     8bfc46a9a3: 3390435.381
     4096e4b08c: 3341869.488
+    beaabd2308: 3371921.484
+    7d4ab8bbe7: 3216842.207
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5992,6 +5996,8 @@ results:
     '0098977053': 1905369.952
     8bfc46a9a3: 1852166.915
     4096e4b08c: 1741113.831
+    beaabd2308: 1920142.967
+    7d4ab8bbe7: 1838692.06
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7989,6 +7995,8 @@ results:
     '0098977053': 3139808.005
     8bfc46a9a3: 2557365.326
     4096e4b08c: 3141041.032
+    beaabd2308: 2804859.573
+    7d4ab8bbe7: 3101065.5
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -9986,6 +9994,8 @@ results:
     '0098977053': 3684918.933
     8bfc46a9a3: 3684572.194
     4096e4b08c: 3504516.702
+    beaabd2308: 3714826.331
+    7d4ab8bbe7: 3275395.436
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -11983,6 +11993,8 @@ results:
     '0098977053': 3521607.436
     8bfc46a9a3: 3428977.949
     4096e4b08c: 3660642.776
+    beaabd2308: 3505483.438
+    7d4ab8bbe7: 3610701.554
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -13980,6 +13992,8 @@ results:
     '0098977053': 1966252.861
     8bfc46a9a3: 1771456.762
     4096e4b08c: 1760131.017
+    beaabd2308: 2018818.511
+    7d4ab8bbe7: 1533599.977
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -15977,3 +15991,5 @@ results:
     '0098977053': 3404774.093
     8bfc46a9a3: 2699231.187
     4096e4b08c: 3342383.435
+    beaabd2308: 3017390.671
+    7d4ab8bbe7: 2750681.787
