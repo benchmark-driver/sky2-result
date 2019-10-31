@@ -5991,3 +5991,27 @@ commits:
   c38ba75780 --jit: |-
     ruby 2.7.0dev (2019-10-31T01:19:57Z trunk c38ba75780) +JIT [x86_64-linux]
     last_commit=Fixed the sync task for json
+  bc7fbb6f02: |-
+    ruby 2.7.0dev (2019-10-31T06:19:59Z trunk bc7fbb6f02) [x86_64-linux]
+    last_commit=Mention update to Unicode Emoji version 12.1 in NEWS.
+  bc7fbb6f02 --jit: |-
+    ruby 2.7.0dev (2019-10-31T06:19:59Z trunk bc7fbb6f02) +JIT [x86_64-linux]
+    last_commit=Mention update to Unicode Emoji version 12.1 in NEWS.
+  290903dba0: |-
+    ruby 2.7.0dev (2019-10-31T06:34:01Z trunk 290903dba0) [x86_64-linux]
+    last_commit=[ruby/zlib] Remove taint support
+  290903dba0 --jit: |-
+    ruby 2.7.0dev (2019-10-31T06:34:01Z trunk 290903dba0) +JIT [x86_64-linux]
+    last_commit=[ruby/zlib] Remove taint support
+  b93ab7d693: |-
+    ruby 2.7.0dev (2019-10-31T06:34:01Z trunk b93ab7d693) [x86_64-linux]
+    last_commit=[ruby/gdbm] Remove taint support
+  b93ab7d693 --jit: |-
+    ruby 2.7.0dev (2019-10-31T06:34:01Z trunk b93ab7d693) +JIT [x86_64-linux]
+    last_commit=[ruby/gdbm] Remove taint support
+  39281d5774: |-
+    ruby 2.7.0dev (2019-10-31T06:34:01Z trunk 39281d5774) [x86_64-linux]
+    last_commit=[ruby/gdbm] Use Gemfile instead of Gem::Specification#add_development_dependency.
+  39281d5774 --jit: |-
+    ruby 2.7.0dev (2019-10-31T06:34:01Z trunk 39281d5774) +JIT [x86_64-linux]
+    last_commit=[ruby/gdbm] Use Gemfile instead of Gem::Specification#add_development_dependency.
