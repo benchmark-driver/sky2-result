@@ -2000,6 +2000,8 @@ results:
     4096e4b08c: 3366277.279
     beaabd2308: 3427813.377
     7d4ab8bbe7: 2750408.707
+    a23b639050: 3368469.144
+    0bfe3bf4d1: 3373173.86
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -3999,6 +4001,8 @@ results:
     4096e4b08c: 3341869.488
     beaabd2308: 3371921.484
     7d4ab8bbe7: 3216842.207
+    a23b639050: 3342906.068
+    0bfe3bf4d1: 3196814.779
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -5998,6 +6002,8 @@ results:
     4096e4b08c: 1741113.831
     beaabd2308: 1920142.967
     7d4ab8bbe7: 1838692.06
+    a23b639050: 1870954.174
+    0bfe3bf4d1: 1881610.63
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -7997,6 +8003,8 @@ results:
     4096e4b08c: 3141041.032
     beaabd2308: 2804859.573
     7d4ab8bbe7: 3101065.5
+    a23b639050: 2875397.219
+    0bfe3bf4d1: 2886101.979
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -9996,6 +10004,8 @@ results:
     4096e4b08c: 3504516.702
     beaabd2308: 3714826.331
     7d4ab8bbe7: 3275395.436
+    a23b639050: 3666815.245
+    0bfe3bf4d1: 3653073.175
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -11995,6 +12005,8 @@ results:
     4096e4b08c: 3660642.776
     beaabd2308: 3505483.438
     7d4ab8bbe7: 3610701.554
+    a23b639050: 3665899.604
+    0bfe3bf4d1: 3630456.661
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -13994,6 +14006,8 @@ results:
     4096e4b08c: 1760131.017
     beaabd2308: 2018818.511
     7d4ab8bbe7: 1533599.977
+    a23b639050: 1984118.527
+    0bfe3bf4d1: 1772753.56
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -15993,3 +16007,5 @@ results:
     4096e4b08c: 3342383.435
     beaabd2308: 3017390.671
     7d4ab8bbe7: 2750681.787
+    a23b639050: 3391590.294
+    0bfe3bf4d1: 3040951.612

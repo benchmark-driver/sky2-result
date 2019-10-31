@@ -5955,3 +5955,21 @@ commits:
   5f8795a07b --jit: |-
     ruby 2.7.0dev (2019-10-30T15:38:16Z trunk 5f8795a07b) +JIT [x86_64-linux]
     last_commit=* 2019-10-31 [ci skip]
+  1c03026ea3: |-
+    ruby 2.7.0dev (2019-10-30T23:39:48Z trunk 1c03026ea3) [x86_64-linux]
+    last_commit=Try to run assert_output_unchanged with racc tests
+  1c03026ea3 --jit: |-
+    ruby 2.7.0dev (2019-10-30T23:39:48Z trunk 1c03026ea3) +JIT [x86_64-linux]
+    last_commit=Try to run assert_output_unchanged with racc tests
+  8540efd342: |-
+    ruby 2.7.0dev (2019-10-30T23:39:48Z trunk 8540efd342) [x86_64-linux]
+    last_commit=Ignore test_racc_command with linux platform
+  8540efd342 --jit: |-
+    ruby 2.7.0dev (2019-10-30T23:39:48Z trunk 8540efd342) +JIT [x86_64-linux]
+    last_commit=Ignore test_racc_command with linux platform
+  e08f2e47e3: |-
+    ruby 2.7.0dev (2019-10-30T23:39:48Z trunk e08f2e47e3) [x86_64-linux]
+    last_commit=Also ignore mswin platform
+  e08f2e47e3 --jit: |-
+    ruby 2.7.0dev (2019-10-30T23:39:48Z trunk e08f2e47e3) +JIT [x86_64-linux]
+    last_commit=Also ignore mswin platform
