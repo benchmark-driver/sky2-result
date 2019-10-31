@@ -5973,3 +5973,21 @@ commits:
   e08f2e47e3 --jit: |-
     ruby 2.7.0dev (2019-10-30T23:39:48Z trunk e08f2e47e3) +JIT [x86_64-linux]
     last_commit=Also ignore mswin platform
+  e1bf29314f: |-
+    ruby 2.7.0dev (2019-10-31T00:28:55Z trunk e1bf29314f) [x86_64-linux]
+    last_commit=Fix zero free objects assertion
+  e1bf29314f --jit: |-
+    ruby 2.7.0dev (2019-10-31T00:28:55Z trunk e1bf29314f) +JIT [x86_64-linux]
+    last_commit=Fix zero free objects assertion
+  79d96b42df: |-
+    ruby 2.7.0dev (2019-10-31T01:05:32Z trunk 79d96b42df) [x86_64-linux]
+    last_commit=Revert "Fix zero free objects assertion"
+  79d96b42df --jit: |-
+    ruby 2.7.0dev (2019-10-31T01:05:32Z trunk 79d96b42df) +JIT [x86_64-linux]
+    last_commit=Revert "Fix zero free objects assertion"
+  c38ba75780: |-
+    ruby 2.7.0dev (2019-10-31T01:19:57Z trunk c38ba75780) [x86_64-linux]
+    last_commit=Fixed the sync task for json
+  c38ba75780 --jit: |-
+    ruby 2.7.0dev (2019-10-31T01:19:57Z trunk c38ba75780) +JIT [x86_64-linux]
+    last_commit=Fixed the sync task for json
