@@ -5955,3 +5955,15 @@ commits:
   d6ed7a984c --jit: |-
     ruby 2.7.0dev (2019-10-31T08:51:50Z trunk d6ed7a984c) +JIT [x86_64-linux]
     last_commit=Fix verbose warning being emitted
+  0aaa15f636: |-
+    ruby 2.7.0dev (2019-10-31T13:23:58Z trunk 0aaa15f636) [x86_64-linux]
+    last_commit=[ruby/zlib] Fix setting mtime to zero in GzipWriter
+  0aaa15f636 --jit: |-
+    ruby 2.7.0dev (2019-10-31T13:23:58Z trunk 0aaa15f636) +JIT [x86_64-linux]
+    last_commit=[ruby/zlib] Fix setting mtime to zero in GzipWriter
+  63f70eb651: |-
+    ruby 2.7.0dev (2019-10-31T13:24:00Z trunk 63f70eb651) [x86_64-linux]
+    last_commit=[ruby/zlib] Removed no longer used variables
+  63f70eb651 --jit: |-
+    ruby 2.7.0dev (2019-10-31T13:24:00Z trunk 63f70eb651) +JIT [x86_64-linux]
+    last_commit=[ruby/zlib] Removed no longer used variables
