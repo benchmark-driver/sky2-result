@@ -9,96 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  c14b67b2a8: |-
-    ruby 2.7.0dev (2019-09-04T02:10:21Z trunk c14b67b2a8) [x86_64-linux]
-    last_commit=Check frozen flag on MJIT setinstancevariable
-  c14b67b2a8 --jit: |-
-    ruby 2.7.0dev (2019-09-04T02:10:21Z trunk c14b67b2a8) +JIT [x86_64-linux]
-    last_commit=Check frozen flag on MJIT setinstancevariable
-  b0d0b850bc: |-
-    ruby 2.7.0dev (2019-09-04T02:50:37Z trunk b0d0b850bc) [x86_64-linux]
-    last_commit=Use RUBY_TESTOPTS instead of TESTOPTS
-  b0d0b850bc --jit: |-
-    ruby 2.7.0dev (2019-09-04T02:50:37Z trunk b0d0b850bc) +JIT [x86_64-linux]
-    last_commit=Use RUBY_TESTOPTS instead of TESTOPTS
-  1e30d0af7d: |-
-    ruby 2.7.0dev (2019-09-04T03:03:28Z trunk 1e30d0af7d) [x86_64-linux]
-    last_commit=`$JOBS` does not set in `env:`
-  1e30d0af7d --jit: |-
-    ruby 2.7.0dev (2019-09-04T03:03:28Z trunk 1e30d0af7d) +JIT [x86_64-linux]
-    last_commit=`$JOBS` does not set in `env:`
-  967ef0d4f6: |-
-    ruby 2.7.0dev (2019-09-04T03:46:26Z trunk 967ef0d4f6) [x86_64-linux]
-    last_commit=Use `git pull` instead of `git fetch` if master branch
-  967ef0d4f6 --jit: |-
-    ruby 2.7.0dev (2019-09-04T03:46:26Z trunk 967ef0d4f6) +JIT [x86_64-linux]
-    last_commit=Use `git pull` instead of `git fetch` if master branch
-  ccad34f453: |-
-    ruby 2.7.0dev (2019-09-04T03:51:39Z trunk ccad34f453) [x86_64-linux]
-    last_commit=Add TEST_BUNDLED_GEMS_ALLOW_FAILURES=minitest
-  ccad34f453 --jit: |-
-    ruby 2.7.0dev (2019-09-04T03:51:39Z trunk ccad34f453) +JIT [x86_64-linux]
-    last_commit=Add TEST_BUNDLED_GEMS_ALLOW_FAILURES=minitest
-  2a6457b5b7: |-
-    ruby 2.7.0dev (2019-09-04T05:08:40Z trunk 2a6457b5b7) [x86_64-linux]
-    last_commit=add rb_funcallv_with_cc()
-  2a6457b5b7 --jit: |-
-    ruby 2.7.0dev (2019-09-04T05:08:40Z trunk 2a6457b5b7) +JIT [x86_64-linux]
-    last_commit=add rb_funcallv_with_cc()
-  1d4bd229b8: |-
-    ruby 2.7.0dev (2019-09-04T07:16:46Z trunk 1d4bd229b8) [x86_64-linux]
-    last_commit=Implement Enumerator::Lazy#eager [Feature #15901]
-  1d4bd229b8 --jit: |-
-    ruby 2.7.0dev (2019-09-04T07:16:46Z trunk 1d4bd229b8) +JIT [x86_64-linux]
-    last_commit=Implement Enumerator::Lazy#eager [Feature #15901]
-  f6da4a5447: |-
-    ruby 2.7.0dev (2019-09-04T07:16:47Z trunk f6da4a5447) [x86_64-linux]
-    last_commit=Describe #eager in the Enumerator::Lazy section
-  f6da4a5447 --jit: |-
-    ruby 2.7.0dev (2019-09-04T07:16:47Z trunk f6da4a5447) +JIT [x86_64-linux]
-    last_commit=Describe #eager in the Enumerator::Lazy section
-  9f59d30daa: |-
-    ruby 2.7.0dev (2019-09-04T15:33:49Z trunk 9f59d30daa) [x86_64-linux]
-    last_commit=Separate VCS::DEBUG_OUT
-  9f59d30daa --jit: |-
-    ruby 2.7.0dev (2019-09-04T15:33:49Z trunk 9f59d30daa) +JIT [x86_64-linux]
-    last_commit=Separate VCS::DEBUG_OUT
-  7a1f650c13: |-
-    ruby 2.7.0dev (2019-09-04T23:33:02Z trunk 7a1f650c13) [x86_64-linux]
-    last_commit=* 2019-09-05 [ci skip]
-  7a1f650c13 --jit: |-
-    ruby 2.7.0dev (2019-09-04T23:33:02Z trunk 7a1f650c13) +JIT [x86_64-linux]
-    last_commit=* 2019-09-05 [ci skip]
-  b005d7c2e2: |-
-    ruby 2.7.0dev (2019-09-05T02:58:39Z trunk b005d7c2e2) [x86_64-linux]
-    last_commit=use existing vm_search_method()
-  b005d7c2e2 --jit: |-
-    ruby 2.7.0dev (2019-09-05T02:58:39Z trunk b005d7c2e2) +JIT [x86_64-linux]
-    last_commit=use existing vm_search_method()
-  dd2b9d4a96: |-
-    ruby 2.7.0dev (2019-09-05T03:13:07Z trunk dd2b9d4a96) [x86_64-linux]
-    last_commit=hide rb_funcallv_with_cc from public
-  dd2b9d4a96 --jit: |-
-    ruby 2.7.0dev (2019-09-05T03:13:07Z trunk dd2b9d4a96) +JIT [x86_64-linux]
-    last_commit=hide rb_funcallv_with_cc from public
-  41bc766763: |-
-    ruby 2.7.0dev (2019-09-05T05:29:11Z trunk 41bc766763) [x86_64-linux]
-    last_commit=interesting (but annoying) tidbit warning suppressed
-  41bc766763 --jit: |-
-    ruby 2.7.0dev (2019-09-05T05:29:11Z trunk 41bc766763) +JIT [x86_64-linux]
-    last_commit=interesting (but annoying) tidbit warning suppressed
-  8a608f1b1f: |-
-    ruby 2.7.0dev (2019-09-05T05:39:53Z trunk 8a608f1b1f) [x86_64-linux]
-    last_commit=Removed -git option of make-snapshot
-  8a608f1b1f --jit: |-
-    ruby 2.7.0dev (2019-09-05T05:39:53Z trunk 8a608f1b1f) +JIT [x86_64-linux]
-    last_commit=Removed -git option of make-snapshot
-  436099ee04: |-
-    ruby 2.7.0dev (2019-09-05T06:02:44Z trunk 436099ee04) [x86_64-linux]
-    last_commit=add tests
-  436099ee04 --jit: |-
-    ruby 2.7.0dev (2019-09-05T06:02:44Z trunk 436099ee04) +JIT [x86_64-linux]
-    last_commit=add tests
   f4df9fb46b: |-
     ruby 2.7.0dev (2019-09-05T08:47:51Z trunk f4df9fb46b) [x86_64-linux]
     last_commit=Change name to `Tests (test-bundled-gems)` in macos.yml too
@@ -6015,3 +5925,33 @@ commits:
   6abf4c4802 --jit: |-
     ruby 2.7.0dev (2019-11-01T08:30:17Z trunk 6abf4c4802) +JIT [x86_64-linux]
     last_commit=[ruby/date] Added update-zonetab target
+  cc8116b03e: |-
+    ruby 2.7.0dev (2019-11-01T09:33:58Z trunk cc8116b03e) [x86_64-linux]
+    last_commit=Fix a typo [ci skip]
+  cc8116b03e --jit: |-
+    ruby 2.7.0dev (2019-11-01T09:33:58Z trunk cc8116b03e) +JIT [x86_64-linux]
+    last_commit=Fix a typo [ci skip]
+  c56d8deaff: |-
+    ruby 2.7.0dev (2019-11-01T09:37:57Z trunk c56d8deaff) [x86_64-linux]
+    last_commit=Mention correct class name in uninitialized error
+  c56d8deaff --jit: |-
+    ruby 2.7.0dev (2019-11-01T09:37:57Z trunk c56d8deaff) +JIT [x86_64-linux]
+    last_commit=Mention correct class name in uninitialized error
+  b800410387: |-
+    ruby 2.7.0dev (2019-11-01T09:39:59Z trunk b800410387) [x86_64-linux]
+    last_commit=Support libsocksd socks library for SOCKSSocket
+  b800410387 --jit: |-
+    ruby 2.7.0dev (2019-11-01T09:39:59Z trunk b800410387) +JIT [x86_64-linux]
+    last_commit=Support libsocksd socks library for SOCKSSocket
+  68e0bfcd4a: |-
+    ruby 2.7.0dev (2019-11-01T09:39:59Z trunk 68e0bfcd4a) [x86_64-linux]
+    last_commit=Prefer libsocksd over libsocks
+  68e0bfcd4a --jit: |-
+    ruby 2.7.0dev (2019-11-01T09:39:59Z trunk 68e0bfcd4a) +JIT [x86_64-linux]
+    last_commit=Prefer libsocksd over libsocks
+  10c2a08548: |-
+    ruby 2.7.0dev (2019-11-01T09:40:24Z trunk 10c2a08548) [x86_64-linux]
+    last_commit=Clean up implementation of SOCKSSocket, its confusing and undocumented
+  10c2a08548 --jit: |-
+    ruby 2.7.0dev (2019-11-01T09:40:24Z trunk 10c2a08548) +JIT [x86_64-linux]
+    last_commit=Clean up implementation of SOCKSSocket, its confusing and undocumented

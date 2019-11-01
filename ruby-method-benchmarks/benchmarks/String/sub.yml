@@ -2017,6 +2017,8 @@ results:
     53ed4fb376: 2996018.103
     a51583b678: 3363968.218
     751d4ab9c2: 3374377.104
+    7cb96d41a5: 2990191.892
+    e6378cdcd8: 3395098.243
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4033,6 +4035,8 @@ results:
     53ed4fb376: 3240917.232
     a51583b678: 3237293.542
     751d4ab9c2: 3203319.006
+    7cb96d41a5: 3302912.435
+    e6378cdcd8: 3331122.379
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -6049,6 +6053,8 @@ results:
     53ed4fb376: 1893216.516
     a51583b678: 1953614.988
     751d4ab9c2: 1865011.248
+    7cb96d41a5: 1862273.838
+    e6378cdcd8: 1602997.492
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -8065,6 +8071,8 @@ results:
     53ed4fb376: 2877181.815
     a51583b678: 3089063.349
     751d4ab9c2: 2858941.138
+    7cb96d41a5: 2750246.522
+    e6378cdcd8: 2881326.264
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -10081,6 +10089,8 @@ results:
     53ed4fb376: 3660391.58
     a51583b678: 3606947.405
     751d4ab9c2: 3670262.741
+    7cb96d41a5: 3608910.352
+    e6378cdcd8: 3565023.588
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -12097,6 +12107,8 @@ results:
     53ed4fb376: 3598640.433
     a51583b678: 3649073.151
     751d4ab9c2: 3656362.318
+    7cb96d41a5: 3305333.506
+    e6378cdcd8: 3347567.02
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -14113,6 +14125,8 @@ results:
     53ed4fb376: 1944552.685
     a51583b678: 2070918.272
     751d4ab9c2: 2000529.199
+    7cb96d41a5: 1820752.835
+    e6378cdcd8: 1780846.622
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -16129,3 +16143,5 @@ results:
     53ed4fb376: 3080042.3
     a51583b678: 3371171.736
     751d4ab9c2: 3074715.396
+    7cb96d41a5: 3203335.534
+    e6378cdcd8: 3094145.046
