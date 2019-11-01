@@ -5967,3 +5967,51 @@ commits:
   63f70eb651 --jit: |-
     ruby 2.7.0dev (2019-10-31T13:24:00Z trunk 63f70eb651) +JIT [x86_64-linux]
     last_commit=[ruby/zlib] Removed no longer used variables
+  2c889e9b05: |-
+    ruby 2.7.0dev (2019-11-01T07:58:19Z trunk 2c889e9b05) [x86_64-linux]
+    last_commit=RUBY_ATTR_ALOC_SIZE for clang
+  2c889e9b05 --jit: |-
+    ruby 2.7.0dev (2019-11-01T07:58:19Z trunk 2c889e9b05) +JIT [x86_64-linux]
+    last_commit=RUBY_ATTR_ALOC_SIZE for clang
+  fb495b2928: |-
+    ruby 2.7.0dev (2019-11-01T07:58:19Z trunk fb495b2928) [x86_64-linux]
+    last_commit=rb_aligned_malloc can return NULL
+  fb495b2928 --jit: |-
+    ruby 2.7.0dev (2019-11-01T07:58:19Z trunk fb495b2928) +JIT [x86_64-linux]
+    last_commit=rb_aligned_malloc can return NULL
+  f5e4063272: |-
+    ruby 2.7.0dev (2019-11-01T07:58:19Z trunk f5e4063272) [x86_64-linux]
+    last_commit=ruby_mimmalloc can return NULL
+  f5e4063272 --jit: |-
+    ruby 2.7.0dev (2019-11-01T07:58:19Z trunk f5e4063272) +JIT [x86_64-linux]
+    last_commit=ruby_mimmalloc can return NULL
+  72f997edf6: |-
+    ruby 2.7.0dev (2019-11-01T07:58:19Z trunk 72f997edf6) [x86_64-linux]
+    last_commit=mark functions that do not return NULL as such.
+  72f997edf6 --jit: |-
+    ruby 2.7.0dev (2019-11-01T07:58:19Z trunk 72f997edf6) +JIT [x86_64-linux]
+    last_commit=mark functions that do not return NULL as such.
+  51825c04db: |-
+    ruby 2.7.0dev (2019-11-01T07:59:02Z trunk 51825c04db) [x86_64-linux]
+    last_commit=* 2019-11-01 [ci skip]
+  51825c04db --jit: |-
+    ruby 2.7.0dev (2019-11-01T07:59:02Z trunk 51825c04db) +JIT [x86_64-linux]
+    last_commit=* 2019-11-01 [ci skip]
+  469545307f: |-
+    ruby 2.7.0dev (2019-11-01T08:30:14Z trunk 469545307f) [x86_64-linux]
+    last_commit=[ruby/date] Add more timezone abbreviations
+  469545307f --jit: |-
+    ruby 2.7.0dev (2019-11-01T08:30:14Z trunk 469545307f) +JIT [x86_64-linux]
+    last_commit=[ruby/date] Add more timezone abbreviations
+  b2126d3fcf: |-
+    ruby 2.7.0dev (2019-11-01T08:30:16Z trunk b2126d3fcf) [x86_64-linux]
+    last_commit=[ruby/date] Remove unneeded line in update-abbr
+  b2126d3fcf --jit: |-
+    ruby 2.7.0dev (2019-11-01T08:30:16Z trunk b2126d3fcf) +JIT [x86_64-linux]
+    last_commit=[ruby/date] Remove unneeded line in update-abbr
+  6abf4c4802: |-
+    ruby 2.7.0dev (2019-11-01T08:30:17Z trunk 6abf4c4802) [x86_64-linux]
+    last_commit=[ruby/date] Added update-zonetab target
+  6abf4c4802 --jit: |-
+    ruby 2.7.0dev (2019-11-01T08:30:17Z trunk 6abf4c4802) +JIT [x86_64-linux]
+    last_commit=[ruby/date] Added update-zonetab target
