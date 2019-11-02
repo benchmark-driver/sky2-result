@@ -2029,6 +2029,8 @@ results:
     f625a4be3c: 3329120.519
     6abf4c4802: 3375911.161
     309f6a7726: 2730746.206
+    ad4da86669: 3170480.041
+    ed65e2d5ae: 3411069.179
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4057,6 +4059,8 @@ results:
     f625a4be3c: 3367544.684
     6abf4c4802: 3341852.135
     309f6a7726: 3324456.137
+    ad4da86669: 3226988.455
+    ed65e2d5ae: 3356650.675
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -6085,6 +6089,8 @@ results:
     f625a4be3c: 1969799.484
     6abf4c4802: 1878003.102
     309f6a7726: 1849725.966
+    ad4da86669: 1976967.407
+    ed65e2d5ae: 1956034.079
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -8113,6 +8119,8 @@ results:
     f625a4be3c: 3133555.237
     6abf4c4802: 3160152.734
     309f6a7726: 2852283.718
+    ad4da86669: 3069482.079
+    ed65e2d5ae: 3163726.909
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -10141,6 +10149,8 @@ results:
     f625a4be3c: 3677097.01
     6abf4c4802: 3626058.962
     309f6a7726: 3595364.066
+    ad4da86669: 3671961.488
+    ed65e2d5ae: 3683972.678
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -12169,6 +12179,8 @@ results:
     f625a4be3c: 3576844.341
     6abf4c4802: 3109394.588
     309f6a7726: 3623031.692
+    ad4da86669: 3616257.32
+    ed65e2d5ae: 3398500.923
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -14197,6 +14209,8 @@ results:
     f625a4be3c: 2074888.196
     6abf4c4802: 2036907.261
     309f6a7726: 1938949.6
+    ad4da86669: 2065619.453
+    ed65e2d5ae: 2045048.214
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -16225,3 +16239,5 @@ results:
     f625a4be3c: 3004033.22
     6abf4c4802: 3416073.817
     309f6a7726: 3387660.385
+    ad4da86669: 3345206.198
+    ed65e2d5ae: 3193684.414
