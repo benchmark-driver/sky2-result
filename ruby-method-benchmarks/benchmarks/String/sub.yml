@@ -2025,6 +2025,8 @@ results:
     0e84eecc17: 3392412.63
     1cb8cf5df0: 3356086.803
     6a1809e2e1: 3421494.079
+    85b88c1d89: 3386966.131
+    f625a4be3c: 3329120.519
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4049,6 +4051,8 @@ results:
     0e84eecc17: 3312844.979
     1cb8cf5df0: 3342014.02
     6a1809e2e1: 3227390.815
+    85b88c1d89: 3339461.89
+    f625a4be3c: 3367544.684
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -6073,6 +6077,8 @@ results:
     0e84eecc17: 1687259.746
     1cb8cf5df0: 1836461.416
     6a1809e2e1: 1959445.724
+    85b88c1d89: 1984258.238
+    f625a4be3c: 1969799.484
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -8097,6 +8103,8 @@ results:
     0e84eecc17: 2839536.914
     1cb8cf5df0: 2853606.88
     6a1809e2e1: 3016348.212
+    85b88c1d89: 3037507.917
+    f625a4be3c: 3133555.237
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -10121,6 +10129,8 @@ results:
     0e84eecc17: 3687580.762
     1cb8cf5df0: 3670321.43
     6a1809e2e1: 3735049.957
+    85b88c1d89: 3672539.341
+    f625a4be3c: 3677097.01
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -12145,6 +12155,8 @@ results:
     0e84eecc17: 3577720.801
     1cb8cf5df0: 3611586.887
     6a1809e2e1: 3657541.025
+    85b88c1d89: 3629491.621
+    f625a4be3c: 3576844.341
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -14169,6 +14181,8 @@ results:
     0e84eecc17: 1910972.388
     1cb8cf5df0: 1988845.464
     6a1809e2e1: 2084792.707
+    85b88c1d89: 1885555.537
+    f625a4be3c: 2074888.196
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -16193,3 +16207,5 @@ results:
     0e84eecc17: 3057904.307
     1cb8cf5df0: 3017618.6
     6a1809e2e1: 3250428.364
+    85b88c1d89: 3333306.41
+    f625a4be3c: 3004033.22
