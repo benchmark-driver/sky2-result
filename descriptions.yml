@@ -6009,3 +6009,21 @@ commits:
   782d1b8fb0 --jit: |-
     ruby 2.7.0dev (2019-11-03T10:25:42Z trunk 782d1b8fb0) +JIT [x86_64-linux]
     last_commit=Fix warnings in Regexp#{match,match?} specs
+  f8b3d7d159: |-
+    ruby 2.7.0dev (2019-11-03T13:53:17Z trunk f8b3d7d159) [x86_64-linux]
+    last_commit=[DOC] \s in regexp is not same as in string [ci skip]
+  f8b3d7d159 --jit: |-
+    ruby 2.7.0dev (2019-11-03T13:53:17Z trunk f8b3d7d159) +JIT [x86_64-linux]
+    last_commit=[DOC] \s in regexp is not same as in string [ci skip]
+  7b2cd548aa: |-
+    ruby 2.7.0dev (2019-11-03T14:18:01Z trunk 7b2cd548aa) [x86_64-linux]
+    last_commit=[DOC] mentioned `\R` [ci skip]
+  7b2cd548aa --jit: |-
+    ruby 2.7.0dev (2019-11-03T14:18:01Z trunk 7b2cd548aa) +JIT [x86_64-linux]
+    last_commit=[DOC] mentioned `\R` [ci skip]
+  5a7487bdcd: |-
+    ruby 2.7.0dev (2019-11-03T14:20:01Z trunk 5a7487bdcd) [x86_64-linux]
+    last_commit=Added assertions for linebreak
+  5a7487bdcd --jit: |-
+    ruby 2.7.0dev (2019-11-03T14:20:01Z trunk 5a7487bdcd) +JIT [x86_64-linux]
+    last_commit=Added assertions for linebreak
