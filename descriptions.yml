@@ -5973,3 +5973,39 @@ commits:
   772b0613c5 --jit: |-
     ruby 2.7.0dev (2019-11-02T06:32:49Z trunk 772b0613c5) +JIT [x86_64-linux]
     last_commit=Correct documented return values for certain ENV methods (#2620)
+  452bee3ee8: |-
+    ruby 2.7.0dev (2019-11-03T10:03:04Z trunk 452bee3ee8) [x86_64-linux]
+    last_commit=Revert nil error and adding deprecation message
+  452bee3ee8 --jit: |-
+    ruby 2.7.0dev (2019-11-03T10:03:04Z trunk 452bee3ee8) +JIT [x86_64-linux]
+    last_commit=Revert nil error and adding deprecation message
+  31110d820c: |-
+    ruby 2.7.0dev (2019-11-03T10:03:04Z trunk 31110d820c) [x86_64-linux]
+    last_commit=Improve warning message
+  31110d820c --jit: |-
+    ruby 2.7.0dev (2019-11-03T10:03:04Z trunk 31110d820c) +JIT [x86_64-linux]
+    last_commit=Improve warning message
+  985e6ced99: |-
+    ruby 2.7.0dev (2019-11-03T10:03:24Z trunk 985e6ced99) [x86_64-linux]
+    last_commit=* 2019-11-03 [ci skip]
+  985e6ced99 --jit: |-
+    ruby 2.7.0dev (2019-11-03T10:03:24Z trunk 985e6ced99) +JIT [x86_64-linux]
+    last_commit=* 2019-11-03 [ci skip]
+  4a16623707: |-
+    ruby 2.7.0dev (2019-11-03T10:14:31Z trunk 4a16623707) [x86_64-linux]
+    last_commit=Remove incorrect NEWS entry, only Regexp#match and #match? changed
+  4a16623707 --jit: |-
+    ruby 2.7.0dev (2019-11-03T10:14:31Z trunk 4a16623707) +JIT [x86_64-linux]
+    last_commit=Remove incorrect NEWS entry, only Regexp#match and #match? changed
+  fbacfe6820: |-
+    ruby 2.7.0dev (2019-11-03T10:14:31Z trunk fbacfe6820) [x86_64-linux]
+    last_commit=Update NEWS entry for Feature #13083
+  fbacfe6820 --jit: |-
+    ruby 2.7.0dev (2019-11-03T10:14:31Z trunk fbacfe6820) +JIT [x86_64-linux]
+    last_commit=Update NEWS entry for Feature #13083
+  782d1b8fb0: |-
+    ruby 2.7.0dev (2019-11-03T10:25:42Z trunk 782d1b8fb0) [x86_64-linux]
+    last_commit=Fix warnings in Regexp#{match,match?} specs
+  782d1b8fb0 --jit: |-
+    ruby 2.7.0dev (2019-11-03T10:25:42Z trunk 782d1b8fb0) +JIT [x86_64-linux]
+    last_commit=Fix warnings in Regexp#{match,match?} specs
