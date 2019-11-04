@@ -5967,3 +5967,15 @@ commits:
   046be65c08 --jit: |-
     ruby 2.7.0dev (2019-11-04T00:18:29Z trunk 046be65c08) +JIT [x86_64-linux]
     last_commit=* 2019-11-04 [ci skip]
+  cbbdb4e5a2: |-
+    ruby 2.7.0dev (2019-11-04T00:28:01Z trunk cbbdb4e5a2) [x86_64-linux]
+    last_commit=[ruby/racc] Strip trailing whitespaces at the last line of actions
+  cbbdb4e5a2 --jit: |-
+    ruby 2.7.0dev (2019-11-04T00:28:01Z trunk cbbdb4e5a2) +JIT [x86_64-linux]
+    last_commit=[ruby/racc] Strip trailing whitespaces at the last line of actions
+  823f25bb96: |-
+    ruby 2.7.0dev (2019-11-04T00:40:26Z trunk 823f25bb96) [x86_64-linux]
+    last_commit=sync_default_gems.rb: Show the progress at fetching
+  823f25bb96 --jit: |-
+    ruby 2.7.0dev (2019-11-04T00:40:26Z trunk 823f25bb96) +JIT [x86_64-linux]
+    last_commit=sync_default_gems.rb: Show the progress at fetching
