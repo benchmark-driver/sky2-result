@@ -5955,3 +5955,15 @@ commits:
   5a7487bdcd --jit: |-
     ruby 2.7.0dev (2019-11-03T14:20:01Z trunk 5a7487bdcd) +JIT [x86_64-linux]
     last_commit=Added assertions for linebreak
+  df62d6522a: |-
+    ruby 2.7.0dev (2019-11-04T00:14:18Z trunk df62d6522a) [x86_64-linux]
+    last_commit=Use the dedicated function `rb_io_check_io`
+  df62d6522a --jit: |-
+    ruby 2.7.0dev (2019-11-04T00:14:18Z trunk df62d6522a) +JIT [x86_64-linux]
+    last_commit=Use the dedicated function `rb_io_check_io`
+  046be65c08: |-
+    ruby 2.7.0dev (2019-11-04T00:18:29Z trunk 046be65c08) [x86_64-linux]
+    last_commit=* 2019-11-04 [ci skip]
+  046be65c08 --jit: |-
+    ruby 2.7.0dev (2019-11-04T00:18:29Z trunk 046be65c08) +JIT [x86_64-linux]
+    last_commit=* 2019-11-04 [ci skip]
