@@ -5991,3 +5991,39 @@ commits:
   cf377c5556 --jit: |-
     ruby 2.7.0dev (2019-11-04T08:12:18Z trunk cf377c5556) +JIT [x86_64-linux]
     last_commit=Fix a typo [ci skip]
+  ba35c14325: |-
+    ruby 2.7.0dev (2019-11-04T12:39:54Z trunk ba35c14325) [x86_64-linux]
+    last_commit=Warn `if` and `elsif` at EOL [EXPERIMENTAL]
+  ba35c14325 --jit: |-
+    ruby 2.7.0dev (2019-11-04T12:39:54Z trunk ba35c14325) +JIT [x86_64-linux]
+    last_commit=Warn `if` and `elsif` at EOL [EXPERIMENTAL]
+  c303854e13: |-
+    ruby 2.7.0dev (2019-11-04T13:27:37Z trunk c303854e13) [x86_64-linux]
+    last_commit=Revert "Warn `if` and `elsif` at EOL [EXPERIMENTAL]"
+  c303854e13 --jit: |-
+    ruby 2.7.0dev (2019-11-04T13:27:37Z trunk c303854e13) +JIT [x86_64-linux]
+    last_commit=Revert "Warn `if` and `elsif` at EOL [EXPERIMENTAL]"
+  26316cc350: |-
+    ruby 2.7.0dev (2019-11-04T14:17:34Z trunk 26316cc350) [x86_64-linux]
+    last_commit=Warn `if` and `elsif` at EOL [EXPERIMENTAL]
+  26316cc350 --jit: |-
+    ruby 2.7.0dev (2019-11-04T14:17:34Z trunk 26316cc350) +JIT [x86_64-linux]
+    last_commit=Warn `if` and `elsif` at EOL [EXPERIMENTAL]
+  e91e3274be: |-
+    ruby 2.7.0dev (2019-11-04T14:37:53Z trunk e91e3274be) [x86_64-linux]
+    last_commit=Keep `lex.pcur` after `looking_at_eol_p`
+  e91e3274be --jit: |-
+    ruby 2.7.0dev (2019-11-04T14:37:53Z trunk e91e3274be) +JIT [x86_64-linux]
+    last_commit=Keep `lex.pcur` after `looking_at_eol_p`
+  4e8336bae8: |-
+    ruby 2.7.0dev (2019-11-04T15:05:38Z trunk 4e8336bae8) [x86_64-linux]
+    last_commit=Share test-bundled-gems-run in common.mk
+  4e8336bae8 --jit: |-
+    ruby 2.7.0dev (2019-11-04T15:05:38Z trunk 4e8336bae8) +JIT [x86_64-linux]
+    last_commit=Share test-bundled-gems-run in common.mk
+  bd3463ee35: |-
+    ruby 2.7.0dev (2019-11-04T15:07:22Z trunk bd3463ee35) [x86_64-linux]
+    last_commit=* 2019-11-05 [ci skip]
+  bd3463ee35 --jit: |-
+    ruby 2.7.0dev (2019-11-04T15:07:22Z trunk bd3463ee35) +JIT [x86_64-linux]
+    last_commit=* 2019-11-05 [ci skip]
