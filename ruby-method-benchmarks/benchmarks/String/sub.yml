@@ -2054,6 +2054,8 @@ results:
     a0ce0b6297: 3382724.721
     842f600a93: 3385039.758
     d6a94cffda: 3389108.111
+    d5d5844744: 3392923.962
+    b9cf58d2b2: 3353869.478
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4107,6 +4109,8 @@ results:
     a0ce0b6297: 3346719.216
     842f600a93: 3307699.368
     d6a94cffda: 3382713.789
+    d5d5844744: 3364221.149
+    b9cf58d2b2: 3170164.663
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -6160,6 +6164,8 @@ results:
     a0ce0b6297: 1899083.771
     842f600a93: 1851764.796
     d6a94cffda: 1897137.57
+    d5d5844744: 1978607.279
+    b9cf58d2b2: 1732036.391
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -8213,6 +8219,8 @@ results:
     a0ce0b6297: 2779801.913
     842f600a93: 2862600.727
     d6a94cffda: 2918570.015
+    d5d5844744: 3146535.013
+    b9cf58d2b2: 3125576.002
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -10266,6 +10274,8 @@ results:
     a0ce0b6297: 3690463.268
     842f600a93: 3662542.674
     d6a94cffda: 3696752.656
+    d5d5844744: 3393937.187
+    b9cf58d2b2: 3627821.499
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -12319,6 +12329,8 @@ results:
     a0ce0b6297: 3575159.248
     842f600a93: 3629845.608
     d6a94cffda: 3561929.484
+    d5d5844744: 3648543.434
+    b9cf58d2b2: 3642490.465
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -14372,6 +14384,8 @@ results:
     a0ce0b6297: 1918768.526
     842f600a93: 1971392.01
     d6a94cffda: 1869520.606
+    d5d5844744: 2096228.373
+    b9cf58d2b2: 1846696.29
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -16425,3 +16439,5 @@ results:
     a0ce0b6297: 2973556.01
     842f600a93: 3040650.921
     d6a94cffda: 3101528.87
+    d5d5844744: 3436549.286
+    b9cf58d2b2: 3161145.324
