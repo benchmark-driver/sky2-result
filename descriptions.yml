@@ -5985,3 +5985,21 @@ commits:
   6aacef4948 --jit: |-
     ruby 2.7.0dev (2019-11-05T12:06:29Z trunk 6aacef4948) +JIT [x86_64-linux]
     last_commit=Assert return value of Readline.readline only if Ruby is before 2.7
+  07f2062c8f: |-
+    ruby 2.7.0dev (2019-11-05T15:31:52Z trunk 07f2062c8f) [x86_64-linux]
+    last_commit=Improve string literal concatenation for C++11
+  07f2062c8f --jit: |-
+    ruby 2.7.0dev (2019-11-05T15:31:52Z trunk 07f2062c8f) +JIT [x86_64-linux]
+    last_commit=Improve string literal concatenation for C++11
+  d47b643428: |-
+    ruby 2.7.0dev (2019-11-05T15:39:55Z trunk d47b643428) [x86_64-linux]
+    last_commit=* 2019-11-06 [ci skip]
+  d47b643428 --jit: |-
+    ruby 2.7.0dev (2019-11-05T15:39:55Z trunk d47b643428) +JIT [x86_64-linux]
+    last_commit=* 2019-11-06 [ci skip]
+  7460c884fb: |-
+    ruby 2.7.0dev (2019-11-05T16:24:14Z trunk 7460c884fb) [x86_64-linux]
+    last_commit=Use an identity hash for pinning Ripper objects
+  7460c884fb --jit: |-
+    ruby 2.7.0dev (2019-11-05T16:24:14Z trunk 7460c884fb) +JIT [x86_64-linux]
+    last_commit=Use an identity hash for pinning Ripper objects
