@@ -6003,3 +6003,15 @@ commits:
   6ff1250739 --jit: |-
     ruby 2.7.0dev (2019-11-05T02:39:35Z trunk 6ff1250739) +JIT [x86_64-linux]
     last_commit=rb_method_basic_definition_p with CC
+  7c07300491: |-
+    ruby 2.7.0dev (2019-11-05T04:46:08Z trunk 7c07300491) [x86_64-linux]
+    last_commit=let the .bss section initialize static variables
+  7c07300491 --jit: |-
+    ruby 2.7.0dev (2019-11-05T04:46:08Z trunk 7c07300491) +JIT [x86_64-linux]
+    last_commit=let the .bss section initialize static variables
+  853d91a04a: |-
+    ruby 2.7.0dev (2019-11-05T06:31:21Z trunk 853d91a04a) [x86_64-linux]
+    last_commit=Fix coroutine support on win32
+  853d91a04a --jit: |-
+    ruby 2.7.0dev (2019-11-05T06:31:21Z trunk 853d91a04a) +JIT [x86_64-linux]
+    last_commit=Fix coroutine support on win32
