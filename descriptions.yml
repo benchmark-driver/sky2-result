@@ -5967,3 +5967,21 @@ commits:
   c6a52cffd1 --jit: |-
     ruby 2.7.0dev (2019-11-05T08:43:38Z trunk c6a52cffd1) +JIT [x86_64-linux]
     last_commit=Separated `@counter` and `@tally` so that "-ft" works with "-j"
+  652800cc09: |-
+    ruby 2.7.0dev (2019-11-05T11:54:46Z trunk 652800cc09) [x86_64-linux]
+    last_commit=Only untaint line on Ruby <2.7
+  652800cc09 --jit: |-
+    ruby 2.7.0dev (2019-11-05T11:54:46Z trunk 652800cc09) +JIT [x86_64-linux]
+    last_commit=Only untaint line on Ruby <2.7
+  c4b627e2da: |-
+    ruby 2.7.0dev (2019-11-05T11:57:22Z trunk c4b627e2da) [x86_64-linux]
+    last_commit=Only taint on Ruby <2.7
+  c4b627e2da --jit: |-
+    ruby 2.7.0dev (2019-11-05T11:57:22Z trunk c4b627e2da) +JIT [x86_64-linux]
+    last_commit=Only taint on Ruby <2.7
+  6aacef4948: |-
+    ruby 2.7.0dev (2019-11-05T12:06:29Z trunk 6aacef4948) [x86_64-linux]
+    last_commit=Assert return value of Readline.readline only if Ruby is before 2.7
+  6aacef4948 --jit: |-
+    ruby 2.7.0dev (2019-11-05T12:06:29Z trunk 6aacef4948) +JIT [x86_64-linux]
+    last_commit=Assert return value of Readline.readline only if Ruby is before 2.7
