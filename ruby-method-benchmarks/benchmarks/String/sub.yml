@@ -2062,6 +2062,8 @@ results:
     1521f7cf89: 2661830.31
     f10c9cb1f2: 3380235.941
     cbf405fec4: 3319454.591
+    26fae9aa9d: 3386854.902
+    f364564e66: 3441288.192
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4123,6 +4125,8 @@ results:
     1521f7cf89: 3327313.421
     f10c9cb1f2: 3371706.296
     cbf405fec4: 3340326.813
+    26fae9aa9d: 3385706.292
+    f364564e66: 3387754.906
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -6184,6 +6188,8 @@ results:
     1521f7cf89: 1858578.573
     f10c9cb1f2: 1870130.048
     cbf405fec4: 1845067.773
+    26fae9aa9d: 1952536.132
+    f364564e66: 1920466.7
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -8245,6 +8251,8 @@ results:
     1521f7cf89: 2838314.355
     f10c9cb1f2: 3148894.703
     cbf405fec4: 2873379.474
+    26fae9aa9d: 3126979.565
+    f364564e66: 3198956.591
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -10306,6 +10314,8 @@ results:
     1521f7cf89: 3631734.703
     f10c9cb1f2: 3519015.233
     cbf405fec4: 3680239.696
+    26fae9aa9d: 3693507.536
+    f364564e66: 3708235.985
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -12367,6 +12377,8 @@ results:
     1521f7cf89: 3598600.105
     f10c9cb1f2: 3555791.656
     cbf405fec4: 3605407.089
+    26fae9aa9d: 3628697.922
+    f364564e66: 3642214.5
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -14428,6 +14440,8 @@ results:
     1521f7cf89: 1986334.884
     f10c9cb1f2: 1867753.202
     cbf405fec4: 1731383.015
+    26fae9aa9d: 2085017.004
+    f364564e66: 1975811.7
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -16489,3 +16503,5 @@ results:
     1521f7cf89: 3364628.604
     f10c9cb1f2: 3383867.616
     cbf405fec4: 3083043.84
+    26fae9aa9d: 3342891.912
+    f364564e66: 3453571.137

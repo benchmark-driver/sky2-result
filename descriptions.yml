@@ -5979,3 +5979,27 @@ commits:
   c7632fa80c --jit: |-
     ruby 2.7.0dev (2019-11-04T23:45:19Z trunk c7632fa80c) +JIT [x86_64-linux]
     last_commit=Do not occupy `ARGV` by XRUBY command
+  30a74aaef0: |-
+    ruby 2.7.0dev (2019-11-05T01:09:44Z trunk 30a74aaef0) [x86_64-linux]
+    last_commit=Fix a typo in WARN_EOL
+  30a74aaef0 --jit: |-
+    ruby 2.7.0dev (2019-11-05T01:09:44Z trunk 30a74aaef0) +JIT [x86_64-linux]
+    last_commit=Fix a typo in WARN_EOL
+  '8869384367': |-
+    ruby 2.7.0dev (2019-11-05T01:28:01Z trunk 8869384367) [x86_64-linux]
+    last_commit=Moved Init_encoding from wrong place [Bug #16292]
+  8869384367 --jit: |-
+    ruby 2.7.0dev (2019-11-05T01:28:01Z trunk 8869384367) +JIT [x86_64-linux]
+    last_commit=Moved Init_encoding from wrong place [Bug #16292]
+  1390d56ecf: |-
+    ruby 2.7.0dev (2019-11-05T01:28:44Z trunk 1390d56ecf) [x86_64-linux]
+    last_commit=Set $JOBS to Tests for parallel tests
+  1390d56ecf --jit: |-
+    ruby 2.7.0dev (2019-11-05T01:28:44Z trunk 1390d56ecf) +JIT [x86_64-linux]
+    last_commit=Set $JOBS to Tests for parallel tests
+  6ff1250739: |-
+    ruby 2.7.0dev (2019-11-05T02:39:35Z trunk 6ff1250739) [x86_64-linux]
+    last_commit=rb_method_basic_definition_p with CC
+  6ff1250739 --jit: |-
+    ruby 2.7.0dev (2019-11-05T02:39:35Z trunk 6ff1250739) +JIT [x86_64-linux]
+    last_commit=rb_method_basic_definition_p with CC
