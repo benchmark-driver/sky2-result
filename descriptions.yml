@@ -9,108 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  b11cfed4c4: |-
-    ruby 2.7.0dev (2019-09-05T09:43:21Z trunk b11cfed4c4) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Error out if there are multiple gemspecs and no gemspec is specified
-  b11cfed4c4 --jit: |-
-    ruby 2.7.0dev (2019-09-05T09:43:21Z trunk b11cfed4c4) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Error out if there are multiple gemspecs and no gemspec is specified
-  92be07b1e1: |-
-    ruby 2.7.0dev (2019-09-05T09:43:29Z trunk 92be07b1e1) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove unnecessary gem_name method
-  92be07b1e1 --jit: |-
-    ruby 2.7.0dev (2019-09-05T09:43:29Z trunk 92be07b1e1) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove unnecessary gem_name method
-  73574756f9: |-
-    ruby 2.7.0dev (2019-09-05T09:43:37Z trunk 73574756f9) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Add missing parentheses
-  73574756f9 --jit: |-
-    ruby 2.7.0dev (2019-09-05T09:43:37Z trunk 73574756f9) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Add missing parentheses
-  565828a778: |-
-    ruby 2.7.0dev (2019-09-05T09:43:45Z trunk 565828a778) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fix Layout/SpaceAroundOperators: Operator = should be surrounded by a single space.
-  565828a778 --jit: |-
-    ruby 2.7.0dev (2019-09-05T09:43:45Z trunk 565828a778) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fix Layout/SpaceAroundOperators: Operator = should be surrounded by a single space.
-  0b9b0774c3: |-
-    ruby 2.7.0dev (2019-09-05T09:44:02Z trunk 0b9b0774c3) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Minor fix
-  0b9b0774c3 --jit: |-
-    ruby 2.7.0dev (2019-09-05T09:44:02Z trunk 0b9b0774c3) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Minor fix
-  d9e6315177: |-
-    ruby 2.7.0dev (2019-09-05T09:48:15Z trunk d9e6315177) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Bump rubocop to 0.74.0 and fix new offenses
-  d9e6315177 --jit: |-
-    ruby 2.7.0dev (2019-09-05T09:48:15Z trunk d9e6315177) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Bump rubocop to 0.74.0 and fix new offenses
-  2a166cfea2: |-
-    ruby 2.7.0dev (2019-09-05T11:00:50Z trunk 2a166cfea2) [x86_64-linux]
-    last_commit=Add `File.absolute_path?` (#2198)
-  2a166cfea2 --jit: |-
-    ruby 2.7.0dev (2019-09-05T11:00:50Z trunk 2a166cfea2) +JIT [x86_64-linux]
-    last_commit=Add `File.absolute_path?` (#2198)
-  1c4af1a77f: |-
-    ruby 2.7.0dev (2019-09-05T11:04:50Z trunk 1c4af1a77f) [x86_64-linux]
-    last_commit=Add tests for `File.absolute_path?`
-  1c4af1a77f --jit: |-
-    ruby 2.7.0dev (2019-09-05T11:04:50Z trunk 1c4af1a77f) +JIT [x86_64-linux]
-    last_commit=Add tests for `File.absolute_path?`
-  0036aa3532: |-
-    ruby 2.7.0dev (2019-09-05T13:09:15Z trunk 0036aa3532) [x86_64-linux]
-    last_commit=Add version that FreeBSD supports `CLOCK_PROCESS_CPUTIME_ID` [ci skip]
-  0036aa3532 --jit: |-
-    ruby 2.7.0dev (2019-09-05T13:09:15Z trunk 0036aa3532) +JIT [x86_64-linux]
-    last_commit=Add version that FreeBSD supports `CLOCK_PROCESS_CPUTIME_ID` [ci skip]
-  433c9c00d9: |-
-    ruby 2.7.0dev (2019-09-05T13:16:21Z trunk 433c9c00d9) [x86_64-linux]
-    last_commit=Add a temporal stack dumper for debugging on trunk-mjit
-  433c9c00d9 --jit: |-
-    ruby 2.7.0dev (2019-09-05T13:16:21Z trunk 433c9c00d9) +JIT [x86_64-linux]
-    last_commit=Add a temporal stack dumper for debugging on trunk-mjit
-  1d5066efb0: |-
-    ruby 2.7.0dev (2019-09-05T16:57:43Z trunk 1d5066efb0) [x86_64-linux]
-    last_commit=Make m(**{}) mean call without keywords
-  1d5066efb0 --jit: |-
-    ruby 2.7.0dev (2019-09-05T16:57:43Z trunk 1d5066efb0) +JIT [x86_64-linux]
-    last_commit=Make m(**{}) mean call without keywords
-  c6464c44c0: |-
-    ruby 2.7.0dev (2019-09-05T16:57:43Z trunk c6464c44c0) [x86_64-linux]
-    last_commit=Fix code locations of array node inside hash node when multiple kw splats
-  c6464c44c0 --jit: |-
-    ruby 2.7.0dev (2019-09-05T16:57:43Z trunk c6464c44c0) +JIT [x86_64-linux]
-    last_commit=Fix code locations of array node inside hash node when multiple kw splats
-  70d3596a4a: |-
-    ruby 2.7.0dev (2019-09-05T16:58:03Z trunk 70d3596a4a) [x86_64-linux]
-    last_commit=* 2019-09-06 [ci skip]
-  70d3596a4a --jit: |-
-    ruby 2.7.0dev (2019-09-05T16:58:03Z trunk 70d3596a4a) +JIT [x86_64-linux]
-    last_commit=* 2019-09-06 [ci skip]
-  581fcde088: |-
-    ruby 2.7.0dev (2019-09-05T17:13:49Z trunk 581fcde088) [x86_64-linux]
-    last_commit=Directly mark node objects instead of using a mark array
-  581fcde088 --jit: |-
-    ruby 2.7.0dev (2019-09-05T17:13:49Z trunk 581fcde088) +JIT [x86_64-linux]
-    last_commit=Directly mark node objects instead of using a mark array
-  64817a7cfd: |-
-    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 64817a7cfd) [x86_64-linux]
-    last_commit=Mark some tmpbufs via node objects
-  64817a7cfd --jit: |-
-    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 64817a7cfd) +JIT [x86_64-linux]
-    last_commit=Mark some tmpbufs via node objects
-  f0fd1c0cd8: |-
-    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk f0fd1c0cd8) [x86_64-linux]
-    last_commit=Stash the imemo buf at the end of the ID list
-  f0fd1c0cd8 --jit: |-
-    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk f0fd1c0cd8) +JIT [x86_64-linux]
-    last_commit=Stash the imemo buf at the end of the ID list
-  545b6db3fb: |-
-    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 545b6db3fb) [x86_64-linux]
-    last_commit=Create two buckets for allocating NODE structs
-  545b6db3fb --jit: |-
-    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 545b6db3fb) +JIT [x86_64-linux]
-    last_commit=Create two buckets for allocating NODE structs
   429ed8d587: |-
     ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 429ed8d587) [x86_64-linux]
     last_commit=Don't change DSTR nodes to ARRAY nodes
@@ -6027,3 +5925,33 @@ commits:
   bd3463ee35 --jit: |-
     ruby 2.7.0dev (2019-11-04T15:07:22Z trunk bd3463ee35) +JIT [x86_64-linux]
     last_commit=* 2019-11-05 [ci skip]
+  a087e027bf: |-
+    ruby 2.7.0dev (2019-11-04T16:32:26Z trunk a087e027bf) [x86_64-linux]
+    last_commit=Fixed conditional expressions with only one void side
+  a087e027bf --jit: |-
+    ruby 2.7.0dev (2019-11-04T16:32:26Z trunk a087e027bf) +JIT [x86_64-linux]
+    last_commit=Fixed conditional expressions with only one void side
+  ec54261b01: |-
+    ruby 2.7.0dev (2019-11-04T16:58:52Z trunk ec54261b01) [x86_64-linux]
+    last_commit=Fix zero free objects assertion
+  ec54261b01 --jit: |-
+    ruby 2.7.0dev (2019-11-04T16:58:52Z trunk ec54261b01) +JIT [x86_64-linux]
+    last_commit=Fix zero free objects assertion
+  929a4aa722: |-
+    ruby 2.7.0dev (2019-11-04T17:05:46Z trunk 929a4aa722) [x86_64-linux]
+    last_commit=Adjust a fucntion signature
+  929a4aa722 --jit: |-
+    ruby 2.7.0dev (2019-11-04T17:05:46Z trunk 929a4aa722) +JIT [x86_64-linux]
+    last_commit=Adjust a fucntion signature
+  c0c9a00f83: |-
+    ruby 2.7.0dev (2019-11-04T17:12:26Z trunk c0c9a00f83) [x86_64-linux]
+    last_commit=Simplify test tasks
+  c0c9a00f83 --jit: |-
+    ruby 2.7.0dev (2019-11-04T17:12:26Z trunk c0c9a00f83) +JIT [x86_64-linux]
+    last_commit=Simplify test tasks
+  9d04fa71fc: |-
+    ruby 2.7.0dev (2019-11-04T17:14:31Z trunk 9d04fa71fc) [x86_64-linux]
+    last_commit=Updated minitest to 5.13.0
+  9d04fa71fc --jit: |-
+    ruby 2.7.0dev (2019-11-04T17:14:31Z trunk 9d04fa71fc) +JIT [x86_64-linux]
+    last_commit=Updated minitest to 5.13.0
