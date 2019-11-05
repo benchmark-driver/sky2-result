@@ -9,84 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  429ed8d587: |-
-    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 429ed8d587) [x86_64-linux]
-    last_commit=Don't change DSTR nodes to ARRAY nodes
-  429ed8d587 --jit: |-
-    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 429ed8d587) +JIT [x86_64-linux]
-    last_commit=Don't change DSTR nodes to ARRAY nodes
-  01aa2462b5: |-
-    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 01aa2462b5) [x86_64-linux]
-    last_commit=lazily allocate the mark array
-  01aa2462b5 --jit: |-
-    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 01aa2462b5) +JIT [x86_64-linux]
-    last_commit=lazily allocate the mark array
-  8cd845aa5b: |-
-    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 8cd845aa5b) [x86_64-linux]
-    last_commit=add debugging code to the mark function
-  8cd845aa5b --jit: |-
-    ruby 2.7.0dev (2019-09-05T17:13:50Z trunk 8cd845aa5b) +JIT [x86_64-linux]
-    last_commit=add debugging code to the mark function
-  8f096226e1: |-
-    ruby 2.7.0dev (2019-09-05T18:04:43Z trunk 8f096226e1) [x86_64-linux]
-    last_commit=Stash tmpbuffer inside internal structs
-  8f096226e1 --jit: |-
-    ruby 2.7.0dev (2019-09-05T18:04:43Z trunk 8f096226e1) +JIT [x86_64-linux]
-    last_commit=Stash tmpbuffer inside internal structs
-  f211ab2015: |-
-    ruby 2.7.0dev (2019-09-05T18:37:03Z trunk f211ab2015) [x86_64-linux]
-    last_commit=I forgot to add `break` in my case statements
-  f211ab2015 --jit: |-
-    ruby 2.7.0dev (2019-09-05T18:37:03Z trunk f211ab2015) +JIT [x86_64-linux]
-    last_commit=I forgot to add `break` in my case statements
-  '092f31e7e2': |-
-    ruby 2.7.0dev (2019-09-05T19:44:23Z trunk 092f31e7e2) [x86_64-linux]
-    last_commit=Reverting node marking until I can fix GC problem.
-  '092f31e7e2 --jit': |-
-    ruby 2.7.0dev (2019-09-05T19:44:23Z trunk 092f31e7e2) +JIT [x86_64-linux]
-    last_commit=Reverting node marking until I can fix GC problem.
-  3754e15530: |-
-    ruby 2.7.0dev (2019-09-06T00:02:12Z trunk 3754e15530) [x86_64-linux]
-    last_commit=Warn local variables which conflict with new numbered parameters
-  3754e15530 --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:02:12Z trunk 3754e15530) +JIT [x86_64-linux]
-    last_commit=Warn local variables which conflict with new numbered parameters
-  ce04392d8d: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk ce04392d8d) [x86_64-linux]
-    last_commit=Propagate kw_splat information
-  ce04392d8d --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk ce04392d8d) +JIT [x86_64-linux]
-    last_commit=Propagate kw_splat information
-  fd2ef1a9bf: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk fd2ef1a9bf) [x86_64-linux]
-    last_commit=Add VM_NO_KEYWORDS
-  fd2ef1a9bf --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk fd2ef1a9bf) +JIT [x86_64-linux]
-    last_commit=Add VM_NO_KEYWORDS
-  e3cb3e11af: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk e3cb3e11af) [x86_64-linux]
-    last_commit=Set VM_FRAME_FLAG_CFRAME_KW if kw_splat set in vm_yield_with_cfunc
-  e3cb3e11af --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk e3cb3e11af) +JIT [x86_64-linux]
-    last_commit=Set VM_FRAME_FLAG_CFRAME_KW if kw_splat set in vm_yield_with_cfunc
-  6f9b86616a: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 6f9b86616a) [x86_64-linux]
-    last_commit=Make Symbol#to_proc calls handle keyword arguments
-  6f9b86616a --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 6f9b86616a) +JIT [x86_64-linux]
-    last_commit=Make Symbol#to_proc calls handle keyword arguments
-  1fffd33189: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 1fffd33189) [x86_64-linux]
-    last_commit=Fix passing keywords without splats to sym procs, define_method, and method_missing
-  1fffd33189 --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 1fffd33189) +JIT [x86_64-linux]
-    last_commit=Fix passing keywords without splats to sym procs, define_method, and method_missing
-  030b8e5edf: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 030b8e5edf) [x86_64-linux]
-    last_commit=Set calling->kw_splat = 1 in vm_caller_setup_arg_kw
-  030b8e5edf --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 030b8e5edf) +JIT [x86_64-linux]
-    last_commit=Set calling->kw_splat = 1 in vm_caller_setup_arg_kw
   a23ddf7ff5: |-
     ruby 2.7.0dev (2019-09-06T00:47:12Z trunk a23ddf7ff5) [x86_64-linux]
     last_commit=vm_argc.c (vm_caller_setup_arg_kw): "cfunc" argument is no longer used
@@ -6015,3 +5937,33 @@ commits:
   853d91a04a --jit: |-
     ruby 2.7.0dev (2019-11-05T06:31:21Z trunk 853d91a04a) +JIT [x86_64-linux]
     last_commit=Fix coroutine support on win32
+  bea322a352: |-
+    ruby 2.7.0dev (2019-11-05T08:30:54Z trunk bea322a352) [x86_64-linux]
+    last_commit=Revert "[EXPERIMENTAL] Make Symbol#to_s return a frozen String [Feature #16150]"
+  bea322a352 --jit: |-
+    ruby 2.7.0dev (2019-11-05T08:30:54Z trunk bea322a352) +JIT [x86_64-linux]
+    last_commit=Revert "[EXPERIMENTAL] Make Symbol#to_s return a frozen String [Feature #16150]"
+  dfb3322d27: |-
+    ruby 2.7.0dev (2019-11-05T08:42:35Z trunk dfb3322d27) [x86_64-linux]
+    last_commit=`DottedFormatter#state` consistency
+  dfb3322d27 --jit: |-
+    ruby 2.7.0dev (2019-11-05T08:42:35Z trunk dfb3322d27) +JIT [x86_64-linux]
+    last_commit=`DottedFormatter#state` consistency
+  19f91f7880: |-
+    ruby 2.7.0dev (2019-11-05T08:42:35Z trunk 19f91f7880) [x86_64-linux]
+    last_commit=`DottedFormatter#finish` consistency
+  19f91f7880 --jit: |-
+    ruby 2.7.0dev (2019-11-05T08:42:35Z trunk 19f91f7880) +JIT [x86_64-linux]
+    last_commit=`DottedFormatter#finish` consistency
+  fa52a924aa: |-
+    ruby 2.7.0dev (2019-11-05T08:42:35Z trunk fa52a924aa) [x86_64-linux]
+    last_commit=Enable "-f" option in multi_exec mode
+  fa52a924aa --jit: |-
+    ruby 2.7.0dev (2019-11-05T08:42:35Z trunk fa52a924aa) +JIT [x86_64-linux]
+    last_commit=Enable "-f" option in multi_exec mode
+  c6a52cffd1: |-
+    ruby 2.7.0dev (2019-11-05T08:43:38Z trunk c6a52cffd1) [x86_64-linux]
+    last_commit=Separated `@counter` and `@tally` so that "-ft" works with "-j"
+  c6a52cffd1 --jit: |-
+    ruby 2.7.0dev (2019-11-05T08:43:38Z trunk c6a52cffd1) +JIT [x86_64-linux]
+    last_commit=Separated `@counter` and `@tally` so that "-ft" works with "-j"
