@@ -6003,3 +6003,9 @@ commits:
   7460c884fb --jit: |-
     ruby 2.7.0dev (2019-11-05T16:24:14Z trunk 7460c884fb) +JIT [x86_64-linux]
     last_commit=Use an identity hash for pinning Ripper objects
+  aa94245a09: |-
+    ruby 2.7.0dev (2019-11-05T23:54:32Z trunk aa94245a09) [x86_64-linux]
+    last_commit=Undefine MatchData.allocate [Feature #16294]
+  aa94245a09 --jit: |-
+    ruby 2.7.0dev (2019-11-05T23:54:32Z trunk aa94245a09) +JIT [x86_64-linux]
+    last_commit=Undefine MatchData.allocate [Feature #16294]
