@@ -9,72 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  a23ddf7ff5: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk a23ddf7ff5) [x86_64-linux]
-    last_commit=vm_argc.c (vm_caller_setup_arg_kw): "cfunc" argument is no longer used
-  a23ddf7ff5 --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk a23ddf7ff5) +JIT [x86_64-linux]
-    last_commit=vm_argc.c (vm_caller_setup_arg_kw): "cfunc" argument is no longer used
-  c5555e2eb8: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk c5555e2eb8) [x86_64-linux]
-    last_commit=CALLER_SETUP_ARG removes an empty keyword hash from argv
-  c5555e2eb8 --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk c5555e2eb8) +JIT [x86_64-linux]
-    last_commit=CALLER_SETUP_ARG removes an empty keyword hash from argv
-  437ff40879: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 437ff40879) [x86_64-linux]
-    last_commit=C method should accept a keyword hash (for compatibility with 2.6)
-  437ff40879 --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 437ff40879) +JIT [x86_64-linux]
-    last_commit=C method should accept a keyword hash (for compatibility with 2.6)
-  0bfe3bf4d1: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 0bfe3bf4d1) [x86_64-linux]
-    last_commit=Ignore an empty keyword splat for attr_reader/writer methods
-  0bfe3bf4d1 --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 0bfe3bf4d1) +JIT [x86_64-linux]
-    last_commit=Ignore an empty keyword splat for attr_reader/writer methods
-  eda8dcea16: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk eda8dcea16) [x86_64-linux]
-    last_commit=Add a comment that some ci->flag is inconsistent after CALLER_SETUP_ARG
-  eda8dcea16 --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk eda8dcea16) +JIT [x86_64-linux]
-    last_commit=Add a comment that some ci->flag is inconsistent after CALLER_SETUP_ARG
-  acee630241: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk acee630241) [x86_64-linux]
-    last_commit=vm_insnhelper.c: Do not read `ci->flag` after CALLER_SETUP_ARG
-  acee630241 --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk acee630241) +JIT [x86_64-linux]
-    last_commit=vm_insnhelper.c: Do not read `ci->flag` after CALLER_SETUP_ARG
-  4615886c76: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 4615886c76) [x86_64-linux]
-    last_commit=test_method_missing_kwsplat should call the target directly
-  4615886c76 --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 4615886c76) +JIT [x86_64-linux]
-    last_commit=test_method_missing_kwsplat should call the target directly
-  252e299009: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 252e299009) [x86_64-linux]
-    last_commit=vm_call_opt_send should not drop the empty keyword hash
-  252e299009 --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 252e299009) +JIT [x86_64-linux]
-    last_commit=vm_call_opt_send should not drop the empty keyword hash
-  70f2780892: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 70f2780892) [x86_64-linux]
-    last_commit=vm_call_bmethod should not drop the empty keyword hash
-  70f2780892 --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 70f2780892) +JIT [x86_64-linux]
-    last_commit=vm_call_bmethod should not drop the empty keyword hash
-  dd83f7bf98: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk dd83f7bf98) [x86_64-linux]
-    last_commit=define_method should not drop the empty keyword hash
-  dd83f7bf98 --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk dd83f7bf98) +JIT [x86_64-linux]
-    last_commit=define_method should not drop the empty keyword hash
-  55b96c5d2d: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 55b96c5d2d) [x86_64-linux]
-    last_commit=Add a keyword-to-last-hash warning for some case of define_method method
-  55b96c5d2d --jit: |-
-    ruby 2.7.0dev (2019-09-06T00:47:12Z trunk 55b96c5d2d) +JIT [x86_64-linux]
-    last_commit=Add a keyword-to-last-hash warning for some case of define_method method
   d1ef73b59c: |-
     ruby 2.7.0dev (2019-09-06T00:47:12Z trunk d1ef73b59c) [x86_64-linux]
     last_commit=Always remove empty keyword hashes when calling methods
@@ -6021,3 +5955,15 @@ commits:
   f72dc407f2 --jit: |-
     ruby 2.7.0dev (2019-11-06T02:17:09Z trunk f72dc407f2) +JIT [x86_64-linux]
     last_commit=Prohibit calling undefined allocator [Bug #16297]
+  82e840ad15: |-
+    ruby 2.7.0dev (2019-11-06T03:44:50Z trunk 82e840ad15) [x86_64-linux]
+    last_commit=Numbered parameter cannot appear outside block now [Bug #16293]
+  82e840ad15 --jit: |-
+    ruby 2.7.0dev (2019-11-06T03:44:50Z trunk 82e840ad15) +JIT [x86_64-linux]
+    last_commit=Numbered parameter cannot appear outside block now [Bug #16293]
+  2fd465540f: |-
+    ruby 2.7.0dev (2019-11-06T03:45:11Z trunk 2fd465540f) [x86_64-linux]
+    last_commit=Numbered parameter is an ID_LOCAL now [Bug #16293]
+  2fd465540f --jit: |-
+    ruby 2.7.0dev (2019-11-06T03:45:11Z trunk 2fd465540f) +JIT [x86_64-linux]
+    last_commit=Numbered parameter is an ID_LOCAL now [Bug #16293]
