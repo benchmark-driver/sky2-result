@@ -6009,3 +6009,15 @@ commits:
   aa94245a09 --jit: |-
     ruby 2.7.0dev (2019-11-05T23:54:32Z trunk aa94245a09) +JIT [x86_64-linux]
     last_commit=Undefine MatchData.allocate [Feature #16294]
+  5251d18982: |-
+    ruby 2.7.0dev (2019-11-06T00:46:48Z trunk 5251d18982) [x86_64-linux]
+    last_commit=Time#strftime does not support `%Q`
+  5251d18982 --jit: |-
+    ruby 2.7.0dev (2019-11-06T00:46:48Z trunk 5251d18982) +JIT [x86_64-linux]
+    last_commit=Time#strftime does not support `%Q`
+  f72dc407f2: |-
+    ruby 2.7.0dev (2019-11-06T02:17:09Z trunk f72dc407f2) [x86_64-linux]
+    last_commit=Prohibit calling undefined allocator [Bug #16297]
+  f72dc407f2 --jit: |-
+    ruby 2.7.0dev (2019-11-06T02:17:09Z trunk f72dc407f2) +JIT [x86_64-linux]
+    last_commit=Prohibit calling undefined allocator [Bug #16297]
