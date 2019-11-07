@@ -2088,6 +2088,8 @@ results:
     7d354175d7: 3352372.456
     54eb51d72b: 3383842.926
     721cab4706: 3359568.345
+    f3f1d89d46: 3377828.173
+    fecaa6e946: 3339835.334
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4175,6 +4177,8 @@ results:
     7d354175d7: 3347588.328
     54eb51d72b: 3355190.827
     721cab4706: 3223547.705
+    f3f1d89d46: 3377441.62
+    fecaa6e946: 3347212.779
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -6262,6 +6266,8 @@ results:
     7d354175d7: 1838588.217
     54eb51d72b: 1968483.628
     721cab4706: 1851279.263
+    f3f1d89d46: 1983029.687
+    fecaa6e946: 1962253.32
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -8349,6 +8355,8 @@ results:
     7d354175d7: 2854754.389
     54eb51d72b: 3139173.342
     721cab4706: 2851175.952
+    f3f1d89d46: 3157009.736
+    fecaa6e946: 3140760.272
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -10436,6 +10444,8 @@ results:
     7d354175d7: 3674719.446
     54eb51d72b: 3654840.607
     721cab4706: 3636850.082
+    f3f1d89d46: 3658356.278
+    fecaa6e946: 3676437.851
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -12523,6 +12533,8 @@ results:
     7d354175d7: 3630012.457
     54eb51d72b: 3623819.736
     721cab4706: 3582262.863
+    f3f1d89d46: 3187676.331
+    fecaa6e946: 3648705.027
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -14610,6 +14622,8 @@ results:
     7d354175d7: 1957151.585
     54eb51d72b: 2080805.841
     721cab4706: 1934090.15
+    f3f1d89d46: 2082765.055
+    fecaa6e946: 2065762.868
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -16697,3 +16711,5 @@ results:
     7d354175d7: 3050576.408
     54eb51d72b: 3376820.368
     721cab4706: 3056910.26
+    f3f1d89d46: 3096873.79
+    fecaa6e946: 3399380.691

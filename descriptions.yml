@@ -5967,3 +5967,15 @@ commits:
   d0d743ad45 --jit: |-
     ruby 2.7.0dev (2019-11-07T00:31:55Z trunk d0d743ad45) +JIT [x86_64-linux]
     last_commit=Remove duplicate code
+  1e620c67af: |-
+    ruby 2.7.0dev (2019-11-07T04:20:11Z trunk 1e620c67af) [x86_64-linux]
+    last_commit=Add missing semicolon
+  1e620c67af --jit: |-
+    ruby 2.7.0dev (2019-11-07T04:20:11Z trunk 1e620c67af) +JIT [x86_64-linux]
+    last_commit=Add missing semicolon
+  a396bef8d8: |-
+    ruby 2.7.0dev (2019-11-07T06:40:35Z trunk a396bef8d8) [x86_64-linux]
+    last_commit=Disallow duplicated pattern variable
+  a396bef8d8 --jit: |-
+    ruby 2.7.0dev (2019-11-07T06:40:35Z trunk a396bef8d8) +JIT [x86_64-linux]
+    last_commit=Disallow duplicated pattern variable
