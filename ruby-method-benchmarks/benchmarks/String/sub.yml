@@ -2083,6 +2083,8 @@ results:
     ea97933645: 3372521.325
     1d99163aa5: 3408505.399
     8d0c5eb805: 3410906.961
+    a1be11eb12: 2950416.185
+    1c50ce2cf8: 3382855.303
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4165,6 +4167,8 @@ results:
     ea97933645: 3352078.034
     1d99163aa5: 3151853.56
     8d0c5eb805: 3110992.045
+    a1be11eb12: 3221222.669
+    1c50ce2cf8: 3170628.068
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -6247,6 +6251,8 @@ results:
     ea97933645: 1957294.991
     1d99163aa5: 1900502.477
     8d0c5eb805: 1947525.696
+    a1be11eb12: 1786387.564
+    1c50ce2cf8: 1981821.117
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -8329,6 +8335,8 @@ results:
     ea97933645: 3163519.908
     1d99163aa5: 2846434.084
     8d0c5eb805: 3174224.007
+    a1be11eb12: 3051822.746
+    1c50ce2cf8: 3144236.296
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -10411,6 +10419,8 @@ results:
     ea97933645: 3588196.471
     1d99163aa5: 3000352.779
     8d0c5eb805: 3704238.941
+    a1be11eb12: 3433760.232
+    1c50ce2cf8: 3014084.138
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -12493,6 +12503,8 @@ results:
     ea97933645: 3637416.269
     1d99163aa5: 3663463.577
     8d0c5eb805: 3600976.485
+    a1be11eb12: 3073039.755
+    1c50ce2cf8: 3255221.437
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -14575,6 +14587,8 @@ results:
     ea97933645: 2057433.087
     1d99163aa5: 1961289.964
     8d0c5eb805: 1850856.383
+    a1be11eb12: 2062545.403
+    1c50ce2cf8: 2050377.807
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -16657,3 +16671,5 @@ results:
     ea97933645: 3406601.828
     1d99163aa5: 3047894.458
     8d0c5eb805: 3413086.989
+    a1be11eb12: 3248407.89
+    1c50ce2cf8: 3306302.044

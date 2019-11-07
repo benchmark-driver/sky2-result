@@ -5967,3 +5967,27 @@ commits:
   2fd465540f --jit: |-
     ruby 2.7.0dev (2019-11-06T03:45:11Z trunk 2fd465540f) +JIT [x86_64-linux]
     last_commit=Numbered parameter is an ID_LOCAL now [Bug #16293]
+  f5c7fc495a: |-
+    ruby 2.7.0dev (2019-11-06T17:08:37Z trunk f5c7fc495a) [x86_64-linux]
+    last_commit=Fix spawn_spec.rb for Travis arm64 environment.
+  f5c7fc495a --jit: |-
+    ruby 2.7.0dev (2019-11-06T17:08:37Z trunk f5c7fc495a) +JIT [x86_64-linux]
+    last_commit=Fix spawn_spec.rb for Travis arm64 environment.
+  7750edd1e6: |-
+    ruby 2.7.0dev (2019-11-06T17:09:00Z trunk 7750edd1e6) [x86_64-linux]
+    last_commit=* 2019-11-07 [ci skip]
+  7750edd1e6 --jit: |-
+    ruby 2.7.0dev (2019-11-06T17:09:00Z trunk 7750edd1e6) +JIT [x86_64-linux]
+    last_commit=* 2019-11-07 [ci skip]
+  212f4d49ba: |-
+    ruby 2.7.0dev (2019-11-06T17:10:27Z trunk 212f4d49ba) [x86_64-linux]
+    last_commit=Remove arm64 from allow_failures
+  212f4d49ba --jit: |-
+    ruby 2.7.0dev (2019-11-06T17:10:27Z trunk 212f4d49ba) +JIT [x86_64-linux]
+    last_commit=Remove arm64 from allow_failures
+  a1be11eb12: |-
+    ruby 2.7.0dev (2019-11-06T17:53:02Z trunk a1be11eb12) [x86_64-linux]
+    last_commit=Revert "Remove arm64 from allow_failures"
+  a1be11eb12 --jit: |-
+    ruby 2.7.0dev (2019-11-06T17:53:02Z trunk a1be11eb12) +JIT [x86_64-linux]
+    last_commit=Revert "Remove arm64 from allow_failures"
