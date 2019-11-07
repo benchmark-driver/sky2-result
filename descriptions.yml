@@ -5997,3 +5997,9 @@ commits:
   6aa80d5583 --jit: |-
     ruby 2.7.0dev (2019-11-07T09:53:51Z trunk 6aa80d5583) +JIT [x86_64-linux]
     last_commit=Use FIX2LONG instead of FIX2INT like 26843cbcd0
+  d62abc47c8: |-
+    ruby 2.7.0dev (2019-11-07T14:33:45Z trunk d62abc47c8) [x86_64-linux]
+    last_commit=Suppress unused variable warning
+  d62abc47c8 --jit: |-
+    ruby 2.7.0dev (2019-11-07T14:33:45Z trunk d62abc47c8) +JIT [x86_64-linux]
+    last_commit=Suppress unused variable warning
