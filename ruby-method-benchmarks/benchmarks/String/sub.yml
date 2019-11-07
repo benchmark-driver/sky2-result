@@ -2086,6 +2086,8 @@ results:
     a1be11eb12: 2950416.185
     1c50ce2cf8: 3382855.303
     7d354175d7: 3352372.456
+    54eb51d72b: 3383842.926
+    721cab4706: 3359568.345
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4171,6 +4173,8 @@ results:
     a1be11eb12: 3221222.669
     1c50ce2cf8: 3170628.068
     7d354175d7: 3347588.328
+    54eb51d72b: 3355190.827
+    721cab4706: 3223547.705
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -6256,6 +6260,8 @@ results:
     a1be11eb12: 1786387.564
     1c50ce2cf8: 1981821.117
     7d354175d7: 1838588.217
+    54eb51d72b: 1968483.628
+    721cab4706: 1851279.263
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -8341,6 +8347,8 @@ results:
     a1be11eb12: 3051822.746
     1c50ce2cf8: 3144236.296
     7d354175d7: 2854754.389
+    54eb51d72b: 3139173.342
+    721cab4706: 2851175.952
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -10426,6 +10434,8 @@ results:
     a1be11eb12: 3433760.232
     1c50ce2cf8: 3014084.138
     7d354175d7: 3674719.446
+    54eb51d72b: 3654840.607
+    721cab4706: 3636850.082
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -12511,6 +12521,8 @@ results:
     a1be11eb12: 3073039.755
     1c50ce2cf8: 3255221.437
     7d354175d7: 3630012.457
+    54eb51d72b: 3623819.736
+    721cab4706: 3582262.863
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -14596,6 +14608,8 @@ results:
     a1be11eb12: 2062545.403
     1c50ce2cf8: 2050377.807
     7d354175d7: 1957151.585
+    54eb51d72b: 2080805.841
+    721cab4706: 1934090.15
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -16681,3 +16695,5 @@ results:
     a1be11eb12: 3248407.89
     1c50ce2cf8: 3306302.044
     7d354175d7: 3050576.408
+    54eb51d72b: 3376820.368
+    721cab4706: 3056910.26
