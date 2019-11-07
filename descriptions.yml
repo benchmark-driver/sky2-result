@@ -5979,3 +5979,81 @@ commits:
   a396bef8d8 --jit: |-
     ruby 2.7.0dev (2019-11-07T06:40:35Z trunk a396bef8d8) +JIT [x86_64-linux]
     last_commit=Disallow duplicated pattern variable
+  478f6e2b34: |-
+    ruby 2.7.0dev (2019-11-07T07:36:13Z trunk 478f6e2b34) [x86_64-linux]
+    last_commit=Fixed an Errno::ENOENT with non-test libraries
+  478f6e2b34 --jit: |-
+    ruby 2.7.0dev (2019-11-07T07:36:13Z trunk 478f6e2b34) +JIT [x86_64-linux]
+    last_commit=Fixed an Errno::ENOENT with non-test libraries
+  6797c3e371: |-
+    ruby 2.7.0dev (2019-11-07T07:36:14Z trunk 6797c3e371) [x86_64-linux]
+    last_commit=Promote getoptlong to default gems
+  6797c3e371 --jit: |-
+    ruby 2.7.0dev (2019-11-07T07:36:14Z trunk 6797c3e371) +JIT [x86_64-linux]
+    last_commit=Promote getoptlong to default gems
+  3b0bd34001: |-
+    ruby 2.7.0dev (2019-11-07T07:36:14Z trunk 3b0bd34001) [x86_64-linux]
+    last_commit=Promote pstore to default gems
+  3b0bd34001 --jit: |-
+    ruby 2.7.0dev (2019-11-07T07:36:14Z trunk 3b0bd34001) +JIT [x86_64-linux]
+    last_commit=Promote pstore to default gems
+  1159dbf305: |-
+    ruby 2.7.0dev (2019-11-07T07:36:14Z trunk 1159dbf305) [x86_64-linux]
+    last_commit=Promote delegate to default gems
+  1159dbf305 --jit: |-
+    ruby 2.7.0dev (2019-11-07T07:36:14Z trunk 1159dbf305) +JIT [x86_64-linux]
+    last_commit=Promote delegate to default gems
+  77c94e0dd8: |-
+    ruby 2.7.0dev (2019-11-07T07:36:14Z trunk 77c94e0dd8) [x86_64-linux]
+    last_commit=Promote benchmark to default gems
+  77c94e0dd8 --jit: |-
+    ruby 2.7.0dev (2019-11-07T07:36:14Z trunk 77c94e0dd8) +JIT [x86_64-linux]
+    last_commit=Promote benchmark to default gems
+  eb0b13596d: |-
+    ruby 2.7.0dev (2019-11-07T07:36:14Z trunk eb0b13596d) [x86_64-linux]
+    last_commit=Promote net-pop to default gems
+  eb0b13596d --jit: |-
+    ruby 2.7.0dev (2019-11-07T07:36:14Z trunk eb0b13596d) +JIT [x86_64-linux]
+    last_commit=Promote net-pop to default gems
+  223d3c460a: |-
+    ruby 2.7.0dev (2019-11-07T07:36:14Z trunk 223d3c460a) [x86_64-linux]
+    last_commit=Promote net-smtp to default gems
+  223d3c460a --jit: |-
+    ruby 2.7.0dev (2019-11-07T07:36:14Z trunk 223d3c460a) +JIT [x86_64-linux]
+    last_commit=Promote net-smtp to default gems
+  fc85bdeb77: |-
+    ruby 2.7.0dev (2019-11-07T07:36:14Z trunk fc85bdeb77) [x86_64-linux]
+    last_commit=Promote cgi to default gems
+  fc85bdeb77 --jit: |-
+    ruby 2.7.0dev (2019-11-07T07:36:14Z trunk fc85bdeb77) +JIT [x86_64-linux]
+    last_commit=Promote cgi to default gems
+  c916f9600b: |-
+    ruby 2.7.0dev (2019-11-07T07:44:38Z trunk c916f9600b) [x86_64-linux]
+    last_commit=SMTP is not module
+  c916f9600b --jit: |-
+    ruby 2.7.0dev (2019-11-07T07:44:38Z trunk c916f9600b) +JIT [x86_64-linux]
+    last_commit=SMTP is not module
+  3c252651e1: |-
+    ruby 2.7.0dev (2019-11-07T08:09:22Z trunk 3c252651e1) [x86_64-linux]
+    last_commit=Fixed test failure related Net::Protocol
+  3c252651e1 --jit: |-
+    ruby 2.7.0dev (2019-11-07T08:09:22Z trunk 3c252651e1) +JIT [x86_64-linux]
+    last_commit=Fixed test failure related Net::Protocol
+  d45a013a1a: |-
+    ruby 2.7.0dev (2019-11-07T08:41:30Z trunk d45a013a1a) [x86_64-linux]
+    last_commit=extend rb_call_cache
+  d45a013a1a --jit: |-
+    ruby 2.7.0dev (2019-11-07T08:41:30Z trunk d45a013a1a) +JIT [x86_64-linux]
+    last_commit=extend rb_call_cache
+  26843cbcd0: |-
+    ruby 2.7.0dev (2019-11-07T09:50:35Z trunk 26843cbcd0) [x86_64-linux]
+    last_commit=Use FIX2LONG to avoid unexpected exception
+  26843cbcd0 --jit: |-
+    ruby 2.7.0dev (2019-11-07T09:50:35Z trunk 26843cbcd0) +JIT [x86_64-linux]
+    last_commit=Use FIX2LONG to avoid unexpected exception
+  6aa80d5583: |-
+    ruby 2.7.0dev (2019-11-07T09:53:51Z trunk 6aa80d5583) [x86_64-linux]
+    last_commit=Use FIX2LONG instead of FIX2INT like 26843cbcd0
+  6aa80d5583 --jit: |-
+    ruby 2.7.0dev (2019-11-07T09:53:51Z trunk 6aa80d5583) +JIT [x86_64-linux]
+    last_commit=Use FIX2LONG instead of FIX2INT like 26843cbcd0
