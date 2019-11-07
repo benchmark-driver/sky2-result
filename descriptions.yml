@@ -5991,3 +5991,51 @@ commits:
   a1be11eb12 --jit: |-
     ruby 2.7.0dev (2019-11-06T17:53:02Z trunk a1be11eb12) +JIT [x86_64-linux]
     last_commit=Revert "Remove arm64 from allow_failures"
+  40e161a612: |-
+    ruby 2.7.0dev (2019-11-06T22:10:15Z trunk 40e161a612) [x86_64-linux]
+    last_commit=Exclude some clocks on armv8 too
+  40e161a612 --jit: |-
+    ruby 2.7.0dev (2019-11-06T22:10:15Z trunk 40e161a612) +JIT [x86_64-linux]
+    last_commit=Exclude some clocks on armv8 too
+  91135f6d29: |-
+    ruby 2.7.0dev (2019-11-06T22:16:26Z trunk 91135f6d29) [x86_64-linux]
+    last_commit=Promote singleton to default gems
+  91135f6d29 --jit: |-
+    ruby 2.7.0dev (2019-11-06T22:16:26Z trunk 91135f6d29) +JIT [x86_64-linux]
+    last_commit=Promote singleton to default gems
+  ec2603c353: |-
+    ruby 2.7.0dev (2019-11-06T22:16:26Z trunk ec2603c353) [x86_64-linux]
+    last_commit=fallback standard structure library to sync_lib_gem method
+  ec2603c353 --jit: |-
+    ruby 2.7.0dev (2019-11-06T22:16:26Z trunk ec2603c353) +JIT [x86_64-linux]
+    last_commit=fallback standard structure library to sync_lib_gem method
+  fb7fe7f16c: |-
+    ruby 2.7.0dev (2019-11-06T22:16:27Z trunk fb7fe7f16c) [x86_64-linux]
+    last_commit=Added rubygems url for published gem
+  fb7fe7f16c --jit: |-
+    ruby 2.7.0dev (2019-11-06T22:16:27Z trunk fb7fe7f16c) +JIT [x86_64-linux]
+    last_commit=Added rubygems url for published gem
+  d1630d41ad: |-
+    ruby 2.7.0dev (2019-11-06T22:16:27Z trunk d1630d41ad) [x86_64-linux]
+    last_commit=Promote open3 to default gems
+  d1630d41ad --jit: |-
+    ruby 2.7.0dev (2019-11-06T22:16:27Z trunk d1630d41ad) +JIT [x86_64-linux]
+    last_commit=Promote open3 to default gems
+  bd2b314a05: |-
+    ruby 2.7.0dev (2019-11-06T22:59:53Z trunk bd2b314a05) [x86_64-linux]
+    last_commit=Use a monotonically increasing number for object_id
+  bd2b314a05 --jit: |-
+    ruby 2.7.0dev (2019-11-06T22:59:53Z trunk bd2b314a05) +JIT [x86_64-linux]
+    last_commit=Use a monotonically increasing number for object_id
+  e58814d150: |-
+    ruby 2.7.0dev (2019-11-06T23:12:28Z trunk e58814d150) [x86_64-linux]
+    last_commit=Revert "Use a monotonically increasing number for object_id"
+  e58814d150 --jit: |-
+    ruby 2.7.0dev (2019-11-06T23:12:28Z trunk e58814d150) +JIT [x86_64-linux]
+    last_commit=Revert "Use a monotonically increasing number for object_id"
+  d0d743ad45: |-
+    ruby 2.7.0dev (2019-11-07T00:31:55Z trunk d0d743ad45) [x86_64-linux]
+    last_commit=Remove duplicate code
+  d0d743ad45 --jit: |-
+    ruby 2.7.0dev (2019-11-07T00:31:55Z trunk d0d743ad45) +JIT [x86_64-linux]
+    last_commit=Remove duplicate code
