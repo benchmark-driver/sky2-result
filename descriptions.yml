@@ -5997,3 +5997,33 @@ commits:
   dddf5afb79 --jit: |-
     ruby 2.7.0dev (2019-11-07T20:46:14Z trunk dddf5afb79) +JIT [x86_64-linux]
     last_commit=Add a counter for compaction
+  46acd0075d: |-
+    ruby 2.7.0dev (2019-11-08T00:09:29Z trunk 46acd0075d) [x86_64-linux]
+    last_commit=support builtin features with Ruby and C.
+  46acd0075d --jit: |-
+    ruby 2.7.0dev (2019-11-08T00:09:29Z trunk 46acd0075d) +JIT [x86_64-linux]
+    last_commit=support builtin features with Ruby and C.
+  e2a45cb984: |-
+    ruby 2.7.0dev (2019-11-08T00:09:29Z trunk e2a45cb984) [x86_64-linux]
+    last_commit=use builtin for TracePoint.
+  e2a45cb984 --jit: |-
+    ruby 2.7.0dev (2019-11-08T00:09:29Z trunk e2a45cb984) +JIT [x86_64-linux]
+    last_commit=use builtin for TracePoint.
+  a47d058ebf: |-
+    ruby 2.7.0dev (2019-11-08T00:09:29Z trunk a47d058ebf) [x86_64-linux]
+    last_commit=use builtin for RubyVM::AbstractSyntaxTree.
+  a47d058ebf --jit: |-
+    ruby 2.7.0dev (2019-11-08T00:09:29Z trunk a47d058ebf) +JIT [x86_64-linux]
+    last_commit=use builtin for RubyVM::AbstractSyntaxTree.
+  4c00b9e8eb: |-
+    ruby 2.7.0dev (2019-11-08T00:09:47Z trunk 4c00b9e8eb) [x86_64-linux]
+    last_commit=* remove trailing spaces. [ci skip]
+  4c00b9e8eb --jit: |-
+    ruby 2.7.0dev (2019-11-08T00:09:47Z trunk 4c00b9e8eb) +JIT [x86_64-linux]
+    last_commit=* remove trailing spaces. [ci skip]
+  46b9ca6c54: |-
+    ruby 2.7.0dev (2019-11-08T00:26:16Z trunk 46b9ca6c54) [x86_64-linux]
+    last_commit=fix type
+  46b9ca6c54 --jit: |-
+    ruby 2.7.0dev (2019-11-08T00:26:16Z trunk 46b9ca6c54) +JIT [x86_64-linux]
+    last_commit=fix type
