@@ -5997,3 +5997,33 @@ commits:
   cfccd59cb1 --jit: |-
     ruby 2.7.0dev (2019-11-08T03:44:31Z trunk cfccd59cb1) +JIT [x86_64-linux]
     last_commit=Fix typo
+  61cff5c51c: |-
+    ruby 2.7.0dev (2019-11-08T04:21:29Z trunk 61cff5c51c) [x86_64-linux]
+    last_commit=Removed BOM [ci skip]
+  61cff5c51c --jit: |-
+    ruby 2.7.0dev (2019-11-08T04:21:29Z trunk 61cff5c51c) +JIT [x86_64-linux]
+    last_commit=Removed BOM [ci skip]
+  0ad0a8ff58: |-
+    ruby 2.7.0dev (2019-11-08T05:26:21Z trunk 0ad0a8ff58) [x86_64-linux]
+    last_commit=builtin.h must be included *AFTER* vm_core.h
+  0ad0a8ff58 --jit: |-
+    ruby 2.7.0dev (2019-11-08T05:26:21Z trunk 0ad0a8ff58) +JIT [x86_64-linux]
+    last_commit=builtin.h must be included *AFTER* vm_core.h
+  2eb02dfd3b: |-
+    ruby 2.7.0dev (2019-11-08T06:29:02Z trunk 2eb02dfd3b) [x86_64-linux]
+    last_commit=Stop compiling if type mismatch was found.
+  2eb02dfd3b --jit: |-
+    ruby 2.7.0dev (2019-11-08T06:29:02Z trunk 2eb02dfd3b) +JIT [x86_64-linux]
+    last_commit=Stop compiling if type mismatch was found.
+  054cb6d389: |-
+    ruby 2.7.0dev (2019-11-08T06:29:59Z trunk 054cb6d389) [x86_64-linux]
+    last_commit=forget to add gc.rb
+  054cb6d389 --jit: |-
+    ruby 2.7.0dev (2019-11-08T06:29:59Z trunk 054cb6d389) +JIT [x86_64-linux]
+    last_commit=forget to add gc.rb
+  0b29662606: |-
+    ruby 2.7.0dev (2019-11-08T06:32:01Z trunk 0b29662606) [x86_64-linux]
+    last_commit=fix line break code (fix to LF)
+  0b29662606 --jit: |-
+    ruby 2.7.0dev (2019-11-08T06:32:01Z trunk 0b29662606) +JIT [x86_64-linux]
+    last_commit=fix line break code (fix to LF)
