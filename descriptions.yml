@@ -9,84 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  c725a4e48f: |-
-    ruby 2.7.0dev (2019-09-07T05:03:29Z trunk c725a4e48f) [x86_64-linux]
-    last_commit=Check github.repository in doxygen.yml [ci skip]
-  c725a4e48f --jit: |-
-    ruby 2.7.0dev (2019-09-07T05:03:29Z trunk c725a4e48f) +JIT [x86_64-linux]
-    last_commit=Check github.repository in doxygen.yml [ci skip]
-  1e008105bc: |-
-    ruby 2.7.0dev (2019-09-07T07:05:15Z trunk 1e008105bc) [x86_64-linux]
-    last_commit=compile.c (compile_list): emit newarraykwsplat only at the last chunk
-  1e008105bc --jit: |-
-    ruby 2.7.0dev (2019-09-07T07:05:15Z trunk 1e008105bc) +JIT [x86_64-linux]
-    last_commit=compile.c (compile_list): emit newarraykwsplat only at the last chunk
-  2f2f8107d0: |-
-    ruby 2.7.0dev (2019-09-07T07:26:38Z trunk 2f2f8107d0) [x86_64-linux]
-    last_commit=compile.c (compile_list): allow an odd-length hidden array literal
-  2f2f8107d0 --jit: |-
-    ruby 2.7.0dev (2019-09-07T07:26:38Z trunk 2f2f8107d0) +JIT [x86_64-linux]
-    last_commit=compile.c (compile_list): allow an odd-length hidden array literal
-  a2260bd636: |-
-    ruby 2.7.0dev (2019-09-07T07:45:49Z trunk a2260bd636) [x86_64-linux]
-    last_commit=compile.c: Separate compile_list to two functions for Array and Hash
-  a2260bd636 --jit: |-
-    ruby 2.7.0dev (2019-09-07T07:45:49Z trunk a2260bd636) +JIT [x86_64-linux]
-    last_commit=compile.c: Separate compile_list to two functions for Array and Hash
-  5b5c9b6101: |-
-    ruby 2.7.0dev (2019-09-07T08:26:28Z trunk 5b5c9b6101) [x86_64-linux]
-    last_commit=Removed no longer used variable
-  5b5c9b6101 --jit: |-
-    ruby 2.7.0dev (2019-09-07T08:26:28Z trunk 5b5c9b6101) +JIT [x86_64-linux]
-    last_commit=Removed no longer used variable
-  '5511213487': |-
-    ruby 2.7.0dev (2019-09-07T08:26:28Z trunk 5511213487) [x86_64-linux]
-    last_commit=Exit gently if no VCS found but --suppress_not_found is given
-  5511213487 --jit: |-
-    ruby 2.7.0dev (2019-09-07T08:26:28Z trunk 5511213487) +JIT [x86_64-linux]
-    last_commit=Exit gently if no VCS found but --suppress_not_found is given
-  324dd9d01f: |-
-    ruby 2.7.0dev (2019-09-07T10:53:47Z trunk 324dd9d01f) [x86_64-linux]
-    last_commit=armv7l and armv7l are the same platform, generalize to armv7
-  324dd9d01f --jit: |-
-    ruby 2.7.0dev (2019-09-07T10:53:47Z trunk 324dd9d01f) +JIT [x86_64-linux]
-    last_commit=armv7l and armv7l are the same platform, generalize to armv7
-  187328b703: |-
-    ruby 2.7.0dev (2019-09-07T11:25:12Z trunk 187328b703) [x86_64-linux]
-    last_commit=compile.c (compile_array): refactoring
-  187328b703 --jit: |-
-    ruby 2.7.0dev (2019-09-07T11:25:12Z trunk 187328b703) +JIT [x86_64-linux]
-    last_commit=compile.c (compile_array): refactoring
-  '07876bf6db': |-
-    ruby 2.7.0dev (2019-09-07T11:25:12Z trunk 07876bf6db) [x86_64-linux]
-    last_commit=compile.c (compile_hash): refactoring
-  '07876bf6db --jit': |-
-    ruby 2.7.0dev (2019-09-07T11:25:12Z trunk 07876bf6db) +JIT [x86_64-linux]
-    last_commit=compile.c (compile_hash): refactoring
-  8c908c9890: |-
-    ruby 2.7.0dev (2019-09-07T13:08:39Z trunk 8c908c9890) [x86_64-linux]
-    last_commit=compile.c (compile_array): rewrite the compilation algorithm
-  8c908c9890 --jit: |-
-    ruby 2.7.0dev (2019-09-07T13:08:39Z trunk 8c908c9890) +JIT [x86_64-linux]
-    last_commit=compile.c (compile_array): rewrite the compilation algorithm
-  a9b63db3b6: |-
-    ruby 2.7.0dev (2019-09-07T13:22:30Z trunk a9b63db3b6) [x86_64-linux]
-    last_commit=* remove trailing spaces. [ci skip]
-  a9b63db3b6 --jit: |-
-    ruby 2.7.0dev (2019-09-07T13:22:30Z trunk a9b63db3b6) +JIT [x86_64-linux]
-    last_commit=* remove trailing spaces. [ci skip]
-  ae8b977742: |-
-    ruby 2.7.0dev (2019-09-07T14:13:47Z trunk ae8b977742) [x86_64-linux]
-    last_commit=Avoid defining DISPATCH_ARCH_DEPEND_WAY macro
-  ae8b977742 --jit: |-
-    ruby 2.7.0dev (2019-09-07T14:13:47Z trunk ae8b977742) +JIT [x86_64-linux]
-    last_commit=Avoid defining DISPATCH_ARCH_DEPEND_WAY macro
-  5a6954ba74: |-
-    ruby 2.7.0dev (2019-09-07T15:22:24Z trunk 5a6954ba74) [x86_64-linux]
-    last_commit=Suppress detached head warning
-  5a6954ba74 --jit: |-
-    ruby 2.7.0dev (2019-09-07T15:22:24Z trunk 5a6954ba74) +JIT [x86_64-linux]
-    last_commit=Suppress detached head warning
   f3bae2c6cf: |-
     ruby 2.7.0dev (2019-09-07T15:22:25Z trunk f3bae2c6cf) [x86_64-linux]
     last_commit=Touch copied cache files to make tarballs stable
@@ -6027,3 +5949,45 @@ commits:
   0b29662606 --jit: |-
     ruby 2.7.0dev (2019-11-08T06:32:01Z trunk 0b29662606) +JIT [x86_64-linux]
     last_commit=fix line break code (fix to LF)
+  83c563cfa4: |-
+    ruby 2.7.0dev (2019-11-08T07:16:25Z trunk 83c563cfa4) [x86_64-linux]
+    last_commit=cstr -> bytes
+  83c563cfa4 --jit: |-
+    ruby 2.7.0dev (2019-11-08T07:16:25Z trunk 83c563cfa4) +JIT [x86_64-linux]
+    last_commit=cstr -> bytes
+  6e72b72881: |-
+    ruby 2.7.0dev (2019-11-08T07:18:36Z trunk 6e72b72881) [x86_64-linux]
+    last_commit=Suppress "shadowing outer local variable" warning in 2.5
+  6e72b72881 --jit: |-
+    ruby 2.7.0dev (2019-11-08T07:18:36Z trunk 6e72b72881) +JIT [x86_64-linux]
+    last_commit=Suppress "shadowing outer local variable" warning in 2.5
+  20971799f2: |-
+    ruby 2.7.0dev (2019-11-08T07:30:28Z trunk 20971799f2) [x86_64-linux]
+    last_commit=Renamed `load_*.inc` as `*.rbinc` to utilize a suffix rule
+  20971799f2 --jit: |-
+    ruby 2.7.0dev (2019-11-08T07:30:28Z trunk 20971799f2) +JIT [x86_64-linux]
+    last_commit=Renamed `load_*.inc` as `*.rbinc` to utilize a suffix rule
+  99b1c19be4: |-
+    ruby 2.7.0dev (2019-11-08T07:31:57Z trunk 99b1c19be4) [x86_64-linux]
+    last_commit=builtin.h must be included *AFTER* vm_core.h
+  99b1c19be4 --jit: |-
+    ruby 2.7.0dev (2019-11-08T07:31:57Z trunk 99b1c19be4) +JIT [x86_64-linux]
+    last_commit=builtin.h must be included *AFTER* vm_core.h
+  2e29b65109: |-
+    ruby 2.7.0dev (2019-11-08T07:37:42Z trunk 2e29b65109) [x86_64-linux]
+    last_commit=Add file mode to generated files [ci skip]
+  2e29b65109 --jit: |-
+    ruby 2.7.0dev (2019-11-08T07:37:42Z trunk 2e29b65109) +JIT [x86_64-linux]
+    last_commit=Add file mode to generated files [ci skip]
+  e02b819482: |-
+    ruby 2.7.0dev (2019-11-08T07:38:06Z trunk e02b819482) [x86_64-linux]
+    last_commit=delete cc->aux.inc_sp
+  e02b819482 --jit: |-
+    ruby 2.7.0dev (2019-11-08T07:38:06Z trunk e02b819482) +JIT [x86_64-linux]
+    last_commit=delete cc->aux.inc_sp
+  7acf7a4f90: |-
+    ruby 2.7.0dev (2019-11-08T09:49:18Z trunk 7acf7a4f90) [x86_64-linux]
+    last_commit=Add VPATH to rbinc rule for nmake
+  7acf7a4f90 --jit: |-
+    ruby 2.7.0dev (2019-11-08T09:49:18Z trunk 7acf7a4f90) +JIT [x86_64-linux]
+    last_commit=Add VPATH to rbinc rule for nmake
