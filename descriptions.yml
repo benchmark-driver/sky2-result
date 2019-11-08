@@ -5991,3 +5991,51 @@ commits:
   7acf7a4f90 --jit: |-
     ruby 2.7.0dev (2019-11-08T09:49:18Z trunk 7acf7a4f90) +JIT [x86_64-linux]
     last_commit=Add VPATH to rbinc rule for nmake
+  ff2d99406d: |-
+    ruby 2.7.0dev (2019-11-08T13:31:44Z trunk ff2d99406d) [x86_64-linux]
+    last_commit=Update builtin include files
+  ff2d99406d --jit: |-
+    ruby 2.7.0dev (2019-11-08T13:31:44Z trunk ff2d99406d) +JIT [x86_64-linux]
+    last_commit=Update builtin include files
+  11e21f1982: |-
+    ruby 2.7.0dev (2019-11-08T14:00:36Z trunk 11e21f1982) [x86_64-linux]
+    last_commit=Make prefix static
+  11e21f1982 --jit: |-
+    ruby 2.7.0dev (2019-11-08T14:00:36Z trunk 11e21f1982) +JIT [x86_64-linux]
+    last_commit=Make prefix static
+  882179a0ec: |-
+    ruby 2.7.0dev (2019-11-08T14:29:50Z trunk 882179a0ec) [x86_64-linux]
+    last_commit=tool/mk_builtin_loader.rb: check if op is an array or not
+  882179a0ec --jit: |-
+    ruby 2.7.0dev (2019-11-08T14:29:50Z trunk 882179a0ec) +JIT [x86_64-linux]
+    last_commit=tool/mk_builtin_loader.rb: check if op is an array or not
+  a3141e3c76: |-
+    ruby 2.7.0dev (2019-11-08T14:51:51Z trunk a3141e3c76) [x86_64-linux]
+    last_commit=Rubified the APIs of pack.c
+  a3141e3c76 --jit: |-
+    ruby 2.7.0dev (2019-11-08T14:51:51Z trunk a3141e3c76) +JIT [x86_64-linux]
+    last_commit=Rubified the APIs of pack.c
+  579aa4dc52: |-
+    ruby 2.7.0dev (2019-11-08T15:03:29Z trunk 579aa4dc52) [x86_64-linux]
+    last_commit=Fixed the dependency
+  579aa4dc52 --jit: |-
+    ruby 2.7.0dev (2019-11-08T15:03:29Z trunk 579aa4dc52) +JIT [x86_64-linux]
+    last_commit=Fixed the dependency
+  cd706c5216: |-
+    ruby 2.7.0dev (2019-11-08T15:04:07Z trunk cd706c5216) [x86_64-linux]
+    last_commit=* 2019-11-09 [ci skip]
+  cd706c5216 --jit: |-
+    ruby 2.7.0dev (2019-11-08T15:04:07Z trunk cd706c5216) +JIT [x86_64-linux]
+    last_commit=* 2019-11-09 [ci skip]
+  88b9a0f7fe: |-
+    ruby 2.7.0dev (2019-11-08T15:21:44Z trunk 88b9a0f7fe) [x86_64-linux]
+    last_commit=Prettify builtin_binary format
+  88b9a0f7fe --jit: |-
+    ruby 2.7.0dev (2019-11-08T15:21:44Z trunk 88b9a0f7fe) +JIT [x86_64-linux]
+    last_commit=Prettify builtin_binary format
+  9deca1a3b9: |-
+    ruby 2.7.0dev (2019-11-08T15:25:28Z trunk 9deca1a3b9) [x86_64-linux]
+    last_commit=Try to fix test-spec failure on macOS
+  9deca1a3b9 --jit: |-
+    ruby 2.7.0dev (2019-11-08T15:25:28Z trunk 9deca1a3b9) +JIT [x86_64-linux]
+    last_commit=Try to fix test-spec failure on macOS
