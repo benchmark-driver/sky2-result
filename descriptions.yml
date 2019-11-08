@@ -9,30 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  4068be1d9f: |-
-    ruby 2.7.0dev (2019-09-07T01:48:40Z trunk 4068be1d9f) [x86_64-linux]
-    last_commit=appveyor.yml - msys2 update code
-  4068be1d9f --jit: |-
-    ruby 2.7.0dev (2019-09-07T01:48:40Z trunk 4068be1d9f) +JIT [x86_64-linux]
-    last_commit=appveyor.yml - msys2 update code
-  799de9122e: |-
-    ruby 2.7.0dev (2019-09-07T02:38:38Z trunk 799de9122e) [x86_64-linux]
-    last_commit=Separated VCS.define_options for common VCS options
-  799de9122e --jit: |-
-    ruby 2.7.0dev (2019-09-07T02:38:38Z trunk 799de9122e) +JIT [x86_64-linux]
-    last_commit=Separated VCS.define_options for common VCS options
-  71f7b0421a: |-
-    ruby 2.7.0dev (2019-09-07T02:38:38Z trunk 71f7b0421a) [x86_64-linux]
-    last_commit=Refined file2lastrev.rb options
-  71f7b0421a --jit: |-
-    ruby 2.7.0dev (2019-09-07T02:38:38Z trunk 71f7b0421a) +JIT [x86_64-linux]
-    last_commit=Refined file2lastrev.rb options
-  3890c9eeee: |-
-    ruby 2.7.0dev (2019-09-07T02:38:38Z trunk 3890c9eeee) [x86_64-linux]
-    last_commit=Added more debug outputs from VCS::GIT
-  3890c9eeee --jit: |-
-    ruby 2.7.0dev (2019-09-07T02:38:38Z trunk 3890c9eeee) +JIT [x86_64-linux]
-    last_commit=Added more debug outputs from VCS::GIT
   5118aa2d58: |-
     ruby 2.7.0dev (2019-09-07T02:38:38Z trunk 5118aa2d58) [x86_64-linux]
     last_commit=Use `git describe --contains` for tags
@@ -6003,3 +5979,21 @@ commits:
   d62abc47c8 --jit: |-
     ruby 2.7.0dev (2019-11-07T14:33:45Z trunk d62abc47c8) +JIT [x86_64-linux]
     last_commit=Suppress unused variable warning
+  b99833baec: |-
+    ruby 2.7.0dev (2019-11-07T17:31:07Z trunk b99833baec) [x86_64-linux]
+    last_commit=Use a monotonically increasing number for object_id
+  b99833baec --jit: |-
+    ruby 2.7.0dev (2019-11-07T17:31:07Z trunk b99833baec) +JIT [x86_64-linux]
+    last_commit=Use a monotonically increasing number for object_id
+  597ec43543: |-
+    ruby 2.7.0dev (2019-11-07T17:31:29Z trunk 597ec43543) [x86_64-linux]
+    last_commit=* 2019-11-08 [ci skip]
+  597ec43543 --jit: |-
+    ruby 2.7.0dev (2019-11-07T17:31:29Z trunk 597ec43543) +JIT [x86_64-linux]
+    last_commit=* 2019-11-08 [ci skip]
+  dddf5afb79: |-
+    ruby 2.7.0dev (2019-11-07T20:46:14Z trunk dddf5afb79) [x86_64-linux]
+    last_commit=Add a counter for compaction
+  dddf5afb79 --jit: |-
+    ruby 2.7.0dev (2019-11-07T20:46:14Z trunk dddf5afb79) +JIT [x86_64-linux]
+    last_commit=Add a counter for compaction
