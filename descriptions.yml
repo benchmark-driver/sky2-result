@@ -5991,3 +5991,27 @@ commits:
   50bc7e7e9f --jit: |-
     ruby 2.7.0dev (2019-11-09T06:20:52Z trunk 50bc7e7e9f) +JIT [x86_64-linux]
     last_commit=Add debug print
+  43ceedecc0: |-
+    ruby 2.7.0dev (2019-11-09T07:18:58Z trunk 43ceedecc0) [x86_64-linux]
+    last_commit=use STACK_ADDR_FROM_TOP()
+  43ceedecc0 --jit: |-
+    ruby 2.7.0dev (2019-11-09T07:18:58Z trunk 43ceedecc0) +JIT [x86_64-linux]
+    last_commit=use STACK_ADDR_FROM_TOP()
+  352096ef60: |-
+    ruby 2.7.0dev (2019-11-09T07:45:27Z trunk 352096ef60) [x86_64-linux]
+    last_commit=Add debug print
+  352096ef60 --jit: |-
+    ruby 2.7.0dev (2019-11-09T07:45:27Z trunk 352096ef60) +JIT [x86_64-linux]
+    last_commit=Add debug print
+  95aed94d2a: |-
+    ruby 2.7.0dev (2019-11-09T09:45:48Z trunk 95aed94d2a) [x86_64-linux]
+    last_commit=Fixed `#line` directives in miniprelude.c
+  95aed94d2a --jit: |-
+    ruby 2.7.0dev (2019-11-09T09:45:48Z trunk 95aed94d2a) +JIT [x86_64-linux]
+    last_commit=Fixed `#line` directives in miniprelude.c
+  4dc4b18904: |-
+    ruby 2.7.0dev (2019-11-09T10:15:10Z trunk 4dc4b18904) [x86_64-linux]
+    last_commit=Fixed commit miss
+  4dc4b18904 --jit: |-
+    ruby 2.7.0dev (2019-11-09T10:15:10Z trunk 4dc4b18904) +JIT [x86_64-linux]
+    last_commit=Fixed commit miss
