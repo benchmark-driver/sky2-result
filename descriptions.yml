@@ -5991,3 +5991,57 @@ commits:
   3b6954f8b9 --jit: |-
     ruby 2.7.0dev (2019-11-08T20:41:05Z trunk 3b6954f8b9) +JIT [x86_64-linux]
     last_commit=Fix passing actual object_id to finalizer
+  dfac2e9eb3: |-
+    ruby 2.7.0dev (2019-11-08T21:57:58Z trunk dfac2e9eb3) [x86_64-linux]
+    last_commit=don't embed full-path.
+  dfac2e9eb3 --jit: |-
+    ruby 2.7.0dev (2019-11-08T21:57:58Z trunk dfac2e9eb3) +JIT [x86_64-linux]
+    last_commit=don't embed full-path.
+  b5d8849220: |-
+    ruby 2.7.0dev (2019-11-08T22:09:01Z trunk b5d8849220) [x86_64-linux]
+    last_commit=Revert "don't embed full-path."
+  b5d8849220 --jit: |-
+    ruby 2.7.0dev (2019-11-08T22:09:01Z trunk b5d8849220) +JIT [x86_64-linux]
+    last_commit=Revert "don't embed full-path."
+  fc1d06b25d: |-
+    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk fc1d06b25d) [x86_64-linux]
+    last_commit=Added gemspec for readline gem that is wrapper library for reline and readline extension
+  fc1d06b25d --jit: |-
+    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk fc1d06b25d) +JIT [x86_64-linux]
+    last_commit=Added gemspec for readline gem that is wrapper library for reline and readline extension
+  3d731c3694: |-
+    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 3d731c3694) [x86_64-linux]
+    last_commit=Promote readline to default gems named readline-ext
+  3d731c3694 --jit: |-
+    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 3d731c3694) +JIT [x86_64-linux]
+    last_commit=Promote readline to default gems named readline-ext
+  5f206cebb9: |-
+    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 5f206cebb9) [x86_64-linux]
+    last_commit=Promote observer to default gems. But not yet released
+  5f206cebb9 --jit: |-
+    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 5f206cebb9) +JIT [x86_64-linux]
+    last_commit=Promote observer to default gems. But not yet released
+  9a90a4d953: |-
+    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 9a90a4d953) [x86_64-linux]
+    last_commit=Fixup 368ee984ed52f6abe1fdf8360ad72e6cf1cbfa66
+  9a90a4d953 --jit: |-
+    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 9a90a4d953) +JIT [x86_64-linux]
+    last_commit=Fixup 368ee984ed52f6abe1fdf8360ad72e6cf1cbfa66
+  2a0ed5691e: |-
+    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 2a0ed5691e) [x86_64-linux]
+    last_commit=Promote timeout to default gems
+  2a0ed5691e --jit: |-
+    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 2a0ed5691e) +JIT [x86_64-linux]
+    last_commit=Promote timeout to default gems
+  8c9438d219: |-
+    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 8c9438d219) [x86_64-linux]
+    last_commit=Promote yaml to default gems
+  8c9438d219 --jit: |-
+    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 8c9438d219) +JIT [x86_64-linux]
+    last_commit=Promote yaml to default gems
+  c5b4d2a259: |-
+    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk c5b4d2a259) [x86_64-linux]
+    last_commit=Promote uri to default gems
+  c5b4d2a259 --jit: |-
+    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk c5b4d2a259) +JIT [x86_64-linux]
+    last_commit=Promote uri to default gems
