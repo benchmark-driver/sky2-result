@@ -9,60 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  f3bae2c6cf: |-
-    ruby 2.7.0dev (2019-09-07T15:22:25Z trunk f3bae2c6cf) [x86_64-linux]
-    last_commit=Touch copied cache files to make tarballs stable
-  f3bae2c6cf --jit: |-
-    ruby 2.7.0dev (2019-09-07T15:22:25Z trunk f3bae2c6cf) +JIT [x86_64-linux]
-    last_commit=Touch copied cache files to make tarballs stable
-  b543f5b20f: |-
-    ruby 2.7.0dev (2019-09-07T15:23:56Z trunk b543f5b20f) [x86_64-linux]
-    last_commit=* 2019-09-08 [ci skip]
-  b543f5b20f --jit: |-
-    ruby 2.7.0dev (2019-09-07T15:23:56Z trunk b543f5b20f) +JIT [x86_64-linux]
-    last_commit=* 2019-09-08 [ci skip]
-  7cba9a8406: |-
-    ruby 2.7.0dev (2019-09-07T15:28:02Z trunk 7cba9a8406) [x86_64-linux]
-    last_commit=compile.c (compile_array): undef a temporal macro
-  7cba9a8406 --jit: |-
-    ruby 2.7.0dev (2019-09-07T15:28:02Z trunk 7cba9a8406) +JIT [x86_64-linux]
-    last_commit=compile.c (compile_array): undef a temporal macro
-  bb78c83678: |-
-    ruby 2.7.0dev (2019-09-07T15:28:03Z trunk bb78c83678) [x86_64-linux]
-    last_commit=compile.c (compile_hash): don't add a temporal array to mark_ary
-  bb78c83678 --jit: |-
-    ruby 2.7.0dev (2019-09-07T15:28:03Z trunk bb78c83678) +JIT [x86_64-linux]
-    last_commit=compile.c (compile_hash): don't add a temporal array to mark_ary
-  050f67c9c6: |-
-    ruby 2.7.0dev (2019-09-07T15:28:03Z trunk 050f67c9c6) [x86_64-linux]
-    last_commit=compile.c (compile_hash): Simplify the keyword handling
-  050f67c9c6 --jit: |-
-    ruby 2.7.0dev (2019-09-07T15:28:03Z trunk 050f67c9c6) +JIT [x86_64-linux]
-    last_commit=compile.c (compile_hash): Simplify the keyword handling
-  86b74d1a73: |-
-    ruby 2.7.0dev (2019-09-07T15:28:03Z trunk 86b74d1a73) [x86_64-linux]
-    last_commit=compile.c (compile_hash): Remove redundant check for NODE_ZLIST
-  86b74d1a73 --jit: |-
-    ruby 2.7.0dev (2019-09-07T15:28:03Z trunk 86b74d1a73) +JIT [x86_64-linux]
-    last_commit=compile.c (compile_hash): Remove redundant check for NODE_ZLIST
-  95f9d7c76d: |-
-    ruby 2.7.0dev (2019-09-07T15:28:03Z trunk 95f9d7c76d) [x86_64-linux]
-    last_commit=compile.c (keyword_node_p): Refactor out keyword node checks
-  95f9d7c76d --jit: |-
-    ruby 2.7.0dev (2019-09-07T15:28:03Z trunk 95f9d7c76d) +JIT [x86_64-linux]
-    last_commit=compile.c (keyword_node_p): Refactor out keyword node checks
-  a3f5265fd1: |-
-    ruby 2.7.0dev (2019-09-07T15:28:03Z trunk a3f5265fd1) [x86_64-linux]
-    last_commit=parse.y: Use the correct alias for brace flag of hash literal
-  a3f5265fd1 --jit: |-
-    ruby 2.7.0dev (2019-09-07T15:28:03Z trunk a3f5265fd1) +JIT [x86_64-linux]
-    last_commit=parse.y: Use the correct alias for brace flag of hash literal
-  2d017d6126: |-
-    ruby 2.7.0dev (2019-09-07T15:48:18Z trunk 2d017d6126) [x86_64-linux]
-    last_commit=make-snapshot: default to the toplevel directory
-  2d017d6126 --jit: |-
-    ruby 2.7.0dev (2019-09-07T15:48:18Z trunk 2d017d6126) +JIT [x86_64-linux]
-    last_commit=make-snapshot: default to the toplevel directory
   4f63634af1: |-
     ruby 2.7.0dev (2019-09-07T16:22:26Z trunk 4f63634af1) [x86_64-linux]
     last_commit=compile.c (NODE_OP_ASGN1): Remove unneeded DECL_ANCHOR
@@ -6039,3 +5985,9 @@ commits:
   9deca1a3b9 --jit: |-
     ruby 2.7.0dev (2019-11-08T15:25:28Z trunk 9deca1a3b9) +JIT [x86_64-linux]
     last_commit=Try to fix test-spec failure on macOS
+  3b6954f8b9: |-
+    ruby 2.7.0dev (2019-11-08T20:41:05Z trunk 3b6954f8b9) [x86_64-linux]
+    last_commit=Fix passing actual object_id to finalizer
+  3b6954f8b9 --jit: |-
+    ruby 2.7.0dev (2019-11-08T20:41:05Z trunk 3b6954f8b9) +JIT [x86_64-linux]
+    last_commit=Fix passing actual object_id to finalizer
