@@ -5985,3 +5985,21 @@ commits:
   11aa07c270 --jit: |-
     ruby 2.7.0dev (2019-11-10T01:52:12Z trunk 11aa07c270) +JIT [x86_64-linux]
     last_commit=Define NULLCMD as printing NUL [Bug #16331]
+  '0483d01f6b': |-
+    ruby 2.7.0dev (2019-11-10T05:16:16Z trunk 0483d01f6b) [x86_64-linux]
+    last_commit=Test invokebuiltin in test_jit
+  '0483d01f6b --jit': |-
+    ruby 2.7.0dev (2019-11-10T05:16:16Z trunk 0483d01f6b) +JIT [x86_64-linux]
+    last_commit=Test invokebuiltin in test_jit
+  5c168c7e7f: |-
+    ruby 2.7.0dev (2019-11-10T05:40:38Z trunk 5c168c7e7f) [x86_64-linux]
+    last_commit=Support RB_BUILTIN in ISeq#to_a
+  5c168c7e7f --jit: |-
+    ruby 2.7.0dev (2019-11-10T05:40:38Z trunk 5c168c7e7f) +JIT [x86_64-linux]
+    last_commit=Support RB_BUILTIN in ISeq#to_a
+  4570284ce1: |-
+    ruby 2.7.0dev (2019-11-10T05:56:38Z trunk 4570284ce1) [x86_64-linux]
+    last_commit=Test opt_invokebuiltin_delegate_leave in test_jit
+  4570284ce1 --jit: |-
+    ruby 2.7.0dev (2019-11-10T05:56:38Z trunk 4570284ce1) +JIT [x86_64-linux]
+    last_commit=Test opt_invokebuiltin_delegate_leave in test_jit
