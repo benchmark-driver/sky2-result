@@ -9,48 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  685f12bbca: |-
-    ruby 2.7.0dev (2019-09-09T15:56:31Z trunk 685f12bbca) [x86_64-linux]
-    last_commit=Use IO#getbyte
-  685f12bbca --jit: |-
-    ruby 2.7.0dev (2019-09-09T15:56:31Z trunk 685f12bbca) +JIT [x86_64-linux]
-    last_commit=Use IO#getbyte
-  6d9e54816f: |-
-    ruby 2.7.0dev (2019-09-09T15:56:31Z trunk 6d9e54816f) [x86_64-linux]
-    last_commit=Support multibyte input
-  6d9e54816f --jit: |-
-    ruby 2.7.0dev (2019-09-09T15:56:31Z trunk 6d9e54816f) +JIT [x86_64-linux]
-    last_commit=Support multibyte input
-  9b53a69d57: |-
-    ruby 2.7.0dev (2019-09-09T15:57:34Z trunk 9b53a69d57) [x86_64-linux]
-    last_commit=* 2019-09-10 [ci skip]
-  9b53a69d57 --jit: |-
-    ruby 2.7.0dev (2019-09-09T15:57:34Z trunk 9b53a69d57) +JIT [x86_64-linux]
-    last_commit=* 2019-09-10 [ci skip]
-  4524780d17: |-
-    ruby 2.7.0dev (2019-09-09T21:26:51Z trunk 4524780d17) [x86_64-linux]
-    last_commit=Revert "Reverting node marking until I can fix GC problem."
-  4524780d17 --jit: |-
-    ruby 2.7.0dev (2019-09-09T21:26:51Z trunk 4524780d17) +JIT [x86_64-linux]
-    last_commit=Revert "Reverting node marking until I can fix GC problem."
-  d8a4af47a5: |-
-    ruby 2.7.0dev (2019-09-09T21:26:57Z trunk d8a4af47a5) [x86_64-linux]
-    last_commit=Only use `add_mark_object` in Ripper
-  d8a4af47a5 --jit: |-
-    ruby 2.7.0dev (2019-09-09T21:26:57Z trunk d8a4af47a5) +JIT [x86_64-linux]
-    last_commit=Only use `add_mark_object` in Ripper
-  00744a03d5: |-
-    ruby 2.7.0dev (2019-09-09T22:23:26Z trunk 00744a03d5) [x86_64-linux]
-    last_commit=Update documentation for Exception [ci skip]
-  00744a03d5 --jit: |-
-    ruby 2.7.0dev (2019-09-09T22:23:26Z trunk 00744a03d5) +JIT [x86_64-linux]
-    last_commit=Update documentation for Exception [ci skip]
-  f4aa06c0ff: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk f4aa06c0ff) [x86_64-linux]
-    last_commit=[ruby/io-console] Drop fat gem support
-  f4aa06c0ff --jit: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk f4aa06c0ff) +JIT [x86_64-linux]
-    last_commit=[ruby/io-console] Drop fat gem support
   803dc9e1e4: |-
     ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 803dc9e1e4) [x86_64-linux]
     last_commit=[ruby/io-console] Added console_vt_response
@@ -6015,3 +5973,15 @@ commits:
   faa4f4f23f --jit: |-
     ruby 2.7.0dev (2019-11-10T00:26:19Z trunk faa4f4f23f) +JIT [x86_64-linux]
     last_commit=Get rid of FreeBSD make incompatibility [Bug #16331]
+  2c55ba7191: |-
+    ruby 2.7.0dev (2019-11-10T01:10:31Z trunk 2c55ba7191) [x86_64-linux]
+    last_commit=Define NULLCMD as an empty label [Bug #16331]
+  2c55ba7191 --jit: |-
+    ruby 2.7.0dev (2019-11-10T01:10:31Z trunk 2c55ba7191) +JIT [x86_64-linux]
+    last_commit=Define NULLCMD as an empty label [Bug #16331]
+  11aa07c270: |-
+    ruby 2.7.0dev (2019-11-10T01:52:12Z trunk 11aa07c270) [x86_64-linux]
+    last_commit=Define NULLCMD as printing NUL [Bug #16331]
+  11aa07c270 --jit: |-
+    ruby 2.7.0dev (2019-11-10T01:52:12Z trunk 11aa07c270) +JIT [x86_64-linux]
+    last_commit=Define NULLCMD as printing NUL [Bug #16331]
