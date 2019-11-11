@@ -9,36 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  803dc9e1e4: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 803dc9e1e4) [x86_64-linux]
-    last_commit=[ruby/io-console] Added console_vt_response
-  803dc9e1e4 --jit: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 803dc9e1e4) +JIT [x86_64-linux]
-    last_commit=[ruby/io-console] Added console_vt_response
-  53ed4fb376: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 53ed4fb376) [x86_64-linux]
-    last_commit=[ruby/io-console] Added IO#cursor for VT
-  53ed4fb376 --jit: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 53ed4fb376) +JIT [x86_64-linux]
-    last_commit=[ruby/io-console] Added IO#cursor for VT
-  3d9c7c2835: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 3d9c7c2835) [x86_64-linux]
-    last_commit=[ruby/io-console] Added IO#goto and IO#cursor= for VT
-  3d9c7c2835 --jit: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 3d9c7c2835) +JIT [x86_64-linux]
-    last_commit=[ruby/io-console] Added IO#goto and IO#cursor= for VT
-  e8be056af9: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk e8be056af9) [x86_64-linux]
-    last_commit=[ruby/io-console] Added relative cursor move methods
-  e8be056af9 --jit: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk e8be056af9) +JIT [x86_64-linux]
-    last_commit=[ruby/io-console] Added relative cursor move methods
-  9844a349bf: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 9844a349bf) [x86_64-linux]
-    last_commit=[ruby/io-console] Added IO#goto_column
-  9844a349bf --jit: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 9844a349bf) +JIT [x86_64-linux]
-    last_commit=[ruby/io-console] Added IO#goto_column
   c1412bd6d9: |-
     ruby 2.7.0dev (2019-09-09T23:18:03Z trunk c1412bd6d9) [x86_64-linux]
     last_commit=[ruby/io-console] Added line/screen erase methods
