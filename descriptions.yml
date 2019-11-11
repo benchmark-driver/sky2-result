@@ -9,72 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  c1412bd6d9: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk c1412bd6d9) [x86_64-linux]
-    last_commit=[ruby/io-console] Added line/screen erase methods
-  c1412bd6d9 --jit: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk c1412bd6d9) +JIT [x86_64-linux]
-    last_commit=[ruby/io-console] Added line/screen erase methods
-  74790e2dc4: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 74790e2dc4) [x86_64-linux]
-    last_commit=[ruby/io-console] Added scroll methods
-  74790e2dc4 --jit: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 74790e2dc4) +JIT [x86_64-linux]
-    last_commit=[ruby/io-console] Added scroll methods
-  3678c37119: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 3678c37119) [x86_64-linux]
-    last_commit=[ruby/io-console] Added IO#check_winsize_changed on Windows
-  3678c37119 --jit: |-
-    ruby 2.7.0dev (2019-09-09T23:18:03Z trunk 3678c37119) +JIT [x86_64-linux]
-    last_commit=[ruby/io-console] Added IO#check_winsize_changed on Windows
-  0e9d56f5e7: |-
-    ruby 2.7.0dev (2019-09-10T01:10:59Z trunk 0e9d56f5e7) [x86_64-linux]
-    last_commit=Support timeout for Addrinfo
-  0e9d56f5e7 --jit: |-
-    ruby 2.7.0dev (2019-09-10T01:10:59Z trunk 0e9d56f5e7) +JIT [x86_64-linux]
-    last_commit=Support timeout for Addrinfo
-  8d3db4f26c: |-
-    ruby 2.7.0dev (2019-09-10T01:11:52Z trunk 8d3db4f26c) [x86_64-linux]
-    last_commit=Default to cc/c++ instead of gcc/g++ on OpenBSD
-  8d3db4f26c --jit: |-
-    ruby 2.7.0dev (2019-09-10T01:11:52Z trunk 8d3db4f26c) +JIT [x86_64-linux]
-    last_commit=Default to cc/c++ instead of gcc/g++ on OpenBSD
-  20e428ec40: |-
-    ruby 2.7.0dev (2019-09-10T03:25:36Z trunk 20e428ec40) [x86_64-linux]
-    last_commit=fix CentOS 6 compile error
-  20e428ec40 --jit: |-
-    ruby 2.7.0dev (2019-09-10T03:25:36Z trunk 20e428ec40) +JIT [x86_64-linux]
-    last_commit=fix CentOS 6 compile error
-  f5024de002: |-
-    ruby 2.7.0dev (2019-09-10T03:39:49Z trunk f5024de002) [x86_64-linux]
-    last_commit=Remove check of ai.protocol
-  f5024de002 --jit: |-
-    ruby 2.7.0dev (2019-09-10T03:39:49Z trunk f5024de002) +JIT [x86_64-linux]
-    last_commit=Remove check of ai.protocol
-  df1721c668: |-
-    ruby 2.7.0dev (2019-09-10T05:37:17Z trunk df1721c668) [x86_64-linux]
-    last_commit=Fixed GCC version for diagnostic-pragmas
-  df1721c668 --jit: |-
-    ruby 2.7.0dev (2019-09-10T05:37:17Z trunk df1721c668) +JIT [x86_64-linux]
-    last_commit=Fixed GCC version for diagnostic-pragmas
-  487d290044: |-
-    ruby 2.7.0dev (2019-09-10T07:04:17Z trunk 487d290044) [x86_64-linux]
-    last_commit=oops
-  487d290044 --jit: |-
-    ruby 2.7.0dev (2019-09-10T07:04:17Z trunk 487d290044) +JIT [x86_64-linux]
-    last_commit=oops
-  ad6cbc1d33: |-
-    ruby 2.7.0dev (2019-09-10T08:20:31Z trunk ad6cbc1d33) [x86_64-linux]
-    last_commit=Unused LONG_MAX_as_double
-  ad6cbc1d33 --jit: |-
-    ruby 2.7.0dev (2019-09-10T08:20:31Z trunk ad6cbc1d33) +JIT [x86_64-linux]
-    last_commit=Unused LONG_MAX_as_double
-  b5ab918d0c: |-
-    ruby 2.7.0dev (2019-09-10T08:29:09Z trunk b5ab918d0c) [x86_64-linux]
-    last_commit=[ruby/io-console] Suppress warnings on Windows
-  b5ab918d0c --jit: |-
-    ruby 2.7.0dev (2019-09-10T08:29:09Z trunk b5ab918d0c) +JIT [x86_64-linux]
-    last_commit=[ruby/io-console] Suppress warnings on Windows
   83ef58f264: |-
     ruby 2.7.0dev (2019-09-10T08:29:11Z trunk 83ef58f264) [x86_64-linux]
     last_commit=[ruby/io-console] Suppress yet another warning on Windows
@@ -6027,3 +5961,27 @@ commits:
   b42656b9c4 --jit: |-
     ruby 2.7.0dev (2019-11-11T00:22:46Z trunk b42656b9c4) +JIT [x86_64-linux]
     last_commit=Ignore *.rbinc files
+  ade0388894: |-
+    ruby 2.7.0dev (2019-11-11T00:38:14Z trunk ade0388894) [x86_64-linux]
+    last_commit=Fixed embedded document with EOF char
+  ade0388894 --jit: |-
+    ruby 2.7.0dev (2019-11-11T00:38:14Z trunk ade0388894) +JIT [x86_64-linux]
+    last_commit=Fixed embedded document with EOF char
+  69ec3f70fa: |-
+    ruby 2.7.0dev (2019-11-11T00:59:40Z trunk 69ec3f70fa) [x86_64-linux]
+    last_commit=Warn EOF char in comment
+  69ec3f70fa --jit: |-
+    ruby 2.7.0dev (2019-11-11T00:59:40Z trunk 69ec3f70fa) +JIT [x86_64-linux]
+    last_commit=Warn EOF char in comment
+  6f9be8505d: |-
+    ruby 2.7.0dev (2019-11-11T03:09:19Z trunk 6f9be8505d) [x86_64-linux]
+    last_commit=Relaxed warning assertions
+  6f9be8505d --jit: |-
+    ruby 2.7.0dev (2019-11-11T03:09:19Z trunk 6f9be8505d) +JIT [x86_64-linux]
+    last_commit=Relaxed warning assertions
+  390293525a: |-
+    ruby 2.7.0dev (2019-11-11T03:20:03Z trunk 390293525a) [x86_64-linux]
+    last_commit=Remove binary data at installation
+  390293525a --jit: |-
+    ruby 2.7.0dev (2019-11-11T03:20:03Z trunk 390293525a) +JIT [x86_64-linux]
+    last_commit=Remove binary data at installation
