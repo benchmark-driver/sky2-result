@@ -9,96 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  83ef58f264: |-
-    ruby 2.7.0dev (2019-09-10T08:29:11Z trunk 83ef58f264) [x86_64-linux]
-    last_commit=[ruby/io-console] Suppress yet another warning on Windows
-  83ef58f264 --jit: |-
-    ruby 2.7.0dev (2019-09-10T08:29:11Z trunk 83ef58f264) +JIT [x86_64-linux]
-    last_commit=[ruby/io-console] Suppress yet another warning on Windows
-  414a80d242: |-
-    ruby 2.7.0dev (2019-09-10T17:44:49Z trunk 414a80d242) [x86_64-linux]
-    last_commit=`NODE_MATCH` needs to be marked / allocated from marking bucket
-  414a80d242 --jit: |-
-    ruby 2.7.0dev (2019-09-10T17:44:49Z trunk 414a80d242) +JIT [x86_64-linux]
-    last_commit=`NODE_MATCH` needs to be marked / allocated from marking bucket
-  721cab4706: |-
-    ruby 2.7.0dev (2019-09-10T17:45:56Z trunk 721cab4706) [x86_64-linux]
-    last_commit=* 2019-09-11 [ci skip]
-  721cab4706 --jit: |-
-    ruby 2.7.0dev (2019-09-10T17:45:56Z trunk 721cab4706) +JIT [x86_64-linux]
-    last_commit=* 2019-09-11 [ci skip]
-  139510238b: |-
-    ruby 2.7.0dev (2019-09-10T19:42:35Z trunk 139510238b) [x86_64-linux]
-    last_commit=WB needs to be executed after object is reachable
-  139510238b --jit: |-
-    ruby 2.7.0dev (2019-09-10T19:42:35Z trunk 139510238b) +JIT [x86_64-linux]
-    last_commit=WB needs to be executed after object is reachable
-  91ee9584f9: |-
-    ruby 2.7.0dev (2019-09-10T21:00:48Z trunk 91ee9584f9) [x86_64-linux]
-    last_commit=Macros can't be expressions, so make a function
-  91ee9584f9 --jit: |-
-    ruby 2.7.0dev (2019-09-10T21:00:48Z trunk 91ee9584f9) +JIT [x86_64-linux]
-    last_commit=Macros can't be expressions, so make a function
-  489676bd20: |-
-    ruby 2.7.0dev (2019-09-11T00:35:06Z trunk 489676bd20) [x86_64-linux]
-    last_commit=Add `--no-progress` to `aws s3` [ci skip]
-  489676bd20 --jit: |-
-    ruby 2.7.0dev (2019-09-11T00:35:06Z trunk 489676bd20) +JIT [x86_64-linux]
-    last_commit=Add `--no-progress` to `aws s3` [ci skip]
-  655c65d65b: |-
-    ruby 2.7.0dev (2019-09-11T07:01:18Z trunk 655c65d65b) [x86_64-linux]
-    last_commit=&$$->nd_lit is uninitialized at this point
-  655c65d65b --jit: |-
-    ruby 2.7.0dev (2019-09-11T07:01:18Z trunk 655c65d65b) +JIT [x86_64-linux]
-    last_commit=&$$->nd_lit is uninitialized at this point
-  343b0a281d: |-
-    ruby 2.7.0dev (2019-09-11T07:27:30Z trunk 343b0a281d) [x86_64-linux]
-    last_commit=Made a short-circuit expression w/o result into an `if`-statement
-  343b0a281d --jit: |-
-    ruby 2.7.0dev (2019-09-11T07:27:30Z trunk 343b0a281d) +JIT [x86_64-linux]
-    last_commit=Made a short-circuit expression w/o result into an `if`-statement
-  fc3bfd521d: |-
-    ruby 2.7.0dev (2019-09-11T12:36:00Z trunk fc3bfd521d) [x86_64-linux]
-    last_commit=Fixed the function signature to rb_rescue2
-  fc3bfd521d --jit: |-
-    ruby 2.7.0dev (2019-09-11T12:36:00Z trunk fc3bfd521d) +JIT [x86_64-linux]
-    last_commit=Fixed the function signature to rb_rescue2
-  fba5bbc695: |-
-    ruby 2.7.0dev (2019-09-11T14:39:36Z trunk fba5bbc695) [x86_64-linux]
-    last_commit=Moved doxygen.yml to https://github.com/ruby/actions [ci skip]
-  fba5bbc695 --jit: |-
-    ruby 2.7.0dev (2019-09-11T14:39:36Z trunk fba5bbc695) +JIT [x86_64-linux]
-    last_commit=Moved doxygen.yml to https://github.com/ruby/actions [ci skip]
-  ed96c9f270: |-
-    ruby 2.7.0dev (2019-09-11T18:20:16Z trunk ed96c9f270) [x86_64-linux]
-    last_commit=Emit missing keyword argument separation warnings for define_method
-  ed96c9f270 --jit: |-
-    ruby 2.7.0dev (2019-09-11T18:20:16Z trunk ed96c9f270) +JIT [x86_64-linux]
-    last_commit=Emit missing keyword argument separation warnings for define_method
-  1febb6f4a1: |-
-    ruby 2.7.0dev (2019-09-11T18:21:40Z trunk 1febb6f4a1) [x86_64-linux]
-    last_commit=* 2019-09-12 [ci skip]
-  1febb6f4a1 --jit: |-
-    ruby 2.7.0dev (2019-09-11T18:21:40Z trunk 1febb6f4a1) +JIT [x86_64-linux]
-    last_commit=* 2019-09-12 [ci skip]
-  14e3731059: |-
-    ruby 2.7.0dev (2019-09-11T18:57:57Z trunk 14e3731059) [x86_64-linux]
-    last_commit=Make sure WB executes after object is reachable
-  14e3731059 --jit: |-
-    ruby 2.7.0dev (2019-09-11T18:57:57Z trunk 14e3731059) +JIT [x86_64-linux]
-    last_commit=Make sure WB executes after object is reachable
-  21994b7fd6: |-
-    ruby 2.7.0dev (2019-09-11T21:23:11Z trunk 21994b7fd6) [x86_64-linux]
-    last_commit=Avoid rehashing keys in transform_values
-  21994b7fd6 --jit: |-
-    ruby 2.7.0dev (2019-09-11T21:23:11Z trunk 21994b7fd6) +JIT [x86_64-linux]
-    last_commit=Avoid rehashing keys in transform_values
-  515b1989b1: |-
-    ruby 2.7.0dev (2019-09-11T21:58:51Z trunk 515b1989b1) [x86_64-linux]
-    last_commit=Make NODE_ARYPTN layout consistent between Ripper and AST
-  515b1989b1 --jit: |-
-    ruby 2.7.0dev (2019-09-11T21:58:51Z trunk 515b1989b1) +JIT [x86_64-linux]
-    last_commit=Make NODE_ARYPTN layout consistent between Ripper and AST
   9f86e5ecb6: |-
     ruby 2.7.0dev (2019-09-12T09:28:46Z trunk 9f86e5ecb6) [x86_64-linux]
     last_commit=Moved coverage.yml to https://github.com/ruby/actions [ci skip]
@@ -6019,3 +5929,11 @@ commits:
   7585bc3187 --jit: ruby 2.7.0dev (2019-11-11T09:56:25Z master 7585bc3187) +JIT [x86_64-linux]
   9d3213ac85: ruby 2.7.0dev (2019-11-11T10:03:43Z master 9d3213ac85) [x86_64-linux]
   9d3213ac85 --jit: ruby 2.7.0dev (2019-11-11T10:03:43Z master 9d3213ac85) +JIT [x86_64-linux]
+  8b27c23b5d: ruby 2.7.0dev (2019-11-11T11:19:29Z master 8b27c23b5d) [x86_64-linux]
+  8b27c23b5d --jit: ruby 2.7.0dev (2019-11-11T11:19:29Z master 8b27c23b5d) +JIT [x86_64-linux]
+  f1f27da6c4: ruby 2.7.0dev (2019-11-11T12:49:21Z master f1f27da6c4) [x86_64-linux]
+  f1f27da6c4 --jit: ruby 2.7.0dev (2019-11-11T12:49:21Z master f1f27da6c4) +JIT [x86_64-linux]
+  bcfe94b7f2: ruby 2.7.0dev (2019-11-11T13:21:43Z master bcfe94b7f2) [x86_64-linux]
+  bcfe94b7f2 --jit: ruby 2.7.0dev (2019-11-11T13:21:43Z master bcfe94b7f2) +JIT [x86_64-linux]
+  45bb6f28db: ruby 2.7.0dev (2019-11-11T13:56:06Z master 45bb6f28db) [x86_64-linux]
+  45bb6f28db --jit: ruby 2.7.0dev (2019-11-11T13:56:06Z master 45bb6f28db) +JIT [x86_64-linux]
