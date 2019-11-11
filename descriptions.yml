@@ -5985,3 +5985,45 @@ commits:
   6e70fa49b1 --jit: |-
     ruby 2.7.0dev (2019-11-10T13:34:49Z trunk 6e70fa49b1) +JIT [x86_64-linux]
     last_commit=Disallow omission of parentheses/brackets in single line pattern matching [Feature #16182]
+  b5996b25ae: |-
+    ruby 2.7.0dev (2019-11-10T21:33:23Z trunk b5996b25ae) [x86_64-linux]
+    last_commit=Colorize string quotes as bold
+  b5996b25ae --jit: |-
+    ruby 2.7.0dev (2019-11-10T21:33:23Z trunk b5996b25ae) +JIT [x86_64-linux]
+    last_commit=Colorize string quotes as bold
+  958d954a19: |-
+    ruby 2.7.0dev (2019-11-10T21:34:25Z trunk 958d954a19) [x86_64-linux]
+    last_commit=* 2019-11-11 [ci skip]
+  958d954a19 --jit: |-
+    ruby 2.7.0dev (2019-11-10T21:34:25Z trunk 958d954a19) +JIT [x86_64-linux]
+    last_commit=* 2019-11-11 [ci skip]
+  25c53a8eec: |-
+    ruby 2.7.0dev (2019-11-10T21:41:41Z trunk 25c53a8eec) [x86_64-linux]
+    last_commit=Colorize on_symbols_beg (%I)
+  25c53a8eec --jit: |-
+    ruby 2.7.0dev (2019-11-10T21:41:41Z trunk 25c53a8eec) +JIT [x86_64-linux]
+    last_commit=Colorize on_symbols_beg (%I)
+  fcd9bc28e3: |-
+    ruby 2.7.0dev (2019-11-10T21:54:44Z trunk fcd9bc28e3) [x86_64-linux]
+    last_commit=qsymbols and symbols should be colored as Symbol
+  fcd9bc28e3 --jit: |-
+    ruby 2.7.0dev (2019-11-10T21:54:44Z trunk fcd9bc28e3) +JIT [x86_64-linux]
+    last_commit=qsymbols and symbols should be colored as Symbol
+  a733893939: |-
+    ruby 2.7.0dev (2019-11-10T22:12:13Z trunk a733893939) [x86_64-linux]
+    last_commit=Fix uplevel of test_jit
+  a733893939 --jit: |-
+    ruby 2.7.0dev (2019-11-10T22:12:13Z trunk a733893939) +JIT [x86_64-linux]
+    last_commit=Fix uplevel of test_jit
+  b5dff926e7: |-
+    ruby 2.7.0dev (2019-11-11T00:16:00Z trunk b5dff926e7) [x86_64-linux]
+    last_commit=Prefer assert_syntax_error and assert_valid_syntax
+  b5dff926e7 --jit: |-
+    ruby 2.7.0dev (2019-11-11T00:16:00Z trunk b5dff926e7) +JIT [x86_64-linux]
+    last_commit=Prefer assert_syntax_error and assert_valid_syntax
+  b42656b9c4: |-
+    ruby 2.7.0dev (2019-11-11T00:22:46Z trunk b42656b9c4) [x86_64-linux]
+    last_commit=Ignore *.rbinc files
+  b42656b9c4 --jit: |-
+    ruby 2.7.0dev (2019-11-11T00:22:46Z trunk b42656b9c4) +JIT [x86_64-linux]
+    last_commit=Ignore *.rbinc files
