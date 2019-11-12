@@ -9,60 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  9f86e5ecb6: |-
-    ruby 2.7.0dev (2019-09-12T09:28:46Z trunk 9f86e5ecb6) [x86_64-linux]
-    last_commit=Moved coverage.yml to https://github.com/ruby/actions [ci skip]
-  9f86e5ecb6 --jit: |-
-    ruby 2.7.0dev (2019-09-12T09:28:46Z trunk 9f86e5ecb6) +JIT [x86_64-linux]
-    last_commit=Moved coverage.yml to https://github.com/ruby/actions [ci skip]
-  775037613b: |-
-    ruby 2.7.0dev (2019-09-12T11:18:53Z trunk 775037613b) [x86_64-linux]
-    last_commit=Implement Enumerator.produce [Feature #14781]
-  775037613b --jit: |-
-    ruby 2.7.0dev (2019-09-12T11:18:53Z trunk 775037613b) +JIT [x86_64-linux]
-    last_commit=Implement Enumerator.produce [Feature #14781]
-  ac3e8834e0: |-
-    ruby 2.7.0dev (2019-09-12T11:18:53Z trunk ac3e8834e0) [x86_64-linux]
-    last_commit=Document and test Enumerator.produce
-  ac3e8834e0 --jit: |-
-    ruby 2.7.0dev (2019-09-12T11:18:53Z trunk ac3e8834e0) +JIT [x86_64-linux]
-    last_commit=Document and test Enumerator.produce
-  bcd49a4669: |-
-    ruby 2.7.0dev (2019-09-12T15:34:54Z trunk bcd49a4669) [x86_64-linux]
-    last_commit=Upgrade benchmark_driver to v0.15.5
-  bcd49a4669 --jit: |-
-    ruby 2.7.0dev (2019-09-12T15:34:54Z trunk bcd49a4669) +JIT [x86_64-linux]
-    last_commit=Upgrade benchmark_driver to v0.15.5
-  69acf40b45: |-
-    ruby 2.7.0dev (2019-09-12T15:35:29Z trunk 69acf40b45) [x86_64-linux]
-    last_commit=* 2019-09-13 [ci skip]
-  69acf40b45 --jit: |-
-    ruby 2.7.0dev (2019-09-12T15:35:29Z trunk 69acf40b45) +JIT [x86_64-linux]
-    last_commit=* 2019-09-13 [ci skip]
-  3c162df9d4: |-
-    ruby 2.7.0dev (2019-09-13T04:44:03Z trunk 3c162df9d4) [x86_64-linux]
-    last_commit=Dump some information
-  3c162df9d4 --jit: |-
-    ruby 2.7.0dev (2019-09-13T04:44:03Z trunk 3c162df9d4) +JIT [x86_64-linux]
-    last_commit=Dump some information
-  2da6b328bb: |-
-    ruby 2.7.0dev (2019-09-13T07:24:28Z trunk 2da6b328bb) [x86_64-linux]
-    last_commit=introduce IBF_(MAJOR|MINOR)_VERSION.
-  2da6b328bb --jit: |-
-    ruby 2.7.0dev (2019-09-13T07:24:28Z trunk 2da6b328bb) +JIT [x86_64-linux]
-    last_commit=introduce IBF_(MAJOR|MINOR)_VERSION.
-  5f5aca1b5f: |-
-    ruby 2.7.0dev (2019-09-13T08:20:11Z trunk 5f5aca1b5f) [x86_64-linux]
-    last_commit=Moved ruby_node_name declaration to node.h
-  5f5aca1b5f --jit: |-
-    ruby 2.7.0dev (2019-09-13T08:20:11Z trunk 5f5aca1b5f) +JIT [x86_64-linux]
-    last_commit=Moved ruby_node_name declaration to node.h
-  7e0f56fb3d: |-
-    ruby 2.7.0dev (2019-09-13T10:48:44Z trunk 7e0f56fb3d) [x86_64-linux]
-    last_commit=Name dynamically defined methods with line numbers
-  7e0f56fb3d --jit: |-
-    ruby 2.7.0dev (2019-09-13T10:48:44Z trunk 7e0f56fb3d) +JIT [x86_64-linux]
-    last_commit=Name dynamically defined methods with line numbers
   06bbacc086: |-
     ruby 2.7.0dev (2019-09-13T15:10:34Z trunk 06bbacc086) [x86_64-linux]
     last_commit=Revert "Support multibyte input"
@@ -5947,3 +5893,11 @@ commits:
   b72eda3c59 --jit: ruby 2.7.0dev (2019-11-11T16:47:18Z master b72eda3c59) +JIT [x86_64-linux]
   c02de30efb: ruby 2.7.0dev (2019-11-11T16:47:18Z master c02de30efb) [x86_64-linux]
   c02de30efb --jit: ruby 2.7.0dev (2019-11-11T16:47:18Z master c02de30efb) +JIT [x86_64-linux]
+  99be207c2a: ruby 2.7.0dev (2019-11-11T18:18:32Z master 99be207c2a) [x86_64-linux]
+  99be207c2a --jit: ruby 2.7.0dev (2019-11-11T18:18:32Z master 99be207c2a) +JIT [x86_64-linux]
+  a815053a3e: ruby 2.7.0dev (2019-11-11T19:03:33Z master a815053a3e) [x86_64-linux]
+  a815053a3e --jit: ruby 2.7.0dev (2019-11-11T19:03:33Z master a815053a3e) +JIT [x86_64-linux]
+  4be1e84d78: ruby 2.7.0dev (2019-11-11T19:13:54Z master 4be1e84d78) [x86_64-linux]
+  4be1e84d78 --jit: ruby 2.7.0dev (2019-11-11T19:13:54Z master 4be1e84d78) +JIT [x86_64-linux]
+  b8d242d221: ruby 2.7.0dev (2019-11-11T19:33:28Z master b8d242d221) [x86_64-linux]
+  b8d242d221 --jit: ruby 2.7.0dev (2019-11-11T19:33:28Z master b8d242d221) +JIT [x86_64-linux]
