@@ -9,90 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  e9c7fc7ca9: |-
-    ruby 2.7.0dev (2019-09-14T14:50:45Z trunk e9c7fc7ca9) [x86_64-linux]
-    last_commit=Continue to export even if no notes/commits
-  e9c7fc7ca9 --jit: |-
-    ruby 2.7.0dev (2019-09-14T14:50:45Z trunk e9c7fc7ca9) +JIT [x86_64-linux]
-    last_commit=Continue to export even if no notes/commits
-  1ad4be13cb: |-
-    ruby 2.7.0dev (2019-09-14T17:07:00Z trunk 1ad4be13cb) [x86_64-linux]
-    last_commit=make-snapshot: deprecated -exported option [Bug #16167]
-  1ad4be13cb --jit: |-
-    ruby 2.7.0dev (2019-09-14T17:07:00Z trunk 1ad4be13cb) +JIT [x86_64-linux]
-    last_commit=make-snapshot: deprecated -exported option [Bug #16167]
-  395e5f510c: |-
-    ruby 2.7.0dev (2019-09-14T17:15:29Z trunk 395e5f510c) [x86_64-linux]
-    last_commit=* 2019-09-15 [ci skip]
-  395e5f510c --jit: |-
-    ruby 2.7.0dev (2019-09-14T17:15:29Z trunk 395e5f510c) +JIT [x86_64-linux]
-    last_commit=* 2019-09-15 [ci skip]
-  1edcfd6107: |-
-    ruby 2.7.0dev (2019-09-14T20:57:39Z trunk 1edcfd6107) [x86_64-linux]
-    last_commit=Issue a warning if invalid kw_splat is passed to *_kw function
-  1edcfd6107 --jit: |-
-    ruby 2.7.0dev (2019-09-14T20:57:39Z trunk 1edcfd6107) +JIT [x86_64-linux]
-    last_commit=Issue a warning if invalid kw_splat is passed to *_kw function
-  df4a4bd88c: |-
-    ruby 2.7.0dev (2019-09-15T02:22:32Z trunk df4a4bd88c) [x86_64-linux]
-    last_commit=make-snapshot: export ChangeLog from srcdir
-  df4a4bd88c --jit: |-
-    ruby 2.7.0dev (2019-09-15T02:22:32Z trunk df4a4bd88c) +JIT [x86_64-linux]
-    last_commit=make-snapshot: export ChangeLog from srcdir
-  585b15d75d: |-
-    ruby 2.7.0dev (2019-09-15T02:22:32Z trunk 585b15d75d) [x86_64-linux]
-    last_commit=make-snapshot: no merge commits in ChangeLog
-  585b15d75d --jit: |-
-    ruby 2.7.0dev (2019-09-15T02:22:32Z trunk 585b15d75d) +JIT [x86_64-linux]
-    last_commit=make-snapshot: no merge commits in ChangeLog
-  44d594189a: |-
-    ruby 2.7.0dev (2019-09-15T04:29:12Z trunk 44d594189a) [x86_64-linux]
-    last_commit=rb_scan_args_count_lead: use arguments instead of magic numbers
-  44d594189a --jit: |-
-    ruby 2.7.0dev (2019-09-15T04:29:12Z trunk 44d594189a) +JIT [x86_64-linux]
-    last_commit=rb_scan_args_count_lead: use arguments instead of magic numbers
-  6cad064424: |-
-    ruby 2.7.0dev (2019-09-15T07:23:33Z trunk 6cad064424) [x86_64-linux]
-    last_commit=Try to fetch commits notes to the source tree automatically
-  6cad064424 --jit: |-
-    ruby 2.7.0dev (2019-09-15T07:23:33Z trunk 6cad064424) +JIT [x86_64-linux]
-    last_commit=Try to fetch commits notes to the source tree automatically
-  751d4ab9c2: |-
-    ruby 2.7.0dev (2019-09-15T12:55:34Z trunk 751d4ab9c2) [x86_64-linux]
-    last_commit=Refine Timezone fixture
-  751d4ab9c2 --jit: |-
-    ruby 2.7.0dev (2019-09-15T12:55:34Z trunk 751d4ab9c2) +JIT [x86_64-linux]
-    last_commit=Refine Timezone fixture
-  3a3f48fb8f: |-
-    ruby 2.7.0dev (2019-09-15T14:12:24Z trunk 3a3f48fb8f) [x86_64-linux]
-    last_commit=Comment lines can be placed between fluent dot now
-  3a3f48fb8f --jit: |-
-    ruby 2.7.0dev (2019-09-15T14:12:24Z trunk 3a3f48fb8f) +JIT [x86_64-linux]
-    last_commit=Comment lines can be placed between fluent dot now
-  4a403e3f98: |-
-    ruby 2.7.0dev (2019-09-15T14:22:41Z trunk 4a403e3f98) [x86_64-linux]
-    last_commit=oops [ci skip]
-  4a403e3f98 --jit: |-
-    ruby 2.7.0dev (2019-09-15T14:22:41Z trunk 4a403e3f98) +JIT [x86_64-linux]
-    last_commit=oops [ci skip]
-  70f57287cf: |-
-    ruby 2.7.0dev (2019-09-16T12:36:23Z trunk 70f57287cf) [x86_64-linux]
-    last_commit=Fix a typo [ci skip]
-  70f57287cf --jit: |-
-    ruby 2.7.0dev (2019-09-16T12:36:23Z trunk 70f57287cf) +JIT [x86_64-linux]
-    last_commit=Fix a typo [ci skip]
-  2a39de193c: |-
-    ruby 2.7.0dev (2019-09-16T12:37:37Z trunk 2a39de193c) [x86_64-linux]
-    last_commit=* 2019-09-16 [ci skip]
-  2a39de193c --jit: |-
-    ruby 2.7.0dev (2019-09-16T12:37:37Z trunk 2a39de193c) +JIT [x86_64-linux]
-    last_commit=* 2019-09-16 [ci skip]
-  3bb1162cac: |-
-    ruby 2.7.0dev (2019-09-16T12:51:48Z trunk 3bb1162cac) [x86_64-linux]
-    last_commit=Folded files in gemspec
-  3bb1162cac --jit: |-
-    ruby 2.7.0dev (2019-09-16T12:51:48Z trunk 3bb1162cac) +JIT [x86_64-linux]
-    last_commit=Folded files in gemspec
   a3533bc904: |-
     ruby 2.7.0dev (2019-09-17T06:14:38Z trunk a3533bc904) [x86_64-linux]
     last_commit=Fix history navigation in vi_insert mode
@@ -5867,3 +5783,9 @@ commits:
   0f2837847d --jit: ruby 2.7.0dev (2019-11-12T08:46:39Z master 0f2837847d) +JIT [x86_64-linux]
   3bf8ffad71: ruby 2.7.0dev (2019-11-12T09:04:20Z master 3bf8ffad71) [x86_64-linux]
   3bf8ffad71 --jit: ruby 2.7.0dev (2019-11-12T09:04:20Z master 3bf8ffad71) +JIT [x86_64-linux]
+  f36a53d038: ruby 2.7.0dev (2019-11-12T10:36:41Z master f36a53d038) [x86_64-linux]
+  f36a53d038 --jit: ruby 2.7.0dev (2019-11-12T10:36:41Z master f36a53d038) +JIT [x86_64-linux]
+  fe45bee093: ruby 2.7.0dev (2019-11-12T12:03:22Z master fe45bee093) [x86_64-linux]
+  fe45bee093 --jit: ruby 2.7.0dev (2019-11-12T12:03:22Z master fe45bee093) +JIT [x86_64-linux]
+  3816622fbe: ruby 2.7.0dev (2019-11-12T12:03:22Z master 3816622fbe) [x86_64-linux]
+  3816622fbe --jit: ruby 2.7.0dev (2019-11-12T12:03:22Z master 3816622fbe) +JIT [x86_64-linux]
