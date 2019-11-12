@@ -9,90 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  06bbacc086: |-
-    ruby 2.7.0dev (2019-09-13T15:10:34Z trunk 06bbacc086) [x86_64-linux]
-    last_commit=Revert "Support multibyte input"
-  06bbacc086 --jit: |-
-    ruby 2.7.0dev (2019-09-13T15:10:34Z trunk 06bbacc086) +JIT [x86_64-linux]
-    last_commit=Revert "Support multibyte input"
-  e8fff0ec9c: |-
-    ruby 2.7.0dev (2019-09-13T15:10:45Z trunk e8fff0ec9c) [x86_64-linux]
-    last_commit=Revert "Use IO#getbyte"
-  e8fff0ec9c --jit: |-
-    ruby 2.7.0dev (2019-09-13T15:10:45Z trunk e8fff0ec9c) +JIT [x86_64-linux]
-    last_commit=Revert "Use IO#getbyte"
-  83ef23bd75: |-
-    ruby 2.7.0dev (2019-09-13T15:11:01Z trunk 83ef23bd75) [x86_64-linux]
-    last_commit=Revert "Use IO#getch to read one char in raw mode"
-  83ef23bd75 --jit: |-
-    ruby 2.7.0dev (2019-09-13T15:11:01Z trunk 83ef23bd75) +JIT [x86_64-linux]
-    last_commit=Revert "Use IO#getch to read one char in raw mode"
-  70fe473c7d: |-
-    ruby 2.7.0dev (2019-09-13T15:12:12Z trunk 70fe473c7d) [x86_64-linux]
-    last_commit=* 2019-09-14 [ci skip]
-  70fe473c7d --jit: |-
-    ruby 2.7.0dev (2019-09-13T15:12:12Z trunk 70fe473c7d) +JIT [x86_64-linux]
-    last_commit=* 2019-09-14 [ci skip]
-  98f919ed47: |-
-    ruby 2.7.0dev (2019-09-13T15:16:31Z trunk 98f919ed47) [x86_64-linux]
-    last_commit=The stdlib readline should raise Interrupt when pressing C-c
-  98f919ed47 --jit: |-
-    ruby 2.7.0dev (2019-09-13T15:16:31Z trunk 98f919ed47) +JIT [x86_64-linux]
-    last_commit=The stdlib readline should raise Interrupt when pressing C-c
-  24b1b33975: |-
-    ruby 2.7.0dev (2019-09-13T16:53:54Z trunk 24b1b33975) [x86_64-linux]
-    last_commit=Correctly handle keywords for Method#call for cfuncs, send, and attr_*
-  24b1b33975 --jit: |-
-    ruby 2.7.0dev (2019-09-13T16:53:54Z trunk 24b1b33975) +JIT [x86_64-linux]
-    last_commit=Correctly handle keywords for Method#call for cfuncs, send, and attr_*
-  3cfbfa9628: |-
-    ruby 2.7.0dev (2019-09-13T23:42:27Z trunk 3cfbfa9628) [x86_64-linux]
-    last_commit=Consolidate empty keyword handling
-  3cfbfa9628 --jit: |-
-    ruby 2.7.0dev (2019-09-13T23:42:27Z trunk 3cfbfa9628) +JIT [x86_64-linux]
-    last_commit=Consolidate empty keyword handling
-  b2c29bbab6: |-
-    ruby 2.7.0dev (2019-09-13T23:54:08Z trunk b2c29bbab6) [x86_64-linux]
-    last_commit=* remove trailing spaces. [ci skip]
-  b2c29bbab6 --jit: |-
-    ruby 2.7.0dev (2019-09-13T23:54:08Z trunk b2c29bbab6) +JIT [x86_64-linux]
-    last_commit=* remove trailing spaces. [ci skip]
-  b78a345bd6: |-
-    ruby 2.7.0dev (2019-09-14T08:49:33Z trunk b78a345bd6) [x86_64-linux]
-    last_commit=Only set RB_PASS_CALLED_KEYWORDS in C functions called directly from Ruby
-  b78a345bd6 --jit: |-
-    ruby 2.7.0dev (2019-09-14T08:49:33Z trunk b78a345bd6) +JIT [x86_64-linux]
-    last_commit=Only set RB_PASS_CALLED_KEYWORDS in C functions called directly from Ruby
-  39c37acf86: |-
-    ruby 2.7.0dev (2019-09-14T09:21:37Z trunk 39c37acf86) [x86_64-linux]
-    last_commit=Fix memory leak when adding empty keyword hashes
-  39c37acf86 --jit: |-
-    ruby 2.7.0dev (2019-09-14T09:21:37Z trunk 39c37acf86) +JIT [x86_64-linux]
-    last_commit=Fix memory leak when adding empty keyword hashes
-  9699a5c5bc: |-
-    ruby 2.7.0dev (2019-09-14T10:43:51Z trunk 9699a5c5bc) [x86_64-linux]
-    last_commit=Update news regarding `Fiber#raise`.
-  9699a5c5bc --jit: |-
-    ruby 2.7.0dev (2019-09-14T10:43:51Z trunk 9699a5c5bc) +JIT [x86_64-linux]
-    last_commit=Update news regarding `Fiber#raise`.
-  f41cd4ba43: |-
-    ruby 2.7.0dev (2019-09-14T12:09:39Z trunk f41cd4ba43) [x86_64-linux]
-    last_commit=Fixed one-off error
-  f41cd4ba43 --jit: |-
-    ruby 2.7.0dev (2019-09-14T12:09:39Z trunk f41cd4ba43) +JIT [x86_64-linux]
-    last_commit=Fixed one-off error
-  '8263459627': |-
-    ruby 2.7.0dev (2019-09-14T12:38:41Z trunk 8263459627) [x86_64-linux]
-    last_commit=Keep the reference of imemo while argv may be used
-  8263459627 --jit: |-
-    ruby 2.7.0dev (2019-09-14T12:38:41Z trunk 8263459627) +JIT [x86_64-linux]
-    last_commit=Keep the reference of imemo while argv may be used
-  6d2dcf9632: |-
-    ruby 2.7.0dev (2019-09-14T14:27:53Z trunk 6d2dcf9632) [x86_64-linux]
-    last_commit=[ruby/io-console] Added `intr:` option to IO#raw
-  6d2dcf9632 --jit: |-
-    ruby 2.7.0dev (2019-09-14T14:27:53Z trunk 6d2dcf9632) +JIT [x86_64-linux]
-    last_commit=[ruby/io-console] Added `intr:` option to IO#raw
   e9c7fc7ca9: |-
     ruby 2.7.0dev (2019-09-14T14:50:45Z trunk e9c7fc7ca9) [x86_64-linux]
     last_commit=Continue to export even if no notes/commits
@@ -5925,3 +5841,7 @@ commits:
   b38b26c62d --jit: ruby 2.7.0dev (2019-11-12T02:16:07Z master b38b26c62d) +JIT [x86_64-linux]
   593f0b8853: ruby 2.7.0dev (2019-11-12T03:05:10Z master 593f0b8853) [x86_64-linux]
   593f0b8853 --jit: ruby 2.7.0dev (2019-11-12T03:05:10Z master 593f0b8853) +JIT [x86_64-linux]
+  dbaf589fb8: ruby 2.7.0dev (2019-11-12T03:49:05Z master dbaf589fb8) [x86_64-linux]
+  dbaf589fb8 --jit: ruby 2.7.0dev (2019-11-12T03:49:05Z master dbaf589fb8) +JIT [x86_64-linux]
+  7c22898a3a: ruby 2.7.0dev (2019-11-12T06:42:53Z master 7c22898a3a) [x86_64-linux]
+  7c22898a3a --jit: ruby 2.7.0dev (2019-11-12T06:42:53Z master 7c22898a3a) +JIT [x86_64-linux]
