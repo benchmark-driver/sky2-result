@@ -9,156 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  a3533bc904: |-
-    ruby 2.7.0dev (2019-09-17T06:14:38Z trunk a3533bc904) [x86_64-linux]
-    last_commit=Fix history navigation in vi_insert mode
-  a3533bc904 --jit: |-
-    ruby 2.7.0dev (2019-09-17T06:14:38Z trunk a3533bc904) +JIT [x86_64-linux]
-    last_commit=Fix history navigation in vi_insert mode
-  f9332ad833: |-
-    ruby 2.7.0dev (2019-09-17T06:14:38Z trunk f9332ad833) [x86_64-linux]
-    last_commit=Fix previous history in vi_insert mode
-  f9332ad833 --jit: |-
-    ruby 2.7.0dev (2019-09-17T06:14:38Z trunk f9332ad833) +JIT [x86_64-linux]
-    last_commit=Fix previous history in vi_insert mode
-  b49c1380c1: |-
-    ruby 2.7.0dev (2019-09-17T06:15:43Z trunk b49c1380c1) [x86_64-linux]
-    last_commit=* 2019-09-17 [ci skip]
-  b49c1380c1 --jit: |-
-    ruby 2.7.0dev (2019-09-17T06:15:43Z trunk b49c1380c1) +JIT [x86_64-linux]
-    last_commit=* 2019-09-17 [ci skip]
-  68ffb679d4: |-
-    ruby 2.7.0dev (2019-09-17T06:16:12Z trunk 68ffb679d4) [x86_64-linux]
-    last_commit=Undefine DSUSP key
-  68ffb679d4 --jit: |-
-    ruby 2.7.0dev (2019-09-17T06:16:12Z trunk 68ffb679d4) +JIT [x86_64-linux]
-    last_commit=Undefine DSUSP key
-  '0785469a40': |-
-    ruby 2.7.0dev (2019-09-17T09:02:03Z trunk 0785469a40) [x86_64-linux]
-    last_commit=`brew install` may fail, so try to use `tool/travis_retry.sh`
-  '0785469a40 --jit': |-
-    ruby 2.7.0dev (2019-09-17T09:02:03Z trunk 0785469a40) +JIT [x86_64-linux]
-    last_commit=`brew install` may fail, so try to use `tool/travis_retry.sh`
-  9b35dc3864: |-
-    ruby 2.7.0dev (2019-09-17T23:22:44Z trunk 9b35dc3864) [x86_64-linux]
-    last_commit=Pass keyword argument flag when rb_call_super_kw calls method_missing
-  9b35dc3864 --jit: |-
-    ruby 2.7.0dev (2019-09-17T23:22:44Z trunk 9b35dc3864) +JIT [x86_64-linux]
-    last_commit=Pass keyword argument flag when rb_call_super_kw calls method_missing
-  775365cbd2: |-
-    ruby 2.7.0dev (2019-09-17T23:22:44Z trunk 775365cbd2) [x86_64-linux]
-    last_commit=Fix keyword argument separation issues with sym procs when using refinements
-  775365cbd2 --jit: |-
-    ruby 2.7.0dev (2019-09-17T23:22:44Z trunk 775365cbd2) +JIT [x86_64-linux]
-    last_commit=Fix keyword argument separation issues with sym procs when using refinements
-  c170e23d81: |-
-    ruby 2.7.0dev (2019-09-17T23:23:06Z trunk c170e23d81) [x86_64-linux]
-    last_commit=* 2019-09-18 [ci skip]
-  c170e23d81 --jit: |-
-    ruby 2.7.0dev (2019-09-17T23:23:06Z trunk c170e23d81) +JIT [x86_64-linux]
-    last_commit=* 2019-09-18 [ci skip]
-  bcd5f2e9d3: |-
-    ruby 2.7.0dev (2019-09-18T02:06:24Z trunk bcd5f2e9d3) [x86_64-linux]
-    last_commit=delete unused variable
-  bcd5f2e9d3 --jit: |-
-    ruby 2.7.0dev (2019-09-18T02:06:24Z trunk bcd5f2e9d3) +JIT [x86_64-linux]
-    last_commit=delete unused variable
-  9118cb242b: |-
-    ruby 2.7.0dev (2019-09-18T08:29:30Z trunk 9118cb242b) [x86_64-linux]
-    last_commit=Fix typos
-  9118cb242b --jit: |-
-    ruby 2.7.0dev (2019-09-18T08:29:30Z trunk 9118cb242b) +JIT [x86_64-linux]
-    last_commit=Fix typos
-  a29ead52e1: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk a29ead52e1) [x86_64-linux]
-    last_commit=[bundler/bundler] Deprecate `--path` flag to `bundle check`
-  a29ead52e1 --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk a29ead52e1) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Deprecate `--path` flag to `bundle check`
-  c92e098781: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk c92e098781) [x86_64-linux]
-    last_commit=[bundler/bundler] Fix --path option descriptions
-  c92e098781 --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk c92e098781) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fix --path option descriptions
-  b9996803f7: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk b9996803f7) [x86_64-linux]
-    last_commit=[bundler/bundler] Remove duplicated spec filter
-  b9996803f7 --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk b9996803f7) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Remove duplicated spec filter
-  c27aaf1a8f: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk c27aaf1a8f) [x86_64-linux]
-    last_commit=[bundler/bundler] Fix comments and messages to refer to https url
-  c27aaf1a8f --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk c27aaf1a8f) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fix comments and messages to refer to https url
-  399501cdfe: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk 399501cdfe) [x86_64-linux]
-    last_commit=[bundler/bundler] Revert "Remove now unused method"
-  399501cdfe --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk 399501cdfe) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Revert "Remove now unused method"
-  f18d88b535: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk f18d88b535) [x86_64-linux]
-    last_commit=[bundler/bundler] Revert "Remove now meaningless setting"
-  f18d88b535 --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk f18d88b535) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Revert "Remove now meaningless setting"
-  6f16ededdd: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk 6f16ededdd) [x86_64-linux]
-    last_commit=[bundler/bundler] Revert "Remove now meaningless warning"
-  6f16ededdd --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk 6f16ededdd) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Revert "Remove now meaningless warning"
-  0c6529bac2: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk 0c6529bac2) [x86_64-linux]
-    last_commit=[bundler/bundler] Revert "Add all platforms to lockfile by default"
-  0c6529bac2 --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk 0c6529bac2) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Revert "Add all platforms to lockfile by default"
-  4f2f6aeb5f: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk 4f2f6aeb5f) [x86_64-linux]
-    last_commit=[bundler/bundler] Add a spec for installing git deps after packaging w/o git
-  4f2f6aeb5f --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:26:32Z trunk 4f2f6aeb5f) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Add a spec for installing git deps after packaging w/o git
-  1cb8cf5df0: |-
-    ruby 2.7.0dev (2019-09-18T09:26:33Z trunk 1cb8cf5df0) [x86_64-linux]
-    last_commit=[bundler/bundler] Version 2.1.0.pre.2
-  1cb8cf5df0 --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:26:33Z trunk 1cb8cf5df0) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Version 2.1.0.pre.2
-  e6ad9452b6: |-
-    ruby 2.7.0dev (2019-09-18T09:26:33Z trunk e6ad9452b6) [x86_64-linux]
-    last_commit=[bundler/bundler] Fix remembered flag deprecation message
-  e6ad9452b6 --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:26:33Z trunk e6ad9452b6) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Fix remembered flag deprecation message
-  434af7303c: |-
-    ruby 2.7.0dev (2019-09-18T09:26:33Z trunk 434af7303c) [x86_64-linux]
-    last_commit=[bundler/bundler] Merge #7340
-  434af7303c --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:26:33Z trunk 434af7303c) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Merge #7340
-  effacde2c0: |-
-    ruby 2.7.0dev (2019-09-18T09:26:33Z trunk effacde2c0) [x86_64-linux]
-    last_commit=[bundler/bundler] Merge all `bundle check --path` specs
-  effacde2c0 --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:26:33Z trunk effacde2c0) +JIT [x86_64-linux]
-    last_commit=[bundler/bundler] Merge all `bundle check --path` specs
-  2da8574930: |-
-    ruby 2.7.0dev (2019-09-18T09:26:33Z trunk 2da8574930) [x86_64-linux]
-    last_commit=Fixed the rubocop warnings
-  2da8574930 --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:26:33Z trunk 2da8574930) +JIT [x86_64-linux]
-    last_commit=Fixed the rubocop warnings
-  ba86353446: |-
-    ruby 2.7.0dev (2019-09-18T09:26:33Z trunk ba86353446) [x86_64-linux]
-    last_commit=Update the latest documentation of bundler
-  ba86353446 --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:26:33Z trunk ba86353446) +JIT [x86_64-linux]
-    last_commit=Update the latest documentation of bundler
   7d354175d7: |-
     ruby 2.7.0dev (2019-09-18T09:26:33Z trunk 7d354175d7) [x86_64-linux]
     last_commit=Fixed up ccbfb054b1dcd06d30924c4a83af1bac75d78c31
@@ -5807,3 +5657,33 @@ commits:
   63f363b70d --jit: ruby 2.7.0dev (2019-11-13T01:31:42Z master 63f363b70d) +JIT [x86_64-linux]
   546e50c2fb: ruby 2.7.0dev (2019-11-13T01:36:08Z master 546e50c2fb) [x86_64-linux]
   546e50c2fb --jit: ruby 2.7.0dev (2019-11-13T01:36:08Z master 546e50c2fb) +JIT [x86_64-linux]
+  3ad78264dc: ruby 2.7.0dev (2019-11-13T04:13:52Z master 3ad78264dc) [x86_64-linux]
+  3ad78264dc --jit: ruby 2.7.0dev (2019-11-13T04:13:52Z master 3ad78264dc) +JIT [x86_64-linux]
+  9980728ad6: ruby 2.7.0dev (2019-11-13T04:23:02Z master 9980728ad6) [x86_64-linux]
+  9980728ad6 --jit: ruby 2.7.0dev (2019-11-13T04:23:02Z master 9980728ad6) +JIT [x86_64-linux]
+  3118c7a2d2: ruby 2.7.0dev (2019-11-13T04:39:45Z master 3118c7a2d2) [x86_64-linux]
+  3118c7a2d2 --jit: ruby 2.7.0dev (2019-11-13T04:39:45Z master 3118c7a2d2) +JIT [x86_64-linux]
+  02b6451c17: ruby 2.7.0dev (2019-11-13T04:44:01Z master 02b6451c17) [x86_64-linux]
+  02b6451c17 --jit: ruby 2.7.0dev (2019-11-13T04:44:01Z master 02b6451c17) +JIT [x86_64-linux]
+  9ee88a070f: ruby 2.7.0dev (2019-11-13T04:56:16Z master 9ee88a070f) [x86_64-linux]
+  9ee88a070f --jit: ruby 2.7.0dev (2019-11-13T04:56:16Z master 9ee88a070f) +JIT [x86_64-linux]
+  245977b286: ruby 2.7.0dev (2019-11-13T04:57:07Z master 245977b286) [x86_64-linux]
+  245977b286 --jit: ruby 2.7.0dev (2019-11-13T04:57:07Z master 245977b286) +JIT [x86_64-linux]
+  c4064aef7f: ruby 2.7.0dev (2019-11-13T05:25:30Z master c4064aef7f) [x86_64-linux]
+  c4064aef7f --jit: ruby 2.7.0dev (2019-11-13T05:25:30Z master c4064aef7f) +JIT [x86_64-linux]
+  331655cbe7: ruby 2.7.0dev (2019-11-13T05:48:05Z master 331655cbe7) [x86_64-linux]
+  331655cbe7 --jit: ruby 2.7.0dev (2019-11-13T05:48:05Z master 331655cbe7) +JIT [x86_64-linux]
+  68ea892daf: ruby 2.7.0dev (2019-11-13T05:55:03Z master 68ea892daf) [x86_64-linux]
+  68ea892daf --jit: ruby 2.7.0dev (2019-11-13T05:55:03Z master 68ea892daf) +JIT [x86_64-linux]
+  d336db6568: ruby 2.7.0dev (2019-11-13T06:04:49Z master d336db6568) [x86_64-linux]
+  d336db6568 --jit: ruby 2.7.0dev (2019-11-13T06:04:49Z master d336db6568) +JIT [x86_64-linux]
+  dca2eb350c: ruby 2.7.0dev (2019-11-13T06:12:24Z master dca2eb350c) [x86_64-linux]
+  dca2eb350c --jit: ruby 2.7.0dev (2019-11-13T06:12:24Z master dca2eb350c) +JIT [x86_64-linux]
+  c33d29fba5: ruby 2.7.0dev (2019-11-13T06:13:49Z master c33d29fba5) [x86_64-linux]
+  c33d29fba5 --jit: ruby 2.7.0dev (2019-11-13T06:13:49Z master c33d29fba5) +JIT [x86_64-linux]
+  a5b6d7bca8: ruby 2.7.0dev (2019-11-13T06:15:28Z master a5b6d7bca8) [x86_64-linux]
+  a5b6d7bca8 --jit: ruby 2.7.0dev (2019-11-13T06:15:28Z master a5b6d7bca8) +JIT [x86_64-linux]
+  7913daf36c: ruby 2.7.0dev (2019-11-13T06:36:58Z master 7913daf36c) [x86_64-linux]
+  7913daf36c --jit: ruby 2.7.0dev (2019-11-13T06:36:58Z master 7913daf36c) +JIT [x86_64-linux]
+  57dc3ff73d: ruby 2.7.0dev (2019-11-13T06:37:21Z master 57dc3ff73d) [x86_64-linux]
+  57dc3ff73d --jit: ruby 2.7.0dev (2019-11-13T06:37:21Z master 57dc3ff73d) +JIT [x86_64-linux]
