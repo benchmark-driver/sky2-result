@@ -9,66 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  7d354175d7: |-
-    ruby 2.7.0dev (2019-09-18T09:26:33Z trunk 7d354175d7) [x86_64-linux]
-    last_commit=Fixed up ccbfb054b1dcd06d30924c4a83af1bac75d78c31
-  7d354175d7 --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:26:33Z trunk 7d354175d7) +JIT [x86_64-linux]
-    last_commit=Fixed up ccbfb054b1dcd06d30924c4a83af1bac75d78c31
-  c3f03da494: |-
-    ruby 2.7.0dev (2019-09-18T09:47:02Z trunk c3f03da494) [x86_64-linux]
-    last_commit=[EXPERIMENTAL] MakeMakefile::CXX for C++
-  c3f03da494 --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:47:02Z trunk c3f03da494) +JIT [x86_64-linux]
-    last_commit=[EXPERIMENTAL] MakeMakefile::CXX for C++
-  38069a3a55: |-
-    ruby 2.7.0dev (2019-09-18T09:54:09Z trunk 38069a3a55) [x86_64-linux]
-    last_commit=Try using Ruby 1.9.3 on Travis xenial
-  38069a3a55 --jit: |-
-    ruby 2.7.0dev (2019-09-18T09:54:09Z trunk 38069a3a55) +JIT [x86_64-linux]
-    last_commit=Try using Ruby 1.9.3 on Travis xenial
-  a491159a6e: |-
-    ruby 2.7.0dev (2019-09-18T13:46:05Z trunk a491159a6e) [x86_64-linux]
-    last_commit=Add badges of GitHub Actions [ci skip]
-  a491159a6e --jit: |-
-    ruby 2.7.0dev (2019-09-18T13:46:05Z trunk a491159a6e) +JIT [x86_64-linux]
-    last_commit=Add badges of GitHub Actions [ci skip]
-  9bd77d7cf3: |-
-    ruby 2.7.0dev (2019-09-18T13:53:22Z trunk 9bd77d7cf3) [x86_64-linux]
-    last_commit=Removed a debug print [ci skip]
-  9bd77d7cf3 --jit: |-
-    ruby 2.7.0dev (2019-09-18T13:53:22Z trunk 9bd77d7cf3) +JIT [x86_64-linux]
-    last_commit=Removed a debug print [ci skip]
-  f9d0778fca: |-
-    ruby 2.7.0dev (2019-09-18T13:53:23Z trunk f9d0778fca) [x86_64-linux]
-    last_commit=Removed MakeMakefile::C
-  f9d0778fca --jit: |-
-    ruby 2.7.0dev (2019-09-18T13:53:23Z trunk f9d0778fca) +JIT [x86_64-linux]
-    last_commit=Removed MakeMakefile::C
-  15d5de59fb: |-
-    ruby 2.7.0dev (2019-09-18T15:03:18Z trunk 15d5de59fb) [x86_64-linux]
-    last_commit=Removed unused keyword argument [ci skip]
-  15d5de59fb --jit: |-
-    ruby 2.7.0dev (2019-09-18T15:03:18Z trunk 15d5de59fb) +JIT [x86_64-linux]
-    last_commit=Removed unused keyword argument [ci skip]
-  842f600a93: |-
-    ruby 2.7.0dev (2019-09-18T15:03:18Z trunk 842f600a93) [x86_64-linux]
-    last_commit=Look up the language module
-  842f600a93 --jit: |-
-    ruby 2.7.0dev (2019-09-18T15:03:18Z trunk 842f600a93) +JIT [x86_64-linux]
-    last_commit=Look up the language module
-  2b708ab723: |-
-    ruby 2.7.0dev (2019-09-18T15:11:31Z trunk 2b708ab723) [x86_64-linux]
-    last_commit=* 2019-09-19 [ci skip]
-  2b708ab723 --jit: |-
-    ruby 2.7.0dev (2019-09-18T15:11:31Z trunk 2b708ab723) +JIT [x86_64-linux]
-    last_commit=* 2019-09-19 [ci skip]
-  5177dd8ba0: |-
-    ruby 2.7.0dev (2019-09-18T18:16:00Z trunk 5177dd8ba0) [x86_64-linux]
-    last_commit=Add and fix some keyword tests
-  5177dd8ba0 --jit: |-
-    ruby 2.7.0dev (2019-09-18T18:16:00Z trunk 5177dd8ba0) +JIT [x86_64-linux]
-    last_commit=Add and fix some keyword tests
   a9cdaaada4: |-
     ruby 2.7.0dev (2019-09-18T23:47:07Z trunk a9cdaaada4) [x86_64-linux]
     last_commit=DEBUG
@@ -5697,3 +5637,13 @@ commits:
   990728170c --jit: ruby 2.7.0dev (2019-11-13T11:18:46Z master 990728170c) +JIT [x86_64-linux]
   7f2c98b11d: ruby 2.7.0dev (2019-11-13T11:21:09Z master 7f2c98b11d) [x86_64-linux]
   7f2c98b11d --jit: ruby 2.7.0dev (2019-11-13T11:21:09Z master 7f2c98b11d) +JIT [x86_64-linux]
+  3a408aff57: ruby 2.7.0dev (2019-11-13T16:48:08Z master 3a408aff57) [x86_64-linux]
+  3a408aff57 --jit: ruby 2.7.0dev (2019-11-13T16:48:08Z master 3a408aff57) +JIT [x86_64-linux]
+  a102bcab41: ruby 2.7.0dev (2019-11-13T16:48:41Z master a102bcab41) [x86_64-linux]
+  a102bcab41 --jit: ruby 2.7.0dev (2019-11-13T16:48:41Z master a102bcab41) +JIT [x86_64-linux]
+  afc93e96ff: ruby 2.7.0dev (2019-11-13T17:31:03Z master afc93e96ff) [x86_64-linux]
+  afc93e96ff --jit: ruby 2.7.0dev (2019-11-13T17:31:03Z master afc93e96ff) +JIT [x86_64-linux]
+  a8f9e25ca8: ruby 2.7.0dev (2019-11-13T17:38:22Z master a8f9e25ca8) [x86_64-linux]
+  a8f9e25ca8 --jit: ruby 2.7.0dev (2019-11-13T17:38:22Z master a8f9e25ca8) +JIT [x86_64-linux]
+  179062dd80: ruby 2.7.0dev (2019-11-13T19:21:24Z master 179062dd80) [x86_64-linux]
+  179062dd80 --jit: ruby 2.7.0dev (2019-11-13T19:21:24Z master 179062dd80) +JIT [x86_64-linux]
