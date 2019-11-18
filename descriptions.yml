@@ -9,114 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  5208c431be: |-
-    ruby 2.7.0dev (2019-09-19T11:20:15Z trunk 5208c431be) [x86_64-linux]
-    last_commit=Separate Time#inspect from to_s and show subsec [Feature #15958]
-  5208c431be --jit: |-
-    ruby 2.7.0dev (2019-09-19T11:20:15Z trunk 5208c431be) +JIT [x86_64-linux]
-    last_commit=Separate Time#inspect from to_s and show subsec [Feature #15958]
-  cbf405fec4: |-
-    ruby 2.7.0dev (2019-09-19T11:45:24Z trunk cbf405fec4) [x86_64-linux]
-    last_commit=Specify encoding explicitly for sprintf
-  cbf405fec4 --jit: |-
-    ruby 2.7.0dev (2019-09-19T11:45:24Z trunk cbf405fec4) +JIT [x86_64-linux]
-    last_commit=Specify encoding explicitly for sprintf
-  b3ddeac33e: |-
-    ruby 2.7.0dev (2019-09-19T11:57:57Z trunk b3ddeac33e) [x86_64-linux]
-    last_commit=Revert "DEBUG: dump mkmf.log"
-  b3ddeac33e --jit: |-
-    ruby 2.7.0dev (2019-09-19T11:57:57Z trunk b3ddeac33e) +JIT [x86_64-linux]
-    last_commit=Revert "DEBUG: dump mkmf.log"
-  a3daf8e49a: |-
-    ruby 2.7.0dev (2019-09-19T11:57:58Z trunk a3daf8e49a) [x86_64-linux]
-    last_commit=Ensure that unmatched arity fails in C++
-  a3daf8e49a --jit: |-
-    ruby 2.7.0dev (2019-09-19T11:57:58Z trunk a3daf8e49a) +JIT [x86_64-linux]
-    last_commit=Ensure that unmatched arity fails in C++
-  e0c56b45a4: |-
-    ruby 2.7.0dev (2019-09-19T13:09:43Z trunk e0c56b45a4) [x86_64-linux]
-    last_commit=Moved unmatch arity check to depend file
-  e0c56b45a4 --jit: |-
-    ruby 2.7.0dev (2019-09-19T13:09:43Z trunk e0c56b45a4) +JIT [x86_64-linux]
-    last_commit=Moved unmatch arity check to depend file
-  82f25404ff: |-
-    ruby 2.7.0dev (2019-09-19T14:44:37Z trunk 82f25404ff) [x86_64-linux]
-    last_commit=Check COMPILE_RECV result
-  82f25404ff --jit: |-
-    ruby 2.7.0dev (2019-09-19T14:44:37Z trunk 82f25404ff) +JIT [x86_64-linux]
-    last_commit=Check COMPILE_RECV result
-  e13b09c450: |-
-    ruby 2.7.0dev (2019-09-19T14:45:09Z trunk e13b09c450) [x86_64-linux]
-    last_commit=Use EXPECT_NODE_NONULL
-  e13b09c450 --jit: |-
-    ruby 2.7.0dev (2019-09-19T14:45:09Z trunk e13b09c450) +JIT [x86_64-linux]
-    last_commit=Use EXPECT_NODE_NONULL
-  5e3771aad4: |-
-    ruby 2.7.0dev (2019-09-19T15:20:35Z trunk 5e3771aad4) [x86_64-linux]
-    last_commit=* 2019-09-20 [ci skip]
-  5e3771aad4 --jit: |-
-    ruby 2.7.0dev (2019-09-19T15:20:35Z trunk 5e3771aad4) +JIT [x86_64-linux]
-    last_commit=* 2019-09-20 [ci skip]
-  9c0d5e51cb: |-
-    ruby 2.7.0dev (2019-09-19T16:29:48Z trunk 9c0d5e51cb) [x86_64-linux]
-    last_commit=Check method functions in C++
-  9c0d5e51cb --jit: |-
-    ruby 2.7.0dev (2019-09-19T16:29:48Z trunk 9c0d5e51cb) +JIT [x86_64-linux]
-    last_commit=Check method functions in C++
-  17a1366399: |-
-    ruby 2.7.0dev (2019-09-19T16:29:48Z trunk 17a1366399) [x86_64-linux]
-    last_commit=Overload variable definition functions
-  17a1366399 --jit: |-
-    ruby 2.7.0dev (2019-09-19T16:29:48Z trunk 17a1366399) +JIT [x86_64-linux]
-    last_commit=Overload variable definition functions
-  7fbd2f7cc2: |-
-    ruby 2.7.0dev (2019-09-19T17:20:59Z trunk 7fbd2f7cc2) [x86_64-linux]
-    last_commit=Allow calling a private method with `self.`
-  7fbd2f7cc2 --jit: |-
-    ruby 2.7.0dev (2019-09-19T17:20:59Z trunk 7fbd2f7cc2) +JIT [x86_64-linux]
-    last_commit=Allow calling a private method with `self.`
-  d583df5259: |-
-    ruby 2.7.0dev (2019-09-19T17:21:25Z trunk d583df5259) [x86_64-linux]
-    last_commit=Added version guard
-  d583df5259 --jit: |-
-    ruby 2.7.0dev (2019-09-19T17:21:25Z trunk d583df5259) +JIT [x86_64-linux]
-    last_commit=Added version guard
-  e6378cdcd8: |-
-    ruby 2.7.0dev (2019-09-19T17:21:37Z trunk e6378cdcd8) [x86_64-linux]
-    last_commit=Allow calling a private accessor with `self.`
-  e6378cdcd8 --jit: |-
-    ruby 2.7.0dev (2019-09-19T17:21:37Z trunk e6378cdcd8) +JIT [x86_64-linux]
-    last_commit=Allow calling a private accessor with `self.`
-  b80df6e8e0: |-
-    ruby 2.7.0dev (2019-09-19T17:40:59Z trunk b80df6e8e0) [x86_64-linux]
-    last_commit=Update NEWS and documents [ci skip]
-  b80df6e8e0 --jit: |-
-    ruby 2.7.0dev (2019-09-19T17:40:59Z trunk b80df6e8e0) +JIT [x86_64-linux]
-    last_commit=Update NEWS and documents [ci skip]
-  d3c6fe65e3: |-
-    ruby 2.7.0dev (2019-09-20T00:25:30Z trunk d3c6fe65e3) [x86_64-linux]
-    last_commit=Fixed a variable in checkout-github-%
-  d3c6fe65e3 --jit: |-
-    ruby 2.7.0dev (2019-09-20T00:25:30Z trunk d3c6fe65e3) +JIT [x86_64-linux]
-    last_commit=Fixed a variable in checkout-github-%
-  45bac62845: |-
-    ruby 2.7.0dev (2019-09-20T00:31:55Z trunk 45bac62845) [x86_64-linux]
-    last_commit=Added the target to run a benchmark
-  45bac62845 --jit: |-
-    ruby 2.7.0dev (2019-09-20T00:31:55Z trunk 45bac62845) +JIT [x86_64-linux]
-    last_commit=Added the target to run a benchmark
-  422ae594d9: |-
-    ruby 2.7.0dev (2019-09-20T01:49:49Z trunk 422ae594d9) [x86_64-linux]
-    last_commit=Fixed memory leak
-  422ae594d9 --jit: |-
-    ruby 2.7.0dev (2019-09-20T01:49:49Z trunk 422ae594d9) +JIT [x86_64-linux]
-    last_commit=Fixed memory leak
-  a3b8501614: |-
-    ruby 2.7.0dev (2019-09-20T03:31:37Z trunk a3b8501614) [x86_64-linux]
-    last_commit=Removed CMath from the ruby repository.
-  a3b8501614 --jit: |-
-    ruby 2.7.0dev (2019-09-20T03:31:37Z trunk a3b8501614) +JIT [x86_64-linux]
-    last_commit=Removed CMath from the ruby repository.
   67a6662032: |-
     ruby 2.7.0dev (2019-09-20T03:43:11Z trunk 67a6662032) [x86_64-linux]
     last_commit=Removed Scanf from the ruby repository.
@@ -5606,3 +5498,13 @@ commits:
   4c7dc9fbe6 --jit: ruby 2.7.0dev (2019-11-17T23:00:25Z master 4c7dc9fbe6) +JIT [x86_64-linux]
   b753929806: ruby 2.7.0dev (2019-11-17T23:00:52Z master b753929806) [x86_64-linux]
   b753929806 --jit: ruby 2.7.0dev (2019-11-17T23:00:52Z master b753929806) +JIT [x86_64-linux]
+  93ce4f1cd7: ruby 2.7.0dev (2019-11-18T01:16:11Z master 93ce4f1cd7) [x86_64-linux]
+  93ce4f1cd7 --jit: ruby 2.7.0dev (2019-11-18T01:16:11Z master 93ce4f1cd7) +JIT [x86_64-linux]
+  71fee9bc72: ruby 2.7.0dev (2019-11-18T01:16:11Z master 71fee9bc72) [x86_64-linux]
+  71fee9bc72 --jit: ruby 2.7.0dev (2019-11-18T01:16:11Z master 71fee9bc72) +JIT [x86_64-linux]
+  c3693bbaaa: ruby 2.7.0dev (2019-11-18T01:24:38Z master c3693bbaaa) [x86_64-linux]
+  c3693bbaaa --jit: ruby 2.7.0dev (2019-11-18T01:24:38Z master c3693bbaaa) +JIT [x86_64-linux]
+  5e34ab5406: ruby 2.7.0dev (2019-11-18T01:36:48Z master 5e34ab5406) [x86_64-linux]
+  5e34ab5406 --jit: ruby 2.7.0dev (2019-11-18T01:36:48Z master 5e34ab5406) +JIT [x86_64-linux]
+  22c9504905: ruby 2.7.0dev (2019-11-18T02:05:22Z master 22c9504905) [x86_64-linux]
+  22c9504905 --jit: ruby 2.7.0dev (2019-11-18T02:05:22Z master 22c9504905) +JIT [x86_64-linux]
