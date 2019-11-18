@@ -9,66 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  e2aac6a611: |-
-    ruby 2.7.0dev (2019-09-19T03:25:48Z trunk e2aac6a611) [x86_64-linux]
-    last_commit=Separate @have_devel for C++
-  e2aac6a611 --jit: |-
-    ruby 2.7.0dev (2019-09-19T03:25:48Z trunk e2aac6a611) +JIT [x86_64-linux]
-    last_commit=Separate @have_devel for C++
-  9fb9f2d318: |-
-    ruby 2.7.0dev (2019-09-19T03:47:09Z trunk 9fb9f2d318) [x86_64-linux]
-    last_commit=Add draft-release.yml [ci skip]
-  9fb9f2d318 --jit: |-
-    ruby 2.7.0dev (2019-09-19T03:47:09Z trunk 9fb9f2d318) +JIT [x86_64-linux]
-    last_commit=Add draft-release.yml [ci skip]
-  d74fa8e55c: |-
-    ruby 2.7.0dev (2019-09-19T06:18:10Z trunk d74fa8e55c) [x86_64-linux]
-    last_commit=reuse cc->call
-  d74fa8e55c --jit: |-
-    ruby 2.7.0dev (2019-09-19T06:18:10Z trunk d74fa8e55c) +JIT [x86_64-linux]
-    last_commit=reuse cc->call
-  fcfe36b733: |-
-    ruby 2.7.0dev (2019-09-19T06:18:10Z trunk fcfe36b733) [x86_64-linux]
-    last_commit=fix spec failure
-  fcfe36b733 --jit: |-
-    ruby 2.7.0dev (2019-09-19T06:18:10Z trunk fcfe36b733) +JIT [x86_64-linux]
-    last_commit=fix spec failure
-  7202bf9ed8: |-
-    ruby 2.7.0dev (2019-09-19T08:19:22Z trunk 7202bf9ed8) [x86_64-linux]
-    last_commit=Drop PREFETCH macro unused since 6b534134a7
-  7202bf9ed8 --jit: |-
-    ruby 2.7.0dev (2019-09-19T08:19:22Z trunk 7202bf9ed8) +JIT [x86_64-linux]
-    last_commit=Drop PREFETCH macro unused since 6b534134a7
-  f84efe4b9d: |-
-    ruby 2.7.0dev (2019-09-19T08:30:31Z trunk f84efe4b9d) [x86_64-linux]
-    last_commit=Avoid unneeded casts in INSN_ENTRY_SIG
-  f84efe4b9d --jit: |-
-    ruby 2.7.0dev (2019-09-19T08:30:31Z trunk f84efe4b9d) +JIT [x86_64-linux]
-    last_commit=Avoid unneeded casts in INSN_ENTRY_SIG
-  20baa08d65: |-
-    ruby 2.7.0dev (2019-09-19T08:35:32Z trunk 20baa08d65) [x86_64-linux]
-    last_commit=Improve the output of `RubyVM::InstructionSequence#to_binary` (#2450)
-  20baa08d65 --jit: |-
-    ruby 2.7.0dev (2019-09-19T08:35:32Z trunk 20baa08d65) +JIT [x86_64-linux]
-    last_commit=Improve the output of `RubyVM::InstructionSequence#to_binary` (#2450)
-  6045ff64e3: |-
-    ruby 2.7.0dev (2019-09-19T09:04:47Z trunk 6045ff64e3) [x86_64-linux]
-    last_commit=Use benchmark-driver v0.15.6
-  6045ff64e3 --jit: |-
-    ruby 2.7.0dev (2019-09-19T09:04:47Z trunk 6045ff64e3) +JIT [x86_64-linux]
-    last_commit=Use benchmark-driver v0.15.6
-  6180f1fede: |-
-    ruby 2.7.0dev (2019-09-19T10:06:18Z trunk 6180f1fede) [x86_64-linux]
-    last_commit=Added link_command for C++
-  6180f1fede --jit: |-
-    ruby 2.7.0dev (2019-09-19T10:06:18Z trunk 6180f1fede) +JIT [x86_64-linux]
-    last_commit=Added link_command for C++
-  2698f13a1f: |-
-    ruby 2.7.0dev (2019-09-19T10:40:44Z trunk 2698f13a1f) [x86_64-linux]
-    last_commit=Fixed reserved numbered parameter warning
-  2698f13a1f --jit: |-
-    ruby 2.7.0dev (2019-09-19T10:40:44Z trunk 2698f13a1f) +JIT [x86_64-linux]
-    last_commit=Fixed reserved numbered parameter warning
   5208c431be: |-
     ruby 2.7.0dev (2019-09-19T11:20:15Z trunk 5208c431be) [x86_64-linux]
     last_commit=Separate Time#inspect from to_s and show subsec [Feature #15958]
@@ -5636,3 +5576,7 @@ commits:
   be95d59160 --jit: ruby 2.7.0dev (2019-11-17T14:32:10Z master be95d59160) +JIT [x86_64-linux]
   e7c5c60095: ruby 2.7.0dev (2019-11-17T14:32:10Z master e7c5c60095) [x86_64-linux]
   e7c5c60095 --jit: ruby 2.7.0dev (2019-11-17T14:32:10Z master e7c5c60095) +JIT [x86_64-linux]
+  7c6bedfe5c: ruby 2.7.0dev (2019-11-17T18:23:45Z master 7c6bedfe5c) [x86_64-linux]
+  7c6bedfe5c --jit: ruby 2.7.0dev (2019-11-17T18:23:45Z master 7c6bedfe5c) +JIT [x86_64-linux]
+  7b6a8b5b54: ruby 2.7.0dev (2019-11-17T18:25:17Z master 7b6a8b5b54) [x86_64-linux]
+  7b6a8b5b54 --jit: ruby 2.7.0dev (2019-11-17T18:25:17Z master 7b6a8b5b54) +JIT [x86_64-linux]
