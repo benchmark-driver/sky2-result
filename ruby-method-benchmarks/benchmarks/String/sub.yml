@@ -2220,6 +2220,8 @@ results:
     501b517dfb: 3339240.703
     bd2b314a05: 3380597.171
     a3141e3c76: 3145087.222
+    39492d6ce6: 3608563.457
+    b2126d3fcf: 3383601.005
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4439,6 +4441,8 @@ results:
     501b517dfb: 3423934.833
     bd2b314a05: 3353311.991
     a3141e3c76: 3245043.106
+    39492d6ce6: 3574907.984
+    b2126d3fcf: 3343784.155
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -6658,6 +6662,8 @@ results:
     501b517dfb: 1772243.747
     bd2b314a05: 1954852.519
     a3141e3c76: 1788830.581
+    39492d6ce6: 1807401.663
+    b2126d3fcf: 1610296.947
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -8877,6 +8883,8 @@ results:
     501b517dfb: 3202586.976
     bd2b314a05: 3138451.328
     a3141e3c76: 3220287.272
+    39492d6ce6: 3391367.344
+    b2126d3fcf: 3059760.087
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -11096,6 +11104,8 @@ results:
     501b517dfb: 3494251.586
     bd2b314a05: 3649463.83
     a3141e3c76: 3688586.996
+    39492d6ce6: 3886518.112
+    b2126d3fcf: 3658331.155
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -13315,6 +13325,8 @@ results:
     501b517dfb: 3715636.807
     bd2b314a05: 3621981.791
     a3141e3c76: 3708732.17
+    39492d6ce6: 3777514.186
+    b2126d3fcf: 3599345.661
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -15534,6 +15546,8 @@ results:
     501b517dfb: 2060686.454
     bd2b314a05: 2076722.324
     a3141e3c76: 2085679.047
+    39492d6ce6: 2117894.316
+    b2126d3fcf: 2077250.305
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -17753,3 +17767,5 @@ results:
     501b517dfb: 3430133.884
     bd2b314a05: 3379177.885
     a3141e3c76: 3446944.675
+    39492d6ce6: 3292648.844
+    b2126d3fcf: 3410824.666
