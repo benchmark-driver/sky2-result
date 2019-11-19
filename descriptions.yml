@@ -9,102 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  67a6662032: |-
-    ruby 2.7.0dev (2019-09-20T03:43:11Z trunk 67a6662032) [x86_64-linux]
-    last_commit=Removed Scanf from the ruby repository.
-  67a6662032 --jit: |-
-    ruby 2.7.0dev (2019-09-20T03:43:11Z trunk 67a6662032) +JIT [x86_64-linux]
-    last_commit=Removed Scanf from the ruby repository.
-  3b56a0934f: |-
-    ruby 2.7.0dev (2019-09-20T03:56:18Z trunk 3b56a0934f) [x86_64-linux]
-    last_commit=Removed Shell from the ruby repository.
-  3b56a0934f --jit: |-
-    ruby 2.7.0dev (2019-09-20T03:56:18Z trunk 3b56a0934f) +JIT [x86_64-linux]
-    last_commit=Removed Shell from the ruby repository.
-  37c0839425: |-
-    ruby 2.7.0dev (2019-09-20T05:06:22Z trunk 37c0839425) [x86_64-linux]
-    last_commit=Removed Synchronizer from the ruby repository.
-  37c0839425 --jit: |-
-    ruby 2.7.0dev (2019-09-20T05:06:22Z trunk 37c0839425) +JIT [x86_64-linux]
-    last_commit=Removed Synchronizer from the ruby repository.
-  9d25c652a9: |-
-    ruby 2.7.0dev (2019-09-20T05:21:04Z trunk 9d25c652a9) [x86_64-linux]
-    last_commit=Removed ThreadsWait from the ruby repository
-  9d25c652a9 --jit: |-
-    ruby 2.7.0dev (2019-09-20T05:21:04Z trunk 9d25c652a9) +JIT [x86_64-linux]
-    last_commit=Removed ThreadsWait from the ruby repository
-  1de242de0f: |-
-    ruby 2.7.0dev (2019-09-20T05:22:32Z trunk 1de242de0f) [x86_64-linux]
-    last_commit=Fixed up 37c083942509dd7e0d8b7ccd3575936a2017c400
-  1de242de0f --jit: |-
-    ruby 2.7.0dev (2019-09-20T05:22:32Z trunk 1de242de0f) +JIT [x86_64-linux]
-    last_commit=Fixed up 37c083942509dd7e0d8b7ccd3575936a2017c400
-  '2683171994': |-
-    ruby 2.7.0dev (2019-09-20T07:43:39Z trunk 2683171994) [x86_64-linux]
-    last_commit=[DOC] DOT is not a part of a receiver [ci skip]
-  2683171994 --jit: |-
-    ruby 2.7.0dev (2019-09-20T07:43:39Z trunk 2683171994) +JIT [x86_64-linux]
-    last_commit=[DOC] DOT is not a part of a receiver [ci skip]
-  d56a3c0635: |-
-    ruby 2.7.0dev (2019-09-20T07:58:47Z trunk d56a3c0635) [x86_64-linux]
-    last_commit=Fixed cxxanyargs/depend
-  d56a3c0635 --jit: |-
-    ruby 2.7.0dev (2019-09-20T07:58:47Z trunk d56a3c0635) +JIT [x86_64-linux]
-    last_commit=Fixed cxxanyargs/depend
-  04c53a1d03: |-
-    ruby 2.7.0dev (2019-09-20T08:05:52Z trunk 04c53a1d03) [x86_64-linux]
-    last_commit=Get rid of embedding make command line
-  04c53a1d03 --jit: |-
-    ruby 2.7.0dev (2019-09-20T08:05:52Z trunk 04c53a1d03) +JIT [x86_64-linux]
-    last_commit=Get rid of embedding make command line
-  4ffcadd39c: |-
-    ruby 2.7.0dev (2019-09-20T08:44:48Z trunk 4ffcadd39c) [x86_64-linux]
-    last_commit=Fix rb_define_singleton_method warning
-  4ffcadd39c --jit: |-
-    ruby 2.7.0dev (2019-09-20T08:44:48Z trunk 4ffcadd39c) +JIT [x86_64-linux]
-    last_commit=Fix rb_define_singleton_method warning
-  cb1f9fe918: |-
-    ruby 2.7.0dev (2019-09-20T10:12:35Z trunk cb1f9fe918) [x86_64-linux]
-    last_commit=Check various method defitions in C++
-  cb1f9fe918 --jit: |-
-    ruby 2.7.0dev (2019-09-20T10:12:35Z trunk cb1f9fe918) +JIT [x86_64-linux]
-    last_commit=Check various method defitions in C++
-  740a98fe10: |-
-    ruby 2.7.0dev (2019-09-20T10:12:36Z trunk 740a98fe10) [x86_64-linux]
-    last_commit=Fix for explicit cast without RUBY_METHOD_FUNC
-  740a98fe10 --jit: |-
-    ruby 2.7.0dev (2019-09-20T10:12:36Z trunk 740a98fe10) +JIT [x86_64-linux]
-    last_commit=Fix for explicit cast without RUBY_METHOD_FUNC
-  6e0dd3e7c1: |-
-    ruby 2.7.0dev (2019-09-20T12:06:08Z trunk 6e0dd3e7c1) [x86_64-linux]
-    last_commit=Use RUBY_VM_NEXT_CONTROL_FRAME macro
-  6e0dd3e7c1 --jit: |-
-    ruby 2.7.0dev (2019-09-20T12:06:08Z trunk 6e0dd3e7c1) +JIT [x86_64-linux]
-    last_commit=Use RUBY_VM_NEXT_CONTROL_FRAME macro
-  9e171b1fa0: |-
-    ruby 2.7.0dev (2019-09-20T12:50:33Z trunk 9e171b1fa0) [x86_64-linux]
-    last_commit=Fix wrong allocation failure handling
-  9e171b1fa0 --jit: |-
-    ruby 2.7.0dev (2019-09-20T12:50:33Z trunk 9e171b1fa0) +JIT [x86_64-linux]
-    last_commit=Fix wrong allocation failure handling
-  e81a3e6df5: |-
-    ruby 2.7.0dev (2019-09-20T13:05:54Z trunk e81a3e6df5) [x86_64-linux]
-    last_commit=Allows calling a private method only with bare `self`
-  e81a3e6df5 --jit: |-
-    ruby 2.7.0dev (2019-09-20T13:05:54Z trunk e81a3e6df5) +JIT [x86_64-linux]
-    last_commit=Allows calling a private method only with bare `self`
-  27b6746872: |-
-    ruby 2.7.0dev (2019-09-20T14:45:11Z trunk 27b6746872) [x86_64-linux]
-    last_commit=Make passing empty keywords to dig pass empty keywords to next dig method
-  27b6746872 --jit: |-
-    ruby 2.7.0dev (2019-09-20T14:45:11Z trunk 27b6746872) +JIT [x86_64-linux]
-    last_commit=Make passing empty keywords to dig pass empty keywords to next dig method
-  c9f2b790ad: |-
-    ruby 2.7.0dev (2019-09-20T14:45:18Z trunk c9f2b790ad) [x86_64-linux]
-    last_commit=Handle keyword argument separation for Enumerator#size
-  c9f2b790ad --jit: |-
-    ruby 2.7.0dev (2019-09-20T14:45:18Z trunk c9f2b790ad) +JIT [x86_64-linux]
-    last_commit=Handle keyword argument separation for Enumerator#size
   e47b111627: |-
     ruby 2.7.0dev (2019-09-20T14:45:29Z trunk e47b111627) [x86_64-linux]
     last_commit=Call rb_vm_call_kw insted of rb_vm_call0 in a few cases
@@ -5534,3 +5438,9 @@ commits:
   9aa75795f9 --jit: ruby 2.7.0dev (2019-11-18T15:29:10Z master 9aa75795f9) +JIT [x86_64-linux]
   fea24bbfdb: ruby 2.7.0dev (2019-11-18T15:29:10Z master fea24bbfdb) [x86_64-linux]
   fea24bbfdb --jit: ruby 2.7.0dev (2019-11-18T15:29:10Z master fea24bbfdb) +JIT [x86_64-linux]
+  0be0d90ab0: ruby 2.7.0dev (2019-11-18T17:31:36Z master 0be0d90ab0) [x86_64-linux]
+  0be0d90ab0 --jit: ruby 2.7.0dev (2019-11-18T17:31:36Z master 0be0d90ab0) +JIT [x86_64-linux]
+  473e314791: ruby 2.7.0dev (2019-11-18T17:38:56Z master 473e314791) [x86_64-linux]
+  473e314791 --jit: ruby 2.7.0dev (2019-11-18T17:38:56Z master 473e314791) +JIT [x86_64-linux]
+  cef9ebfbd3: ruby 2.7.0dev (2019-11-18T17:39:02Z master cef9ebfbd3) [x86_64-linux]
+  cef9ebfbd3 --jit: ruby 2.7.0dev (2019-11-18T17:39:02Z master cef9ebfbd3) +JIT [x86_64-linux]
