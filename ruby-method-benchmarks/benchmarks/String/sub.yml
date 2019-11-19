@@ -2234,6 +2234,8 @@ results:
     fcf37ca2fe: 3373834.29
     2746fd5d50: 3374927.897
     4e8336bae8: 3271186.221
+    ef697388be: 3353068.522
+    d62abc47c8: 3351335.782
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4467,6 +4469,8 @@ results:
     fcf37ca2fe: 3384711.934
     2746fd5d50: 3354387.904
     4e8336bae8: 3344461.046
+    ef697388be: 3315765.574
+    d62abc47c8: 3366768.976
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -6700,6 +6704,8 @@ results:
     fcf37ca2fe: 1942081.266
     2746fd5d50: 1938440.654
     4e8336bae8: 1853382.182
+    ef697388be: 1881618.302
+    d62abc47c8: 1810351.654
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -8933,6 +8939,8 @@ results:
     fcf37ca2fe: 3217758.052
     2746fd5d50: 3148121.687
     4e8336bae8: 2698908.097
+    ef697388be: 3096480.375
+    d62abc47c8: 3064213.459
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -11166,6 +11174,8 @@ results:
     fcf37ca2fe: 3652495.259
     2746fd5d50: 3659045.929
     4e8336bae8: 3684982.362
+    ef697388be: 3648316.184
+    d62abc47c8: 3637422.143
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -13399,6 +13409,8 @@ results:
     fcf37ca2fe: 3561086.13
     2746fd5d50: 3636210.201
     4e8336bae8: 3487782.259
+    ef697388be: 3600923.382
+    d62abc47c8: 3636875.306
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -15632,6 +15644,8 @@ results:
     fcf37ca2fe: 2041275.105
     2746fd5d50: 2075339.107
     4e8336bae8: 2069151.616
+    ef697388be: 1968021.422
+    d62abc47c8: 1971447.14
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -17865,3 +17879,5 @@ results:
     fcf37ca2fe: 3447008.158
     2746fd5d50: 3391852.939
     4e8336bae8: 3390658.237
+    ef697388be: 3334660.237
+    d62abc47c8: 3386128.291

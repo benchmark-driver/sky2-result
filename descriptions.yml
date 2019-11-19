@@ -9,54 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  e47b111627: |-
-    ruby 2.7.0dev (2019-09-20T14:45:29Z trunk e47b111627) [x86_64-linux]
-    last_commit=Call rb_vm_call_kw insted of rb_vm_call0 in a few cases
-  e47b111627 --jit: |-
-    ruby 2.7.0dev (2019-09-20T14:45:29Z trunk e47b111627) +JIT [x86_64-linux]
-    last_commit=Call rb_vm_call_kw insted of rb_vm_call0 in a few cases
-  fe1e623fae: |-
-    ruby 2.7.0dev (2019-09-20T14:57:20Z trunk fe1e623fae) [x86_64-linux]
-    last_commit=Fixed format specifiers
-  fe1e623fae --jit: |-
-    ruby 2.7.0dev (2019-09-20T14:57:20Z trunk fe1e623fae) +JIT [x86_64-linux]
-    last_commit=Fixed format specifiers
-  daa4ad8ed7: |-
-    ruby 2.7.0dev (2019-09-20T15:48:24Z trunk daa4ad8ed7) [x86_64-linux]
-    last_commit=Disable method definition type checks on Windows
-  daa4ad8ed7 --jit: |-
-    ruby 2.7.0dev (2019-09-20T15:48:24Z trunk daa4ad8ed7) +JIT [x86_64-linux]
-    last_commit=Disable method definition type checks on Windows
-  990e714fd3: |-
-    ruby 2.7.0dev (2019-09-20T15:48:46Z trunk 990e714fd3) [x86_64-linux]
-    last_commit=* 2019-09-21 [ci skip]
-  990e714fd3 --jit: |-
-    ruby 2.7.0dev (2019-09-20T15:48:46Z trunk 990e714fd3) +JIT [x86_64-linux]
-    last_commit=* 2019-09-21 [ci skip]
-  7aeacb213b: |-
-    ruby 2.7.0dev (2019-09-20T16:57:29Z trunk 7aeacb213b) [x86_64-linux]
-    last_commit=Revert eval.c in e81a3e6df54842b5a836dad7055a4295cf4155bc
-  7aeacb213b --jit: |-
-    ruby 2.7.0dev (2019-09-20T16:57:29Z trunk 7aeacb213b) +JIT [x86_64-linux]
-    last_commit=Revert eval.c in e81a3e6df54842b5a836dad7055a4295cf4155bc
-  27144de2bd: |-
-    ruby 2.7.0dev (2019-09-20T19:18:07Z trunk 27144de2bd) [x86_64-linux]
-    last_commit=Fix documentation for ENV.each to return ENV
-  27144de2bd --jit: |-
-    ruby 2.7.0dev (2019-09-20T19:18:07Z trunk 27144de2bd) +JIT [x86_64-linux]
-    last_commit=Fix documentation for ENV.each to return ENV
-  e006b992c2: |-
-    ruby 2.7.0dev (2019-09-21T04:24:58Z trunk e006b992c2) [x86_64-linux]
-    last_commit=typedef rb_jmpbuf_t to void *[5] if __builtin_setjmp is used
-  e006b992c2 --jit: |-
-    ruby 2.7.0dev (2019-09-21T04:24:58Z trunk e006b992c2) +JIT [x86_64-linux]
-    last_commit=typedef rb_jmpbuf_t to void *[5] if __builtin_setjmp is used
-  b414999370: |-
-    ruby 2.7.0dev (2019-09-21T07:09:52Z trunk b414999370) [x86_64-linux]
-    last_commit=Add a benchmark for JIT-ed code dispatch
-  b414999370 --jit: |-
-    ruby 2.7.0dev (2019-09-21T07:09:52Z trunk b414999370) +JIT [x86_64-linux]
-    last_commit=Add a benchmark for JIT-ed code dispatch
   5cb283217b: |-
     ruby 2.7.0dev (2019-09-21T10:23:47Z trunk 5cb283217b) [x86_64-linux]
     last_commit=test/ruby/test_assignment.rb: use bug number for assert message
