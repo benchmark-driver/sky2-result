@@ -2246,6 +2246,8 @@ results:
     63f363b70d: 3457846.106
     fc85bdeb77: 3376056.282
     2a490d5660: 3351738.968
+    c144d7215b: 3364180.973
+    f6f03dcad6: 3365016.721
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4491,6 +4493,8 @@ results:
     63f363b70d: 3341288.997
     fc85bdeb77: 3348682.222
     2a490d5660: 3414336.799
+    c144d7215b: 3308374.433
+    f6f03dcad6: 3342412.222
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -6736,6 +6740,8 @@ results:
     63f363b70d: 1993217.568
     fc85bdeb77: 1948062.344
     2a490d5660: 1789454.836
+    c144d7215b: 1768525.816
+    f6f03dcad6: 1768278.318
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -8981,6 +8987,8 @@ results:
     63f363b70d: 3191169.691
     fc85bdeb77: 3144224.581
     2a490d5660: 2816307.52
+    c144d7215b: 2711070.343
+    f6f03dcad6: 3142945.1
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -11226,6 +11234,8 @@ results:
     63f363b70d: 3570514.7
     fc85bdeb77: 3645245.388
     2a490d5660: 3546085.404
+    c144d7215b: 3643419.468
+    f6f03dcad6: 3656187.035
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -13471,6 +13481,8 @@ results:
     63f363b70d: 3737098.818
     fc85bdeb77: 3632395.905
     2a490d5660: 3676131.366
+    c144d7215b: 3628985.771
+    f6f03dcad6: 3621859.296
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -15716,6 +15728,8 @@ results:
     63f363b70d: 2093046.801
     fc85bdeb77: 2066889.407
     2a490d5660: 1843054.704
+    c144d7215b: 2001537.366
+    f6f03dcad6: 1997094.149
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -17961,3 +17975,5 @@ results:
     63f363b70d: 3435309.311
     fc85bdeb77: 3399478.211
     2a490d5660: 3030164.17
+    c144d7215b: 3367488.452
+    f6f03dcad6: 3390916.337
