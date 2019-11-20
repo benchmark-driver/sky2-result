@@ -9,60 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  5cb283217b: |-
-    ruby 2.7.0dev (2019-09-21T10:23:47Z trunk 5cb283217b) [x86_64-linux]
-    last_commit=test/ruby/test_assignment.rb: use bug number for assert message
-  5cb283217b --jit: |-
-    ruby 2.7.0dev (2019-09-21T10:23:47Z trunk 5cb283217b) +JIT [x86_64-linux]
-    last_commit=test/ruby/test_assignment.rb: use bug number for assert message
-  7470f96565: |-
-    ruby 2.7.0dev (2019-09-21T23:10:18Z trunk 7470f96565) [x86_64-linux]
-    last_commit=Fix Module#class_variables for singleton classes of classes/modules
-  7470f96565 --jit: |-
-    ruby 2.7.0dev (2019-09-21T23:10:18Z trunk 7470f96565) +JIT [x86_64-linux]
-    last_commit=Fix Module#class_variables for singleton classes of classes/modules
-  2e551356a7: |-
-    ruby 2.7.0dev (2019-09-21T23:10:37Z trunk 2e551356a7) [x86_64-linux]
-    last_commit=Make Kernel#{Pathname,BigDecimal,Complex} return argument if given correct type
-  2e551356a7 --jit: |-
-    ruby 2.7.0dev (2019-09-21T23:10:37Z trunk 2e551356a7) +JIT [x86_64-linux]
-    last_commit=Make Kernel#{Pathname,BigDecimal,Complex} return argument if given correct type
-  c020fd6aa8: |-
-    ruby 2.7.0dev (2019-09-21T23:10:56Z trunk c020fd6aa8) [x86_64-linux]
-    last_commit=* 2019-09-22 [ci skip]
-  c020fd6aa8 --jit: |-
-    ruby 2.7.0dev (2019-09-21T23:10:56Z trunk c020fd6aa8) +JIT [x86_64-linux]
-    last_commit=* 2019-09-22 [ci skip]
-  a0ce0b6297: |-
-    ruby 2.7.0dev (2019-09-22T01:11:51Z trunk a0ce0b6297) [x86_64-linux]
-    last_commit=Add `if: always()` because 2.4.x's `make check` failed on snapshot [ci skip]
-  a0ce0b6297 --jit: |-
-    ruby 2.7.0dev (2019-09-22T01:11:51Z trunk a0ce0b6297) +JIT [x86_64-linux]
-    last_commit=Add `if: always()` because 2.4.x's `make check` failed on snapshot [ci skip]
-  b4c328bebc: |-
-    ruby 2.7.0dev (2019-09-22T02:55:00Z trunk b4c328bebc) [x86_64-linux]
-    last_commit=test/bigdecimal/test_bigdecimal.rb: Use BigDecimal()
-  b4c328bebc --jit: |-
-    ruby 2.7.0dev (2019-09-22T02:55:00Z trunk b4c328bebc) +JIT [x86_64-linux]
-    last_commit=test/bigdecimal/test_bigdecimal.rb: Use BigDecimal()
-  28eefb33c8: |-
-    ruby 2.7.0dev (2019-09-22T07:21:26Z trunk 28eefb33c8) [x86_64-linux]
-    last_commit=variable.c: Rename rb_st_copy to rb_iv_tbl_copy
-  28eefb33c8 --jit: |-
-    ruby 2.7.0dev (2019-09-22T07:21:26Z trunk 28eefb33c8) +JIT [x86_64-linux]
-    last_commit=variable.c: Rename rb_st_copy to rb_iv_tbl_copy
-  2272efa463: |-
-    ruby 2.7.0dev (2019-09-22T07:39:47Z trunk 2272efa463) [x86_64-linux]
-    last_commit=st.c (st_add_direct_with_hash): make it "static inline"
-  2272efa463 --jit: |-
-    ruby 2.7.0dev (2019-09-22T07:39:47Z trunk 2272efa463) +JIT [x86_64-linux]
-    last_commit=st.c (st_add_direct_with_hash): make it "static inline"
-  5f35b8ca30: |-
-    ruby 2.7.0dev (2019-09-22T13:12:18Z trunk 5f35b8ca30) [x86_64-linux]
-    last_commit=st.c: Use rb_st_* prefix instead of st_* (#2479)
-  5f35b8ca30 --jit: |-
-    ruby 2.7.0dev (2019-09-22T13:12:18Z trunk 5f35b8ca30) +JIT [x86_64-linux]
-    last_commit=st.c: Use rb_st_* prefix instead of st_* (#2479)
   7fe7dec7e5: |-
     ruby 2.7.0dev (2019-09-22T13:18:14Z trunk 7fe7dec7e5) [x86_64-linux]
     last_commit=make-snapshot: Do not save extra file attributes
@@ -5424,3 +5370,9 @@ commits:
   bc0da8e3ff --jit: ruby 2.7.0dev (2019-11-19T23:19:58Z master bc0da8e3ff) +JIT [x86_64-linux]
   49b4507fd3: ruby 2.7.0dev (2019-11-19T23:39:43Z master 49b4507fd3) [x86_64-linux]
   49b4507fd3 --jit: ruby 2.7.0dev (2019-11-19T23:39:43Z master 49b4507fd3) +JIT [x86_64-linux]
+  19a310b0ac: ruby 2.7.0dev (2019-11-20T00:56:13Z master 19a310b0ac) [x86_64-linux]
+  19a310b0ac --jit: ruby 2.7.0dev (2019-11-20T00:56:13Z master 19a310b0ac) +JIT [x86_64-linux]
+  9306602f24: ruby 2.7.0dev (2019-11-20T00:58:33Z master 9306602f24) [x86_64-linux]
+  9306602f24 --jit: ruby 2.7.0dev (2019-11-20T00:58:33Z master 9306602f24) +JIT [x86_64-linux]
+  da0d7211aa: ruby 2.7.0dev (2019-11-20T01:04:41Z master da0d7211aa) [x86_64-linux]
+  da0d7211aa --jit: ruby 2.7.0dev (2019-11-20T01:04:41Z master da0d7211aa) +JIT [x86_64-linux]
