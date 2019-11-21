@@ -9,54 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  a1dcb9daa5: |-
-    ruby 2.7.0dev (2019-09-24T12:52:23Z trunk a1dcb9daa5) [x86_64-linux]
-    last_commit=Rename from ruby-x.y.z.ext.draft to ruby-x.y.z-draft.ext [ci skip]
-  a1dcb9daa5 --jit: |-
-    ruby 2.7.0dev (2019-09-24T12:52:23Z trunk a1dcb9daa5) +JIT [x86_64-linux]
-    last_commit=Rename from ruby-x.y.z.ext.draft to ruby-x.y.z-draft.ext [ci skip]
-  e73cc3eead: |-
-    ruby 2.7.0dev (2019-09-24T12:57:54Z trunk e73cc3eead) [x86_64-linux]
-    last_commit=Added implicit block parameter
-  e73cc3eead --jit: |-
-    ruby 2.7.0dev (2019-09-24T12:57:54Z trunk e73cc3eead) +JIT [x86_64-linux]
-    last_commit=Added implicit block parameter
-  ea68bb914a: |-
-    ruby 2.7.0dev (2019-09-24T12:57:54Z trunk ea68bb914a) [x86_64-linux]
-    last_commit=Changed numbered parameter prefix
-  ea68bb914a --jit: |-
-    ruby 2.7.0dev (2019-09-24T12:57:54Z trunk ea68bb914a) +JIT [x86_64-linux]
-    last_commit=Changed numbered parameter prefix
-  0e84eecc17: |-
-    ruby 2.7.0dev (2019-09-24T12:57:54Z trunk 0e84eecc17) [x86_64-linux]
-    last_commit=Make numbered parameters exclusive in a scope
-  0e84eecc17 --jit: |-
-    ruby 2.7.0dev (2019-09-24T12:57:54Z trunk 0e84eecc17) +JIT [x86_64-linux]
-    last_commit=Make numbered parameters exclusive in a scope
-  5294ded681: |-
-    ruby 2.7.0dev (2019-09-24T23:24:19Z trunk 5294ded681) [x86_64-linux]
-    last_commit=[ruby/io-console] Skip cursor position test on Solaris
-  5294ded681 --jit: |-
-    ruby 2.7.0dev (2019-09-24T23:24:19Z trunk 5294ded681) +JIT [x86_64-linux]
-    last_commit=[ruby/io-console] Skip cursor position test on Solaris
-  8e8dd88c80: |-
-    ruby 2.7.0dev (2019-09-24T23:24:44Z trunk 8e8dd88c80) [x86_64-linux]
-    last_commit=* 2019-09-25 [ci skip]
-  8e8dd88c80 --jit: |-
-    ruby 2.7.0dev (2019-09-24T23:24:44Z trunk 8e8dd88c80) +JIT [x86_64-linux]
-    last_commit=* 2019-09-25 [ci skip]
-  fc9eb5b9c1: |-
-    ruby 2.7.0dev (2019-09-25T00:43:29Z trunk fc9eb5b9c1) [x86_64-linux]
-    last_commit=[ruby/io-console] Load the current libraries
-  fc9eb5b9c1 --jit: |-
-    ruby 2.7.0dev (2019-09-25T00:43:29Z trunk fc9eb5b9c1) +JIT [x86_64-linux]
-    last_commit=[ruby/io-console] Load the current libraries
-  c60451d9cd: |-
-    ruby 2.7.0dev (2019-09-25T00:43:31Z trunk c60451d9cd) [x86_64-linux]
-    last_commit=[ruby/io-console] Unique paths to be added
-  c60451d9cd --jit: |-
-    ruby 2.7.0dev (2019-09-25T00:43:31Z trunk c60451d9cd) +JIT [x86_64-linux]
-    last_commit=[ruby/io-console] Unique paths to be added
   ca58e83400: |-
     ruby 2.7.0dev (2019-09-25T00:48:44Z trunk ca58e83400) [x86_64-linux]
     last_commit=Do not use of non-standard escape character '\e'
@@ -5314,3 +5266,5 @@ commits:
   a9d4f2d03c --jit: ruby 2.7.0dev (2019-11-21T01:32:20Z master a9d4f2d03c) +JIT [x86_64-linux]
   97a5af62a3: ruby 2.7.0dev (2019-11-21T01:57:36Z master 97a5af62a3) [x86_64-linux]
   97a5af62a3 --jit: ruby 2.7.0dev (2019-11-21T01:57:36Z master 97a5af62a3) +JIT [x86_64-linux]
+  ffab1bfdfc: ruby 2.7.0dev (2019-11-21T06:17:34Z master ffab1bfdfc) [x86_64-linux]
+  ffab1bfdfc --jit: ruby 2.7.0dev (2019-11-21T06:17:34Z master ffab1bfdfc) +JIT [x86_64-linux]
