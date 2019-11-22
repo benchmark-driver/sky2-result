@@ -9,66 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  ca58e83400: |-
-    ruby 2.7.0dev (2019-09-25T00:48:44Z trunk ca58e83400) [x86_64-linux]
-    last_commit=Do not use of non-standard escape character '\e'
-  ca58e83400 --jit: |-
-    ruby 2.7.0dev (2019-09-25T00:48:44Z trunk ca58e83400) +JIT [x86_64-linux]
-    last_commit=Do not use of non-standard escape character '\e'
-  c99fb0f41e: |-
-    ruby 2.7.0dev (2019-09-25T00:48:44Z trunk c99fb0f41e) [x86_64-linux]
-    last_commit=Revert "[ruby/io-console] Skip cursor position test on Solaris"
-  c99fb0f41e --jit: |-
-    ruby 2.7.0dev (2019-09-25T00:48:44Z trunk c99fb0f41e) +JIT [x86_64-linux]
-    last_commit=Revert "[ruby/io-console] Skip cursor position test on Solaris"
-  e663299a5f: |-
-    ruby 2.7.0dev (2019-09-25T01:39:49Z trunk e663299a5f) [x86_64-linux]
-    last_commit=Simplified duplicate code
-  e663299a5f --jit: |-
-    ruby 2.7.0dev (2019-09-25T01:39:49Z trunk e663299a5f) +JIT [x86_64-linux]
-    last_commit=Simplified duplicate code
-  55e1e22b2d: |-
-    ruby 2.7.0dev (2019-09-25T04:01:03Z trunk 55e1e22b2d) [x86_64-linux]
-    last_commit=Changed numbered parameters semantics
-  55e1e22b2d --jit: |-
-    ruby 2.7.0dev (2019-09-25T04:01:03Z trunk 55e1e22b2d) +JIT [x86_64-linux]
-    last_commit=Changed numbered parameters semantics
-  33c5ad3154: |-
-    ruby 2.7.0dev (2019-09-25T04:52:53Z trunk 33c5ad3154) [x86_64-linux]
-    last_commit=Removed idNUMPARAM_0
-  33c5ad3154 --jit: |-
-    ruby 2.7.0dev (2019-09-25T04:52:53Z trunk 33c5ad3154) +JIT [x86_64-linux]
-    last_commit=Removed idNUMPARAM_0
-  112c9f1430: |-
-    ruby 2.7.0dev (2019-09-25T07:58:24Z trunk 112c9f1430) [x86_64-linux]
-    last_commit=lldb_inspect: removed unnecessary newline and `end` option
-  112c9f1430 --jit: |-
-    ruby 2.7.0dev (2019-09-25T07:58:24Z trunk 112c9f1430) +JIT [x86_64-linux]
-    last_commit=lldb_inspect: removed unnecessary newline and `end` option
-  3deeb3fd91: |-
-    ruby 2.7.0dev (2019-09-25T08:01:54Z trunk 3deeb3fd91) [x86_64-linux]
-    last_commit=introduce `obj_ary_extracapa`.
-  3deeb3fd91 --jit: |-
-    ruby 2.7.0dev (2019-09-25T08:01:54Z trunk 3deeb3fd91) +JIT [x86_64-linux]
-    last_commit=introduce `obj_ary_extracapa`.
-  6d578164f5: |-
-    ruby 2.7.0dev (2019-09-25T08:12:55Z trunk 6d578164f5) [x86_64-linux]
-    last_commit=check `ARY_SHARED_ROOT_P()`.
-  6d578164f5 --jit: |-
-    ruby 2.7.0dev (2019-09-25T08:12:55Z trunk 6d578164f5) +JIT [x86_64-linux]
-    last_commit=check `ARY_SHARED_ROOT_P()`.
-  5b1fd79ad9: |-
-    ruby 2.7.0dev (2019-09-25T11:54:33Z trunk 5b1fd79ad9) [x86_64-linux]
-    last_commit=[DOC] fixed the return value of IO#ready? [ci skip]
-  5b1fd79ad9 --jit: |-
-    ruby 2.7.0dev (2019-09-25T11:54:33Z trunk 5b1fd79ad9) +JIT [x86_64-linux]
-    last_commit=[DOC] fixed the return value of IO#ready? [ci skip]
-  ae83dbe28d: |-
-    ruby 2.7.0dev (2019-09-25T15:26:33Z trunk ae83dbe28d) [x86_64-linux]
-    last_commit=Get rid of `IO.select` to fix multiline paste
-  ae83dbe28d --jit: |-
-    ruby 2.7.0dev (2019-09-25T15:26:33Z trunk ae83dbe28d) +JIT [x86_64-linux]
-    last_commit=Get rid of `IO.select` to fix multiline paste
   4755e23d2e: |-
     ruby 2.7.0dev (2019-09-25T15:27:40Z trunk 4755e23d2e) [x86_64-linux]
     last_commit=* 2019-09-26 [ci skip]
@@ -5280,3 +5220,11 @@ commits:
   35608760ff --jit: ruby 2.7.0dev (2019-11-22T10:05:58Z master 35608760ff) +JIT [x86_64-linux]
   994435d0ef: ruby 2.7.0dev (2019-11-22T13:42:33Z master 994435d0ef) [x86_64-linux]
   994435d0ef --jit: ruby 2.7.0dev (2019-11-22T13:42:33Z master 994435d0ef) +JIT [x86_64-linux]
+  053f78e139: ruby 2.7.0dev (2019-11-22T14:56:18Z master 053f78e139) [x86_64-linux]
+  053f78e139 --jit: ruby 2.7.0dev (2019-11-22T14:56:18Z master 053f78e139) +JIT [x86_64-linux]
+  d7f100226d: ruby 2.7.0dev (2019-11-22T16:57:19Z master d7f100226d) [x86_64-linux]
+  d7f100226d --jit: ruby 2.7.0dev (2019-11-22T16:57:19Z master d7f100226d) +JIT [x86_64-linux]
+  271cb9acd2: ruby 2.7.0dev (2019-11-22T16:57:19Z master 271cb9acd2) [x86_64-linux]
+  271cb9acd2 --jit: ruby 2.7.0dev (2019-11-22T16:57:19Z master 271cb9acd2) +JIT [x86_64-linux]
+  144bff43fc: ruby 2.7.0dev (2019-11-22T16:58:08Z master 144bff43fc) [x86_64-linux]
+  144bff43fc --jit: ruby 2.7.0dev (2019-11-22T16:58:08Z master 144bff43fc) +JIT [x86_64-linux]

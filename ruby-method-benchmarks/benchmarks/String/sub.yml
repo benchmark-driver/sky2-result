@@ -2275,6 +2275,8 @@ results:
     b29c68e687: 3379192.748
     ebc2198d9f: 3121204.367
     2c889e9b05: 3261654.657
+    f6f1377a4e: 3367052.559
+    a396bef8d8: 3382651.58
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4549,6 +4551,8 @@ results:
     b29c68e687: 3438898.841
     ebc2198d9f: 2853863.904
     2c889e9b05: 3354130.977
+    f6f1377a4e: 3348078.993
+    a396bef8d8: 3376626.528
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -6823,6 +6827,8 @@ results:
     b29c68e687: 1855759.608
     ebc2198d9f: 1933021.294
     2c889e9b05: 1829509.355
+    f6f1377a4e: 1943339.128
+    a396bef8d8: 1966398.74
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -9097,6 +9103,8 @@ results:
     b29c68e687: 2833218.465
     ebc2198d9f: 2817175.86
     2c889e9b05: 3004708.71
+    f6f1377a4e: 3108037.69
+    a396bef8d8: 3154051.264
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -11371,6 +11379,8 @@ results:
     b29c68e687: 3038071.066
     ebc2198d9f: 3166817.644
     2c889e9b05: 3574308.721
+    f6f1377a4e: 3653584.092
+    a396bef8d8: 3688640.0
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -13645,6 +13655,8 @@ results:
     b29c68e687: 2986499.727
     ebc2198d9f: 3637393.64
     2c889e9b05: 3486522.042
+    f6f1377a4e: 3626542.856
+    a396bef8d8: 3659272.086
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -15919,6 +15931,8 @@ results:
     b29c68e687: 1856958.272
     ebc2198d9f: 2076394.303
     2c889e9b05: 1699941.8
+    f6f1377a4e: 2068730.781
+    a396bef8d8: 2089754.947
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -18193,3 +18207,5 @@ results:
     b29c68e687: 2916272.95
     ebc2198d9f: 3344739.128
     2c889e9b05: 3383752.232
+    f6f1377a4e: 3383889.969
+    a396bef8d8: 3405827.609
