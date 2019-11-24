@@ -2294,6 +2294,8 @@ results:
     e29e49abf0: 3299265.479
     9b6460cacc: 3384357.816
     d97229de5c: 3379954.299
+    fe45bee093: 3493679.012
+    be95d59160: 3462466.443
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4587,6 +4589,8 @@ results:
     e29e49abf0: 3359059.813
     9b6460cacc: 3044120.704
     d97229de5c: 3386510.861
+    fe45bee093: 3446398.097
+    be95d59160: 3468676.208
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -6880,6 +6884,8 @@ results:
     e29e49abf0: 1734167.677
     9b6460cacc: 1795226.641
     d97229de5c: 1972009.86
+    fe45bee093: 2011967.236
+    be95d59160: 1986308.991
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -9173,6 +9179,8 @@ results:
     e29e49abf0: 3110810.15
     9b6460cacc: 2392423.357
     d97229de5c: 3045423.096
+    fe45bee093: 3210868.846
+    be95d59160: 3225728.312
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -11466,6 +11474,8 @@ results:
     e29e49abf0: 3651178.146
     9b6460cacc: 3431873.736
     d97229de5c: 3696372.2
+    fe45bee093: 3770035.725
+    be95d59160: 3729422.619
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -13759,6 +13769,8 @@ results:
     e29e49abf0: 3624479.797
     9b6460cacc: 3647634.695
     d97229de5c: 3649053.696
+    fe45bee093: 3773520.419
+    be95d59160: 3719539.432
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -16052,6 +16064,8 @@ results:
     e29e49abf0: 2066477.527
     9b6460cacc: 1938701.459
     d97229de5c: 2078470.147
+    fe45bee093: 2041828.726
+    be95d59160: 2086003.014
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -18345,3 +18359,5 @@ results:
     e29e49abf0: 3286407.046
     9b6460cacc: 2916229.297
     d97229de5c: 3406764.085
+    fe45bee093: 3452806.426
+    be95d59160: 3470935.376
