@@ -2296,6 +2296,8 @@ results:
     d97229de5c: 3379954.299
     fe45bee093: 3493679.012
     be95d59160: 3462466.443
+    ddf5020e4f: 3046295.06
+    fb02e3192c: 3386074.937
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4591,6 +4593,8 @@ results:
     d97229de5c: 3386510.861
     fe45bee093: 3446398.097
     be95d59160: 3468676.208
+    ddf5020e4f: 2858173.449
+    fb02e3192c: 3118472.351
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -6886,6 +6890,8 @@ results:
     d97229de5c: 1972009.86
     fe45bee093: 2011967.236
     be95d59160: 1986308.991
+    ddf5020e4f: 1828351.604
+    fb02e3192c: 1989336.312
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -9181,6 +9187,8 @@ results:
     d97229de5c: 3045423.096
     fe45bee093: 3210868.846
     be95d59160: 3225728.312
+    ddf5020e4f: 2914093.588
+    fb02e3192c: 3043592.545
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -11476,6 +11484,8 @@ results:
     d97229de5c: 3696372.2
     fe45bee093: 3770035.725
     be95d59160: 3729422.619
+    ddf5020e4f: 3672943.365
+    fb02e3192c: 3642775.869
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -13771,6 +13781,8 @@ results:
     d97229de5c: 3649053.696
     fe45bee093: 3773520.419
     be95d59160: 3719539.432
+    ddf5020e4f: 3614776.497
+    fb02e3192c: 3624097.513
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -16066,6 +16078,8 @@ results:
     d97229de5c: 2078470.147
     fe45bee093: 2041828.726
     be95d59160: 2086003.014
+    ddf5020e4f: 1947465.896
+    fb02e3192c: 1893605.289
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -18361,3 +18375,5 @@ results:
     d97229de5c: 3406764.085
     fe45bee093: 3452806.426
     be95d59160: 3470935.376
+    ddf5020e4f: 2980842.806
+    fb02e3192c: 3443934.188
