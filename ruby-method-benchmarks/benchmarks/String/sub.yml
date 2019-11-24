@@ -2291,6 +2291,8 @@ results:
     c33d29fba5: 3454341.999
     fea24bbfdb: 3605746.531
     6134fd7a64: 3361279.704
+    e29e49abf0: 3299265.479
+    9b6460cacc: 3384357.816
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4581,6 +4583,8 @@ results:
     c33d29fba5: 3457136.185
     fea24bbfdb: 3121848.619
     6134fd7a64: 3351768.056
+    e29e49abf0: 3359059.813
+    9b6460cacc: 3044120.704
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -6871,6 +6875,8 @@ results:
     c33d29fba5: 1990709.283
     fea24bbfdb: 1997514.342
     6134fd7a64: 1786514.292
+    e29e49abf0: 1734167.677
+    9b6460cacc: 1795226.641
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -9161,6 +9167,8 @@ results:
     c33d29fba5: 3207916.806
     fea24bbfdb: 2828172.524
     6134fd7a64: 2769834.302
+    e29e49abf0: 3110810.15
+    9b6460cacc: 2392423.357
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -11451,6 +11459,8 @@ results:
     c33d29fba5: 3711932.898
     fea24bbfdb: 3700750.344
     6134fd7a64: 3199857.408
+    e29e49abf0: 3651178.146
+    9b6460cacc: 3431873.736
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -13741,6 +13751,8 @@ results:
     c33d29fba5: 3276253.013
     fea24bbfdb: 3734998.238
     6134fd7a64: 3205254.595
+    e29e49abf0: 3624479.797
+    9b6460cacc: 3647634.695
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -16031,6 +16043,8 @@ results:
     c33d29fba5: 2081425.147
     fea24bbfdb: 2127150.264
     6134fd7a64: 1894235.362
+    e29e49abf0: 2066477.527
+    9b6460cacc: 1938701.459
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -18321,3 +18335,5 @@ results:
     c33d29fba5: 3433388.298
     fea24bbfdb: 3630082.002
     6134fd7a64: 2534195.691
+    e29e49abf0: 3286407.046
+    9b6460cacc: 2916229.297
