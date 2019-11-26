@@ -9,48 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  ba8fb735cb: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk ba8fb735cb) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Added rvm workflow for Ruby 2.2 and 2.7
-  ba8fb735cb --jit: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk ba8fb735cb) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Added rvm workflow for Ruby 2.2 and 2.7
-  769a28d7dc: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 769a28d7dc) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Removed 2.2
-  769a28d7dc --jit: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 769a28d7dc) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Removed 2.2
-  ad638a713a: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk ad638a713a) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Added jruby to matrix
-  ad638a713a --jit: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk ad638a713a) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Added jruby to matrix
-  ea5b136155: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk ea5b136155) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fix underscore version for bundler itself
-  ea5b136155 --jit: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk ea5b136155) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fix underscore version for bundler itself
-  1fb44d2b8c: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 1fb44d2b8c) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Detect libc version, closes #2918
-  1fb44d2b8c --jit: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 1fb44d2b8c) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Detect libc version, closes #2918
-  73633683c5: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 73633683c5) [x86_64-linux]
-    last_commit=[rubygems/rubygems] add tests
-  73633683c5 --jit: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 73633683c5) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] add tests
-  6134fd7a64: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 6134fd7a64) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove comment not adding much
-  6134fd7a64 --jit: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 6134fd7a64) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Remove comment not adding much
   4f87a1583d: |-
     ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 4f87a1583d) [x86_64-linux]
     last_commit=[rubygems/rubygems] Introduce default prerelease requirement
@@ -5161,3 +5119,5 @@ commits:
   7bd7a013b1 --jit: ruby 2.7.0dev (2019-11-26T02:44:11Z master 7bd7a013b1) +JIT [x86_64-linux]
   307e899d78: ruby 2.7.0dev (2019-11-26T02:46:22Z master 307e899d78) [x86_64-linux]
   307e899d78 --jit: ruby 2.7.0dev (2019-11-26T02:46:22Z master 307e899d78) +JIT [x86_64-linux]
+  5a6e3e7552: ruby 2.7.0dev (2019-11-26T07:19:18Z master 5a6e3e7552) [x86_64-linux]
+  5a6e3e7552 --jit: ruby 2.7.0dev (2019-11-26T07:19:18Z master 5a6e3e7552) +JIT [x86_64-linux]
