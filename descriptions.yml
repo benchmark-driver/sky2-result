@@ -9,60 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  4f87a1583d: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 4f87a1583d) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Introduce default prerelease requirement
-  4f87a1583d --jit: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 4f87a1583d) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Introduce default prerelease requirement
-  0b65a7a19e: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 0b65a7a19e) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fix test_gem_attr
-  0b65a7a19e --jit: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 0b65a7a19e) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fix test_gem_attr
-  1eb503373e: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 1eb503373e) [x86_64-linux]
-    last_commit=[rubygems/rubygems] filter dependency type and name strictly.
-  1eb503373e --jit: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 1eb503373e) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] filter dependency type and name strictly.
-  966915d807: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 966915d807) [x86_64-linux]
-    last_commit=[rubygems/rubygems] indent
-  966915d807 --jit: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 966915d807) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] indent
-  54839f0173: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 54839f0173) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fix jruby build
-  54839f0173 --jit: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk 54839f0173) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fix jruby build
-  a2af473018: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk a2af473018) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Make sure our modifications to kernel.warn work
-  a2af473018 --jit: |-
-    ruby 2.7.0dev (2019-09-26T08:48:01Z trunk a2af473018) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Make sure our modifications to kernel.warn work
-  d4a86e407e: |-
-    ruby 2.7.0dev (2019-09-26T09:07:17Z trunk d4a86e407e) [x86_64-linux]
-    last_commit=Assert warnings message for the last argument is keyword parameter.
-  d4a86e407e --jit: |-
-    ruby 2.7.0dev (2019-09-26T09:07:17Z trunk d4a86e407e) +JIT [x86_64-linux]
-    last_commit=Assert warnings message for the last argument is keyword parameter.
-  2a490d5660: |-
-    ruby 2.7.0dev (2019-09-26T09:24:20Z trunk 2a490d5660) [x86_64-linux]
-    last_commit=Suppress assert_match warnings.
-  2a490d5660 --jit: |-
-    ruby 2.7.0dev (2019-09-26T09:24:20Z trunk 2a490d5660) +JIT [x86_64-linux]
-    last_commit=Suppress assert_match warnings.
-  c8f7168653: |-
-    ruby 2.7.0dev (2019-09-26T10:22:30Z trunk c8f7168653) [x86_64-linux]
-    last_commit=Revert the accidentally commits related GitHub Actions
-  c8f7168653 --jit: |-
-    ruby 2.7.0dev (2019-09-26T10:22:30Z trunk c8f7168653) +JIT [x86_64-linux]
-    last_commit=Revert the accidentally commits related GitHub Actions
   9d0866c7d7: |-
     ruby 2.7.0dev (2019-09-26T11:25:23Z trunk 9d0866c7d7) [x86_64-linux]
     last_commit=[EXPERIMENTAL] Make Module#name return a frozen String
