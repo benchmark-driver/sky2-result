@@ -2332,6 +2332,8 @@ results:
     652800cc09: 3365813.643
     cbbe198c89: 3052432.297
     77c94e0dd8: 3065003.162
+    228ebdbf2f: 3428185.72
+    826bbf9837: 3404868.198
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4663,6 +4665,8 @@ results:
     652800cc09: 3325846.903
     cbbe198c89: 3337110.863
     77c94e0dd8: 3302814.369
+    228ebdbf2f: 3379347.36
+    826bbf9837: 3324636.816
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -6994,6 +6998,8 @@ results:
     652800cc09: 1962642.718
     cbbe198c89: 1807158.18
     77c94e0dd8: 1976276.601
+    228ebdbf2f: 1962068.264
+    826bbf9837: 1964351.091
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -9325,6 +9331,8 @@ results:
     652800cc09: 3121394.47
     cbbe198c89: 3059151.121
     77c94e0dd8: 3175910.255
+    228ebdbf2f: 3182211.921
+    826bbf9837: 3167785.999
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -11656,6 +11664,8 @@ results:
     652800cc09: 3607553.202
     cbbe198c89: 3240970.462
     77c94e0dd8: 3669636.971
+    228ebdbf2f: 3699727.886
+    826bbf9837: 3689248.583
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -13987,6 +13997,8 @@ results:
     652800cc09: 3341218.645
     cbbe198c89: 3399647.913
     77c94e0dd8: 3648578.034
+    228ebdbf2f: 3632209.185
+    826bbf9837: 3647992.153
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -16318,6 +16330,8 @@ results:
     652800cc09: 2042202.855
     cbbe198c89: 1815237.507
     77c94e0dd8: 2072098.51
+    228ebdbf2f: 2087240.764
+    826bbf9837: 2063467.957
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -18649,3 +18663,5 @@ results:
     652800cc09: 3352600.033
     cbbe198c89: 3333191.713
     77c94e0dd8: 3403535.042
+    228ebdbf2f: 3464872.609
+    826bbf9837: 3404343.879
