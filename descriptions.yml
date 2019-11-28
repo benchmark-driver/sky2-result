@@ -9,54 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  9d0866c7d7: |-
-    ruby 2.7.0dev (2019-09-26T11:25:23Z trunk 9d0866c7d7) [x86_64-linux]
-    last_commit=[EXPERIMENTAL] Make Module#name return a frozen String
-  9d0866c7d7 --jit: |-
-    ruby 2.7.0dev (2019-09-26T11:25:23Z trunk 9d0866c7d7) +JIT [x86_64-linux]
-    last_commit=[EXPERIMENTAL] Make Module#name return a frozen String
-  1070456bb8: |-
-    ruby 2.7.0dev (2019-09-26T11:25:42Z trunk 1070456bb8) [x86_64-linux]
-    last_commit=* remove trailing spaces. [ci skip]
-  1070456bb8 --jit: |-
-    ruby 2.7.0dev (2019-09-26T11:25:42Z trunk 1070456bb8) +JIT [x86_64-linux]
-    last_commit=* remove trailing spaces. [ci skip]
-  41e3c204fd: |-
-    ruby 2.7.0dev (2019-09-26T13:13:31Z trunk 41e3c204fd) [x86_64-linux]
-    last_commit=Reduce ISeq size of mjit_exec benchmark
-  41e3c204fd --jit: |-
-    ruby 2.7.0dev (2019-09-26T13:13:31Z trunk 41e3c204fd) +JIT [x86_64-linux]
-    last_commit=Reduce ISeq size of mjit_exec benchmark
-  c4ec817a7a: |-
-    ruby 2.7.0dev (2019-09-26T13:56:32Z trunk c4ec817a7a) [x86_64-linux]
-    last_commit=Gem::Specification#to_ruby needs OpenSSL
-  c4ec817a7a --jit: |-
-    ruby 2.7.0dev (2019-09-26T13:56:32Z trunk c4ec817a7a) +JIT [x86_64-linux]
-    last_commit=Gem::Specification#to_ruby needs OpenSSL
-  b29c68e687: |-
-    ruby 2.7.0dev (2019-09-26T13:57:25Z trunk b29c68e687) [x86_64-linux]
-    last_commit=Restore ENV, rubygems always sets SOURCE_DATE_EPOCH now
-  b29c68e687 --jit: |-
-    ruby 2.7.0dev (2019-09-26T13:57:25Z trunk b29c68e687) +JIT [x86_64-linux]
-    last_commit=Restore ENV, rubygems always sets SOURCE_DATE_EPOCH now
-  5b9d646944: |-
-    ruby 2.7.0dev (2019-09-26T14:29:49Z trunk 5b9d646944) [x86_64-linux]
-    last_commit=Fix Module#name news and add a test
-  5b9d646944 --jit: |-
-    ruby 2.7.0dev (2019-09-26T14:29:49Z trunk 5b9d646944) +JIT [x86_64-linux]
-    last_commit=Fix Module#name news and add a test
-  0aa267f985: |-
-    ruby 2.7.0dev (2019-09-26T15:01:53Z trunk 0aa267f985) [x86_64-linux]
-    last_commit=Fix keyword argument sepration issues when IO#open calls #to_open
-  0aa267f985 --jit: |-
-    ruby 2.7.0dev (2019-09-26T15:01:53Z trunk 0aa267f985) +JIT [x86_64-linux]
-    last_commit=Fix keyword argument sepration issues when IO#open calls #to_open
-  760893d2f8: |-
-    ruby 2.7.0dev (2019-09-26T15:01:53Z trunk 760893d2f8) [x86_64-linux]
-    last_commit=Fix keyword argument separation issues in Proc#{<<,>>}
-  760893d2f8 --jit: |-
-    ruby 2.7.0dev (2019-09-26T15:01:53Z trunk 760893d2f8) +JIT [x86_64-linux]
-    last_commit=Fix keyword argument separation issues in Proc#{<<,>>}
   3959469f24: |-
     ruby 2.7.0dev (2019-09-26T15:01:53Z trunk 3959469f24) [x86_64-linux]
     last_commit=Fix keyword argument separation issues in OpenSSL::SSL::SSLSocket#sys{read,write}_nonblock
@@ -5097,3 +5049,7 @@ commits:
   cdcaf04112 --jit: ruby 2.7.0dev (2019-11-27T18:03:51Z master cdcaf04112) +JIT [x86_64-linux]
   416cccc6ec: ruby 2.7.0dev (2019-11-27T20:32:42Z master 416cccc6ec) [x86_64-linux]
   416cccc6ec --jit: ruby 2.7.0dev (2019-11-27T20:32:42Z master 416cccc6ec) +JIT [x86_64-linux]
+  f9debf3437: ruby 2.7.0dev (2019-11-27T23:13:35Z master f9debf3437) [x86_64-linux]
+  f9debf3437 --jit: ruby 2.7.0dev (2019-11-27T23:13:35Z master f9debf3437) +JIT [x86_64-linux]
+  2d0a1a1869: ruby 2.7.0dev (2019-11-27T23:19:05Z master 2d0a1a1869) [x86_64-linux]
+  2d0a1a1869 --jit: ruby 2.7.0dev (2019-11-27T23:19:05Z master 2d0a1a1869) +JIT [x86_64-linux]
