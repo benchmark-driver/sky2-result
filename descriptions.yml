@@ -9,48 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  3959469f24: |-
-    ruby 2.7.0dev (2019-09-26T15:01:53Z trunk 3959469f24) [x86_64-linux]
-    last_commit=Fix keyword argument separation issues in OpenSSL::SSL::SSLSocket#sys{read,write}_nonblock
-  3959469f24 --jit: |-
-    ruby 2.7.0dev (2019-09-26T15:01:53Z trunk 3959469f24) +JIT [x86_64-linux]
-    last_commit=Fix keyword argument separation issues in OpenSSL::SSL::SSLSocket#sys{read,write}_nonblock
-  47d44510a3: |-
-    ruby 2.7.0dev (2019-09-26T15:01:53Z trunk 47d44510a3) [x86_64-linux]
-    last_commit=Fix more keyword argument separation issues in Pathname
-  47d44510a3 --jit: |-
-    ruby 2.7.0dev (2019-09-26T15:01:53Z trunk 47d44510a3) +JIT [x86_64-linux]
-    last_commit=Fix more keyword argument separation issues in Pathname
-  6b52959ef7: |-
-    ruby 2.7.0dev (2019-09-26T15:01:53Z trunk 6b52959ef7) [x86_64-linux]
-    last_commit=Fix keyword argument separation issues in Thread.new
-  6b52959ef7 --jit: |-
-    ruby 2.7.0dev (2019-09-26T15:01:53Z trunk 6b52959ef7) +JIT [x86_64-linux]
-    last_commit=Fix keyword argument separation issues in Thread.new
-  b193041b99: |-
-    ruby 2.7.0dev (2019-09-26T15:01:53Z trunk b193041b99) [x86_64-linux]
-    last_commit=Fix keyword argument separation issues in Fiber#resume
-  b193041b99 --jit: |-
-    ruby 2.7.0dev (2019-09-26T15:01:53Z trunk b193041b99) +JIT [x86_64-linux]
-    last_commit=Fix keyword argument separation issues in Fiber#resume
-  '9556342838': |-
-    ruby 2.7.0dev (2019-09-26T15:01:53Z trunk 9556342838) [x86_64-linux]
-    last_commit=Fix shorten-64-to-32 compile warnings/errors
-  9556342838 --jit: |-
-    ruby 2.7.0dev (2019-09-26T15:01:53Z trunk 9556342838) +JIT [x86_64-linux]
-    last_commit=Fix shorten-64-to-32 compile warnings/errors
-  3b9cdc59ce: |-
-    ruby 2.7.0dev (2019-09-26T15:02:18Z trunk 3b9cdc59ce) [x86_64-linux]
-    last_commit=* 2019-09-27 [ci skip]
-  3b9cdc59ce --jit: |-
-    ruby 2.7.0dev (2019-09-26T15:02:18Z trunk 3b9cdc59ce) +JIT [x86_64-linux]
-    last_commit=* 2019-09-27 [ci skip]
-  876c5fe1b2: |-
-    ruby 2.7.0dev (2019-09-26T15:38:12Z trunk 876c5fe1b2) [x86_64-linux]
-    last_commit=Check the argument size
-  876c5fe1b2 --jit: |-
-    ruby 2.7.0dev (2019-09-26T15:38:12Z trunk 876c5fe1b2) +JIT [x86_64-linux]
-    last_commit=Check the argument size
   617fa3049a: |-
     ruby 2.7.0dev (2019-09-26T15:48:48Z trunk 617fa3049a) [x86_64-linux]
     last_commit=NEWS: fixed markups and formatting [ci skip]
