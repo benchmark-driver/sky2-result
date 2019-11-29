@@ -9,66 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  31339ef4f2: |-
-    ruby 2.7.0dev (2019-09-26T22:01:44Z trunk 31339ef4f2) [x86_64-linux]
-    last_commit=Honor Syslog::Logger#level overrides
-  31339ef4f2 --jit: |-
-    ruby 2.7.0dev (2019-09-26T22:01:44Z trunk 31339ef4f2) +JIT [x86_64-linux]
-    last_commit=Honor Syslog::Logger#level overrides
-  dd2068ac8d: |-
-    ruby 2.7.0dev (2019-09-26T22:30:51Z trunk dd2068ac8d) [x86_64-linux]
-    last_commit=Add rb_adjust_argv_kw_splat to internal.h
-  dd2068ac8d --jit: |-
-    ruby 2.7.0dev (2019-09-26T22:30:51Z trunk dd2068ac8d) +JIT [x86_64-linux]
-    last_commit=Add rb_adjust_argv_kw_splat to internal.h
-  37f9213f89: |-
-    ruby 2.7.0dev (2019-09-26T22:30:51Z trunk 37f9213f89) [x86_64-linux]
-    last_commit=Fix keyword argument separation issues in Enumerator::Generator#each
-  37f9213f89 --jit: |-
-    ruby 2.7.0dev (2019-09-26T22:30:51Z trunk 37f9213f89) +JIT [x86_64-linux]
-    last_commit=Fix keyword argument separation issues in Enumerator::Generator#each
-  293c6c8cc3: |-
-    ruby 2.7.0dev (2019-09-26T22:41:46Z trunk 293c6c8cc3) [x86_64-linux]
-    last_commit=Add compaction support to `rb_ast_t`
-  293c6c8cc3 --jit: |-
-    ruby 2.7.0dev (2019-09-26T22:41:46Z trunk 293c6c8cc3) +JIT [x86_64-linux]
-    last_commit=Add compaction support to `rb_ast_t`
-  0c6f36668a: |-
-    ruby 2.7.0dev (2019-09-27T01:20:56Z trunk 0c6f36668a) [x86_64-linux]
-    last_commit=Adjusted spaces [ci skip]
-  0c6f36668a --jit: |-
-    ruby 2.7.0dev (2019-09-27T01:20:56Z trunk 0c6f36668a) +JIT [x86_64-linux]
-    last_commit=Adjusted spaces [ci skip]
-  660c7e050f: |-
-    ruby 2.7.0dev (2019-09-27T02:24:58Z trunk 660c7e050f) [x86_64-linux]
-    last_commit=Fix more keyword separation issues
-  660c7e050f --jit: |-
-    ruby 2.7.0dev (2019-09-27T02:24:58Z trunk 660c7e050f) +JIT [x86_64-linux]
-    last_commit=Fix more keyword separation issues
-  366dd9d803: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 366dd9d803) [x86_64-linux]
-    last_commit=[ruby/fileutils] Update the documentation content and formatting
-  366dd9d803 --jit: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 366dd9d803) +JIT [x86_64-linux]
-    last_commit=[ruby/fileutils] Update the documentation content and formatting
-  1d99163aa5: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 1d99163aa5) [x86_64-linux]
-    last_commit=[ruby/fileutils] Make copy methods handle FIFOs and UNIX sockets
-  1d99163aa5 --jit: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 1d99163aa5) +JIT [x86_64-linux]
-    last_commit=[ruby/fileutils] Make copy methods handle FIFOs and UNIX sockets
-  02cd420505: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 02cd420505) [x86_64-linux]
-    last_commit=[ruby/fileutils] Skip test_cp_r_socket on JRuby
-  02cd420505 --jit: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 02cd420505) +JIT [x86_64-linux]
-    last_commit=[ruby/fileutils] Skip test_cp_r_socket on JRuby
-  9494ef8b2d: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 9494ef8b2d) [x86_64-linux]
-    last_commit=[ruby/fileutils] Do not break in verbose mode if using FileUtils with a frozen object
-  9494ef8b2d --jit: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 9494ef8b2d) +JIT [x86_64-linux]
-    last_commit=[ruby/fileutils] Do not break in verbose mode if using FileUtils with a frozen object
   9792c9d183: |-
     ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 9792c9d183) [x86_64-linux]
     last_commit=[ruby/fileutils] Fix test_cp_r_dev on Windows or other systems without character/block device in /dev
