@@ -9,96 +9,6 @@ releases:
   2.6.3: ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
   2.6.3 --jit: ruby 2.6.3p62 (2019-04-16 revision 67580) +JIT [x86_64-linux]
 commits:
-  617fa3049a: |-
-    ruby 2.7.0dev (2019-09-26T15:48:48Z trunk 617fa3049a) [x86_64-linux]
-    last_commit=NEWS: fixed markups and formatting [ci skip]
-  617fa3049a --jit: |-
-    ruby 2.7.0dev (2019-09-26T15:48:48Z trunk 617fa3049a) +JIT [x86_64-linux]
-    last_commit=NEWS: fixed markups and formatting [ci skip]
-  81191afe8a: |-
-    ruby 2.7.0dev (2019-09-26T16:13:10Z trunk 81191afe8a) [x86_64-linux]
-    last_commit=Kernel#open may be redefined
-  81191afe8a --jit: |-
-    ruby 2.7.0dev (2019-09-26T16:13:10Z trunk 81191afe8a) +JIT [x86_64-linux]
-    last_commit=Kernel#open may be redefined
-  dd1e047fcb: |-
-    ruby 2.7.0dev (2019-09-26T17:31:39Z trunk dd1e047fcb) [x86_64-linux]
-    last_commit=NEWS: fixed markups and indent [ci skip]
-  dd1e047fcb --jit: |-
-    ruby 2.7.0dev (2019-09-26T17:31:39Z trunk dd1e047fcb) +JIT [x86_64-linux]
-    last_commit=NEWS: fixed markups and indent [ci skip]
-  451776f13d: |-
-    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk 451776f13d) [x86_64-linux]
-    last_commit=Pass in arena to allocator
-  451776f13d --jit: |-
-    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk 451776f13d) +JIT [x86_64-linux]
-    last_commit=Pass in arena to allocator
-  bd017c633d: |-
-    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk bd017c633d) [x86_64-linux]
-    last_commit=Extract allocation and free functions
-  bd017c633d --jit: |-
-    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk bd017c633d) +JIT [x86_64-linux]
-    last_commit=Extract allocation and free functions
-  3cd8f76f7f: |-
-    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk 3cd8f76f7f) [x86_64-linux]
-    last_commit=Introduce a secondary arena
-  3cd8f76f7f --jit: |-
-    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk 3cd8f76f7f) +JIT [x86_64-linux]
-    last_commit=Introduce a secondary arena
-  a618d64086: |-
-    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk a618d64086) [x86_64-linux]
-    last_commit=Allocate `INSN *` out of a separate arena
-  a618d64086 --jit: |-
-    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk a618d64086) +JIT [x86_64-linux]
-    last_commit=Allocate `INSN *` out of a separate arena
-  50fadefb7e: |-
-    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk 50fadefb7e) [x86_64-linux]
-    last_commit=Scan the ISEQ arena for markables and mark them
-  50fadefb7e --jit: |-
-    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk 50fadefb7e) +JIT [x86_64-linux]
-    last_commit=Scan the ISEQ arena for markables and mark them
-  f639e04699: |-
-    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk f639e04699) [x86_64-linux]
-    last_commit=Pull "mark object" up
-  f639e04699 --jit: |-
-    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk f639e04699) +JIT [x86_64-linux]
-    last_commit=Pull "mark object" up
-  98d7583bfc: |-
-    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk 98d7583bfc) [x86_64-linux]
-    last_commit=Pull `iseq_add_mark_object_compile_time` out of `freeze_string`
-  98d7583bfc --jit: |-
-    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk 98d7583bfc) +JIT [x86_64-linux]
-    last_commit=Pull `iseq_add_mark_object_compile_time` out of `freeze_string`
-  e197d9ca71: |-
-    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk e197d9ca71) [x86_64-linux]
-    last_commit=Execute write barrier instead of adding to array
-  e197d9ca71 --jit: |-
-    ruby 2.7.0dev (2019-09-26T20:56:41Z trunk e197d9ca71) +JIT [x86_64-linux]
-    last_commit=Execute write barrier instead of adding to array
-  9b6460cacc: |-
-    ruby 2.7.0dev (2019-09-26T20:56:42Z trunk 9b6460cacc) [x86_64-linux]
-    last_commit=Remove mark array
-  9b6460cacc --jit: |-
-    ruby 2.7.0dev (2019-09-26T20:56:42Z trunk 9b6460cacc) +JIT [x86_64-linux]
-    last_commit=Remove mark array
-  '0846d48853': |-
-    ruby 2.7.0dev (2019-09-26T20:56:42Z trunk 0846d48853) [x86_64-linux]
-    last_commit=Remove `iseq_add_mark_object_compile_time`
-  '0846d48853 --jit': |-
-    ruby 2.7.0dev (2019-09-26T20:56:42Z trunk 0846d48853) +JIT [x86_64-linux]
-    last_commit=Remove `iseq_add_mark_object_compile_time`
-  4808afb360: |-
-    ruby 2.7.0dev (2019-09-26T20:56:42Z trunk 4808afb360) [x86_64-linux]
-    last_commit=Replace `freeze_string` with `rb_fstring`
-  4808afb360 --jit: |-
-    ruby 2.7.0dev (2019-09-26T20:56:42Z trunk 4808afb360) +JIT [x86_64-linux]
-    last_commit=Replace `freeze_string` with `rb_fstring`
-  f5e8d33761: |-
-    ruby 2.7.0dev (2019-09-26T21:58:11Z trunk f5e8d33761) [x86_64-linux]
-    last_commit=Fix clang errors when pendantic errors enabled
-  f5e8d33761 --jit: |-
-    ruby 2.7.0dev (2019-09-26T21:58:11Z trunk f5e8d33761) +JIT [x86_64-linux]
-    last_commit=Fix clang errors when pendantic errors enabled
   31339ef4f2: |-
     ruby 2.7.0dev (2019-09-26T22:01:44Z trunk 31339ef4f2) [x86_64-linux]
     last_commit=Honor Syslog::Logger#level overrides
@@ -5039,3 +4949,19 @@ commits:
   76871dea6b --jit: ruby 2.7.0dev (2019-11-28T14:49:28Z master 76871dea6b) +JIT [x86_64-linux]
   b5fbefbf2c: ruby 2.7.0dev (2019-11-28T14:49:28Z master b5fbefbf2c) [x86_64-linux]
   b5fbefbf2c --jit: ruby 2.7.0dev (2019-11-28T14:49:28Z master b5fbefbf2c) +JIT [x86_64-linux]
+  dd723771c1: ruby 2.7.0dev (2019-11-28T18:11:04Z master dd723771c1) [x86_64-linux]
+  dd723771c1 --jit: ruby 2.7.0dev (2019-11-28T18:11:04Z master dd723771c1) +JIT [x86_64-linux]
+  d104ebf2c4: ruby 2.7.0dev (2019-11-28T18:11:28Z master d104ebf2c4) [x86_64-linux]
+  d104ebf2c4 --jit: ruby 2.7.0dev (2019-11-28T18:11:28Z master d104ebf2c4) +JIT [x86_64-linux]
+  e5705c351c: ruby 2.7.0dev (2019-11-28T18:11:40Z master e5705c351c) [x86_64-linux]
+  e5705c351c --jit: ruby 2.7.0dev (2019-11-28T18:11:40Z master e5705c351c) +JIT [x86_64-linux]
+  2e6f1cf8b2: ruby 2.7.0dev (2019-11-28T18:17:52Z master 2e6f1cf8b2) [x86_64-linux]
+  2e6f1cf8b2 --jit: ruby 2.7.0dev (2019-11-28T18:17:52Z master 2e6f1cf8b2) +JIT [x86_64-linux]
+  27d0d7c0d3: ruby 2.7.0dev (2019-11-28T18:18:19Z master 27d0d7c0d3) [x86_64-linux]
+  27d0d7c0d3 --jit: ruby 2.7.0dev (2019-11-28T18:18:19Z master 27d0d7c0d3) +JIT [x86_64-linux]
+  e4e41840ad: ruby 2.7.0dev (2019-11-28T18:22:13Z master e4e41840ad) [x86_64-linux]
+  e4e41840ad --jit: ruby 2.7.0dev (2019-11-28T18:22:13Z master e4e41840ad) +JIT [x86_64-linux]
+  f38b6d197f: ruby 2.7.0dev (2019-11-28T18:22:24Z master f38b6d197f) [x86_64-linux]
+  f38b6d197f --jit: ruby 2.7.0dev (2019-11-28T18:22:24Z master f38b6d197f) +JIT [x86_64-linux]
+  6b460a7948: ruby 2.7.0dev (2019-11-28T18:24:30Z master 6b460a7948) [x86_64-linux]
+  6b460a7948 --jit: ruby 2.7.0dev (2019-11-28T18:24:30Z master 6b460a7948) +JIT [x86_64-linux]
