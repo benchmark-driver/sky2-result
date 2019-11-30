@@ -2364,6 +2364,8 @@ results:
     26625bc33c: 3419862.0
     ce7942361d: 3265106.14
     c53aec73dd: 3453686.846
+    fc1d06b25d: 3228721.458
+    497f13aea6: 3320713.96
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4727,6 +4729,8 @@ results:
     26625bc33c: 3340664.085
     ce7942361d: 3101207.692
     c53aec73dd: 3383839.352
+    fc1d06b25d: 3217453.921
+    497f13aea6: 3371762.744
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -7090,6 +7094,8 @@ results:
     26625bc33c: 1967978.281
     ce7942361d: 1917171.883
     c53aec73dd: 1845200.122
+    fc1d06b25d: 1919842.538
+    497f13aea6: 1946231.144
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -9453,6 +9459,8 @@ results:
     26625bc33c: 3224816.859
     ce7942361d: 3021388.267
     c53aec73dd: 3291266.779
+    fc1d06b25d: 3047077.334
+    497f13aea6: 3228251.786
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -11816,6 +11824,8 @@ results:
     26625bc33c: 3587570.29
     ce7942361d: 3356936.202
     c53aec73dd: 3756292.065
+    fc1d06b25d: 3491705.274
+    497f13aea6: 3726347.226
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -14179,6 +14189,8 @@ results:
     26625bc33c: 3342718.75
     ce7942361d: 3455692.685
     c53aec73dd: 3294273.931
+    fc1d06b25d: 3192055.536
+    497f13aea6: 3345013.657
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -16542,6 +16554,8 @@ results:
     26625bc33c: 2061854.352
     ce7942361d: 2018810.963
     c53aec73dd: 1939045.578
+    fc1d06b25d: 1968207.966
+    497f13aea6: 2070446.684
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -18905,3 +18919,5 @@ results:
     26625bc33c: 3269600.342
     ce7942361d: 3302566.277
     c53aec73dd: 3353898.465
+    fc1d06b25d: 3292110.223
+    497f13aea6: 3491625.839
