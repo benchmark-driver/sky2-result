@@ -2391,6 +2391,8 @@ results:
     20c99b1ff5: 3365985.477
     ade0388894: 3263224.218
     8af3bd4594: 3438759.522
+    6bbd46a072: 3380690.12
+    9c3153e0da: 3257208.67
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4781,6 +4783,8 @@ results:
     20c99b1ff5: 3394327.377
     ade0388894: 3222097.091
     8af3bd4594: 3398830.224
+    6bbd46a072: 3397827.133
+    9c3153e0da: 2904095.993
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -7171,6 +7175,8 @@ results:
     20c99b1ff5: 1908358.27
     ade0388894: 1905412.089
     8af3bd4594: 1882021.523
+    6bbd46a072: 1873661.161
+    9c3153e0da: 1753178.021
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -9561,6 +9567,8 @@ results:
     20c99b1ff5: 2782092.684
     ade0388894: 3095301.802
     8af3bd4594: 2747084.48
+    6bbd46a072: 2749840.663
+    9c3153e0da: 3029584.973
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -11951,6 +11959,8 @@ results:
     20c99b1ff5: 3695401.95
     ade0388894: 3541476.296
     8af3bd4594: 3691693.305
+    6bbd46a072: 3344365.533
+    9c3153e0da: 3478448.092
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -14341,6 +14351,8 @@ results:
     20c99b1ff5: 3572725.391
     ade0388894: 3488430.849
     8af3bd4594: 3653725.238
+    6bbd46a072: 3279265.766
+    9c3153e0da: 3476485.183
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -16731,6 +16743,8 @@ results:
     20c99b1ff5: 2002321.795
     ade0388894: 2023143.9
     8af3bd4594: 1947070.74
+    6bbd46a072: 1947329.134
+    9c3153e0da: 1799209.956
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -19121,3 +19135,5 @@ results:
     20c99b1ff5: 2837303.512
     ade0388894: 3351328.421
     8af3bd4594: 2867909.962
+    6bbd46a072: 2924844.962
+    9c3153e0da: 3252019.81
