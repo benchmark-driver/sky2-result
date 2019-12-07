@@ -2411,6 +2411,8 @@ results:
     7510eef748: 3419759.76
     711c40ebdc: 3227245.84
     ea921abdec: 3406282.654
+    00bbdf4451: 3082109.425
+    0fd53f519f: 3450224.07
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4821,6 +4823,8 @@ results:
     7510eef748: 3388358.178
     711c40ebdc: 3194063.099
     ea921abdec: 3388668.884
+    00bbdf4451: 2716437.337
+    0fd53f519f: 3290710.062
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -7231,6 +7235,8 @@ results:
     7510eef748: 1826870.494
     711c40ebdc: 1845274.621
     ea921abdec: 1841014.351
+    00bbdf4451: 1643952.816
+    0fd53f519f: 1903258.836
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -9641,6 +9647,8 @@ results:
     7510eef748: 2742910.773
     711c40ebdc: 2992464.186
     ea921abdec: 2793329.453
+    00bbdf4451: 2872477.798
+    0fd53f519f: 2791333.844
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -12051,6 +12059,8 @@ results:
     7510eef748: 3708107.922
     711c40ebdc: 3315536.169
     ea921abdec: 3708334.508
+    00bbdf4451: 3406574.068
+    0fd53f519f: 3730779.774
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -14461,6 +14471,8 @@ results:
     7510eef748: 3550481.732
     711c40ebdc: 3441522.522
     ea921abdec: 3646878.507
+    00bbdf4451: 3263213.78
+    0fd53f519f: 3509671.684
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -16871,6 +16883,8 @@ results:
     7510eef748: 1929907.249
     711c40ebdc: 1946293.882
     ea921abdec: 1964805.923
+    00bbdf4451: 1898368.781
+    0fd53f519f: 1416133.201
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -19281,3 +19295,5 @@ results:
     7510eef748: 2920382.196
     711c40ebdc: 3084169.461
     ea921abdec: 2981470.86
+    00bbdf4451: 3132182.692
+    0fd53f519f: 2867974.607
