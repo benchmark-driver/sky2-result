@@ -2413,6 +2413,8 @@ results:
     ea921abdec: 3406282.654
     00bbdf4451: 3082109.425
     0fd53f519f: 3450224.07
+    c3641d5b24: 3444588.522
+    56557ec28a: 3349215.592
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4825,6 +4827,8 @@ results:
     ea921abdec: 3388668.884
     00bbdf4451: 2716437.337
     0fd53f519f: 3290710.062
+    c3641d5b24: 3409675.103
+    56557ec28a: 3317636.524
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -7237,6 +7241,8 @@ results:
     ea921abdec: 1841014.351
     00bbdf4451: 1643952.816
     0fd53f519f: 1903258.836
+    c3641d5b24: 1909493.56
+    56557ec28a: 1862195.959
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -9649,6 +9655,8 @@ results:
     ea921abdec: 2793329.453
     00bbdf4451: 2872477.798
     0fd53f519f: 2791333.844
+    c3641d5b24: 2779843.566
+    56557ec28a: 2742926.707
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -12061,6 +12069,8 @@ results:
     ea921abdec: 3708334.508
     00bbdf4451: 3406574.068
     0fd53f519f: 3730779.774
+    c3641d5b24: 3727510.649
+    56557ec28a: 3641295.235
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -14473,6 +14483,8 @@ results:
     ea921abdec: 3646878.507
     00bbdf4451: 3263213.78
     0fd53f519f: 3509671.684
+    c3641d5b24: 3667765.837
+    56557ec28a: 3608313.274
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -16885,6 +16897,8 @@ results:
     ea921abdec: 1964805.923
     00bbdf4451: 1898368.781
     0fd53f519f: 1416133.201
+    c3641d5b24: 1959682.73
+    56557ec28a: 1975267.541
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -19297,3 +19311,5 @@ results:
     ea921abdec: 2981470.86
     00bbdf4451: 3132182.692
     0fd53f519f: 2867974.607
+    c3641d5b24: 2960749.815
+    56557ec28a: 2923916.442
