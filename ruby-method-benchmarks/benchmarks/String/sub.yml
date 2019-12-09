@@ -2433,6 +2433,8 @@ results:
     a96a594f99: 3397826.019
     adbdbff2df: 3386996.362
     20031f8b74: 3067558.672
+    010a742cb6: 3408544.172
+    b6468b01f7: 3363058.199
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -4865,6 +4867,8 @@ results:
     a96a594f99: 3167289.338
     adbdbff2df: 3394173.608
     20031f8b74: 2953771.841
+    010a742cb6: 3387126.832
+    b6468b01f7: 3350203.716
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -7297,6 +7301,8 @@ results:
     a96a594f99: 1833334.39
     adbdbff2df: 1827317.013
     20031f8b74: 1805068.904
+    010a742cb6: 1771851.288
+    b6468b01f7: 1806879.426
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -9729,6 +9735,8 @@ results:
     a96a594f99: 2640516.921
     adbdbff2df: 2550550.5
     20031f8b74: 2918012.059
+    010a742cb6: 2709261.005
+    b6468b01f7: 2481157.108
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -12161,6 +12169,8 @@ results:
     a96a594f99: 3440807.614
     adbdbff2df: 3644491.1
     20031f8b74: 3207791.859
+    010a742cb6: 3668726.96
+    b6468b01f7: 3447393.202
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -14593,6 +14603,8 @@ results:
     a96a594f99: 3431441.618
     adbdbff2df: 3618681.197
     20031f8b74: 3061629.173
+    010a742cb6: 3660831.877
+    b6468b01f7: 3623794.168
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -17025,6 +17037,8 @@ results:
     a96a594f99: 1870869.305
     adbdbff2df: 1932209.064
     20031f8b74: 1902379.865
+    010a742cb6: 1902572.439
+    b6468b01f7: 1906216.9
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -19457,3 +19471,5 @@ results:
     a96a594f99: 2937683.106
     adbdbff2df: 2943251.879
     20031f8b74: 3211262.746
+    010a742cb6: 2889465.948
+    b6468b01f7: 2908401.692
