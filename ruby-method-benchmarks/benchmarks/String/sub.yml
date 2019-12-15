@@ -2513,6 +2513,8 @@ results:
     6b136a0442: 3391284.729
     ff074304f4: 3431977.443
     c71c59feeb: 3336811.455
+    7bef465e9b: 3433920.791
+    e030e9f0b8: 3412756.151
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -5025,6 +5027,8 @@ results:
     6b136a0442: 3386373.302
     ff074304f4: 3369551.618
     c71c59feeb: 3341531.933
+    7bef465e9b: 3165354.446
+    e030e9f0b8: 3304343.101
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -7537,6 +7541,8 @@ results:
     6b136a0442: 1770722.389
     ff074304f4: 1890610.013
     c71c59feeb: 1867242.1
+    7bef465e9b: 1507188.076
+    e030e9f0b8: 1885546.834
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -10049,6 +10055,8 @@ results:
     6b136a0442: 2746029.153
     ff074304f4: 2744757.501
     c71c59feeb: 2740240.431
+    7bef465e9b: 2663881.679
+    e030e9f0b8: 2771442.799
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -12561,6 +12569,8 @@ results:
     6b136a0442: 3682129.513
     ff074304f4: 3707830.95
     c71c59feeb: 3619599.68
+    7bef465e9b: 3336951.439
+    e030e9f0b8: 3679844.736
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -15073,6 +15083,8 @@ results:
     6b136a0442: 3692422.347
     ff074304f4: 3651597.35
     c71c59feeb: 3608561.792
+    7bef465e9b: 3681376.245
+    e030e9f0b8: 3664377.486
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -17585,6 +17597,8 @@ results:
     6b136a0442: 1897948.207
     ff074304f4: 1898770.787
     c71c59feeb: 1931060.892
+    7bef465e9b: 1527185.724
+    e030e9f0b8: 1898740.287
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -20097,3 +20111,5 @@ results:
     6b136a0442: 2927080.479
     ff074304f4: 2922651.365
     c71c59feeb: 2902526.385
+    7bef465e9b: 2470711.426
+    e030e9f0b8: 2947397.853
