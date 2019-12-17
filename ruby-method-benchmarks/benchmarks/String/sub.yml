@@ -2538,6 +2538,8 @@ results:
     18d3b5a93a: 3096635.348
     818708edab: 3434239.248
     cc1dbb61e0: 3063725.797
+    a2e8712349: 3385175.151
+    9fa6af24f4: 3447804.949
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -5075,6 +5077,8 @@ results:
     18d3b5a93a: 2947714.636
     818708edab: 3426598.812
     cc1dbb61e0: 3393036.521
+    a2e8712349: 3347589.829
+    9fa6af24f4: 3045394.415
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -7612,6 +7616,8 @@ results:
     18d3b5a93a: 1770124.656
     818708edab: 1964271.456
     cc1dbb61e0: 1882790.98
+    a2e8712349: 1839782.33
+    9fa6af24f4: 1863196.257
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -10149,6 +10155,8 @@ results:
     18d3b5a93a: 2860526.713
     818708edab: 2896126.138
     cc1dbb61e0: 2768880.882
+    a2e8712349: 3188478.517
+    9fa6af24f4: 2779319.868
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -12686,6 +12694,8 @@ results:
     18d3b5a93a: 3404761.2
     818708edab: 3744970.424
     cc1dbb61e0: 3367712.809
+    a2e8712349: 3695127.907
+    9fa6af24f4: 3738548.289
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -15223,6 +15233,8 @@ results:
     18d3b5a93a: 3254965.198
     818708edab: 3709730.331
     cc1dbb61e0: 3553793.965
+    a2e8712349: 3571963.445
+    9fa6af24f4: 3614649.181
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -17760,6 +17772,8 @@ results:
     18d3b5a93a: 1881669.339
     818708edab: 2071838.319
     cc1dbb61e0: 1660350.781
+    a2e8712349: 2064729.543
+    9fa6af24f4: 1964794.328
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -20297,3 +20311,5 @@ results:
     18d3b5a93a: 3081788.12
     818708edab: 3544697.308
     cc1dbb61e0: 2717077.734
+    a2e8712349: 3450059.359
+    9fa6af24f4: 2966998.255
