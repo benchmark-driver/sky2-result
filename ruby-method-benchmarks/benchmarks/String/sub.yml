@@ -2577,6 +2577,8 @@ results:
     d16509f1f0: 3047144.316
     dd4fdb32bd: 3006129.639
     6c1ed519ef: 3323406.112
+    e8f8cf111f: 3361868.237
+    958798851d: 3405898.7
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -5153,6 +5155,8 @@ results:
     d16509f1f0: 3293176.736
     dd4fdb32bd: 3295500.71
     6c1ed519ef: 3309337.212
+    e8f8cf111f: 3347065.561
+    958798851d: 3349879.182
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -7729,6 +7733,8 @@ results:
     d16509f1f0: 1826786.94
     dd4fdb32bd: 1868938.407
     6c1ed519ef: 1587787.085
+    e8f8cf111f: 1874159.46
+    958798851d: 1889387.26
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -10305,6 +10311,8 @@ results:
     d16509f1f0: 2766606.318
     dd4fdb32bd: 2710040.343
     6c1ed519ef: 2712129.151
+    e8f8cf111f: 2735629.027
+    958798851d: 2742818.616
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -12881,6 +12889,8 @@ results:
     d16509f1f0: 3664292.489
     dd4fdb32bd: 3530784.108
     6c1ed519ef: 3572888.094
+    e8f8cf111f: 3613147.467
+    958798851d: 3665522.926
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -15457,6 +15467,8 @@ results:
     d16509f1f0: 3190843.472
     dd4fdb32bd: 3568956.525
     6c1ed519ef: 3543964.902
+    e8f8cf111f: 3572309.168
+    958798851d: 3650440.784
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -18033,6 +18045,8 @@ results:
     d16509f1f0: 1959317.579
     dd4fdb32bd: 1876264.073
     6c1ed519ef: 1911314.856
+    e8f8cf111f: 1951647.222
+    958798851d: 1963099.6
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -20609,3 +20623,5 @@ results:
     d16509f1f0: 2932404.305
     dd4fdb32bd: 2877885.373
     6c1ed519ef: 2818614.613
+    e8f8cf111f: 2906336.743
+    958798851d: 2904719.88
