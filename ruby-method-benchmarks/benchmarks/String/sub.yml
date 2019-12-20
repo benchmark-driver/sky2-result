@@ -2581,6 +2581,8 @@ results:
     958798851d: 3405898.7
     ddb0267e76: 3254161.012
     2c55ba7191: 3238505.268
+    fe8caf0ab9: 2961286.404
+    006afb858d: 3397022.544
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -5161,6 +5163,8 @@ results:
     958798851d: 3349879.182
     ddb0267e76: 3203945.247
     2c55ba7191: 2959121.456
+    fe8caf0ab9: 2884017.422
+    006afb858d: 3386051.841
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -7741,6 +7745,8 @@ results:
     958798851d: 1889387.26
     ddb0267e76: 1843677.476
     2c55ba7191: 1881802.262
+    fe8caf0ab9: 1736830.948
+    006afb858d: 1892355.679
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -10321,6 +10327,8 @@ results:
     958798851d: 2742818.616
     ddb0267e76: 2957285.982
     2c55ba7191: 3041310.133
+    fe8caf0ab9: 2914259.898
+    006afb858d: 2777557.754
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -12901,6 +12909,8 @@ results:
     958798851d: 3665522.926
     ddb0267e76: 3548610.314
     2c55ba7191: 3507117.553
+    fe8caf0ab9: 3384260.514
+    006afb858d: 3665866.111
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -15481,6 +15491,8 @@ results:
     958798851d: 3650440.784
     ddb0267e76: 3461391.615
     2c55ba7191: 3460469.29
+    fe8caf0ab9: 3102958.294
+    006afb858d: 3654304.405
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -18061,6 +18073,8 @@ results:
     958798851d: 1963099.6
     ddb0267e76: 1704984.878
     2c55ba7191: 1998169.32
+    fe8caf0ab9: 1899197.085
+    006afb858d: 1975425.693
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -20641,3 +20655,5 @@ results:
     958798851d: 2904719.88
     ddb0267e76: 3256148.566
     2c55ba7191: 3275072.992
+    fe8caf0ab9: 3221770.238
+    006afb858d: 2926360.863
