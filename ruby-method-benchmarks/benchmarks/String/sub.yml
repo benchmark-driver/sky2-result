@@ -2594,6 +2594,8 @@ results:
     7a859b6ae3: 3365513.223
     a7e3516ff1: 3307142.536
     0131fab749: 3260325.239
+    bd670062c4: 3392599.853
+    dfec1eb3ce: 3408304.547
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -5187,6 +5189,8 @@ results:
     7a859b6ae3: 3354770.758
     a7e3516ff1: 3361385.95
     0131fab749: 3199393.111
+    bd670062c4: 3329575.675
+    dfec1eb3ce: 3369475.296
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -7780,6 +7784,8 @@ results:
     7a859b6ae3: 1887297.875
     a7e3516ff1: 1865596.196
     0131fab749: 1764203.514
+    bd670062c4: 1872500.243
+    dfec1eb3ce: 1881039.549
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -10373,6 +10379,8 @@ results:
     7a859b6ae3: 2735287.59
     a7e3516ff1: 2744205.244
     0131fab749: 2770242.794
+    bd670062c4: 2734803.014
+    dfec1eb3ce: 2743590.823
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -12966,6 +12974,8 @@ results:
     7a859b6ae3: 3633203.678
     a7e3516ff1: 3150138.74
     0131fab749: 3545523.749
+    bd670062c4: 3666711.47
+    dfec1eb3ce: 3677981.466
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -15559,6 +15569,8 @@ results:
     7a859b6ae3: 3458910.514
     a7e3516ff1: 3453839.035
     0131fab749: 3361036.629
+    bd670062c4: 3586442.776
+    dfec1eb3ce: 3567320.252
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -18152,6 +18164,8 @@ results:
     7a859b6ae3: 1977288.476
     a7e3516ff1: 1756743.801
     0131fab749: 1718036.406
+    bd670062c4: 1967330.171
+    dfec1eb3ce: 1982344.586
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -20745,3 +20759,5 @@ results:
     7a859b6ae3: 2910103.92
     a7e3516ff1: 2934847.78
     0131fab749: 3024089.969
+    bd670062c4: 2913199.579
+    dfec1eb3ce: 2909911.586
