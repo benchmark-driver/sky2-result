@@ -2609,6 +2609,8 @@ results:
     ec1de789a9: 3343030.271
     69aa927a40: 3121250.631
     15606963de: 2867225.11
+    0fb782ea28: 3373190.793
+    f9d20a1bf1: 3369489.694
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -5217,6 +5219,8 @@ results:
     ec1de789a9: 3171119.341
     69aa927a40: 2932122.777
     15606963de: 3084621.907
+    0fb782ea28: 3336152.116
+    f9d20a1bf1: 3483214.36
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -7825,6 +7829,8 @@ results:
     ec1de789a9: 1634657.159
     69aa927a40: 1828318.07
     15606963de: 1814569.393
+    0fb782ea28: 1876943.103
+    f9d20a1bf1: 1872907.846
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -10433,6 +10439,8 @@ results:
     ec1de789a9: 3150602.853
     69aa927a40: 2962922.593
     15606963de: 3009753.347
+    0fb782ea28: 2694584.749
+    f9d20a1bf1: 3297903.488
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -13041,6 +13049,8 @@ results:
     ec1de789a9: 3629608.3
     69aa927a40: 3456880.398
     15606963de: 3529298.455
+    0fb782ea28: 3654433.97
+    f9d20a1bf1: 3824954.193
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -15649,6 +15659,8 @@ results:
     ec1de789a9: 3584686.91
     69aa927a40: 3280072.456
     15606963de: 3467145.201
+    0fb782ea28: 3579427.128
+    f9d20a1bf1: 3521940.476
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -18257,6 +18269,8 @@ results:
     ec1de789a9: 1989448.042
     69aa927a40: 1924092.903
     15606963de: 1640459.805
+    0fb782ea28: 1945611.892
+    f9d20a1bf1: 2107902.125
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -20865,3 +20879,5 @@ results:
     ec1de789a9: 3429767.13
     69aa927a40: 3265046.446
     15606963de: 3259824.748
+    0fb782ea28: 2805344.5
+    f9d20a1bf1: 3181901.868
