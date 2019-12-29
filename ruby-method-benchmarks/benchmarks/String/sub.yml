@@ -2685,6 +2685,8 @@ results:
     9cbb4dde74: 3241624.945
     '09723b98f7': 3025556.324
     c6a52cffd1: 3286130.048
+    c0d118f41a: 3041462.282
+    999a2819a7: 3084070.838
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -5369,6 +5371,8 @@ results:
     9cbb4dde74: 3006721.703
     '09723b98f7': 2984449.897
     c6a52cffd1: 3239701.271
+    c0d118f41a: 2770811.907
+    999a2819a7: 3390043.282
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -8053,6 +8057,8 @@ results:
     9cbb4dde74: 1437405.836
     '09723b98f7': 1712028.95
     c6a52cffd1: 1894364.165
+    c0d118f41a: 1800683.628
+    999a2819a7: 1837497.408
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -10737,6 +10743,8 @@ results:
     9cbb4dde74: 2696527.699
     '09723b98f7': 2955158.479
     c6a52cffd1: 3026008.132
+    c0d118f41a: 2916629.168
+    999a2819a7: 3002756.958
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -13421,6 +13429,8 @@ results:
     9cbb4dde74: 3564161.844
     '09723b98f7': 3445977.078
     c6a52cffd1: 3583969.31
+    c0d118f41a: 3395541.046
+    999a2819a7: 3260411.115
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -16105,6 +16115,8 @@ results:
     9cbb4dde74: 3480796.743
     '09723b98f7': 3063350.655
     c6a52cffd1: 3532320.151
+    c0d118f41a: 3223508.871
+    999a2819a7: 3642086.761
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -18789,6 +18801,8 @@ results:
     9cbb4dde74: 1922754.005
     '09723b98f7': 1931096.065
     c6a52cffd1: 2021318.674
+    c0d118f41a: 1907287.264
+    999a2819a7: 1935863.612
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -21473,3 +21487,5 @@ results:
     9cbb4dde74: 2858865.244
     '09723b98f7': 3250739.688
     c6a52cffd1: 3284320.337
+    c0d118f41a: 3208491.205
+    999a2819a7: 3447927.956
