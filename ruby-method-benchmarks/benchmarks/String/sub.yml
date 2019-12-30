@@ -2702,6 +2702,8 @@ results:
     c114e275c9: 3398136.781
     179062dd80: 3312203.953
     '08f8cfe14e': 3401552.596
+    b5fbefbf2c: 2823192.253
+    943f3e5fd4: 2735372.924
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -5403,6 +5405,8 @@ results:
     c114e275c9: 3378243.022
     179062dd80: 3303706.15
     '08f8cfe14e': 3347809.84
+    b5fbefbf2c: 3349947.738
+    943f3e5fd4: 3026907.001
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -8104,6 +8108,8 @@ results:
     c114e275c9: 1886056.85
     179062dd80: 1929919.577
     '08f8cfe14e': 1868769.507
+    b5fbefbf2c: 1866504.059
+    943f3e5fd4: 1803716.135
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -10805,6 +10811,8 @@ results:
     c114e275c9: 2807783.3
     179062dd80: 3090871.871
     '08f8cfe14e': 2737485.494
+    b5fbefbf2c: 3196262.291
+    943f3e5fd4: 2961177.843
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -13506,6 +13514,8 @@ results:
     c114e275c9: 3704678.331
     179062dd80: 3587338.485
     '08f8cfe14e': 3675407.318
+    b5fbefbf2c: 3689798.732
+    943f3e5fd4: 3231669.981
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -16207,6 +16217,8 @@ results:
     c114e275c9: 3652153.952
     179062dd80: 3545092.026
     '08f8cfe14e': 3633194.459
+    b5fbefbf2c: 3624309.921
+    943f3e5fd4: 3082655.361
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -18908,6 +18920,8 @@ results:
     c114e275c9: 1983953.899
     179062dd80: 2064076.23
     '08f8cfe14e': 1940192.041
+    b5fbefbf2c: 2060111.492
+    943f3e5fd4: 1932396.965
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -21609,3 +21623,5 @@ results:
     c114e275c9: 2995330.94
     179062dd80: 3260513.016
     '08f8cfe14e': 2750818.799
+    b5fbefbf2c: 2971329.764
+    943f3e5fd4: 3257236.305
