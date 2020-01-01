@@ -2725,6 +2725,8 @@ results:
     f3067deb88: 3041165.112
     14b5c4cb66: 3236036.225
     455dcfa963: 3421892.178
+    75acbd5f00: 3371662.891
+    5c7c6763f6: 3414794.502
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -5449,6 +5451,8 @@ results:
     f3067deb88: 3270520.206
     14b5c4cb66: 3191721.542
     455dcfa963: 3375386.502
+    75acbd5f00: 3013787.042
+    5c7c6763f6: 3383626.624
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -8173,6 +8177,8 @@ results:
     f3067deb88: 1823083.419
     14b5c4cb66: 1920358.292
     455dcfa963: 1707263.727
+    75acbd5f00: 1874997.5
+    5c7c6763f6: 1797172.975
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -10897,6 +10903,8 @@ results:
     f3067deb88: 3183061.681
     14b5c4cb66: 3066151.582
     455dcfa963: 2791697.731
+    75acbd5f00: 3107994.447
+    5c7c6763f6: 2765025.097
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -13621,6 +13629,8 @@ results:
     f3067deb88: 3284608.342
     14b5c4cb66: 3518286.962
     455dcfa963: 3698099.203
+    75acbd5f00: 3281295.213
+    5c7c6763f6: 3689697.842
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -16345,6 +16355,8 @@ results:
     f3067deb88: 3682071.498
     14b5c4cb66: 3432339.142
     455dcfa963: 3643152.749
+    75acbd5f00: 3243144.674
+    5c7c6763f6: 3665652.037
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -19069,6 +19081,8 @@ results:
     f3067deb88: 1895091.425
     14b5c4cb66: 1549004.688
     455dcfa963: 1799904.961
+    75acbd5f00: 1927302.517
+    5c7c6763f6: 1974762.905
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -21793,3 +21807,5 @@ results:
     f3067deb88: 3087620.144
     14b5c4cb66: 3318648.848
     455dcfa963: 2661198.27
+    75acbd5f00: 3427394.539
+    5c7c6763f6: 2941553.067
