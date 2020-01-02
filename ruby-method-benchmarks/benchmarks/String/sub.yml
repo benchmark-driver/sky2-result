@@ -2742,6 +2742,8 @@ results:
     337cabf7df: 3400396.38
     12de92a368: 3063387.71
     3b9e1c0b2e: 3092781.911
+    9087252067: 3164043.048
+    bb9ecd026a: 3338679.458
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -5483,6 +5485,8 @@ results:
     337cabf7df: 3396404.398
     12de92a368: 2757121.011
     3b9e1c0b2e: 3005904.73
+    9087252067: 3424010.573
+    bb9ecd026a: 3305757.0
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -8224,6 +8228,8 @@ results:
     337cabf7df: 1888128.849
     12de92a368: 1799085.617
     3b9e1c0b2e: 1815189.536
+    9087252067: 1737122.728
+    bb9ecd026a: 1967212.913
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -10965,6 +10971,8 @@ results:
     337cabf7df: 2783387.953
     12de92a368: 2926497.551
     3b9e1c0b2e: 2937358.567
+    9087252067: 3267867.76
+    bb9ecd026a: 3094112.743
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -13706,6 +13714,8 @@ results:
     337cabf7df: 3394372.831
     12de92a368: 3133938.392
     3b9e1c0b2e: 3415917.781
+    9087252067: 3751021.139
+    bb9ecd026a: 3100172.886
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -16447,6 +16457,8 @@ results:
     337cabf7df: 3654630.896
     12de92a368: 3212917.253
     3b9e1c0b2e: 3303849.706
+    9087252067: 3345320.845
+    bb9ecd026a: 3601011.727
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -19188,6 +19200,8 @@ results:
     337cabf7df: 1922239.734
     12de92a368: 1886034.322
     3b9e1c0b2e: 1882196.653
+    9087252067: 2073312.013
+    bb9ecd026a: 2073018.93
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -21929,3 +21943,5 @@ results:
     337cabf7df: 2960301.87
     12de92a368: 3226262.313
     3b9e1c0b2e: 3103067.043
+    9087252067: 2987407.42
+    bb9ecd026a: 3340824.742
