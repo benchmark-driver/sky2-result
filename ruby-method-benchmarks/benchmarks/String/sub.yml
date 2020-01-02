@@ -2744,6 +2744,8 @@ results:
     3b9e1c0b2e: 3092781.911
     9087252067: 3164043.048
     bb9ecd026a: 3338679.458
+    1eba8ecb66: 3329106.878
+    6158e28f8d: 3129692.995
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -5487,6 +5489,8 @@ results:
     3b9e1c0b2e: 3005904.73
     9087252067: 3424010.573
     bb9ecd026a: 3305757.0
+    1eba8ecb66: 3348672.956
+    6158e28f8d: 2960499.923
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -8230,6 +8234,8 @@ results:
     3b9e1c0b2e: 1815189.536
     9087252067: 1737122.728
     bb9ecd026a: 1967212.913
+    1eba8ecb66: 1886948.166
+    6158e28f8d: 1729719.252
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -10973,6 +10979,8 @@ results:
     3b9e1c0b2e: 2937358.567
     9087252067: 3267867.76
     bb9ecd026a: 3094112.743
+    1eba8ecb66: 2774039.073
+    6158e28f8d: 2962589.587
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -13716,6 +13724,8 @@ results:
     3b9e1c0b2e: 3415917.781
     9087252067: 3751021.139
     bb9ecd026a: 3100172.886
+    1eba8ecb66: 3437994.928
+    6158e28f8d: 3459347.292
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -16459,6 +16469,8 @@ results:
     3b9e1c0b2e: 3303849.706
     9087252067: 3345320.845
     bb9ecd026a: 3601011.727
+    1eba8ecb66: 3307336.944
+    6158e28f8d: 3314805.231
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -19202,6 +19214,8 @@ results:
     3b9e1c0b2e: 1882196.653
     9087252067: 2073312.013
     bb9ecd026a: 2073018.93
+    1eba8ecb66: 1933323.746
+    6158e28f8d: 1765476.403
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -21945,3 +21959,5 @@ results:
     3b9e1c0b2e: 3103067.043
     9087252067: 2987407.42
     bb9ecd026a: 3340824.742
+    1eba8ecb66: 2758219.404
+    6158e28f8d: 3209099.367
