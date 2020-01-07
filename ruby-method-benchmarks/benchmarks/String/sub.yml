@@ -2815,6 +2815,8 @@ results:
     562fd754b5: 2787736.018
     ce9e0ffd71: 3340366.644
     0afee4d803: 3057829.777
+    e8d3fb6cda: 3385062.716
+    9d74d402e1: 3372609.112
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -5629,6 +5631,8 @@ results:
     562fd754b5: 2864737.733
     ce9e0ffd71: 3333223.719
     0afee4d803: 2943945.96
+    e8d3fb6cda: 3169750.05
+    9d74d402e1: 3075578.656
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -8443,6 +8447,8 @@ results:
     562fd754b5: 1817364.176
     ce9e0ffd71: 1807721.201
     0afee4d803: 1683148.821
+    e8d3fb6cda: 1901624.567
+    9d74d402e1: 1840174.932
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -11257,6 +11263,8 @@ results:
     562fd754b5: 2973727.607
     ce9e0ffd71: 2744409.912
     0afee4d803: 2922012.93
+    e8d3fb6cda: 2706235.515
+    9d74d402e1: 2749349.527
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -14071,6 +14079,8 @@ results:
     562fd754b5: 3420511.628
     ce9e0ffd71: 3455074.006
     0afee4d803: 3380300.571
+    e8d3fb6cda: 3653425.31
+    9d74d402e1: 3645932.866
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -16885,6 +16895,8 @@ results:
     562fd754b5: 3031276.427
     ce9e0ffd71: 3453750.8
     0afee4d803: 2934736.767
+    e8d3fb6cda: 3194675.297
+    9d74d402e1: 3614019.632
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -19699,6 +19711,8 @@ results:
     562fd754b5: 1884246.438
     ce9e0ffd71: 1905291.637
     0afee4d803: 1772421.235
+    e8d3fb6cda: 1988649.828
+    9d74d402e1: 1933810.4
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -22513,3 +22527,5 @@ results:
     562fd754b5: 3261801.186
     ce9e0ffd71: 2914448.804
     0afee4d803: 2794601.98
+    e8d3fb6cda: 2905111.419
+    9d74d402e1: 2932110.214
