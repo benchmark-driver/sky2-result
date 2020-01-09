@@ -2840,6 +2840,8 @@ results:
     7c2bbd1c7d: 3338931.996
     6067c0a220: 3295084.297
     216b62aa87: 3030165.149
+    d154bec0d5: 3350209.409
+    1a80ee4573: 2860914.686
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -5679,6 +5681,8 @@ results:
     7c2bbd1c7d: 3369250.293
     6067c0a220: 3137325.51
     216b62aa87: 3292903.653
+    d154bec0d5: 3344473.971
+    1a80ee4573: 3010517.238
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -8518,6 +8522,8 @@ results:
     7c2bbd1c7d: 1768396.467
     6067c0a220: 1926273.821
     216b62aa87: 1687976.521
+    d154bec0d5: 1857178.457
+    1a80ee4573: 1756254.064
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -11357,6 +11363,8 @@ results:
     7c2bbd1c7d: 2685771.893
     6067c0a220: 3080634.106
     216b62aa87: 2917716.819
+    d154bec0d5: 2730242.365
+    1a80ee4573: 3052189.817
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -14196,6 +14204,8 @@ results:
     7c2bbd1c7d: 3626718.354
     6067c0a220: 3575163.455
     216b62aa87: 3330341.907
+    d154bec0d5: 3260845.385
+    1a80ee4573: 3555205.911
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -17035,6 +17045,8 @@ results:
     7c2bbd1c7d: 3577861.431
     6067c0a220: 3505056.367
     216b62aa87: 3176429.675
+    d154bec0d5: 3610310.695
+    1a80ee4573: 3410555.715
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -19874,6 +19886,8 @@ results:
     7c2bbd1c7d: 1918089.186
     6067c0a220: 2033669.201
     216b62aa87: 1613966.487
+    d154bec0d5: 1940297.797
+    1a80ee4573: 2014387.62
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -22713,3 +22727,5 @@ results:
     7c2bbd1c7d: 2810937.286
     6067c0a220: 3316050.482
     216b62aa87: 3367221.519
+    d154bec0d5: 2906903.391
+    1a80ee4573: 3267974.427
