@@ -2842,6 +2842,8 @@ results:
     4bcfccddca: 17466105.892
     f10c9cb1f2: 14887603.147
     39e8d5e1cd: 16495593.664
+    79eb5e1aca: 13048763.127
+    cc7dedfb4d: 15845885.147
   Array#fill(val, start):
     022cbb278f: 9391191.267
     052dbbe74f: 9699621.607
@@ -5683,6 +5685,8 @@ results:
     4bcfccddca: 8863948.699
     f10c9cb1f2: 8376200.121
     39e8d5e1cd: 8717975.703
+    79eb5e1aca: 7935181.073
+    cc7dedfb4d: 9328043.223
   Array#fill(val, start, length):
     022cbb278f: 17039735.427
     052dbbe74f: 18092212.887
@@ -8524,6 +8528,8 @@ results:
     4bcfccddca: 16743677.544
     f10c9cb1f2: 15586860.637
     39e8d5e1cd: 12532547.654
+    79eb5e1aca: 13656045.865
+    cc7dedfb4d: 17515593.805
   Array#fill(val, range):
     022cbb278f: 16510623.102
     052dbbe74f: 16871115.355
@@ -11365,6 +11371,8 @@ results:
     4bcfccddca: 14852734.501
     f10c9cb1f2: 14266055.514
     39e8d5e1cd: 14157259.084
+    79eb5e1aca: 12011227.696
+    cc7dedfb4d: 16089620.984
   Array#fill { |index| ...}:
     022cbb278f: 5045134.429
     052dbbe74f: 4816413.983
@@ -14206,6 +14214,8 @@ results:
     4bcfccddca: 5141992.775
     f10c9cb1f2: 4122769.253
     39e8d5e1cd: 4241802.156
+    79eb5e1aca: 4661142.027
+    cc7dedfb4d: 5128811.036
   Array#fill(start) { |index| ...}:
     022cbb278f: 4942377.051
     052dbbe74f: 5264290.63
@@ -17047,6 +17057,8 @@ results:
     4bcfccddca: 5114585.35
     f10c9cb1f2: 4515190.25
     39e8d5e1cd: 3959394.954
+    79eb5e1aca: 4708187.326
+    cc7dedfb4d: 5263892.185
   Array#fill(start, length) { |index| ...}:
     022cbb278f: 7263464.858
     052dbbe74f: 6837391.544
@@ -19888,6 +19900,8 @@ results:
     4bcfccddca: 6882882.334
     f10c9cb1f2: 6589808.878
     39e8d5e1cd: 6621285.576
+    79eb5e1aca: 6448070.933
+    cc7dedfb4d: 7387352.012
   Array#fill(range) { |index| ...}:
     022cbb278f: 7984740.537
     052dbbe74f: 8797946.288
@@ -22729,3 +22743,5 @@ results:
     4bcfccddca: 8211604.069
     f10c9cb1f2: 7149194.824
     39e8d5e1cd: 7642768.605
+    79eb5e1aca: 7312784.906
+    cc7dedfb4d: 8568847.209
