@@ -2901,6 +2901,8 @@ results:
     3a5cc345f8: 3398984.058
     ebc884461b: 3245187.89
     695cc19be9: 3086503.043
+    ba78bf9778: 3193355.73
+    def040f6c3: 3162846.476
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -5801,6 +5803,8 @@ results:
     3a5cc345f8: 3128055.162
     ebc884461b: 2861217.071
     695cc19be9: 3358171.291
+    ba78bf9778: 3385390.719
+    def040f6c3: 3399024.188
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -8701,6 +8705,8 @@ results:
     3a5cc345f8: 1900624.725
     ebc884461b: 1915762.898
     695cc19be9: 1374980.509
+    ba78bf9778: 1953557.58
+    def040f6c3: 1896011.803
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -11601,6 +11607,8 @@ results:
     3a5cc345f8: 2799565.066
     ebc884461b: 3003959.725
     695cc19be9: 2561546.567
+    ba78bf9778: 3028879.171
+    def040f6c3: 2731098.731
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -14501,6 +14509,8 @@ results:
     3a5cc345f8: 3699477.291
     ebc884461b: 3541781.466
     695cc19be9: 3652022.283
+    ba78bf9778: 3664852.37
+    def040f6c3: 3706002.264
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -17401,6 +17411,8 @@ results:
     3a5cc345f8: 3442584.851
     ebc884461b: 3483423.479
     695cc19be9: 3533852.63
+    ba78bf9778: 3624254.759
+    def040f6c3: 3653586.932
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -20301,6 +20313,8 @@ results:
     3a5cc345f8: 2001907.325
     ebc884461b: 1944900.134
     695cc19be9: 1962079.039
+    ba78bf9778: 2063711.054
+    def040f6c3: 1903904.377
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -23201,3 +23215,5 @@ results:
     3a5cc345f8: 2973046.116
     ebc884461b: 3275959.056
     695cc19be9: 2893718.366
+    ba78bf9778: 3452649.716
+    def040f6c3: 2935174.221
