@@ -2917,6 +2917,8 @@ results:
     4bcdeeb65e: 3393834.163
     2409667aa2: 2885713.842
     2301054a99: 3425121.042
+    b56e266d64: 3427223.651
+    9cb809cfef: 3295243.354
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -5833,6 +5835,8 @@ results:
     4bcdeeb65e: 3367077.479
     2409667aa2: 3248313.931
     2301054a99: 3386256.69
+    b56e266d64: 3395607.617
+    9cb809cfef: 3262880.981
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -8749,6 +8753,8 @@ results:
     4bcdeeb65e: 1844205.678
     2409667aa2: 1771860.93
     2301054a99: 1825039.585
+    b56e266d64: 1869134.895
+    9cb809cfef: 1926828.808
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -11665,6 +11671,8 @@ results:
     4bcdeeb65e: 2750336.374
     2409667aa2: 3047938.474
     2301054a99: 2788673.68
+    b56e266d64: 2805161.82
+    9cb809cfef: 3011511.821
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -14581,6 +14589,8 @@ results:
     4bcdeeb65e: 3671081.275
     2409667aa2: 3251057.812
     2301054a99: 3690100.209
+    b56e266d64: 3707135.332
+    9cb809cfef: 3597187.158
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -17497,6 +17507,8 @@ results:
     4bcdeeb65e: 3577092.533
     2409667aa2: 3500541.612
     2301054a99: 3645498.772
+    b56e266d64: 3616455.009
+    9cb809cfef: 3546933.787
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -20413,6 +20425,8 @@ results:
     4bcdeeb65e: 1852540.282
     2409667aa2: 1906542.254
     2301054a99: 1968627.766
+    b56e266d64: 1972311.487
+    9cb809cfef: 2018772.113
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -23329,3 +23343,5 @@ results:
     4bcdeeb65e: 2935205.734
     2409667aa2: 2954110.608
     2301054a99: 2640555.986
+    b56e266d64: 2979119.015
+    9cb809cfef: 3307710.899
