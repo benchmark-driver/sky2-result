@@ -2910,6 +2910,8 @@ results:
     a1018b2c5f: 2991506.098
     ec336fb40e: 3343312.43
     5072f03741: 3431502.494
+    eaa011ffdb: 3313776.674
+    1fa7087f10: 3376540.424
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -5819,6 +5821,8 @@ results:
     a1018b2c5f: 3284261.085
     ec336fb40e: 3322970.827
     5072f03741: 3394096.072
+    eaa011ffdb: 3327483.761
+    1fa7087f10: 3347492.654
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -8728,6 +8732,8 @@ results:
     a1018b2c5f: 1742491.792
     ec336fb40e: 1869583.59
     5072f03741: 1881777.638
+    eaa011ffdb: 1882875.815
+    1fa7087f10: 1782469.93
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -11637,6 +11643,8 @@ results:
     a1018b2c5f: 3196640.632
     ec336fb40e: 2703267.879
     5072f03741: 2747100.391
+    eaa011ffdb: 3109161.775
+    1fa7087f10: 2744385.756
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -14546,6 +14554,8 @@ results:
     a1018b2c5f: 3238291.687
     ec336fb40e: 3617387.017
     5072f03741: 3084547.143
+    eaa011ffdb: 3577125.541
+    1fa7087f10: 3626285.356
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -17455,6 +17465,8 @@ results:
     a1018b2c5f: 3573357.371
     ec336fb40e: 3578248.097
     5072f03741: 3448650.439
+    eaa011ffdb: 3592824.327
+    1fa7087f10: 3623267.711
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -20364,6 +20376,8 @@ results:
     a1018b2c5f: 1880151.408
     ec336fb40e: 1938609.57
     5072f03741: 1954474.578
+    eaa011ffdb: 1693104.559
+    1fa7087f10: 1907372.029
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -23273,3 +23287,5 @@ results:
     a1018b2c5f: 3462120.438
     ec336fb40e: 2879848.208
     5072f03741: 2929670.651
+    eaa011ffdb: 3348871.393
+    1fa7087f10: 2917924.975
