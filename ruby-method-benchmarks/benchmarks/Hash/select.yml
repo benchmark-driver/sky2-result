@@ -3043,6 +3043,8 @@ results:
     fee5cde00b: 10350734.805
     ded072c2b7: 9602161.935
     dfec1eb3ce: 10680053.521
+    5e22f873ed: 9993780.9
+    c53aec73dd: 9888846.204
   Hash#select { |key, value| true}:
     017cb09eb6: 2010689.523
     01efa5d912: 1683659.723
@@ -6085,6 +6087,8 @@ results:
     fee5cde00b: 2264021.261
     ded072c2b7: 1966394.948
     dfec1eb3ce: 1958148.852
+    5e22f873ed: 2337636.351
+    c53aec73dd: 2346214.62
   Hash#select { |key, value| false}:
     017cb09eb6: 2514023.62
     01efa5d912: 2457947.38
@@ -9127,6 +9131,8 @@ results:
     fee5cde00b: 2971464.956
     ded072c2b7: 2937562.201
     dfec1eb3ce: 2449438.063
+    5e22f873ed: 3046728.83
+    c53aec73dd: 2385587.454
   Hash#select!:
     017cb09eb6: 11704307.484
     01efa5d912: 12052142.741
@@ -12169,6 +12175,8 @@ results:
     fee5cde00b: 10134313.558
     ded072c2b7: 10422074.0
     dfec1eb3ce: 11691037.706
+    5e22f873ed: 9990478.46
+    c53aec73dd: 9865141.497
   Hash#select! { |key, value| true}:
     017cb09eb6: 2384509.584
     01efa5d912: 2573143.53
@@ -15211,6 +15219,8 @@ results:
     fee5cde00b: 3117088.691
     ded072c2b7: 3062773.63
     dfec1eb3ce: 2483880.623
+    5e22f873ed: 3232395.82
+    c53aec73dd: 3255315.596
   Hash#select! { |key, value| false}:
     017cb09eb6: 2650501.249
     01efa5d912: 2611412.642
@@ -18253,3 +18263,5 @@ results:
     fee5cde00b: 3156628.382
     ded072c2b7: 3115085.334
     dfec1eb3ce: 2547984.947
+    5e22f873ed: 3227426.21
+    c53aec73dd: 2481531.134
