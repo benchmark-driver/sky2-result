@@ -3029,6 +3029,8 @@ results:
     79f0ed3529: 3087320.153
     aca607a08c: 3378199.204
     e003f29e21: 3298654.635
+    056c24d398: 3301864.466
+    1df9c2bc1c: 3396794.81
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -6057,6 +6059,8 @@ results:
     79f0ed3529: 3008815.032
     aca607a08c: 3371351.153
     e003f29e21: 3192159.356
+    056c24d398: 3242963.642
+    1df9c2bc1c: 3370184.682
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -9085,6 +9089,8 @@ results:
     79f0ed3529: 1813797.946
     aca607a08c: 1860273.679
     e003f29e21: 1923467.589
+    056c24d398: 1864532.808
+    1df9c2bc1c: 1491193.517
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -12113,6 +12119,8 @@ results:
     79f0ed3529: 2931567.55
     aca607a08c: 2751374.953
     e003f29e21: 2977452.139
+    056c24d398: 2691244.779
+    1df9c2bc1c: 2564738.561
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -15141,6 +15149,8 @@ results:
     79f0ed3529: 3423548.888
     aca607a08c: 3651284.981
     e003f29e21: 3615511.179
+    056c24d398: 3493172.636
+    1df9c2bc1c: 3700880.969
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -18169,6 +18179,8 @@ results:
     79f0ed3529: 3323351.674
     aca607a08c: 3654093.345
     e003f29e21: 3543866.598
+    056c24d398: 3555609.385
+    1df9c2bc1c: 3578988.538
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -21197,6 +21209,8 @@ results:
     79f0ed3529: 1905786.216
     aca607a08c: 1968742.051
     e003f29e21: 1652282.532
+    056c24d398: 1877723.908
+    1df9c2bc1c: 1977637.657
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -24225,3 +24239,5 @@ results:
     79f0ed3529: 3218069.193
     aca607a08c: 2882061.602
     e003f29e21: 3325649.231
+    056c24d398: 2856317.872
+    1df9c2bc1c: 2817659.704
