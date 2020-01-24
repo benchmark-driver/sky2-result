@@ -3054,6 +3054,8 @@ results:
     3eb0d50c0b: 3248637.945
     ceba5b7088: 3004729.387
     100fc2750b: 3436964.512
+    59a6215af6: 3387168.111
+    bcf85587b1: 3398588.905
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -6107,6 +6109,8 @@ results:
     3eb0d50c0b: 3206633.732
     ceba5b7088: 3397162.632
     100fc2750b: 3420766.847
+    59a6215af6: 3335923.371
+    bcf85587b1: 3330428.135
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -9160,6 +9164,8 @@ results:
     3eb0d50c0b: 1893110.613
     ceba5b7088: 1835471.898
     100fc2750b: 1964054.071
+    59a6215af6: 1865388.387
+    bcf85587b1: 1792983.388
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -12213,6 +12219,8 @@ results:
     3eb0d50c0b: 2937123.681
     ceba5b7088: 3177514.485
     100fc2750b: 3167920.117
+    59a6215af6: 2739732.513
+    bcf85587b1: 2740427.197
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -15266,6 +15274,8 @@ results:
     3eb0d50c0b: 3526525.866
     ceba5b7088: 3323901.519
     100fc2750b: 3682312.861
+    59a6215af6: 3662520.043
+    bcf85587b1: 3667146.104
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -18319,6 +18329,8 @@ results:
     3eb0d50c0b: 3483883.769
     ceba5b7088: 3699829.306
     100fc2750b: 3457598.197
+    59a6215af6: 3606690.599
+    bcf85587b1: 3608509.409
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -21372,6 +21384,8 @@ results:
     3eb0d50c0b: 2006385.818
     ceba5b7088: 1747513.897
     100fc2750b: 2081614.225
+    59a6215af6: 1964896.02
+    bcf85587b1: 1868622.53
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -24425,3 +24439,5 @@ results:
     3eb0d50c0b: 3244291.93
     ceba5b7088: 3058945.185
     100fc2750b: 3344622.381
+    59a6215af6: 2919461.085
+    bcf85587b1: 2915402.821
