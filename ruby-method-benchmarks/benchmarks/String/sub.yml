@@ -3073,6 +3073,8 @@ results:
     8ef2aae2d0: 3408081.81
     bb44d9ecf0: 3349398.184
     e2b719bed6: 3295101.436
+    e5f01dab9d: 3366292.972
+    7bc787fa06: 3180136.942
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -6145,6 +6147,8 @@ results:
     8ef2aae2d0: 3368212.407
     bb44d9ecf0: 3333182.575
     e2b719bed6: 3256550.142
+    e5f01dab9d: 3309910.4
+    7bc787fa06: 3133506.514
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -9217,6 +9221,8 @@ results:
     8ef2aae2d0: 1862738.94
     bb44d9ecf0: 1830442.297
     e2b719bed6: 1927561.527
+    e5f01dab9d: 1582618.72
+    7bc787fa06: 1927460.878
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -12289,6 +12295,8 @@ results:
     8ef2aae2d0: 2669408.438
     bb44d9ecf0: 2690990.496
     e2b719bed6: 2970960.173
+    e5f01dab9d: 2725860.225
+    7bc787fa06: 2962197.791
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -15361,6 +15369,8 @@ results:
     8ef2aae2d0: 3694972.22
     bb44d9ecf0: 3626651.631
     e2b719bed6: 3584866.932
+    e5f01dab9d: 3653045.006
+    7bc787fa06: 3563463.56
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -18433,6 +18443,8 @@ results:
     8ef2aae2d0: 3617615.194
     bb44d9ecf0: 3582550.269
     e2b719bed6: 3538812.641
+    e5f01dab9d: 3181889.656
+    7bc787fa06: 3505889.049
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -21505,6 +21517,8 @@ results:
     8ef2aae2d0: 1948665.942
     bb44d9ecf0: 1953688.277
     e2b719bed6: 2035318.722
+    e5f01dab9d: 1862835.604
+    7bc787fa06: 1902045.249
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -24577,3 +24591,5 @@ results:
     8ef2aae2d0: 2756194.112
     bb44d9ecf0: 2866484.136
     e2b719bed6: 2890064.964
+    e5f01dab9d: 2530469.149
+    7bc787fa06: 3311044.712
