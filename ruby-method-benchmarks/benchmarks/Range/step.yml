@@ -3202,6 +3202,8 @@ results:
     f2e1e6cba4: 3057453.62
     f4d9daf2b6: 2914722.314
     dc1ecab084: 3165689.012
+    c52ca1f2ff: 3163666.7
+    695cc19be9: 3168989.38
   Range#step { |x| ...} (Fixnum range):
     109633b127: 56396.809
     1329c7cdca: 54212.644
@@ -6403,6 +6405,8 @@ results:
     f2e1e6cba4: 56000.131
     f4d9daf2b6: 56685.614
     dc1ecab084: 56778.275
+    c52ca1f2ff: 59744.496
+    695cc19be9: 50136.858
   Range#step { |x| ...} (Float range):
     109633b127: 51758.111
     1329c7cdca: 42041.468
@@ -9604,6 +9608,8 @@ results:
     f2e1e6cba4: 45508.691
     f4d9daf2b6: 49237.487
     dc1ecab084: 56552.352
+    c52ca1f2ff: 54371.777
+    695cc19be9: 49255.158
   Range#step { |x| ...} (Numeric range):
     109633b127: 9942.346
     1329c7cdca: 10487.055
@@ -12805,6 +12811,8 @@ results:
     f2e1e6cba4: 11722.429
     f4d9daf2b6: 11516.926
     dc1ecab084: 9838.038
+    c52ca1f2ff: 9713.638
+    695cc19be9: 10036.031
   Range#step { |x| ...} (Symbol range):
     109633b127: 7197.823
     1329c7cdca: 7308.274
@@ -16006,6 +16014,8 @@ results:
     f2e1e6cba4: 7830.703
     f4d9daf2b6: 8114.544
     dc1ecab084: 7468.25
+    c52ca1f2ff: 7456.303
+    695cc19be9: 7629.629
   Range#step { |x| ...} (String range):
     109633b127: 10015.495
     1329c7cdca: 9559.677
@@ -19207,3 +19217,5 @@ results:
     f2e1e6cba4: 10899.998
     f4d9daf2b6: 10562.605
     dc1ecab084: 9993.158
+    c52ca1f2ff: 10159.62
+    695cc19be9: 10352.053
