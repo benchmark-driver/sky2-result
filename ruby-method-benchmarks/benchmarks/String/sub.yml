@@ -3181,6 +3181,8 @@ results:
     6025783a3b: 2948951.895
     da0d7211aa: 3486206.02
     49ffae7ca6: 2928765.073
+    e764dff364: 3093713.056
+    4df4b48455: 3352341.561
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -6361,6 +6363,8 @@ results:
     6025783a3b: 2831631.915
     da0d7211aa: 3473178.89
     49ffae7ca6: 2915645.406
+    e764dff364: 2917841.784
+    4df4b48455: 3309197.923
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -9541,6 +9545,8 @@ results:
     6025783a3b: 1786024.99
     da0d7211aa: 1987071.291
     49ffae7ca6: 1783264.83
+    e764dff364: 1825686.388
+    4df4b48455: 1871909.003
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -12721,6 +12727,8 @@ results:
     6025783a3b: 2905748.797
     da0d7211aa: 3306117.508
     49ffae7ca6: 2906808.69
+    e764dff364: 2753343.311
+    4df4b48455: 2776192.987
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -15901,6 +15909,8 @@ results:
     6025783a3b: 3392238.687
     da0d7211aa: 3794297.675
     49ffae7ca6: 3265263.022
+    e764dff364: 3092385.078
+    4df4b48455: 3431403.075
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -19081,6 +19091,8 @@ results:
     6025783a3b: 3171036.023
     da0d7211aa: 3773913.426
     49ffae7ca6: 3161620.077
+    e764dff364: 3315186.294
+    4df4b48455: 3357340.862
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -22261,6 +22273,8 @@ results:
     6025783a3b: 1883102.414
     da0d7211aa: 1905407.964
     49ffae7ca6: 1907046.59
+    e764dff364: 1933346.327
+    4df4b48455: 1970159.546
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -25441,3 +25455,5 @@ results:
     6025783a3b: 3214507.802
     da0d7211aa: 3555842.592
     49ffae7ca6: 3209785.266
+    e764dff364: 3246365.801
+    4df4b48455: 2946855.194
