@@ -3237,6 +3237,8 @@ results:
     19d3aaff5c: 3397172.27
     fa3fda1c62: 3381981.335
     07b5fec008: 3252313.24
+    b1eae5e15e: 3069087.434
+    9b65bfdc9e: 3107954.062
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -6473,6 +6475,8 @@ results:
     19d3aaff5c: 3369221.852
     fa3fda1c62: 3340528.411
     07b5fec008: 3224785.793
+    b1eae5e15e: 2899588.399
+    9b65bfdc9e: 3002422.935
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -9709,6 +9713,8 @@ results:
     19d3aaff5c: 1884024.38
     fa3fda1c62: 1875544.544
     07b5fec008: 1917828.885
+    b1eae5e15e: 1773516.558
+    9b65bfdc9e: 1811192.476
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -12945,6 +12951,8 @@ results:
     19d3aaff5c: 2736621.129
     fa3fda1c62: 2710733.625
     07b5fec008: 3027638.438
+    b1eae5e15e: 2444301.668
+    9b65bfdc9e: 2957593.1
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -16181,6 +16189,8 @@ results:
     19d3aaff5c: 3680629.056
     fa3fda1c62: 3637941.679
     07b5fec008: 3260996.831
+    b1eae5e15e: 3382960.569
+    9b65bfdc9e: 3445401.202
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -19417,6 +19427,8 @@ results:
     19d3aaff5c: 3632955.239
     fa3fda1c62: 3619587.252
     07b5fec008: 3525100.888
+    b1eae5e15e: 2812627.033
+    9b65bfdc9e: 3359205.778
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -22653,6 +22665,8 @@ results:
     19d3aaff5c: 1989790.651
     fa3fda1c62: 1932732.373
     07b5fec008: 1797171.815
+    b1eae5e15e: 1793629.639
+    9b65bfdc9e: 1905153.477
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -25889,3 +25903,5 @@ results:
     19d3aaff5c: 2911669.734
     fa3fda1c62: 2908181.688
     07b5fec008: 3293131.914
+    b1eae5e15e: 3103079.471
+    9b65bfdc9e: 3276978.696
