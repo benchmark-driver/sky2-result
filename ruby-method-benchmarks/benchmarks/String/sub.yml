@@ -3327,6 +3327,8 @@ results:
     994435d0ef: 3511688.432
     9feca5ceb9: 3037532.046
     7fa16fd962: 3368284.675
+    ab73ef6b70: 3441881.331
+    4113b30356: 3447958.78
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -6653,6 +6655,8 @@ results:
     994435d0ef: 3154212.602
     9feca5ceb9: 2929731.15
     7fa16fd962: 3310250.026
+    ab73ef6b70: 3410682.566
+    4113b30356: 3332412.27
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -9979,6 +9983,8 @@ results:
     994435d0ef: 1852829.971
     9feca5ceb9: 1779043.11
     7fa16fd962: 1797715.055
+    ab73ef6b70: 1771095.084
+    4113b30356: 1851063.32
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -13305,6 +13311,8 @@ results:
     994435d0ef: 3296618.586
     9feca5ceb9: 2896369.672
     7fa16fd962: 2737939.215
+    ab73ef6b70: 2790049.141
+    4113b30356: 2779348.872
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -16631,6 +16639,8 @@ results:
     994435d0ef: 3456409.168
     9feca5ceb9: 3393635.35
     7fa16fd962: 3664154.202
+    ab73ef6b70: 3701454.863
+    4113b30356: 3732618.624
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -19957,6 +19967,8 @@ results:
     994435d0ef: 3458226.222
     9feca5ceb9: 3247462.178
     7fa16fd962: 3574653.718
+    ab73ef6b70: 3704725.175
+    4113b30356: 3676731.921
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -23283,6 +23295,8 @@ results:
     994435d0ef: 1940620.835
     9feca5ceb9: 1888661.787
     7fa16fd962: 1933686.328
+    ab73ef6b70: 1982065.27
+    4113b30356: 1932613.0
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -26609,3 +26623,5 @@ results:
     994435d0ef: 3563320.787
     9feca5ceb9: 3195356.013
     7fa16fd962: 2912307.462
+    ab73ef6b70: 2968642.139
+    4113b30356: 2929929.63
