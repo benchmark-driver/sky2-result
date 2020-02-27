@@ -3488,6 +3488,8 @@ results:
     7a51d979cf: 3101509.289
     8ee0a8e91a: 3352340.948
     0723db6c39: 3408570.287
+    f9b298fe71: 3387607.987
+    1bf066dcfa: 3410968.274
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -6975,6 +6977,8 @@ results:
     7a51d979cf: 2919430.197
     8ee0a8e91a: 3353467.264
     0723db6c39: 3235291.897
+    f9b298fe71: 3233838.503
+    1bf066dcfa: 3392197.377
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -10462,6 +10466,8 @@ results:
     7a51d979cf: 1481598.14
     8ee0a8e91a: 1756089.5
     0723db6c39: 1918764.653
+    f9b298fe71: 1884982.588
+    1bf066dcfa: 1872590.635
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -13949,6 +13955,8 @@ results:
     7a51d979cf: 2892513.958
     8ee0a8e91a: 2756969.454
     0723db6c39: 3220283.947
+    f9b298fe71: 2718581.29
+    1bf066dcfa: 2797274.654
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -17436,6 +17444,8 @@ results:
     7a51d979cf: 3409545.74
     8ee0a8e91a: 3636517.538
     0723db6c39: 3642016.672
+    f9b298fe71: 3666506.417
+    1bf066dcfa: 3700597.543
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -20923,6 +20933,8 @@ results:
     7a51d979cf: 2758887.043
     8ee0a8e91a: 3594253.2
     0723db6c39: 3579658.679
+    f9b298fe71: 3592660.161
+    1bf066dcfa: 3677605.021
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -24410,6 +24422,8 @@ results:
     7a51d979cf: 1872695.567
     8ee0a8e91a: 1970890.217
     0723db6c39: 1878885.117
+    f9b298fe71: 1978033.618
+    1bf066dcfa: 1981094.328
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -27897,3 +27911,5 @@ results:
     7a51d979cf: 3199022.836
     8ee0a8e91a: 2822225.983
     0723db6c39: 3433566.844
+    f9b298fe71: 2904024.021
+    1bf066dcfa: 2966289.936
