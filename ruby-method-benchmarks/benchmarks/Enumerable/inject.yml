@@ -3498,6 +3498,8 @@ results:
     157b1090c1: 284317.179
     29e31e72fb: 292009.166
     71ae2acee1: 334194.807
+    bace0d4cdc: 292590.793
+    c7dafeb20c: 295373.341
   Enumerable#inject(init, sym):
     00c33d9c23: 284288.429
     025206d0dd: 294506.081
@@ -6995,6 +6997,8 @@ results:
     157b1090c1: 283715.891
     29e31e72fb: 326726.887
     71ae2acee1: 325375.872
+    bace0d4cdc: 291021.542
+    c7dafeb20c: 292486.456
   Enumerable#inject { |result, item| ...}:
     00c33d9c23: 248345.022
     025206d0dd: 242596.91
@@ -10492,6 +10496,8 @@ results:
     157b1090c1: 256072.417
     29e31e72fb: 211764.899
     71ae2acee1: 211839.638
+    bace0d4cdc: 235869.236
+    c7dafeb20c: 237873.306
   Enumerable#inject(init) { |result, item| ...}:
     00c33d9c23: 237973.225
     025206d0dd: 249419.144
@@ -13989,6 +13995,8 @@ results:
     157b1090c1: 250174.787
     29e31e72fb: 212365.795
     71ae2acee1: 211907.426
+    bace0d4cdc: 232979.937
+    c7dafeb20c: 257549.018
   Enumerable#reduce(sym):
     00c33d9c23: 286270.881
     025206d0dd: 289771.268
@@ -17486,6 +17494,8 @@ results:
     157b1090c1: 285467.978
     29e31e72fb: 328345.145
     71ae2acee1: 333555.567
+    bace0d4cdc: 290971.821
+    c7dafeb20c: 295329.843
   Enumerable#reduce(init, sym):
     00c33d9c23: 271151.987
     025206d0dd: 294393.988
@@ -20983,6 +20993,8 @@ results:
     157b1090c1: 284807.648
     29e31e72fb: 322317.584
     71ae2acee1: 330240.765
+    bace0d4cdc: 223320.435
+    c7dafeb20c: 293716.203
   Enumerable#reduce { |result, item| ...}:
     00c33d9c23: 240781.44
     025206d0dd: 233248.523
@@ -24480,6 +24492,8 @@ results:
     157b1090c1: 245664.352
     29e31e72fb: 210156.657
     71ae2acee1: 210928.803
+    bace0d4cdc: 221582.328
+    c7dafeb20c: 263879.622
   Enumerable#reduce(init) { |result, item| ...}:
     00c33d9c23: 248882.723
     025206d0dd: 250091.641
@@ -27977,3 +27991,5 @@ results:
     157b1090c1: 263135.228
     29e31e72fb: 212267.852
     71ae2acee1: 200322.389
+    bace0d4cdc: 222892.041
+    c7dafeb20c: 214660.305
