@@ -3536,6 +3536,8 @@ results:
     bbd1ed626f: 3090788.24
     52cdf400ef: 3108845.172
     fbe229906b: 3331012.5
+    69ec3f70fa: 3217957.322
+    eee70b41d4: 3511661.017
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -7071,6 +7073,8 @@ results:
     bbd1ed626f: 3011046.015
     52cdf400ef: 3025229.321
     fbe229906b: 3254646.799
+    69ec3f70fa: 3201675.399
+    eee70b41d4: 3002785.648
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -10606,6 +10610,8 @@ results:
     bbd1ed626f: 1782424.3
     52cdf400ef: 1789609.32
     fbe229906b: 1860334.081
+    69ec3f70fa: 1881181.643
+    eee70b41d4: 2003189.719
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -14141,6 +14147,8 @@ results:
     bbd1ed626f: 2900009.276
     52cdf400ef: 2948132.156
     fbe229906b: 3167527.887
+    69ec3f70fa: 3037947.425
+    eee70b41d4: 3292094.033
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -17676,6 +17684,8 @@ results:
     bbd1ed626f: 3413724.2
     52cdf400ef: 3476909.808
     fbe229906b: 3641372.328
+    69ec3f70fa: 3499274.495
+    eee70b41d4: 3817716.793
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -21211,6 +21221,8 @@ results:
     bbd1ed626f: 3328453.37
     52cdf400ef: 3322693.649
     fbe229906b: 3454909.754
+    69ec3f70fa: 3463399.723
+    eee70b41d4: 3770173.723
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -24746,6 +24758,8 @@ results:
     bbd1ed626f: 1868747.49
     52cdf400ef: 1910616.24
     fbe229906b: 1867880.849
+    69ec3f70fa: 2008231.56
+    eee70b41d4: 2101602.536
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -28281,3 +28295,5 @@ results:
     bbd1ed626f: 3189515.319
     52cdf400ef: 3233493.938
     fbe229906b: 3430447.963
+    69ec3f70fa: 3273770.01
+    eee70b41d4: 3531789.337
