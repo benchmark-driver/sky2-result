@@ -3553,6 +3553,8 @@ results:
     5ac990e83e: 3427884.357
     f6dc053faf: 3044269.477
     '08e9c58d51': 2923828.329
+    b3983c68dd: 3134755.009
+    bace0d4cdc: 3296307.725
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -7105,6 +7107,8 @@ results:
     5ac990e83e: 3309229.608
     f6dc053faf: 3299370.439
     '08e9c58d51': 3367455.732
+    b3983c68dd: 3124963.158
+    bace0d4cdc: 3273570.442
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -10657,6 +10661,8 @@ results:
     5ac990e83e: 1855672.229
     f6dc053faf: 1830733.447
     '08e9c58d51': 1695597.507
+    b3983c68dd: 1872770.192
+    bace0d4cdc: 1879972.65
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -14209,6 +14215,8 @@ results:
     5ac990e83e: 2788300.474
     f6dc053faf: 3119353.221
     '08e9c58d51': 2730189.274
+    b3983c68dd: 2993998.532
+    bace0d4cdc: 2683677.883
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -17761,6 +17769,8 @@ results:
     5ac990e83e: 3430312.313
     f6dc053faf: 3634175.875
     '08e9c58d51': 3653235.59
+    b3983c68dd: 3464875.925
+    bace0d4cdc: 3560226.828
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -21313,6 +21323,8 @@ results:
     5ac990e83e: 3651045.987
     f6dc053faf: 3427038.512
     '08e9c58d51': 3658986.177
+    b3983c68dd: 3404085.003
+    bace0d4cdc: 3536058.09
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -24865,6 +24877,8 @@ results:
     5ac990e83e: 1527315.062
     f6dc053faf: 2033450.317
     '08e9c58d51': 1953634.084
+    b3983c68dd: 1958623.704
+    bace0d4cdc: 1953491.552
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -28417,3 +28431,5 @@ results:
     5ac990e83e: 2968327.468
     f6dc053faf: 3479574.306
     '08e9c58d51': 2905290.076
+    b3983c68dd: 3257224.594
+    bace0d4cdc: 2854710.823
