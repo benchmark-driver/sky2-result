@@ -3554,6 +3554,8 @@ results:
     56bf732aaf: 11177104.811
     fcd9bc28e3: 10166528.12
     ec931ee9e1: 9530953.946
+    a2fac1d72c: 9920651.479
+    cdf8471aec: 10308892.907
   Range#each { |x| ...} (Fixnum range):
     017cb09eb6: 56136.128
     0215520bea: 56549.931
@@ -7107,6 +7109,8 @@ results:
     56bf732aaf: 45262.705
     fcd9bc28e3: 48417.705
     ec931ee9e1: 54516.846
+    a2fac1d72c: 49466.046
+    cdf8471aec: 54692.266
   Range#each { |x| ...} (Symbol range):
     017cb09eb6: 7751.806
     0215520bea: 7713.169
@@ -10660,6 +10664,8 @@ results:
     56bf732aaf: 7594.209
     fcd9bc28e3: 8169.905
     ec931ee9e1: 8169.153
+    a2fac1d72c: 7851.54
+    cdf8471aec: 7416.166
   Range#each { |x| ...} (String range):
     017cb09eb6: 10622.098
     0215520bea: 10421.274
@@ -14213,3 +14219,5 @@ results:
     56bf732aaf: 10531.506
     fcd9bc28e3: 11109.154
     ec931ee9e1: 10704.244
+    a2fac1d72c: 10900.685
+    cdf8471aec: 9986.818
