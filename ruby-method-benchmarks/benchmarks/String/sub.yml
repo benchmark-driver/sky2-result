@@ -3621,6 +3621,8 @@ results:
     e4c79d0d10: 3420820.492
     e62aead269: 3287253.049
     592d7ceeeb: 3292758.496
+    a2f9c38a71: 3299432.542
+    59c2a115f0: 3267041.376
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -7241,6 +7243,8 @@ results:
     e4c79d0d10: 3412408.833
     e62aead269: 3267324.437
     592d7ceeeb: 3141125.738
+    a2f9c38a71: 3238274.61
+    59c2a115f0: 3206888.564
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -10861,6 +10865,8 @@ results:
     e4c79d0d10: 1468156.997
     e62aead269: 1916036.494
     592d7ceeeb: 1913466.721
+    a2f9c38a71: 1815014.9
+    59c2a115f0: 1902321.011
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -14481,6 +14487,8 @@ results:
     e4c79d0d10: 2696263.872
     e62aead269: 3131360.857
     592d7ceeeb: 3110905.895
+    a2f9c38a71: 2395535.22
+    59c2a115f0: 2823703.188
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -18101,6 +18109,8 @@ results:
     e4c79d0d10: 3581990.276
     e62aead269: 3237933.361
     592d7ceeeb: 3600997.384
+    a2f9c38a71: 3596556.62
+    59c2a115f0: 3566966.586
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -21721,6 +21731,8 @@ results:
     e4c79d0d10: 3677749.472
     e62aead269: 3539433.362
     592d7ceeeb: 3548511.045
+    a2f9c38a71: 3497313.82
+    59c2a115f0: 3511149.207
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -25341,6 +25353,8 @@ results:
     e4c79d0d10: 1933026.858
     e62aead269: 1778209.829
     592d7ceeeb: 2009537.283
+    a2f9c38a71: 1900817.166
+    59c2a115f0: 1992577.804
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -28961,3 +28975,5 @@ results:
     e4c79d0d10: 2860801.07
     e62aead269: 2984506.234
     592d7ceeeb: 3395651.103
+    a2f9c38a71: 3295283.348
+    59c2a115f0: 3369508.466
