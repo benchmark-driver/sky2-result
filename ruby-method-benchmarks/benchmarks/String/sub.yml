@@ -3680,6 +3680,8 @@ results:
     f8a8f05512: 3085097.174
     95fbd87fab: 3388898.131
     8a758e87f2: 3410920.278
+    32adae431d: 3152627.931
+    6ecafe0c98: 3307902.495
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -7359,6 +7361,8 @@ results:
     f8a8f05512: 2976536.273
     95fbd87fab: 3373978.292
     8a758e87f2: 3392896.849
+    32adae431d: 2932746.348
+    6ecafe0c98: 3276927.426
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -11038,6 +11042,8 @@ results:
     f8a8f05512: 1697852.474
     95fbd87fab: 1768256.331
     8a758e87f2: 1663656.05
+    32adae431d: 1817139.787
+    6ecafe0c98: 1909660.605
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -14717,6 +14723,8 @@ results:
     f8a8f05512: 2873190.197
     95fbd87fab: 2719611.797
     8a758e87f2: 2679240.741
+    32adae431d: 2751099.776
+    6ecafe0c98: 2782655.741
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -18396,6 +18404,8 @@ results:
     f8a8f05512: 3402986.942
     95fbd87fab: 3686548.57
     8a758e87f2: 3674264.737
+    32adae431d: 3452060.709
+    6ecafe0c98: 3734996.949
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -22075,6 +22085,8 @@ results:
     f8a8f05512: 3296582.911
     95fbd87fab: 3242541.103
     8a758e87f2: 3663293.985
+    32adae431d: 3218523.254
+    6ecafe0c98: 3673986.321
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -25754,6 +25766,8 @@ results:
     f8a8f05512: 1756313.006
     95fbd87fab: 1865086.979
     8a758e87f2: 1998417.153
+    32adae431d: 1916643.704
+    6ecafe0c98: 1995908.979
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -29433,3 +29447,5 @@ results:
     f8a8f05512: 3229289.206
     95fbd87fab: 2650758.634
     8a758e87f2: 2962475.764
+    32adae431d: 3314717.407
+    6ecafe0c98: 2963531.682
