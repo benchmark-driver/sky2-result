@@ -3759,6 +3759,8 @@ results:
     6cf3ada55c: 10354783.907
     c2afddccb3: 9671872.838
     ccdba542d3: 11289450.07
+    '0529fead36': 9783785.056
+    ffa7ceceaf: 9988720.561
   Hash#delete_if { |key, value| true}:
     025343654d: 2544040.967
     031e2f1285: 2625954.771
@@ -7517,6 +7519,8 @@ results:
     6cf3ada55c: 2644412.942
     c2afddccb3: 2974229.864
     ccdba542d3: 2653592.703
+    '0529fead36': 3065178.8
+    ffa7ceceaf: 3204597.014
   Hash#delete_if { |key, value| false}:
     025343654d: 2585015.638
     031e2f1285: 2602621.259
@@ -11275,3 +11279,5 @@ results:
     6cf3ada55c: 2287145.058
     c2afddccb3: 2968067.118
     ccdba542d3: 2604383.88
+    '0529fead36': 3043981.127
+    ffa7ceceaf: 3192646.768
