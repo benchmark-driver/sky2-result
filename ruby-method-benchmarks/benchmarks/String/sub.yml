@@ -3760,6 +3760,8 @@ results:
     8113f3fee4: 3066509.978
     fe3514ae60: 2814012.836
     9b617ffa88: 3030244.88
+    b739a63eb4: 3159786.687
+    2f6a8baac6: 3120017.576
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -7519,6 +7521,8 @@ results:
     8113f3fee4: 3007492.2
     fe3514ae60: 3058879.123
     9b617ffa88: 2798826.174
+    b739a63eb4: 3074003.38
+    2f6a8baac6: 2766767.88
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -11278,6 +11282,8 @@ results:
     8113f3fee4: 1793496.036
     fe3514ae60: 1814946.191
     9b617ffa88: 1841307.21
+    b739a63eb4: 1961755.051
+    2f6a8baac6: 1839527.963
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -15037,6 +15043,8 @@ results:
     8113f3fee4: 2938206.889
     fe3514ae60: 3004202.443
     9b617ffa88: 3182202.929
+    b739a63eb4: 3235208.97
+    2f6a8baac6: 2926039.848
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -18796,6 +18804,8 @@ results:
     8113f3fee4: 3409544.22
     fe3514ae60: 3419325.1
     9b617ffa88: 3157243.078
+    b739a63eb4: 3460320.412
+    2f6a8baac6: 3445758.978
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -22555,6 +22565,8 @@ results:
     8113f3fee4: 3315280.027
     fe3514ae60: 3259419.224
     9b617ffa88: 3717890.027
+    b739a63eb4: 3441102.888
+    2f6a8baac6: 3399260.282
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -26314,6 +26326,8 @@ results:
     8113f3fee4: 1928861.631
     fe3514ae60: 1860738.656
     9b617ffa88: 1899335.25
+    b739a63eb4: 2036012.056
+    2f6a8baac6: 1948513.18
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -30073,3 +30087,5 @@ results:
     8113f3fee4: 3191114.56
     fe3514ae60: 3231981.576
     9b617ffa88: 3457462.967
+    b739a63eb4: 3497166.493
+    2f6a8baac6: 3109696.316
