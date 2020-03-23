@@ -3794,6 +3794,8 @@ results:
     43811cc3b3: 3018744.06
     a8f9e25ca8: 2837578.854
     e257c08f2e: 3215854.32
+    617a3735ae: 3056811.245
+    71f6f46bd7: 3215374.619
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -7587,6 +7589,8 @@ results:
     43811cc3b3: 2968536.536
     a8f9e25ca8: 3267988.115
     e257c08f2e: 3160207.7
+    617a3735ae: 2969469.248
+    71f6f46bd7: 3149007.69
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -11380,6 +11384,8 @@ results:
     43811cc3b3: 1795165.918
     a8f9e25ca8: 1689850.994
     e257c08f2e: 1689314.781
+    617a3735ae: 1786586.911
+    71f6f46bd7: 1850816.0
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -15173,6 +15179,8 @@ results:
     43811cc3b3: 2879305.084
     a8f9e25ca8: 3094378.722
     e257c08f2e: 3028066.475
+    617a3735ae: 2885896.608
+    71f6f46bd7: 2590552.935
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -18966,6 +18974,8 @@ results:
     43811cc3b3: 3378535.052
     a8f9e25ca8: 3598659.137
     e257c08f2e: 3483011.662
+    617a3735ae: 3390333.232
+    71f6f46bd7: 3496753.019
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -22759,6 +22769,8 @@ results:
     43811cc3b3: 3252515.86
     a8f9e25ca8: 3591909.558
     e257c08f2e: 3187248.068
+    617a3735ae: 3248759.779
+    71f6f46bd7: 3417095.324
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -26552,6 +26564,8 @@ results:
     43811cc3b3: 1543487.844
     a8f9e25ca8: 1783639.111
     e257c08f2e: 1940971.87
+    617a3735ae: 1898254.569
+    71f6f46bd7: 1958930.053
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -30345,3 +30359,5 @@ results:
     43811cc3b3: 3191703.75
     a8f9e25ca8: 3335497.164
     e257c08f2e: 3269749.771
+    617a3735ae: 3194509.01
+    71f6f46bd7: 3292697.864
