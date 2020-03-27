@@ -3845,6 +3845,8 @@ results:
     985d1b9ec4: 2980653.31
     5c168c7e7f: 3242006.102
     dd3ed41cd0: 3387118.904
+    03f9e8746e: 3145523.496
+    ddc5839005: 3359911.957
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -7689,6 +7691,8 @@ results:
     985d1b9ec4: 3037142.281
     5c168c7e7f: 3196068.212
     dd3ed41cd0: 3312783.443
+    03f9e8746e: 3109817.081
+    ddc5839005: 3339663.291
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -11533,6 +11537,8 @@ results:
     985d1b9ec4: 1791650.638
     5c168c7e7f: 1913178.904
     dd3ed41cd0: 1907970.526
+    03f9e8746e: 1809596.645
+    ddc5839005: 1863171.946
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -15377,6 +15383,8 @@ results:
     985d1b9ec4: 2919865.49
     5c168c7e7f: 3042196.56
     dd3ed41cd0: 2694300.962
+    03f9e8746e: 2986383.71
+    ddc5839005: 2740455.213
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -19221,6 +19229,8 @@ results:
     985d1b9ec4: 3433054.111
     5c168c7e7f: 3528639.639
     dd3ed41cd0: 3651897.869
+    03f9e8746e: 3429592.534
+    ddc5839005: 3624639.114
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -23065,6 +23075,8 @@ results:
     985d1b9ec4: 3173216.402
     5c168c7e7f: 3480123.773
     dd3ed41cd0: 3602671.662
+    03f9e8746e: 3354954.178
+    ddc5839005: 3554990.515
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -26909,6 +26921,8 @@ results:
     985d1b9ec4: 1663567.35
     5c168c7e7f: 2018805.992
     dd3ed41cd0: 1970161.314
+    03f9e8746e: 1917415.932
+    ddc5839005: 1952808.69
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -30753,3 +30767,5 @@ results:
     985d1b9ec4: 3220365.427
     5c168c7e7f: 3304079.27
     dd3ed41cd0: 2872626.959
+    03f9e8746e: 3231211.762
+    ddc5839005: 2907836.77
