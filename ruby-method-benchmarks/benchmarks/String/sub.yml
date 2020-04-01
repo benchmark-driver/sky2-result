@@ -3907,6 +3907,8 @@ results:
     55bf0ef1aa: 3171878.17
     293c6d9b61: 3120262.329
     '09a042ae04': 3130434.808
+    fc7e1baf51: 3389521.056
+    2b2030f265: 3066336.943
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -7813,6 +7815,8 @@ results:
     55bf0ef1aa: 2779802.395
     293c6d9b61: 3103347.842
     '09a042ae04': 3014633.848
+    fc7e1baf51: 3400524.114
+    2b2030f265: 3241162.525
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -11719,6 +11723,8 @@ results:
     55bf0ef1aa: 1842248.576
     293c6d9b61: 1855113.023
     '09a042ae04': 1802659.852
+    fc7e1baf51: 1842586.547
+    2b2030f265: 1804429.25
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -15625,6 +15631,8 @@ results:
     55bf0ef1aa: 2642617.43
     293c6d9b61: 2996504.467
     '09a042ae04': 2833083.516
+    fc7e1baf51: 2773983.189
+    2b2030f265: 3089705.228
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -19531,6 +19539,8 @@ results:
     55bf0ef1aa: 3442572.247
     293c6d9b61: 3418773.209
     '09a042ae04': 3444693.619
+    fc7e1baf51: 3564935.069
+    2b2030f265: 3319992.278
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -23437,6 +23447,8 @@ results:
     55bf0ef1aa: 3331154.394
     293c6d9b61: 3365380.448
     '09a042ae04': 3225123.992
+    fc7e1baf51: 3659197.571
+    2b2030f265: 3526838.694
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -27343,6 +27355,8 @@ results:
     55bf0ef1aa: 1723396.142
     293c6d9b61: 1930618.007
     '09a042ae04': 1896665.953
+    fc7e1baf51: 1685852.786
+    2b2030f265: 1922304.598
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -31249,3 +31263,5 @@ results:
     55bf0ef1aa: 3179789.814
     293c6d9b61: 2938325.769
     '09a042ae04': 3034761.317
+    fc7e1baf51: 2951772.916
+    2b2030f265: 3428921.345
