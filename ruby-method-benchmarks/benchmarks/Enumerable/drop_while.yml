@@ -3969,6 +3969,8 @@ results:
     1ca0d427ea: 11617295.97
     8f0a0f4018: 11088260.521
     8caeef7c1d: 8278927.179
+    17d5efa4fe: 10325445.919
+    36da0b3da1: 9765446.813
   Enumerable#drop_while { |obj| true }:
     012faccf04: 248002.154
     01efa5d912: 224383.675
@@ -7937,6 +7939,8 @@ results:
     1ca0d427ea: 295109.461
     8f0a0f4018: 295434.362
     8caeef7c1d: 241154.728
+    17d5efa4fe: 241096.622
+    36da0b3da1: 241578.053
   Enumerable#drop_while { |obj| false }:
     012faccf04: 670432.469
     01efa5d912: 637991.11
@@ -11905,3 +11909,5 @@ results:
     1ca0d427ea: 592165.152
     8f0a0f4018: 591191.558
     8caeef7c1d: 440196.868
+    17d5efa4fe: 462092.695
+    36da0b3da1: 427623.606
