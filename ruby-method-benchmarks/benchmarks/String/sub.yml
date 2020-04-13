@@ -4042,6 +4042,8 @@ results:
     1f866ddc14: 3406587.787
     ee4ead8098: 3356833.4
     34d881cba2: 3170625.138
+    04e95f8985: 3280803.445
+    c3584dfacc: 3158671.548
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -8083,6 +8085,8 @@ results:
     1f866ddc14: 3383198.007
     ee4ead8098: 3062494.252
     34d881cba2: 3113320.815
+    04e95f8985: 3266398.5
+    c3584dfacc: 3107468.7
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -12124,6 +12128,8 @@ results:
     1f866ddc14: 1872166.138
     ee4ead8098: 1853273.663
     34d881cba2: 1810737.826
+    04e95f8985: 1669552.625
+    c3584dfacc: 1635932.836
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -16165,6 +16171,8 @@ results:
     1f866ddc14: 2771378.436
     ee4ead8098: 3163560.138
     34d881cba2: 2515606.481
+    04e95f8985: 3159003.228
+    c3584dfacc: 2909169.647
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -20206,6 +20214,8 @@ results:
     1f866ddc14: 3478337.666
     ee4ead8098: 3647981.05
     34d881cba2: 3441993.668
+    04e95f8985: 3651113.207
+    c3584dfacc: 3320124.154
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -24247,6 +24257,8 @@ results:
     1f866ddc14: 3643778.404
     ee4ead8098: 3134485.267
     34d881cba2: 3364202.811
+    04e95f8985: 3371867.667
+    c3584dfacc: 2872300.943
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -28288,6 +28300,8 @@ results:
     1f866ddc14: 1956680.343
     ee4ead8098: 2037920.386
     34d881cba2: 1964304.971
+    04e95f8985: 2046092.766
+    c3584dfacc: 1923925.099
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -32329,3 +32343,5 @@ results:
     1f866ddc14: 2877657.986
     ee4ead8098: 3445965.716
     34d881cba2: 3262345.238
+    04e95f8985: 3431201.536
+    c3584dfacc: 3237606.992
