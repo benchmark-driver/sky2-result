@@ -4103,6 +4103,8 @@ results:
     992aa2cda5: 3433862.312
     '05485868cb': 3036484.102
     726ea30ac2: 3424288.271
+    38c35dd22d: 3353284.665
+    9f3585afad: 3368720.181
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -8205,6 +8207,8 @@ results:
     992aa2cda5: 3443369.775
     '05485868cb': 3010098.787
     726ea30ac2: 3315197.324
+    38c35dd22d: 3283023.107
+    9f3585afad: 3359839.468
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -12307,6 +12311,8 @@ results:
     992aa2cda5: 1697354.089
     '05485868cb': 1783836.12
     726ea30ac2: 1880944.437
+    38c35dd22d: 1908676.498
+    9f3585afad: 1876303.233
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -16409,6 +16415,8 @@ results:
     992aa2cda5: 3094370.115
     '05485868cb': 2761711.708
     726ea30ac2: 2782052.239
+    38c35dd22d: 2926839.537
+    9f3585afad: 2675901.97
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -20511,6 +20519,8 @@ results:
     992aa2cda5: 3297177.025
     '05485868cb': 3453824.213
     726ea30ac2: 3704967.014
+    38c35dd22d: 3667475.111
+    9f3585afad: 3641589.522
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -24613,6 +24623,8 @@ results:
     992aa2cda5: 3638781.819
     '05485868cb': 3348105.173
     726ea30ac2: 3578167.177
+    38c35dd22d: 3596035.066
+    9f3585afad: 3591760.745
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -28715,6 +28727,8 @@ results:
     992aa2cda5: 2067034.397
     '05485868cb': 1868857.206
     726ea30ac2: 1963671.796
+    38c35dd22d: 1968994.77
+    9f3585afad: 1884069.767
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -32817,3 +32831,5 @@ results:
     992aa2cda5: 3439379.433
     '05485868cb': 3195699.218
     726ea30ac2: 2864078.21
+    38c35dd22d: 3344459.083
+    9f3585afad: 2568171.752
