@@ -4124,6 +4124,8 @@ results:
     8c017824c8: 10029160.362
     a9e10d3b8e: 9692748.392
     3cca0d1958: 8085431.078
+    4bcfccddca: 10749421.484
+    bc1dbed16c: 9685941.122
   Enumerable#take_while { |obj| true }:
     012faccf04: 237647.446
     017cb09eb6: 222184.484
@@ -8247,6 +8249,8 @@ results:
     8c017824c8: 194247.702
     a9e10d3b8e: 177883.316
     3cca0d1958: 64781.563
+    4bcfccddca: 226075.122
+    bc1dbed16c: 194256.347
   Enumerable#take_while { |obj| false }:
     012faccf04: 4979060.189
     017cb09eb6: 4729380.528
@@ -12370,3 +12374,5 @@ results:
     8c017824c8: 4071015.302
     a9e10d3b8e: 3829851.327
     3cca0d1958: 2961425.416
+    4bcfccddca: 4431041.328
+    bc1dbed16c: 3837456.546
