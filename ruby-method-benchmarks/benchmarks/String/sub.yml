@@ -4254,6 +4254,8 @@ results:
     ac2b945bc0: 3100793.718
     55923ba883: 3197540.155
     04a55763fa: 1474524.966
+    544ebc669b: 3164747.208
+    8ab4c55e7a: 1442225.245
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -8507,6 +8509,8 @@ results:
     ac2b945bc0: 3031553.719
     55923ba883: 3136854.24
     04a55763fa: 1347542.198
+    544ebc669b: 3026758.353
+    8ab4c55e7a: 1310059.164
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -12760,6 +12764,8 @@ results:
     ac2b945bc0: 1822866.81
     55923ba883: 1850393.361
     04a55763fa: 890169.183
+    544ebc669b: 1836227.466
+    8ab4c55e7a: 878041.083
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -17013,6 +17019,8 @@ results:
     ac2b945bc0: 2957539.485
     55923ba883: 2692487.306
     04a55763fa: 1207896.082
+    544ebc669b: 3029682.809
+    8ab4c55e7a: 1247086.531
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -21266,6 +21274,8 @@ results:
     ac2b945bc0: 3156605.096
     55923ba883: 3238183.727
     04a55763fa: 1672158.185
+    544ebc669b: 3433866.002
+    8ab4c55e7a: 1604577.916
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -25519,6 +25529,8 @@ results:
     ac2b945bc0: 3342481.38
     55923ba883: 3393957.079
     04a55763fa: 1498798.419
+    544ebc669b: 3349113.35
+    8ab4c55e7a: 1409343.755
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -29772,6 +29784,8 @@ results:
     ac2b945bc0: 1939627.201
     55923ba883: 1974781.881
     04a55763fa: 952243.366
+    544ebc669b: 1935022.255
+    8ab4c55e7a: 910348.813
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -34025,3 +34039,5 @@ results:
     ac2b945bc0: 3264002.758
     55923ba883: 2967579.196
     04a55763fa: 1337711.269
+    544ebc669b: 3265979.133
+    8ab4c55e7a: 1358681.057
