@@ -4382,6 +4382,8 @@ results:
     03b983d54c: 3067573.582
     dd830fab69: 1511644.537
     b0ca1fc21b: 3120115.377
+    0b55f8a14f: 3097479.84
+    691a15ebc7: 3171521.234
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -8763,6 +8765,8 @@ results:
     03b983d54c: 2951411.187
     dd830fab69: 1351222.07
     b0ca1fc21b: 3001780.66
+    0b55f8a14f: 2998272.5
+    691a15ebc7: 3121427.86
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -13144,6 +13148,8 @@ results:
     03b983d54c: 1938230.012
     dd830fab69: 877925.094
     b0ca1fc21b: 1749874.633
+    0b55f8a14f: 1787944.494
+    691a15ebc7: 1854513.689
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -17525,6 +17531,8 @@ results:
     03b983d54c: 3154284.144
     dd830fab69: 1283814.588
     b0ca1fc21b: 2941576.287
+    0b55f8a14f: 2906527.186
+    691a15ebc7: 3009125.486
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -21906,6 +21914,8 @@ results:
     03b983d54c: 2998726.487
     dd830fab69: 1450985.298
     b0ca1fc21b: 3440043.594
+    0b55f8a14f: 3406449.727
+    691a15ebc7: 3431827.404
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -26287,6 +26297,8 @@ results:
     03b983d54c: 3252772.596
     dd830fab69: 1493145.788
     b0ca1fc21b: 3236225.61
+    0b55f8a14f: 3331492.465
+    691a15ebc7: 3346724.028
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -30668,6 +30680,8 @@ results:
     03b983d54c: 1735328.565
     dd830fab69: 905890.061
     b0ca1fc21b: 1920672.842
+    0b55f8a14f: 1881419.135
+    691a15ebc7: 1908032.797
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -35049,3 +35063,5 @@ results:
     03b983d54c: 3425544.542
     dd830fab69: 1393605.023
     b0ca1fc21b: 3220424.532
+    0b55f8a14f: 3209131.1
+    691a15ebc7: 3249549.081
