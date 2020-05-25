@@ -4511,6 +4511,8 @@ results:
     4b7d27ca0d: 3074916.315
     d1417ff8fa: 3375571.885
     0ce45db115: 1483094.134
+    f826cde5a9: 3380503.861
+    bd8aa047fc: 1489568.599
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -9021,6 +9023,8 @@ results:
     4b7d27ca0d: 2867501.078
     d1417ff8fa: 3318107.131
     0ce45db115: 1269888.73
+    f826cde5a9: 3264178.402
+    bd8aa047fc: 1294887.445
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -13531,6 +13535,8 @@ results:
     4b7d27ca0d: 1817621.109
     d1417ff8fa: 1888319.156
     0ce45db115: 877465.515
+    f826cde5a9: 1857773.787
+    bd8aa047fc: 831055.101
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -18041,6 +18047,8 @@ results:
     4b7d27ca0d: 3152304.848
     d1417ff8fa: 2505479.79
     0ce45db115: 1282312.482
+    f826cde5a9: 2727891.745
+    bd8aa047fc: 1280189.646
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -22551,6 +22559,8 @@ results:
     4b7d27ca0d: 3361936.997
     d1417ff8fa: 3657339.332
     0ce45db115: 1518805.664
+    f826cde5a9: 3627111.381
+    bd8aa047fc: 1639778.534
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -27061,6 +27071,8 @@ results:
     4b7d27ca0d: 3536043.299
     d1417ff8fa: 3595126.398
     0ce45db115: 1460287.107
+    f826cde5a9: 3645194.004
+    bd8aa047fc: 1434218.072
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -31571,6 +31583,8 @@ results:
     4b7d27ca0d: 1922439.125
     d1417ff8fa: 1966788.973
     0ce45db115: 841844.381
+    f826cde5a9: 1695675.111
+    bd8aa047fc: 887312.346
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -36081,3 +36095,5 @@ results:
     4b7d27ca0d: 3072179.24
     d1417ff8fa: 2882369.931
     0ce45db115: 1196226.143
+    f826cde5a9: 2867931.321
+    bd8aa047fc: 1398525.382
