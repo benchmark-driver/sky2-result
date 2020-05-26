@@ -4525,6 +4525,8 @@ results:
     01e0e4c473: 1493192.251
     f9788ca7fe: 2999356.23
     a53e2850c5: 1462787.521
+    1e80a208cc: 3357760.355
+    a1a08ac9aa: 3304487.173
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -9049,6 +9051,8 @@ results:
     01e0e4c473: 1340441.215
     f9788ca7fe: 2818535.465
     a53e2850c5: 1306165.018
+    1e80a208cc: 3330191.038
+    a1a08ac9aa: 3328439.99
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -13573,6 +13577,8 @@ results:
     01e0e4c473: 875706.668
     f9788ca7fe: 1766853.385
     a53e2850c5: 871257.273
+    1e80a208cc: 1562723.79
+    a1a08ac9aa: 1950823.573
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -18097,6 +18103,8 @@ results:
     01e0e4c473: 1253540.1
     f9788ca7fe: 2855350.903
     a53e2850c5: 1252559.714
+    1e80a208cc: 3165297.258
+    a1a08ac9aa: 3038221.764
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -22621,6 +22629,8 @@ results:
     01e0e4c473: 1637931.969
     f9788ca7fe: 3338690.659
     a53e2850c5: 1635162.619
+    1e80a208cc: 3690145.609
+    a1a08ac9aa: 3366265.815
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -27145,6 +27155,8 @@ results:
     01e0e4c473: 1457882.806
     f9788ca7fe: 3170481.664
     a53e2850c5: 1453952.276
+    1e80a208cc: 3630140.304
+    a1a08ac9aa: 3557997.762
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -31669,6 +31681,8 @@ results:
     01e0e4c473: 835788.324
     f9788ca7fe: 1888381.71
     a53e2850c5: 923755.362
+    1e80a208cc: 2072587.959
+    a1a08ac9aa: 2045393.777
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -36193,3 +36207,5 @@ results:
     01e0e4c473: 1388269.299
     f9788ca7fe: 3184574.371
     a53e2850c5: 1377074.119
+    1e80a208cc: 2981082.604
+    a1a08ac9aa: 3313017.369
