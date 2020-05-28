@@ -4543,6 +4543,8 @@ results:
     cc6afff006: 1443595.009
     86ca640287: 3135779.891
     3dc6efbe9c: 3391794.985
+    bb3d80bbbe: 1500673.232
+    156fb72d70: 3144939.869
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -9085,6 +9087,8 @@ results:
     cc6afff006: 1305711.696
     86ca640287: 3094953.211
     3dc6efbe9c: 3305569.265
+    bb3d80bbbe: 1315522.084
+    156fb72d70: 2512104.026
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -13627,6 +13631,8 @@ results:
     cc6afff006: 844631.582
     86ca640287: 1662055.359
     3dc6efbe9c: 1775987.342
+    bb3d80bbbe: 770090.714
+    156fb72d70: 1818050.222
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -18169,6 +18175,8 @@ results:
     cc6afff006: 1235156.512
     86ca640287: 2971635.792
     3dc6efbe9c: 2746824.239
+    bb3d80bbbe: 1119709.72
+    156fb72d70: 2952218.723
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -22711,6 +22719,8 @@ results:
     cc6afff006: 1571865.608
     86ca640287: 3251820.795
     3dc6efbe9c: 3496556.98
+    bb3d80bbbe: 1569344.405
+    156fb72d70: 3461261.566
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -27253,6 +27263,8 @@ results:
     cc6afff006: 1393666.739
     86ca640287: 3360209.72
     3dc6efbe9c: 3609743.27
+    bb3d80bbbe: 1245478.477
+    156fb72d70: 3348478.19
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -31795,6 +31807,8 @@ results:
     cc6afff006: 925687.039
     86ca640287: 1929968.536
     3dc6efbe9c: 1967585.611
+    bb3d80bbbe: 920116.828
+    156fb72d70: 1928869.093
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -36337,3 +36351,5 @@ results:
     cc6afff006: 1333300.165
     86ca640287: 3206448.645
     3dc6efbe9c: 2911833.476
+    bb3d80bbbe: 1145194.307
+    156fb72d70: 3183916.547
