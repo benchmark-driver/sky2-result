@@ -4584,6 +4584,8 @@ results:
     c6633f21a4: 3184846.286
     1a4f33e84e: 1463680.622
     41b288476e: 1213486.361
+    a9567cc2bf: 1405800.035
+    b884eb59eb: 3337488.795
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -9167,6 +9169,8 @@ results:
     c6633f21a4: 3030572.805
     1a4f33e84e: 1311383.27
     41b288476e: 1316469.228
+    a9567cc2bf: 1317711.492
+    b884eb59eb: 3278697.94
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -13750,6 +13754,8 @@ results:
     c6633f21a4: 1791697.373
     1a4f33e84e: 871281.069
     41b288476e: 873398.551
+    a9567cc2bf: 771925.288
+    b884eb59eb: 1918106.648
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -18333,6 +18339,8 @@ results:
     c6633f21a4: 3024120.9
     1a4f33e84e: 1261496.633
     41b288476e: 1198024.919
+    a9567cc2bf: 1281283.567
+    b884eb59eb: 3185582.939
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -22916,6 +22924,8 @@ results:
     c6633f21a4: 3385196.697
     1a4f33e84e: 1607255.974
     41b288476e: 1607270.214
+    a9567cc2bf: 1652486.955
+    b884eb59eb: 3491986.505
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -27499,6 +27509,8 @@ results:
     c6633f21a4: 3402038.767
     1a4f33e84e: 1412040.885
     41b288476e: 1423255.055
+    a9567cc2bf: 1470144.64
+    b884eb59eb: 3153157.527
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -32082,6 +32094,8 @@ results:
     c6633f21a4: 1942356.222
     1a4f33e84e: 913307.076
     41b288476e: 923506.111
+    a9567cc2bf: 871847.531
+    b884eb59eb: 2012451.278
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -36665,3 +36679,5 @@ results:
     c6633f21a4: 3261370.211
     1a4f33e84e: 1357656.043
     41b288476e: 1356290.75
+    a9567cc2bf: 1406784.235
+    b884eb59eb: 3253656.765
