@@ -4641,6 +4641,8 @@ results:
     d95b13ead1: 2920484.101
     c027f22443: 3369168.617
     fae537259d: 3114701.821
+    4ccb49bad3: 3304795.897
+    984e0233fe: 2946344.481
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -9281,6 +9283,8 @@ results:
     d95b13ead1: 3293727.981
     c027f22443: 3261405.653
     fae537259d: 2990995.576
+    4ccb49bad3: 3261004.847
+    984e0233fe: 2895630.294
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -13921,6 +13925,8 @@ results:
     d95b13ead1: 1886201.335
     c027f22443: 1902854.399
     fae537259d: 1797969.419
+    4ccb49bad3: 1919180.538
+    984e0233fe: 1753268.477
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -18561,6 +18567,8 @@ results:
     d95b13ead1: 2692936.318
     c027f22443: 2741991.372
     fae537259d: 2952202.189
+    4ccb49bad3: 2814820.22
+    984e0233fe: 2791251.295
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -23201,6 +23209,8 @@ results:
     d95b13ead1: 3619904.623
     c027f22443: 3651479.621
     fae537259d: 3415239.922
+    4ccb49bad3: 2908589.078
+    984e0233fe: 2856156.454
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -27841,6 +27851,8 @@ results:
     d95b13ead1: 3473530.202
     c027f22443: 3277864.398
     fae537259d: 2946585.34
+    4ccb49bad3: 3513191.8
+    984e0233fe: 2684874.516
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -32481,6 +32493,8 @@ results:
     d95b13ead1: 1876198.569
     c027f22443: 1870821.115
     fae537259d: 1899150.305
+    4ccb49bad3: 2035926.232
+    984e0233fe: 1860687.719
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -37121,3 +37135,5 @@ results:
     d95b13ead1: 2857580.111
     c027f22443: 2903715.808
     fae537259d: 3224099.305
+    4ccb49bad3: 3227146.05
+    984e0233fe: 2874491.897
