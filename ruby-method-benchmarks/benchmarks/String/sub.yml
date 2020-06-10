@@ -4694,6 +4694,8 @@ results:
     03ca90c732: 3125939.552
     2396f703cf: 1483728.792
     7cc55f4bc4: 1469619.078
+    f52a4690f8: 1470131.733
+    6be57cfcca: 3170185.891
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -9387,6 +9389,8 @@ results:
     03ca90c732: 3096030.598
     2396f703cf: 1300209.04
     7cc55f4bc4: 1262981.409
+    f52a4690f8: 1314344.884
+    6be57cfcca: 3108428.935
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -14080,6 +14084,8 @@ results:
     03ca90c732: 1640432.2
     2396f703cf: 735595.19
     7cc55f4bc4: 896871.554
+    f52a4690f8: 885537.709
+    6be57cfcca: 1861763.617
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -18773,6 +18779,8 @@ results:
     03ca90c732: 2752740.551
     2396f703cf: 1241521.046
     7cc55f4bc4: 1224627.701
+    f52a4690f8: 1132377.851
+    6be57cfcca: 3009867.449
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -23466,6 +23474,8 @@ results:
     03ca90c732: 3374389.469
     2396f703cf: 1298562.714
     7cc55f4bc4: 1646083.566
+    f52a4690f8: 1423542.08
+    6be57cfcca: 3434639.778
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -28159,6 +28169,8 @@ results:
     03ca90c732: 3362844.535
     2396f703cf: 1430136.885
     7cc55f4bc4: 1380846.102
+    f52a4690f8: 1430329.148
+    6be57cfcca: 3353846.069
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -32852,6 +32864,8 @@ results:
     03ca90c732: 1925156.144
     2396f703cf: 716208.545
     7cc55f4bc4: 925049.968
+    f52a4690f8: 918711.065
+    6be57cfcca: 1952365.545
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -37545,3 +37559,5 @@ results:
     03ca90c732: 3210682.046
     2396f703cf: 1338061.064
     7cc55f4bc4: 1384502.435
+    f52a4690f8: 1353589.665
+    6be57cfcca: 3229740.224
