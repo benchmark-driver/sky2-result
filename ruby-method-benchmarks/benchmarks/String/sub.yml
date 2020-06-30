@@ -4913,6 +4913,8 @@ results:
     96837dc9e0: 1461361.995
     afd3f64f8c: 3349501.821
     aa21a775a6: 3093501.266
+    9c5804ac1c: 2886538.44
+    ed1e4504a4: 1477737.806
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -9825,6 +9827,8 @@ results:
     96837dc9e0: 1343296.181
     afd3f64f8c: 3298894.536
     aa21a775a6: 3042831.693
+    9c5804ac1c: 2854298.288
+    ed1e4504a4: 1310489.196
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -14737,6 +14741,8 @@ results:
     96837dc9e0: 889268.747
     afd3f64f8c: 1951745.573
     aa21a775a6: 1824897.366
+    9c5804ac1c: 1798660.646
+    ed1e4504a4: 869205.534
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -19649,6 +19655,8 @@ results:
     96837dc9e0: 1313044.313
     afd3f64f8c: 3079238.489
     aa21a775a6: 2916560.21
+    9c5804ac1c: 2880257.615
+    ed1e4504a4: 1226907.964
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -24561,6 +24569,8 @@ results:
     96837dc9e0: 1663191.643
     afd3f64f8c: 3662878.913
     aa21a775a6: 3349951.212
+    9c5804ac1c: 3300850.192
+    ed1e4504a4: 1605997.699
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -29473,6 +29483,8 @@ results:
     96837dc9e0: 1505123.706
     afd3f64f8c: 3584564.678
     aa21a775a6: 3213956.845
+    9c5804ac1c: 3253208.379
+    ed1e4504a4: 1461060.032
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -34385,6 +34397,8 @@ results:
     96837dc9e0: 961338.854
     afd3f64f8c: 2052515.648
     aa21a775a6: 1921780.61
+    9c5804ac1c: 1878901.401
+    ed1e4504a4: 921612.418
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -39297,3 +39311,5 @@ results:
     96837dc9e0: 1426828.205
     afd3f64f8c: 3443477.033
     aa21a775a6: 3139852.112
+    9c5804ac1c: 3103554.509
+    ed1e4504a4: 1338144.626
