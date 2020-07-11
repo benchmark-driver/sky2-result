@@ -5043,6 +5043,8 @@ results:
     51ea1abb5f: 3448971.163
     5bb80b76b0: 3150226.446
     a19228f878: 2929308.666
+    5c81e19b19: 3287062.0
+    ad10418eab: 3371358.074
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -10085,6 +10087,8 @@ results:
     51ea1abb5f: 3430109.422
     5bb80b76b0: 3092430.795
     a19228f878: 2981457.644
+    5c81e19b19: 3255002.112
+    ad10418eab: 3332149.661
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -15127,6 +15131,8 @@ results:
     51ea1abb5f: 1974196.196
     5bb80b76b0: 1819021.921
     a19228f878: 1670817.625
+    5c81e19b19: 1826658.852
+    ad10418eab: 1881489.019
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -20169,6 +20175,8 @@ results:
     51ea1abb5f: 3271692.356
     5bb80b76b0: 3001893.531
     a19228f878: 2932823.47
+    5c81e19b19: 3054592.983
+    ad10418eab: 2730228.957
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -25211,6 +25219,8 @@ results:
     51ea1abb5f: 3747977.433
     5bb80b76b0: 3413558.484
     a19228f878: 3185313.884
+    5c81e19b19: 3588952.098
+    ad10418eab: 3638273.024
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -30253,6 +30263,8 @@ results:
     51ea1abb5f: 3713623.254
     5bb80b76b0: 3345756.005
     a19228f878: 2999952.897
+    5c81e19b19: 3474800.587
+    ad10418eab: 3595730.277
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -35295,6 +35307,8 @@ results:
     51ea1abb5f: 2087514.502
     5bb80b76b0: 1928428.904
     a19228f878: 1914466.392
+    5c81e19b19: 2003674.508
+    ad10418eab: 1953829.356
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -40337,3 +40351,5 @@ results:
     51ea1abb5f: 3546466.123
     5bb80b76b0: 3239071.47
     a19228f878: 2977698.67
+    5c81e19b19: 3310252.451
+    ad10418eab: 2895581.66
