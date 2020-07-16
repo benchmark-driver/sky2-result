@@ -5101,6 +5101,8 @@ results:
     0b2fc4cf37: 1462493.234
     c2a6295ec0: 3053864.821
     e91c39f1c0: 3029105.406
+    ed5b4bae6a: 3078872.681
+    c6c023317c: 1446247.143
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -10201,6 +10203,8 @@ results:
     0b2fc4cf37: 1342982.192
     c2a6295ec0: 3013444.546
     e91c39f1c0: 3038974.646
+    ed5b4bae6a: 3095677.681
+    c6c023317c: 1313925.15
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -15301,6 +15305,8 @@ results:
     0b2fc4cf37: 820707.098
     c2a6295ec0: 1769400.967
     e91c39f1c0: 1803628.413
+    ed5b4bae6a: 1622551.346
+    c6c023317c: 825137.042
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -20401,6 +20407,8 @@ results:
     0b2fc4cf37: 1242473.659
     c2a6295ec0: 2882228.649
     e91c39f1c0: 2944835.531
+    ed5b4bae6a: 3073756.275
+    c6c023317c: 1240647.214
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -25501,6 +25509,8 @@ results:
     0b2fc4cf37: 1642956.091
     c2a6295ec0: 3293339.716
     e91c39f1c0: 3441524.438
+    ed5b4bae6a: 3244906.07
+    c6c023317c: 1630496.584
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -30601,6 +30611,8 @@ results:
     0b2fc4cf37: 1310776.486
     c2a6295ec0: 3200691.921
     e91c39f1c0: 3344537.742
+    ed5b4bae6a: 3468538.577
+    c6c023317c: 1397974.55
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -35701,6 +35713,8 @@ results:
     0b2fc4cf37: 932749.298
     c2a6295ec0: 1860479.238
     e91c39f1c0: 1911930.402
+    ed5b4bae6a: 1848622.143
+    c6c023317c: 819219.659
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -40801,3 +40815,5 @@ results:
     0b2fc4cf37: 1372412.201
     c2a6295ec0: 3100516.455
     e91c39f1c0: 3164056.11
+    ed5b4bae6a: 3344992.822
+    c6c023317c: 1380274.038
