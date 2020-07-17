@@ -5115,6 +5115,8 @@ results:
     1b219f1fb2: 3138798.179
     eb20d2f449: 3108214.208
     57cde28c20: 3008598.571
+    65c2c75e16: 3297696.687
+    b0f07aff0b: 3090389.633
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -10229,6 +10231,8 @@ results:
     1b219f1fb2: 3024838.609
     eb20d2f449: 2999552.104
     57cde28c20: 2921716.74
+    65c2c75e16: 3266612.325
+    b0f07aff0b: 2594525.727
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -15343,6 +15347,8 @@ results:
     1b219f1fb2: 1802885.42
     eb20d2f449: 1811201.478
     57cde28c20: 1770218.418
+    65c2c75e16: 1922875.481
+    b0f07aff0b: 1831088.677
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -20457,6 +20463,8 @@ results:
     1b219f1fb2: 2938626.07
     eb20d2f449: 2883536.07
     57cde28c20: 2882248.566
+    65c2c75e16: 2793872.069
+    b0f07aff0b: 2924675.512
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -25571,6 +25579,8 @@ results:
     1b219f1fb2: 2950354.605
     eb20d2f449: 3387105.193
     57cde28c20: 3273351.277
+    65c2c75e16: 3594353.38
+    b0f07aff0b: 3345902.391
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -30685,6 +30695,8 @@ results:
     1b219f1fb2: 3305147.766
     eb20d2f449: 3259820.36
     57cde28c20: 3127670.69
+    65c2c75e16: 3495200.369
+    b0f07aff0b: 3273834.641
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -35799,6 +35811,8 @@ results:
     1b219f1fb2: 1910916.509
     eb20d2f449: 1897217.768
     57cde28c20: 1891992.838
+    65c2c75e16: 2026466.141
+    b0f07aff0b: 1884505.542
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -40913,3 +40927,5 @@ results:
     1b219f1fb2: 3206931.129
     eb20d2f449: 3109565.481
     57cde28c20: 3144547.826
+    65c2c75e16: 3398445.083
+    b0f07aff0b: 3155008.306
