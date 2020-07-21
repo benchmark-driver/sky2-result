@@ -5158,6 +5158,8 @@ results:
     f8401732de: 1257981.719
     f31dc8a458: 1296905.279
     2ba2b32d9e: 1340137.048
+    b1d74afd3a: 1313584.364
+    da1f593aca: 1340679.393
   String#gsub(pattern, replace) with string pattern:
     '019864b4a5': 1791006.849
     1119bb4794: 1704577.639
@@ -10315,6 +10317,8 @@ results:
     f8401732de: 1753943.898
     f31dc8a458: 1690033.248
     2ba2b32d9e: 1721354.259
+    b1d74afd3a: 1667967.875
+    da1f593aca: 1734241.187
   String#gsub(pattern, replace) replacing with global variable:
     '019864b4a5': 759832.276
     1119bb4794: 738529.884
@@ -15472,6 +15476,8 @@ results:
     f8401732de: 761466.846
     f31dc8a458: 738311.386
     2ba2b32d9e: 755386.229
+    b1d74afd3a: 749189.37
+    da1f593aca: 745004.788
   String#gsub(pattern, hash):
     '019864b4a5': 697011.171
     1119bb4794: 694074.88
@@ -20629,6 +20635,8 @@ results:
     f8401732de: 701568.037
     f31dc8a458: 626607.122
     2ba2b32d9e: 708100.876
+    b1d74afd3a: 648534.311
+    da1f593aca: 666228.338
   String#gsub(pattern) { |matched| ...}:
     '019864b4a5': 1219128.333
     1119bb4794: 1236676.269
@@ -25786,6 +25794,8 @@ results:
     f8401732de: 1289781.508
     f31dc8a458: 1217745.09
     2ba2b32d9e: 1281337.393
+    b1d74afd3a: 1279995.439
+    da1f593aca: 1232652.511
   String#gsub!(pattern, replace):
     '019864b4a5': 1332203.971
     1119bb4794: 1264705.62
@@ -30943,6 +30953,8 @@ results:
     f8401732de: 1310651.655
     f31dc8a458: 1107692.713
     2ba2b32d9e: 1266216.482
+    b1d74afd3a: 1306490.165
+    da1f593aca: 1318215.336
   String#gsub!(pattern, replace) with string pattern:
     '019864b4a5': 1767886.616
     1119bb4794: 1705410.231
@@ -36100,6 +36112,8 @@ results:
     f8401732de: 1720459.047
     f31dc8a458: 1427589.254
     2ba2b32d9e: 1641460.462
+    b1d74afd3a: 1672647.568
+    da1f593aca: 1536288.805
   String#gsub!(pattern, replace) replacing with global variable:
     '019864b4a5': 746956.626
     1119bb4794: 744423.874
@@ -41257,6 +41271,8 @@ results:
     f8401732de: 764878.89
     f31dc8a458: 712483.579
     2ba2b32d9e: 644631.549
+    b1d74afd3a: 741303.46
+    da1f593aca: 712179.508
   String#gsub!(pattern, hash):
     '019864b4a5': 685296.905
     1119bb4794: 679601.48
@@ -46414,6 +46430,8 @@ results:
     f8401732de: 690120.452
     f31dc8a458: 639630.055
     2ba2b32d9e: 684468.607
+    b1d74afd3a: 689088.16
+    da1f593aca: 630033.254
   String#gsub!(pattern) { |matched| ...}:
     '019864b4a5': 1201258.128
     1119bb4794: 1197537.756
@@ -51571,3 +51589,5 @@ results:
     f8401732de: 1276251.398
     f31dc8a458: 1185352.594
     2ba2b32d9e: 1267339.346
+    b1d74afd3a: 1248400.663
+    da1f593aca: 1201473.462
