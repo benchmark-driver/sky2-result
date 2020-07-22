@@ -5159,6 +5159,8 @@ results:
     e634a9d1a5: 3121606.065
     fa37a220f6: 2933185.513
     40f73b3a00: 2777434.119
+    c565dfb09a: 3157334.908
+    4c3e3b8028: 3284625.462
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -10317,6 +10319,8 @@ results:
     e634a9d1a5: 2936141.768
     fa37a220f6: 3011304.326
     40f73b3a00: 2856217.893
+    c565dfb09a: 3113871.856
+    4c3e3b8028: 3221754.208
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -15475,6 +15479,8 @@ results:
     e634a9d1a5: 1816077.494
     fa37a220f6: 1720461.728
     40f73b3a00: 1539935.225
+    c565dfb09a: 1872750.069
+    4c3e3b8028: 1516707.168
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -20633,6 +20639,8 @@ results:
     e634a9d1a5: 2799760.659
     fa37a220f6: 2866194.896
     40f73b3a00: 2886110.812
+    c565dfb09a: 3009323.944
+    4c3e3b8028: 3052779.029
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -25791,6 +25799,8 @@ results:
     e634a9d1a5: 3365403.988
     fa37a220f6: 2892376.827
     40f73b3a00: 3340049.408
+    c565dfb09a: 3440467.242
+    4c3e3b8028: 3464199.569
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -30949,6 +30959,8 @@ results:
     e634a9d1a5: 3232624.262
     fa37a220f6: 3279004.982
     40f73b3a00: 3210258.54
+    c565dfb09a: 2940467.067
+    4c3e3b8028: 3510963.724
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -36107,6 +36119,8 @@ results:
     e634a9d1a5: 1918050.268
     fa37a220f6: 1886840.338
     40f73b3a00: 1837485.874
+    c565dfb09a: 1945083.863
+    4c3e3b8028: 2026485.984
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -41265,3 +41279,5 @@ results:
     e634a9d1a5: 3126313.01
     fa37a220f6: 2988360.426
     40f73b3a00: 3123759.464
+    c565dfb09a: 2794629.418
+    4c3e3b8028: 3297890.684
