@@ -5277,6 +5277,8 @@ results:
     '098ec6eb50': 3368854.38
     324038c66e: 3123249.34
     21f7cca2c6: 3233371.28
+    fd709382b6: 3073209.747
+    a5d7b8e13d: 3049135.3
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -10553,6 +10555,8 @@ results:
     '098ec6eb50': 3189629.3
     324038c66e: 3068492.919
     21f7cca2c6: 2693316.617
+    fd709382b6: 2951508.31
+    a5d7b8e13d: 2702584.209
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -15829,6 +15833,8 @@ results:
     '098ec6eb50': 1804706.58
     324038c66e: 1756959.904
     21f7cca2c6: 1865836.251
+    fd709382b6: 1805927.918
+    a5d7b8e13d: 1557958.328
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -21105,6 +21111,8 @@ results:
     '098ec6eb50': 2722574.978
     324038c66e: 2811045.227
     21f7cca2c6: 3045795.081
+    fd709382b6: 2890586.458
+    a5d7b8e13d: 2857574.586
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -26381,6 +26389,8 @@ results:
     '098ec6eb50': 3648191.98
     324038c66e: 3386529.429
     21f7cca2c6: 3504234.661
+    fd709382b6: 2772550.466
+    a5d7b8e13d: 3144910.642
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -31657,6 +31667,8 @@ results:
     '098ec6eb50': 3587325.167
     324038c66e: 3199094.568
     21f7cca2c6: 3340607.831
+    fd709382b6: 3208128.768
+    a5d7b8e13d: 3151069.996
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -36933,6 +36945,8 @@ results:
     '098ec6eb50': 1960717.561
     324038c66e: 1914242.7
     21f7cca2c6: 1771509.245
+    fd709382b6: 1898418.345
+    a5d7b8e13d: 1865990.573
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -42209,3 +42223,5 @@ results:
     '098ec6eb50': 2581008.371
     324038c66e: 3109410.704
     21f7cca2c6: 3289211.571
+    fd709382b6: 3120846.279
+    a5d7b8e13d: 3105597.581
