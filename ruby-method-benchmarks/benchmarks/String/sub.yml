@@ -5336,6 +5336,8 @@ results:
     6fdd5e26c6: 3061832.822
     a40b390b17: 2925108.534
     82cc2843a9: 3333562.069
+    7fd6077d98: 3042020.749
+    aec8e6d379: 3057780.374
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -10671,6 +10673,8 @@ results:
     6fdd5e26c6: 2546429.853
     a40b390b17: 2896149.329
     82cc2843a9: 2958412.645
+    7fd6077d98: 3214040.951
+    aec8e6d379: 2721947.509
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -16006,6 +16010,8 @@ results:
     6fdd5e26c6: 1797542.672
     a40b390b17: 1747761.773
     82cc2843a9: 1944122.61
+    7fd6077d98: 1945677.196
+    aec8e6d379: 1713965.013
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -21341,6 +21347,8 @@ results:
     6fdd5e26c6: 2883660.329
     a40b390b17: 2886761.624
     82cc2843a9: 3099501.919
+    7fd6077d98: 3029694.898
+    aec8e6d379: 2901009.867
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -26676,6 +26684,8 @@ results:
     6fdd5e26c6: 3319180.968
     a40b390b17: 3231607.803
     82cc2843a9: 3609910.536
+    7fd6077d98: 3620558.879
+    aec8e6d379: 3293732.039
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -32011,6 +32021,8 @@ results:
     6fdd5e26c6: 2877468.261
     a40b390b17: 2754807.112
     82cc2843a9: 3563879.941
+    7fd6077d98: 3253971.16
+    aec8e6d379: 2779178.099
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -37346,6 +37358,8 @@ results:
     6fdd5e26c6: 1893549.627
     a40b390b17: 1910954.177
     82cc2843a9: 2021914.443
+    7fd6077d98: 1677155.804
+    aec8e6d379: 1705667.642
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -42681,3 +42695,5 @@ results:
     6fdd5e26c6: 3110867.079
     a40b390b17: 3117151.279
     82cc2843a9: 3432018.489
+    7fd6077d98: 3413888.186
+    aec8e6d379: 3149934.575
