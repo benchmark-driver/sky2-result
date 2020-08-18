@@ -5459,6 +5459,8 @@ results:
     bd0a02d143: 3143161.05
     19cabe8b09: 3070892.851
     6575766ea0: 3096132.841
+    f8cc05dec3: 3104518.573
+    35bbbc751d: 1460304.157
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -10917,6 +10919,8 @@ results:
     bd0a02d143: 3053992.03
     19cabe8b09: 2473087.596
     6575766ea0: 3025073.938
+    f8cc05dec3: 3015113.549
+    35bbbc751d: 1336416.505
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -16375,6 +16379,8 @@ results:
     bd0a02d143: 1809036.808
     19cabe8b09: 1763291.082
     6575766ea0: 1586523.904
+    f8cc05dec3: 1806280.889
+    35bbbc751d: 885153.281
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -21833,6 +21839,8 @@ results:
     bd0a02d143: 2918842.888
     19cabe8b09: 2889525.102
     6575766ea0: 2909008.451
+    f8cc05dec3: 2950001.215
+    35bbbc751d: 1258242.21
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -27291,6 +27299,8 @@ results:
     bd0a02d143: 3499393.37
     19cabe8b09: 3326377.667
     6575766ea0: 2919451.513
+    f8cc05dec3: 3398313.213
+    35bbbc751d: 1564168.463
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -32749,6 +32759,8 @@ results:
     bd0a02d143: 3314695.927
     19cabe8b09: 3241584.679
     6575766ea0: 3212976.076
+    f8cc05dec3: 3311860.482
+    35bbbc751d: 1467933.864
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -38207,6 +38219,8 @@ results:
     bd0a02d143: 1917244.77
     19cabe8b09: 1839701.957
     6575766ea0: 1808306.981
+    f8cc05dec3: 1938013.172
+    35bbbc751d: 926558.573
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -43665,3 +43679,5 @@ results:
     bd0a02d143: 3207199.72
     19cabe8b09: 3077317.275
     6575766ea0: 3135715.65
+    f8cc05dec3: 3235569.118
+    35bbbc751d: 1364625.429
