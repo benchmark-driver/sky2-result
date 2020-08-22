@@ -5516,6 +5516,8 @@ results:
     7a5a0dfa5e: 10048569.533
     c8111c7eb5: 9178601.479
     4dc83eefce: 9991513.708
+    7fb12be99f: 10209956.07
+    1b076ca30d: 10060450.83
   Enumerable#drop_while { |obj| true }:
     012faccf04: 248002.154
     01efa5d912: 224383.675
@@ -11031,6 +11033,8 @@ results:
     7a5a0dfa5e: 204004.943
     c8111c7eb5: 204239.046
     4dc83eefce: 207297.408
+    7fb12be99f: 221721.574
+    1b076ca30d: 234966.623
   Enumerable#drop_while { |obj| false }:
     012faccf04: 670432.469
     01efa5d912: 637991.11
@@ -16546,3 +16550,5 @@ results:
     7a5a0dfa5e: 459531.897
     c8111c7eb5: 419660.504
     4dc83eefce: 435499.405
+    7fb12be99f: 439778.983
+    1b076ca30d: 439009.046
