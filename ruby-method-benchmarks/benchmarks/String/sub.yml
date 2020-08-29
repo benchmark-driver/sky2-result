@@ -5585,6 +5585,8 @@ results:
     74cd607ca0: 1489797.843
     2038cc6cab: 2907712.056
     a92560132b: 3132117.069
+    11c70b3162: 3104390.924
+    ace30f4de8: 3381567.344
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -11169,6 +11171,8 @@ results:
     74cd607ca0: 1315642.622
     2038cc6cab: 2686171.055
     a92560132b: 2704839.499
+    11c70b3162: 3019367.384
+    ace30f4de8: 3387132.504
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -16753,6 +16757,8 @@ results:
     74cd607ca0: 739523.438
     2038cc6cab: 1720792.909
     a92560132b: 1730839.241
+    11c70b3162: 1768889.729
+    ace30f4de8: 1922399.829
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -22337,6 +22343,8 @@ results:
     74cd607ca0: 1212551.295
     2038cc6cab: 2727655.559
     a92560132b: 2972558.926
+    11c70b3162: 2856484.295
+    ace30f4de8: 2780857.272
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -27921,6 +27929,8 @@ results:
     74cd607ca0: 1627404.928
     2038cc6cab: 3187097.255
     a92560132b: 3316595.339
+    11c70b3162: 3373073.383
+    ace30f4de8: 3702021.252
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -33505,6 +33515,8 @@ results:
     74cd607ca0: 1344533.169
     2038cc6cab: 3047329.585
     a92560132b: 3365956.116
+    11c70b3162: 3259317.119
+    ace30f4de8: 3623663.037
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -39089,6 +39101,8 @@ results:
     74cd607ca0: 896338.235
     2038cc6cab: 1804854.666
     a92560132b: 1920234.71
+    11c70b3162: 1852379.749
+    ace30f4de8: 1972142.913
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -44673,3 +44687,5 @@ results:
     74cd607ca0: 1354228.059
     2038cc6cab: 2963751.605
     a92560132b: 3251588.871
+    11c70b3162: 3091630.735
+    ace30f4de8: 2951997.492
