@@ -5786,6 +5786,8 @@ results:
     a5bc0b8f8c: 18240041.601
     cbe4d29c2d: 14970921.332
     3beecafc2c: 15945030.047
+    ebb8de7302: 14432309.871
+    5fb7ca33e6: 2150694.818
   Array#fill(val, start):
     022cbb278f: 9391191.267
     052dbbe74f: 9699621.607
@@ -11571,6 +11573,8 @@ results:
     a5bc0b8f8c: 7681663.103
     cbe4d29c2d: 7648614.972
     3beecafc2c: 7307066.245
+    ebb8de7302: 5356453.94
+    5fb7ca33e6: 1744112.836
   Array#fill(val, start, length):
     022cbb278f: 17039735.427
     052dbbe74f: 18092212.887
@@ -17356,6 +17360,8 @@ results:
     a5bc0b8f8c: 17424612.493
     cbe4d29c2d: 16968354.386
     3beecafc2c: 15092116.878
+    ebb8de7302: 14422561.066
+    5fb7ca33e6: 2220296.805
   Array#fill(val, range):
     022cbb278f: 16510623.102
     052dbbe74f: 16871115.355
@@ -23141,6 +23147,8 @@ results:
     a5bc0b8f8c: 15794516.792
     cbe4d29c2d: 14425283.745
     3beecafc2c: 13803424.345
+    ebb8de7302: 6994750.504
+    5fb7ca33e6: 2070244.532
   Array#fill { |index| ...}:
     022cbb278f: 5045134.429
     052dbbe74f: 4816413.983
@@ -28926,6 +28934,8 @@ results:
     a5bc0b8f8c: 4788102.972
     cbe4d29c2d: 3971701.906
     3beecafc2c: 4529323.949
+    ebb8de7302: 3952514.058
+    5fb7ca33e6: 1113378.493
   Array#fill(start) { |index| ...}:
     022cbb278f: 4942377.051
     052dbbe74f: 5264290.63
@@ -34711,6 +34721,8 @@ results:
     a5bc0b8f8c: 4364393.35
     cbe4d29c2d: 4342161.293
     3beecafc2c: 4269184.984
+    ebb8de7302: 3592689.748
+    5fb7ca33e6: 1264103.064
   Array#fill(start, length) { |index| ...}:
     022cbb278f: 7263464.858
     052dbbe74f: 6837391.544
@@ -40496,6 +40508,8 @@ results:
     a5bc0b8f8c: 6767931.777
     cbe4d29c2d: 6502752.574
     3beecafc2c: 6330968.752
+    ebb8de7302: 5566565.042
+    5fb7ca33e6: 1474632.609
   Array#fill(range) { |index| ...}:
     022cbb278f: 7984740.537
     052dbbe74f: 8797946.288
@@ -46281,3 +46295,5 @@ results:
     a5bc0b8f8c: 7851376.458
     cbe4d29c2d: 7427697.229
     3beecafc2c: 7199649.365
+    ebb8de7302: 4226872.994
+    5fb7ca33e6: 1641026.192
