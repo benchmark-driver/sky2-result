@@ -5905,6 +5905,8 @@ results:
     44b24ab4c1: 3128496.661
     1feffe12d4: 3013055.938
     16daee1c75: 3057508.774
+    8830d60dae: 1480060.956
+    e7739b600f: 3100911.779
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -11809,6 +11811,8 @@ results:
     44b24ab4c1: 3048998.006
     1feffe12d4: 2976934.234
     16daee1c75: 3014976.635
+    8830d60dae: 1322289.755
+    e7739b600f: 2999612.677
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -17713,6 +17717,8 @@ results:
     44b24ab4c1: 1842706.014
     1feffe12d4: 1801094.84
     16daee1c75: 1799918.762
+    8830d60dae: 860692.642
+    e7739b600f: 1798326.151
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -23617,6 +23623,8 @@ results:
     44b24ab4c1: 2949577.137
     1feffe12d4: 2746960.681
     16daee1c75: 2876026.276
+    8830d60dae: 1246188.061
+    e7739b600f: 2904341.728
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -29521,6 +29529,8 @@ results:
     44b24ab4c1: 3378134.392
     1feffe12d4: 3298228.21
     16daee1c75: 2794218.077
+    8830d60dae: 1611840.75
+    e7739b600f: 3407609.937
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -35425,6 +35435,8 @@ results:
     44b24ab4c1: 3084092.418
     1feffe12d4: 3187927.419
     16daee1c75: 3255907.846
+    8830d60dae: 1452980.507
+    e7739b600f: 3311797.537
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -41329,6 +41341,8 @@ results:
     44b24ab4c1: 1923829.473
     1feffe12d4: 1880775.828
     16daee1c75: 1890745.662
+    8830d60dae: 921129.75
+    e7739b600f: 1919174.542
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -47233,3 +47247,5 @@ results:
     44b24ab4c1: 3175830.099
     1feffe12d4: 3068376.012
     16daee1c75: 3111993.556
+    8830d60dae: 1346102.49
+    e7739b600f: 3208125.465
