@@ -5980,6 +5980,8 @@ results:
     0bca34ddaa: 3085328.651
     073ff73972: 2997931.231
     fcdda2f8a1: 2898542.424
+    0fe6461148: 2677764.098
+    f6c8ca0359: 3036681.146
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -11959,6 +11961,8 @@ results:
     0bca34ddaa: 2959679.516
     073ff73972: 2981037.642
     fcdda2f8a1: 3010175.416
+    0fe6461148: 2570839.135
+    f6c8ca0359: 3010442.082
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -17938,6 +17942,8 @@ results:
     0bca34ddaa: 1791843.008
     073ff73972: 1799382.584
     fcdda2f8a1: 1799112.167
+    0fe6461148: 1594328.25
+    f6c8ca0359: 1834891.937
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -23917,6 +23923,8 @@ results:
     0bca34ddaa: 2749765.858
     073ff73972: 2842474.859
     fcdda2f8a1: 2877587.732
+    0fe6461148: 2505767.921
+    f6c8ca0359: 2921871.953
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -29896,6 +29904,8 @@ results:
     0bca34ddaa: 3446862.145
     073ff73972: 3309893.506
     fcdda2f8a1: 3380625.515
+    0fe6461148: 2915915.81
+    f6c8ca0359: 3348289.801
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -35875,6 +35885,8 @@ results:
     0bca34ddaa: 3305545.188
     073ff73972: 3226274.637
     fcdda2f8a1: 3205513.051
+    0fe6461148: 2706515.067
+    f6c8ca0359: 3167884.779
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -41854,6 +41866,8 @@ results:
     0bca34ddaa: 1916958.968
     073ff73972: 1874354.798
     fcdda2f8a1: 1902697.284
+    0fe6461148: 1698607.098
+    f6c8ca0359: 1798792.413
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -47833,3 +47847,5 @@ results:
     0bca34ddaa: 2869366.017
     073ff73972: 3080221.528
     fcdda2f8a1: 2627281.684
+    0fe6461148: 2758812.201
+    f6c8ca0359: 3143205.127
