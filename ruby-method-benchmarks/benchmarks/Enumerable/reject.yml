@@ -6090,6 +6090,8 @@ results:
     fbaab562d9: 9392380.404
     b0e9db65c3: 10346769.36
     de2afcbf0c: 8113581.2
+    7fc8f83edb: 9502219.44
+    a0bee2bbd6: 10026517.419
   Enumerable#reject { |obj| true }:
     '08e9c58d51': 298368.394
     109633b127: 280616.845
@@ -12179,6 +12181,8 @@ results:
     fbaab562d9: 162214.126
     b0e9db65c3: 240402.323
     de2afcbf0c: 189040.28
+    7fc8f83edb: 197915.485
+    a0bee2bbd6: 219545.368
   Enumerable#reject { |obj| false }:
     '08e9c58d51': 254621.62
     109633b127: 243672.699
@@ -18268,3 +18272,5 @@ results:
     fbaab562d9: 169354.343
     b0e9db65c3: 203432.353
     de2afcbf0c: 58735.641
+    7fc8f83edb: 135407.323
+    a0bee2bbd6: 170473.356
