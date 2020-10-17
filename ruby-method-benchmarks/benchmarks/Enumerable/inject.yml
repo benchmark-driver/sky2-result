@@ -6069,6 +6069,8 @@ results:
     988b4bc9ea: 226295.618
     fa7addebb4: 220667.086
     '029c7e6045': 226564.748
+    e6be06e4ef: 221855.603
+    eb21e8add3: 201459.712
   Enumerable#inject(init, sym):
     00c33d9c23: 284288.429
     025206d0dd: 294506.081
@@ -12137,6 +12139,8 @@ results:
     988b4bc9ea: 235961.303
     fa7addebb4: 230839.588
     '029c7e6045': 226971.788
+    e6be06e4ef: 208826.831
+    eb21e8add3: 176277.955
   Enumerable#inject { |result, item| ...}:
     00c33d9c23: 248345.022
     025206d0dd: 242596.91
@@ -18205,6 +18209,8 @@ results:
     988b4bc9ea: 211038.493
     fa7addebb4: 190088.799
     '029c7e6045': 199685.164
+    e6be06e4ef: 178016.995
+    eb21e8add3: 181240.532
   Enumerable#inject(init) { |result, item| ...}:
     00c33d9c23: 237973.225
     025206d0dd: 249419.144
@@ -24273,6 +24279,8 @@ results:
     988b4bc9ea: 209439.211
     fa7addebb4: 198360.057
     '029c7e6045': 198033.34
+    e6be06e4ef: 174263.898
+    eb21e8add3: 175676.674
   Enumerable#reduce(sym):
     00c33d9c23: 286270.881
     025206d0dd: 289771.268
@@ -30341,6 +30349,8 @@ results:
     988b4bc9ea: 237813.218
     fa7addebb4: 231413.486
     '029c7e6045': 229030.014
+    e6be06e4ef: 219366.414
+    eb21e8add3: 199831.446
   Enumerable#reduce(init, sym):
     00c33d9c23: 271151.987
     025206d0dd: 294393.988
@@ -36409,6 +36419,8 @@ results:
     988b4bc9ea: 239083.649
     fa7addebb4: 230094.052
     '029c7e6045': 196266.635
+    e6be06e4ef: 220959.56
+    eb21e8add3: 201499.246
   Enumerable#reduce { |result, item| ...}:
     00c33d9c23: 240781.44
     025206d0dd: 233248.523
@@ -42477,6 +42489,8 @@ results:
     988b4bc9ea: 213678.129
     fa7addebb4: 193993.932
     '029c7e6045': 199512.131
+    e6be06e4ef: 201244.154
+    eb21e8add3: 182441.603
   Enumerable#reduce(init) { |result, item| ...}:
     00c33d9c23: 248882.723
     025206d0dd: 250091.641
@@ -48545,3 +48559,5 @@ results:
     988b4bc9ea: 207121.053
     fa7addebb4: 168724.619
     '029c7e6045': 194907.571
+    e6be06e4ef: 197587.075
+    eb21e8add3: 178333.731
