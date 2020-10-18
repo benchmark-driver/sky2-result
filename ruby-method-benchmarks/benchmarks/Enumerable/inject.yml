@@ -6082,6 +6082,8 @@ results:
     eca964c24e: 338869.786
     0fa1c82bfc: 200397.444
     4ab14aece4: 233458.281
+    54fb8fb62a: 225753.696
+    890bc2cdde: 207110.789
   Enumerable#inject(init, sym):
     00c33d9c23: 284288.429
     025206d0dd: 294506.081
@@ -12163,6 +12165,8 @@ results:
     eca964c24e: 336599.422
     0fa1c82bfc: 197910.306
     4ab14aece4: 232368.865
+    54fb8fb62a: 223937.553
+    890bc2cdde: 206117.333
   Enumerable#inject { |result, item| ...}:
     00c33d9c23: 248345.022
     025206d0dd: 242596.91
@@ -18244,6 +18248,8 @@ results:
     eca964c24e: 214481.267
     0fa1c82bfc: 158241.284
     4ab14aece4: 201810.095
+    54fb8fb62a: 198549.865
+    890bc2cdde: 179988.193
   Enumerable#inject(init) { |result, item| ...}:
     00c33d9c23: 237973.225
     025206d0dd: 249419.144
@@ -24325,6 +24331,8 @@ results:
     eca964c24e: 210210.31
     0fa1c82bfc: 176534.769
     4ab14aece4: 200651.384
+    54fb8fb62a: 197482.688
+    890bc2cdde: 179981.02
   Enumerable#reduce(sym):
     00c33d9c23: 286270.881
     025206d0dd: 289771.268
@@ -30406,6 +30414,8 @@ results:
     eca964c24e: 292874.62
     0fa1c82bfc: 201782.824
     4ab14aece4: 232061.536
+    54fb8fb62a: 217928.578
+    890bc2cdde: 207202.705
   Enumerable#reduce(init, sym):
     00c33d9c23: 271151.987
     025206d0dd: 294393.988
@@ -36487,6 +36497,8 @@ results:
     eca964c24e: 332716.242
     0fa1c82bfc: 197696.718
     4ab14aece4: 223886.141
+    54fb8fb62a: 223372.672
+    890bc2cdde: 200675.536
   Enumerable#reduce { |result, item| ...}:
     00c33d9c23: 240781.44
     025206d0dd: 233248.523
@@ -42568,6 +42580,8 @@ results:
     eca964c24e: 189618.266
     0fa1c82bfc: 178256.085
     4ab14aece4: 200939.142
+    54fb8fb62a: 195256.547
+    890bc2cdde: 176002.969
   Enumerable#reduce(init) { |result, item| ...}:
     00c33d9c23: 248882.723
     025206d0dd: 250091.641
@@ -48649,3 +48663,5 @@ results:
     eca964c24e: 212736.146
     0fa1c82bfc: 174075.829
     4ab14aece4: 200089.603
+    54fb8fb62a: 186573.549
+    890bc2cdde: 180671.652
