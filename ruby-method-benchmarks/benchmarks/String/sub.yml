@@ -6284,6 +6284,8 @@ results:
     f6b6a7ad34: 3164764.245
     9901bb4c73: 3045483.842
     1b2bda72fc: 2829655.083
+    2e5a711f47: 3051040.701
+    92a30acbfb: 3101532.121
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -12567,6 +12569,8 @@ results:
     f6b6a7ad34: 2759624.883
     9901bb4c73: 2965441.761
     1b2bda72fc: 2679877.533
+    2e5a711f47: 2815917.915
+    92a30acbfb: 2995852.823
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -18850,6 +18854,8 @@ results:
     f6b6a7ad34: 1864571.697
     9901bb4c73: 1795216.354
     1b2bda72fc: 1614172.355
+    2e5a711f47: 1792538.728
+    92a30acbfb: 1802887.572
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -25133,6 +25139,8 @@ results:
     f6b6a7ad34: 3007351.404
     9901bb4c73: 2875964.778
     1b2bda72fc: 2541291.372
+    2e5a711f47: 2880096.741
+    92a30acbfb: 2932431.313
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -31416,6 +31424,8 @@ results:
     f6b6a7ad34: 3435458.379
     9901bb4c73: 3300092.444
     1b2bda72fc: 3127165.525
+    2e5a711f47: 3293765.64
+    92a30acbfb: 3426287.111
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -37699,6 +37709,8 @@ results:
     f6b6a7ad34: 3373200.888
     9901bb4c73: 2991998.81
     1b2bda72fc: 2957279.331
+    2e5a711f47: 3257909.951
+    92a30acbfb: 3309863.224
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -43982,6 +43994,8 @@ results:
     f6b6a7ad34: 1963205.993
     9901bb4c73: 1858905.996
     1b2bda72fc: 1761692.51
+    2e5a711f47: 1874492.892
+    92a30acbfb: 1909444.556
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -50265,3 +50279,5 @@ results:
     f6b6a7ad34: 2988371.748
     9901bb4c73: 3098738.943
     1b2bda72fc: 2869729.836
+    2e5a711f47: 3098318.752
+    92a30acbfb: 3233449.353
