@@ -6341,6 +6341,8 @@ results:
     278450de80: 2640130.805
     b29fe5eb2d: 2876949.593
     7ad3aff48d: 2666359.416
+    ee821e9074: 2869888.425
+    6608bc77b6: 2807390.619
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -12681,6 +12683,8 @@ results:
     278450de80: 2512409.415
     b29fe5eb2d: 2539330.731
     7ad3aff48d: 2544552.652
+    ee821e9074: 3110053.033
+    6608bc77b6: 2686303.033
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -19021,6 +19025,8 @@ results:
     278450de80: 1580937.005
     b29fe5eb2d: 1667416.433
     7ad3aff48d: 1613862.298
+    ee821e9074: 1922308.047
+    6608bc77b6: 1659821.994
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -25361,6 +25367,8 @@ results:
     278450de80: 2534706.883
     b29fe5eb2d: 2778093.615
     7ad3aff48d: 2607232.964
+    ee821e9074: 3075616.198
+    6608bc77b6: 2605936.661
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -31701,6 +31709,8 @@ results:
     278450de80: 2893207.754
     b29fe5eb2d: 2962111.41
     7ad3aff48d: 2832498.647
+    ee821e9074: 3001833.726
+    6608bc77b6: 2919005.806
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -38041,6 +38051,8 @@ results:
     278450de80: 2713710.096
     b29fe5eb2d: 3024805.189
     7ad3aff48d: 2779345.459
+    ee821e9074: 3528958.343
+    6608bc77b6: 2958995.892
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -44381,6 +44393,8 @@ results:
     278450de80: 1663689.987
     b29fe5eb2d: 1716370.313
     7ad3aff48d: 1708941.165
+    ee821e9074: 2037471.055
+    6608bc77b6: 1781349.017
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -50721,3 +50735,5 @@ results:
     278450de80: 2763364.454
     b29fe5eb2d: 2835777.257
     7ad3aff48d: 2833576.174
+    ee821e9074: 3278924.834
+    6608bc77b6: 2884115.75
