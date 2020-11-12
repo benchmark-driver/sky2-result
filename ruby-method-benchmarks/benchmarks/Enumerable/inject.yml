@@ -6346,6 +6346,8 @@ results:
     9be1baedbc: 232893.236
     a11b9ca01c: 230201.518
     a4f3e1762a: 231687.449
+    6e8ec9ab6d: 226324.525
+    dd1bfbc061: 204006.543
   Enumerable#inject(init, sym):
     00c33d9c23: 284288.429
     025206d0dd: 294506.081
@@ -12691,6 +12693,8 @@ results:
     9be1baedbc: 231989.261
     a11b9ca01c: 228202.215
     a4f3e1762a: 182418.345
+    6e8ec9ab6d: 224456.794
+    dd1bfbc061: 221809.145
   Enumerable#inject { |result, item| ...}:
     00c33d9c23: 248345.022
     025206d0dd: 242596.91
@@ -19036,6 +19040,8 @@ results:
     9be1baedbc: 183477.698
     a11b9ca01c: 193250.409
     a4f3e1762a: 196842.05
+    6e8ec9ab6d: 202205.573
+    dd1bfbc061: 203960.037
   Enumerable#inject(init) { |result, item| ...}:
     00c33d9c23: 237973.225
     025206d0dd: 249419.144
@@ -25381,6 +25387,8 @@ results:
     9be1baedbc: 207107.607
     a11b9ca01c: 199318.801
     a4f3e1762a: 196671.105
+    6e8ec9ab6d: 197112.14
+    dd1bfbc061: 201215.682
   Enumerable#reduce(sym):
     00c33d9c23: 286270.881
     025206d0dd: 289771.268
@@ -31726,6 +31734,8 @@ results:
     9be1baedbc: 231066.469
     a11b9ca01c: 229832.993
     a4f3e1762a: 228506.999
+    6e8ec9ab6d: 225826.109
+    dd1bfbc061: 224672.909
   Enumerable#reduce(init, sym):
     00c33d9c23: 271151.987
     025206d0dd: 294393.988
@@ -38071,6 +38081,8 @@ results:
     9be1baedbc: 231993.043
     a11b9ca01c: 227501.019
     a4f3e1762a: 183583.435
+    6e8ec9ab6d: 224963.346
+    dd1bfbc061: 223418.507
   Enumerable#reduce { |result, item| ...}:
     00c33d9c23: 240781.44
     025206d0dd: 233248.523
@@ -44416,6 +44428,8 @@ results:
     9be1baedbc: 208477.967
     a11b9ca01c: 199373.815
     a4f3e1762a: 197766.95
+    6e8ec9ab6d: 203661.473
+    dd1bfbc061: 204132.673
   Enumerable#reduce(init) { |result, item| ...}:
     00c33d9c23: 248882.723
     025206d0dd: 250091.641
@@ -50761,3 +50775,5 @@ results:
     9be1baedbc: 181935.103
     a11b9ca01c: 197290.157
     a4f3e1762a: 185644.813
+    6e8ec9ab6d: 201651.073
+    dd1bfbc061: 200123.384
