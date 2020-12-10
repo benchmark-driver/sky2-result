@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  9792c9d183: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 9792c9d183) [x86_64-linux]
-    last_commit=[ruby/fileutils] Fix test_cp_r_dev on Windows or other systems without character/block device in /dev
-  9792c9d183 --jit: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 9792c9d183) +JIT [x86_64-linux]
-    last_commit=[ruby/fileutils] Fix test_cp_r_dev on Windows or other systems without character/block device in /dev
-  06c35cfa65: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 06c35cfa65) [x86_64-linux]
-    last_commit=[ruby/fileutils] Fix cp_r with symlink root on Windows
-  06c35cfa65 --jit: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 06c35cfa65) +JIT [x86_64-linux]
-    last_commit=[ruby/fileutils] Fix cp_r with symlink root on Windows
-  d5355123cc: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk d5355123cc) [x86_64-linux]
-    last_commit=[ruby/fileutils] Reduce global variables
-  d5355123cc --jit: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk d5355123cc) +JIT [x86_64-linux]
-    last_commit=[ruby/fileutils] Reduce global variables
   49b7805e9a: |-
     ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 49b7805e9a) [x86_64-linux]
     last_commit=[ruby/fileutils] Use Gemfile instead of Gem::Specification#add_development_dependency.
@@ -14952,3 +14934,11 @@ commits:
   72f1c43584 --jit: ruby 3.0.0dev (2020-12-10T09:27:44Z master 72f1c43584) +JIT [x86_64-linux]
   658b4ff609: ruby 3.0.0dev (2020-12-10T09:55:03Z master 658b4ff609) [x86_64-linux]
   658b4ff609 --jit: ruby 3.0.0dev (2020-12-10T09:55:03Z master 658b4ff609) +JIT [x86_64-linux]
+  78f188524f: ruby 3.0.0dev (2020-12-10T11:52:29Z master 78f188524f) [x86_64-linux]
+  78f188524f --jit: ruby 3.0.0dev (2020-12-10T11:52:29Z master 78f188524f) +JIT [x86_64-linux]
+  d5dfc3f2c8: ruby 3.0.0dev (2020-12-10T12:06:10Z master d5dfc3f2c8) [x86_64-linux]
+  d5dfc3f2c8 --jit: ruby 3.0.0dev (2020-12-10T12:06:10Z master d5dfc3f2c8) +JIT [x86_64-linux]
+  73db60bdda: ruby 3.0.0dev (2020-12-10T12:41:47Z master 73db60bdda) [x86_64-linux]
+  73db60bdda --jit: ruby 3.0.0dev (2020-12-10T12:41:47Z master 73db60bdda) +JIT [x86_64-linux]
+  673fcb7e9a: ruby 3.0.0dev (2020-12-10T12:48:04Z master 673fcb7e9a) [x86_64-linux]
+  673fcb7e9a --jit: ruby 3.0.0dev (2020-12-10T12:48:04Z master 673fcb7e9a) +JIT [x86_64-linux]
