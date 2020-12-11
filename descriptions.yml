@@ -11,30 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  94db8cda9b: |-
-    ruby 2.7.0dev (2019-09-29T09:53:11Z trunk 94db8cda9b) [x86_64-linux]
-    last_commit=[ruby/zlib] Fix for older ruby 2.6 or earlier
-  94db8cda9b --jit: |-
-    ruby 2.7.0dev (2019-09-29T09:53:11Z trunk 94db8cda9b) +JIT [x86_64-linux]
-    last_commit=[ruby/zlib] Fix for older ruby 2.6 or earlier
-  7f30783af7: |-
-    ruby 2.7.0dev (2019-09-29T09:55:26Z trunk 7f30783af7) [x86_64-linux]
-    last_commit=[ruby/stringio] Get rid of String#undump for ruby 2.4 or earlier
-  7f30783af7 --jit: |-
-    ruby 2.7.0dev (2019-09-29T09:55:26Z trunk 7f30783af7) +JIT [x86_64-linux]
-    last_commit=[ruby/stringio] Get rid of String#undump for ruby 2.4 or earlier
-  ef795f9abd: |-
-    ruby 2.7.0dev (2019-09-29T09:55:28Z trunk ef795f9abd) [x86_64-linux]
-    last_commit=[ruby/stringio] Dropped older ruby versions
-  ef795f9abd --jit: |-
-    ruby 2.7.0dev (2019-09-29T09:55:28Z trunk ef795f9abd) +JIT [x86_64-linux]
-    last_commit=[ruby/stringio] Dropped older ruby versions
-  68ab4a5e35: |-
-    ruby 2.7.0dev (2019-09-29T09:55:30Z trunk 68ab4a5e35) [x86_64-linux]
-    last_commit=[ruby/stringio] Replaced rb_funcall2 with rb_funcallv
-  68ab4a5e35 --jit: |-
-    ruby 2.7.0dev (2019-09-29T09:55:30Z trunk 68ab4a5e35) +JIT [x86_64-linux]
-    last_commit=[ruby/stringio] Replaced rb_funcall2 with rb_funcallv
   7fe253f47f: |-
     ruby 2.7.0dev (2019-09-29T09:55:32Z trunk 7fe253f47f) [x86_64-linux]
     last_commit=[ruby/stringio] Use rb_funcallv_kw when delegating arguments
@@ -14846,3 +14822,11 @@ commits:
   4439b78336 --jit: ruby 3.0.0dev (2020-12-11T05:36:48Z master 4439b78336) +JIT [x86_64-linux]
   885135f84c: ruby 3.0.0dev (2020-12-11T05:56:49Z master 885135f84c) [x86_64-linux]
   885135f84c --jit: ruby 3.0.0dev (2020-12-11T05:56:49Z master 885135f84c) +JIT [x86_64-linux]
+  1728eba48a: ruby 3.0.0dev (2020-12-11T10:40:25Z master 1728eba48a) [x86_64-linux]
+  1728eba48a --jit: ruby 3.0.0dev (2020-12-11T10:40:25Z master 1728eba48a) +JIT [x86_64-linux]
+  ed343c76fb: ruby 3.0.0dev (2020-12-11T11:21:03Z master ed343c76fb) [x86_64-linux]
+  ed343c76fb --jit: ruby 3.0.0dev (2020-12-11T11:21:03Z master ed343c76fb) +JIT [x86_64-linux]
+  68d3952c52: ruby 3.0.0dev (2020-12-11T14:08:06Z master 68d3952c52) [x86_64-linux]
+  68d3952c52 --jit: ruby 3.0.0dev (2020-12-11T14:08:06Z master 68d3952c52) +JIT [x86_64-linux]
+  eea756ac86: ruby 3.0.0dev (2020-12-11T14:14:36Z master eea756ac86) [x86_64-linux]
+  eea756ac86 --jit: ruby 3.0.0dev (2020-12-11T14:14:36Z master eea756ac86) +JIT [x86_64-linux]
