@@ -11,66 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  49b7805e9a: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 49b7805e9a) [x86_64-linux]
-    last_commit=[ruby/fileutils] Use Gemfile instead of Gem::Specification#add_development_dependency.
-  49b7805e9a --jit: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 49b7805e9a) +JIT [x86_64-linux]
-    last_commit=[ruby/fileutils] Use Gemfile instead of Gem::Specification#add_development_dependency.
-  2082a26dc7: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 2082a26dc7) [x86_64-linux]
-    last_commit=[ruby/fileutils] Bump version to 1.3.0.
-  2082a26dc7 --jit: |-
-    ruby 2.7.0dev (2019-09-27T02:39:02Z trunk 2082a26dc7) +JIT [x86_64-linux]
-    last_commit=[ruby/fileutils] Bump version to 1.3.0.
-  eff15a269f: |-
-    ruby 2.7.0dev (2019-09-27T04:52:33Z trunk eff15a269f) [x86_64-linux]
-    last_commit=[EXPERIMENTAL] Make NilClass#to_s, TrueClass#to_s and FalseClass#to_s return a frozen String
-  eff15a269f --jit: |-
-    ruby 2.7.0dev (2019-09-27T04:52:33Z trunk eff15a269f) +JIT [x86_64-linux]
-    last_commit=[EXPERIMENTAL] Make NilClass#to_s, TrueClass#to_s and FalseClass#to_s return a frozen String
-  4d3502d57f: |-
-    ruby 2.7.0dev (2019-09-27T05:01:37Z trunk 4d3502d57f) [x86_64-linux]
-    last_commit=More tests for [Feature #16150]
-  4d3502d57f --jit: |-
-    ruby 2.7.0dev (2019-09-27T05:01:37Z trunk 4d3502d57f) +JIT [x86_64-linux]
-    last_commit=More tests for [Feature #16150]
-  8d0ff88727: |-
-    ruby 2.7.0dev (2019-09-27T05:06:07Z trunk 8d0ff88727) [x86_64-linux]
-    last_commit=Adjusted spaces [ci skip]
-  8d0ff88727 --jit: |-
-    ruby 2.7.0dev (2019-09-27T05:06:07Z trunk 8d0ff88727) +JIT [x86_64-linux]
-    last_commit=Adjusted spaces [ci skip]
-  '03284fb911': |-
-    ruby 2.7.0dev (2019-09-27T12:07:53Z trunk 03284fb911) [x86_64-linux]
-    last_commit=assert_in_out_err should use FailDesc too
-  '03284fb911 --jit': |-
-    ruby 2.7.0dev (2019-09-27T12:07:53Z trunk 03284fb911) +JIT [x86_64-linux]
-    last_commit=assert_in_out_err should use FailDesc too
-  79d5332a2d: |-
-    ruby 2.7.0dev (2019-09-27T12:12:27Z trunk 79d5332a2d) [x86_64-linux]
-    last_commit=Drop eliminated catch-entries
-  79d5332a2d --jit: |-
-    ruby 2.7.0dev (2019-09-27T12:12:27Z trunk 79d5332a2d) +JIT [x86_64-linux]
-    last_commit=Drop eliminated catch-entries
-  80d0b6f132: |-
-    ruby 2.7.0dev (2019-09-27T12:54:26Z trunk 80d0b6f132) [x86_64-linux]
-    last_commit=Updated bundled_gems
-  80d0b6f132 --jit: |-
-    ruby 2.7.0dev (2019-09-27T12:54:26Z trunk 80d0b6f132) +JIT [x86_64-linux]
-    last_commit=Updated bundled_gems
-  2b6a9f3a1f: |-
-    ruby 2.7.0dev (2019-09-27T14:43:32Z trunk 2b6a9f3a1f) [x86_64-linux]
-    last_commit=Ignore Errno::EPIPE when sending requests in net/http
-  2b6a9f3a1f --jit: |-
-    ruby 2.7.0dev (2019-09-27T14:43:32Z trunk 2b6a9f3a1f) +JIT [x86_64-linux]
-    last_commit=Ignore Errno::EPIPE when sending requests in net/http
-  43a16c98df: |-
-    ruby 2.7.0dev (2019-09-27T14:43:32Z trunk 43a16c98df) [x86_64-linux]
-    last_commit=Do not escape + in Shellwords.escape
-  43a16c98df --jit: |-
-    ruby 2.7.0dev (2019-09-27T14:43:32Z trunk 43a16c98df) +JIT [x86_64-linux]
-    last_commit=Do not escape + in Shellwords.escape
   a2c26fe1c6: |-
     ruby 2.7.0dev (2019-09-27T14:43:32Z trunk a2c26fe1c6) [x86_64-linux]
     last_commit=Fix fallback in URI.encode_www_form_component to include #
@@ -14942,3 +14882,23 @@ commits:
   73db60bdda --jit: ruby 3.0.0dev (2020-12-10T12:41:47Z master 73db60bdda) +JIT [x86_64-linux]
   673fcb7e9a: ruby 3.0.0dev (2020-12-10T12:48:04Z master 673fcb7e9a) [x86_64-linux]
   673fcb7e9a --jit: ruby 3.0.0dev (2020-12-10T12:48:04Z master 673fcb7e9a) +JIT [x86_64-linux]
+  b72f613210: ruby 3.0.0dev (2020-12-10T16:17:15Z master b72f613210) [x86_64-linux]
+  b72f613210 --jit: ruby 3.0.0dev (2020-12-10T16:17:15Z master b72f613210) +JIT [x86_64-linux]
+  7f4c31d6a3: ruby 3.0.0dev (2020-12-10T16:19:47Z master 7f4c31d6a3) [x86_64-linux]
+  7f4c31d6a3 --jit: ruby 3.0.0dev (2020-12-10T16:19:47Z master 7f4c31d6a3) +JIT [x86_64-linux]
+  f3c19ddfbc: ruby 3.0.0dev (2020-12-10T16:32:20Z master f3c19ddfbc) [x86_64-linux]
+  f3c19ddfbc --jit: ruby 3.0.0dev (2020-12-10T16:32:20Z master f3c19ddfbc) +JIT [x86_64-linux]
+  4a559aa225: ruby 3.0.0dev (2020-12-10T17:27:02Z master 4a559aa225) [x86_64-linux]
+  4a559aa225 --jit: ruby 3.0.0dev (2020-12-10T17:27:02Z master 4a559aa225) +JIT [x86_64-linux]
+  01b7d5acc7: ruby 3.0.0dev (2020-12-10T18:16:05Z master 01b7d5acc7) [x86_64-linux]
+  01b7d5acc7 --jit: ruby 3.0.0dev (2020-12-10T18:16:05Z master 01b7d5acc7) +JIT [x86_64-linux]
+  699608487d: ruby 3.0.0dev (2020-12-10T18:16:05Z master 699608487d) [x86_64-linux]
+  699608487d --jit: ruby 3.0.0dev (2020-12-10T18:16:05Z master 699608487d) +JIT [x86_64-linux]
+  dca13e2bf7: ruby 3.0.0dev (2020-12-10T18:16:40Z master dca13e2bf7) [x86_64-linux]
+  dca13e2bf7 --jit: ruby 3.0.0dev (2020-12-10T18:16:40Z master dca13e2bf7) +JIT [x86_64-linux]
+  f56ab7a476: ruby 3.0.0dev (2020-12-10T19:18:30Z master f56ab7a476) [x86_64-linux]
+  f56ab7a476 --jit: ruby 3.0.0dev (2020-12-10T19:18:30Z master f56ab7a476) +JIT [x86_64-linux]
+  4474aadae8: ruby 3.0.0dev (2020-12-10T19:48:57Z master 4474aadae8) [x86_64-linux]
+  4474aadae8 --jit: ruby 3.0.0dev (2020-12-10T19:48:57Z master 4474aadae8) +JIT [x86_64-linux]
+  97868f16ff: ruby 3.0.0dev (2020-12-10T21:00:02Z master 97868f16ff) [x86_64-linux]
+  97868f16ff --jit: ruby 3.0.0dev (2020-12-10T21:00:02Z master 97868f16ff) +JIT [x86_64-linux]
