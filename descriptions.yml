@@ -11,66 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  707c48859e: |-
-    ruby 2.7.0dev (2019-09-27T16:24:51Z trunk 707c48859e) [x86_64-linux]
-    last_commit=* 2019-09-28 [ci skip]
-  707c48859e --jit: |-
-    ruby 2.7.0dev (2019-09-27T16:24:51Z trunk 707c48859e) +JIT [x86_64-linux]
-    last_commit=* 2019-09-28 [ci skip]
-  fd0e214183: |-
-    ruby 2.7.0dev (2019-09-27T16:44:59Z trunk fd0e214183) [x86_64-linux]
-    last_commit=Update NEWS section on keyword argument separation [ci skip]
-  fd0e214183 --jit: |-
-    ruby 2.7.0dev (2019-09-27T16:44:59Z trunk fd0e214183) +JIT [x86_64-linux]
-    last_commit=Update NEWS section on keyword argument separation [ci skip]
-  7814b6c657: |-
-    ruby 2.7.0dev (2019-09-27T18:21:50Z trunk 7814b6c657) [x86_64-linux]
-    last_commit=Correctly issue ArgumentError when calling method that accepts no keywords
-  7814b6c657 --jit: |-
-    ruby 2.7.0dev (2019-09-27T18:21:50Z trunk 7814b6c657) +JIT [x86_64-linux]
-    last_commit=Correctly issue ArgumentError when calling method that accepts no keywords
-  d53cf85474: |-
-    ruby 2.7.0dev (2019-09-27T18:22:21Z trunk d53cf85474) [x86_64-linux]
-    last_commit=Fix warning when doing Struct.new(:x, keyword_init: true){}
-  d53cf85474 --jit: |-
-    ruby 2.7.0dev (2019-09-27T18:22:21Z trunk d53cf85474) +JIT [x86_64-linux]
-    last_commit=Fix warning when doing Struct.new(:x, keyword_init: true){}
-  d474243e8c: |-
-    ruby 2.7.0dev (2019-09-28T04:51:09Z trunk d474243e8c) [x86_64-linux]
-    last_commit=NEWS: Added module name to proc and lambda [ci skip]
-  d474243e8c --jit: |-
-    ruby 2.7.0dev (2019-09-28T04:51:09Z trunk d474243e8c) +JIT [x86_64-linux]
-    last_commit=NEWS: Added module name to proc and lambda [ci skip]
-  550a6a6bc1: |-
-    ruby 2.7.0dev (2019-09-28T04:51:27Z trunk 550a6a6bc1) [x86_64-linux]
-    last_commit=NEWS: marked up `**nil` [ci skip]
-  550a6a6bc1 --jit: |-
-    ruby 2.7.0dev (2019-09-28T04:51:27Z trunk 550a6a6bc1) +JIT [x86_64-linux]
-    last_commit=NEWS: marked up `**nil` [ci skip]
-  6e1b72ae4a: |-
-    ruby 2.7.0dev (2019-09-29T04:15:09Z trunk 6e1b72ae4a) [x86_64-linux]
-    last_commit=Upgrade to the latest did_you_mean 1.3.1
-  6e1b72ae4a --jit: |-
-    ruby 2.7.0dev (2019-09-29T04:15:09Z trunk 6e1b72ae4a) +JIT [x86_64-linux]
-    last_commit=Upgrade to the latest did_you_mean 1.3.1
-  289cad501d: |-
-    ruby 2.7.0dev (2019-09-29T04:17:05Z trunk 289cad501d) [x86_64-linux]
-    last_commit=* 2019-09-29 [ci skip]
-  289cad501d --jit: |-
-    ruby 2.7.0dev (2019-09-29T04:17:05Z trunk 289cad501d) +JIT [x86_64-linux]
-    last_commit=* 2019-09-29 [ci skip]
-  e2d97cffe5: |-
-    ruby 2.7.0dev (2019-09-29T08:28:58Z trunk e2d97cffe5) [x86_64-linux]
-    last_commit=[DOC] stated that Array#to_s calls #inspect [ci skip]
-  e2d97cffe5 --jit: |-
-    ruby 2.7.0dev (2019-09-29T08:28:58Z trunk e2d97cffe5) +JIT [x86_64-linux]
-    last_commit=[DOC] stated that Array#to_s calls #inspect [ci skip]
-  ce477089f6: |-
-    ruby 2.7.0dev (2019-09-29T09:04:28Z trunk ce477089f6) [x86_64-linux]
-    last_commit=[DOC] Fix typos in Array#{to_s,inspect} doc [ci skip]
-  ce477089f6 --jit: |-
-    ruby 2.7.0dev (2019-09-29T09:04:28Z trunk ce477089f6) +JIT [x86_64-linux]
-    last_commit=[DOC] Fix typos in Array#{to_s,inspect} doc [ci skip]
   f10c9cb1f2: |-
     ruby 2.7.0dev (2019-09-29T09:47:59Z trunk f10c9cb1f2) [x86_64-linux]
     last_commit=[ruby/zlib] Search zlib.c as a gem
@@ -14890,3 +14830,23 @@ commits:
   9b0c36b390 --jit: ruby 3.0.0dev (2020-12-11T00:41:12Z master 9b0c36b390) +JIT [x86_64-linux]
   974e89ae07: ruby 3.0.0dev (2020-12-11T00:54:34Z master 974e89ae07) [x86_64-linux]
   974e89ae07 --jit: ruby 3.0.0dev (2020-12-11T00:54:34Z master 974e89ae07) +JIT [x86_64-linux]
+  56918578ea: ruby 3.0.0dev (2020-12-11T02:13:24Z master 56918578ea) [x86_64-linux]
+  56918578ea --jit: ruby 3.0.0dev (2020-12-11T02:13:24Z master 56918578ea) +JIT [x86_64-linux]
+  ad6573163f: ruby 3.0.0dev (2020-12-11T02:57:25Z master ad6573163f) [x86_64-linux]
+  ad6573163f --jit: ruby 3.0.0dev (2020-12-11T02:57:25Z master ad6573163f) +JIT [x86_64-linux]
+  b53ccb9c69: ruby 3.0.0dev (2020-12-11T02:57:25Z master b53ccb9c69) [x86_64-linux]
+  b53ccb9c69 --jit: ruby 3.0.0dev (2020-12-11T02:57:25Z master b53ccb9c69) +JIT [x86_64-linux]
+  288e93bea8: ruby 3.0.0dev (2020-12-11T04:43:18Z master 288e93bea8) [x86_64-linux]
+  288e93bea8 --jit: ruby 3.0.0dev (2020-12-11T04:43:18Z master 288e93bea8) +JIT [x86_64-linux]
+  8c5ec10038: ruby 3.0.0dev (2020-12-11T05:08:23Z master 8c5ec10038) [x86_64-linux]
+  8c5ec10038 --jit: ruby 3.0.0dev (2020-12-11T05:08:23Z master 8c5ec10038) +JIT [x86_64-linux]
+  c718c30007: ruby 3.0.0dev (2020-12-11T05:08:33Z master c718c30007) [x86_64-linux]
+  c718c30007 --jit: ruby 3.0.0dev (2020-12-11T05:08:33Z master c718c30007) +JIT [x86_64-linux]
+  bca57b911a: ruby 3.0.0dev (2020-12-11T05:09:34Z master bca57b911a) [x86_64-linux]
+  bca57b911a --jit: ruby 3.0.0dev (2020-12-11T05:09:34Z master bca57b911a) +JIT [x86_64-linux]
+  947a5505e5: ruby 3.0.0dev (2020-12-11T05:16:42Z master 947a5505e5) [x86_64-linux]
+  947a5505e5 --jit: ruby 3.0.0dev (2020-12-11T05:16:42Z master 947a5505e5) +JIT [x86_64-linux]
+  a6a68bae3c: ruby 3.0.0dev (2020-12-11T05:16:42Z master a6a68bae3c) [x86_64-linux]
+  a6a68bae3c --jit: ruby 3.0.0dev (2020-12-11T05:16:42Z master a6a68bae3c) +JIT [x86_64-linux]
+  4439b78336: ruby 3.0.0dev (2020-12-11T05:36:48Z master 4439b78336) [x86_64-linux]
+  4439b78336 --jit: ruby 3.0.0dev (2020-12-11T05:36:48Z master 4439b78336) +JIT [x86_64-linux]
