@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  a2c26fe1c6: |-
-    ruby 2.7.0dev (2019-09-27T14:43:32Z trunk a2c26fe1c6) [x86_64-linux]
-    last_commit=Fix fallback in URI.encode_www_form_component to include #
-  a2c26fe1c6 --jit: |-
-    ruby 2.7.0dev (2019-09-27T14:43:32Z trunk a2c26fe1c6) +JIT [x86_64-linux]
-    last_commit=Fix fallback in URI.encode_www_form_component to include #
-  869e2dd8c8: |-
-    ruby 2.7.0dev (2019-09-27T14:43:32Z trunk 869e2dd8c8) [x86_64-linux]
-    last_commit=Warn for URI.{,un}{escape,encode}, even if not in verbose mode
-  869e2dd8c8 --jit: |-
-    ruby 2.7.0dev (2019-09-27T14:43:32Z trunk 869e2dd8c8) +JIT [x86_64-linux]
-    last_commit=Warn for URI.{,un}{escape,encode}, even if not in verbose mode
-  a1fda16b23: |-
-    ruby 2.7.0dev (2019-09-27T16:24:24Z trunk a1fda16b23) [x86_64-linux]
-    last_commit=Optimize Array#flatten and flatten! for already flattened arrays (#2495)
-  a1fda16b23 --jit: |-
-    ruby 2.7.0dev (2019-09-27T16:24:24Z trunk a1fda16b23) +JIT [x86_64-linux]
-    last_commit=Optimize Array#flatten and flatten! for already flattened arrays (#2495)
   707c48859e: |-
     ruby 2.7.0dev (2019-09-27T16:24:51Z trunk 707c48859e) [x86_64-linux]
     last_commit=* 2019-09-28 [ci skip]
@@ -14902,3 +14884,9 @@ commits:
   4474aadae8 --jit: ruby 3.0.0dev (2020-12-10T19:48:57Z master 4474aadae8) +JIT [x86_64-linux]
   97868f16ff: ruby 3.0.0dev (2020-12-10T21:00:02Z master 97868f16ff) [x86_64-linux]
   97868f16ff --jit: ruby 3.0.0dev (2020-12-10T21:00:02Z master 97868f16ff) +JIT [x86_64-linux]
+  6b1d2de6cc: ruby 3.0.0dev (2020-12-10T22:40:29Z master 6b1d2de6cc) [x86_64-linux]
+  6b1d2de6cc --jit: ruby 3.0.0dev (2020-12-10T22:40:29Z master 6b1d2de6cc) +JIT [x86_64-linux]
+  9b0c36b390: ruby 3.0.0dev (2020-12-11T00:41:12Z master 9b0c36b390) [x86_64-linux]
+  9b0c36b390 --jit: ruby 3.0.0dev (2020-12-11T00:41:12Z master 9b0c36b390) +JIT [x86_64-linux]
+  974e89ae07: ruby 3.0.0dev (2020-12-11T00:54:34Z master 974e89ae07) [x86_64-linux]
+  974e89ae07 --jit: ruby 3.0.0dev (2020-12-11T00:54:34Z master 974e89ae07) +JIT [x86_64-linux]
