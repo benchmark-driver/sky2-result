@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  f10c9cb1f2: |-
-    ruby 2.7.0dev (2019-09-29T09:47:59Z trunk f10c9cb1f2) [x86_64-linux]
-    last_commit=[ruby/zlib] Search zlib.c as a gem
-  f10c9cb1f2 --jit: |-
-    ruby 2.7.0dev (2019-09-29T09:47:59Z trunk f10c9cb1f2) +JIT [x86_64-linux]
-    last_commit=[ruby/zlib] Search zlib.c as a gem
   94db8cda9b: |-
     ruby 2.7.0dev (2019-09-29T09:53:11Z trunk 94db8cda9b) [x86_64-linux]
     last_commit=[ruby/zlib] Fix for older ruby 2.6 or earlier
@@ -14850,3 +14844,5 @@ commits:
   a6a68bae3c --jit: ruby 3.0.0dev (2020-12-11T05:16:42Z master a6a68bae3c) +JIT [x86_64-linux]
   4439b78336: ruby 3.0.0dev (2020-12-11T05:36:48Z master 4439b78336) [x86_64-linux]
   4439b78336 --jit: ruby 3.0.0dev (2020-12-11T05:36:48Z master 4439b78336) +JIT [x86_64-linux]
+  885135f84c: ruby 3.0.0dev (2020-12-11T05:56:49Z master 885135f84c) [x86_64-linux]
+  885135f84c --jit: ruby 3.0.0dev (2020-12-11T05:56:49Z master 885135f84c) +JIT [x86_64-linux]
