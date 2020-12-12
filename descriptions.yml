@@ -11,30 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  7fe253f47f: |-
-    ruby 2.7.0dev (2019-09-29T09:55:32Z trunk 7fe253f47f) [x86_64-linux]
-    last_commit=[ruby/stringio] Use rb_funcallv_kw when delegating arguments
-  7fe253f47f --jit: |-
-    ruby 2.7.0dev (2019-09-29T09:55:32Z trunk 7fe253f47f) +JIT [x86_64-linux]
-    last_commit=[ruby/stringio] Use rb_funcallv_kw when delegating arguments
-  f6f03dcad6: |-
-    ruby 2.7.0dev (2019-09-29T09:55:34Z trunk f6f03dcad6) [x86_64-linux]
-    last_commit=[ruby/stringio] Bump up the version
-  f6f03dcad6 --jit: |-
-    ruby 2.7.0dev (2019-09-29T09:55:34Z trunk f6f03dcad6) +JIT [x86_64-linux]
-    last_commit=[ruby/stringio] Bump up the version
-  e3b11566bf: |-
-    ruby 2.7.0dev (2019-09-29T11:57:54Z trunk e3b11566bf) [x86_64-linux]
-    last_commit=Remove continue-on-error for test-bundled-gems
-  e3b11566bf --jit: |-
-    ruby 2.7.0dev (2019-09-29T11:57:54Z trunk e3b11566bf) +JIT [x86_64-linux]
-    last_commit=Remove continue-on-error for test-bundled-gems
-  d090e449ef: |-
-    ruby 2.7.0dev (2019-09-29T11:57:54Z trunk d090e449ef) [x86_64-linux]
-    last_commit=Exclude the test-unit bundled gem tests since they also fail since the Time#inspect change
-  d090e449ef --jit: |-
-    ruby 2.7.0dev (2019-09-29T11:57:54Z trunk d090e449ef) +JIT [x86_64-linux]
-    last_commit=Exclude the test-unit bundled gem tests since they also fail since the Time#inspect change
   4096e4b08c: |-
     ruby 2.7.0dev (2019-09-29T11:57:54Z trunk 4096e4b08c) [x86_64-linux]
     last_commit=Move the logic to test bundled gems to Ruby code
@@ -14830,3 +14806,11 @@ commits:
   68d3952c52 --jit: ruby 3.0.0dev (2020-12-11T14:08:06Z master 68d3952c52) +JIT [x86_64-linux]
   eea756ac86: ruby 3.0.0dev (2020-12-11T14:14:36Z master eea756ac86) [x86_64-linux]
   eea756ac86 --jit: ruby 3.0.0dev (2020-12-11T14:14:36Z master eea756ac86) +JIT [x86_64-linux]
+  abbc43413c: ruby 3.0.0dev (2020-12-11T15:28:08Z master abbc43413c) [x86_64-linux]
+  abbc43413c --jit: ruby 3.0.0dev (2020-12-11T15:28:08Z master abbc43413c) +JIT [x86_64-linux]
+  e795b63246: ruby 3.0.0dev (2020-12-11T15:29:02Z master e795b63246) [x86_64-linux]
+  e795b63246 --jit: ruby 3.0.0dev (2020-12-11T15:29:02Z master e795b63246) +JIT [x86_64-linux]
+  31e8de2920: ruby 3.0.0dev (2020-12-11T21:18:19Z master 31e8de2920) [x86_64-linux]
+  31e8de2920 --jit: ruby 3.0.0dev (2020-12-11T21:18:19Z master 31e8de2920) +JIT [x86_64-linux]
+  d741c77b5f: ruby 3.0.0dev (2020-12-11T21:19:18Z master d741c77b5f) [x86_64-linux]
+  d741c77b5f --jit: ruby 3.0.0dev (2020-12-11T21:19:18Z master d741c77b5f) +JIT [x86_64-linux]
