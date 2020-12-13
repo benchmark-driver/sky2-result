@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  2740b86905: |-
-    ruby 2.7.0dev (2019-09-29T22:16:11Z trunk 2740b86905) [x86_64-linux]
-    last_commit=Update to latest test-unit
-  2740b86905 --jit: |-
-    ruby 2.7.0dev (2019-09-29T22:16:11Z trunk 2740b86905) +JIT [x86_64-linux]
-    last_commit=Update to latest test-unit
-  59060aadea: |-
-    ruby 2.7.0dev (2019-09-29T22:16:11Z trunk 59060aadea) [x86_64-linux]
-    last_commit=Run test-unit tests in CI
-  59060aadea --jit: |-
-    ruby 2.7.0dev (2019-09-29T22:16:11Z trunk 59060aadea) +JIT [x86_64-linux]
-    last_commit=Run test-unit tests in CI
   58dfea0c8d: |-
     ruby 2.7.0dev (2019-09-29T23:28:52Z trunk 58dfea0c8d) [x86_64-linux]
     last_commit=Make direct calls to rb_{obj_instance,mod_module}_{eval,exec} not pass keywords
@@ -14762,3 +14750,7 @@ commits:
   efbef729b2 --jit: ruby 3.0.0dev (2020-12-12T14:11:47Z master efbef729b2) +JIT [x86_64-linux]
   7ef5226520: ruby 3.0.0dev (2020-12-12T14:25:15Z master 7ef5226520) [x86_64-linux]
   7ef5226520 --jit: ruby 3.0.0dev (2020-12-12T14:25:15Z master 7ef5226520) +JIT [x86_64-linux]
+  3b7c05ef8d: ruby 3.0.0dev (2020-12-12T16:16:57Z master 3b7c05ef8d) [x86_64-linux]
+  3b7c05ef8d --jit: ruby 3.0.0dev (2020-12-12T16:16:57Z master 3b7c05ef8d) +JIT [x86_64-linux]
+  92dfe9aefb: ruby 3.0.0dev (2020-12-12T16:30:32Z master 92dfe9aefb) [x86_64-linux]
+  92dfe9aefb --jit: ruby 3.0.0dev (2020-12-12T16:30:32Z master 92dfe9aefb) +JIT [x86_64-linux]
