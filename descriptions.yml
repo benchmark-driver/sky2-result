@@ -11,48 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  58dfea0c8d: |-
-    ruby 2.7.0dev (2019-09-29T23:28:52Z trunk 58dfea0c8d) [x86_64-linux]
-    last_commit=Make direct calls to rb_{obj_instance,mod_module}_{eval,exec} not pass keywords
-  58dfea0c8d --jit: |-
-    ruby 2.7.0dev (2019-09-29T23:28:52Z trunk 58dfea0c8d) +JIT [x86_64-linux]
-    last_commit=Make direct calls to rb_{obj_instance,mod_module}_{eval,exec} not pass keywords
-  6fdd701472: |-
-    ruby 2.7.0dev (2019-09-29T23:41:00Z trunk 6fdd701472) [x86_64-linux]
-    last_commit=Remove VM_NO_KEYWORDS, replace with RB_NO_KEYWORDS
-  6fdd701472 --jit: |-
-    ruby 2.7.0dev (2019-09-29T23:41:00Z trunk 6fdd701472) +JIT [x86_64-linux]
-    last_commit=Remove VM_NO_KEYWORDS, replace with RB_NO_KEYWORDS
-  86427a3219: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 86427a3219) [x86_64-linux]
-    last_commit=refactor delete METHOD_ENTRY_COMPLEMENTED flag
-  86427a3219 --jit: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 86427a3219) +JIT [x86_64-linux]
-    last_commit=refactor delete METHOD_ENTRY_COMPLEMENTED flag
-  f56506be0d: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk f56506be0d) [x86_64-linux]
-    last_commit=refactor delete ID_TABLE_ITERATOR_RESULT_END
-  f56506be0d --jit: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk f56506be0d) +JIT [x86_64-linux]
-    last_commit=refactor delete ID_TABLE_ITERATOR_RESULT_END
-  3632a812c0: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 3632a812c0) [x86_64-linux]
-    last_commit=refactor add rb_id_table_foreach_with_replace_with_key
-  3632a812c0 --jit: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 3632a812c0) +JIT [x86_64-linux]
-    last_commit=refactor add rb_id_table_foreach_with_replace_with_key
-  cf33608203: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk cf33608203) [x86_64-linux]
-    last_commit=refactor constify most of rb_method_definition_t
-  cf33608203 --jit: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk cf33608203) +JIT [x86_64-linux]
-    last_commit=refactor constify most of rb_method_definition_t
-  c11c5e69ac: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk c11c5e69ac) [x86_64-linux]
-    last_commit=refactor split rb_method_definition_set
-  c11c5e69ac --jit: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk c11c5e69ac) +JIT [x86_64-linux]
-    last_commit=refactor split rb_method_definition_set
   1521f7cf89: |-
     ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 1521f7cf89) [x86_64-linux]
     last_commit=refactor delete vm_cref_dump
@@ -14754,3 +14712,17 @@ commits:
   3b7c05ef8d --jit: ruby 3.0.0dev (2020-12-12T16:16:57Z master 3b7c05ef8d) +JIT [x86_64-linux]
   92dfe9aefb: ruby 3.0.0dev (2020-12-12T16:30:32Z master 92dfe9aefb) [x86_64-linux]
   92dfe9aefb --jit: ruby 3.0.0dev (2020-12-12T16:30:32Z master 92dfe9aefb) +JIT [x86_64-linux]
+  246d7e4f1d: ruby 3.0.0dev (2020-12-13T02:46:24Z master 246d7e4f1d) [x86_64-linux]
+  246d7e4f1d --jit: ruby 3.0.0dev (2020-12-13T02:46:24Z master 246d7e4f1d) +JIT [x86_64-linux]
+  1b45174aea: ruby 3.0.0dev (2020-12-13T02:47:50Z master 1b45174aea) [x86_64-linux]
+  1b45174aea --jit: ruby 3.0.0dev (2020-12-13T02:47:50Z master 1b45174aea) +JIT [x86_64-linux]
+  a8cf526ae9: ruby 3.0.0dev (2020-12-13T02:51:49Z master a8cf526ae9) [x86_64-linux]
+  a8cf526ae9 --jit: ruby 3.0.0dev (2020-12-13T02:51:49Z master a8cf526ae9) +JIT [x86_64-linux]
+  88f3ce12d3: ruby 3.0.0dev (2020-12-13T02:51:49Z master 88f3ce12d3) [x86_64-linux]
+  88f3ce12d3 --jit: ruby 3.0.0dev (2020-12-13T02:51:49Z master 88f3ce12d3) +JIT [x86_64-linux]
+  97e6c28db4: ruby 3.0.0dev (2020-12-13T02:57:05Z master 97e6c28db4) [x86_64-linux]
+  97e6c28db4 --jit: ruby 3.0.0dev (2020-12-13T02:57:05Z master 97e6c28db4) +JIT [x86_64-linux]
+  416e402cf3: ruby 3.0.0dev (2020-12-13T04:12:18Z master 416e402cf3) [x86_64-linux]
+  416e402cf3 --jit: ruby 3.0.0dev (2020-12-13T04:12:18Z master 416e402cf3) +JIT [x86_64-linux]
+  c7530f0d56: ruby 3.0.0dev (2020-12-13T04:39:57Z master c7530f0d56) [x86_64-linux]
+  c7530f0d56 --jit: ruby 3.0.0dev (2020-12-13T04:39:57Z master c7530f0d56) +JIT [x86_64-linux]
