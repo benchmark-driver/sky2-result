@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  595b3c4fdd: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 595b3c4fdd) [x86_64-linux]
-    last_commit=refactor rb_method_definition_create take opts
-  595b3c4fdd --jit: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 595b3c4fdd) +JIT [x86_64-linux]
-    last_commit=refactor rb_method_definition_create take opts
-  '3207979278': |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 3207979278) [x86_64-linux]
-    last_commit=refactor delete rb_method_definition_set
-  3207979278 --jit: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 3207979278) +JIT [x86_64-linux]
-    last_commit=refactor delete rb_method_definition_set
   7cb96d41a5: |-
     ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 7cb96d41a5) [x86_64-linux]
     last_commit=refactor delete rb_method_entry_copy
@@ -14722,3 +14710,7 @@ commits:
   c7530f0d56 --jit: ruby 3.0.0dev (2020-12-13T04:39:57Z master c7530f0d56) +JIT [x86_64-linux]
   a3adb10aac: ruby 3.0.0dev (2020-12-13T09:18:15Z master a3adb10aac) [x86_64-linux]
   a3adb10aac --jit: ruby 3.0.0dev (2020-12-13T09:18:15Z master a3adb10aac) +JIT [x86_64-linux]
+  12eb5734b3: ruby 3.0.0dev (2020-12-13T10:26:47Z master 12eb5734b3) [x86_64-linux]
+  12eb5734b3 --jit: ruby 3.0.0dev (2020-12-13T10:26:47Z master 12eb5734b3) +JIT [x86_64-linux]
+  6e84af2fa9: ruby 3.0.0dev (2020-12-13T11:26:22Z master 6e84af2fa9) [x86_64-linux]
+  6e84af2fa9 --jit: ruby 3.0.0dev (2020-12-13T11:26:22Z master 6e84af2fa9) +JIT [x86_64-linux]
