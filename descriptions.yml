@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  1521f7cf89: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 1521f7cf89) [x86_64-linux]
-    last_commit=refactor delete vm_cref_dump
-  1521f7cf89 --jit: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 1521f7cf89) +JIT [x86_64-linux]
-    last_commit=refactor delete vm_cref_dump
   595b3c4fdd: |-
     ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 595b3c4fdd) [x86_64-linux]
     last_commit=refactor rb_method_definition_create take opts
@@ -14726,3 +14720,5 @@ commits:
   416e402cf3 --jit: ruby 3.0.0dev (2020-12-13T04:12:18Z master 416e402cf3) +JIT [x86_64-linux]
   c7530f0d56: ruby 3.0.0dev (2020-12-13T04:39:57Z master c7530f0d56) [x86_64-linux]
   c7530f0d56 --jit: ruby 3.0.0dev (2020-12-13T04:39:57Z master c7530f0d56) +JIT [x86_64-linux]
+  a3adb10aac: ruby 3.0.0dev (2020-12-13T09:18:15Z master a3adb10aac) [x86_64-linux]
+  a3adb10aac --jit: ruby 3.0.0dev (2020-12-13T09:18:15Z master a3adb10aac) +JIT [x86_64-linux]
