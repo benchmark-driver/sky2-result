@@ -11,30 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  dd883de5ba: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk dd883de5ba) [x86_64-linux]
-    last_commit=refactor constify most of rb_method_entry_t
-  dd883de5ba --jit: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk dd883de5ba) +JIT [x86_64-linux]
-    last_commit=refactor constify most of rb_method_entry_t
-  fba8627dc1: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk fba8627dc1) [x86_64-linux]
-    last_commit=delete unnecessary branch
-  fba8627dc1 --jit: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk fba8627dc1) +JIT [x86_64-linux]
-    last_commit=delete unnecessary branch
-  649a64ae29: |-
-    ruby 2.7.0dev (2019-09-30T01:31:08Z trunk 649a64ae29) [x86_64-linux]
-    last_commit=Add three more C-API functions for handling keywords
-  649a64ae29 --jit: |-
-    ruby 2.7.0dev (2019-09-30T01:31:08Z trunk 649a64ae29) +JIT [x86_64-linux]
-    last_commit=Add three more C-API functions for handling keywords
-  8ba48c1b85: |-
-    ruby 2.7.0dev (2019-09-30T05:27:02Z trunk 8ba48c1b85) [x86_64-linux]
-    last_commit=rb_method_attr_t::location should be 0 or others.
-  8ba48c1b85 --jit: |-
-    ruby 2.7.0dev (2019-09-30T05:27:02Z trunk 8ba48c1b85) +JIT [x86_64-linux]
-    last_commit=rb_method_attr_t::location should be 0 or others.
   bf8d7d9c1d: |-
     ruby 2.7.0dev (2019-09-30T06:35:22Z trunk bf8d7d9c1d) [x86_64-linux]
     last_commit=show RUBY_ISEQ_DUMP_DEBUG envval if given.
@@ -14702,3 +14678,11 @@ commits:
   66756c6d42 --jit: ruby 3.0.0dev (2020-12-13T23:17:34Z master 66756c6d42) +JIT [x86_64-linux]
   85a7f723c3: ruby 3.0.0dev (2020-12-14T01:26:04Z master 85a7f723c3) [x86_64-linux]
   85a7f723c3 --jit: ruby 3.0.0dev (2020-12-14T01:26:04Z master 85a7f723c3) +JIT [x86_64-linux]
+  fa63052be1: ruby 3.0.0dev (2020-12-14T02:57:46Z master fa63052be1) [x86_64-linux]
+  fa63052be1 --jit: ruby 3.0.0dev (2020-12-14T02:57:46Z master fa63052be1) +JIT [x86_64-linux]
+  967040ba59: ruby 3.0.0dev (2020-12-14T02:57:46Z master 967040ba59) [x86_64-linux]
+  967040ba59 --jit: ruby 3.0.0dev (2020-12-14T02:57:46Z master 967040ba59) +JIT [x86_64-linux]
+  a8aa169b8f: ruby 3.0.0dev (2020-12-14T02:57:46Z master a8aa169b8f) [x86_64-linux]
+  a8aa169b8f --jit: ruby 3.0.0dev (2020-12-14T02:57:46Z master a8aa169b8f) +JIT [x86_64-linux]
+  0362b4c689: ruby 3.0.0dev (2020-12-14T02:57:46Z master 0362b4c689) [x86_64-linux]
+  0362b4c689 --jit: ruby 3.0.0dev (2020-12-14T02:57:46Z master 0362b4c689) +JIT [x86_64-linux]
