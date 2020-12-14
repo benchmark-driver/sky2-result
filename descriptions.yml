@@ -11,54 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  bf8d7d9c1d: |-
-    ruby 2.7.0dev (2019-09-30T06:35:22Z trunk bf8d7d9c1d) [x86_64-linux]
-    last_commit=show RUBY_ISEQ_DUMP_DEBUG envval if given.
-  bf8d7d9c1d --jit: |-
-    ruby 2.7.0dev (2019-09-30T06:35:22Z trunk bf8d7d9c1d) +JIT [x86_64-linux]
-    last_commit=show RUBY_ISEQ_DUMP_DEBUG envval if given.
-  88f38c187e: |-
-    ruby 2.7.0dev (2019-09-30T06:36:19Z trunk 88f38c187e) [x86_64-linux]
-    last_commit=Emulate method_list (chkbuild) on test-all.
-  88f38c187e --jit: |-
-    ruby 2.7.0dev (2019-09-30T06:36:19Z trunk 88f38c187e) +JIT [x86_64-linux]
-    last_commit=Emulate method_list (chkbuild) on test-all.
-  c3b84f2de8: |-
-    ruby 2.7.0dev (2019-09-30T08:23:36Z trunk c3b84f2de8) [x86_64-linux]
-    last_commit=introduce debug check.
-  c3b84f2de8 --jit: |-
-    ruby 2.7.0dev (2019-09-30T08:23:36Z trunk c3b84f2de8) +JIT [x86_64-linux]
-    last_commit=introduce debug check.
-  1722c156dd: |-
-    ruby 2.7.0dev (2019-09-30T08:38:54Z trunk 1722c156dd) [x86_64-linux]
-    last_commit=Now `use_symbol` is always true
-  1722c156dd --jit: |-
-    ruby 2.7.0dev (2019-09-30T08:38:54Z trunk 1722c156dd) +JIT [x86_64-linux]
-    last_commit=Now `use_symbol` is always true
-  771fd915a4: |-
-    ruby 2.7.0dev (2019-09-30T08:39:38Z trunk 771fd915a4) [x86_64-linux]
-    last_commit=Use assert_operator instead of mere assert
-  771fd915a4 --jit: |-
-    ruby 2.7.0dev (2019-09-30T08:39:38Z trunk 771fd915a4) +JIT [x86_64-linux]
-    last_commit=Use assert_operator instead of mere assert
-  10d6a3aca7: |-
-    ruby 2.7.0dev (2019-09-30T08:43:11Z trunk 10d6a3aca7) [x86_64-linux]
-    last_commit=Fix assertion
-  10d6a3aca7 --jit: |-
-    ruby 2.7.0dev (2019-09-30T08:43:11Z trunk 10d6a3aca7) +JIT [x86_64-linux]
-    last_commit=Fix assertion
-  945560008f: |-
-    ruby 2.7.0dev (2019-09-30T08:59:10Z trunk 945560008f) [x86_64-linux]
-    last_commit=Revert "introduce debug check."
-  945560008f --jit: |-
-    ruby 2.7.0dev (2019-09-30T08:59:10Z trunk 945560008f) +JIT [x86_64-linux]
-    last_commit=Revert "introduce debug check."
-  fc66947c61: |-
-    ruby 2.7.0dev (2019-09-30T11:22:29Z trunk fc66947c61) [x86_64-linux]
-    last_commit=test/-ext-/string/test_fstring.rb: suppress "possibly useless use of -@"
-  fc66947c61 --jit: |-
-    ruby 2.7.0dev (2019-09-30T11:22:29Z trunk fc66947c61) +JIT [x86_64-linux]
-    last_commit=test/-ext-/string/test_fstring.rb: suppress "possibly useless use of -@"
   5ddc2ba13e: |-
     ruby 2.7.0dev (2019-09-30T11:24:26Z trunk 5ddc2ba13e) [x86_64-linux]
     last_commit=test/ruby/test_io.rb: supress a "method redefined" warning
@@ -14686,3 +14638,19 @@ commits:
   a8aa169b8f --jit: ruby 3.0.0dev (2020-12-14T02:57:46Z master a8aa169b8f) +JIT [x86_64-linux]
   0362b4c689: ruby 3.0.0dev (2020-12-14T02:57:46Z master 0362b4c689) [x86_64-linux]
   0362b4c689 --jit: ruby 3.0.0dev (2020-12-14T02:57:46Z master 0362b4c689) +JIT [x86_64-linux]
+  53edb27bac: ruby 3.0.0dev (2020-12-14T06:28:09Z master 53edb27bac) [x86_64-linux]
+  53edb27bac --jit: ruby 3.0.0dev (2020-12-14T06:28:09Z master 53edb27bac) +JIT [x86_64-linux]
+  ab869d6b9b: ruby 3.0.0dev (2020-12-14T06:56:13Z master ab869d6b9b) [x86_64-linux]
+  ab869d6b9b --jit: ruby 3.0.0dev (2020-12-14T06:56:13Z master ab869d6b9b) +JIT [x86_64-linux]
+  8d83334a69: ruby 3.0.0dev (2020-12-14T07:33:59Z master 8d83334a69) [x86_64-linux]
+  8d83334a69 --jit: ruby 3.0.0dev (2020-12-14T07:33:59Z master 8d83334a69) +JIT [x86_64-linux]
+  aacd2295d0: ruby 3.0.0dev (2020-12-14T07:35:29Z master aacd2295d0) [x86_64-linux]
+  aacd2295d0 --jit: ruby 3.0.0dev (2020-12-14T07:35:29Z master aacd2295d0) +JIT [x86_64-linux]
+  da3be76cb0: ruby 3.0.0dev (2020-12-14T08:56:34Z master da3be76cb0) [x86_64-linux]
+  da3be76cb0 --jit: ruby 3.0.0dev (2020-12-14T08:56:34Z master da3be76cb0) +JIT [x86_64-linux]
+  c37ba2c547: ruby 3.0.0dev (2020-12-14T09:17:35Z master c37ba2c547) [x86_64-linux]
+  c37ba2c547 --jit: ruby 3.0.0dev (2020-12-14T09:17:35Z master c37ba2c547) +JIT [x86_64-linux]
+  e889c02550: ruby 3.0.0dev (2020-12-14T09:26:45Z master e889c02550) [x86_64-linux]
+  e889c02550 --jit: ruby 3.0.0dev (2020-12-14T09:26:45Z master e889c02550) +JIT [x86_64-linux]
+  7060d6b721: ruby 3.0.0dev (2020-12-14T09:38:40Z master 7060d6b721) [x86_64-linux]
+  7060d6b721 --jit: ruby 3.0.0dev (2020-12-14T09:38:40Z master 7060d6b721) +JIT [x86_64-linux]
