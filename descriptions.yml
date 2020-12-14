@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  7cb96d41a5: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 7cb96d41a5) [x86_64-linux]
-    last_commit=refactor delete rb_method_entry_copy
-  7cb96d41a5 --jit: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 7cb96d41a5) +JIT [x86_64-linux]
-    last_commit=refactor delete rb_method_entry_copy
-  167e6b48f1: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 167e6b48f1) [x86_64-linux]
-    last_commit=refactor reduce METHOD_ENTRY_FLAGS_COPY
-  167e6b48f1 --jit: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 167e6b48f1) +JIT [x86_64-linux]
-    last_commit=refactor reduce METHOD_ENTRY_FLAGS_COPY
-  6c6a25feca: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 6c6a25feca) [x86_64-linux]
-    last_commit=refactor add rb_method_entry_from_template
-  6c6a25feca --jit: |-
-    ruby 2.7.0dev (2019-09-30T01:26:38Z trunk 6c6a25feca) +JIT [x86_64-linux]
-    last_commit=refactor add rb_method_entry_from_template
   dd883de5ba: |-
     ruby 2.7.0dev (2019-09-30T01:26:38Z trunk dd883de5ba) [x86_64-linux]
     last_commit=refactor constify most of rb_method_entry_t
@@ -14714,3 +14696,9 @@ commits:
   12eb5734b3 --jit: ruby 3.0.0dev (2020-12-13T10:26:47Z master 12eb5734b3) +JIT [x86_64-linux]
   6e84af2fa9: ruby 3.0.0dev (2020-12-13T11:26:22Z master 6e84af2fa9) [x86_64-linux]
   6e84af2fa9 --jit: ruby 3.0.0dev (2020-12-13T11:26:22Z master 6e84af2fa9) +JIT [x86_64-linux]
+  ea6856dcdf: ruby 3.0.0dev (2020-12-13T23:17:13Z master ea6856dcdf) [x86_64-linux]
+  ea6856dcdf --jit: ruby 3.0.0dev (2020-12-13T23:17:13Z master ea6856dcdf) +JIT [x86_64-linux]
+  66756c6d42: ruby 3.0.0dev (2020-12-13T23:17:34Z master 66756c6d42) [x86_64-linux]
+  66756c6d42 --jit: ruby 3.0.0dev (2020-12-13T23:17:34Z master 66756c6d42) +JIT [x86_64-linux]
+  85a7f723c3: ruby 3.0.0dev (2020-12-14T01:26:04Z master 85a7f723c3) [x86_64-linux]
+  85a7f723c3 --jit: ruby 3.0.0dev (2020-12-14T01:26:04Z master 85a7f723c3) +JIT [x86_64-linux]
