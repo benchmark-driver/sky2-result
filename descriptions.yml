@@ -11,96 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  5ddc2ba13e: |-
-    ruby 2.7.0dev (2019-09-30T11:24:26Z trunk 5ddc2ba13e) [x86_64-linux]
-    last_commit=test/ruby/test_io.rb: supress a "method redefined" warning
-  5ddc2ba13e --jit: |-
-    ruby 2.7.0dev (2019-09-30T11:24:26Z trunk 5ddc2ba13e) +JIT [x86_64-linux]
-    last_commit=test/ruby/test_io.rb: supress a "method redefined" warning
-  3073404e74: |-
-    ruby 2.7.0dev (2019-09-30T14:06:42Z trunk 3073404e74) [x86_64-linux]
-    last_commit=Add rb_enumeratorize_with_size_kw and related macros
-  3073404e74 --jit: |-
-    ruby 2.7.0dev (2019-09-30T14:06:42Z trunk 3073404e74) +JIT [x86_64-linux]
-    last_commit=Add rb_enumeratorize_with_size_kw and related macros
-  a8c436d9a1: |-
-    ruby 2.7.0dev (2019-09-30T14:06:42Z trunk a8c436d9a1) [x86_64-linux]
-    last_commit=Issue keyword flag warning even with no arguments
-  a8c436d9a1 --jit: |-
-    ruby 2.7.0dev (2019-09-30T14:06:42Z trunk a8c436d9a1) +JIT [x86_64-linux]
-    last_commit=Issue keyword flag warning even with no arguments
-  671ca21254: |-
-    ruby 2.7.0dev (2019-09-30T16:14:19Z trunk 671ca21254) [x86_64-linux]
-    last_commit=remove `unused var` warning
-  671ca21254 --jit: |-
-    ruby 2.7.0dev (2019-09-30T16:14:19Z trunk 671ca21254) +JIT [x86_64-linux]
-    last_commit=remove `unused var` warning
-  01e75b6be9: |-
-    ruby 2.7.0dev (2019-09-30T16:14:45Z trunk 01e75b6be9) [x86_64-linux]
-    last_commit=* 2019-10-01 [ci skip]
-  01e75b6be9 --jit: |-
-    ruby 2.7.0dev (2019-09-30T16:14:45Z trunk 01e75b6be9) +JIT [x86_64-linux]
-    last_commit=* 2019-10-01 [ci skip]
-  a38fe1fbf0: |-
-    ruby 2.7.0dev (2019-09-30T23:57:50Z trunk a38fe1fbf0) [x86_64-linux]
-    last_commit=ext/-test-/enumerator_kw/enumerator_kw.c: remove unused variable
-  a38fe1fbf0 --jit: |-
-    ruby 2.7.0dev (2019-09-30T23:57:50Z trunk a38fe1fbf0) +JIT [x86_64-linux]
-    last_commit=ext/-test-/enumerator_kw/enumerator_kw.c: remove unused variable
-  a0a2640b39: |-
-    ruby 2.7.0dev (2019-10-01T10:19:56Z trunk a0a2640b39) [x86_64-linux]
-    last_commit=Fix for wrong fnmatch patttern
-  a0a2640b39 --jit: |-
-    ruby 2.7.0dev (2019-10-01T10:19:56Z trunk a0a2640b39) +JIT [x86_64-linux]
-    last_commit=Fix for wrong fnmatch patttern
-  36e057e26e: |-
-    ruby 2.7.0dev (2019-10-01T10:19:56Z trunk 36e057e26e) [x86_64-linux]
-    last_commit=Loop with String#scan without creating substrings
-  36e057e26e --jit: |-
-    ruby 2.7.0dev (2019-10-01T10:19:56Z trunk 36e057e26e) +JIT [x86_64-linux]
-    last_commit=Loop with String#scan without creating substrings
-  3ce238b5f9: |-
-    ruby 2.7.0dev (2019-10-01T10:19:56Z trunk 3ce238b5f9) [x86_64-linux]
-    last_commit=WEBrick: prevent response splitting and header injection
-  3ce238b5f9 --jit: |-
-    ruby 2.7.0dev (2019-10-01T10:19:56Z trunk 3ce238b5f9) +JIT [x86_64-linux]
-    last_commit=WEBrick: prevent response splitting and header injection
-  55de0282da: |-
-    ruby 2.7.0dev (2019-10-01T12:26:54Z trunk 55de0282da) [x86_64-linux]
-    last_commit=Remove draft-release.yml [ci skip]
-  55de0282da --jit: |-
-    ruby 2.7.0dev (2019-10-01T12:26:54Z trunk 55de0282da) +JIT [x86_64-linux]
-    last_commit=Remove draft-release.yml [ci skip]
-  15606963de: |-
-    ruby 2.7.0dev (2019-10-01T13:19:18Z trunk 15606963de) [x86_64-linux]
-    last_commit=expose assert_raise and assert_join_threads
-  15606963de --jit: |-
-    ruby 2.7.0dev (2019-10-01T13:19:18Z trunk 15606963de) +JIT [x86_64-linux]
-    last_commit=expose assert_raise and assert_join_threads
-  5af2c8735a: |-
-    ruby 2.7.0dev (2019-10-02T03:59:59Z trunk 5af2c8735a) [x86_64-linux]
-    last_commit=Should fail if `system` failed
-  5af2c8735a --jit: |-
-    ruby 2.7.0dev (2019-10-02T03:59:59Z trunk 5af2c8735a) +JIT [x86_64-linux]
-    last_commit=Should fail if `system` failed
-  a61ae414b6: |-
-    ruby 2.7.0dev (2019-10-02T04:00:17Z trunk a61ae414b6) [x86_64-linux]
-    last_commit=Fix the order of executing `after-update` task
-  a61ae414b6 --jit: |-
-    ruby 2.7.0dev (2019-10-02T04:00:17Z trunk a61ae414b6) +JIT [x86_64-linux]
-    last_commit=Fix the order of executing `after-update` task
-  4946d83a1c: |-
-    ruby 2.7.0dev (2019-10-02T04:00:56Z trunk 4946d83a1c) [x86_64-linux]
-    last_commit=* 2019-10-02 [ci skip]
-  4946d83a1c --jit: |-
-    ruby 2.7.0dev (2019-10-02T04:00:56Z trunk 4946d83a1c) +JIT [x86_64-linux]
-    last_commit=* 2019-10-02 [ci skip]
-  99d3043bd8: |-
-    ruby 2.7.0dev (2019-10-02T07:05:40Z trunk 99d3043bd8) [x86_64-linux]
-    last_commit=Iseq#to_binary: dump flag for **nil (#2508)
-  99d3043bd8 --jit: |-
-    ruby 2.7.0dev (2019-10-02T07:05:40Z trunk 99d3043bd8) +JIT [x86_64-linux]
-    last_commit=Iseq#to_binary: dump flag for **nil (#2508)
   84cbce3d88: |-
     ruby 2.7.0dev (2019-10-02T07:23:00Z trunk 84cbce3d88) [x86_64-linux]
     last_commit=Enable checkers on parallel test.
@@ -14654,3 +14564,21 @@ commits:
   e889c02550 --jit: ruby 3.0.0dev (2020-12-14T09:26:45Z master e889c02550) +JIT [x86_64-linux]
   7060d6b721: ruby 3.0.0dev (2020-12-14T09:38:40Z master 7060d6b721) [x86_64-linux]
   7060d6b721 --jit: ruby 3.0.0dev (2020-12-14T09:38:40Z master 7060d6b721) +JIT [x86_64-linux]
+  b1bd223085: ruby 3.0.0dev (2020-12-14T10:19:16Z master b1bd223085) [x86_64-linux]
+  b1bd223085 --jit: ruby 3.0.0dev (2020-12-14T10:19:16Z master b1bd223085) +JIT [x86_64-linux]
+  f43c71abe0: ruby 3.0.0dev (2020-12-14T10:19:16Z master f43c71abe0) [x86_64-linux]
+  f43c71abe0 --jit: ruby 3.0.0dev (2020-12-14T10:19:16Z master f43c71abe0) +JIT [x86_64-linux]
+  65450e8f7d: ruby 3.0.0dev (2020-12-14T10:19:16Z master 65450e8f7d) [x86_64-linux]
+  65450e8f7d --jit: ruby 3.0.0dev (2020-12-14T10:19:16Z master 65450e8f7d) +JIT [x86_64-linux]
+  60f0c376f7: ruby 3.0.0dev (2020-12-14T10:19:16Z master 60f0c376f7) [x86_64-linux]
+  60f0c376f7 --jit: ruby 3.0.0dev (2020-12-14T10:19:16Z master 60f0c376f7) +JIT [x86_64-linux]
+  dc1cc33d69: ruby 3.0.0dev (2020-12-14T10:19:16Z master dc1cc33d69) [x86_64-linux]
+  dc1cc33d69 --jit: ruby 3.0.0dev (2020-12-14T10:19:16Z master dc1cc33d69) +JIT [x86_64-linux]
+  070a990bcb: ruby 3.0.0dev (2020-12-14T10:19:16Z master 070a990bcb) [x86_64-linux]
+  070a990bcb --jit: ruby 3.0.0dev (2020-12-14T10:19:16Z master 070a990bcb) +JIT [x86_64-linux]
+  '3323174727': ruby 3.0.0dev (2020-12-14T10:19:16Z master 3323174727) [x86_64-linux]
+  3323174727 --jit: ruby 3.0.0dev (2020-12-14T10:19:16Z master 3323174727) +JIT [x86_64-linux]
+  27520a1e1e: ruby 3.0.0dev (2020-12-14T10:39:32Z master 27520a1e1e) [x86_64-linux]
+  27520a1e1e --jit: ruby 3.0.0dev (2020-12-14T10:39:32Z master 27520a1e1e) +JIT [x86_64-linux]
+  c2a60fec2f: ruby 3.0.0dev (2020-12-14T11:13:12Z master c2a60fec2f) [x86_64-linux]
+  c2a60fec2f --jit: ruby 3.0.0dev (2020-12-14T11:13:12Z master c2a60fec2f) +JIT [x86_64-linux]
