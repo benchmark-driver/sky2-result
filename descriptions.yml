@@ -11,30 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  8142a9b43d: |-
-    ruby 2.7.0dev (2019-10-03T10:12:03Z trunk 8142a9b43d) [x86_64-linux]
-    last_commit=make-snapshot: suppress make error messages unless failed
-  8142a9b43d --jit: |-
-    ruby 2.7.0dev (2019-10-03T10:12:03Z trunk 8142a9b43d) +JIT [x86_64-linux]
-    last_commit=make-snapshot: suppress make error messages unless failed
-  8f7fca784a: |-
-    ruby 2.7.0dev (2019-10-03T10:14:49Z trunk 8f7fca784a) [x86_64-linux]
-    last_commit=make-snapshot: touch updated files after prepared
-  8f7fca784a --jit: |-
-    ruby 2.7.0dev (2019-10-03T10:14:49Z trunk 8f7fca784a) +JIT [x86_64-linux]
-    last_commit=make-snapshot: touch updated files after prepared
-  711c40ebdc: |-
-    ruby 2.7.0dev (2019-10-03T17:30:36Z trunk 711c40ebdc) [x86_64-linux]
-    last_commit=Refactor parser_params by removing "in_main" flag
-  711c40ebdc --jit: |-
-    ruby 2.7.0dev (2019-10-03T17:30:36Z trunk 711c40ebdc) +JIT [x86_64-linux]
-    last_commit=Refactor parser_params by removing "in_main" flag
-  b732a9f8a0: |-
-    ruby 2.7.0dev (2019-10-03T17:34:36Z trunk b732a9f8a0) [x86_64-linux]
-    last_commit=parse.y: use "struct rb_iseq_struct" instead of rb_iseq_t
-  b732a9f8a0 --jit: |-
-    ruby 2.7.0dev (2019-10-03T17:34:36Z trunk b732a9f8a0) +JIT [x86_64-linux]
-    last_commit=parse.y: use "struct rb_iseq_struct" instead of rb_iseq_t
   c3dd3b9553: |-
     ruby 2.7.0dev (2019-10-03T17:35:10Z trunk c3dd3b9553) [x86_64-linux]
     last_commit=iseq.c (rb_iseq_compile_with_option): dummy parent_iseq for the parser
@@ -14526,3 +14502,15 @@ commits:
   7898f4243f --jit: ruby 3.0.0dev (2020-12-15T01:26:50Z master 7898f4243f) +JIT [x86_64-linux]
   2fa9f3c032: ruby 3.0.0dev (2020-12-15T01:54:09Z master 2fa9f3c032) [x86_64-linux]
   2fa9f3c032 --jit: ruby 3.0.0dev (2020-12-15T01:54:09Z master 2fa9f3c032) +JIT [x86_64-linux]
+  40b7358e93: ruby 3.0.0dev (2020-12-15T03:38:59Z master 40b7358e93) [x86_64-linux]
+  40b7358e93 --jit: ruby 3.0.0dev (2020-12-15T03:38:59Z master 40b7358e93) +JIT [x86_64-linux]
+  aa6287cd26: ruby 3.0.0dev (2020-12-15T04:29:30Z master aa6287cd26) [x86_64-linux]
+  aa6287cd26 --jit: ruby 3.0.0dev (2020-12-15T04:29:30Z master aa6287cd26) +JIT [x86_64-linux]
+  72a73691bd: ruby 3.0.0dev (2020-12-15T04:29:30Z master 72a73691bd) [x86_64-linux]
+  72a73691bd --jit: ruby 3.0.0dev (2020-12-15T04:29:30Z master 72a73691bd) +JIT [x86_64-linux]
+  9d85ed6cbb: ruby 3.0.0dev (2020-12-15T05:07:41Z master 9d85ed6cbb) [x86_64-linux]
+  9d85ed6cbb --jit: ruby 3.0.0dev (2020-12-15T05:07:41Z master 9d85ed6cbb) +JIT [x86_64-linux]
+  a86c147579: ruby 3.0.0dev (2020-12-15T06:17:15Z master a86c147579) [x86_64-linux]
+  a86c147579 --jit: ruby 3.0.0dev (2020-12-15T06:17:15Z master a86c147579) +JIT [x86_64-linux]
+  ce6fafb8cc: ruby 3.0.0dev (2020-12-15T06:19:23Z master ce6fafb8cc) [x86_64-linux]
+  ce6fafb8cc --jit: ruby 3.0.0dev (2020-12-15T06:19:23Z master ce6fafb8cc) +JIT [x86_64-linux]
