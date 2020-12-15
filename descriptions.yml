@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  c3dd3b9553: |-
-    ruby 2.7.0dev (2019-10-03T17:35:10Z trunk c3dd3b9553) [x86_64-linux]
-    last_commit=iseq.c (rb_iseq_compile_with_option): dummy parent_iseq for the parser
-  c3dd3b9553 --jit: |-
-    ruby 2.7.0dev (2019-10-03T17:35:10Z trunk c3dd3b9553) +JIT [x86_64-linux]
-    last_commit=iseq.c (rb_iseq_compile_with_option): dummy parent_iseq for the parser
-  bdbf8de498: |-
-    ruby 2.7.0dev (2019-10-03T21:12:58Z trunk bdbf8de498) [x86_64-linux]
-    last_commit=Enable Drone CI for ARM 64/32-bit cases. (#2520)
-  bdbf8de498 --jit: |-
-    ruby 2.7.0dev (2019-10-03T21:12:58Z trunk bdbf8de498) +JIT [x86_64-linux]
-    last_commit=Enable Drone CI for ARM 64/32-bit cases. (#2520)
-  12e27a411c: |-
-    ruby 2.7.0dev (2019-10-03T21:13:27Z trunk 12e27a411c) [x86_64-linux]
-    last_commit=Minor updates to methods and calling_methods documentation [ci skip]
-  12e27a411c --jit: |-
-    ruby 2.7.0dev (2019-10-03T21:13:27Z trunk 12e27a411c) +JIT [x86_64-linux]
-    last_commit=Minor updates to methods and calling_methods documentation [ci skip]
   c7715a4936: |-
     ruby 2.7.0dev (2019-10-03T21:13:27Z trunk c7715a4936) [x86_64-linux]
     last_commit=Add documentation regarding keyword argument separation [ci skip]
@@ -14514,3 +14496,9 @@ commits:
   a86c147579 --jit: ruby 3.0.0dev (2020-12-15T06:17:15Z master a86c147579) +JIT [x86_64-linux]
   ce6fafb8cc: ruby 3.0.0dev (2020-12-15T06:19:23Z master ce6fafb8cc) [x86_64-linux]
   ce6fafb8cc --jit: ruby 3.0.0dev (2020-12-15T06:19:23Z master ce6fafb8cc) +JIT [x86_64-linux]
+  5463eff5f6: ruby 3.0.0dev (2020-12-15T07:35:45Z master 5463eff5f6) [x86_64-linux]
+  5463eff5f6 --jit: ruby 3.0.0dev (2020-12-15T07:35:45Z master 5463eff5f6) +JIT [x86_64-linux]
+  ad3e3bd65a: ruby 3.0.0dev (2020-12-15T10:54:58Z master ad3e3bd65a) [x86_64-linux]
+  ad3e3bd65a --jit: ruby 3.0.0dev (2020-12-15T10:54:58Z master ad3e3bd65a) +JIT [x86_64-linux]
+  151ff609e5: ruby 3.0.0dev (2020-12-15T11:06:42Z master 151ff609e5) [x86_64-linux]
+  151ff609e5 --jit: ruby 3.0.0dev (2020-12-15T11:06:42Z master 151ff609e5) +JIT [x86_64-linux]
