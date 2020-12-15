@@ -11,54 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  c7715a4936: |-
-    ruby 2.7.0dev (2019-10-03T21:13:27Z trunk c7715a4936) [x86_64-linux]
-    last_commit=Add documentation regarding keyword argument separation [ci skip]
-  c7715a4936 --jit: |-
-    ruby 2.7.0dev (2019-10-03T21:13:27Z trunk c7715a4936) +JIT [x86_64-linux]
-    last_commit=Add documentation regarding keyword argument separation [ci skip]
-  9f24e8fdbb: |-
-    ruby 2.7.0dev (2019-10-03T21:13:27Z trunk 9f24e8fdbb) [x86_64-linux]
-    last_commit=Document *_kw functions added to include/ruby/ruby.h [ci skip]
-  9f24e8fdbb --jit: |-
-    ruby 2.7.0dev (2019-10-03T21:13:27Z trunk 9f24e8fdbb) +JIT [x86_64-linux]
-    last_commit=Document *_kw functions added to include/ruby/ruby.h [ci skip]
-  804672e7b4: |-
-    ruby 2.7.0dev (2019-10-03T21:17:36Z trunk 804672e7b4) [x86_64-linux]
-    last_commit=Try disabling build on trunk
-  804672e7b4 --jit: |-
-    ruby 2.7.0dev (2019-10-03T21:17:36Z trunk 804672e7b4) +JIT [x86_64-linux]
-    last_commit=Try disabling build on trunk
-  182336ccb5: |-
-    ruby 2.7.0dev (2019-10-03T21:25:45Z trunk 182336ccb5) [x86_64-linux]
-    last_commit=bin_path_spec.rb has failed from the beginning
-  182336ccb5 --jit: |-
-    ruby 2.7.0dev (2019-10-03T21:25:45Z trunk 182336ccb5) +JIT [x86_64-linux]
-    last_commit=bin_path_spec.rb has failed from the beginning
-  ac69a051cf: |-
-    ruby 2.7.0dev (2019-10-03T22:15:05Z trunk ac69a051cf) [x86_64-linux]
-    last_commit=Ignore arm32 failure for now
-  ac69a051cf --jit: |-
-    ruby 2.7.0dev (2019-10-03T22:15:05Z trunk ac69a051cf) +JIT [x86_64-linux]
-    last_commit=Ignore arm32 failure for now
-  a56d742e69: |-
-    ruby 2.7.0dev (2019-10-03T22:33:11Z trunk a56d742e69) [x86_64-linux]
-    last_commit=Simplify bin_path_spec.rb guard
-  a56d742e69 --jit: |-
-    ruby 2.7.0dev (2019-10-03T22:33:11Z trunk a56d742e69) +JIT [x86_64-linux]
-    last_commit=Simplify bin_path_spec.rb guard
-  7db83b04d0: |-
-    ruby 2.7.0dev (2019-10-03T22:58:20Z trunk 7db83b04d0) [x86_64-linux]
-    last_commit=Revert "Simplify bin_path_spec.rb guard"
-  7db83b04d0 --jit: |-
-    ruby 2.7.0dev (2019-10-03T22:58:20Z trunk 7db83b04d0) +JIT [x86_64-linux]
-    last_commit=Revert "Simplify bin_path_spec.rb guard"
-  5be2af5f90: |-
-    ruby 2.7.0dev (2019-10-04T01:15:24Z trunk 5be2af5f90) [x86_64-linux]
-    last_commit=Remove call-seq for method that doesn't exist (#2521)
-  5be2af5f90 --jit: |-
-    ruby 2.7.0dev (2019-10-04T01:15:24Z trunk 5be2af5f90) +JIT [x86_64-linux]
-    last_commit=Remove call-seq for method that doesn't exist (#2521)
   113bef6976: |-
     ruby 2.7.0dev (2019-10-04T07:07:46Z trunk 113bef6976) [x86_64-linux]
     last_commit=array.c (rb_mem_clear): remove "register" from arguments
@@ -14502,3 +14454,19 @@ commits:
   ad3e3bd65a --jit: ruby 3.0.0dev (2020-12-15T10:54:58Z master ad3e3bd65a) +JIT [x86_64-linux]
   151ff609e5: ruby 3.0.0dev (2020-12-15T11:06:42Z master 151ff609e5) [x86_64-linux]
   151ff609e5 --jit: ruby 3.0.0dev (2020-12-15T11:06:42Z master 151ff609e5) +JIT [x86_64-linux]
+  2e436982ee: ruby 3.0.0dev (2020-12-15T12:00:10Z master 2e436982ee) [x86_64-linux]
+  2e436982ee --jit: ruby 3.0.0dev (2020-12-15T12:00:10Z master 2e436982ee) +JIT [x86_64-linux]
+  e0bdd54348: ruby 3.0.0dev (2020-12-15T12:36:23Z master e0bdd54348) [x86_64-linux]
+  e0bdd54348 --jit: ruby 3.0.0dev (2020-12-15T12:36:23Z master e0bdd54348) +JIT [x86_64-linux]
+  4d43ac2fb9: ruby 3.0.0dev (2020-12-15T14:12:28Z master 4d43ac2fb9) [x86_64-linux]
+  4d43ac2fb9 --jit: ruby 3.0.0dev (2020-12-15T14:12:28Z master 4d43ac2fb9) +JIT [x86_64-linux]
+  '9542321584': ruby 3.0.0dev (2020-12-15T14:12:31Z master 9542321584) [x86_64-linux]
+  9542321584 --jit: ruby 3.0.0dev (2020-12-15T14:12:31Z master 9542321584) +JIT [x86_64-linux]
+  8f6cb5b70b: ruby 3.0.0dev (2020-12-15T14:13:24Z master 8f6cb5b70b) [x86_64-linux]
+  8f6cb5b70b --jit: ruby 3.0.0dev (2020-12-15T14:13:24Z master 8f6cb5b70b) +JIT [x86_64-linux]
+  289d42c932: ruby 3.0.0dev (2020-12-15T14:43:08Z master 289d42c932) [x86_64-linux]
+  289d42c932 --jit: ruby 3.0.0dev (2020-12-15T14:43:08Z master 289d42c932) +JIT [x86_64-linux]
+  efc6a4e580: ruby 3.0.0dev (2020-12-15T15:04:59Z master efc6a4e580) [x86_64-linux]
+  efc6a4e580 --jit: ruby 3.0.0dev (2020-12-15T15:04:59Z master efc6a4e580) +JIT [x86_64-linux]
+  a039dc018c: ruby 3.0.0dev (2020-12-15T15:07:37Z master a039dc018c) [x86_64-linux]
+  a039dc018c --jit: ruby 3.0.0dev (2020-12-15T15:07:37Z master a039dc018c) +JIT [x86_64-linux]
