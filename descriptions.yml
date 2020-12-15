@@ -11,42 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  84cbce3d88: |-
-    ruby 2.7.0dev (2019-10-02T07:23:00Z trunk 84cbce3d88) [x86_64-linux]
-    last_commit=Enable checkers on parallel test.
-  84cbce3d88 --jit: |-
-    ruby 2.7.0dev (2019-10-02T07:23:00Z trunk 84cbce3d88) +JIT [x86_64-linux]
-    last_commit=Enable checkers on parallel test.
-  4ed51b3956: |-
-    ruby 2.7.0dev (2019-10-02T08:03:55Z trunk 4ed51b3956) [x86_64-linux]
-    last_commit=Fixed failure message for `clean-cache`
-  4ed51b3956 --jit: |-
-    ruby 2.7.0dev (2019-10-02T08:03:55Z trunk 4ed51b3956) +JIT [x86_64-linux]
-    last_commit=Fixed failure message for `clean-cache`
-  9759e3c9f0: |-
-    ruby 2.7.0dev (2019-10-02T08:19:14Z trunk 9759e3c9f0) [x86_64-linux]
-    last_commit=fix assertion number.
-  9759e3c9f0 --jit: |-
-    ruby 2.7.0dev (2019-10-02T08:19:14Z trunk 9759e3c9f0) +JIT [x86_64-linux]
-    last_commit=fix assertion number.
-  ef697388be: |-
-    ruby 2.7.0dev (2019-10-02T14:56:28Z trunk ef697388be) [x86_64-linux]
-    last_commit=Treat return in block in class/module as LocalJumpError (#2511)
-  ef697388be --jit: |-
-    ruby 2.7.0dev (2019-10-02T14:56:28Z trunk ef697388be) +JIT [x86_64-linux]
-    last_commit=Treat return in block in class/module as LocalJumpError (#2511)
-  eb92159d72: |-
-    ruby 2.7.0dev (2019-10-03T03:45:24Z trunk eb92159d72) [x86_64-linux]
-    last_commit=Revert https://github.com/ruby/ruby/pull/2486
-  eb92159d72 --jit: |-
-    ruby 2.7.0dev (2019-10-03T03:45:24Z trunk eb92159d72) +JIT [x86_64-linux]
-    last_commit=Revert https://github.com/ruby/ruby/pull/2486
-  7e060d5018: |-
-    ruby 2.7.0dev (2019-10-03T03:48:20Z trunk 7e060d5018) [x86_64-linux]
-    last_commit=* expand tabs. [ci skip]
-  7e060d5018 --jit: |-
-    ruby 2.7.0dev (2019-10-03T03:48:20Z trunk 7e060d5018) +JIT [x86_64-linux]
-    last_commit=* expand tabs. [ci skip]
   a515e3f99e: |-
     ruby 2.7.0dev (2019-10-03T03:48:30Z trunk a515e3f99e) [x86_64-linux]
     last_commit=* 2019-10-03 [ci skip]
@@ -14582,3 +14546,15 @@ commits:
   27520a1e1e --jit: ruby 3.0.0dev (2020-12-14T10:39:32Z master 27520a1e1e) +JIT [x86_64-linux]
   c2a60fec2f: ruby 3.0.0dev (2020-12-14T11:13:12Z master c2a60fec2f) [x86_64-linux]
   c2a60fec2f --jit: ruby 3.0.0dev (2020-12-14T11:13:12Z master c2a60fec2f) +JIT [x86_64-linux]
+  b3e99b3676: ruby 3.0.0dev (2020-12-14T14:53:50Z master b3e99b3676) [x86_64-linux]
+  b3e99b3676 --jit: ruby 3.0.0dev (2020-12-14T14:53:50Z master b3e99b3676) +JIT [x86_64-linux]
+  6b3a808b84: ruby 3.0.0dev (2020-12-14T15:03:17Z master 6b3a808b84) [x86_64-linux]
+  6b3a808b84 --jit: ruby 3.0.0dev (2020-12-14T15:03:17Z master 6b3a808b84) +JIT [x86_64-linux]
+  7ca82ff888: ruby 3.0.0dev (2020-12-14T15:05:38Z master 7ca82ff888) [x86_64-linux]
+  7ca82ff888 --jit: ruby 3.0.0dev (2020-12-14T15:05:38Z master 7ca82ff888) +JIT [x86_64-linux]
+  f7850bbea8: ruby 3.0.0dev (2020-12-14T15:06:39Z master f7850bbea8) [x86_64-linux]
+  f7850bbea8 --jit: ruby 3.0.0dev (2020-12-14T15:06:39Z master f7850bbea8) +JIT [x86_64-linux]
+  c183288754: ruby 3.0.0dev (2020-12-14T19:13:48Z master c183288754) [x86_64-linux]
+  c183288754 --jit: ruby 3.0.0dev (2020-12-14T19:13:48Z master c183288754) +JIT [x86_64-linux]
+  f5c89c1660: ruby 3.0.0dev (2020-12-14T19:29:50Z master f5c89c1660) [x86_64-linux]
+  f5c89c1660 --jit: ruby 3.0.0dev (2020-12-14T19:29:50Z master f5c89c1660) +JIT [x86_64-linux]
