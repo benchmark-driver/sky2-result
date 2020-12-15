@@ -11,54 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  a515e3f99e: |-
-    ruby 2.7.0dev (2019-10-03T03:48:30Z trunk a515e3f99e) [x86_64-linux]
-    last_commit=* 2019-10-03 [ci skip]
-  a515e3f99e --jit: |-
-    ruby 2.7.0dev (2019-10-03T03:48:30Z trunk a515e3f99e) +JIT [x86_64-linux]
-    last_commit=* 2019-10-03 [ci skip]
-  1c999952e7: |-
-    ruby 2.7.0dev (2019-10-03T04:44:52Z trunk 1c999952e7) [x86_64-linux]
-    last_commit=Resolve unused local variable reported by LGTM
-  1c999952e7 --jit: |-
-    ruby 2.7.0dev (2019-10-03T04:44:52Z trunk 1c999952e7) +JIT [x86_64-linux]
-    last_commit=Resolve unused local variable reported by LGTM
-  84fc1de512: |-
-    ruby 2.7.0dev (2019-10-03T06:24:09Z trunk 84fc1de512) [x86_64-linux]
-    last_commit=use bind_call for test-all --gc-stress
-  84fc1de512 --jit: |-
-    ruby 2.7.0dev (2019-10-03T06:24:09Z trunk 84fc1de512) +JIT [x86_64-linux]
-    last_commit=use bind_call for test-all --gc-stress
-  3ffd98c5cd: |-
-    ruby 2.7.0dev (2019-10-03T06:24:09Z trunk 3ffd98c5cd) [x86_64-linux]
-    last_commit=add debug counters for vm_search_method_slowpath()
-  3ffd98c5cd --jit: |-
-    ruby 2.7.0dev (2019-10-03T06:24:09Z trunk 3ffd98c5cd) +JIT [x86_64-linux]
-    last_commit=add debug counters for vm_search_method_slowpath()
-  c14755e9ca: |-
-    ruby 2.7.0dev (2019-10-03T09:32:21Z trunk c14755e9ca) [x86_64-linux]
-    last_commit=[ruby/fileutils] improve the compatibility of minitest
-  c14755e9ca --jit: |-
-    ruby 2.7.0dev (2019-10-03T09:32:21Z trunk c14755e9ca) +JIT [x86_64-linux]
-    last_commit=[ruby/fileutils] improve the compatibility of minitest
-  ad67adb5f9: |-
-    ruby 2.7.0dev (2019-10-03T09:32:29Z trunk ad67adb5f9) [x86_64-linux]
-    last_commit=[ruby/fileutils] Use pend instead of skip
-  ad67adb5f9 --jit: |-
-    ruby 2.7.0dev (2019-10-03T09:32:29Z trunk ad67adb5f9) +JIT [x86_64-linux]
-    last_commit=[ruby/fileutils] Use pend instead of skip
-  b7ae26e2ee: |-
-    ruby 2.7.0dev (2019-10-03T10:07:48Z trunk b7ae26e2ee) [x86_64-linux]
-    last_commit=vcs.rb: fix to export git-svn version
-  b7ae26e2ee --jit: |-
-    ruby 2.7.0dev (2019-10-03T10:07:48Z trunk b7ae26e2ee) +JIT [x86_64-linux]
-    last_commit=vcs.rb: fix to export git-svn version
-  47d143be17: |-
-    ruby 2.7.0dev (2019-10-03T10:09:16Z trunk 47d143be17) [x86_64-linux]
-    last_commit=make-snapshot: copy cache files instead of linking
-  47d143be17 --jit: |-
-    ruby 2.7.0dev (2019-10-03T10:09:16Z trunk 47d143be17) +JIT [x86_64-linux]
-    last_commit=make-snapshot: copy cache files instead of linking
   8142a9b43d: |-
     ruby 2.7.0dev (2019-10-03T10:12:03Z trunk 8142a9b43d) [x86_64-linux]
     last_commit=make-snapshot: suppress make error messages unless failed
@@ -14558,3 +14510,19 @@ commits:
   c183288754 --jit: ruby 3.0.0dev (2020-12-14T19:13:48Z master c183288754) +JIT [x86_64-linux]
   f5c89c1660: ruby 3.0.0dev (2020-12-14T19:29:50Z master f5c89c1660) [x86_64-linux]
   f5c89c1660 --jit: ruby 3.0.0dev (2020-12-14T19:29:50Z master f5c89c1660) +JIT [x86_64-linux]
+  25a48b703e: ruby 3.0.0dev (2020-12-14T22:56:42Z master 25a48b703e) [x86_64-linux]
+  25a48b703e --jit: ruby 3.0.0dev (2020-12-14T22:56:42Z master 25a48b703e) +JIT [x86_64-linux]
+  a5fd651575: ruby 3.0.0dev (2020-12-14T23:26:32Z master a5fd651575) [x86_64-linux]
+  a5fd651575 --jit: ruby 3.0.0dev (2020-12-14T23:26:32Z master a5fd651575) +JIT [x86_64-linux]
+  78fad67ce6: ruby 3.0.0dev (2020-12-14T23:41:21Z master 78fad67ce6) [x86_64-linux]
+  78fad67ce6 --jit: ruby 3.0.0dev (2020-12-14T23:41:21Z master 78fad67ce6) +JIT [x86_64-linux]
+  928cb6eeb6: ruby 3.0.0dev (2020-12-14T23:41:21Z master 928cb6eeb6) [x86_64-linux]
+  928cb6eeb6 --jit: ruby 3.0.0dev (2020-12-14T23:41:21Z master 928cb6eeb6) +JIT [x86_64-linux]
+  befa24488c: ruby 3.0.0dev (2020-12-15T01:01:01Z master befa24488c) [x86_64-linux]
+  befa24488c --jit: ruby 3.0.0dev (2020-12-15T01:01:01Z master befa24488c) +JIT [x86_64-linux]
+  c59b9a8c0c: ruby 3.0.0dev (2020-12-15T01:01:55Z master c59b9a8c0c) [x86_64-linux]
+  c59b9a8c0c --jit: ruby 3.0.0dev (2020-12-15T01:01:55Z master c59b9a8c0c) +JIT [x86_64-linux]
+  7898f4243f: ruby 3.0.0dev (2020-12-15T01:26:50Z master 7898f4243f) [x86_64-linux]
+  7898f4243f --jit: ruby 3.0.0dev (2020-12-15T01:26:50Z master 7898f4243f) +JIT [x86_64-linux]
+  2fa9f3c032: ruby 3.0.0dev (2020-12-15T01:54:09Z master 2fa9f3c032) [x86_64-linux]
+  2fa9f3c032 --jit: ruby 3.0.0dev (2020-12-15T01:54:09Z master 2fa9f3c032) +JIT [x86_64-linux]
