@@ -11,36 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  2409667aa2: |-
-    ruby 2.7.0dev (2019-10-06T02:39:01Z trunk 2409667aa2) [x86_64-linux]
-    last_commit=time.c: Fix some bugs about WIDEVALUE
-  2409667aa2 --jit: |-
-    ruby 2.7.0dev (2019-10-06T02:39:01Z trunk 2409667aa2) +JIT [x86_64-linux]
-    last_commit=time.c: Fix some bugs about WIDEVALUE
-  2ca353c2e0: |-
-    ruby 2.7.0dev (2019-10-06T02:49:27Z trunk 2ca353c2e0) [x86_64-linux]
-    last_commit=* 2019-10-06 [ci skip]
-  2ca353c2e0 --jit: |-
-    ruby 2.7.0dev (2019-10-06T02:49:27Z trunk 2ca353c2e0) +JIT [x86_64-linux]
-    last_commit=* 2019-10-06 [ci skip]
-  6525d3bcc7: |-
-    ruby 2.7.0dev (2019-10-06T06:23:00Z trunk 6525d3bcc7) [x86_64-linux]
-    last_commit=test/dtrace/helper.rb: Etc.getgrnam may return nil on some platforms
-  6525d3bcc7 --jit: |-
-    ruby 2.7.0dev (2019-10-06T06:23:00Z trunk 6525d3bcc7) +JIT [x86_64-linux]
-    last_commit=test/dtrace/helper.rb: Etc.getgrnam may return nil on some platforms
-  f62f90367f: |-
-    ruby 2.7.0dev (2019-10-06T07:52:09Z trunk f62f90367f) [x86_64-linux]
-    last_commit=tailcall optimization again (#2528)
-  f62f90367f --jit: |-
-    ruby 2.7.0dev (2019-10-06T07:52:09Z trunk f62f90367f) +JIT [x86_64-linux]
-    last_commit=tailcall optimization again (#2528)
-  ddf5020e4f: |-
-    ruby 2.7.0dev (2019-10-06T08:01:00Z trunk ddf5020e4f) [x86_64-linux]
-    last_commit=Revert "tailcall optimization again (#2528)"
-  ddf5020e4f --jit: |-
-    ruby 2.7.0dev (2019-10-06T08:01:00Z trunk ddf5020e4f) +JIT [x86_64-linux]
-    last_commit=Revert "tailcall optimization again (#2528)"
   309f6a7726: |-
     ruby 2.7.0dev (2019-10-07T05:15:05Z trunk 309f6a7726) [x86_64-linux]
     last_commit=Swap expected and actual correctly
@@ -14382,3 +14352,13 @@ commits:
   ddb93c3d64 --jit: ruby 3.0.0dev (2020-12-16T10:10:37Z master ddb93c3d64) +JIT [x86_64-linux]
   a9a7f4d8b8: ruby 3.0.0dev (2020-12-16T10:12:48Z master a9a7f4d8b8) [x86_64-linux]
   a9a7f4d8b8 --jit: ruby 3.0.0dev (2020-12-16T10:12:48Z master a9a7f4d8b8) +JIT [x86_64-linux]
+  359ad4423e: ruby 3.0.0dev (2020-12-16T11:33:31Z master 359ad4423e) [x86_64-linux]
+  359ad4423e --jit: ruby 3.0.0dev (2020-12-16T11:33:31Z master 359ad4423e) +JIT [x86_64-linux]
+  47328ad217: ruby 3.0.0dev (2020-12-16T12:08:33Z master 47328ad217) [x86_64-linux]
+  47328ad217 --jit: ruby 3.0.0dev (2020-12-16T12:08:33Z master 47328ad217) +JIT [x86_64-linux]
+  9c859f4b3c: ruby 3.0.0dev (2020-12-16T13:53:43Z master 9c859f4b3c) [x86_64-linux]
+  9c859f4b3c --jit: ruby 3.0.0dev (2020-12-16T13:53:43Z master 9c859f4b3c) +JIT [x86_64-linux]
+  bfb374be23: ruby 3.0.0dev (2020-12-16T14:03:23Z master bfb374be23) [x86_64-linux]
+  bfb374be23 --jit: ruby 3.0.0dev (2020-12-16T14:03:23Z master bfb374be23) +JIT [x86_64-linux]
+  53babf35ef: ruby 3.0.0dev (2020-12-16T14:24:07Z master 53babf35ef) [x86_64-linux]
+  53babf35ef --jit: ruby 3.0.0dev (2020-12-16T14:24:07Z master 53babf35ef) +JIT [x86_64-linux]
