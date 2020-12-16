@@ -11,60 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  871005bdd2: |-
-    ruby 2.7.0dev (2019-10-05T01:50:02Z trunk 871005bdd2) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Suppress keywords warning in ruby 2.7
-  871005bdd2 --jit: |-
-    ruby 2.7.0dev (2019-10-05T01:50:02Z trunk 871005bdd2) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Suppress keywords warning in ruby 2.7
-  b659c1b92f: |-
-    ruby 2.7.0dev (2019-10-05T01:50:02Z trunk b659c1b92f) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Add Gem::Dependency#identity method
-  b659c1b92f --jit: |-
-    ruby 2.7.0dev (2019-10-05T01:50:02Z trunk b659c1b92f) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Add Gem::Dependency#identity method
-  7d4ab8bbe7: |-
-    ruby 2.7.0dev (2019-10-05T01:50:02Z trunk 7d4ab8bbe7) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Use dependency.identity in available_specs
-  7d4ab8bbe7 --jit: |-
-    ruby 2.7.0dev (2019-10-05T01:50:02Z trunk 7d4ab8bbe7) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Use dependency.identity in available_specs
-  6dfe0c9dcd: |-
-    ruby 2.7.0dev (2019-10-05T01:50:02Z trunk 6dfe0c9dcd) [x86_64-linux]
-    last_commit=[rubygems/rubygems] The date might have advanced since TODAY has been set
-  6dfe0c9dcd --jit: |-
-    ruby 2.7.0dev (2019-10-05T01:50:02Z trunk 6dfe0c9dcd) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] The date might have advanced since TODAY has been set
-  212da9a6ae: |-
-    ruby 2.7.0dev (2019-10-05T02:04:23Z trunk 212da9a6ae) [x86_64-linux]
-    last_commit=Added dependencies on prerequisite makefiles
-  212da9a6ae --jit: |-
-    ruby 2.7.0dev (2019-10-05T02:04:23Z trunk 212da9a6ae) +JIT [x86_64-linux]
-    last_commit=Added dependencies on prerequisite makefiles
-  3e3cc0885a: |-
-    ruby 2.7.0dev (2019-10-05T02:30:05Z trunk 3e3cc0885a) [x86_64-linux]
-    last_commit=Now keyword parameter warnings are suppressed by 871005bdd204
-  3e3cc0885a --jit: |-
-    ruby 2.7.0dev (2019-10-05T02:30:05Z trunk 3e3cc0885a) +JIT [x86_64-linux]
-    last_commit=Now keyword parameter warnings are suppressed by 871005bdd204
-  70e3fda2eb: |-
-    ruby 2.7.0dev (2019-10-05T08:54:36Z trunk 70e3fda2eb) [x86_64-linux]
-    last_commit=ext/json/parser/prereq.mk: keep line numbers of ext/json/parser/parser.c
-  70e3fda2eb --jit: |-
-    ruby 2.7.0dev (2019-10-05T08:54:36Z trunk 70e3fda2eb) +JIT [x86_64-linux]
-    last_commit=ext/json/parser/prereq.mk: keep line numbers of ext/json/parser/parser.c
-  96452373fd: |-
-    ruby 2.7.0dev (2019-10-05T09:28:19Z trunk 96452373fd) [x86_64-linux]
-    last_commit=ext/json/parser/prereq.mk: use `if $. == 1` instead of a hacky code
-  96452373fd --jit: |-
-    ruby 2.7.0dev (2019-10-05T09:28:19Z trunk 96452373fd) +JIT [x86_64-linux]
-    last_commit=ext/json/parser/prereq.mk: use `if $. == 1` instead of a hacky code
-  06a04a1aa3: |-
-    ruby 2.7.0dev (2019-10-05T10:08:23Z trunk 06a04a1aa3) [x86_64-linux]
-    last_commit=ext/openssl/ossl_ssl.c: Use const declaration if LibreSSL >= 2.8.0
-  06a04a1aa3 --jit: |-
-    ruby 2.7.0dev (2019-10-05T10:08:23Z trunk 06a04a1aa3) +JIT [x86_64-linux]
-    last_commit=ext/openssl/ossl_ssl.c: Use const declaration if LibreSSL >= 2.8.0
   2409667aa2: |-
     ruby 2.7.0dev (2019-10-06T02:39:01Z trunk 2409667aa2) [x86_64-linux]
     last_commit=time.c: Fix some bugs about WIDEVALUE
@@ -14418,3 +14364,21 @@ commits:
   1bafb3cb47 --jit: ruby 3.0.0dev (2020-12-16T04:43:56Z master 1bafb3cb47) +JIT [x86_64-linux]
   98dca85573: ruby 3.0.0dev (2020-12-16T05:20:20Z master 98dca85573) [x86_64-linux]
   98dca85573 --jit: ruby 3.0.0dev (2020-12-16T05:20:20Z master 98dca85573) +JIT [x86_64-linux]
+  19157a3c00: ruby 3.0.0dev (2020-12-16T06:32:11Z master 19157a3c00) [x86_64-linux]
+  19157a3c00 --jit: ruby 3.0.0dev (2020-12-16T06:32:11Z master 19157a3c00) +JIT [x86_64-linux]
+  c668772b14: ruby 3.0.0dev (2020-12-16T07:17:54Z master c668772b14) [x86_64-linux]
+  c668772b14 --jit: ruby 3.0.0dev (2020-12-16T07:17:54Z master c668772b14) +JIT [x86_64-linux]
+  0a52161872: ruby 3.0.0dev (2020-12-16T08:18:13Z master 0a52161872) [x86_64-linux]
+  0a52161872 --jit: ruby 3.0.0dev (2020-12-16T08:18:13Z master 0a52161872) +JIT [x86_64-linux]
+  5d8f227d0e: ruby 3.0.0dev (2020-12-16T08:22:50Z master 5d8f227d0e) [x86_64-linux]
+  5d8f227d0e --jit: ruby 3.0.0dev (2020-12-16T08:22:50Z master 5d8f227d0e) +JIT [x86_64-linux]
+  4fe7f270ce: ruby 3.0.0dev (2020-12-16T08:39:40Z master 4fe7f270ce) [x86_64-linux]
+  4fe7f270ce --jit: ruby 3.0.0dev (2020-12-16T08:39:40Z master 4fe7f270ce) +JIT [x86_64-linux]
+  8b32191a31: ruby 3.0.0dev (2020-12-16T08:54:43Z master 8b32191a31) [x86_64-linux]
+  8b32191a31 --jit: ruby 3.0.0dev (2020-12-16T08:54:43Z master 8b32191a31) +JIT [x86_64-linux]
+  5193fbb6d0: ruby 3.0.0dev (2020-12-16T10:10:37Z master 5193fbb6d0) [x86_64-linux]
+  5193fbb6d0 --jit: ruby 3.0.0dev (2020-12-16T10:10:37Z master 5193fbb6d0) +JIT [x86_64-linux]
+  ddb93c3d64: ruby 3.0.0dev (2020-12-16T10:10:37Z master ddb93c3d64) [x86_64-linux]
+  ddb93c3d64 --jit: ruby 3.0.0dev (2020-12-16T10:10:37Z master ddb93c3d64) +JIT [x86_64-linux]
+  a9a7f4d8b8: ruby 3.0.0dev (2020-12-16T10:12:48Z master a9a7f4d8b8) [x86_64-linux]
+  a9a7f4d8b8 --jit: ruby 3.0.0dev (2020-12-16T10:12:48Z master a9a7f4d8b8) +JIT [x86_64-linux]
