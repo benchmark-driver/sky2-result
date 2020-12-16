@@ -11,48 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  076d3d758b: |-
-    ruby 2.7.0dev (2019-10-04T21:34:40Z trunk 076d3d758b) [x86_64-linux]
-    last_commit=ext/json/parser/parser.rl: Update the source code of parser.c
-  076d3d758b --jit: |-
-    ruby 2.7.0dev (2019-10-04T21:34:40Z trunk 076d3d758b) +JIT [x86_64-linux]
-    last_commit=ext/json/parser/parser.rl: Update the source code of parser.c
-  5717e55e9a: |-
-    ruby 2.7.0dev (2019-10-04T22:00:07Z trunk 5717e55e9a) [x86_64-linux]
-    last_commit=ext/json/parser/prereq.mk: Add a "automatically generated" header
-  5717e55e9a --jit: |-
-    ruby 2.7.0dev (2019-10-04T22:00:07Z trunk 5717e55e9a) +JIT [x86_64-linux]
-    last_commit=ext/json/parser/prereq.mk: Add a "automatically generated" header
-  417c64b9a8: |-
-    ruby 2.7.0dev (2019-10-04T22:00:57Z trunk 417c64b9a8) [x86_64-linux]
-    last_commit=ext/json/parser/parser.rl: Use "signed" char to contain negative values
-  417c64b9a8 --jit: |-
-    ruby 2.7.0dev (2019-10-04T22:00:57Z trunk 417c64b9a8) +JIT [x86_64-linux]
-    last_commit=ext/json/parser/parser.rl: Use "signed" char to contain negative values
-  170d154059: |-
-    ruby 2.7.0dev (2019-10-04T22:37:19Z trunk 170d154059) [x86_64-linux]
-    last_commit=signal.c: Use MINSIGSTKSZ by casting to int
-  170d154059 --jit: |-
-    ruby 2.7.0dev (2019-10-04T22:37:19Z trunk 170d154059) +JIT [x86_64-linux]
-    last_commit=signal.c: Use MINSIGSTKSZ by casting to int
-  f8104d9e9f: |-
-    ruby 2.7.0dev (2019-10-05T01:50:01Z trunk f8104d9e9f) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fixed assertion arguments
-  f8104d9e9f --jit: |-
-    ruby 2.7.0dev (2019-10-05T01:50:01Z trunk f8104d9e9f) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Fixed assertion arguments
-  39e8d5e1cd: |-
-    ruby 2.7.0dev (2019-10-05T01:50:01Z trunk 39e8d5e1cd) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Use dedicated assertion methods
-  39e8d5e1cd --jit: |-
-    ruby 2.7.0dev (2019-10-05T01:50:01Z trunk 39e8d5e1cd) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Use dedicated assertion methods
-  caa9d0bd78: |-
-    ruby 2.7.0dev (2019-10-05T01:50:01Z trunk caa9d0bd78) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Always pass an encoding option to Zlib::GzipReader.wrap
-  caa9d0bd78 --jit: |-
-    ruby 2.7.0dev (2019-10-05T01:50:01Z trunk caa9d0bd78) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Always pass an encoding option to Zlib::GzipReader.wrap
   871005bdd2: |-
     ruby 2.7.0dev (2019-10-05T01:50:02Z trunk 871005bdd2) [x86_64-linux]
     last_commit=[rubygems/rubygems] Suppress keywords warning in ruby 2.7
@@ -14446,3 +14404,17 @@ commits:
   171f0431e7 --jit: ruby 3.0.0dev (2020-12-16T01:36:23Z master 171f0431e7) +JIT [x86_64-linux]
   0b678cc9e5: ruby 3.0.0dev (2020-12-16T01:38:12Z master 0b678cc9e5) [x86_64-linux]
   0b678cc9e5 --jit: ruby 3.0.0dev (2020-12-16T01:38:12Z master 0b678cc9e5) +JIT [x86_64-linux]
+  cfefd1e524: ruby 3.0.0dev (2020-12-16T02:26:26Z master cfefd1e524) [x86_64-linux]
+  cfefd1e524 --jit: ruby 3.0.0dev (2020-12-16T02:26:26Z master cfefd1e524) +JIT [x86_64-linux]
+  b30d7fea56: ruby 3.0.0dev (2020-12-16T03:14:30Z master b30d7fea56) [x86_64-linux]
+  b30d7fea56 --jit: ruby 3.0.0dev (2020-12-16T03:14:30Z master b30d7fea56) +JIT [x86_64-linux]
+  ad8e82f708: ruby 3.0.0dev (2020-12-16T03:31:40Z master ad8e82f708) [x86_64-linux]
+  ad8e82f708 --jit: ruby 3.0.0dev (2020-12-16T03:31:40Z master ad8e82f708) +JIT [x86_64-linux]
+  5499651ee7: ruby 3.0.0dev (2020-12-16T04:06:13Z master 5499651ee7) [x86_64-linux]
+  5499651ee7 --jit: ruby 3.0.0dev (2020-12-16T04:06:13Z master 5499651ee7) +JIT [x86_64-linux]
+  1e11c12a06: ruby 3.0.0dev (2020-12-16T04:30:34Z master 1e11c12a06) [x86_64-linux]
+  1e11c12a06 --jit: ruby 3.0.0dev (2020-12-16T04:30:34Z master 1e11c12a06) +JIT [x86_64-linux]
+  1bafb3cb47: ruby 3.0.0dev (2020-12-16T04:43:56Z master 1bafb3cb47) [x86_64-linux]
+  1bafb3cb47 --jit: ruby 3.0.0dev (2020-12-16T04:43:56Z master 1bafb3cb47) +JIT [x86_64-linux]
+  98dca85573: ruby 3.0.0dev (2020-12-16T05:20:20Z master 98dca85573) [x86_64-linux]
+  98dca85573 --jit: ruby 3.0.0dev (2020-12-16T05:20:20Z master 98dca85573) +JIT [x86_64-linux]
