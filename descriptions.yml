@@ -11,36 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  c8a18e25c1: |-
-    ruby 2.7.0dev (2019-10-04T12:30:32Z trunk c8a18e25c1) [x86_64-linux]
-    last_commit=iseq.c (rb_iseq_compile_on_base): Removed
-  c8a18e25c1 --jit: |-
-    ruby 2.7.0dev (2019-10-04T12:30:32Z trunk c8a18e25c1) +JIT [x86_64-linux]
-    last_commit=iseq.c (rb_iseq_compile_on_base): Removed
-  cbbe198c89: |-
-    ruby 2.7.0dev (2019-10-04T18:02:09Z trunk cbbe198c89) [x86_64-linux]
-    last_commit=Fix potential memory leaks by `rb_imemo_tmpbuf_auto_free_pointer`
-  cbbe198c89 --jit: |-
-    ruby 2.7.0dev (2019-10-04T18:02:09Z trunk cbbe198c89) +JIT [x86_64-linux]
-    last_commit=Fix potential memory leaks by `rb_imemo_tmpbuf_auto_free_pointer`
-  cbf88064f5: |-
-    ruby 2.7.0dev (2019-10-04T18:07:31Z trunk cbf88064f5) [x86_64-linux]
-    last_commit=* 2019-10-05 [ci skip]
-  cbf88064f5 --jit: |-
-    ruby 2.7.0dev (2019-10-04T18:07:31Z trunk cbf88064f5) +JIT [x86_64-linux]
-    last_commit=* 2019-10-05 [ci skip]
-  a20ed0565e: |-
-    ruby 2.7.0dev (2019-10-04T18:11:59Z trunk a20ed0565e) [x86_64-linux]
-    last_commit=Don't allocate objects in `gc_compact`
-  a20ed0565e --jit: |-
-    ruby 2.7.0dev (2019-10-04T18:11:59Z trunk a20ed0565e) +JIT [x86_64-linux]
-    last_commit=Don't allocate objects in `gc_compact`
-  bd4b65f4b0: |-
-    ruby 2.7.0dev (2019-10-04T19:02:41Z trunk bd4b65f4b0) [x86_64-linux]
-    last_commit=IMEMO objects don't have a class, so return early
-  bd4b65f4b0 --jit: |-
-    ruby 2.7.0dev (2019-10-04T19:02:41Z trunk bd4b65f4b0) +JIT [x86_64-linux]
-    last_commit=IMEMO objects don't have a class, so return early
   076d3d758b: |-
     ruby 2.7.0dev (2019-10-04T21:34:40Z trunk 076d3d758b) [x86_64-linux]
     last_commit=ext/json/parser/parser.rl: Update the source code of parser.c
@@ -14466,3 +14436,13 @@ commits:
   a039dc018c --jit: ruby 3.0.0dev (2020-12-15T15:07:37Z master a039dc018c) +JIT [x86_64-linux]
   d5f0d338c7: ruby 3.0.0dev (2020-12-15T17:54:45Z master d5f0d338c7) [x86_64-linux]
   d5f0d338c7 --jit: ruby 3.0.0dev (2020-12-15T17:54:45Z master d5f0d338c7) +JIT [x86_64-linux]
+  8558d5e480: ruby 3.0.0dev (2020-12-15T22:09:01Z master 8558d5e480) [x86_64-linux]
+  8558d5e480 --jit: ruby 3.0.0dev (2020-12-15T22:09:01Z master 8558d5e480) +JIT [x86_64-linux]
+  ccc828f499: ruby 3.0.0dev (2020-12-15T23:47:49Z master ccc828f499) [x86_64-linux]
+  ccc828f499 --jit: ruby 3.0.0dev (2020-12-15T23:47:49Z master ccc828f499) +JIT [x86_64-linux]
+  dff67c809f: ruby 3.0.0dev (2020-12-16T01:29:48Z master dff67c809f) [x86_64-linux]
+  dff67c809f --jit: ruby 3.0.0dev (2020-12-16T01:29:48Z master dff67c809f) +JIT [x86_64-linux]
+  171f0431e7: ruby 3.0.0dev (2020-12-16T01:36:23Z master 171f0431e7) [x86_64-linux]
+  171f0431e7 --jit: ruby 3.0.0dev (2020-12-16T01:36:23Z master 171f0431e7) +JIT [x86_64-linux]
+  0b678cc9e5: ruby 3.0.0dev (2020-12-16T01:38:12Z master 0b678cc9e5) [x86_64-linux]
+  0b678cc9e5 --jit: ruby 3.0.0dev (2020-12-16T01:38:12Z master 0b678cc9e5) +JIT [x86_64-linux]
