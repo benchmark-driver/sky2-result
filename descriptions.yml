@@ -11,30 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  96753e8475: |-
-    ruby 2.7.0dev (2019-10-07T10:05:42Z trunk 96753e8475) [x86_64-linux]
-    last_commit=Create info.yml and info.json
-  96753e8475 --jit: |-
-    ruby 2.7.0dev (2019-10-07T10:05:42Z trunk 96753e8475) +JIT [x86_64-linux]
-    last_commit=Create info.yml and info.json
-  3374e1450c: |-
-    ruby 2.7.0dev (2019-10-07T10:33:33Z trunk 3374e1450c) [x86_64-linux]
-    last_commit=Write yaml and json under destdir and print to stdout
-  3374e1450c --jit: |-
-    ruby 2.7.0dev (2019-10-07T10:33:33Z trunk 3374e1450c) +JIT [x86_64-linux]
-    last_commit=Write yaml and json under destdir and print to stdout
-  468184a996: |-
-    ruby 2.7.0dev (2019-10-07T14:37:12Z trunk 468184a996) [x86_64-linux]
-    last_commit=Allow ruby2_keywords to be used with bmethods
-  468184a996 --jit: |-
-    ruby 2.7.0dev (2019-10-07T14:37:12Z trunk 468184a996) +JIT [x86_64-linux]
-    last_commit=Allow ruby2_keywords to be used with bmethods
-  7abb02771a: |-
-    ruby 2.7.0dev (2019-10-07T15:00:24Z trunk 7abb02771a) [x86_64-linux]
-    last_commit=Fix typo [ci skip]
-  7abb02771a --jit: |-
-    ruby 2.7.0dev (2019-10-07T15:00:24Z trunk 7abb02771a) +JIT [x86_64-linux]
-    last_commit=Fix typo [ci skip]
   d8b6f58502: |-
     ruby 2.7.0dev (2019-10-07T15:00:54Z trunk d8b6f58502) [x86_64-linux]
     last_commit=* 2019-10-08 [ci skip]
@@ -14334,3 +14310,11 @@ commits:
   2a3324fcd2 --jit: ruby 3.0.0dev (2020-12-16T18:44:23Z master 2a3324fcd2) +JIT [x86_64-linux]
   93ba3ac036: ruby 3.0.0dev (2020-12-16T18:46:44Z master 93ba3ac036) [x86_64-linux]
   93ba3ac036 --jit: ruby 3.0.0dev (2020-12-16T18:46:44Z master 93ba3ac036) +JIT [x86_64-linux]
+  d07183ec85: ruby 3.0.0dev (2020-12-17T03:43:43Z master d07183ec85) [x86_64-linux]
+  d07183ec85 --jit: ruby 3.0.0dev (2020-12-17T03:43:43Z master d07183ec85) +JIT [x86_64-linux]
+  ccf9da079f: ruby 3.0.0dev (2020-12-17T04:22:15Z master ccf9da079f) [x86_64-linux]
+  ccf9da079f --jit: ruby 3.0.0dev (2020-12-17T04:22:15Z master ccf9da079f) +JIT [x86_64-linux]
+  46ea74297e: ruby 3.0.0dev (2020-12-17T05:20:42Z master 46ea74297e) [x86_64-linux]
+  46ea74297e --jit: ruby 3.0.0dev (2020-12-17T05:20:42Z master 46ea74297e) +JIT [x86_64-linux]
+  a09c3c6fe1: ruby 3.0.0dev (2020-12-17T05:37:45Z master a09c3c6fe1) [x86_64-linux]
+  a09c3c6fe1 --jit: ruby 3.0.0dev (2020-12-17T05:37:45Z master a09c3c6fe1) +JIT [x86_64-linux]
