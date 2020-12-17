@@ -11,54 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  d8b6f58502: |-
-    ruby 2.7.0dev (2019-10-07T15:00:54Z trunk d8b6f58502) [x86_64-linux]
-    last_commit=* 2019-10-08 [ci skip]
-  d8b6f58502 --jit: |-
-    ruby 2.7.0dev (2019-10-07T15:00:54Z trunk d8b6f58502) +JIT [x86_64-linux]
-    last_commit=* 2019-10-08 [ci skip]
-  0a2f04e156: |-
-    ruby 2.7.0dev (2019-10-07T17:57:30Z trunk 0a2f04e156) [x86_64-linux]
-    last_commit=Eliminate second GC pass for eliminating T_MOVED
-  0a2f04e156 --jit: |-
-    ruby 2.7.0dev (2019-10-07T17:57:30Z trunk 0a2f04e156) +JIT [x86_64-linux]
-    last_commit=Eliminate second GC pass for eliminating T_MOVED
-  '058db33c5e': |-
-    ruby 2.7.0dev (2019-10-07T19:10:24Z trunk 058db33c5e) [x86_64-linux]
-    last_commit=Move empty pages to the tomb
-  '058db33c5e --jit': |-
-    ruby 2.7.0dev (2019-10-07T19:10:24Z trunk 058db33c5e) +JIT [x86_64-linux]
-    last_commit=Move empty pages to the tomb
-  6abcd35762: |-
-    ruby 2.7.0dev (2019-10-07T19:28:21Z trunk 6abcd35762) [x86_64-linux]
-    last_commit=Do not free too many pages.
-  6abcd35762 --jit: |-
-    ruby 2.7.0dev (2019-10-07T19:28:21Z trunk 6abcd35762) +JIT [x86_64-linux]
-    last_commit=Do not free too many pages.
-  055a85d3d9: |-
-    ruby 2.7.0dev (2019-10-07T19:56:52Z trunk 055a85d3d9) [x86_64-linux]
-    last_commit=Update NEWS with Module#ruby2_keywords and a few other things
-  055a85d3d9 --jit: |-
-    ruby 2.7.0dev (2019-10-07T19:56:52Z trunk 055a85d3d9) +JIT [x86_64-linux]
-    last_commit=Update NEWS with Module#ruby2_keywords and a few other things
-  c0eae130b1: |-
-    ruby 2.7.0dev (2019-10-07T20:51:21Z trunk c0eae130b1) [x86_64-linux]
-    last_commit=Note RB_PASS_EMPTY_KEYWORDS and RB_SCAN_ARGS_EMPTY_KEYWORDS will be removed
-  c0eae130b1 --jit: |-
-    ruby 2.7.0dev (2019-10-07T20:51:21Z trunk c0eae130b1) +JIT [x86_64-linux]
-    last_commit=Note RB_PASS_EMPTY_KEYWORDS and RB_SCAN_ARGS_EMPTY_KEYWORDS will be removed
-  59c3b1c9c8: |-
-    ruby 2.7.0dev (2019-10-07T20:51:28Z trunk 59c3b1c9c8) [x86_64-linux]
-    last_commit=Add section to extension.rdoc for backwards compatibility macros [ci skip]
-  59c3b1c9c8 --jit: |-
-    ruby 2.7.0dev (2019-10-07T20:51:28Z trunk 59c3b1c9c8) +JIT [x86_64-linux]
-    last_commit=Add section to extension.rdoc for backwards compatibility macros [ci skip]
-  dd0c75fdc2: |-
-    ruby 2.7.0dev (2019-10-08T00:06:28Z trunk dd0c75fdc2) [x86_64-linux]
-    last_commit=Import changes from ruby/bigdecimal (#2531)
-  dd0c75fdc2 --jit: |-
-    ruby 2.7.0dev (2019-10-08T00:06:28Z trunk dd0c75fdc2) +JIT [x86_64-linux]
-    last_commit=Import changes from ruby/bigdecimal (#2531)
   11b6ff12af: |-
     ruby 2.7.0dev (2019-10-08T02:21:20Z trunk 11b6ff12af) [x86_64-linux]
     last_commit=more use of RbConfig::LIMITS
@@ -14318,3 +14270,19 @@ commits:
   46ea74297e --jit: ruby 3.0.0dev (2020-12-17T05:20:42Z master 46ea74297e) +JIT [x86_64-linux]
   a09c3c6fe1: ruby 3.0.0dev (2020-12-17T05:37:45Z master a09c3c6fe1) [x86_64-linux]
   a09c3c6fe1 --jit: ruby 3.0.0dev (2020-12-17T05:37:45Z master a09c3c6fe1) +JIT [x86_64-linux]
+  3b4d698e0b: ruby 3.0.0dev (2020-12-17T06:17:46Z master 3b4d698e0b) [x86_64-linux]
+  3b4d698e0b --jit: ruby 3.0.0dev (2020-12-17T06:17:46Z master 3b4d698e0b) +JIT [x86_64-linux]
+  5d74894f2b: ruby 3.0.0dev (2020-12-17T07:06:28Z master 5d74894f2b) [x86_64-linux]
+  5d74894f2b --jit: ruby 3.0.0dev (2020-12-17T07:06:28Z master 5d74894f2b) +JIT [x86_64-linux]
+  '9213771817': ruby 3.0.0dev (2020-12-17T07:53:41Z master 9213771817) [x86_64-linux]
+  9213771817 --jit: ruby 3.0.0dev (2020-12-17T07:53:41Z master 9213771817) +JIT [x86_64-linux]
+  c42948d784: ruby 3.0.0dev (2020-12-17T08:03:05Z master c42948d784) [x86_64-linux]
+  c42948d784 --jit: ruby 3.0.0dev (2020-12-17T08:03:05Z master c42948d784) +JIT [x86_64-linux]
+  44fba194a5: ruby 3.0.0dev (2020-12-17T08:24:51Z master 44fba194a5) [x86_64-linux]
+  44fba194a5 --jit: ruby 3.0.0dev (2020-12-17T08:24:51Z master 44fba194a5) +JIT [x86_64-linux]
+  99b9145380: ruby 3.0.0dev (2020-12-17T08:37:52Z master 99b9145380) [x86_64-linux]
+  99b9145380 --jit: ruby 3.0.0dev (2020-12-17T08:37:52Z master 99b9145380) +JIT [x86_64-linux]
+  7f11c8086a: ruby 3.0.0dev (2020-12-17T09:13:26Z master 7f11c8086a) [x86_64-linux]
+  7f11c8086a --jit: ruby 3.0.0dev (2020-12-17T09:13:26Z master 7f11c8086a) +JIT [x86_64-linux]
+  da3438a504: ruby 3.0.0dev (2020-12-17T09:13:40Z master da3438a504) [x86_64-linux]
+  da3438a504 --jit: ruby 3.0.0dev (2020-12-17T09:13:40Z master da3438a504) +JIT [x86_64-linux]
