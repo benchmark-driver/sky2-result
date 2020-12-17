@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  12d05537d7: |-
-    ruby 2.7.0dev (2019-10-09T03:25:50Z trunk 12d05537d7) [x86_64-linux]
-    last_commit=Update required_ruby_version to 2.4.0
-  12d05537d7 --jit: |-
-    ruby 2.7.0dev (2019-10-09T03:25:50Z trunk 12d05537d7) +JIT [x86_64-linux]
-    last_commit=Update required_ruby_version to 2.4.0
-  b439ee1b8f: |-
-    ruby 2.7.0dev (2019-10-09T03:41:41Z trunk b439ee1b8f) [x86_64-linux]
-    last_commit=Remove uselsess shebang
-  b439ee1b8f --jit: |-
-    ruby 2.7.0dev (2019-10-09T03:41:41Z trunk b439ee1b8f) +JIT [x86_64-linux]
-    last_commit=Remove uselsess shebang
-  d0e30fc955: |-
-    ruby 2.7.0dev (2019-10-09T05:03:04Z trunk d0e30fc955) [x86_64-linux]
-    last_commit=vm_eval.c (rb_adjust_argv_kw_splat): avoid memcpy with zero length
-  d0e30fc955 --jit: |-
-    ruby 2.7.0dev (2019-10-09T05:03:04Z trunk d0e30fc955) +JIT [x86_64-linux]
-    last_commit=vm_eval.c (rb_adjust_argv_kw_splat): avoid memcpy with zero length
   6f11c3b335: |-
     ruby 2.7.0dev (2019-10-09T08:46:05Z trunk 6f11c3b335) [x86_64-linux]
     last_commit=Check '[ci skip]' at job level
@@ -14243,3 +14225,9 @@ commits:
   753222d72c --jit: ruby 3.0.0dev (2020-12-17T11:23:49Z master 753222d72c) +JIT [x86_64-linux]
   980f994b3b: ruby 3.0.0dev (2020-12-17T11:24:08Z master 980f994b3b) [x86_64-linux]
   980f994b3b --jit: ruby 3.0.0dev (2020-12-17T11:24:08Z master 980f994b3b) +JIT [x86_64-linux]
+  caef364cc5: ruby 3.0.0dev (2020-12-17T13:39:37Z master caef364cc5) [x86_64-linux]
+  caef364cc5 --jit: ruby 3.0.0dev (2020-12-17T13:39:37Z master caef364cc5) +JIT [x86_64-linux]
+  6538c89f1c: ruby 3.0.0dev (2020-12-17T16:20:02Z master 6538c89f1c) [x86_64-linux]
+  6538c89f1c --jit: ruby 3.0.0dev (2020-12-17T16:20:02Z master 6538c89f1c) +JIT [x86_64-linux]
+  f7a6b460d5: ruby 3.0.0dev (2020-12-17T16:20:56Z master f7a6b460d5) [x86_64-linux]
+  f7a6b460d5 --jit: ruby 3.0.0dev (2020-12-17T16:20:56Z master f7a6b460d5) +JIT [x86_64-linux]
