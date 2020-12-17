@@ -11,72 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  11b6ff12af: |-
-    ruby 2.7.0dev (2019-10-08T02:21:20Z trunk 11b6ff12af) [x86_64-linux]
-    last_commit=more use of RbConfig::LIMITS
-  11b6ff12af --jit: |-
-    ruby 2.7.0dev (2019-10-08T02:21:20Z trunk 11b6ff12af) +JIT [x86_64-linux]
-    last_commit=more use of RbConfig::LIMITS
-  8feb8c9bb7: |-
-    ruby 2.7.0dev (2019-10-08T08:04:46Z trunk 8feb8c9bb7) [x86_64-linux]
-    last_commit=Packed delayed token elements
-  8feb8c9bb7 --jit: |-
-    ruby 2.7.0dev (2019-10-08T08:04:46Z trunk 8feb8c9bb7) +JIT [x86_64-linux]
-    last_commit=Packed delayed token elements
-  7909f06212: |-
-    ruby 2.7.0dev (2019-10-08T14:30:55Z trunk 7909f06212) [x86_64-linux]
-    last_commit=Check for invalid hex escapes in URI#query=
-  7909f06212 --jit: |-
-    ruby 2.7.0dev (2019-10-08T14:30:55Z trunk 7909f06212) +JIT [x86_64-linux]
-    last_commit=Check for invalid hex escapes in URI#query=
-  98131f148f: |-
-    ruby 2.7.0dev (2019-10-09T00:08:09Z trunk 98131f148f) [x86_64-linux]
-    last_commit=lldb_cruby.py: fixed embedded string ptr [ci skip]
-  98131f148f --jit: |-
-    ruby 2.7.0dev (2019-10-09T00:08:09Z trunk 98131f148f) +JIT [x86_64-linux]
-    last_commit=lldb_cruby.py: fixed embedded string ptr [ci skip]
-  e078352a78: |-
-    ruby 2.7.0dev (2019-10-09T00:08:21Z trunk e078352a78) [x86_64-linux]
-    last_commit=lldb_cruby.py: fixed inspecting string  [ci skip]
-  e078352a78 --jit: |-
-    ruby 2.7.0dev (2019-10-09T00:08:21Z trunk e078352a78) +JIT [x86_64-linux]
-    last_commit=lldb_cruby.py: fixed inspecting string  [ci skip]
-  59cfa2d187: |-
-    ruby 2.7.0dev (2019-10-09T00:08:53Z trunk 59cfa2d187) [x86_64-linux]
-    last_commit=* 2019-10-09 [ci skip]
-  59cfa2d187 --jit: |-
-    ruby 2.7.0dev (2019-10-09T00:08:53Z trunk 59cfa2d187) +JIT [x86_64-linux]
-    last_commit=* 2019-10-09 [ci skip]
-  2f3b4029da: |-
-    ruby 2.7.0dev (2019-10-09T03:12:28Z trunk 2f3b4029da) [x86_64-linux]
-    last_commit=fix arity mismatch
-  2f3b4029da --jit: |-
-    ruby 2.7.0dev (2019-10-09T03:12:28Z trunk 2f3b4029da) +JIT [x86_64-linux]
-    last_commit=fix arity mismatch
-  a220410be7: |-
-    ruby 2.7.0dev (2019-10-09T03:12:28Z trunk a220410be7) [x86_64-linux]
-    last_commit=annotate malloc-ish functions
-  a220410be7 --jit: |-
-    ruby 2.7.0dev (2019-10-09T03:12:28Z trunk a220410be7) +JIT [x86_64-linux]
-    last_commit=annotate malloc-ish functions
-  7e0ae1698d: |-
-    ruby 2.7.0dev (2019-10-09T03:12:28Z trunk 7e0ae1698d) [x86_64-linux]
-    last_commit=avoid overflow in integer multiplication
-  7e0ae1698d --jit: |-
-    ruby 2.7.0dev (2019-10-09T03:12:28Z trunk 7e0ae1698d) +JIT [x86_64-linux]
-    last_commit=avoid overflow in integer multiplication
-  a14cc07f2f: |-
-    ruby 2.7.0dev (2019-10-09T03:12:28Z trunk a14cc07f2f) [x86_64-linux]
-    last_commit=avoid returning NULL from xrealloc
-  a14cc07f2f --jit: |-
-    ruby 2.7.0dev (2019-10-09T03:12:28Z trunk a14cc07f2f) +JIT [x86_64-linux]
-    last_commit=avoid returning NULL from xrealloc
-  2d001003e4: |-
-    ruby 2.7.0dev (2019-10-09T03:25:07Z trunk 2d001003e4) [x86_64-linux]
-    last_commit=Improve performance of Array#sum with float elements (#1555)
-  2d001003e4 --jit: |-
-    ruby 2.7.0dev (2019-10-09T03:25:07Z trunk 2d001003e4) +JIT [x86_64-linux]
-    last_commit=Improve performance of Array#sum with float elements (#1555)
   12d05537d7: |-
     ruby 2.7.0dev (2019-10-09T03:25:50Z trunk 12d05537d7) [x86_64-linux]
     last_commit=Update required_ruby_version to 2.4.0
@@ -14286,3 +14220,26 @@ commits:
   7f11c8086a --jit: ruby 3.0.0dev (2020-12-17T09:13:26Z master 7f11c8086a) +JIT [x86_64-linux]
   da3438a504: ruby 3.0.0dev (2020-12-17T09:13:40Z master da3438a504) [x86_64-linux]
   da3438a504 --jit: ruby 3.0.0dev (2020-12-17T09:13:40Z master da3438a504) +JIT [x86_64-linux]
+  d597d7a8b6: ruby 3.0.0dev (2020-12-17T11:04:42Z master d597d7a8b6) [x86_64-linux]
+  d597d7a8b6 --jit: ruby 3.0.0dev (2020-12-17T11:04:42Z master d597d7a8b6) +JIT [x86_64-linux]
+  '9908177857': ruby 3.0.0dev (2020-12-17T11:06:18Z master 9908177857) [x86_64-linux]
+  9908177857 --jit: ruby 3.0.0dev (2020-12-17T11:06:18Z master 9908177857) +JIT [x86_64-linux]
+  2b8fa78176: ruby 3.0.0dev (2020-12-17T11:14:59Z master 2b8fa78176) [x86_64-linux]
+  2b8fa78176 --jit: ruby 3.0.0dev (2020-12-17T11:14:59Z master 2b8fa78176) +JIT [x86_64-linux]
+  '0158ba7e51': ruby 3.0.0dev (2020-12-17T11:17:11Z master 0158ba7e51) [x86_64-linux]
+  '0158ba7e51 --jit': ruby 3.0.0dev (2020-12-17T11:17:11Z master 0158ba7e51) +JIT
+    [x86_64-linux]
+  cdf2790aa0: ruby 3.0.0dev (2020-12-17T11:17:22Z master cdf2790aa0) [x86_64-linux]
+  cdf2790aa0 --jit: ruby 3.0.0dev (2020-12-17T11:17:22Z master cdf2790aa0) +JIT [x86_64-linux]
+  422e2c7274: ruby 3.0.0dev (2020-12-17T11:20:07Z master 422e2c7274) [x86_64-linux]
+  422e2c7274 --jit: ruby 3.0.0dev (2020-12-17T11:20:07Z master 422e2c7274) +JIT [x86_64-linux]
+  cbf6a7f906: ruby 3.0.0dev (2020-12-17T11:22:29Z master cbf6a7f906) [x86_64-linux]
+  cbf6a7f906 --jit: ruby 3.0.0dev (2020-12-17T11:22:29Z master cbf6a7f906) +JIT [x86_64-linux]
+  b5effe07bd: ruby 3.0.0dev (2020-12-17T11:22:55Z master b5effe07bd) [x86_64-linux]
+  b5effe07bd --jit: ruby 3.0.0dev (2020-12-17T11:22:55Z master b5effe07bd) +JIT [x86_64-linux]
+  336fe648b0: ruby 3.0.0dev (2020-12-17T11:23:27Z master 336fe648b0) [x86_64-linux]
+  336fe648b0 --jit: ruby 3.0.0dev (2020-12-17T11:23:27Z master 336fe648b0) +JIT [x86_64-linux]
+  753222d72c: ruby 3.0.0dev (2020-12-17T11:23:49Z master 753222d72c) [x86_64-linux]
+  753222d72c --jit: ruby 3.0.0dev (2020-12-17T11:23:49Z master 753222d72c) +JIT [x86_64-linux]
+  980f994b3b: ruby 3.0.0dev (2020-12-17T11:24:08Z master 980f994b3b) [x86_64-linux]
+  980f994b3b --jit: ruby 3.0.0dev (2020-12-17T11:24:08Z master 980f994b3b) +JIT [x86_64-linux]
