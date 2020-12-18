@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  6f11c3b335: |-
-    ruby 2.7.0dev (2019-10-09T08:46:05Z trunk 6f11c3b335) [x86_64-linux]
-    last_commit=Check '[ci skip]' at job level
-  6f11c3b335 --jit: |-
-    ruby 2.7.0dev (2019-10-09T08:46:05Z trunk 6f11c3b335) +JIT [x86_64-linux]
-    last_commit=Check '[ci skip]' at job level
   b9cf58d2b2: |-
     ruby 2.7.0dev (2019-10-09T13:57:19Z trunk b9cf58d2b2) [x86_64-linux]
     last_commit=signal.c (ruby_abort): move the definition for refactoring
@@ -14231,3 +14225,5 @@ commits:
   6538c89f1c --jit: ruby 3.0.0dev (2020-12-17T16:20:02Z master 6538c89f1c) +JIT [x86_64-linux]
   f7a6b460d5: ruby 3.0.0dev (2020-12-17T16:20:56Z master f7a6b460d5) [x86_64-linux]
   f7a6b460d5 --jit: ruby 3.0.0dev (2020-12-17T16:20:56Z master f7a6b460d5) +JIT [x86_64-linux]
+  81739ad4fd: ruby 3.0.0dev (2020-12-17T17:46:02Z master 81739ad4fd) [x86_64-linux]
+  81739ad4fd --jit: ruby 3.0.0dev (2020-12-17T17:46:02Z master 81739ad4fd) +JIT [x86_64-linux]
