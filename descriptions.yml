@@ -11,48 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  2322c94dd6: |-
-    ruby 2.7.0dev (2019-10-10T20:15:00Z trunk 2322c94dd6) [x86_64-linux]
-    last_commit=Support delegates for BasicObject
-  2322c94dd6 --jit: |-
-    ruby 2.7.0dev (2019-10-10T20:15:00Z trunk 2322c94dd6) +JIT [x86_64-linux]
-    last_commit=Support delegates for BasicObject
-  ddb0267e76: |-
-    ruby 2.7.0dev (2019-10-10T20:15:28Z trunk ddb0267e76) [x86_64-linux]
-    last_commit=* 2019-10-11 [ci skip]
-  ddb0267e76 --jit: |-
-    ruby 2.7.0dev (2019-10-10T20:15:28Z trunk ddb0267e76) +JIT [x86_64-linux]
-    last_commit=* 2019-10-11 [ci skip]
-  29c1e9a0d4: |-
-    ruby 2.7.0dev (2019-10-10T20:45:19Z trunk 29c1e9a0d4) [x86_64-linux]
-    last_commit=Document the difference between expressions and statements [ci skip]
-  29c1e9a0d4 --jit: |-
-    ruby 2.7.0dev (2019-10-10T20:45:19Z trunk 29c1e9a0d4) +JIT [x86_64-linux]
-    last_commit=Document the difference between expressions and statements [ci skip]
-  87958520f3: |-
-    ruby 2.7.0dev (2019-10-11T00:33:25Z trunk 87958520f3) [x86_64-linux]
-    last_commit=set real path to __FILE__ and __dir__ in Binding#irb
-  87958520f3 --jit: |-
-    ruby 2.7.0dev (2019-10-11T00:33:25Z trunk 87958520f3) +JIT [x86_64-linux]
-    last_commit=set real path to __FILE__ and __dir__ in Binding#irb
-  0ca4f74967: |-
-    ruby 2.7.0dev (2019-10-11T02:15:43Z trunk 0ca4f74967) [x86_64-linux]
-    last_commit=Right size the numtable in insn_make_insn_table to VM_INSTRUCTION_SIZE
-  0ca4f74967 --jit: |-
-    ruby 2.7.0dev (2019-10-11T02:15:43Z trunk 0ca4f74967) +JIT [x86_64-linux]
-    last_commit=Right size the numtable in insn_make_insn_table to VM_INSTRUCTION_SIZE
-  9c24ce551d: |-
-    ruby 2.7.0dev (2019-10-11T02:16:16Z trunk 9c24ce551d) [x86_64-linux]
-    last_commit=Reduce the minimum string buffer size from 127 to 63 bytes
-  9c24ce551d --jit: |-
-    ruby 2.7.0dev (2019-10-11T02:16:16Z trunk 9c24ce551d) +JIT [x86_64-linux]
-    last_commit=Reduce the minimum string buffer size from 127 to 63 bytes
-  7cc1cd3d1e: |-
-    ruby 2.7.0dev (2019-10-11T02:20:11Z trunk 7cc1cd3d1e) [x86_64-linux]
-    last_commit=Module#define_method: Add UnboundMethod to expected classes
-  7cc1cd3d1e --jit: |-
-    ruby 2.7.0dev (2019-10-11T02:20:11Z trunk 7cc1cd3d1e) +JIT [x86_64-linux]
-    last_commit=Module#define_method: Add UnboundMethod to expected classes
   ddfb306e8e: |-
     ruby 2.7.0dev (2019-10-11T04:48:02Z trunk ddfb306e8e) [x86_64-linux]
     last_commit=win32.c: Remove unused calls to StartSockets (#2312)
@@ -14111,3 +14069,17 @@ commits:
   b5588edc0a --jit: ruby 3.0.0dev (2020-12-18T09:19:33Z master b5588edc0a) +JIT [x86_64-linux]
   14ca7f633c: ruby 3.0.0dev (2020-12-18T12:58:41Z master 14ca7f633c) [x86_64-linux]
   14ca7f633c --jit: ruby 3.0.0dev (2020-12-18T12:58:41Z master 14ca7f633c) +JIT [x86_64-linux]
+  3d31944129: ruby 3.0.0dev (2020-12-18T13:00:07Z master 3d31944129) [x86_64-linux]
+  3d31944129 --jit: ruby 3.0.0dev (2020-12-18T13:00:07Z master 3d31944129) +JIT [x86_64-linux]
+  e1b5289a2b: ruby 3.0.0dev (2020-12-18T13:00:07Z master e1b5289a2b) [x86_64-linux]
+  e1b5289a2b --jit: ruby 3.0.0dev (2020-12-18T13:00:07Z master e1b5289a2b) +JIT [x86_64-linux]
+  c71934f8a5: ruby 3.0.0dev (2020-12-18T13:00:07Z master c71934f8a5) [x86_64-linux]
+  c71934f8a5 --jit: ruby 3.0.0dev (2020-12-18T13:00:07Z master c71934f8a5) +JIT [x86_64-linux]
+  ed5c09f384: ruby 3.0.0dev (2020-12-18T15:04:19Z master ed5c09f384) [x86_64-linux]
+  ed5c09f384 --jit: ruby 3.0.0dev (2020-12-18T15:04:19Z master ed5c09f384) +JIT [x86_64-linux]
+  6945597f6f: ruby 3.0.0dev (2020-12-18T15:04:41Z master 6945597f6f) [x86_64-linux]
+  6945597f6f --jit: ruby 3.0.0dev (2020-12-18T15:04:41Z master 6945597f6f) +JIT [x86_64-linux]
+  19a98a8791: ruby 3.0.0dev (2020-12-18T15:34:14Z master 19a98a8791) [x86_64-linux]
+  19a98a8791 --jit: ruby 3.0.0dev (2020-12-18T15:34:14Z master 19a98a8791) +JIT [x86_64-linux]
+  ad76c8fb6b: ruby 3.0.0dev (2020-12-18T15:53:47Z master ad76c8fb6b) [x86_64-linux]
+  ad76c8fb6b --jit: ruby 3.0.0dev (2020-12-18T15:53:47Z master ad76c8fb6b) +JIT [x86_64-linux]
