@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  29e6782f5d: |-
-    ruby 2.7.0dev (2019-10-09T14:39:58Z trunk 29e6782f5d) [x86_64-linux]
-    last_commit=Share ruby_sighandler_t definition
-  29e6782f5d --jit: |-
-    ruby 2.7.0dev (2019-10-09T14:39:58Z trunk 29e6782f5d) +JIT [x86_64-linux]
-    last_commit=Share ruby_sighandler_t definition
-  bb71a128eb: |-
-    ruby 2.7.0dev (2019-10-09T14:46:50Z trunk bb71a128eb) [x86_64-linux]
-    last_commit=Prefer st_is_member over st_lookup with 0
-  bb71a128eb --jit: |-
-    ruby 2.7.0dev (2019-10-09T14:46:50Z trunk bb71a128eb) +JIT [x86_64-linux]
-    last_commit=Prefer st_is_member over st_lookup with 0
-  9b919885a0: |-
-    ruby 2.7.0dev (2019-10-09T15:13:30Z trunk 9b919885a0) [x86_64-linux]
-    last_commit=fix memory corruption in old GCC
-  9b919885a0 --jit: |-
-    ruby 2.7.0dev (2019-10-09T15:13:30Z trunk 9b919885a0) +JIT [x86_64-linux]
-    last_commit=fix memory corruption in old GCC
   ecf6c0402e: |-
     ruby 2.7.0dev (2019-10-09T15:14:36Z trunk ecf6c0402e) [x86_64-linux]
     last_commit=* 2019-10-10 [ci skip]
@@ -14215,3 +14197,9 @@ commits:
   29e42b8bfd --jit: ruby 3.0.0dev (2020-12-17T23:26:25Z master 29e42b8bfd) +JIT [x86_64-linux]
   51c2725dc6: ruby 3.0.0dev (2020-12-18T00:12:26Z master 51c2725dc6) [x86_64-linux]
   51c2725dc6 --jit: ruby 3.0.0dev (2020-12-18T00:12:26Z master 51c2725dc6) +JIT [x86_64-linux]
+  aa82b067cb: ruby 3.0.0dev (2020-12-18T02:18:09Z master aa82b067cb) [x86_64-linux]
+  aa82b067cb --jit: ruby 3.0.0dev (2020-12-18T02:18:09Z master aa82b067cb) +JIT [x86_64-linux]
+  a07f249803: ruby 3.0.0dev (2020-12-18T02:23:34Z master a07f249803) [x86_64-linux]
+  a07f249803 --jit: ruby 3.0.0dev (2020-12-18T02:23:34Z master a07f249803) +JIT [x86_64-linux]
+  66090b9d10: ruby 3.0.0dev (2020-12-18T03:10:20Z master 66090b9d10) [x86_64-linux]
+  66090b9d10 --jit: ruby 3.0.0dev (2020-12-18T03:10:20Z master 66090b9d10) +JIT [x86_64-linux]
