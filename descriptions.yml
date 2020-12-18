@@ -11,78 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  ecf6c0402e: |-
-    ruby 2.7.0dev (2019-10-09T15:14:36Z trunk ecf6c0402e) [x86_64-linux]
-    last_commit=* 2019-10-10 [ci skip]
-  ecf6c0402e --jit: |-
-    ruby 2.7.0dev (2019-10-09T15:14:36Z trunk ecf6c0402e) +JIT [x86_64-linux]
-    last_commit=* 2019-10-10 [ci skip]
-  8dc5fe6e89: |-
-    ruby 2.7.0dev (2019-10-09T15:59:50Z trunk 8dc5fe6e89) [x86_64-linux]
-    last_commit=Simplify rb_define_module_id
-  8dc5fe6e89 --jit: |-
-    ruby 2.7.0dev (2019-10-09T15:59:50Z trunk 8dc5fe6e89) +JIT [x86_64-linux]
-    last_commit=Simplify rb_define_module_id
-  42edb05626: |-
-    ruby 2.7.0dev (2019-10-09T16:08:42Z trunk 42edb05626) [x86_64-linux]
-    last_commit=extracted declare_under
-  42edb05626 --jit: |-
-    ruby 2.7.0dev (2019-10-09T16:08:42Z trunk 42edb05626) +JIT [x86_64-linux]
-    last_commit=extracted declare_under
-  25100c4697: |-
-    ruby 2.7.0dev (2019-10-09T23:53:46Z trunk 25100c4697) [x86_64-linux]
-    last_commit=lhs of pattern matching expression of should have a value
-  25100c4697 --jit: |-
-    ruby 2.7.0dev (2019-10-09T23:53:46Z trunk 25100c4697) +JIT [x86_64-linux]
-    last_commit=lhs of pattern matching expression of should have a value
-  9c3153e0da: |-
-    ruby 2.7.0dev (2019-10-10T03:07:38Z trunk 9c3153e0da) [x86_64-linux]
-    last_commit=allow rb_raise from outside of GVL
-  9c3153e0da --jit: |-
-    ruby 2.7.0dev (2019-10-10T03:07:38Z trunk 9c3153e0da) +JIT [x86_64-linux]
-    last_commit=allow rb_raise from outside of GVL
-  a23b639050: |-
-    ruby 2.7.0dev (2019-10-10T05:07:45Z trunk a23b639050) [x86_64-linux]
-    last_commit=negative_size_allocation_error never returns
-  a23b639050 --jit: |-
-    ruby 2.7.0dev (2019-10-10T05:07:45Z trunk a23b639050) +JIT [x86_64-linux]
-    last_commit=negative_size_allocation_error never returns
-  c2065c64cb: |-
-    ruby 2.7.0dev (2019-10-10T05:07:45Z trunk c2065c64cb) [x86_64-linux]
-    last_commit=Fixed numbered parameter check
-  c2065c64cb --jit: |-
-    ruby 2.7.0dev (2019-10-10T05:07:45Z trunk c2065c64cb) +JIT [x86_64-linux]
-    last_commit=Fixed numbered parameter check
-  495ebd6e95: |-
-    ruby 2.7.0dev (2019-10-10T05:21:29Z trunk 495ebd6e95) [x86_64-linux]
-    last_commit=Now error.o needs thread.h
-  495ebd6e95 --jit: |-
-    ruby 2.7.0dev (2019-10-10T05:21:29Z trunk 495ebd6e95) +JIT [x86_64-linux]
-    last_commit=Now error.o needs thread.h
-  717b72a8af: |-
-    ruby 2.7.0dev (2019-10-10T05:51:45Z trunk 717b72a8af) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Optimize Gem::Package::TarReader#each
-  717b72a8af --jit: |-
-    ruby 2.7.0dev (2019-10-10T05:51:45Z trunk 717b72a8af) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Optimize Gem::Package::TarReader#each
-  dc2b301994: |-
-    ruby 2.7.0dev (2019-10-10T05:51:47Z trunk dc2b301994) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Restrict possible date range
-  dc2b301994 --jit: |-
-    ruby 2.7.0dev (2019-10-10T05:51:47Z trunk dc2b301994) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Restrict possible date range
-  6f522455bf: |-
-    ruby 2.7.0dev (2019-10-10T05:51:48Z trunk 6f522455bf) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Do not compare with unreliable Gem::Specification::TODAY
-  6f522455bf --jit: |-
-    ruby 2.7.0dev (2019-10-10T05:51:48Z trunk 6f522455bf) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Do not compare with unreliable Gem::Specification::TODAY
-  203b7fa1ae: |-
-    ruby 2.7.0dev (2019-10-10T07:25:28Z trunk 203b7fa1ae) [x86_64-linux]
-    last_commit=Guard static variable first
-  203b7fa1ae --jit: |-
-    ruby 2.7.0dev (2019-10-10T07:25:28Z trunk 203b7fa1ae) +JIT [x86_64-linux]
-    last_commit=Guard static variable first
   0b26f56a77: |-
     ruby 2.7.0dev (2019-10-10T07:48:26Z trunk 0b26f56a77) [x86_64-linux]
     last_commit=Remove unreachable step level `[ci skip]`
@@ -14203,3 +14131,27 @@ commits:
   a07f249803 --jit: ruby 3.0.0dev (2020-12-18T02:23:34Z master a07f249803) +JIT [x86_64-linux]
   66090b9d10: ruby 3.0.0dev (2020-12-18T03:10:20Z master 66090b9d10) [x86_64-linux]
   66090b9d10 --jit: ruby 3.0.0dev (2020-12-18T03:10:20Z master 66090b9d10) +JIT [x86_64-linux]
+  e042e8460b: ruby 3.0.0dev (2020-12-18T03:59:01Z master e042e8460b) [x86_64-linux]
+  e042e8460b --jit: ruby 3.0.0dev (2020-12-18T03:59:01Z master e042e8460b) +JIT [x86_64-linux]
+  34f0606217: ruby 3.0.0dev (2020-12-18T04:03:22Z master 34f0606217) [x86_64-linux]
+  34f0606217 --jit: ruby 3.0.0dev (2020-12-18T04:03:22Z master 34f0606217) +JIT [x86_64-linux]
+  0e40cc9b19: ruby 3.0.0dev (2020-12-18T04:33:18Z master 0e40cc9b19) [x86_64-linux]
+  0e40cc9b19 --jit: ruby 3.0.0dev (2020-12-18T04:33:18Z master 0e40cc9b19) +JIT [x86_64-linux]
+  b44f7151c7: ruby 3.0.0dev (2020-12-18T05:09:32Z master b44f7151c7) [x86_64-linux]
+  b44f7151c7 --jit: ruby 3.0.0dev (2020-12-18T05:09:32Z master b44f7151c7) +JIT [x86_64-linux]
+  8cba3b35e0: ruby 3.0.0dev (2020-12-18T05:11:50Z master 8cba3b35e0) [x86_64-linux]
+  8cba3b35e0 --jit: ruby 3.0.0dev (2020-12-18T05:11:50Z master 8cba3b35e0) +JIT [x86_64-linux]
+  cfa124ef05: ruby 3.0.0dev (2020-12-18T05:16:06Z master cfa124ef05) [x86_64-linux]
+  cfa124ef05 --jit: ruby 3.0.0dev (2020-12-18T05:16:06Z master cfa124ef05) +JIT [x86_64-linux]
+  985f0af257: ruby 3.0.0dev (2020-12-18T05:25:41Z master 985f0af257) [x86_64-linux]
+  985f0af257 --jit: ruby 3.0.0dev (2020-12-18T05:25:41Z master 985f0af257) +JIT [x86_64-linux]
+  '5370963992': ruby 3.0.0dev (2020-12-18T05:25:42Z master 5370963992) [x86_64-linux]
+  5370963992 --jit: ruby 3.0.0dev (2020-12-18T05:25:42Z master 5370963992) +JIT [x86_64-linux]
+  b5de66e132: ruby 3.0.0dev (2020-12-18T05:25:48Z master b5de66e132) [x86_64-linux]
+  b5de66e132 --jit: ruby 3.0.0dev (2020-12-18T05:25:48Z master b5de66e132) +JIT [x86_64-linux]
+  f0ec923c58: ruby 3.0.0dev (2020-12-18T05:36:26Z master f0ec923c58) [x86_64-linux]
+  f0ec923c58 --jit: ruby 3.0.0dev (2020-12-18T05:36:26Z master f0ec923c58) +JIT [x86_64-linux]
+  ffc8a72f39: ruby 3.0.0dev (2020-12-18T05:59:20Z master ffc8a72f39) [x86_64-linux]
+  ffc8a72f39 --jit: ruby 3.0.0dev (2020-12-18T05:59:20Z master ffc8a72f39) +JIT [x86_64-linux]
+  8e03e3b0ba: ruby 3.0.0dev (2020-12-18T06:16:30Z master 8e03e3b0ba) [x86_64-linux]
+  8e03e3b0ba --jit: ruby 3.0.0dev (2020-12-18T06:16:30Z master 8e03e3b0ba) +JIT [x86_64-linux]
