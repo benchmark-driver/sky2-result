@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  '4171909695': |-
-    ruby 2.7.0dev (2019-10-10T14:22:37Z trunk 4171909695) [x86_64-linux]
-    last_commit=mjit_worker.c: Add `-lm` to the C compiler in MJIT on Android
-  4171909695 --jit: |-
-    ruby 2.7.0dev (2019-10-10T14:22:37Z trunk 4171909695) +JIT [x86_64-linux]
-    last_commit=mjit_worker.c: Add `-lm` to the C compiler in MJIT on Android
   2322c94dd6: |-
     ruby 2.7.0dev (2019-10-10T20:15:00Z trunk 2322c94dd6) [x86_64-linux]
     last_commit=Support delegates for BasicObject
@@ -14115,3 +14109,5 @@ commits:
   74ab2c3b46 --jit: ruby 3.0.0dev (2020-12-18T08:59:26Z master 74ab2c3b46) +JIT [x86_64-linux]
   b5588edc0a: ruby 3.0.0dev (2020-12-18T09:19:33Z master b5588edc0a) [x86_64-linux]
   b5588edc0a --jit: ruby 3.0.0dev (2020-12-18T09:19:33Z master b5588edc0a) +JIT [x86_64-linux]
+  14ca7f633c: ruby 3.0.0dev (2020-12-18T12:58:41Z master 14ca7f633c) [x86_64-linux]
+  14ca7f633c --jit: ruby 3.0.0dev (2020-12-18T12:58:41Z master 14ca7f633c) +JIT [x86_64-linux]
