@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  b9cf58d2b2: |-
-    ruby 2.7.0dev (2019-10-09T13:57:19Z trunk b9cf58d2b2) [x86_64-linux]
-    last_commit=signal.c (ruby_abort): move the definition for refactoring
-  b9cf58d2b2 --jit: |-
-    ruby 2.7.0dev (2019-10-09T13:57:19Z trunk b9cf58d2b2) +JIT [x86_64-linux]
-    last_commit=signal.c (ruby_abort): move the definition for refactoring
-  dd477df411: |-
-    ruby 2.7.0dev (2019-10-09T14:02:22Z trunk dd477df411) [x86_64-linux]
-    last_commit=error.c (rb_bug_for_fatal_signal): renamed from rb_bug_context
-  dd477df411 --jit: |-
-    ruby 2.7.0dev (2019-10-09T14:02:22Z trunk dd477df411) +JIT [x86_64-linux]
-    last_commit=error.c (rb_bug_for_fatal_signal): renamed from rb_bug_context
-  891cbd66a4: |-
-    ruby 2.7.0dev (2019-10-09T14:22:15Z trunk 891cbd66a4) [x86_64-linux]
-    last_commit=signal.c: save the original sighandlers for fatal signals
-  891cbd66a4 --jit: |-
-    ruby 2.7.0dev (2019-10-09T14:22:15Z trunk 891cbd66a4) +JIT [x86_64-linux]
-    last_commit=signal.c: save the original sighandlers for fatal signals
   29e6782f5d: |-
     ruby 2.7.0dev (2019-10-09T14:39:58Z trunk 29e6782f5d) [x86_64-linux]
     last_commit=Share ruby_sighandler_t definition
@@ -14227,3 +14209,9 @@ commits:
   f7a6b460d5 --jit: ruby 3.0.0dev (2020-12-17T16:20:56Z master f7a6b460d5) +JIT [x86_64-linux]
   81739ad4fd: ruby 3.0.0dev (2020-12-17T17:46:02Z master 81739ad4fd) [x86_64-linux]
   81739ad4fd --jit: ruby 3.0.0dev (2020-12-17T17:46:02Z master 81739ad4fd) +JIT [x86_64-linux]
+  895b10ad02: ruby 3.0.0dev (2020-12-17T21:26:53Z master 895b10ad02) [x86_64-linux]
+  895b10ad02 --jit: ruby 3.0.0dev (2020-12-17T21:26:53Z master 895b10ad02) +JIT [x86_64-linux]
+  29e42b8bfd: ruby 3.0.0dev (2020-12-17T23:26:25Z master 29e42b8bfd) [x86_64-linux]
+  29e42b8bfd --jit: ruby 3.0.0dev (2020-12-17T23:26:25Z master 29e42b8bfd) +JIT [x86_64-linux]
+  51c2725dc6: ruby 3.0.0dev (2020-12-18T00:12:26Z master 51c2725dc6) [x86_64-linux]
+  51c2725dc6 --jit: ruby 3.0.0dev (2020-12-18T00:12:26Z master 51c2725dc6) +JIT [x86_64-linux]
