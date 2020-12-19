@@ -11,84 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  e0e93a199d: |-
-    ruby 2.7.0dev (2019-10-15T11:57:01Z trunk e0e93a199d) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Bump version to 3.1.0.pre2
-  e0e93a199d --jit: |-
-    ruby 2.7.0dev (2019-10-15T11:57:01Z trunk e0e93a199d) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Bump version to 3.1.0.pre2
-  81176095f4: |-
-    ruby 2.7.0dev (2019-10-15T13:38:39Z trunk 81176095f4) [x86_64-linux]
-    last_commit=[DOC] fixed a variable name [ci skip]
-  81176095f4 --jit: |-
-    ruby 2.7.0dev (2019-10-15T13:38:39Z trunk 81176095f4) +JIT [x86_64-linux]
-    last_commit=[DOC] fixed a variable name [ci skip]
-  c01df7e58f: |-
-    ruby 2.7.0dev (2019-10-15T14:16:24Z trunk c01df7e58f) [x86_64-linux]
-    last_commit=Fixed the key to delete [Bug #16250]
-  c01df7e58f --jit: |-
-    ruby 2.7.0dev (2019-10-15T14:16:24Z trunk c01df7e58f) +JIT [x86_64-linux]
-    last_commit=Fixed the key to delete [Bug #16250]
-  375cf12918: |-
-    ruby 2.7.0dev (2019-10-15T14:29:49Z trunk 375cf12918) [x86_64-linux]
-    last_commit=test/csv/write/test_general.rb: suppress warnings
-  375cf12918 --jit: |-
-    ruby 2.7.0dev (2019-10-15T14:29:49Z trunk 375cf12918) +JIT [x86_64-linux]
-    last_commit=test/csv/write/test_general.rb: suppress warnings
-  929d5fd3b9: |-
-    ruby 2.7.0dev (2019-10-15T16:42:34Z trunk 929d5fd3b9) [x86_64-linux]
-    last_commit=Comparable#clamp with a range [Feature #14784]
-  929d5fd3b9 --jit: |-
-    ruby 2.7.0dev (2019-10-15T16:42:34Z trunk 929d5fd3b9) +JIT [x86_64-linux]
-    last_commit=Comparable#clamp with a range [Feature #14784]
-  1c50ce2cf8: |-
-    ruby 2.7.0dev (2019-10-15T16:42:52Z trunk 1c50ce2cf8) [x86_64-linux]
-    last_commit=* 2019-10-16 [ci skip]
-  1c50ce2cf8 --jit: |-
-    ruby 2.7.0dev (2019-10-15T16:42:52Z trunk 1c50ce2cf8) +JIT [x86_64-linux]
-    last_commit=* 2019-10-16 [ci skip]
-  a5245c1658: |-
-    ruby 2.7.0dev (2019-10-15T17:08:52Z trunk a5245c1658) [x86_64-linux]
-    last_commit=C-r is incremental history search in vi insert mode
-  a5245c1658 --jit: |-
-    ruby 2.7.0dev (2019-10-15T17:08:52Z trunk a5245c1658) +JIT [x86_64-linux]
-    last_commit=C-r is incremental history search in vi insert mode
-  259601ab57: |-
-    ruby 2.7.0dev (2019-10-15T17:55:45Z trunk 259601ab57) [x86_64-linux]
-    last_commit=Support backspace in incremental search
-  259601ab57 --jit: |-
-    ruby 2.7.0dev (2019-10-15T17:55:45Z trunk 259601ab57) +JIT [x86_64-linux]
-    last_commit=Support backspace in incremental search
-  6081ddd6e6: |-
-    ruby 2.7.0dev (2019-10-15T19:46:24Z trunk 6081ddd6e6) [x86_64-linux]
-    last_commit=Dup hash with keyword flag when converted to keywords
-  6081ddd6e6 --jit: |-
-    ruby 2.7.0dev (2019-10-15T19:46:24Z trunk 6081ddd6e6) +JIT [x86_64-linux]
-    last_commit=Dup hash with keyword flag when converted to keywords
-  d97229de5c: |-
-    ruby 2.7.0dev (2019-10-16T03:59:40Z trunk d97229de5c) [x86_64-linux]
-    last_commit=Add arm64 case on Travis. (#2559)
-  d97229de5c --jit: |-
-    ruby 2.7.0dev (2019-10-16T03:59:40Z trunk d97229de5c) +JIT [x86_64-linux]
-    last_commit=Add arm64 case on Travis. (#2559)
-  2679e10942: |-
-    ruby 2.7.0dev (2019-10-16T04:37:01Z trunk 2679e10942) [x86_64-linux]
-    last_commit=Test without --jit-debug by default
-  2679e10942 --jit: |-
-    ruby 2.7.0dev (2019-10-16T04:37:01Z trunk 2679e10942) +JIT [x86_64-linux]
-    last_commit=Test without --jit-debug by default
-  759576a03f: |-
-    ruby 2.7.0dev (2019-10-16T05:01:25Z trunk 759576a03f) [x86_64-linux]
-    last_commit=Fix test path on travis build
-  759576a03f --jit: |-
-    ruby 2.7.0dev (2019-10-16T05:01:25Z trunk 759576a03f) +JIT [x86_64-linux]
-    last_commit=Fix test path on travis build
-  4ccb49bad3: |-
-    ruby 2.7.0dev (2019-10-16T05:47:20Z trunk 4ccb49bad3) [x86_64-linux]
-    last_commit=Enforce --jit-debug test by another way
-  4ccb49bad3 --jit: |-
-    ruby 2.7.0dev (2019-10-16T05:47:20Z trunk 4ccb49bad3) +JIT [x86_64-linux]
-    last_commit=Enforce --jit-debug test by another way
   e8124729fb: |-
     ruby 2.7.0dev (2019-10-16T05:54:43Z trunk e8124729fb) [x86_64-linux]
     last_commit=Disable ccache on arm64 build
@@ -13887,3 +13809,29 @@ commits:
   eb8ea336d3 --jit: ruby 3.0.0dev (2020-12-19T09:19:49Z master eb8ea336d3) +JIT [x86_64-linux]
   1ba8d63b49: ruby 3.0.0dev (2020-12-19T09:22:44Z master 1ba8d63b49) [x86_64-linux]
   1ba8d63b49 --jit: ruby 3.0.0dev (2020-12-19T09:22:44Z master 1ba8d63b49) +JIT [x86_64-linux]
+  4735a5b9d2: ruby 3.0.0dev (2020-12-19T12:19:16Z master 4735a5b9d2) [x86_64-linux]
+  4735a5b9d2 --jit: ruby 3.0.0dev (2020-12-19T12:19:16Z master 4735a5b9d2) +JIT [x86_64-linux]
+  e1424c3501: ruby 3.0.0dev (2020-12-19T13:13:53Z master e1424c3501) [x86_64-linux]
+  e1424c3501 --jit: ruby 3.0.0dev (2020-12-19T13:13:53Z master e1424c3501) +JIT [x86_64-linux]
+  97d4e72e0b: ruby 3.0.0dev (2020-12-19T13:13:57Z master 97d4e72e0b) [x86_64-linux]
+  97d4e72e0b --jit: ruby 3.0.0dev (2020-12-19T13:13:57Z master 97d4e72e0b) +JIT [x86_64-linux]
+  928a06723d: ruby 3.0.0dev (2020-12-19T13:13:57Z master 928a06723d) [x86_64-linux]
+  928a06723d --jit: ruby 3.0.0dev (2020-12-19T13:13:57Z master 928a06723d) +JIT [x86_64-linux]
+  ff9e40811c: ruby 3.0.0dev (2020-12-19T13:13:58Z master ff9e40811c) [x86_64-linux]
+  ff9e40811c --jit: ruby 3.0.0dev (2020-12-19T13:13:58Z master ff9e40811c) +JIT [x86_64-linux]
+  654f6fbf19: ruby 3.0.0dev (2020-12-19T13:13:58Z master 654f6fbf19) [x86_64-linux]
+  654f6fbf19 --jit: ruby 3.0.0dev (2020-12-19T13:13:58Z master 654f6fbf19) +JIT [x86_64-linux]
+  df3deb3baa: ruby 3.0.0dev (2020-12-19T13:13:59Z master df3deb3baa) [x86_64-linux]
+  df3deb3baa --jit: ruby 3.0.0dev (2020-12-19T13:13:59Z master df3deb3baa) +JIT [x86_64-linux]
+  8986f948e0: ruby 3.0.0dev (2020-12-19T13:13:59Z master 8986f948e0) [x86_64-linux]
+  8986f948e0 --jit: ruby 3.0.0dev (2020-12-19T13:13:59Z master 8986f948e0) +JIT [x86_64-linux]
+  8355a3e17b: ruby 3.0.0dev (2020-12-19T13:13:59Z master 8355a3e17b) [x86_64-linux]
+  8355a3e17b --jit: ruby 3.0.0dev (2020-12-19T13:13:59Z master 8355a3e17b) +JIT [x86_64-linux]
+  d62414b48f: ruby 3.0.0dev (2020-12-19T13:15:48Z master d62414b48f) [x86_64-linux]
+  d62414b48f --jit: ruby 3.0.0dev (2020-12-19T13:15:48Z master d62414b48f) +JIT [x86_64-linux]
+  de80b92891: ruby 3.0.0dev (2020-12-19T15:40:47Z master de80b92891) [x86_64-linux]
+  de80b92891 --jit: ruby 3.0.0dev (2020-12-19T15:40:47Z master de80b92891) +JIT [x86_64-linux]
+  48bd5a3d57: ruby 3.0.0dev (2020-12-19T15:41:06Z master 48bd5a3d57) [x86_64-linux]
+  48bd5a3d57 --jit: ruby 3.0.0dev (2020-12-19T15:41:06Z master 48bd5a3d57) +JIT [x86_64-linux]
+  50f1e7eb23: ruby 3.0.0dev (2020-12-19T15:42:21Z master 50f1e7eb23) [x86_64-linux]
+  50f1e7eb23 --jit: ruby 3.0.0dev (2020-12-19T15:42:21Z master 50f1e7eb23) +JIT [x86_64-linux]
