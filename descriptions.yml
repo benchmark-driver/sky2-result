@@ -11,90 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  ede1a3dc11: |-
-    ruby 2.7.0dev (2019-10-14T08:30:04Z trunk ede1a3dc11) [x86_64-linux]
-    last_commit=Fix typos [ci skip]
-  ede1a3dc11 --jit: |-
-    ruby 2.7.0dev (2019-10-14T08:30:04Z trunk ede1a3dc11) +JIT [x86_64-linux]
-    last_commit=Fix typos [ci skip]
-  7376d70cb0: |-
-    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk 7376d70cb0) [x86_64-linux]
-    last_commit=[flori/json] Only attempt to resize strings not other objects
-  7376d70cb0 --jit: |-
-    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk 7376d70cb0) +JIT [x86_64-linux]
-    last_commit=[flori/json] Only attempt to resize strings not other objects
-  d9e50fcbeb: |-
-    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk d9e50fcbeb) [x86_64-linux]
-    last_commit=[flori/json] Pass args all #to_json in json/add/*.
-  d9e50fcbeb --jit: |-
-    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk d9e50fcbeb) +JIT [x86_64-linux]
-    last_commit=[flori/json] Pass args all #to_json in json/add/*.
-  641136c4af: |-
-    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk 641136c4af) [x86_64-linux]
-    last_commit=[flori/json] Does not check whether illegal utf-8 if string has ascii only.
-  641136c4af --jit: |-
-    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk 641136c4af) +JIT [x86_64-linux]
-    last_commit=[flori/json] Does not check whether illegal utf-8 if string has ascii only.
-  40724d7d10: |-
-    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk 40724d7d10) [x86_64-linux]
-    last_commit=[flori/json] Convert String encoding using `rb_str_encode()`
-  40724d7d10 --jit: |-
-    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk 40724d7d10) +JIT [x86_64-linux]
-    last_commit=[flori/json] Convert String encoding using `rb_str_encode()`
-  d7fa7e2c86: |-
-    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk d7fa7e2c86) [x86_64-linux]
-    last_commit=[flori/json] Convert string encoding to UTF-8 only when needed
-  d7fa7e2c86 --jit: |-
-    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk d7fa7e2c86) +JIT [x86_64-linux]
-    last_commit=[flori/json] Convert string encoding to UTF-8 only when needed
-  2003755a2c: |-
-    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk 2003755a2c) [x86_64-linux]
-    last_commit=[flori/json] Fixed unexpected illegal/malformed utf-8 error
-  2003755a2c --jit: |-
-    ruby 2.7.0dev (2019-10-14T10:54:48Z trunk 2003755a2c) +JIT [x86_64-linux]
-    last_commit=[flori/json] Fixed unexpected illegal/malformed utf-8 error
-  a2f9c38a71: |-
-    ruby 2.7.0dev (2019-10-14T10:54:49Z trunk a2f9c38a71) [x86_64-linux]
-    last_commit=[flori/json] Convert Hash object using rb_hash_foreach()
-  a2f9c38a71 --jit: |-
-    ruby 2.7.0dev (2019-10-14T10:54:49Z trunk a2f9c38a71) +JIT [x86_64-linux]
-    last_commit=[flori/json] Convert Hash object using rb_hash_foreach()
-  98a9445db9: |-
-    ruby 2.7.0dev (2019-10-14T10:54:49Z trunk 98a9445db9) [x86_64-linux]
-    last_commit=[flori/json] Add shortcut converting to String
-  98a9445db9 --jit: |-
-    ruby 2.7.0dev (2019-10-14T10:54:49Z trunk 98a9445db9) +JIT [x86_64-linux]
-    last_commit=[flori/json] Add shortcut converting to String
-  308bbb4e10: |-
-    ruby 2.7.0dev (2019-10-14T10:54:49Z trunk 308bbb4e10) [x86_64-linux]
-    last_commit=[flori/json] Add ascii_only option to JSON::Ext::Generator::State.new.
-  308bbb4e10 --jit: |-
-    ruby 2.7.0dev (2019-10-14T10:54:49Z trunk 308bbb4e10) +JIT [x86_64-linux]
-    last_commit=[flori/json] Add ascii_only option to JSON::Ext::Generator::State.new.
-  a4cf11c10f: |-
-    ruby 2.7.0dev (2019-10-14T10:54:49Z trunk a4cf11c10f) [x86_64-linux]
-    last_commit=[flori/json] fix test as reported in #343
-  a4cf11c10f --jit: |-
-    ruby 2.7.0dev (2019-10-14T10:54:49Z trunk a4cf11c10f) +JIT [x86_64-linux]
-    last_commit=[flori/json] fix test as reported in #343
-  8488d5b5b6: |-
-    ruby 2.7.0dev (2019-10-14T11:30:22Z trunk 8488d5b5b6) [x86_64-linux]
-    last_commit=Automatically close fds on fork (and GC). The connection pools are maintained at thread scope.
-  8488d5b5b6 --jit: |-
-    ruby 2.7.0dev (2019-10-14T11:30:22Z trunk 8488d5b5b6) +JIT [x86_64-linux]
-    last_commit=Automatically close fds on fork (and GC). The connection pools are maintained at thread scope.
-  c3a6260302: |-
-    ruby 2.7.0dev (2019-10-14T13:56:37Z trunk c3a6260302) [x86_64-linux]
-    last_commit=add require "monitor"
-  c3a6260302 --jit: |-
-    ruby 2.7.0dev (2019-10-14T13:56:37Z trunk c3a6260302) +JIT [x86_64-linux]
-    last_commit=add require "monitor"
-  978276a7d9: |-
-    ruby 2.7.0dev (2019-10-15T00:43:11Z trunk 978276a7d9) [x86_64-linux]
-    last_commit=Update documentation for File#{readable,writable,executable}{,_real}? [ci skip]
-  978276a7d9 --jit: |-
-    ruby 2.7.0dev (2019-10-15T00:43:11Z trunk 978276a7d9) +JIT [x86_64-linux]
-    last_commit=Update documentation for File#{readable,writable,executable}{,_real}? [ci skip]
   ddd42d8ebd: |-
     ruby 2.7.0dev (2019-10-15T00:55:44Z trunk ddd42d8ebd) [x86_64-linux]
     last_commit=* 2019-10-15 [ci skip]
@@ -13971,3 +13887,31 @@ commits:
   51bcd50915 --jit: ruby 3.0.0dev (2020-12-19T03:23:58Z master 51bcd50915) +JIT [x86_64-linux]
   5b2cf7eac8: ruby 3.0.0dev (2020-12-19T03:24:41Z master 5b2cf7eac8) [x86_64-linux]
   5b2cf7eac8 --jit: ruby 3.0.0dev (2020-12-19T03:24:41Z master 5b2cf7eac8) +JIT [x86_64-linux]
+  feacae193c: ruby 3.0.0dev (2020-12-19T06:08:01Z master feacae193c) [x86_64-linux]
+  feacae193c --jit: ruby 3.0.0dev (2020-12-19T06:08:01Z master feacae193c) +JIT [x86_64-linux]
+  b66f52b0e3: ruby 3.0.0dev (2020-12-19T06:08:01Z master b66f52b0e3) [x86_64-linux]
+  b66f52b0e3 --jit: ruby 3.0.0dev (2020-12-19T06:08:01Z master b66f52b0e3) +JIT [x86_64-linux]
+  0cb556b457: ruby 3.0.0dev (2020-12-19T06:08:01Z master 0cb556b457) [x86_64-linux]
+  0cb556b457 --jit: ruby 3.0.0dev (2020-12-19T06:08:01Z master 0cb556b457) +JIT [x86_64-linux]
+  e64af7d5ad: ruby 3.0.0dev (2020-12-19T06:08:54Z master e64af7d5ad) [x86_64-linux]
+  e64af7d5ad --jit: ruby 3.0.0dev (2020-12-19T06:08:54Z master e64af7d5ad) +JIT [x86_64-linux]
+  144b11e03e: ruby 3.0.0dev (2020-12-19T06:24:09Z master 144b11e03e) [x86_64-linux]
+  144b11e03e --jit: ruby 3.0.0dev (2020-12-19T06:24:09Z master 144b11e03e) +JIT [x86_64-linux]
+  a5832c9a37: ruby 3.0.0dev (2020-12-19T06:34:37Z master a5832c9a37) [x86_64-linux]
+  a5832c9a37 --jit: ruby 3.0.0dev (2020-12-19T06:34:37Z master a5832c9a37) +JIT [x86_64-linux]
+  553d6fa0a0: ruby 3.0.0dev (2020-12-19T06:34:37Z master 553d6fa0a0) [x86_64-linux]
+  553d6fa0a0 --jit: ruby 3.0.0dev (2020-12-19T06:34:37Z master 553d6fa0a0) +JIT [x86_64-linux]
+  5c9d6ea6b4: ruby 3.0.0dev (2020-12-19T06:34:37Z master 5c9d6ea6b4) [x86_64-linux]
+  5c9d6ea6b4 --jit: ruby 3.0.0dev (2020-12-19T06:34:37Z master 5c9d6ea6b4) +JIT [x86_64-linux]
+  197550c956: ruby 3.0.0dev (2020-12-19T07:38:16Z master 197550c956) [x86_64-linux]
+  197550c956 --jit: ruby 3.0.0dev (2020-12-19T07:38:16Z master 197550c956) +JIT [x86_64-linux]
+  042c3e91fb: ruby 3.0.0dev (2020-12-19T07:38:17Z master 042c3e91fb) [x86_64-linux]
+  042c3e91fb --jit: ruby 3.0.0dev (2020-12-19T07:38:17Z master 042c3e91fb) +JIT [x86_64-linux]
+  a139318538: ruby 3.0.0dev (2020-12-19T07:38:17Z master a139318538) [x86_64-linux]
+  a139318538 --jit: ruby 3.0.0dev (2020-12-19T07:38:17Z master a139318538) +JIT [x86_64-linux]
+  bdd18090ad: ruby 3.0.0dev (2020-12-19T07:52:56Z master bdd18090ad) [x86_64-linux]
+  bdd18090ad --jit: ruby 3.0.0dev (2020-12-19T07:52:56Z master bdd18090ad) +JIT [x86_64-linux]
+  349e79bae0: ruby 3.0.0dev (2020-12-19T07:53:18Z master 349e79bae0) [x86_64-linux]
+  349e79bae0 --jit: ruby 3.0.0dev (2020-12-19T07:53:18Z master 349e79bae0) +JIT [x86_64-linux]
+  8ec8f37566: ruby 3.0.0dev (2020-12-19T08:03:46Z master 8ec8f37566) [x86_64-linux]
+  8ec8f37566 --jit: ruby 3.0.0dev (2020-12-19T08:03:46Z master 8ec8f37566) +JIT [x86_64-linux]
