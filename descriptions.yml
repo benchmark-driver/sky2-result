@@ -11,48 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  ddd42d8ebd: |-
-    ruby 2.7.0dev (2019-10-15T00:55:44Z trunk ddd42d8ebd) [x86_64-linux]
-    last_commit=* 2019-10-15 [ci skip]
-  ddd42d8ebd --jit: |-
-    ruby 2.7.0dev (2019-10-15T00:55:44Z trunk ddd42d8ebd) +JIT [x86_64-linux]
-    last_commit=* 2019-10-15 [ci skip]
-  96617ad1d5: |-
-    ruby 2.7.0dev (2019-10-15T04:25:05Z trunk 96617ad1d5) [x86_64-linux]
-    last_commit=IRB colorize: take into account recursive arrays and hashes (#2555)
-  96617ad1d5 --jit: |-
-    ruby 2.7.0dev (2019-10-15T04:25:05Z trunk 96617ad1d5) +JIT [x86_64-linux]
-    last_commit=IRB colorize: take into account recursive arrays and hashes (#2555)
-  c800967acd: |-
-    ruby 2.7.0dev (2019-10-15T04:58:13Z trunk c800967acd) [x86_64-linux]
-    last_commit=Simplify circular reference check of IRB::Color
-  c800967acd --jit: |-
-    ruby 2.7.0dev (2019-10-15T04:58:13Z trunk c800967acd) +JIT [x86_64-linux]
-    last_commit=Simplify circular reference check of IRB::Color
-  b7079e5384: |-
-    ruby 2.7.0dev (2019-10-15T09:53:33Z trunk b7079e5384) [x86_64-linux]
-    last_commit=Try to avoid random failure
-  b7079e5384 --jit: |-
-    ruby 2.7.0dev (2019-10-15T09:53:33Z trunk b7079e5384) +JIT [x86_64-linux]
-    last_commit=Try to avoid random failure
-  f94202fcc2: |-
-    ruby 2.7.0dev (2019-10-15T10:41:16Z trunk f94202fcc2) [x86_64-linux]
-    last_commit=Use compare_by_identity hash [Bug #16250]
-  f94202fcc2 --jit: |-
-    ruby 2.7.0dev (2019-10-15T10:41:16Z trunk f94202fcc2) +JIT [x86_64-linux]
-    last_commit=Use compare_by_identity hash [Bug #16250]
-  d2982bea67: |-
-    ruby 2.7.0dev (2019-10-15T11:18:32Z trunk d2982bea67) [x86_64-linux]
-    last_commit=Remove duplicated `.` [ci skip]
-  d2982bea67 --jit: |-
-    ruby 2.7.0dev (2019-10-15T11:18:32Z trunk d2982bea67) +JIT [x86_64-linux]
-    last_commit=Remove duplicated `.` [ci skip]
-  51a31b86e9: |-
-    ruby 2.7.0dev (2019-10-15T11:56:33Z trunk 51a31b86e9) [x86_64-linux]
-    last_commit=[rubygems/rubygems] Also bump test variable
-  51a31b86e9 --jit: |-
-    ruby 2.7.0dev (2019-10-15T11:56:33Z trunk 51a31b86e9) +JIT [x86_64-linux]
-    last_commit=[rubygems/rubygems] Also bump test variable
   e0e93a199d: |-
     ruby 2.7.0dev (2019-10-15T11:57:01Z trunk e0e93a199d) [x86_64-linux]
     last_commit=[rubygems/rubygems] Bump version to 3.1.0.pre2
@@ -13915,3 +13873,17 @@ commits:
   349e79bae0 --jit: ruby 3.0.0dev (2020-12-19T07:53:18Z master 349e79bae0) +JIT [x86_64-linux]
   8ec8f37566: ruby 3.0.0dev (2020-12-19T08:03:46Z master 8ec8f37566) [x86_64-linux]
   8ec8f37566 --jit: ruby 3.0.0dev (2020-12-19T08:03:46Z master 8ec8f37566) +JIT [x86_64-linux]
+  52b1716c78: ruby 3.0.0dev (2020-12-19T08:27:44Z master 52b1716c78) [x86_64-linux]
+  52b1716c78 --jit: ruby 3.0.0dev (2020-12-19T08:27:44Z master 52b1716c78) +JIT [x86_64-linux]
+  e33eb09b76: ruby 3.0.0dev (2020-12-19T08:32:39Z master e33eb09b76) [x86_64-linux]
+  e33eb09b76 --jit: ruby 3.0.0dev (2020-12-19T08:32:39Z master e33eb09b76) +JIT [x86_64-linux]
+  5611066e03: ruby 3.0.0dev (2020-12-19T08:34:33Z master 5611066e03) [x86_64-linux]
+  5611066e03 --jit: ruby 3.0.0dev (2020-12-19T08:34:33Z master 5611066e03) +JIT [x86_64-linux]
+  0d3dc2ec80: ruby 3.0.0dev (2020-12-19T08:59:51Z master 0d3dc2ec80) [x86_64-linux]
+  0d3dc2ec80 --jit: ruby 3.0.0dev (2020-12-19T08:59:51Z master 0d3dc2ec80) +JIT [x86_64-linux]
+  8148f88b92: ruby 3.0.0dev (2020-12-19T09:04:47Z master 8148f88b92) [x86_64-linux]
+  8148f88b92 --jit: ruby 3.0.0dev (2020-12-19T09:04:47Z master 8148f88b92) +JIT [x86_64-linux]
+  eb8ea336d3: ruby 3.0.0dev (2020-12-19T09:19:49Z master eb8ea336d3) [x86_64-linux]
+  eb8ea336d3 --jit: ruby 3.0.0dev (2020-12-19T09:19:49Z master eb8ea336d3) +JIT [x86_64-linux]
+  1ba8d63b49: ruby 3.0.0dev (2020-12-19T09:22:44Z master 1ba8d63b49) [x86_64-linux]
+  1ba8d63b49 --jit: ruby 3.0.0dev (2020-12-19T09:22:44Z master 1ba8d63b49) +JIT [x86_64-linux]
