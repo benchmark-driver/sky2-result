@@ -11,30 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  95c420c4a6: |-
-    ruby 2.7.0dev (2019-10-14T03:40:50Z trunk 95c420c4a6) [x86_64-linux]
-    last_commit=Import StringScanner 1.0.3 (#2553)
-  95c420c4a6 --jit: |-
-    ruby 2.7.0dev (2019-10-14T03:40:50Z trunk 95c420c4a6) +JIT [x86_64-linux]
-    last_commit=Import StringScanner 1.0.3 (#2553)
-  d0ed935d5b: |-
-    ruby 2.7.0dev (2019-10-14T05:20:32Z trunk d0ed935d5b) [x86_64-linux]
-    last_commit=Fix some DRb issues (#2552)
-  d0ed935d5b --jit: |-
-    ruby 2.7.0dev (2019-10-14T05:20:32Z trunk d0ed935d5b) +JIT [x86_64-linux]
-    last_commit=Fix some DRb issues (#2552)
-  3e763883ea: |-
-    ruby 2.7.0dev (2019-10-14T06:10:56Z trunk 3e763883ea) [x86_64-linux]
-    last_commit=Fixed overflow at onig_region_set
-  3e763883ea --jit: |-
-    ruby 2.7.0dev (2019-10-14T06:10:56Z trunk 3e763883ea) +JIT [x86_64-linux]
-    last_commit=Fixed overflow at onig_region_set
-  '0195966ba2': |-
-    ruby 2.7.0dev (2019-10-14T06:42:27Z trunk 0195966ba2) [x86_64-linux]
-    last_commit=Suppress warnings for Thread.exclusive
-  '0195966ba2 --jit': |-
-    ruby 2.7.0dev (2019-10-14T06:42:27Z trunk 0195966ba2) +JIT [x86_64-linux]
-    last_commit=Suppress warnings for Thread.exclusive
   ede1a3dc11: |-
     ruby 2.7.0dev (2019-10-14T08:30:04Z trunk ede1a3dc11) [x86_64-linux]
     last_commit=Fix typos [ci skip]
@@ -13987,3 +13963,11 @@ commits:
   76e8848037 --jit: ruby 3.0.0dev (2020-12-18T20:57:12Z master 76e8848037) +JIT [x86_64-linux]
   d40d95296d: ruby 3.0.0dev (2020-12-19T00:22:26Z master d40d95296d) [x86_64-linux]
   d40d95296d --jit: ruby 3.0.0dev (2020-12-19T00:22:26Z master d40d95296d) +JIT [x86_64-linux]
+  5616f2ee93: ruby 3.0.0dev (2020-12-19T02:39:03Z master 5616f2ee93) [x86_64-linux]
+  5616f2ee93 --jit: ruby 3.0.0dev (2020-12-19T02:39:03Z master 5616f2ee93) +JIT [x86_64-linux]
+  34f6b22df0: ruby 3.0.0dev (2020-12-19T02:44:05Z master 34f6b22df0) [x86_64-linux]
+  34f6b22df0 --jit: ruby 3.0.0dev (2020-12-19T02:44:05Z master 34f6b22df0) +JIT [x86_64-linux]
+  51bcd50915: ruby 3.0.0dev (2020-12-19T03:23:58Z master 51bcd50915) [x86_64-linux]
+  51bcd50915 --jit: ruby 3.0.0dev (2020-12-19T03:23:58Z master 51bcd50915) +JIT [x86_64-linux]
+  5b2cf7eac8: ruby 3.0.0dev (2020-12-19T03:24:41Z master 5b2cf7eac8) [x86_64-linux]
+  5b2cf7eac8 --jit: ruby 3.0.0dev (2020-12-19T03:24:41Z master 5b2cf7eac8) +JIT [x86_64-linux]
