@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  b4d308b419: |-
-    ruby 2.7.0dev (2019-10-18T08:39:16Z trunk b4d308b419) [x86_64-linux]
-    last_commit=Defer adding additional info until getting the message of an error
-  b4d308b419 --jit: |-
-    ruby 2.7.0dev (2019-10-18T08:39:16Z trunk b4d308b419) +JIT [x86_64-linux]
-    last_commit=Defer adding additional info until getting the message of an error
-  e2b719bed6: |-
-    ruby 2.7.0dev (2019-10-18T08:46:53Z trunk e2b719bed6) [x86_64-linux]
-    last_commit=Support DidYouMean by AmbiguousOption too
-  e2b719bed6 --jit: |-
-    ruby 2.7.0dev (2019-10-18T08:46:53Z trunk e2b719bed6) +JIT [x86_64-linux]
-    last_commit=Support DidYouMean by AmbiguousOption too
   ddad1fb229: |-
     ruby 2.7.0dev (2019-10-18T08:53:17Z trunk ddad1fb229) [x86_64-linux]
     last_commit=NEWS: Mention that optparse now supports did_you_mean for unknown option
@@ -13659,3 +13647,7 @@ commits:
   9c73c75624 --jit: ruby 3.0.0dev (2020-12-20T16:19:55Z master 9c73c75624) +JIT [x86_64-linux]
   7600f69a8e: ruby 3.0.0dev (2020-12-20T17:21:33Z master 7600f69a8e) [x86_64-linux]
   7600f69a8e --jit: ruby 3.0.0dev (2020-12-20T17:21:33Z master 7600f69a8e) +JIT [x86_64-linux]
+  435b619a3d: ruby 3.0.0dev (2020-12-20T17:38:11Z master 435b619a3d) [x86_64-linux]
+  435b619a3d --jit: ruby 3.0.0dev (2020-12-20T17:38:11Z master 435b619a3d) +JIT [x86_64-linux]
+  6be61ab264: ruby 3.0.0dev (2020-12-20T17:39:34Z master 6be61ab264) [x86_64-linux]
+  6be61ab264 --jit: ruby 3.0.0dev (2020-12-20T17:39:34Z master 6be61ab264) +JIT [x86_64-linux]
