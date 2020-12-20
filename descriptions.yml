@@ -11,36 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  ce7942361d: |-
-    ruby 2.7.0dev (2019-10-18T05:53:51Z trunk ce7942361d) [x86_64-linux]
-    last_commit=Use identhash as WeakMap
-  ce7942361d --jit: |-
-    ruby 2.7.0dev (2019-10-18T05:53:51Z trunk ce7942361d) +JIT [x86_64-linux]
-    last_commit=Use identhash as WeakMap
-  '095cdca15b': |-
-    ruby 2.7.0dev (2019-10-18T05:53:52Z trunk 095cdca15b) [x86_64-linux]
-    last_commit=Make weakmap finalizer an ifunc lambda
-  '095cdca15b --jit': |-
-    ruby 2.7.0dev (2019-10-18T05:53:52Z trunk 095cdca15b) +JIT [x86_64-linux]
-    last_commit=Make weakmap finalizer an ifunc lambda
-  e50b8949fa: |-
-    ruby 2.7.0dev (2019-10-18T05:59:26Z trunk e50b8949fa) [x86_64-linux]
-    last_commit=Suppress numbered parameter warnings
-  e50b8949fa --jit: |-
-    ruby 2.7.0dev (2019-10-18T05:59:26Z trunk e50b8949fa) +JIT [x86_64-linux]
-    last_commit=Suppress numbered parameter warnings
-  46fa301e82: |-
-    ruby 2.7.0dev (2019-10-18T06:18:36Z trunk 46fa301e82) [x86_64-linux]
-    last_commit=Use DidYouMean.formatter
-  46fa301e82 --jit: |-
-    ruby 2.7.0dev (2019-10-18T06:18:36Z trunk 46fa301e82) +JIT [x86_64-linux]
-    last_commit=Use DidYouMean.formatter
-  d4e52f672c: |-
-    ruby 2.7.0dev (2019-10-18T06:19:26Z trunk d4e52f672c) [x86_64-linux]
-    last_commit=Added no suggestion test case
-  d4e52f672c --jit: |-
-    ruby 2.7.0dev (2019-10-18T06:19:26Z trunk d4e52f672c) +JIT [x86_64-linux]
-    last_commit=Added no suggestion test case
   e29e49abf0: |-
     ruby 2.7.0dev (2019-10-18T07:43:40Z trunk e29e49abf0) [x86_64-linux]
     last_commit=Default DidYouMean.formatter to PlainFormatter
@@ -13683,3 +13653,13 @@ commits:
   4b6e3f7b82 --jit: ruby 3.0.0dev (2020-12-20T10:35:59Z master 4b6e3f7b82) +JIT [x86_64-linux]
   8680ae9cbd: ruby 3.0.0dev (2020-12-20T10:36:24Z master 8680ae9cbd) [x86_64-linux]
   8680ae9cbd --jit: ruby 3.0.0dev (2020-12-20T10:36:24Z master 8680ae9cbd) +JIT [x86_64-linux]
+  730f314171: ruby 3.0.0dev (2020-12-20T16:13:39Z master 730f314171) [x86_64-linux]
+  730f314171 --jit: ruby 3.0.0dev (2020-12-20T16:13:39Z master 730f314171) +JIT [x86_64-linux]
+  a365ae841b: ruby 3.0.0dev (2020-12-20T16:15:45Z master a365ae841b) [x86_64-linux]
+  a365ae841b --jit: ruby 3.0.0dev (2020-12-20T16:15:45Z master a365ae841b) +JIT [x86_64-linux]
+  ad534a677a: ruby 3.0.0dev (2020-12-20T16:19:55Z master ad534a677a) [x86_64-linux]
+  ad534a677a --jit: ruby 3.0.0dev (2020-12-20T16:19:55Z master ad534a677a) +JIT [x86_64-linux]
+  fb8f011422: ruby 3.0.0dev (2020-12-20T16:19:55Z master fb8f011422) [x86_64-linux]
+  fb8f011422 --jit: ruby 3.0.0dev (2020-12-20T16:19:55Z master fb8f011422) +JIT [x86_64-linux]
+  9c73c75624: ruby 3.0.0dev (2020-12-20T16:19:55Z master 9c73c75624) [x86_64-linux]
+  9c73c75624 --jit: ruby 3.0.0dev (2020-12-20T16:19:55Z master 9c73c75624) +JIT [x86_64-linux]
