@@ -11,72 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  e8124729fb: |-
-    ruby 2.7.0dev (2019-10-16T05:54:43Z trunk e8124729fb) [x86_64-linux]
-    last_commit=Disable ccache on arm64 build
-  e8124729fb --jit: |-
-    ruby 2.7.0dev (2019-10-16T05:54:43Z trunk e8124729fb) +JIT [x86_64-linux]
-    last_commit=Disable ccache on arm64 build
-  006d9013ea: |-
-    ruby 2.7.0dev (2019-10-16T05:56:20Z trunk 006d9013ea) [x86_64-linux]
-    last_commit=Remove arm64 build from Drone
-  006d9013ea --jit: |-
-    ruby 2.7.0dev (2019-10-16T05:56:20Z trunk 006d9013ea) +JIT [x86_64-linux]
-    last_commit=Remove arm64 build from Drone
-  eef25f95b7: |-
-    ruby 2.7.0dev (2019-10-16T06:04:34Z trunk eef25f95b7) [x86_64-linux]
-    last_commit=Maintain the intention of comment in Travis matrix
-  eef25f95b7 --jit: |-
-    ruby 2.7.0dev (2019-10-16T06:04:34Z trunk eef25f95b7) +JIT [x86_64-linux]
-    last_commit=Maintain the intention of comment in Travis matrix
-  c15856d76d: |-
-    ruby 2.7.0dev (2019-10-16T06:14:55Z trunk c15856d76d) [x86_64-linux]
-    last_commit=Do not test --jit-debug on -DVM_CHECK_MODE
-  c15856d76d --jit: |-
-    ruby 2.7.0dev (2019-10-16T06:14:55Z trunk c15856d76d) +JIT [x86_64-linux]
-    last_commit=Do not test --jit-debug on -DVM_CHECK_MODE
-  17ee01e3f6: |-
-    ruby 2.7.0dev (2019-10-16T06:16:54Z trunk 17ee01e3f6) [x86_64-linux]
-    last_commit=Removed an unused assignment
-  17ee01e3f6 --jit: |-
-    ruby 2.7.0dev (2019-10-16T06:16:54Z trunk 17ee01e3f6) +JIT [x86_64-linux]
-    last_commit=Removed an unused assignment
-  d70855c725: |-
-    ruby 2.7.0dev (2019-10-16T06:16:55Z trunk d70855c725) [x86_64-linux]
-    last_commit=Added test for rdoc `--force-update` option
-  d70855c725 --jit: |-
-    ruby 2.7.0dev (2019-10-16T06:16:55Z trunk d70855c725) +JIT [x86_64-linux]
-    last_commit=Added test for rdoc `--force-update` option
-  5437d7c879: |-
-    ruby 2.7.0dev (2019-10-16T07:11:41Z trunk 5437d7c879) [x86_64-linux]
-    last_commit=Temporarily drop test_jit_debug.rb
-  5437d7c879 --jit: |-
-    ruby 2.7.0dev (2019-10-16T07:11:41Z trunk 5437d7c879) +JIT [x86_64-linux]
-    last_commit=Temporarily drop test_jit_debug.rb
-  43015275b9: |-
-    ruby 2.7.0dev (2019-10-16T08:44:51Z trunk 43015275b9) [x86_64-linux]
-    last_commit=alias assert_raise_message for compatibility with test-unit
-  43015275b9 --jit: |-
-    ruby 2.7.0dev (2019-10-16T08:44:51Z trunk 43015275b9) +JIT [x86_64-linux]
-    last_commit=alias assert_raise_message for compatibility with test-unit
-  f8fb51c976: |-
-    ruby 2.7.0dev (2019-10-16T12:00:36Z trunk f8fb51c976) [x86_64-linux]
-    last_commit=Revert "alias assert_raise_message for compatibility with test-unit"
-  f8fb51c976 --jit: |-
-    ruby 2.7.0dev (2019-10-16T12:00:36Z trunk f8fb51c976) +JIT [x86_64-linux]
-    last_commit=Revert "alias assert_raise_message for compatibility with test-unit"
-  7df227804a: |-
-    ruby 2.7.0dev (2019-10-16T13:35:58Z trunk 7df227804a) [x86_64-linux]
-    last_commit=Support multiline history in incremental search
-  7df227804a --jit: |-
-    ruby 2.7.0dev (2019-10-16T13:35:58Z trunk 7df227804a) +JIT [x86_64-linux]
-    last_commit=Support multiline history in incremental search
-  5c80dffd05: |-
-    ruby 2.7.0dev (2019-10-16T15:28:53Z trunk 5c80dffd05) [x86_64-linux]
-    last_commit=Revert "Disable ccache on arm64 build"
-  5c80dffd05 --jit: |-
-    ruby 2.7.0dev (2019-10-16T15:28:53Z trunk 5c80dffd05) +JIT [x86_64-linux]
-    last_commit=Revert "Disable ccache on arm64 build"
   e003f29e21: |-
     ruby 2.7.0dev (2019-10-16T15:29:39Z trunk e003f29e21) [x86_64-linux]
     last_commit=* 2019-10-17 [ci skip]
@@ -13835,3 +13769,25 @@ commits:
   48bd5a3d57 --jit: ruby 3.0.0dev (2020-12-19T15:41:06Z master 48bd5a3d57) +JIT [x86_64-linux]
   50f1e7eb23: ruby 3.0.0dev (2020-12-19T15:42:21Z master 50f1e7eb23) [x86_64-linux]
   50f1e7eb23 --jit: ruby 3.0.0dev (2020-12-19T15:42:21Z master 50f1e7eb23) +JIT [x86_64-linux]
+  d44671c819: ruby 3.0.0dev (2020-12-19T16:57:51Z master d44671c819) [x86_64-linux]
+  d44671c819 --jit: ruby 3.0.0dev (2020-12-19T16:57:51Z master d44671c819) +JIT [x86_64-linux]
+  1f565ac6d9: ruby 3.0.0dev (2020-12-19T18:04:40Z master 1f565ac6d9) [x86_64-linux]
+  1f565ac6d9 --jit: ruby 3.0.0dev (2020-12-19T18:04:40Z master 1f565ac6d9) +JIT [x86_64-linux]
+  a273171ca8: ruby 3.0.0dev (2020-12-19T18:08:24Z master a273171ca8) [x86_64-linux]
+  a273171ca8 --jit: ruby 3.0.0dev (2020-12-19T18:08:24Z master a273171ca8) +JIT [x86_64-linux]
+  b2acae3274: ruby 3.0.0dev (2020-12-19T18:10:30Z master b2acae3274) [x86_64-linux]
+  b2acae3274 --jit: ruby 3.0.0dev (2020-12-19T18:10:30Z master b2acae3274) +JIT [x86_64-linux]
+  c01ad11f90: ruby 3.0.0dev (2020-12-19T18:13:33Z master c01ad11f90) [x86_64-linux]
+  c01ad11f90 --jit: ruby 3.0.0dev (2020-12-19T18:13:33Z master c01ad11f90) +JIT [x86_64-linux]
+  ed4381d941: ruby 3.0.0dev (2020-12-19T18:14:58Z master ed4381d941) [x86_64-linux]
+  ed4381d941 --jit: ruby 3.0.0dev (2020-12-19T18:14:58Z master ed4381d941) +JIT [x86_64-linux]
+  '3621380046': ruby 3.0.0dev (2020-12-19T19:14:05Z master 3621380046) [x86_64-linux]
+  3621380046 --jit: ruby 3.0.0dev (2020-12-19T19:14:05Z master 3621380046) +JIT [x86_64-linux]
+  c1461c927b: ruby 3.0.0dev (2020-12-19T19:22:29Z master c1461c927b) [x86_64-linux]
+  c1461c927b --jit: ruby 3.0.0dev (2020-12-19T19:22:29Z master c1461c927b) +JIT [x86_64-linux]
+  846c4b03b8: ruby 3.0.0dev (2020-12-19T19:22:29Z master 846c4b03b8) [x86_64-linux]
+  846c4b03b8 --jit: ruby 3.0.0dev (2020-12-19T19:22:29Z master 846c4b03b8) +JIT [x86_64-linux]
+  bcf4b236e4: ruby 3.0.0dev (2020-12-19T19:22:29Z master bcf4b236e4) [x86_64-linux]
+  bcf4b236e4 --jit: ruby 3.0.0dev (2020-12-19T19:22:29Z master bcf4b236e4) +JIT [x86_64-linux]
+  7f8108eeff: ruby 3.0.0dev (2020-12-19T19:51:00Z master 7f8108eeff) [x86_64-linux]
+  7f8108eeff --jit: ruby 3.0.0dev (2020-12-19T19:51:00Z master 7f8108eeff) +JIT [x86_64-linux]
