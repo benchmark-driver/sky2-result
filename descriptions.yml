@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  e003f29e21: |-
-    ruby 2.7.0dev (2019-10-16T15:29:39Z trunk e003f29e21) [x86_64-linux]
-    last_commit=* 2019-10-17 [ci skip]
-  e003f29e21 --jit: |-
-    ruby 2.7.0dev (2019-10-16T15:29:39Z trunk e003f29e21) +JIT [x86_64-linux]
-    last_commit=* 2019-10-17 [ci skip]
-  3fea2d91ad: |-
-    ruby 2.7.0dev (2019-10-16T16:21:18Z trunk 3fea2d91ad) [x86_64-linux]
-    last_commit=Use an even indent in NEWS for code
-  3fea2d91ad --jit: |-
-    ruby 2.7.0dev (2019-10-16T16:21:18Z trunk 3fea2d91ad) +JIT [x86_64-linux]
-    last_commit=Use an even indent in NEWS for code
-  e26c6d4ab8: |-
-    ruby 2.7.0dev (2019-10-16T16:56:20Z trunk e26c6d4ab8) [x86_64-linux]
-    last_commit=Collect multiline prompt logic into a method
-  e26c6d4ab8 --jit: |-
-    ruby 2.7.0dev (2019-10-16T16:56:20Z trunk e26c6d4ab8) +JIT [x86_64-linux]
-    last_commit=Collect multiline prompt logic into a method
   db84123600: |-
     ruby 2.7.0dev (2019-10-16T17:19:01Z trunk db84123600) [x86_64-linux]
     last_commit=Calculate prompt width correctly
@@ -13791,3 +13773,9 @@ commits:
   bcf4b236e4 --jit: ruby 3.0.0dev (2020-12-19T19:22:29Z master bcf4b236e4) +JIT [x86_64-linux]
   7f8108eeff: ruby 3.0.0dev (2020-12-19T19:51:00Z master 7f8108eeff) [x86_64-linux]
   7f8108eeff --jit: ruby 3.0.0dev (2020-12-19T19:51:00Z master 7f8108eeff) +JIT [x86_64-linux]
+  70f20234b2: ruby 3.0.0dev (2020-12-19T22:13:08Z master 70f20234b2) [x86_64-linux]
+  70f20234b2 --jit: ruby 3.0.0dev (2020-12-19T22:13:08Z master 70f20234b2) +JIT [x86_64-linux]
+  67e062b523: ruby 3.0.0dev (2020-12-19T22:13:08Z master 67e062b523) [x86_64-linux]
+  67e062b523 --jit: ruby 3.0.0dev (2020-12-19T22:13:08Z master 67e062b523) +JIT [x86_64-linux]
+  6343a81129: ruby 3.0.0dev (2020-12-19T22:13:08Z master 6343a81129) [x86_64-linux]
+  6343a81129 --jit: ruby 3.0.0dev (2020-12-19T22:13:08Z master 6343a81129) +JIT [x86_64-linux]
