@@ -11,30 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  db84123600: |-
-    ruby 2.7.0dev (2019-10-16T17:19:01Z trunk db84123600) [x86_64-linux]
-    last_commit=Calculate prompt width correctly
-  db84123600 --jit: |-
-    ruby 2.7.0dev (2019-10-16T17:19:01Z trunk db84123600) +JIT [x86_64-linux]
-    last_commit=Calculate prompt width correctly
-  2993b24a1e: |-
-    ruby 2.7.0dev (2019-10-16T19:50:40Z trunk 2993b24a1e) [x86_64-linux]
-    last_commit=Warn for calling public/protected/private/module_function without arguments inside method
-  2993b24a1e --jit: |-
-    ruby 2.7.0dev (2019-10-16T19:50:40Z trunk 2993b24a1e) +JIT [x86_64-linux]
-    last_commit=Warn for calling public/protected/private/module_function without arguments inside method
-  50b8033d6b: |-
-    ruby 2.7.0dev (2019-10-16T19:51:13Z trunk 50b8033d6b) [x86_64-linux]
-    last_commit=Handle subclasses of Exception in drb
-  50b8033d6b --jit: |-
-    ruby 2.7.0dev (2019-10-16T19:51:13Z trunk 50b8033d6b) +JIT [x86_64-linux]
-    last_commit=Handle subclasses of Exception in drb
-  567e312d1f: |-
-    ruby 2.7.0dev (2019-10-16T19:51:13Z trunk 567e312d1f) [x86_64-linux]
-    last_commit=Do not raise an exception on a closed DRb socket
-  567e312d1f --jit: |-
-    ruby 2.7.0dev (2019-10-16T19:51:13Z trunk 567e312d1f) +JIT [x86_64-linux]
-    last_commit=Do not raise an exception on a closed DRb socket
   d5744aff3a: |-
     ruby 2.7.0dev (2019-10-16T19:51:13Z trunk d5744aff3a) [x86_64-linux]
     last_commit=Fix DRbServer#any_to_s
@@ -13779,3 +13755,11 @@ commits:
   67e062b523 --jit: ruby 3.0.0dev (2020-12-19T22:13:08Z master 67e062b523) +JIT [x86_64-linux]
   6343a81129: ruby 3.0.0dev (2020-12-19T22:13:08Z master 6343a81129) [x86_64-linux]
   6343a81129 --jit: ruby 3.0.0dev (2020-12-19T22:13:08Z master 6343a81129) +JIT [x86_64-linux]
+  648bbfcc65: ruby 3.0.0dev (2020-12-20T01:25:27Z master 648bbfcc65) [x86_64-linux]
+  648bbfcc65 --jit: ruby 3.0.0dev (2020-12-20T01:25:27Z master 648bbfcc65) +JIT [x86_64-linux]
+  f70b894b88: ruby 3.0.0dev (2020-12-20T02:46:13Z master f70b894b88) [x86_64-linux]
+  f70b894b88 --jit: ruby 3.0.0dev (2020-12-20T02:46:13Z master f70b894b88) +JIT [x86_64-linux]
+  b1b6dbfdc3: ruby 3.0.0dev (2020-12-20T03:37:27Z master b1b6dbfdc3) [x86_64-linux]
+  b1b6dbfdc3 --jit: ruby 3.0.0dev (2020-12-20T03:37:27Z master b1b6dbfdc3) +JIT [x86_64-linux]
+  4902f96ee5: ruby 3.0.0dev (2020-12-20T04:22:53Z master 4902f96ee5) [x86_64-linux]
+  4902f96ee5 --jit: ruby 3.0.0dev (2020-12-20T04:22:53Z master 4902f96ee5) +JIT [x86_64-linux]
