@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  8b8b9c1a1f: |-
-    ruby 2.7.0dev (2019-10-21T07:48:37Z trunk 8b8b9c1a1f) [x86_64-linux]
-    last_commit=add a NEWS entry about [Feature #15602]
-  8b8b9c1a1f --jit: |-
-    ruby 2.7.0dev (2019-10-21T07:48:37Z trunk 8b8b9c1a1f) +JIT [x86_64-linux]
-    last_commit=add a NEWS entry about [Feature #15602]
   b970259044: |-
     ruby 2.7.0dev (2019-10-21T08:29:21Z trunk b970259044) [x86_64-linux]
     last_commit=Stop making a redundant hash copy in Hash#dup (#2489)
@@ -13556,3 +13550,5 @@ commits:
   dca6752fec --jit: ruby 3.0.0dev (2020-12-21T13:29:05Z master dca6752fec) +JIT [x86_64-linux]
   0b6a80c0be: ruby 3.0.0dev (2020-12-21T13:41:24Z master 0b6a80c0be) [x86_64-linux]
   0b6a80c0be --jit: ruby 3.0.0dev (2020-12-21T13:41:24Z master 0b6a80c0be) +JIT [x86_64-linux]
+  91e2f08a6a: ruby 3.0.0dev (2020-12-21T14:28:05Z master 91e2f08a6a) [x86_64-linux]
+  91e2f08a6a --jit: ruby 3.0.0dev (2020-12-21T14:28:05Z master 91e2f08a6a) +JIT [x86_64-linux]
