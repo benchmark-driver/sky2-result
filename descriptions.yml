@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  44da5a1c87: |-
-    ruby 2.7.0dev (2019-10-21T02:45:54Z trunk 44da5a1c87) [x86_64-linux]
-    last_commit=Look up event ID offsets by token as index
-  44da5a1c87 --jit: |-
-    ruby 2.7.0dev (2019-10-21T02:45:54Z trunk 44da5a1c87) +JIT [x86_64-linux]
-    last_commit=Look up event ID offsets by token as index
-  215e4b8721: |-
-    ruby 2.7.0dev (2019-10-21T02:50:44Z trunk 215e4b8721) [x86_64-linux]
-    last_commit=* expand tabs. [ci skip]
-  215e4b8721 --jit: |-
-    ruby 2.7.0dev (2019-10-21T02:50:44Z trunk 215e4b8721) +JIT [x86_64-linux]
-    last_commit=* expand tabs. [ci skip]
   431132f037: |-
     ruby 2.7.0dev (2019-10-21T06:30:00Z trunk 431132f037) [x86_64-linux]
     last_commit=Pass the called keyword arguments if `keyword_init`
@@ -13568,3 +13556,7 @@ commits:
   4c2e7f26bd --jit: ruby 3.0.0dev (2020-12-21T13:10:43Z master 4c2e7f26bd) +JIT [x86_64-linux]
   14d7d1df25: ruby 3.0.0dev (2020-12-21T13:10:43Z master 14d7d1df25) [x86_64-linux]
   14d7d1df25 --jit: ruby 3.0.0dev (2020-12-21T13:10:43Z master 14d7d1df25) +JIT [x86_64-linux]
+  8c0c61728f: ruby 3.0.0dev (2020-12-21T13:16:02Z master 8c0c61728f) [x86_64-linux]
+  8c0c61728f --jit: ruby 3.0.0dev (2020-12-21T13:16:02Z master 8c0c61728f) +JIT [x86_64-linux]
+  dca6752fec: ruby 3.0.0dev (2020-12-21T13:29:05Z master dca6752fec) [x86_64-linux]
+  dca6752fec --jit: ruby 3.0.0dev (2020-12-21T13:29:05Z master dca6752fec) +JIT [x86_64-linux]
