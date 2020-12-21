@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  a0a3c70181: |-
-    ruby 2.7.0dev (2019-10-20T05:21:04Z trunk a0a3c70181) [x86_64-linux]
-    last_commit=delegate synchronize method
-  a0a3c70181 --jit: |-
-    ruby 2.7.0dev (2019-10-20T05:21:04Z trunk a0a3c70181) +JIT [x86_64-linux]
-    last_commit=delegate synchronize method
-  a236eaa762: |-
-    ruby 2.7.0dev (2019-10-20T06:45:30Z trunk a236eaa762) [x86_64-linux]
-    last_commit=Native MonitorMixin::ConditionVariable#wait
-  a236eaa762 --jit: |-
-    ruby 2.7.0dev (2019-10-20T06:45:30Z trunk a236eaa762) +JIT [x86_64-linux]
-    last_commit=Native MonitorMixin::ConditionVariable#wait
-  9e07dfd253: |-
-    ruby 2.7.0dev (2019-10-20T07:16:54Z trunk 9e07dfd253) [x86_64-linux]
-    last_commit=show BASERUBY version at configure.
-  9e07dfd253 --jit: |-
-    ruby 2.7.0dev (2019-10-20T07:16:54Z trunk 9e07dfd253) +JIT [x86_64-linux]
-    last_commit=show BASERUBY version at configure.
   ca7de0334d: |-
     ruby 2.7.0dev (2019-10-20T11:45:56Z trunk ca7de0334d) [x86_64-linux]
     last_commit=Also BDOT2 and BDOT3 are operators
@@ -13611,3 +13593,9 @@ commits:
   a574df14e4 --jit: ruby 3.0.0dev (2020-12-21T06:03:20Z master a574df14e4) +JIT [x86_64-linux]
   1fdc97f1b7: ruby 3.0.0dev (2020-12-21T06:58:45Z master 1fdc97f1b7) [x86_64-linux]
   1fdc97f1b7 --jit: ruby 3.0.0dev (2020-12-21T06:58:45Z master 1fdc97f1b7) +JIT [x86_64-linux]
+  f26f905b28: ruby 3.0.0dev (2020-12-21T07:17:37Z master f26f905b28) [x86_64-linux]
+  f26f905b28 --jit: ruby 3.0.0dev (2020-12-21T07:17:37Z master f26f905b28) +JIT [x86_64-linux]
+  391343e828: ruby 3.0.0dev (2020-12-21T07:21:46Z master 391343e828) [x86_64-linux]
+  391343e828 --jit: ruby 3.0.0dev (2020-12-21T07:21:46Z master 391343e828) +JIT [x86_64-linux]
+  95ce5c0ee9: ruby 3.0.0dev (2020-12-21T07:22:08Z master 95ce5c0ee9) [x86_64-linux]
+  95ce5c0ee9 --jit: ruby 3.0.0dev (2020-12-21T07:22:08Z master 95ce5c0ee9) +JIT [x86_64-linux]
