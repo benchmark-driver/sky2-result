@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  58e2ca31db: |-
-    ruby 2.7.0dev (2019-10-18T11:24:36Z trunk 58e2ca31db) [x86_64-linux]
-    last_commit=Use `_` instead of `_n_`
-  58e2ca31db --jit: |-
-    ruby 2.7.0dev (2019-10-18T11:24:36Z trunk 58e2ca31db) +JIT [x86_64-linux]
-    last_commit=Use `_` instead of `_n_`
   9cb809cfef: |-
     ruby 2.7.0dev (2019-10-18T13:18:52Z trunk 9cb809cfef) [x86_64-linux]
     last_commit=Verbatim texts need more indent [ci skip]
@@ -13647,3 +13641,5 @@ commits:
   6be61ab264 --jit: ruby 3.0.0dev (2020-12-20T17:39:34Z master 6be61ab264) +JIT [x86_64-linux]
   5253b9579a: ruby 3.0.0dev (2020-12-21T00:32:30Z master 5253b9579a) [x86_64-linux]
   5253b9579a --jit: ruby 3.0.0dev (2020-12-21T00:32:30Z master 5253b9579a) +JIT [x86_64-linux]
+  63849a1cd9: ruby 3.0.0dev (2020-12-21T01:54:24Z master 63849a1cd9) [x86_64-linux]
+  63849a1cd9 --jit: ruby 3.0.0dev (2020-12-21T01:54:24Z master 63849a1cd9) +JIT [x86_64-linux]
