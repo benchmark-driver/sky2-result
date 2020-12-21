@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  f37cc1c719: |-
-    ruby 2.7.0dev (2019-10-21T19:48:38Z trunk f37cc1c719) [x86_64-linux]
-    last_commit=Fallback to TCP in resolv if UDP bind raises EACCES
-  f37cc1c719 --jit: |-
-    ruby 2.7.0dev (2019-10-21T19:48:38Z trunk f37cc1c719) +JIT [x86_64-linux]
-    last_commit=Fallback to TCP in resolv if UDP bind raises EACCES
   fa8ac91e95: |-
     ruby 2.7.0dev (2019-10-21T23:54:58Z trunk fa8ac91e95) [x86_64-linux]
     last_commit=Fix Fiber#transfer
@@ -13500,3 +13494,5 @@ commits:
   520dcbd600 --jit: ruby 3.0.0dev (2020-12-21T21:09:30Z master 520dcbd600) +JIT [x86_64-linux]
   c34c6a89cb: ruby 3.0.0dev (2020-12-21T21:09:42Z master c34c6a89cb) [x86_64-linux]
   c34c6a89cb --jit: ruby 3.0.0dev (2020-12-21T21:09:42Z master c34c6a89cb) +JIT [x86_64-linux]
+  a29b9e5efe: ruby 3.0.0dev (2020-12-21T22:52:14Z master a29b9e5efe) [x86_64-linux]
+  a29b9e5efe --jit: ruby 3.0.0dev (2020-12-21T22:52:14Z master a29b9e5efe) +JIT [x86_64-linux]
