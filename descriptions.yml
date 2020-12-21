@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  1d29c9bd46: |-
-    ruby 2.7.0dev (2019-10-21T00:11:47Z trunk 1d29c9bd46) [x86_64-linux]
-    last_commit=* 2019-10-21 [ci skip]
-  1d29c9bd46 --jit: |-
-    ruby 2.7.0dev (2019-10-21T00:11:47Z trunk 1d29c9bd46) +JIT [x86_64-linux]
-    last_commit=* 2019-10-21 [ci skip]
   27261007eb: |-
     ruby 2.7.0dev (2019-10-21T00:28:28Z trunk 27261007eb) [x86_64-linux]
     last_commit=DidYouMean can be an empty stub module [Bug #16263]
@@ -13592,3 +13586,5 @@ commits:
     [x86_64-linux]
   d8469507b9: ruby 3.0.0dev (2020-12-21T08:46:30Z master d8469507b9) [x86_64-linux]
   d8469507b9 --jit: ruby 3.0.0dev (2020-12-21T08:46:30Z master d8469507b9) +JIT [x86_64-linux]
+  b9d00f42e6: ruby 3.0.0dev (2020-12-21T09:12:02Z master b9d00f42e6) [x86_64-linux]
+  b9d00f42e6 --jit: ruby 3.0.0dev (2020-12-21T09:12:02Z master b9d00f42e6) +JIT [x86_64-linux]
