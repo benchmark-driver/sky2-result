@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  0f0d05a3b1: |-
-    ruby 2.7.0dev (2019-10-21T16:04:47Z trunk 0f0d05a3b1) [x86_64-linux]
-    last_commit=fix NEWS entry about unbundled gems
-  0f0d05a3b1 --jit: |-
-    ruby 2.7.0dev (2019-10-21T16:04:47Z trunk 0f0d05a3b1) +JIT [x86_64-linux]
-    last_commit=fix NEWS entry about unbundled gems
-  9bbc28340e: |-
-    ruby 2.7.0dev (2019-10-21T16:04:47Z trunk 9bbc28340e) [x86_64-linux]
-    last_commit=add a NEWS entry about Proc#to_s change
-  9bbc28340e --jit: |-
-    ruby 2.7.0dev (2019-10-21T16:04:47Z trunk 9bbc28340e) +JIT [x86_64-linux]
-    last_commit=add a NEWS entry about Proc#to_s change
   ee302f54a0: |-
     ruby 2.7.0dev (2019-10-21T16:06:53Z trunk ee302f54a0) [x86_64-linux]
     last_commit=add an NEWS entry about [Feature #15575]
@@ -13528,3 +13516,7 @@ commits:
   208f7d7c80 --jit: ruby 3.0.0dev (2020-12-21T15:03:21Z master 208f7d7c80) +JIT [x86_64-linux]
   5c0abe2d94: ruby 3.0.0dev (2020-12-21T17:08:57Z master 5c0abe2d94) [x86_64-linux]
   5c0abe2d94 --jit: ruby 3.0.0dev (2020-12-21T17:08:57Z master 5c0abe2d94) +JIT [x86_64-linux]
+  c30f03d328: ruby 3.0.0dev (2020-12-21T17:51:49Z master c30f03d328) [x86_64-linux]
+  c30f03d328 --jit: ruby 3.0.0dev (2020-12-21T17:51:49Z master c30f03d328) +JIT [x86_64-linux]
+  8918a9cf6c: ruby 3.0.0dev (2020-12-21T17:51:49Z master 8918a9cf6c) [x86_64-linux]
+  8918a9cf6c --jit: ruby 3.0.0dev (2020-12-21T17:51:49Z master 8918a9cf6c) +JIT [x86_64-linux]
