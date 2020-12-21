@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  6067c0a220: |-
-    ruby 2.7.0dev (2019-10-21T16:27:26Z trunk 6067c0a220) [x86_64-linux]
-    last_commit=NEWS: fixed mark-up [ci skip]
-  6067c0a220 --jit: |-
-    ruby 2.7.0dev (2019-10-21T16:27:26Z trunk 6067c0a220) +JIT [x86_64-linux]
-    last_commit=NEWS: fixed mark-up [ci skip]
-  35f90bf1b9: |-
-    ruby 2.7.0dev (2019-10-21T16:27:49Z trunk 35f90bf1b9) [x86_64-linux]
-    last_commit=NEWS: fixed method names [ci skip]
-  35f90bf1b9 --jit: |-
-    ruby 2.7.0dev (2019-10-21T16:27:49Z trunk 35f90bf1b9) +JIT [x86_64-linux]
-    last_commit=NEWS: fixed method names [ci skip]
-  62d4382877: |-
-    ruby 2.7.0dev (2019-10-21T17:35:43Z trunk 62d4382877) [x86_64-linux]
-    last_commit=Arguments forwarding [Feature #16253]
-  62d4382877 --jit: |-
-    ruby 2.7.0dev (2019-10-21T17:35:43Z trunk 62d4382877) +JIT [x86_64-linux]
-    last_commit=Arguments forwarding [Feature #16253]
   f37cc1c719: |-
     ruby 2.7.0dev (2019-10-21T19:48:38Z trunk f37cc1c719) [x86_64-linux]
     last_commit=Fallback to TCP in resolv if UDP bind raises EACCES
@@ -13512,3 +13494,9 @@ commits:
   8f2031a067 --jit: ruby 3.0.0dev (2020-12-21T18:31:00Z master 8f2031a067) +JIT [x86_64-linux]
   35471a9487: ruby 3.0.0dev (2020-12-21T20:26:32Z master 35471a9487) [x86_64-linux]
   35471a9487 --jit: ruby 3.0.0dev (2020-12-21T20:26:32Z master 35471a9487) +JIT [x86_64-linux]
+  d0e4ccbefc: ruby 3.0.0dev (2020-12-21T20:54:14Z master d0e4ccbefc) [x86_64-linux]
+  d0e4ccbefc --jit: ruby 3.0.0dev (2020-12-21T20:54:14Z master d0e4ccbefc) +JIT [x86_64-linux]
+  520dcbd600: ruby 3.0.0dev (2020-12-21T21:09:30Z master 520dcbd600) [x86_64-linux]
+  520dcbd600 --jit: ruby 3.0.0dev (2020-12-21T21:09:30Z master 520dcbd600) +JIT [x86_64-linux]
+  c34c6a89cb: ruby 3.0.0dev (2020-12-21T21:09:42Z master c34c6a89cb) [x86_64-linux]
+  c34c6a89cb --jit: ruby 3.0.0dev (2020-12-21T21:09:42Z master c34c6a89cb) +JIT [x86_64-linux]
