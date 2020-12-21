@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  434966bffd: |-
-    ruby 2.7.0dev (2019-10-19T17:58:58Z trunk 434966bffd) [x86_64-linux]
-    last_commit=* 2019-10-20 [ci skip]
-  434966bffd --jit: |-
-    ruby 2.7.0dev (2019-10-19T17:58:58Z trunk 434966bffd) +JIT [x86_64-linux]
-    last_commit=* 2019-10-20 [ci skip]
   caac5f777a: |-
     ruby 2.7.0dev (2019-10-19T19:52:20Z trunk caac5f777a) [x86_64-linux]
     last_commit=make monitor.so for performance. (#2576)
@@ -13619,3 +13613,5 @@ commits:
   1ecac8e4d0 --jit: ruby 3.0.0dev (2020-12-21T03:00:05Z master 1ecac8e4d0) +JIT [x86_64-linux]
   74a7877836: ruby 3.0.0dev (2020-12-21T04:25:03Z master 74a7877836) [x86_64-linux]
   74a7877836 --jit: ruby 3.0.0dev (2020-12-21T04:25:03Z master 74a7877836) +JIT [x86_64-linux]
+  a574df14e4: ruby 3.0.0dev (2020-12-21T06:03:20Z master a574df14e4) [x86_64-linux]
+  a574df14e4 --jit: ruby 3.0.0dev (2020-12-21T06:03:20Z master a574df14e4) +JIT [x86_64-linux]
