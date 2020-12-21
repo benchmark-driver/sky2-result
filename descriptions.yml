@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  5c81e19b19: |-
-    ruby 2.7.0dev (2019-10-18T18:03:54Z trunk 5c81e19b19) [x86_64-linux]
-    last_commit=appveyor.yml - MinGW - update for MSYS2 / Mingw-w64 (#2573)
-  5c81e19b19 --jit: |-
-    ruby 2.7.0dev (2019-10-18T18:03:54Z trunk 5c81e19b19) +JIT [x86_64-linux]
-    last_commit=appveyor.yml - MinGW - update for MSYS2 / Mingw-w64 (#2573)
   1d435bd51a: |-
     ruby 2.7.0dev (2019-10-19T08:19:27Z trunk 1d435bd51a) [x86_64-linux]
     last_commit=Extend Ripper DSL to set to pseudo variables other than `$$`
@@ -13631,3 +13625,5 @@ commits:
   fe60480947 --jit: ruby 3.0.0dev (2020-12-21T02:01:01Z master fe60480947) +JIT [x86_64-linux]
   ac78d90d5e: ruby 3.0.0dev (2020-12-21T02:23:01Z master ac78d90d5e) [x86_64-linux]
   ac78d90d5e --jit: ruby 3.0.0dev (2020-12-21T02:23:01Z master ac78d90d5e) +JIT [x86_64-linux]
+  eee93bc933: ruby 3.0.0dev (2020-12-21T02:40:48Z master eee93bc933) [x86_64-linux]
+  eee93bc933 --jit: ruby 3.0.0dev (2020-12-21T02:40:48Z master eee93bc933) +JIT [x86_64-linux]
