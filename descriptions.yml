@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  ca7de0334d: |-
-    ruby 2.7.0dev (2019-10-20T11:45:56Z trunk ca7de0334d) [x86_64-linux]
-    last_commit=Also BDOT2 and BDOT3 are operators
-  ca7de0334d --jit: |-
-    ruby 2.7.0dev (2019-10-20T11:45:56Z trunk ca7de0334d) +JIT [x86_64-linux]
-    last_commit=Also BDOT2 and BDOT3 are operators
   '9223466752': |-
     ruby 2.7.0dev (2019-10-21T00:11:27Z trunk 9223466752) [x86_64-linux]
     last_commit=test_exception - fix with & w/o did_you_mean
@@ -13599,3 +13593,6 @@ commits:
   391343e828 --jit: ruby 3.0.0dev (2020-12-21T07:21:46Z master 391343e828) +JIT [x86_64-linux]
   95ce5c0ee9: ruby 3.0.0dev (2020-12-21T07:22:08Z master 95ce5c0ee9) [x86_64-linux]
   95ce5c0ee9 --jit: ruby 3.0.0dev (2020-12-21T07:22:08Z master 95ce5c0ee9) +JIT [x86_64-linux]
+  '09f939d3a0': ruby 3.0.0dev (2020-12-21T08:29:09Z master 09f939d3a0) [x86_64-linux]
+  '09f939d3a0 --jit': ruby 3.0.0dev (2020-12-21T08:29:09Z master 09f939d3a0) +JIT
+    [x86_64-linux]
