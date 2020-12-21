@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  ec2da08e2b: |-
-    ruby 2.7.0dev (2019-10-21T12:32:40Z trunk ec2da08e2b) [x86_64-linux]
-    last_commit=NEWS: fixed indents [ci skip]
-  ec2da08e2b --jit: |-
-    ruby 2.7.0dev (2019-10-21T12:32:40Z trunk ec2da08e2b) +JIT [x86_64-linux]
-    last_commit=NEWS: fixed indents [ci skip]
   0f0d05a3b1: |-
     ruby 2.7.0dev (2019-10-21T16:04:47Z trunk 0f0d05a3b1) [x86_64-linux]
     last_commit=fix NEWS entry about unbundled gems
@@ -13532,3 +13526,5 @@ commits:
   02d9524cda --jit: ruby 3.0.0dev (2020-12-21T15:03:00Z master 02d9524cda) +JIT [x86_64-linux]
   208f7d7c80: ruby 3.0.0dev (2020-12-21T15:03:21Z master 208f7d7c80) [x86_64-linux]
   208f7d7c80 --jit: ruby 3.0.0dev (2020-12-21T15:03:21Z master 208f7d7c80) +JIT [x86_64-linux]
+  5c0abe2d94: ruby 3.0.0dev (2020-12-21T17:08:57Z master 5c0abe2d94) [x86_64-linux]
+  5c0abe2d94 --jit: ruby 3.0.0dev (2020-12-21T17:08:57Z master 5c0abe2d94) +JIT [x86_64-linux]
