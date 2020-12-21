@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  9cb809cfef: |-
-    ruby 2.7.0dev (2019-10-18T13:18:52Z trunk 9cb809cfef) [x86_64-linux]
-    last_commit=Verbatim texts need more indent [ci skip]
-  9cb809cfef --jit: |-
-    ruby 2.7.0dev (2019-10-18T13:18:52Z trunk 9cb809cfef) +JIT [x86_64-linux]
-    last_commit=Verbatim texts need more indent [ci skip]
-  bf934e4812: |-
-    ruby 2.7.0dev (2019-10-18T15:50:17Z trunk bf934e4812) [x86_64-linux]
-    last_commit=Fixed passing idNil as a Symbol
-  bf934e4812 --jit: |-
-    ruby 2.7.0dev (2019-10-18T15:50:17Z trunk bf934e4812) +JIT [x86_64-linux]
-    last_commit=Fixed passing idNil as a Symbol
-  7dcc24fd81: |-
-    ruby 2.7.0dev (2019-10-18T15:51:37Z trunk 7dcc24fd81) [x86_64-linux]
-    last_commit=* 2019-10-19 [ci skip]
-  7dcc24fd81 --jit: |-
-    ruby 2.7.0dev (2019-10-18T15:51:37Z trunk 7dcc24fd81) +JIT [x86_64-linux]
-    last_commit=* 2019-10-19 [ci skip]
   5c81e19b19: |-
     ruby 2.7.0dev (2019-10-18T18:03:54Z trunk 5c81e19b19) [x86_64-linux]
     last_commit=appveyor.yml - MinGW - update for MSYS2 / Mingw-w64 (#2573)
@@ -13643,3 +13625,9 @@ commits:
   5253b9579a --jit: ruby 3.0.0dev (2020-12-21T00:32:30Z master 5253b9579a) +JIT [x86_64-linux]
   63849a1cd9: ruby 3.0.0dev (2020-12-21T01:54:24Z master 63849a1cd9) [x86_64-linux]
   63849a1cd9 --jit: ruby 3.0.0dev (2020-12-21T01:54:24Z master 63849a1cd9) +JIT [x86_64-linux]
+  11656d15e2: ruby 3.0.0dev (2020-12-21T02:01:01Z master 11656d15e2) [x86_64-linux]
+  11656d15e2 --jit: ruby 3.0.0dev (2020-12-21T02:01:01Z master 11656d15e2) +JIT [x86_64-linux]
+  fe60480947: ruby 3.0.0dev (2020-12-21T02:01:01Z master fe60480947) [x86_64-linux]
+  fe60480947 --jit: ruby 3.0.0dev (2020-12-21T02:01:01Z master fe60480947) +JIT [x86_64-linux]
+  ac78d90d5e: ruby 3.0.0dev (2020-12-21T02:23:01Z master ac78d90d5e) [x86_64-linux]
+  ac78d90d5e --jit: ruby 3.0.0dev (2020-12-21T02:23:01Z master ac78d90d5e) +JIT [x86_64-linux]
