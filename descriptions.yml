@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  1d435bd51a: |-
-    ruby 2.7.0dev (2019-10-19T08:19:27Z trunk 1d435bd51a) [x86_64-linux]
-    last_commit=Extend Ripper DSL to set to pseudo variables other than `$$`
-  1d435bd51a --jit: |-
-    ruby 2.7.0dev (2019-10-19T08:19:27Z trunk 1d435bd51a) +JIT [x86_64-linux]
-    last_commit=Extend Ripper DSL to set to pseudo variables other than `$$`
   f2ed8466d3: |-
     ruby 2.7.0dev (2019-10-19T17:58:32Z trunk f2ed8466d3) [x86_64-linux]
     last_commit=Fixed a typo [ci skip]
@@ -13627,3 +13621,5 @@ commits:
   ac78d90d5e --jit: ruby 3.0.0dev (2020-12-21T02:23:01Z master ac78d90d5e) +JIT [x86_64-linux]
   eee93bc933: ruby 3.0.0dev (2020-12-21T02:40:48Z master eee93bc933) [x86_64-linux]
   eee93bc933 --jit: ruby 3.0.0dev (2020-12-21T02:40:48Z master eee93bc933) +JIT [x86_64-linux]
+  1ecac8e4d0: ruby 3.0.0dev (2020-12-21T03:00:05Z master 1ecac8e4d0) [x86_64-linux]
+  1ecac8e4d0 --jit: ruby 3.0.0dev (2020-12-21T03:00:05Z master 1ecac8e4d0) +JIT [x86_64-linux]
