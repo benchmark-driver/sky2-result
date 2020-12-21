@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  caac5f777a: |-
-    ruby 2.7.0dev (2019-10-19T19:52:20Z trunk caac5f777a) [x86_64-linux]
-    last_commit=make monitor.so for performance. (#2576)
-  caac5f777a --jit: |-
-    ruby 2.7.0dev (2019-10-19T19:52:20Z trunk caac5f777a) +JIT [x86_64-linux]
-    last_commit=make monitor.so for performance. (#2576)
   a0a3c70181: |-
     ruby 2.7.0dev (2019-10-20T05:21:04Z trunk a0a3c70181) [x86_64-linux]
     last_commit=delegate synchronize method
@@ -13615,3 +13609,5 @@ commits:
   74a7877836 --jit: ruby 3.0.0dev (2020-12-21T04:25:03Z master 74a7877836) +JIT [x86_64-linux]
   a574df14e4: ruby 3.0.0dev (2020-12-21T06:03:20Z master a574df14e4) [x86_64-linux]
   a574df14e4 --jit: ruby 3.0.0dev (2020-12-21T06:03:20Z master a574df14e4) +JIT [x86_64-linux]
+  1fdc97f1b7: ruby 3.0.0dev (2020-12-21T06:58:45Z master 1fdc97f1b7) [x86_64-linux]
+  1fdc97f1b7 --jit: ruby 3.0.0dev (2020-12-21T06:58:45Z master 1fdc97f1b7) +JIT [x86_64-linux]
