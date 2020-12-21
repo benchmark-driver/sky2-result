@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  431132f037: |-
-    ruby 2.7.0dev (2019-10-21T06:30:00Z trunk 431132f037) [x86_64-linux]
-    last_commit=Pass the called keyword arguments if `keyword_init`
-  431132f037 --jit: |-
-    ruby 2.7.0dev (2019-10-21T06:30:00Z trunk 431132f037) +JIT [x86_64-linux]
-    last_commit=Pass the called keyword arguments if `keyword_init`
   8b8b9c1a1f: |-
     ruby 2.7.0dev (2019-10-21T07:48:37Z trunk 8b8b9c1a1f) [x86_64-linux]
     last_commit=add a NEWS entry about [Feature #15602]
@@ -13560,3 +13554,5 @@ commits:
   8c0c61728f --jit: ruby 3.0.0dev (2020-12-21T13:16:02Z master 8c0c61728f) +JIT [x86_64-linux]
   dca6752fec: ruby 3.0.0dev (2020-12-21T13:29:05Z master dca6752fec) [x86_64-linux]
   dca6752fec --jit: ruby 3.0.0dev (2020-12-21T13:29:05Z master dca6752fec) +JIT [x86_64-linux]
+  0b6a80c0be: ruby 3.0.0dev (2020-12-21T13:41:24Z master 0b6a80c0be) [x86_64-linux]
+  0b6a80c0be --jit: ruby 3.0.0dev (2020-12-21T13:41:24Z master 0b6a80c0be) +JIT [x86_64-linux]
