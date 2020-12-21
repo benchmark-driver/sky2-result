@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  ddad1fb229: |-
-    ruby 2.7.0dev (2019-10-18T08:53:17Z trunk ddad1fb229) [x86_64-linux]
-    last_commit=NEWS: Mention that optparse now supports did_you_mean for unknown option
-  ddad1fb229 --jit: |-
-    ruby 2.7.0dev (2019-10-18T08:53:17Z trunk ddad1fb229) +JIT [x86_64-linux]
-    last_commit=NEWS: Mention that optparse now supports did_you_mean for unknown option
   58e2ca31db: |-
     ruby 2.7.0dev (2019-10-18T11:24:36Z trunk 58e2ca31db) [x86_64-linux]
     last_commit=Use `_` instead of `_n_`
@@ -13651,3 +13645,5 @@ commits:
   435b619a3d --jit: ruby 3.0.0dev (2020-12-20T17:38:11Z master 435b619a3d) +JIT [x86_64-linux]
   6be61ab264: ruby 3.0.0dev (2020-12-20T17:39:34Z master 6be61ab264) [x86_64-linux]
   6be61ab264 --jit: ruby 3.0.0dev (2020-12-20T17:39:34Z master 6be61ab264) +JIT [x86_64-linux]
+  5253b9579a: ruby 3.0.0dev (2020-12-21T00:32:30Z master 5253b9579a) [x86_64-linux]
+  5253b9579a --jit: ruby 3.0.0dev (2020-12-21T00:32:30Z master 5253b9579a) +JIT [x86_64-linux]
