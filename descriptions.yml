@@ -11,30 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  71ffe40a44: |-
-    ruby 2.7.0dev (2019-10-21T00:53:56Z trunk 71ffe40a44) [x86_64-linux]
-    last_commit=test/optparse/test_did_you_mean.rb - fix suggestion order
-  71ffe40a44 --jit: |-
-    ruby 2.7.0dev (2019-10-21T00:53:56Z trunk 71ffe40a44) +JIT [x86_64-linux]
-    last_commit=test/optparse/test_did_you_mean.rb - fix suggestion order
-  263ee6639d: |-
-    ruby 2.7.0dev (2019-10-21T00:54:11Z trunk 263ee6639d) [x86_64-linux]
-    last_commit=Make suggestions order stable [Bug #16263]
-  263ee6639d --jit: |-
-    ruby 2.7.0dev (2019-10-21T00:54:11Z trunk 263ee6639d) +JIT [x86_64-linux]
-    last_commit=Make suggestions order stable [Bug #16263]
-  e70e81b54e: |-
-    ruby 2.7.0dev (2019-10-21T02:14:36Z trunk e70e81b54e) [x86_64-linux]
-    last_commit=st: Add NULL checking
-  e70e81b54e --jit: |-
-    ruby 2.7.0dev (2019-10-21T02:14:36Z trunk e70e81b54e) +JIT [x86_64-linux]
-    last_commit=st: Add NULL checking
-  375124be51: |-
-    ruby 2.7.0dev (2019-10-21T02:14:36Z trunk 375124be51) [x86_64-linux]
-    last_commit=st: Do error check only on non-Ruby
-  375124be51 --jit: |-
-    ruby 2.7.0dev (2019-10-21T02:14:36Z trunk 375124be51) +JIT [x86_64-linux]
-    last_commit=st: Do error check only on non-Ruby
   44da5a1c87: |-
     ruby 2.7.0dev (2019-10-21T02:45:54Z trunk 44da5a1c87) [x86_64-linux]
     last_commit=Look up event ID offsets by token as index
@@ -13584,3 +13560,11 @@ commits:
   b9d00f42e6 --jit: ruby 3.0.0dev (2020-12-21T09:12:02Z master b9d00f42e6) +JIT [x86_64-linux]
   d84dd66da0: ruby 3.0.0dev (2020-12-21T09:17:45Z master d84dd66da0) [x86_64-linux]
   d84dd66da0 --jit: ruby 3.0.0dev (2020-12-21T09:17:45Z master d84dd66da0) +JIT [x86_64-linux]
+  98cc15ed1e: ruby 3.0.0dev (2020-12-21T13:10:33Z master 98cc15ed1e) [x86_64-linux]
+  98cc15ed1e --jit: ruby 3.0.0dev (2020-12-21T13:10:33Z master 98cc15ed1e) +JIT [x86_64-linux]
+  596da98b3f: ruby 3.0.0dev (2020-12-21T13:10:42Z master 596da98b3f) [x86_64-linux]
+  596da98b3f --jit: ruby 3.0.0dev (2020-12-21T13:10:42Z master 596da98b3f) +JIT [x86_64-linux]
+  4c2e7f26bd: ruby 3.0.0dev (2020-12-21T13:10:43Z master 4c2e7f26bd) [x86_64-linux]
+  4c2e7f26bd --jit: ruby 3.0.0dev (2020-12-21T13:10:43Z master 4c2e7f26bd) +JIT [x86_64-linux]
+  14d7d1df25: ruby 3.0.0dev (2020-12-21T13:10:43Z master 14d7d1df25) [x86_64-linux]
+  14d7d1df25 --jit: ruby 3.0.0dev (2020-12-21T13:10:43Z master 14d7d1df25) +JIT [x86_64-linux]
