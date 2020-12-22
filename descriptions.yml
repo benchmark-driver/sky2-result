@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  02aadf1032: |-
-    ruby 2.7.0dev (2019-10-22T10:46:44Z trunk 02aadf1032) [x86_64-linux]
-    last_commit=NEWS: Fix the example of Lazy#eager
-  02aadf1032 --jit: |-
-    ruby 2.7.0dev (2019-10-22T10:46:44Z trunk 02aadf1032) +JIT [x86_64-linux]
-    last_commit=NEWS: Fix the example of Lazy#eager
   501b517dfb: |-
     ruby 2.7.0dev (2019-10-22T11:06:07Z trunk 501b517dfb) [x86_64-linux]
     last_commit=NEWS: add a URL about the performance improvement of CGI.escapeHTML
@@ -13468,3 +13462,5 @@ commits:
   816bbfdc87 --jit: ruby 3.0.0dev (2020-12-22T00:22:38Z master 816bbfdc87) +JIT [x86_64-linux]
   843fd1e8cf: ruby 3.0.0dev (2020-12-22T00:22:38Z master 843fd1e8cf) [x86_64-linux]
   843fd1e8cf --jit: ruby 3.0.0dev (2020-12-22T00:22:38Z master 843fd1e8cf) +JIT [x86_64-linux]
+  d0050edb84: ruby 3.0.0dev (2020-12-22T02:07:13Z master d0050edb84) [x86_64-linux]
+  d0050edb84 --jit: ruby 3.0.0dev (2020-12-22T02:07:13Z master d0050edb84) +JIT [x86_64-linux]
