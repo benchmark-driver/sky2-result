@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  afab8122c3: |-
-    ruby 2.7.0dev (2019-10-22T17:04:36Z trunk afab8122c3) [x86_64-linux]
-    last_commit=Fix the exception when CPDEBUG
-  afab8122c3 --jit: |-
-    ruby 2.7.0dev (2019-10-22T17:04:36Z trunk afab8122c3) +JIT [x86_64-linux]
-    last_commit=Fix the exception when CPDEBUG
-  601f1fb456: |-
-    ruby 2.7.0dev (2019-10-22T17:05:28Z trunk 601f1fb456) [x86_64-linux]
-    last_commit=Catch syntax error even if fatal
-  601f1fb456 --jit: |-
-    ruby 2.7.0dev (2019-10-22T17:05:28Z trunk 601f1fb456) +JIT [x86_64-linux]
-    last_commit=Catch syntax error even if fatal
   d5d5844744: |-
     ruby 2.7.0dev (2019-10-22T17:30:14Z trunk d5d5844744) [x86_64-linux]
     last_commit=Use dedicated assertion methods for warning and syntax error
@@ -13424,3 +13412,7 @@ commits:
   692af8e8f8 --jit: ruby 3.0.0dev (2020-12-22T05:16:39Z master 692af8e8f8) +JIT [x86_64-linux]
   95acd3c030: ruby 3.0.0dev (2020-12-22T05:42:32Z master 95acd3c030) [x86_64-linux]
   95acd3c030 --jit: ruby 3.0.0dev (2020-12-22T05:42:32Z master 95acd3c030) +JIT [x86_64-linux]
+  15b81edd86: ruby 3.0.0dev (2020-12-22T06:07:40Z master 15b81edd86) [x86_64-linux]
+  15b81edd86 --jit: ruby 3.0.0dev (2020-12-22T06:07:40Z master 15b81edd86) +JIT [x86_64-linux]
+  7898bc9225: ruby 3.0.0dev (2020-12-22T06:25:03Z master 7898bc9225) [x86_64-linux]
+  7898bc9225 --jit: ruby 3.0.0dev (2020-12-22T06:25:03Z master 7898bc9225) +JIT [x86_64-linux]
