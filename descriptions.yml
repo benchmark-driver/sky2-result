@@ -11,30 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  f1de438380: |-
-    ruby 2.7.0dev (2019-10-24T09:03:42Z trunk f1de438380) [x86_64-linux]
-    last_commit=Use CPDEBUG for debug code
-  f1de438380 --jit: |-
-    ruby 2.7.0dev (2019-10-24T09:03:42Z trunk f1de438380) +JIT [x86_64-linux]
-    last_commit=Use CPDEBUG for debug code
-  9eb798a3f1: |-
-    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 9eb798a3f1) [x86_64-linux]
-    last_commit=[ruby/date] Make julian dates roundtrip through to_time.to_date
-  9eb798a3f1 --jit: |-
-    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 9eb798a3f1) +JIT [x86_64-linux]
-    last_commit=[ruby/date] Make julian dates roundtrip through to_time.to_date
-  4e40ca301c: |-
-    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 4e40ca301c) [x86_64-linux]
-    last_commit=[ruby/date] Check for numeric arguments in constructors
-  4e40ca301c --jit: |-
-    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 4e40ca301c) +JIT [x86_64-linux]
-    last_commit=[ruby/date] Check for numeric arguments in constructors
-  fc0e8d00bc: |-
-    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk fc0e8d00bc) [x86_64-linux]
-    last_commit=[ruby/date] Support -Float::INFINITY...date ranges
-  fc0e8d00bc --jit: |-
-    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk fc0e8d00bc) +JIT [x86_64-linux]
-    last_commit=[ruby/date] Support -Float::INFINITY...date ranges
   2e37c1960a: |-
     ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 2e37c1960a) [x86_64-linux]
     last_commit=[ruby/date] Remove taint support
@@ -13324,3 +13300,11 @@ commits:
   c6d7e02b90 --jit: ruby 3.0.0dev (2020-12-22T18:27:14Z master c6d7e02b90) +JIT [x86_64-linux]
   f1591b3858: ruby 3.0.0dev (2020-12-22T18:27:14Z master f1591b3858) [x86_64-linux]
   f1591b3858 --jit: ruby 3.0.0dev (2020-12-22T18:27:14Z master f1591b3858) +JIT [x86_64-linux]
+  1bd7427f29: ruby 3.0.0dev (2020-12-22T18:48:13Z master 1bd7427f29) [x86_64-linux]
+  1bd7427f29 --jit: ruby 3.0.0dev (2020-12-22T18:48:13Z master 1bd7427f29) +JIT [x86_64-linux]
+  5a6d27fe22: ruby 3.0.0dev (2020-12-22T18:48:13Z master 5a6d27fe22) [x86_64-linux]
+  5a6d27fe22 --jit: ruby 3.0.0dev (2020-12-22T18:48:13Z master 5a6d27fe22) +JIT [x86_64-linux]
+  fd745cc92c: ruby 3.0.0dev (2020-12-22T18:48:13Z master fd745cc92c) [x86_64-linux]
+  fd745cc92c --jit: ruby 3.0.0dev (2020-12-22T18:48:13Z master fd745cc92c) +JIT [x86_64-linux]
+  228fa3ac6e: ruby 3.0.0dev (2020-12-22T18:48:13Z master 228fa3ac6e) [x86_64-linux]
+  228fa3ac6e --jit: ruby 3.0.0dev (2020-12-22T18:48:13Z master 228fa3ac6e) +JIT [x86_64-linux]
