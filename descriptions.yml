@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  97a03a0356: |-
-    ruby 2.7.0dev (2019-10-22T03:21:02Z trunk 97a03a0356) [x86_64-linux]
-    last_commit=Add a cron job to keep CPDEBUG working
-  97a03a0356 --jit: |-
-    ruby 2.7.0dev (2019-10-22T03:21:02Z trunk 97a03a0356) +JIT [x86_64-linux]
-    last_commit=Add a cron job to keep CPDEBUG working
   5e0d33a856: |-
     ruby 2.7.0dev (2019-10-22T05:06:39Z trunk 5e0d33a856) [x86_64-linux]
     last_commit=appveyor.yml - remove timezone & tzinfo gems from MSVC builds
@@ -13488,3 +13482,5 @@ commits:
   831f785068 --jit: ruby 3.0.0dev (2020-12-21T23:08:27Z master 831f785068) +JIT [x86_64-linux]
   91773ddd26: ruby 3.0.0dev (2020-12-21T23:56:46Z master 91773ddd26) [x86_64-linux]
   91773ddd26 --jit: ruby 3.0.0dev (2020-12-21T23:56:46Z master 91773ddd26) +JIT [x86_64-linux]
+  4a18cc7f60: ruby 3.0.0dev (2020-12-22T00:04:54Z master 4a18cc7f60) [x86_64-linux]
+  4a18cc7f60 --jit: ruby 3.0.0dev (2020-12-22T00:04:54Z master 4a18cc7f60) +JIT [x86_64-linux]
