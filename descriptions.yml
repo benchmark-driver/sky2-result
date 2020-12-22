@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  2e37c1960a: |-
-    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 2e37c1960a) [x86_64-linux]
-    last_commit=[ruby/date] Remove taint support
-  2e37c1960a --jit: |-
-    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 2e37c1960a) +JIT [x86_64-linux]
-    last_commit=[ruby/date] Remove taint support
   913807bd6c: |-
     ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 913807bd6c) [x86_64-linux]
     last_commit=[ruby/date] Simplify #inspect
@@ -13308,3 +13302,5 @@ commits:
   fd745cc92c --jit: ruby 3.0.0dev (2020-12-22T18:48:13Z master fd745cc92c) +JIT [x86_64-linux]
   228fa3ac6e: ruby 3.0.0dev (2020-12-22T18:48:13Z master 228fa3ac6e) [x86_64-linux]
   228fa3ac6e --jit: ruby 3.0.0dev (2020-12-22T18:48:13Z master 228fa3ac6e) +JIT [x86_64-linux]
+  32849dc1bb: ruby 3.0.0dev (2020-12-22T20:49:52Z master 32849dc1bb) [x86_64-linux]
+  32849dc1bb --jit: ruby 3.0.0dev (2020-12-22T20:49:52Z master 32849dc1bb) +JIT [x86_64-linux]
