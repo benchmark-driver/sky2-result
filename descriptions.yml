@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  38e931fa2c: |-
-    ruby 2.7.0dev (2019-10-24T07:46:21Z trunk 38e931fa2c) [x86_64-linux]
-    last_commit=show "transferred" attribute on Fiber#to_s
-  38e931fa2c --jit: |-
-    ruby 2.7.0dev (2019-10-24T07:46:21Z trunk 38e931fa2c) +JIT [x86_64-linux]
-    last_commit=show "transferred" attribute on Fiber#to_s
-  89e7997622: |-
-    ruby 2.7.0dev (2019-10-24T09:03:42Z trunk 89e7997622) [x86_64-linux]
-    last_commit=Combine call info and cache to speed up method invocation
-  89e7997622 --jit: |-
-    ruby 2.7.0dev (2019-10-24T09:03:42Z trunk 89e7997622) +JIT [x86_64-linux]
-    last_commit=Combine call info and cache to speed up method invocation
   f1de438380: |-
     ruby 2.7.0dev (2019-10-24T09:03:42Z trunk f1de438380) [x86_64-linux]
     last_commit=Use CPDEBUG for debug code
@@ -13332,3 +13320,7 @@ commits:
   b222a1a494 --jit: ruby 3.0.0dev (2020-12-22T17:37:27Z master b222a1a494) +JIT [x86_64-linux]
   487355873a: ruby 3.0.0dev (2020-12-22T17:37:59Z master 487355873a) [x86_64-linux]
   487355873a --jit: ruby 3.0.0dev (2020-12-22T17:37:59Z master 487355873a) +JIT [x86_64-linux]
+  c6d7e02b90: ruby 3.0.0dev (2020-12-22T18:27:14Z master c6d7e02b90) [x86_64-linux]
+  c6d7e02b90 --jit: ruby 3.0.0dev (2020-12-22T18:27:14Z master c6d7e02b90) +JIT [x86_64-linux]
+  f1591b3858: ruby 3.0.0dev (2020-12-22T18:27:14Z master f1591b3858) [x86_64-linux]
+  f1591b3858 --jit: ruby 3.0.0dev (2020-12-22T18:27:14Z master f1591b3858) +JIT [x86_64-linux]
