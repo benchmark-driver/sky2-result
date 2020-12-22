@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  ff953a003e: |-
-    ruby 2.7.0dev (2019-10-24T07:12:34Z trunk ff953a003e) [x86_64-linux]
-    last_commit=Fixed the require path for e2mmap version file.
-  ff953a003e --jit: |-
-    ruby 2.7.0dev (2019-10-24T07:12:34Z trunk ff953a003e) +JIT [x86_64-linux]
-    last_commit=Fixed the require path for e2mmap version file.
-  65e8267938: |-
-    ruby 2.7.0dev (2019-10-24T07:17:17Z trunk 65e8267938) [x86_64-linux]
-    last_commit=Revert "Fixed the require path for e2mmap version file."
-  65e8267938 --jit: |-
-    ruby 2.7.0dev (2019-10-24T07:17:17Z trunk 65e8267938) +JIT [x86_64-linux]
-    last_commit=Revert "Fixed the require path for e2mmap version file."
-  4c3e3b8028: |-
-    ruby 2.7.0dev (2019-10-24T07:46:21Z trunk 4c3e3b8028) [x86_64-linux]
-    last_commit=Revert "Fix Fiber#transfer"
-  4c3e3b8028 --jit: |-
-    ruby 2.7.0dev (2019-10-24T07:46:21Z trunk 4c3e3b8028) +JIT [x86_64-linux]
-    last_commit=Revert "Fix Fiber#transfer"
   38e931fa2c: |-
     ruby 2.7.0dev (2019-10-24T07:46:21Z trunk 38e931fa2c) [x86_64-linux]
     last_commit=show "transferred" attribute on Fiber#to_s
@@ -13344,3 +13326,9 @@ commits:
   299f5708a2 --jit: ruby 3.0.0dev (2020-12-22T14:45:43Z master 299f5708a2) +JIT [x86_64-linux]
   53510d1e8a: ruby 3.0.0dev (2020-12-22T14:45:43Z master 53510d1e8a) [x86_64-linux]
   53510d1e8a --jit: ruby 3.0.0dev (2020-12-22T14:45:43Z master 53510d1e8a) +JIT [x86_64-linux]
+  31b17a14ab: ruby 3.0.0dev (2020-12-22T17:31:02Z master 31b17a14ab) [x86_64-linux]
+  31b17a14ab --jit: ruby 3.0.0dev (2020-12-22T17:31:02Z master 31b17a14ab) +JIT [x86_64-linux]
+  b222a1a494: ruby 3.0.0dev (2020-12-22T17:37:27Z master b222a1a494) [x86_64-linux]
+  b222a1a494 --jit: ruby 3.0.0dev (2020-12-22T17:37:27Z master b222a1a494) +JIT [x86_64-linux]
+  487355873a: ruby 3.0.0dev (2020-12-22T17:37:59Z master 487355873a) [x86_64-linux]
+  487355873a --jit: ruby 3.0.0dev (2020-12-22T17:37:59Z master 487355873a) +JIT [x86_64-linux]
