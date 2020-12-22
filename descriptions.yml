@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  46f175ed5c: |-
-    ruby 2.7.0dev (2019-10-22T17:53:36Z trunk 46f175ed5c) [x86_64-linux]
-    last_commit=Use cppflags to pass preprocessor options
-  46f175ed5c --jit: |-
-    ruby 2.7.0dev (2019-10-22T17:53:36Z trunk 46f175ed5c) +JIT [x86_64-linux]
-    last_commit=Use cppflags to pass preprocessor options
-  959ddf44b3: |-
-    ruby 2.7.0dev (2019-10-23T03:00:44Z trunk 959ddf44b3) [x86_64-linux]
-    last_commit=Fix typos [ci skip]
-  959ddf44b3 --jit: |-
-    ruby 2.7.0dev (2019-10-23T03:00:44Z trunk 959ddf44b3) +JIT [x86_64-linux]
-    last_commit=Fix typos [ci skip]
   5d7aef20dd: |-
     ruby 2.7.0dev (2019-10-23T04:18:48Z trunk 5d7aef20dd) [x86_64-linux]
     last_commit=Trivial fixes [ci skip]
@@ -13412,3 +13400,7 @@ commits:
   7898bc9225 --jit: ruby 3.0.0dev (2020-12-22T06:25:03Z master 7898bc9225) +JIT [x86_64-linux]
   7fbad92241: ruby 3.0.0dev (2020-12-22T07:18:17Z master 7fbad92241) [x86_64-linux]
   7fbad92241 --jit: ruby 3.0.0dev (2020-12-22T07:18:17Z master 7fbad92241) +JIT [x86_64-linux]
+  ee102de6d7: ruby 3.0.0dev (2020-12-22T08:12:51Z master ee102de6d7) [x86_64-linux]
+  ee102de6d7 --jit: ruby 3.0.0dev (2020-12-22T08:12:51Z master ee102de6d7) +JIT [x86_64-linux]
+  f2f00e24fa: ruby 3.0.0dev (2020-12-22T08:12:51Z master f2f00e24fa) [x86_64-linux]
+  f2f00e24fa --jit: ruby 3.0.0dev (2020-12-22T08:12:51Z master f2f00e24fa) +JIT [x86_64-linux]
