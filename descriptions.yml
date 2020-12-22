@@ -11,30 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  5e0d33a856: |-
-    ruby 2.7.0dev (2019-10-22T05:06:39Z trunk 5e0d33a856) [x86_64-linux]
-    last_commit=appveyor.yml - remove timezone & tzinfo gems from MSVC builds
-  5e0d33a856 --jit: |-
-    ruby 2.7.0dev (2019-10-22T05:06:39Z trunk 5e0d33a856) +JIT [x86_64-linux]
-    last_commit=appveyor.yml - remove timezone & tzinfo gems from MSVC builds
-  22845176d7: |-
-    ruby 2.7.0dev (2019-10-22T05:06:45Z trunk 22845176d7) [x86_64-linux]
-    last_commit=test/ruby/test_exception typo fix
-  22845176d7 --jit: |-
-    ruby 2.7.0dev (2019-10-22T05:06:45Z trunk 22845176d7) +JIT [x86_64-linux]
-    last_commit=test/ruby/test_exception typo fix
-  0e735b218f: |-
-    ruby 2.7.0dev (2019-10-22T10:32:04Z trunk 0e735b218f) [x86_64-linux]
-    last_commit=NEWS: Make Net::FTP#features and #option more informative
-  0e735b218f --jit: |-
-    ruby 2.7.0dev (2019-10-22T10:32:04Z trunk 0e735b218f) +JIT [x86_64-linux]
-    last_commit=NEWS: Make Net::FTP#features and #option more informative
-  fac4339a12: |-
-    ruby 2.7.0dev (2019-10-22T10:39:42Z trunk fac4339a12) [x86_64-linux]
-    last_commit=NEWS: add an example for Lazy#eager
-  fac4339a12 --jit: |-
-    ruby 2.7.0dev (2019-10-22T10:39:42Z trunk fac4339a12) +JIT [x86_64-linux]
-    last_commit=NEWS: add an example for Lazy#eager
   02aadf1032: |-
     ruby 2.7.0dev (2019-10-22T10:46:44Z trunk 02aadf1032) [x86_64-linux]
     last_commit=NEWS: Fix the example of Lazy#eager
@@ -13484,3 +13460,11 @@ commits:
   91773ddd26 --jit: ruby 3.0.0dev (2020-12-21T23:56:46Z master 91773ddd26) +JIT [x86_64-linux]
   4a18cc7f60: ruby 3.0.0dev (2020-12-22T00:04:54Z master 4a18cc7f60) [x86_64-linux]
   4a18cc7f60 --jit: ruby 3.0.0dev (2020-12-22T00:04:54Z master 4a18cc7f60) +JIT [x86_64-linux]
+  4728c0d900: ruby 3.0.0dev (2020-12-22T00:22:38Z master 4728c0d900) [x86_64-linux]
+  4728c0d900 --jit: ruby 3.0.0dev (2020-12-22T00:22:38Z master 4728c0d900) +JIT [x86_64-linux]
+  861dbd9506: ruby 3.0.0dev (2020-12-22T00:22:38Z master 861dbd9506) [x86_64-linux]
+  861dbd9506 --jit: ruby 3.0.0dev (2020-12-22T00:22:38Z master 861dbd9506) +JIT [x86_64-linux]
+  816bbfdc87: ruby 3.0.0dev (2020-12-22T00:22:38Z master 816bbfdc87) [x86_64-linux]
+  816bbfdc87 --jit: ruby 3.0.0dev (2020-12-22T00:22:38Z master 816bbfdc87) +JIT [x86_64-linux]
+  843fd1e8cf: ruby 3.0.0dev (2020-12-22T00:22:38Z master 843fd1e8cf) [x86_64-linux]
+  843fd1e8cf --jit: ruby 3.0.0dev (2020-12-22T00:22:38Z master 843fd1e8cf) +JIT [x86_64-linux]
