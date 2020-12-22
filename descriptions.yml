@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  d5d5844744: |-
-    ruby 2.7.0dev (2019-10-22T17:30:14Z trunk d5d5844744) [x86_64-linux]
-    last_commit=Use dedicated assertion methods for warning and syntax error
-  d5d5844744 --jit: |-
-    ruby 2.7.0dev (2019-10-22T17:30:14Z trunk d5d5844744) +JIT [x86_64-linux]
-    last_commit=Use dedicated assertion methods for warning and syntax error
   46f175ed5c: |-
     ruby 2.7.0dev (2019-10-22T17:53:36Z trunk 46f175ed5c) [x86_64-linux]
     last_commit=Use cppflags to pass preprocessor options
@@ -13416,3 +13410,5 @@ commits:
   15b81edd86 --jit: ruby 3.0.0dev (2020-12-22T06:07:40Z master 15b81edd86) +JIT [x86_64-linux]
   7898bc9225: ruby 3.0.0dev (2020-12-22T06:25:03Z master 7898bc9225) [x86_64-linux]
   7898bc9225 --jit: ruby 3.0.0dev (2020-12-22T06:25:03Z master 7898bc9225) +JIT [x86_64-linux]
+  7fbad92241: ruby 3.0.0dev (2020-12-22T07:18:17Z master 7fbad92241) [x86_64-linux]
+  7fbad92241 --jit: ruby 3.0.0dev (2020-12-22T07:18:17Z master 7fbad92241) +JIT [x86_64-linux]
