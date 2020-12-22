@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  1d91feaf13: |-
-    ruby 2.7.0dev (2019-10-23T11:18:32Z trunk 1d91feaf13) [x86_64-linux]
-    last_commit=Limit strict RUBY_METHOD_FUNC in C++
-  1d91feaf13 --jit: |-
-    ruby 2.7.0dev (2019-10-23T11:18:32Z trunk 1d91feaf13) +JIT [x86_64-linux]
-    last_commit=Limit strict RUBY_METHOD_FUNC in C++
-  '039faecdb8': |-
-    ruby 2.7.0dev (2019-10-23T14:59:53Z trunk 039faecdb8) [x86_64-linux]
-    last_commit=Suppress duplicated "require 'reline'"
-  '039faecdb8 --jit': |-
-    ruby 2.7.0dev (2019-10-23T14:59:53Z trunk 039faecdb8) +JIT [x86_64-linux]
-    last_commit=Suppress duplicated "require 'reline'"
   659f7c0aeb: |-
     ruby 2.7.0dev (2019-10-23T15:00:59Z trunk 659f7c0aeb) [x86_64-linux]
     last_commit=* 2019-10-24 [ci skip]
@@ -13388,3 +13376,7 @@ commits:
   f08cbdbf7d --jit: ruby 3.0.0dev (2020-12-22T11:55:41Z master f08cbdbf7d) +JIT [x86_64-linux]
   96b8816793: ruby 3.0.0dev (2020-12-22T12:41:44Z master 96b8816793) [x86_64-linux]
   96b8816793 --jit: ruby 3.0.0dev (2020-12-22T12:41:44Z master 96b8816793) +JIT [x86_64-linux]
+  9b9cbbbc17: ruby 3.0.0dev (2020-12-22T12:45:28Z master 9b9cbbbc17) [x86_64-linux]
+  9b9cbbbc17 --jit: ruby 3.0.0dev (2020-12-22T12:45:28Z master 9b9cbbbc17) +JIT [x86_64-linux]
+  034c19ce28: ruby 3.0.0dev (2020-12-22T12:51:15Z master 034c19ce28) [x86_64-linux]
+  034c19ce28 --jit: ruby 3.0.0dev (2020-12-22T12:51:15Z master 034c19ce28) +JIT [x86_64-linux]
