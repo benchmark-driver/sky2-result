@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  801a11d0ab: |-
-    ruby 2.7.0dev (2019-10-22T16:05:52Z trunk 801a11d0ab) [x86_64-linux]
-    last_commit=Relaxed tests for CPDEBUG mode
-  801a11d0ab --jit: |-
-    ruby 2.7.0dev (2019-10-22T16:05:52Z trunk 801a11d0ab) +JIT [x86_64-linux]
-    last_commit=Relaxed tests for CPDEBUG mode
   afab8122c3: |-
     ruby 2.7.0dev (2019-10-22T17:04:36Z trunk afab8122c3) [x86_64-linux]
     last_commit=Fix the exception when CPDEBUG
@@ -13428,3 +13422,5 @@ commits:
   03f2b09320 --jit: ruby 3.0.0dev (2020-12-22T05:05:55Z master 03f2b09320) +JIT [x86_64-linux]
   692af8e8f8: ruby 3.0.0dev (2020-12-22T05:16:39Z master 692af8e8f8) [x86_64-linux]
   692af8e8f8 --jit: ruby 3.0.0dev (2020-12-22T05:16:39Z master 692af8e8f8) +JIT [x86_64-linux]
+  95acd3c030: ruby 3.0.0dev (2020-12-22T05:42:32Z master 95acd3c030) [x86_64-linux]
+  95acd3c030 --jit: ruby 3.0.0dev (2020-12-22T05:42:32Z master 95acd3c030) +JIT [x86_64-linux]
