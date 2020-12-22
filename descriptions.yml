@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  67f010af9b: |-
-    ruby 2.7.0dev (2019-10-23T06:11:52Z trunk 67f010af9b) [x86_64-linux]
-    last_commit=name2ctype.h depends on also Emoji data
-  67f010af9b --jit: |-
-    ruby 2.7.0dev (2019-10-23T06:11:52Z trunk 67f010af9b) +JIT [x86_64-linux]
-    last_commit=name2ctype.h depends on also Emoji data
   8bb716ab91: |-
     ruby 2.7.0dev (2019-10-23T10:57:31Z trunk 8bb716ab91) [x86_64-linux]
     last_commit=Fix indent...
@@ -13396,3 +13390,5 @@ commits:
   edb76e8765 --jit: ruby 3.0.0dev (2020-12-22T10:44:27Z master edb76e8765) +JIT [x86_64-linux]
   93a56a5e98: ruby 3.0.0dev (2020-12-22T10:51:02Z master 93a56a5e98) [x86_64-linux]
   93a56a5e98 --jit: ruby 3.0.0dev (2020-12-22T10:51:02Z master 93a56a5e98) +JIT [x86_64-linux]
+  f08cbdbf7d: ruby 3.0.0dev (2020-12-22T11:55:41Z master f08cbdbf7d) [x86_64-linux]
+  f08cbdbf7d --jit: ruby 3.0.0dev (2020-12-22T11:55:41Z master f08cbdbf7d) +JIT [x86_64-linux]
