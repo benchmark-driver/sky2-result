@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  9c553139ae: |-
-    ruby 2.7.0dev (2019-10-22T03:21:02Z trunk 9c553139ae) [x86_64-linux]
-    last_commit=Fix build for CPDEBUG=1
-  9c553139ae --jit: |-
-    ruby 2.7.0dev (2019-10-22T03:21:02Z trunk 9c553139ae) +JIT [x86_64-linux]
-    last_commit=Fix build for CPDEBUG=1
   97a03a0356: |-
     ruby 2.7.0dev (2019-10-22T03:21:02Z trunk 97a03a0356) [x86_64-linux]
     last_commit=Add a cron job to keep CPDEBUG working
@@ -13492,3 +13486,5 @@ commits:
   a29b9e5efe --jit: ruby 3.0.0dev (2020-12-21T22:52:14Z master a29b9e5efe) +JIT [x86_64-linux]
   831f785068: ruby 3.0.0dev (2020-12-21T23:08:27Z master 831f785068) [x86_64-linux]
   831f785068 --jit: ruby 3.0.0dev (2020-12-21T23:08:27Z master 831f785068) +JIT [x86_64-linux]
+  91773ddd26: ruby 3.0.0dev (2020-12-21T23:56:46Z master 91773ddd26) [x86_64-linux]
+  91773ddd26 --jit: ruby 3.0.0dev (2020-12-21T23:56:46Z master 91773ddd26) +JIT [x86_64-linux]
