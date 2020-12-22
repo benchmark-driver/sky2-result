@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  51bab75f49: |-
-    ruby 2.7.0dev (2019-10-22T15:19:25Z trunk 51bab75f49) [x86_64-linux]
-    last_commit=Provides ruby2_keywords
-  51bab75f49 --jit: |-
-    ruby 2.7.0dev (2019-10-22T15:19:25Z trunk 51bab75f49) +JIT [x86_64-linux]
-    last_commit=Provides ruby2_keywords
-  1a80ee4573: |-
-    ruby 2.7.0dev (2019-10-22T15:42:44Z trunk 1a80ee4573) [x86_64-linux]
-    last_commit=* 2019-10-23 [ci skip]
-  1a80ee4573 --jit: |-
-    ruby 2.7.0dev (2019-10-22T15:42:44Z trunk 1a80ee4573) +JIT [x86_64-linux]
-    last_commit=* 2019-10-23 [ci skip]
   801a11d0ab: |-
     ruby 2.7.0dev (2019-10-22T16:05:52Z trunk 801a11d0ab) [x86_64-linux]
     last_commit=Relaxed tests for CPDEBUG mode
@@ -13436,3 +13424,7 @@ commits:
   fa356a798a --jit: ruby 3.0.0dev (2020-12-22T04:52:03Z master fa356a798a) +JIT [x86_64-linux]
   fee2913d0a: ruby 3.0.0dev (2020-12-22T04:52:18Z master fee2913d0a) [x86_64-linux]
   fee2913d0a --jit: ruby 3.0.0dev (2020-12-22T04:52:18Z master fee2913d0a) +JIT [x86_64-linux]
+  03f2b09320: ruby 3.0.0dev (2020-12-22T05:05:55Z master 03f2b09320) [x86_64-linux]
+  03f2b09320 --jit: ruby 3.0.0dev (2020-12-22T05:05:55Z master 03f2b09320) +JIT [x86_64-linux]
+  692af8e8f8: ruby 3.0.0dev (2020-12-22T05:16:39Z master 692af8e8f8) [x86_64-linux]
+  692af8e8f8 --jit: ruby 3.0.0dev (2020-12-22T05:16:39Z master 692af8e8f8) +JIT [x86_64-linux]
