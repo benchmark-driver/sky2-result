@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  99ca5705a2: |-
-    ruby 2.7.0dev (2019-10-22T13:15:52Z trunk 99ca5705a2) [x86_64-linux]
-    last_commit=tool/release.sh uses ruby-actions' result
-  99ca5705a2 --jit: |-
-    ruby 2.7.0dev (2019-10-22T13:15:52Z trunk 99ca5705a2) +JIT [x86_64-linux]
-    last_commit=tool/release.sh uses ruby-actions' result
-  8390057d1e: |-
-    ruby 2.7.0dev (2019-10-22T13:49:48Z trunk 8390057d1e) [x86_64-linux]
-    last_commit=Benchmark for [Feature #16155]
-  8390057d1e --jit: |-
-    ruby 2.7.0dev (2019-10-22T13:49:48Z trunk 8390057d1e) +JIT [x86_64-linux]
-    last_commit=Benchmark for [Feature #16155]
   51bab75f49: |-
     ruby 2.7.0dev (2019-10-22T15:19:25Z trunk 51bab75f49) [x86_64-linux]
     last_commit=Provides ruby2_keywords
@@ -13444,3 +13432,7 @@ commits:
   2e1cdf36ba --jit: ruby 3.0.0dev (2020-12-22T03:46:15Z master 2e1cdf36ba) +JIT [x86_64-linux]
   7204b81bcb: ruby 3.0.0dev (2020-12-22T03:59:47Z master 7204b81bcb) [x86_64-linux]
   7204b81bcb --jit: ruby 3.0.0dev (2020-12-22T03:59:47Z master 7204b81bcb) +JIT [x86_64-linux]
+  fa356a798a: ruby 3.0.0dev (2020-12-22T04:52:03Z master fa356a798a) [x86_64-linux]
+  fa356a798a --jit: ruby 3.0.0dev (2020-12-22T04:52:03Z master fa356a798a) +JIT [x86_64-linux]
+  fee2913d0a: ruby 3.0.0dev (2020-12-22T04:52:18Z master fee2913d0a) [x86_64-linux]
+  fee2913d0a --jit: ruby 3.0.0dev (2020-12-22T04:52:18Z master fee2913d0a) +JIT [x86_64-linux]
