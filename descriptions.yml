@@ -11,54 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  7bc787fa06: |-
-    ruby 2.7.0dev (2019-10-23T15:12:58Z trunk 7bc787fa06) [x86_64-linux]
-    last_commit=Support forced enter insertion by Ctrl+Enter on Windows
-  7bc787fa06 --jit: |-
-    ruby 2.7.0dev (2019-10-23T15:12:58Z trunk 7bc787fa06) +JIT [x86_64-linux]
-    last_commit=Support forced enter insertion by Ctrl+Enter on Windows
-  7391db4ab3: |-
-    ruby 2.7.0dev (2019-10-23T16:18:19Z trunk 7391db4ab3) [x86_64-linux]
-    last_commit=Updated minitest to 5.12.2
-  7391db4ab3 --jit: |-
-    ruby 2.7.0dev (2019-10-23T16:18:19Z trunk 7391db4ab3) +JIT [x86_64-linux]
-    last_commit=Updated minitest to 5.12.2
-  f1d4216bd9: |-
-    ruby 2.7.0dev (2019-10-23T16:42:48Z trunk f1d4216bd9) [x86_64-linux]
-    last_commit=Added refresh-gems
-  f1d4216bd9 --jit: |-
-    ruby 2.7.0dev (2019-10-23T16:42:48Z trunk f1d4216bd9) +JIT [x86_64-linux]
-    last_commit=Added refresh-gems
-  6df6611ce7: |-
-    ruby 2.7.0dev (2019-10-23T17:49:14Z trunk 6df6611ce7) [x86_64-linux]
-    last_commit=Treat only left alt key as meta-key on Windows
-  6df6611ce7 --jit: |-
-    ruby 2.7.0dev (2019-10-23T17:49:14Z trunk 6df6611ce7) +JIT [x86_64-linux]
-    last_commit=Treat only left alt key as meta-key on Windows
-  df91896f32: |-
-    ruby 2.7.0dev (2019-10-23T18:12:22Z trunk df91896f32) [x86_64-linux]
-    last_commit=More rdoc for ENV#[] and ENV#fetch
-  df91896f32 --jit: |-
-    ruby 2.7.0dev (2019-10-23T18:12:22Z trunk df91896f32) +JIT [x86_64-linux]
-    last_commit=More rdoc for ENV#[] and ENV#fetch
-  f26f0f4109: |-
-    ruby 2.7.0dev (2019-10-23T23:04:45Z trunk f26f0f4109) [x86_64-linux]
-    last_commit=hash.c: Do not use Unicode double-quotes
-  f26f0f4109 --jit: |-
-    ruby 2.7.0dev (2019-10-23T23:04:45Z trunk f26f0f4109) +JIT [x86_64-linux]
-    last_commit=hash.c: Do not use Unicode double-quotes
-  281f754126: |-
-    ruby 2.7.0dev (2019-10-23T23:30:33Z trunk 281f754126) [x86_64-linux]
-    last_commit=include/ruby/backward/cxxanyargs.hpp: call `va_end` before return
-  281f754126 --jit: |-
-    ruby 2.7.0dev (2019-10-23T23:30:33Z trunk 281f754126) +JIT [x86_64-linux]
-    last_commit=include/ruby/backward/cxxanyargs.hpp: call `va_end` before return
-  2791989a31: |-
-    ruby 2.7.0dev (2019-10-24T07:11:01Z trunk 2791989a31) [x86_64-linux]
-    last_commit=Fixed sync path of e2mmap structure for gemspec.
-  2791989a31 --jit: |-
-    ruby 2.7.0dev (2019-10-24T07:11:01Z trunk 2791989a31) +JIT [x86_64-linux]
-    last_commit=Fixed sync path of e2mmap structure for gemspec.
   ff953a003e: |-
     ruby 2.7.0dev (2019-10-24T07:12:34Z trunk ff953a003e) [x86_64-linux]
     last_commit=Fixed the require path for e2mmap version file.
@@ -13376,3 +13328,19 @@ commits:
   034c19ce28 --jit: ruby 3.0.0dev (2020-12-22T12:51:15Z master 034c19ce28) +JIT [x86_64-linux]
   cae8bbfe62: ruby 3.0.0dev (2020-12-22T14:32:18Z master cae8bbfe62) [x86_64-linux]
   cae8bbfe62 --jit: ruby 3.0.0dev (2020-12-22T14:32:18Z master cae8bbfe62) +JIT [x86_64-linux]
+  47b26795d0: ruby 3.0.0dev (2020-12-22T14:45:43Z master 47b26795d0) [x86_64-linux]
+  47b26795d0 --jit: ruby 3.0.0dev (2020-12-22T14:45:43Z master 47b26795d0) +JIT [x86_64-linux]
+  4131cd05be: ruby 3.0.0dev (2020-12-22T14:45:43Z master 4131cd05be) [x86_64-linux]
+  4131cd05be --jit: ruby 3.0.0dev (2020-12-22T14:45:43Z master 4131cd05be) +JIT [x86_64-linux]
+  fbcdcbff0d: ruby 3.0.0dev (2020-12-22T14:45:43Z master fbcdcbff0d) [x86_64-linux]
+  fbcdcbff0d --jit: ruby 3.0.0dev (2020-12-22T14:45:43Z master fbcdcbff0d) +JIT [x86_64-linux]
+  0b14abe8e7: ruby 3.0.0dev (2020-12-22T14:45:43Z master 0b14abe8e7) [x86_64-linux]
+  0b14abe8e7 --jit: ruby 3.0.0dev (2020-12-22T14:45:43Z master 0b14abe8e7) +JIT [x86_64-linux]
+  294552ca6c: ruby 3.0.0dev (2020-12-22T14:45:43Z master 294552ca6c) [x86_64-linux]
+  294552ca6c --jit: ruby 3.0.0dev (2020-12-22T14:45:43Z master 294552ca6c) +JIT [x86_64-linux]
+  b52bc4a9c2: ruby 3.0.0dev (2020-12-22T14:45:43Z master b52bc4a9c2) [x86_64-linux]
+  b52bc4a9c2 --jit: ruby 3.0.0dev (2020-12-22T14:45:43Z master b52bc4a9c2) +JIT [x86_64-linux]
+  299f5708a2: ruby 3.0.0dev (2020-12-22T14:45:43Z master 299f5708a2) [x86_64-linux]
+  299f5708a2 --jit: ruby 3.0.0dev (2020-12-22T14:45:43Z master 299f5708a2) +JIT [x86_64-linux]
+  53510d1e8a: ruby 3.0.0dev (2020-12-22T14:45:43Z master 53510d1e8a) [x86_64-linux]
+  53510d1e8a --jit: ruby 3.0.0dev (2020-12-22T14:45:43Z master 53510d1e8a) +JIT [x86_64-linux]
