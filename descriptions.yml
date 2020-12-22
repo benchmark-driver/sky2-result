@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  487d96c6b1: |-
-    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 487d96c6b1) [x86_64-linux]
-    last_commit=[ruby/date] Use Gemfile instead of Gem::Specification#add_development_dependency.
-  487d96c6b1 --jit: |-
-    ruby 2.7.0dev (2019-10-24T09:39:04Z trunk 487d96c6b1) +JIT [x86_64-linux]
-    last_commit=[ruby/date] Use Gemfile instead of Gem::Specification#add_development_dependency.
   70ca56deda: |-
     ruby 2.7.0dev (2019-10-24T09:50:57Z trunk 70ca56deda) [x86_64-linux]
     last_commit=Temporarily skipped with upstream changes of Date library.
@@ -13296,3 +13290,5 @@ commits:
   be5faa2519 --jit: ruby 3.0.0dev (2020-12-22T21:06:07Z master be5faa2519) +JIT [x86_64-linux]
   841d22ea47: ruby 3.0.0dev (2020-12-22T21:06:07Z master 841d22ea47) [x86_64-linux]
   841d22ea47 --jit: ruby 3.0.0dev (2020-12-22T21:06:07Z master 841d22ea47) +JIT [x86_64-linux]
+  74a3569b59: ruby 3.0.0dev (2020-12-22T22:20:14Z master 74a3569b59) [x86_64-linux]
+  74a3569b59 --jit: ruby 3.0.0dev (2020-12-22T22:20:14Z master 74a3569b59) +JIT [x86_64-linux]
