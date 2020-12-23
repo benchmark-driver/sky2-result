@@ -11,42 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  70ca56deda: |-
-    ruby 2.7.0dev (2019-10-24T09:50:57Z trunk 70ca56deda) [x86_64-linux]
-    last_commit=Temporarily skipped with upstream changes of Date library.
-  70ca56deda --jit: |-
-    ruby 2.7.0dev (2019-10-24T09:50:57Z trunk 70ca56deda) +JIT [x86_64-linux]
-    last_commit=Temporarily skipped with upstream changes of Date library.
-  7733db665a: |-
-    ruby 2.7.0dev (2019-10-24T10:34:15Z trunk 7733db665a) [x86_64-linux]
-    last_commit=[ruby/fiddle] Fiddle::Function must maintain a reference to the closure
-  7733db665a --jit: |-
-    ruby 2.7.0dev (2019-10-24T10:34:15Z trunk 7733db665a) +JIT [x86_64-linux]
-    last_commit=[ruby/fiddle] Fiddle::Function must maintain a reference to the closure
-  5ebb0d50f6: |-
-    ruby 2.7.0dev (2019-10-24T10:34:22Z trunk 5ebb0d50f6) [x86_64-linux]
-    last_commit=[ruby/fiddle] Fix a failing test (#13)
-  5ebb0d50f6 --jit: |-
-    ruby 2.7.0dev (2019-10-24T10:34:22Z trunk 5ebb0d50f6) +JIT [x86_64-linux]
-    last_commit=[ruby/fiddle] Fix a failing test (#13)
-  4d844cbaed: |-
-    ruby 2.7.0dev (2019-10-24T10:34:29Z trunk 4d844cbaed) [x86_64-linux]
-    last_commit=[ruby/fiddle] test: use env Hash
-  4d844cbaed --jit: |-
-    ruby 2.7.0dev (2019-10-24T10:34:29Z trunk 4d844cbaed) +JIT [x86_64-linux]
-    last_commit=[ruby/fiddle] test: use env Hash
-  30d46966a9: |-
-    ruby 2.7.0dev (2019-10-24T10:34:36Z trunk 30d46966a9) [x86_64-linux]
-    last_commit=[ruby/fiddle] Use RbConfig::SIZEOF (#19)
-  30d46966a9 --jit: |-
-    ruby 2.7.0dev (2019-10-24T10:34:36Z trunk 30d46966a9) +JIT [x86_64-linux]
-    last_commit=[ruby/fiddle] Use RbConfig::SIZEOF (#19)
-  ce6caade7c: |-
-    ruby 2.7.0dev (2019-10-24T10:34:43Z trunk ce6caade7c) [x86_64-linux]
-    last_commit=[ruby/fiddle] Use ffi_closure_free by default. (#20)
-  ce6caade7c --jit: |-
-    ruby 2.7.0dev (2019-10-24T10:34:43Z trunk ce6caade7c) +JIT [x86_64-linux]
-    last_commit=[ruby/fiddle] Use ffi_closure_free by default. (#20)
   b809784817: |-
     ruby 2.7.0dev (2019-10-24T10:34:49Z trunk b809784817) [x86_64-linux]
     last_commit=[ruby/fiddle] Remove taint support (#21)
@@ -13292,3 +13256,15 @@ commits:
   841d22ea47 --jit: ruby 3.0.0dev (2020-12-22T21:06:07Z master 841d22ea47) +JIT [x86_64-linux]
   74a3569b59: ruby 3.0.0dev (2020-12-22T22:20:14Z master 74a3569b59) [x86_64-linux]
   74a3569b59 --jit: ruby 3.0.0dev (2020-12-22T22:20:14Z master 74a3569b59) +JIT [x86_64-linux]
+  05014dcb88: ruby 3.0.0dev (2020-12-23T00:05:07Z master 05014dcb88) [x86_64-linux]
+  05014dcb88 --jit: ruby 3.0.0dev (2020-12-23T00:05:07Z master 05014dcb88) +JIT [x86_64-linux]
+  74652e640a: ruby 3.0.0dev (2020-12-23T00:24:53Z master 74652e640a) [x86_64-linux]
+  74652e640a --jit: ruby 3.0.0dev (2020-12-23T00:24:53Z master 74652e640a) +JIT [x86_64-linux]
+  b3ea828c8e: ruby 3.0.0dev (2020-12-23T00:24:54Z master b3ea828c8e) [x86_64-linux]
+  b3ea828c8e --jit: ruby 3.0.0dev (2020-12-23T00:24:54Z master b3ea828c8e) +JIT [x86_64-linux]
+  db0385d657: ruby 3.0.0dev (2020-12-23T00:24:54Z master db0385d657) [x86_64-linux]
+  db0385d657 --jit: ruby 3.0.0dev (2020-12-23T00:24:54Z master db0385d657) +JIT [x86_64-linux]
+  01ab29cc28: ruby 3.0.0dev (2020-12-23T00:24:55Z master 01ab29cc28) [x86_64-linux]
+  01ab29cc28 --jit: ruby 3.0.0dev (2020-12-23T00:24:55Z master 01ab29cc28) +JIT [x86_64-linux]
+  9636d14f6f: ruby 3.0.0dev (2020-12-23T00:24:55Z master 9636d14f6f) [x86_64-linux]
+  9636d14f6f --jit: ruby 3.0.0dev (2020-12-23T00:24:55Z master 9636d14f6f) +JIT [x86_64-linux]
