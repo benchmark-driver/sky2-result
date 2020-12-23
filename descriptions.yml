@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  b25ab3832f: |-
-    ruby 2.7.0dev (2019-10-26T00:24:55Z trunk b25ab3832f) [x86_64-linux]
-    last_commit=[ruby/forwardable] Extracted VERSION constant for gemspec
-  b25ab3832f --jit: |-
-    ruby 2.7.0dev (2019-10-26T00:24:55Z trunk b25ab3832f) +JIT [x86_64-linux]
-    last_commit=[ruby/forwardable] Extracted VERSION constant for gemspec
-  b15e0983f7: |-
-    ruby 2.7.0dev (2019-10-26T00:25:01Z trunk b15e0983f7) [x86_64-linux]
-    last_commit=[ruby/forwardable] Update spec.files
-  b15e0983f7 --jit: |-
-    ruby 2.7.0dev (2019-10-26T00:25:01Z trunk b15e0983f7) +JIT [x86_64-linux]
-    last_commit=[ruby/forwardable] Update spec.files
-  d00551a7bb: |-
-    ruby 2.7.0dev (2019-10-26T00:25:06Z trunk d00551a7bb) [x86_64-linux]
-    last_commit=[ruby/forwardable] Make def_{instance,single}_delegators skip :__send__ and :__id__
-  d00551a7bb --jit: |-
-    ruby 2.7.0dev (2019-10-26T00:25:06Z trunk d00551a7bb) +JIT [x86_64-linux]
-    last_commit=[ruby/forwardable] Make def_{instance,single}_delegators skip :__send__ and :__id__
   '0098977053': |-
     ruby 2.7.0dev (2019-10-26T00:25:11Z trunk 0098977053) [x86_64-linux]
     last_commit=[ruby/forwardable] Remove string allocation in def_{instance,single}_delegators
@@ -13109,3 +13091,9 @@ commits:
   fb54574393 --jit: ruby 3.0.0dev (2020-12-23T16:24:30Z master fb54574393) +JIT [x86_64-linux]
   4a8ff22f0c: ruby 3.0.0dev (2020-12-23T16:39:52Z master 4a8ff22f0c) [x86_64-linux]
   4a8ff22f0c --jit: ruby 3.0.0dev (2020-12-23T16:39:52Z master 4a8ff22f0c) +JIT [x86_64-linux]
+  8feb40f49a: ruby 3.0.0dev (2020-12-23T16:50:33Z master 8feb40f49a) [x86_64-linux]
+  8feb40f49a --jit: ruby 3.0.0dev (2020-12-23T16:50:33Z master 8feb40f49a) +JIT [x86_64-linux]
+  a8fc72f5a8: ruby 3.0.0dev (2020-12-23T16:51:46Z master a8fc72f5a8) [x86_64-linux]
+  a8fc72f5a8 --jit: ruby 3.0.0dev (2020-12-23T16:51:46Z master a8fc72f5a8) +JIT [x86_64-linux]
+  b32ed8aa41: ruby 3.0.0dev (2020-12-23T16:59:36Z master b32ed8aa41) [x86_64-linux]
+  b32ed8aa41 --jit: ruby 3.0.0dev (2020-12-23T16:59:36Z master b32ed8aa41) +JIT [x86_64-linux]
