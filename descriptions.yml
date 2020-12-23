@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  5040eea959: |-
-    ruby 2.7.0dev (2019-10-24T23:54:33Z trunk 5040eea959) [x86_64-linux]
-    last_commit=Do not show progress at chocolatey
-  5040eea959 --jit: |-
-    ruby 2.7.0dev (2019-10-24T23:54:33Z trunk 5040eea959) +JIT [x86_64-linux]
-    last_commit=Do not show progress at chocolatey
-  fb15e79403: |-
-    ruby 2.7.0dev (2019-10-25T00:25:43Z trunk fb15e79403) [x86_64-linux]
-    last_commit=Handle case where ruby2_keywords method splats to ruby2_keywords method
-  fb15e79403 --jit: |-
-    ruby 2.7.0dev (2019-10-25T00:25:43Z trunk fb15e79403) +JIT [x86_64-linux]
-    last_commit=Handle case where ruby2_keywords method splats to ruby2_keywords method
   '09936d1d74': |-
     ruby 2.7.0dev (2019-10-25T00:29:10Z trunk 09936d1d74) [x86_64-linux]
     last_commit=[ruby/tracer] Use Gemfile instead of Gem::Specification#add_development_dependency.
@@ -13157,3 +13145,7 @@ commits:
   e052d07163 --jit: ruby 3.0.0dev (2020-12-23T07:55:36Z master e052d07163) +JIT [x86_64-linux]
   313d63c2ac: ruby 3.0.0dev (2020-12-23T09:06:27Z master 313d63c2ac) [x86_64-linux]
   313d63c2ac --jit: ruby 3.0.0dev (2020-12-23T09:06:27Z master 313d63c2ac) +JIT [x86_64-linux]
+  aa856d5077: ruby 3.0.0dev (2020-12-23T09:19:26Z master aa856d5077) [x86_64-linux]
+  aa856d5077 --jit: ruby 3.0.0dev (2020-12-23T09:19:26Z master aa856d5077) +JIT [x86_64-linux]
+  aad88cc10b: ruby 3.0.0dev (2020-12-23T09:32:24Z master aad88cc10b) [x86_64-linux]
+  aad88cc10b --jit: ruby 3.0.0dev (2020-12-23T09:32:24Z master aad88cc10b) +JIT [x86_64-linux]
