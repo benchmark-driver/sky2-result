@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  f3f1d89d46: |-
-    ruby 2.7.0dev (2019-10-25T07:44:15Z trunk f3f1d89d46) [x86_64-linux]
-    last_commit=skip tests that do not work on GC.stress
-  f3f1d89d46 --jit: |-
-    ruby 2.7.0dev (2019-10-25T07:44:15Z trunk f3f1d89d46) +JIT [x86_64-linux]
-    last_commit=skip tests that do not work on GC.stress
   88135845f1: |-
     ruby 2.7.0dev (2019-10-25T08:58:54Z trunk 88135845f1) [x86_64-linux]
     last_commit=enable assertion for debug.
@@ -13133,3 +13127,5 @@ commits:
   31bd172185 --jit: ruby 3.0.0dev (2020-12-23T12:26:25Z master 31bd172185) +JIT [x86_64-linux]
   129ecb43e5: ruby 3.0.0dev (2020-12-23T12:26:25Z master 129ecb43e5) [x86_64-linux]
   129ecb43e5 --jit: ruby 3.0.0dev (2020-12-23T12:26:25Z master 129ecb43e5) +JIT [x86_64-linux]
+  28e9344fa4: ruby 3.0.0dev (2020-12-23T13:08:30Z master 28e9344fa4) [x86_64-linux]
+  28e9344fa4 --jit: ruby 3.0.0dev (2020-12-23T13:08:30Z master 28e9344fa4) +JIT [x86_64-linux]
