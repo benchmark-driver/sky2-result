@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  c28d50a753: |-
-    ruby 2.7.0dev (2019-10-24T10:47:20Z trunk c28d50a753) [x86_64-linux]
-    last_commit=[ruby/webrick] Support literal IPv6 addresses in X-Forwarded-Host
-  c28d50a753 --jit: |-
-    ruby 2.7.0dev (2019-10-24T10:47:20Z trunk c28d50a753) +JIT [x86_64-linux]
-    last_commit=[ruby/webrick] Support literal IPv6 addresses in X-Forwarded-Host
-  f126d80b1e: |-
-    ruby 2.7.0dev (2019-10-24T10:47:29Z trunk f126d80b1e) [x86_64-linux]
-    last_commit=[ruby/webrick] Don't check tainting in access log escaping
-  f126d80b1e --jit: |-
-    ruby 2.7.0dev (2019-10-24T10:47:29Z trunk f126d80b1e) +JIT [x86_64-linux]
-    last_commit=[ruby/webrick] Don't check tainting in access log escaping
   efd641ffab: |-
     ruby 2.7.0dev (2019-10-24T11:58:32Z trunk efd641ffab) [x86_64-linux]
     last_commit=Revert "[ruby/fiddle] Use ffi_closure_free by default. (#20)"
@@ -13249,3 +13237,7 @@ commits:
   '082114da05': ruby 3.0.0dev (2020-12-23T02:13:50Z master 082114da05) [x86_64-linux]
   '082114da05 --jit': ruby 3.0.0dev (2020-12-23T02:13:50Z master 082114da05) +JIT
     [x86_64-linux]
+  3df3b47187: ruby 3.0.0dev (2020-12-23T03:25:41Z master 3df3b47187) [x86_64-linux]
+  3df3b47187 --jit: ruby 3.0.0dev (2020-12-23T03:25:41Z master 3df3b47187) +JIT [x86_64-linux]
+  02233ed024: ruby 3.0.0dev (2020-12-23T03:25:41Z master 02233ed024) [x86_64-linux]
+  02233ed024 --jit: ruby 3.0.0dev (2020-12-23T03:25:41Z master 02233ed024) +JIT [x86_64-linux]
