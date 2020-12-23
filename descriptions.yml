@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  '09936d1d74': |-
-    ruby 2.7.0dev (2019-10-25T00:29:10Z trunk 09936d1d74) [x86_64-linux]
-    last_commit=[ruby/tracer] Use Gemfile instead of Gem::Specification#add_development_dependency.
-  '09936d1d74 --jit': |-
-    ruby 2.7.0dev (2019-10-25T00:29:10Z trunk 09936d1d74) +JIT [x86_64-linux]
-    last_commit=[ruby/tracer] Use Gemfile instead of Gem::Specification#add_development_dependency.
-  7bcc639c72: |-
-    ruby 2.7.0dev (2019-10-25T01:07:17Z trunk 7bcc639c72) [x86_64-linux]
-    last_commit=Rename old var name with new name
-  7bcc639c72 --jit: |-
-    ruby 2.7.0dev (2019-10-25T01:07:17Z trunk 7bcc639c72) +JIT [x86_64-linux]
-    last_commit=Rename old var name with new name
   a7ec88ad61: |-
     ruby 2.7.0dev (2019-10-25T01:45:46Z trunk a7ec88ad61) [x86_64-linux]
     last_commit=Add `shell: cmd`
@@ -13149,3 +13137,7 @@ commits:
   aa856d5077 --jit: ruby 3.0.0dev (2020-12-23T09:19:26Z master aa856d5077) +JIT [x86_64-linux]
   aad88cc10b: ruby 3.0.0dev (2020-12-23T09:32:24Z master aad88cc10b) [x86_64-linux]
   aad88cc10b --jit: ruby 3.0.0dev (2020-12-23T09:32:24Z master aad88cc10b) +JIT [x86_64-linux]
+  8259d88938: ruby 3.0.0dev (2020-12-23T10:45:54Z master 8259d88938) [x86_64-linux]
+  8259d88938 --jit: ruby 3.0.0dev (2020-12-23T10:45:54Z master 8259d88938) +JIT [x86_64-linux]
+  684649ea05: ruby 3.0.0dev (2020-12-23T10:53:21Z master 684649ea05) [x86_64-linux]
+  684649ea05 --jit: ruby 3.0.0dev (2020-12-23T10:53:21Z master 684649ea05) +JIT [x86_64-linux]
