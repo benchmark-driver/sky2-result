@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  efd641ffab: |-
-    ruby 2.7.0dev (2019-10-24T11:58:32Z trunk efd641ffab) [x86_64-linux]
-    last_commit=Revert "[ruby/fiddle] Use ffi_closure_free by default. (#20)"
-  efd641ffab --jit: |-
-    ruby 2.7.0dev (2019-10-24T11:58:32Z trunk efd641ffab) +JIT [x86_64-linux]
-    last_commit=Revert "[ruby/fiddle] Use ffi_closure_free by default. (#20)"
   de5ee47c3d: |-
     ruby 2.7.0dev (2019-10-24T11:58:32Z trunk de5ee47c3d) [x86_64-linux]
     last_commit=Revert "[ruby/fiddle] test: use env Hash"
@@ -13241,3 +13235,5 @@ commits:
   3df3b47187 --jit: ruby 3.0.0dev (2020-12-23T03:25:41Z master 3df3b47187) +JIT [x86_64-linux]
   02233ed024: ruby 3.0.0dev (2020-12-23T03:25:41Z master 02233ed024) [x86_64-linux]
   02233ed024 --jit: ruby 3.0.0dev (2020-12-23T03:25:41Z master 02233ed024) +JIT [x86_64-linux]
+  7e44ade565: ruby 3.0.0dev (2020-12-23T04:39:48Z master 7e44ade565) [x86_64-linux]
+  7e44ade565 --jit: ruby 3.0.0dev (2020-12-23T04:39:48Z master 7e44ade565) +JIT [x86_64-linux]
