@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  37c266aa57: |-
-    ruby 2.7.0dev (2019-10-24T10:47:10Z trunk 37c266aa57) [x86_64-linux]
-    last_commit=[ruby/webrick] Remove the squishing of whitespace in header values
-  37c266aa57 --jit: |-
-    ruby 2.7.0dev (2019-10-24T10:47:10Z trunk 37c266aa57) +JIT [x86_64-linux]
-    last_commit=[ruby/webrick] Remove the squishing of whitespace in header values
   c28d50a753: |-
     ruby 2.7.0dev (2019-10-24T10:47:20Z trunk c28d50a753) [x86_64-linux]
     last_commit=[ruby/webrick] Support literal IPv6 addresses in X-Forwarded-Host
@@ -13252,3 +13246,6 @@ commits:
   733ed1e184 --jit: ruby 3.0.0dev (2020-12-23T00:56:35Z master 733ed1e184) +JIT [x86_64-linux]
   339227363c: ruby 3.0.0dev (2020-12-23T01:17:41Z master 339227363c) [x86_64-linux]
   339227363c --jit: ruby 3.0.0dev (2020-12-23T01:17:41Z master 339227363c) +JIT [x86_64-linux]
+  '082114da05': ruby 3.0.0dev (2020-12-23T02:13:50Z master 082114da05) [x86_64-linux]
+  '082114da05 --jit': ruby 3.0.0dev (2020-12-23T02:13:50Z master 082114da05) +JIT
+    [x86_64-linux]
