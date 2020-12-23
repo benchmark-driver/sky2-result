@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  41d5294506: |-
-    ruby 2.7.0dev (2019-10-25T17:56:12Z trunk 41d5294506) [x86_64-linux]
-    last_commit=* 2019-10-26 [ci skip]
-  41d5294506 --jit: |-
-    ruby 2.7.0dev (2019-10-25T17:56:12Z trunk 41d5294506) +JIT [x86_64-linux]
-    last_commit=* 2019-10-26 [ci skip]
-  0c579b0a97: |-
-    ruby 2.7.0dev (2019-10-25T22:03:33Z trunk 0c579b0a97) [x86_64-linux]
-    last_commit=[ruby/dbm] Remove taint support
-  0c579b0a97 --jit: |-
-    ruby 2.7.0dev (2019-10-25T22:03:33Z trunk 0c579b0a97) +JIT [x86_64-linux]
-    last_commit=[ruby/dbm] Remove taint support
   b25ab3832f: |-
     ruby 2.7.0dev (2019-10-26T00:24:55Z trunk b25ab3832f) [x86_64-linux]
     last_commit=[ruby/forwardable] Extracted VERSION constant for gemspec
@@ -13117,3 +13105,7 @@ commits:
   3a81daaf8d --jit: ruby 3.0.0dev (2020-12-23T15:15:29Z master 3a81daaf8d) +JIT [x86_64-linux]
   221ca0f828: ruby 3.0.0dev (2020-12-23T15:16:59Z master 221ca0f828) [x86_64-linux]
   221ca0f828 --jit: ruby 3.0.0dev (2020-12-23T15:16:59Z master 221ca0f828) +JIT [x86_64-linux]
+  fb54574393: ruby 3.0.0dev (2020-12-23T16:24:30Z master fb54574393) [x86_64-linux]
+  fb54574393 --jit: ruby 3.0.0dev (2020-12-23T16:24:30Z master fb54574393) +JIT [x86_64-linux]
+  4a8ff22f0c: ruby 3.0.0dev (2020-12-23T16:39:52Z master 4a8ff22f0c) [x86_64-linux]
+  4a8ff22f0c --jit: ruby 3.0.0dev (2020-12-23T16:39:52Z master 4a8ff22f0c) +JIT [x86_64-linux]
