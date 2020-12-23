@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  a7ec88ad61: |-
-    ruby 2.7.0dev (2019-10-25T01:45:46Z trunk a7ec88ad61) [x86_64-linux]
-    last_commit=Add `shell: cmd`
-  a7ec88ad61 --jit: |-
-    ruby 2.7.0dev (2019-10-25T01:45:46Z trunk a7ec88ad61) +JIT [x86_64-linux]
-    last_commit=Add `shell: cmd`
-  356e203a3a: |-
-    ruby 2.7.0dev (2019-10-25T03:24:22Z trunk 356e203a3a) [x86_64-linux]
-    last_commit=more on struct rb_call_data
-  356e203a3a --jit: |-
-    ruby 2.7.0dev (2019-10-25T03:24:22Z trunk 356e203a3a) +JIT [x86_64-linux]
-    last_commit=more on struct rb_call_data
   f3f1d89d46: |-
     ruby 2.7.0dev (2019-10-25T07:44:15Z trunk f3f1d89d46) [x86_64-linux]
     last_commit=skip tests that do not work on GC.stress
@@ -13141,3 +13129,7 @@ commits:
   8259d88938 --jit: ruby 3.0.0dev (2020-12-23T10:45:54Z master 8259d88938) +JIT [x86_64-linux]
   684649ea05: ruby 3.0.0dev (2020-12-23T10:53:21Z master 684649ea05) [x86_64-linux]
   684649ea05 --jit: ruby 3.0.0dev (2020-12-23T10:53:21Z master 684649ea05) +JIT [x86_64-linux]
+  31bd172185: ruby 3.0.0dev (2020-12-23T12:26:25Z master 31bd172185) [x86_64-linux]
+  31bd172185 --jit: ruby 3.0.0dev (2020-12-23T12:26:25Z master 31bd172185) +JIT [x86_64-linux]
+  129ecb43e5: ruby 3.0.0dev (2020-12-23T12:26:25Z master 129ecb43e5) [x86_64-linux]
+  129ecb43e5 --jit: ruby 3.0.0dev (2020-12-23T12:26:25Z master 129ecb43e5) +JIT [x86_64-linux]
