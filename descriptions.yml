@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  b809784817: |-
-    ruby 2.7.0dev (2019-10-24T10:34:49Z trunk b809784817) [x86_64-linux]
-    last_commit=[ruby/fiddle] Remove taint support (#21)
-  b809784817 --jit: |-
-    ruby 2.7.0dev (2019-10-24T10:34:49Z trunk b809784817) +JIT [x86_64-linux]
-    last_commit=[ruby/fiddle] Remove taint support (#21)
-  f0452574b1: |-
-    ruby 2.7.0dev (2019-10-24T10:46:01Z trunk f0452574b1) [x86_64-linux]
-    last_commit=[ruby/webrick] after ruby-2.6.0, set Net::HTTP#write_timeout
-  f0452574b1 --jit: |-
-    ruby 2.7.0dev (2019-10-24T10:46:01Z trunk f0452574b1) +JIT [x86_64-linux]
-    last_commit=[ruby/webrick] after ruby-2.6.0, set Net::HTTP#write_timeout
-  8189d496df: |-
-    ruby 2.7.0dev (2019-10-24T10:46:08Z trunk 8189d496df) [x86_64-linux]
-    last_commit=[ruby/webrick] Remove Webrick::HTTPResponse#to_s
-  8189d496df --jit: |-
-    ruby 2.7.0dev (2019-10-24T10:46:08Z trunk 8189d496df) +JIT [x86_64-linux]
-    last_commit=[ruby/webrick] Remove Webrick::HTTPResponse#to_s
   84ed4c3d59: |-
     ruby 2.7.0dev (2019-10-24T10:47:01Z trunk 84ed4c3d59) [x86_64-linux]
     last_commit=[ruby/webrick] bump version to 1.5.0
@@ -13268,3 +13250,9 @@ commits:
   01ab29cc28 --jit: ruby 3.0.0dev (2020-12-23T00:24:55Z master 01ab29cc28) +JIT [x86_64-linux]
   9636d14f6f: ruby 3.0.0dev (2020-12-23T00:24:55Z master 9636d14f6f) [x86_64-linux]
   9636d14f6f --jit: ruby 3.0.0dev (2020-12-23T00:24:55Z master 9636d14f6f) +JIT [x86_64-linux]
+  3286380ebc: ruby 3.0.0dev (2020-12-23T00:46:07Z master 3286380ebc) [x86_64-linux]
+  3286380ebc --jit: ruby 3.0.0dev (2020-12-23T00:46:07Z master 3286380ebc) +JIT [x86_64-linux]
+  cd63f0358f: ruby 3.0.0dev (2020-12-23T00:46:07Z master cd63f0358f) [x86_64-linux]
+  cd63f0358f --jit: ruby 3.0.0dev (2020-12-23T00:46:07Z master cd63f0358f) +JIT [x86_64-linux]
+  733ed1e184: ruby 3.0.0dev (2020-12-23T00:56:35Z master 733ed1e184) [x86_64-linux]
+  733ed1e184 --jit: ruby 3.0.0dev (2020-12-23T00:56:35Z master 733ed1e184) +JIT [x86_64-linux]
