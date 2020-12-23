@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  b86af95c5b: |-
-    ruby 2.7.0dev (2019-10-24T17:04:14Z trunk b86af95c5b) [x86_64-linux]
-    last_commit=Get rid of control flow by cmd.exe
-  b86af95c5b --jit: |-
-    ruby 2.7.0dev (2019-10-24T17:04:14Z trunk b86af95c5b) +JIT [x86_64-linux]
-    last_commit=Get rid of control flow by cmd.exe
   967b924aa0: |-
     ruby 2.7.0dev (2019-10-24T17:08:03Z trunk 967b924aa0) [x86_64-linux]
     last_commit=Expanded an environment variable
@@ -13197,3 +13191,5 @@ commits:
   61bd28b836 --jit: ruby 3.0.0dev (2020-12-23T04:53:40Z master 61bd28b836) +JIT [x86_64-linux]
   5cf25c55a6: ruby 3.0.0dev (2020-12-23T05:03:54Z master 5cf25c55a6) [x86_64-linux]
   5cf25c55a6 --jit: ruby 3.0.0dev (2020-12-23T05:03:54Z master 5cf25c55a6) +JIT [x86_64-linux]
+  0dd4896175: ruby 3.0.0dev (2020-12-23T05:41:44Z master 0dd4896175) [x86_64-linux]
+  0dd4896175 --jit: ruby 3.0.0dev (2020-12-23T05:41:44Z master 0dd4896175) +JIT [x86_64-linux]
