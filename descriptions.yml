@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  '0098977053': |-
-    ruby 2.7.0dev (2019-10-26T00:25:11Z trunk 0098977053) [x86_64-linux]
-    last_commit=[ruby/forwardable] Remove string allocation in def_{instance,single}_delegators
-  '0098977053 --jit': |-
-    ruby 2.7.0dev (2019-10-26T00:25:11Z trunk 0098977053) +JIT [x86_64-linux]
-    last_commit=[ruby/forwardable] Remove string allocation in def_{instance,single}_delegators
   f625a4be3c: |-
     ruby 2.7.0dev (2019-10-26T00:25:17Z trunk f625a4be3c) [x86_64-linux]
     last_commit=[ruby/forwardable] Fix NoMethodError on ruby 2.4 or earlier
@@ -13097,3 +13091,5 @@ commits:
   a8fc72f5a8 --jit: ruby 3.0.0dev (2020-12-23T16:51:46Z master a8fc72f5a8) +JIT [x86_64-linux]
   b32ed8aa41: ruby 3.0.0dev (2020-12-23T16:59:36Z master b32ed8aa41) [x86_64-linux]
   b32ed8aa41 --jit: ruby 3.0.0dev (2020-12-23T16:59:36Z master b32ed8aa41) +JIT [x86_64-linux]
+  458d5175b9: ruby 3.0.0dev (2020-12-23T18:47:26Z master 458d5175b9) [x86_64-linux]
+  458d5175b9 --jit: ruby 3.0.0dev (2020-12-23T18:47:26Z master 458d5175b9) +JIT [x86_64-linux]
