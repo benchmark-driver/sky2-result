@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  cf9344131c: |-
-    ruby 2.7.0dev (2019-10-26T03:52:50Z trunk cf9344131c) [x86_64-linux]
-    last_commit=Raise on end-exclusive ranges [Feature #14784]
-  cf9344131c --jit: |-
-    ruby 2.7.0dev (2019-10-26T03:52:50Z trunk cf9344131c) +JIT [x86_64-linux]
-    last_commit=Raise on end-exclusive ranges [Feature #14784]
   bddb31bb37: |-
     ruby 2.7.0dev (2019-10-26T05:58:08Z trunk bddb31bb37) [x86_64-linux]
     last_commit=Documentation improvements for Ruby core
@@ -13085,3 +13079,5 @@ commits:
   7fcb6b3dbe --jit: ruby 3.0.0dev (2020-12-23T19:30:49Z master 7fcb6b3dbe) +JIT [x86_64-linux]
   7340e7f827: ruby 3.0.0dev (2020-12-23T19:30:50Z master 7340e7f827) [x86_64-linux]
   7340e7f827 --jit: ruby 3.0.0dev (2020-12-23T19:30:50Z master 7340e7f827) +JIT [x86_64-linux]
+  ae26d5bd41: ruby 3.0.0dev (2020-12-23T20:56:04Z master ae26d5bd41) [x86_64-linux]
+  ae26d5bd41 --jit: ruby 3.0.0dev (2020-12-23T20:56:04Z master ae26d5bd41) +JIT [x86_64-linux]
