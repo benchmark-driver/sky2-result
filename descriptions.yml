@@ -11,66 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  de5ee47c3d: |-
-    ruby 2.7.0dev (2019-10-24T11:58:32Z trunk de5ee47c3d) [x86_64-linux]
-    last_commit=Revert "[ruby/fiddle] test: use env Hash"
-  de5ee47c3d --jit: |-
-    ruby 2.7.0dev (2019-10-24T11:58:32Z trunk de5ee47c3d) +JIT [x86_64-linux]
-    last_commit=Revert "[ruby/fiddle] test: use env Hash"
-  dc44ab2913: |-
-    ruby 2.7.0dev (2019-10-24T11:58:32Z trunk dc44ab2913) [x86_64-linux]
-    last_commit=Revert "[ruby/fiddle] Fix a failing test (#13)"
-  dc44ab2913 --jit: |-
-    ruby 2.7.0dev (2019-10-24T11:58:32Z trunk dc44ab2913) +JIT [x86_64-linux]
-    last_commit=Revert "[ruby/fiddle] Fix a failing test (#13)"
-  8439caab0a: |-
-    ruby 2.7.0dev (2019-10-24T14:38:27Z trunk 8439caab0a) [x86_64-linux]
-    last_commit=Refined `rp` output [ci skip]
-  8439caab0a --jit: |-
-    ruby 2.7.0dev (2019-10-24T14:38:27Z trunk 8439caab0a) +JIT [x86_64-linux]
-    last_commit=Refined `rp` output [ci skip]
-  1fb4584825: |-
-    ruby 2.7.0dev (2019-10-24T14:47:50Z trunk 1fb4584825) [x86_64-linux]
-    last_commit=Remove unsused output_method argument
-  1fb4584825 --jit: |-
-    ruby 2.7.0dev (2019-10-24T14:47:50Z trunk 1fb4584825) +JIT [x86_64-linux]
-    last_commit=Remove unsused output_method argument
-  6279e45cde: |-
-    ruby 2.7.0dev (2019-10-24T15:15:39Z trunk 6279e45cde) [x86_64-linux]
-    last_commit=Arguments forwarding is not allowed in lambda [Feature #16253]
-  6279e45cde --jit: |-
-    ruby 2.7.0dev (2019-10-24T15:15:39Z trunk 6279e45cde) +JIT [x86_64-linux]
-    last_commit=Arguments forwarding is not allowed in lambda [Feature #16253]
-  2ea698969e: |-
-    ruby 2.7.0dev (2019-10-24T15:16:26Z trunk 2ea698969e) [x86_64-linux]
-    last_commit=* 2019-10-25 [ci skip]
-  2ea698969e --jit: |-
-    ruby 2.7.0dev (2019-10-24T15:16:26Z trunk 2ea698969e) +JIT [x86_64-linux]
-    last_commit=* 2019-10-25 [ci skip]
-  8d0c5eb805: |-
-    ruby 2.7.0dev (2019-10-24T15:54:24Z trunk 8d0c5eb805) [x86_64-linux]
-    last_commit=Set method locations
-  8d0c5eb805 --jit: |-
-    ruby 2.7.0dev (2019-10-24T15:54:24Z trunk 8d0c5eb805) +JIT [x86_64-linux]
-    last_commit=Set method locations
-  ed65e2d5ae: |-
-    ruby 2.7.0dev (2019-10-24T15:56:27Z trunk ed65e2d5ae) [x86_64-linux]
-    last_commit=Assert no-block case
-  ed65e2d5ae --jit: |-
-    ruby 2.7.0dev (2019-10-24T15:56:27Z trunk ed65e2d5ae) +JIT [x86_64-linux]
-    last_commit=Assert no-block case
-  4b3e007e07: |-
-    ruby 2.7.0dev (2019-10-24T16:07:22Z trunk 4b3e007e07) [x86_64-linux]
-    last_commit=Assert no-kwrest case
-  4b3e007e07 --jit: |-
-    ruby 2.7.0dev (2019-10-24T16:07:22Z trunk 4b3e007e07) +JIT [x86_64-linux]
-    last_commit=Assert no-kwrest case
-  b609bdeb53: |-
-    ruby 2.7.0dev (2019-10-24T16:16:05Z trunk b609bdeb53) [x86_64-linux]
-    last_commit=Define arguments forwarding as `ruby2_keywords` style
-  b609bdeb53 --jit: |-
-    ruby 2.7.0dev (2019-10-24T16:16:05Z trunk b609bdeb53) +JIT [x86_64-linux]
-    last_commit=Define arguments forwarding as `ruby2_keywords` style
   b86af95c5b: |-
     ruby 2.7.0dev (2019-10-24T17:04:14Z trunk b86af95c5b) [x86_64-linux]
     last_commit=Get rid of control flow by cmd.exe
@@ -13237,3 +13177,23 @@ commits:
   02233ed024 --jit: ruby 3.0.0dev (2020-12-23T03:25:41Z master 02233ed024) +JIT [x86_64-linux]
   7e44ade565: ruby 3.0.0dev (2020-12-23T04:39:48Z master 7e44ade565) [x86_64-linux]
   7e44ade565 --jit: ruby 3.0.0dev (2020-12-23T04:39:48Z master 7e44ade565) +JIT [x86_64-linux]
+  f14aaa2b12: ruby 3.0.0dev (2020-12-23T04:44:47Z master f14aaa2b12) [x86_64-linux]
+  f14aaa2b12 --jit: ruby 3.0.0dev (2020-12-23T04:44:47Z master f14aaa2b12) +JIT [x86_64-linux]
+  7a094146e6: ruby 3.0.0dev (2020-12-23T04:50:42Z master 7a094146e6) [x86_64-linux]
+  7a094146e6 --jit: ruby 3.0.0dev (2020-12-23T04:50:42Z master 7a094146e6) +JIT [x86_64-linux]
+  e70206f570: ruby 3.0.0dev (2020-12-23T04:50:42Z master e70206f570) [x86_64-linux]
+  e70206f570 --jit: ruby 3.0.0dev (2020-12-23T04:50:42Z master e70206f570) +JIT [x86_64-linux]
+  0c450b8647: ruby 3.0.0dev (2020-12-23T04:50:42Z master 0c450b8647) [x86_64-linux]
+  0c450b8647 --jit: ruby 3.0.0dev (2020-12-23T04:50:42Z master 0c450b8647) +JIT [x86_64-linux]
+  d1c7db9d00: ruby 3.0.0dev (2020-12-23T04:50:42Z master d1c7db9d00) [x86_64-linux]
+  d1c7db9d00 --jit: ruby 3.0.0dev (2020-12-23T04:50:42Z master d1c7db9d00) +JIT [x86_64-linux]
+  b2aa21b868: ruby 3.0.0dev (2020-12-23T04:50:42Z master b2aa21b868) [x86_64-linux]
+  b2aa21b868 --jit: ruby 3.0.0dev (2020-12-23T04:50:42Z master b2aa21b868) +JIT [x86_64-linux]
+  c0a2d95cf3: ruby 3.0.0dev (2020-12-23T04:50:42Z master c0a2d95cf3) [x86_64-linux]
+  c0a2d95cf3 --jit: ruby 3.0.0dev (2020-12-23T04:50:42Z master c0a2d95cf3) +JIT [x86_64-linux]
+  8a1e12499b: ruby 3.0.0dev (2020-12-23T04:50:42Z master 8a1e12499b) [x86_64-linux]
+  8a1e12499b --jit: ruby 3.0.0dev (2020-12-23T04:50:42Z master 8a1e12499b) +JIT [x86_64-linux]
+  61bd28b836: ruby 3.0.0dev (2020-12-23T04:53:40Z master 61bd28b836) [x86_64-linux]
+  61bd28b836 --jit: ruby 3.0.0dev (2020-12-23T04:53:40Z master 61bd28b836) +JIT [x86_64-linux]
+  5cf25c55a6: ruby 3.0.0dev (2020-12-23T05:03:54Z master 5cf25c55a6) [x86_64-linux]
+  5cf25c55a6 --jit: ruby 3.0.0dev (2020-12-23T05:03:54Z master 5cf25c55a6) +JIT [x86_64-linux]
