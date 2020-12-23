@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  88135845f1: |-
-    ruby 2.7.0dev (2019-10-25T08:58:54Z trunk 88135845f1) [x86_64-linux]
-    last_commit=enable assertion for debug.
-  88135845f1 --jit: |-
-    ruby 2.7.0dev (2019-10-25T08:58:54Z trunk 88135845f1) +JIT [x86_64-linux]
-    last_commit=enable assertion for debug.
   42c652d195: |-
     ruby 2.7.0dev (2019-10-25T14:30:47Z trunk 42c652d195) [x86_64-linux]
     last_commit=Fixed range argument condition [Feature #14784]
@@ -13129,3 +13123,5 @@ commits:
   129ecb43e5 --jit: ruby 3.0.0dev (2020-12-23T12:26:25Z master 129ecb43e5) +JIT [x86_64-linux]
   28e9344fa4: ruby 3.0.0dev (2020-12-23T13:08:30Z master 28e9344fa4) [x86_64-linux]
   28e9344fa4 --jit: ruby 3.0.0dev (2020-12-23T13:08:30Z master 28e9344fa4) +JIT [x86_64-linux]
+  94015200b6: ruby 3.0.0dev (2020-12-23T14:40:04Z master 94015200b6) [x86_64-linux]
+  94015200b6 --jit: ruby 3.0.0dev (2020-12-23T14:40:04Z master 94015200b6) +JIT [x86_64-linux]
