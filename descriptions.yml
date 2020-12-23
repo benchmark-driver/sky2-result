@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  d6a2507e49: |-
-    ruby 2.7.0dev (2019-10-24T19:35:04Z trunk d6a2507e49) [x86_64-linux]
-    last_commit=Duplicate hash when converting keyword hash to keywords
-  d6a2507e49 --jit: |-
-    ruby 2.7.0dev (2019-10-24T19:35:04Z trunk d6a2507e49) +JIT [x86_64-linux]
-    last_commit=Duplicate hash when converting keyword hash to keywords
-  58b363bf0d: |-
-    ruby 2.7.0dev (2019-10-24T19:39:22Z trunk 58b363bf0d) [x86_64-linux]
-    last_commit=respect `param.flags.ruby2_keywords` at to_binary.
-  58b363bf0d --jit: |-
-    ruby 2.7.0dev (2019-10-24T19:39:22Z trunk 58b363bf0d) +JIT [x86_64-linux]
-    last_commit=respect `param.flags.ruby2_keywords` at to_binary.
   4ff2c58f91: |-
     ruby 2.7.0dev (2019-10-24T19:40:39Z trunk 4ff2c58f91) [x86_64-linux]
     last_commit=retry tailcall optimization (#2529)
@@ -13169,3 +13157,7 @@ commits:
   daec109f42 --jit: ruby 3.0.0dev (2020-12-23T06:08:38Z master daec109f42) +JIT [x86_64-linux]
   dbb4f19969: ruby 3.0.0dev (2020-12-23T06:32:19Z master dbb4f19969) [x86_64-linux]
   dbb4f19969 --jit: ruby 3.0.0dev (2020-12-23T06:32:19Z master dbb4f19969) +JIT [x86_64-linux]
+  81a8d1cf09: ruby 3.0.0dev (2020-12-23T07:50:43Z master 81a8d1cf09) [x86_64-linux]
+  81a8d1cf09 --jit: ruby 3.0.0dev (2020-12-23T07:50:43Z master 81a8d1cf09) +JIT [x86_64-linux]
+  e052d07163: ruby 3.0.0dev (2020-12-23T07:55:36Z master e052d07163) [x86_64-linux]
+  e052d07163 --jit: ruby 3.0.0dev (2020-12-23T07:55:36Z master e052d07163) +JIT [x86_64-linux]
