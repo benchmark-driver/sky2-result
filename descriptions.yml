@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  42c652d195: |-
-    ruby 2.7.0dev (2019-10-25T14:30:47Z trunk 42c652d195) [x86_64-linux]
-    last_commit=Fixed range argument condition [Feature #14784]
-  42c652d195 --jit: |-
-    ruby 2.7.0dev (2019-10-25T14:30:47Z trunk 42c652d195) +JIT [x86_64-linux]
-    last_commit=Fixed range argument condition [Feature #14784]
-  84b69c520e: |-
-    ruby 2.7.0dev (2019-10-25T17:54:29Z trunk 84b69c520e) [x86_64-linux]
-    last_commit=Edit vm_opts.h for VM options
-  84b69c520e --jit: |-
-    ruby 2.7.0dev (2019-10-25T17:54:29Z trunk 84b69c520e) +JIT [x86_64-linux]
-    last_commit=Edit vm_opts.h for VM options
   41d5294506: |-
     ruby 2.7.0dev (2019-10-25T17:56:12Z trunk 41d5294506) [x86_64-linux]
     last_commit=* 2019-10-26 [ci skip]
@@ -13125,3 +13113,7 @@ commits:
   28e9344fa4 --jit: ruby 3.0.0dev (2020-12-23T13:08:30Z master 28e9344fa4) +JIT [x86_64-linux]
   94015200b6: ruby 3.0.0dev (2020-12-23T14:40:04Z master 94015200b6) [x86_64-linux]
   94015200b6 --jit: ruby 3.0.0dev (2020-12-23T14:40:04Z master 94015200b6) +JIT [x86_64-linux]
+  3a81daaf8d: ruby 3.0.0dev (2020-12-23T15:15:29Z master 3a81daaf8d) [x86_64-linux]
+  3a81daaf8d --jit: ruby 3.0.0dev (2020-12-23T15:15:29Z master 3a81daaf8d) +JIT [x86_64-linux]
+  221ca0f828: ruby 3.0.0dev (2020-12-23T15:16:59Z master 221ca0f828) [x86_64-linux]
+  221ca0f828 --jit: ruby 3.0.0dev (2020-12-23T15:16:59Z master 221ca0f828) +JIT [x86_64-linux]
