@@ -11,36 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  967b924aa0: |-
-    ruby 2.7.0dev (2019-10-24T17:08:03Z trunk 967b924aa0) [x86_64-linux]
-    last_commit=Expanded an environment variable
-  967b924aa0 --jit: |-
-    ruby 2.7.0dev (2019-10-24T17:08:03Z trunk 967b924aa0) +JIT [x86_64-linux]
-    last_commit=Expanded an environment variable
-  826bbf9837: |-
-    ruby 2.7.0dev (2019-10-24T17:24:00Z trunk 826bbf9837) [x86_64-linux]
-    last_commit=Split by `&&`
-  826bbf9837 --jit: |-
-    ruby 2.7.0dev (2019-10-24T17:24:00Z trunk 826bbf9837) +JIT [x86_64-linux]
-    last_commit=Split by `&&`
-  b7c8874b62: |-
-    ruby 2.7.0dev (2019-10-24T17:31:21Z trunk b7c8874b62) [x86_64-linux]
-    last_commit=Install openssl with chocolatey
-  b7c8874b62 --jit: |-
-    ruby 2.7.0dev (2019-10-24T17:31:21Z trunk b7c8874b62) +JIT [x86_64-linux]
-    last_commit=Install openssl with chocolatey
-  e8f90e7397: |-
-    ruby 2.7.0dev (2019-10-24T19:01:02Z trunk e8f90e7397) [x86_64-linux]
-    last_commit=check T_ICLASS for Method#inspect.
-  e8f90e7397 --jit: |-
-    ruby 2.7.0dev (2019-10-24T19:01:02Z trunk e8f90e7397) +JIT [x86_64-linux]
-    last_commit=check T_ICLASS for Method#inspect.
-  5fe8943fda: |-
-    ruby 2.7.0dev (2019-10-24T19:34:51Z trunk 5fe8943fda) [x86_64-linux]
-    last_commit=Fix typo causing Date.new(year, month) to fail
-  5fe8943fda --jit: |-
-    ruby 2.7.0dev (2019-10-24T19:34:51Z trunk 5fe8943fda) +JIT [x86_64-linux]
-    last_commit=Fix typo causing Date.new(year, month) to fail
   8c59b9250c: |-
     ruby 2.7.0dev (2019-10-24T19:34:51Z trunk 8c59b9250c) [x86_64-linux]
     last_commit=Update date specs
@@ -13193,3 +13163,13 @@ commits:
   5cf25c55a6 --jit: ruby 3.0.0dev (2020-12-23T05:03:54Z master 5cf25c55a6) +JIT [x86_64-linux]
   0dd4896175: ruby 3.0.0dev (2020-12-23T05:41:44Z master 0dd4896175) [x86_64-linux]
   0dd4896175 --jit: ruby 3.0.0dev (2020-12-23T05:41:44Z master 0dd4896175) +JIT [x86_64-linux]
+  0eb94dae4a: ruby 3.0.0dev (2020-12-23T06:08:38Z master 0eb94dae4a) [x86_64-linux]
+  0eb94dae4a --jit: ruby 3.0.0dev (2020-12-23T06:08:38Z master 0eb94dae4a) +JIT [x86_64-linux]
+  d1963adae8: ruby 3.0.0dev (2020-12-23T06:08:38Z master d1963adae8) [x86_64-linux]
+  d1963adae8 --jit: ruby 3.0.0dev (2020-12-23T06:08:38Z master d1963adae8) +JIT [x86_64-linux]
+  3ee0ad9190: ruby 3.0.0dev (2020-12-23T06:08:38Z master 3ee0ad9190) [x86_64-linux]
+  3ee0ad9190 --jit: ruby 3.0.0dev (2020-12-23T06:08:38Z master 3ee0ad9190) +JIT [x86_64-linux]
+  c5a445d577: ruby 3.0.0dev (2020-12-23T06:08:38Z master c5a445d577) [x86_64-linux]
+  c5a445d577 --jit: ruby 3.0.0dev (2020-12-23T06:08:38Z master c5a445d577) +JIT [x86_64-linux]
+  daec109f42: ruby 3.0.0dev (2020-12-23T06:08:38Z master daec109f42) [x86_64-linux]
+  daec109f42 --jit: ruby 3.0.0dev (2020-12-23T06:08:38Z master daec109f42) +JIT [x86_64-linux]
