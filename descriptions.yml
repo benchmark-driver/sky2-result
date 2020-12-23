@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  f625a4be3c: |-
-    ruby 2.7.0dev (2019-10-26T00:25:17Z trunk f625a4be3c) [x86_64-linux]
-    last_commit=[ruby/forwardable] Fix NoMethodError on ruby 2.4 or earlier
-  f625a4be3c --jit: |-
-    ruby 2.7.0dev (2019-10-26T00:25:17Z trunk f625a4be3c) +JIT [x86_64-linux]
-    last_commit=[ruby/forwardable] Fix NoMethodError on ruby 2.4 or earlier
-  f14b754151: |-
-    ruby 2.7.0dev (2019-10-26T00:26:51Z trunk f14b754151) [x86_64-linux]
-    last_commit=[ruby/forwardable] Use Gemfile instead of Gem::Specification#add_development_dependency.
-  f14b754151 --jit: |-
-    ruby 2.7.0dev (2019-10-26T00:26:51Z trunk f14b754151) +JIT [x86_64-linux]
-    last_commit=[ruby/forwardable] Use Gemfile instead of Gem::Specification#add_development_dependency.
   cf9344131c: |-
     ruby 2.7.0dev (2019-10-26T03:52:50Z trunk cf9344131c) [x86_64-linux]
     last_commit=Raise on end-exclusive ranges [Feature #14784]
@@ -13093,3 +13081,7 @@ commits:
   b32ed8aa41 --jit: ruby 3.0.0dev (2020-12-23T16:59:36Z master b32ed8aa41) +JIT [x86_64-linux]
   458d5175b9: ruby 3.0.0dev (2020-12-23T18:47:26Z master 458d5175b9) [x86_64-linux]
   458d5175b9 --jit: ruby 3.0.0dev (2020-12-23T18:47:26Z master 458d5175b9) +JIT [x86_64-linux]
+  7fcb6b3dbe: ruby 3.0.0dev (2020-12-23T19:30:49Z master 7fcb6b3dbe) [x86_64-linux]
+  7fcb6b3dbe --jit: ruby 3.0.0dev (2020-12-23T19:30:49Z master 7fcb6b3dbe) +JIT [x86_64-linux]
+  7340e7f827: ruby 3.0.0dev (2020-12-23T19:30:50Z master 7340e7f827) [x86_64-linux]
+  7340e7f827 --jit: ruby 3.0.0dev (2020-12-23T19:30:50Z master 7340e7f827) +JIT [x86_64-linux]
