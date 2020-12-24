@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  65744fb19e: |-
-    ruby 2.7.0dev (2019-10-29T02:30:49Z trunk 65744fb19e) [x86_64-linux]
-    last_commit=Right size the iseq coverage branches tmp array - initializes with 5 elements
-  65744fb19e --jit: |-
-    ruby 2.7.0dev (2019-10-29T02:30:49Z trunk 65744fb19e) +JIT [x86_64-linux]
-    last_commit=Right size the iseq coverage branches tmp array - initializes with 5 elements
   4480d68931: |-
     ruby 2.7.0dev (2019-10-29T02:31:15Z trunk 4480d68931) [x86_64-linux]
     last_commit=Right size the compile option hash
@@ -12945,3 +12939,5 @@ commits:
   c752d29bbf --jit: ruby 3.0.0dev (2020-12-24T12:26:46Z master c752d29bbf) +JIT [x86_64-linux]
   bdbbfd1fa5: ruby 3.0.0dev (2020-12-24T13:59:37Z master bdbbfd1fa5) [x86_64-linux]
   bdbbfd1fa5 --jit: ruby 3.0.0dev (2020-12-24T13:59:37Z master bdbbfd1fa5) +JIT [x86_64-linux]
+  2c752ff930: ruby 3.0.0dev (2020-12-24T14:13:36Z master 2c752ff930) [x86_64-linux]
+  2c752ff930 --jit: ruby 3.0.0dev (2020-12-24T14:13:36Z master 2c752ff930) +JIT [x86_64-linux]
