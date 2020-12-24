@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  bbf3de22b6: |-
-    ruby 2.7.0dev (2019-10-28T19:15:05Z trunk bbf3de22b6) [x86_64-linux]
-    last_commit=Pin labels during disassembly
-  bbf3de22b6 --jit: |-
-    ruby 2.7.0dev (2019-10-28T19:15:05Z trunk bbf3de22b6) +JIT [x86_64-linux]
-    last_commit=Pin labels during disassembly
   6147fa82a9: |-
     ruby 2.7.0dev (2019-10-28T20:09:10Z trunk 6147fa82a9) [x86_64-linux]
     last_commit=Fix continuation mark / compact
@@ -12969,3 +12963,5 @@ commits:
   8664c3ddef --jit: ruby 3.0.0dev (2020-12-24T08:51:47Z master 8664c3ddef) +JIT [x86_64-linux]
   1a74fb011d: ruby 3.0.0dev (2020-12-24T09:03:39Z master 1a74fb011d) [x86_64-linux]
   1a74fb011d --jit: ruby 3.0.0dev (2020-12-24T09:03:39Z master 1a74fb011d) +JIT [x86_64-linux]
+  7ca2ca9e32: ruby 3.0.0dev (2020-12-24T09:58:40Z master 7ca2ca9e32) [x86_64-linux]
+  7ca2ca9e32 --jit: ruby 3.0.0dev (2020-12-24T09:58:40Z master 7ca2ca9e32) +JIT [x86_64-linux]
