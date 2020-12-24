@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  aba23d83f2: |-
-    ruby 2.7.0dev (2019-10-27T01:41:35Z trunk aba23d83f2) [x86_64-linux]
-    last_commit=Fix documentation for Fiber#transfer [ci skip]
-  aba23d83f2 --jit: |-
-    ruby 2.7.0dev (2019-10-27T01:41:35Z trunk aba23d83f2) +JIT [x86_64-linux]
-    last_commit=Fix documentation for Fiber#transfer [ci skip]
-  417369e0cd: |-
-    ruby 2.7.0dev (2019-10-27T09:57:39Z trunk 417369e0cd) [x86_64-linux]
-    last_commit=Improve Enumerator.produce docs
-  417369e0cd --jit: |-
-    ruby 2.7.0dev (2019-10-27T09:57:39Z trunk 417369e0cd) +JIT [x86_64-linux]
-    last_commit=Improve Enumerator.produce docs
-  85d966af21: |-
-    ruby 2.7.0dev (2019-10-27T11:19:04Z trunk 85d966af21) [x86_64-linux]
-    last_commit=Add ubuntu-16.04 to matrix of GitHub Actions
-  85d966af21 --jit: |-
-    ruby 2.7.0dev (2019-10-27T11:19:04Z trunk 85d966af21) +JIT [x86_64-linux]
-    last_commit=Add ubuntu-16.04 to matrix of GitHub Actions
   d8d581bfc4: |-
     ruby 2.7.0dev (2019-10-28T03:19:18Z trunk d8d581bfc4) [x86_64-linux]
     last_commit=add assertion for mutex_lock.
@@ -13021,3 +13003,9 @@ commits:
   176b75747c --jit: ruby 3.0.0dev (2020-12-24T07:02:18Z master 176b75747c) +JIT [x86_64-linux]
   e44a8bd791: ruby 3.0.0dev (2020-12-24T07:06:40Z master e44a8bd791) [x86_64-linux]
   e44a8bd791 --jit: ruby 3.0.0dev (2020-12-24T07:06:40Z master e44a8bd791) +JIT [x86_64-linux]
+  a76082f499: ruby 3.0.0dev (2020-12-24T07:19:37Z master a76082f499) [x86_64-linux]
+  a76082f499 --jit: ruby 3.0.0dev (2020-12-24T07:19:37Z master a76082f499) +JIT [x86_64-linux]
+  b343d54792: ruby 3.0.0dev (2020-12-24T07:22:50Z master b343d54792) [x86_64-linux]
+  b343d54792 --jit: ruby 3.0.0dev (2020-12-24T07:22:50Z master b343d54792) +JIT [x86_64-linux]
+  f910a27d37: ruby 3.0.0dev (2020-12-24T07:38:23Z master f910a27d37) [x86_64-linux]
+  f910a27d37 --jit: ruby 3.0.0dev (2020-12-24T07:38:23Z master f910a27d37) +JIT [x86_64-linux]
