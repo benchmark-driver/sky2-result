@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  54eb51d72b: |-
-    ruby 2.7.0dev (2019-10-29T03:12:07Z trunk 54eb51d72b) [x86_64-linux]
-    last_commit=Check for nonnull attribute in configure
-  54eb51d72b --jit: |-
-    ruby 2.7.0dev (2019-10-29T03:12:07Z trunk 54eb51d72b) +JIT [x86_64-linux]
-    last_commit=Check for nonnull attribute in configure
-  b4da6fc1c2: |-
-    ruby 2.7.0dev (2019-10-29T03:34:44Z trunk b4da6fc1c2) [x86_64-linux]
-    last_commit=[ruby/rdoc] Use omit of test-unit instead of skip of minitest
-  b4da6fc1c2 --jit: |-
-    ruby 2.7.0dev (2019-10-29T03:34:44Z trunk b4da6fc1c2) +JIT [x86_64-linux]
-    last_commit=[ruby/rdoc] Use omit of test-unit instead of skip of minitest
-  c8ce37d427: |-
-    ruby 2.7.0dev (2019-10-29T03:34:44Z trunk c8ce37d427) [x86_64-linux]
-    last_commit=[ruby/rdoc] Support different drive latters in include paths
-  c8ce37d427 --jit: |-
-    ruby 2.7.0dev (2019-10-29T03:34:44Z trunk c8ce37d427) +JIT [x86_64-linux]
-    last_commit=[ruby/rdoc] Support different drive latters in include paths
   9525541d02: |-
     ruby 2.7.0dev (2019-10-29T03:34:44Z trunk 9525541d02) [x86_64-linux]
     last_commit=[ruby/rdoc] Use Dir.glob to convert short path of Dir.tmpdir to long path
@@ -12917,3 +12899,9 @@ commits:
   78421319d0 --jit: ruby 3.0.0dev (2020-12-24T14:26:22Z master 78421319d0) +JIT [x86_64-linux]
   9a7647d9eb: ruby 3.0.0dev (2020-12-24T14:26:22Z master 9a7647d9eb) [x86_64-linux]
   9a7647d9eb --jit: ruby 3.0.0dev (2020-12-24T14:26:22Z master 9a7647d9eb) +JIT [x86_64-linux]
+  81562f943e: ruby 3.0.0dev (2020-12-24T14:35:18Z master 81562f943e) [x86_64-linux]
+  81562f943e --jit: ruby 3.0.0dev (2020-12-24T14:35:18Z master 81562f943e) +JIT [x86_64-linux]
+  c64a067d05: ruby 3.0.0dev (2020-12-24T15:06:16Z master c64a067d05) [x86_64-linux]
+  c64a067d05 --jit: ruby 3.0.0dev (2020-12-24T15:06:16Z master c64a067d05) +JIT [x86_64-linux]
+  0356c3269a: ruby 3.0.0dev (2020-12-24T15:14:50Z master 0356c3269a) [x86_64-linux]
+  0356c3269a --jit: ruby 3.0.0dev (2020-12-24T15:14:50Z master 0356c3269a) +JIT [x86_64-linux]
