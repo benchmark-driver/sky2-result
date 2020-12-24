@@ -11,30 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  de147bb721: |-
-    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk de147bb721) [x86_64-linux]
-    last_commit=Net::FTP: fix formatting problems for #status method
-  de147bb721 --jit: |-
-    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk de147bb721) +JIT [x86_64-linux]
-    last_commit=Net::FTP: fix formatting problems for #status method
-  a24bff461d: |-
-    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk a24bff461d) [x86_64-linux]
-    last_commit=open-uri: change global docs to reflect that URI.open syntax is preferred
-  a24bff461d --jit: |-
-    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk a24bff461d) +JIT [x86_64-linux]
-    last_commit=open-uri: change global docs to reflect that URI.open syntax is preferred
-  f93cb6904c: |-
-    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk f93cb6904c) [x86_64-linux]
-    last_commit=OptionParser: document into: argument
-  f93cb6904c --jit: |-
-    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk f93cb6904c) +JIT [x86_64-linux]
-    last_commit=OptionParser: document into: argument
-  '6221248294': |-
-    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk 6221248294) [x86_64-linux]
-    last_commit=Improve Net::HTTP docs:
-  6221248294 --jit: |-
-    ruby 2.7.0dev (2019-10-26T17:24:20Z trunk 6221248294) +JIT [x86_64-linux]
-    last_commit=Improve Net::HTTP docs:
   9c5a962354: |-
     ruby 2.7.0dev (2019-10-26T17:24:50Z trunk 9c5a962354) [x86_64-linux]
     last_commit=* 2019-10-27 [ci skip]
@@ -13053,3 +13029,11 @@ commits:
   1e215a66d2 --jit: ruby 3.0.0dev (2020-12-24T03:29:19Z master 1e215a66d2) +JIT [x86_64-linux]
   6f29716f9f: ruby 3.0.0dev (2020-12-24T05:28:47Z master 6f29716f9f) [x86_64-linux]
   6f29716f9f --jit: ruby 3.0.0dev (2020-12-24T05:28:47Z master 6f29716f9f) +JIT [x86_64-linux]
+  e43b5aa52d: ruby 3.0.0dev (2020-12-24T05:31:01Z master e43b5aa52d) [x86_64-linux]
+  e43b5aa52d --jit: ruby 3.0.0dev (2020-12-24T05:31:01Z master e43b5aa52d) +JIT [x86_64-linux]
+  8e1c0b2f93: ruby 3.0.0dev (2020-12-24T05:34:40Z master 8e1c0b2f93) [x86_64-linux]
+  8e1c0b2f93 --jit: ruby 3.0.0dev (2020-12-24T05:34:40Z master 8e1c0b2f93) +JIT [x86_64-linux]
+  5696c69354: ruby 3.0.0dev (2020-12-24T05:37:09Z master 5696c69354) [x86_64-linux]
+  5696c69354 --jit: ruby 3.0.0dev (2020-12-24T05:37:09Z master 5696c69354) +JIT [x86_64-linux]
+  24ae0e8ed7: ruby 3.0.0dev (2020-12-24T05:37:09Z master 24ae0e8ed7) [x86_64-linux]
+  24ae0e8ed7 --jit: ruby 3.0.0dev (2020-12-24T05:37:09Z master 24ae0e8ed7) +JIT [x86_64-linux]
