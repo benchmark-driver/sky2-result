@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  339a891c7d: |-
-    ruby 2.7.0dev (2019-10-28T18:47:09Z trunk 339a891c7d) [x86_64-linux]
-    last_commit=Pin keys of this st_table
-  339a891c7d --jit: |-
-    ruby 2.7.0dev (2019-10-28T18:47:09Z trunk 339a891c7d) +JIT [x86_64-linux]
-    last_commit=Pin keys of this st_table
   bbf3de22b6: |-
     ruby 2.7.0dev (2019-10-28T19:15:05Z trunk bbf3de22b6) [x86_64-linux]
     last_commit=Pin labels during disassembly
@@ -12973,3 +12967,5 @@ commits:
   a89932799c --jit: ruby 3.0.0dev (2020-12-24T08:20:05Z master a89932799c) +JIT [x86_64-linux]
   8664c3ddef: ruby 3.0.0dev (2020-12-24T08:51:47Z master 8664c3ddef) [x86_64-linux]
   8664c3ddef --jit: ruby 3.0.0dev (2020-12-24T08:51:47Z master 8664c3ddef) +JIT [x86_64-linux]
+  1a74fb011d: ruby 3.0.0dev (2020-12-24T09:03:39Z master 1a74fb011d) [x86_64-linux]
+  1a74fb011d --jit: ruby 3.0.0dev (2020-12-24T09:03:39Z master 1a74fb011d) +JIT [x86_64-linux]
