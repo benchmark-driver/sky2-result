@@ -11,24 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  ca5812fe45: |-
-    ruby 2.7.0dev (2019-10-29T03:57:31Z trunk ca5812fe45) [x86_64-linux]
-    last_commit=Revert "[ruby/rdoc] Use omit of test-unit instead of skip of minitest"
-  ca5812fe45 --jit: |-
-    ruby 2.7.0dev (2019-10-29T03:57:31Z trunk ca5812fe45) +JIT [x86_64-linux]
-    last_commit=Revert "[ruby/rdoc] Use omit of test-unit instead of skip of minitest"
-  1820aeeeb2: |-
-    ruby 2.7.0dev (2019-10-29T04:15:09Z trunk 1820aeeeb2) [x86_64-linux]
-    last_commit=tool/lib/minitest/unit.rb: add "omit" as an alias to "skip"
-  1820aeeeb2 --jit: |-
-    ruby 2.7.0dev (2019-10-29T04:15:09Z trunk 1820aeeeb2) +JIT [x86_64-linux]
-    last_commit=tool/lib/minitest/unit.rb: add "omit" as an alias to "skip"
-  79a7fd9120: |-
-    ruby 2.7.0dev (2019-10-29T04:16:31Z trunk 79a7fd9120) [x86_64-linux]
-    last_commit=Revert "Revert "[ruby/rdoc] Use omit of test-unit instead of skip of minitest""
-  79a7fd9120 --jit: |-
-    ruby 2.7.0dev (2019-10-29T04:16:31Z trunk 79a7fd9120) +JIT [x86_64-linux]
-    last_commit=Revert "Revert "[ruby/rdoc] Use omit of test-unit instead of skip of minitest""
   7bf51ced55: |-
     ruby 2.7.0dev (2019-10-29T05:40:26Z trunk 7bf51ced55) [x86_64-linux]
     last_commit=test/rubygems/test_gem.rb: early failure when there is /tmp/Gemfile
@@ -12901,3 +12883,9 @@ commits:
   0356c3269a --jit: ruby 3.0.0dev (2020-12-24T15:14:50Z master 0356c3269a) +JIT [x86_64-linux]
   d143b75f8e: ruby 3.0.0dev (2020-12-24T15:56:17Z master d143b75f8e) [x86_64-linux]
   d143b75f8e --jit: ruby 3.0.0dev (2020-12-24T15:56:17Z master d143b75f8e) +JIT [x86_64-linux]
+  32616229e3: ruby 3.0.0dev (2020-12-24T16:29:18Z master 32616229e3) [x86_64-linux]
+  32616229e3 --jit: ruby 3.0.0dev (2020-12-24T16:29:18Z master 32616229e3) +JIT [x86_64-linux]
+  523b520b44: ruby 3.0.0dev (2020-12-24T16:29:18Z master 523b520b44) [x86_64-linux]
+  523b520b44 --jit: ruby 3.0.0dev (2020-12-24T16:29:18Z master 523b520b44) +JIT [x86_64-linux]
+  9b091084a1: ruby 3.0.0dev (2020-12-24T16:44:54Z master 9b091084a1) [x86_64-linux]
+  9b091084a1 --jit: ruby 3.0.0dev (2020-12-24T16:44:54Z master 9b091084a1) +JIT [x86_64-linux]
