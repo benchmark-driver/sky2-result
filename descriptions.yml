@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  9525541d02: |-
-    ruby 2.7.0dev (2019-10-29T03:34:44Z trunk 9525541d02) [x86_64-linux]
-    last_commit=[ruby/rdoc] Use Dir.glob to convert short path of Dir.tmpdir to long path
-  9525541d02 --jit: |-
-    ruby 2.7.0dev (2019-10-29T03:34:44Z trunk 9525541d02) +JIT [x86_64-linux]
-    last_commit=[ruby/rdoc] Use Dir.glob to convert short path of Dir.tmpdir to long path
   ca5812fe45: |-
     ruby 2.7.0dev (2019-10-29T03:57:31Z trunk ca5812fe45) [x86_64-linux]
     last_commit=Revert "[ruby/rdoc] Use omit of test-unit instead of skip of minitest"
@@ -12905,3 +12899,5 @@ commits:
   c64a067d05 --jit: ruby 3.0.0dev (2020-12-24T15:06:16Z master c64a067d05) +JIT [x86_64-linux]
   0356c3269a: ruby 3.0.0dev (2020-12-24T15:14:50Z master 0356c3269a) [x86_64-linux]
   0356c3269a --jit: ruby 3.0.0dev (2020-12-24T15:14:50Z master 0356c3269a) +JIT [x86_64-linux]
+  d143b75f8e: ruby 3.0.0dev (2020-12-24T15:56:17Z master d143b75f8e) [x86_64-linux]
+  d143b75f8e --jit: ruby 3.0.0dev (2020-12-24T15:56:17Z master d143b75f8e) +JIT [x86_64-linux]
