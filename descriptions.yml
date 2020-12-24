@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  ad4da86669: |-
-    ruby 2.7.0dev (2019-10-29T07:38:15Z trunk ad4da86669) [x86_64-linux]
-    last_commit=Check for nonnull attribute in configure
-  ad4da86669 --jit: |-
-    ruby 2.7.0dev (2019-10-29T07:38:15Z trunk ad4da86669) +JIT [x86_64-linux]
-    last_commit=Check for nonnull attribute in configure
   fee5cde00b: |-
     ruby 2.7.0dev (2019-10-29T13:40:41Z trunk fee5cde00b) [x86_64-linux]
     last_commit=Fix tests for CVE-2018-6914
@@ -12881,3 +12875,5 @@ commits:
   8981a63f12 --jit: ruby 3.0.0dev (2020-12-24T16:59:07Z master 8981a63f12) +JIT [x86_64-linux]
   db2ebbd71b: ruby 3.0.0dev (2020-12-24T17:08:12Z master db2ebbd71b) [x86_64-linux]
   db2ebbd71b --jit: ruby 3.0.0dev (2020-12-24T17:08:12Z master db2ebbd71b) +JIT [x86_64-linux]
+  c3f91f9d88: ruby 3.0.0dev (2020-12-24T22:09:51Z master c3f91f9d88) [x86_64-linux]
+  c3f91f9d88 --jit: ruby 3.0.0dev (2020-12-24T22:09:51Z master c3f91f9d88) +JIT [x86_64-linux]
