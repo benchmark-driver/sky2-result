@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  d8d581bfc4: |-
-    ruby 2.7.0dev (2019-10-28T03:19:18Z trunk d8d581bfc4) [x86_64-linux]
-    last_commit=add assertion for mutex_lock.
-  d8d581bfc4 --jit: |-
-    ruby 2.7.0dev (2019-10-28T03:19:18Z trunk d8d581bfc4) +JIT [x86_64-linux]
-    last_commit=add assertion for mutex_lock.
-  a72cb6b11d: |-
-    ruby 2.7.0dev (2019-10-28T03:20:36Z trunk a72cb6b11d) [x86_64-linux]
-    last_commit=* 2019-10-28 [ci skip]
-  a72cb6b11d --jit: |-
-    ruby 2.7.0dev (2019-10-28T03:20:36Z trunk a72cb6b11d) +JIT [x86_64-linux]
-    last_commit=* 2019-10-28 [ci skip]
   cc5580f175: |-
     ruby 2.7.0dev (2019-10-28T05:38:05Z trunk cc5580f175) [x86_64-linux]
     last_commit=fix bug in keyword + protected combination
@@ -13009,3 +12997,7 @@ commits:
   b343d54792 --jit: ruby 3.0.0dev (2020-12-24T07:22:50Z master b343d54792) +JIT [x86_64-linux]
   f910a27d37: ruby 3.0.0dev (2020-12-24T07:38:23Z master f910a27d37) [x86_64-linux]
   f910a27d37 --jit: ruby 3.0.0dev (2020-12-24T07:38:23Z master f910a27d37) +JIT [x86_64-linux]
+  1729fd8c0a: ruby 3.0.0dev (2020-12-24T08:00:30Z master 1729fd8c0a) [x86_64-linux]
+  1729fd8c0a --jit: ruby 3.0.0dev (2020-12-24T08:00:30Z master 1729fd8c0a) +JIT [x86_64-linux]
+  1415653c84: ruby 3.0.0dev (2020-12-24T08:03:51Z master 1415653c84) [x86_64-linux]
+  1415653c84 --jit: ruby 3.0.0dev (2020-12-24T08:03:51Z master 1415653c84) +JIT [x86_64-linux]
