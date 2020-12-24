@@ -11,42 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  4480d68931: |-
-    ruby 2.7.0dev (2019-10-29T02:31:15Z trunk 4480d68931) [x86_64-linux]
-    last_commit=Right size the compile option hash
-  4480d68931 --jit: |-
-    ruby 2.7.0dev (2019-10-29T02:31:15Z trunk 4480d68931) +JIT [x86_64-linux]
-    last_commit=Right size the compile option hash
-  0e68913f81: |-
-    ruby 2.7.0dev (2019-10-29T02:31:34Z trunk 0e68913f81) [x86_64-linux]
-    last_commit=Right size the Enumerator internal lazy_use_super_method hash
-  0e68913f81 --jit: |-
-    ruby 2.7.0dev (2019-10-29T02:31:34Z trunk 0e68913f81) +JIT [x86_64-linux]
-    last_commit=Right size the Enumerator internal lazy_use_super_method hash
-  '0095362918': |-
-    ruby 2.7.0dev (2019-10-29T02:31:50Z trunk 0095362918) [x86_64-linux]
-    last_commit=Right size the vm_default_params hash
-  '0095362918 --jit': |-
-    ruby 2.7.0dev (2019-10-29T02:31:50Z trunk 0095362918) +JIT [x86_64-linux]
-    last_commit=Right size the vm_default_params hash
-  fecaa6e946: |-
-    ruby 2.7.0dev (2019-10-29T02:32:09Z trunk fecaa6e946) [x86_64-linux]
-    last_commit=Let the backtrace array constructed in backtrace_collect be initialized with the size already given
-  fecaa6e946 --jit: |-
-    ruby 2.7.0dev (2019-10-29T02:32:09Z trunk fecaa6e946) +JIT [x86_64-linux]
-    last_commit=Let the backtrace array constructed in backtrace_collect be initialized with the size already given
-  85b88c1d89: |-
-    ruby 2.7.0dev (2019-10-29T02:32:46Z trunk 85b88c1d89) [x86_64-linux]
-    last_commit=Let the arrays for the singleton and instance method reflection helpers be initialized to the methods count
-  85b88c1d89 --jit: |-
-    ruby 2.7.0dev (2019-10-29T02:32:46Z trunk 85b88c1d89) +JIT [x86_64-linux]
-    last_commit=Let the arrays for the singleton and instance method reflection helpers be initialized to the methods count
-  b86e5c9fec: |-
-    ruby 2.7.0dev (2019-10-29T03:07:44Z trunk b86e5c9fec) [x86_64-linux]
-    last_commit=Clang can also use C call cache
-  b86e5c9fec --jit: |-
-    ruby 2.7.0dev (2019-10-29T03:07:44Z trunk b86e5c9fec) +JIT [x86_64-linux]
-    last_commit=Clang can also use C call cache
   54eb51d72b: |-
     ruby 2.7.0dev (2019-10-29T03:12:07Z trunk 54eb51d72b) [x86_64-linux]
     last_commit=Check for nonnull attribute in configure
@@ -12941,3 +12905,15 @@ commits:
   bdbbfd1fa5 --jit: ruby 3.0.0dev (2020-12-24T13:59:37Z master bdbbfd1fa5) +JIT [x86_64-linux]
   2c752ff930: ruby 3.0.0dev (2020-12-24T14:13:36Z master 2c752ff930) [x86_64-linux]
   2c752ff930 --jit: ruby 3.0.0dev (2020-12-24T14:13:36Z master 2c752ff930) +JIT [x86_64-linux]
+  167dc37632: ruby 3.0.0dev (2020-12-24T14:26:22Z master 167dc37632) [x86_64-linux]
+  167dc37632 --jit: ruby 3.0.0dev (2020-12-24T14:26:22Z master 167dc37632) +JIT [x86_64-linux]
+  634b231f33: ruby 3.0.0dev (2020-12-24T14:26:22Z master 634b231f33) [x86_64-linux]
+  634b231f33 --jit: ruby 3.0.0dev (2020-12-24T14:26:22Z master 634b231f33) +JIT [x86_64-linux]
+  8d5d139afa: ruby 3.0.0dev (2020-12-24T14:26:22Z master 8d5d139afa) [x86_64-linux]
+  8d5d139afa --jit: ruby 3.0.0dev (2020-12-24T14:26:22Z master 8d5d139afa) +JIT [x86_64-linux]
+  0db9842b2c: ruby 3.0.0dev (2020-12-24T14:26:22Z master 0db9842b2c) [x86_64-linux]
+  0db9842b2c --jit: ruby 3.0.0dev (2020-12-24T14:26:22Z master 0db9842b2c) +JIT [x86_64-linux]
+  78421319d0: ruby 3.0.0dev (2020-12-24T14:26:22Z master 78421319d0) [x86_64-linux]
+  78421319d0 --jit: ruby 3.0.0dev (2020-12-24T14:26:22Z master 78421319d0) +JIT [x86_64-linux]
+  9a7647d9eb: ruby 3.0.0dev (2020-12-24T14:26:22Z master 9a7647d9eb) [x86_64-linux]
+  9a7647d9eb --jit: ruby 3.0.0dev (2020-12-24T14:26:22Z master 9a7647d9eb) +JIT [x86_64-linux]
