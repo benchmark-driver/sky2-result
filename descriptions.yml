@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  d70fdeedf0: |-
-    ruby 2.7.0dev (2019-10-26T06:48:11Z trunk d70fdeedf0) [x86_64-linux]
-    last_commit=Make `(#methodname)` a link
-  d70fdeedf0 --jit: |-
-    ruby 2.7.0dev (2019-10-26T06:48:11Z trunk d70fdeedf0) +JIT [x86_64-linux]
-    last_commit=Make `(#methodname)` a link
-  ad9c713728: |-
-    ruby 2.7.0dev (2019-10-26T07:27:23Z trunk ad9c713728) [x86_64-linux]
-    last_commit=Make `(#methodname)` a link with --hyperlink-all option
-  ad9c713728 --jit: |-
-    ruby 2.7.0dev (2019-10-26T07:27:23Z trunk ad9c713728) +JIT [x86_64-linux]
-    last_commit=Make `(#methodname)` a link with --hyperlink-all option
   f6f1377a4e: |-
     ruby 2.7.0dev (2019-10-26T17:24:20Z trunk f6f1377a4e) [x86_64-linux]
     last_commit=Update ERB docs
@@ -13073,3 +13061,7 @@ commits:
   05a756b332 --jit: ruby 3.0.0dev (2020-12-24T00:32:54Z master 05a756b332) +JIT [x86_64-linux]
   f755926ddd: ruby 3.0.0dev (2020-12-24T01:15:15Z master f755926ddd) [x86_64-linux]
   f755926ddd --jit: ruby 3.0.0dev (2020-12-24T01:15:15Z master f755926ddd) +JIT [x86_64-linux]
+  6ed6b85ece: ruby 3.0.0dev (2020-12-24T02:43:21Z master 6ed6b85ece) [x86_64-linux]
+  6ed6b85ece --jit: ruby 3.0.0dev (2020-12-24T02:43:21Z master 6ed6b85ece) +JIT [x86_64-linux]
+  66719d7dc8: ruby 3.0.0dev (2020-12-24T02:43:21Z master 66719d7dc8) [x86_64-linux]
+  66719d7dc8 --jit: ruby 3.0.0dev (2020-12-24T02:43:21Z master 66719d7dc8) +JIT [x86_64-linux]
