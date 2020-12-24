@@ -11,18 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  7bf51ced55: |-
-    ruby 2.7.0dev (2019-10-29T05:40:26Z trunk 7bf51ced55) [x86_64-linux]
-    last_commit=test/rubygems/test_gem.rb: early failure when there is /tmp/Gemfile
-  7bf51ced55 --jit: |-
-    ruby 2.7.0dev (2019-10-29T05:40:26Z trunk 7bf51ced55) +JIT [x86_64-linux]
-    last_commit=test/rubygems/test_gem.rb: early failure when there is /tmp/Gemfile
-  9195ed18ca: |-
-    ruby 2.7.0dev (2019-10-29T07:05:39Z trunk 9195ed18ca) [x86_64-linux]
-    last_commit=Revert "Check for nonnull attribute in configure"
-  9195ed18ca --jit: |-
-    ruby 2.7.0dev (2019-10-29T07:05:39Z trunk 9195ed18ca) +JIT [x86_64-linux]
-    last_commit=Revert "Check for nonnull attribute in configure"
   ad4da86669: |-
     ruby 2.7.0dev (2019-10-29T07:38:15Z trunk ad4da86669) [x86_64-linux]
     last_commit=Check for nonnull attribute in configure
@@ -12889,3 +12877,7 @@ commits:
   523b520b44 --jit: ruby 3.0.0dev (2020-12-24T16:29:18Z master 523b520b44) +JIT [x86_64-linux]
   9b091084a1: ruby 3.0.0dev (2020-12-24T16:44:54Z master 9b091084a1) [x86_64-linux]
   9b091084a1 --jit: ruby 3.0.0dev (2020-12-24T16:44:54Z master 9b091084a1) +JIT [x86_64-linux]
+  8981a63f12: ruby 3.0.0dev (2020-12-24T16:59:07Z master 8981a63f12) [x86_64-linux]
+  8981a63f12 --jit: ruby 3.0.0dev (2020-12-24T16:59:07Z master 8981a63f12) +JIT [x86_64-linux]
+  db2ebbd71b: ruby 3.0.0dev (2020-12-24T17:08:12Z master db2ebbd71b) [x86_64-linux]
+  db2ebbd71b --jit: ruby 3.0.0dev (2020-12-24T17:08:12Z master db2ebbd71b) +JIT [x86_64-linux]
