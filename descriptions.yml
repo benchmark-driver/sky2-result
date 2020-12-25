@@ -10,25 +10,9 @@ releases:
   2.6.5 --jit: ruby 2.6.5p114 (2019-10-01 revision 67812) +JIT [x86_64-linux]
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
+  3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
+  3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  4c7f789e94: |-
-    ruby 2.7.0dev (2019-10-30T15:37:53Z trunk 4c7f789e94) [x86_64-linux]
-    last_commit=Allow only one argument for keyword_init struct
-  4c7f789e94 --jit: |-
-    ruby 2.7.0dev (2019-10-30T15:37:53Z trunk 4c7f789e94) +JIT [x86_64-linux]
-    last_commit=Allow only one argument for keyword_init struct
-  5f8795a07b: |-
-    ruby 2.7.0dev (2019-10-30T15:38:16Z trunk 5f8795a07b) [x86_64-linux]
-    last_commit=* 2019-10-31 [ci skip]
-  5f8795a07b --jit: |-
-    ruby 2.7.0dev (2019-10-30T15:38:16Z trunk 5f8795a07b) +JIT [x86_64-linux]
-    last_commit=* 2019-10-31 [ci skip]
-  1c03026ea3: |-
-    ruby 2.7.0dev (2019-10-30T23:39:48Z trunk 1c03026ea3) [x86_64-linux]
-    last_commit=Try to run assert_output_unchanged with racc tests
-  1c03026ea3 --jit: |-
-    ruby 2.7.0dev (2019-10-30T23:39:48Z trunk 1c03026ea3) +JIT [x86_64-linux]
-    last_commit=Try to run assert_output_unchanged with racc tests
   8540efd342: |-
     ruby 2.7.0dev (2019-10-30T23:39:48Z trunk 8540efd342) [x86_64-linux]
     last_commit=Ignore test_racc_command with linux platform
@@ -12849,3 +12833,10 @@ commits:
   78677f105d --jit: ruby 3.0.0dev (2020-12-25T03:06:46Z master 78677f105d) +JIT [x86_64-linux]
   6a0bbc55b6: ruby 3.0.0dev (2020-12-25T03:32:13Z master 6a0bbc55b6) [x86_64-linux]
   6a0bbc55b6 --jit: ruby 3.0.0dev (2020-12-25T03:32:13Z master 6a0bbc55b6) +JIT [x86_64-linux]
+  '09216f63ba': ruby 3.0.0dev (2020-12-25T06:22:37Z master 09216f63ba) [x86_64-linux]
+  '09216f63ba --jit': ruby 3.0.0dev (2020-12-25T06:22:37Z master 09216f63ba) +JIT
+    [x86_64-linux]
+  67fe290bb3: ruby 3.0.0dev (2020-12-25T06:28:48Z master 67fe290bb3) [x86_64-linux]
+  67fe290bb3 --jit: ruby 3.0.0dev (2020-12-25T06:28:48Z master 67fe290bb3) +JIT [x86_64-linux]
+  caae14d90b: ruby 3.0.0dev (2020-12-25T06:57:41Z master caae14d90b) [x86_64-linux]
+  caae14d90b --jit: ruby 3.0.0dev (2020-12-25T06:57:41Z master caae14d90b) +JIT [x86_64-linux]
