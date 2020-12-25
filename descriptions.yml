@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  22dbbbeb32: |-
-    ruby 2.7.0dev (2019-10-29T15:13:38Z trunk 22dbbbeb32) [x86_64-linux]
-    last_commit=Compacting the heap can cause GC, so disable it
-  22dbbbeb32 --jit: |-
-    ruby 2.7.0dev (2019-10-29T15:13:38Z trunk 22dbbbeb32) +JIT [x86_64-linux]
-    last_commit=Compacting the heap can cause GC, so disable it
   92c13380e8: |-
     ruby 2.7.0dev (2019-10-29T15:14:03Z trunk 92c13380e8) [x86_64-linux]
     last_commit=* 2019-10-30 [ci skip]
@@ -12873,3 +12867,5 @@ commits:
   c3f91f9d88 --jit: ruby 3.0.0dev (2020-12-24T22:09:51Z master c3f91f9d88) +JIT [x86_64-linux]
   93a1ef6709: ruby 3.0.0dev (2020-12-24T22:20:04Z master 93a1ef6709) [x86_64-linux]
   93a1ef6709 --jit: ruby 3.0.0dev (2020-12-24T22:20:04Z master 93a1ef6709) +JIT [x86_64-linux]
+  45f3d48106: ruby 3.0.0dev (2020-12-25T00:52:18Z master 45f3d48106) [x86_64-linux]
+  45f3d48106 --jit: ruby 3.0.0dev (2020-12-25T00:52:18Z master 45f3d48106) +JIT [x86_64-linux]
