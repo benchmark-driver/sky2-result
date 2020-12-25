@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  c38ba75780: |-
-    ruby 2.7.0dev (2019-10-31T01:19:57Z trunk c38ba75780) [x86_64-linux]
-    last_commit=Fixed the sync task for json
-  c38ba75780 --jit: |-
-    ruby 2.7.0dev (2019-10-31T01:19:57Z trunk c38ba75780) +JIT [x86_64-linux]
-    last_commit=Fixed the sync task for json
   bc7fbb6f02: |-
     ruby 2.7.0dev (2019-10-31T06:19:59Z trunk bc7fbb6f02) [x86_64-linux]
     last_commit=Mention update to Unicode Emoji version 12.1 in NEWS.
@@ -12824,3 +12818,5 @@ commits:
   ddacff2b41 --jit: ruby 3.1.0dev (2020-12-25T08:43:23Z master ddacff2b41) +JIT [x86_64-linux]
   7a4b8d8700: ruby 3.1.0dev (2020-12-25T11:11:01Z master 7a4b8d8700) [x86_64-linux]
   7a4b8d8700 --jit: ruby 3.1.0dev (2020-12-25T11:11:01Z master 7a4b8d8700) +JIT [x86_64-linux]
+  a01d28fed7: ruby 3.1.0dev (2020-12-25T12:58:50Z master a01d28fed7) [x86_64-linux]
+  a01d28fed7 --jit: ruby 3.1.0dev (2020-12-25T12:58:50Z master a01d28fed7) +JIT [x86_64-linux]
