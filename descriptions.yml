@@ -13,18 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  bc7fbb6f02: |-
-    ruby 2.7.0dev (2019-10-31T06:19:59Z trunk bc7fbb6f02) [x86_64-linux]
-    last_commit=Mention update to Unicode Emoji version 12.1 in NEWS.
-  bc7fbb6f02 --jit: |-
-    ruby 2.7.0dev (2019-10-31T06:19:59Z trunk bc7fbb6f02) +JIT [x86_64-linux]
-    last_commit=Mention update to Unicode Emoji version 12.1 in NEWS.
-  290903dba0: |-
-    ruby 2.7.0dev (2019-10-31T06:34:01Z trunk 290903dba0) [x86_64-linux]
-    last_commit=[ruby/zlib] Remove taint support
-  290903dba0 --jit: |-
-    ruby 2.7.0dev (2019-10-31T06:34:01Z trunk 290903dba0) +JIT [x86_64-linux]
-    last_commit=[ruby/zlib] Remove taint support
   b93ab7d693: |-
     ruby 2.7.0dev (2019-10-31T06:34:01Z trunk b93ab7d693) [x86_64-linux]
     last_commit=[ruby/gdbm] Remove taint support
@@ -12820,3 +12808,7 @@ commits:
   7a4b8d8700 --jit: ruby 3.1.0dev (2020-12-25T11:11:01Z master 7a4b8d8700) +JIT [x86_64-linux]
   a01d28fed7: ruby 3.1.0dev (2020-12-25T12:58:50Z master a01d28fed7) [x86_64-linux]
   a01d28fed7 --jit: ruby 3.1.0dev (2020-12-25T12:58:50Z master a01d28fed7) +JIT [x86_64-linux]
+  aaf0474e76: ruby 3.1.0dev (2020-12-25T13:09:22Z master aaf0474e76) [x86_64-linux]
+  aaf0474e76 --jit: ruby 3.1.0dev (2020-12-25T13:09:22Z master aaf0474e76) +JIT [x86_64-linux]
+  255ee4de8c: ruby 3.1.0dev (2020-12-25T13:10:09Z master 255ee4de8c) [x86_64-linux]
+  255ee4de8c --jit: ruby 3.1.0dev (2020-12-25T13:10:09Z master 255ee4de8c) +JIT [x86_64-linux]
