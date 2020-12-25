@@ -11,12 +11,6 @@ releases:
   2.7.0: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
   2.7.0 --jit: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) +JIT [x86_64-linux]
 commits:
-  d3272fcba3: |-
-    ruby 2.7.0dev (2019-10-30T12:00:01Z trunk d3272fcba3) [x86_64-linux]
-    last_commit=Update the latest structure for racc upstream
-  d3272fcba3 --jit: |-
-    ruby 2.7.0dev (2019-10-30T12:00:01Z trunk d3272fcba3) +JIT [x86_64-linux]
-    last_commit=Update the latest structure for racc upstream
   e6d611ad37: |-
     ruby 2.7.0dev (2019-10-30T12:02:07Z trunk e6d611ad37) [x86_64-linux]
     last_commit=Regenerate the output results for test fixtures of racc
@@ -12861,3 +12855,5 @@ commits:
   1ba77ff8aa --jit: ruby 3.0.0dev (2020-12-25T01:22:45Z master 1ba77ff8aa) +JIT [x86_64-linux]
   888cf28a7e: ruby 3.0.0dev (2020-12-25T02:20:23Z master 888cf28a7e) [x86_64-linux]
   888cf28a7e --jit: ruby 3.0.0dev (2020-12-25T02:20:23Z master 888cf28a7e) +JIT [x86_64-linux]
+  1f18f5c61e: ruby 3.0.0dev (2020-12-25T02:32:19Z master 1f18f5c61e) [x86_64-linux]
+  1f18f5c61e --jit: ruby 3.0.0dev (2020-12-25T02:32:19Z master 1f18f5c61e) +JIT [x86_64-linux]
