@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  b93ab7d693: |-
-    ruby 2.7.0dev (2019-10-31T06:34:01Z trunk b93ab7d693) [x86_64-linux]
-    last_commit=[ruby/gdbm] Remove taint support
-  b93ab7d693 --jit: |-
-    ruby 2.7.0dev (2019-10-31T06:34:01Z trunk b93ab7d693) +JIT [x86_64-linux]
-    last_commit=[ruby/gdbm] Remove taint support
   39281d5774: |-
     ruby 2.7.0dev (2019-10-31T06:34:01Z trunk 39281d5774) [x86_64-linux]
     last_commit=[ruby/gdbm] Use Gemfile instead of Gem::Specification#add_development_dependency.
@@ -12812,3 +12806,5 @@ commits:
   aaf0474e76 --jit: ruby 3.1.0dev (2020-12-25T13:09:22Z master aaf0474e76) +JIT [x86_64-linux]
   255ee4de8c: ruby 3.1.0dev (2020-12-25T13:10:09Z master 255ee4de8c) [x86_64-linux]
   255ee4de8c --jit: ruby 3.1.0dev (2020-12-25T13:10:09Z master 255ee4de8c) +JIT [x86_64-linux]
+  92f9f998fb: ruby 3.1.0dev (2020-12-25T13:23:53Z master 92f9f998fb) [x86_64-linux]
+  92f9f998fb --jit: ruby 3.1.0dev (2020-12-25T13:23:53Z master 92f9f998fb) +JIT [x86_64-linux]
