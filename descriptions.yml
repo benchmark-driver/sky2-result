@@ -13,18 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  fce940aac7: |-
-    ruby 2.7.0dev (2019-10-31T06:51:25Z trunk fce940aac7) [x86_64-linux]
-    last_commit=[ruby/date] introduce Date::Error, raise Date::Error for every "invalid <anything>" type of exception
-  fce940aac7 --jit: |-
-    ruby 2.7.0dev (2019-10-31T06:51:25Z trunk fce940aac7) +JIT [x86_64-linux]
-    last_commit=[ruby/date] introduce Date::Error, raise Date::Error for every "invalid <anything>" type of exception
-  3895e548bd: |-
-    ruby 2.7.0dev (2019-10-31T06:51:30Z trunk 3895e548bd) [x86_64-linux]
-    last_commit=[ruby/date] Revert "Simplify #inspect"
-  3895e548bd --jit: |-
-    ruby 2.7.0dev (2019-10-31T06:51:30Z trunk 3895e548bd) +JIT [x86_64-linux]
-    last_commit=[ruby/date] Revert "Simplify #inspect"
   ebc884461b: |-
     ruby 2.7.0dev (2019-10-31T07:24:02Z trunk ebc884461b) [x86_64-linux]
     last_commit=[ruby/stringio] Remove taint support
@@ -12800,3 +12788,7 @@ commits:
   6083fed366 --jit: ruby 3.1.0dev (2020-12-25T16:40:51Z master 6083fed366) +JIT [x86_64-linux]
   d4ba88bcd8: ruby 3.1.0dev (2020-12-25T16:41:13Z master d4ba88bcd8) [x86_64-linux]
   d4ba88bcd8 --jit: ruby 3.1.0dev (2020-12-25T16:41:13Z master d4ba88bcd8) +JIT [x86_64-linux]
+  73cd4951de: ruby 3.1.0dev (2020-12-26T00:39:53Z master 73cd4951de) [x86_64-linux]
+  73cd4951de --jit: ruby 3.1.0dev (2020-12-26T00:39:53Z master 73cd4951de) +JIT [x86_64-linux]
+  292230cbf9: ruby 3.1.0dev (2020-12-26T00:39:53Z master 292230cbf9) [x86_64-linux]
+  292230cbf9 --jit: ruby 3.1.0dev (2020-12-26T00:39:53Z master 292230cbf9) +JIT [x86_64-linux]
