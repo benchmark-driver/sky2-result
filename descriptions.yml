@@ -13,30 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  f5e4063272: |-
-    ruby 2.7.0dev (2019-11-01T07:58:19Z trunk f5e4063272) [x86_64-linux]
-    last_commit=ruby_mimmalloc can return NULL
-  f5e4063272 --jit: |-
-    ruby 2.7.0dev (2019-11-01T07:58:19Z trunk f5e4063272) +JIT [x86_64-linux]
-    last_commit=ruby_mimmalloc can return NULL
-  72f997edf6: |-
-    ruby 2.7.0dev (2019-11-01T07:58:19Z trunk 72f997edf6) [x86_64-linux]
-    last_commit=mark functions that do not return NULL as such.
-  72f997edf6 --jit: |-
-    ruby 2.7.0dev (2019-11-01T07:58:19Z trunk 72f997edf6) +JIT [x86_64-linux]
-    last_commit=mark functions that do not return NULL as such.
-  51825c04db: |-
-    ruby 2.7.0dev (2019-11-01T07:59:02Z trunk 51825c04db) [x86_64-linux]
-    last_commit=* 2019-11-01 [ci skip]
-  51825c04db --jit: |-
-    ruby 2.7.0dev (2019-11-01T07:59:02Z trunk 51825c04db) +JIT [x86_64-linux]
-    last_commit=* 2019-11-01 [ci skip]
-  469545307f: |-
-    ruby 2.7.0dev (2019-11-01T08:30:14Z trunk 469545307f) [x86_64-linux]
-    last_commit=[ruby/date] Add more timezone abbreviations
-  469545307f --jit: |-
-    ruby 2.7.0dev (2019-11-01T08:30:14Z trunk 469545307f) +JIT [x86_64-linux]
-    last_commit=[ruby/date] Add more timezone abbreviations
   b2126d3fcf: |-
     ruby 2.7.0dev (2019-11-01T08:30:16Z trunk b2126d3fcf) [x86_64-linux]
     last_commit=[ruby/date] Remove unneeded line in update-abbr
@@ -12760,3 +12736,11 @@ commits:
   ce65a7687f --jit: ruby 3.1.0dev (2020-12-26T09:40:47Z master ce65a7687f) +JIT [x86_64-linux]
   3fc53de5c9: ruby 3.1.0dev (2020-12-26T09:40:52Z master 3fc53de5c9) [x86_64-linux]
   3fc53de5c9 --jit: ruby 3.1.0dev (2020-12-26T09:40:52Z master 3fc53de5c9) +JIT [x86_64-linux]
+  114840b0fe: ruby 3.1.0dev (2020-12-26T21:49:23Z master 114840b0fe) [x86_64-linux]
+  114840b0fe --jit: ruby 3.1.0dev (2020-12-26T21:49:23Z master 114840b0fe) +JIT [x86_64-linux]
+  0a867315e8: ruby 3.1.0dev (2020-12-26T21:50:55Z master 0a867315e8) [x86_64-linux]
+  0a867315e8 --jit: ruby 3.1.0dev (2020-12-26T21:50:55Z master 0a867315e8) +JIT [x86_64-linux]
+  ab6adf2772: ruby 3.1.0dev (2020-12-26T21:51:48Z master ab6adf2772) [x86_64-linux]
+  ab6adf2772 --jit: ruby 3.1.0dev (2020-12-26T21:51:48Z master ab6adf2772) +JIT [x86_64-linux]
+  7459fcb3eb: ruby 3.1.0dev (2020-12-26T22:02:53Z master 7459fcb3eb) [x86_64-linux]
+  7459fcb3eb --jit: ruby 3.1.0dev (2020-12-26T22:02:53Z master 7459fcb3eb) +JIT [x86_64-linux]
