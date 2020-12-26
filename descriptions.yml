@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  ebc884461b: |-
-    ruby 2.7.0dev (2019-10-31T07:24:02Z trunk ebc884461b) [x86_64-linux]
-    last_commit=[ruby/stringio] Remove taint support
-  ebc884461b --jit: |-
-    ruby 2.7.0dev (2019-10-31T07:24:02Z trunk ebc884461b) +JIT [x86_64-linux]
-    last_commit=[ruby/stringio] Remove taint support
   473882e01f: |-
     ruby 2.7.0dev (2019-10-31T07:50:00Z trunk 473882e01f) [x86_64-linux]
     last_commit=Skip tainted examples for stringio
@@ -12792,3 +12786,5 @@ commits:
   73cd4951de --jit: ruby 3.1.0dev (2020-12-26T00:39:53Z master 73cd4951de) +JIT [x86_64-linux]
   292230cbf9: ruby 3.1.0dev (2020-12-26T00:39:53Z master 292230cbf9) [x86_64-linux]
   292230cbf9 --jit: ruby 3.1.0dev (2020-12-26T00:39:53Z master 292230cbf9) +JIT [x86_64-linux]
+  dc13bd22bb: ruby 3.1.0dev (2020-12-26T00:45:06Z master dc13bd22bb) [x86_64-linux]
+  dc13bd22bb --jit: ruby 3.1.0dev (2020-12-26T00:45:06Z master dc13bd22bb) +JIT [x86_64-linux]
