@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  473882e01f: |-
-    ruby 2.7.0dev (2019-10-31T07:50:00Z trunk 473882e01f) [x86_64-linux]
-    last_commit=Skip tainted examples for stringio
-  473882e01f --jit: |-
-    ruby 2.7.0dev (2019-10-31T07:50:00Z trunk 473882e01f) +JIT [x86_64-linux]
-    last_commit=Skip tainted examples for stringio
   5f6fbf8725: |-
     ruby 2.7.0dev (2019-10-31T08:11:23Z trunk 5f6fbf8725) [x86_64-linux]
     last_commit=spec: Fix syntax errors
@@ -12788,3 +12782,5 @@ commits:
   292230cbf9 --jit: ruby 3.1.0dev (2020-12-26T00:39:53Z master 292230cbf9) +JIT [x86_64-linux]
   dc13bd22bb: ruby 3.1.0dev (2020-12-26T00:45:06Z master dc13bd22bb) [x86_64-linux]
   dc13bd22bb --jit: ruby 3.1.0dev (2020-12-26T00:45:06Z master dc13bd22bb) +JIT [x86_64-linux]
+  15e192070a: ruby 3.1.0dev (2020-12-26T03:17:16Z master 15e192070a) [x86_64-linux]
+  15e192070a --jit: ruby 3.1.0dev (2020-12-26T03:17:16Z master 15e192070a) +JIT [x86_64-linux]
