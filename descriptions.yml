@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  fbacfe6820: |-
-    ruby 2.7.0dev (2019-11-03T10:14:31Z trunk fbacfe6820) [x86_64-linux]
-    last_commit=Update NEWS entry for Feature #13083
-  fbacfe6820 --jit: |-
-    ruby 2.7.0dev (2019-11-03T10:14:31Z trunk fbacfe6820) +JIT [x86_64-linux]
-    last_commit=Update NEWS entry for Feature #13083
   782d1b8fb0: |-
     ruby 2.7.0dev (2019-11-03T10:25:42Z trunk 782d1b8fb0) [x86_64-linux]
     last_commit=Fix warnings in Regexp#{match,match?} specs
@@ -12689,3 +12683,5 @@ commits:
   730b0099fd --jit: ruby 3.1.0dev (2020-12-27T10:35:27Z master 730b0099fd) +JIT [x86_64-linux]
   f6a080047e: ruby 3.1.0dev (2020-12-27T11:50:15Z master f6a080047e) [x86_64-linux]
   f6a080047e --jit: ruby 3.1.0dev (2020-12-27T11:50:15Z master f6a080047e) +JIT [x86_64-linux]
+  a042043487: ruby 3.1.0dev (2020-12-27T14:33:56Z master a042043487) [x86_64-linux]
+  a042043487 --jit: ruby 3.1.0dev (2020-12-27T14:33:56Z master a042043487) +JIT [x86_64-linux]
