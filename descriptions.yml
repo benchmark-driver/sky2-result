@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  df62d6522a: |-
-    ruby 2.7.0dev (2019-11-04T00:14:18Z trunk df62d6522a) [x86_64-linux]
-    last_commit=Use the dedicated function `rb_io_check_io`
-  df62d6522a --jit: |-
-    ruby 2.7.0dev (2019-11-04T00:14:18Z trunk df62d6522a) +JIT [x86_64-linux]
-    last_commit=Use the dedicated function `rb_io_check_io`
   046be65c08: |-
     ruby 2.7.0dev (2019-11-04T00:18:29Z trunk 046be65c08) [x86_64-linux]
     last_commit=* 2019-11-04 [ci skip]
@@ -12669,3 +12663,5 @@ commits:
   cc055d4d3f --jit: ruby 3.1.0dev (2020-12-27T16:39:14Z master cc055d4d3f) +JIT [x86_64-linux]
   c8010fcec0: ruby 3.1.0dev (2020-12-27T16:52:18Z master c8010fcec0) [x86_64-linux]
   c8010fcec0 --jit: ruby 3.1.0dev (2020-12-27T16:52:18Z master c8010fcec0) +JIT [x86_64-linux]
+  cf1f9bdc8d: ruby 3.1.0dev (2020-12-27T21:09:06Z master cf1f9bdc8d) [x86_64-linux]
+  cf1f9bdc8d --jit: ruby 3.1.0dev (2020-12-27T21:09:06Z master cf1f9bdc8d) +JIT [x86_64-linux]
