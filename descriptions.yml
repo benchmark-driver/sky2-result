@@ -13,24 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  b2126d3fcf: |-
-    ruby 2.7.0dev (2019-11-01T08:30:16Z trunk b2126d3fcf) [x86_64-linux]
-    last_commit=[ruby/date] Remove unneeded line in update-abbr
-  b2126d3fcf --jit: |-
-    ruby 2.7.0dev (2019-11-01T08:30:16Z trunk b2126d3fcf) +JIT [x86_64-linux]
-    last_commit=[ruby/date] Remove unneeded line in update-abbr
-  6abf4c4802: |-
-    ruby 2.7.0dev (2019-11-01T08:30:17Z trunk 6abf4c4802) [x86_64-linux]
-    last_commit=[ruby/date] Added update-zonetab target
-  6abf4c4802 --jit: |-
-    ruby 2.7.0dev (2019-11-01T08:30:17Z trunk 6abf4c4802) +JIT [x86_64-linux]
-    last_commit=[ruby/date] Added update-zonetab target
-  cc8116b03e: |-
-    ruby 2.7.0dev (2019-11-01T09:33:58Z trunk cc8116b03e) [x86_64-linux]
-    last_commit=Fix a typo [ci skip]
-  cc8116b03e --jit: |-
-    ruby 2.7.0dev (2019-11-01T09:33:58Z trunk cc8116b03e) +JIT [x86_64-linux]
-    last_commit=Fix a typo [ci skip]
   c56d8deaff: |-
     ruby 2.7.0dev (2019-11-01T09:37:57Z trunk c56d8deaff) [x86_64-linux]
     last_commit=Mention correct class name in uninitialized error
@@ -12744,3 +12726,9 @@ commits:
   ab6adf2772 --jit: ruby 3.1.0dev (2020-12-26T21:51:48Z master ab6adf2772) +JIT [x86_64-linux]
   7459fcb3eb: ruby 3.1.0dev (2020-12-26T22:02:53Z master 7459fcb3eb) [x86_64-linux]
   7459fcb3eb --jit: ruby 3.1.0dev (2020-12-26T22:02:53Z master 7459fcb3eb) +JIT [x86_64-linux]
+  cd2c726bc0: ruby 3.1.0dev (2020-12-27T06:26:24Z master cd2c726bc0) [x86_64-linux]
+  cd2c726bc0 --jit: ruby 3.1.0dev (2020-12-27T06:26:24Z master cd2c726bc0) +JIT [x86_64-linux]
+  677ccb927c: ruby 3.1.0dev (2020-12-27T06:27:03Z master 677ccb927c) [x86_64-linux]
+  677ccb927c --jit: ruby 3.1.0dev (2020-12-27T06:27:03Z master 677ccb927c) +JIT [x86_64-linux]
+  441cd156e0: ruby 3.1.0dev (2020-12-27T06:27:46Z master 441cd156e0) [x86_64-linux]
+  441cd156e0 --jit: ruby 3.1.0dev (2020-12-27T06:27:46Z master 441cd156e0) +JIT [x86_64-linux]
