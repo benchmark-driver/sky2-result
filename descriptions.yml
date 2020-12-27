@@ -13,54 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  c56d8deaff: |-
-    ruby 2.7.0dev (2019-11-01T09:37:57Z trunk c56d8deaff) [x86_64-linux]
-    last_commit=Mention correct class name in uninitialized error
-  c56d8deaff --jit: |-
-    ruby 2.7.0dev (2019-11-01T09:37:57Z trunk c56d8deaff) +JIT [x86_64-linux]
-    last_commit=Mention correct class name in uninitialized error
-  b800410387: |-
-    ruby 2.7.0dev (2019-11-01T09:39:59Z trunk b800410387) [x86_64-linux]
-    last_commit=Support libsocksd socks library for SOCKSSocket
-  b800410387 --jit: |-
-    ruby 2.7.0dev (2019-11-01T09:39:59Z trunk b800410387) +JIT [x86_64-linux]
-    last_commit=Support libsocksd socks library for SOCKSSocket
-  68e0bfcd4a: |-
-    ruby 2.7.0dev (2019-11-01T09:39:59Z trunk 68e0bfcd4a) [x86_64-linux]
-    last_commit=Prefer libsocksd over libsocks
-  68e0bfcd4a --jit: |-
-    ruby 2.7.0dev (2019-11-01T09:39:59Z trunk 68e0bfcd4a) +JIT [x86_64-linux]
-    last_commit=Prefer libsocksd over libsocks
-  10c2a08548: |-
-    ruby 2.7.0dev (2019-11-01T09:40:24Z trunk 10c2a08548) [x86_64-linux]
-    last_commit=Clean up implementation of SOCKSSocket, its confusing and undocumented
-  10c2a08548 --jit: |-
-    ruby 2.7.0dev (2019-11-01T09:40:24Z trunk 10c2a08548) +JIT [x86_64-linux]
-    last_commit=Clean up implementation of SOCKSSocket, its confusing and undocumented
-  ea97933645: |-
-    ruby 2.7.0dev (2019-11-01T15:11:15Z trunk ea97933645) [x86_64-linux]
-    last_commit=Use prompt_list to calculate height by lines
-  ea97933645 --jit: |-
-    ruby 2.7.0dev (2019-11-01T15:11:15Z trunk ea97933645) +JIT [x86_64-linux]
-    last_commit=Use prompt_list to calculate height by lines
-  e6f0fd8af4: |-
-    ruby 2.7.0dev (2019-11-01T15:15:05Z trunk e6f0fd8af4) [x86_64-linux]
-    last_commit=* 2019-11-02 [ci skip]
-  e6f0fd8af4 --jit: |-
-    ruby 2.7.0dev (2019-11-01T15:15:05Z trunk e6f0fd8af4) +JIT [x86_64-linux]
-    last_commit=* 2019-11-02 [ci skip]
-  772b0613c5: |-
-    ruby 2.7.0dev (2019-11-02T06:32:49Z trunk 772b0613c5) [x86_64-linux]
-    last_commit=Correct documented return values for certain ENV methods (#2620)
-  772b0613c5 --jit: |-
-    ruby 2.7.0dev (2019-11-02T06:32:49Z trunk 772b0613c5) +JIT [x86_64-linux]
-    last_commit=Correct documented return values for certain ENV methods (#2620)
-  452bee3ee8: |-
-    ruby 2.7.0dev (2019-11-03T10:03:04Z trunk 452bee3ee8) [x86_64-linux]
-    last_commit=Revert nil error and adding deprecation message
-  452bee3ee8 --jit: |-
-    ruby 2.7.0dev (2019-11-03T10:03:04Z trunk 452bee3ee8) +JIT [x86_64-linux]
-    last_commit=Revert nil error and adding deprecation message
   31110d820c: |-
     ruby 2.7.0dev (2019-11-03T10:03:04Z trunk 31110d820c) [x86_64-linux]
     last_commit=Improve warning message
@@ -12732,3 +12684,20 @@ commits:
   677ccb927c --jit: ruby 3.1.0dev (2020-12-27T06:27:03Z master 677ccb927c) +JIT [x86_64-linux]
   441cd156e0: ruby 3.1.0dev (2020-12-27T06:27:46Z master 441cd156e0) [x86_64-linux]
   441cd156e0 --jit: ruby 3.1.0dev (2020-12-27T06:27:46Z master 441cd156e0) +JIT [x86_64-linux]
+  b73d256f34: ruby 3.1.0dev (2020-12-27T06:50:02Z master b73d256f34) [x86_64-linux]
+  b73d256f34 --jit: ruby 3.1.0dev (2020-12-27T06:50:02Z master b73d256f34) +JIT [x86_64-linux]
+  46ab4fcf2a: ruby 3.1.0dev (2020-12-27T06:50:02Z master 46ab4fcf2a) [x86_64-linux]
+  46ab4fcf2a --jit: ruby 3.1.0dev (2020-12-27T06:50:02Z master 46ab4fcf2a) +JIT [x86_64-linux]
+  d55d0331c7: ruby 3.1.0dev (2020-12-27T06:50:02Z master d55d0331c7) [x86_64-linux]
+  d55d0331c7 --jit: ruby 3.1.0dev (2020-12-27T06:50:02Z master d55d0331c7) +JIT [x86_64-linux]
+  '0957814c27': ruby 3.1.0dev (2020-12-27T06:50:43Z master 0957814c27) [x86_64-linux]
+  '0957814c27 --jit': ruby 3.1.0dev (2020-12-27T06:50:43Z master 0957814c27) +JIT
+    [x86_64-linux]
+  366b58d7ca: ruby 3.1.0dev (2020-12-27T06:50:44Z master 366b58d7ca) [x86_64-linux]
+  366b58d7ca --jit: ruby 3.1.0dev (2020-12-27T06:50:44Z master 366b58d7ca) +JIT [x86_64-linux]
+  260d626ef6: ruby 3.1.0dev (2020-12-27T06:50:44Z master 260d626ef6) [x86_64-linux]
+  260d626ef6 --jit: ruby 3.1.0dev (2020-12-27T06:50:44Z master 260d626ef6) +JIT [x86_64-linux]
+  90dd482061: ruby 3.1.0dev (2020-12-27T07:49:27Z master 90dd482061) [x86_64-linux]
+  90dd482061 --jit: ruby 3.1.0dev (2020-12-27T07:49:27Z master 90dd482061) +JIT [x86_64-linux]
+  ecfbd97292: ruby 3.1.0dev (2020-12-27T07:50:10Z master ecfbd97292) [x86_64-linux]
+  ecfbd97292 --jit: ruby 3.1.0dev (2020-12-27T07:50:10Z master ecfbd97292) +JIT [x86_64-linux]
