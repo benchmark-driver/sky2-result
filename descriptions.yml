@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  985e6ced99: |-
-    ruby 2.7.0dev (2019-11-03T10:03:24Z trunk 985e6ced99) [x86_64-linux]
-    last_commit=* 2019-11-03 [ci skip]
-  985e6ced99 --jit: |-
-    ruby 2.7.0dev (2019-11-03T10:03:24Z trunk 985e6ced99) +JIT [x86_64-linux]
-    last_commit=* 2019-11-03 [ci skip]
   4a16623707: |-
     ruby 2.7.0dev (2019-11-03T10:14:31Z trunk 4a16623707) [x86_64-linux]
     last_commit=Remove incorrect NEWS entry, only Regexp#match and #match? changed
@@ -12697,3 +12691,5 @@ commits:
   ecfbd97292 --jit: ruby 3.1.0dev (2020-12-27T07:50:10Z master ecfbd97292) +JIT [x86_64-linux]
   0a2e4a8f0c: ruby 3.1.0dev (2020-12-27T10:19:31Z master 0a2e4a8f0c) [x86_64-linux]
   0a2e4a8f0c --jit: ruby 3.1.0dev (2020-12-27T10:19:31Z master 0a2e4a8f0c) +JIT [x86_64-linux]
+  730b0099fd: ruby 3.1.0dev (2020-12-27T10:35:27Z master 730b0099fd) [x86_64-linux]
+  730b0099fd --jit: ruby 3.1.0dev (2020-12-27T10:35:27Z master 730b0099fd) +JIT [x86_64-linux]
