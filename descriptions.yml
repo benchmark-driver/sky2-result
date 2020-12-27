@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  5a7487bdcd: |-
-    ruby 2.7.0dev (2019-11-03T14:20:01Z trunk 5a7487bdcd) [x86_64-linux]
-    last_commit=Added assertions for linebreak
-  5a7487bdcd --jit: |-
-    ruby 2.7.0dev (2019-11-03T14:20:01Z trunk 5a7487bdcd) +JIT [x86_64-linux]
-    last_commit=Added assertions for linebreak
   df62d6522a: |-
     ruby 2.7.0dev (2019-11-04T00:14:18Z trunk df62d6522a) [x86_64-linux]
     last_commit=Use the dedicated function `rb_io_check_io`
@@ -12673,3 +12667,5 @@ commits:
   727c97da19 --jit: ruby 3.1.0dev (2020-12-27T16:35:32Z master 727c97da19) +JIT [x86_64-linux]
   cc055d4d3f: ruby 3.1.0dev (2020-12-27T16:39:14Z master cc055d4d3f) [x86_64-linux]
   cc055d4d3f --jit: ruby 3.1.0dev (2020-12-27T16:39:14Z master cc055d4d3f) +JIT [x86_64-linux]
+  c8010fcec0: ruby 3.1.0dev (2020-12-27T16:52:18Z master c8010fcec0) [x86_64-linux]
+  c8010fcec0 --jit: ruby 3.1.0dev (2020-12-27T16:52:18Z master c8010fcec0) +JIT [x86_64-linux]
