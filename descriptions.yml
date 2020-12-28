@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  26316cc350: |-
-    ruby 2.7.0dev (2019-11-04T14:17:34Z trunk 26316cc350) [x86_64-linux]
-    last_commit=Warn `if` and `elsif` at EOL [EXPERIMENTAL]
-  26316cc350 --jit: |-
-    ruby 2.7.0dev (2019-11-04T14:17:34Z trunk 26316cc350) +JIT [x86_64-linux]
-    last_commit=Warn `if` and `elsif` at EOL [EXPERIMENTAL]
   e91e3274be: |-
     ruby 2.7.0dev (2019-11-04T14:37:53Z trunk e91e3274be) [x86_64-linux]
     last_commit=Keep `lex.pcur` after `looking_at_eol_p`
@@ -12637,3 +12631,6 @@ commits:
   a0d1152d2e --jit: ruby 3.1.0dev (2020-12-28T09:41:02Z master a0d1152d2e) +JIT [x86_64-linux]
   2eea9156eb: ruby 3.1.0dev (2020-12-28T10:43:55Z master 2eea9156eb) [x86_64-linux]
   2eea9156eb --jit: ruby 3.1.0dev (2020-12-28T10:43:55Z master 2eea9156eb) +JIT [x86_64-linux]
+  '09aca50fc4': ruby 3.1.0dev (2020-12-28T10:52:14Z master 09aca50fc4) [x86_64-linux]
+  '09aca50fc4 --jit': ruby 3.1.0dev (2020-12-28T10:52:14Z master 09aca50fc4) +JIT
+    [x86_64-linux]
