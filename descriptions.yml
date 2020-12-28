@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  c303854e13: |-
-    ruby 2.7.0dev (2019-11-04T13:27:37Z trunk c303854e13) [x86_64-linux]
-    last_commit=Revert "Warn `if` and `elsif` at EOL [EXPERIMENTAL]"
-  c303854e13 --jit: |-
-    ruby 2.7.0dev (2019-11-04T13:27:37Z trunk c303854e13) +JIT [x86_64-linux]
-    last_commit=Revert "Warn `if` and `elsif` at EOL [EXPERIMENTAL]"
   26316cc350: |-
     ruby 2.7.0dev (2019-11-04T14:17:34Z trunk 26316cc350) [x86_64-linux]
     last_commit=Warn `if` and `elsif` at EOL [EXPERIMENTAL]
@@ -12641,3 +12635,5 @@ commits:
   e6fee2b64f --jit: ruby 3.1.0dev (2020-12-28T07:20:37Z master e6fee2b64f) +JIT [x86_64-linux]
   a0d1152d2e: ruby 3.1.0dev (2020-12-28T09:41:02Z master a0d1152d2e) [x86_64-linux]
   a0d1152d2e --jit: ruby 3.1.0dev (2020-12-28T09:41:02Z master a0d1152d2e) +JIT [x86_64-linux]
+  2eea9156eb: ruby 3.1.0dev (2020-12-28T10:43:55Z master 2eea9156eb) [x86_64-linux]
+  2eea9156eb --jit: ruby 3.1.0dev (2020-12-28T10:43:55Z master 2eea9156eb) +JIT [x86_64-linux]
