@@ -13,18 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  ffa9298076: |-
-    ruby 2.7.0dev (2019-11-04T07:38:36Z trunk ffa9298076) [x86_64-linux]
-    last_commit=Fixed a typo
-  ffa9298076 --jit: |-
-    ruby 2.7.0dev (2019-11-04T07:38:36Z trunk ffa9298076) +JIT [x86_64-linux]
-    last_commit=Fixed a typo
-  cf377c5556: |-
-    ruby 2.7.0dev (2019-11-04T08:12:18Z trunk cf377c5556) [x86_64-linux]
-    last_commit=Fix a typo [ci skip]
-  cf377c5556 --jit: |-
-    ruby 2.7.0dev (2019-11-04T08:12:18Z trunk cf377c5556) +JIT [x86_64-linux]
-    last_commit=Fix a typo [ci skip]
   ba35c14325: |-
     ruby 2.7.0dev (2019-11-04T12:39:54Z trunk ba35c14325) [x86_64-linux]
     last_commit=Warn `if` and `elsif` at EOL [EXPERIMENTAL]
@@ -12653,3 +12641,7 @@ commits:
   64d79d333b --jit: ruby 3.1.0dev (2020-12-28T03:12:54Z master 64d79d333b) +JIT [x86_64-linux]
   2556cd3f51: ruby 3.1.0dev (2020-12-28T03:44:03Z master 2556cd3f51) [x86_64-linux]
   2556cd3f51 --jit: ruby 3.1.0dev (2020-12-28T03:44:03Z master 2556cd3f51) +JIT [x86_64-linux]
+  8b387bcfba: ruby 3.1.0dev (2020-12-28T07:19:42Z master 8b387bcfba) [x86_64-linux]
+  8b387bcfba --jit: ruby 3.1.0dev (2020-12-28T07:19:42Z master 8b387bcfba) +JIT [x86_64-linux]
+  e6fee2b64f: ruby 3.1.0dev (2020-12-28T07:20:37Z master e6fee2b64f) [x86_64-linux]
+  e6fee2b64f --jit: ruby 3.1.0dev (2020-12-28T07:20:37Z master e6fee2b64f) +JIT [x86_64-linux]
