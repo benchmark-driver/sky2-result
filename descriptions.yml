@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  e91e3274be: |-
-    ruby 2.7.0dev (2019-11-04T14:37:53Z trunk e91e3274be) [x86_64-linux]
-    last_commit=Keep `lex.pcur` after `looking_at_eol_p`
-  e91e3274be --jit: |-
-    ruby 2.7.0dev (2019-11-04T14:37:53Z trunk e91e3274be) +JIT [x86_64-linux]
-    last_commit=Keep `lex.pcur` after `looking_at_eol_p`
   4e8336bae8: |-
     ruby 2.7.0dev (2019-11-04T15:05:38Z trunk 4e8336bae8) [x86_64-linux]
     last_commit=Share test-bundled-gems-run in common.mk
@@ -12634,3 +12628,5 @@ commits:
   '09aca50fc4': ruby 3.1.0dev (2020-12-28T10:52:14Z master 09aca50fc4) [x86_64-linux]
   '09aca50fc4 --jit': ruby 3.1.0dev (2020-12-28T10:52:14Z master 09aca50fc4) +JIT
     [x86_64-linux]
+  80d9e457c5: ruby 3.1.0dev (2020-12-28T12:16:48Z master 80d9e457c5) [x86_64-linux]
+  80d9e457c5 --jit: ruby 3.1.0dev (2020-12-28T12:16:48Z master 80d9e457c5) +JIT [x86_64-linux]
