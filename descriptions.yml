@@ -13,24 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  c6a52cffd1: |-
-    ruby 2.7.0dev (2019-11-05T08:43:38Z trunk c6a52cffd1) [x86_64-linux]
-    last_commit=Separated `@counter` and `@tally` so that "-ft" works with "-j"
-  c6a52cffd1 --jit: |-
-    ruby 2.7.0dev (2019-11-05T08:43:38Z trunk c6a52cffd1) +JIT [x86_64-linux]
-    last_commit=Separated `@counter` and `@tally` so that "-ft" works with "-j"
-  652800cc09: |-
-    ruby 2.7.0dev (2019-11-05T11:54:46Z trunk 652800cc09) [x86_64-linux]
-    last_commit=Only untaint line on Ruby <2.7
-  652800cc09 --jit: |-
-    ruby 2.7.0dev (2019-11-05T11:54:46Z trunk 652800cc09) +JIT [x86_64-linux]
-    last_commit=Only untaint line on Ruby <2.7
-  c4b627e2da: |-
-    ruby 2.7.0dev (2019-11-05T11:57:22Z trunk c4b627e2da) [x86_64-linux]
-    last_commit=Only taint on Ruby <2.7
-  c4b627e2da --jit: |-
-    ruby 2.7.0dev (2019-11-05T11:57:22Z trunk c4b627e2da) +JIT [x86_64-linux]
-    last_commit=Only taint on Ruby <2.7
   6aacef4948: |-
     ruby 2.7.0dev (2019-11-05T12:06:29Z trunk 6aacef4948) [x86_64-linux]
     last_commit=Assert return value of Readline.readline only if Ruby is before 2.7
@@ -12546,3 +12528,10 @@ commits:
   b7163c712c --jit: ruby 3.1.0dev (2020-12-29T12:00:16Z master b7163c712c) +JIT [x86_64-linux]
   f6256d8b7e: ruby 3.1.0dev (2020-12-29T12:12:08Z master f6256d8b7e) [x86_64-linux]
   f6256d8b7e --jit: ruby 3.1.0dev (2020-12-29T12:12:08Z master f6256d8b7e) +JIT [x86_64-linux]
+  '086f3f1872': ruby 3.1.0dev (2020-12-29T15:22:11Z master 086f3f1872) [x86_64-linux]
+  '086f3f1872 --jit': ruby 3.1.0dev (2020-12-29T15:22:11Z master 086f3f1872) +JIT
+    [x86_64-linux]
+  8d93c1e70f: ruby 3.1.0dev (2020-12-29T15:22:21Z master 8d93c1e70f) [x86_64-linux]
+  8d93c1e70f --jit: ruby 3.1.0dev (2020-12-29T15:22:21Z master 8d93c1e70f) +JIT [x86_64-linux]
+  c550b75ce4: ruby 3.1.0dev (2020-12-29T15:46:15Z master c550b75ce4) [x86_64-linux]
+  c550b75ce4 --jit: ruby 3.1.0dev (2020-12-29T15:46:15Z master c550b75ce4) +JIT [x86_64-linux]
