@@ -13,36 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  c0c9a00f83: |-
-    ruby 2.7.0dev (2019-11-04T17:12:26Z trunk c0c9a00f83) [x86_64-linux]
-    last_commit=Simplify test tasks
-  c0c9a00f83 --jit: |-
-    ruby 2.7.0dev (2019-11-04T17:12:26Z trunk c0c9a00f83) +JIT [x86_64-linux]
-    last_commit=Simplify test tasks
-  9d04fa71fc: |-
-    ruby 2.7.0dev (2019-11-04T17:14:31Z trunk 9d04fa71fc) [x86_64-linux]
-    last_commit=Updated minitest to 5.13.0
-  9d04fa71fc --jit: |-
-    ruby 2.7.0dev (2019-11-04T17:14:31Z trunk 9d04fa71fc) +JIT [x86_64-linux]
-    last_commit=Updated minitest to 5.13.0
-  74bb8fb348: |-
-    ruby 2.7.0dev (2019-11-04T23:03:01Z trunk 74bb8fb348) [x86_64-linux]
-    last_commit=More rdoc for ENV
-  74bb8fb348 --jit: |-
-    ruby 2.7.0dev (2019-11-04T23:03:01Z trunk 74bb8fb348) +JIT [x86_64-linux]
-    last_commit=More rdoc for ENV
-  7c3bc0aa13: |-
-    ruby 2.7.0dev (2019-11-04T23:07:59Z trunk 7c3bc0aa13) [x86_64-linux]
-    last_commit=Put an empty line [ci skip]
-  7c3bc0aa13 --jit: |-
-    ruby 2.7.0dev (2019-11-04T23:07:59Z trunk 7c3bc0aa13) +JIT [x86_64-linux]
-    last_commit=Put an empty line [ci skip]
-  ebbe396d3c: |-
-    ruby 2.7.0dev (2019-11-04T23:27:15Z trunk ebbe396d3c) [x86_64-linux]
-    last_commit=Use ident hash for top-level recursion check
-  ebbe396d3c --jit: |-
-    ruby 2.7.0dev (2019-11-04T23:27:15Z trunk ebbe396d3c) +JIT [x86_64-linux]
-    last_commit=Use ident hash for top-level recursion check
   c7632fa80c: |-
     ruby 2.7.0dev (2019-11-04T23:45:19Z trunk c7632fa80c) [x86_64-linux]
     last_commit=Do not occupy `ARGV` by XRUBY command
@@ -12610,3 +12580,13 @@ commits:
   f8555cad2d --jit: ruby 3.1.0dev (2020-12-29T04:09:21Z master f8555cad2d) +JIT [x86_64-linux]
   1ffb267c5c: ruby 3.1.0dev (2020-12-29T06:52:42Z master 1ffb267c5c) [x86_64-linux]
   1ffb267c5c --jit: ruby 3.1.0dev (2020-12-29T06:52:42Z master 1ffb267c5c) +JIT [x86_64-linux]
+  c715fb46c2: ruby 3.1.0dev (2020-12-29T07:01:00Z master c715fb46c2) [x86_64-linux]
+  c715fb46c2 --jit: ruby 3.1.0dev (2020-12-29T07:01:00Z master c715fb46c2) +JIT [x86_64-linux]
+  f9e80af28a: ruby 3.1.0dev (2020-12-29T07:01:01Z master f9e80af28a) [x86_64-linux]
+  f9e80af28a --jit: ruby 3.1.0dev (2020-12-29T07:01:01Z master f9e80af28a) +JIT [x86_64-linux]
+  af9d4ee133: ruby 3.1.0dev (2020-12-29T07:01:01Z master af9d4ee133) [x86_64-linux]
+  af9d4ee133 --jit: ruby 3.1.0dev (2020-12-29T07:01:01Z master af9d4ee133) +JIT [x86_64-linux]
+  c0a2d322c6: ruby 3.1.0dev (2020-12-29T07:03:04Z master c0a2d322c6) [x86_64-linux]
+  c0a2d322c6 --jit: ruby 3.1.0dev (2020-12-29T07:03:04Z master c0a2d322c6) +JIT [x86_64-linux]
+  9b7ceb6765: ruby 3.1.0dev (2020-12-29T07:07:20Z master 9b7ceb6765) [x86_64-linux]
+  9b7ceb6765 --jit: ruby 3.1.0dev (2020-12-29T07:07:20Z master 9b7ceb6765) +JIT [x86_64-linux]
