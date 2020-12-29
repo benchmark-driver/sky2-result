@@ -13,30 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  7c07300491: |-
-    ruby 2.7.0dev (2019-11-05T04:46:08Z trunk 7c07300491) [x86_64-linux]
-    last_commit=let the .bss section initialize static variables
-  7c07300491 --jit: |-
-    ruby 2.7.0dev (2019-11-05T04:46:08Z trunk 7c07300491) +JIT [x86_64-linux]
-    last_commit=let the .bss section initialize static variables
-  853d91a04a: |-
-    ruby 2.7.0dev (2019-11-05T06:31:21Z trunk 853d91a04a) [x86_64-linux]
-    last_commit=Fix coroutine support on win32
-  853d91a04a --jit: |-
-    ruby 2.7.0dev (2019-11-05T06:31:21Z trunk 853d91a04a) +JIT [x86_64-linux]
-    last_commit=Fix coroutine support on win32
-  bea322a352: |-
-    ruby 2.7.0dev (2019-11-05T08:30:54Z trunk bea322a352) [x86_64-linux]
-    last_commit=Revert "[EXPERIMENTAL] Make Symbol#to_s return a frozen String [Feature #16150]"
-  bea322a352 --jit: |-
-    ruby 2.7.0dev (2019-11-05T08:30:54Z trunk bea322a352) +JIT [x86_64-linux]
-    last_commit=Revert "[EXPERIMENTAL] Make Symbol#to_s return a frozen String [Feature #16150]"
-  dfb3322d27: |-
-    ruby 2.7.0dev (2019-11-05T08:42:35Z trunk dfb3322d27) [x86_64-linux]
-    last_commit=`DottedFormatter#state` consistency
-  dfb3322d27 --jit: |-
-    ruby 2.7.0dev (2019-11-05T08:42:35Z trunk dfb3322d27) +JIT [x86_64-linux]
-    last_commit=`DottedFormatter#state` consistency
   19f91f7880: |-
     ruby 2.7.0dev (2019-11-05T08:42:35Z trunk 19f91f7880) [x86_64-linux]
     last_commit=`DottedFormatter#finish` consistency
@@ -12570,3 +12546,11 @@ commits:
   d57c5a7b61 --jit: ruby 3.1.0dev (2020-12-29T08:45:19Z master d57c5a7b61) +JIT [x86_64-linux]
   2f42243bce: ruby 3.1.0dev (2020-12-29T08:45:19Z master 2f42243bce) [x86_64-linux]
   2f42243bce --jit: ruby 3.1.0dev (2020-12-29T08:45:19Z master 2f42243bce) +JIT [x86_64-linux]
+  13b520d578: ruby 3.1.0dev (2020-12-29T08:46:36Z master 13b520d578) [x86_64-linux]
+  13b520d578 --jit: ruby 3.1.0dev (2020-12-29T08:46:36Z master 13b520d578) +JIT [x86_64-linux]
+  29d012c964: ruby 3.1.0dev (2020-12-29T08:46:36Z master 29d012c964) [x86_64-linux]
+  29d012c964 --jit: ruby 3.1.0dev (2020-12-29T08:46:36Z master 29d012c964) +JIT [x86_64-linux]
+  47a1f5ff73: ruby 3.1.0dev (2020-12-29T08:46:37Z master 47a1f5ff73) [x86_64-linux]
+  47a1f5ff73 --jit: ruby 3.1.0dev (2020-12-29T08:46:37Z master 47a1f5ff73) +JIT [x86_64-linux]
+  208192fdb6: ruby 3.1.0dev (2020-12-29T08:50:14Z master 208192fdb6) [x86_64-linux]
+  208192fdb6 --jit: ruby 3.1.0dev (2020-12-29T08:50:14Z master 208192fdb6) +JIT [x86_64-linux]
