@@ -13,24 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  bd3463ee35: |-
-    ruby 2.7.0dev (2019-11-04T15:07:22Z trunk bd3463ee35) [x86_64-linux]
-    last_commit=* 2019-11-05 [ci skip]
-  bd3463ee35 --jit: |-
-    ruby 2.7.0dev (2019-11-04T15:07:22Z trunk bd3463ee35) +JIT [x86_64-linux]
-    last_commit=* 2019-11-05 [ci skip]
-  a087e027bf: |-
-    ruby 2.7.0dev (2019-11-04T16:32:26Z trunk a087e027bf) [x86_64-linux]
-    last_commit=Fixed conditional expressions with only one void side
-  a087e027bf --jit: |-
-    ruby 2.7.0dev (2019-11-04T16:32:26Z trunk a087e027bf) +JIT [x86_64-linux]
-    last_commit=Fixed conditional expressions with only one void side
-  ec54261b01: |-
-    ruby 2.7.0dev (2019-11-04T16:58:52Z trunk ec54261b01) [x86_64-linux]
-    last_commit=Fix zero free objects assertion
-  ec54261b01 --jit: |-
-    ruby 2.7.0dev (2019-11-04T16:58:52Z trunk ec54261b01) +JIT [x86_64-linux]
-    last_commit=Fix zero free objects assertion
   929a4aa722: |-
     ruby 2.7.0dev (2019-11-04T17:05:46Z trunk 929a4aa722) [x86_64-linux]
     last_commit=Adjust a fucntion signature
@@ -12626,3 +12608,9 @@ commits:
   80d9e457c5 --jit: ruby 3.1.0dev (2020-12-28T12:16:48Z master 80d9e457c5) +JIT [x86_64-linux]
   06b44f819e: ruby 3.1.0dev (2020-12-28T12:26:26Z master 06b44f819e) [x86_64-linux]
   06b44f819e --jit: ruby 3.1.0dev (2020-12-28T12:26:26Z master 06b44f819e) +JIT [x86_64-linux]
+  d11b78f9c4: ruby 3.1.0dev (2020-12-29T03:54:39Z master d11b78f9c4) [x86_64-linux]
+  d11b78f9c4 --jit: ruby 3.1.0dev (2020-12-29T03:54:39Z master d11b78f9c4) +JIT [x86_64-linux]
+  512e08895f: ruby 3.1.0dev (2020-12-29T03:56:10Z master 512e08895f) [x86_64-linux]
+  512e08895f --jit: ruby 3.1.0dev (2020-12-29T03:56:10Z master 512e08895f) +JIT [x86_64-linux]
+  f8555cad2d: ruby 3.1.0dev (2020-12-29T04:09:21Z master f8555cad2d) [x86_64-linux]
+  f8555cad2d --jit: ruby 3.1.0dev (2020-12-29T04:09:21Z master f8555cad2d) +JIT [x86_64-linux]
