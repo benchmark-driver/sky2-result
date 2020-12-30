@@ -13,24 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  5251d18982: |-
-    ruby 2.7.0dev (2019-11-06T00:46:48Z trunk 5251d18982) [x86_64-linux]
-    last_commit=Time#strftime does not support `%Q`
-  5251d18982 --jit: |-
-    ruby 2.7.0dev (2019-11-06T00:46:48Z trunk 5251d18982) +JIT [x86_64-linux]
-    last_commit=Time#strftime does not support `%Q`
-  f72dc407f2: |-
-    ruby 2.7.0dev (2019-11-06T02:17:09Z trunk f72dc407f2) [x86_64-linux]
-    last_commit=Prohibit calling undefined allocator [Bug #16297]
-  f72dc407f2 --jit: |-
-    ruby 2.7.0dev (2019-11-06T02:17:09Z trunk f72dc407f2) +JIT [x86_64-linux]
-    last_commit=Prohibit calling undefined allocator [Bug #16297]
-  82e840ad15: |-
-    ruby 2.7.0dev (2019-11-06T03:44:50Z trunk 82e840ad15) [x86_64-linux]
-    last_commit=Numbered parameter cannot appear outside block now [Bug #16293]
-  82e840ad15 --jit: |-
-    ruby 2.7.0dev (2019-11-06T03:44:50Z trunk 82e840ad15) +JIT [x86_64-linux]
-    last_commit=Numbered parameter cannot appear outside block now [Bug #16293]
   2fd465540f: |-
     ruby 2.7.0dev (2019-11-06T03:45:11Z trunk 2fd465540f) [x86_64-linux]
     last_commit=Numbered parameter is an ID_LOCAL now [Bug #16293]
@@ -12516,3 +12498,9 @@ commits:
   '0284e7ca62': ruby 3.1.0dev (2020-12-30T14:11:09Z master 0284e7ca62) [x86_64-linux]
   '0284e7ca62 --jit': ruby 3.1.0dev (2020-12-30T14:11:09Z master 0284e7ca62) +JIT
     [x86_64-linux]
+  4569e46550: ruby 3.1.0dev (2020-12-30T17:04:53Z master 4569e46550) [x86_64-linux]
+  4569e46550 --jit: ruby 3.1.0dev (2020-12-30T17:04:53Z master 4569e46550) +JIT [x86_64-linux]
+  a8014dae47: ruby 3.1.0dev (2020-12-30T17:05:02Z master a8014dae47) [x86_64-linux]
+  a8014dae47 --jit: ruby 3.1.0dev (2020-12-30T17:05:02Z master a8014dae47) +JIT [x86_64-linux]
+  b2030d4dae: ruby 3.1.0dev (2020-12-30T17:19:55Z master b2030d4dae) [x86_64-linux]
+  b2030d4dae --jit: ruby 3.1.0dev (2020-12-30T17:19:55Z master b2030d4dae) +JIT [x86_64-linux]
