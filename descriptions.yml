@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  aa94245a09: |-
-    ruby 2.7.0dev (2019-11-05T23:54:32Z trunk aa94245a09) [x86_64-linux]
-    last_commit=Undefine MatchData.allocate [Feature #16294]
-  aa94245a09 --jit: |-
-    ruby 2.7.0dev (2019-11-05T23:54:32Z trunk aa94245a09) +JIT [x86_64-linux]
-    last_commit=Undefine MatchData.allocate [Feature #16294]
   5251d18982: |-
     ruby 2.7.0dev (2019-11-06T00:46:48Z trunk 5251d18982) [x86_64-linux]
     last_commit=Time#strftime does not support `%Q`
@@ -12519,3 +12513,6 @@ commits:
   11b8bb99e6 --jit: ruby 3.1.0dev (2020-12-30T06:25:00Z master 11b8bb99e6) +JIT [x86_64-linux]
   ac2df89113: ruby 3.1.0dev (2020-12-30T07:01:11Z master ac2df89113) [x86_64-linux]
   ac2df89113 --jit: ruby 3.1.0dev (2020-12-30T07:01:11Z master ac2df89113) +JIT [x86_64-linux]
+  '0284e7ca62': ruby 3.1.0dev (2020-12-30T14:11:09Z master 0284e7ca62) [x86_64-linux]
+  '0284e7ca62 --jit': ruby 3.1.0dev (2020-12-30T14:11:09Z master 0284e7ca62) +JIT
+    [x86_64-linux]
