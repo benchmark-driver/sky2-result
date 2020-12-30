@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  7460c884fb: |-
-    ruby 2.7.0dev (2019-11-05T16:24:14Z trunk 7460c884fb) [x86_64-linux]
-    last_commit=Use an identity hash for pinning Ripper objects
-  7460c884fb --jit: |-
-    ruby 2.7.0dev (2019-11-05T16:24:14Z trunk 7460c884fb) +JIT [x86_64-linux]
-    last_commit=Use an identity hash for pinning Ripper objects
   aa94245a09: |-
     ruby 2.7.0dev (2019-11-05T23:54:32Z trunk aa94245a09) [x86_64-linux]
     last_commit=Undefine MatchData.allocate [Feature #16294]
@@ -12523,3 +12517,5 @@ commits:
   15c129d087 --jit: ruby 3.1.0dev (2020-12-30T06:02:48Z master 15c129d087) +JIT [x86_64-linux]
   11b8bb99e6: ruby 3.1.0dev (2020-12-30T06:25:00Z master 11b8bb99e6) [x86_64-linux]
   11b8bb99e6 --jit: ruby 3.1.0dev (2020-12-30T06:25:00Z master 11b8bb99e6) +JIT [x86_64-linux]
+  ac2df89113: ruby 3.1.0dev (2020-12-30T07:01:11Z master ac2df89113) [x86_64-linux]
+  ac2df89113 --jit: ruby 3.1.0dev (2020-12-30T07:01:11Z master ac2df89113) +JIT [x86_64-linux]
