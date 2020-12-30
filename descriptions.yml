@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  d47b643428: |-
-    ruby 2.7.0dev (2019-11-05T15:39:55Z trunk d47b643428) [x86_64-linux]
-    last_commit=* 2019-11-06 [ci skip]
-  d47b643428 --jit: |-
-    ruby 2.7.0dev (2019-11-05T15:39:55Z trunk d47b643428) +JIT [x86_64-linux]
-    last_commit=* 2019-11-06 [ci skip]
   7460c884fb: |-
     ruby 2.7.0dev (2019-11-05T16:24:14Z trunk 7460c884fb) [x86_64-linux]
     last_commit=Use an identity hash for pinning Ripper objects
@@ -12527,3 +12521,5 @@ commits:
   8e231ffa8c --jit: ruby 3.1.0dev (2020-12-30T04:06:53Z master 8e231ffa8c) +JIT [x86_64-linux]
   15c129d087: ruby 3.1.0dev (2020-12-30T06:02:48Z master 15c129d087) [x86_64-linux]
   15c129d087 --jit: ruby 3.1.0dev (2020-12-30T06:02:48Z master 15c129d087) +JIT [x86_64-linux]
+  11b8bb99e6: ruby 3.1.0dev (2020-12-30T06:25:00Z master 11b8bb99e6) [x86_64-linux]
+  11b8bb99e6 --jit: ruby 3.1.0dev (2020-12-30T06:25:00Z master 11b8bb99e6) +JIT [x86_64-linux]
