@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  6aacef4948: |-
-    ruby 2.7.0dev (2019-11-05T12:06:29Z trunk 6aacef4948) [x86_64-linux]
-    last_commit=Assert return value of Readline.readline only if Ruby is before 2.7
-  6aacef4948 --jit: |-
-    ruby 2.7.0dev (2019-11-05T12:06:29Z trunk 6aacef4948) +JIT [x86_64-linux]
-    last_commit=Assert return value of Readline.readline only if Ruby is before 2.7
   07f2062c8f: |-
     ruby 2.7.0dev (2019-11-05T15:31:52Z trunk 07f2062c8f) [x86_64-linux]
     last_commit=Improve string literal concatenation for C++11
@@ -12535,3 +12529,5 @@ commits:
   8d93c1e70f --jit: ruby 3.1.0dev (2020-12-29T15:22:21Z master 8d93c1e70f) +JIT [x86_64-linux]
   c550b75ce4: ruby 3.1.0dev (2020-12-29T15:46:15Z master c550b75ce4) [x86_64-linux]
   c550b75ce4 --jit: ruby 3.1.0dev (2020-12-29T15:46:15Z master c550b75ce4) +JIT [x86_64-linux]
+  8e231ffa8c: ruby 3.1.0dev (2020-12-30T04:06:53Z master 8e231ffa8c) [x86_64-linux]
+  8e231ffa8c --jit: ruby 3.1.0dev (2020-12-30T04:06:53Z master 8e231ffa8c) +JIT [x86_64-linux]
