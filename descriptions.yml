@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  212f4d49ba: |-
-    ruby 2.7.0dev (2019-11-06T17:10:27Z trunk 212f4d49ba) [x86_64-linux]
-    last_commit=Remove arm64 from allow_failures
-  212f4d49ba --jit: |-
-    ruby 2.7.0dev (2019-11-06T17:10:27Z trunk 212f4d49ba) +JIT [x86_64-linux]
-    last_commit=Remove arm64 from allow_failures
   a1be11eb12: |-
     ruby 2.7.0dev (2019-11-06T17:53:02Z trunk a1be11eb12) [x86_64-linux]
     last_commit=Revert "Remove arm64 from allow_failures"
@@ -12492,3 +12486,5 @@ commits:
   4b4dc0fac7 --jit: ruby 3.1.0dev (2020-12-31T03:23:29Z master 4b4dc0fac7) +JIT [x86_64-linux]
   62450e0acf: ruby 3.1.0dev (2020-12-31T03:30:13Z master 62450e0acf) [x86_64-linux]
   62450e0acf --jit: ruby 3.1.0dev (2020-12-31T03:30:13Z master 62450e0acf) +JIT [x86_64-linux]
+  0fbf4d0374: ruby 3.1.0dev (2020-12-31T06:11:38Z master 0fbf4d0374) [x86_64-linux]
+  0fbf4d0374 --jit: ruby 3.1.0dev (2020-12-31T06:11:38Z master 0fbf4d0374) +JIT [x86_64-linux]
