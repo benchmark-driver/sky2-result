@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  e58814d150: |-
-    ruby 2.7.0dev (2019-11-06T23:12:28Z trunk e58814d150) [x86_64-linux]
-    last_commit=Revert "Use a monotonically increasing number for object_id"
-  e58814d150 --jit: |-
-    ruby 2.7.0dev (2019-11-06T23:12:28Z trunk e58814d150) +JIT [x86_64-linux]
-    last_commit=Revert "Use a monotonically increasing number for object_id"
   d0d743ad45: |-
     ruby 2.7.0dev (2019-11-07T00:31:55Z trunk d0d743ad45) [x86_64-linux]
     last_commit=Remove duplicate code
@@ -12460,3 +12454,5 @@ commits:
   37e2a67a74 --jit: ruby 3.1.0dev (2020-12-31T15:54:38Z master 37e2a67a74) +JIT [x86_64-linux]
   48cf548beb: ruby 3.1.0dev (2020-12-31T15:58:41Z master 48cf548beb) [x86_64-linux]
   48cf548beb --jit: ruby 3.1.0dev (2020-12-31T15:58:41Z master 48cf548beb) +JIT [x86_64-linux]
+  3d7f71801a: ruby 3.1.0dev (2020-12-31T22:55:59Z master 3d7f71801a) [x86_64-linux]
+  3d7f71801a --jit: ruby 3.1.0dev (2020-12-31T22:55:59Z master 3d7f71801a) +JIT [x86_64-linux]
