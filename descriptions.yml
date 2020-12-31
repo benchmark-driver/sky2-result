@@ -13,18 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  f5c7fc495a: |-
-    ruby 2.7.0dev (2019-11-06T17:08:37Z trunk f5c7fc495a) [x86_64-linux]
-    last_commit=Fix spawn_spec.rb for Travis arm64 environment.
-  f5c7fc495a --jit: |-
-    ruby 2.7.0dev (2019-11-06T17:08:37Z trunk f5c7fc495a) +JIT [x86_64-linux]
-    last_commit=Fix spawn_spec.rb for Travis arm64 environment.
-  7750edd1e6: |-
-    ruby 2.7.0dev (2019-11-06T17:09:00Z trunk 7750edd1e6) [x86_64-linux]
-    last_commit=* 2019-11-07 [ci skip]
-  7750edd1e6 --jit: |-
-    ruby 2.7.0dev (2019-11-06T17:09:00Z trunk 7750edd1e6) +JIT [x86_64-linux]
-    last_commit=* 2019-11-07 [ci skip]
   212f4d49ba: |-
     ruby 2.7.0dev (2019-11-06T17:10:27Z trunk 212f4d49ba) [x86_64-linux]
     last_commit=Remove arm64 from allow_failures
@@ -12500,3 +12488,7 @@ commits:
   b2030d4dae --jit: ruby 3.1.0dev (2020-12-30T17:19:55Z master b2030d4dae) +JIT [x86_64-linux]
   20a8425aa0: ruby 3.1.0dev (2020-12-31T03:11:45Z master 20a8425aa0) [x86_64-linux]
   20a8425aa0 --jit: ruby 3.1.0dev (2020-12-31T03:11:45Z master 20a8425aa0) +JIT [x86_64-linux]
+  4b4dc0fac7: ruby 3.1.0dev (2020-12-31T03:23:29Z master 4b4dc0fac7) [x86_64-linux]
+  4b4dc0fac7 --jit: ruby 3.1.0dev (2020-12-31T03:23:29Z master 4b4dc0fac7) +JIT [x86_64-linux]
+  62450e0acf: ruby 3.1.0dev (2020-12-31T03:30:13Z master 62450e0acf) [x86_64-linux]
+  62450e0acf --jit: ruby 3.1.0dev (2020-12-31T03:30:13Z master 62450e0acf) +JIT [x86_64-linux]
