@@ -13,18 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  1e620c67af: |-
-    ruby 2.7.0dev (2019-11-07T04:20:11Z trunk 1e620c67af) [x86_64-linux]
-    last_commit=Add missing semicolon
-  1e620c67af --jit: |-
-    ruby 2.7.0dev (2019-11-07T04:20:11Z trunk 1e620c67af) +JIT [x86_64-linux]
-    last_commit=Add missing semicolon
-  a396bef8d8: |-
-    ruby 2.7.0dev (2019-11-07T06:40:35Z trunk a396bef8d8) [x86_64-linux]
-    last_commit=Disallow duplicated pattern variable
-  a396bef8d8 --jit: |-
-    ruby 2.7.0dev (2019-11-07T06:40:35Z trunk a396bef8d8) +JIT [x86_64-linux]
-    last_commit=Disallow duplicated pattern variable
   478f6e2b34: |-
     ruby 2.7.0dev (2019-11-07T07:36:13Z trunk 478f6e2b34) [x86_64-linux]
     last_commit=Fixed an Errno::ENOENT with non-test libraries
@@ -12452,3 +12440,7 @@ commits:
   3d7f71801a --jit: ruby 3.1.0dev (2020-12-31T22:55:59Z master 3d7f71801a) +JIT [x86_64-linux]
   de5f8a92d5: ruby 3.1.0dev (2021-01-01T05:25:08Z master de5f8a92d5) [x86_64-linux]
   de5f8a92d5 --jit: ruby 3.1.0dev (2021-01-01T05:25:08Z master de5f8a92d5) +JIT [x86_64-linux]
+  1e51027763: ruby 3.1.0dev (2021-01-01T05:45:00Z master 1e51027763) [x86_64-linux]
+  1e51027763 --jit: ruby 3.1.0dev (2021-01-01T05:45:00Z master 1e51027763) +JIT [x86_64-linux]
+  ab32e98f98: ruby 3.1.0dev (2021-01-01T05:48:46Z master ab32e98f98) [x86_64-linux]
+  ab32e98f98 --jit: ruby 3.1.0dev (2021-01-01T05:48:46Z master ab32e98f98) +JIT [x86_64-linux]
