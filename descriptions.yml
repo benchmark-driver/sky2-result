@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  6aa80d5583: |-
-    ruby 2.7.0dev (2019-11-07T09:53:51Z trunk 6aa80d5583) [x86_64-linux]
-    last_commit=Use FIX2LONG instead of FIX2INT like 26843cbcd0
-  6aa80d5583 --jit: |-
-    ruby 2.7.0dev (2019-11-07T09:53:51Z trunk 6aa80d5583) +JIT [x86_64-linux]
-    last_commit=Use FIX2LONG instead of FIX2INT like 26843cbcd0
   d62abc47c8: |-
     ruby 2.7.0dev (2019-11-07T14:33:45Z trunk d62abc47c8) [x86_64-linux]
     last_commit=Suppress unused variable warning
@@ -12396,3 +12390,5 @@ commits:
   a6bbba1135 --jit: ruby 3.1.0dev (2021-01-02T03:06:14Z master a6bbba1135) +JIT [x86_64-linux]
   4b6fd8329b: ruby 3.1.0dev (2021-01-02T03:11:02Z master 4b6fd8329b) [x86_64-linux]
   4b6fd8329b --jit: ruby 3.1.0dev (2021-01-02T03:11:02Z master 4b6fd8329b) +JIT [x86_64-linux]
+  f690eb34e2: ruby 3.1.0dev (2021-01-02T03:11:52Z master f690eb34e2) [x86_64-linux]
+  f690eb34e2 --jit: ruby 3.1.0dev (2021-01-02T03:11:52Z master f690eb34e2) +JIT [x86_64-linux]
