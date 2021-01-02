@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  c916f9600b: |-
-    ruby 2.7.0dev (2019-11-07T07:44:38Z trunk c916f9600b) [x86_64-linux]
-    last_commit=SMTP is not module
-  c916f9600b --jit: |-
-    ruby 2.7.0dev (2019-11-07T07:44:38Z trunk c916f9600b) +JIT [x86_64-linux]
-    last_commit=SMTP is not module
   3c252651e1: |-
     ruby 2.7.0dev (2019-11-07T08:09:22Z trunk 3c252651e1) [x86_64-linux]
     last_commit=Fixed test failure related Net::Protocol
@@ -12412,3 +12406,5 @@ commits:
   5aa28d9d6d --jit: ruby 3.1.0dev (2021-01-02T00:48:42Z master 5aa28d9d6d) +JIT [x86_64-linux]
   ef6ab776d5: ruby 3.1.0dev (2021-01-02T01:18:58Z master ef6ab776d5) [x86_64-linux]
   ef6ab776d5 --jit: ruby 3.1.0dev (2021-01-02T01:18:58Z master ef6ab776d5) +JIT [x86_64-linux]
+  daec5f9edc: ruby 3.1.0dev (2021-01-02T02:39:07Z master daec5f9edc) [x86_64-linux]
+  daec5f9edc --jit: ruby 3.1.0dev (2021-01-02T02:39:07Z master daec5f9edc) +JIT [x86_64-linux]
