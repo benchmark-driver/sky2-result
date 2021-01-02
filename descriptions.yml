@@ -13,18 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  d62abc47c8: |-
-    ruby 2.7.0dev (2019-11-07T14:33:45Z trunk d62abc47c8) [x86_64-linux]
-    last_commit=Suppress unused variable warning
-  d62abc47c8 --jit: |-
-    ruby 2.7.0dev (2019-11-07T14:33:45Z trunk d62abc47c8) +JIT [x86_64-linux]
-    last_commit=Suppress unused variable warning
-  b99833baec: |-
-    ruby 2.7.0dev (2019-11-07T17:31:07Z trunk b99833baec) [x86_64-linux]
-    last_commit=Use a monotonically increasing number for object_id
-  b99833baec --jit: |-
-    ruby 2.7.0dev (2019-11-07T17:31:07Z trunk b99833baec) +JIT [x86_64-linux]
-    last_commit=Use a monotonically increasing number for object_id
   597ec43543: |-
     ruby 2.7.0dev (2019-11-07T17:31:29Z trunk 597ec43543) [x86_64-linux]
     last_commit=* 2019-11-08 [ci skip]
@@ -12392,3 +12380,7 @@ commits:
   4b6fd8329b --jit: ruby 3.1.0dev (2021-01-02T03:11:02Z master 4b6fd8329b) +JIT [x86_64-linux]
   f690eb34e2: ruby 3.1.0dev (2021-01-02T03:11:52Z master f690eb34e2) [x86_64-linux]
   f690eb34e2 --jit: ruby 3.1.0dev (2021-01-02T03:11:52Z master f690eb34e2) +JIT [x86_64-linux]
+  b8d33df1d9: ruby 3.1.0dev (2021-01-02T08:27:24Z master b8d33df1d9) [x86_64-linux]
+  b8d33df1d9 --jit: ruby 3.1.0dev (2021-01-02T08:27:24Z master b8d33df1d9) +JIT [x86_64-linux]
+  68ea7720b3: ruby 3.1.0dev (2021-01-02T08:27:24Z master 68ea7720b3) [x86_64-linux]
+  68ea7720b3 --jit: ruby 3.1.0dev (2021-01-02T08:27:24Z master 68ea7720b3) +JIT [x86_64-linux]
