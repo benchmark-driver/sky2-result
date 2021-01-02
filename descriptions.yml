@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  3c252651e1: |-
-    ruby 2.7.0dev (2019-11-07T08:09:22Z trunk 3c252651e1) [x86_64-linux]
-    last_commit=Fixed test failure related Net::Protocol
-  3c252651e1 --jit: |-
-    ruby 2.7.0dev (2019-11-07T08:09:22Z trunk 3c252651e1) +JIT [x86_64-linux]
-    last_commit=Fixed test failure related Net::Protocol
   d45a013a1a: |-
     ruby 2.7.0dev (2019-11-07T08:41:30Z trunk d45a013a1a) [x86_64-linux]
     last_commit=extend rb_call_cache
@@ -12408,3 +12402,5 @@ commits:
   ef6ab776d5 --jit: ruby 3.1.0dev (2021-01-02T01:18:58Z master ef6ab776d5) +JIT [x86_64-linux]
   daec5f9edc: ruby 3.1.0dev (2021-01-02T02:39:07Z master daec5f9edc) [x86_64-linux]
   daec5f9edc --jit: ruby 3.1.0dev (2021-01-02T02:39:07Z master daec5f9edc) +JIT [x86_64-linux]
+  4182035e27: ruby 3.1.0dev (2021-01-02T02:41:22Z master 4182035e27) [x86_64-linux]
+  4182035e27 --jit: ruby 3.1.0dev (2021-01-02T02:41:22Z master 4182035e27) +JIT [x86_64-linux]
