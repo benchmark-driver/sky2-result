@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  fc85bdeb77: |-
-    ruby 2.7.0dev (2019-11-07T07:36:14Z trunk fc85bdeb77) [x86_64-linux]
-    last_commit=Promote cgi to default gems
-  fc85bdeb77 --jit: |-
-    ruby 2.7.0dev (2019-11-07T07:36:14Z trunk fc85bdeb77) +JIT [x86_64-linux]
-    last_commit=Promote cgi to default gems
   c916f9600b: |-
     ruby 2.7.0dev (2019-11-07T07:44:38Z trunk c916f9600b) [x86_64-linux]
     last_commit=SMTP is not module
@@ -12416,3 +12410,5 @@ commits:
   830afd94fe --jit: ruby 3.1.0dev (2021-01-01T16:03:32Z master 830afd94fe) +JIT [x86_64-linux]
   5aa28d9d6d: ruby 3.1.0dev (2021-01-02T00:48:42Z master 5aa28d9d6d) [x86_64-linux]
   5aa28d9d6d --jit: ruby 3.1.0dev (2021-01-02T00:48:42Z master 5aa28d9d6d) +JIT [x86_64-linux]
+  ef6ab776d5: ruby 3.1.0dev (2021-01-02T01:18:58Z master ef6ab776d5) [x86_64-linux]
+  ef6ab776d5 --jit: ruby 3.1.0dev (2021-01-02T01:18:58Z master ef6ab776d5) +JIT [x86_64-linux]
