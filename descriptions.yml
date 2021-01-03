@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  e2a45cb984: |-
-    ruby 2.7.0dev (2019-11-08T00:09:29Z trunk e2a45cb984) [x86_64-linux]
-    last_commit=use builtin for TracePoint.
-  e2a45cb984 --jit: |-
-    ruby 2.7.0dev (2019-11-08T00:09:29Z trunk e2a45cb984) +JIT [x86_64-linux]
-    last_commit=use builtin for TracePoint.
   a47d058ebf: |-
     ruby 2.7.0dev (2019-11-08T00:09:29Z trunk a47d058ebf) [x86_64-linux]
     last_commit=use builtin for RubyVM::AbstractSyntaxTree.
@@ -12373,3 +12367,5 @@ commits:
   '09ec8d6866': ruby 3.1.0dev (2021-01-03T02:56:16Z master 09ec8d6866) [x86_64-linux]
   '09ec8d6866 --jit': ruby 3.1.0dev (2021-01-03T02:56:16Z master 09ec8d6866) +JIT
     [x86_64-linux]
+  4724bf856f: ruby 3.1.0dev (2021-01-03T08:05:38Z master 4724bf856f) [x86_64-linux]
+  4724bf856f --jit: ruby 3.1.0dev (2021-01-03T08:05:38Z master 4724bf856f) +JIT [x86_64-linux]
