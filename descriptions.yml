@@ -13,24 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  597ec43543: |-
-    ruby 2.7.0dev (2019-11-07T17:31:29Z trunk 597ec43543) [x86_64-linux]
-    last_commit=* 2019-11-08 [ci skip]
-  597ec43543 --jit: |-
-    ruby 2.7.0dev (2019-11-07T17:31:29Z trunk 597ec43543) +JIT [x86_64-linux]
-    last_commit=* 2019-11-08 [ci skip]
-  dddf5afb79: |-
-    ruby 2.7.0dev (2019-11-07T20:46:14Z trunk dddf5afb79) [x86_64-linux]
-    last_commit=Add a counter for compaction
-  dddf5afb79 --jit: |-
-    ruby 2.7.0dev (2019-11-07T20:46:14Z trunk dddf5afb79) +JIT [x86_64-linux]
-    last_commit=Add a counter for compaction
-  46acd0075d: |-
-    ruby 2.7.0dev (2019-11-08T00:09:29Z trunk 46acd0075d) [x86_64-linux]
-    last_commit=support builtin features with Ruby and C.
-  46acd0075d --jit: |-
-    ruby 2.7.0dev (2019-11-08T00:09:29Z trunk 46acd0075d) +JIT [x86_64-linux]
-    last_commit=support builtin features with Ruby and C.
   e2a45cb984: |-
     ruby 2.7.0dev (2019-11-08T00:09:29Z trunk e2a45cb984) [x86_64-linux]
     last_commit=use builtin for TracePoint.
@@ -12384,3 +12366,10 @@ commits:
   b8d33df1d9 --jit: ruby 3.1.0dev (2021-01-02T08:27:24Z master b8d33df1d9) +JIT [x86_64-linux]
   68ea7720b3: ruby 3.1.0dev (2021-01-02T08:27:24Z master 68ea7720b3) [x86_64-linux]
   68ea7720b3 --jit: ruby 3.1.0dev (2021-01-02T08:27:24Z master 68ea7720b3) +JIT [x86_64-linux]
+  fdf3539967: ruby 3.1.0dev (2021-01-03T02:54:00Z master fdf3539967) [x86_64-linux]
+  fdf3539967 --jit: ruby 3.1.0dev (2021-01-03T02:54:00Z master fdf3539967) +JIT [x86_64-linux]
+  a495cb2fd5: ruby 3.1.0dev (2021-01-03T02:55:03Z master a495cb2fd5) [x86_64-linux]
+  a495cb2fd5 --jit: ruby 3.1.0dev (2021-01-03T02:55:03Z master a495cb2fd5) +JIT [x86_64-linux]
+  '09ec8d6866': ruby 3.1.0dev (2021-01-03T02:56:16Z master 09ec8d6866) [x86_64-linux]
+  '09ec8d6866 --jit': ruby 3.1.0dev (2021-01-03T02:56:16Z master 09ec8d6866) +JIT
+    [x86_64-linux]
