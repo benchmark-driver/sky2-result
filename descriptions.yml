@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  a47d058ebf: |-
-    ruby 2.7.0dev (2019-11-08T00:09:29Z trunk a47d058ebf) [x86_64-linux]
-    last_commit=use builtin for RubyVM::AbstractSyntaxTree.
-  a47d058ebf --jit: |-
-    ruby 2.7.0dev (2019-11-08T00:09:29Z trunk a47d058ebf) +JIT [x86_64-linux]
-    last_commit=use builtin for RubyVM::AbstractSyntaxTree.
   4c00b9e8eb: |-
     ruby 2.7.0dev (2019-11-08T00:09:47Z trunk 4c00b9e8eb) [x86_64-linux]
     last_commit=* remove trailing spaces. [ci skip]
@@ -12369,3 +12363,5 @@ commits:
     [x86_64-linux]
   4724bf856f: ruby 3.1.0dev (2021-01-03T08:05:38Z master 4724bf856f) [x86_64-linux]
   4724bf856f --jit: ruby 3.1.0dev (2021-01-03T08:05:38Z master 4724bf856f) +JIT [x86_64-linux]
+  bc4c862a76: ruby 3.1.0dev (2021-01-03T11:19:30Z master bc4c862a76) [x86_64-linux]
+  bc4c862a76 --jit: ruby 3.1.0dev (2021-01-03T11:19:30Z master bc4c862a76) +JIT [x86_64-linux]
