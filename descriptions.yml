@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  61cff5c51c: |-
-    ruby 2.7.0dev (2019-11-08T04:21:29Z trunk 61cff5c51c) [x86_64-linux]
-    last_commit=Removed BOM [ci skip]
-  61cff5c51c --jit: |-
-    ruby 2.7.0dev (2019-11-08T04:21:29Z trunk 61cff5c51c) +JIT [x86_64-linux]
-    last_commit=Removed BOM [ci skip]
   0ad0a8ff58: |-
     ruby 2.7.0dev (2019-11-08T05:26:21Z trunk 0ad0a8ff58) [x86_64-linux]
     last_commit=builtin.h must be included *AFTER* vm_core.h
@@ -12321,3 +12315,5 @@ commits:
   cf4a6b5e7b --jit: ruby 3.1.0dev (2021-01-04T06:48:13Z master cf4a6b5e7b) +JIT [x86_64-linux]
   8da7f4abc7: ruby 3.1.0dev (2021-01-04T06:54:09Z master 8da7f4abc7) [x86_64-linux]
   8da7f4abc7 --jit: ruby 3.1.0dev (2021-01-04T06:54:09Z master 8da7f4abc7) +JIT [x86_64-linux]
+  977252421b: ruby 3.1.0dev (2021-01-04T06:54:09Z master 977252421b) [x86_64-linux]
+  977252421b --jit: ruby 3.1.0dev (2021-01-04T06:54:09Z master 977252421b) +JIT [x86_64-linux]
