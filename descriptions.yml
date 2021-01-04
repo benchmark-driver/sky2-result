@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  7acf7a4f90: |-
-    ruby 2.7.0dev (2019-11-08T09:49:18Z trunk 7acf7a4f90) [x86_64-linux]
-    last_commit=Add VPATH to rbinc rule for nmake
-  7acf7a4f90 --jit: |-
-    ruby 2.7.0dev (2019-11-08T09:49:18Z trunk 7acf7a4f90) +JIT [x86_64-linux]
-    last_commit=Add VPATH to rbinc rule for nmake
   ff2d99406d: |-
     ruby 2.7.0dev (2019-11-08T13:31:44Z trunk ff2d99406d) [x86_64-linux]
     last_commit=Update builtin include files
@@ -12280,3 +12274,5 @@ commits:
   e7fc353f04 --jit: ruby 3.1.0dev (2021-01-04T17:27:58Z master e7fc353f04) +JIT [x86_64-linux]
   87c546b5fa: ruby 3.1.0dev (2021-01-04T18:45:01Z master 87c546b5fa) [x86_64-linux]
   87c546b5fa --jit: ruby 3.1.0dev (2021-01-04T18:45:01Z master 87c546b5fa) +JIT [x86_64-linux]
+  7a3322a0fd: ruby 3.1.0dev (2021-01-04T21:09:08Z master 7a3322a0fd) [x86_64-linux]
+  7a3322a0fd --jit: ruby 3.1.0dev (2021-01-04T21:09:08Z master 7a3322a0fd) +JIT [x86_64-linux]
