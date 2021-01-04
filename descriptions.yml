@@ -13,18 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  eaa011ffdb: |-
-    ruby 2.7.0dev (2019-11-08T01:10:37Z trunk eaa011ffdb) [x86_64-linux]
-    last_commit=Change requirements of BASERUBY.
-  eaa011ffdb --jit: |-
-    ruby 2.7.0dev (2019-11-08T01:10:37Z trunk eaa011ffdb) +JIT [x86_64-linux]
-    last_commit=Change requirements of BASERUBY.
-  a1a08ac9aa: |-
-    ruby 2.7.0dev (2019-11-08T01:31:06Z trunk a1a08ac9aa) [x86_64-linux]
-    last_commit=describe vm_cache_check_for_class_serial [ci skip]
-  a1a08ac9aa --jit: |-
-    ruby 2.7.0dev (2019-11-08T01:31:06Z trunk a1a08ac9aa) +JIT [x86_64-linux]
-    last_commit=describe vm_cache_check_for_class_serial [ci skip]
   '7661150109': |-
     ruby 2.7.0dev (2019-11-08T02:12:01Z trunk 7661150109) [x86_64-linux]
     last_commit=revival of __func__
@@ -12345,3 +12333,7 @@ commits:
   68c2fc4cc0 --jit: ruby 3.1.0dev (2021-01-04T03:05:37Z master 68c2fc4cc0) +JIT [x86_64-linux]
   35c3a24c8c: ruby 3.1.0dev (2021-01-04T03:11:37Z master 35c3a24c8c) [x86_64-linux]
   35c3a24c8c --jit: ruby 3.1.0dev (2021-01-04T03:11:37Z master 35c3a24c8c) +JIT [x86_64-linux]
+  5537adf719: ruby 3.1.0dev (2021-01-04T04:14:43Z master 5537adf719) [x86_64-linux]
+  5537adf719 --jit: ruby 3.1.0dev (2021-01-04T04:14:43Z master 5537adf719) +JIT [x86_64-linux]
+  69ed64949b: ruby 3.1.0dev (2021-01-04T04:14:43Z master 69ed64949b) [x86_64-linux]
+  69ed64949b --jit: ruby 3.1.0dev (2021-01-04T04:14:43Z master 69ed64949b) +JIT [x86_64-linux]
