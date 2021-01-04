@@ -13,18 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  '7661150109': |-
-    ruby 2.7.0dev (2019-11-08T02:12:01Z trunk 7661150109) [x86_64-linux]
-    last_commit=revival of __func__
-  7661150109 --jit: |-
-    ruby 2.7.0dev (2019-11-08T02:12:01Z trunk 7661150109) +JIT [x86_64-linux]
-    last_commit=revival of __func__
-  d4da74ea78: |-
-    ruby 2.7.0dev (2019-11-08T02:37:46Z trunk d4da74ea78) [x86_64-linux]
-    last_commit=Define Struct#deconstruct_keys
-  d4da74ea78 --jit: |-
-    ruby 2.7.0dev (2019-11-08T02:37:46Z trunk d4da74ea78) +JIT [x86_64-linux]
-    last_commit=Define Struct#deconstruct_keys
   90fc555258: |-
     ruby 2.7.0dev (2019-11-08T03:09:01Z trunk 90fc555258) [x86_64-linux]
     last_commit=name the result of calccall
@@ -12337,3 +12325,7 @@ commits:
   5537adf719 --jit: ruby 3.1.0dev (2021-01-04T04:14:43Z master 5537adf719) +JIT [x86_64-linux]
   69ed64949b: ruby 3.1.0dev (2021-01-04T04:14:43Z master 69ed64949b) [x86_64-linux]
   69ed64949b --jit: ruby 3.1.0dev (2021-01-04T04:14:43Z master 69ed64949b) +JIT [x86_64-linux]
+  71f0dd339b: ruby 3.1.0dev (2021-01-04T04:29:10Z master 71f0dd339b) [x86_64-linux]
+  71f0dd339b --jit: ruby 3.1.0dev (2021-01-04T04:29:10Z master 71f0dd339b) +JIT [x86_64-linux]
+  4b90ea8480: ruby 3.1.0dev (2021-01-04T04:42:10Z master 4b90ea8480) [x86_64-linux]
+  4b90ea8480 --jit: ruby 3.1.0dev (2021-01-04T04:42:10Z master 4b90ea8480) +JIT [x86_64-linux]
