@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  0b29662606: |-
-    ruby 2.7.0dev (2019-11-08T06:32:01Z trunk 0b29662606) [x86_64-linux]
-    last_commit=fix line break code (fix to LF)
-  0b29662606 --jit: |-
-    ruby 2.7.0dev (2019-11-08T06:32:01Z trunk 0b29662606) +JIT [x86_64-linux]
-    last_commit=fix line break code (fix to LF)
   83c563cfa4: |-
     ruby 2.7.0dev (2019-11-08T07:16:25Z trunk 83c563cfa4) [x86_64-linux]
     last_commit=cstr -> bytes
@@ -12308,3 +12302,5 @@ commits:
   ec31ee25c4 --jit: ruby 3.1.0dev (2021-01-04T10:55:34Z master ec31ee25c4) +JIT [x86_64-linux]
   afa9d65d61: ruby 3.1.0dev (2021-01-04T10:55:35Z master afa9d65d61) [x86_64-linux]
   afa9d65d61 --jit: ruby 3.1.0dev (2021-01-04T10:55:35Z master afa9d65d61) +JIT [x86_64-linux]
+  433a3be86a: ruby 3.1.0dev (2021-01-04T14:37:00Z master 433a3be86a) [x86_64-linux]
+  433a3be86a --jit: ruby 3.1.0dev (2021-01-04T14:37:00Z master 433a3be86a) +JIT [x86_64-linux]
