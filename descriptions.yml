@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  99b1c19be4: |-
-    ruby 2.7.0dev (2019-11-08T07:31:57Z trunk 99b1c19be4) [x86_64-linux]
-    last_commit=builtin.h must be included *AFTER* vm_core.h
-  99b1c19be4 --jit: |-
-    ruby 2.7.0dev (2019-11-08T07:31:57Z trunk 99b1c19be4) +JIT [x86_64-linux]
-    last_commit=builtin.h must be included *AFTER* vm_core.h
   2e29b65109: |-
     ruby 2.7.0dev (2019-11-08T07:37:42Z trunk 2e29b65109) [x86_64-linux]
     last_commit=Add file mode to generated files [ci skip]
@@ -12292,3 +12286,5 @@ commits:
   3fee9e7021 --jit: ruby 3.1.0dev (2021-01-04T15:19:48Z master 3fee9e7021) +JIT [x86_64-linux]
   f42593c98e: ruby 3.1.0dev (2021-01-04T16:06:07Z master f42593c98e) [x86_64-linux]
   f42593c98e --jit: ruby 3.1.0dev (2021-01-04T16:06:07Z master f42593c98e) +JIT [x86_64-linux]
+  bf21faec15: ruby 3.1.0dev (2021-01-04T16:06:33Z master bf21faec15) [x86_64-linux]
+  bf21faec15 --jit: ruby 3.1.0dev (2021-01-04T16:06:33Z master bf21faec15) +JIT [x86_64-linux]
