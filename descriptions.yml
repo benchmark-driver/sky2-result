@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  365557f111: |-
-    ruby 2.7.0dev (2019-11-08T01:03:19Z trunk 365557f111) [x86_64-linux]
-    last_commit=Define IO#read/write_nonblock with builtins.
-  365557f111 --jit: |-
-    ruby 2.7.0dev (2019-11-08T01:03:19Z trunk 365557f111) +JIT [x86_64-linux]
-    last_commit=Define IO#read/write_nonblock with builtins.
   eaa011ffdb: |-
     ruby 2.7.0dev (2019-11-08T01:10:37Z trunk eaa011ffdb) [x86_64-linux]
     last_commit=Change requirements of BASERUBY.
@@ -12349,3 +12343,5 @@ commits:
   597e063606 --jit: ruby 3.1.0dev (2021-01-04T03:01:04Z master 597e063606) +JIT [x86_64-linux]
   68c2fc4cc0: ruby 3.1.0dev (2021-01-04T03:05:37Z master 68c2fc4cc0) [x86_64-linux]
   68c2fc4cc0 --jit: ruby 3.1.0dev (2021-01-04T03:05:37Z master 68c2fc4cc0) +JIT [x86_64-linux]
+  35c3a24c8c: ruby 3.1.0dev (2021-01-04T03:11:37Z master 35c3a24c8c) [x86_64-linux]
+  35c3a24c8c --jit: ruby 3.1.0dev (2021-01-04T03:11:37Z master 35c3a24c8c) +JIT [x86_64-linux]
