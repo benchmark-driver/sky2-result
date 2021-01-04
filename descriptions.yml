@@ -13,18 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  83c563cfa4: |-
-    ruby 2.7.0dev (2019-11-08T07:16:25Z trunk 83c563cfa4) [x86_64-linux]
-    last_commit=cstr -> bytes
-  83c563cfa4 --jit: |-
-    ruby 2.7.0dev (2019-11-08T07:16:25Z trunk 83c563cfa4) +JIT [x86_64-linux]
-    last_commit=cstr -> bytes
-  6e72b72881: |-
-    ruby 2.7.0dev (2019-11-08T07:18:36Z trunk 6e72b72881) [x86_64-linux]
-    last_commit=Suppress "shadowing outer local variable" warning in 2.5
-  6e72b72881 --jit: |-
-    ruby 2.7.0dev (2019-11-08T07:18:36Z trunk 6e72b72881) +JIT [x86_64-linux]
-    last_commit=Suppress "shadowing outer local variable" warning in 2.5
   20971799f2: |-
     ruby 2.7.0dev (2019-11-08T07:30:28Z trunk 20971799f2) [x86_64-linux]
     last_commit=Renamed `load_*.inc` as `*.rbinc` to utilize a suffix rule
@@ -12304,3 +12292,7 @@ commits:
   afa9d65d61 --jit: ruby 3.1.0dev (2021-01-04T10:55:35Z master afa9d65d61) +JIT [x86_64-linux]
   433a3be86a: ruby 3.1.0dev (2021-01-04T14:37:00Z master 433a3be86a) [x86_64-linux]
   433a3be86a --jit: ruby 3.1.0dev (2021-01-04T14:37:00Z master 433a3be86a) +JIT [x86_64-linux]
+  1fe111d7d0: ruby 3.1.0dev (2021-01-04T15:02:01Z master 1fe111d7d0) [x86_64-linux]
+  1fe111d7d0 --jit: ruby 3.1.0dev (2021-01-04T15:02:01Z master 1fe111d7d0) +JIT [x86_64-linux]
+  3fee9e7021: ruby 3.1.0dev (2021-01-04T15:19:48Z master 3fee9e7021) [x86_64-linux]
+  3fee9e7021 --jit: ruby 3.1.0dev (2021-01-04T15:19:48Z master 3fee9e7021) +JIT [x86_64-linux]
