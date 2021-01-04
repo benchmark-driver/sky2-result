@@ -13,18 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  '08ff9edb53': |-
-    ruby 2.7.0dev (2019-11-08T00:30:11Z trunk 08ff9edb53) [x86_64-linux]
-    last_commit=fix line break code (fix to LF)
-  '08ff9edb53 --jit': |-
-    ruby 2.7.0dev (2019-11-08T00:30:11Z trunk 08ff9edb53) +JIT [x86_64-linux]
-    last_commit=fix line break code (fix to LF)
-  dad2abc69f: |-
-    ruby 2.7.0dev (2019-11-08T01:03:19Z trunk dad2abc69f) [x86_64-linux]
-    last_commit=do not use __func__.
-  dad2abc69f --jit: |-
-    ruby 2.7.0dev (2019-11-08T01:03:19Z trunk dad2abc69f) +JIT [x86_64-linux]
-    last_commit=do not use __func__.
   365557f111: |-
     ruby 2.7.0dev (2019-11-08T01:03:19Z trunk 365557f111) [x86_64-linux]
     last_commit=Define IO#read/write_nonblock with builtins.
@@ -12357,3 +12345,7 @@ commits:
   0644f466b0 --jit: ruby 3.1.0dev (2021-01-03T14:38:21Z master 0644f466b0) +JIT [x86_64-linux]
   f4be7a510e: ruby 3.1.0dev (2021-01-03T14:56:04Z master f4be7a510e) [x86_64-linux]
   f4be7a510e --jit: ruby 3.1.0dev (2021-01-03T14:56:04Z master f4be7a510e) +JIT [x86_64-linux]
+  597e063606: ruby 3.1.0dev (2021-01-04T03:01:04Z master 597e063606) [x86_64-linux]
+  597e063606 --jit: ruby 3.1.0dev (2021-01-04T03:01:04Z master 597e063606) +JIT [x86_64-linux]
+  68c2fc4cc0: ruby 3.1.0dev (2021-01-04T03:05:37Z master 68c2fc4cc0) [x86_64-linux]
+  68c2fc4cc0 --jit: ruby 3.1.0dev (2021-01-04T03:05:37Z master 68c2fc4cc0) +JIT [x86_64-linux]
