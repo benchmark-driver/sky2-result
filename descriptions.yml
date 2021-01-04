@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  e02b819482: |-
-    ruby 2.7.0dev (2019-11-08T07:38:06Z trunk e02b819482) [x86_64-linux]
-    last_commit=delete cc->aux.inc_sp
-  e02b819482 --jit: |-
-    ruby 2.7.0dev (2019-11-08T07:38:06Z trunk e02b819482) +JIT [x86_64-linux]
-    last_commit=delete cc->aux.inc_sp
   7acf7a4f90: |-
     ruby 2.7.0dev (2019-11-08T09:49:18Z trunk 7acf7a4f90) [x86_64-linux]
     last_commit=Add VPATH to rbinc rule for nmake
@@ -12284,3 +12278,5 @@ commits:
   bf21faec15 --jit: ruby 3.1.0dev (2021-01-04T16:06:33Z master bf21faec15) +JIT [x86_64-linux]
   e7fc353f04: ruby 3.1.0dev (2021-01-04T17:27:58Z master e7fc353f04) [x86_64-linux]
   e7fc353f04 --jit: ruby 3.1.0dev (2021-01-04T17:27:58Z master e7fc353f04) +JIT [x86_64-linux]
+  87c546b5fa: ruby 3.1.0dev (2021-01-04T18:45:01Z master 87c546b5fa) [x86_64-linux]
+  87c546b5fa --jit: ruby 3.1.0dev (2021-01-04T18:45:01Z master 87c546b5fa) +JIT [x86_64-linux]
