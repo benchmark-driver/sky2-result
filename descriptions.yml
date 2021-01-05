@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  352887b731: |-
-    ruby 2.7.0dev (2019-11-09T02:08:24Z trunk 352887b731) [x86_64-linux]
-    last_commit=Remove YAML::VERSION because it conflicts with Psych::VERSION
-  352887b731 --jit: |-
-    ruby 2.7.0dev (2019-11-09T02:08:24Z trunk 352887b731) +JIT [x86_64-linux]
-    last_commit=Remove YAML::VERSION because it conflicts with Psych::VERSION
   50bc7e7e9f: |-
     ruby 2.7.0dev (2019-11-09T06:20:52Z trunk 50bc7e7e9f) [x86_64-linux]
     last_commit=Add debug print
@@ -12203,3 +12197,5 @@ commits:
   83e62d7798 --jit: ruby 3.1.0dev (2021-01-05T12:26:15Z master 83e62d7798) +JIT [x86_64-linux]
   3d43944725: ruby 3.1.0dev (2021-01-05T14:10:39Z master 3d43944725) [x86_64-linux]
   3d43944725 --jit: ruby 3.1.0dev (2021-01-05T14:10:39Z master 3d43944725) +JIT [x86_64-linux]
+  3108ad7bf3: ruby 3.1.0dev (2021-01-05T14:13:53Z master 3108ad7bf3) [x86_64-linux]
+  3108ad7bf3 --jit: ruby 3.1.0dev (2021-01-05T14:13:53Z master 3108ad7bf3) +JIT [x86_64-linux]
