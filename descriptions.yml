@@ -13,48 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  88b9a0f7fe: |-
-    ruby 2.7.0dev (2019-11-08T15:21:44Z trunk 88b9a0f7fe) [x86_64-linux]
-    last_commit=Prettify builtin_binary format
-  88b9a0f7fe --jit: |-
-    ruby 2.7.0dev (2019-11-08T15:21:44Z trunk 88b9a0f7fe) +JIT [x86_64-linux]
-    last_commit=Prettify builtin_binary format
-  9deca1a3b9: |-
-    ruby 2.7.0dev (2019-11-08T15:25:28Z trunk 9deca1a3b9) [x86_64-linux]
-    last_commit=Try to fix test-spec failure on macOS
-  9deca1a3b9 --jit: |-
-    ruby 2.7.0dev (2019-11-08T15:25:28Z trunk 9deca1a3b9) +JIT [x86_64-linux]
-    last_commit=Try to fix test-spec failure on macOS
-  3b6954f8b9: |-
-    ruby 2.7.0dev (2019-11-08T20:41:05Z trunk 3b6954f8b9) [x86_64-linux]
-    last_commit=Fix passing actual object_id to finalizer
-  3b6954f8b9 --jit: |-
-    ruby 2.7.0dev (2019-11-08T20:41:05Z trunk 3b6954f8b9) +JIT [x86_64-linux]
-    last_commit=Fix passing actual object_id to finalizer
-  dfac2e9eb3: |-
-    ruby 2.7.0dev (2019-11-08T21:57:58Z trunk dfac2e9eb3) [x86_64-linux]
-    last_commit=don't embed full-path.
-  dfac2e9eb3 --jit: |-
-    ruby 2.7.0dev (2019-11-08T21:57:58Z trunk dfac2e9eb3) +JIT [x86_64-linux]
-    last_commit=don't embed full-path.
-  b5d8849220: |-
-    ruby 2.7.0dev (2019-11-08T22:09:01Z trunk b5d8849220) [x86_64-linux]
-    last_commit=Revert "don't embed full-path."
-  b5d8849220 --jit: |-
-    ruby 2.7.0dev (2019-11-08T22:09:01Z trunk b5d8849220) +JIT [x86_64-linux]
-    last_commit=Revert "don't embed full-path."
-  fc1d06b25d: |-
-    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk fc1d06b25d) [x86_64-linux]
-    last_commit=Added gemspec for readline gem that is wrapper library for reline and readline extension
-  fc1d06b25d --jit: |-
-    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk fc1d06b25d) +JIT [x86_64-linux]
-    last_commit=Added gemspec for readline gem that is wrapper library for reline and readline extension
-  3d731c3694: |-
-    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 3d731c3694) [x86_64-linux]
-    last_commit=Promote readline to default gems named readline-ext
-  3d731c3694 --jit: |-
-    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 3d731c3694) +JIT [x86_64-linux]
-    last_commit=Promote readline to default gems named readline-ext
   5f206cebb9: |-
     ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 5f206cebb9) [x86_64-linux]
     last_commit=Promote observer to default gems. But not yet released
@@ -12254,3 +12212,17 @@ commits:
   b9c1b3f8d8 --jit: ruby 3.1.0dev (2021-01-05T04:59:03Z master b9c1b3f8d8) +JIT [x86_64-linux]
   e91160f757: ruby 3.1.0dev (2021-01-05T07:50:00Z master e91160f757) [x86_64-linux]
   e91160f757 --jit: ruby 3.1.0dev (2021-01-05T07:50:00Z master e91160f757) +JIT [x86_64-linux]
+  cce72a2411: ruby 3.1.0dev (2021-01-05T09:04:45Z master cce72a2411) [x86_64-linux]
+  cce72a2411 --jit: ruby 3.1.0dev (2021-01-05T09:04:45Z master cce72a2411) +JIT [x86_64-linux]
+  e72a6ed45f: ruby 3.1.0dev (2021-01-05T09:05:06Z master e72a6ed45f) [x86_64-linux]
+  e72a6ed45f --jit: ruby 3.1.0dev (2021-01-05T09:05:06Z master e72a6ed45f) +JIT [x86_64-linux]
+  '5012512398': ruby 3.1.0dev (2021-01-05T09:06:10Z master 5012512398) [x86_64-linux]
+  5012512398 --jit: ruby 3.1.0dev (2021-01-05T09:06:10Z master 5012512398) +JIT [x86_64-linux]
+  505e01fe12: ruby 3.1.0dev (2021-01-05T09:06:26Z master 505e01fe12) [x86_64-linux]
+  505e01fe12 --jit: ruby 3.1.0dev (2021-01-05T09:06:26Z master 505e01fe12) +JIT [x86_64-linux]
+  5a1866caff: ruby 3.1.0dev (2021-01-05T09:06:34Z master 5a1866caff) [x86_64-linux]
+  5a1866caff --jit: ruby 3.1.0dev (2021-01-05T09:06:34Z master 5a1866caff) +JIT [x86_64-linux]
+  0123bc9d38: ruby 3.1.0dev (2021-01-05T09:06:43Z master 0123bc9d38) [x86_64-linux]
+  0123bc9d38 --jit: ruby 3.1.0dev (2021-01-05T09:06:43Z master 0123bc9d38) +JIT [x86_64-linux]
+  903af74bbd: ruby 3.1.0dev (2021-01-05T09:07:18Z master 903af74bbd) [x86_64-linux]
+  903af74bbd --jit: ruby 3.1.0dev (2021-01-05T09:07:18Z master 903af74bbd) +JIT [x86_64-linux]
