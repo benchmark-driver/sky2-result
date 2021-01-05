@@ -13,36 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  5f206cebb9: |-
-    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 5f206cebb9) [x86_64-linux]
-    last_commit=Promote observer to default gems. But not yet released
-  5f206cebb9 --jit: |-
-    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 5f206cebb9) +JIT [x86_64-linux]
-    last_commit=Promote observer to default gems. But not yet released
-  9a90a4d953: |-
-    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 9a90a4d953) [x86_64-linux]
-    last_commit=Fixup 368ee984ed52f6abe1fdf8360ad72e6cf1cbfa66
-  9a90a4d953 --jit: |-
-    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 9a90a4d953) +JIT [x86_64-linux]
-    last_commit=Fixup 368ee984ed52f6abe1fdf8360ad72e6cf1cbfa66
-  2a0ed5691e: |-
-    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 2a0ed5691e) [x86_64-linux]
-    last_commit=Promote timeout to default gems
-  2a0ed5691e --jit: |-
-    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 2a0ed5691e) +JIT [x86_64-linux]
-    last_commit=Promote timeout to default gems
-  8c9438d219: |-
-    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 8c9438d219) [x86_64-linux]
-    last_commit=Promote yaml to default gems
-  8c9438d219 --jit: |-
-    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk 8c9438d219) +JIT [x86_64-linux]
-    last_commit=Promote yaml to default gems
-  c5b4d2a259: |-
-    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk c5b4d2a259) [x86_64-linux]
-    last_commit=Promote uri to default gems
-  c5b4d2a259 --jit: |-
-    ruby 2.7.0dev (2019-11-08T22:32:34Z trunk c5b4d2a259) +JIT [x86_64-linux]
-    last_commit=Promote uri to default gems
   21f7cca2c6: |-
     ruby 2.7.0dev (2019-11-09T01:04:04Z trunk 21f7cca2c6) [x86_64-linux]
     last_commit=initialize kw special local var.
@@ -12226,3 +12196,14 @@ commits:
   0123bc9d38 --jit: ruby 3.1.0dev (2021-01-05T09:06:43Z master 0123bc9d38) +JIT [x86_64-linux]
   903af74bbd: ruby 3.1.0dev (2021-01-05T09:07:18Z master 903af74bbd) [x86_64-linux]
   903af74bbd --jit: ruby 3.1.0dev (2021-01-05T09:07:18Z master 903af74bbd) +JIT [x86_64-linux]
+  '075824ebd5': ruby 3.1.0dev (2021-01-05T12:23:07Z master 075824ebd5) [x86_64-linux]
+  '075824ebd5 --jit': ruby 3.1.0dev (2021-01-05T12:23:07Z master 075824ebd5) +JIT
+    [x86_64-linux]
+  06454a9457: ruby 3.1.0dev (2021-01-05T12:24:10Z master 06454a9457) [x86_64-linux]
+  06454a9457 --jit: ruby 3.1.0dev (2021-01-05T12:24:10Z master 06454a9457) +JIT [x86_64-linux]
+  ead8d89bd7: ruby 3.1.0dev (2021-01-05T12:26:11Z master ead8d89bd7) [x86_64-linux]
+  ead8d89bd7 --jit: ruby 3.1.0dev (2021-01-05T12:26:11Z master ead8d89bd7) +JIT [x86_64-linux]
+  '4272395982': ruby 3.1.0dev (2021-01-05T12:26:13Z master 4272395982) [x86_64-linux]
+  4272395982 --jit: ruby 3.1.0dev (2021-01-05T12:26:13Z master 4272395982) +JIT [x86_64-linux]
+  83e62d7798: ruby 3.1.0dev (2021-01-05T12:26:15Z master 83e62d7798) [x86_64-linux]
+  83e62d7798 --jit: ruby 3.1.0dev (2021-01-05T12:26:15Z master 83e62d7798) +JIT [x86_64-linux]
