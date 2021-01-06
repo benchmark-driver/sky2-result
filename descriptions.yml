@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  dfaac2b372: |-
-    ruby 2.7.0dev (2019-11-09T10:28:45Z trunk dfaac2b372) [x86_64-linux]
-    last_commit=Embed builtin ruby scripts in miniprelude.c
-  dfaac2b372 --jit: |-
-    ruby 2.7.0dev (2019-11-09T10:28:45Z trunk dfaac2b372) +JIT [x86_64-linux]
-    last_commit=Embed builtin ruby scripts in miniprelude.c
   e3c8524411: |-
     ruby 2.7.0dev (2019-11-09T10:43:14Z trunk e3c8524411) [x86_64-linux]
     last_commit=Full-path of builtin scripts no longer needed
@@ -12179,3 +12173,5 @@ commits:
   31854403b3 --jit: ruby 3.1.0dev (2021-01-06T00:25:13Z master 31854403b3) +JIT [x86_64-linux]
   f289f8ae3a: ruby 3.1.0dev (2021-01-06T01:56:48Z master f289f8ae3a) [x86_64-linux]
   f289f8ae3a --jit: ruby 3.1.0dev (2021-01-06T01:56:48Z master f289f8ae3a) +JIT [x86_64-linux]
+  7da06c04b2: ruby 3.1.0dev (2021-01-06T04:39:09Z master 7da06c04b2) [x86_64-linux]
+  7da06c04b2 --jit: ruby 3.1.0dev (2021-01-06T04:39:09Z master 7da06c04b2) +JIT [x86_64-linux]
