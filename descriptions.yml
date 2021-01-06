@@ -13,18 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  43ceedecc0: |-
-    ruby 2.7.0dev (2019-11-09T07:18:58Z trunk 43ceedecc0) [x86_64-linux]
-    last_commit=use STACK_ADDR_FROM_TOP()
-  43ceedecc0 --jit: |-
-    ruby 2.7.0dev (2019-11-09T07:18:58Z trunk 43ceedecc0) +JIT [x86_64-linux]
-    last_commit=use STACK_ADDR_FROM_TOP()
-  352096ef60: |-
-    ruby 2.7.0dev (2019-11-09T07:45:27Z trunk 352096ef60) [x86_64-linux]
-    last_commit=Add debug print
-  352096ef60 --jit: |-
-    ruby 2.7.0dev (2019-11-09T07:45:27Z trunk 352096ef60) +JIT [x86_64-linux]
-    last_commit=Add debug print
   95aed94d2a: |-
     ruby 2.7.0dev (2019-11-09T09:45:48Z trunk 95aed94d2a) [x86_64-linux]
     last_commit=Fixed `#line` directives in miniprelude.c
@@ -12195,3 +12183,7 @@ commits:
   3108ad7bf3 --jit: ruby 3.1.0dev (2021-01-05T14:13:53Z master 3108ad7bf3) +JIT [x86_64-linux]
   e13f41e02d: ruby 3.1.0dev (2021-01-05T23:34:45Z master e13f41e02d) [x86_64-linux]
   e13f41e02d --jit: ruby 3.1.0dev (2021-01-05T23:34:45Z master e13f41e02d) +JIT [x86_64-linux]
+  e8945d5eb3: ruby 3.1.0dev (2021-01-05T23:35:07Z master e8945d5eb3) [x86_64-linux]
+  e8945d5eb3 --jit: ruby 3.1.0dev (2021-01-05T23:35:07Z master e8945d5eb3) +JIT [x86_64-linux]
+  a0a6293e78: ruby 3.1.0dev (2021-01-05T23:35:56Z master a0a6293e78) [x86_64-linux]
+  a0a6293e78 --jit: ruby 3.1.0dev (2021-01-05T23:35:56Z master a0a6293e78) +JIT [x86_64-linux]
