@@ -13,18 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  4dd1caa129: |-
-    ruby 2.7.0dev (2019-11-09T11:08:01Z trunk 4dd1caa129) [x86_64-linux]
-    last_commit=Updated miniprelude.o dependency
-  4dd1caa129 --jit: |-
-    ruby 2.7.0dev (2019-11-09T11:08:01Z trunk 4dd1caa129) +JIT [x86_64-linux]
-    last_commit=Updated miniprelude.o dependency
-  fdfad90522: |-
-    ruby 2.7.0dev (2019-11-09T11:16:03Z trunk fdfad90522) [x86_64-linux]
-    last_commit=Revert "Promote uri to default gems"
-  fdfad90522 --jit: |-
-    ruby 2.7.0dev (2019-11-09T11:16:03Z trunk fdfad90522) +JIT [x86_64-linux]
-    last_commit=Revert "Promote uri to default gems"
   79f0e7aafd: |-
     ruby 2.7.0dev (2019-11-09T12:12:29Z trunk 79f0e7aafd) [x86_64-linux]
     last_commit=Fix typos
@@ -12171,3 +12159,7 @@ commits:
   7da06c04b2 --jit: ruby 3.1.0dev (2021-01-06T04:39:09Z master 7da06c04b2) +JIT [x86_64-linux]
   fa8295ccb9: ruby 3.1.0dev (2021-01-06T04:52:12Z master fa8295ccb9) [x86_64-linux]
   fa8295ccb9 --jit: ruby 3.1.0dev (2021-01-06T04:52:12Z master fa8295ccb9) +JIT [x86_64-linux]
+  442bd0e92c: ruby 3.1.0dev (2021-01-06T05:57:48Z master 442bd0e92c) [x86_64-linux]
+  442bd0e92c --jit: ruby 3.1.0dev (2021-01-06T05:57:48Z master 442bd0e92c) +JIT [x86_64-linux]
+  954d6c7432: ruby 3.1.0dev (2021-01-06T05:57:48Z master 954d6c7432) [x86_64-linux]
+  954d6c7432 --jit: ruby 3.1.0dev (2021-01-06T05:57:48Z master 954d6c7432) +JIT [x86_64-linux]
