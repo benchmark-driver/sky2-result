@@ -13,18 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  79f0e7aafd: |-
-    ruby 2.7.0dev (2019-11-09T12:12:29Z trunk 79f0e7aafd) [x86_64-linux]
-    last_commit=Fix typos
-  79f0e7aafd --jit: |-
-    ruby 2.7.0dev (2019-11-09T12:12:29Z trunk 79f0e7aafd) +JIT [x86_64-linux]
-    last_commit=Fix typos
-  fcf37ca2fe: |-
-    ruby 2.7.0dev (2019-11-09T12:16:05Z trunk fcf37ca2fe) [x86_64-linux]
-    last_commit=Fix builtin scirpt paths
-  fcf37ca2fe --jit: |-
-    ruby 2.7.0dev (2019-11-09T12:16:05Z trunk fcf37ca2fe) +JIT [x86_64-linux]
-    last_commit=Fix builtin scirpt paths
   f48655d04d: |-
     ruby 2.7.0dev (2019-11-09T12:36:30Z trunk f48655d04d) [x86_64-linux]
     last_commit=Remove unneeded exec bits from some files
@@ -12163,3 +12151,7 @@ commits:
   442bd0e92c --jit: ruby 3.1.0dev (2021-01-06T05:57:48Z master 442bd0e92c) +JIT [x86_64-linux]
   954d6c7432: ruby 3.1.0dev (2021-01-06T05:57:48Z master 954d6c7432) [x86_64-linux]
   954d6c7432 --jit: ruby 3.1.0dev (2021-01-06T05:57:48Z master 954d6c7432) +JIT [x86_64-linux]
+  d9fdca81ac: ruby 3.1.0dev (2021-01-06T07:02:32Z master d9fdca81ac) [x86_64-linux]
+  d9fdca81ac --jit: ruby 3.1.0dev (2021-01-06T07:02:32Z master d9fdca81ac) +JIT [x86_64-linux]
+  d968829afa: ruby 3.1.0dev (2021-01-06T07:03:09Z master d968829afa) [x86_64-linux]
+  d968829afa --jit: ruby 3.1.0dev (2021-01-06T07:03:09Z master d968829afa) +JIT [x86_64-linux]
