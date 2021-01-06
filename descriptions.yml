@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  95aed94d2a: |-
-    ruby 2.7.0dev (2019-11-09T09:45:48Z trunk 95aed94d2a) [x86_64-linux]
-    last_commit=Fixed `#line` directives in miniprelude.c
-  95aed94d2a --jit: |-
-    ruby 2.7.0dev (2019-11-09T09:45:48Z trunk 95aed94d2a) +JIT [x86_64-linux]
-    last_commit=Fixed `#line` directives in miniprelude.c
   4dc4b18904: |-
     ruby 2.7.0dev (2019-11-09T10:15:10Z trunk 4dc4b18904) [x86_64-linux]
     last_commit=Fixed commit miss
@@ -12187,3 +12181,5 @@ commits:
   e8945d5eb3 --jit: ruby 3.1.0dev (2021-01-05T23:35:07Z master e8945d5eb3) +JIT [x86_64-linux]
   a0a6293e78: ruby 3.1.0dev (2021-01-05T23:35:56Z master a0a6293e78) [x86_64-linux]
   a0a6293e78 --jit: ruby 3.1.0dev (2021-01-05T23:35:56Z master a0a6293e78) +JIT [x86_64-linux]
+  31854403b3: ruby 3.1.0dev (2021-01-06T00:25:13Z master 31854403b3) [x86_64-linux]
+  31854403b3 --jit: ruby 3.1.0dev (2021-01-06T00:25:13Z master 31854403b3) +JIT [x86_64-linux]
