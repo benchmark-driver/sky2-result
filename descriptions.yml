@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  20bc038ea3: |-
-    ruby 2.7.0dev (2019-11-09T12:59:07Z trunk 20bc038ea3) [x86_64-linux]
-    last_commit=Debug-print tmpdir info
-  20bc038ea3 --jit: |-
-    ruby 2.7.0dev (2019-11-09T12:59:07Z trunk 20bc038ea3) +JIT [x86_64-linux]
-    last_commit=Debug-print tmpdir info
   774cfb0655: |-
     ruby 2.7.0dev (2019-11-09T13:15:15Z trunk 774cfb0655) [x86_64-linux]
     last_commit=Fixed the debug print
@@ -12152,3 +12146,5 @@ commits:
   '069649389c': ruby 3.1.0dev (2021-01-06T08:34:18Z master 069649389c) [x86_64-linux]
   '069649389c --jit': ruby 3.1.0dev (2021-01-06T08:34:18Z master 069649389c) +JIT
     [x86_64-linux]
+  939729dd82: ruby 3.1.0dev (2021-01-06T12:58:34Z master 939729dd82) [x86_64-linux]
+  939729dd82 --jit: ruby 3.1.0dev (2021-01-06T12:58:34Z master 939729dd82) +JIT [x86_64-linux]
