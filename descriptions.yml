@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  2c55ba7191: |-
-    ruby 2.7.0dev (2019-11-10T01:10:31Z trunk 2c55ba7191) [x86_64-linux]
-    last_commit=Define NULLCMD as an empty label [Bug #16331]
-  2c55ba7191 --jit: |-
-    ruby 2.7.0dev (2019-11-10T01:10:31Z trunk 2c55ba7191) +JIT [x86_64-linux]
-    last_commit=Define NULLCMD as an empty label [Bug #16331]
   11aa07c270: |-
     ruby 2.7.0dev (2019-11-10T01:52:12Z trunk 11aa07c270) [x86_64-linux]
     last_commit=Define NULLCMD as printing NUL [Bug #16331]
@@ -12124,3 +12118,5 @@ commits:
   96ce1d9a0f --jit: ruby 3.1.0dev (2021-01-07T05:55:33Z master 96ce1d9a0f) +JIT [x86_64-linux]
   184e82e8f0: ruby 3.1.0dev (2021-01-07T07:52:10Z master 184e82e8f0) [x86_64-linux]
   184e82e8f0 --jit: ruby 3.1.0dev (2021-01-07T07:52:10Z master 184e82e8f0) +JIT [x86_64-linux]
+  412d26a385: ruby 3.1.0dev (2021-01-07T11:11:02Z master 412d26a385) [x86_64-linux]
+  412d26a385 --jit: ruby 3.1.0dev (2021-01-07T11:11:02Z master 412d26a385) +JIT [x86_64-linux]
