@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  11aa07c270: |-
-    ruby 2.7.0dev (2019-11-10T01:52:12Z trunk 11aa07c270) [x86_64-linux]
-    last_commit=Define NULLCMD as printing NUL [Bug #16331]
-  11aa07c270 --jit: |-
-    ruby 2.7.0dev (2019-11-10T01:52:12Z trunk 11aa07c270) +JIT [x86_64-linux]
-    last_commit=Define NULLCMD as printing NUL [Bug #16331]
   '0483d01f6b': |-
     ruby 2.7.0dev (2019-11-10T05:16:16Z trunk 0483d01f6b) [x86_64-linux]
     last_commit=Test invokebuiltin in test_jit
@@ -12120,3 +12114,5 @@ commits:
   184e82e8f0 --jit: ruby 3.1.0dev (2021-01-07T07:52:10Z master 184e82e8f0) +JIT [x86_64-linux]
   412d26a385: ruby 3.1.0dev (2021-01-07T11:11:02Z master 412d26a385) [x86_64-linux]
   412d26a385 --jit: ruby 3.1.0dev (2021-01-07T11:11:02Z master 412d26a385) +JIT [x86_64-linux]
+  55e52c19e7: ruby 3.1.0dev (2021-01-07T14:44:25Z master 55e52c19e7) [x86_64-linux]
+  55e52c19e7 --jit: ruby 3.1.0dev (2021-01-07T14:44:25Z master 55e52c19e7) +JIT [x86_64-linux]
