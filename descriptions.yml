@@ -13,18 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  e0094df29d: |-
-    ruby 2.7.0dev (2019-11-09T21:22:51Z trunk e0094df29d) [x86_64-linux]
-    last_commit=Extend sleep duration for Solaris
-  e0094df29d --jit: |-
-    ruby 2.7.0dev (2019-11-09T21:22:51Z trunk e0094df29d) +JIT [x86_64-linux]
-    last_commit=Extend sleep duration for Solaris
-  ff767dd914: |-
-    ruby 2.7.0dev (2019-11-09T21:23:55Z trunk ff767dd914) [x86_64-linux]
-    last_commit=* 2019-11-10 [ci skip]
-  ff767dd914 --jit: |-
-    ruby 2.7.0dev (2019-11-09T21:23:55Z trunk ff767dd914) +JIT [x86_64-linux]
-    last_commit=* 2019-11-10 [ci skip]
   faa4f4f23f: |-
     ruby 2.7.0dev (2019-11-10T00:26:19Z trunk faa4f4f23f) [x86_64-linux]
     last_commit=Get rid of FreeBSD make incompatibility [Bug #16331]
@@ -12136,3 +12124,7 @@ commits:
   82f6085b3e --jit: ruby 3.1.0dev (2021-01-07T01:20:40Z master 82f6085b3e) +JIT [x86_64-linux]
   4d0985a7bd: ruby 3.1.0dev (2021-01-07T01:21:34Z master 4d0985a7bd) [x86_64-linux]
   4d0985a7bd --jit: ruby 3.1.0dev (2021-01-07T01:21:34Z master 4d0985a7bd) +JIT [x86_64-linux]
+  ee1e690a2d: ruby 3.1.0dev (2021-01-07T04:40:42Z master ee1e690a2d) [x86_64-linux]
+  ee1e690a2d --jit: ruby 3.1.0dev (2021-01-07T04:40:42Z master ee1e690a2d) +JIT [x86_64-linux]
+  96ce1d9a0f: ruby 3.1.0dev (2021-01-07T05:55:33Z master 96ce1d9a0f) [x86_64-linux]
+  96ce1d9a0f --jit: ruby 3.1.0dev (2021-01-07T05:55:33Z master 96ce1d9a0f) +JIT [x86_64-linux]
