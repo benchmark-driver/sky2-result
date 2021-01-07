@@ -13,12 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  faa4f4f23f: |-
-    ruby 2.7.0dev (2019-11-10T00:26:19Z trunk faa4f4f23f) [x86_64-linux]
-    last_commit=Get rid of FreeBSD make incompatibility [Bug #16331]
-  faa4f4f23f --jit: |-
-    ruby 2.7.0dev (2019-11-10T00:26:19Z trunk faa4f4f23f) +JIT [x86_64-linux]
-    last_commit=Get rid of FreeBSD make incompatibility [Bug #16331]
   2c55ba7191: |-
     ruby 2.7.0dev (2019-11-10T01:10:31Z trunk 2c55ba7191) [x86_64-linux]
     last_commit=Define NULLCMD as an empty label [Bug #16331]
@@ -12128,3 +12122,5 @@ commits:
   ee1e690a2d --jit: ruby 3.1.0dev (2021-01-07T04:40:42Z master ee1e690a2d) +JIT [x86_64-linux]
   96ce1d9a0f: ruby 3.1.0dev (2021-01-07T05:55:33Z master 96ce1d9a0f) [x86_64-linux]
   96ce1d9a0f --jit: ruby 3.1.0dev (2021-01-07T05:55:33Z master 96ce1d9a0f) +JIT [x86_64-linux]
+  184e82e8f0: ruby 3.1.0dev (2021-01-07T07:52:10Z master 184e82e8f0) [x86_64-linux]
+  184e82e8f0 --jit: ruby 3.1.0dev (2021-01-07T07:52:10Z master 184e82e8f0) +JIT [x86_64-linux]
