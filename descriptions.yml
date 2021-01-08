@@ -13,18 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  390293525a: |-
-    ruby 2.7.0dev (2019-11-11T03:20:03Z trunk 390293525a) [x86_64-linux]
-    last_commit=Remove binary data at installation
-  390293525a --jit: |-
-    ruby 2.7.0dev (2019-11-11T03:20:03Z trunk 390293525a) +JIT [x86_64-linux]
-    last_commit=Remove binary data at installation
-  6eaac7cfac: |-
-    ruby 2.7.0dev (2019-11-11T03:57:40Z trunk 6eaac7cfac) [x86_64-linux]
-    last_commit=Elaborated EOF char message a little
-  6eaac7cfac --jit: |-
-    ruby 2.7.0dev (2019-11-11T03:57:40Z trunk 6eaac7cfac) +JIT [x86_64-linux]
-    last_commit=Elaborated EOF char message a little
   31ee6f6f5d: |-
     ruby 2.7.0dev (2019-11-11T04:10:55Z trunk 31ee6f6f5d) [x86_64-linux]
     last_commit=Extract gem files after update
@@ -12056,3 +12044,7 @@ commits:
   6cbb3fd142 --jit: ruby 3.1.0dev (2021-01-08T04:32:10Z master 6cbb3fd142) +JIT [x86_64-linux]
   5a221eadfd: ruby 3.1.0dev (2021-01-08T04:38:37Z master 5a221eadfd) [x86_64-linux]
   5a221eadfd --jit: ruby 3.1.0dev (2021-01-08T04:38:37Z master 5a221eadfd) +JIT [x86_64-linux]
+  abdc634f64: ruby 3.1.0dev (2021-01-08T05:39:05Z master abdc634f64) [x86_64-linux]
+  abdc634f64 --jit: ruby 3.1.0dev (2021-01-08T05:39:05Z master abdc634f64) +JIT [x86_64-linux]
+  d4b7e967b6: ruby 3.1.0dev (2021-01-08T05:44:26Z master d4b7e967b6) [x86_64-linux]
+  d4b7e967b6 --jit: ruby 3.1.0dev (2021-01-08T05:44:26Z master d4b7e967b6) +JIT [x86_64-linux]
