@@ -13,96 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  '0483d01f6b': |-
-    ruby 2.7.0dev (2019-11-10T05:16:16Z trunk 0483d01f6b) [x86_64-linux]
-    last_commit=Test invokebuiltin in test_jit
-  '0483d01f6b --jit': |-
-    ruby 2.7.0dev (2019-11-10T05:16:16Z trunk 0483d01f6b) +JIT [x86_64-linux]
-    last_commit=Test invokebuiltin in test_jit
-  5c168c7e7f: |-
-    ruby 2.7.0dev (2019-11-10T05:40:38Z trunk 5c168c7e7f) [x86_64-linux]
-    last_commit=Support RB_BUILTIN in ISeq#to_a
-  5c168c7e7f --jit: |-
-    ruby 2.7.0dev (2019-11-10T05:40:38Z trunk 5c168c7e7f) +JIT [x86_64-linux]
-    last_commit=Support RB_BUILTIN in ISeq#to_a
-  4570284ce1: |-
-    ruby 2.7.0dev (2019-11-10T05:56:38Z trunk 4570284ce1) [x86_64-linux]
-    last_commit=Test opt_invokebuiltin_delegate_leave in test_jit
-  4570284ce1 --jit: |-
-    ruby 2.7.0dev (2019-11-10T05:56:38Z trunk 4570284ce1) +JIT [x86_64-linux]
-    last_commit=Test opt_invokebuiltin_delegate_leave in test_jit
-  ef03d48cb2: |-
-    ruby 2.7.0dev (2019-11-10T13:21:40Z trunk ef03d48cb2) [x86_64-linux]
-    last_commit=Fix a typo
-  ef03d48cb2 --jit: |-
-    ruby 2.7.0dev (2019-11-10T13:21:40Z trunk ef03d48cb2) +JIT [x86_64-linux]
-    last_commit=Fix a typo
-  6e70fa49b1: |-
-    ruby 2.7.0dev (2019-11-10T13:34:49Z trunk 6e70fa49b1) [x86_64-linux]
-    last_commit=Disallow omission of parentheses/brackets in single line pattern matching [Feature #16182]
-  6e70fa49b1 --jit: |-
-    ruby 2.7.0dev (2019-11-10T13:34:49Z trunk 6e70fa49b1) +JIT [x86_64-linux]
-    last_commit=Disallow omission of parentheses/brackets in single line pattern matching [Feature #16182]
-  b5996b25ae: |-
-    ruby 2.7.0dev (2019-11-10T21:33:23Z trunk b5996b25ae) [x86_64-linux]
-    last_commit=Colorize string quotes as bold
-  b5996b25ae --jit: |-
-    ruby 2.7.0dev (2019-11-10T21:33:23Z trunk b5996b25ae) +JIT [x86_64-linux]
-    last_commit=Colorize string quotes as bold
-  958d954a19: |-
-    ruby 2.7.0dev (2019-11-10T21:34:25Z trunk 958d954a19) [x86_64-linux]
-    last_commit=* 2019-11-11 [ci skip]
-  958d954a19 --jit: |-
-    ruby 2.7.0dev (2019-11-10T21:34:25Z trunk 958d954a19) +JIT [x86_64-linux]
-    last_commit=* 2019-11-11 [ci skip]
-  25c53a8eec: |-
-    ruby 2.7.0dev (2019-11-10T21:41:41Z trunk 25c53a8eec) [x86_64-linux]
-    last_commit=Colorize on_symbols_beg (%I)
-  25c53a8eec --jit: |-
-    ruby 2.7.0dev (2019-11-10T21:41:41Z trunk 25c53a8eec) +JIT [x86_64-linux]
-    last_commit=Colorize on_symbols_beg (%I)
-  fcd9bc28e3: |-
-    ruby 2.7.0dev (2019-11-10T21:54:44Z trunk fcd9bc28e3) [x86_64-linux]
-    last_commit=qsymbols and symbols should be colored as Symbol
-  fcd9bc28e3 --jit: |-
-    ruby 2.7.0dev (2019-11-10T21:54:44Z trunk fcd9bc28e3) +JIT [x86_64-linux]
-    last_commit=qsymbols and symbols should be colored as Symbol
-  a733893939: |-
-    ruby 2.7.0dev (2019-11-10T22:12:13Z trunk a733893939) [x86_64-linux]
-    last_commit=Fix uplevel of test_jit
-  a733893939 --jit: |-
-    ruby 2.7.0dev (2019-11-10T22:12:13Z trunk a733893939) +JIT [x86_64-linux]
-    last_commit=Fix uplevel of test_jit
-  b5dff926e7: |-
-    ruby 2.7.0dev (2019-11-11T00:16:00Z trunk b5dff926e7) [x86_64-linux]
-    last_commit=Prefer assert_syntax_error and assert_valid_syntax
-  b5dff926e7 --jit: |-
-    ruby 2.7.0dev (2019-11-11T00:16:00Z trunk b5dff926e7) +JIT [x86_64-linux]
-    last_commit=Prefer assert_syntax_error and assert_valid_syntax
-  b42656b9c4: |-
-    ruby 2.7.0dev (2019-11-11T00:22:46Z trunk b42656b9c4) [x86_64-linux]
-    last_commit=Ignore *.rbinc files
-  b42656b9c4 --jit: |-
-    ruby 2.7.0dev (2019-11-11T00:22:46Z trunk b42656b9c4) +JIT [x86_64-linux]
-    last_commit=Ignore *.rbinc files
-  ade0388894: |-
-    ruby 2.7.0dev (2019-11-11T00:38:14Z trunk ade0388894) [x86_64-linux]
-    last_commit=Fixed embedded document with EOF char
-  ade0388894 --jit: |-
-    ruby 2.7.0dev (2019-11-11T00:38:14Z trunk ade0388894) +JIT [x86_64-linux]
-    last_commit=Fixed embedded document with EOF char
-  69ec3f70fa: |-
-    ruby 2.7.0dev (2019-11-11T00:59:40Z trunk 69ec3f70fa) [x86_64-linux]
-    last_commit=Warn EOF char in comment
-  69ec3f70fa --jit: |-
-    ruby 2.7.0dev (2019-11-11T00:59:40Z trunk 69ec3f70fa) +JIT [x86_64-linux]
-    last_commit=Warn EOF char in comment
-  6f9be8505d: |-
-    ruby 2.7.0dev (2019-11-11T03:09:19Z trunk 6f9be8505d) [x86_64-linux]
-    last_commit=Relaxed warning assertions
-  6f9be8505d --jit: |-
-    ruby 2.7.0dev (2019-11-11T03:09:19Z trunk 6f9be8505d) +JIT [x86_64-linux]
-    last_commit=Relaxed warning assertions
   390293525a: |-
     ruby 2.7.0dev (2019-11-11T03:20:03Z trunk 390293525a) [x86_64-linux]
     last_commit=Remove binary data at installation
@@ -12116,3 +12026,33 @@ commits:
   412d26a385 --jit: ruby 3.1.0dev (2021-01-07T11:11:02Z master 412d26a385) +JIT [x86_64-linux]
   55e52c19e7: ruby 3.1.0dev (2021-01-07T14:44:25Z master 55e52c19e7) [x86_64-linux]
   55e52c19e7 --jit: ruby 3.1.0dev (2021-01-07T14:44:25Z master 55e52c19e7) +JIT [x86_64-linux]
+  4bb683a570: ruby 3.1.0dev (2021-01-08T04:25:18Z master 4bb683a570) [x86_64-linux]
+  4bb683a570 --jit: ruby 3.1.0dev (2021-01-08T04:25:18Z master 4bb683a570) +JIT [x86_64-linux]
+  f594775230: ruby 3.1.0dev (2021-01-08T04:25:18Z master f594775230) [x86_64-linux]
+  f594775230 --jit: ruby 3.1.0dev (2021-01-08T04:25:18Z master f594775230) +JIT [x86_64-linux]
+  ed3264d37a: ruby 3.1.0dev (2021-01-08T04:25:18Z master ed3264d37a) [x86_64-linux]
+  ed3264d37a --jit: ruby 3.1.0dev (2021-01-08T04:25:18Z master ed3264d37a) +JIT [x86_64-linux]
+  917050220a: ruby 3.1.0dev (2021-01-08T04:25:18Z master 917050220a) [x86_64-linux]
+  917050220a --jit: ruby 3.1.0dev (2021-01-08T04:25:18Z master 917050220a) +JIT [x86_64-linux]
+  111fddd543: ruby 3.1.0dev (2021-01-08T04:25:18Z master 111fddd543) [x86_64-linux]
+  111fddd543 --jit: ruby 3.1.0dev (2021-01-08T04:25:18Z master 111fddd543) +JIT [x86_64-linux]
+  559f844bf4: ruby 3.1.0dev (2021-01-08T04:25:18Z master 559f844bf4) [x86_64-linux]
+  559f844bf4 --jit: ruby 3.1.0dev (2021-01-08T04:25:18Z master 559f844bf4) +JIT [x86_64-linux]
+  54c1dcba2b: ruby 3.1.0dev (2021-01-08T04:25:18Z master 54c1dcba2b) [x86_64-linux]
+  54c1dcba2b --jit: ruby 3.1.0dev (2021-01-08T04:25:18Z master 54c1dcba2b) +JIT [x86_64-linux]
+  ea75aed98e: ruby 3.1.0dev (2021-01-08T04:25:18Z master ea75aed98e) [x86_64-linux]
+  ea75aed98e --jit: ruby 3.1.0dev (2021-01-08T04:25:18Z master ea75aed98e) +JIT [x86_64-linux]
+  e356b71d35: ruby 3.1.0dev (2021-01-08T04:25:18Z master e356b71d35) [x86_64-linux]
+  e356b71d35 --jit: ruby 3.1.0dev (2021-01-08T04:25:18Z master e356b71d35) +JIT [x86_64-linux]
+  88af5085db: ruby 3.1.0dev (2021-01-08T04:25:18Z master 88af5085db) [x86_64-linux]
+  88af5085db --jit: ruby 3.1.0dev (2021-01-08T04:25:18Z master 88af5085db) +JIT [x86_64-linux]
+  76c9a3c8c6: ruby 3.1.0dev (2021-01-08T04:25:18Z master 76c9a3c8c6) [x86_64-linux]
+  76c9a3c8c6 --jit: ruby 3.1.0dev (2021-01-08T04:25:18Z master 76c9a3c8c6) +JIT [x86_64-linux]
+  01235f800f: ruby 3.1.0dev (2021-01-08T04:25:18Z master 01235f800f) [x86_64-linux]
+  01235f800f --jit: ruby 3.1.0dev (2021-01-08T04:25:18Z master 01235f800f) +JIT [x86_64-linux]
+  a8f4cbeece: ruby 3.1.0dev (2021-01-08T04:25:18Z master a8f4cbeece) [x86_64-linux]
+  a8f4cbeece --jit: ruby 3.1.0dev (2021-01-08T04:25:18Z master a8f4cbeece) +JIT [x86_64-linux]
+  6cbb3fd142: ruby 3.1.0dev (2021-01-08T04:32:10Z master 6cbb3fd142) [x86_64-linux]
+  6cbb3fd142 --jit: ruby 3.1.0dev (2021-01-08T04:32:10Z master 6cbb3fd142) +JIT [x86_64-linux]
+  5a221eadfd: ruby 3.1.0dev (2021-01-08T04:38:37Z master 5a221eadfd) [x86_64-linux]
+  5a221eadfd --jit: ruby 3.1.0dev (2021-01-08T04:38:37Z master 5a221eadfd) +JIT [x86_64-linux]
