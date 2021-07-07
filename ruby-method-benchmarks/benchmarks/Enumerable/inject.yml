@@ -6924,6 +6924,7 @@ results:
     c5e6fa4853: 281607.477
     afd4cfcf22: 285092.178
     2f3edf28f3: 283342.719
+    b1b7f997ae: 283172.376
   Enumerable#inject(init, sym):
     00c33d9c23: 284288.429
     025206d0dd: 294506.081
@@ -13847,6 +13848,7 @@ results:
     c5e6fa4853: 281449.862
     afd4cfcf22: 279245.834
     2f3edf28f3: 281975.27
+    b1b7f997ae: 268962.901
   Enumerable#inject { |result, item| ...}:
     00c33d9c23: 248345.022
     025206d0dd: 242596.91
@@ -20770,6 +20772,7 @@ results:
     c5e6fa4853: 202000.506
     afd4cfcf22: 209873.474
     2f3edf28f3: 193444.996
+    b1b7f997ae: 205897.78
   Enumerable#inject(init) { |result, item| ...}:
     00c33d9c23: 237973.225
     025206d0dd: 249419.144
@@ -27693,6 +27696,7 @@ results:
     c5e6fa4853: 205111.842
     afd4cfcf22: 208037.833
     2f3edf28f3: 204920.937
+    b1b7f997ae: 201650.341
   Enumerable#reduce(sym):
     00c33d9c23: 286270.881
     025206d0dd: 289771.268
@@ -34616,6 +34620,7 @@ results:
     c5e6fa4853: 255602.633
     afd4cfcf22: 284340.367
     2f3edf28f3: 281754.547
+    b1b7f997ae: 258884.342
   Enumerable#reduce(init, sym):
     00c33d9c23: 271151.987
     025206d0dd: 294393.988
@@ -41539,6 +41544,7 @@ results:
     c5e6fa4853: 282256.229
     afd4cfcf22: 282157.165
     2f3edf28f3: 215363.381
+    b1b7f997ae: 255914.586
   Enumerable#reduce { |result, item| ...}:
     00c33d9c23: 240781.44
     025206d0dd: 233248.523
@@ -48462,6 +48468,7 @@ results:
     c5e6fa4853: 194253.812
     afd4cfcf22: 209492.144
     2f3edf28f3: 209705.943
+    b1b7f997ae: 207510.247
   Enumerable#reduce(init) { |result, item| ...}:
     00c33d9c23: 248882.723
     025206d0dd: 250091.641
@@ -55385,3 +55392,4 @@ results:
     c5e6fa4853: 205144.231
     afd4cfcf22: 202412.011
     2f3edf28f3: 202403.472
+    b1b7f997ae: 207420.546
