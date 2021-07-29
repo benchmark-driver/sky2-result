@@ -7169,6 +7169,7 @@ results:
     fa0279d947: 1265020.955
     656b49ec47: 1280008.639
     64adeeadaa: 1247051.491
+    27fb9d272d: 1265769.014
   String#gsub(pattern, replace) with string pattern:
     '019864b4a5': 1791006.849
     1119bb4794: 1704577.639
@@ -14337,6 +14338,7 @@ results:
     fa0279d947: 1672006.148
     656b49ec47: 1659179.807
     64adeeadaa: 1681260.712
+    27fb9d272d: 1672803.873
   String#gsub(pattern, replace) replacing with global variable:
     '019864b4a5': 759832.276
     1119bb4794: 738529.884
@@ -21505,6 +21507,7 @@ results:
     fa0279d947: 642462.077
     656b49ec47: 760669.184
     64adeeadaa: 770758.04
+    27fb9d272d: 766753.6
   String#gsub(pattern, hash):
     '019864b4a5': 697011.171
     1119bb4794: 694074.88
@@ -28673,6 +28676,7 @@ results:
     fa0279d947: 643208.003
     656b49ec47: 660719.712
     64adeeadaa: 655748.089
+    27fb9d272d: 665647.861
   String#gsub(pattern) { |matched| ...}:
     '019864b4a5': 1219128.333
     1119bb4794: 1236676.269
@@ -35841,6 +35845,7 @@ results:
     fa0279d947: 1159722.518
     656b49ec47: 1159561.846
     64adeeadaa: 1230686.175
+    27fb9d272d: 1145816.028
   String#gsub!(pattern, replace):
     '019864b4a5': 1332203.971
     1119bb4794: 1264705.62
@@ -43009,6 +43014,7 @@ results:
     fa0279d947: 1236033.852
     656b49ec47: 1231456.995
     64adeeadaa: 1239315.721
+    27fb9d272d: 1219688.742
   String#gsub!(pattern, replace) with string pattern:
     '019864b4a5': 1767886.616
     1119bb4794: 1705410.231
@@ -50177,6 +50183,7 @@ results:
     fa0279d947: 1610426.492
     656b49ec47: 1609966.03
     64adeeadaa: 1610413.286
+    27fb9d272d: 1608324.786
   String#gsub!(pattern, replace) replacing with global variable:
     '019864b4a5': 746956.626
     1119bb4794: 744423.874
@@ -57345,6 +57352,7 @@ results:
     fa0279d947: 648425.756
     656b49ec47: 747999.876
     64adeeadaa: 751550.053
+    27fb9d272d: 751502.91
   String#gsub!(pattern, hash):
     '019864b4a5': 685296.905
     1119bb4794: 679601.48
@@ -64513,6 +64521,7 @@ results:
     fa0279d947: 551585.153
     656b49ec47: 652634.15
     64adeeadaa: 638370.26
+    27fb9d272d: 650139.041
   String#gsub!(pattern) { |matched| ...}:
     '019864b4a5': 1201258.128
     1119bb4794: 1197537.756
@@ -71681,3 +71690,4 @@ results:
     fa0279d947: 1004677.32
     656b49ec47: 1120075.441
     64adeeadaa: 1184682.975
+    27fb9d272d: 1174839.197
