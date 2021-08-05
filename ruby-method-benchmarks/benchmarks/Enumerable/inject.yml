@@ -7179,7 +7179,8 @@ results:
     aba10ea61e: 272607.937
     6e55facdb3: 272584.462
     5ca0a51ffd: 273257.145
-    bc8bc072f4: 272424.756
+    bc8bc072f4: 273051.988
+    1fd0a2e4a6: 271137.136
   Enumerable#inject(init, sym):
     00c33d9c23: 284288.429
     025206d0dd: 294506.081
@@ -14358,7 +14359,8 @@ results:
     aba10ea61e: 250743.636
     6e55facdb3: 269724.655
     5ca0a51ffd: 269024.567
-    bc8bc072f4: 271078.191
+    bc8bc072f4: 265731.931
+    1fd0a2e4a6: 270377.396
   Enumerable#inject { |result, item| ...}:
     00c33d9c23: 248345.022
     025206d0dd: 242596.91
@@ -21537,7 +21539,8 @@ results:
     aba10ea61e: 196656.846
     6e55facdb3: 206312.474
     5ca0a51ffd: 206639.011
-    bc8bc072f4: 207728.919
+    bc8bc072f4: 202431.108
+    1fd0a2e4a6: 204930.752
   Enumerable#inject(init) { |result, item| ...}:
     00c33d9c23: 237973.225
     025206d0dd: 249419.144
@@ -28716,7 +28719,8 @@ results:
     aba10ea61e: 170666.0
     6e55facdb3: 206344.377
     5ca0a51ffd: 202712.687
-    bc8bc072f4: 177668.256
+    bc8bc072f4: 206309.249
+    1fd0a2e4a6: 205667.544
   Enumerable#reduce(sym):
     00c33d9c23: 286270.881
     025206d0dd: 289771.268
@@ -35895,7 +35899,8 @@ results:
     aba10ea61e: 266453.541
     6e55facdb3: 273580.528
     5ca0a51ffd: 272850.277
-    bc8bc072f4: 261017.87
+    bc8bc072f4: 272648.242
+    1fd0a2e4a6: 273027.973
   Enumerable#reduce(init, sym):
     00c33d9c23: 271151.987
     025206d0dd: 294393.988
@@ -43074,7 +43079,8 @@ results:
     aba10ea61e: 270998.899
     6e55facdb3: 271137.842
     5ca0a51ffd: 270724.919
-    bc8bc072f4: 268792.916
+    bc8bc072f4: 268882.21
+    1fd0a2e4a6: 270199.292
   Enumerable#reduce { |result, item| ...}:
     00c33d9c23: 240781.44
     025206d0dd: 233248.523
@@ -50253,7 +50259,8 @@ results:
     aba10ea61e: 207826.371
     6e55facdb3: 207485.029
     5ca0a51ffd: 191906.075
-    bc8bc072f4: 201623.183
+    bc8bc072f4: 203465.153
+    1fd0a2e4a6: 191494.389
   Enumerable#reduce(init) { |result, item| ...}:
     00c33d9c23: 248882.723
     025206d0dd: 250091.641
@@ -57432,4 +57439,5 @@ results:
     aba10ea61e: 206062.465
     6e55facdb3: 206319.968
     5ca0a51ffd: 196307.459
-    bc8bc072f4: 205241.593
+    bc8bc072f4: 173735.937
+    1fd0a2e4a6: 179890.89
