@@ -7390,6 +7390,7 @@ results:
     83244b8c89: 3119945.188
     8361675e3a: 3113921.977
     689962eaea: 3124596.28
+    b2e2cf2ded: 3244215.63
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -14779,6 +14780,7 @@ results:
     83244b8c89: 3080985.748
     8361675e3a: 3084389.235
     689962eaea: 3057788.89
+    b2e2cf2ded: 3252401.483
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -22168,6 +22170,7 @@ results:
     83244b8c89: 1970729.652
     8361675e3a: 1980544.454
     689962eaea: 1978661.895
+    b2e2cf2ded: 2042868.081
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -29557,6 +29560,7 @@ results:
     83244b8c89: 2882837.083
     8361675e3a: 2891443.931
     689962eaea: 2449583.949
+    b2e2cf2ded: 2796662.602
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -36946,6 +36950,7 @@ results:
     83244b8c89: 3366143.043
     8361675e3a: 3366680.987
     689962eaea: 3148453.367
+    b2e2cf2ded: 3488803.614
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -44335,6 +44340,7 @@ results:
     83244b8c89: 3343534.632
     8361675e3a: 3324905.389
     689962eaea: 3206517.821
+    b2e2cf2ded: 3479586.656
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -51724,6 +51730,7 @@ results:
     83244b8c89: 2064255.148
     8361675e3a: 2072449.582
     689962eaea: 1993534.077
+    b2e2cf2ded: 1936879.036
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -59113,3 +59120,4 @@ results:
     83244b8c89: 2741800.577
     8361675e3a: 3112886.433
     689962eaea: 2988593.988
+    b2e2cf2ded: 2777885.307
