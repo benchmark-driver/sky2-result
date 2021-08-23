@@ -7392,7 +7392,8 @@ results:
     689962eaea: 3124596.28
     b2e2cf2ded: 3244215.63
     eddd369e73: 3001761.133
-    70abda1ad4: 3110760.673
+    70abda1ad4: 2896655.072
+    6648b411f7: 3112551.256
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -14784,7 +14785,8 @@ results:
     689962eaea: 3057788.89
     b2e2cf2ded: 3252401.483
     eddd369e73: 3089213.78
-    70abda1ad4: 3020764.986
+    70abda1ad4: 3040953.799
+    6648b411f7: 3049771.936
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -22176,7 +22178,8 @@ results:
     689962eaea: 1978661.895
     b2e2cf2ded: 2042868.081
     eddd369e73: 1726632.003
-    70abda1ad4: 1977359.956
+    70abda1ad4: 1975949.798
+    6648b411f7: 1973246.367
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -29568,7 +29571,8 @@ results:
     689962eaea: 2449583.949
     b2e2cf2ded: 2796662.602
     eddd369e73: 2897733.141
-    70abda1ad4: 2895844.353
+    70abda1ad4: 2891342.063
+    6648b411f7: 2889950.191
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -36960,7 +36964,8 @@ results:
     689962eaea: 3148453.367
     b2e2cf2ded: 3488803.614
     eddd369e73: 3354314.472
-    70abda1ad4: 2882230.967
+    70abda1ad4: 3356340.188
+    6648b411f7: 3215737.5
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -44352,7 +44357,8 @@ results:
     689962eaea: 3206517.821
     b2e2cf2ded: 3479586.656
     eddd369e73: 3345288.558
-    70abda1ad4: 3234510.618
+    70abda1ad4: 3289243.063
+    6648b411f7: 3287225.403
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -51744,7 +51750,8 @@ results:
     689962eaea: 1993534.077
     b2e2cf2ded: 1936879.036
     eddd369e73: 2007237.452
-    70abda1ad4: 2069130.829
+    70abda1ad4: 2063429.469
+    6648b411f7: 2064751.744
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -59136,4 +59143,5 @@ results:
     689962eaea: 2988593.988
     b2e2cf2ded: 2777885.307
     eddd369e73: 2867180.979
-    70abda1ad4: 2757909.321
+    70abda1ad4: 3110374.516
+    6648b411f7: 3102911.673
