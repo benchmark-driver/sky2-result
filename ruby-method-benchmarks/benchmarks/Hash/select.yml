@@ -7690,6 +7690,7 @@ results:
     ec4ecb6d6d: 7937696.648
     1b300789ff: 7864970.919
     ed9d9cee76: 7967088.583
+    f9fd04ffbc: 7966670.8
   Hash#select { |key, value| true}:
     017cb09eb6: 1950309.94
     01efa5d912: 1683659.723
@@ -15379,6 +15380,7 @@ results:
     ec4ecb6d6d: 3287389.442
     1b300789ff: 3282937.565
     ed9d9cee76: 3286042.819
+    f9fd04ffbc: 3329086.285
   Hash#select { |key, value| false}:
     017cb09eb6: 2390000.627
     01efa5d912: 2457947.38
@@ -23068,6 +23070,7 @@ results:
     ec4ecb6d6d: 3275737.152
     1b300789ff: 3276359.228
     ed9d9cee76: 3285667.468
+    f9fd04ffbc: 3218949.517
   Hash#select!:
     017cb09eb6: 11225111.435
     01efa5d912: 12052142.741
@@ -30757,6 +30760,7 @@ results:
     ec4ecb6d6d: 7940567.118
     1b300789ff: 7908972.037
     ed9d9cee76: 7903441.561
+    f9fd04ffbc: 7915538.076
   Hash#select! { |key, value| true}:
     017cb09eb6: 2474173.696
     01efa5d912: 2573143.53
@@ -38446,6 +38450,7 @@ results:
     ec4ecb6d6d: 3615108.096
     1b300789ff: 3617970.31
     ed9d9cee76: 3627335.254
+    f9fd04ffbc: 3665844.986
   Hash#select! { |key, value| false}:
     017cb09eb6: 2586346.767
     01efa5d912: 2611412.642
@@ -46135,3 +46140,4 @@ results:
     ec4ecb6d6d: 3578997.643
     1b300789ff: 3486431.326
     ed9d9cee76: 3418224.076
+    f9fd04ffbc: 3751948.518
