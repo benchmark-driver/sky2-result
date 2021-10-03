@@ -7881,6 +7881,7 @@ results:
     b91b3000bd: 1041807.091
     bc5407f00c: 1094499.609
     bf4f3ef5ad: 1088595.029
+    853ca5cceb: 1090694.882
   String#gsub(pattern, replace) with string pattern:
     '019864b4a5': 1791006.849
     1119bb4794: 1704577.639
@@ -15761,6 +15762,7 @@ results:
     b91b3000bd: 1775590.157
     bc5407f00c: 1768107.547
     bf4f3ef5ad: 1713032.969
+    853ca5cceb: 1772883.735
   String#gsub(pattern, replace) replacing with global variable:
     '019864b4a5': 759832.276
     1119bb4794: 738529.884
@@ -23641,6 +23643,7 @@ results:
     b91b3000bd: 640062.995
     bc5407f00c: 599570.62
     bf4f3ef5ad: 554405.011
+    853ca5cceb: 649755.465
   String#gsub(pattern, hash):
     '019864b4a5': 697011.171
     1119bb4794: 694074.88
@@ -31521,6 +31524,7 @@ results:
     b91b3000bd: 462918.978
     bc5407f00c: 494187.861
     bf4f3ef5ad: 498571.811
+    853ca5cceb: 491969.969
   String#gsub(pattern) { |matched| ...}:
     '019864b4a5': 1219128.333
     1119bb4794: 1236676.269
@@ -39401,6 +39405,7 @@ results:
     b91b3000bd: 1069833.589
     bc5407f00c: 1067803.34
     bf4f3ef5ad: 1073295.74
+    853ca5cceb: 1072914.199
   String#gsub!(pattern, replace):
     '019864b4a5': 1332203.971
     1119bb4794: 1264705.62
@@ -47281,6 +47286,7 @@ results:
     b91b3000bd: 1073611.21
     bc5407f00c: 1071000.286
     bf4f3ef5ad: 996535.278
+    853ca5cceb: 1054618.073
   String#gsub!(pattern, replace) with string pattern:
     '019864b4a5': 1767886.616
     1119bb4794: 1705410.231
@@ -55161,6 +55167,7 @@ results:
     b91b3000bd: 1696842.641
     bc5407f00c: 1695105.397
     bf4f3ef5ad: 1466987.563
+    853ca5cceb: 1649329.516
   String#gsub!(pattern, replace) replacing with global variable:
     '019864b4a5': 746956.626
     1119bb4794: 744423.874
@@ -63041,6 +63048,7 @@ results:
     b91b3000bd: 630281.865
     bc5407f00c: 640847.25
     bf4f3ef5ad: 618088.15
+    853ca5cceb: 627115.552
   String#gsub!(pattern, hash):
     '019864b4a5': 685296.905
     1119bb4794: 679601.48
@@ -70921,6 +70929,7 @@ results:
     b91b3000bd: 493612.534
     bc5407f00c: 481861.906
     bf4f3ef5ad: 488707.302
+    853ca5cceb: 503674.988
   String#gsub!(pattern) { |matched| ...}:
     '019864b4a5': 1201258.128
     1119bb4794: 1197537.756
@@ -78801,3 +78810,4 @@ results:
     b91b3000bd: 1048819.223
     bc5407f00c: 1043474.711
     bf4f3ef5ad: 1041465.106
+    853ca5cceb: 1049176.322
