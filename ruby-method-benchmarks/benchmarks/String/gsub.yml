@@ -7990,6 +7990,7 @@ results:
     ab787c493b: 1087263.281
     013bac15b0: 1039834.353
     bb66729b5f: 1081461.617
+    a7fe7cf657: 1093451.541
   String#gsub(pattern, replace) with string pattern:
     '019864b4a5': 1791006.849
     1119bb4794: 1704577.639
@@ -15979,6 +15980,7 @@ results:
     ab787c493b: 1752122.686
     013bac15b0: 1735579.502
     bb66729b5f: 1701535.215
+    a7fe7cf657: 1721222.448
   String#gsub(pattern, replace) replacing with global variable:
     '019864b4a5': 759832.276
     1119bb4794: 738529.884
@@ -23968,6 +23970,7 @@ results:
     ab787c493b: 580671.59
     013bac15b0: 635413.393
     bb66729b5f: 632008.712
+    a7fe7cf657: 632939.24
   String#gsub(pattern, hash):
     '019864b4a5': 697011.171
     1119bb4794: 694074.88
@@ -31957,6 +31960,7 @@ results:
     ab787c493b: 488093.789
     013bac15b0: 494621.979
     bb66729b5f: 475558.313
+    a7fe7cf657: 502790.46
   String#gsub(pattern) { |matched| ...}:
     '019864b4a5': 1219128.333
     1119bb4794: 1236676.269
@@ -39946,6 +39950,7 @@ results:
     ab787c493b: 1072494.851
     013bac15b0: 1070676.838
     bb66729b5f: 856183.057
+    a7fe7cf657: 1072078.78
   String#gsub!(pattern, replace):
     '019864b4a5': 1332203.971
     1119bb4794: 1264705.62
@@ -47935,6 +47940,7 @@ results:
     ab787c493b: 972918.94
     013bac15b0: 1062761.983
     bb66729b5f: 1061291.485
+    a7fe7cf657: 1061045.078
   String#gsub!(pattern, replace) with string pattern:
     '019864b4a5': 1767886.616
     1119bb4794: 1705410.231
@@ -55924,6 +55930,7 @@ results:
     ab787c493b: 1681171.19
     013bac15b0: 1662277.717
     bb66729b5f: 1680249.318
+    a7fe7cf657: 1682909.292
   String#gsub!(pattern, replace) replacing with global variable:
     '019864b4a5': 746956.626
     1119bb4794: 744423.874
@@ -63913,6 +63920,7 @@ results:
     ab787c493b: 612566.61
     013bac15b0: 623308.311
     bb66729b5f: 623806.655
+    a7fe7cf657: 622823.184
   String#gsub!(pattern, hash):
     '019864b4a5': 685296.905
     1119bb4794: 679601.48
@@ -71902,6 +71910,7 @@ results:
     ab787c493b: 436174.491
     013bac15b0: 477179.965
     bb66729b5f: 488898.649
+    a7fe7cf657: 482347.197
   String#gsub!(pattern) { |matched| ...}:
     '019864b4a5': 1201258.128
     1119bb4794: 1197537.756
@@ -79891,3 +79900,4 @@ results:
     ab787c493b: 861302.804
     013bac15b0: 1049235.235
     bb66729b5f: 880898.462
+    a7fe7cf657: 888912.803
