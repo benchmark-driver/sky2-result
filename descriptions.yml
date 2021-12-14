@@ -13,20 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  947a5505e5: ruby 3.0.0dev (2020-12-11T05:16:42Z master 947a5505e5) [x86_64-linux]
-  947a5505e5 --jit: ruby 3.0.0dev (2020-12-11T05:16:42Z master 947a5505e5) +JIT [x86_64-linux]
-  a6a68bae3c: ruby 3.0.0dev (2020-12-11T05:16:42Z master a6a68bae3c) [x86_64-linux]
-  a6a68bae3c --jit: ruby 3.0.0dev (2020-12-11T05:16:42Z master a6a68bae3c) +JIT [x86_64-linux]
-  4439b78336: ruby 3.0.0dev (2020-12-11T05:36:48Z master 4439b78336) [x86_64-linux]
-  4439b78336 --jit: ruby 3.0.0dev (2020-12-11T05:36:48Z master 4439b78336) +JIT [x86_64-linux]
-  885135f84c: ruby 3.0.0dev (2020-12-11T05:56:49Z master 885135f84c) [x86_64-linux]
-  885135f84c --jit: ruby 3.0.0dev (2020-12-11T05:56:49Z master 885135f84c) +JIT [x86_64-linux]
-  1728eba48a: ruby 3.0.0dev (2020-12-11T10:40:25Z master 1728eba48a) [x86_64-linux]
-  1728eba48a --jit: ruby 3.0.0dev (2020-12-11T10:40:25Z master 1728eba48a) +JIT [x86_64-linux]
-  ed343c76fb: ruby 3.0.0dev (2020-12-11T11:21:03Z master ed343c76fb) [x86_64-linux]
-  ed343c76fb --jit: ruby 3.0.0dev (2020-12-11T11:21:03Z master ed343c76fb) +JIT [x86_64-linux]
-  68d3952c52: ruby 3.0.0dev (2020-12-11T14:08:06Z master 68d3952c52) [x86_64-linux]
-  68d3952c52 --jit: ruby 3.0.0dev (2020-12-11T14:08:06Z master 68d3952c52) +JIT [x86_64-linux]
   eea756ac86: ruby 3.0.0dev (2020-12-11T14:14:36Z master eea756ac86) [x86_64-linux]
   eea756ac86 --jit: ruby 3.0.0dev (2020-12-11T14:14:36Z master eea756ac86) +JIT [x86_64-linux]
   abbc43413c: ruby 3.0.0dev (2020-12-11T15:28:08Z master abbc43413c) [x86_64-linux]
@@ -12463,4 +12449,32 @@ commits:
   94494a565d: ruby 3.1.0dev (2021-12-13T15:20:13Z master 94494a565d) [x86_64-linux]
   94494a565d --jit: ruby 3.1.0dev (2021-12-13T15:20:13Z master 94494a565d) +JIT [x86_64-linux]
   94494a565d --yjit: ruby 3.1.0dev (2021-12-13T15:20:13Z master 94494a565d) +YJIT
+    [x86_64-linux]
+  11b8aaa26a: ruby 3.1.0dev (2021-12-14T00:08:01Z master 11b8aaa26a) [x86_64-linux]
+  11b8aaa26a --jit: ruby 3.1.0dev (2021-12-14T00:08:01Z master 11b8aaa26a) +YJIT [x86_64-linux]
+  11b8aaa26a --yjit: ruby 3.1.0dev (2021-12-14T00:08:01Z master 11b8aaa26a) +YJIT
+    [x86_64-linux]
+  877160121a: ruby 3.1.0dev (2021-12-14T00:28:09Z master 877160121a) [x86_64-linux]
+  877160121a --jit: ruby 3.1.0dev (2021-12-14T00:28:09Z master 877160121a) +YJIT [x86_64-linux]
+  877160121a --yjit: ruby 3.1.0dev (2021-12-14T00:28:09Z master 877160121a) +YJIT
+    [x86_64-linux]
+  40b0d69dad: ruby 3.1.0dev (2021-12-14T02:52:26Z master 40b0d69dad) [x86_64-linux]
+  40b0d69dad --jit: ruby 3.1.0dev (2021-12-14T02:52:26Z master 40b0d69dad) +YJIT [x86_64-linux]
+  40b0d69dad --yjit: ruby 3.1.0dev (2021-12-14T02:52:26Z master 40b0d69dad) +YJIT
+    [x86_64-linux]
+  0ebbab23ba: ruby 3.1.0dev (2021-12-14T02:59:20Z master 0ebbab23ba) [x86_64-linux]
+  0ebbab23ba --jit: ruby 3.1.0dev (2021-12-14T02:59:20Z master 0ebbab23ba) +YJIT [x86_64-linux]
+  0ebbab23ba --yjit: ruby 3.1.0dev (2021-12-14T02:59:20Z master 0ebbab23ba) +YJIT
+    [x86_64-linux]
+  900e0c8c39: ruby 3.1.0dev (2021-12-14T02:59:22Z master 900e0c8c39) [x86_64-linux]
+  900e0c8c39 --jit: ruby 3.1.0dev (2021-12-14T02:59:22Z master 900e0c8c39) +YJIT [x86_64-linux]
+  900e0c8c39 --yjit: ruby 3.1.0dev (2021-12-14T02:59:22Z master 900e0c8c39) +YJIT
+    [x86_64-linux]
+  10eda60e8b: ruby 3.1.0dev (2021-12-14T03:19:44Z master 10eda60e8b) [x86_64-linux]
+  10eda60e8b --jit: ruby 3.1.0dev (2021-12-14T03:19:44Z master 10eda60e8b) +YJIT [x86_64-linux]
+  10eda60e8b --yjit: ruby 3.1.0dev (2021-12-14T03:19:44Z master 10eda60e8b) +YJIT
+    [x86_64-linux]
+  '1578421962': ruby 3.1.0dev (2021-12-14T03:31:57Z master 1578421962) [x86_64-linux]
+  1578421962 --jit: ruby 3.1.0dev (2021-12-14T03:31:57Z master 1578421962) +YJIT [x86_64-linux]
+  1578421962 --yjit: ruby 3.1.0dev (2021-12-14T03:31:57Z master 1578421962) +YJIT
     [x86_64-linux]
