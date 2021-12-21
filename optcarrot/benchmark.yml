@@ -16546,7 +16546,7 @@ results:
     231f0f6f45 --jit: 89.645
     281dfacb5d: 45.375
     281dfacb5d --jit: 89.823
-    ad2c7f8a1e: 44.718
+    ad2c7f8a1e: 45.917
     ad2c7f8a1e --jit: 89.906
     ef59a781d7: 45.159
     3acc81d9e4: 44.814
@@ -19606,7 +19606,7 @@ results:
     3fe8387950 --jit: 89.609
     38436d1f5c --jit: 89.649
     803eb1ee83 --jit: 89.707
-    dbcfc8d499: 44.72
+    dbcfc8d499: 45.049
     95dd461387: 45.012
     11651ab703: 44.879
     87458ff2ae: 44.621
@@ -22919,7 +22919,7 @@ results:
     4991dabdd0: 44.318
     49217086ad: 43.602
     f88401f38e: 44.041
-    6dcc74155f: 44.233
+    6dcc74155f: 43.651
     4991dabdd0 --jit: 89.33
     f88401f38e --jit: 89.806
     6dcc74155f --jit: 89.409
@@ -30354,10 +30354,10 @@ results:
     789232f9fd --yjit: 0.0
     af4b4fd19b --yjit: 73.201
     45f2182438: 42.542
-    a8b11b5cdd: 42.86
+    a8b11b5cdd: 42.632
     acac2b8128: 43.556
     45f2182438 --mjit: 87.936
-    a8b11b5cdd --mjit: 87.932
+    a8b11b5cdd --mjit: 90.928
     acac2b8128 --mjit: 88.526
     8450b6a91d --mjit: 0.0
     b513fc2fe7 --mjit: 0.0
@@ -30366,7 +30366,7 @@ results:
     8450b6a91d --yjit: 0.0
     b513fc2fe7 --yjit: 0.0
     fa0279d947 --yjit: 0.0
-    a8b11b5cdd --yjit: 73.112
+    a8b11b5cdd --yjit: 72.661
     acac2b8128 --yjit: 71.711
     f3e30b26c5: 43.953
     45de4025f5: 43.232
@@ -30693,3 +30693,24 @@ results:
     4568ba0711 --yjit: 0.0
     fb976df81f --yjit: 0.0
     7bd25b9753 --yjit: 73.057
+    1855f901c8: 44.281
+    145c1e0691: 43.82
+    5a6baaba38: 43.329
+    706c7a27fa: 43.976
+    9b917315f4: 43.54
+    1855f901c8 --mjit: 87.056
+    5a6baaba38 --mjit: 90.965
+    9b917315f4 --mjit: 88.315
+    145c1e0691 --mjit: 87.245
+    706c7a27fa --mjit: 88.099
+    6dcc74155f --mjit: 0.0
+    dbcfc8d499 --mjit: 0.0
+    ad2c7f8a1e --mjit: 0.0
+    1855f901c8 --yjit: 71.186
+    6dcc74155f --yjit: 0.0
+    dbcfc8d499 --yjit: 0.0
+    ad2c7f8a1e --yjit: 0.0
+    145c1e0691 --yjit: 71.887
+    5a6baaba38 --yjit: 73.322
+    706c7a27fa --yjit: 71.949
+    9b917315f4 --yjit: 73.78
