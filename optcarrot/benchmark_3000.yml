@@ -17725,7 +17725,7 @@ results:
     76b77d9275 --jit: 90.04
     d23264d359 --jit: 89.521
     907fa88a76 --jit: 89.631
-    521aea9a76: 43.74
+    521aea9a76: 43.515
     f3fe3511da: 44.151
     1d6551a02d: 43.573
     0b4dbe2e6a: 43.561
@@ -26045,3 +26045,14 @@ results:
     5b0abba931 --mjit: 0.0
     eae5a34be3 --yjit: 71.456
     5b0abba931 --yjit: 0.0
+    df48db987d: 42.987
+    6a51c3e80c: 41.593
+    61e426ae05: 43.512
+    df48db987d --mjit: 86.822
+    61e426ae05 --mjit: 87.078
+    6a51c3e80c --mjit: 87.721
+    521aea9a76 --mjit: 0.0
+    df48db987d --yjit: 72.291
+    521aea9a76 --yjit: 0.0
+    6a51c3e80c --yjit: 70.521
+    61e426ae05 --yjit: 71.28
