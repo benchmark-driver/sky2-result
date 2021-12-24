@@ -8538,6 +8538,7 @@ results:
     eba05029b0: 981280.223
     0b999bef29: 1098908.881
     65d35502bd: 1110999.038
+    cf83ba1da7: 1073171.804
   String#gsub(pattern, replace) with string pattern:
     '019864b4a5': 1791006.849
     1119bb4794: 1704577.639
@@ -17075,6 +17076,7 @@ results:
     eba05029b0: 1707454.033
     0b999bef29: 1657568.875
     65d35502bd: 1606521.269
+    cf83ba1da7: 1668359.593
   String#gsub(pattern, replace) replacing with global variable:
     '019864b4a5': 759832.276
     1119bb4794: 738529.884
@@ -25612,6 +25614,7 @@ results:
     eba05029b0: 621564.053
     0b999bef29: 619664.642
     65d35502bd: 619357.917
+    cf83ba1da7: 621265.395
   String#gsub(pattern, hash):
     '019864b4a5': 697011.171
     1119bb4794: 694074.88
@@ -34149,6 +34152,7 @@ results:
     eba05029b0: 479264.669
     0b999bef29: 438877.236
     65d35502bd: 406480.154
+    cf83ba1da7: 505864.126
   String#gsub(pattern) { |matched| ...}:
     '019864b4a5': 1219128.333
     1119bb4794: 1236676.269
@@ -42686,6 +42690,7 @@ results:
     eba05029b0: 1073143.516
     0b999bef29: 1070384.893
     65d35502bd: 1069792.167
+    cf83ba1da7: 1071272.113
   String#gsub!(pattern, replace):
     '019864b4a5': 1332203.971
     1119bb4794: 1264705.62
@@ -51223,6 +51228,7 @@ results:
     eba05029b0: 1047342.384
     0b999bef29: 1048243.52
     65d35502bd: 1052622.92
+    cf83ba1da7: 1025319.742
   String#gsub!(pattern, replace) with string pattern:
     '019864b4a5': 1767886.616
     1119bb4794: 1705410.231
@@ -59760,6 +59766,7 @@ results:
     eba05029b0: 1652067.89
     0b999bef29: 1570166.872
     65d35502bd: 1641577.205
+    cf83ba1da7: 1637599.193
   String#gsub!(pattern, replace) replacing with global variable:
     '019864b4a5': 746956.626
     1119bb4794: 744423.874
@@ -68297,6 +68304,7 @@ results:
     eba05029b0: 552673.35
     0b999bef29: 584735.573
     65d35502bd: 602427.347
+    cf83ba1da7: 542399.196
   String#gsub!(pattern, hash):
     '019864b4a5': 685296.905
     1119bb4794: 679601.48
@@ -76834,6 +76842,7 @@ results:
     eba05029b0: 482969.963
     0b999bef29: 470317.094
     65d35502bd: 404209.563
+    cf83ba1da7: 481799.683
   String#gsub!(pattern) { |matched| ...}:
     '019864b4a5': 1201258.128
     1119bb4794: 1197537.756
@@ -85371,3 +85380,4 @@ results:
     eba05029b0: 908011.678
     0b999bef29: 1044041.177
     65d35502bd: 1046623.914
+    cf83ba1da7: 1043125.149
