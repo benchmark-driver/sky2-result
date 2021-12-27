@@ -18223,7 +18223,7 @@ results:
     7ead69068e --jit: 90.689
     515f8d0967 --jit: 89.291
     cb4e2cb55a --jit: 90.004
-    c8a1e57af0: 42.84
+    c8a1e57af0: 42.993
     ce54282b75: 42.961
     45803af58c: 35.216
     a310f896db: 44.511
@@ -26630,11 +26630,19 @@ results:
     9790f54bff --yjit: 71.805
     575c77ddfb --yjit: 0.0
     a88169bbe9 --yjit: 72.53
-    a74a2f456a: 41.493
+    a74a2f456a: 32.02
     0c63aa11bc: 43.479
-    a74a2f456a --mjit: 85.031
+    a74a2f456a --mjit: 86.423
     0c63aa11bc --mjit: 87.349
     d1d76f2428 --mjit: 0.0
-    a74a2f456a --yjit: 71.806
+    a74a2f456a --yjit: 71.825
     d1d76f2428 --yjit: 0.0
     0c63aa11bc --yjit: 70.82
+    56a0f34d31: 41.082
+    247d8d2815: 43.241
+    56a0f34d31 --mjit: 86.082
+    247d8d2815 --mjit: 86.239
+    c8a1e57af0 --mjit: 0.0
+    56a0f34d31 --yjit: 71.467
+    c8a1e57af0 --yjit: 0.0
+    247d8d2815 --yjit: 70.975
