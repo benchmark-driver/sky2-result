@@ -11142,7 +11142,7 @@ results:
     feed820c96: 45.095
     a8f4cbeece: 45.204
     511fe23fa2: 44.198
-    ced09d521c: 44.107
+    ced09d521c: 43.135
     d142b37bdc: 49.132
     feed820c96 --jit: 97.543
     ced09d521c --jit: 94.258
@@ -26687,3 +26687,14 @@ results:
     95d2e06c2b --yjit: 71.618
     189f154786 --yjit: 0.0
     1a1550ba5d --yjit: 72.034
+    f445eccfb4: 40.724
+    85a426dc86: 41.399
+    8b1b4e384f: 42.842
+    f445eccfb4 --mjit: 70.698
+    8b1b4e384f --mjit: 84.211
+    85a426dc86 --mjit: 86.747
+    ced09d521c --mjit: 0.0
+    f445eccfb4 --yjit: 71.553
+    ced09d521c --yjit: 0.0
+    85a426dc86 --yjit: 71.99
+    8b1b4e384f --yjit: 71.717
