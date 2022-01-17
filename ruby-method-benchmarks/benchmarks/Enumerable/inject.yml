@@ -8710,8 +8710,9 @@ results:
     a4a7bf2a63: 256945.243
     4cd6fd338f: 235867.752
     825e2ffb9f: 264027.147
-    ab11cafe0b: 262711.541
+    ab11cafe0b: 260903.816
     28fad7764e: 254219.198
+    2dff82bfca: 262584.643
   Enumerable#inject(init, sym):
     00c33d9c23: 284288.429
     025206d0dd: 294506.081
@@ -17421,8 +17422,9 @@ results:
     a4a7bf2a63: 255528.699
     4cd6fd338f: 253232.018
     825e2ffb9f: 261161.887
-    ab11cafe0b: 260840.243
+    ab11cafe0b: 249633.961
     28fad7764e: 261481.317
+    2dff82bfca: 257065.166
   Enumerable#inject { |result, item| ...}:
     00c33d9c23: 248345.022
     025206d0dd: 242596.91
@@ -26132,8 +26134,9 @@ results:
     a4a7bf2a63: 164117.682
     4cd6fd338f: 177309.043
     825e2ffb9f: 170127.261
-    ab11cafe0b: 177750.771
+    ab11cafe0b: 175520.967
     28fad7764e: 178170.365
+    2dff82bfca: 162151.792
   Enumerable#inject(init) { |result, item| ...}:
     00c33d9c23: 237973.225
     025206d0dd: 249419.144
@@ -34843,8 +34846,9 @@ results:
     a4a7bf2a63: 175076.606
     4cd6fd338f: 163155.329
     825e2ffb9f: 170236.143
-    ab11cafe0b: 176883.871
+    ab11cafe0b: 175943.769
     28fad7764e: 175935.074
+    2dff82bfca: 174660.595
   Enumerable#reduce(sym):
     00c33d9c23: 286270.881
     025206d0dd: 289771.268
@@ -43554,8 +43558,9 @@ results:
     a4a7bf2a63: 250810.752
     4cd6fd338f: 253281.046
     825e2ffb9f: 263694.832
-    ab11cafe0b: 254766.479
+    ab11cafe0b: 262708.62
     28fad7764e: 258939.68
+    2dff82bfca: 263751.68
   Enumerable#reduce(init, sym):
     00c33d9c23: 271151.987
     025206d0dd: 294393.988
@@ -52265,8 +52270,9 @@ results:
     a4a7bf2a63: 255229.625
     4cd6fd338f: 253616.578
     825e2ffb9f: 261902.292
-    ab11cafe0b: 253470.148
+    ab11cafe0b: 261577.911
     28fad7764e: 259064.384
+    2dff82bfca: 259216.467
   Enumerable#reduce { |result, item| ...}:
     00c33d9c23: 240781.44
     025206d0dd: 233248.523
@@ -60976,8 +60982,9 @@ results:
     a4a7bf2a63: 177537.366
     4cd6fd338f: 175616.123
     825e2ffb9f: 177458.448
-    ab11cafe0b: 175683.675
+    ab11cafe0b: 178034.84
     28fad7764e: 177775.181
+    2dff82bfca: 177920.866
   Enumerable#reduce(init) { |result, item| ...}:
     00c33d9c23: 248882.723
     025206d0dd: 250091.641
@@ -69687,5 +69694,6 @@ results:
     a4a7bf2a63: 171512.27
     4cd6fd338f: 176813.585
     825e2ffb9f: 171948.505
-    ab11cafe0b: 176337.449
+    ab11cafe0b: 176847.154
     28fad7764e: 175409.511
+    2dff82bfca: 173402.733
