@@ -8843,6 +8843,7 @@ results:
     bb5f710887: 1688876.024
     90a8b1c543: 1665114.112
     fbb3cab956: 1667953.232
+    67f4729ff0: 1687364.27
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -17685,6 +17686,7 @@ results:
     bb5f710887: 2188640.691
     90a8b1c543: 2325014.672
     fbb3cab956: 2326693.018
+    67f4729ff0: 2329108.744
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -26527,6 +26529,7 @@ results:
     bb5f710887: 1189842.367
     90a8b1c543: 1218971.108
     fbb3cab956: 1243189.811
+    67f4729ff0: 1125335.269
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -35369,6 +35372,7 @@ results:
     bb5f710887: 1627008.953
     90a8b1c543: 1655554.142
     fbb3cab956: 1647503.934
+    67f4729ff0: 1650285.637
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -44211,6 +44215,7 @@ results:
     bb5f710887: 1858226.995
     90a8b1c543: 1879962.613
     fbb3cab956: 1776243.242
+    67f4729ff0: 1880557.154
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -53053,6 +53058,7 @@ results:
     bb5f710887: 2612344.133
     90a8b1c543: 2611536.465
     fbb3cab956: 2612119.92
+    67f4729ff0: 2605298.555
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -61895,6 +61901,7 @@ results:
     bb5f710887: 1309388.834
     90a8b1c543: 1312047.293
     fbb3cab956: 1032477.763
+    67f4729ff0: 1277570.48
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -70737,3 +70744,4 @@ results:
     bb5f710887: 1800302.529
     90a8b1c543: 1791822.532
     fbb3cab956: 1797634.196
+    67f4729ff0: 1798081.102
