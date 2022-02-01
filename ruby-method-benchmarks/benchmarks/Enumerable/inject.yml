@@ -8831,7 +8831,8 @@ results:
     e53af7d1fb: 260723.513
     ec906191ab: 258914.77
     804dca7b0c: 260982.745
-    ddb9d60f7d: 258188.913
+    ddb9d60f7d: 200863.273
+    fc4fbeef28: 254405.793
   Enumerable#inject(init, sym):
     00c33d9c23: 284288.429
     025206d0dd: 294506.081
@@ -17662,7 +17663,8 @@ results:
     e53af7d1fb: 203480.742
     ec906191ab: 256764.257
     804dca7b0c: 259892.714
-    ddb9d60f7d: 236551.433
+    ddb9d60f7d: 258470.538
+    fc4fbeef28: 259327.59
   Enumerable#inject { |result, item| ...}:
     00c33d9c23: 248345.022
     025206d0dd: 242596.91
@@ -26493,7 +26495,8 @@ results:
     e53af7d1fb: 169399.917
     ec906191ab: 177555.988
     804dca7b0c: 177393.913
-    ddb9d60f7d: 178219.128
+    ddb9d60f7d: 178342.631
+    fc4fbeef28: 177966.504
   Enumerable#inject(init) { |result, item| ...}:
     00c33d9c23: 237973.225
     025206d0dd: 249419.144
@@ -35324,7 +35327,8 @@ results:
     e53af7d1fb: 176505.415
     ec906191ab: 175488.759
     804dca7b0c: 176155.155
-    ddb9d60f7d: 173101.298
+    ddb9d60f7d: 174352.902
+    fc4fbeef28: 175908.633
   Enumerable#reduce(sym):
     00c33d9c23: 286270.881
     025206d0dd: 289771.268
@@ -44155,7 +44159,8 @@ results:
     e53af7d1fb: 261018.115
     ec906191ab: 262090.421
     804dca7b0c: 260473.32
-    ddb9d60f7d: 216844.665
+    ddb9d60f7d: 260005.981
+    fc4fbeef28: 248977.971
   Enumerable#reduce(init, sym):
     00c33d9c23: 271151.987
     025206d0dd: 294393.988
@@ -52986,7 +52991,8 @@ results:
     e53af7d1fb: 257963.236
     ec906191ab: 258974.206
     804dca7b0c: 259815.679
-    ddb9d60f7d: 257192.718
+    ddb9d60f7d: 252581.511
+    fc4fbeef28: 208289.328
   Enumerable#reduce { |result, item| ...}:
     00c33d9c23: 240781.44
     025206d0dd: 233248.523
@@ -61817,7 +61823,8 @@ results:
     e53af7d1fb: 171720.479
     ec906191ab: 177649.79
     804dca7b0c: 177509.364
-    ddb9d60f7d: 174927.023
+    ddb9d60f7d: 171598.224
+    fc4fbeef28: 176011.057
   Enumerable#reduce(init) { |result, item| ...}:
     00c33d9c23: 248882.723
     025206d0dd: 250091.641
@@ -70648,4 +70655,5 @@ results:
     e53af7d1fb: 166310.304
     ec906191ab: 172876.926
     804dca7b0c: 172767.973
-    ddb9d60f7d: 147696.392
+    ddb9d60f7d: 174792.207
+    fc4fbeef28: 175944.477
