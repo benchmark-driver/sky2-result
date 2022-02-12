@@ -16290,7 +16290,7 @@ results:
     522adbc945 --jit: 89.596
     acb6b395b6: 45.015
     acb6b395b6 --jit: 89.831
-    9241211538: 45.536
+    9241211538: 46.184
     9241211538 --jit: 89.885
     98e27016c9: 46.109
     1ecda21366: 44.843
@@ -31240,9 +31240,9 @@ results:
     '03507498b6 --yjit': 70.902
     2df917ed4f --yjit: 71.952
     c87c027f18: 42.026
-    ed7f4c24d7: 43.543
+    ed7f4c24d7: 43.8
     c87c027f18 --mjit: 85.941
-    ed7f4c24d7 --mjit: 88.405
+    ed7f4c24d7 --mjit: 88.072
     bc8bc072f4 --mjit: 0.0
     95862ae440 --mjit: 0.0
     475a4651b6 --mjit: 0.0
@@ -31250,7 +31250,7 @@ results:
     bc8bc072f4 --yjit: 0.0
     95862ae440 --yjit: 0.0
     475a4651b6 --yjit: 0.0
-    ed7f4c24d7 --yjit: 71.38
+    ed7f4c24d7 --yjit: 70.923
     4f74153846: 42.107
     1a1550ba5d: 42.227
     ec478d947f: 44.675
@@ -33102,12 +33102,12 @@ results:
     05df7e0d4a --yjit: 0.0
     4dc7b82427 --yjit: 0.0
     615e9b2865 --yjit: 71.117
-    0ca00e2cb7: 41.471
-    0ca00e2cb7 --mjit: 85.68
+    0ca00e2cb7: 41.583
+    0ca00e2cb7 --mjit: 86.377
     4fc9ddd7b6 --mjit: 0.0
     7ea46c1ef2 --mjit: 0.0
     d36ac283d1 --mjit: 0.0
-    0ca00e2cb7 --yjit: 72.306
+    0ca00e2cb7 --yjit: 72.576
     4fc9ddd7b6 --yjit: 0.0
     7ea46c1ef2 --yjit: 0.0
     d36ac283d1 --yjit: 0.0
@@ -33190,9 +33190,9 @@ results:
     1ba2b5cdee --yjit: 0.0
     221ca0f828 --yjit: 0.0
     cc01ae591b: 41.697
-    ee5e684bc1: 42.352
+    ee5e684bc1: 42.1
     cc01ae591b --mjit: 87.063
-    ee5e684bc1 --mjit: 86.589
+    ee5e684bc1 --mjit: 89.678
     754bfc66f8 --mjit: 0.0
     fa63052be1 --mjit: 0.0
     d1d76f2428 --mjit: 0.0
@@ -33200,7 +33200,7 @@ results:
     754bfc66f8 --yjit: 0.0
     fa63052be1 --yjit: 0.0
     d1d76f2428 --yjit: 0.0
-    ee5e684bc1 --yjit: 73.015
+    ee5e684bc1 --yjit: 73.129
     18b97eee5a: 41.381
     18b97eee5a --mjit: 89.238
     3b7c05ef8d --mjit: 0.0
@@ -34779,3 +34779,18 @@ results:
     50c972a1ae: 42.294
     50c972a1ae --mjit: 89.66
     50c972a1ae --yjit: 71.299
+    844a8355a1: 42.731
+    11f3882173: 42.481
+    '08137c5dd9': 43.005
+    3b3fb73d61: 42.784
+    5348a34504: 42.516
+    844a8355a1 --mjit: 87.183
+    11f3882173 --mjit: 87.072
+    '08137c5dd9 --mjit': 86.937
+    3b3fb73d61 --mjit: 86.726
+    5348a34504 --mjit: 87.095
+    844a8355a1 --yjit: 71.086
+    3b3fb73d61 --yjit: 70.992
+    5348a34504 --yjit: 71.126
+    11f3882173 --yjit: 71.16
+    '08137c5dd9 --yjit': 71.212
