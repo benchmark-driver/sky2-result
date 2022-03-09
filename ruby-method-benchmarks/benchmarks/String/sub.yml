@@ -9110,7 +9110,8 @@ results:
     17e09f033c: 1692971.254
     1adc7aa630: 1702981.018
     1dd2d2ce48: 1699657.88
-    cd9a9bdfc5: 1701134.146
+    cd9a9bdfc5: 1702746.004
+    1d35630060: 1698714.664
   String#sub(pattern, replace) with string pattern:
     0d972252b0: 3211220.259
     0deeb1aeb6: 3435461.955
@@ -18220,7 +18221,8 @@ results:
     17e09f033c: 2385565.407
     1adc7aa630: 2022955.387
     1dd2d2ce48: 2378773.744
-    cd9a9bdfc5: 2249278.658
+    cd9a9bdfc5: 2382932.206
+    1d35630060: 2394409.192
   String#sub(pattern, replace) replacing with global variable:
     0d972252b0: 1806567.486
     0deeb1aeb6: 1514432.241
@@ -27330,7 +27332,8 @@ results:
     17e09f033c: 1269551.302
     1adc7aa630: 1246789.546
     1dd2d2ce48: 1259537.624
-    cd9a9bdfc5: 1248637.11
+    cd9a9bdfc5: 1266241.849
+    1d35630060: 1108082.943
   String#sub(pattern) { |matched| ...}:
     0d972252b0: 2647512.099
     0deeb1aeb6: 2872202.342
@@ -36440,7 +36443,8 @@ results:
     17e09f033c: 1676363.258
     1adc7aa630: 1670325.354
     1dd2d2ce48: 1396750.225
-    cd9a9bdfc5: 1672108.822
+    cd9a9bdfc5: 1678507.723
+    1d35630060: 1686026.257
   String#sub!(pattern, replace):
     0d972252b0: 3287720.101
     0deeb1aeb6: 3789045.243
@@ -45550,7 +45554,8 @@ results:
     17e09f033c: 1866903.413
     1adc7aa630: 1823940.522
     1dd2d2ce48: 1856051.595
-    cd9a9bdfc5: 1515919.899
+    cd9a9bdfc5: 1853035.265
+    1d35630060: 1867544.839
   String#sub!(pattern, replace) with string pattern:
     0d972252b0: 3660742.194
     0deeb1aeb6: 3543496.969
@@ -54660,7 +54665,8 @@ results:
     17e09f033c: 2532833.774
     1adc7aa630: 2666157.878
     1dd2d2ce48: 2500598.84
-    cd9a9bdfc5: 2670920.578
+    cd9a9bdfc5: 2669510.236
+    1d35630060: 2667624.452
   String#sub!(pattern, replace) replacing with global variable:
     0d972252b0: 1968794.345
     0deeb1aeb6: 2020022.475
@@ -63770,7 +63776,8 @@ results:
     17e09f033c: 1352291.02
     1adc7aa630: 1300782.921
     1dd2d2ce48: 1149791.396
-    cd9a9bdfc5: 1358782.923
+    cd9a9bdfc5: 1361887.815
+    1d35630060: 1357693.788
   String#sub!(pattern) { |matched| ...}:
     0d972252b0: 2927073.354
     0deeb1aeb6: 3046674.554
@@ -72880,4 +72887,5 @@ results:
     17e09f033c: 1807389.33
     1adc7aa630: 1709470.135
     1dd2d2ce48: 1821397.237
-    cd9a9bdfc5: 1818733.911
+    cd9a9bdfc5: 1530615.297
+    1d35630060: 1829726.936
