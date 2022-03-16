@@ -15664,7 +15664,7 @@ results:
     ead8d89bd7: 45.074
     83e62d7798 --jit: 90.394
     ead8d89bd7 --jit: 90.087
-    4272395982: 44.404
+    4272395982: 44.675
     06454a9457: 44.932
     4272395982 --jit: 88.668
     06454a9457 --jit: 90.122
@@ -22911,7 +22911,7 @@ results:
     4ffc3fb019 --jit: 89.779
     4c42540da2 --jit: 92.441
     cc8ff8b50d: 43.973
-    5828807626: 44.075
+    5828807626: 43.974
     c1147f7f71: 43.804
     cc8ff8b50d --jit: 89.491
     5828807626 --jit: 89.318
@@ -31353,14 +31353,14 @@ results:
     a86c147579 --yjit: 0.0
     44bfe72892 --yjit: 73.182
     214b6128ae --yjit: 73.367
-    da6a5e3ed1: 41.772
+    da6a5e3ed1: 42.064
     167dd73c6c: 42.093
-    da6a5e3ed1 --mjit: 86.089
+    da6a5e3ed1 --mjit: 86.41
     167dd73c6c --mjit: 90.7
     9ba9dbf168 --mjit: 0.0
     ded7dd9ccc --mjit: 0.0
     fcaa918445 --mjit: 0.0
-    da6a5e3ed1 --yjit: 73.527
+    da6a5e3ed1 --yjit: 73.578
     9ba9dbf168 --yjit: 0.0
     ded7dd9ccc --yjit: 0.0
     fcaa918445 --yjit: 0.0
@@ -33907,12 +33907,12 @@ results:
     2ae64bf6b9 --yjit: 0.0
     637d7288f3 --yjit: 0.0
     6b7eff9086 --yjit: 72.073
-    2ae9da23c5: 42.399
+    2ae9da23c5: 42.304
     6328db3c7e: 42.18
-    2ae9da23c5 --mjit: 87.306
+    2ae9da23c5 --mjit: 86.268
     6328db3c7e --mjit: 86.255
     e1b03b0c2b --mjit: 0.0
-    2ae9da23c5 --yjit: 72.532
+    2ae9da23c5 --yjit: 72.194
     6328db3c7e --yjit: 72.266
     e1b03b0c2b --yjit: 0.0
     ab1fc6efa4: 42.128
@@ -35256,9 +35256,9 @@ results:
     19f331f588 --yjit: 72.792
     832252794e --yjit: 73.342
     4d28009f09 --yjit: 73.291
-    fb928f0ea0: 42.439
-    fb928f0ea0 --mjit: 86.255
-    fb928f0ea0 --yjit: 73.175
+    fb928f0ea0: 42.645
+    fb928f0ea0 --mjit: 86.898
+    fb928f0ea0 --yjit: 73.149
     c757c4e054: 42.192
     c757c4e054 --mjit: 86.795
     c757c4e054 --yjit: 72.896
@@ -35562,3 +35562,9 @@ results:
     819f4f0e65 --mjit: 87.722
     a8703978b8 --yjit: 70.972
     819f4f0e65 --yjit: 71.444
+    59a1a8185f: 42.697
+    f38dcc78c4: 42.9
+    59a1a8185f --mjit: 88.097
+    f38dcc78c4 --mjit: 87.088
+    59a1a8185f --yjit: 71.28
+    f38dcc78c4 --yjit: 71.361
