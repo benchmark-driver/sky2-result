@@ -14401,7 +14401,7 @@ results:
     d785c5b8b2 --jit: 96.276
     bbee6968f8: 44.52
     d4a490f26a: 43.947
-    2756938369: 43.249
+    2756938369: 43.304
     bbee6968f8 --jit: 96.644
     d4a490f26a --jit: 96.718
     2756938369 --jit: 96.524
@@ -15318,7 +15318,7 @@ results:
     2048dfc5d3: 43.001
     2048dfc5d3 --jit: 88.087
     750f807575: 43.763
-    a4fbc7e288: 43.131
+    a4fbc7e288: 43.516
     22e2a6a999: 43.401
     750f807575 --jit: 87.997
     a4fbc7e288 --jit: 88.073
@@ -19119,7 +19119,7 @@ results:
     bd6e1a0f08 --jit: 89.304
     a706c09fa6: 44.372
     54ee22be53: 44.793
-    606e785fa8: 36.205
+    606e785fa8: 44.819
     a706c09fa6 --jit: 88.412
     54ee22be53 --jit: 89.828
     606e785fa8 --jit: 90.319
@@ -29532,10 +29532,10 @@ results:
     954970162c --mjit: 0.0
     adca6f24b1 --yjit: 70.132
     954970162c --yjit: 0.0
-    994b3f1dc6: 41.445
-    994b3f1dc6 --mjit: 86.238
+    994b3f1dc6: 41.775
+    994b3f1dc6 --mjit: 86.137
     5b27c1a15b --mjit: 0.0
-    994b3f1dc6 --yjit: 70.391
+    994b3f1dc6 --yjit: 70.393
     5b27c1a15b --yjit: 0.0
     8013250136: 41.817
     8013250136 --mjit: 85.942
@@ -31189,11 +31189,11 @@ results:
     4d8bce227c --yjit: 0.0
     8760b270ed --yjit: 72.255
     459bbdeb74: 42.655
-    2672502457: 41.632
+    2672502457: 43.491
     459bbdeb74 --mjit: 86.279
-    2672502457 --mjit: 86.88
+    2672502457 --mjit: 88.224
     459bbdeb74 --yjit: 72.81
-    2672502457 --yjit: 72.689
+    2672502457 --yjit: 72.62
     7aabdbe837: 42.998
     7aabdbe837 --mjit: 88.299
     5a34b639fc --mjit: 0.0
@@ -31648,10 +31648,10 @@ results:
     bbaebbf529 --mjit: 0.0
     8e2a2ba0f9 --yjit: 74.667
     bbaebbf529 --yjit: 0.0
-    c8e1ae4db7: 41.651
-    c8e1ae4db7 --mjit: 88.043
+    c8e1ae4db7: 43.074
+    c8e1ae4db7 --mjit: 87.772
     9ba9dbf168 --mjit: 0.0
-    c8e1ae4db7 --yjit: 74.83
+    c8e1ae4db7 --yjit: 74.73
     9ba9dbf168 --yjit: 0.0
     1fd1f7bbfc: 42.359
     1fd1f7bbfc --mjit: 87.5
@@ -31768,3 +31768,7 @@ results:
     ec9a9af375 --mjit: 0.0
     dd765f9e60 --yjit: 0.0
     ec9a9af375 --yjit: 0.0
+    606e785fa8 --mjit: 0.0
+    a4fbc7e288 --mjit: 0.0
+    606e785fa8 --yjit: 0.0
+    a4fbc7e288 --yjit: 0.0
