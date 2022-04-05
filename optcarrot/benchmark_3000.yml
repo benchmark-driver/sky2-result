@@ -10672,7 +10672,7 @@ results:
     b88d1e6b44 --jit: 96.328
     7fed7eb50b --jit: 85.978
     1020f7e3aa --jit: 76.685
-    6bb103f012: 44.162
+    6bb103f012: 44.802
     7aa6fec45f: 44.848
     2f1895fa15: 47.097
     0e93118c44: 33.968
@@ -10783,7 +10783,7 @@ results:
     e271a3d4af: 44.925
     ba1472f43a: 42.253
     5b28f01d77: 11.96
-    bb570ce6d8: 45.173
+    bb570ce6d8: 45.815
     bb4a2351cb: 45.541
     e271a3d4af --jit: 97.008
     bb570ce6d8 --jit: 95.721
@@ -15697,7 +15697,7 @@ results:
     0fbdaaf7c9: 44.478
     4c8c3fb230 --jit: 90.246
     0fbdaaf7c9 --jit: 90.437
-    6875408583: 43.763
+    6875408583: 44.1
     6875408583 --jit: 90.606
     627aafac86: 43.437
     358a357f72: 33.965
@@ -26316,13 +26316,13 @@ results:
     973e508472 --yjit: 69.814
     38e98cbdb7 --yjit: 70.305
     0b999bef29: 43.217
-    daf4a8884b: 42.927
+    daf4a8884b: 43.396
     0b999bef29 --mjit: 86.561
-    daf4a8884b --mjit: 87.188
+    daf4a8884b --mjit: 87.006
     649c87bd86 --mjit: 0.0
     0b999bef29 --yjit: 70.133
     649c87bd86 --yjit: 0.0
-    daf4a8884b --yjit: 70.161
+    daf4a8884b --yjit: 70.753
     65d35502bd: 43.434
     65d35502bd --mjit: 87.322
     416e402cf3 --mjit: 0.0
@@ -31189,11 +31189,11 @@ results:
     4d8bce227c --yjit: 0.0
     8760b270ed --yjit: 72.255
     459bbdeb74: 42.655
-    2672502457: 43.175
+    2672502457: 42.545
     459bbdeb74 --mjit: 86.279
-    2672502457 --mjit: 88.058
+    2672502457 --mjit: 86.812
     459bbdeb74 --yjit: 72.81
-    2672502457 --yjit: 72.655
+    2672502457 --yjit: 72.83
     7aabdbe837: 42.998
     7aabdbe837 --mjit: 88.299
     5a34b639fc --mjit: 0.0
@@ -31648,10 +31648,10 @@ results:
     bbaebbf529 --mjit: 0.0
     8e2a2ba0f9 --yjit: 74.667
     bbaebbf529 --yjit: 0.0
-    c8e1ae4db7: 43.087
-    c8e1ae4db7 --mjit: 88.427
+    c8e1ae4db7: 43.532
+    c8e1ae4db7 --mjit: 88.277
     9ba9dbf168 --mjit: 0.0
-    c8e1ae4db7 --yjit: 74.275
+    c8e1ae4db7 --yjit: 74.299
     9ba9dbf168 --yjit: 0.0
     1fd1f7bbfc: 42.359
     1fd1f7bbfc --mjit: 87.5
@@ -31804,3 +31804,7 @@ results:
     5ec730cda5 --mjit: 0.0
     7a3dd05e21 --yjit: 0.0
     5ec730cda5 --yjit: 0.0
+    6bb103f012 --mjit: 0.0
+    bb570ce6d8 --mjit: 0.0
+    6bb103f012 --yjit: 0.0
+    bb570ce6d8 --yjit: 0.0
