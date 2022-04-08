@@ -17729,7 +17729,7 @@ results:
     f3fe3511da: 42.886
     1d6551a02d: 43.573
     0b4dbe2e6a: 43.561
-    4e40b7ddb0: 34.459
+    4e40b7ddb0: 43.152
     521aea9a76 --jit: 89.099
     0b4dbe2e6a --jit: 90.645
     4e40b7ddb0 --jit: 89.351
@@ -17964,7 +17964,7 @@ results:
     f51ce20c6a --jit: 89.38
     8e6ed5d75b --jit: 89.703
     3d4207f9bb: 43.368
-    4475953378: 42.99
+    4475953378: 42.757
     e02bbe469b: 44.035
     b00522608f: 43.155
     3d4207f9bb --jit: 88.312
@@ -18659,7 +18659,7 @@ results:
     eaeb5bf0bc --jit: 89.722
     63109976be: 43.291
     cd2e6318f6: 43.077
-    6e1507f8a2: 43.612
+    6e1507f8a2: 42.925
     63109976be --jit: 89.195
     cd2e6318f6 --jit: 88.912
     6e1507f8a2 --jit: 89.396
@@ -27574,12 +27574,12 @@ results:
     cb5a3b198e --yjit: 0.0
     c365c5921e: 41.929
     818fc85347: 40.814
-    56a5ae9f52: 41.62
+    56a5ae9f52: 41.67
     c365c5921e --mjit: 87.014
     818fc85347 --mjit: 86.727
-    56a5ae9f52 --mjit: 85.986
+    56a5ae9f52 --mjit: 87.616
     c365c5921e --yjit: 70.831
-    56a5ae9f52 --yjit: 72.151
+    56a5ae9f52 --yjit: 70.472
     818fc85347 --yjit: 61.316
     bc643bbe2e: 41.08
     5f55b03716: 41.114
@@ -31189,11 +31189,11 @@ results:
     4d8bce227c --yjit: 0.0
     8760b270ed --yjit: 72.255
     459bbdeb74: 42.655
-    2672502457: 42.174
+    2672502457: 42.419
     459bbdeb74 --mjit: 86.279
-    2672502457 --mjit: 88.583
+    2672502457 --mjit: 86.876
     459bbdeb74 --yjit: 72.81
-    2672502457 --yjit: 73.02
+    2672502457 --yjit: 73.25
     7aabdbe837: 42.998
     7aabdbe837 --mjit: 88.299
     5a34b639fc --mjit: 0.0
@@ -31648,10 +31648,10 @@ results:
     bbaebbf529 --mjit: 0.0
     8e2a2ba0f9 --yjit: 74.667
     bbaebbf529 --yjit: 0.0
-    c8e1ae4db7: 43.176
-    c8e1ae4db7 --mjit: 87.892
+    c8e1ae4db7: 42.845
+    c8e1ae4db7 --mjit: 88.07
     9ba9dbf168 --mjit: 0.0
-    c8e1ae4db7 --yjit: 73.987
+    c8e1ae4db7 --yjit: 74.293
     9ba9dbf168 --yjit: 0.0
     1fd1f7bbfc: 42.359
     1fd1f7bbfc --mjit: 87.5
@@ -31832,3 +31832,7 @@ results:
     761383166e --mjit: 0.0
     c7c2ad5749 --yjit: 0.0
     761383166e --yjit: 0.0
+    4e40b7ddb0 --mjit: 0.0
+    6e1507f8a2 --mjit: 0.0
+    4e40b7ddb0 --yjit: 0.0
+    6e1507f8a2 --yjit: 0.0
