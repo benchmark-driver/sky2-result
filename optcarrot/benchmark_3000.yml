@@ -9904,7 +9904,7 @@ results:
     93735f8fc0 --jit: 98.218
     fe2b83e225 --jit: 23.568
     b9007b6c54 --jit: 80.396
-    9241211538: 46.087
+    9241211538: 44.265
     4f802828f4: 38.69
     0d6737cb83: 12.529
     d7984d0f54: 38.107
@@ -13227,7 +13227,7 @@ results:
     de4999ef23: 47.367
     d9bf9c572f: 48.841
     d40d95296d: 45.598
-    35d30c6ac5: 45.592
+    35d30c6ac5: 43.911
     31ae931e16 --jit: 96.766
     d40d95296d --jit: 90.517
     35d30c6ac5 --jit: 96.151
@@ -17867,7 +17867,7 @@ results:
     30203a6fd9 --jit: 87.038
     e8ad881336 --jit: 89.577
     4885a61b12 --jit: 90.117
-    b4d9126e43: 42.767
+    b4d9126e43: 43.739
     f927614e55: 43.783
     940a19e4b3: 43.14
     b4d9126e43 --jit: 89.17
@@ -25575,12 +25575,12 @@ results:
     333865e56f --yjit: 73.066
     3bd596efa4 --yjit: 0.0
     0ebbab23ba: 43.681
-    9f87c0cc6d: 36.046
+    9f87c0cc6d: 43.451
     0ebbab23ba --mjit: 87.292
     7156248137 --mjit: 0.0
-    9f87c0cc6d --mjit: 85.37
+    9f87c0cc6d --mjit: 87.074
     33d6e92e0c --mjit: 0.0
-    9f87c0cc6d --yjit: 72.007
+    9f87c0cc6d --yjit: 73.345
     33d6e92e0c --yjit: 0.0
     0ebbab23ba --yjit: 73.377
     40cc8e9231: 43.205
@@ -31189,11 +31189,11 @@ results:
     4d8bce227c --yjit: 0.0
     8760b270ed --yjit: 72.255
     459bbdeb74: 42.655
-    2672502457: 41.247
+    2672502457: 42.435
     459bbdeb74 --mjit: 86.279
-    2672502457 --mjit: 88.66
+    2672502457 --mjit: 85.113
     459bbdeb74 --yjit: 72.81
-    2672502457 --yjit: 72.807
+    2672502457 --yjit: 61.316
     7aabdbe837: 42.998
     7aabdbe837 --mjit: 88.299
     5a34b639fc --mjit: 0.0
@@ -31648,10 +31648,10 @@ results:
     bbaebbf529 --mjit: 0.0
     8e2a2ba0f9 --yjit: 74.667
     bbaebbf529 --yjit: 0.0
-    c8e1ae4db7: 43.097
-    c8e1ae4db7 --mjit: 88.633
+    c8e1ae4db7: 43.426
+    c8e1ae4db7 --mjit: 87.99
     9ba9dbf168 --mjit: 0.0
-    c8e1ae4db7 --yjit: 74.651
+    c8e1ae4db7 --yjit: 74.343
     9ba9dbf168 --yjit: 0.0
     1fd1f7bbfc: 42.359
     1fd1f7bbfc --mjit: 87.5
@@ -31856,3 +31856,7 @@ results:
     ef350b3a56 --mjit: 0.0
     7379a493bd --yjit: 0.0
     ef350b3a56 --yjit: 0.0
+    b4d9126e43 --mjit: 0.0
+    35d30c6ac5 --mjit: 0.0
+    b4d9126e43 --yjit: 0.0
+    35d30c6ac5 --yjit: 0.0
