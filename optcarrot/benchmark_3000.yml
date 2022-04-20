@@ -9124,7 +9124,7 @@ results:
     bc374e5cea --jit: 84.689
     44fba194a5 --jit: 68.624
     bb3d80bbbe --jit: 23.621
-    ff8c92359a: 42.743
+    ff8c92359a: 44.022
     8c5ca318cb: 49.444
     b26d6c70e0: 42.479
     b9031b1043: 12.164
@@ -15093,7 +15093,7 @@ results:
     2e919e4a64 --jit: 96.504
     a35d137a37: 42.624
     a35d137a37 --jit: 96.278
-    9edad0df74: 42.91
+    9edad0df74: 43.56
     9edad0df74 --jit: 94.837
     b1c73f239f: 43.33
     0ee24b4fab: 42.651
@@ -19291,7 +19291,7 @@ results:
     0c3ac87345 --jit: 88.491
     60d20e3537 --jit: 89.054
     82b87a8dc4 --jit: 90.191
-    7732052718: 43.896
+    7732052718: 44.118
     9f94a07e74: 43.682
     5987bcaa2d: 44.106
     7732052718 --jit: 89.275
@@ -27126,13 +27126,13 @@ results:
     d1998d8767 --yjit: 0.0
     22ef4f6445 --yjit: 71.987
     1136985cc0: 40.713
-    eb49aa3119: 40.406
+    eb49aa3119: 40.876
     1136985cc0 --mjit: 86.922
-    eb49aa3119 --mjit: 86.012
+    eb49aa3119 --mjit: 86.625
     9d1475c621 --mjit: 0.0
     1136985cc0 --yjit: 70.394
     9d1475c621 --yjit: 0.0
-    eb49aa3119 --yjit: 71.677
+    eb49aa3119 --yjit: 71.778
     03d97cc966: 40.974
     '0867b638af': 41.118
     b0ad6cb371: 43.248
@@ -31189,11 +31189,11 @@ results:
     4d8bce227c --yjit: 0.0
     8760b270ed --yjit: 72.255
     459bbdeb74: 42.655
-    2672502457: 42.877
+    2672502457: 43.023
     459bbdeb74 --mjit: 86.279
-    2672502457 --mjit: 85.855
+    2672502457 --mjit: 87.815
     459bbdeb74 --yjit: 72.81
-    2672502457 --yjit: 60.05
+    2672502457 --yjit: 72.963
     7aabdbe837: 42.998
     7aabdbe837 --mjit: 88.299
     5a34b639fc --mjit: 0.0
@@ -31648,10 +31648,10 @@ results:
     bbaebbf529 --mjit: 0.0
     8e2a2ba0f9 --yjit: 74.667
     bbaebbf529 --yjit: 0.0
-    c8e1ae4db7: 42.617
-    c8e1ae4db7 --mjit: 87.862
+    c8e1ae4db7: 43.108
+    c8e1ae4db7 --mjit: 88.39
     9ba9dbf168 --mjit: 0.0
-    c8e1ae4db7 --yjit: 74.63
+    c8e1ae4db7 --yjit: 74.451
     9ba9dbf168 --yjit: 0.0
     1fd1f7bbfc: 42.359
     1fd1f7bbfc --mjit: 87.5
@@ -31952,3 +31952,7 @@ results:
     b69c965f47 --mjit: 0.0
     565aeb81e0 --yjit: 0.0
     b69c965f47 --yjit: 0.0
+    9edad0df74 --mjit: 0.0
+    ff8c92359a --mjit: 0.0
+    9edad0df74 --yjit: 0.0
+    ff8c92359a --yjit: 0.0
