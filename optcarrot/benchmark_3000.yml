@@ -16118,7 +16118,7 @@ results:
     25689024cf: 44.117
     25689024cf --jit: 90.739
     6073a8bdc0: 43.808
-    55a79b648c: 44.242
+    55a79b648c: 43.929
     6073a8bdc0 --jit: 90.404
     55a79b648c --jit: 91.431
     eee709595c: 36.446
@@ -16981,7 +16981,7 @@ results:
     cad83fa3c4 --jit: 89.608
     371bb4eadd: 43.941
     371bb4eadd --jit: 89.817
-    e2b2b577b6: 44.29
+    e2b2b577b6: 43.961
     5e7cc0eebe: 43.733
     e2b2b577b6 --jit: 89.765
     5e7cc0eebe --jit: 89.608
@@ -24372,9 +24372,9 @@ results:
     51404eec59 --yjit: 71.016
     d235dd4461 --yjit: 0.0
     c4b1aa19a3 --yjit: 70.693
-    9850176984: 43.014
+    9850176984: 43.226
     9850176984 --jit: 86.148
-    9850176984 --yjit: 70.7
+    9850176984 --yjit: 70.159
     d6cf4c0c99 --yjit: 0.0
     d896746d69: 42.724
     aace9cb162: 43.135
@@ -29948,10 +29948,10 @@ results:
     161a20df28 --mjit: 0.0
     c8b414b334 --yjit: 71.33
     161a20df28 --yjit: 0.0
-    dfe7faa6b6: 42.234
-    dfe7faa6b6 --mjit: 66.559
+    dfe7faa6b6: 42.405
+    dfe7faa6b6 --mjit: 87.067
     1ef360230e --mjit: 0.0
-    dfe7faa6b6 --yjit: 71.8
+    dfe7faa6b6 --yjit: 71.729
     1ef360230e --yjit: 0.0
     fdf0f8d814: 43.023
     fdf0f8d814 --mjit: 84.173
@@ -31189,11 +31189,11 @@ results:
     4d8bce227c --yjit: 0.0
     8760b270ed --yjit: 72.255
     459bbdeb74: 42.655
-    2672502457: 43.235
+    2672502457: 42.622
     459bbdeb74 --mjit: 86.279
-    2672502457 --mjit: 86.785
+    2672502457 --mjit: 88.545
     459bbdeb74 --yjit: 72.81
-    2672502457 --yjit: 72.348
+    2672502457 --yjit: 71.916
     7aabdbe837: 42.998
     7aabdbe837 --mjit: 88.299
     5a34b639fc --mjit: 0.0
@@ -31648,10 +31648,10 @@ results:
     bbaebbf529 --mjit: 0.0
     8e2a2ba0f9 --yjit: 74.667
     bbaebbf529 --yjit: 0.0
-    c8e1ae4db7: 42.237
-    c8e1ae4db7 --mjit: 88.492
+    c8e1ae4db7: 42.71
+    c8e1ae4db7 --mjit: 89.288
     9ba9dbf168 --mjit: 0.0
-    c8e1ae4db7 --yjit: 74.588
+    c8e1ae4db7 --yjit: 74.507
     9ba9dbf168 --yjit: 0.0
     1fd1f7bbfc: 42.359
     1fd1f7bbfc --mjit: 87.5
@@ -32020,3 +32020,7 @@ results:
     a9c5c2d614 --mjit: 0.0
     fb976df81f --yjit: 0.0
     a9c5c2d614 --yjit: 0.0
+    55a79b648c --mjit: 0.0
+    e2b2b577b6 --mjit: 0.0
+    55a79b648c --yjit: 0.0
+    e2b2b577b6 --yjit: 0.0
