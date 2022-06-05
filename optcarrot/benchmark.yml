@@ -30915,9 +30915,9 @@ results:
     ad450c9fe5 --yjit: 71.361
     573d9d3a4a: 43.642
     52b1c76534: 43.713
-    69dc2ea465: 44.262
+    69dc2ea465: 44.592
     573d9d3a4a --mjit: 87.579
-    69dc2ea465 --mjit: 90.797
+    69dc2ea465 --mjit: 88.736
     52b1c76534 --mjit: 87.755
     31854403b3 --mjit: 0.0
     c4556a2022 --mjit: 0.0
@@ -30927,7 +30927,7 @@ results:
     c4556a2022 --yjit: 0.0
     7afb5b8b95 --yjit: 0.0
     52b1c76534 --yjit: 71.998
-    69dc2ea465 --yjit: 71.196
+    69dc2ea465 --yjit: 71.417
     0d4bfbdbe1: 43.185
     15eefd30ad: 43.658
     0d4bfbdbe1 --mjit: 87.57
@@ -32328,15 +32328,15 @@ results:
     d5bc6b2337 --yjit: 0.0
     7bcbee37b5 --yjit: 0.0
     77ee47188e: 42.287
-    243320d22f: 41.878
+    243320d22f: 42.045
     77ee47188e --mjit: 86.074
     5f205073d2 --mjit: 0.0
     3789d58c84 --mjit: 0.0
-    243320d22f --mjit: 86.566
+    243320d22f --mjit: 86.157
     77ee47188e --yjit: 73.116
     5f205073d2 --yjit: 0.0
     3789d58c84 --yjit: 0.0
-    243320d22f --yjit: 72.402
+    243320d22f --yjit: 72.711
     fae0b66431: 41.421
     fae0b66431 --mjit: 87.721
     5516d74ad2 --mjit: 0.0
@@ -32851,12 +32851,12 @@ results:
     a634ef5376 --yjit: 0.0
     250b86bbee --yjit: 0.0
     64d79d333b --yjit: 0.0
-    e3b0c8c106: 41.903
-    e3b0c8c106 --mjit: 86.325
+    e3b0c8c106: 41.939
+    e3b0c8c106 --mjit: 87.13
     22b8ddfd10 --mjit: 0.0
     dfe944bfbe --mjit: 0.0
     99b9145380 --mjit: 0.0
-    e3b0c8c106 --yjit: 72.982
+    e3b0c8c106 --yjit: 73.262
     22b8ddfd10 --yjit: 0.0
     dfe944bfbe --yjit: 0.0
     99b9145380 --yjit: 0.0
@@ -35994,3 +35994,24 @@ results:
     563f0d0a48 --yjit: 46.039
     ae09fffbff --yjit: 44.248
     3bceae0fad --yjit: 44.26
+    5ce0be022f: 42.679
+    503f2292bd: 45.672
+    1b44fcf222: 43.464
+    1d9f2a4504: 42.819
+    907b31d7b9: 44.364
+    1528770794: 42.959
+    98e3fdb444: 45.57
+    5ce0be022f --mjit: 89.576
+    503f2292bd --mjit: 89.614
+    1b44fcf222 --mjit: 88.715
+    1d9f2a4504 --mjit: 87.847
+    907b31d7b9 --mjit: 88.462
+    1528770794 --mjit: 88.111
+    98e3fdb444 --mjit: 89.158
+    5ce0be022f --yjit: 43.133
+    907b31d7b9 --yjit: 45.943
+    1528770794 --yjit: 42.555
+    98e3fdb444 --yjit: 45.78
+    503f2292bd --yjit: 46.284
+    1b44fcf222 --yjit: 43.529
+    1d9f2a4504 --yjit: 43.999
