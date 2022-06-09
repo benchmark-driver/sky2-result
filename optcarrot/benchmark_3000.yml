@@ -18811,7 +18811,7 @@ results:
     dfa67db62b: 44.499
     '09863a4cd8 --jit': 89.55
     dfa67db62b --jit: 89.408
-    a60bf6f9bf: 44.227
+    a60bf6f9bf: 43.553
     a28fff5f73: 44.065
     5ec730cda5: 44.067
     a60bf6f9bf --jit: 90.337
@@ -33295,3 +33295,11 @@ results:
     27eb36596a --yjit: 42.659
     fbebfe1697 --yjit: 43.844
     48002ff187 --yjit: 43.534
+    473ee328c5: 34.453
+    6fa7d010c8: 45.641
+    473ee328c5 --mjit: 89.236
+    6fa7d010c8 --mjit: 89.27
+    a60bf6f9bf --mjit: 0.0
+    473ee328c5 --yjit: 43.056
+    a60bf6f9bf --yjit: 0.0
+    6fa7d010c8 --yjit: 35.782
