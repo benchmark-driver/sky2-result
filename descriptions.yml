@@ -13,8 +13,6 @@ releases:
   3.0.0: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
   3.0.0 --jit: ruby 3.0.0p0 (2020-12-25 revision 95aff21468) +JIT [x86_64-linux]
 commits:
-  e4f891ce8d: ruby 3.1.0dev (2021-06-17T01:13:40Z master e4f891ce8d) [x86_64-linux]
-  e4f891ce8d --jit: ruby 3.1.0dev (2021-06-17T01:13:40Z master e4f891ce8d) +JIT [x86_64-linux]
   95ef545997: ruby 3.1.0dev (2021-06-17T03:28:15Z master 95ef545997) [x86_64-linux]
   95ef545997 --jit: ruby 3.1.0dev (2021-06-17T03:28:15Z master 95ef545997) +JIT [x86_64-linux]
   c639b58823: ruby 3.1.0dev (2021-06-17T14:58:48Z master c639b58823) [x86_64-linux]
@@ -15318,3 +15316,6 @@ commits:
   3124422bc8: ruby 3.2.0dev (2022-07-01T06:53:37Z master 3124422bc8) [x86_64-linux]
   3124422bc8 --jit: ruby 3.2.0dev (2022-07-01T06:53:37Z master 3124422bc8) +MJIT [x86_64-linux]
   3124422bc8 --yjit: ruby 3.2.0dev (2022-07-01T06:53:37Z master 3124422bc8) [x86_64-linux]
+  3cf0018119: ruby 3.2.0dev (2022-07-01T11:55:29Z master 3cf0018119) [x86_64-linux]
+  3cf0018119 --jit: ruby 3.2.0dev (2022-07-01T11:55:29Z master 3cf0018119) +MJIT [x86_64-linux]
+  3cf0018119 --yjit: ruby 3.2.0dev (2022-07-01T11:55:29Z master 3cf0018119) [x86_64-linux]
